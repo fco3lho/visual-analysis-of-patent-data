@@ -4,20 +4,22 @@ import matplotlib.pyplot as plt
 # Cria grafo vazio
 G = nx.Graph()
 
+peopleArray = ["pessoa1", "pessoa2", "pessoa3"]
+patentsArray = ["patent1", "patent2", "patent3"]
+
 # Adiciona vértices
-G.add_node('v1')
-G.add_node('v2')
-G.add_node('v3')
-G.add_node('v4')
-G.add_node('v5')
+for i in peopleArray:
+  G.add_node(i)
+for i in patentsArray:
+  G.add_node(i)
 
 # Adiciona arestas
-G.add_edge('v1', 'v2')
-G.add_edge('v2', 'v3')
-G.add_edge('v3', 'v4')
-G.add_edge('v4', 'v5')
-G.add_edge('v5', 'v1')
-G.add_edge('v2', 'v4')
+G.add_edge('pessoa1', 'patent1')
+G.add_edge('pessoa2', 'patent1')
+G.add_edge('pessoa3', 'patent2')
+G.add_edge('pessoa1', 'patent2')
+G.add_edge('pessoa1', 'patent3')
+G.add_edge('pessoa3', 'patent3')
 
 # Lista os vértices
 print('Lista de vértices')
@@ -47,29 +49,30 @@ print(G.degree())
 input()
 
 # Acessa o grau do vértice v2
-print("O grau do vértice v2 é %d" %G.degree()['v2'])
+print("O grau do vértice pessoa2 é %d" %G.degree()['pessoa2'])
 
 # Grafo como lista de adjacências
 print("Grafo como lista de adjacências")
-print(G['v1'])
-print(G['v2'])
-print(G['v3'])
-print(G['v4'])
-print(G['v5'])
+print(G['pessoa1'])
+print(G['pessoa2'])
+print(G['pessoa3'])
+print(G['patent1'])
+print(G['patent2'])
+print(G['patent3'])
 input()
 
-# OBtém a matriz de adjacências do grafo G
+# Obtém a matriz de adjacências do grafo G
 print("Matriz de adjacências de G")
 A = nx.adjacency_matrix(G) # Retorna uma matriz esparsa para economizar memória
 print(A.todense()) # Converte para matriz densa (padrão)
 
 # Adiciona um campo peso em cada aresta do grafo
-G['v1']['v2']['peso'] = 5
-G['v2']['v3']['peso'] = 10
-G['v3']['v4']['peso'] = 2
-G['v4']['v5']['peso'] = 7
-G['v5']['v1']['peso'] = 4
-G['v2']['v4']['peso'] = 8
+G['pessoa1']['patent1']['peso'] = 5
+G['pessoa2']['patent1']['peso'] = 10
+G['pessoa3']['patent2']['peso'] = 2
+G['pessoa1']['patent2']['peso'] = 7
+G['pessoa1']['patent3']['peso'] = 4
+G['pessoa3']['patent3']['peso'] = 8
 
 # Lista de cada aresta e seus respectivos pesos
 print("Adicionando pesos nas arestas")
