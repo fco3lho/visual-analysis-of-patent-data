@@ -21,6 +21,10 @@ G.add_edge('pessoa1', 'patent2')
 G.add_edge('pessoa1', 'patent3')
 G.add_edge('pessoa3', 'patent3')
 
+# Dicionário para adicionar cores aos nós
+colors = {node: 'red' for node in peopleArray}
+colors.update({node: 'blue' for node in patentsArray})
+
 # Lista os vértices
 print('Lista de vértices')
 print(G.nodes())
@@ -85,6 +89,7 @@ print()
 
 # Plotando o grafo como imagem
 print("Plotando o grafo como imagem...")
+
 plt.figure(1)
-nx.draw_networkx(G, pos=nx.spring_layout(G), with_labels=True)
+nx.draw(G, nx.spring_layout(G), with_labels=True, node_color=[colors[node] for node in G.nodes()], cmap=plt.cm.rainbow)
 plt.show()
