@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:26" record="32700" source="Espacenet">
+	<entities>
+		<entity ref="Patent32700" type="Patent">
+			<semanticIdentifier>brcris::cdd24a15375102bd6a44950a23dc09c0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014008940A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014008940</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014008940A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141008940</semanticIdentifier>
+			<semanticIdentifier>original::102014008940</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014008940"/>
+			<field name="identifier.lattes" value="8625093123382787"/>
+			<field name="identifier.espacenet" value="102014008940"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="uso de óleo essenciall de erva-doce (foeniculum vulgare) como inibidor do escurecimento para óleos e gorduras vegetais"/>
+			<field name="title.lattes" value="Uso de óleo essencial de erva-doce (Foeniculum vulgare) como inibidor do escurecimento para óleos e gorduras vegetais"/>
+			<field name="depositDate" value="2014-04-14"/>
+			<field name="publicationDate" value="2015-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANO DIETRICH FERREIRA"/>
+			<field name="inventor" value="GABRIELA HORNKE ALVES"/>
+			<field name="inventor" value="MAURICIO DE OLIVEIRA"/>
+			<field name="inventor" value="MOACIR CARDOSO ELIAS"/>
+			<field name="inventor" value="RICARDO TADEU PARAGINSKI"/>
+			<field name="inventor" value="ROGERIO ANTONIO FREITAG"/>
+			<field name="inventor" value="SUSLIN RAATZ THIEL"/>
+			<field name="inventor" value="TAIANE MOTA CAMARGO"/>
+			<field name="inventor" value="VALMOR ZIEGLER"/>
+			<field name="inventor" value="VICTORIA DE MORAES GONCALVES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23D7/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C11B9/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C11C1/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo patente de invenção: uso de óleo essencial de erva-doce (foeniculum vulgare) como inibidor do escurecimento para óleos e gorduras vegetais . os óleos essenciais de algumas espécies vegetais como erva-doce, possuem compostos com capacidade de inibição degradativa de diversas substâncias que conferem cor. por isso a presente invenção trata da aplicação do óleo essencial de erva-doce como inibidor de escurecimento em óleos e gorduras vegetais, durante o armazenamento e conservação, bem como no processamento, aquecimento e utilização alimentar, visando a redução dos processos degradativos que comprometem a utilização e aplicação destas matérias-primas."/>
+			<field name="originatesFrom" value="54837646"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014008940"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014008940"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014008940"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141008940"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014008940"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22492" type="Person">
+			<semanticIdentifier>lattes::8625093123382787</semanticIdentifier>
+			<field name="identifier.lattes" value="8625093123382787"/>
+			<field name="name" value="Maurício de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit17596" type="OrgUnit">
+			<semanticIdentifier>brcris::5aa56af182c84d54a22c21eb8549aed1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32700" toEntityRef="Person22492" type="Inventor"/>
+		<relation fromEntityRef="Patent32700" toEntityRef="OrgUnit17596" type="Applicant"/>
+	</relations>
+</entity-relation-data>

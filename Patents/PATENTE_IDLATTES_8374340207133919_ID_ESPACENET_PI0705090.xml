@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:23" record="45853" source="Espacenet">
+	<entities>
+		<entity ref="Patent45853" type="Patent">
+			<semanticIdentifier>brcris::61652e22f0c29f4d801a1883165c888f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705090A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705090</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705090A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05090</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705090-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705090"/>
+			<field name="identifier.lattes" value="8374340207133919"/>
+			<field name="identifier.espacenet" value="PI0705090"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para proteção contra adulteração de páginas web"/>
+			<field name="title.lattes" value="MÉTODO PARA PROTEÇÃO CONTRA ADULTERAÇÃO DE PÁGINAS WEB"/>
+			<field name="depositDate" value="2007-10-04"/>
+			<field name="publicationDate" value="2009-05-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CESAR ALISON MONTEIRO PAIXAO"/>
+			<field name="inventor" value="LEON ACHJIAN JR"/>
+			<field name="inventor" value="WILSON VICENTE RUGGIERO"/>
+			<field name="applicant" value="SCOPUS TECNOLOGIA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F21/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L9/32AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA PROTEçãO CONTRA ADULTERAçãO DE PáGINAS WEB. é proposto um método para verificação da integridade e da autenticidade de uma página recebida pelo navegador-cliente (10) provido em uma estação-terminal (E) de um usuário-cliente. O método compreende a utilização de dois módulos-programas: - módulo-programa de assinatura (22) : aplicação executada do lado do servidor WEE (21) provido em uma instituição (1) e que intercepta as páginas a serem enviadas para o usuário-cliente e caso esteja configurada como página a ser assinada, realiza a assinatura de um código identificador e inclui no final desse último um tag, cujo conteúdo é a assinatura. - módulo-programa de verificação (12) : aplicação executada no ambiente do usuário-cliente que monitora as páginas sendo acessadas pelo navegador-cliente (10) . Ao encontrar uma página que deva ser validada, verifica a presença do tag de assinatura e valida se a assinatura está correta (se ela foi mesmo realizada pelo servidor correto esse o código identificador (HTML) não foi modificado)"/>
+			<field name="originatesFrom" value="40524320"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705090"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705090"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705090"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05090"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705090-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2009094456"/>
+		</entity>
+		<entity ref="Person31378" type="Person">
+			<semanticIdentifier>lattes::8374340207133919</semanticIdentifier>
+			<field name="identifier.lattes" value="8374340207133919"/>
+			<field name="name" value="Wilson Vicente Ruggiero"/>
+		</entity>
+		<entity ref="Patent45854" type="Patent">
+			<semanticIdentifier>epodoc::US2009094456</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="40524320"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2009094456"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45853" toEntityRef="Person31378" type="Inventor"/>
+	</relations>
+</entity-relation-data>

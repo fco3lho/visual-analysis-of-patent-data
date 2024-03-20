@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:14" record="1288" source="Espacenet">
+	<entities>
+		<entity ref="Patent1288" type="Patent">
+			<semanticIdentifier>brcris::ef795d4110ed81fcc4b238a8b2f81719</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014028548A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014028548</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014028548A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141028548</semanticIdentifier>
+			<semanticIdentifier>original::102014028548</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014028548"/>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="identifier.espacenet" value="102014028548"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="diagnóstico de curto-circuito no enrolamento de estator em máquinas elétricas utilizando um sensor de corrente"/>
+			<field name="title.lattes" value="DIAGNÓSTICO DE CURTO-CIRCUITO NO ENROLAMENTO DE ESTATOR EM MÁQUINAS ELÉTRICAS UTILIZANDO UM SENSOR DE CORRENTE"/>
+			<field name="depositDate" value="2014-11-17"/>
+			<field name="publicationDate" value="2016-05-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO GOEDTEL"/>
+			<field name="inventor" value="PAULO BRONIETRA JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/34AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo &quot;diagnóstico de curto-circuito no enrola ento de estator em máquinas elétricas utilizando um sensor e corrente&quot; este pedido descreve um equipamento utilizado para"/>
+			<field name="originatesFrom" value="56012849"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014028548"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014028548"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014028548"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141028548"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014028548"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person959" type="Person">
+			<semanticIdentifier>lattes::1920650157123774</semanticIdentifier>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="name" value="Alessandro Goedtel"/>
+		</entity>
+		<entity ref="OrgUnit757" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1288" toEntityRef="Person959" type="Inventor"/>
+		<relation fromEntityRef="Patent1288" toEntityRef="OrgUnit757" type="Applicant"/>
+	</relations>
+</entity-relation-data>

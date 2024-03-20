@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:51" record="40329" source="Espacenet">
+	<entities>
+		<entity ref="Patent40329" type="Patent">
+			<semanticIdentifier>brcris::d42f058013da3591b670dc82d7a0bf38</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0004989A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0004989</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0004989A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000004989</semanticIdentifier>
+			<semanticIdentifier>original::0004989-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0004989"/>
+			<field name="identifier.lattes" value="9429235104207695"/>
+			<field name="identifier.espacenet" value="0004989"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Reator eletroquìmico para processo eletroquìmico e fotoeletroquimico"/>
+			<field name="title.lattes" value="Reator Eletrolítico para Processos Eletroquímico e Fotoeletroquímico"/>
+			<field name="depositDate" value="2000-10-17"/>
+			<field name="publicationDate" value="2002-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RODNEI BERTAZOLLI"/>
+			<field name="inventor" value="RONALDO TEIXEIRA PELEGRINI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/46AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;REATOR ELETROQUìMICO PARA PROCESSOS ELETROQUìMICO E FOTOELETROQUìMICO&quot;. Este trabalho refere-se ao desenvolvimento de um reator eletrolítico para permitir o emprego do processo fotoeletroquímico. A técnica caracteriza-se pelo uso simultâneo dos processos eletroquímico e fotocatalítico através da imposição de uma corrente elétrica e irradiação luminosa. O reator conta com um sistema de recirculação operando com dois conjuntos de capacidade de 10 litros cada, sendo um compartimento para processar reações químicas e um outro usado como reservatório. O sistema conta também com um conjunto de anodo catodo dispostos em forma cilíndrica um dentro do outro, sendo o anodo tipo DAS&lt;32&gt; em que se encontram semicondutores imobilizados e o catodo em tela metálica para permitir a passagem da radiação luminosa e promover a excitação dos semicondutores imobilizados nos anodos. No centro do catodo encontra-se um tubo de quartzo e dentro deste uma lâmpada com capacidade para irradiação UV. O reator permitiu o uso dos processos eletroquímico e fotoeletroquímico garantindo o tratamento de efluente da indústria de papel e celulose ( E1 ), assegurado através das reduções da coloração, do teor de Carbono Orgânico Total, da concentração de fenóis totais, da Demanda Química de Oxigênio ( DQO ), da concentração de compostos organoclorados e da toxidade em um tempo máximo de 240 min de tratamento."/>
+			<field name="originatesFrom" value="3945595"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0004989"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0004989"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0004989"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000004989"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0004989-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27490" type="Person">
+			<semanticIdentifier>lattes::9429235104207695</semanticIdentifier>
+			<field name="identifier.lattes" value="9429235104207695"/>
+			<field name="name" value="Ronaldo Teixeira Pelegrini"/>
+		</entity>
+		<entity ref="OrgUnit21486" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40329" toEntityRef="Person27490" type="Inventor"/>
+		<relation fromEntityRef="Patent40329" toEntityRef="OrgUnit21486" type="Applicant"/>
+	</relations>
+</entity-relation-data>

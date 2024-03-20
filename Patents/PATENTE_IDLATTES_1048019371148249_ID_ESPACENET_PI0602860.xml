@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:48" record="41837" source="Espacenet">
+	<entities>
+		<entity ref="Patent41837" type="Patent">
+			<semanticIdentifier>brcris::2046247b9151bde26ce6f4adb3be1eb5</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602860A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602860</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602860A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02860</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602860-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602860"/>
+			<field name="identifier.lattes" value="1048019371148249"/>
+			<field name="identifier.espacenet" value="PI0602860"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="transdutor de impedáncia para localização de faltas em sistema de energia e método de localização de pontos de defeitos em sistema de energia"/>
+			<field name="title.lattes" value="TRANSDUTOR DE IMPEDÂNCIA PARA LOCALIZAÇÃO DE FALTAS EM SISTEMAS DE ENERGIA E MÉTODO DE LOCALIZAÇÃO DE PONTOS DE DEFEITOS EM SISTEMAS DE ENERGIA"/>
+			<field name="depositDate" value="2006-07-13"/>
+			<field name="publicationDate" value="2008-02-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELISETE TERNES PEREIRA"/>
+			<field name="inventor" value="SERGIO HENRIQUE LOPES CABRAL"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE REGIONAL DE BLUMENAU"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R15/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="TRANSDUTOR DE IMPEDáNCIA PARA LOCALIZAçãO DE FALTAS EM SISTEMA DE ENERGIA E MéTODO DE LOCALIZAçãO DE PONTOS DE DEFEITOS EM SISTEMA DE ENERGIA A invenção refere-se a um equipamento elétrico empregado em sistemas de distribuição e de transmissão de energia elétrica destinado a localização precisa de pontos de defeitos, através do seu acoplamento aos sistemas de processamento de sinais. A invenção também refere-se a um método de localização de pontos de defeitos através da avaliação das variações mínimas de impedância instantânea decorrentes das faltas em sistemas de energia elétrica. A bobina de Rogowski (1) é composta por um condutor elétrico recoberto (11) que recebe uma primeira camada de resina (12), envolvida por uma camada de metal condutor (13) que forma o enrolamento da bobina, uma segunda camada de resina (14), uma terceira camada de resina entre duas lâminas de metal condutor (15) e uma camada externa de resina (16). O transdutor (2) recebe energia da rede urbana (3) em alta voltagem, por exemplo, 25 kV. A corrente (4) é medida diretamente do condutor em alta tensão, sem a necessidade de instalação de transformadores, através da bobina de Rogowski (1). A tensão (5) é medida por um divisor capacitivo (6), que usa o corpo da bobina (1) como uma das placas capacitivas e o cabo coaxial (7) como secundário, atuando assim como elemento diferenciador. Da bobina (1) sai o sinal diferencial de corrente elétrica (8), enquanto que do divisor capacitivo (6) sai o sinal diferencial de tensão (9). Esses sinais diferenciais (8 e 9) são transmitidos via cabos coaxiais (7) para um equipamento de processamento computacional (10) adequado."/>
+			<field name="originatesFrom" value="39124826"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602860"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602860"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602860"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02860"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602860-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28499" type="Person">
+			<semanticIdentifier>lattes::1048019371148249</semanticIdentifier>
+			<field name="identifier.lattes" value="1048019371148249"/>
+			<field name="name" value="Sérgio Henrique Lopes Cabral"/>
+		</entity>
+		<entity ref="OrgUnit22304" type="OrgUnit">
+			<semanticIdentifier>brcris::0bfe6c08560308d20b34b7863a6109e8</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE REGIONAL DE BLUMENAU"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41837" toEntityRef="Person28499" type="Inventor"/>
+		<relation fromEntityRef="Patent41837" toEntityRef="OrgUnit22304" type="Applicant"/>
+	</relations>
+</entity-relation-data>

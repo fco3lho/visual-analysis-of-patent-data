@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:40" record="34361" source="Espacenet">
+	<entities>
+		<entity ref="Patent34361" type="Patent">
+			<semanticIdentifier>brcris::90b4cc1233ab58208ae5deb16af55a65</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704810A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0704810</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704810A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI04810</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0704810-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0704810"/>
+			<field name="identifier.lattes" value="2414704858566970"/>
+			<field name="identifier.espacenet" value="PI0704810"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="filme ativo para reduzir o teor de lactose do leite"/>
+			<field name="title.lattes" value="FILME ATIVO PARA REDUZIR TEOR DE LACTOSE DO LEITE - PI 0704810-6"/>
+			<field name="depositDate" value="2007-06-29"/>
+			<field name="publicationDate" value="2009-02-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE FONTES PEREIRA"/>
+			<field name="inventor" value="FLAVIA CRISTINA COSTA ASSIS"/>
+			<field name="inventor" value="LUCIANA RODRIGUES DA CUNHA"/>
+			<field name="inventor" value="NATHALIA RAMOS DE MELO"/>
+			<field name="inventor" value="NILDA DE FATIMA FERREIRA SOARES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23C9/13AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="13AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Filme ativo para reduzir o teor de lactose do leite. O leite é um complemento dietético de alto valor nutritivo. Porém, a inclusão do leite e derivados na dieta humana, pode ser prejudicial a certos individuos. O leite com baixo teor de lactose pode ser preparado por meio de sua remoçâo física ou hidrólise enzimática, pela liberação dos seus correspondentes monossacarídeos, glicose e galactose. Esse último método é preferido, por não modificar a concentração nem a qualidade dos outros componentes do leite. A produção do filme consiste na adição da enzima lactase ao gel formador do filme (acetato de celulose ou qualquer outro material polimérico dissolvido em acetona ou qualquer outro solvente compatível com a resina), homogeneização e secagem. O filme poderá ser utilizado como produto final ou como revestimento interno de embafagens cartonadas, barriga mole ou qualquer outro tipo de embalagem para uso em alimentos. Este será aderido a camada interna das embalagens no momento de sua produção na forma de gel ou por meio de um processo de laminação, do filme previamente formado, seja por adesivo via seca ou úmida, extrusão ou qualquer outro processo que permita a adesão do filme ativo na superfície da embalagem de interesse."/>
+			<field name="originatesFrom" value="40599778"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704810"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0704810"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704810"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI04810"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0704810-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23641" type="Person">
+			<semanticIdentifier>lattes::2414704858566970</semanticIdentifier>
+			<field name="identifier.lattes" value="2414704858566970"/>
+			<field name="name" value="Nilda de Fatima Ferreira Soares"/>
+		</entity>
+		<entity ref="OrgUnit18538" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34361" toEntityRef="Person23641" type="Inventor"/>
+		<relation fromEntityRef="Patent34361" toEntityRef="OrgUnit18538" type="Applicant"/>
+	</relations>
+</entity-relation-data>

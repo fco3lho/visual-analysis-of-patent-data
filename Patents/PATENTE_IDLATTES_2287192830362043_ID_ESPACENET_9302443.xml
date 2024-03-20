@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:02" record="1725" source="Espacenet">
+	<entities>
+		<entity ref="Patent1725" type="Patent">
+			<semanticIdentifier>brcris::95047422609ef53a3f03478ce24278e6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9302443A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9302443</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9302443A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939302443</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9302443"/>
+			<field name="identifier.lattes" value="2287192830362043"/>
+			<field name="identifier.espacenet" value="9302443"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo e equipamento de secagem em leito vibro-fluidizado"/>
+			<field name="title.lattes" value="PROCESSO E EQUIPAMENTO DE SECAGEM EM LEITO VIBRO-FLUIDIZADO"/>
+			<field name="depositDate" value="1993-06-23"/>
+			<field name="publicationDate" value="1995-01-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE WITIER MAZZONETTO"/>
+			<field name="inventor" value="OSVALDO ALEJANDRO ESPINOLA BUSTAMANTE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F26B5/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="26"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F26B17/26AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="26"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="originatesFrom" value="4056705"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9302443"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9302443"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9302443"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939302443"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1294" type="Person">
+			<semanticIdentifier>lattes::2287192830362043</semanticIdentifier>
+			<field name="identifier.lattes" value="2287192830362043"/>
+			<field name="name" value="Alexandre Witier Mazzonetto"/>
+		</entity>
+		<entity ref="OrgUnit961" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1725" toEntityRef="Person1294" type="Inventor"/>
+		<relation fromEntityRef="Patent1725" toEntityRef="OrgUnit961" type="Applicant"/>
+	</relations>
+</entity-relation-data>

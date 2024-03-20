@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:45" record="6741" source="Espacenet">
+	<entities>
+		<entity ref="Patent6741" type="Patent">
+			<semanticIdentifier>brcris::2ea4559bd7a1094161fdfef6e0a7dd7f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033561A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012033561</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033561A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121033561</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 033561-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012033561"/>
+			<field name="identifier.lattes" value="8272870839920067"/>
+			<field name="identifier.espacenet" value="102012033561"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="ANTICORPO MONOCLONAL, PROCESSO DE OBTENÇÃO E USO NO DIAGNÓSTICO E TRATAMENTO DO LOXOSCELISMO"/>
+			<field name="title.lattes" value="Anticorpo monoclonal, processo de obtenção e uso no diagnóstico e tratamento do loxoscelismo"/>
+			<field name="depositDate" value="2012-12-28"/>
+			<field name="publicationDate" value="2014-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMILA DIAS LOPES"/>
+			<field name="inventor" value="CARLOS DELFIN CHAVEZ OLORTEGUI"/>
+			<field name="inventor" value="CLARA GUERRA DUARTE"/>
+			<field name="inventor" value="CLAUDE GRANIER"/>
+			<field name="inventor" value="FRANK MOLINA"/>
+			<field name="inventor" value="GABRIELA GUIMARAES MACHADO"/>
+			<field name="inventor" value="LIZA FIGUEIREDO FELICORI VILELA"/>
+			<field name="inventor" value="RICARDO MACHADO DE AVILA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K16/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ANTICORPO MONOCLONAL, PROCESSO DE OBTENÇÃO E USO NO DIAGNÓSTICO E TRATAMENTO DO LOXOSCELISMO A presente tecnologia descreve um anticorpo monoclonal capaz de reconhecer os venenos das três espécies de aranha Loxosceles de maior importância médica no Brasil. Ainda, a tecnologia envolve o processo de obtenção desse anticorpo e seu uso no diagnóstico e tratamento do loxoscelismo. Mias particularmente, esse anticorpo (LiD1mAb16) foi capaz de reconhecer uma grande variedade de proteínas (pelo menos 25) em cada veneno das espécies de Loxosceles L. intermedia, L. laeta e L. gaucho. Experimentos de mapeamento de peptídeos revelaram que ele reconhece um epitopo linear altamente conservado (^ 46^TYHGIP^ 51^) localizado na região catalítica das toxinas SMases D. LiDmAb16 apresentou uma atividade protetora em coelhos desafiados com rLiD1, demonstrando sua potencial aplicação no tratamento de acidentes com aranhas Loxosceles."/>
+			<field name="originatesFrom" value="51453027"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033561"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012033561"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033561"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121033561"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 033561-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4508" type="Person">
+			<semanticIdentifier>lattes::8272870839920067</semanticIdentifier>
+			<field name="identifier.lattes" value="8272870839920067"/>
+			<field name="name" value="Camila Dias Lopes"/>
+		</entity>
+		<entity ref="OrgUnit3555" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6741" toEntityRef="Person4508" type="Inventor"/>
+		<relation fromEntityRef="Patent6741" toEntityRef="OrgUnit3555" type="Applicant"/>
+	</relations>
+</entity-relation-data>

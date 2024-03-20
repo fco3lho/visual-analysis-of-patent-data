@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:58" record="22733" source="Espacenet">
+	<entities>
+		<entity ref="Patent22733" type="Patent">
+			<semanticIdentifier>brcris::bf8d6cee19d9c3e3073740ff8ed48093</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012024760A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012024760</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012024760A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121024760</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 024760-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012024760"/>
+			<field name="identifier.lattes" value="4651245569377910"/>
+			<field name="identifier.espacenet" value="102012024760"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="COMPÓSITO DE CINZA DE CARVÃO FÓSSIL E CAL HIDRATADA PARA USO COMO SUCEDÂNEO DE CONCRETO COMPACTADO COM ROLO"/>
+			<field name="title.lattes" value="COMPÓSITO DE CINZA DE CARVÃO E CAL HIDRATADA PARA USO COMO SUCEDÂNEO DE CONCRETO COMPACTADO COM ROLO"/>
+			<field name="depositDate" value="2012-09-28"/>
+			<field name="publicationDate" value="2014-10-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE EDUARDO CORREA MALLMANN"/>
+			<field name="inventor" value="OLEG ZWONOK"/>
+			<field name="applicant" value="FUNDACAO DE CIENCIA E TECNOLOGIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B22/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="22"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPÓSITO DE CINZA DE CARVÃO FÓSSIL E CAL HIDRATADA PARA USO COMO SUCEDÂNEO DE CONCRETO COMPACTADO COM ROLO. A invenção refere-se a um compósito para sucedâneo de concreto compacto com rolo, destinado a aplicação como camada de base ou de subbase de vias urbanas e rodovias, bem como para construção de barragens, que substitui o cimento Portland. Quando aplicado como camada de rolamento o compósito da invenção substitui parcialmente o cimento Portland. O compósito compreende as seguintes misturas: - [cinza volante (CV) + cal hidratada] é a matriz de ligação que substitui o cimento Portland; - cinza de fundo (CF) substitui a areia ou qualquer agregado muído; - rejeito de rocha (RJ) são materiais provenientes da mineiração que substitui a rocha britada da mineração. O compósito para aplicação como camada de base e subbase apresenta a seguinte proporção dos materiais, em massa: - (cinza volante + cal hidratada) = é a matriz ligante que varia entre 90 kg/m^ 3^ a 160 kg/m^ 3 - agregado muído (cinza de fundo) = 5 a 20 % - agregado graúdo (rejeito de rocha) = 80 a 95%. Alternativamente, o compósito para aplicação como camada de vase e subbase pode compreender uma das seguintes misturas: - (cinza volante + cal hidratada) + cinza de fundo + brita graduada - (cinza volante + cal hidratada) + areia + rejeito de rocha - (cinza volante + cal hidratada) + areia + brita graduada. O compósito para aplicação como camada de rolamento (revestimento) apresenta a seguinte proporção, em massa: - (CV + cal hidratada + cimento Portland) = é a matriz ligante onde 10 a 20% de cimento está relacionado com o consumo de (Cinza + cal hidratada), que corresponde a 200 kg/m^ 3^ a 300 kg/m^ 3^ - agregado muído (cinza de fundo e/ou areia) = 5 a 20% - agregado graúdo (rejeito de rocha e/ou brita graduada) = 80 a 95%"/>
+			<field name="originatesFrom" value="51660181"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012024760"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012024760"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012024760"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121024760"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 024760-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15706" type="Person">
+			<semanticIdentifier>lattes::4651245569377910</semanticIdentifier>
+			<field name="identifier.lattes" value="4651245569377910"/>
+			<field name="name" value="José Eduardo Corrêa Mallmann"/>
+		</entity>
+		<entity ref="OrgUnit12209" type="OrgUnit">
+			<semanticIdentifier>brcris::15ab2119d04f2c8af3c5d2995943e111</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE CIENCIA E TECNOLOGIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22733" toEntityRef="Person15706" type="Inventor"/>
+		<relation fromEntityRef="Patent22733" toEntityRef="OrgUnit12209" type="Applicant"/>
+	</relations>
+</entity-relation-data>

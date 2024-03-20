@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:50:39" record="26608" source="Espacenet">
+	<entities>
+		<entity ref="Patent26608" type="Patent">
+			<semanticIdentifier>brcris::82e302eb01a5c05ab7480201791af10b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012031529A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012031529</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012031529A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121031529</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 031529-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012031529"/>
+			<field name="identifier.lattes" value="9677434666853011"/>
+			<field name="identifier.espacenet" value="102012031529"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO PARA ATIVAÇÃO DE CO2 NA ETAPA DE REGENERAÇÃO DE CATALISADORES DE FCC DESATIVADOS"/>
+			<field name="title.lattes" value="PROCESSO PARA ATIVAÇÃO DE CO2 NA ETAPA DE REGENERAÇÃO DE CATALISADORES DE FCC DESATIVADOS"/>
+			<field name="depositDate" value="2012-12-11"/>
+			<field name="publicationDate" value="2014-09-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIANA MAIA SANTOS"/>
+			<field name="inventor" value="LAM YIU LAU"/>
+			<field name="inventor" value="LEONARDO FIALHO DE MELLO"/>
+			<field name="inventor" value="LUCIANA TAVARES DOS SANTOS"/>
+			<field name="inventor" value="MARCELO MACIEL PEREIRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J23/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J37/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B01J37/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA ATIVAÇÃO DE CO2 NA ETAPA DE REGENERAÇÃO DE CATALISADORES DE FCC DESATIVADOS. A presente invenção se refere a um processo que emprega um aditivo mais eficiente do que os encontrados no estado da técnica, para ativação de CO~ 2~ na etapa de regeneração de catalisadores de FFC gastos, sendo dito aditivo obtido a partir de um catalisador, que compreende um suporte de alumina, caulim, sílica ligante e aluminossilicato, por meio de modificação com metais de modificação com metais dos grupos I e II da tabela periódica dos elementos químicos como Li, Na, K, Cs, Mg, e Ca."/>
+			<field name="originatesFrom" value="51483760"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012031529"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012031529"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012031529"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121031529"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 031529-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18418" type="Person">
+			<semanticIdentifier>lattes::9677434666853011</semanticIdentifier>
+			<field name="identifier.lattes" value="9677434666853011"/>
+			<field name="name" value="Luciana Tavares dos Santos de Almeida"/>
+		</entity>
+		<entity ref="OrgUnit14413" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit14414" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26608" toEntityRef="Person18418" type="Inventor"/>
+		<relation fromEntityRef="Patent26608" toEntityRef="OrgUnit14413" type="Applicant"/>
+		<relation fromEntityRef="Patent26608" toEntityRef="OrgUnit14414" type="Applicant"/>
+	</relations>
+</entity-relation-data>

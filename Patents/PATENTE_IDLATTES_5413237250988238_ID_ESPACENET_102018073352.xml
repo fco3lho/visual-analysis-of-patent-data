@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:12" record="12576" source="Espacenet">
+	<entities>
+		<entity ref="Patent12576" type="Patent">
+			<semanticIdentifier>brcris::8d26be08f1764a04945abb24f53a3e1a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018073352A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018073352</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018073352A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181073352</semanticIdentifier>
+			<semanticIdentifier>original::102018073352</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018073352"/>
+			<field name="identifier.lattes" value="5413237250988238"/>
+			<field name="identifier.espacenet" value="102018073352"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compostos híbridos de chalconas e dihidropirimidinonas, composição compreendendo os compostos, processo de produção e uso dos mesmos"/>
+			<field name="title.lattes" value="Compostos híbridos de chalconas e dihidropirimidinonas, composição compreendendo os compostos, processo de produção e uso dos mesmos"/>
+			<field name="depositDate" value="2018-11-13"/>
+			<field name="publicationDate" value="2020-06-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DENNIS RUSSOWSKY"/>
+			<field name="inventor" value="EDUARDO BUSTOS MASS"/>
+			<field name="inventor" value="MARCELO GONCALVES MONTES D'OCA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO RIO GRANDE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D249/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="249"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K31/506AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="506AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve novos compostos híbridos contendo chalconas e dihidropirimidinonas conectados por um anel 1,2,3-triazol, o processo de síntese dos mesmos e o seu uso no tratamento de câncer. a presente invenção se situa nos campos da bioquímica e medicina."/>
+			<field name="originatesFrom" value="70977045"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018073352"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018073352"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018073352"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181073352"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018073352"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8624" type="Person">
+			<semanticIdentifier>lattes::5413237250988238</semanticIdentifier>
+			<field name="identifier.lattes" value="5413237250988238"/>
+			<field name="name" value="Eduardo Bustos Mass"/>
+		</entity>
+		<entity ref="OrgUnit6802" type="OrgUnit">
+			<semanticIdentifier>brcris::a1c03f718070a3a2cde03b219cb1e7f1</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DO RIO GRANDE"/>
+		</entity>
+		<entity ref="OrgUnit6803" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12576" toEntityRef="Person8624" type="Inventor"/>
+		<relation fromEntityRef="Patent12576" toEntityRef="OrgUnit6802" type="Applicant"/>
+		<relation fromEntityRef="Patent12576" toEntityRef="OrgUnit6803" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:46:47" record="24551" source="Espacenet">
+	<entities>
+		<entity ref="Patent24551" type="Patent">
+			<semanticIdentifier>brcris::e73f2e757b1b1b0943247e2bf66a077c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019017960A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019017960</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019017960A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191017960</semanticIdentifier>
+			<semanticIdentifier>original::102019017960</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019017960"/>
+			<field name="identifier.lattes" value="5245409138233148"/>
+			<field name="identifier.espacenet" value="102019017960"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método de inspeção estrutural por meio de reconhecimento de padrões realizado por robôs autônomos"/>
+			<field name="title.lattes" value="Sistema e método de inspeção estrutural por meio de reconhecimento de padrões realizado por robôs autônomos"/>
+			<field name="depositDate" value="2019-08-28"/>
+			<field name="publicationDate" value="2021-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX MIGUEL SALIM CASSOLA SOLER"/>
+			<field name="inventor" value="GLAUCO AUGUSTO DE PAULA CAURIN"/>
+			<field name="inventor" value="GUSTAVO FRANCO BARBOSA"/>
+			<field name="inventor" value="IGOR DIAS DE ARAUJO"/>
+			<field name="inventor" value="JOAO MARCELO VENTURIM"/>
+			<field name="inventor" value="KELEN CRISTIANE TEIXEIRA VIVALDINI"/>
+			<field name="inventor" value="RAFAEL VIDAL AROCA"/>
+			<field name="inventor" value="TATIANA DE FIGUEIREDO PEREIRA ALVES TAVEIRA PAZELLI"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W88/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="88"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema e método de inspeção estrutural por meio de reconhecimento de padrões realizado por robôs autônomos. o presente documento pertence ao campo da engenharia, mais especificamente as áreas de mecânica, controle e automação e computação. consiste de um sistema embarcado em um robô preferencialmente do tipo hexápode para a identificação de avarias estruturais. a presente invenção conta com as etapas de captura de imagens de elementos de união do tipo rebite, pinos e parafusos e análise de avarias estruturais causadas por danos nesses elementos de união. as imagens capturadas pelo robô rastejador são enviadas para uma máquina remota onde é realizada a análise utilizando algoritmos de aprendizagem de máquina, classificando a presença ou não de anomalias nos elementos de fixação instalados nos conjuntos estruturais."/>
+			<field name="originatesFrom" value="75237103"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019017960"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019017960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019017960"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191017960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019017960"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17064" type="Person">
+			<semanticIdentifier>lattes::5245409138233148</semanticIdentifier>
+			<field name="identifier.lattes" value="5245409138233148"/>
+			<field name="name" value="Kelen Cristiane Teixeira Vivaldini"/>
+		</entity>
+		<entity ref="OrgUnit13240" type="OrgUnit">
+			<semanticIdentifier>brcris::01bf8bb8899ab63c21b33a5e3d56f51c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24551" toEntityRef="Person17064" type="Inventor"/>
+		<relation fromEntityRef="Patent24551" toEntityRef="OrgUnit13240" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:15" record="1295" source="Espacenet">
+	<entities>
+		<entity ref="Patent1295" type="Patent">
+			<semanticIdentifier>brcris::d6c07028d5c89c42743a2b374292437c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028803A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016028803</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028803A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161028803</semanticIdentifier>
+			<semanticIdentifier>original::102016028803</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016028803"/>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="identifier.espacenet" value="102016028803"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="variador de tensão automatizado"/>
+			<field name="title.lattes" value="VARIADOR DE TENSÃO AUTOMATIZADO"/>
+			<field name="depositDate" value="2016-12-08"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO GOEDTEL"/>
+			<field name="inventor" value="ANA PAULA RODRIGUES TSUGE"/>
+			<field name="inventor" value="CLAYTON LUIZ GRACIOLA"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B19/4093AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="4093AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01F29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="variador de tensão automatizado a presente invenção é um equipamento que consiste em um motor acoplado mecanicamente ao eixo do variador de tensão para ajuste de posição, através de um sistema de aquisição e condicionamento do sinal de tensão do variador, um sistema de processamento digital e uma interface com o usuário, desta forma, o equipamento desenvolvido tem a função de ajustar, automaticamente, o valor desejado de tensão na saída de um autotransformador de tensão variável, a partir do valor de referência fornecida pelo usuário."/>
+			<field name="originatesFrom" value="62954384"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028803"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016028803"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028803"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161028803"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016028803"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person966" type="Person">
+			<semanticIdentifier>lattes::1920650157123774</semanticIdentifier>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="name" value="Alessandro Goedtel"/>
+		</entity>
+		<entity ref="OrgUnit764" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1295" toEntityRef="Person966" type="Inventor"/>
+		<relation fromEntityRef="Patent1295" toEntityRef="OrgUnit764" type="Applicant"/>
+	</relations>
+</entity-relation-data>

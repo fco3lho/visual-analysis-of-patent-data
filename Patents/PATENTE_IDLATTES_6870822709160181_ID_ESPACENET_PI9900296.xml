@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:58" record="40379" source="Espacenet">
+	<entities>
+		<entity ref="Patent40379" type="Patent">
+			<semanticIdentifier>brcris::039ecb6a36c1aa6b3de7ef3a80bff03b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI9900296B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI9900296</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI9900296A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1999PI00296</semanticIdentifier>
+			<semanticIdentifier>original::PIPI9900296</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI9900296"/>
+			<field name="identifier.lattes" value="6870822709160181"/>
+			<field name="identifier.espacenet" value="PI9900296"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="método de diagnóstico para detecção de mycobacterium tuberculosis"/>
+			<field name="title.lattes" value="Método de Detecção de Mycobacterium tuberculosis e kit de Diagnóstico de Tuberculose"/>
+			<field name="depositDate" value="1999-01-15"/>
+			<field name="publicationDate" value="2018-10-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARNALDO ZAHA"/>
+			<field name="inventor" value="MARIA LUCIA ROSA ROSSETTI"/>
+			<field name="inventor" value="ROSA DEA SPERHACKE"/>
+			<field name="applicant" value="ARNALDO ZAHA"/>
+			<field name="applicant" value="FUNDACAO ESTADUAL DE PRODUCAO E PESQUISA EM SAUDE (FEEPS)"/>
+			<field name="applicant" value="MARIA LUCIA ROSA ROSSETTI"/>
+			<field name="applicant" value="ROSA DEA SPERHACKE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&lt;mu&gt;&quot;método de diagnóstico para detecção de mycobacterium tuberculosis&quot;&lt;mv&gt;trata-se de um método para detecção de mycobacterium tuberculosis utilizando a reação em cadeia da polimerase caracterizada, pela pesquisa de dna de bacilo de m. tuberculosis causador da tuberculose, utilizando um reagente extrator. este método auxiliar o diagnóstico da tuberculose pela detecção de dna do bacilo mycobacterium tuberculosis, causador da doença e presente nos fluidos biológicos do doente. este dna é purificado utilizando-se um reagente extrator e após, amplificado pela técnica de reação em cadeia da polimerase (pcr) com oligonucleotídeos complementares a região is 6110 presente no genoma deste microrganismo. a detecção dos produtos amplificados é feita em gel de agarose 2% e hibridização em membrana de náilon."/>
+			<field name="originatesFrom" value="63874699"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI9900296"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI9900296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI9900296"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1999PI00296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI9900296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR9900296"/>
+		</entity>
+		<entity ref="Person27530" type="Person">
+			<semanticIdentifier>lattes::6870822709160181</semanticIdentifier>
+			<field name="identifier.lattes" value="6870822709160181"/>
+			<field name="name" value="Rosa Dea Sperhacke"/>
+		</entity>
+		<entity ref="OrgUnit21513" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+		<entity ref="Patent40380" type="Patent">
+			<semanticIdentifier>epodoc::BR9900296</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="63874699"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9900296"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40379" toEntityRef="Person27530" type="Inventor"/>
+		<relation fromEntityRef="Patent40379" toEntityRef="OrgUnit21513" type="Applicant"/>
+		<relation fromEntityRef="Patent40379" toEntityRef="Person27530" type="Depositor"/>
+	</relations>
+</entity-relation-data>

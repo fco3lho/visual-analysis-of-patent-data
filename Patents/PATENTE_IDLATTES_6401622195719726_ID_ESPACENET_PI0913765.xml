@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:58" record="20049" source="Espacenet">
+	<entities>
+		<entity ref="Patent20049" type="Patent">
+			<semanticIdentifier>brcris::930b50938734349473b790143b5af450</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0913765A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0913765</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0913765A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI13765</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0913765-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0913765"/>
+			<field name="identifier.lattes" value="6401622195719726"/>
+			<field name="identifier.espacenet" value="PI0913765"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de aquisição, controle e posicionamento automatizado"/>
+			<field name="title.lattes" value="Sistema de aquisição controle e posicionamento automatizado"/>
+			<field name="depositDate" value="2009-08-24"/>
+			<field name="publicationDate" value="2012-02-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTINA MARIA ASSIS LOPES TAVARES DA MATA HERMIDA QUINTELLA"/>
+			<field name="inventor" value="IURI MUNIZ PEPE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/13AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="13AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE AQUISIçãO, CONTROLE E POSICIONAMENTO AUTOMATIZADO A presente invenção refere-se a dispositivo e aparato que permite posicionar automaticamente amostras variadas inclusive líquidos em fluxo, permite adquirir dados e permite controle remoto. Tem versatilidade para ajuste de amostras de vários tipos como placas sólidas, pedaços de tubulações, células de fluxo variadas, cubetas, fluxos líquidos livres incidindo sobre placas sólidas, etc. Permite controlar remotamente por computador a aquisição de diversos valores experimentais, o posicionamento da amostra e sincronizar a aquisição de dados em três modos. Mais particularmente a invenção refere-se um dispositivo para controlar remotamente a aquisição de dados de Despolarização da Fluorescéncia Induzida por Laser em Fluxos Líquidos (PLE-FI) e para e para Fluorescência induzida por Laser em função do Tempo de Irradiação (LIFirr), posicionando amostras, sincronizando a aquisição, e adquirindo os dados."/>
+			<field name="originatesFrom" value="45699815"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0913765"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0913765"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0913765"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI13765"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0913765-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13922" type="Person">
+			<semanticIdentifier>lattes::6401622195719726</semanticIdentifier>
+			<field name="identifier.lattes" value="6401622195719726"/>
+			<field name="name" value="Iuri Muniz Pepe"/>
+		</entity>
+		<entity ref="OrgUnit10900" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20049" toEntityRef="Person13922" type="Inventor"/>
+		<relation fromEntityRef="Patent20049" toEntityRef="OrgUnit10900" type="Applicant"/>
+	</relations>
+</entity-relation-data>

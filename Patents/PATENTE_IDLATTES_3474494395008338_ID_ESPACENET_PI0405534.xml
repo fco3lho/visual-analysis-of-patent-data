@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:30" record="19091" source="Espacenet">
+	<entities>
+		<entity ref="Patent19091" type="Patent">
+			<semanticIdentifier>brcris::6fa3a447ed3c01a995ffd0ef7fa26fee</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405534A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0405534</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405534A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI05534</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0405534-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0405534"/>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="identifier.espacenet" value="PI0405534"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para regeneração em múltiplos estágios de um catalisador usado em um processo de craqueamento catalìtico fluido de hdrocarbonetos"/>
+			<field name="title.lattes" value="Processo e aparato para regeneração em múltiplos estágios de processos catalíticos em leito fluidizado"/>
+			<field name="depositDate" value="2004-12-13"/>
+			<field name="publicationDate" value="2006-08-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HENRIQUE SOARES CERQUEIRA"/>
+			<field name="inventor" value="RICARDO DROLHE MONTAURY PIMENTA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J38/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA REGENERAçãO EM MúLTIPLOS ESTáGIOS DE UM CATALISADOR USADO EM UM PROCESSO DE CRAQUEAMENTO CATALìTICO FLUIDO DE HIDROCARBONETOS&quot;. O processo para regeneração em múltiplos estágios de um catalisador usado em um processo de craqueamento catalítico fluido de hidrocarbonetos, visa minimizar a desativação permanente do catalisador que ocorre durante a etapa de regeneração, devido principalmente à presença de vapor d&lt;39&gt;água e metais contaminantes. O processo envolve a regeneração de uma fração do catalisador em vários ciclos independentes e, a seguir, o encaminhamento do catalisador regenerado para o 'riser' após ser submetido a uma etapa de redução. Uma atmosfera redutora pode ser obtida por intermédio da utilização de uma corrente gasosa que contém H~ 2~ e CO."/>
+			<field name="originatesFrom" value="36910644"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405534"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0405534"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405534"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI05534"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0405534-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13255" type="Person">
+			<semanticIdentifier>lattes::3474494395008338</semanticIdentifier>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="name" value="Henrique Soares Cerqueira"/>
+		</entity>
+		<entity ref="OrgUnit10364" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19091" toEntityRef="Person13255" type="Inventor"/>
+		<relation fromEntityRef="Patent19091" toEntityRef="OrgUnit10364" type="Applicant"/>
+	</relations>
+</entity-relation-data>

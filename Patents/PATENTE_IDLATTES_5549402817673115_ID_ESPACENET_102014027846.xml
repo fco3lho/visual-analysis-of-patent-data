@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:23" record="3708" source="Espacenet">
+	<entities>
+		<entity ref="Patent3708" type="Patent">
+			<semanticIdentifier>brcris::9f226749bdd8f2fcf5839c610212e87a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027846A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014027846</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027846A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141027846</semanticIdentifier>
+			<semanticIdentifier>original::102014027846</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014027846"/>
+			<field name="identifier.lattes" value="5549402817673115"/>
+			<field name="identifier.espacenet" value="102014027846"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparato eletromecânico"/>
+			<field name="title.lattes" value="Aparato Eletromecânico"/>
+			<field name="depositDate" value="2014-11-07"/>
+			<field name="publicationDate" value="2016-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE RIYUITI HIRAKAWA"/>
+			<field name="inventor" value="OSWALDO HORIKAWA"/>
+			<field name="applicant" value="ELEKTRO ELETRICIDADE E SERVICOS S/A"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B25J5/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B25J9/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02G1/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="H04N1/32AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aparato eletromecânico. a presente invenção refere-se a um aparato eletromecânico que compreende um robô móvel autônomo de inspeção de elementos de linha de distribuição de energia elétrica e realiza a inspeção dos elementos da linha por meio da captura, processamento e classificação de padrões em imagens. o aparato eletromecânico possui uma estrutura mecânica constituída de três módulos de movimentação interconectados para compor uma estrutura flexível e adaptável para as diferentes configurações de cabos da linha de distribuição de energia elétrica. a estrutura é construída de material eletricamente isolante para permitir a operação em linha energizada. o robô de inspeção possui bateria e uma eletrônica embarcada que permite a navegação de forma autônoma do robô a partir da captura e do processamento da imagem que realiza a identificação dos elementos da linha e os defeitos cadastrados. a operação do aparato pode ser assistida por meio de um computador pessoal portátil que executa um software dedicado e realiza a comunicação com o robô utilizando a tecnologia sem fio."/>
+			<field name="originatesFrom" value="57003154"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027846"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014027846"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027846"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141027846"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014027846"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2604" type="Person">
+			<semanticIdentifier>lattes::5549402817673115</semanticIdentifier>
+			<field name="identifier.lattes" value="5549402817673115"/>
+			<field name="name" value="Andre Riyuiti Hirakawa"/>
+		</entity>
+		<entity ref="OrgUnit2083" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3708" toEntityRef="Person2604" type="Inventor"/>
+		<relation fromEntityRef="Patent3708" toEntityRef="OrgUnit2083" type="Applicant"/>
+	</relations>
+</entity-relation-data>

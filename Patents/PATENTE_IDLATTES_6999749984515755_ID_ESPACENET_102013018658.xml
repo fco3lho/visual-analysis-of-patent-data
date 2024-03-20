@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:26" record="42013" source="Espacenet">
+	<entities>
+		<entity ref="Patent42013" type="Patent">
+			<semanticIdentifier>brcris::a710f849a0e6c5f330cb41414ce94b12</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013018658A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013018658</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013018658A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131018658</semanticIdentifier>
+			<semanticIdentifier>original::102013018658</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013018658"/>
+			<field name="identifier.lattes" value="6999749984515755"/>
+			<field name="identifier.espacenet" value="102013018658"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e kit de diagnóstico de doenças associadas a distúrbios neurodegenerativos"/>
+			<field name="title.lattes" value="Método e Kit de Diagnóstico de Doenças Associadas a Distúrbios Neurodegenerativos"/>
+			<field name="depositDate" value="2013-07-22"/>
+			<field name="publicationDate" value="2015-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAROLINE MADEIRA MOREIRA"/>
+			<field name="inventor" value="ROGERIO ARENA PANIZZUTTI"/>
+			<field name="inventor" value="SERGIO TEIXEIRA FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K39/395AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="395AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N30/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/53AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01N33/68AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="68AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e kit de diagnóstico de doenças associadas a distúrbios neurodegenerativos. a invenção aqui descrita apresenta um novo método de diagnóstico e monitoramento da progressão de doenças neurodegenerativas, particularmente da doença de alzheimer. o método se baseia na determinação de um novo biomarcador no líquido cefalorraquidiano de um paciente, a d-serina, que em determinados níveis caracteriza uma doença específica. é também objeto da presente invenção, um kit para diagnóstico de doenças associadas a distúrbios neurodegenerativos. a presente invenção se situa nos campos da química e biotecnoloogia"/>
+			<field name="originatesFrom" value="54548382"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013018658"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013018658"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013018658"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131018658"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013018658"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28631" type="Person">
+			<semanticIdentifier>lattes::6999749984515755</semanticIdentifier>
+			<field name="identifier.lattes" value="6999749984515755"/>
+			<field name="name" value="Sergio Teixeira Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit22376" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42013" toEntityRef="Person28631" type="Inventor"/>
+		<relation fromEntityRef="Patent42013" toEntityRef="OrgUnit22376" type="Applicant"/>
+	</relations>
+</entity-relation-data>

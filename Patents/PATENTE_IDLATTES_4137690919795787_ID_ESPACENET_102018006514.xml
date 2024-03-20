@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:28" record="19066" source="Espacenet">
+	<entities>
+		<entity ref="Patent19066" type="Patent">
+			<semanticIdentifier>brcris::be638b01d7f8f3078b9bb25790e73093</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018006514A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018006514</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018006514A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181006514</semanticIdentifier>
+			<semanticIdentifier>original::102018006514</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018006514"/>
+			<field name="identifier.lattes" value="4137690919795787"/>
+			<field name="identifier.espacenet" value="102018006514"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de escaneamento de impressões digitais 3d da pele (epiderme e derme) de outras amostras biológicas utilizando tecnologia de tomografia de coerência ótica e sistema de identificação"/>
+			<field name="title.lattes" value="Dispositivo de escaneamento de impressões digitais 3D da pele (epiderme e derme) de outras amostras biológicas utilizando tecnologia de Tomografia de Coerência Ótica e sistema de identificação"/>
+			<field name="depositDate" value="2018-03-29"/>
+			<field name="publicationDate" value="2019-10-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HENRIQUE SERGIO GUTIERREZ DA COSTA"/>
+			<field name="inventor" value="LUCIANO SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo de escaneamento de impressões digitais 3d da pele (epiderme e derme) de outras amostras biológicas utilizando tecnologia de tomografia de coerência ótica e sistema de identificação . a invenção proposta trata de um sistema de aquisição de imagens da epiderme e da derme em 3d (fig.1) e de identificação biométrica composto de: um dispositivo de aquisição de impressões digitais 3d eletro-óptico (fig. 1), um sistema (fig. 2) embarcado de processamento, controle, armazenamento e potência e um sistema mecânico de precisão (fig.3 e 4) para iluminar a amostra corretamente com potência e orientação geométrica adequados. o sistema utiliza a tecnologia de tomografia de coerência óptica, que permite a aquisição em profundidade das camadas internas da pele e foi projetado para acomodar os diversos dispositivos necessários à operação e prover controle sincronizado, processamento matemático e de imagens e potência adequados à varredura em linha, geração das imagens 3d e identificação biométrica de indivíduos. o problema proposto a ser resolvido na geração de impressões digitais 3d resume-se a: a) dependência direta da qualidade das imagens 2d das amostras; b) variações na largura das cristas da profundidade dos vales e/ou da resolução da imagem; c) erros de cálculo nas dimensões originários dos métodos baseados em imagens 2d; d) imagens 3d não realistas baseadas em curvas geométricas conhecidas; e) oclusões de partes laterais do dedo; f) dificuldade de identificar indivíduos na presença de alterações intencionais ou não intencionais."/>
+			<field name="originatesFrom" value="68158620"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018006514"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018006514"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018006514"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181006514"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018006514"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13242" type="Person">
+			<semanticIdentifier>lattes::4137690919795787</semanticIdentifier>
+			<field name="identifier.lattes" value="4137690919795787"/>
+			<field name="name" value="Henrique Sérgio Gutierrez da Costa"/>
+		</entity>
+		<entity ref="OrgUnit10351" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19066" toEntityRef="Person13242" type="Inventor"/>
+		<relation fromEntityRef="Patent19066" toEntityRef="OrgUnit10351" type="Applicant"/>
+	</relations>
+</entity-relation-data>

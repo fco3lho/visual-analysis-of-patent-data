@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:52" record="45693" source="Espacenet">
+	<entities>
+		<entity ref="Patent45693" type="Patent">
+			<semanticIdentifier>brcris::a46b8f09f124631f423d420d8caf6680</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011690A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011690</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011690A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011690</semanticIdentifier>
+			<semanticIdentifier>original::102016011690</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011690"/>
+			<field name="identifier.lattes" value="3333575573027236"/>
+			<field name="identifier.espacenet" value="102016011690"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="tabuleiro eletrônico de um jogo para o ensino de matemática"/>
+			<field name="title.lattes" value="Tabuleiro Eletrônico para o Jogo Contig60"/>
+			<field name="depositDate" value="2016-05-23"/>
+			<field name="publicationDate" value="2017-12-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADALBERTO MENDES"/>
+			<field name="inventor" value="WILIAN SOARES LACERDA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DE MINAS GERAIS-FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G09B19/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A63F3/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G09B19/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="tabuleiro eletrônico de um jogo para o ensino de matemática a presente invenção refere-se à um tabuleiro eletrônico específico para o jogo contig 60, implementado em um sistema embarcado. o jogo contig 60 é usado em sala de aula por professores de matemática para estimular o aprendizado de determinados conceitos. esta invenção permite gravar os lances do jogo em dispositivo eletrônico (pen drive ou cartão sdcard) ou transmitir a um computador central para posterior análise, deixa as regras do jogo impossíveis de serem quebradas, sendo possível também, através de um jogador autônomo, propor melhores jogadas no decorrer de cada partida e até jogar contra um humano, e assim dispor ao professor de matemática um método de mensurar a competência do indivíduo dentro do jogo. a implementação do jogo contig 60 em um sistema embarcado proporciona extrema facilidade manipulativa e aumenta exponencialmente o interesse dos utilizadores (alunos), além de melhorar e agilizar a análise dos professores que utilizam essa técnica ao ensinar conteúdos matemáticos."/>
+			<field name="originatesFrom" value="62566831"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011690"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011690"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011690"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011690"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011690"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31260" type="Person">
+			<semanticIdentifier>lattes::3333575573027236</semanticIdentifier>
+			<field name="identifier.lattes" value="3333575573027236"/>
+			<field name="name" value="Wilian Soares Lacerda"/>
+		</entity>
+		<entity ref="OrgUnit24521" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45693" toEntityRef="Person31260" type="Inventor"/>
+		<relation fromEntityRef="Patent45693" toEntityRef="OrgUnit24521" type="Applicant"/>
+	</relations>
+</entity-relation-data>

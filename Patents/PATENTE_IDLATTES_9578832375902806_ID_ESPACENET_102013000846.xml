@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:51:08" record="26789" source="Espacenet">
+	<entities>
+		<entity ref="Patent26789" type="Patent">
+			<semanticIdentifier>brcris::71919df08360425b0475f34cbc5c64e6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013000846A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013000846</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013000846A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131000846</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 000846-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013000846"/>
+			<field name="identifier.lattes" value="9578832375902806"/>
+			<field name="identifier.espacenet" value="102013000846"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="APARATO PARA COLETA DE DADOS BIOMÉTRICOS; SISTEMA DE MONITORAMENTO PARA COLETA DE DADOS BIOMÉTRICOS; MÉTODO DE IDENTIFICAÇÃO BIOMÉTRICA; E KIT PARA COLETA DE DADOS BIOMÉTRICOS"/>
+			<field name="title.lattes" value="Aparato para coleta de dados biométricos; Sistema de monitoramento para coleta de dados biométricos; método de identificação biométrica; e kit para coleta de dados biométricos"/>
+			<field name="depositDate" value="2013-01-14"/>
+			<field name="publicationDate" value="2014-05-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCIANO SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F21/32AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/68AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="68AI"/>
+			</field>
+			<field name="abstract.espacenet" value="APARATO PARA COLETA DE DADOS BIOMÉTRICOS; SISTEMA DE MONITORAMENTO PARA COLETA DE DADOS BIOMÉTRICOS; MÉTODO DE IDENTIFICAÇÃO BIOMÉTRICA; E KIT PARA COLETA DE DADOS BIOMÉTRICOS. A presente invençã refere-se a aparato e sistema para coleta de dados biométricos de indivíduos, desde recém-nascidos até adultos, incluindo prematuros, em diferentes cenários, o referido aparato tendo base na análise de padrões em sequências de imagens digitais, capturadas em alta resolução, das regiões de interesse, localizadas em diferentes partes do corpo do indivíduo, incluindo nas pontas dos dedos, palmas das mãos ou plantas dos pés, entre outras. Adicionalmente, a presente invenção descreve método de identificação biométrica compreendendo as etapas de preparo da região de interesse; obtenção das imagens de alta resolução de regiões de interesse; avaliação e alerta automáticos e em tempo real da qualidade da imagem; transmissão dos dados em rede integrada cliente-servidor, bem como á um kit para coleta de dados biométricos. A presente invenção se situa no campo da papiloscopia e ciências relacionadas."/>
+			<field name="originatesFrom" value="50777171"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013000846"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013000846"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013000846"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131000846"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 000846-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR102013000845"/>
+		</entity>
+		<entity ref="Person18543" type="Person">
+			<semanticIdentifier>lattes::9578832375902806</semanticIdentifier>
+			<field name="identifier.lattes" value="9578832375902806"/>
+			<field name="name" value="Luciano Silva"/>
+		</entity>
+		<entity ref="OrgUnit14499" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="Patent26790" type="Patent">
+			<semanticIdentifier>epodoc::BR102013000845</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="50777171"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013000845"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26789" toEntityRef="Person18543" type="Inventor"/>
+		<relation fromEntityRef="Patent26789" toEntityRef="OrgUnit14499" type="Applicant"/>
+	</relations>
+</entity-relation-data>

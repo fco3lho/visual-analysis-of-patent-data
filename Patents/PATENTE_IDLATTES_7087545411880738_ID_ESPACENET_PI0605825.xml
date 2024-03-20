@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:21" record="27722" source="Espacenet">
+	<entities>
+		<entity ref="Patent27722" type="Patent">
+			<semanticIdentifier>brcris::b948cdc040638ea367707f43742ccb2e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605825A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605825</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605825A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05825</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605825-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605825"/>
+			<field name="identifier.lattes" value="7087545411880738"/>
+			<field name="identifier.espacenet" value="PI0605825"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo e método de detecção e rastreamento de objetos em imagens digitais para dispositivos computacionais com baixo poder de processamento"/>
+			<field name="title.lattes" value="Processo e Método de Detecção e Rastreamento de Objetos em Imagens Digitais para Dispositivos Computacionais com Baixo Poder de Processamento"/>
+			<field name="depositDate" value="2006-12-28"/>
+			<field name="publicationDate" value="2008-08-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO ANTONIO DE CARVALHO GOMES"/>
+			<field name="inventor" value="JOSE GILVAN RODRIGUES MAIA"/>
+			<field name="inventor" value="LUIZ DAVID CAMPELO"/>
+			<field name="inventor" value="OSVALDO DE SOUZA"/>
+			<field name="applicant" value="SAMSUNG ELETRONICA DA AMAZONIA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/62AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T7/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO E MéTODO DE DETECçãO E RASTREAMENTO DE OBJETOS EM IMAGENS DIGITAIS PARA DISPOSITIVOS COMPUTACIONAIS COM BAIXO PODER DE PROCESSAMENTO&quot;. Patente de invenção de processo e método para detectar e rastrear imagem de objeto. Esta invenção se relaciona com os campos da Visão Computacional e do Reconhecimento de Padrões. A imagem é segmentada através de filtro de cor (30) (33) que tem o objetivo de descobrir de forma imprecisa a posição do objeto. Mas, por meio de um processo &quot;off-line&quot; (FIG. 5) gera-se um modelo preditivo capaz de indicar a posição relativa do objeto. A entrada do processo &quot;off-line&quot; de geração do modelo é composta por um conjunto de vetores que descrevem as características da imagem vis-a-vis de uma grade de sensores (3) e da posição relativa do objeto (4) (5) (6) (7) (8). Cada sensor é composto por uma vizinhança de pixels (FIG. 1). O pixel estará ligado (1) se o filtro de cor indicar que o pixel se encontra sobre o objeto e, desligado, caso contrário. De posse do modelo preditivo, ao entrarmos com os valores para uma nova grade de pixels o modelo indicará a posição do objeto. Um processo &quot;on-line&quot; consulta interativamente (11) (13) (14) (15) (16) o modelo preditivo até que ele esteja centralizado e enquadrado. Numa seqüência de imagens (vídeo) o objeto será rastreado, uma vez que sempre se dispõe de sua posição relativa."/>
+			<field name="originatesFrom" value="39690895"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605825"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605825"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605825"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05825"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605825-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19141" type="Person">
+			<semanticIdentifier>lattes::7087545411880738</semanticIdentifier>
+			<field name="identifier.lattes" value="7087545411880738"/>
+			<field name="name" value="Luiz David Sales de Paula Campelo"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27722" toEntityRef="Person19141" type="Inventor"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:45" record="30216" source="Espacenet">
+	<entities>
+		<entity ref="Patent30216" type="Patent">
+			<semanticIdentifier>brcris::82651916eea9bf0fd83e4baa7d6a3c94</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602828A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602828</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602828A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02828</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602828-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602828"/>
+			<field name="identifier.lattes" value="6432570814514439"/>
+			<field name="identifier.espacenet" value="PI0602828"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="disposição construtiva introduzida em sinalizador de baixa pressão para botijões de gás e assemelhados"/>
+			<field name="title.lattes" value="Disposição construtiva introduzida em sinalizador de baixa pressão para botijões de gás e assemelhados"/>
+			<field name="depositDate" value="2006-06-23"/>
+			<field name="publicationDate" value="2008-02-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMILTON SINATORA"/>
+			<field name="inventor" value="FELIPE GUSTAVO BERNARDES"/>
+			<field name="inventor" value="JEAN CARLO CAMASMIE DE PAOLA"/>
+			<field name="inventor" value="JEAN CARLOS CAMASMIE DE PAOLA"/>
+			<field name="inventor" value="LEONARDO MOUTA TRAUTWEIN"/>
+			<field name="inventor" value="LUCAS JESUMARY SINATORA"/>
+			<field name="inventor" value="MARCOS HENRIQUE ARA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F17C13/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="17"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSIçãO CONSTRUTIVA INTRODUZIDA EM SINALIZADOR DE BAIXA PRESSãO PARA BOTIJõES DE GáS E ASSEMELHADOS ,trata-se de um inovador registro para botijões de gás dotado de um indicador manométrico de nível de pressão interna de botijões, alinhado ao longo do dispositivo em sua concepção funcional. A descrição da presente patente faz referências ao manómetro do tipo tubo de Bourdon sem, contudo limitar sua exclusividade, salientando que outras mecânicas internas podem ser utilizadas tais como, diafragma, diferença de pressão, aneróide, entre outros, e ao qual foi dada original disposição construtiva, visto ser constituído de um regulador de pressão (1) padronizado, de um sinalizador visual (20), tal como o acionamento de um led, uma lâmpada, ou qualquer outro sinalizador luminoso, ou também por meio de um sinalizador sonoro, ambos acionados eletricamente por meio de uma alavanca conectada a um tubo de Bourdon, cujo interior se comunica ao duto de alimentação do registro de gás dotado de regulador de pressão, avisando assim ao usuário quando o nível de gás no interior do botijão estiver se aproximando à pressão limite e indicativa de término do gás."/>
+			<field name="originatesFrom" value="38988613"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602828"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602828"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602828"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02828"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602828-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20714" type="Person">
+			<semanticIdentifier>lattes::6432570814514439</semanticIdentifier>
+			<field name="identifier.lattes" value="6432570814514439"/>
+			<field name="name" value="Marcos Henrique Ara"/>
+		</entity>
+		<entity ref="OrgUnit16189" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit16190" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30216" toEntityRef="Person20714" type="Inventor"/>
+		<relation fromEntityRef="Patent30216" toEntityRef="OrgUnit16189" type="Applicant"/>
+		<relation fromEntityRef="Patent30216" toEntityRef="OrgUnit16190" type="Applicant"/>
+	</relations>
+</entity-relation-data>

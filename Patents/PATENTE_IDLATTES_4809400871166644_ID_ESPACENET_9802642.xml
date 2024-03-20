@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:36" record="30611" source="Espacenet">
+	<entities>
+		<entity ref="Patent30611" type="Patent">
+			<semanticIdentifier>brcris::3c8f4795df819e850a73c37b6571d22c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9802642A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9802642</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9802642A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19989802642</semanticIdentifier>
+			<semanticIdentifier>original::9802642-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9802642"/>
+			<field name="identifier.lattes" value="4809400871166644"/>
+			<field name="identifier.espacenet" value="9802642"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Hs-mims: sistema: de análise direta de compostos orgânicos voláteis ( vocs ) sem extração prévia em matriz sólida"/>
+			<field name="title.lattes" value="HS-MIMS: Sistema de Análise Direta de Compostos Orgânicos Voláteis sem Extração Prévia em Matrizes Sólidas"/>
+			<field name="depositDate" value="1998-07-06"/>
+			<field name="publicationDate" value="2000-11-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCOS NOGUEIRA EBERLIN"/>
+			<field name="inventor" value="MARIA ANITA MENDES"/>
+			<field name="inventor" value="REGINA SPARRAPAN PIMPIM"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N30/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="''HS-MIMS - SISTEMA DE ANALISE DIRETA DE COMPOSTOS ORGANICOS VOLATEIS ( VOCs )SEM EXTRAçãO PRéVIA EM MATRIZ SOLIDA'', compreendendo uma sonda (S) confeccionada em tubo de aço inox (T); a amostra é colocada em um reservatório (R), o qual é conectado a um cilindro maciço (D), no qual é montada uma membrana (C)."/>
+			<field name="originatesFrom" value="4070014"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9802642"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9802642"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9802642"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19989802642"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9802642-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21000" type="Person">
+			<semanticIdentifier>lattes::4809400871166644</semanticIdentifier>
+			<field name="identifier.lattes" value="4809400871166644"/>
+			<field name="name" value="Maria Anita Mendes"/>
+		</entity>
+		<entity ref="OrgUnit16393" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30611" toEntityRef="Person21000" type="Inventor"/>
+		<relation fromEntityRef="Patent30611" toEntityRef="OrgUnit16393" type="Applicant"/>
+	</relations>
+</entity-relation-data>

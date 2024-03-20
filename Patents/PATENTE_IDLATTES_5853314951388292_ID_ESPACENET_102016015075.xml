@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:38" record="10923" source="Espacenet">
+	<entities>
+		<entity ref="Patent10923" type="Patent">
+			<semanticIdentifier>brcris::e7e0453bc68fee686afe4b2a14f1cd9e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015075A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016015075</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015075A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161015075</semanticIdentifier>
+			<semanticIdentifier>original::102016015075</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016015075"/>
+			<field name="identifier.lattes" value="5853314951388292"/>
+			<field name="identifier.espacenet" value="102016015075"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="iniciadores, método e kit para identificação molecular de estrongilídeos gastrointestinais de ruminantes"/>
+			<field name="title.lattes" value="INICIADORES, MÉTODO E KIT PARA IDENTIFICAÇÃO MOLECULAR DE ESTRONGILÍDEOS GASTROINTESTINAIS DE RUMINANTES"/>
+			<field name="depositDate" value="2016-06-27"/>
+			<field name="publicationDate" value="2018-01-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO DOS SANTOS ALVES FIGUEIREDO BRASIL"/>
+			<field name="inventor" value="DENISE APARECIDA ANDRADE DE OLIVEIRA"/>
+			<field name="inventor" value="EDUARDO BASTIANETTO"/>
+			<field name="inventor" value="LIVIA LOIOLA DOS SANTOS"/>
+			<field name="inventor" value="MARCELA GONCALVES DRUMMOND"/>
+			<field name="inventor" value="ROMULO CERQUEIRA LEITE"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="MYLEUS ANALISES GENETICAS S.A"/>
+			<field name="applicant" value="MYLEUS PESQUISA E DESENVOLVIMENTO LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/11AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="11AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12Q1/68AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="68AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve iniciadores, um kit, bem como um método, para identificação molecular de nematódeos estrongilídeos a nível de gênero e/ou de espécies. as etapas do método são baseadas na amplificação parcial da região its-2 (internal transcribed spacer 2) do dna ribossômico dos parasitas seguida de análise de fragmentos (para identificação a nível de gênero) e amplificação parcial da região its-2 do dna ribossômico dos parasitas seguida de minissequenciamento (para identificação a nível de espécie). por meio desse método, é possível identificar sete gêneros (cooperia, haemonchus, oesophagostomum, trichostrongylus, teladorsagia, ostertagia e chabertia) e doze espécies (cooperia curticei,cooperia punctata, cooperia oncophora/cooperia surnabada, haemonchus contortus, haemonchus placei, haemonchus longistipes, oesophagostomum radiatum, oesophagostomum asperum, trichostrongylus axei, trichostrongylus colubriformis, ostertagia ostertagi e chabertia ovina) de nematódeos infectantes de ruminantes, como ovinos e bovinos, de maneira específica, menos laboriosa e custo-eficiente."/>
+			<field name="originatesFrom" value="62529475"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015075"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016015075"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015075"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161015075"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016015075"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7635" type="Person">
+			<semanticIdentifier>lattes::5853314951388292</semanticIdentifier>
+			<field name="identifier.lattes" value="5853314951388292"/>
+			<field name="name" value="Denise Aparecida Andrade de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit6076" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10923" toEntityRef="Person7635" type="Inventor"/>
+		<relation fromEntityRef="Patent10923" toEntityRef="OrgUnit6076" type="Applicant"/>
+	</relations>
+</entity-relation-data>

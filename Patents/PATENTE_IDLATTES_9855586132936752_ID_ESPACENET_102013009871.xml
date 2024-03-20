@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:17" record="1317" source="Espacenet">
+	<entities>
+		<entity ref="Patent1317" type="Patent">
+			<semanticIdentifier>brcris::b32163dda0af196d0b2385fad9abf8fd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013009871A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013009871</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013009871A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131009871</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 009871-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013009871"/>
+			<field name="identifier.lattes" value="9855586132936752"/>
+			<field name="identifier.espacenet" value="102013009871"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO PARA DEPURAÇÃO DE RESÍDUOS CONTAMINADOS POR COMPOSTOS ORGÂNICOS EMPREGANDO REAÇÃO DE FENTON COM ADIÇÃO &quot;ON POT&quot; DE REAGENTES E GERAÇÃO &quot;IN LINE&quot; DE ÍON FERROSO"/>
+			<field name="title.lattes" value="PROCESSO PARA DEPURAÇÃO DE RESÍDUOS CONTAMINADOS POR COMPOSTOS ORGÂNICOS EMPREGANDO REAÇÃO DE FENTON COM ADIÇÃO ON POT DE REAGENTES E GERAÇÃO IN LINE DE ÍON FERROSO"/>
+			<field name="depositDate" value="2013-04-23"/>
+			<field name="publicationDate" value="2015-02-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO MORELLO"/>
+			<field name="inventor" value="BRUNO DE SOUZA GUIMARAES"/>
+			<field name="inventor" value="EDNEI GILBERTO PRIMEL"/>
+			<field name="inventor" value="MARCELO GONCALVES MONTES D'OCA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE - FURG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/72AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="72AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA DEPURAÇÃO DE RESÍDUOS CONTAMINADOS POR COMPOSTOS ORGÂNICOS EMPREGANDO REAÇÃO DE FENTON COM ADIÇÃO &quot;ON POT&quot; DE REAGENTES E GERAÇÃO &quot;IN LINE&quot; DE ÍON FERROSO. Processo para o tratamento de resíduos aquosos contaminados por compostos orgânicos empregando a reação de Fenton, com adição &quot;on pot&quot; de peróxido de hidrogênio e ácido fosfórico ao resíduo aquoso e geração &quot;in line&quot; de íon ferroso. O processo desenvolvido é constituído por um tanque com 2 L de capacidade, uma bomba de recalque e uma calha composta de PVC onde são suportadas placas de imã com limalha de ferro. Esse processo é baseado na corrosão espontãnea da superfície metálica de uma limalha de ferro, na presença de peróxido de hidorgênio sob condições ácidas, produzindo íon ferroso, o qual reage com peróxido de hidrogênio através da reação de Fenton para produzir radical hidroxila. Tal processo desenvolvido pode ser aplicado ao tratamento de diversos tipos de resíduos aquosos, tais como industriais, bem como, para a depuração de águas oriundas de diversas fontes, como por exemplo, rios, lagos, lagoas, açudes e de irrigação em lavouras."/>
+			<field name="originatesFrom" value="52442598"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013009871"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013009871"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013009871"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131009871"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 009871-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person980" type="Person">
+			<semanticIdentifier>lattes::9855586132936752</semanticIdentifier>
+			<field name="identifier.lattes" value="9855586132936752"/>
+			<field name="name" value="Alessandro Morello"/>
+		</entity>
+		<entity ref="OrgUnit780" type="OrgUnit">
+			<semanticIdentifier>brcris::5f210e0c7d95cf557275f5ec47d2aa6c</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE - FURG"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1317" toEntityRef="Person980" type="Inventor"/>
+		<relation fromEntityRef="Patent1317" toEntityRef="OrgUnit780" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:44" record="38618" source="Espacenet">
+	<entities>
+		<entity ref="Patent38618" type="Patent">
+			<semanticIdentifier>brcris::563b1f768e22b7e30b8c8a7c8ee9a43c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033128A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012033128</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033128A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121033128</semanticIdentifier>
+			<semanticIdentifier>original::102012033128</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012033128"/>
+			<field name="identifier.lattes" value="8660539771900582"/>
+			<field name="identifier.espacenet" value="102012033128"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para geração de chaves baseado em algoritmos genéticos"/>
+			<field name="title.lattes" value="MÉTODO PARA GERAÇÃO DE CHAVES BASEADO EM ALGORITMOS GENÉTICOS (BR 10 2012 033128 4)"/>
+			<field name="depositDate" value="2012-12-21"/>
+			<field name="publicationDate" value="2015-11-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE GUSTAVO MALETZKE"/>
+			<field name="inventor" value="CLAUDIO SADDY RODRIGUES COY"/>
+			<field name="inventor" value="EVERTON ALVARES CHERMAN"/>
+			<field name="inventor" value="HUEI DIANA LEE"/>
+			<field name="inventor" value="JOAO JOSE FAGUNDES"/>
+			<field name="inventor" value="JOYLAN NUNES MACIEL"/>
+			<field name="inventor" value="MARIA DE LOURDES SETSUKO AYRIZONO"/>
+			<field name="inventor" value="RAQUEL FRANCO LEAL"/>
+			<field name="inventor" value="RENATO BOBSIN MACHADO"/>
+			<field name="inventor" value="RICHARDSON FLORIANI VOLTOLINI"/>
+			<field name="inventor" value="WU FENG CHUNG"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L9/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para geração de chaves baseado em algoritmos genéticos. refere-se o presente pedido de patente de invenção a um novo método computacional sistêmico para a geração de chaves secretas, inspirado na teoria da evolução das espécies, especialmente na genética e seleção natural. esse método permite que sejam definidos parâmetros importantes, como limite inferior e superior para geração de números aleatórios, assim como quantidade de números que irão contribuir para compor a chave e ainda índice de mutação que será aplicado no algoritmo. desse modo o método proposto pode ser aplicado para distintas finalidades, tais como para a aplicação como chaves de algoritmos de criptografia, para geração de senhas, para a proteção de arquivos, para publicação de streamings de áudio e vídeo, entre outros. as principais vantagens do método proposto consistem em não necessitar nenhum hardware específico para ser executado, utiliza operações matemáticas simples e sem alto custo de execução, é configurável para trabalhar as variáveis e definir o grau de segurança desejado, e foi concebido com conceitos de algoritmos genéticos dificultando tentativas de invasão."/>
+			<field name="originatesFrom" value="54548727"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033128"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012033128"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033128"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121033128"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012033128"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26549" type="Person">
+			<semanticIdentifier>lattes::8660539771900582</semanticIdentifier>
+			<field name="identifier.lattes" value="8660539771900582"/>
+			<field name="name" value="Richardson Floriani Voltolini"/>
+		</entity>
+		<entity ref="OrgUnit20817" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="OrgUnit20818" type="OrgUnit">
+			<semanticIdentifier>brcris::d3cb61a8961c29747cd77f29a5d6d28b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38618" toEntityRef="Person26549" type="Inventor"/>
+		<relation fromEntityRef="Patent38618" toEntityRef="OrgUnit20817" type="Applicant"/>
+		<relation fromEntityRef="Patent38618" toEntityRef="OrgUnit20818" type="Applicant"/>
+	</relations>
+</entity-relation-data>

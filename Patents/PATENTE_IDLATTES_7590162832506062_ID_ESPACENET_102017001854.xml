@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:46:03" record="24168" source="Espacenet">
+	<entities>
+		<entity ref="Patent24168" type="Patent">
+			<semanticIdentifier>brcris::b234ab343ae2fe44101eb4134ec1eda5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001854A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017001854</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001854A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171001854</semanticIdentifier>
+			<semanticIdentifier>original::102017001854</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017001854"/>
+			<field name="identifier.lattes" value="7590162832506062"/>
+			<field name="identifier.espacenet" value="102017001854"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="topologia de células sobressalentes independente do balanceamento da árvore de relógio e procedimento associado"/>
+			<field name="title.lattes" value="Topologia de células sobressalentes independente do balanceamento da árvore de relógio e procedimento associado"/>
+			<field name="depositDate" value="2017-01-30"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GERSON SCARTEZZINI"/>
+			<field name="inventor" value="JULIO LEAO DA SILVA JUNIOR"/>
+			<field name="inventor" value="MAICO CASSEL DOS SANTOS"/>
+			<field name="applicant" value="CENTRO NACIONAL DE TECNOLOGIA ELETRONICA AVANCADA S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L27/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F17/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H03K19/173AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="173AI"/>
+			</field>
+			<field name="abstract.espacenet" value="nova topologia de células sobressalentes (spare cells) e seu procedimento associado, as quais são topologias necessárias para realizar modificações funcionais de projetos de circuitos integrados após o envio para a fabricação, utilizando somente modificações de camadas de metais, evitando a necessidade do rebalanceamento da árvore de relógio e mantendo os circuitos sequenciais sobressalentes não utilizados fora da corrente examinável (scan chain). esta arquitetura permite a correção de erros funcionais após o envio para a fabricação, utilizando um número reduzido de máscaras e de tempo de reprojeto. a topologia de células sobressalentes proposta é aplicável tanto para circuitos de baixa complexidade, como rfids (identificação por radiofrequência - radio frequency identification), quanto para circuitos de alta complexidade, como socs (sistema intra chip - system of chip)"/>
+			<field name="originatesFrom" value="63451676"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001854"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017001854"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001854"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171001854"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017001854"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16804" type="Person">
+			<semanticIdentifier>lattes::7590162832506062</semanticIdentifier>
+			<field name="identifier.lattes" value="7590162832506062"/>
+			<field name="name" value="Julio L Silva Junior"/>
+		</entity>
+		<entity ref="OrgUnit13017" type="OrgUnit">
+			<semanticIdentifier>brcris::6ce13e1ea6cf49856e643c3f35bb7242</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE TECNOLOGIA ELETRONICA AVANCADA S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24168" toEntityRef="Person16804" type="Inventor"/>
+		<relation fromEntityRef="Patent24168" toEntityRef="OrgUnit13017" type="Applicant"/>
+	</relations>
+</entity-relation-data>

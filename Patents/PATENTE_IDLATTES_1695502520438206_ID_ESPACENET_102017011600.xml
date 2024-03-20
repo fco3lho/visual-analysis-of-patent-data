@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:46" record="16014" source="Espacenet">
+	<entities>
+		<entity ref="Patent16014" type="Patent">
+			<semanticIdentifier>brcris::deb3294fbfc7ccd3f80880c44a4bac8d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017011600A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017011600</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017011600A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171011600</semanticIdentifier>
+			<semanticIdentifier>original::102017011600</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017011600"/>
+			<field name="identifier.lattes" value="1695502520438206"/>
+			<field name="identifier.espacenet" value="102017011600"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="cerveja com adição de acerola"/>
+			<field name="title.lattes" value="CERVEJA COM ADIÇÃO DE ACEROLA"/>
+			<field name="depositDate" value="2017-06-01"/>
+			<field name="publicationDate" value="2018-12-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FLAVIA DE OLIVEIRA PAULINO"/>
+			<field name="inventor" value="KRISTERSON REINALDO DE LUNA FREIRE"/>
+			<field name="inventor" value="LUCAS MIRANDA FERNANDES"/>
+			<field name="inventor" value="SHARLINE FLORENTINO DE MELO SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12C5/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="patente de invenção para cerveja com adição de acerola a partir da inserção, durante a fervura, de uma quantidade entre 30g até 200 g para cada 1l de cerveja. a adição da acerola contribui com a cerveja sensorialmente, acrescentando acidez e dulçor residual, e físico-quimicamente, modificando a cor, reduzindo levemente o teor alcoólico e diminuindo o ph, o que torna a cerveja microbiologicamente mais resistente. desta maneira, a acerola dá características únicas à cerveja e diversifica sabores e aromas ao público consumidor."/>
+			<field name="originatesFrom" value="65002796"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017011600"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017011600"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017011600"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171011600"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017011600"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11109" type="Person">
+			<semanticIdentifier>lattes::1695502520438206</semanticIdentifier>
+			<field name="identifier.lattes" value="1695502520438206"/>
+			<field name="name" value="Flávia de Oliveira Paulino"/>
+		</entity>
+		<entity ref="OrgUnit8688" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16014" toEntityRef="Person11109" type="Inventor"/>
+		<relation fromEntityRef="Patent16014" toEntityRef="OrgUnit8688" type="Applicant"/>
+	</relations>
+</entity-relation-data>

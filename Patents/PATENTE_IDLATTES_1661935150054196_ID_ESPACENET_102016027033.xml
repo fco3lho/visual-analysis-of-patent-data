@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:04" record="41902" source="Espacenet">
+	<entities>
+		<entity ref="Patent41902" type="Patent">
+			<semanticIdentifier>brcris::ba87e4d91009aeb1c7856d43e4e4a49d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027033A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016027033</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027033A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161027033</semanticIdentifier>
+			<semanticIdentifier>original::102016027033</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016027033"/>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="identifier.espacenet" value="102016027033"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de controle de luz automotiva baseado na velocidade"/>
+			<field name="title.lattes" value="DISPOSITIVO DE CONTROLE DE LUZ AUTOMOTIVA BASEADO NA VELOCIDADE"/>
+			<field name="depositDate" value="2016-11-18"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="SERGIO LUIZ STEVAN JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B60Q1/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B60Q1/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="atualmente, nos carros modernos, a velocidade do automóvel está codificada e presente como sinal elétrico na rede automotiva (can). uma central eletrônica dedicada pode ler, identificar e interpretar diferentes sinais codificados, e em especial o sinal de velocidade do veículo, e assim tomar decisões baseadas em parâmetros limiares. o sistema de iluminação veicular (lanternas) pode ser ligado e controlado de forma automática, baseado em valores de velocidade do automóvel, sem a necessidade de atuação direta do motorista nas alavancas/interruptores de iluminação. desta forma, a partir de um certo valor limiar de velocidade configurado, as lanternas sempre acender-se-iam, desligando-se somente com a atuação do motorista nas alavancas ou desligamento do automóvel. este princípio atenderia situações de segurança que obrigam através da legislação brasileira (lei 13.290/2016) o uso de lanternas ao entrar em rodovias, cuja velocidade máxima permitida é superior ao perímetro urbano, ligando-as automaticamente ao ultrapassar a velocidade máxima permitida no perímetro urbano."/>
+			<field name="originatesFrom" value="62845561"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027033"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016027033"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027033"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161027033"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016027033"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28550" type="Person">
+			<semanticIdentifier>lattes::1661935150054196</semanticIdentifier>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="name" value="Sergio Luiz Stevan Junior"/>
+		</entity>
+		<entity ref="OrgUnit22338" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41902" toEntityRef="Person28550" type="Inventor"/>
+		<relation fromEntityRef="Patent41902" toEntityRef="OrgUnit22338" type="Applicant"/>
+	</relations>
+</entity-relation-data>

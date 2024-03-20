@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:52" record="23111" source="Espacenet">
+	<entities>
+		<entity ref="Patent23111" type="Patent">
+			<semanticIdentifier>brcris::68402d14e4b1e2c0b035de4f19838f38</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903935A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0903935</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903935A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI03935</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0903935-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0903935"/>
+			<field name="identifier.lattes" value="8467650381711612"/>
+			<field name="identifier.espacenet" value="PI0903935"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de sìntese de animação facial por computador baseada na manipulação de imagens"/>
+			<field name="title.lattes" value="Sistema de síntese de animação facial por computador baseada na manipulação de imagens"/>
+			<field name="depositDate" value="2009-05-13"/>
+			<field name="publicationDate" value="2011-02-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE MARIO DE MARTINO"/>
+			<field name="inventor" value="PAULA DORNHOFER PARO COSTA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T17/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema de síntese de animação facial por computador baseada na manipulação de imagens. A invenção refere-se a um sistema de síntese de animação facial por computador sincronizada com a fala e videorealista. Neste sistema a animação facial é gerada através da seleção, manipulação e apresentação de um conjunto reduzido de imagens, representando visemas dependentes do contexto fonético, que reproduz a movimentação articulatória visível na face durante a produção da fala, incluindo os efeitos da coarticulação. A abordagem adotada permite que seja possível gerar animações com alto grau de videorealismo, mesmo em plataformas com reduzida capacidade de armazenamento, como os dispositivos móveis celulares. Entende-se como animação videorealista uma animação que pode ser confundida com um vídeo real."/>
+			<field name="originatesFrom" value="43585410"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903935"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0903935"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903935"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI03935"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0903935-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16011" type="Person">
+			<semanticIdentifier>lattes::8467650381711612</semanticIdentifier>
+			<field name="identifier.lattes" value="8467650381711612"/>
+			<field name="name" value="José Mario De Martino"/>
+		</entity>
+		<entity ref="OrgUnit12397" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23111" toEntityRef="Person16011" type="Inventor"/>
+		<relation fromEntityRef="Patent23111" toEntityRef="OrgUnit12397" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:15" record="15132" source="Espacenet">
+	<entities>
+		<entity ref="Patent15132" type="Patent">
+			<semanticIdentifier>brcris::00669aaf3ca866c63b220c9bada66780</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015004207U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015004207U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015004207U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152004207U</semanticIdentifier>
+			<semanticIdentifier>original::202015004207</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015004207"/>
+			<field name="identifier.lattes" value="8680770694335530"/>
+			<field name="identifier.espacenet" value="202015004207"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="recipiente com mútiplos compartimentos isolados para acondicionar e servir simultaneamente produtos líquidos"/>
+			<field name="title.lattes" value="RECIPIENTE COM MÚLTIPLOS COMPARTIMENTOS ISOLADOS PARA ACONDICIONAR E SERVIR SIMULTANEAMENTE PRODUTOS LÍQUIDOS"/>
+			<field name="depositDate" value="2015-02-26"/>
+			<field name="publicationDate" value="2016-08-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BIANCA NASSAR CABRAL"/>
+			<field name="inventor" value="FELIPE LUIS PALOMBINI"/>
+			<field name="inventor" value="NATHALIA GIL TESTA"/>
+			<field name="inventor" value="PRISCILA ZAVADIL PEREIRA"/>
+			<field name="inventor" value="VIVIANE PESTANO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B65D81/32AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="65"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="81"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B65D1/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="65"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="rec|p|ente com mú|_t|p|_os compart|mentos isolados para acond|c|onar e serv|r s|mu|_taneamente produtos liouioos o presente invento modelo de utilidade descreve um recipiente para acondicionar e servir isoladamente produtos líquidos, preferentemente produtos para lavar roupas, composto por três frascos/compartimentos que armazenam e permitem servir, com segurança, de forma isolada e simultânea, diferentes produtos como sabão liquido, alvejante e amaciante, e um copo medidor com três compartimentos isolados e três subtampas."/>
+			<field name="originatesFrom" value="56802161"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015004207"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015004207U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015004207"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152004207U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015004207"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202015004207Y"/>
+		</entity>
+		<entity ref="Person10516" type="Person">
+			<semanticIdentifier>lattes::8680770694335530</semanticIdentifier>
+			<field name="identifier.lattes" value="8680770694335530"/>
+			<field name="name" value="Felipe Luis Palombini"/>
+		</entity>
+		<entity ref="OrgUnit8199" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+		<entity ref="Patent15133" type="Patent">
+			<semanticIdentifier>epodoc::BR202015004207Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="56802161"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015004207Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15132" toEntityRef="Person10516" type="Inventor"/>
+		<relation fromEntityRef="Patent15132" toEntityRef="OrgUnit8199" type="Applicant"/>
+	</relations>
+</entity-relation-data>

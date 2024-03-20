@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:41" record="37881" source="Espacenet">
+	<entities>
+		<entity ref="Patent37881" type="Patent">
+			<semanticIdentifier>brcris::22d1f8b1356cf66129c807cd620aade4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015017870A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015017870</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015017870A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151017870</semanticIdentifier>
+			<semanticIdentifier>original::102015017870</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015017870"/>
+			<field name="identifier.lattes" value="7413544381333504"/>
+			<field name="identifier.espacenet" value="102015017870"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para computação do espectro da dct para sinais acumulados e/ou de média nula"/>
+			<field name="title.lattes" value="Método para Computação do Espectro da DCT para Sinais Acumulados e/ou de Média Nula"/>
+			<field name="depositDate" value="2015-07-27"/>
+			<field name="publicationDate" value="2017-11-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DIEGO FELIPE GOMES COELHO"/>
+			<field name="inventor" value="RENATO JOSE DE SOBRAL CINTRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO - UFPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G10L19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G10L19/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para computação do espectro da oct para sinais acumulados e/ou de média nula o método revela um esquema para o cálculo dos coeficientes da dct que pode ser usado em diversos cenários, quer seja em implementação em hardware ou software, e se baseia na fórmula de soma por partes, em que o esquema produzido é capaz de superar métodos convencionais existentes para sinais de entrada em formato comumente encontrado em sistemas de processamento de imagens, reconhecimento de faces e extração de características, e em particular, se torna útil em situações em que o sinal de entrada possui média nula por ser pertinente ao contexto de detecção de característica, por exemplo, em que o nível dc pode não ser relevante, e se torna útil em situações em que o sinal de entrada é nativamente acumulado, e o esquema proposto pode ser útil em problemas de reconhecimento de face, em que os métodos usualmente adotados exigem o dado na forma integrada."/>
+			<field name="originatesFrom" value="62529564"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015017870"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015017870"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015017870"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151017870"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015017870"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26123" type="Person">
+			<semanticIdentifier>lattes::7413544381333504</semanticIdentifier>
+			<field name="identifier.lattes" value="7413544381333504"/>
+			<field name="name" value="Renato José de Sobral Cintra"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37881" toEntityRef="Person26123" type="Inventor"/>
+	</relations>
+</entity-relation-data>

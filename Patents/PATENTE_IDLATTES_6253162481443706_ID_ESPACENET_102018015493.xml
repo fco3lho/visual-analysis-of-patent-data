@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:18" record="21639" source="Espacenet">
+	<entities>
+		<entity ref="Patent21639" type="Patent">
+			<semanticIdentifier>brcris::a0a25ac89edcb41ee87c462d0abfb3c2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018015493A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018015493</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018015493A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181015493</semanticIdentifier>
+			<semanticIdentifier>original::102018015493</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018015493"/>
+			<field name="identifier.lattes" value="6253162481443706"/>
+			<field name="identifier.espacenet" value="102018015493"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema embarcado para reconhecimento automático de placas de veículos"/>
+			<field name="title.lattes" value="Sistema Embarcado para Reconhecimento Automático de Placas de Veículos"/>
+			<field name="depositDate" value="2018-07-30"/>
+			<field name="publicationDate" value="2020-02-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIAN HENRIQUE MARTINS DE SOUZA"/>
+			<field name="inventor" value="IVANILSON FRANCA VIEIRA JUNIOR"/>
+			<field name="inventor" value="JOAO MARCOS TEIXEIRA LACERDA"/>
+			<field name="inventor" value="JOAO PAULO DOS SANTOS QUEIROZ"/>
+			<field name="inventor" value="MARCELO AUGUSTO DA SILVA"/>
+			<field name="inventor" value="RICARDO ALEXSANDRO DE MEDEIROS VALENTIM"/>
+			<field name="inventor" value="ROBINSON LUIS DE SOUZA ALVES"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO RIO GRANDE DO NORTE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/34AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema embarcado para reconhecimento automático de placas de veículos, descreve-se a presente invenção como um sistema embarcado para reconhecimento de placas automotivas que, de acordo com suas características, possui como objetivo a obtenção de dados do motorista e situação do veículo para, assim, autorizar ou negar (em caso de situação irregular), de forma automática ou semiautomática, a entrada do usuário em determinado local. o presente sistema embarcado fica acoplado à um elemento de atuação e utiliza um programa de ocr para realizar a extração dos caracteres contidos na placa. o software é capaz de utilizar bancos de dados na nuvem ou locais para validar a situação do motorista e veículo, realizar o registro de entrada e também buscar dados dos funcionários que tem o seu veículo cadastrado, facilitando e agilizando o trabalho de funcionários e, ao mesmo tempo, garantindo a segurança dos transeuntes de determinado local."/>
+			<field name="originatesFrom" value="69700325"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018015493"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018015493"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018015493"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181015493"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018015493"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14977" type="Person">
+			<semanticIdentifier>lattes::6253162481443706</semanticIdentifier>
+			<field name="identifier.lattes" value="6253162481443706"/>
+			<field name="name" value="João Marcos Teixeira Lacerda"/>
+		</entity>
+		<entity ref="OrgUnit11723" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21639" toEntityRef="Person14977" type="Inventor"/>
+		<relation fromEntityRef="Patent21639" toEntityRef="OrgUnit11723" type="Applicant"/>
+	</relations>
+</entity-relation-data>

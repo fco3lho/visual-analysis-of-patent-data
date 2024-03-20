@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:20" record="25401" source="Espacenet">
+	<entities>
+		<entity ref="Patent25401" type="Patent">
+			<semanticIdentifier>brcris::f1e085b109201dbb0f48899d3e901ad8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9005680A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9005680</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9005680A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19909005680</semanticIdentifier>
+			<semanticIdentifier>original::90 9005680</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9005680"/>
+			<field name="identifier.lattes" value="1882888993318479"/>
+			<field name="identifier.espacenet" value="9005680"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="REJUVENESCIMENTO DE ASFALTO"/>
+			<field name="title.lattes" value="Rejuvenescimento de asfalto"/>
+			<field name="depositDate" value="1990-11-09"/>
+			<field name="publicationDate" value="1992-06-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUILHERME GUSTAVO CAPUDI"/>
+			<field name="inventor" value="LENI FIGUEIREDO MATHIAS"/>
+			<field name="inventor" value="PAULO SERGIO SOARES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08L95/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="95"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C10C3/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="4050724"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9005680"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9005680"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9005680"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19909005680"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="90 9005680"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17604" type="Person">
+			<semanticIdentifier>lattes::1882888993318479</semanticIdentifier>
+			<field name="identifier.lattes" value="1882888993318479"/>
+			<field name="name" value="Leni Figueiredo Mathias Leite"/>
+		</entity>
+		<entity ref="OrgUnit13737" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25401" toEntityRef="Person17604" type="Inventor"/>
+		<relation fromEntityRef="Patent25401" toEntityRef="OrgUnit13737" type="Applicant"/>
+	</relations>
+</entity-relation-data>

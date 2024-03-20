@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:50" record="41848" source="Espacenet">
+	<entities>
+		<entity ref="Patent41848" type="Patent">
+			<semanticIdentifier>brcris::e8661a09797fb10affa6c5aa270bd990</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000602A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1000602</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000602A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI00602</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1000602-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1000602"/>
+			<field name="identifier.lattes" value="1590219732643156"/>
+			<field name="identifier.espacenet" value="PI1000602"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="detector para análise de sulfito"/>
+			<field name="title.lattes" value="DETECTOR PARA ANÁLISE DE SULFITO"/>
+			<field name="depositDate" value="2010-03-05"/>
+			<field name="publicationDate" value="2011-10-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HENRIQUE EISI TOMA"/>
+			<field name="inventor" value="KOITI ARAKI"/>
+			<field name="inventor" value="PAULO ROBERTO MARTINS"/>
+			<field name="inventor" value="SERGIO HIROSHI TOMA"/>
+			<field name="inventor" value="SERGIO HIROSHI TOMA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DETECTOR PARA ANáLISE DE SULFITO Detector para análise de sulfito, por meio de análise por injeção em fluxo (FIA),compreendendo peça superior, peça intermediária e peça superior, em que a peça intermediária (1) compreende um eletrodo de referência (12) instalado em uma passagem prevista na peça intermediária (1); e a peça inferior (L) compreende um eletrodo detector (13) instalado em uma passagem central prevista na peça inferior (L)."/>
+			<field name="originatesFrom" value="44838061"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000602"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1000602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000602"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI00602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1000602-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28504" type="Person">
+			<semanticIdentifier>lattes::1590219732643156</semanticIdentifier>
+			<field name="identifier.lattes" value="1590219732643156"/>
+			<field name="name" value="Sérgio Hiroshi Toma"/>
+		</entity>
+		<entity ref="OrgUnit22308" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit22309" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41848" toEntityRef="Person28504" type="Inventor"/>
+		<relation fromEntityRef="Patent41848" toEntityRef="OrgUnit22308" type="Applicant"/>
+		<relation fromEntityRef="Patent41848" toEntityRef="OrgUnit22309" type="Applicant"/>
+	</relations>
+</entity-relation-data>

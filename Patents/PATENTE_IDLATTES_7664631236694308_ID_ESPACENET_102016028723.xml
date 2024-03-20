@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:01" record="28875" source="Espacenet">
+	<entities>
+		<entity ref="Patent28875" type="Patent">
+			<semanticIdentifier>brcris::65b232ee367186f7e32b99d58e497555</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028723A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016028723</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028723A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161028723</semanticIdentifier>
+			<semanticIdentifier>original::102016028723</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016028723"/>
+			<field name="identifier.lattes" value="7664631236694308"/>
+			<field name="identifier.espacenet" value="102016028723"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de transformação bacteriana e transfecção celular utilizando nanopartícula híbrida"/>
+			<field name="title.lattes" value="PROCESSO DE TRANSFORMAÇÃO BACTERIANA POR CHOQUE TÉRMICO, TRANSFECÇÃO CELULAR UTILIZANDO COMO CARREADOR DE MATERIAL GÊNICO NANOPARTÍCULA HÍBRIDA"/>
+			<field name="depositDate" value="2016-12-07"/>
+			<field name="publicationDate" value="2019-02-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDESIA MARTINS BARROS DE SOUSA"/>
+			<field name="inventor" value="LUCIANA MARIA DE HOLLANDA"/>
+			<field name="inventor" value="MARCELO LANCELLOTTI"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA E PESQUISA - ITP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE TIRADENTES - UNIT"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/63AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="63AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y99/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="99"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de transformação bacteriana e transfecção celular utilizando nanopartícula híbrida. a presente invenção se refere a um processo de transformação bacteriana por choque térmico e transfecção celular utilizando como carreador de material gênico uma nanopartícula híbrida (orgânica e inorgânica) a base de sílica mesoporosa e hidrogéis poliméricos poli(n-isopropilacrilamida), denominada de [sba-15/p(nipaam)5x2]. o processo utilizando uma nanopartícula híbrida em sua categoria torna-se único em sua categoria, inovador e economicamente viável que atende os mercados mais exigentes e que abrange tanto células eucarióticas como células procarióticas"/>
+			<field name="originatesFrom" value="65322000"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028723"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016028723"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028723"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161028723"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016028723"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19925" type="Person">
+			<semanticIdentifier>lattes::7664631236694308</semanticIdentifier>
+			<field name="identifier.lattes" value="7664631236694308"/>
+			<field name="name" value="Marcelo Lancellotti"/>
+		</entity>
+		<entity ref="OrgUnit15573" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit15574" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28875" toEntityRef="Person19925" type="Inventor"/>
+		<relation fromEntityRef="Patent28875" toEntityRef="OrgUnit15573" type="Applicant"/>
+		<relation fromEntityRef="Patent28875" toEntityRef="OrgUnit15574" type="Applicant"/>
+	</relations>
+</entity-relation-data>

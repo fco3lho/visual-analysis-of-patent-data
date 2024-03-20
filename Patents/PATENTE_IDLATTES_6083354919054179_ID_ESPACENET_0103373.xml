@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:11" record="5801" source="Espacenet">
+	<entities>
+		<entity ref="Patent5801" type="Patent">
+			<semanticIdentifier>brcris::55b2f4ebad18272b3ac473de599b776b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0103373A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0103373</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0103373A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010103373</semanticIdentifier>
+			<semanticIdentifier>original::0103373-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0103373"/>
+			<field name="identifier.lattes" value="6083354919054179"/>
+			<field name="identifier.espacenet" value="0103373"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de recobrimento de metais com múltiplas camadas de polianilina eletropolimerizada"/>
+			<field name="title.lattes" value="Processo de recobrimento de metais com múltiplas camadas de polianilina eletropolimerizada"/>
+			<field name="depositDate" value="2001-06-20"/>
+			<field name="publicationDate" value="2003-03-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTUR DE JESUS MOTHEO"/>
+			<field name="inventor" value="DOMINGO HUERTA VILCA"/>
+			<field name="inventor" value="SANDRA REGINA DE MORAES"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B05D7/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09D179/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="179"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE RECOBRIMENTO DE METAIS COM MúLTIPLAS CAMADAS DE POLIANILINA ELETROPOLIMERIZADA&quot;. Trata-se de processo de recobrimento de metais com múltiplas camadas de poliamida eletropolimerizada, composto pelas seguintes etapas: a- Imersão na solução &quot;A&quot;; b- Eletropolimerização da primeira camada; c- Lavagem; d- Imersão na solução &quot;B&quot;; e- Eletropolimerização da segunda camada; f- Lavagem; g- Secagem; h- Desdopagem. Através deste processo são aplicadas múltiplas camadas de filmes de polianilina em metais com baixo potencial de oxidação, em especial aço carbono e inoxidável. Estas múltiplas camadas promovem maior rendimento na proteção contra corrosão bem como quanto a aderência. O processo ora proposto terá seu uso na proteção contra corrosão; de metais para uso industrial em geral, em especial na indústria automobilística."/>
+			<field name="originatesFrom" value="3947826"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0103373"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0103373"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0103373"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010103373"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0103373-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3839" type="Person">
+			<semanticIdentifier>lattes::6083354919054179</semanticIdentifier>
+			<field name="identifier.lattes" value="6083354919054179"/>
+			<field name="name" value="Artur de Jesus Motheo"/>
+		</entity>
+		<entity ref="OrgUnit2995" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5801" toEntityRef="Person3839" type="Inventor"/>
+		<relation fromEntityRef="Patent5801" toEntityRef="OrgUnit2995" type="Applicant"/>
+	</relations>
+</entity-relation-data>

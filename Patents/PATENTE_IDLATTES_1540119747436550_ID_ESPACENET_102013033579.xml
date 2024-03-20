@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:08" record="3525" source="Espacenet">
+	<entities>
+		<entity ref="Patent3525" type="Patent">
+			<semanticIdentifier>brcris::89e0fe160184c1f19c0257c5144ab41b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033579A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013033579</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033579A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131033579</semanticIdentifier>
+			<semanticIdentifier>original::102013033579</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013033579"/>
+			<field name="identifier.lattes" value="1540119747436550"/>
+			<field name="identifier.espacenet" value="102013033579"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de revestimento autorregenerante contendo inibuidor de corrosão"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DE REVESTIMENTO AUTORREGENERANTE CONTENDO INIBUIDOR DE CORROSÃO"/>
+			<field name="depositDate" value="2013-12-27"/>
+			<field name="publicationDate" value="2017-03-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE KOEBSCH"/>
+			<field name="inventor" value="FERNANDO COTTING"/>
+			<field name="inventor" value="IDALINA VIEIRA AOKI"/>
+			<field name="inventor" value="JORGE FERNANDO PEREIRA COELHO"/>
+			<field name="inventor" value="MARLY GRINAPEL LACHTERMACHER"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09D5/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09D163/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="163"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C23F11/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de revestimento autorregenerante contendo inibidor de corrosão a presente invenção trata de um processo para obtenção de um revestimento autorregenerante para ser aplicado a superfícies metálicas com a finalidade de torná-la mais resistente à corrosão. mais particularmente, um revestimento autorregenerante que compreende um sistema formado a partir da mistura líquida de silanol e íons de cério (iii), que atua como inibidor de corrosão quando encapsulados em microcápsulas de poliestireno. essas microcápsulas, incorporadas em um sistema de pintura aplicado em estruturas de aço, liberam os inibidores de corrosão quando este sistema sofrer algum dano físico, diminuindo a velocidade de corrosão do metal."/>
+			<field name="originatesFrom" value="58191908"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033579"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013033579"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033579"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131033579"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013033579"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2489" type="Person">
+			<semanticIdentifier>lattes::1540119747436550</semanticIdentifier>
+			<field name="identifier.lattes" value="1540119747436550"/>
+			<field name="name" value="André Koebsch"/>
+		</entity>
+		<entity ref="OrgUnit1991" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit1992" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3525" toEntityRef="Person2489" type="Inventor"/>
+		<relation fromEntityRef="Patent3525" toEntityRef="OrgUnit1991" type="Applicant"/>
+		<relation fromEntityRef="Patent3525" toEntityRef="OrgUnit1992" type="Applicant"/>
+	</relations>
+</entity-relation-data>

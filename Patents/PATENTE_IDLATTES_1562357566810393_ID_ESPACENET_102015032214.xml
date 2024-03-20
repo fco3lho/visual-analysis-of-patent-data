@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:59" record="27986" source="Espacenet">
+	<entities>
+		<entity ref="Patent27986" type="Patent">
+			<semanticIdentifier>brcris::c2aa212b571ccae193f527c11ea66d77</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032214A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015032214</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032214A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151032214</semanticIdentifier>
+			<semanticIdentifier>original::102015032214</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015032214"/>
+			<field name="identifier.lattes" value="1562357566810393"/>
+			<field name="identifier.espacenet" value="102015032214"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema completo para geração de imagens, com registro global georreferenciado, obtidas a partir de um vant de pequeno porte"/>
+			<field name="title.lattes" value="SISTEMA COMPLETO PARA GERAÇÃO DE IMAGENS, COM REGISTRO GLOBAL GEORREFERENCIADO, OBTIDAS A PARTIR DE UM VANT DE PEQUENO PORTE"/>
+			<field name="depositDate" value="2015-12-22"/>
+			<field name="publicationDate" value="2017-11-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO MARQUES FERREIRA DA SILVA"/>
+			<field name="inventor" value="JULIO CESAR PAULINO DE MELO"/>
+			<field name="inventor" value="LUIZ EDUARDO CUNHA LEITE"/>
+			<field name="inventor" value="LUIZ MARCOS GARCIA GONCALVES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01C11/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T17/05AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="05AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema completo para geração de imagens, com registro global georreferenciado, obtidas a partir de um vant de pequeno porte a presente invenção refere-se a um sistema de geração de imagens, com registro global georreferenciado, obtidas a partir de um vant de pequeno porte. o uso de tal sistema permite a utilização de aeronaves pequenas para realização de mapeamento e monitoramento de áreas da superfície terrestre. a invenção compreende o desenvolvimento e construção de um protótipo de uma aeronave especialmente projetada para conter os componentes relativos à aplicação de mapeamento e monitoramento, bem como o sistema de processamento de imagens dedicado ao registro global georreferenciado das imagens obtidas a partir da aeronave, sem uso de dispositivo de estabilização e equilíbrio e com o armazenamento das imagens geradas e pós-processamento na estação de controle, com utilização da técnica de reconstrução de mosaico de imagens e posterior conversão em mosaico georreferenciado."/>
+			<field name="originatesFrom" value="62529861"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032214"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015032214"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032214"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151032214"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015032214"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19305" type="Person">
+			<semanticIdentifier>lattes::1562357566810393</semanticIdentifier>
+			<field name="identifier.lattes" value="1562357566810393"/>
+			<field name="name" value="Luiz Marcos Garcia Goncalves"/>
+		</entity>
+		<entity ref="OrgUnit15020" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27986" toEntityRef="Person19305" type="Inventor"/>
+		<relation fromEntityRef="Patent27986" toEntityRef="OrgUnit15020" type="Applicant"/>
+	</relations>
+</entity-relation-data>

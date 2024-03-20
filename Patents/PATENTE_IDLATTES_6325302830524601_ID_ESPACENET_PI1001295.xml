@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:08" record="20143" source="Espacenet">
+	<entities>
+		<entity ref="Patent20143" type="Patent">
+			<semanticIdentifier>brcris::a3911101250f2adb7fa59139f67c79ca</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001295A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001295</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001295A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01295</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001295-8 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001295"/>
+			<field name="identifier.lattes" value="6325302830524601"/>
+			<field name="identifier.espacenet" value="PI1001295"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="TRANSPONDER AUTOMOTIVO"/>
+			<field name="title.lattes" value="TRANSPONDER AUTOMOTIVO"/>
+			<field name="depositDate" value="2010-04-13"/>
+			<field name="publicationDate" value="2014-02-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="IVANDO SEVERINO DINIZ"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO-UNESP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B1/59AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="59AI"/>
+			</field>
+			<field name="abstract.espacenet" value="TRANSPONDER AUTOMOTIVO objeto da presente patente de invenção é um equipamento embarcado que faz comunicação com outros transponders automotivos. Funciona de forma autônoma independente do meio instalado: motocicleta, iate, barco, navio, veículos. O software desenvolvido é constituído de sub-rotinas para recepção dos dados dos satélites através do circuito integrado GPS: latitude e longitude, sub-rotina para transmissão dos dados para os outros veículos (Transponder Automotivo), sub-rotina para calcular as distâncias entre veículos entre outros veículos que possui o transponder Automotivo, sub-rotina para mostrar os posicionamentos dos veículos na sua proximidade no LCD e representação em barra de Ieds, sub-rotina para recepção dos dados dos outros veículos que possui o transponder Automotivo, sub-rotina para enviar código digital para outros veículos como que possui o transponder Automotivo: cuidado, atenção, nevoeiro, devagar. Cada transponder automotivo possui: microcontrolador, circuito integrado para GSP, circuito Integrado de Radio Frequência, Display de Cristal Liquido ([CD), Leds e buzer; Obter a posição do veiculo (Latitude e Longitude) via circuito integrado (GPS), calcular a sua localização, mostrar as posições do veículos no LCD e envia a posição e velocidade para os veículos via radio freqúência; Receber a posição e velocidade dos veículos que tenha Transponder Automotivo Instalado e mostrar os dados no LCD. Representar em barra de Ieds as posições dos veículos, onde esses pontos se deslocam em função da posição dos veículos."/>
+			<field name="originatesFrom" value="50137339"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001295"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001295"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001295"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01295"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001295-8 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13994" type="Person">
+			<semanticIdentifier>lattes::6325302830524601</semanticIdentifier>
+			<field name="identifier.lattes" value="6325302830524601"/>
+			<field name="name" value="Ivando Severino Diniz"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20143" toEntityRef="Person13994" type="Inventor"/>
+	</relations>
+</entity-relation-data>

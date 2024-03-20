@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:18" record="6501" source="Espacenet">
+	<entities>
+		<entity ref="Patent6501" type="Patent">
+			<semanticIdentifier>brcris::67cae777e24fecb856b388eb411f258e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016023243A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016023243</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016023243A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161023243</semanticIdentifier>
+			<semanticIdentifier>original::102016023243</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016023243"/>
+			<field name="identifier.lattes" value="3170191759439254"/>
+			<field name="identifier.espacenet" value="102016023243"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="módulo de comunicação para ar-condicionado"/>
+			<field name="title.lattes" value="Módulo de comunicação para ar condicionado"/>
+			<field name="depositDate" value="2016-10-05"/>
+			<field name="publicationDate" value="2018-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO EDUARDO MEDINA"/>
+			<field name="inventor" value="DOUGLAS SOZZI PACIFICO"/>
+			<field name="applicant" value="ROBERT BOSCH LIMITADA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08C17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F24F11/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="módulo de comunicação para ar-condicionado. a presente invenção refere-se a um módulo de comunicação (1) para ar-condicionado que compreende: pelo menos um dispositivo receptor e transmissor de sinais sem fio (2), sendo o dito dispositivo receptor e transmissor (2) projetado para receber e emitir sinais de configuração; pelo menos um emissor de sinais de comando (3); pelo menos um controlador (4) conectado ao dito pelo menos um dispositivo receptor e transmissor (2) e ao dito pelo menos um emissor de sinais de comando (3), sendo o controlador (4) configurado para converter os sinais de configuração em sinais de comando, em que, o pelo menos um emissor de sinais de comando (3) é disposto voltado a pelo menos um receptor de sinais de comando (6) de um aparelho de ar-condicionado (5), sendo ainda que o controlador (4) é configurado para enviar sinais de comando ao aparelho de ar-condicionado (5) por meio dos ditos emissor (3) e receptor de sinais de comando (6); e o dispositivo receptor e transmissor de sinais sem fio (2) é configurado para receber e emitir sinais a pelo menos um outro módulo de comunicação (1)."/>
+			<field name="originatesFrom" value="62103548"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016023243"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016023243"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016023243"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161023243"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016023243"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4328" type="Person">
+			<semanticIdentifier>lattes::3170191759439254</semanticIdentifier>
+			<field name="identifier.lattes" value="3170191759439254"/>
+			<field name="name" value="Bruno Eduardo Medina"/>
+		</entity>
+		<entity ref="OrgUnit3390" type="OrgUnit">
+			<semanticIdentifier>brcris::d70a96c9daaf0acf7f1f57ea6ed071a3</semanticIdentifier>
+			<field name="name" value="ROBERT BOSCH LIMITADA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6501" toEntityRef="Person4328" type="Inventor"/>
+		<relation fromEntityRef="Patent6501" toEntityRef="OrgUnit3390" type="Applicant"/>
+	</relations>
+</entity-relation-data>

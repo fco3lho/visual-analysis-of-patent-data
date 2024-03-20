@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:01" record="18836" source="Espacenet">
+	<entities>
+		<entity ref="Patent18836" type="Patent">
+			<semanticIdentifier>brcris::e80d1bf28e320149005018fc46a8594f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001023A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001023</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001023A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01023</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001023-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001023"/>
+			<field name="identifier.lattes" value="8887742291676829"/>
+			<field name="identifier.espacenet" value="PI1001023"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para adequar uma instalação de produção marìtima de petróleo"/>
+			<field name="title.lattes" value="MÉTODO PARA ADEQUAR UMA INSTALAÇÃO DE PRODUÇÃO MARÍTIMA DE PETRÓLEO"/>
+			<field name="depositDate" value="2010-04-14"/>
+			<field name="publicationDate" value="2011-12-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BYRON ROSEMBERG DOS SANTOS COSTA"/>
+			<field name="inventor" value="FERNANDO PROTTI CHIRSTINO"/>
+			<field name="inventor" value="HELGA ELISABETH PINHEIRO SCHLUTER"/>
+			<field name="inventor" value="MARCEL VASCONCELOS MELO"/>
+			<field name="inventor" value="OSWALDO DE AQUINO PEREIRA JUNIOR"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B44/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="44"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA ADEQUAR UMA INSTALAçãO DE PRODUçãO MARìTIMA DE PETRóLEO. A presente invenção visa adequar uma instalação de produção marítima de petróleo (offshore), já em operação, especificamente sua planta de processamento de líquido, a novas condições de produção que surgem ao longo da vida produtiva de um campo de petróleo. Para tanto em função da variação das quantidades de água e óleo produzidos, no decorrer do tempo de produção, equipamentos destinados ao tratamento de óleo podem ser convertidos em equipamentos para tratamento de água."/>
+			<field name="originatesFrom" value="45062584"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001023"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001023"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001023"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01023"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001023-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13071" type="Person">
+			<semanticIdentifier>lattes::8887742291676829</semanticIdentifier>
+			<field name="identifier.lattes" value="8887742291676829"/>
+			<field name="name" value="Helga Schlüter"/>
+		</entity>
+		<entity ref="OrgUnit10199" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18836" toEntityRef="Person13071" type="Inventor"/>
+		<relation fromEntityRef="Patent18836" toEntityRef="OrgUnit10199" type="Applicant"/>
+	</relations>
+</entity-relation-data>

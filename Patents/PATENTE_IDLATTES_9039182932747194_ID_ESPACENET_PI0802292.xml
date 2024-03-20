@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:27" record="21716" source="Espacenet">
+	<entities>
+		<entity ref="Patent21716" type="Patent">
+			<semanticIdentifier>brcris::715e24772e5de3fcf8123b6844d62999</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802292A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0802292</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802292A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI02292</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0802292-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0802292"/>
+			<field name="identifier.lattes" value="9039182932747194"/>
+			<field name="identifier.espacenet" value="PI0802292"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para diagnàstico de parasitos intestinais por anÁlise computadorizada de imagens e uso do referido sistema"/>
+			<field name="title.lattes" value="Sistema para Diagnóstico de Parasitos Intestinais por Análise Computadorizada de Imagens e Uso de Referido Sistema"/>
+			<field name="depositDate" value="2008-07-23"/>
+			<field name="publicationDate" value="2010-03-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE XAVIER FALCAO"/>
+			<field name="inventor" value="CELSO TETSUO NAGASE SUZUKI"/>
+			<field name="inventor" value="JANCARLO FERREIRA GOMES"/>
+			<field name="inventor" value="JOAO PAULO PAPA"/>
+			<field name="inventor" value="LUIZ CANDIDO DE SOUZA DIAS"/>
+			<field name="inventor" value="SUMIE HOSHINO SHIMIZU"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/48AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T7/60AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA PARA DIAGNàSTICO DE PARASITOS INTESTINAIS POR ANÁLISE COMPUTADORIZADA DE IMAGENS E USO DO REFERIDO SISTEMA. O presente relatório revela um conjunto de elementos estruturais que combinados com procedimentos laboratoriais em uma dada ordem, formam um sistema para diagnóstico de parasitos intestinais de humanos e animais por análise computadorizada de imagens. Adicionalmente, o sistema de diagnóstico é capaz de definir o diagnóstico por meio de lâminas convencionais de microscopia, de maneira a eliminar a necessidade da bomba peristáltica, reduzindo consideravelmente o custo do sistema, sem perda de eficácia diagnóstica. O módulo de análise de imagens utiliza elipses como marcadores para um melhor delineamento dos componentes e para diminuir a quantidade de impurezas aderidas aos parasitos, e assim eliminar a etapa de divisão de componentes. Adicionalmente, a presente invenção refere-se ao uso do sistema para diagnóstico ora também objeto da presente invenção para detectar a presença de estruturas de parasitos nas imagens, isolar essas estruturas dos demais componentes da imagem, reconhecer a espécie parasitária, armazenar as imagens e emitir um relatório final concluindo o diagnóstico."/>
+			<field name="originatesFrom" value="42036015"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802292"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0802292"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802292"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI02292"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0802292-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15047" type="Person">
+			<semanticIdentifier>lattes::9039182932747194</semanticIdentifier>
+			<field name="identifier.lattes" value="9039182932747194"/>
+			<field name="name" value="João Paulo Papa"/>
+		</entity>
+		<entity ref="OrgUnit11762" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21716" toEntityRef="Person15047" type="Inventor"/>
+		<relation fromEntityRef="Patent21716" toEntityRef="OrgUnit11762" type="Applicant"/>
+	</relations>
+</entity-relation-data>

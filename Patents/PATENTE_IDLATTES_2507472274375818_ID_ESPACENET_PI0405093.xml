@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:03" record="5103" source="Espacenet">
+	<entities>
+		<entity ref="Patent5103" type="Patent">
+			<semanticIdentifier>brcris::aefad8cb5bdc8d0fe3783e743bda0c75</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405093A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0405093</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405093A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI05093</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0405093-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0405093"/>
+			<field name="identifier.lattes" value="2507472274375818"/>
+			<field name="identifier.espacenet" value="PI0405093"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="estrutura de pacote óptico com cabeçalho de endereçamento por frequência; arquitetura de nó, método e dispositivo para roteamento de pacotes ópticos com cabeçalho de endereçamento por frequência em redes fotÈnicas"/>
+			<field name="title.lattes" value="ESTRUTURA DE PACOTE ÓPTICO COM CABEÇALHO DE ENDEREÇAMENTO POR FREQUENCIA; ARQUITETURA DE NÓ, MÉTODO E DISPOSITIVO PARA ROTEAMENTO DE PACOTES ÓPTICOS COM CABEÇALHO DE ENDEREÇAMENTO POR FREQUÊNCIA EM REDES FOTÔNICAS"/>
+			<field name="depositDate" value="2004-09-02"/>
+			<field name="publicationDate" value="2006-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO DE CAMPOS SACHS"/>
+			<field name="inventor" value="FELIPE RUDGE BARBOSA"/>
+			<field name="inventor" value="LEONARDO PEZZOLO"/>
+			<field name="applicant" value="FUNDACAO CPDQ-CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04J14/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ESTRUTURA DE PACOTE óPTICO COM CABEçALHO DE ENDEREçAMENTO POR FREQUENCIA; ARQUITETURA DE Nó, MéTODO E DISPOSITIVO PARA ROTEAMENTO DE PACOTES óPTICOS COM CABEçALHO DE ENDEREçAMENTO POR FREQUêNCIA EM REDES FOTÈNICAS&quot;. Na qual o pacote óptico (1a, 1b, 1c) possui um cabeçalho contendo o endereçamento com base no qual o nó estabelece a configuração necessária para enviar o pacote óptico (1a, 1b, 1c) para o seu destino, que pode ser a saída do próprio nó ou outro nó da rede óptica, sendo o pacote óptico (1a, 1b, 1c) constituído de um quadro temporal único (Tp1, Tp2, Tp3) com duração de pelo menos 1 &lt;109&gt;s, o qual é precedido por um tempo de guarda inicial (Tgi) e sucedido por um tempo de guarda final (Tgf), dito pacote óptico (1a, 1b, 1c) compreendendo pelo menos: uma estrutura de campo de cabeçalho (header) contendo pelo menos a frequência de endereçamento (2a) na faixa de 1 a 100 MHz; e um campo de carga útil (payload) (3) contendo a carga útil digital. De acordo com outra característica da presente invenção, a 'ARQUITETURA DE Nó PARA ROTEAMENTO DE PACOTES óPTICOS COM CABEçALHO DE ENDEREçAMENTO POR FREQUêNCIA EM REDES FOTÈNICAS', compreende nós constituídos de pelo menos: - um bloco de comutação (11) responsável pelo encaminhamento do pacote óptico (1a, 1b, 1c); - um bloco de controle de comutação (13) onde são processadas as freqüências de endereçamento (2a) contendo o endereço de destino do pacote óptico (1a, 1b, 1c), de encerramento (2b) que sinaliza o final do pacote óptico (1a, 1b, 1c), de dimensionamento (2c) através da qual o nó é informado do tamanho (duração) do pacote óptico (1a, 1b, 1c), e demais freqüências nas faixa de 1 a 100 MHz, contidas no pacote óptico (1a, 1b, 1c); - um bloco de deriva (18) através do qual o pacote óptico (1a, 1b, 1c) destinado ao nó é removido da rede óptica e encaminhado para seu destinatário; - dois blocos geradores (4a, 4b) através dos quais novos pacotes ópticos (1a, 1b, 1c), são gerados e inseridos na rede óptica. De acordo com mais outra característica da presente invenção, no 'MéTODO E DISPOSITIVO PARA ROTEAMENTO DE PACOTES óPTICOS COM CABEçALHO DE ENDEREçAMENTO POR FREQUêNCIA EM REDES FOTÈNICAS' o pacote óptico (1a, 1b, 1c) é montado no bloco gerador (4a, 4b) onde é modulado com base no pacote digital proveniente do cliente, sendo em seguida inserido na rede óptica sendo encaminhado para outro nó, onde é recebido pelo bloco de comutação (11) no qual tem parte da sua potencia óptica (réplica do pacote) desviada para o bloco de controle de comutação (13), sendo o restante do pacote óptico (1a, 1b, 1c) encaminhado para uma linha óptica de retardo (15a) que prove um atraso na propagação do pacote óptico (1a, 1b, 1c), atraso este constituído no mìnimo pelo tempo do cabeçalho somado ao tempo de guarda inicial (Tgi), de maneira a ser suficiente para que o bloco de controle de comutação (13) tenha tempo de processar a réplica do pacote óptico (1a, 1b, 1c), e obter o endereço com base no qual comanda o bloco de comutação (11) para estabelecer o encaminhamento do pacote óptico (1a, 1b, 1c) para o seu destino, encaminhamento este que serão as saídas 'C' ou 'D' se o destino for outro nó e saída 'D' se o destino for o próprio nó, dita saída 'D' à qual se encontra conectado o bloco de deriva (18) que encaminha para a rede os pacotes destinados a outro nó e extrai da rede os pacotes destinados ao próprio nó, transformado-os de sinal óptico para sinal digital, e encaminhado-os para o seu destinatário."/>
+			<field name="originatesFrom" value="36273221"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405093"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0405093"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405093"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI05093"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0405093-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3320" type="Person">
+			<semanticIdentifier>lattes::2507472274375818</semanticIdentifier>
+			<field name="identifier.lattes" value="2507472274375818"/>
+			<field name="name" value="Antonio de Campos Sachs"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5103" toEntityRef="Person3320" type="Inventor"/>
+	</relations>
+</entity-relation-data>

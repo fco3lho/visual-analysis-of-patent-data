@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:08" record="28940" source="Espacenet">
+	<entities>
+		<entity ref="Patent28940" type="Patent">
+			<semanticIdentifier>brcris::5a73b1e032cfe25a598fa93e7965b676</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9304130A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9304130</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9304130A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939304130</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9304130"/>
+			<field name="identifier.lattes" value="9106754041376544"/>
+			<field name="identifier.espacenet" value="9304130"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Traçador gráfico controlado por microcomputador"/>
+			<field name="title.lattes" value="O Traçador Gráfico Scribo"/>
+			<field name="depositDate" value="1993-10-04"/>
+			<field name="publicationDate" value="1995-06-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="WERNECK MARCELO MARTINS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K15/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="originatesFrom" value="4057531"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9304130"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9304130"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9304130"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939304130"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19972" type="Person">
+			<semanticIdentifier>lattes::9106754041376544</semanticIdentifier>
+			<field name="identifier.lattes" value="9106754041376544"/>
+			<field name="name" value="Marcelo Martins Werneck"/>
+		</entity>
+		<entity ref="OrgUnit15624" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28940" toEntityRef="Person19972" type="Inventor"/>
+		<relation fromEntityRef="Patent28940" toEntityRef="OrgUnit15624" type="Applicant"/>
+	</relations>
+</entity-relation-data>

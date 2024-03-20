@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:06" record="20844" source="Espacenet">
+	<entities>
+		<entity ref="Patent20844" type="Patent">
+			<semanticIdentifier>brcris::941121bbdea87bf55663558f932a46fd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018011306A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018011306</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018011306A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181011306</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018011306"/>
+			<field name="identifier.lattes" value="1281795173625067"/>
+			<field name="identifier.espacenet" value="102018011306"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de gerenciamento de consumo de líquidos"/>
+			<field name="title.lattes" value="SISTEMA DE GERENCIAMENTO DE CONSUMO DE LÍQUIDOS"/>
+			<field name="depositDate" value="2018-06-04"/>
+			<field name="publicationDate" value="2019-12-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIOLA GONCALVES PEREIRA GREVE"/>
+			<field name="inventor" value="JAUBERTH WEYLL ABIJAUDE"/>
+			<field name="inventor" value="PERICLES DE LIMA SOBREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE SANTA CRUZ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F15/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de gerenciamento de consumo de líquidos sistema de gerenciamento de consumo de líquidos compreendendo um sistema de monitoramento remoto de um ou mais pontos de entrada/saída de líquidos equipados com sensores de fluxo, dispositivos eletromecânicos e um ou mais reservatórios de líquido equipado com sensor de nível e sensores eletrônicos para medir propriedades físico-químicas, caracterizado por informar ativamente o seu comportamento, os dados sensoriados e/ou os fenômenos físico-químico por meio de sistema de comunicação com ou sem fio e um middleware capaz de tomar decisões, detectar falhas e construir um histórico de consumo."/>
+			<field name="originatesFrom" value="68655181"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018011306"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018011306"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018011306"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181011306"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14432" type="Person">
+			<semanticIdentifier>lattes::1281795173625067</semanticIdentifier>
+			<field name="identifier.lattes" value="1281795173625067"/>
+			<field name="name" value="Jauberth Weyll Abijaude"/>
+		</entity>
+		<entity ref="OrgUnit11309" type="OrgUnit">
+			<semanticIdentifier>brcris::2de9b3dbc4244d8e963f4d7a1b8caecc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE SANTA CRUZ"/>
+		</entity>
+		<entity ref="OrgUnit11310" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20844" toEntityRef="Person14432" type="Inventor"/>
+		<relation fromEntityRef="Patent20844" toEntityRef="OrgUnit11309" type="Applicant"/>
+		<relation fromEntityRef="Patent20844" toEntityRef="OrgUnit11310" type="Applicant"/>
+	</relations>
+</entity-relation-data>

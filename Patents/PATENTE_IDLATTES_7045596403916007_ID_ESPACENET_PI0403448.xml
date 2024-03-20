@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:21" record="32215" source="Espacenet">
+	<entities>
+		<entity ref="Patent32215" type="Patent">
+			<semanticIdentifier>brcris::ba644d937a50e901755a9942fd52a1d7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403448A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0403448</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403448A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI03448</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0403448-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0403448"/>
+			<field name="identifier.lattes" value="7045596403916007"/>
+			<field name="identifier.espacenet" value="PI0403448"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de visão portátil"/>
+			<field name="title.lattes" value="SISTEMA DE VISÃO PORTÁTIL"/>
+			<field name="depositDate" value="2004-07-30"/>
+			<field name="publicationDate" value="2006-03-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL GOMES DE MORAES"/>
+			<field name="inventor" value="EDER FABIANO SOUZA COSTA"/>
+			<field name="inventor" value="FABRICIO LUCHESI FORGERINI"/>
+			<field name="inventor" value="GUILHERME FRANCISCO MALLMANN"/>
+			<field name="inventor" value="IGOR GAVAZZI VAZZOLER"/>
+			<field name="inventor" value="JOSE LUIZ BITTENCOURT"/>
+			<field name="inventor" value="LUCAS HIDEAKI TORIY"/>
+			<field name="inventor" value="MARCELO PIRES ADUR"/>
+			<field name="inventor" value="MARCELO RICARDO STEMMER"/>
+			<field name="inventor" value="MARIO LUCIO ROLOFF"/>
+			<field name="inventor" value="RAFAEL MOREIRA MIGGIORIN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/78AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="78AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA DE VISãO PORTáTIL&quot;. A presente invenção, um sistema de visão foi desenvolvido em uma plataforma PDA (Personal Digital Assistant) de maneira a ser portátil, de baixo custo e fácil comunicação com dispositivos. Esta invenção foi desenvolvida de modo a se comunicar com dispositivos em uma linha de produção por meio de seu módulo de sinais (5) e (6) convertendo sinais da interface USB para sinais de I/O discretos. Da mesma maneira, a placa wireless (9) faz a comunicação com um computador no qual esteja instalado o sistema gerenciador, que gera relatórios e disponibiliza informações em tempo real do estado de cada PDA. A câmera acoplada (2) ao PDA adquire a imagem que é processada pelo sistema por meio de ferramentas de software, as quais analisam a imagem e, por meio dos dispositivos de comunicação (5) e (9), retornam o resultado da inspeção. A invenção pode funcionar acoplada à uma linha de produção (1) ou de forma portátil (2)."/>
+			<field name="originatesFrom" value="36091873"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403448"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0403448"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403448"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI03448"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0403448-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22131" type="Person">
+			<semanticIdentifier>lattes::7045596403916007</semanticIdentifier>
+			<field name="identifier.lattes" value="7045596403916007"/>
+			<field name="name" value="Mario Lucio Roloff"/>
+		</entity>
+		<entity ref="OrgUnit17324" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32215" toEntityRef="Person22131" type="Inventor"/>
+		<relation fromEntityRef="Patent32215" toEntityRef="OrgUnit17324" type="Applicant"/>
+	</relations>
+</entity-relation-data>

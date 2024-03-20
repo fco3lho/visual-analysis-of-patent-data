@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:31" record="34274" source="Espacenet">
+	<entities>
+		<entity ref="Patent34274" type="Patent">
+			<semanticIdentifier>brcris::fe862282770384d38201aa9136c1de5b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9501741A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9501741</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9501741A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959501741</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9501741"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="9501741"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema orbital universal para operações em superfícies cilíndricas submarinas"/>
+			<field name="title.lattes" value="Sistema orbital universal para operações em superfícies cilíndricas submarinas."/>
+			<field name="depositDate" value="1995-04-20"/>
+			<field name="publicationDate" value="1997-08-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DOS REIS NEY ROBINSON SALVI"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B41/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="originatesFrom" value="4061248"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9501741"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9501741"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9501741"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959501741"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23581" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18482" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34274" toEntityRef="Person23581" type="Inventor"/>
+		<relation fromEntityRef="Patent34274" toEntityRef="OrgUnit18482" type="Applicant"/>
+	</relations>
+</entity-relation-data>

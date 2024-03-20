@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:20" record="5293" source="Espacenet">
+	<entities>
+		<entity ref="Patent5293" type="Patent">
+			<semanticIdentifier>brcris::c3d689f84b5a185844f5f91614e7d252</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003601A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015003601</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003601A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151003601</semanticIdentifier>
+			<semanticIdentifier>original::102015003601</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015003601"/>
+			<field name="identifier.lattes" value="7208901737786863"/>
+			<field name="identifier.espacenet" value="102015003601"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de avaliação econômica de saúde em produção avícola"/>
+			<field name="title.lattes" value="Sistema de avaliação econômica de saúde em aves produzidas em sistema intensivos"/>
+			<field name="depositDate" value="2015-02-20"/>
+			<field name="publicationDate" value="2017-01-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO LEONARDO KRAIESKI"/>
+			<field name="inventor" value="ELIZABETH SANTIN"/>
+			<field name="inventor" value="RICARDO MITSUO HAYASHI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K31/18AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05D27/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de avaliação econômica de saúde em produção avícola sistema desenvolvido para avaliar o estado de saúde de aves produzidas em sistemas intensivos e realizar análises econômicas do impacto deste sobre o desempenho e qualidade de produtos destes animais. este sistema é caracterizado por avaliação holística, onde todos os dados existentes no sistema de produção são processados e se estabelece uma metodologia clara de coleta de amostras (para avaliação clínica, coleta de tecidos, sangue, fezes, etc) que permite a determinação do fator mais impactante na saúde e desempenho destes animais. como exemplo, sugere-se metodologia de avaliação de análises macroscópicas (necropsia) e microscópicas (histopatologia), onde são atribuídos graus de intensidade de lesões e sua correlação com graus de severidade, estabelecendo um valor numérico total de alterações. todos os dados são submetidos à análise estatística para comparar o(s) fator(es) a serem avaliados. em caso de existir diferença estatística para o(s) fator(es) busca-se avaliar o impacto econômico do mesmo e a busca por soluções com viabilidade técnica e econômica. 0 isi - i see inside vem com a proposta de gerar uma ferramenta padrão de gerenciamenfo de dados para unificação dos fatores que interferem na produtividade das aves de forma estratégica."/>
+			<field name="originatesFrom" value="57847857"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003601"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015003601"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003601"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151003601"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015003601"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3449" type="Person">
+			<semanticIdentifier>lattes::7208901737786863</semanticIdentifier>
+			<field name="identifier.lattes" value="7208901737786863"/>
+			<field name="name" value="Antonio Leonardo Kraieski"/>
+		</entity>
+		<entity ref="OrgUnit2726" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5293" toEntityRef="Person3449" type="Inventor"/>
+		<relation fromEntityRef="Patent5293" toEntityRef="OrgUnit2726" type="Applicant"/>
+	</relations>
+</entity-relation-data>

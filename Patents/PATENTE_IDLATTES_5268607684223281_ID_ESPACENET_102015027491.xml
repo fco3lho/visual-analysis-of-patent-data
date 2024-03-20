@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:05" record="7461" source="Espacenet">
+	<entities>
+		<entity ref="Patent7461" type="Patent">
+			<semanticIdentifier>brcris::267ed9479fa8d8d586025f65ca0433e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015027491A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015027491</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015027491A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151027491</semanticIdentifier>
+			<semanticIdentifier>original::102015027491</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015027491"/>
+			<field name="identifier.lattes" value="5268607684223281"/>
+			<field name="identifier.espacenet" value="102015027491"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento automático para deposição de filmes finos"/>
+			<field name="title.lattes" value="Equipamento automático para deposição de filmes finos"/>
+			<field name="depositDate" value="2015-10-29"/>
+			<field name="publicationDate" value="2017-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS FREDERICO DE OLIVEIRA GRAEFF"/>
+			<field name="inventor" value="MIRKO CONGIU"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L21/20AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="equipamento automático para deposição de filmes finos é descrita a invenção de um equipamento automático para deposição de filmes finos que compreende uma estrutura microcontrolada programável através de um painel (100), apresentando face superior provida de um braço mecânico (10) atuado por servo-motores (sm) para operar nos eixos x, y e z para a coleta e o processamento dos substratos (200), uma pinça (20) disposta na extremidade livre do braço (10) que segura a amostra até o fim dos ciclos de deposição e permite o contato elétrico com um dos pólos da fonte para a aplicação da tensão durante a eletrodeposição, e um suporte (30) para os contentores das soluções precursoras (110) a serem dispostos na face superior do equipamento, executando as técnicas de deposição s.i.l.a.r. (sucessive ionic layer absorption and reaction), dip-coating e eletrodeposição no mesmo equipamento e na mesma amostra, permitindo depositar camadas de materiais diferentes, com técnicas diferentes, bem como a aplicação de técnicas híbridas usando vários materiais ao mesmo tempo."/>
+			<field name="originatesFrom" value="58629766"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015027491"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015027491"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015027491"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151027491"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015027491"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017070764"/>
+		</entity>
+		<entity ref="Person5013" type="Person">
+			<semanticIdentifier>lattes::5268607684223281</semanticIdentifier>
+			<field name="identifier.lattes" value="5268607684223281"/>
+			<field name="name" value="Carlos Frederico de Oliveira Graeff"/>
+		</entity>
+		<entity ref="OrgUnit3964" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+		<entity ref="Patent7462" type="Patent">
+			<semanticIdentifier>epodoc::WO2017070764</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="58629766"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017070764"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7461" toEntityRef="Person5013" type="Inventor"/>
+		<relation fromEntityRef="Patent7461" toEntityRef="OrgUnit3964" type="Applicant"/>
+	</relations>
+</entity-relation-data>

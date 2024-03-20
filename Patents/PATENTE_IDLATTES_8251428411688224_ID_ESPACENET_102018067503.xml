@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:18:04" record="41010" source="Espacenet">
+	<entities>
+		<entity ref="Patent41010" type="Patent">
+			<semanticIdentifier>brcris::a4135873db59490b1c770853eab942cd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067503A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018067503</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067503A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181067503</semanticIdentifier>
+			<semanticIdentifier>original::102018067503</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018067503"/>
+			<field name="identifier.lattes" value="8251428411688224"/>
+			<field name="identifier.espacenet" value="102018067503"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="uso de compostos sintéticos hidroxilados derivados da indan-1,3-diona como antivirais e composições farmacêuticas"/>
+			<field name="title.lattes" value="HUMANIZAR COMO UMA PROPOSTA DE QUALIDADE DE VIDA"/>
+			<field name="depositDate" value="2018-09-03"/>
+			<field name="publicationDate" value="2020-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA FLAVIA COSTA DA SILVEIRA OLIVEIRA"/>
+			<field name="inventor" value="ANA PAULA MARTINS DE SOUZA"/>
+			<field name="inventor" value="ANDRE SILVA DE OLIVEIRA"/>
+			<field name="inventor" value="FABRICIO MARQUES DE OLIVEIRA"/>
+			<field name="inventor" value="MILENE LOPES DA SILVA"/>
+			<field name="inventor" value="ROBSON RICARDO TEIXEIRA"/>
+			<field name="inventor" value="SERGIO OLIVEIRA DE PAULA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE MINAS GERAIS"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DO NORTE DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/122AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="122AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="uso de compostos sintéticos hidroxilados derivados da indan-1,3-diona como antivirais e composições farmacêuticas a presente invenção refere-se ao uso de dois derivados sintéticos hidroxilados da indan-1,3-diona e de composições farmacêuticas contendo tais compostos para o tratamento de infecções causadas pelos vírus west nile (wnv), dengue (denv) e zika (zikv) e abrange o campo da química medicinal."/>
+			<field name="originatesFrom" value="69896950"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067503"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018067503"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067503"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181067503"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018067503"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27880" type="Person">
+			<semanticIdentifier>lattes::8251428411688224</semanticIdentifier>
+			<field name="identifier.lattes" value="8251428411688224"/>
+			<field name="name" value="Rúbia Salete Castro da Silva Seabra"/>
+		</entity>
+		<entity ref="OrgUnit21823" type="OrgUnit">
+			<semanticIdentifier>brcris::ec646f5947c97e11c7de95c92c99571d</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DO NORTE DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit21824" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41010" toEntityRef="Person27880" type="Inventor"/>
+		<relation fromEntityRef="Patent41010" toEntityRef="OrgUnit21823" type="Applicant"/>
+		<relation fromEntityRef="Patent41010" toEntityRef="OrgUnit21824" type="Applicant"/>
+	</relations>
+</entity-relation-data>

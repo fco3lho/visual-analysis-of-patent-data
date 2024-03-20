@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:50" record="19274" source="Espacenet">
+	<entities>
+		<entity ref="Patent19274" type="Patent">
+			<semanticIdentifier>brcris::81fc6c0f047cead883f6bd1c40f2bc5c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300184A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0300184</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300184A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030300184</semanticIdentifier>
+			<semanticIdentifier>original::0300184-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0300184"/>
+			<field name="identifier.lattes" value="6007692767731133"/>
+			<field name="identifier.espacenet" value="0300184"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de obtenção de catalisadores da conversão de co a co2 e catalisadores assim obtidos"/>
+			<field name="title.lattes" value="Patente I - Processo de obtenção de catalisadores da conversão de CO a CO2 e catalisadores assim obtidos-( Registro Nacional de Patentes). INPI 2003"/>
+			<field name="depositDate" value="2003-01-28"/>
+			<field name="publicationDate" value="2004-10-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO JOAQUIM DE SOUZA VICHI"/>
+			<field name="inventor" value="HUBERT AUGUSTO ALVAREZ ALVAREZ"/>
+			<field name="inventor" value="PEDRO OLIVER DUNSTAN LOZANO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D53/94AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="94AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J37/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B01J37/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE OBTENçãO DE CATALISADORES DA CONVERSãO DE CO A CO~ 2~ E CATALISADORES ASSIM OBTIDOS&quot;. Novo processo de obtenção de catalisadores para conversão de CO em CO~ 2~, e catalisadores assim obtidos, os quais são formados por carvão ativo impregnado com óxidos mistos de terras raras e metais de transição. De forma que, a presente patente tem por objetivo preparar novos materiais para uso como catalisador para a conversão do gás poluente CO em CO~ 2~, proveniente do escapamento de veículos motorizados, que utilizam derivados do petróleo como combustíveis."/>
+			<field name="originatesFrom" value="33163573"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300184"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0300184"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300184"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030300184"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0300184-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0300184"/>
+		</entity>
+		<entity ref="Person13404" type="Person">
+			<semanticIdentifier>lattes::6007692767731133</semanticIdentifier>
+			<field name="identifier.lattes" value="6007692767731133"/>
+			<field name="name" value="Hubert Augusto Alvarez Alvarez"/>
+		</entity>
+		<entity ref="OrgUnit10481" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent19275" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0300184</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="33163573"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0300184"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19274" toEntityRef="Person13404" type="Inventor"/>
+		<relation fromEntityRef="Patent19274" toEntityRef="OrgUnit10481" type="Applicant"/>
+	</relations>
+</entity-relation-data>

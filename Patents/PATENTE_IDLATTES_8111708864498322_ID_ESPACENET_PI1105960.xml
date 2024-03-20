@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:00:20" record="30901" source="Espacenet">
+	<entities>
+		<entity ref="Patent30901" type="Patent">
+			<semanticIdentifier>brcris::435035176e27957a4e2feca836451330</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105960A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1105960</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105960A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI05960</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1105960-5 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1105960"/>
+			<field name="identifier.lattes" value="8111708864498322"/>
+			<field name="identifier.espacenet" value="PI1105960"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="APERFEIÇOAMENTO INTRODUZIDO EM FERRAMENTAS DE CORTE - LÂMINA DE SERRA CIRCULAR"/>
+			<field name="title.lattes" value="APERFEIÇOAMENTO INTRODUZIDO EM FERRAMENTA DE CORTE - LÂMINA DE SERRA CIRCULAR"/>
+			<field name="depositDate" value="2011-12-26"/>
+			<field name="publicationDate" value="2013-10-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIA CRISTINA MOREIRA"/>
+			<field name="applicant" value="KAMPMANN DO BRASIL LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B27B33/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="27"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="A presente invenção visa deixar os referidos ângulos de folga prontos durante a prensagem dos pós metálicos, na fase de sua moldagem evitando a operação de retifíca dos perfis dos insertos. A seguir, para melhor detalhamento do formato do inserto serão ilustradas as vistas conforme Norma NBR 6163 - Conceitos da Técnica de Usinagem: Geometria da Cunha Cortante, Terminologia."/>
+			<field name="originatesFrom" value="49320975"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105960"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1105960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105960"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI05960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1105960-5 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21193" type="Person">
+			<semanticIdentifier>lattes::8111708864498322</semanticIdentifier>
+			<field name="identifier.lattes" value="8111708864498322"/>
+			<field name="name" value="Maria Cristina Moreira"/>
+		</entity>
+		<entity ref="OrgUnit16546" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf3451eeeee35a32a92499df333b37d</semanticIdentifier>
+			<field name="name" value="KAMPMANN DO BRASIL LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30901" toEntityRef="Person21193" type="Inventor"/>
+		<relation fromEntityRef="Patent30901" toEntityRef="OrgUnit16546" type="Applicant"/>
+	</relations>
+</entity-relation-data>

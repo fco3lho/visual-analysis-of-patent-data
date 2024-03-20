@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:20" record="14585" source="Espacenet">
+	<entities>
+		<entity ref="Patent14585" type="Patent">
+			<semanticIdentifier>brcris::8ead2bbf525a1ab98b6152661d75a29e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029594A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029594</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029594A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029594</semanticIdentifier>
+			<semanticIdentifier>original::102014029594</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029594"/>
+			<field name="identifier.lattes" value="5803208095140159"/>
+			<field name="identifier.espacenet" value="102014029594"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e arquitetura de hardware do segmentador da camada física do sistema lte em fpga"/>
+			<field name="title.lattes" value="Método e Arquitetura de Hardware do Segmentador da Camada Física do Sistema LTE em FPGA"/>
+			<field name="depositDate" value="2014-11-27"/>
+			<field name="publicationDate" value="2016-06-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABBRYCCIO AKKAZZHA CHAVES MACHADO CARDOSO"/>
+			<field name="inventor" value="FABIANO SILVA MATHILDE"/>
+			<field name="inventor" value="FELIPE AUGUSTO PEREIRA DE FIGUEIREDO"/>
+			<field name="inventor" value="ORLANDO DOS REIS PEREIRA"/>
+			<field name="inventor" value="RAFAEL MENDES VILELA"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L1/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e arquitetura de hardware do segmentador da camada física do sistema lte em fpga, na presente invenção a segmentação compõe a parte de codificação de canal da camada física lte. os pacotes de dados do sistema lte, conhecido por bloco de transporte, possuem diversos tamanhos e precisam ser segmentados quando seu tamanho ultrapassa 6144 bits. a segmentação transforma os blocos de transporte em segmentos conhecidos por blocos de códigos. esta técnica é necessária para que o turbo encoder possa realizar a etapa de interleaving dos bits. a presente invenção propõe um método e uma arquitetura de hardware de um segmentador dos blocos de transporte de uso ao sistema lte, baseado em hardware de circuitos lógicos programáveis."/>
+			<field name="originatesFrom" value="56132614"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029594"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029594"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029594"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029594"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014029594"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10080" type="Person">
+			<semanticIdentifier>lattes::5803208095140159</semanticIdentifier>
+			<field name="identifier.lattes" value="5803208095140159"/>
+			<field name="name" value="Fabiano Silva Mathilde"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14585" toEntityRef="Person10080" type="Inventor"/>
+	</relations>
+</entity-relation-data>

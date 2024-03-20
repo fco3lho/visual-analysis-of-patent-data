@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:56" record="13725" source="Espacenet">
+	<entities>
+		<entity ref="Patent13725" type="Patent">
+			<semanticIdentifier>brcris::bb922d7560f8eb7c6669e78460661a5a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905200A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905200</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905200A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05200</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905200-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905200"/>
+			<field name="identifier.lattes" value="6449109891449053"/>
+			<field name="identifier.espacenet" value="PI0905200"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produção de biolubrificantes derivados do óleo de mamona"/>
+			<field name="title.lattes" value="Produção de biolubrificantes derivados do óleo de mamona"/>
+			<field name="depositDate" value="2009-07-06"/>
+			<field name="publicationDate" value="2011-03-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELIO LOUREIRO CAVALCANTE JUNIOR"/>
+			<field name="inventor" value="EMERSON MEYER"/>
+			<field name="inventor" value="FRANCISCO MURILO TAVARES DE LUNA"/>
+			<field name="inventor" value="ICARO DE SOUSA MOREIRA"/>
+			<field name="inventor" value="JOSE ANDRE CAVALCANTI DA SILVA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C11B3/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PRODUçãO DE BIOLUBRIFICANTES DERIVADOS DO óLEO DE MAMONA é apresentado um processo para a produção de biolubrificantes a partir do produto de hidrólise do óleo de mamona, através de uma reação de esterificação do ácido ricinoléico com um monoálcool, podendo ser seguida de redução da dupla ligação do ricinoleato de alquila e posterior encapamento do éster do ácido ricinoléico com anidrido de ácido carboxílico, para a obtenção dos respectivos estolídeos, que são importantes no uso como fluidos hidráulicos para tratores, compressores e motosserras. Os estolídeos obtidos por esse processo constituem biolubrificantes sintéticos com excelentes propriedades de estabilidade à oxidação e fluidez a baixas temperaturas, e, com alto valor agregado."/>
+			<field name="originatesFrom" value="43719670"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905200"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905200"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905200-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9433" type="Person">
+			<semanticIdentifier>lattes::6449109891449053</semanticIdentifier>
+			<field name="identifier.lattes" value="6449109891449053"/>
+			<field name="name" value="Emerson Meyer"/>
+		</entity>
+		<entity ref="OrgUnit7419" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13725" toEntityRef="Person9433" type="Inventor"/>
+		<relation fromEntityRef="Patent13725" toEntityRef="OrgUnit7419" type="Applicant"/>
+	</relations>
+</entity-relation-data>

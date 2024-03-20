@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:12" record="19507" source="Espacenet">
+	<entities>
+		<entity ref="Patent19507" type="Patent">
+			<semanticIdentifier>brcris::c0fd33cbd21966b876ba841c44752c4f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0300067B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0300067</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0300067A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2003PI00067</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0300067</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0300067"/>
+			<field name="identifier.lattes" value="3009454850934763"/>
+			<field name="identifier.espacenet" value="PI0300067"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="fluxômetro para monitoramento de fluxo de sangue num circuito de circulação extracorpórea"/>
+			<field name="title.lattes" value="Aperfeiçoamento Introduzidos em Fluxômetro eletromagnético"/>
+			<field name="depositDate" value="2003-01-21"/>
+			<field name="publicationDate" value="2018-09-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADOLFO ALBERTO LEIRNER"/>
+			<field name="inventor" value="HELENA TAEKO TANAKA OYAMA"/>
+			<field name="inventor" value="IDAGENE APARECIDA CESTARI"/>
+			<field name="inventor" value="JOAO ROBERTO SAMPEL"/>
+			<field name="inventor" value="MARCELO MAZZETTO"/>
+			<field name="inventor" value="MAURO ROBERTO USHIZIMA"/>
+			<field name="inventor" value="MILTON SEIGUI OSHIRO"/>
+			<field name="inventor" value="SERGIO AKINORI HAYASHIDA"/>
+			<field name="inventor" value="SIMAO BACHT"/>
+			<field name="applicant" value="ADOLFO ALBERTO LEIRNER"/>
+			<field name="applicant" value="ANDREA KOVACH HAYASHIDA"/>
+			<field name="applicant" value="FABIO KOVACH HAYASHIDA"/>
+			<field name="applicant" value="FUNDACAO ZERBINI"/>
+			<field name="applicant" value="HELENA TAEKO TANAKA OYAMA"/>
+			<field name="applicant" value="IDAGENE APARECIDA CESTARI"/>
+			<field name="applicant" value="JOAO ROBERTO SAMPEL"/>
+			<field name="applicant" value="MARCELO KOVACH HAYASHIDA"/>
+			<field name="applicant" value="MARCELO MAZZETTO"/>
+			<field name="applicant" value="MAURO ROBERTO USHIZIMA"/>
+			<field name="applicant" value="MILTON SEIGUI OSHIRO"/>
+			<field name="applicant" value="SERGIO AKINORI HAYASHIDA"/>
+			<field name="applicant" value="SIMAO BACHT"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F1/58AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="58AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;aperfeiçoamentos introduzidos em fluxômetro eletromagnético&quot;. fluxômetro este a ser instalado no circuito de circulação extracorpórea ou nas usuais bombas responsáveis pela substituição das funções do coração, em operações cardíacas, sendo que a velocidade do fluxo é medida pela tensão gerada entre eletrodos através do movimento de um fluido condutor em meio a um campo magnético, dito fluido condutor sendo configurado pelo sangue ou soro fisiológico circulante no circuito extracorpóreo; o referido fluxômetro é constituído por módulo amplificador isolador (1), módulo de controle e condicionamento de sinal (7), e transdutor de fluxo (21)."/>
+			<field name="originatesFrom" value="63681992"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0300067"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0300067"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0300067"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2003PI00067"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0300067"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13570" type="Person">
+			<semanticIdentifier>lattes::3009454850934763</semanticIdentifier>
+			<field name="identifier.lattes" value="3009454850934763"/>
+			<field name="name" value="Idágene Aparecida Cestari"/>
+		</entity>
+		<entity ref="OrgUnit10613" type="OrgUnit">
+			<semanticIdentifier>brcris::00de83a8aa318cee249ba10c548a186d</semanticIdentifier>
+			<field name="name" value="FUNDACAO ZERBINI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19507" toEntityRef="Person13570" type="Inventor"/>
+		<relation fromEntityRef="Patent19507" toEntityRef="OrgUnit10613" type="Applicant"/>
+		<relation fromEntityRef="Patent19507" toEntityRef="Person13570" type="Depositor"/>
+	</relations>
+</entity-relation-data>

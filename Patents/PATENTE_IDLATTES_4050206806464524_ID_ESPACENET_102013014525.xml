@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:34" record="33208" source="Espacenet">
+	<entities>
+		<entity ref="Patent33208" type="Patent">
+			<semanticIdentifier>brcris::997d71548dba3b5be0d8a5b0cd7d1b0c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013014525A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013014525</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013014525A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131014525</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 014525-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013014525"/>
+			<field name="identifier.lattes" value="4050206806464524"/>
+			<field name="identifier.espacenet" value="102013014525"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="AUTO REGULADOR MAGNÉTICO DE TENSÃO A REATOR NATURALMENTE SATURADO (ARMTRS)"/>
+			<field name="title.lattes" value="Auto Regulador Magnético de Tensão a Reator Naturalmente Saturado (ARMTRS)"/>
+			<field name="depositDate" value="2013-06-11"/>
+			<field name="publicationDate" value="2014-11-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JARBAS BARROS VILAR"/>
+			<field name="inventor" value="MANOEL AFONSO DE CARVALHO JUNIOR"/>
+			<field name="inventor" value="MILDE MARIA DA SILVA LIRA"/>
+			<field name="inventor" value="WIDER BASILIO SANTOS"/>
+			<field name="applicant" value="COMPANHIA ENERGETICA DE PERNAMBUCO - CELPE"/>
+			<field name="applicant" value="UFPE - UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J3/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05F3/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="AUTO REGULADOR MAGNÉTICO DE TENSÃO A REATOR NATURALMENTE SATURADO (ARMTRS). Patente de invenção pertencente ao campo dos equipamentos eletroeletrônicos instalados em subestações de energia elétrica, para comando e controle de cargas, compreendido por quatro elementos, a saber, 1°) Banco de capacitores série (BCS), destinado à compensação série da rede; 2°) Reator linear série (RLS) com a finalidade de limitar a corrente de curto-circuito produzida pela incidência de defeitos ou oriundas de sobrecargas e controlar o afundamento e elevação da tensão; 3°) Reator Naturalmente Saturado (RNS), o qual exerce a função de controle do banco de capacitores, removendo esse elemento quando da incidência de um defeito; 4°) Resistor de Amortecimento (RA), destinado a dissipar a energia armazenada entre o BCS e o RLS no instante de um defeito de modo a dessaturar o RNS."/>
+			<field name="originatesFrom" value="51868473"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013014525"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013014525"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013014525"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131014525"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 014525-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22878" type="Person">
+			<semanticIdentifier>lattes::4050206806464524</semanticIdentifier>
+			<field name="identifier.lattes" value="4050206806464524"/>
+			<field name="name" value="Milde Maria da Silva Lira"/>
+		</entity>
+		<entity ref="OrgUnit17886" type="OrgUnit">
+			<semanticIdentifier>brcris::c11342cfc457b0ff0e967a32e138bb87</semanticIdentifier>
+			<field name="name" value="UFPE - UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33208" toEntityRef="Person22878" type="Inventor"/>
+		<relation fromEntityRef="Patent33208" toEntityRef="OrgUnit17886" type="Applicant"/>
+	</relations>
+</entity-relation-data>

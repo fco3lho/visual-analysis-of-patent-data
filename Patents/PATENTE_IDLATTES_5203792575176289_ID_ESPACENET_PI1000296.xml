@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:01" record="35533" source="Espacenet">
+	<entities>
+		<entity ref="Patent35533" type="Patent">
+			<semanticIdentifier>brcris::ae050833a35680d140b22fb7ce8b4166</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000296A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1000296</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000296A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI00296</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1000296-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1000296"/>
+			<field name="identifier.lattes" value="5203792575176289"/>
+			<field name="identifier.espacenet" value="PI1000296"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mecanismo de resolução de conflito e garantia de determinismo para o paradigma orientado a notificações (pon)"/>
+			<field name="title.lattes" value="Mecanismo de Resolução de Conflito e Garantia de Determinismo para o Paradigma Orientado a Notificações (PON)"/>
+			<field name="depositDate" value="2010-02-26"/>
+			<field name="publicationDate" value="2011-10-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEAN MARCELO SIMAO"/>
+			<field name="inventor" value="PAULO CEZAR STADZISZ"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MECANISMO DE RESOLUçãO DE CONFLITO E GARANTIA DE DETERMINISMO PARA O PARADIGMA ORIENTADO A NOTIFICAçõES (PON). Este documento apresenta um novo mecanismo para a Identificação/Resolução de Conflitos e Garantia de Determinismo para o paradigma de programação de computadores intitulado Paradigma Orientado a Notificações (PON). O PON em si resolve problemas dos paradigmas atuais, como sintaxe inapropriada, redundâncias estruturais e temporais e, particularmente, o acoplamento forte de entidades computacionais uma vez que ele utiliza um processo alternativo de avaliação causal (ou inferência) feito por meio de entidades computacionais de pequeno porte, (re)ativas e desacopladas que colaboram por meio de notificações pontuais. No PON, as expressões causais e estruturas de dados são entidades efetivas chamadas Rules e FactBases que juntas realizam colaborativamente os ciclos de inferência por meio de notificações suas e de entidades auxiliares. Estas entidade são os Attributes das FactBases que notificam as Premises das Conditions das Rules, as quais (se aprovadas) ativam suas Actions que, por sua vez, ativam suas Instigations e conseqúentemente os Methods da FactBases permitindo o ciclo de inferência por notificações. Salienta-se que a parte lógico-causal destas entidades e as conexões para notificações/instigações são criadas automaticamente a partir do conhecimento' de regras causais. Estas regras causais contêm conhecimentos relativos à aplicação visada e também podem conter conhecimentos adicionais relativos a questões como o tratamento de conflito e o determinismo. Neste âmbito, a presente invenção constitui-se em um Mecanismo com dois objetivos sinérgicos no âmbito do PON que são implicitamente Identificar/Resolver Conflitos e implicitamente Garantir Determinismo. A Identificação e Resolução de Conflitos dos elementos envolvidos se dá por contra-notificações de Conditions aprovadas para Premises exclusivas (relativas a FactBases passiveis de conflito) que identificam um conflito caso haja mais de uma contra-notificação, resolvem tal conflito deterministicamente (usando uma da política como prioridades distintas de Conditions/Rules) e confirmam a aprovação apenas da Condition eleita. O determinismo implícito, por sua vez, é garantido primeiramente estabelecendo contra-notificações das Conditions às Premises e das Premises aos Attributes, sendo cada contra-notificação a confirmação da notificação prévia recebida, e garantido subsequentemente pela notificação final dos Attributes às Conditions. Isto garante que todos os elementos envolvidos no processo de inferência tenham oportunidades iguais de avaliações bem como evoluções determinísticas. Em suma, é apresentado este duplo-mecanismo que se dá por meio de colaborações adicionais das entidades existentes no PON, sendo tais colaborações também orientadas a notificações, normalmente aplicadas sinergicamente e potencialmente/normalmente tratadas por meio de mecanismos de herança. Enfim, apresenta-se um novo mecanismo que melhora as capacidades das inferências determinadas pelo PON, úteis a várias classes de software, facilitando seu emprego uma vez que o mecanismo também emerge implicitamente a partir do 'conhecimento' das regras."/>
+			<field name="originatesFrom" value="44805699"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000296"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1000296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000296"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI00296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1000296-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24471" type="Person">
+			<semanticIdentifier>lattes::5203792575176289</semanticIdentifier>
+			<field name="identifier.lattes" value="5203792575176289"/>
+			<field name="name" value="Paulo Cézar Stadzisz"/>
+		</entity>
+		<entity ref="OrgUnit19231" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35533" toEntityRef="Person24471" type="Inventor"/>
+		<relation fromEntityRef="Patent35533" toEntityRef="OrgUnit19231" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:24" record="32247" source="Espacenet">
+	<entities>
+		<entity ref="Patent32247" type="Patent">
+			<semanticIdentifier>brcris::a8cd8f9074937f17e84fb3715163173f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016012924A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016012924</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016012924A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161012924</semanticIdentifier>
+			<semanticIdentifier>original::102016012924</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016012924"/>
+			<field name="identifier.lattes" value="5465913483812863"/>
+			<field name="identifier.espacenet" value="102016012924"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para circulação de ar em um ambiente fechado"/>
+			<field name="title.lattes" value="SISTEMA PARA CIRCULAÇÃO DE AR EM UM AMBIENTE FECHADO"/>
+			<field name="depositDate" value="2016-06-06"/>
+			<field name="publicationDate" value="2017-12-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIO SERGIO CABRAL DE SOUZA"/>
+			<field name="inventor" value="PAULO CARLOS KAMINSKI"/>
+			<field name="inventor" value="RENATO VIZIOLI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F24F7/06AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um sistema para circulação de ar em um ambiente fechado, funcionando de forma contrária ao fenômeno de convecção térmica natural. trata-se, em linhas gerais, de um ?chafariz de ar? que capta ar da base de instalação (solo), redirecionando-o para o topo e permitindo uma ventilação em 360o. o sistema lança ao ambiente uma massa de ar a uma temperatura inferior àquela da massa de ar presente na face de recalque, devido à diferença de altura entre as faces de sucção e recalque. deste modo, a sensação do usuário ao utilizar o sistema seria não somente de um frescor devido à movimentação de ar em si, resultante do fenômeno de ventilação, como também à camada de ar mais fria que é dispersada no topo do recinto no qual o mesmo se encontra."/>
+			<field name="originatesFrom" value="62597066"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016012924"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016012924"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016012924"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161012924"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016012924"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22150" type="Person">
+			<semanticIdentifier>lattes::5465913483812863</semanticIdentifier>
+			<field name="identifier.lattes" value="5465913483812863"/>
+			<field name="name" value="Mario Sergio Cabral de Souza"/>
+		</entity>
+		<entity ref="OrgUnit17339" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32247" toEntityRef="Person22150" type="Inventor"/>
+		<relation fromEntityRef="Patent32247" toEntityRef="OrgUnit17339" type="Applicant"/>
+	</relations>
+</entity-relation-data>

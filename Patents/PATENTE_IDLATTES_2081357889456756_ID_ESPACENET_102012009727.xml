@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:24" record="22371" source="Espacenet">
+	<entities>
+		<entity ref="Patent22371" type="Patent">
+			<semanticIdentifier>brcris::bad184bd45c18aeed01acdb150155641</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012009727A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012009727</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012009727A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121009727</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 009727-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012009727"/>
+			<field name="identifier.lattes" value="2081357889456756"/>
+			<field name="identifier.espacenet" value="102012009727"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO PARA A PRODUCAO DE BIOLUBRIFICANTE A PARTIR DE BIODIESEL METILICO E BIOLUBRIFICANTE OBTIDO PELO REFERIDO PROCESSO"/>
+			<field name="title.lattes" value="Processo para Produção de Biolubrificante a partir de Biodiesel Metílico e Biolubrificante Obtido pelo Referido Processo"/>
+			<field name="depositDate" value="2012-04-26"/>
+			<field name="publicationDate" value="2013-12-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO CLAUDIO HABERT"/>
+			<field name="inventor" value="DENISE MARIA GUIMARAES FREIRE"/>
+			<field name="inventor" value="JOSE ANDRE CAVALCANTI DA SILVA"/>
+			<field name="inventor" value="VALERIA FERREIRA SOARES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UFRJ - UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10M177/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="177"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C67/03AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="03AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C10M129/70AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="129"/>
+				<field name="subgroup" value="70AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA A PRODUÇÃO DE BIOLUBRIFICANTE A PARTIR DE BIODIESEL METÍLICO E BIOLUBRIFICANTE OBTIDO PELO REFERIDO PROCESSO. A presente invenção descreve um processo para aprodução de biolubrificante a partir de biodiesel metílico de mamona (ricinoleto de metila) e/ou de biodiesel metílico de pinhão-manso (mistura de oleato e linoleato de metila) bem como seus respectivos produtos."/>
+			<field name="originatesFrom" value="49666835"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012009727"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012009727"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012009727"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121009727"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 009727-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15469" type="Person">
+			<semanticIdentifier>lattes::2081357889456756</semanticIdentifier>
+			<field name="identifier.lattes" value="2081357889456756"/>
+			<field name="name" value="José André Cavalcanti da Silva"/>
+		</entity>
+		<entity ref="OrgUnit12029" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22371" toEntityRef="Person15469" type="Inventor"/>
+		<relation fromEntityRef="Patent22371" toEntityRef="OrgUnit12029" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:11" record="22249" source="Espacenet">
+	<entities>
+		<entity ref="Patent22249" type="Patent">
+			<semanticIdentifier>brcris::c77a5bcee5f49c243ab4a3546bdcd412</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1100723A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1100723</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1100723A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI00723</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1100723-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1100723"/>
+			<field name="identifier.lattes" value="0267366096672693"/>
+			<field name="identifier.espacenet" value="PI1100723"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de deposiÇço de xilanas durante o prÉ-branqueamento de polpa celulàsica"/>
+			<field name="title.lattes" value="Processo de deposição de xilanas durante o pré-branqueamento de polpa kraft"/>
+			<field name="depositDate" value="2011-01-27"/>
+			<field name="publicationDate" value="2013-04-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANE PEDRAZZI"/>
+			<field name="inventor" value="JORGE LUIZ COLODETTE"/>
+			<field name="inventor" value="MARCELO COELHO DOS SANTOS MUGUET SOARES"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D21H17/24AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE DEPOSIÇçO DE XILANAS DURANTE O PRÉ-BRANQUEAMENTO DE POLPA CELULàSICA. Compreende um processo no qual xilanas são extraidas com álcali de diferentes fontes fibrosas e este extrato é adicionado ao estágio de pré-branqueamento de polpa celulósica, chamado de deslignificação com oxigênio, resultando em ganhos expressivos de rendimento na linha de fibras, diminuição no consumo de energia para refino da polpa e ganho em propriedades físico-mecânicas de papéis dela resultante. O processo tem aplicação em indústrias de polpa celulósica kraft branqueada e semibranqueda, que operam com madeiras de fibras longas e de fibras curtas."/>
+			<field name="originatesFrom" value="48170170"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1100723"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1100723"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1100723"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI00723"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1100723-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15376" type="Person">
+			<semanticIdentifier>lattes::0267366096672693</semanticIdentifier>
+			<field name="identifier.lattes" value="0267366096672693"/>
+			<field name="name" value="Jorge Luiz Colodette"/>
+		</entity>
+		<entity ref="OrgUnit11958" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+		<entity ref="OrgUnit11959" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22249" toEntityRef="Person15376" type="Inventor"/>
+		<relation fromEntityRef="Patent22249" toEntityRef="OrgUnit11958" type="Applicant"/>
+		<relation fromEntityRef="Patent22249" toEntityRef="OrgUnit11959" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:39" record="28247" source="Espacenet">
+	<entities>
+		<entity ref="Patent28247" type="Patent">
+			<semanticIdentifier>brcris::1e5c4f9bf2bfee2ec663791da3ce8476</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032822A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015032822</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032822A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151032822</semanticIdentifier>
+			<semanticIdentifier>original::102015032822</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015032822"/>
+			<field name="identifier.lattes" value="9450656500678801"/>
+			<field name="identifier.espacenet" value="102015032822"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método para alimentação de lâmpadas led bulbo"/>
+			<field name="title.lattes" value="SISTEMA E MÉTODO PARA ALIMENTAÇÃO DE LÂMPADAS LED BULBO"/>
+			<field name="depositDate" value="2015-12-29"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAICOL FLORES DE MELO"/>
+			<field name="inventor" value="MARCO ANTONIO DALLA COSTA"/>
+			<field name="inventor" value="WILLIAM DOTTO VIZZOTTO"/>
+			<field name="applicant" value="ELETRO ZAGONEL LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H05B33/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema e método para alimentação de lâmpadas led bulbo. a presente invenção descreve um circuito eletrônico para acionamento de lâmpadas bulbo à base de leds, visando à substituição das lâmpadas convencionais como as incandescentes e as fluorescentes compactas. especificamente, a presente invenção compreende um driver para alimentação composto com elementos principais como circuito charge pump, filtro série ressonante, inversor half-bridge e circuito auto-oscilante que alimenta lâmpadas led bulbo. o referido driver não apresenta capacitores eletrolíticos, possibilitando assim um aumento significativo da vida útil da lâmpada, apresenta comando auto-oscilante, tornando a lâmpada mais confiável, robusta e independente de circuitos integrados, fornece correção passiva do fator de potência, que contribui para a eliminação de circuitos integrados dedicados e não apresenta interruptores controlados e drivers para acionamento dos interruptores. a presente invenção se situa nos campos das engenharias elétrica e eletrônica."/>
+			<field name="originatesFrom" value="62845531"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032822"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015032822"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032822"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151032822"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015032822"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19499" type="Person">
+			<semanticIdentifier>lattes::9450656500678801</semanticIdentifier>
+			<field name="identifier.lattes" value="9450656500678801"/>
+			<field name="name" value="Maicol Flores de Melo"/>
+		</entity>
+		<entity ref="OrgUnit15206" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28247" toEntityRef="Person19499" type="Inventor"/>
+		<relation fromEntityRef="Patent28247" toEntityRef="OrgUnit15206" type="Applicant"/>
+	</relations>
+</entity-relation-data>

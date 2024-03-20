@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:29" record="22430" source="Espacenet">
+	<entities>
+		<entity ref="Patent22430" type="Patent">
+			<semanticIdentifier>brcris::4c740e10417f66427a8d6dc92b6c5f51</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016013397A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016013397</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016013397A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161013397</semanticIdentifier>
+			<semanticIdentifier>original::102016013397</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016013397"/>
+			<field name="identifier.lattes" value="9068398878906966"/>
+			<field name="identifier.espacenet" value="102016013397"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor de entalpia de conforto"/>
+			<field name="title.lattes" value="Sensor de Entalpia de Conforto"/>
+			<field name="depositDate" value="2016-06-10"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL GURGEL PINHEIRO"/>
+			<field name="inventor" value="FLAVIO ROBERTO DE FREITAS GONCALVES"/>
+			<field name="inventor" value="JOSE ANTONIO DELFINO BARBOSA FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05D27/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F24F11/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sensor de entalpia de conforto. esta patente trata de um sensor microprocessado portátil para controle de ambientes internos de criação destinados à pecuária de corte, e usa como índice de conforto zootécnico a entalpia de conforto. o sensor de entalpia mede em tempo real ou através de programação especpifica os valores da unidade relativa do ar, temperatura de bulbo seco (temperatura sensível) e pressão barométrica do microclima da instalação e calcula o valor do índice enpalpia de conforto, que além dos valores das variáveis ambientais físicas citadas anteriormente, leva em consideraçlão a espécie do animal (aves, bovinos, suínos e caprinos), bem como as características fisiológicas traduzidas pela idade do mesmo. as saídas do sensor podem ser facilmente acopladas aos dispositivos elétricos/eletrônicos de climatização dos ambientes de criação para correção de desvios da temperatura e umidade relativa do ar, visando a manutenção do conforto térmico e o bem-estar dos animais. também possui saídas para alarmes e a possibilidade de monitoramento remoto através da tecnologia androide."/>
+			<field name="originatesFrom" value="61973148"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016013397"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016013397"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016013397"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161013397"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016013397"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15505" type="Person">
+			<semanticIdentifier>lattes::9068398878906966</semanticIdentifier>
+			<field name="identifier.lattes" value="9068398878906966"/>
+			<field name="name" value="José Antonio Delfino Barbosa Filho"/>
+		</entity>
+		<entity ref="OrgUnit12055" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22430" toEntityRef="Person15505" type="Inventor"/>
+		<relation fromEntityRef="Patent22430" toEntityRef="OrgUnit12055" type="Applicant"/>
+	</relations>
+</entity-relation-data>

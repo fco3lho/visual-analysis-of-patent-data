@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:16" record="29566" source="Espacenet">
+	<entities>
+		<entity ref="Patent29566" type="Patent">
+			<semanticIdentifier>brcris::1034a6be23c6c49a2bc2d916febe7eff</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018006331U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202018006331U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018006331U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20182006331U</semanticIdentifier>
+			<semanticIdentifier>original::202018006331</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202018006331"/>
+			<field name="identifier.lattes" value="2998652028148426"/>
+			<field name="identifier.espacenet" value="202018006331"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="simulador inclusivo para cadeirantes"/>
+			<field name="title.lattes" value="SIMULADOR INCLUSIVO PARA CADEIRANTES"/>
+			<field name="depositDate" value="2018-03-28"/>
+			<field name="publicationDate" value="2019-10-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREL DE SOUZA PACETE"/>
+			<field name="inventor" value="BRYAN BUENO BRAGA DE OLIVEIRA"/>
+			<field name="inventor" value="DANIEL ANTUNES ALVES"/>
+			<field name="inventor" value="FELIPE RODRIGUES DE ALMEIDA"/>
+			<field name="inventor" value="GUTEMBERG RIBEIRO"/>
+			<field name="inventor" value="HERNANI BATISTA DA CRUZ"/>
+			<field name="inventor" value="ISRAEL LINS DA SILVA"/>
+			<field name="inventor" value="JOAO VITOR DE SOUZA TRINDADE"/>
+			<field name="inventor" value="JULIANA DOS SANTOS SILVA"/>
+			<field name="inventor" value="LEANDRO AUGUSTO BETIM"/>
+			<field name="inventor" value="LEONARDO NICKSON DA SILVA"/>
+			<field name="inventor" value="LUCAS GABRIEL BATISTA CAMARGO RIBEIRO"/>
+			<field name="inventor" value="MAILSON TREVIZAN DA SILVA"/>
+			<field name="inventor" value="MARCIO JOSE KLOSTER"/>
+			<field name="inventor" value="PEDRO AUGUSTO SCHROEDER MILEO"/>
+			<field name="inventor" value="RUBENS FELIPE RIBEIRO"/>
+			<field name="inventor" value="WILIAN EMANUEL NEUMANN PEREIRA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G09B9/042AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="042AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção consiste em um simulador multifuncional inclusivo para pessoas portadoras de necessidades especiais (cadeirante) (3) que possibilita autonomia para entrar e sair do equipamento, possui um sistema de posicionamento do cockpit para que o cadeirante possa fazer o embarque sem auxílio de outra pessoa, sistema para remover a cadeira da base do simulador, pontos de apoio para subir na estrutra e cinta com velcro para permitir que as pernas fiquem seguras e imóveis durante o uso do equipamento (8) .ao se aproximar do simulador, o cadeirante pressiona um botão que habilita a função embarque (9) e essa função impede qualquer movimento da estrutura ou acionamento dos motores. o simulador conta com dois sistemas de botão de pânico, um posicionado próximo ao joystick dentro do cockpit e outro fora do simulador para desligar e reposicionar o cockpit na posição inicial."/>
+			<field name="originatesFrom" value="68172010"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018006331"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202018006331U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018006331"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20182006331U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202018006331"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20330" type="Person">
+			<semanticIdentifier>lattes::2998652028148426</semanticIdentifier>
+			<field name="identifier.lattes" value="2998652028148426"/>
+			<field name="name" value="Márcio José Kloster"/>
+		</entity>
+		<entity ref="OrgUnit15913" type="OrgUnit">
+			<semanticIdentifier>brcris::6fde90da7c27282c3f1f2e8b4d2b2ec1</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29566" toEntityRef="Person20330" type="Inventor"/>
+		<relation fromEntityRef="Patent29566" toEntityRef="OrgUnit15913" type="Applicant"/>
+	</relations>
+</entity-relation-data>

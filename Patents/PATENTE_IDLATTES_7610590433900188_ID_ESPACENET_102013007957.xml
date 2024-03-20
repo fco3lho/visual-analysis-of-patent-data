@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:13" record="9182" source="Espacenet">
+	<entities>
+		<entity ref="Patent9182" type="Patent">
+			<semanticIdentifier>brcris::273437450e633261f1e1f6feaf76799c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013007957A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013007957</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013007957A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131007957</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 007957-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013007957"/>
+			<field name="identifier.lattes" value="7610590433900188"/>
+			<field name="identifier.espacenet" value="102013007957"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE MONITORAMENTO DE ARAMES DA ARMADURA DE TRAÇÃO DE DUTOS FLEXÍVEIS E MÉTODO DE APLICAÇÃO"/>
+			<field name="title.lattes" value="Método combinado para detecção de ruptura de arames da armadura de tração de dutos flexíveis"/>
+			<field name="depositDate" value="2013-04-03"/>
+			<field name="publicationDate" value="2014-11-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTHUR MARTINS BARBOSA BRAGA"/>
+			<field name="inventor" value="CLAUDIO SOLIGO CAMERINI"/>
+			<field name="inventor" value="GEORGE CARNEIRO CAMPELLO"/>
+			<field name="inventor" value="MURILO GIRON CAMERINI"/>
+			<field name="inventor" value="SERGIO RICARDO KOKAY MORIKAWA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01B11/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE MONITORAMENTO DE ARAMES DE ARMADURA DE TRAÇÃP DE DUTOS FLEXÍVEIS E MÉTODO DE APLICAÇÃO. A presente invenção se refere a um sistema de monitoração que visa principalmente fornecer com precisão informações sobre as condições estruturais dos arames de todas as camadas de armadura de tração de um riser. A tecnologia proposta determina com precisão eventos de ruptura dos arames externos e internos da armadura de tração de dutos flexíveis, possibilitando avaliar riscos de falhas na integridade da estrutura de um riser."/>
+			<field name="originatesFrom" value="51657342"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013007957"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013007957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013007957"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131007957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 007957-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2014161056"/>
+		</entity>
+		<entity ref="Person6267" type="Person">
+			<semanticIdentifier>lattes::7610590433900188</semanticIdentifier>
+			<field name="identifier.lattes" value="7610590433900188"/>
+			<field name="name" value="Claudio Soligo Camerini"/>
+		</entity>
+		<entity ref="OrgUnit4945" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="Patent9183" type="Patent">
+			<semanticIdentifier>epodoc::WO2014161056</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="51657342"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2014161056"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9182" toEntityRef="Person6267" type="Inventor"/>
+		<relation fromEntityRef="Patent9182" toEntityRef="OrgUnit4945" type="Applicant"/>
+	</relations>
+</entity-relation-data>

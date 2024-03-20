@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:14" record="18433" source="Espacenet">
+	<entities>
+		<entity ref="Patent18433" type="Patent">
+			<semanticIdentifier>brcris::6dd505cd07dce013a93e550e5c49fc6d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030296A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015030296</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030296A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151030296</semanticIdentifier>
+			<semanticIdentifier>original::102015030296</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015030296"/>
+			<field name="identifier.lattes" value="7093757298381173"/>
+			<field name="identifier.espacenet" value="102015030296"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="topologia retificadora com compensação ativa de ondulação de baixa frequência sem capacitor eletrolítico"/>
+			<field name="title.lattes" value="Topologia retificadora com compensação ativa de ondulação de baixa frequência sem capacitor eletrolítico"/>
+			<field name="depositDate" value="2015-12-03"/>
+			<field name="publicationDate" value="2017-06-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUILHERME SEBASTIAO DA SILVA"/>
+			<field name="inventor" value="JUMAR LUIS RUSSI"/>
+			<field name="inventor" value="RODRIGO OLIVEIRA DE ANDRADE"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO PAMPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M1/42AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="topologia retificadora com compensação ativa de ondulação de baixa frequência sem capacitor eletrolítico. a invenção consiste em um sistema (topologia) retificador com baixa ondulação de tensão e corrente, o que permite a redução de capacitância e eliminação dos capacitores eletrolíticos de circuitos retificadores, substituindo-os por capacitores de poliéster, aumentando a vida útil do conversor. um método inovador de aproveitamento da energia de entrada permite manter os mesmos níveis de ondulação mesmo com uma redução de capacitância da ordem de 80%. este retificador pode ser empregado no primeiro estágio de conversores buck, forward, fly-back, inversores, entre outros. ao contrário do que ocorre com outros métodos de redução de capacitância, este é um conversor de uso geral, podendo ser utilizado em qualquer tipo de carga."/>
+			<field name="originatesFrom" value="59152194"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030296"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015030296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030296"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151030296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015030296"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12778" type="Person">
+			<semanticIdentifier>lattes::7093757298381173</semanticIdentifier>
+			<field name="identifier.lattes" value="7093757298381173"/>
+			<field name="name" value="Guilherme Sebastião da Silva"/>
+		</entity>
+		<entity ref="OrgUnit9963" type="OrgUnit">
+			<semanticIdentifier>brcris::cc256d8cf8cfe5dbbaa62de4892df503</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DO PAMPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18433" toEntityRef="Person12778" type="Inventor"/>
+		<relation fromEntityRef="Patent18433" toEntityRef="OrgUnit9963" type="Applicant"/>
+	</relations>
+</entity-relation-data>

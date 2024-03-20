@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:02" record="15013" source="Espacenet">
+	<entities>
+		<entity ref="Patent15013" type="Patent">
+			<semanticIdentifier>brcris::be047915328a760fc85a2c817f17d88a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014002807A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014002807</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014002807A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141002807</semanticIdentifier>
+			<semanticIdentifier>original::102014002807</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014002807"/>
+			<field name="identifier.lattes" value="4503718823926925"/>
+			<field name="identifier.espacenet" value="102014002807"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="antena multibanda do tipo planar em f-invertido"/>
+			<field name="title.lattes" value="Antena Multibanda do Tipo Planar em F-Invertido"/>
+			<field name="depositDate" value="2014-02-05"/>
+			<field name="publicationDate" value="2016-04-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FATIMA SALETE CORRERA"/>
+			<field name="inventor" value="MURILO HIROAKI SEKO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01Q5/10AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="antena multibanda do tipo planar em f-invertido. a invenção refere-se a uma antena multibanda do tipo planar em f-invertido para utilização em aparelhos portáteis de sistemas de comunicação móvel, tais como telefonia móvel, redes locais sem fio e redes pessoais sem fio."/>
+			<field name="originatesFrom" value="55633925"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014002807"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014002807"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014002807"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141002807"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014002807"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10416" type="Person">
+			<semanticIdentifier>lattes::4503718823926925</semanticIdentifier>
+			<field name="identifier.lattes" value="4503718823926925"/>
+			<field name="name" value="Fatima Salete Correra"/>
+		</entity>
+		<entity ref="OrgUnit8129" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15013" toEntityRef="Person10416" type="Inventor"/>
+		<relation fromEntityRef="Patent15013" toEntityRef="OrgUnit8129" type="Applicant"/>
+	</relations>
+</entity-relation-data>

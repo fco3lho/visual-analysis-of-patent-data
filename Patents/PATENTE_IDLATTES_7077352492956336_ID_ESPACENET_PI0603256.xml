@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:01" record="38117" source="Espacenet">
+	<entities>
+		<entity ref="Patent38117" type="Patent">
+			<semanticIdentifier>brcris::a3a16f8b62af521e967eed4576e0c11f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603256A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0603256</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603256A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI03256</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0603256-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0603256"/>
+			<field name="identifier.lattes" value="7077352492956336"/>
+			<field name="identifier.espacenet" value="PI0603256"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="composições quelatadas resistentes à oxidação"/>
+			<field name="title.lattes" value="composições quelatadas resistentes à oxidação"/>
+			<field name="depositDate" value="2006-08-04"/>
+			<field name="publicationDate" value="2008-03-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="NELSON HENRIQUES FERNANDES FILHO"/>
+			<field name="inventor" value="NELSON HENRIQUES FERNANDES JR"/>
+			<field name="inventor" value="RICARDO DA SILVA SERCHELI"/>
+			<field name="applicant" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+			<field name="applicant" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K33/26AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPOSIçõES QUELATADAS RESISTENTES à OXIDAçãO, invenção esta que descreve processos para a produção de novas composições quelatadas de ferro(II) com aminoácidos e ácidos orgânicos sem a interferência de contra íons inorgânicos. Essa invenção também mostra que os novos complexos obtidas são estáveis e solúveis e encontram aplicação como suplementos minerais em dietas de humanos, animais e vegetais."/>
+			<field name="originatesFrom" value="39186894"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603256"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0603256"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603256"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI03256"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0603256-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26270" type="Person">
+			<semanticIdentifier>lattes::7077352492956336</semanticIdentifier>
+			<field name="identifier.lattes" value="7077352492956336"/>
+			<field name="name" value="Ricardo da Silva Sercheli"/>
+		</entity>
+		<entity ref="OrgUnit20584" type="OrgUnit">
+			<semanticIdentifier>brcris::0b86e23b3a836e48370c56629e224876</semanticIdentifier>
+			<field name="name" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+		</entity>
+		<entity ref="OrgUnit20585" type="OrgUnit">
+			<semanticIdentifier>brcris::4b03ebf90d2f16dc2f699d65e82cabc1</semanticIdentifier>
+			<field name="name" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38117" toEntityRef="Person26270" type="Inventor"/>
+		<relation fromEntityRef="Patent38117" toEntityRef="OrgUnit20584" type="Applicant"/>
+		<relation fromEntityRef="Patent38117" toEntityRef="OrgUnit20585" type="Applicant"/>
+	</relations>
+</entity-relation-data>

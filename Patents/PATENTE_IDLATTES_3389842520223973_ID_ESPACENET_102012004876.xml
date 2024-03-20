@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:45" record="19234" source="Espacenet">
+	<entities>
+		<entity ref="Patent19234" type="Patent">
+			<semanticIdentifier>brcris::fa461800da737f6520b2187b16b986c2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012004876A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012004876</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012004876A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121004876</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 004876-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012004876"/>
+			<field name="identifier.lattes" value="3389842520223973"/>
+			<field name="identifier.espacenet" value="102012004876"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PLUVIÔMETRO VETORIAL MODULAR MECÂNICO"/>
+			<field name="title.lattes" value="PLUVIÔMETRO VETORIAL ROTATIVO AUTOMÁTICO"/>
+			<field name="depositDate" value="2012-03-05"/>
+			<field name="publicationDate" value="2013-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HILDEU FERREIRA DA ASSUNCAO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01W1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PLUVIOMÉTRICO VETORIAL MODULAR MECÂNICO. A presente patente da invenção tem por objetivo apresentar um protótipo de pluviômetro vetorial, para determinação do volume, da direção, da inclinação e da energia cinética das chuvas, dada à enexistência de instrumentação deste tipo no mercado."/>
+			<field name="originatesFrom" value="49578773"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012004876"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012004876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012004876"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121004876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 004876-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13368" type="Person">
+			<semanticIdentifier>lattes::3389842520223973</semanticIdentifier>
+			<field name="identifier.lattes" value="3389842520223973"/>
+			<field name="name" value="Hildeu Ferreira da Assunção"/>
+		</entity>
+		<entity ref="OrgUnit10461" type="OrgUnit">
+			<semanticIdentifier>brcris::0a240c63278feffcbeb0015483982a39</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19234" toEntityRef="Person13368" type="Inventor"/>
+		<relation fromEntityRef="Patent19234" toEntityRef="OrgUnit10461" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:32" record="1980" source="Espacenet">
+	<entities>
+		<entity ref="Patent1980" type="Patent">
+			<semanticIdentifier>brcris::2a471a752cea1f7b296b7faffdc9a35f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705356A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705356</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705356A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05356</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705356-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705356"/>
+			<field name="identifier.lattes" value="7212312833146476"/>
+			<field name="identifier.espacenet" value="PI0705356"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="composição fungicida"/>
+			<field name="title.lattes" value="Composição Fungicida"/>
+			<field name="depositDate" value="2007-11-22"/>
+			<field name="publicationDate" value="2008-08-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALISSON FRANCISCO CELMER"/>
+			<field name="inventor" value="EDMO LOTUFO LENTE"/>
+			<field name="applicant" value="MILENIA AGROCIENCIAS SA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N43/653AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="653AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01N25/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A01N47/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="47"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="A01P3/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;COMPOSIçãO FUNGICIDA&quot;. A presente invenção refere-se a uma composição fungicida para uso agrícola, compreendendo uma mistura de dois ou mais ingredientes ativos, contendo estes, ação preventiva e curativa simultaneamente. A composição da presente invenção apresenta-se na forma de suspoemulsão e compreende como ingrediente ativo um triazol e um benzimidazol. O triazol encontra-se solúvel no solvente e o benzimidazol está em suspensão."/>
+			<field name="originatesFrom" value="39690947"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705356"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705356"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705356"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05356"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705356-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1497" type="Person">
+			<semanticIdentifier>lattes::7212312833146476</semanticIdentifier>
+			<field name="identifier.lattes" value="7212312833146476"/>
+			<field name="name" value="Alisson Francisco Celmer"/>
+		</entity>
+		<entity ref="OrgUnit1132" type="OrgUnit">
+			<semanticIdentifier>brcris::2e754690e67a24d54c89084e4a94c351</semanticIdentifier>
+			<field name="name" value="MILENIA AGROCIENCIAS SA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1980" toEntityRef="Person1497" type="Inventor"/>
+		<relation fromEntityRef="Patent1980" toEntityRef="OrgUnit1132" type="Applicant"/>
+	</relations>
+</entity-relation-data>

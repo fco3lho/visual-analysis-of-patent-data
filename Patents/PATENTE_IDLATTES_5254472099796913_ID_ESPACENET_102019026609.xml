@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:09" record="10250" source="Espacenet">
+	<entities>
+		<entity ref="Patent10250" type="Patent">
+			<semanticIdentifier>brcris::0db1f36511b2203a1235e297666d741e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019026609A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019026609</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019026609A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191026609</semanticIdentifier>
+			<semanticIdentifier>original::102019026609</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019026609"/>
+			<field name="identifier.lattes" value="5254472099796913"/>
+			<field name="identifier.espacenet" value="102019026609"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produção e uso de adsorventes a base de tabaco proveniente de cigarro na forma in natura, modificados quimicamente e carvões ativados para remoção de metais e agrotóxicos de compartimentos hídricos"/>
+			<field name="title.lattes" value="Produção e uso de adsorventes a base de tabaco proveniente de cigarro na forma in natura, modificados quimicamente e carvões ativados para remoção de metais e agrotóxicos de compartimentos hídricos"/>
+			<field name="depositDate" value="2019-12-13"/>
+			<field name="publicationDate" value="2021-06-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AFFONSO CELSO GONCALVES JUNIOR"/>
+			<field name="inventor" value="DANIEL SCHWANTES"/>
+			<field name="inventor" value="ELIO CONRADI JUNIOR"/>
+			<field name="inventor" value="JESSICA MANFRIN"/>
+			<field name="inventor" value="JULIANO ZIMMERMANN"/>
+			<field name="inventor" value="MATHEUS GASPAR"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F101/20AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="20AN"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C02F101/30AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="30AN"/>
+			</field>
+			<field name="abstract.espacenet" value="produção e uso de adsorventes a base de tabaco proveniente de cigarro na forma in natura, modificados quimicamente e carvões ativados para remoção de metais e agrotóxicos de compartimentos hídricos. a patente se refere ao produto/processo de sorção e remoção de metais e agrotóxicos presentes de forma isolada ou em conjunto em corpos hídricos contaminados, por meio da utilização de adsorventes naturais, bem como modificados quimicamente, além de carvões ativados quimicamente, fisicamente e/ou termicamente provenientes de tabaco de cigarros apreendidos pelos órgãos competentes, reaproveitando assim esse resíduo que atualmente não possui nenhum valor agregado."/>
+			<field name="originatesFrom" value="77163889"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019026609"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019026609"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019026609"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191026609"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019026609"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7059" type="Person">
+			<semanticIdentifier>lattes::5254472099796913</semanticIdentifier>
+			<field name="identifier.lattes" value="5254472099796913"/>
+			<field name="name" value="Daniel Schwantes"/>
+		</entity>
+		<entity ref="OrgUnit5620" type="OrgUnit">
+			<semanticIdentifier>brcris::c3fe74a9576877dbb1158a323578f964</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10250" toEntityRef="Person7059" type="Inventor"/>
+		<relation fromEntityRef="Patent10250" toEntityRef="OrgUnit5620" type="Applicant"/>
+	</relations>
+</entity-relation-data>

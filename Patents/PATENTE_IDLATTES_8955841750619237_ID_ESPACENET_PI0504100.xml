@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:13" record="45525" source="Espacenet">
+	<entities>
+		<entity ref="Patent45525" type="Patent">
+			<semanticIdentifier>brcris::b43cf9ffbdc0e0263824a175848d0c3e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504100A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504100</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504100A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04100</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504100-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504100"/>
+			<field name="identifier.lattes" value="8955841750619237"/>
+			<field name="identifier.espacenet" value="PI0504100"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="nova técnica de impressão de padrões, letras e imagens com polìmeros condutores usando impressoras convencionais"/>
+			<field name="title.lattes" value="Nova técnica de impressão de padrões, letras e imagens com polímeros condutores usando impressoras convencionais??"/>
+			<field name="depositDate" value="2005-05-13"/>
+			<field name="publicationDate" value="2008-05-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ROBSON AMERICO DE BARROS"/>
+			<field name="inventor" value="WALTER MENDES DE AZEVEDO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03G5/07AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="07AI"/>
+			</field>
+			<field name="abstract.espacenet" value="NOVA TéCNICA DE IMPRESSãO DE PADRõES, LETRAS E IMAGENS COM POLìMEROS CONDUTORES USANDO IMPRESSORAS CONVENCIONAIS. Refere-se a presente patente de invenção ao desenvolvimento de um novo método para obtenção de padrões, letras, imagens, circuitos impresso com polímeros condutores utilizando impressora de jato de tinta convencional. O processo para síntese de polímeros condutores consiste na substituição da tinta convencional de um cartucho de tinta de uma impressora de jato de tinta, por uma solução de sais metálicos dissolvidos em um solvente apropriado. A impressão dos padrões em uma folha de papel previamente impregnada com uma solução de monómeros de polímero condutor é feita com esta solução, que em seguida é exposta à luz para a fixação do padrão no substrato. A luz atua como agente catalisador e o sal de elementos metálicos como oxidantes. Esta rota permite sintetizar os polímeros condutores em qualquer folha de papel normalmente utilizada para impressão com impressora de jato de tinta. Uma aplicação direta desta nova rota de síntese é a possibilidade de obtenção de circuitos elétricos ou eletrónicos totalmente poliméricos utilizando uma técnica extremamente barata e de fácil acesso nos laboratórios de pesquisas. Além disto, também são possíveis o armazenamento de informações ou dados no plano com polímeros condutores. Com isto, estamos desenvolvendo uma nova técnica para fabricação de memória ótica permanente (ROM), circuitos eletrónicos padrões de escritas à base de polímeros condutores totalmente revolucionaria. A vantagem adicional apresentada por este novo método é o fato de que os padrões possuem a funcionalidade dos polímeros condutores que poderá ser utilizada em uma próxima etapa para o desenvolvimento de novos dispositivos baseados nas propriedades ópticas e elétricas ou eletrocrómicas dos polímeros condutores."/>
+			<field name="originatesFrom" value="39339561"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504100"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504100"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504100"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04100"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504100-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31111" type="Person">
+			<semanticIdentifier>lattes::8955841750619237</semanticIdentifier>
+			<field name="identifier.lattes" value="8955841750619237"/>
+			<field name="name" value="Walter Mendes de Azevedo"/>
+		</entity>
+		<entity ref="OrgUnit24400" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45525" toEntityRef="Person31111" type="Inventor"/>
+		<relation fromEntityRef="Patent45525" toEntityRef="OrgUnit24400" type="Applicant"/>
+	</relations>
+</entity-relation-data>

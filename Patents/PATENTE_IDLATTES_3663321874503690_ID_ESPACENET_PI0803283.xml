@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:56" record="13719" source="Espacenet">
+	<entities>
+		<entity ref="Patent13719" type="Patent">
+			<semanticIdentifier>brcris::8b663b94845b18d49f2bafaf7c12ff0d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803283A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803283</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803283A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03283</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803283-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803283"/>
+			<field name="identifier.lattes" value="3663321874503690"/>
+			<field name="identifier.espacenet" value="PI0803283"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor eletrÈnico para determinação do teor de álcoois em hidrocarbonetos"/>
+			<field name="title.lattes" value="SENSOR ELETRÔNICO PARA DETERMINAÇÃO DO TEOR DE ÁLCOOIS EM HIDROCARBONETOS"/>
+			<field name="depositDate" value="2008-09-26"/>
+			<field name="publicationDate" value="2010-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO ZANELLI"/>
+			<field name="inventor" value="ANDRELSON WELLINGTON RINALDI"/>
+			<field name="inventor" value="EMERSON MARCELO GIROTTO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="A presente invenção trata do desenvolvimento de um sensor eletrónico para a detecção de álcoois em hidrocarbonetos, em suas misturas ou em líquidos pouco polares. O referido sensor utiliza um transdutor constituído de dois eletrodos coligados por um material eletrolítico sólido, polieletrólito ou eletrólito polimérico. O material eletrolítico sólido muda sua própria impedância ao variar a concentração de álcool no líquido em que é imerso. O sensor desenvolvido poderá ser aplicado diretamente em linhas de produção para a monitoração remota da composição dos líquidos de um processo, por exemplo, para monitorar o teor alcoólico em bebidas. Um desenvolvimento particular seria com relação à aplicação no monitoramento da qualidade de combustíveis derivados dê petróleo, onde se adiciona diferentes concentrações de etanol. Vislumbra-se também a construção de dispositivos de baixo custo que podem ser instalados em larga escala em tanques de combustível de automóveis para monitorar a qualidade e a composição de misturas gasolinaletanol e/ou na indústria alimentícia para o monitoramento do teor de álcool em bebidas alcoólicas."/>
+			<field name="originatesFrom" value="42234114"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803283"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803283"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803283"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03283"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803283-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9427" type="Person">
+			<semanticIdentifier>lattes::3663321874503690</semanticIdentifier>
+			<field name="identifier.lattes" value="3663321874503690"/>
+			<field name="name" value="Emerson Marcelo Girotto"/>
+		</entity>
+		<entity ref="OrgUnit7417" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit7418" type="OrgUnit">
+			<semanticIdentifier>brcris::e2506f938555d6bfe6ccf0c4e3276fcf</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13719" toEntityRef="Person9427" type="Inventor"/>
+		<relation fromEntityRef="Patent13719" toEntityRef="OrgUnit7417" type="Applicant"/>
+		<relation fromEntityRef="Patent13719" toEntityRef="OrgUnit7418" type="Applicant"/>
+	</relations>
+</entity-relation-data>

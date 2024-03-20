@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:19" record="22332" source="Espacenet">
+	<entities>
+		<entity ref="Patent22332" type="Patent">
+			<semanticIdentifier>brcris::eebf990eb5d8787d5e83f23105517c31</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604078A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0604078</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604078A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI04078</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0604078-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0604078"/>
+			<field name="identifier.lattes" value="6137855664671623"/>
+			<field name="identifier.espacenet" value="PI0604078"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="tecnologia de produção de batata-semente através do plantio de broto"/>
+			<field name="title.lattes" value="TECNOLOGIA DE PRODUÇÃO DE BATATA-SEMENTE ATRAVÉS DO PLANTIO DE BROTO"/>
+			<field name="depositDate" value="2006-09-18"/>
+			<field name="publicationDate" value="2007-04-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE ALBERTO CARAM DE SOUZA DIAS"/>
+			<field name="applicant" value="FUNDACAO DE APOIO A PESQUISA AGRICOLA"/>
+			<field name="applicant" value="SECRETARIA DE AGRICULTURA E ABASTECIMENTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01G22/25AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="22"/>
+				<field name="subgroup" value="25AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TECNOLOGIA DE PRODUçãO DE BATATA-SEMENTE ATRAVéS DO PLANTIO DE BROTO&quot;. Compreendida por batata semente resultante unicamente de brotos diretamente importados, embalados em envelopes plásticos e acomodados em pequenas caixas de papelão, cultivados no interior de telado antipulgão ou vasos contendo composto auto clavado."/>
+			<field name="originatesFrom" value="37903703"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604078"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0604078"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604078"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI04078"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0604078-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15436" type="Person">
+			<semanticIdentifier>lattes::6137855664671623</semanticIdentifier>
+			<field name="identifier.lattes" value="6137855664671623"/>
+			<field name="name" value="José Alberto Caram de Souza Dias"/>
+		</entity>
+		<entity ref="OrgUnit12000" type="OrgUnit">
+			<semanticIdentifier>brcris::48f3bf29981fc11e8260de5d1fb4fd04</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE APOIO A PESQUISA AGRICOLA"/>
+		</entity>
+		<entity ref="OrgUnit12001" type="OrgUnit">
+			<semanticIdentifier>brcris::a1d56bba01d837986d60703ab7d353a6</semanticIdentifier>
+			<field name="name" value="SECRETARIA DE AGRICULTURA E ABASTECIMENTO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22332" toEntityRef="Person15436" type="Inventor"/>
+		<relation fromEntityRef="Patent22332" toEntityRef="OrgUnit12000" type="Applicant"/>
+		<relation fromEntityRef="Patent22332" toEntityRef="OrgUnit12001" type="Applicant"/>
+	</relations>
+</entity-relation-data>

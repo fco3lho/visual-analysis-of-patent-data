@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:29" record="22431" source="Espacenet">
+	<entities>
+		<entity ref="Patent22431" type="Patent">
+			<semanticIdentifier>brcris::e8810aa66870d15882b6c607cceabbdc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019017A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019017</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019017A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019017</semanticIdentifier>
+			<semanticIdentifier>original::102016019017</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019017"/>
+			<field name="identifier.lattes" value="9068398878906966"/>
+			<field name="identifier.espacenet" value="102016019017"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de aeração para o transporte de aves"/>
+			<field name="title.lattes" value="Sistema de Aeração para o Transporte de Aves"/>
+			<field name="depositDate" value="2016-08-17"/>
+			<field name="publicationDate" value="2018-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL GURGEL PINHEIRO"/>
+			<field name="inventor" value="JOSE ANTONIO DELFINO BARBOSA FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K31/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de aeração para o transporte de aves. esta patente trata de um sistema de aeração de carga para transporte de frango vivo, utiliza-se de espaçadores para formar espaços entre as caixas de transporte tanto na vertical quanto na horizontal para gerar corredores de circulação de ar entre a carga. além dos espaçadores o sistema de aeraçäo utiliza coletores de ar a serem instalados nas caixas, mais especificamente, nos espaços criados pelos espaçadores com o objetivo de forçar a circulação de ar através da insuflação do ar oriundo do deslocamento do caminhão. o principal benefício do sistema de aeraçâo é criar um microclima com umidade relativa e temperatura que favoreça as trocas térmicas por convecção para amenizar o estresse térmico dos animais."/>
+			<field name="originatesFrom" value="61970780"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019017"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019017"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019017"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15506" type="Person">
+			<semanticIdentifier>lattes::9068398878906966</semanticIdentifier>
+			<field name="identifier.lattes" value="9068398878906966"/>
+			<field name="name" value="José Antonio Delfino Barbosa Filho"/>
+		</entity>
+		<entity ref="OrgUnit12056" type="OrgUnit">
+			<semanticIdentifier>brcris::c5fb71dccb4f1be8e00beb9ade882413</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22431" toEntityRef="Person15506" type="Inventor"/>
+		<relation fromEntityRef="Patent22431" toEntityRef="OrgUnit12056" type="Applicant"/>
+	</relations>
+</entity-relation-data>

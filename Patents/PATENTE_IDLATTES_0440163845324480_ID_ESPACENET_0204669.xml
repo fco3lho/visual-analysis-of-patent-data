@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:29" record="1403" source="Espacenet">
+	<entities>
+		<entity ref="Patent1403" type="Patent">
+			<semanticIdentifier>brcris::f05b3b92a99f0737d00575650fc7f548</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204669A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0204669</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204669A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020204669</semanticIdentifier>
+			<semanticIdentifier>original::0204669-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0204669"/>
+			<field name="identifier.lattes" value="0440163845324480"/>
+			<field name="identifier.espacenet" value="0204669"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Coletor de amostras de sedimento cosac"/>
+			<field name="title.lattes" value="COLETOR DE AMOSTRAS DE SEDIMENTO COSAC"/>
+			<field name="depositDate" value="2002-08-08"/>
+			<field name="publicationDate" value="2004-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX SOUZA MORAES"/>
+			<field name="inventor" value="JORGE JOAO RICARDO FERREIRA CARDOSO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;COLETOR DE AMOSTRAS DE SEDIMENTO COSAC&quot;. Coletor de amostras indeformadas de sedimento, composto por um tubo interno (coletor propriamente dito), em cujos segmentos são fixos tubos comunicantes de plástico dentro dos quais fica a amostra, e por um tubo auxiliar externo que facilita a retirada do tubo coletor. Os tubos de plástico com a amostra saem facilmente, bastando apenas desenroscar os segmentos que compõem o tubo interno. Os tubos interno e externo estão conectados entre si por um anel resistente (5, Fig 1), que permite a penetração simultânea dos tubos por percussão (o anel pode ser dispensado confeccionando um tubo externo mais longo, de modo a que o nível superior dele coincida com o nível superior do tubo interno, usando para percussão uma placa metálica sobre a qual se bate com uma marreta de peso adequado)."/>
+			<field name="originatesFrom" value="32399226"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204669"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0204669"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204669"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020204669"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0204669-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1054" type="Person">
+			<semanticIdentifier>lattes::0440163845324480</semanticIdentifier>
+			<field name="identifier.lattes" value="0440163845324480"/>
+			<field name="name" value="Alex Souza Moraes"/>
+		</entity>
+		<entity ref="OrgUnit830" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1403" toEntityRef="Person1054" type="Inventor"/>
+		<relation fromEntityRef="Patent1403" toEntityRef="OrgUnit830" type="Applicant"/>
+	</relations>
+</entity-relation-data>

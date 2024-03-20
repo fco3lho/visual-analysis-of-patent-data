@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:53" record="22674" source="Espacenet">
+	<entities>
+		<entity ref="Patent22674" type="Patent">
+			<semanticIdentifier>brcris::1474158c0ba6c7250a1b68258b66d3f2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9804166A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9804166</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9804166A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19989804166</semanticIdentifier>
+			<semanticIdentifier>original::9804166-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9804166"/>
+			<field name="identifier.lattes" value="0639199241726179"/>
+			<field name="identifier.espacenet" value="9804166"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Bio-oleo para emprego como fonte de insumos para a indústria quimica e métodos para sua obtenção"/>
+			<field name="title.lattes" value="Bio-óleo como fonte de insumos químicos"/>
+			<field name="depositDate" value="1998-10-07"/>
+			<field name="publicationDate" value="2000-05-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO LUENGO"/>
+			<field name="inventor" value="JOSE DILCIO ROCHA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10B47/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="47"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C10G47/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="47"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;BIO-óLEO PARA EMPREGO COMO FONTE INSUMOS PARA A INDúSTRIA QUìMICA E MéTODOS PARA SUA OBTENçãO&quot;, sendo o bio-óleo obtido por pirólise em atmosfera de hidrogênio."/>
+			<field name="originatesFrom" value="4070719"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9804166"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9804166"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9804166"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19989804166"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9804166-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15669" type="Person">
+			<semanticIdentifier>lattes::0639199241726179</semanticIdentifier>
+			<field name="identifier.lattes" value="0639199241726179"/>
+			<field name="name" value="José Dilcio Rocha"/>
+		</entity>
+		<entity ref="OrgUnit12181" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22674" toEntityRef="Person15669" type="Inventor"/>
+		<relation fromEntityRef="Patent22674" toEntityRef="OrgUnit12181" type="Applicant"/>
+	</relations>
+</entity-relation-data>

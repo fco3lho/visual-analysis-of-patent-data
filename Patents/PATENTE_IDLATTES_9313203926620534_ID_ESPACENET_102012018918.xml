@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:14" record="41939" source="Espacenet">
+	<entities>
+		<entity ref="Patent41939" type="Patent">
+			<semanticIdentifier>brcris::fed0e0bb8646f46cc1e60562bd2e330d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012018918A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012018918</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012018918A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121018918</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 018918-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012018918"/>
+			<field name="identifier.lattes" value="9313203926620534"/>
+			<field name="identifier.espacenet" value="102012018918"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PLUVIÔMETRO AUTOMÁTICO DE COLUNA DE ÁGUA"/>
+			<field name="title.lattes" value="Pluviômetro Automático de Coluna de Água"/>
+			<field name="depositDate" value="2012-07-30"/>
+			<field name="publicationDate" value="2014-12-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTUR SASS BRAGA"/>
+			<field name="inventor" value="SERGIO MICHELOTTO BRAGA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01W1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PLUVIÔMETRO AUTOMÁTICO DE COLUNA DE ÁGUA. Equipamento automático para medição de precipitação atmosférica através da medição da altura do nível da coluna da água coletada, dotado de transdutores de pressão, unidade de comando microprocessada, sistema para realizar a descarga automática por bombeamento da água coletada após o término da precipitação e sistema auxiliar de descarga por gravidade."/>
+			<field name="originatesFrom" value="52130955"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012018918"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012018918"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012018918"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121018918"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 018918-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28586" type="Person">
+			<semanticIdentifier>lattes::9313203926620534</semanticIdentifier>
+			<field name="identifier.lattes" value="9313203926620534"/>
+			<field name="name" value="Sérgio Michelotto Braga"/>
+		</entity>
+		<entity ref="OrgUnit22345" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41939" toEntityRef="Person28586" type="Inventor"/>
+		<relation fromEntityRef="Patent41939" toEntityRef="OrgUnit22345" type="Applicant"/>
+	</relations>
+</entity-relation-data>

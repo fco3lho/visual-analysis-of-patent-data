@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:15" record="34751" source="Espacenet">
+	<entities>
+		<entity ref="Patent34751" type="Patent">
+			<semanticIdentifier>brcris::e8353025a4d48ccb061f398bf8549240</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303688A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303688</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303688A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303688</semanticIdentifier>
+			<semanticIdentifier>original::0303688-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303688"/>
+			<field name="identifier.lattes" value="3886581034376130"/>
+			<field name="identifier.espacenet" value="0303688"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Demodulador do desvio de fase óptico não recìproco num sensor óptico interferométrico, via detecção dos valores dos picos da corrente detectada no fotodetector acoplado à saìda do interferÈmetro óptico"/>
+			<field name="title.lattes" value="Demodulador do desvio de fase óptico não recíproco num sensor óptico interferométrico, via detecção dos valores dos picos da corrente detectada no fotodetector acoplado à saída do interferômetro óptico"/>
+			<field name="depositDate" value="2003-08-01"/>
+			<field name="publicationDate" value="2005-05-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE CARLOS JULIANO DE ALMEIDA"/>
+			<field name="inventor" value="OSEAS VALENTE DE AVILEZ JR"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B9/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01B11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;DEMODULADOR DO DESVIO DE FASE óPTICO NãO RECìPROCO NUM SENSOR óPTICO INTERFEROMéTRICO, VIA DETECçãO DOS VALORES DOS PICOS DA CORRENTE DETECTADA NO FOTODETECTOR ACOPLADO à SAìDA DO INTERFERÈMETRO óPTICO&quot;. Para a medida precisa de razões de rotação em lançadores de satélites, aviões, helicópteros, mísseis, submarinos, automóveis, e a medida de tensão e corrente elétrica em sistemas de geração, transmissão e distribuição de energia elétrica, e a de outras grandezas físicas medidas por interferometria óptica. A demodulação precisa de sinais interferométricos se constitui num tema de pesquisa atual pela sua estreita vinculação com áreas de tecnologias sensíveis cujo domínio teórico e tecnológico são essenciais a qualquer país. Neste contexto, desenvolveu-se a presente invenção, a qual pode ser descrita como um demodulador para o processamento do sinal óptico de saída de sensores interferométricos utilizados para medir grandezas físicas. O demodulador processa as informações de intensidade e sentido do desvio de fase óptico não recíproco experimentado pelo sensor interferométrico e correlacionado com a grandeza física objeto de medida por interferometria óptica. A saída do demodulador é uma medida do valor desta grandeza física."/>
+			<field name="originatesFrom" value="34528898"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303688"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303688"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303688"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303688"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303688-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23910" type="Person">
+			<semanticIdentifier>lattes::3886581034376130</semanticIdentifier>
+			<field name="identifier.lattes" value="3886581034376130"/>
+			<field name="name" value="Oseas Valente de Avilez Filho"/>
+		</entity>
+		<entity ref="OrgUnit18752" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34751" toEntityRef="Person23910" type="Inventor"/>
+		<relation fromEntityRef="Patent34751" toEntityRef="OrgUnit18752" type="Applicant"/>
+	</relations>
+</entity-relation-data>

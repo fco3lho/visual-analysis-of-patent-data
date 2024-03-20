@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:30" record="19090" source="Espacenet">
+	<entities>
+		<entity ref="Patent19090" type="Patent">
+			<semanticIdentifier>brcris::8b56ab6add696539549b817d0df5d156</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403556A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0403556</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403556A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI03556</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0403556-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0403556"/>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="identifier.espacenet" value="PI0403556"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para redução de acidez de misturas de hidrocarbonetos"/>
+			<field name="title.lattes" value="Processo para redução da acidez de petróleos e de suas frações mediante tratamento com catalisador gasto de HDT."/>
+			<field name="depositDate" value="2004-08-26"/>
+			<field name="publicationDate" value="2006-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CARLOTA BELIZARIO DOS SANTOS"/>
+			<field name="inventor" value="CLAUDIA MARIA DE LACERDA ALVARENGA BAPTISTA"/>
+			<field name="inventor" value="ELIZABETH MARQUES MOREIRA"/>
+			<field name="inventor" value="HENRIQUE SOARES CERQUEIRA"/>
+			<field name="inventor" value="JOSE ANTONIO VIDAL VIEIRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10G31/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSOS PARA REDUçãO DE ACIDEZ DE MISTURAS DE HIDROCARBONETOS&quot;. Processo para redução da acidez de misturas de hidrocarbonetos, por intermédio do tratamento térmico de correntes de hidrocarbonetos, tais como petróleos, frações e seus derivados, na presença de catalisador gasto de hidrorrefino,ou seja,que já tenha sido utilizado em unidades de hidrotratamento (HDT) de uma refinaria."/>
+			<field name="originatesFrom" value="36273002"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403556"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0403556"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403556"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI03556"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0403556-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13254" type="Person">
+			<semanticIdentifier>lattes::3474494395008338</semanticIdentifier>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="name" value="Henrique Soares Cerqueira"/>
+		</entity>
+		<entity ref="OrgUnit10363" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19090" toEntityRef="Person13254" type="Inventor"/>
+		<relation fromEntityRef="Patent19090" toEntityRef="OrgUnit10363" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:37" record="45999" source="Espacenet">
+	<entities>
+		<entity ref="Patent45999" type="Patent">
+			<semanticIdentifier>brcris::ef81f1fcb841aa3bd79fe43cdd676ef8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015025570A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015025570</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015025570A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151025570</semanticIdentifier>
+			<semanticIdentifier>original::102015025570</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015025570"/>
+			<field name="identifier.lattes" value="8572668642074131"/>
+			<field name="identifier.espacenet" value="102015025570"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de conversão cc-cc para aplicações de alta potência em média ou alta tensão"/>
+			<field name="title.lattes" value="Sistema de Conversão CC-CC para Aplicações de Alta Potência em Média ou Alta Tensão"/>
+			<field name="depositDate" value="2015-10-07"/>
+			<field name="publicationDate" value="2017-04-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GEAN JACQUES MAIA DE SOUSA"/>
+			<field name="inventor" value="GUSTAVO LAMBERT"/>
+			<field name="inventor" value="MARCELO LOBO HELDWEIN"/>
+			<field name="inventor" value="YALES ROMULO DE NOVAES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M3/335AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="335AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;sistema de conversão cc-cc para aplicações de alta potência em média ou alta tensão&quot; a presente invenção está relacionada a um conversor cc-cc para sistemas de elevada potência em média ou alta tensão e com isolação galvânica entre os terminais de entrada para os terminais de saída. nesse cenário, a presente invenção provê um sistema de conversão cc-cc para aplicações de alta potência em média ou alta tensão, compreendendo um circuito inversor (4) para converter uma tensão contínua para uma tensão alternada, um transformador (5) com pelo menos duas fases, e pelo menos um circuito retificador (6) para converter a tensão ca de saída do transformador (5) em uma tensão cc, em que o primário do transformador (5) é conectado na saída do circuito inversor (4) e o secundário do transformador (5) é conectado na entrado do circuito retificador (6). dessa forma, o sistema da presente invenção é capaz de elevar ou abaixar tensões cc em aplicações de alta potência, de modo a reduzir ou eliminar alguns mecanismos de perdas, como por exemplo as perdas em virtude do efeito joule ou devido às correntes parasitas. adicionalmente, o sistema provido é capaz de operar com transformador multifásico em médias frequências, possibilitando redução do volume e do peso do transformador e, consequentemente, do sistema de conversão."/>
+			<field name="originatesFrom" value="58644645"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015025570"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015025570"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015025570"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151025570"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015025570"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31426" type="Person">
+			<semanticIdentifier>lattes::8572668642074131</semanticIdentifier>
+			<field name="identifier.lattes" value="8572668642074131"/>
+			<field name="name" value="Yales Rômulo de Novaes"/>
+		</entity>
+		<entity ref="OrgUnit24628" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45999" toEntityRef="Person31426" type="Inventor"/>
+		<relation fromEntityRef="Patent45999" toEntityRef="OrgUnit24628" type="Applicant"/>
+	</relations>
+</entity-relation-data>

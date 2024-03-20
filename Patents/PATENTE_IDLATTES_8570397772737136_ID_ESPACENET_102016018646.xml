@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:23" record="37052" source="Espacenet">
+	<entities>
+		<entity ref="Patent37052" type="Patent">
+			<semanticIdentifier>brcris::b278e379c6ff23f62cbd5a50513819f9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018646A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016018646</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018646A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161018646</semanticIdentifier>
+			<semanticIdentifier>original::102016018646</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016018646"/>
+			<field name="identifier.lattes" value="8570397772737136"/>
+			<field name="identifier.espacenet" value="102016018646"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="medidor de corrente sem fio autoalimentado para uso em linha de distribuição ou rede de distribuição"/>
+			<field name="title.lattes" value="Medidor de Corrente sem Fio Autoalimentado para Uso em Linha de Distribuição ou Rede de Distribuição"/>
+			<field name="depositDate" value="2016-08-15"/>
+			<field name="publicationDate" value="2018-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CEZAR DE CASTRO LIMA"/>
+			<field name="inventor" value="EDUARDO DUARTE LEITE"/>
+			<field name="inventor" value="FABIANO FRAGOSO COSTA"/>
+			<field name="inventor" value="MARCIO FONTANA"/>
+			<field name="inventor" value="RAIMUNDO JORGE ABREU DE JESUS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J13/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W4/14AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="medidor de corrente sem fio autoalimentado para uso em linha de distribuição ou rede de distribuição setor técnico: elétrico a invenção trata de um instrumento de medição capaz de medir corrente alternada eficaz, armazenar um conjunto de medidas e enviá-lo, por enlace de rádio, para sistemas capazes de realizar leitura e registro das amostras deste conjunto. o medidor opera e adquire correntes na faixa de 2a à 30a em linhas de distribuição ou redes de distribuição com tensões de 13,8 kv e 69 kv. a alimentação do medidor é obtida da própria corrente a ser medida. a potência coletada por indução eletromagnética é suficiente para carregar um supercapacitor e alimentar os circuitos de medição e transmissão de dados."/>
+			<field name="originatesFrom" value="62043573"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018646"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016018646"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018646"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161018646"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016018646"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25535" type="Person">
+			<semanticIdentifier>lattes::8570397772737136</semanticIdentifier>
+			<field name="identifier.lattes" value="8570397772737136"/>
+			<field name="name" value="Raimundo Jorge Abreu de Jesus"/>
+		</entity>
+		<entity ref="OrgUnit20028" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37052" toEntityRef="Person25535" type="Inventor"/>
+		<relation fromEntityRef="Patent37052" toEntityRef="OrgUnit20028" type="Applicant"/>
+	</relations>
+</entity-relation-data>

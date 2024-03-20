@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:52" record="23112" source="Espacenet">
+	<entities>
+		<entity ref="Patent23112" type="Patent">
+			<semanticIdentifier>brcris::14e330c8be8d8a98fff09a2fc2ebe650</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104855A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1104855</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104855A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI04855</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1104855-7 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1104855"/>
+			<field name="identifier.lattes" value="8467650381711612"/>
+			<field name="identifier.espacenet" value="PI1104855"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA E MÉTODO PARA GERAÇÃO DE CONTEÚDO EM LÍNGUA DE SINAIS APRESENTADO POR AGENTE VIRTUAL TRIDIMENSIONAL"/>
+			<field name="title.lattes" value="Sistema e método para geração de conteúdo em língua de sinais apresentado por agente virtual tridimensional"/>
+			<field name="depositDate" value="2011-10-27"/>
+			<field name="publicationDate" value="2014-05-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE MARIO DE MARTINO"/>
+			<field name="inventor" value="WANESSA MACHADO DO AMARAL"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS- UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F17/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F3/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06T13/40AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA E MÉTODO PARA GERAÇÃO DE CONTEÚDO EM LÍNGUA DE SINAIS APRESENTADO POR AGENTE VIRTUAL TRIDIMENSIONAL. Refere-se o presente pedido de patente de invenção a um novo sistema e método para gerar conteúdo em língua de sinais sendo esta apresentada por intermédio de um agente tridimensional virtual"/>
+			<field name="originatesFrom" value="48166964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104855"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1104855"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104855"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI04855"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1104855-7 A2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2013059894"/>
+		</entity>
+		<entity ref="Person16012" type="Person">
+			<semanticIdentifier>lattes::8467650381711612</semanticIdentifier>
+			<field name="identifier.lattes" value="8467650381711612"/>
+			<field name="name" value="José Mario De Martino"/>
+		</entity>
+		<entity ref="OrgUnit12398" type="OrgUnit">
+			<semanticIdentifier>brcris::f8873a24a54ea9b4efaa860a5d9e3f70</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS- UNICAMP"/>
+		</entity>
+		<entity ref="Patent23113" type="Patent">
+			<semanticIdentifier>epodoc::WO2013059894</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="48166964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2013059894"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23112" toEntityRef="Person16012" type="Inventor"/>
+		<relation fromEntityRef="Patent23112" toEntityRef="OrgUnit12398" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:43" record="27889" source="Espacenet">
+	<entities>
+		<entity ref="Patent27889" type="Patent">
+			<semanticIdentifier>brcris::c70b07dffc8f4452c336167956266780</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701118A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0701118</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701118A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI01118</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0701118-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0701118"/>
+			<field name="identifier.lattes" value="6266547523604644"/>
+			<field name="identifier.espacenet" value="PI0701118"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="hidrociclone filtrante"/>
+			<field name="title.lattes" value="Hidrociclone Filtrante"/>
+			<field name="depositDate" value="2007-03-30"/>
+			<field name="publicationDate" value="2008-11-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOCO JORGE RIBEIRO DAMASCENO"/>
+			<field name="inventor" value="LUIS GUSTAVO MARTINS VIEIRA"/>
+			<field name="inventor" value="MARCOS ANTONIO DE SOUZA BARROZO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA - UFU"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D17/038AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="038AI"/>
+			</field>
+			<field name="abstract.espacenet" value="HIDROCICLONE FILTRANTE. A presente invenção refere-se a um hidrociclone filtrante, que é um equipamento de separação sólido-líquido ou líquido-liquido, dotado de uma parede cônica filtrante. Assim, durante o funcionamento deste separador, além das correntes tradicionalmente observadas (alimentação, underflow e overflow), há ainda uma corrente adicional líquida proveniente do processo de filtração que ocorre na região cônica. O dispositivo inventivo habilita que, nas mesmas condições geométricas e operacionais de um hidrociclone convencional, haja um incremento na eficiência de separação das partículas e uma redução no consumo energético para promover a referida separação."/>
+			<field name="originatesFrom" value="40527722"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701118"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0701118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701118"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI01118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0701118-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19240" type="Person">
+			<semanticIdentifier>lattes::6266547523604644</semanticIdentifier>
+			<field name="identifier.lattes" value="6266547523604644"/>
+			<field name="name" value="Luiz Gustavo Martins Vieira"/>
+		</entity>
+		<entity ref="OrgUnit14985" type="OrgUnit">
+			<semanticIdentifier>brcris::68c19aef9ce2de8bddeef833893de80e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA - UFU"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27889" toEntityRef="Person19240" type="Inventor"/>
+		<relation fromEntityRef="Patent27889" toEntityRef="OrgUnit14985" type="Applicant"/>
+	</relations>
+</entity-relation-data>

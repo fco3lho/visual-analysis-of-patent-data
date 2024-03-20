@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:32" record="29233" source="Espacenet">
+	<entities>
+		<entity ref="Patent29233" type="Patent">
+			<semanticIdentifier>brcris::bb642a881212c57010e7cb4629b8e6a6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016002221A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016002221</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016002221A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161002221</semanticIdentifier>
+			<semanticIdentifier>original::102016002221</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016002221"/>
+			<field name="identifier.lattes" value="3264480044529380"/>
+			<field name="identifier.espacenet" value="102016002221"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para produção de fertilizante organo-mineral a partir da carbonização hidrotérmica da vinhaça e do bagaço de cana e produto obtido"/>
+			<field name="title.lattes" value="Processo para produção de fertilizante organo-mineral a partir da carbonização hidrotérmica da vinhaça e do bagaço de cana e produto obtido"/>
+			<field name="depositDate" value="2016-02-01"/>
+			<field name="publicationDate" value="2017-08-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALTAIR BENEDITO MOREIRA"/>
+			<field name="inventor" value="CAMILA DE ALMEIDA MELO"/>
+			<field name="inventor" value="FRANCISCO HOLANDA SOARES JUNIOR"/>
+			<field name="inventor" value="MARCIA CRISTINA BISINOTI"/>
+			<field name="inventor" value="ODAIR PASTOR FERREIRA"/>
+			<field name="inventor" value="ROSANA LISBOA SANTANA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C05F5/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C05F17/60AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo processo para produção de fertilizante organo-mineral a partir da carbonização hidrotérmica da vinhaça e do bagaço de cana e produto obtido é descrita a invenção de um processo para produção de fertilizante organo-mineral com capacidade de retenção de água a partir da carbonização hidrotérmica da vinhaça e do bagaço de cana no qual é empregado um catalisador ácido, preferentemente ácido fosfórico, em um processo de carbonização hidrotérmica, agregando valor a estes resíduos, permitindo que sejam aplicados dentro do próprio ciclo produtivo, reduzindo custos com transporte, fertilizantes, tratamentos químicos, dentre outros."/>
+			<field name="originatesFrom" value="59499268"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016002221"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016002221"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016002221"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161002221"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016002221"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017132742"/>
+		</entity>
+		<entity ref="Person20115" type="Person">
+			<semanticIdentifier>lattes::3264480044529380</semanticIdentifier>
+			<field name="identifier.lattes" value="3264480044529380"/>
+			<field name="name" value="Márcia Cristina Bisinoti"/>
+		</entity>
+		<entity ref="OrgUnit15734" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+		<entity ref="Patent29234" type="Patent">
+			<semanticIdentifier>epodoc::WO2017132742</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="59499268"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017132742"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29233" toEntityRef="Person20115" type="Inventor"/>
+		<relation fromEntityRef="Patent29233" toEntityRef="OrgUnit15734" type="Applicant"/>
+	</relations>
+</entity-relation-data>

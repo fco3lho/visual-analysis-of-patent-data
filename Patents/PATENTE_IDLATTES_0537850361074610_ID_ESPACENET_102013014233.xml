@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:12" record="36321" source="Espacenet">
+	<entities>
+		<entity ref="Patent36321" type="Patent">
+			<semanticIdentifier>brcris::2a44408cd2083879ccad1e635606479b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013014233A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013014233</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013014233A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131014233</semanticIdentifier>
+			<semanticIdentifier>original::102013014233</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013014233"/>
+			<field name="identifier.lattes" value="0537850361074610"/>
+			<field name="identifier.espacenet" value="102013014233"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="simulador para detecção de zona de maior captação radioativa em imagens de medicina nuclear"/>
+			<field name="title.lattes" value="SIMULADOR PARA DETECÇÃO DE ZONA DE MAIOR CAPTAÇÃO RADIOATIVA EM IMAGENS DE MEDICINA NUCLEAR"/>
+			<field name="depositDate" value="2013-06-07"/>
+			<field name="publicationDate" value="2016-01-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO FRIEDRICH FEIL"/>
+			<field name="inventor" value="DARIO EBERHARDT"/>
+			<field name="inventor" value="KARINA NIQUE FRANZ"/>
+			<field name="inventor" value="MARINO MUXFELDT BIANCHIN"/>
+			<field name="inventor" value="PEDRO MIGOWSKI DA SILVA"/>
+			<field name="inventor" value="SERGIO RIBEIRO TEIXEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B6/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01D18/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01T1/169AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="169AI"/>
+			</field>
+			<field name="abstract.espacenet" value="simulador para detecção de zona de maior captação radioativa em imagens de medicina nuclear. é descrito um simulador para detecção de zona de maior captação radioativa em imagens de medicina nuclear que compreende eletrodos revestidos por um filme metálico mediante deposição (10), ditos eletrodos metálicos (10) conectados a uma fonte externa de diferença de potencial variável (20) e imersos em um meio aquoso e atividade radioativa conhecida (30), de forma que os lons de material radioativo (1) tendem a se concentrar no eletrodo positivo, sendo o processo de deposição deste material detectado por um sistema de aquisição de imagens em medicina nuclear e correspondendo a uma zona de maior concentração radioativa."/>
+			<field name="originatesFrom" value="55083234"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013014233"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013014233"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013014233"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131014233"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013014233"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24992" type="Person">
+			<semanticIdentifier>lattes::0537850361074610</semanticIdentifier>
+			<field name="identifier.lattes" value="0537850361074610"/>
+			<field name="name" value="Pedro Migowski da Silva"/>
+		</entity>
+		<entity ref="OrgUnit19627" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36321" toEntityRef="Person24992" type="Inventor"/>
+		<relation fromEntityRef="Patent36321" toEntityRef="OrgUnit19627" type="Applicant"/>
+	</relations>
+</entity-relation-data>

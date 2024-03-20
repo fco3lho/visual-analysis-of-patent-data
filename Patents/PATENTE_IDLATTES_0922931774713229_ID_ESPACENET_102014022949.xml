@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:45" record="12314" source="Espacenet">
+	<entities>
+		<entity ref="Patent12314" type="Patent">
+			<semanticIdentifier>brcris::d317f61213524fb3859eda325417275e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022949A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014022949</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022949A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141022949</semanticIdentifier>
+			<semanticIdentifier>original::102014022949</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014022949"/>
+			<field name="identifier.lattes" value="0922931774713229"/>
+			<field name="identifier.espacenet" value="102014022949"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="caneta para quantificar o tremor humano da articulação do punho"/>
+			<field name="title.lattes" value="'CANETA PARA QUANTIFICAR O TREMOR HUMANO DA ARTICULAÇÃO DO PUNHO'"/>
+			<field name="depositDate" value="2014-09-15"/>
+			<field name="publicationDate" value="2016-04-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO DE OLIVEIRA ANDRADE"/>
+			<field name="inventor" value="ALESSANDRO RIBEIRO DE PADUA MACHADO"/>
+			<field name="inventor" value="ANA PAULA DE SOUSA PAIXAO"/>
+			<field name="inventor" value="GUILHERME LOPES CAVALHEIRO"/>
+			<field name="inventor" value="ISAQUE NOGUEIRA GONDIM"/>
+			<field name="inventor" value="JOAO AREIS FERREIRA BARBOSA JUNIOR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K11/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="caneta para quantificar o tremor humano da articulação do punho. a presentes invenção foi projetada considerando uma arquitetura bem simples e não invasiva ao usuário, ideal para a captação dos sinais de tremor humano da articulação do punho por meio da grafia. através do dispositivo idealizado para captação do tremor na grafia é possível à detecção de variações mínimas ocorridas durante a realização da atividade e aquelas decorrentes do tremor intrínseco ao indivíduo que usa o dispositivo. a presente invenção é composta por uma caneta esferográfica comum, sensor de movimento associado à porção final da caneta, para captar qualquer movimento da mesma através do movimento da articulação do punho em grafias. cabos de comunicação, para comunicar o sensor de movimento a um microcontrolador e comunicar o microcontrolador a um disco rígido, para posterior análise por meio de um software. o microcontrolador é ajustado ao braço do individuo para processar as informações obtidas através dos sensores de movimento. o software para aquisição de sinais recebe a informação através do microcontrolador e gera os sinais captados pelo sensor de movimento. uma bateria, para alimentar o sistema sendo dessa maneira isolado da rede elétrica e colocado em local estratégico no indivíduo."/>
+			<field name="originatesFrom" value="55851089"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022949"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014022949"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022949"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141022949"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014022949"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8441" type="Person">
+			<semanticIdentifier>lattes::0922931774713229</semanticIdentifier>
+			<field name="identifier.lattes" value="0922931774713229"/>
+			<field name="name" value="Edna Alves de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit6665" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12314" toEntityRef="Person8441" type="Inventor"/>
+		<relation fromEntityRef="Patent12314" toEntityRef="OrgUnit6665" type="Applicant"/>
+	</relations>
+</entity-relation-data>

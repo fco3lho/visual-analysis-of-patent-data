@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:57" record="10611" source="Espacenet">
+	<entities>
+		<entity ref="Patent10611" type="Patent">
+			<semanticIdentifier>brcris::583a1f218b689973ad5b167743c8123c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011132A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011132</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011132A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011132</semanticIdentifier>
+			<semanticIdentifier>original::102016011132</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011132"/>
+			<field name="identifier.lattes" value="7266011798625538"/>
+			<field name="identifier.espacenet" value="102016011132"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="um método de previsão de séries temporais multivariadas com árvores de decisão no domínio da frequência"/>
+			<field name="title.lattes" value="UM METODO DE PREVISÃO DE SERIES TEMPORAIS MULTIVARIADAS COM ARVORES DE DECISÃO NO DOMINIO DA FREQUENCIA"/>
+			<field name="depositDate" value="2016-05-17"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DARIO JOSE ALOISE"/>
+			<field name="inventor" value="HAROLD IVAN ANGULO BUSTOS"/>
+			<field name="inventor" value="SAMUEL ALVES ARAUJO"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="um método de previsão de séries temporais multi variadas com árvores de decisão no domínio da frequência. a presente invenção refere-se a um método de previsão de série temporal de imagens, onde, dada uma série temporal de imagens adquiridas em tempos igualmente espaçados, obtém-se uma imagem de tempo futuro, podendo o método ser aplicado a séries temporais de imagens de objetos sólidos e/ou fluidos, proporcionando uma modelagem de variações dos níveis de cinza, de deslocamentos, de crescimentos e de decrescimentos de regiões nas imagens, ainda que ocorram todos esses eventos simultaneamente na mesma série temporal. o processamento é feito através das seguintes etapas. primeiro, as imagens de entrada (1) são processadas pela transformada wavelet 2d (2). em seguida, são processadas pela transformada oct 2d (3). a seguir, a árvore de decisão (4) processa cada pixel das imagens transformadas como sendo uma amostragem de uma função, extrapolando o valor futuro correspondente de pixel. esses pixeis geram uma imagem de tempo futuro no domínio da frequência, onde, aplicando-se as transformadas inversa dct 2d (5) e inversa wavelet 2d (6), obtém-se a imagem de tempo futuro (7)."/>
+			<field name="originatesFrom" value="61973124"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011132"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011132"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011132"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011132"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011132"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7358" type="Person">
+			<semanticIdentifier>lattes::7266011798625538</semanticIdentifier>
+			<field name="identifier.lattes" value="7266011798625538"/>
+			<field name="name" value="Dario José Aloise"/>
+		</entity>
+		<entity ref="OrgUnit5848" type="OrgUnit">
+			<semanticIdentifier>brcris::03e5b3fd0dceb32c877c0ec8b800f987</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10611" toEntityRef="Person7358" type="Inventor"/>
+		<relation fromEntityRef="Patent10611" toEntityRef="OrgUnit5848" type="Applicant"/>
+	</relations>
+</entity-relation-data>

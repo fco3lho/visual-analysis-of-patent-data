@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:24" record="342" source="Espacenet">
+	<entities>
+		<entity ref="Patent342" type="Patent">
+			<semanticIdentifier>brcris::7774dd2c34ca7948ead832880f24b3f3</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602602A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602602</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602602A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02602</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602602-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602602"/>
+			<field name="identifier.lattes" value="1510655084439926"/>
+			<field name="identifier.espacenet" value="PI0602602"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo catalìtico para a oxidação de ciclohexano a ciclohexanol e ciclohexanona"/>
+			<field name="title.lattes" value="Processo catalítico para a oxidação de ciclohexano a ciclohexanol e ciclohexanona"/>
+			<field name="depositDate" value="2006-05-05"/>
+			<field name="publicationDate" value="2007-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADOLFO HORN JR"/>
+			<field name="inventor" value="CHRISTIANE FERNANDES"/>
+			<field name="inventor" value="GISELE CANTALICE SALOMAO"/>
+			<field name="inventor" value="LUCIO CARDOZO JR"/>
+			<field name="inventor" value="MARA HELOISA NEVES OLSEN"/>
+			<field name="inventor" value="OTAVIO AUGUSTO CEVA ANTUNES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C29/48AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J31/18AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07C45/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="45"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo Catalítico para a Oxidação de Ciclohexano a Ciclohexanol e Ciclohexanona. A presente invenção está relacionada ao processo de oxidação catalítica do ciclohexano utilizando como solvente dióxido de carbono supercrítico, conhecido por ser benigno e por não afetara meio ambiente. Neste processo, o cicloexano é oxidado à ciclohexanol e ciclohexanona. Além disso, a presente invenção descreve a catálise desta transformação empregando, como catalisadores, complexos tetrafenilporfirínicos de ferro (III), manganês (III) e cobalto (II), e peróxido de hidrogênio e de terc-butila como agentes oxidantes."/>
+			<field name="originatesFrom" value="38829443"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602602"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602602"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602602-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person241" type="Person">
+			<semanticIdentifier>lattes::1510655084439926</semanticIdentifier>
+			<field name="identifier.lattes" value="1510655084439926"/>
+			<field name="name" value="Adolfo Horn Junior"/>
+		</entity>
+		<entity ref="OrgUnit214" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent342" toEntityRef="Person241" type="Inventor"/>
+		<relation fromEntityRef="Patent342" toEntityRef="OrgUnit214" type="Applicant"/>
+	</relations>
+</entity-relation-data>

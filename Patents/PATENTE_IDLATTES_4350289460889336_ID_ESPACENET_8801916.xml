@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:59" record="23165" source="Espacenet">
+	<entities>
+		<entity ref="Patent23165" type="Patent">
+			<semanticIdentifier>brcris::3d4f67a1c7944f628c77b2f5b9676bdb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8801916A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8801916</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8801916A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888801916</semanticIdentifier>
+			<semanticIdentifier>original::8801916</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8801916"/>
+			<field name="identifier.lattes" value="4350289460889336"/>
+			<field name="identifier.espacenet" value="8801916"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="LIGAS A BASE DE COBRE SEGUNDO UM SISTEMA COBRE-ZINCO-ALUMINIO-NIQUEL PARA RESTAURACOES METALICAS FUNDIDAS E PROTESES FIXAS"/>
+			<field name="title.lattes" value="LIGAS A BASE DE COBRE SEGUNDO UM SISTEMA COBRE-ZINCO-ALUMINIO-NIQUEL PARA RESTAURAÇÕES METALICAS FUNDIDAS E PROTESES FIXAS"/>
+			<field name="depositDate" value="1988-04-15"/>
+			<field name="publicationDate" value="1989-11-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AQUIRA ISHIKIRIAMA"/>
+			<field name="inventor" value="JOSE MONDELLI"/>
+			<field name="applicant" value="FINANCIADORA DE ESTUDOS E PROJETOS-FINEP"/>
+			<field name="applicant" value="JOSE MONDELLI AQUIRA ISHIKIRIAMA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22C9/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="originatesFrom" value="4044607"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8801916"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8801916"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8801916"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888801916"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8801916"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16060" type="Person">
+			<semanticIdentifier>lattes::4350289460889336</semanticIdentifier>
+			<field name="identifier.lattes" value="4350289460889336"/>
+			<field name="name" value="José Mondelli"/>
+		</entity>
+		<entity ref="OrgUnit12440" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23165" toEntityRef="Person16060" type="Inventor"/>
+		<relation fromEntityRef="Patent23165" toEntityRef="OrgUnit12440" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:33" record="1989" source="Espacenet">
+	<entities>
+		<entity ref="Patent1989" type="Patent">
+			<semanticIdentifier>brcris::815934b216d946bb5555f04aa100f9db</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015004124A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015004124</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015004124A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151004124</semanticIdentifier>
+			<semanticIdentifier>original::102015004124</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015004124"/>
+			<field name="identifier.lattes" value="1610835595083194"/>
+			<field name="identifier.espacenet" value="102015004124"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="unidade estacionária de produção de petróleo"/>
+			<field name="title.lattes" value="UNIDADE ESTACIONÁRIA DE PRODUÇÃO DE PETROLEO"/>
+			<field name="depositDate" value="2015-02-26"/>
+			<field name="publicationDate" value="2016-08-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALLAN CARRE DE OLIVEIRA"/>
+			<field name="inventor" value="EDUARDO MARCAL VILAMEA"/>
+			<field name="inventor" value="FABIO GOUVEIA TELLES DE MENEZES"/>
+			<field name="inventor" value="STAEL FERREIRA SENRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B63B21/50AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B63B35/44AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="E21B17/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="unidade estacionária de produção de petróleo a presente invenção está relacionada a embarcações de produção, armazenamento e alívio de petróleo dotadas de linhas de coleta rígidas em catenária livre. nesse cenário, a presente invenção provê uma unidade estacionária de produção (2) de petróleo compreendendo uma configuração de casco (4) capaz de aliviar os esforços atuantes em um sistema de linha de coleta rígidas em catenária livre, dispensando a necessidade de linhas de coleta híbridas ou sistemas adicionais de compensação e alívio de esforços. para tal, uma unidade estacionária de produção (2) de petróleo é provida, compreendendo um casco (4) dotado de pelo menos uma abertura passante (6) adaptada para passagem de linhas de coleta através do casco (4)."/>
+			<field name="originatesFrom" value="56802129"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015004124"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015004124"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015004124"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151004124"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015004124"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1506" type="Person">
+			<semanticIdentifier>lattes::1610835595083194</semanticIdentifier>
+			<field name="identifier.lattes" value="1610835595083194"/>
+			<field name="name" value="Allan Carre de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit1138" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1989" toEntityRef="Person1506" type="Inventor"/>
+		<relation fromEntityRef="Patent1989" toEntityRef="OrgUnit1138" type="Applicant"/>
+	</relations>
+</entity-relation-data>

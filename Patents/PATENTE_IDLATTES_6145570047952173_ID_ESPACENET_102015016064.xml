@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:39" record="36599" source="Espacenet">
+	<entities>
+		<entity ref="Patent36599" type="Patent">
+			<semanticIdentifier>brcris::4ca9d05f50cb16a8bd6317f20b9390cd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015016064A8</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015016064</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015016064A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151016064</semanticIdentifier>
+			<semanticIdentifier>original::102015016064</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015016064"/>
+			<field name="identifier.lattes" value="6145570047952173"/>
+			<field name="identifier.espacenet" value="102015016064"/>
+			<field name="kindCode" value="A8"/>
+			<field name="title.espacenet" value="composição cosmética oral à base de hipericina e uso da mesma"/>
+			<field name="title.lattes" value="COMPOSIÇÃO COSMÉTICA ORAL À BASE DE HIPERICINA E USO DA MESMA"/>
+			<field name="depositDate" value="2015-07-02"/>
+			<field name="publicationDate" value="2018-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON ORZARI RIBEIRO"/>
+			<field name="inventor" value="JANICE RODRIGUES PERUSSI"/>
+			<field name="inventor" value="LIVIA RODRIGUES PERUSSI VALVERDE"/>
+			<field name="inventor" value="PRISCILA FERNANDA CAMPOS DE MENEZES"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO ABC"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61Q11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/97AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="97AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composição cosmética oral à base de hipericina e uso da mesma. a presente invenção refere-se ao desenvolvimento de uma composição cosmética na forma de enxaguatório bucal. este enxaguatório bucal é constituído de um composto fotossensível chamado hipericina e é ativado pela luz led na faixa do visível (400-750nm) realizando, assim, terapia fotodinâmica antimicrobiana (tfda). tal composição é utilizada na eliminação dos germes causadores de placa bacteriana, doenças periodontais (gengivite e periodontite), cáries, mau hálito e outros problemas relativos à saúde bucal no controle microbiano."/>
+			<field name="originatesFrom" value="62043486"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015016064"/>
+				<field name="kind" value="A8"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015016064"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015016064"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151016064"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015016064"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25193" type="Person">
+			<semanticIdentifier>lattes::6145570047952173</semanticIdentifier>
+			<field name="identifier.lattes" value="6145570047952173"/>
+			<field name="name" value="Priscila Fernanda Campos de Menezes"/>
+		</entity>
+		<entity ref="OrgUnit19775" type="OrgUnit">
+			<semanticIdentifier>brcris::30dfde450441733be7eebd7b0036946b</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DO ABC"/>
+		</entity>
+		<entity ref="OrgUnit19776" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36599" toEntityRef="Person25193" type="Inventor"/>
+		<relation fromEntityRef="Patent36599" toEntityRef="OrgUnit19775" type="Applicant"/>
+		<relation fromEntityRef="Patent36599" toEntityRef="OrgUnit19776" type="Applicant"/>
+	</relations>
+</entity-relation-data>

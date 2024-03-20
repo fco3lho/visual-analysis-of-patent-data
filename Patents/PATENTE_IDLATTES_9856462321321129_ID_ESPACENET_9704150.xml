@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:14" record="7530" source="Espacenet">
+	<entities>
+		<entity ref="Patent7530" type="Patent">
+			<semanticIdentifier>brcris::7779031b7568d03ca08507050feed534</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9704150A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9704150</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9704150A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979704150</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 9704150-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9704150"/>
+			<field name="identifier.lattes" value="9856462321321129"/>
+			<field name="identifier.espacenet" value="9704150"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Vacina contra o carrapato"/>
+			<field name="title.lattes" value="Vacina contra carrapato"/>
+			<field name="depositDate" value="1997-08-26"/>
+			<field name="publicationDate" value="1999-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AOI MASUDA"/>
+			<field name="inventor" value="CARLOS JORGE LOGULLO DE OLIVEIRA"/>
+			<field name="inventor" value="DE OLIVEIRA PEDRO LAGERBLAD"/>
+			<field name="inventor" value="HATISABURO MASUDA"/>
+			<field name="inventor" value="ITABAJARA DA SILVA VAZ JUNIOR"/>
+			<field name="inventor" value="JOAO CARLOS GONZALES"/>
+			<field name="inventor" value="MARCOS HENRIQUE FERREIRA SORGINE"/>
+			<field name="inventor" value="OLIVEIRA CARLOS JORGE LOGULLO DE"/>
+			<field name="inventor" value="PEDRO LAGERBLAD DE OLIVEIRA"/>
+			<field name="inventor" value="SILVA VAZ ITABAJARA DA, JUNIOR"/>
+			<field name="inventor" value="SORGINE MARCOS HENRIQUE FERREIRA"/>
+			<field name="applicant" value="FERREIRA SORGINE MARCOS HENRIQUE"/>
+			<field name="applicant" value="GONZALOS JOAO CARLOS"/>
+			<field name="applicant" value="LAGERBLAD DE OLIVEIRA PEDRO"/>
+			<field name="applicant" value="LOGULLO DE OLIVEIRA CARLOS JORGE"/>
+			<field name="applicant" value="MASUDA AOI"/>
+			<field name="applicant" value="SILVA VAZ DA ITABAJARA, JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K39/385AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="385AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07K14/435AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="435AI"/>
+			</field>
+			<field name="originatesFrom" value="4067832"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9704150"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9704150"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9704150"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979704150"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 9704150-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5066" type="Person">
+			<semanticIdentifier>lattes::9856462321321129</semanticIdentifier>
+			<field name="identifier.lattes" value="9856462321321129"/>
+			<field name="name" value="Carlos Jorge Logullo de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit3995" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7530" toEntityRef="Person5066" type="Inventor"/>
+		<relation fromEntityRef="Patent7530" toEntityRef="OrgUnit3995" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:47" record="18711" source="Espacenet">
+	<entities>
+		<entity ref="Patent18711" type="Patent">
+			<semanticIdentifier>brcris::1aa0b1dc16f904aa0fa6205aa7e83c43</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501899A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501899</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501899A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01899</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501899-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501899"/>
+			<field name="identifier.lattes" value="1826035348340133"/>
+			<field name="identifier.espacenet" value="PI0501899"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de calibração para avaliar a precisão cinemática de máquinas-ferramenta através de um laser interferométrico"/>
+			<field name="title.lattes" value="Sistema de Calibração para Avaliar a Precisão Cinemática de Máquinas-ferramenta através de um Laser Interferométrico"/>
+			<field name="depositDate" value="2005-05-13"/>
+			<field name="publicationDate" value="2007-01-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HEBER FERREIRA FRANCO DE CASTRO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B19/048AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="048AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA DE CALIBRAçãO PARA AVALIAR A PRECISãO CINEMáTICA DE MáQUINAS-FERRAMENTA ATRAVéS DE UM LASER INTERFEROMéTRICO&quot;. Esta invenção refere-se a um método para calibração dinâmica da precisão cinemática de tornos e retificadoras de roscas operando no modo de cortar roscas e sem cargas de usinagem ('em vazio'). O ângulo de rotação do eixo-árvore é medido através de um polígono de precisão (11), montado no eixo-árvore, e um dispositivo de disparo óptico-eletrónico. Este dispositivo é composto de um sistema de laser diodo (15) e de um gerador de pulso (16). Um laser interferométrico (7) mede o deslocamento do carro longitudinal em relação a um retrorefletor (9) afixado na placa da máquina. Quando o eixo-árvore gira, um trem de pulsos é gerado pelo dispositivo de disparo. Estes pulsos são transmitidos para o cartão do laser (17) a fim de comandar as medições efetuadas pelo laser interferométrico. Um software foi desenvolvido para adquirir os dados e plotar os erros cinemáticos na forma gráfica. As componentes dos erros cinemáticos avaliados são as seguintes: erro de passo progressívo, erro cíclico e erro de flutuação axial do eixo-árvore. Este método presta-se, também, para aferir o atraso do servo-acionamento de máquinas CNC operando no modo de usinar roscas. Uma aplicação deste calibrador de erros cinemáticos foi realizada em um torno universal e em um torno CNC."/>
+			<field name="originatesFrom" value="37607676"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501899"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501899"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501899"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01899"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501899-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12977" type="Person">
+			<semanticIdentifier>lattes::1826035348340133</semanticIdentifier>
+			<field name="identifier.lattes" value="1826035348340133"/>
+			<field name="name" value="Heber Ferreira Franco de Castro"/>
+		</entity>
+		<entity ref="OrgUnit10112" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit10113" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18711" toEntityRef="Person12977" type="Inventor"/>
+		<relation fromEntityRef="Patent18711" toEntityRef="OrgUnit10112" type="Applicant"/>
+		<relation fromEntityRef="Patent18711" toEntityRef="OrgUnit10113" type="Applicant"/>
+	</relations>
+</entity-relation-data>

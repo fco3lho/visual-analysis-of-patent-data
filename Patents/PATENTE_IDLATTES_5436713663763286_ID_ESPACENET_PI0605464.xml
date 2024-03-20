@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:56" record="40925" source="Espacenet">
+	<entities>
+		<entity ref="Patent40925" type="Patent">
+			<semanticIdentifier>brcris::75ed18acd2ed477fb8227ffe22c04e9a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605464A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605464</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605464A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05464</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605464-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605464"/>
+			<field name="identifier.lattes" value="5436713663763286"/>
+			<field name="identifier.espacenet" value="PI0605464"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método para predição de derivados de petróleo e produção de seus derivados"/>
+			<field name="title.lattes" value="Método para predição de derivados de petróleo e produção de seus derivados"/>
+			<field name="depositDate" value="2006-11-30"/>
+			<field name="publicationDate" value="2008-07-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO LOURENCO BARBOSA"/>
+			<field name="inventor" value="CLAUDETE BERNARDO HENRIQUES"/>
+			<field name="inventor" value="MARIA IZABEL MARETTI SILVEIRA BUENO"/>
+			<field name="inventor" value="RUBENS MACIEL JR"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/223AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="223AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA PREDIçãO DE DERIVADOS DE PETRóLEO E PRODUçãO DE SEUS DERIVADOS. A presente invenção se refere a um método para predição de destilados de petróleo e produção dos seus derivados, tais como, por exemplo, nafta, querosene, diesel leve, diesel pesado e resíduo atmosférico, e aplicação em modelos de predição de produção, otimização e controle, e desenvolvimento de novos processos, compreendendo as etapas de: coleta dos espectros das amostras de petróleos crus; colocação das amostras de cru em celas especiais usadas para Fluorescência de Raios-X; medição das amostras usando-se espectrómetros de raios-X por comprimento de onda dispersivo, operando em condições tais que os picos de espalhamento Compton e Rayleigh da fonte (tubo de raios-X) possam ser observados; tratamento dos espectros obtidos para os padrões de calibração utilizando-se programas estatísticos; aplicação do método quimiométrico de Regressão por Mínimos Quadrados Parciais como modelo matemático, empregando-se a região do espalhamento do elemento que compõe o anodo do tubo de raios-X (Rh); e obtenção de modelos de calibração dos valores de produção específica de cada derivado do petróleo cru (nafta, querosene, diesel leve, diesel pesado e resíduo atmosférico), de forma muito simples através dos dados obtidos e amostras com valores conhecidos dos parâmetros de interesse, e análise multivariada para construção do modelo."/>
+			<field name="originatesFrom" value="39598243"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605464"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605464"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605464"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05464"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605464-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27829" type="Person">
+			<semanticIdentifier>lattes::5436713663763286</semanticIdentifier>
+			<field name="identifier.lattes" value="5436713663763286"/>
+			<field name="name" value="Rubens Maciel Filho"/>
+		</entity>
+		<entity ref="OrgUnit21776" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40925" toEntityRef="Person27829" type="Inventor"/>
+		<relation fromEntityRef="Patent40925" toEntityRef="OrgUnit21776" type="Applicant"/>
+	</relations>
+</entity-relation-data>

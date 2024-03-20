@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:09" record="2454" source="Espacenet">
+	<entities>
+		<entity ref="Patent2454" type="Patent">
+			<semanticIdentifier>brcris::3c3c52cc23cfacf3cd96f129925b240f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005581A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013005581</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005581A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131005581</semanticIdentifier>
+			<semanticIdentifier>original::102013005581</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013005581"/>
+			<field name="identifier.lattes" value="5845875567733896"/>
+			<field name="identifier.espacenet" value="102013005581"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composição odontológica restauradora e seus usos"/>
+			<field name="title.lattes" value="Composição Odontológica Restauradora e Seus Usos"/>
+			<field name="depositDate" value="2013-03-08"/>
+			<field name="publicationDate" value="2018-01-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMERICO BORTOLAZZO CORRER"/>
+			<field name="inventor" value="MARIO ALEXANDRE COELHO SINHORETI"/>
+			<field name="inventor" value="RAVANA ANGELINI SFALCIN"/>
+			<field name="inventor" value="SALVATORE SAURO"/>
+			<field name="inventor" value="TATIANY GABRIELLE FREIRE ARAUJO"/>
+			<field name="inventor" value="TIMOTHY FREDERICK WATSON"/>
+			<field name="inventor" value="VICTOR PINHEIRO FEITOSA"/>
+			<field name="applicant" value="KING'S COLLEGE LONDON"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K6/50AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K6/884AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="884AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61K6/891AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="891AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composlção odontológica restauradora e seus usos a presente invenção descreve uma composição odontológica restauradora formada por uma resina acoplada a micropartículas de vidro bioativo e monômeros funcionais, capaz de paralisar as lesões cariosas em esmalte e remineralizá-las ativamente. a lesão não é preenchida por resina e os tecidos circundantes tornam-se resistentes a posteriores desafios cariogênicos. essa composição pode ser aplicada adicionalmente como resina adesiva para restaurações diretas e indiretas com resina composta restauradora."/>
+			<field name="originatesFrom" value="62619832"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005581"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013005581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005581"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131005581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013005581"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1779" type="Person">
+			<semanticIdentifier>lattes::5845875567733896</semanticIdentifier>
+			<field name="identifier.lattes" value="5845875567733896"/>
+			<field name="name" value="Américo Bortolazzo Correr"/>
+		</entity>
+		<entity ref="OrgUnit1389" type="OrgUnit">
+			<semanticIdentifier>brcris::8ccc9f74e479ea7b55534d9371d758cb</semanticIdentifier>
+			<field name="name" value="KING'S COLLEGE LONDON"/>
+		</entity>
+		<entity ref="OrgUnit1390" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2454" toEntityRef="Person1779" type="Inventor"/>
+		<relation fromEntityRef="Patent2454" toEntityRef="OrgUnit1389" type="Applicant"/>
+		<relation fromEntityRef="Patent2454" toEntityRef="OrgUnit1390" type="Applicant"/>
+	</relations>
+</entity-relation-data>

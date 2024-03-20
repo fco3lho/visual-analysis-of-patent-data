@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:05" record="15616" source="Espacenet">
+	<entities>
+		<entity ref="Patent15616" type="Patent">
+			<semanticIdentifier>brcris::43a92b140b9b80645336254671889f7c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305578A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0305578</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305578A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030305578</semanticIdentifier>
+			<semanticIdentifier>original::0305578-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0305578"/>
+			<field name="identifier.lattes" value="8555411909155295"/>
+			<field name="identifier.espacenet" value="0305578"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Dispositivo á base de leds utilizado em câmara de fotopolimerização de resina odontológica para próteses"/>
+			<field name="title.lattes" value="Dispositivo à base de led utilizado em câmara de fotopolimerização de resina odontológica para próteses."/>
+			<field name="depositDate" value="2003-11-12"/>
+			<field name="publicationDate" value="2005-07-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL VARELA MAGALHAES"/>
+			<field name="inventor" value="FERNANDO DE MORAES MENDONCA RIBEIRO"/>
+			<field name="applicant" value="FERNANDO DE MORAES MENDONCA RIBEIRO"/>
+			<field name="applicant" value="LUIZ ANTONIO DE OLIVEIRA"/>
+			<field name="applicant" value="MM OPTICS LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61C13/15AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="15AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;DISPOSITIVO à BASE DE LEDS UTILIZADO EM CâMARA DE FOTOPOLIMERIZAçãO DE RESINA ODONTOLóGICA PARA PRóTESES&quot;. A presente invenção refere-se a um dispositivo à base de LEDs (Light Emmiting Diodes), utilizado em uma câmara de fotopolimerização de resina odontológica para próteses, constituído das seguintes partes: uma câmara interna, fabricada de material refletivo; um sistema de refrigeração para os LEDS; uma tampa de acesso à câmara interna; um sistema eletrónico de controle do funcionamento dos LEDS, um sistema de iluminação à base de LEDS, um display de LCD e um gabinete que acondiciona todos estes itens."/>
+			<field name="originatesFrom" value="34705686"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305578"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0305578"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305578"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030305578"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0305578-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10838" type="Person">
+			<semanticIdentifier>lattes::8555411909155295</semanticIdentifier>
+			<field name="identifier.lattes" value="8555411909155295"/>
+			<field name="name" value="Fernando de Moraes Mendonça Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit8480" type="OrgUnit">
+			<semanticIdentifier>brcris::5c555352907a6ec675e8e6eb925e98c7</semanticIdentifier>
+			<field name="name" value="MM OPTICS LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15616" toEntityRef="Person10838" type="Inventor"/>
+		<relation fromEntityRef="Patent15616" toEntityRef="OrgUnit8480" type="Applicant"/>
+		<relation fromEntityRef="Patent15616" toEntityRef="Person10838" type="Depositor"/>
+	</relations>
+</entity-relation-data>

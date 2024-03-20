@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:41" record="33798" source="Espacenet">
+	<entities>
+		<entity ref="Patent33798" type="Patent">
+			<semanticIdentifier>brcris::237610f5e19ad5cf2c7592d34c5396e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026177A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017026177</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026177A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171026177</semanticIdentifier>
+			<semanticIdentifier>original::102017026177</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017026177"/>
+			<field name="identifier.lattes" value="4114476515323918"/>
+			<field name="identifier.espacenet" value="102017026177"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="behavior definition markup languages (bdml): uma linguagem de marcação em xml para definição de modelos de comportamento de ecosistemas para internet das coisas"/>
+			<field name="title.lattes" value="Behavior Definition Markup Language (BDML): Uma linguagem de marcação para modelagem de comportamento de ecosistemas para IoT"/>
+			<field name="depositDate" value="2017-12-05"/>
+			<field name="publicationDate" value="2019-06-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO JAMES PEREIRA SOUTO"/>
+			<field name="inventor" value="NAMEDIN PEREIRA TELES JUNIOR"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L29/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="devido à falta de modelos conceituais para modelagem de comportamento de ambientes para iot e padrões/linguagens para permitir a criação de modelos conceituais para esse propósito, a bdml surge como linguagem alternativa para tentar impulsionar o desenvolvimento de modelos conceituais para iot, facilitando por meio desses modelos, que usuários com pouco ou quase nenhum conhecimento em computação possam modelar e/ou modificar todo comportamento do ambiente, automatizando atividades antes executadas manualmente pelo usuário. além disso, com a criação de modelos conceituais para modelagem de comportamento de ambiente, seria possível possibilitar a integração de ambientes heterogêneos com maior facilidade, por meio da criação de um padrão para comunicação entre os ambientes e a criação de um objeto responsável por permitir essa integração. na bdml é possível adicionar novos objetos de regras de negócio, tendo o usuário apenas que definir no xml schema da bdml o novo objeto, suas características e comportamentos."/>
+			<field name="originatesFrom" value="67294705"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026177"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017026177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026177"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171026177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017026177"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23286" type="Person">
+			<semanticIdentifier>lattes::4114476515323918</semanticIdentifier>
+			<field name="identifier.lattes" value="4114476515323918"/>
+			<field name="name" value="Namedin Pereira Teles Junior"/>
+		</entity>
+		<entity ref="OrgUnit18219" type="OrgUnit">
+			<semanticIdentifier>brcris::e3c6c23bbf0c7465a5bd80db261589a1</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33798" toEntityRef="Person23286" type="Inventor"/>
+		<relation fromEntityRef="Patent33798" toEntityRef="OrgUnit18219" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:08" record="5775" source="Espacenet">
+	<entities>
+		<entity ref="Patent5775" type="Patent">
+			<semanticIdentifier>brcris::7fcbf3bfa2dcf8c84736e99a0735a12c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016024629A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016024629</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016024629A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161024629</semanticIdentifier>
+			<semanticIdentifier>original::102016024629</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016024629"/>
+			<field name="identifier.lattes" value="2962992091083183"/>
+			<field name="identifier.espacenet" value="102016024629"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de projeto de sistemas de medição analógico multisensor baseado em lógica fuzzy"/>
+			<field name="title.lattes" value="Método de Projeto de Sistemas de Medição Analógico Multisensor Baseado em Lógica Fuzzy"/>
+			<field name="depositDate" value="2016-10-21"/>
+			<field name="publicationDate" value="2018-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTHUR NORONHA MONTANARI"/>
+			<field name="inventor" value="EVERTHON DE SOUZA OLIVEIRA"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01D1/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de projeto de sistemas de medição analógico multisensor baseado em lógica fuzzy a presente invenção apresenta um método de projeto analógico para sistemas de medição multisensor que fazem uso de sensores detectores ou binários, como detectores magnéticos, térmicos, capacitivos, indutivos e de intensidade luminosa. tipicamente, sistemas detectores são capazes de medir uma determinada grandeza relacionando valores específicos de saídas a um conjunto de entradas. baseado em lógica fuzzy, o presente método de projeto realiza a interpolação entre os sinais de saída dos elementos detectores do sistema multisensor a fim de se apurar, com alta precisão e linearidade, toda a faixa de medição projetada. a presente invenção destaca-se ainda por implementar a lógica fuzzy de forma inovadora e compacta em um hardware completamente analógico, garantindo, quando comparado a implementações em software, baixo custo, simplicidade e ótima resposta em frequência. para tal, o método conta com uma nova abordagem acerca da interface de fuzzificação típica, utilizando a curva estática de cada sensor detector como a própria função de pertinência do sistema fuzzy. um circuito eletrônico, por sua vez, implementa o procedimento de inferência fuzzy e defuzzificação, baseados no método de takagi-sugeno. desta forma, o método garante menor tempo de resposta e maior resolução ao sistema de medição."/>
+			<field name="originatesFrom" value="62103526"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016024629"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016024629"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016024629"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161024629"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016024629"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3815" type="Person">
+			<semanticIdentifier>lattes::2962992091083183</semanticIdentifier>
+			<field name="identifier.lattes" value="2962992091083183"/>
+			<field name="name" value="Arthur Noronha Montanari"/>
+		</entity>
+		<entity ref="OrgUnit2983" type="OrgUnit">
+			<semanticIdentifier>brcris::b7b1e5fcfe75dddf6f30f7fc6c95201f</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5775" toEntityRef="Person3815" type="Inventor"/>
+		<relation fromEntityRef="Patent5775" toEntityRef="OrgUnit2983" type="Applicant"/>
+	</relations>
+</entity-relation-data>

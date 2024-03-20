@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:29:59" record="43973" source="Espacenet">
+	<entities>
+		<entity ref="Patent43973" type="Patent">
+			<semanticIdentifier>brcris::80dd228ea78f60b3009e603258bde9b9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004731A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017004731</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004731A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171004731</semanticIdentifier>
+			<semanticIdentifier>original::102017004731</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017004731"/>
+			<field name="identifier.lattes" value="7885442519418266"/>
+			<field name="identifier.espacenet" value="102017004731"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="polianilina revestida como material sorvente em extração em fase sólida para exclusão proteica, preparo e aplicação"/>
+			<field name="title.lattes" value="Polianilina revestida como material sorvente em extração em fase sólida para exclusão proteica, preparo e aplicação"/>
+			<field name="depositDate" value="2017-03-09"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNA CARNEIRO PIRES"/>
+			<field name="inventor" value="FLAVIA VIANA AVELAR DUTRA"/>
+			<field name="inventor" value="KEYLLER BASTOS BORGES"/>
+			<field name="inventor" value="MARCELA MATOS CORDEIRO"/>
+			<field name="inventor" value="TIENNE APARECIDA DO NASCIMENTO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08G73/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="73"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J20/285AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="285AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se ao desenvolvimento de um material de acesso restrito a base de polianilina. este material foi duplamente revestido para exclusão proteica e pode ser utilizado para pré-concentrar e separar diversos analitos presentes em diferentes matrizes biológicas, devido às suas propriedades adsortivas e também de exclusão das macromoléculas, como por exemplo, as proteínas oriundas dos fluidos biológicos. além de ser um material ideal para utilização em preparo de amostras e separações, pode também ser interessante para uso em áreas farmacêuticas e médicas. o material é sintetizado facilmente por um processo de baixo custo, reprodutível e com alto rendimento, o que o torna altamente viável para comercialização."/>
+			<field name="originatesFrom" value="64268892"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004731"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017004731"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004731"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171004731"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017004731"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30065" type="Person">
+			<semanticIdentifier>lattes::7885442519418266</semanticIdentifier>
+			<field name="identifier.lattes" value="7885442519418266"/>
+			<field name="name" value="Tienne Aparecida do Nascimento"/>
+		</entity>
+		<entity ref="OrgUnit23604" type="OrgUnit">
+			<semanticIdentifier>brcris::a4ccc994cb0e532d68677b719a097898</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit23605" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43973" toEntityRef="Person30065" type="Inventor"/>
+		<relation fromEntityRef="Patent43973" toEntityRef="OrgUnit23604" type="Applicant"/>
+		<relation fromEntityRef="Patent43973" toEntityRef="OrgUnit23605" type="Applicant"/>
+	</relations>
+</entity-relation-data>

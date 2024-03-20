@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:28" record="6581" source="Espacenet">
+	<entities>
+		<entity ref="Patent6581" type="Patent">
+			<semanticIdentifier>brcris::d9369a63bde0099a5ec7f2b594bd5656</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013034006A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013034006</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013034006A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131034006</semanticIdentifier>
+			<semanticIdentifier>original::102013034006</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013034006"/>
+			<field name="identifier.lattes" value="2730326295919024"/>
+			<field name="identifier.espacenet" value="102013034006"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para detecção de saturação em transformadores de corrente"/>
+			<field name="title.lattes" value="MÉTODO PARA DETECÇÃO DE SATURAÇÃO EM TRANSFORMADORES DE CORRENTE"/>
+			<field name="depositDate" value="2013-11-28"/>
+			<field name="publicationDate" value="2015-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUGUSTO SANTIAGO CERQUEIRA"/>
+			<field name="inventor" value="BRUNO MONTESANO SCHETTINO"/>
+			<field name="inventor" value="CARLOS AUGUSTO DUQUE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02H7/045AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="045AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para detecção de saturação em transformadores de corrente. método para detecção de saturação eleromagnética do núcleo de um transformador de corrente (tc), utilizando técnicas de processamento de sinais aplicadas às amostras do sinal de corrente elétrica de seu circuito secundário (2). após a detecção da falta (9), o sinal de corrente, do circuito secundário (2) é filtrado (13), processado pela função primeira diferença do filtro de lanczos de baixo ruído (14) e comparado a um limiar adaptativo (15). os resultados desta comparação permitem a detecção dos pontos de início (4) e pontos de fim (5) das regiões saturadas (3). este método pode ser utilizado em processos de mitigação dos efeitos causados pela saturação dos tcs nos dispositivos de proteção dos sistemas elétricos de potência."/>
+			<field name="originatesFrom" value="54837912"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013034006"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013034006"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013034006"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131034006"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013034006"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4379" type="Person">
+			<semanticIdentifier>lattes::2730326295919024</semanticIdentifier>
+			<field name="identifier.lattes" value="2730326295919024"/>
+			<field name="name" value="Bruno Montesano Schettino"/>
+		</entity>
+		<entity ref="OrgUnit3446" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6581" toEntityRef="Person4379" type="Inventor"/>
+		<relation fromEntityRef="Patent6581" toEntityRef="OrgUnit3446" type="Applicant"/>
+	</relations>
+</entity-relation-data>

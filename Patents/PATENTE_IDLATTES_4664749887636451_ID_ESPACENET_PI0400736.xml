@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:12" record="1269" source="Espacenet">
+	<entities>
+		<entity ref="Patent1269" type="Patent">
+			<semanticIdentifier>brcris::41e24ee6638a3290f10c0fce022376db</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400736A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0400736</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400736A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI00736</semanticIdentifier>
+			<semanticIdentifier>original::0400736-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0400736"/>
+			<field name="identifier.lattes" value="4664749887636451"/>
+			<field name="identifier.espacenet" value="PI0400736"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de descoloração de corante reativo pelo fungo pleurotus pulmonarius"/>
+			<field name="title.lattes" value="Processo de descoloração de corante reativo pelo fungo Pleurotus pulmonarius"/>
+			<field name="depositDate" value="2004-02-26"/>
+			<field name="publicationDate" value="2005-10-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRA ZACARIAS DOS SANTOS"/>
+			<field name="inventor" value="CELIA REGINA GRANHEN TAVARES"/>
+			<field name="inventor" value="JOSE MAXIMIANO CANDIDO NETO"/>
+			<field name="inventor" value="SANDRA MARIA GOMES-DA-COSTA"/>
+			<field name="applicant" value="ALESSANDRA ZACARIAS DOS SANTOS"/>
+			<field name="applicant" value="CELIA REGINA GRANHEN TAVARES"/>
+			<field name="applicant" value="JOSE MAXIMIANO CANDIDO NETO"/>
+			<field name="applicant" value="SANDRA MARIA GOMES-DA-COSTA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F3/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE DESCOLORAçãO DE CORANTE REATIVO PELO FUNGO PLEUROTUS PULMONARIUS&quot;. A presente invenção refere-se à utilização do basidiomiceto ligninolítico Pleurotus pulmonarius ((fr.) quél.) para descoloração de corantes reativos em meio líquido. Foi desenvolvido um processo de utilização do fungo basidiomiceto Pleurotus pulmonarius para descoloração de corantes reativos. Esta tecnologia poderá ser aplicada no tratamento de efluentes de indústrias que utilizem este corante visando eliminar a cor destes efluentes complementando o tratamento dos mesmos."/>
+			<field name="originatesFrom" value="35151557"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400736"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0400736"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400736"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI00736"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0400736-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person941" type="Person">
+			<semanticIdentifier>lattes::4664749887636451</semanticIdentifier>
+			<field name="identifier.lattes" value="4664749887636451"/>
+			<field name="name" value="Alessandra Zacarias dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit742" type="OrgUnit">
+			<semanticIdentifier>brcris::e2506f938555d6bfe6ccf0c4e3276fcf</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1269" toEntityRef="Person941" type="Inventor"/>
+		<relation fromEntityRef="Patent1269" toEntityRef="OrgUnit742" type="Applicant"/>
+		<relation fromEntityRef="Patent1269" toEntityRef="Person941" type="Depositor"/>
+	</relations>
+</entity-relation-data>

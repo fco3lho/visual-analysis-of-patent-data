@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:22" record="8080" source="Espacenet">
+	<entities>
+		<entity ref="Patent8080" type="Patent">
+			<semanticIdentifier>brcris::c686782b7e48a9c995c445fc4223a484</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032429A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032429</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032429A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032429</semanticIdentifier>
+			<semanticIdentifier>original::102012032429</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032429"/>
+			<field name="identifier.lattes" value="9726544779319467"/>
+			<field name="identifier.espacenet" value="102012032429"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de esferas biocerâmicas"/>
+			<field name="title.lattes" value="Processo de produção de esferas de biocerâmicas"/>
+			<field name="depositDate" value="2012-12-19"/>
+			<field name="publicationDate" value="2016-04-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CECILIA AMELIA DE CARVALHO ZAVAGLIA"/>
+			<field name="inventor" value="RACHEL MARY OSTHUES"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="INSIDE MATERIAIS AVANCADOS LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J2/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C04B35/057AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="057AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de esferas biocerâmicas. a presente invenção descreve um processo de produção miroesferas biocerâmicas, o presente processo compreende uma rota de processamento para fabricação de microesferas de fosfato de cálcio, como a hidroxiapatita e beta-fosfato tricálcio (bcp - fosfato de cálcio bifásico), com parâmetros controlados que permitem obter tamanho e porosidade adequadas para diversas aplicações. na presente invenção, o produto resultante compreende um material cerâmico granular, poroso, com morfologia esférica, de fosfato de cálcio bifásico (bcp) constituído de hidroxiapatita e beta-fosfato tricálcico, com granulometria na faixa de 840 a 38 micrometros."/>
+			<field name="originatesFrom" value="55858548"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032429"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032429"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032429"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032429"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012032429"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5495" type="Person">
+			<semanticIdentifier>lattes::9726544779319467</semanticIdentifier>
+			<field name="identifier.lattes" value="9726544779319467"/>
+			<field name="name" value="Cecilia Amelia de Carvalho Zavaglia"/>
+		</entity>
+		<entity ref="OrgUnit4337" type="OrgUnit">
+			<semanticIdentifier>brcris::7d0de0597422f874e9fd79d6c2b9ac77</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA"/>
+		</entity>
+		<entity ref="OrgUnit4338" type="OrgUnit">
+			<semanticIdentifier>brcris::ac0ffefbdce1729b9727564228aac37b</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit4339" type="OrgUnit">
+			<semanticIdentifier>brcris::287fe52218b606147826c8b11be41728</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8080" toEntityRef="Person5495" type="Inventor"/>
+		<relation fromEntityRef="Patent8080" toEntityRef="OrgUnit4337" type="Applicant"/>
+		<relation fromEntityRef="Patent8080" toEntityRef="OrgUnit4338" type="Applicant"/>
+		<relation fromEntityRef="Patent8080" toEntityRef="OrgUnit4339" type="Applicant"/>
+	</relations>
+</entity-relation-data>

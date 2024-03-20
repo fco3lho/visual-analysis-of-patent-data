@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:46" record="18709" source="Espacenet">
+	<entities>
+		<entity ref="Patent18709" type="Patent">
+			<semanticIdentifier>brcris::15f7281930b796a3bdf20afc44c6213f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018074398A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018074398</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018074398A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181074398</semanticIdentifier>
+			<semanticIdentifier>original::102018074398</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018074398"/>
+			<field name="identifier.lattes" value="6206149279062112"/>
+			<field name="identifier.espacenet" value="102018074398"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo e equipamento de fabricação de feixe de mola em compósito"/>
+			<field name="title.lattes" value="PROCESSO E EQUIPAMENTO DE FABRICAÇÃO DE FEIXE DE MOLA EM COMPÓSITO"/>
+			<field name="depositDate" value="2018-11-27"/>
+			<field name="publicationDate" value="2020-06-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CESAR AUGUSTO CARDOSO TEIXEIRA DE ALBUQUERQUE FERREIRA"/>
+			<field name="inventor" value="CLEITON BOENO"/>
+			<field name="inventor" value="DIEGO MASOTTI"/>
+			<field name="inventor" value="HAZIM ALI AL-QURESHI"/>
+			<field name="inventor" value="JOEL BOARETTO"/>
+			<field name="applicant" value="FRAS-LE S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B29C35/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="29"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B29C70/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="29"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="70"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B29C70/60AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="29"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="70"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="B29D1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="29"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um processo de fabricação de feixe de mola em compósito e um equipamento para fabricação de feixe de mola em compósito. especificamente, a presente invenção compreende um processo de fabricação de feixe de mola em compósito que envolve etapas de impregnação de um tecido, controle de resina e enrolamento em um molde, sendo que as ditas etapas ocorrem durante uma desbobinagem contínua do dito tecido. ademais, é descrito uma concretização de um equipamento para fabricação de feixes de mola em compósito de acordo com o processo revelado a presente invenção se situa nos campos da engenharia mecânica, volta a componentes automobilísticos."/>
+			<field name="originatesFrom" value="70976938"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018074398"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018074398"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018074398"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181074398"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018074398"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12975" type="Person">
+			<semanticIdentifier>lattes::6206149279062112</semanticIdentifier>
+			<field name="identifier.lattes" value="6206149279062112"/>
+			<field name="name" value="Hazim Ali Al-Qureshi"/>
+		</entity>
+		<entity ref="OrgUnit10109" type="OrgUnit">
+			<semanticIdentifier>brcris::fd2de8d5940318d778c7cceed2ee4c56</semanticIdentifier>
+			<field name="name" value="FRAS-LE S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18709" toEntityRef="Person12975" type="Inventor"/>
+		<relation fromEntityRef="Patent18709" toEntityRef="OrgUnit10109" type="Applicant"/>
+	</relations>
+</entity-relation-data>

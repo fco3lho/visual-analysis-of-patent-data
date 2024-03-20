@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:04" record="33441" source="Espacenet">
+	<entities>
+		<entity ref="Patent33441" type="Patent">
+			<semanticIdentifier>brcris::392d51d4cf9204d819701eeafcdb8450</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504000A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504000</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504000A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04000</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504000-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504000"/>
+			<field name="identifier.lattes" value="1290711673273506"/>
+			<field name="identifier.espacenet" value="PI0504000"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método adaptativo para a compressão de sinais de tensão e corrente de redes de transmissão e distribuição de energia elétrica"/>
+			<field name="title.lattes" value="Método adaptativo para a compressão de sinais de tensão e corrente de redes de transmissão e distribuição de energia elétrica"/>
+			<field name="depositDate" value="2005-09-01"/>
+			<field name="publicationDate" value="2007-05-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOAO MARCOS TRAVASSOS ROMANO"/>
+			<field name="inventor" value="MOISES VIDAL RIBEIRO"/>
+			<field name="inventor" value="MOISES VIDAL RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R15/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="originatesFrom" value="38051142"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504000"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504000"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504000"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04000"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504000-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23061" type="Person">
+			<semanticIdentifier>lattes::1290711673273506</semanticIdentifier>
+			<field name="identifier.lattes" value="1290711673273506"/>
+			<field name="name" value="Moises Vidal Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit18008" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33441" toEntityRef="Person23061" type="Inventor"/>
+		<relation fromEntityRef="Patent33441" toEntityRef="OrgUnit18008" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:00" record="1145" source="Espacenet">
+	<entities>
+		<entity ref="Patent1145" type="Patent">
+			<semanticIdentifier>brcris::164f35c6140e081386a2e70c730881ec</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701190A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0701190</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701190A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI01190</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0701190-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0701190"/>
+			<field name="identifier.lattes" value="4008495434236758"/>
+			<field name="identifier.espacenet" value="PI0701190"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de sìntese de nanotubos de carbono utilizando esponja de lã de aço comercial como catalisador"/>
+			<field name="title.lattes" value="Método de síntese de nanotubos de carbono utilizando esponjas de lã de aço comercial como catalisador"/>
+			<field name="depositDate" value="2007-06-11"/>
+			<field name="publicationDate" value="2009-10-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALDO JOSE GORGATTI ZARBIN"/>
+			<field name="inventor" value="ALDO JOSE GORGATTI ZARBIN"/>
+			<field name="inventor" value="HUMBERTO KOCH BORGES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B82B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C01B31/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE SìNTESE DE NANOTUBOS DE CARBONO UTILIZANDO ESPONJA DE Lã DE AçO COMERCIAL COMO CATALISADOR. Esta invenção descreve a utilização de esponja de lã de aço comercial (como por exemplo, Bombril(r)) como catalisador na síntese de nanotubos de carbono através da decomposição catalítica de hidrocarbonetos, visando a obtenção destes materiais com custo reduzido."/>
+			<field name="originatesFrom" value="41180863"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701190"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0701190"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701190"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI01190"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0701190-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person846" type="Person">
+			<semanticIdentifier>lattes::4008495434236758</semanticIdentifier>
+			<field name="identifier.lattes" value="4008495434236758"/>
+			<field name="name" value="Aldo Jose Gorgatti Zarbin"/>
+		</entity>
+		<entity ref="OrgUnit673" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit674" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1145" toEntityRef="Person846" type="Inventor"/>
+		<relation fromEntityRef="Patent1145" toEntityRef="OrgUnit673" type="Applicant"/>
+		<relation fromEntityRef="Patent1145" toEntityRef="OrgUnit674" type="Applicant"/>
+	</relations>
+</entity-relation-data>

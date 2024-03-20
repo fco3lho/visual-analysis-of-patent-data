@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:46:56" record="24609" source="Espacenet">
+	<entities>
+		<entity ref="Patent24609" type="Patent">
+			<semanticIdentifier>brcris::d4a53b15b59ded8cdb9ae475ec86a20b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901585A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0901585</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901585A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI01585</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0901585-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0901585"/>
+			<field name="identifier.lattes" value="9147090856125951"/>
+			<field name="identifier.espacenet" value="PI0901585"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="material sorvente para petróleo, derivados, óleos vegetais ou minerais composto à base de pelo de cachorro"/>
+			<field name="title.lattes" value="Um Novo MATERIAL SORVENTE PARA PETRÓLEO, DERIVADOS, ÓLEOS VEGETAIS OU MINERAIS COMPOSTO À BASE DE PÊLO DE CACHORRO"/>
+			<field name="depositDate" value="2009-04-29"/>
+			<field name="publicationDate" value="2011-01-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="KESTUR GUNDAPPA SATYANARAYANA"/>
+			<field name="inventor" value="LARISSA PEROTTA"/>
+			<field name="inventor" value="LUCAS PEREIRA DOS SANTOS"/>
+			<field name="inventor" value="THAIS HELENA SYDENSTRICKER FLORES-SAHAGUN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J20/22AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09K3/32AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MATERIAL SORVENTE PARA PETRóLEO, DERIVADOS, óLEOS VEGETAIS OU MINERAIS COMPOSTO A BASE DE PELO DE CACHORRO. Com capacidade para limpar águas contendo essas substâncias em pequenas ou grandes concentrações e também, capaz de absorver esses produtos na ausência de água. A grande maioria dos sorventes naturais usados na mitigação de derramamentos de óleos e hidrocarbonetos disponíveis no mercado são importados e, em geral, absorvem muita água. A presente invenção apresenta um novo material composto à base de pelo de cachorro com capacidade de limpar ágvas oleosas (óleos animais, vegetais ou minerais) ou contendo contaminantes como tolueno, benzeno, etilbenzeno ou xileno através do uso de colunas de adsorçáo (Figura 1) e de executar sorção em meio seco ou aquoso comparável aos materiais sintéticos e superior às turfas, material vegetal usado hoje comercialmente, sendo no entanto o pelo de cachorro um material natural de fonte renovável e biodegradável. Constitui um material para o setor da química ambiental e da engenharia ambiental que apresenta baixa sorção çle água e alta seletividade por óleos, não sendo tóxico se incinerado após seu uso."/>
+			<field name="originatesFrom" value="43401830"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901585"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0901585"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901585"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI01585"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0901585-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17112" type="Person">
+			<semanticIdentifier>lattes::9147090856125951</semanticIdentifier>
+			<field name="identifier.lattes" value="9147090856125951"/>
+			<field name="name" value="Kestur Gundappa Satyanarayana"/>
+		</entity>
+		<entity ref="OrgUnit13279" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit13280" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24609" toEntityRef="Person17112" type="Inventor"/>
+		<relation fromEntityRef="Patent24609" toEntityRef="OrgUnit13279" type="Applicant"/>
+		<relation fromEntityRef="Patent24609" toEntityRef="OrgUnit13280" type="Applicant"/>
+	</relations>
+</entity-relation-data>

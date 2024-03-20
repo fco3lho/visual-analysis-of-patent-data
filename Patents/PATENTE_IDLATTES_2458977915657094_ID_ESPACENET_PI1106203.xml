@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:38" record="14163" source="Espacenet">
+	<entities>
+		<entity ref="Patent14163" type="Patent">
+			<semanticIdentifier>brcris::ad1e30c7ae58d74570f3e7b3b83ae860</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106203A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1106203</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106203A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI06203</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1106203-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1106203"/>
+			<field name="identifier.lattes" value="2458977915657094"/>
+			<field name="identifier.espacenet" value="PI1106203"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Sistema com compressor elétrico e turbina geradora para motores térmicos"/>
+			<field name="title.lattes" value="Sistema Com Compressor Elétrico e Turbina Geradora Para Motores Térmicos"/>
+			<field name="depositDate" value="2011-08-11"/>
+			<field name="publicationDate" value="2015-03-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EUGENIO LIBORIO FEITOSA FORTALEZA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F01K7/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema com compressor elétrico e turbina geradora para motores térmicos. Sistema composto por turbogerador e moto-compressor elétricos integrados ao circuito de ar (admissão e exaustão) de um motor térmico. O moto-compressor é posicionado antes da admissão de ar do motor térmico de maneira de aumentar o fluxo de ar admitido pelo motor térmico. O turbogerador é acionado pelos gases de exaustão do motor térmico recuperando parte da energia cinética destes gases, e convertendo em energia elétrica para uso no moto-compressor ou com outras finalidades."/>
+			<field name="originatesFrom" value="52780237"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106203"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1106203"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106203"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI06203"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1106203-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9761" type="Person">
+			<semanticIdentifier>lattes::2458977915657094</semanticIdentifier>
+			<field name="identifier.lattes" value="2458977915657094"/>
+			<field name="name" value="Eugenio Liborio Feitosa Fortaleza"/>
+		</entity>
+		<entity ref="OrgUnit7699" type="OrgUnit">
+			<semanticIdentifier>brcris::862ac5be4be0bb3658f3bee6a7a37d33</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14163" toEntityRef="Person9761" type="Inventor"/>
+		<relation fromEntityRef="Patent14163" toEntityRef="OrgUnit7699" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:37" record="40198" source="Espacenet">
+	<entities>
+		<entity ref="Patent40198" type="Patent">
+			<semanticIdentifier>brcris::1ff2a9ceb6dfa17280d146721321cd8e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905188A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905188</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905188A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05188</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905188-0 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905188"/>
+			<field name="identifier.lattes" value="8449916971915629"/>
+			<field name="identifier.espacenet" value="PI0905188"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="unidades estruturais e processo de produÇço de unidades estruturais"/>
+			<field name="title.lattes" value="Unidades Estruturais e Processo de Produção de Unidades Estruturais"/>
+			<field name="depositDate" value="2009-12-21"/>
+			<field name="publicationDate" value="2013-07-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JADIR DE SOUZA ROCHA"/>
+			<field name="inventor" value="JOAO DE ALMEIDA MELO JR"/>
+			<field name="inventor" value="MARIA DE JESUS VAREJAO"/>
+			<field name="inventor" value="MARIA GORETT DOS SANTOS MARQUES"/>
+			<field name="inventor" value="RAIMUNDO PEREIRA DE VASCONCELOS"/>
+			<field name="inventor" value="ROMILDO DIAS TOLEDO JR"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B18/24AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E04C3/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="UNIDADES ESTRUTURAIS E PROCESSO DE PRODUÇçO DE UNIDADES ESTRUTURAIS. A presente invenção descreve unidades estruturais e processo de produção de unidades estruturais compreendendo fibras vegetais e material cimentício. Em especial, as unidaes estruturais são plaas com material compósito originado a partir da adição de fibras vegetais de arumã a uma matriz cimentpicia. Em especial, as placas são produzidas com a fibra vegetal obtida por processo de extração da fibra externa do caule a planta vegetal de arumã. A presenta invenção reduz o consumo de cimento, tendo em vista que é adicionada a matriz cimentícia a metacaulinita, melhorando sua compacidade. A adição de fibras vegetais melhora as características das placas com materiais cimentícios em relação à diminuição de retração, resistência à tração direta e à flexão."/>
+			<field name="originatesFrom" value="48692732"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905188"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905188"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905188"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05188"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905188-0 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27396" type="Person">
+			<semanticIdentifier>lattes::8449916971915629</semanticIdentifier>
+			<field name="identifier.lattes" value="8449916971915629"/>
+			<field name="name" value="Romildo Dias Toledo Filho"/>
+		</entity>
+		<entity ref="OrgUnit21416" type="OrgUnit">
+			<semanticIdentifier>brcris::c4d38dee3c28c06d5ce64dfbbe90193e</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+		</entity>
+		<entity ref="OrgUnit21417" type="OrgUnit">
+			<semanticIdentifier>brcris::ec47f492ca0551bbf05c2477ecd20b73</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40198" toEntityRef="Person27396" type="Inventor"/>
+		<relation fromEntityRef="Patent40198" toEntityRef="OrgUnit21416" type="Applicant"/>
+		<relation fromEntityRef="Patent40198" toEntityRef="OrgUnit21417" type="Applicant"/>
+	</relations>
+</entity-relation-data>

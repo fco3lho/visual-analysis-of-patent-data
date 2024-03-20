@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:11" record="29530" source="Espacenet">
+	<entities>
+		<entity ref="Patent29530" type="Patent">
+			<semanticIdentifier>brcris::ef2be52805e4f7914a4cd79667a960d4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027350A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016027350</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027350A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161027350</semanticIdentifier>
+			<semanticIdentifier>original::102016027350</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016027350"/>
+			<field name="identifier.lattes" value="6463780458075153"/>
+			<field name="identifier.espacenet" value="102016027350"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo microfluídico baseado em fios têxteis para aplicações eletroanalíticas"/>
+			<field name="title.lattes" value="DISPOSITIVO MICROFLUÍDICO BASEADO EM FIOS TÊXTEIS PARA APLICAÇÕES ELETROANALÍTICAS"/>
+			<field name="depositDate" value="2016-11-22"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE GATTI"/>
+			<field name="inventor" value="DEONIR AGUSTINI"/>
+			<field name="inventor" value="LUIZ HUMBERTO MARCOLINO JUNIOR"/>
+			<field name="inventor" value="MARCIO FERNANDO BERGAMINI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01L3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D01F2/00AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="D01F6/00AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01N27/416AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="416AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo microfluídico baseado em fios têxteis para aplicações eletroanalìticas a presente invenção refere-se a um dispositivo para aplicações eletroanalíticas (1) para a determinação quantitativa e qualitativa de espécies químicas, moléculas ou íons em matrizes líquidas de interesse, com um reservatório superior de abastecimento de solução transportadora (2), conectado por um arranjo de fios têxteis (4) a um reservatório inferior para descarte da solução transportadora (3), estando o arranjo de fios têxteis (4) em contato físico com uma célula de detecção (7) para a determinação dos analitos de interesse, tal arranjo (8) composto por eletrodo de trabalho (9), contra-eletrodo (10) e eletrodo de referência (1 1 ), conectados à um sistema eletro-eletrõnico (6) para aplicação de potenciais elétricos e aquisição de dados e um sistema para injeção do analito (5) situado entre o reservatório superior de abastecimento (2) e a célula de detecção (7)."/>
+			<field name="originatesFrom" value="62845620"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027350"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016027350"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027350"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161027350"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016027350"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20303" type="Person">
+			<semanticIdentifier>lattes::6463780458075153</semanticIdentifier>
+			<field name="identifier.lattes" value="6463780458075153"/>
+			<field name="name" value="Marcio Fernando Bergamini"/>
+		</entity>
+		<entity ref="OrgUnit15896" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29530" toEntityRef="Person20303" type="Inventor"/>
+		<relation fromEntityRef="Patent29530" toEntityRef="OrgUnit15896" type="Applicant"/>
+	</relations>
+</entity-relation-data>

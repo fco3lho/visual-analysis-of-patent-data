@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:01" record="34572" source="Espacenet">
+	<entities>
+		<entity ref="Patent34572" type="Patent">
+			<semanticIdentifier>brcris::176f01cc9574037e8be4b0728dc1108f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603619A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0603619</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603619A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI03619</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0603619-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0603619"/>
+			<field name="identifier.lattes" value="4649853685495071"/>
+			<field name="identifier.espacenet" value="PI0603619"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de preparação de vacina contra a pneumonia enzoótica suìna e vacina obtida"/>
+			<field name="title.lattes" value="Processo de preparação de vacina contra a pneumonia enzoótica suína e vacina obtida"/>
+			<field name="depositDate" value="2006-05-16"/>
+			<field name="publicationDate" value="2008-01-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABRICIO ROCHEDO CONCEICAO"/>
+			<field name="inventor" value="ODIR ANTONIO DELLAGOSTIN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K39/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/09AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="09AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12N15/31AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="31AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PREPARAçãO DE VACINA CONTRA A PNEUMONIA ENZOóTICA SUìNA E VACINA OBTIDA é descrito um processo de preparação de uma vacina de subunidade contra a pneumonia enzoótica suína (PES), a vacina sendo obtida através da tecnologia do DNA recombinante. A vacina é composta pela quimera recombinante &quot;rLTBRl&quot;, uma proteína formada pela fusão da subunidade B da enterotoxina termolábil de Escherichia coli (LTB) com a região repetitiva R1 da adesína P97 de Mycoplasma hyopneumoniae (R1), agente etiológico da PES. A LTB apresenta atividade adjuvante, ou seja, potencializa a resposta imune frente a antígenos co-administrados ou fusionados, que na invenção é constituído pela região repetitiva R1 da adesina P97 de Mycoplasma hyopneumoniae. Os genes que codificam para a LTB e R1 foram amplificados por PCR, fusionados &quot;in vitro&quot; e o produto resultante (gene híbrido) clonado em um plasmídeo de expressão em Escherichia coli. A proteína recombinante rLTBR1 (vacina) foi produzida em E. coli purificada, caracterizada e avaliada em camundongos isogênicos e suínos SPF (specific pathogen free). rLTBR1 administrada por via intranasal protegeu leilões SPF desafiados com uma cepa patogênica de Mycoplasma hyopneumoniae."/>
+			<field name="originatesFrom" value="38917595"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603619"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0603619"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603619"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI03619"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0603619-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23803" type="Person">
+			<semanticIdentifier>lattes::4649853685495071</semanticIdentifier>
+			<field name="identifier.lattes" value="4649853685495071"/>
+			<field name="name" value="Odir Antonio Dellagostin"/>
+		</entity>
+		<entity ref="OrgUnit18684" type="OrgUnit">
+			<semanticIdentifier>brcris::5aa56af182c84d54a22c21eb8549aed1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34572" toEntityRef="Person23803" type="Inventor"/>
+		<relation fromEntityRef="Patent34572" toEntityRef="OrgUnit18684" type="Applicant"/>
+	</relations>
+</entity-relation-data>

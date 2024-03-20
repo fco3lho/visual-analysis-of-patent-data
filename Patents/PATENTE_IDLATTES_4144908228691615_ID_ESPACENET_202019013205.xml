@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:08" record="25264" source="Espacenet">
+	<entities>
+		<entity ref="Patent25264" type="Patent">
+			<semanticIdentifier>brcris::1928caaca40a56ae07ee0b7c2fea4f94</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019013205U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019013205U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019013205U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192013205U</semanticIdentifier>
+			<semanticIdentifier>original::202019013205</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019013205"/>
+			<field name="identifier.lattes" value="4144908228691615"/>
+			<field name="identifier.espacenet" value="202019013205"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="colher térmica para sorvete e outros alimentos"/>
+			<field name="title.lattes" value="Colher térmica para sorvete e outros alimentos"/>
+			<field name="depositDate" value="2019-06-25"/>
+			<field name="publicationDate" value="2021-01-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANASTACIA CAROLINA SILVA DO NASCIMENTO"/>
+			<field name="inventor" value="CARLOS CHRISTIANO LIMA DOS SANTOS"/>
+			<field name="inventor" value="DAWY KEYSON DE ARAUJO ALMEIDA"/>
+			<field name="inventor" value="JEFFERSON MAUL DE ANDRADE"/>
+			<field name="inventor" value="KARINA KARLA PACHECO PORPINO RIMAR"/>
+			<field name="inventor" value="LEANDRO SANTOS DA SILVA"/>
+			<field name="inventor" value="MARIA SORAYA PEREIRA FRANCO ADRIANO"/>
+			<field name="inventor" value="NIEREMBERG JOSE PEREIRA DE LYRA RAMOS"/>
+			<field name="inventor" value="POLIANA SOUSA EPAMINONDAS LIMA"/>
+			<field name="inventor" value="TANIA MARIA DE ANDRADE"/>
+			<field name="inventor" value="TARCISIO OLIVEIRA TRAJANO"/>
+			<field name="applicant" value="FACULDADE UNINASSAU"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA - UFPB"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A47J43/28AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="47"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="colher térmica para sorvete e outros alimentos. o modelo de utilidade conjuga as funções de transportar, retirar ou desprender com maior facilidade alimentos congelados e com alta consistência, proporcionando uma melhor agilidade no beneficiamento do processo. a dita colher térmica é constituída por uma tampa para compartimento de bateria (1), cabo isolante para manuseio (2); botão para acionamento do sistema térmico (3); unidade condutora constituída de concha de aço inox-oco (4), bateria recarregável (5), painel indicador/controlador de temperatura (6), sistema cabo termopar/micro-arduíno (7), alojamento da resistência elétrica(8), resistência elétrica para aquecimento (9), concha de aço inox semi-oca (10)."/>
+			<field name="originatesFrom" value="74502022"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019013205"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019013205U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019013205"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192013205U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019013205"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17527" type="Person">
+			<semanticIdentifier>lattes::4144908228691615</semanticIdentifier>
+			<field name="identifier.lattes" value="4144908228691615"/>
+			<field name="name" value="Leandro Santos da Silva"/>
+		</entity>
+		<entity ref="OrgUnit13678" type="OrgUnit">
+			<semanticIdentifier>brcris::0b9ad0b7d1137ebc5cd2d45620e2c1e8</semanticIdentifier>
+			<field name="name" value="FACULDADE UNINASSAU"/>
+		</entity>
+		<entity ref="OrgUnit13679" type="OrgUnit">
+			<semanticIdentifier>brcris::870f013c24dd32f2633b56915355018d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA - UFPB"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25264" toEntityRef="Person17527" type="Inventor"/>
+		<relation fromEntityRef="Patent25264" toEntityRef="OrgUnit13678" type="Applicant"/>
+		<relation fromEntityRef="Patent25264" toEntityRef="OrgUnit13679" type="Applicant"/>
+	</relations>
+</entity-relation-data>

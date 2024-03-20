@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:50" record="18743" source="Espacenet">
+	<entities>
+		<entity ref="Patent18743" type="Patent">
+			<semanticIdentifier>brcris::87d1bc9a9d106f28df215f3c56149766</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012879A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012012879</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012879A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121012879</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 012879-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012012879"/>
+			<field name="identifier.lattes" value="4337490165249861"/>
+			<field name="identifier.espacenet" value="102012012879"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO DE PREPARO DE FLOCOS DE PRATA."/>
+			<field name="title.lattes" value="Método de Preparo de Flocos de Prata"/>
+			<field name="depositDate" value="2012-05-29"/>
+			<field name="publicationDate" value="2014-12-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA GRACI BRITO MADURRO"/>
+			<field name="inventor" value="HEDEN DA COSTA E SILVA ALVES"/>
+			<field name="inventor" value="JOAO MARCOS MADURRO"/>
+			<field name="inventor" value="LUCAS FERREIRA DE PAULA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B22F9/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B22F9/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO DE PREPARO DE FLOCOS DE PRATA - Invenção metodológica no preparo de um floco de prata, utilizado principalmente como auditivo em formações, que confere características condutivas à composição de tintas, adesivos, vernizes, etc. O material obtido pelo método proposto apresenta uma séria de vantagens frente aos convencionais, principalmente quanto à sua pureza, condutividade, rendimento e custo reduzido, dentre outras adequadas peculiaridades. A metodologia empregada também pode ser empregada para a produção de flocos de diversos outreos metais."/>
+			<field name="originatesFrom" value="52003101"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012879"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012012879"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012879"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121012879"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 012879-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12998" type="Person">
+			<semanticIdentifier>lattes::4337490165249861</semanticIdentifier>
+			<field name="identifier.lattes" value="4337490165249861"/>
+			<field name="name" value="Heden da Costa e Silva Alves"/>
+		</entity>
+		<entity ref="OrgUnit10129" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+		<entity ref="OrgUnit10130" type="OrgUnit">
+			<semanticIdentifier>brcris::fa95793bd10cf2105122ea0e931c861a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18743" toEntityRef="Person12998" type="Inventor"/>
+		<relation fromEntityRef="Patent18743" toEntityRef="OrgUnit10129" type="Applicant"/>
+		<relation fromEntityRef="Patent18743" toEntityRef="OrgUnit10130" type="Applicant"/>
+	</relations>
+</entity-relation-data>

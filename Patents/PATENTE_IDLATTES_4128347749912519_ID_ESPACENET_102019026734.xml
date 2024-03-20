@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:54" record="37354" source="Espacenet">
+	<entities>
+		<entity ref="Patent37354" type="Patent">
+			<semanticIdentifier>brcris::b5a62ac29677cfd6564ba23244b0b4fc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019026734A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019026734</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019026734A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191026734</semanticIdentifier>
+			<semanticIdentifier>original::102019026734</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019026734"/>
+			<field name="identifier.lattes" value="4128347749912519"/>
+			<field name="identifier.espacenet" value="102019026734"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de ácido lático"/>
+			<field name="title.lattes" value="PROCESSO DE PRODUÇÃO DE ÁCIDO LÁTICO"/>
+			<field name="depositDate" value="2019-12-15"/>
+			<field name="publicationDate" value="2021-06-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO VAZ ROSSELL"/>
+			<field name="inventor" value="REGIANE ALVES DE OLIVEIRA"/>
+			<field name="inventor" value="RUBENS MACIEL FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/16AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P7/56AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="56AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/225AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="225AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de ácido lático. a presente invenção descreve um processo para obtenção de ácido lático a partir de biomassa lignocelulósica. trata de um processo fermentativo simples e altamente produtivo para a produção de ácido lático. o processo compreende a obtenção de uma fração líquida de biomassa lignocelulósica hidrolisada e não-detoxificada para ser fermentada por uma bactéria lática homofermentativa para a produção de ácido lático. para tal, o hidrolisado é suplementado com uma fonte de nitrogênio e o ph é controlado via adição de base. durante a fermentação, o microrganismo não sofre inibição pelos compostos provenientes do hidrolisado e é capaz de auto-biodetoxificar o meio ao mesmo tempo em que produz ácido lático."/>
+			<field name="originatesFrom" value="77163817"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019026734"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019026734"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019026734"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191026734"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019026734"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25770" type="Person">
+			<semanticIdentifier>lattes::4128347749912519</semanticIdentifier>
+			<field name="identifier.lattes" value="4128347749912519"/>
+			<field name="name" value="Regiane Alves de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit20231" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37354" toEntityRef="Person25770" type="Inventor"/>
+		<relation fromEntityRef="Patent37354" toEntityRef="OrgUnit20231" type="Applicant"/>
+	</relations>
+</entity-relation-data>

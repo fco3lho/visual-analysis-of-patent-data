@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:18" record="2524" source="Espacenet">
+	<entities>
+		<entity ref="Patent2524" type="Patent">
+			<semanticIdentifier>brcris::e44ac2d93b46b61849b491ff8fafd388</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0706010A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0706010</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0706010A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI06010</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0706010-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0706010"/>
+			<field name="identifier.lattes" value="2179900906147256"/>
+			<field name="identifier.espacenet" value="PI0706010"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="amostrador setorial estacionário com cúpula"/>
+			<field name="title.lattes" value="Amostrador Setorial Estacionário com Cúpula"/>
+			<field name="depositDate" value="2007-10-05"/>
+			<field name="publicationDate" value="2009-07-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CAROLINA CHIEREGATI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21C41/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="AMOSTRADOR SETORIAL ESTACIONáRIO COM CúPULA. Amostrador setorial estacionário, que minimiza a perda de finos, compreendendo uma caixa (5a) substancialmente cilíndrica tendo parede inferior (5c) e parede lateral (5g); recorte retangular (5b) incorporado na caixa (5a) de formato que encaixa em volta da haste de uma perfuratriz; cúpula (5e) de formato substancialmente semi-esférico e com corte retangular (5h) coincidente com o recorte retangular (5b) da caixa (5a); cobertura de borracha (5h) de formato substancialmente retangular para evitar a perda de finos durante a operação de uma perfuratriz."/>
+			<field name="originatesFrom" value="40896292"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0706010"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0706010"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0706010"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI06010"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0706010-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1838" type="Person">
+			<semanticIdentifier>lattes::2179900906147256</semanticIdentifier>
+			<field name="identifier.lattes" value="2179900906147256"/>
+			<field name="name" value="Ana Carolina Chieregati"/>
+		</entity>
+		<entity ref="OrgUnit1440" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit1441" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2524" toEntityRef="Person1838" type="Inventor"/>
+		<relation fromEntityRef="Patent2524" toEntityRef="OrgUnit1440" type="Applicant"/>
+		<relation fromEntityRef="Patent2524" toEntityRef="OrgUnit1441" type="Applicant"/>
+	</relations>
+</entity-relation-data>

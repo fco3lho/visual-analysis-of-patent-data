@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:24" record="12018" source="Espacenet">
+	<entities>
+		<entity ref="Patent12018" type="Patent">
+			<semanticIdentifier>brcris::b5c5030dc03fe587da4706eb2899fa4b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303297A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303297</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303297A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303297</semanticIdentifier>
+			<semanticIdentifier>original::0303297-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303297"/>
+			<field name="identifier.lattes" value="9220348583560043"/>
+			<field name="identifier.espacenet" value="0303297"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo eletrolìtico em desinfecção e controle de contaminação de substrato de fermentação de indústria alcooleira"/>
+			<field name="title.lattes" value="Processo Eletrolítico em Desinfecção e Controle de Contaminação de Substrato de Fermentação de Indústria Alcooleira"/>
+			<field name="depositDate" value="2003-07-18"/>
+			<field name="publicationDate" value="2005-04-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDERIO DINO BIDOIA"/>
+			<field name="inventor" value="RODOLFO TOLENTINO BISNETO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12H1/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C13B20/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="13"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO ELETROLìTICO EM DESINFECçãO E CONTROLE DE CONTAMINAçãO DE SUBSTRATO DE FERMENTAçãO DE INDúSTRIA ALCOOLEIRA&quot;. Descrito como o presente Privilégio de Invenção, refere-se a um processo que possibilita a desinfecção do substrato de fermentação, sem adição de agentes tóxicos, de modo a garantir a compatibilidade ambiental da atividade alcooleira, para tanto, a presente invenção garante a desinfecção do substrato de fermentação eliminando as bactérias, que são nocivas ao processo e, preservando as leveduras, além do mesmo ser ambientalmente compatível, pois não deixa resíduos nem necessita a adição de substâncias químicas e, os agentes biocidas, comumente utilizados no controle de contaminações dos processos de fermentação, são dispensados nesse tratamento, sendo usados eletrodos de carbono para tal tarefa, uma vez que os mesmos não adicionam nenhum íon ou substância ao substrato que alterem suas características, bem como a adsorção de microrganismos ao eletrodo aumenta a eficiência do processo de desinfecção. Portanto, o presente processo se caracteriza pela aplicação de uma corrente elétrica contínua em eletrodos de carbono ou catodos de carbono e anodo de TiRuO~ 2~ ou eletrodos de aço inox ou qualquer outra combinação destes mergulhados no substrato, 'vinho', a ser tratado, sendo a corrente elétrica é mantida em um valor constante por meio de controle da fonte de corrente e, o substrato a ser tratado, permanece sob agitação constante quando o processo é realizado em batelada e, quando em fluxo contínuo, a agitação se dá por meio do próprio fluxo do substrato no sistema, sendo que o referido substrato, pode ou não, conter o fermento para ser tratado."/>
+			<field name="originatesFrom" value="34397981"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303297"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303297"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303297"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303297"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303297-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8285" type="Person">
+			<semanticIdentifier>lattes::9220348583560043</semanticIdentifier>
+			<field name="identifier.lattes" value="9220348583560043"/>
+			<field name="name" value="Ederio Dino Bidoia"/>
+		</entity>
+		<entity ref="OrgUnit6543" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12018" toEntityRef="Person8285" type="Inventor"/>
+		<relation fromEntityRef="Patent12018" toEntityRef="OrgUnit6543" type="Applicant"/>
+	</relations>
+</entity-relation-data>

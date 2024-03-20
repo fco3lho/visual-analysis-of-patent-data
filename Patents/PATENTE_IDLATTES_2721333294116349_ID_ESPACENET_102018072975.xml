@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:25:14" record="42940" source="Espacenet">
+	<entities>
+		<entity ref="Patent42940" type="Patent">
+			<semanticIdentifier>brcris::8d3475c8bccf5c89730fa214ecba119b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018072975A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018072975</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018072975A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181072975</semanticIdentifier>
+			<semanticIdentifier>original::102018072975</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018072975"/>
+			<field name="identifier.lattes" value="2721333294116349"/>
+			<field name="identifier.espacenet" value="102018072975"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de peptidases por meio de fermentação em estado sólido de resíduo agroindustrial"/>
+			<field name="title.lattes" value="Processo de produção de peptidases por meio de fermentação em estado sólido de resíduo agroindustrial"/>
+			<field name="depositDate" value="2018-11-08"/>
+			<field name="publicationDate" value="2020-05-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON FRAGOSO DOS SANTOS"/>
+			<field name="inventor" value="DENISE MARIA GUIMARAES FREIRE"/>
+			<field name="inventor" value="TAISSA FERREIRA DE OLIVEIRA SOUZA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P21/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/69AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="69AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de peptidases por meio de fermentação em estado sólido de resíduo agroindustrial. trata-se de um processo de produção de enzimas por fermentação em estado sólido (fes) usando como substrato residuo agroindustrial. o processo inclui etapas de incubar fungos filamentosos numa cultura de ágar batata dextrose por cerca de 7 dias, suspender os esporos da cultura em solução de polisorbato 80, inocular a suspensão no substrato, conduzir a fermentação por cerca de 72 horas, adicionar uma solução de separação no substrato e separar a parte líquida proveniente da mistura, em que a parte líquida contem enzimas. trata-se também de um detergente enzimático contendo em sua fórmula as enzimas produzidas pelo processo descrito."/>
+			<field name="originatesFrom" value="70976738"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018072975"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018072975"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018072975"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181072975"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018072975"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29296" type="Person">
+			<semanticIdentifier>lattes::2721333294116349</semanticIdentifier>
+			<field name="identifier.lattes" value="2721333294116349"/>
+			<field name="name" value="Taissa Ferreira de Oliveira Souza"/>
+		</entity>
+		<entity ref="OrgUnit22953" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42940" toEntityRef="Person29296" type="Inventor"/>
+		<relation fromEntityRef="Patent42940" toEntityRef="OrgUnit22953" type="Applicant"/>
+	</relations>
+</entity-relation-data>

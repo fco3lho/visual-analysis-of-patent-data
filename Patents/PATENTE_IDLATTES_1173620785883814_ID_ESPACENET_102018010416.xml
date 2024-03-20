@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:24" record="17412" source="Espacenet">
+	<entities>
+		<entity ref="Patent17412" type="Patent">
+			<semanticIdentifier>brcris::81d4ea8087987766877206b2f5e31510</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010416A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018010416</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010416A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181010416</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018010416"/>
+			<field name="identifier.lattes" value="1173620785883814"/>
+			<field name="identifier.espacenet" value="102018010416"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema em tempo real de análise da qualidade de óleos combustíveis através do processamento estatístico de sinais ultrassônicos transformados"/>
+			<field name="title.lattes" value="Sistema em Tempo Real de Análise da Qualidade de Óleos Combustíveis através do Processamento estatístico de Sinais Ultrassônicos Transformados"/>
+			<field name="depositDate" value="2018-05-22"/>
+			<field name="publicationDate" value="2019-12-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO TEIXEIRA"/>
+			<field name="inventor" value="ERIK LEANDRO BONALDI"/>
+			<field name="inventor" value="GERMANO LAMBERT TORRES"/>
+			<field name="inventor" value="ISMAEL NORONHA"/>
+			<field name="inventor" value="LEVY ELY DE LACERDA DE OLIVEIRA"/>
+			<field name="applicant" value="CENTRO DE GESTAO DE TECNOLOGIA E INOVACAO - CGTI"/>
+			<field name="applicant" value="ENERGETICA SUAPE II S.A"/>
+			<field name="applicant" value="INSTITUTO GNARUS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N29/44AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="de acordo com a presente invenção, pertencente à área de eletrônica, é descrito um sistema capaz de estimar, remotamente e em tempo real, durante a etapa de abastecimento, os níveis de água e de enxofre presentes em óleos combustíveis utilizados na geração de energia elétrica, visando inferir seu potencial energético. a estimação dos contaminantes é baseada na análise de sinais ultrassônicos e considera que, ao atravessar diferentes meios, ondas ultrassônicas emitidas se modificam de acordo com a presença de diferentes contaminantes. dessa forma, conhecidos os parâmetros afetados, é possível estimar a presença de determinados contaminantes por meio da análise dos sinais ultrassônicos adquiridos, sobretudo em domínios diferentes do temporal. a partir de ensaios controlados de contaminação e com o uso de técnicas de processamento estatístico de dados, é possível conhecer os parâmetros mais sensíveis à presença de cada contaminante."/>
+			<field name="originatesFrom" value="68765829"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010416"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018010416"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010416"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181010416"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12068" type="Person">
+			<semanticIdentifier>lattes::1173620785883814</semanticIdentifier>
+			<field name="identifier.lattes" value="1173620785883814"/>
+			<field name="name" value="Germano Lambert-Torres"/>
+		</entity>
+		<entity ref="OrgUnit9449" type="OrgUnit">
+			<semanticIdentifier>brcris::c1b890158418876a562a2ce82c9314c5</semanticIdentifier>
+			<field name="name" value="INSTITUTO GNARUS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17412" toEntityRef="Person12068" type="Inventor"/>
+		<relation fromEntityRef="Patent17412" toEntityRef="OrgUnit9449" type="Applicant"/>
+	</relations>
+</entity-relation-data>

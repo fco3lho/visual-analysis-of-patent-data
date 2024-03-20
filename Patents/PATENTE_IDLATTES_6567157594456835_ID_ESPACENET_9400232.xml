@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:55" record="41872" source="Espacenet">
+	<entities>
+		<entity ref="Patent41872" type="Patent">
+			<semanticIdentifier>brcris::971b25d7c5e6f3c7a73e87abf9ae8ad4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9400232A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9400232</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9400232A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949400232</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9400232"/>
+			<field name="identifier.lattes" value="6567157594456835"/>
+			<field name="identifier.espacenet" value="9400232"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Detector de abertura de condutor em redes de energia elétrica de média e alta tensão e respectivo processo de detecção"/>
+			<field name="title.lattes" value="Sistema Detector de Ruptura de Condutor em Redes de Energia Elétrica de Média Tensão"/>
+			<field name="depositDate" value="1994-01-27"/>
+			<field name="publicationDate" value="1995-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO CESAR SENGER"/>
+			<field name="inventor" value="SERGIO LUCIO SALOMON CABRAL"/>
+			<field name="applicant" value="CESP - COMPANHIA ENERGETICA DE SAO PAULO"/>
+			<field name="applicant" value="COMPANHIA PAULISTA DE FORCA E LUZ"/>
+			<field name="applicant" value="ELETRICIDADE DE SAO PAULO - ELETROPAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02H7/20AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="originatesFrom" value="4058168"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9400232"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9400232"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9400232"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949400232"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28520" type="Person">
+			<semanticIdentifier>lattes::6567157594456835</semanticIdentifier>
+			<field name="identifier.lattes" value="6567157594456835"/>
+			<field name="name" value="Sergio Lucio Salomon Cabral"/>
+		</entity>
+		<entity ref="OrgUnit22325" type="OrgUnit">
+			<semanticIdentifier>brcris::d560549db4a7d5d0dc27987d0d87ade0</semanticIdentifier>
+			<field name="name" value="COMPANHIA PAULISTA DE FORCA E LUZ"/>
+		</entity>
+		<entity ref="OrgUnit22326" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41872" toEntityRef="Person28520" type="Inventor"/>
+		<relation fromEntityRef="Patent41872" toEntityRef="OrgUnit22325" type="Applicant"/>
+		<relation fromEntityRef="Patent41872" toEntityRef="OrgUnit22326" type="Applicant"/>
+	</relations>
+</entity-relation-data>

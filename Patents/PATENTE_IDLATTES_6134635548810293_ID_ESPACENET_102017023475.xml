@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:50" record="6778" source="Espacenet">
+	<entities>
+		<entity ref="Patent6778" type="Patent">
+			<semanticIdentifier>brcris::9055ba709183a3a37582ad1c31e75b1b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023475A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017023475</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023475A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171023475</semanticIdentifier>
+			<semanticIdentifier>original::102017023475</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017023475"/>
+			<field name="identifier.lattes" value="6134635548810293"/>
+			<field name="identifier.espacenet" value="102017023475"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de diagnóstico de falhas em rolamentos de máquinas elétricas rotativas por meio da curtose espectral e envelope quadrático da corrente estatórica"/>
+			<field name="title.lattes" value="Sistema de Diagnóstico de Falhas em Rolamentos de Máquinas Elétricas Rotativas por Meio da Curtose Espectral e Envelope Quadrático da Corrente Estatórica"/>
+			<field name="depositDate" value="2017-10-31"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMILA PAES SALOMON"/>
+			<field name="inventor" value="ERIK LEANDRO BONALDI"/>
+			<field name="inventor" value="JONAS GUEDES BORGES DA SILVA"/>
+			<field name="inventor" value="LEVY ELY DE LACERDA DE OLIVEIRA"/>
+			<field name="applicant" value="INSTITUTO GNARUS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01M13/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01M13/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="?sistema de diagnóstico de falhas em rolamentos de máquinas elétricas rotativas por meio da curtose espectral e envelope quadrático da corrente estatórica?. a presente invenção, pertencente à área de eletrônica, descreve um sistema capaz de detectar, de forma preditiva, falhas mecânicas de natureza localizada e incipiente em rolamentos de motores elétricos (1) trifásicos de corrente alternada, visando a evitar paradas não programadas de produção. o método empregado para a detecção das falhas mecânicas nos rolamentos dos motores elétricos (1) baseia-se na análise das grandezas elétricas, sobretudo na corrente estatórica do motor elétrico (1), no domínio do tempo e no domínio da frequência, considerando-se que distúrbios no torque e no entreferro afetam a corrente estatórica do motor elétrico (1). desta forma, o motor é utilizado como transdutor para a avaliação da condição do rolamento. uma vez alterados os sinais elétricos do motor, pode-se identificar padrões específicos de falha e realizar o acompanhamento preditivo da condição do rolamento. as técnicas utilizadas para a análise das correntes que alimentam o motor elétrico (1) são baseadas na análise da assinatura da corrente do motor ? mcsa, na curtose espectral e na análise do envelope quadrático."/>
+			<field name="originatesFrom" value="67260547"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023475"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017023475"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023475"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171023475"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017023475"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4540" type="Person">
+			<semanticIdentifier>lattes::6134635548810293</semanticIdentifier>
+			<field name="identifier.lattes" value="6134635548810293"/>
+			<field name="name" value="Camila Paes Salomon"/>
+		</entity>
+		<entity ref="OrgUnit3582" type="OrgUnit">
+			<semanticIdentifier>brcris::c1b890158418876a562a2ce82c9314c5</semanticIdentifier>
+			<field name="name" value="INSTITUTO GNARUS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6778" toEntityRef="Person4540" type="Inventor"/>
+		<relation fromEntityRef="Patent6778" toEntityRef="OrgUnit3582" type="Applicant"/>
+	</relations>
+</entity-relation-data>

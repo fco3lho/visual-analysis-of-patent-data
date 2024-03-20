@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:08" record="34643" source="Espacenet">
+	<entities>
+		<entity ref="Patent34643" type="Patent">
+			<semanticIdentifier>brcris::28ae4ccb4e67086d69ff3dc45613e1c6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8502740U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8502740U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8502740U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1985MU02740U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8502740-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8502740"/>
+			<field name="identifier.lattes" value="7578023641172610"/>
+			<field name="identifier.espacenet" value="MU8502740"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="foco frontal, de uso pessoal, á base de led, utilizado para aplicações médicas, odontológicas e veterinárias"/>
+			<field name="title.lattes" value="Foco Frontal, de uso pessoal, à base de LED, utilizado para aplicações médicas, odontológicas e veterinárias."/>
+			<field name="depositDate" value="2005-12-13"/>
+			<field name="publicationDate" value="2007-09-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO DE MORAES MENDONCA RIBEIRO"/>
+			<field name="inventor" value="ORLANDO CARLOS CANOAS GUIMARAES"/>
+			<field name="inventor" value="SILVIA MARA FIRMINO BAGNATO"/>
+			<field name="applicant" value="MM OPTICS LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B90/35AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="90"/>
+				<field name="subgroup" value="35AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F21V19/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="FOCO FRONTAL, DE USO PESSOAL, à BASE DE LED, UTILIZADO PARA APLICAçõES MéDICAS, ODONTOLóGICAS E VETERINáRIAS. Refere-se a presente patente de invenção em um equipamento denominado foco frontal capaz de produzir um spot de luz para uso pessoal dos profissionais da área de saúde - médica, odontológica e veterinária, à base de LED (Light Emitting Diode - Diodo Emissor de Luz), que é fixado na cabeça do profissional, criando maior liberdade de movimento, aproveitando toda a luz emitida pelo LED, promovendo uma iluminação uniforme sem separação de cores, sem geração de calor e ligado a baterias recarregáveis dando mobilidade ao profissional ou conectado a uma fonte de parede eliminando as baterias."/>
+			<field name="originatesFrom" value="38462628"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8502740"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8502740U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8502740"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1985MU02740U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8502740-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23853" type="Person">
+			<semanticIdentifier>lattes::7578023641172610</semanticIdentifier>
+			<field name="identifier.lattes" value="7578023641172610"/>
+			<field name="name" value="Orlando Carlos Canôas Guimarães"/>
+		</entity>
+		<entity ref="OrgUnit18725" type="OrgUnit">
+			<semanticIdentifier>brcris::5c555352907a6ec675e8e6eb925e98c7</semanticIdentifier>
+			<field name="name" value="MM OPTICS LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34643" toEntityRef="Person23853" type="Inventor"/>
+		<relation fromEntityRef="Patent34643" toEntityRef="OrgUnit18725" type="Applicant"/>
+	</relations>
+</entity-relation-data>

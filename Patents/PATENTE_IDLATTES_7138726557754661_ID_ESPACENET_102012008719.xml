@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:33:07" record="44692" source="Espacenet">
+	<entities>
+		<entity ref="Patent44692" type="Patent">
+			<semanticIdentifier>brcris::e1fecd23d8c4be588bb71b6dc3ea46f0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012008719A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012008719</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012008719A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121008719</semanticIdentifier>
+			<semanticIdentifier>original::102012008719</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012008719"/>
+			<field name="identifier.lattes" value="7138726557754661"/>
+			<field name="identifier.espacenet" value="102012008719"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para evoução de consumo de energia em dispositivos eletrônicos com máquina e transições de estados conhecidas"/>
+			<field name="title.lattes" value="Método para redção de consume de energia em dispositivos eletrônicos com máquinas e transições de estados conhecidas"/>
+			<field name="depositDate" value="2012-04-13"/>
+			<field name="publicationDate" value="2017-03-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDSON LUIZ URSINI"/>
+			<field name="inventor" value="TITO RICARDO B. OLIVEIRA"/>
+			<field name="inventor" value="VARESE SALVADOR TIMOTEO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W52/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="52"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W52/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="52"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04W52/24AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="52"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="H04W52/28AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="52"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para redução de consumo de energia em dispositivos eletrônicos com máquina e translções de estados conhecidas o presente invento trata-se de um método que atua nas temporizações do protocolo de sinalização visando à redução do consumo de energia. com o emprego de um preditor adaptativo com alta capacidade de rastreamento para atuação em ambiente com características variáveis e dados não- estacionários é possível a observação dos pacotes monitorados no buffer de entrada da estação móvel e tomada de decisão com relação à taxa mais adequada para utilização do canal de dados, diretamente correlacionado com o consumo de energia."/>
+			<field name="originatesFrom" value="58343286"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012008719"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012008719"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012008719"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121008719"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012008719"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30563" type="Person">
+			<semanticIdentifier>lattes::7138726557754661</semanticIdentifier>
+			<field name="identifier.lattes" value="7138726557754661"/>
+			<field name="name" value="Varese Salvador Timoteo"/>
+		</entity>
+		<entity ref="OrgUnit23975" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44692" toEntityRef="Person30563" type="Inventor"/>
+		<relation fromEntityRef="Patent44692" toEntityRef="OrgUnit23975" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:04" record="2408" source="Espacenet">
+	<entities>
+		<entity ref="Patent2408" type="Patent">
+			<semanticIdentifier>brcris::af1fc4188e6affcf5e9b6dae2b48e45d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010105A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019010105</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010105A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191010105</semanticIdentifier>
+			<semanticIdentifier>original::102019010105</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019010105"/>
+			<field name="identifier.lattes" value="1068834989963831"/>
+			<field name="identifier.espacenet" value="102019010105"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="nanohíbridos para controle de infecções hospitalares"/>
+			<field name="title.lattes" value="Nanohíbridos para controle de infecções hospitalares"/>
+			<field name="depositDate" value="2019-05-17"/>
+			<field name="publicationDate" value="2020-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALUIZ MAGNO ALVES DIMPINO DE ASSIS"/>
+			<field name="inventor" value="AMANDA MARIA DA SILVA"/>
+			<field name="inventor" value="GLAUCIA MANOELLA DE SOUZA LIMA"/>
+			<field name="inventor" value="GRICIRENE SOUZA CORREIA"/>
+			<field name="inventor" value="MARCOS VINICIUS DA SILVA PAULA"/>
+			<field name="inventor" value="ROBERTA CLAUDIA SANTOS NEVES"/>
+			<field name="inventor" value="SEVERINO ALVES JUNIOR"/>
+			<field name="inventor" value="VALERIA REJANE SILVA BRITO"/>
+			<field name="inventor" value="WALTER MENDES DE AZEVEDO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01B39/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y30/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C01G39/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C09K3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="nanohíbridos para controle de infecções hospitalares é divulgado nesta patente de invenção um nanohíbrido formado por bronze de molibdênio de hidrogênio (hxmoo3) com nanopartículas de zeolitic imidazolate framework (zif-8) para ser utilizado como revestimento de superfícies antibacterianos. além do híbrido de hxmoo3@zif-8, essas aplicações também podem ser utilizadas para o nanohíbrido de trióxido de molibdênio (moo3) com nanopartículas de zif-8 e os materiais isolados de moo3 e hxmoo3."/>
+			<field name="originatesFrom" value="73678823"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010105"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019010105"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010105"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191010105"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019010105"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1745" type="Person">
+			<semanticIdentifier>lattes::1068834989963831</semanticIdentifier>
+			<field name="identifier.lattes" value="1068834989963831"/>
+			<field name="name" value="Amanda Maria da Silva"/>
+		</entity>
+		<entity ref="OrgUnit1354" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2408" toEntityRef="Person1745" type="Inventor"/>
+		<relation fromEntityRef="Patent2408" toEntityRef="OrgUnit1354" type="Applicant"/>
+	</relations>
+</entity-relation-data>

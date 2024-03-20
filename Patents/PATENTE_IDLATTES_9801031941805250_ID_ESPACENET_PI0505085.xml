@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:55" record="1109" source="Espacenet">
+	<entities>
+		<entity ref="Patent1109" type="Patent">
+			<semanticIdentifier>brcris::cf989dbe6b443c1281e44162f7d1c863</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505085A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505085</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505085A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05085</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505085-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505085"/>
+			<field name="identifier.lattes" value="9801031941805250"/>
+			<field name="identifier.espacenet" value="PI0505085"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="equipamento e método para determinação de propriedades mecánicas &quot;in situ&quot; de componentes por meio de macroindentação instrumentada"/>
+			<field name="title.lattes" value="Equipamento e Método Para Determinação de Propriedades Mecânicas IN SITU de Componentes por Meio de Macroindentação Instrumentada"/>
+			<field name="depositDate" value="2005-10-31"/>
+			<field name="publicationDate" value="2007-08-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALCIMAR BARBOSA SOARES"/>
+			<field name="inventor" value="FLAVIA CRISTINA CARDOSO"/>
+			<field name="inventor" value="FRANCISCO FRANCELINO RAMOS NETO"/>
+			<field name="inventor" value="LEONARDO DE OLIVEIRA ALVES CARDOSO"/>
+			<field name="inventor" value="MARCELO TORRES PIZA PAES"/>
+			<field name="inventor" value="SINESIO DOMINGUES FRANCO"/>
+			<field name="inventor" value="VERA LUCIA DONIZETI DE SOUSA FRANCO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N3/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="originatesFrom" value="38331811"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505085"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505085"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505085"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05085"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505085-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person815" type="Person">
+			<semanticIdentifier>lattes::9801031941805250</semanticIdentifier>
+			<field name="identifier.lattes" value="9801031941805250"/>
+			<field name="name" value="Alcimar Barbosa Soares"/>
+		</entity>
+		<entity ref="OrgUnit650" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1109" toEntityRef="Person815" type="Inventor"/>
+		<relation fromEntityRef="Patent1109" toEntityRef="OrgUnit650" type="Applicant"/>
+	</relations>
+</entity-relation-data>

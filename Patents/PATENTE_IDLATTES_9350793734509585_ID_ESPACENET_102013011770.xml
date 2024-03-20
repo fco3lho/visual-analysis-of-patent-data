@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:51" record="2266" source="Espacenet">
+	<entities>
+		<entity ref="Patent2266" type="Patent">
+			<semanticIdentifier>brcris::8fed0c96e8b97b0a8bcceea7a4b6fe9b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013011770A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013011770</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013011770A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131011770</semanticIdentifier>
+			<semanticIdentifier>original::102013011770</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013011770"/>
+			<field name="identifier.lattes" value="9350793734509585"/>
+			<field name="identifier.espacenet" value="102013011770"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="detecção de similaridade de áudio em tempo real baseada em uma assinatura textual"/>
+			<field name="title.lattes" value="Detecção de similaridade de áudio em tempo real baseada em uma assinatura textual"/>
+			<field name="depositDate" value="2013-05-13"/>
+			<field name="publicationDate" value="2018-12-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO RODRIGUES PEREIRA JUNIOR"/>
+			<field name="inventor" value="ANGELO MAGNO DE JESUS"/>
+			<field name="inventor" value="FELIPE SANTIAGO MARTINS COIMBRA DE MELO"/>
+			<field name="inventor" value="PAULO HENRIQUE CARDOSO MENDONCA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G10L19/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G10L19/022AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="022AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G10L19/038AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="038AI"/>
+			</field>
+			<field name="abstract.espacenet" value="detecção de similaridade de áudio em tempo real baseada em uma assinatura textual. a presente invenção consiste em um sistema capaz de reconhecer, em tempo real, conteúdos sendo transmitidos a partir de uma stream de áudio. para atingir este objetivo, o sistema foi composto de módulos capazes de monitorar em tempo real, as streams, extrair a variação de altura (pitch), converter essas variações em caracteres imprimíveis (assinatura textual) e realizar uma busca em uma base de dadospara determinar qual é o conteúdo transmitido. ainda, na construção da base de dados, os conteúdos são inicialmente indexados a partir de uma segmentação de 30 segundos por trecho, com sobreposição de 1 segundo sobre todo o trecho de 30 segundos (gerando 21 segmentos de 10 segundos). termos compostos por 3 caracteres são extraídos destes segmentos a fim de construir listas invertidas. ao conjunto de termos e listas invertidas dá-se o nome de índice. este sistema pode ser aplicado ao reconhecimento de outras fontes de áudios, como, por exemplo, vozes humanas."/>
+			<field name="originatesFrom" value="65002700"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013011770"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013011770"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013011770"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131011770"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013011770"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1645" type="Person">
+			<semanticIdentifier>lattes::9350793734509585</semanticIdentifier>
+			<field name="identifier.lattes" value="9350793734509585"/>
+			<field name="name" value="Alvaro Rodrigues Pereira Junior"/>
+		</entity>
+		<entity ref="OrgUnit1239" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2266" toEntityRef="Person1645" type="Inventor"/>
+		<relation fromEntityRef="Patent2266" toEntityRef="OrgUnit1239" type="Applicant"/>
+	</relations>
+</entity-relation-data>

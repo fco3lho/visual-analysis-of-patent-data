@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:48" record="40307" source="Espacenet">
+	<entities>
+		<entity ref="Patent40307" type="Patent">
+			<semanticIdentifier>brcris::b6416086d64db1f1d19799cc836aad68</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019007622A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019007622</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019007622A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191007622</semanticIdentifier>
+			<semanticIdentifier>original::102019007622</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019007622"/>
+			<field name="identifier.lattes" value="7080590204832262"/>
+			<field name="identifier.espacenet" value="102019007622"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="óculos e pupilômetro digital ativo"/>
+			<field name="title.lattes" value="Óculos e pupilômetro digital ativo"/>
+			<field name="depositDate" value="2019-04-15"/>
+			<field name="publicationDate" value="2020-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO NERY ROSSI CAMILO"/>
+			<field name="inventor" value="HEDENIR MONTEIRO PINHEIRO"/>
+			<field name="inventor" value="RONALDO MARTINS DA COSTA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B3/11AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="11AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção é constituída por hardware e software embarcado. o hardware possui duas câmaras escuras. em cada uma das câmaras existe uma câmera digital, quatro leds (diodo emissor de luz) infravermelhos, quatro leds para estimulação com luz visível (branca, vermelha, verde e azul) e um circulo para orientação visual. o software permite a configuração da filmagem, medição do diâmetro pupilar, visualização do olho que está sendo filmado e visualização gráfica do comportamento pupilar. o equipamento possibilita a análise do comportamento pupilar do olho direito, esquerdo ou ambos, submetidos a estímulos luminosos para auxiliar no diagnóstico de patologias oftalmológicas e no reconhecimento biométrico."/>
+			<field name="originatesFrom" value="73045678"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019007622"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019007622"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019007622"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191007622"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019007622"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27468" type="Person">
+			<semanticIdentifier>lattes::7080590204832262</semanticIdentifier>
+			<field name="identifier.lattes" value="7080590204832262"/>
+			<field name="name" value="Ronaldo Martins da Costa"/>
+		</entity>
+		<entity ref="OrgUnit21472" type="OrgUnit">
+			<semanticIdentifier>brcris::b1f2c79921deb4fdda2bdb4dd2e76b96</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40307" toEntityRef="Person27468" type="Inventor"/>
+		<relation fromEntityRef="Patent40307" toEntityRef="OrgUnit21472" type="Applicant"/>
+	</relations>
+</entity-relation-data>

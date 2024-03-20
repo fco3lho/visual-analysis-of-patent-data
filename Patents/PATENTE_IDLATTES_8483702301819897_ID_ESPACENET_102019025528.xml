@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:45" record="18697" source="Espacenet">
+	<entities>
+		<entity ref="Patent18697" type="Patent">
+			<semanticIdentifier>brcris::505fb8d87c540130d5201deb54ccae25</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025528A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019025528</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025528A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191025528</semanticIdentifier>
+			<semanticIdentifier>original::102019025528</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019025528"/>
+			<field name="identifier.lattes" value="8483702301819897"/>
+			<field name="identifier.espacenet" value="102019025528"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="um método de estimação de sequências espaço-temporais de dados codificados usando a máquina de suporte vetorial: aplicações na área de segurança da informação"/>
+			<field name="title.lattes" value="UM MÉTODO DE ESTIMAÇÃO DE SEQUÊNCIAS ESPAÇOTEMPORAIS DE DADOS CODIFICADOS USANDO A MÁQUINA DE SUPORTE VETORIAL: APLICAÇÕES NA ÁREA DE SEGURANÇA DA INFORMAÇÃO"/>
+			<field name="depositDate" value="2019-12-03"/>
+			<field name="publicationDate" value="2021-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALYSSON MENDES DE OLIVEIRA"/>
+			<field name="inventor" value="ARAKEN DE MEDEIROS SANTOS"/>
+			<field name="inventor" value="DARIO JOSE ALOISE"/>
+			<field name="inventor" value="EDUARDO GARCIA"/>
+			<field name="inventor" value="FRANCISCO MARCOS DA COSTA MONTEIRO"/>
+			<field name="inventor" value="HAROLD IVAN ANGULO BUSTOS"/>
+			<field name="inventor" value="JOYCE CLAINE PEREIRA FREITAS"/>
+			<field name="inventor" value="MARCELINO PEREIRA DOS SANTOS SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE - UERN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/62AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06N20/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H03M7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="um método de estimação de sequências espaço-temporais de dados codificados usando a máquina desuporte vetorial: aplicações na área de segurança dainformação. esta invenção refere-se a um método de previsão de série temporal de imagens codificadas, usadas para treinar um algoritmo de aprendizado máquina, que permite estimar uma imagem codificada predita. o processamento é feito através das seguintes etapas. primeiro, as sequências das imagens brutas de entrada (1); são mapeadas para o domínio da potência espectral de fourier, representada pelo módulo ao quadrado da transformada (2); seguidamente os dados das sequências da potência espectral são codificados pelos métodos rle e lzw (3); a seguir os dados das sequências codificadas do espectro de potência são treinados pela máquina de suporte vetorial no modo de regressão (4); seguidamente o algoritmo de treinamento estima um modelo de saída predito da potência espectral de fourier codificada (5); a seguir são aplicados os algoritmos de decodificação rle / lzw sobre o modelo numérico predito codificado (6); posteriormente é aplicada a transformada inversa da potência espectral de fourier sobre este modelo numérico predito da potência espectral (7); finalmente é reconstruído um modelo numérico predito da imagem de saída estimado pelo algoritmo de treinamento (8)."/>
+			<field name="originatesFrom" value="76825145"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025528"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019025528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025528"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191025528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019025528"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12963" type="Person">
+			<semanticIdentifier>lattes::8483702301819897</semanticIdentifier>
+			<field name="identifier.lattes" value="8483702301819897"/>
+			<field name="name" value="Harold Ivan Angulo Bustos"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18697" toEntityRef="Person12963" type="Inventor"/>
+	</relations>
+</entity-relation-data>

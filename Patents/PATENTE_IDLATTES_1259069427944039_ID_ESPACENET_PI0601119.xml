@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:44" record="25068" source="Espacenet">
+	<entities>
+		<entity ref="Patent25068" type="Patent">
+			<semanticIdentifier>brcris::8b870e0b824b6aa0d7178ee0cad916ad</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0601119A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0601119</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0601119A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI01119</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0601119-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0601119"/>
+			<field name="identifier.lattes" value="1259069427944039"/>
+			<field name="identifier.espacenet" value="PI0601119"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de adesão para substratos de amido e seus derivados"/>
+			<field name="title.lattes" value="Processo de adesão para substratos de amido e seus derivados"/>
+			<field name="depositDate" value="2006-03-20"/>
+			<field name="publicationDate" value="2007-11-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADEMAR BENEVOLO LUGAO"/>
+			<field name="inventor" value="CLAUDIO ROCHA BASTOS"/>
+			<field name="inventor" value="DUCLERC FERNANDES PARRA"/>
+			<field name="inventor" value="LAURA GONCALVES CARR"/>
+			<field name="inventor" value="PATRICIA PONCE"/>
+			<field name="applicant" value="CBPAK - EMBALAGENS ECO-SUSTENTAVEIS LTDA"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09J5/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE ADESãO PARA SUBSTRATOS DE AMIDO E SEUS DERIVADOS A presente invenção tem o objetivo de ADERIR um filme ao substrato de amido, ou derivados dele, ou outro substrato, com a utilização de solvente. Tal problema é solucionado de acordo com a presente invenção em um processo de aplicação de solvente-ou vapor de solvente-sobre o substrato de amido. O solvente em contato com a superfície do substrato de amido, ou derivados dele, forma um material aderente em camada muito fina. Em seguida, os substratos estão prontos para serem aderidos a outros substratos, ou para receberem o revestimento por laminação, por exemplo, ou por qualquer outro processo de obtenção e adesão do revestimento ao substrato. O solvente pode ser aplicado em toda a superfície do substrato de amido, ou derivados dele, em apenas uma das superfícies (superior ou inferior), ou ainda em pontos específicos. O método de adesão proposto nesta invenção gera uma camada de textura uniforme. é capaz de preencher com grande facilidade toda a superfície do substrato, mesmo as superfícies irregulares, evitando-se assim, a formação de pontos de concentração de forças."/>
+			<field name="originatesFrom" value="38720798"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0601119"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0601119"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0601119"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI01119"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0601119-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17378" type="Person">
+			<semanticIdentifier>lattes::1259069427944039</semanticIdentifier>
+			<field name="identifier.lattes" value="1259069427944039"/>
+			<field name="name" value="Laura Gonçalves Carr Traina"/>
+		</entity>
+		<entity ref="OrgUnit13542" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit13543" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25068" toEntityRef="Person17378" type="Inventor"/>
+		<relation fromEntityRef="Patent25068" toEntityRef="OrgUnit13542" type="Applicant"/>
+		<relation fromEntityRef="Patent25068" toEntityRef="OrgUnit13543" type="Applicant"/>
+	</relations>
+</entity-relation-data>

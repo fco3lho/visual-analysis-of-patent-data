@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:06" record="24688" source="Espacenet">
+	<entities>
+		<entity ref="Patent24688" type="Patent">
+			<semanticIdentifier>brcris::973b9a02f9dd30351060877f3613b4ef</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010776A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019010776</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010776A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191010776</semanticIdentifier>
+			<semanticIdentifier>original::102019010776</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019010776"/>
+			<field name="identifier.lattes" value="7506454225062622"/>
+			<field name="identifier.espacenet" value="102019010776"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para controle de vazão em bombas monofásicas de chillers de absorção"/>
+			<field name="title.lattes" value="DISPOSITIVO PARA CONTROLE DE VAZÃO EM BOMBAS MONOFÁSICAS DE CHILLERS DE ABSORÇÃO"/>
+			<field name="depositDate" value="2019-05-27"/>
+			<field name="publicationDate" value="2020-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALLAN GIUSEPPE DE ARAUJO CALDAS"/>
+			<field name="inventor" value="ALLYSSON MACARIO DE ARAUJO CALDAS"/>
+			<field name="inventor" value="CARLOS ANTONIO CABRAL DOS SANTOS"/>
+			<field name="inventor" value="KLEBER LIMA CEZAR"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02P6/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F04C14/08AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="F25B49/04AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="49"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo para controle de vazão em bombas monofásicas de chillers de absorção a presente invenção trata-se de um dispositivo de controle de vazão embarcado e de baixo custo, capaz de promover variações de vazão volumétrica em chillers de refrigeração por absorção. faz-se uso de um microcontrolador (8) que recebe e interpreta sinais de vazão volumétrica por meio do conector de interfaceamento (14), o qual estabelece uma ação controladora a partir de um valor de vazão pretendido, monitorando o sinal senoidal de tensão com o auxílio do circuito eletrônico zero crossing (9). a partir de um circuito de potência (10) com um optoacoplador (11), o microcontrolador (8) promove a variação da tensão de alimentação de uma bomba monofásica, alterando sua característica conjugado/velocidade. pelo dinamismo e todos os elementos diferenciais que traz, a presente invenção torna-se interessante e bastante viável industrialmente bem como para o meio acadêmico quando levado em conta o processo de construção, da parte eletrônica e toda a programação envolvida."/>
+			<field name="originatesFrom" value="73678858"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010776"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019010776"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010776"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191010776"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019010776"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17167" type="Person">
+			<semanticIdentifier>lattes::7506454225062622</semanticIdentifier>
+			<field name="identifier.lattes" value="7506454225062622"/>
+			<field name="name" value="Kleber Lima Cézar"/>
+		</entity>
+		<entity ref="OrgUnit13326" type="OrgUnit">
+			<semanticIdentifier>brcris::d328331eae318b62840a10126b18dc94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24688" toEntityRef="Person17167" type="Inventor"/>
+		<relation fromEntityRef="Patent24688" toEntityRef="OrgUnit13326" type="Applicant"/>
+	</relations>
+</entity-relation-data>

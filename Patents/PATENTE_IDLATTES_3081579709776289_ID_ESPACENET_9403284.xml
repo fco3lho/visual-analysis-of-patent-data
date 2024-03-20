@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:29" record="34257" source="Espacenet">
+	<entities>
+		<entity ref="Patent34257" type="Patent">
+			<semanticIdentifier>brcris::c44210f6780e97b13a172787fbe6d16d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9403284A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9403284</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9403284A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949403284</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9403284"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="9403284"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método e equipamento para reparo da camada externa de tubulações flexiveis submarinas"/>
+			<field name="title.lattes" value="METHOD AND EQUIPMENT FOR THE REPAIR OF THE OUTER LAYER OF SUBMARINE FLEXIBLE PIPINGS"/>
+			<field name="depositDate" value="1994-08-19"/>
+			<field name="publicationDate" value="1996-05-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DEL VECCHIO CESAR JOSE MORAES"/>
+			<field name="inventor" value="DOS REIS NEY ROBINSON SALVI"/>
+			<field name="inventor" value="MOTTA ANTONIO MARCOS REGO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L1/26AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F16L55/17AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="55"/>
+				<field name="subgroup" value="17AI"/>
+			</field>
+			<field name="originatesFrom" value="4059491"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9403284"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9403284"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9403284"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949403284"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23570" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18471" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34257" toEntityRef="Person23570" type="Inventor"/>
+		<relation fromEntityRef="Patent34257" toEntityRef="OrgUnit18471" type="Applicant"/>
+	</relations>
+</entity-relation-data>

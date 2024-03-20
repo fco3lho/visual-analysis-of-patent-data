@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:10" record="19491" source="Espacenet">
+	<entities>
+		<entity ref="Patent19491" type="Patent">
+			<semanticIdentifier>brcris::463d71564fba235d8bf0f9718e822502</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015014378A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015014378</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015014378A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151014378</semanticIdentifier>
+			<semanticIdentifier>original::102015014378</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015014378"/>
+			<field name="identifier.lattes" value="9675547485060927"/>
+			<field name="identifier.espacenet" value="102015014378"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de implantes cirúrgicos por deformação plástica a partir de pó de titânio"/>
+			<field name="title.lattes" value="Processo de obtenção de implantes cirúrgicos por deformação plástica a partir de pó de titanio"/>
+			<field name="depositDate" value="2015-06-17"/>
+			<field name="publicationDate" value="2017-07-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE ANTUNES RIBEIRO"/>
+			<field name="inventor" value="CASSIO BARBOSA"/>
+			<field name="inventor" value="IBRAHIM DE CERQUEIRA ABUD"/>
+			<field name="inventor" value="JUAN CARLOS GARCIA DE BLAS"/>
+			<field name="inventor" value="LUIZ CARLOS PEREIRA"/>
+			<field name="inventor" value="MARIZE VARELLA DE OLIVEIRA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE TECNOLOGIA - INT"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B22F3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C22F1/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;processo de obtenção de implantes cirúrgicos por deformação plástica a partir de pó de titânio&quot; um processo para obtenção de material a ser utilizado em implantes cirúrgicos, no qual o pó de titânio é processado por metalurgia do pó, empregando compactação uniaxial a frio sob a ação de um punção em matriz de aço ferramenta. após a compactação, o material compactado é colocado em invólucro metálico e submetido à extrusão angular em canal com temperaturas variando entre 350 e 400ºc. o processo de extrusão angular em canal consiste na consolidação das partículas dos pós compactados por meio de uma matriz de aço ferramenta submetida à ação de uma prensa, que pressiona o punção deslocando o material através de um canal de entrada, conectado por um plano angular a urn canal de saída com o mesmo diâmetro, pelo qual o material é retirado. a existência deste ângulo entre o canal de entrada e o canal de saída, assegura um elevado grau de deformação, que por sua vez permite a consolidação das partículas e consequentemente uma drástica redução do tamanho de cristal (grão) do material, favorecendo considerável ganho de propriedades mecânicas, sem alteração significativa das dimensões do produto, o que permite a repetição do mesmo procedimento por várias vezes, proporcionando ainda maior grau deformação e melhores propriedades mecânicas."/>
+			<field name="originatesFrom" value="61622157"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015014378"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015014378"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015014378"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151014378"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015014378"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13556" type="Person">
+			<semanticIdentifier>lattes::9675547485060927</semanticIdentifier>
+			<field name="identifier.lattes" value="9675547485060927"/>
+			<field name="name" value="Ibrahim de Cerqueira Abud"/>
+		</entity>
+		<entity ref="OrgUnit10602" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19491" toEntityRef="Person13556" type="Inventor"/>
+		<relation fromEntityRef="Patent19491" toEntityRef="OrgUnit10602" type="Applicant"/>
+	</relations>
+</entity-relation-data>

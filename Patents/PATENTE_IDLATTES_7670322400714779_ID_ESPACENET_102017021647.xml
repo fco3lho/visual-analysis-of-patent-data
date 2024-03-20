@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:59" record="22734" source="Espacenet">
+	<entities>
+		<entity ref="Patent22734" type="Patent">
+			<semanticIdentifier>brcris::0dd0148ab9118b8defedf833d7c5395c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017021647A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017021647</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017021647A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171021647</semanticIdentifier>
+			<semanticIdentifier>original::102017021647</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017021647"/>
+			<field name="identifier.lattes" value="7670322400714779"/>
+			<field name="identifier.espacenet" value="102017021647"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="um método de monitoramento para ativação de comunicação dispositivo-para-dispositivo (d2d) sem pareamento na ocorrência de falha ou inoperância na rede de comunicação"/>
+			<field name="title.lattes" value="Um Método de Monitoramento para Ativação de Comunicação Dispositivo-para-Dispositivo (D2D) sem Pareamento na Ocorrência de Falha ou Inoperância na Rede de Comunicação"/>
+			<field name="depositDate" value="2017-10-09"/>
+			<field name="publicationDate" value="2019-04-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES TIM BATISTA GARROCHO"/>
+			<field name="inventor" value="JOSE EDUARDO DE SOUZA"/>
+			<field name="inventor" value="JOSE PIRES BARBATO ROCHA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO PARANA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W8/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W88/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="88"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="um método de monitoramento para ativação de comunicação dispositivo-para-dispositivo (d2d) sem pareamento na ocorrência de falha ou inoperância na rede de comunicação. a presente invenção refere-se a um método de monitoramento para ativação de comunicação d2d em uma eventual falha ou inoperância da rede de comunicação de acesso a internet, visando sua aplicação em descarregamento de tráfego celular e comunicações em situações de emergência, destinada principalmente de modelo para o desenvolvimento de aplicações d2d que necessitem da troca de conteúdos entre dispositivos móveis em eventual falha ou inoperância da internet ou que não haja a interação do usuário com os dispositivos. mais particularmente, a presente invenção referese a um método de monitoramento para ativação de comunicação d2d, caracterizado por utilizar a rede local wifi para comunicação entre os dispositivos móveis em eventual falha ou inoperância da internet, e caso não haja rede local wifi, utilizar o modo de tethering de dispositivos móveis, permitindo que dispositivos móveis tornem-se pontos de acesso ieee 802.11 wlan e oferecer rede para outros dispositivos, de forma automatizada, efetuando transições entre o modo tethering e o modo de pesquisa de redes, com o objetivo de formar a rede de comunicação d2d e promover a troca de conteúdos sem a necessidade de pareamento entre os dispositivos ou autorização do usuário com o dispositivo."/>
+			<field name="originatesFrom" value="67251578"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017021647"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017021647"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017021647"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171021647"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017021647"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15707" type="Person">
+			<semanticIdentifier>lattes::7670322400714779</semanticIdentifier>
+			<field name="identifier.lattes" value="7670322400714779"/>
+			<field name="name" value="José Eduardo de Souza"/>
+		</entity>
+		<entity ref="OrgUnit12210" type="OrgUnit">
+			<semanticIdentifier>brcris::6fde90da7c27282c3f1f2e8b4d2b2ec1</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22734" toEntityRef="Person15707" type="Inventor"/>
+		<relation fromEntityRef="Patent22734" toEntityRef="OrgUnit12210" type="Applicant"/>
+	</relations>
+</entity-relation-data>

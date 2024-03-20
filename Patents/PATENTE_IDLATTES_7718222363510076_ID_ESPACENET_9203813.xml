@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:47" record="19904" source="Espacenet">
+	<entities>
+		<entity ref="Patent19904" type="Patent">
+			<semanticIdentifier>brcris::4aeaac34b1d4c49666c1c43a874482b3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9203813A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9203813</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9203813A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19929203813</semanticIdentifier>
+			<semanticIdentifier>original::9203813</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9203813"/>
+			<field name="identifier.lattes" value="7718222363510076"/>
+			<field name="identifier.espacenet" value="9203813"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Elementos tubulares auto-flutuantes utilizados em linhas de amarracao e metodo de lancamento de uma linha composta pelos referidos elementos tubulares auto-flutuantes"/>
+			<field name="title.lattes" value="Elementos Tubulares Auto-Flutuantes Utilizados em Linhas de Amarração e Métodos de Lançamento de uma Linha Composta pelos Referidos Elementos Tubulares Auto-Flutuantes"/>
+			<field name="depositDate" value="1992-09-30"/>
+			<field name="publicationDate" value="1994-04-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADILSON CARVALHO BENJAMIN"/>
+			<field name="inventor" value="ISAIAS QUARESMA MASETTI"/>
+			<field name="inventor" value="LUIZ HISSASHI HASSUI"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B63B21/48AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B63B21/50AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="originatesFrom" value="4055028"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9203813"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9203813"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9203813"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19929203813"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9203813"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13838" type="Person">
+			<semanticIdentifier>lattes::7718222363510076</semanticIdentifier>
+			<field name="identifier.lattes" value="7718222363510076"/>
+			<field name="name" value="Isaias Quaresma Masetti"/>
+		</entity>
+		<entity ref="OrgUnit10825" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19904" toEntityRef="Person13838" type="Inventor"/>
+		<relation fromEntityRef="Patent19904" toEntityRef="OrgUnit10825" type="Applicant"/>
+	</relations>
+</entity-relation-data>

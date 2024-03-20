@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:50" record="42831" source="Espacenet">
+	<entities>
+		<entity ref="Patent42831" type="Patent">
+			<semanticIdentifier>brcris::66a0b7d3e41aba9fbc3d4030a2076c03</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9102045A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9102045</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9102045A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19919102045</semanticIdentifier>
+			<semanticIdentifier>original::91 9102045</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9102045"/>
+			<field name="identifier.lattes" value="7428701393988982"/>
+			<field name="identifier.espacenet" value="9102045"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="SISTEMA DE CAPTACAO DE AGUA A GRANDES PROFUNDIDADES PARA PLATAFORMAS SEMI-SUBMERSIVEIS DE PRODUCAO"/>
+			<field name="title.lattes" value="Sistema de captação de água à grandes profundidades para plataforma semi-submersível de produção"/>
+			<field name="depositDate" value="1991-05-17"/>
+			<field name="publicationDate" value="1993-01-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO CAPELA MORAES"/>
+			<field name="inventor" value="GIOVANI CAVALCANTI NUNES"/>
+			<field name="inventor" value="MARCO ANTONIO LADISLAU PETKOVIC"/>
+			<field name="inventor" value="SUZANA RASTELLI SATTAMINI"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="originatesFrom" value="4051926"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9102045"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9102045"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9102045"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19919102045"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="91 9102045"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29227" type="Person">
+			<semanticIdentifier>lattes::7428701393988982</semanticIdentifier>
+			<field name="identifier.lattes" value="7428701393988982"/>
+			<field name="name" value="Suzana Rastelli Sattamini"/>
+		</entity>
+		<entity ref="OrgUnit22895" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42831" toEntityRef="Person29227" type="Inventor"/>
+		<relation fromEntityRef="Patent42831" toEntityRef="OrgUnit22895" type="Applicant"/>
+	</relations>
+</entity-relation-data>

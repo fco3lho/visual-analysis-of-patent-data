@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:12" record="28444" source="Espacenet">
+	<entities>
+		<entity ref="Patent28444" type="Patent">
+			<semanticIdentifier>brcris::1367f935dc00e9c58986b4528af3cf5f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012018560A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012018560</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012018560A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121018560</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 018560-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012018560"/>
+			<field name="identifier.lattes" value="7807290705753903"/>
+			<field name="identifier.espacenet" value="102012018560"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÓDULO DE ANÁLISE POR INJEÇÃO SEQUENCIAL BASEADO EM VÁLVULAS E MINIBOMBAS SOLENOIDE PARA GERENCIAMENTO DE SOLUÇÕES EM ANÁLISES QUÍMICAS"/>
+			<field name="title.lattes" value="MÓDULO DE ANÁLISE POR INJEÇÃO SEQUENCIAL BASEADO EM VÁLVULAS E MINIBOMBAS SOLENOIDE PARA GERENCIAMENTO DE SOLUÇÕES EM ANÁLISES QUÍMICAS"/>
+			<field name="depositDate" value="2012-07-26"/>
+			<field name="publicationDate" value="2014-05-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO SANTOS DE OLIVEIRA"/>
+			<field name="inventor" value="JOAO ADSON DOS SANTOS SOBRAL"/>
+			<field name="inventor" value="MARCELA GUERRA MELO"/>
+			<field name="inventor" value="RAFAELLA GUIMARAES DA SILVA"/>
+			<field name="inventor" value="SILVANIDO DA SILVA BORGES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RECONCAVO DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÓDULO DE ANÁLISE POR INJEÇÃO SEQUENCIAL BASEADO EM VÁLVULAS E MINIBOMBAS SOLENOIDE PARA GERENCIAMENTO DE SOLUÇÕES EM ANÁLISES QUÍMICAS. este trabalho é proposto um módulo SIA modular (Figura), composto por um bloco de seleção de soluções (1) baseado em seis válvulas solenoide de estrangulamento (pinch), confluência de seis canais independentes e um canal comum e por um bloco de propulsão de soluções (2) baseado no uso de duas minibombas solenoide de 8 microlitros por pulso. O bloco de seleção de soluções foi construído associando-se válvulas de estrangulamento (pinch) (3 a 8) normalmente fechadas a uma confluência de multivias (9), possibilitando a seleção programada de qualquer uma das vias funcionais (10 a 15), enquanto que o bloco de transporte de soluções constitui-se de confluência de três vias (16) associada a duas minibombas solenoide (17 e 18), uma com a função de aspirar (17) e outra de bombear (18) através de qualquer uma das vias. A confluência multivias (9) foi construída usando um bloco de acrílico de formado hexagonal com aresta de 1,2 cm e espessura de 1,3 cm o qual foi usinado adequadamente para serem afixados conectores para tubos de 0,8 mm de diâmetro interno. Uma das vantagens interessante desta montagem é a possibilidade de evitar a contaminação do fluido carregador pelas soluções manipuladas. Isto porque as minibombas solenoideestão dispostas em vias de bombeamento e aspiração diferentes e os fluidos da bobina de retenção (19) são endereçados ao descarte (21). O dispositivo proposto pode ser empregado em módulos para a análise por injeção sequencial sem prejuízos analíticos."/>
+			<field name="originatesFrom" value="50628352"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012018560"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012018560"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012018560"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121018560"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 018560-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19653" type="Person">
+			<semanticIdentifier>lattes::7807290705753903</semanticIdentifier>
+			<field name="identifier.lattes" value="7807290705753903"/>
+			<field name="name" value="Marcela Guerra Melo"/>
+		</entity>
+		<entity ref="OrgUnit15334" type="OrgUnit">
+			<semanticIdentifier>brcris::8559ea51448e589484428b58dd041119</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RECONCAVO DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28444" toEntityRef="Person19653" type="Inventor"/>
+		<relation fromEntityRef="Patent28444" toEntityRef="OrgUnit15334" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:39" record="42799" source="Espacenet">
+	<entities>
+		<entity ref="Patent42799" type="Patent">
+			<semanticIdentifier>brcris::cb5adb468380c04e0b76e7538843548a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703085A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703085</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703085A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03085</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703085-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703085"/>
+			<field name="identifier.lattes" value="2310418222652637"/>
+			<field name="identifier.espacenet" value="PI0703085"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="telha cerÂmica por prensagem a seco para queima em fornos a rolos"/>
+			<field name="title.lattes" value="Telha cerâmica por prensagem a seco para queima em fornos a rolos"/>
+			<field name="depositDate" value="2007-04-12"/>
+			<field name="publicationDate" value="2008-11-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ORESTES ESTEVAM ALARCOM"/>
+			<field name="inventor" value="SUZANA BACK"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E04D1/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="TELHA CERÂMICA POR PRENSAGEM A SECO PARA QUEIMA EM FORNOS A ROLOS. É uma telha cerâmica, do tipo capa/canal formando peça única, que possui as faces, superior e inferior, acentuadamente planificadas, com raios de curvatura (8, 9, 10 e 11) do findo do canal e da lombada da capa superior a 125 mm; e a face inferior da telha possui duas superficie planificada e contidas no mesmo plano, sendo uma ao longo do canal(7) e a outra(6) na capa, junto a borda externa; e a telha possui encaixe(4) na face inferior junto a uma das extremidades do canal."/>
+			<field name="originatesFrom" value="40532380"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703085"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703085"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703085"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03085"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703085-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29195" type="Person">
+			<semanticIdentifier>lattes::2310418222652637</semanticIdentifier>
+			<field name="identifier.lattes" value="2310418222652637"/>
+			<field name="name" value="Suzana Back"/>
+		</entity>
+		<entity ref="OrgUnit22865" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42799" toEntityRef="Person29195" type="Inventor"/>
+		<relation fromEntityRef="Patent42799" toEntityRef="OrgUnit22865" type="Applicant"/>
+	</relations>
+</entity-relation-data>

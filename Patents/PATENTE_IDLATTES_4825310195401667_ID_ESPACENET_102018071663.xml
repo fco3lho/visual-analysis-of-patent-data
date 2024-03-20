@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:17" record="40028" source="Espacenet">
+	<entities>
+		<entity ref="Patent40028" type="Patent">
+			<semanticIdentifier>brcris::c56206212c54b12c159ff5839e1bd199</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071663A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018071663</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071663A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181071663</semanticIdentifier>
+			<semanticIdentifier>original::102018071663</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018071663"/>
+			<field name="identifier.lattes" value="4825310195401667"/>
+			<field name="identifier.espacenet" value="102018071663"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="granulado efervescente à base de libidibia ferrea para tratamento antidiabético"/>
+			<field name="title.lattes" value="Granulado Efervescente à Base de Libidibia ferrea Para o Tratamento Antidiabético"/>
+			<field name="depositDate" value="2018-10-22"/>
+			<field name="publicationDate" value="2020-05-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMANDA DA SILVA SOUZA"/>
+			<field name="inventor" value="EDUARDO DA SILVA GONCALVES"/>
+			<field name="inventor" value="FABIOLA FREITAS FRANCA GALVAO DE OLIVEIRA"/>
+			<field name="inventor" value="IVONE ANTONIA DE SOUZA"/>
+			<field name="inventor" value="KAROLYNNE RODRIGUES DE MELO"/>
+			<field name="inventor" value="MARIA BERNADETE DE SOUSA MAIA"/>
+			<field name="inventor" value="MARIA JOANELLYS DOS SANTOS LIMA"/>
+			<field name="inventor" value="PEDRO JOSE ROLIM NETO"/>
+			<field name="inventor" value="RODRIGO SILVA DE OLIVEIRA"/>
+			<field name="inventor" value="ROSALI MARIA FERREIRA DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K9/46AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K36/18AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61K129/00AN"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="129"/>
+				<field name="subgroup" value="00AN"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente patente de invenção refere-se ao granulado efervescente à base de libidibia ferrea, para o tratamento antidiabético. esta formulação contém, como excipientes, polivinilpirrolidona (pvp) k-30, ácido cítrico, ácido tartárico, bicarbonato de sódio, sucralose e água destilada. para obtenção do extrato seco de l. ferrea, foi utilizada a técnica de infusão, seguida por liofilização. o granulado foi manipulado utilizando o processo de granulação por via úmida, apresentando boa solubilidade e estabilidade. trata-se de uma formulação inovadora, eficiente e de baixo custo, destinada ao tratamento alternativo antidiabético."/>
+			<field name="originatesFrom" value="70553649"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071663"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018071663"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071663"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181071663"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018071663"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27251" type="Person">
+			<semanticIdentifier>lattes::4825310195401667</semanticIdentifier>
+			<field name="identifier.lattes" value="4825310195401667"/>
+			<field name="name" value="Rodrigo Silva de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit21324" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40028" toEntityRef="Person27251" type="Inventor"/>
+		<relation fromEntityRef="Patent40028" toEntityRef="OrgUnit21324" type="Applicant"/>
+	</relations>
+</entity-relation-data>

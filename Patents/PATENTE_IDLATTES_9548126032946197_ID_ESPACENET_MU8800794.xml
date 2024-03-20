@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:15" record="35675" source="Espacenet">
+	<entities>
+		<entity ref="Patent35675" type="Patent">
+			<semanticIdentifier>brcris::357acada308cea7468e19a46726bb09a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8800794U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8800794U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8800794U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1988MU00794U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8800794-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8800794"/>
+			<field name="identifier.lattes" value="9548126032946197"/>
+			<field name="identifier.espacenet" value="MU8800794"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="gerador de gotas por eletrogiro"/>
+			<field name="title.lattes" value="GERADOR DE GOTAS POR ELETROGIRO"/>
+			<field name="depositDate" value="2008-03-14"/>
+			<field name="publicationDate" value="2010-07-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO MANUEL RAMOS"/>
+			<field name="inventor" value="KIM URI BATISTA"/>
+			<field name="inventor" value="LUIS ANTONIO WAACK BAMBACE"/>
+			<field name="inventor" value="PAULO DE SOUZA JR"/>
+			<field name="inventor" value="PAULO GIACOMO MILANI"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS - INPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B05B5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="O presente pedido refere-se a um GERADOR DE GOTAS POR ELETROGIRO caracterizado pela troca da mesa de terra do eletrogiro por uma tela metálica, onde eventualmente uma tela de polímero, anodização ou camada de poilmero dificultam a descarga e evitam um caminho para a corrente iónica devida a movimentação de lons no fluido, e onde o jato de líquido a ser nebulizado, está ao contrário dos elelrogiros tradicionais em ambiente não fávorável a sua evaporação, e não contém soluto. A tela metálica de malha apropriada, e eventualmente multicamada, apresenta flutuaçóes de carregamento similares a de mesas con vencionais, e gera as forças de repulsão atração necessárias a aceleração do jato e promoção da rotação do mesmo em trajetórias espirais similares a de eletrogiros convencionais. Ao atingir a tela com relação de velocidades apropriadas há a fonnação de gota com mecanismos similares aos nebulizadores de cortadores a fio ou de colméia. O sistema tem como vantagem maior eficiência, já que tem menor perda por atrito por permitir diâmetros de partida do jato maiores e com baixa velocidade, redução do diâmetro do jato via aceleração eletrostática e dinâmica de impacto similar. Sua manutenção é simplificada pois o impacto é num alvo lixo."/>
+			<field name="originatesFrom" value="42308466"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8800794"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8800794U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8800794"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1988MU00794U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8800794-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24562" type="Person">
+			<semanticIdentifier>lattes::9548126032946197</semanticIdentifier>
+			<field name="identifier.lattes" value="9548126032946197"/>
+			<field name="name" value="Paulo Giácomo Milani"/>
+		</entity>
+		<entity ref="OrgUnit19266" type="OrgUnit">
+			<semanticIdentifier>brcris::0f5299be3904705bfb9b7225cad52039</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS - INPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35675" toEntityRef="Person24562" type="Inventor"/>
+		<relation fromEntityRef="Patent35675" toEntityRef="OrgUnit19266" type="Applicant"/>
+	</relations>
+</entity-relation-data>

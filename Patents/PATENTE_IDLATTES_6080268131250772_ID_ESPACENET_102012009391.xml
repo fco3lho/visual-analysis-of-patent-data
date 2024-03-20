@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:29:18" record="43869" source="Espacenet">
+	<entities>
+		<entity ref="Patent43869" type="Patent">
+			<semanticIdentifier>brcris::75008f97baa795ba06f01d33ac1fafc0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012009391A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012009391</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012009391A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121009391</semanticIdentifier>
+			<semanticIdentifier>original::102012009391</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012009391"/>
+			<field name="identifier.lattes" value="6080268131250772"/>
+			<field name="identifier.espacenet" value="102012009391"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de processamento digital para determinação de impedância térmica de materiais empregando identificação recursiva"/>
+			<field name="title.lattes" value="SISTEMA DE PROCESSAMENTO DIGITAL PARA DETERMINAÇÃO DE IMPEDÂNCIA TÉRMICA DE MATERIAIS EMPREGANDO IDENTIFICAÇÃO RECURSIVA"/>
+			<field name="depositDate" value="2012-04-20"/>
+			<field name="publicationDate" value="2015-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEAN CARLOS CARDOZO DA SILVA"/>
+			<field name="inventor" value="JOAO PAULO BAZZO"/>
+			<field name="inventor" value="TIAGO LUKASIEVICZ"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F25B21/04AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N25/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de processamento digital para determinação de impedância térmica de materiais empregando identificação recursiva. este invento refere-se a um novo método para determinar parâmetros térmicos de dispositivos semicondutores. o sistema permite determinar a resistência e a capacitância térmica do dispositivo empregando uma plataforma de controle de temperatura digital com base em um termo-elemento peltier. o princípio de funcionamento do sistema consiste em fornecer uma determinada quantidade de energia térmica à um dispositivo posicionado sobre o termo-elemento peltier, e monitorar a variação de temperatura no mesmo. através da curva de variação da temperatura são determinados os parâmetros que definem a impedância térmica do dispositivo. o sistema é composto por um display para visualização das informações (1), um processador digital de sinais - dsp (2), cabos de comunicação entre os termistores e o dsp (3), um termo-elemento peltier (4), um servo-amplificador como atuador do termo-elemento peltier (5), sinais de comando entre do dsp para o atuador (6), cabos de alimentação do termo-elemento peltier (7), um dissipador de calor (8), um dispositivo semicondutor como carga (9), um termistor para monitorar a temperatura do dispositivo ta (10) e um termistor para monitorar a temperatura da base do termo-elemento peltier tb (11)."/>
+			<field name="originatesFrom" value="54541602"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012009391"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012009391"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012009391"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121009391"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012009391"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29975" type="Person">
+			<semanticIdentifier>lattes::6080268131250772</semanticIdentifier>
+			<field name="identifier.lattes" value="6080268131250772"/>
+			<field name="name" value="Tiago Lukasievicz"/>
+		</entity>
+		<entity ref="OrgUnit23524" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43869" toEntityRef="Person29975" type="Inventor"/>
+		<relation fromEntityRef="Patent43869" toEntityRef="OrgUnit23524" type="Applicant"/>
+	</relations>
+</entity-relation-data>

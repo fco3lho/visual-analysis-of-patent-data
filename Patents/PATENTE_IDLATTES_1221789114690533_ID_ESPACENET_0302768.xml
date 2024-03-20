@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:55" record="30274" source="Espacenet">
+	<entities>
+		<entity ref="Patent30274" type="Patent">
+			<semanticIdentifier>brcris::a66aa925f7a76d4bd79d3130c17a7100</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0302768</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030302768</semanticIdentifier>
+			<semanticIdentifier>original::0302768-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0302768"/>
+			<field name="identifier.lattes" value="1221789114690533"/>
+			<field name="identifier.espacenet" value="0302768"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Padrão reflexivo de visualização para uso em dispositivos e/ou equipamentos com rodas"/>
+			<field name="title.lattes" value="Padrao Reflexivo de Visualizacao para Uso em Dispositivos e/ou Equipamentos com Rodas"/>
+			<field name="depositDate" value="2003-05-12"/>
+			<field name="publicationDate" value="2005-04-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BARBARA CORREA LTZNIKER"/>
+			<field name="inventor" value="MARCOS PINOTTI BARBOZA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08B5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PADRãO REFLEXIVO DE VISUALIZAçãO PARA USO EM DISPOSITIVOS E/OU EQUIPAMENTOS COM RODAS&quot;. Faixa de material reflexivo para ser aderida às rodas de objetos comuns que os utilizem, como cadeiras de rodas, bicicletas, carrinhos de bebê e afins, de modo a serem visualizados e identificados com facilidade por veículos automotores durante o período noturno."/>
+			<field name="originatesFrom" value="34383385"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0302768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030302768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0302768-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20762" type="Person">
+			<semanticIdentifier>lattes::1221789114690533</semanticIdentifier>
+			<field name="identifier.lattes" value="1221789114690533"/>
+			<field name="name" value="Marcos Pinotti Barbosa"/>
+		</entity>
+		<entity ref="OrgUnit16224" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30274" toEntityRef="Person20762" type="Inventor"/>
+		<relation fromEntityRef="Patent30274" toEntityRef="OrgUnit16224" type="Applicant"/>
+	</relations>
+</entity-relation-data>

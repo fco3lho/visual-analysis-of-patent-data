@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:19" record="29092" source="Espacenet">
+	<entities>
+		<entity ref="Patent29092" type="Patent">
+			<semanticIdentifier>brcris::53e436debbb5433d6e5aa8f1b25f7a79</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101385A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1101385</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101385A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI01385</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1101385-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1101385"/>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="identifier.espacenet" value="PI1101385"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÁquina de lavar roupas, processo de recirculaÇço e enxÁgue de roupas por cortina de Água"/>
+			<field name="title.lattes" value="MÁQUINA DE LAVAR ROUPAS, PROCESSO DE RECIRCULAÇÃO E ENXÁGUE DE ROUPAS POR CORTINA DE ÁGUA"/>
+			<field name="depositDate" value="2011-03-18"/>
+			<field name="publicationDate" value="2013-05-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CIRILO ALEX CAVALLI"/>
+			<field name="inventor" value="EDUARDO SALMON RIBEIRO"/>
+			<field name="inventor" value="MARCELO PIEKARSKI"/>
+			<field name="inventor" value="VICENTE VANHAZEBROUCK"/>
+			<field name="applicant" value="ELECTROLUX DO BRASIL S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D06F23/04AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D06F39/08AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÁQUINA DE LAVAR ROUPAS, PROCESSO DE RECIRCULAÇAO E ENXAGUE DE ROUPAS POR CORTINA DE ÁGUA. Máquina de lavar roupas, do tipo que contém um cesto (2) que aloja em seu interior um agitador central (3) acionado por um motor, um tanque externo (5), que comporta o cesto (2), mangueiras de drenagem (6) e de recirculação (7), permitindo, com isso, que a água seja drenada ou recirculada quando do acionamento de uma bomba (14) em associação a um atuador (4) e a uma válvula Y (13) ou ainda de duas bombas independentes, máquina esta possuindo um anel circular dividido em parte superior (8) e parte inferior (10), em que o dito anel é formado integralmente com a capa do tanque (5), sendo que a parte superior (8) apresenta uma parede curva defletora que se estende ao longo do anel, de modo que, ao receber a água de recirculação proveniente de furos (11) dispostos ao longo do corpo de sua parte inferior (10), direcione a água para dentro do cesto (2) sob o efeito de cortina de água. Os respectivos processos de recirculação e enxágue de roupas por cortina de água também são revelados."/>
+			<field name="originatesFrom" value="48326002"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101385"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1101385"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101385"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI01385"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1101385-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20035" type="Person">
+			<semanticIdentifier>lattes::3417523885966768</semanticIdentifier>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="name" value="Marcelo Piekarski"/>
+		</entity>
+		<entity ref="OrgUnit15666" type="OrgUnit">
+			<semanticIdentifier>brcris::563718fd486870a6f5996414ff59a7d7</semanticIdentifier>
+			<field name="name" value="ELECTROLUX DO BRASIL S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29092" toEntityRef="Person20035" type="Inventor"/>
+		<relation fromEntityRef="Patent29092" toEntityRef="OrgUnit15666" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:27" record="27750" source="Espacenet">
+	<entities>
+		<entity ref="Patent27750" type="Patent">
+			<semanticIdentifier>brcris::685d2a13b417de60892832a37a9bca9f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004141A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1004141</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004141A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI04141</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1004141-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1004141"/>
+			<field name="identifier.lattes" value="3273726134990776"/>
+			<field name="identifier.espacenet" value="PI1004141"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="detector eletrânico de corrente diferencial e de fase colocado em painel de tomadas de sala cirérgica contendo dispositivo de identificaÇço de equipamento eletromÉdico por rfid"/>
+			<field name="title.lattes" value="Detector eletrônico de corrente diferencial e de fase colocado em painel de tomadas de sala cirúrgica contendo dispositivo de identificação de equipamento eletromédico por RFID"/>
+			<field name="depositDate" value="2010-10-07"/>
+			<field name="publicationDate" value="2013-02-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ EDUARDO SCHARDONG SPALDING"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R15/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02H3/33AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="33AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DETECTOR ELETRâNICO DE CORRENTE DIFERENCIAL E DE FASE COLOCADO EM PAINEL DE TOMADAS DE SALA CIRéRGICA CONTENDO DISPOSITIVO DE IDENTIFICAÇçO DE EQUIPAMENTO ELETROMÉDICO POR RFID. É um equipamento eletrônico colocado em um painel de tomadas, como por exemplo, do tipo utilizado em salas de cirurgia, destinado a medir, alertar e armazenar informações sobre o valor e tnna de onda da corrente elétrica de fase e da corrente elétrica diferencial dos equipamentos ligados a estas tomadas. Além disto, o detector eletrônico é capaz de capturar o número cádigo do equipamento ligado a cada tomada pelo sistema de identificaçio por radiofrequência (RFID-Radio Frequency IDentification), o que permite ao sotlware de gerenciameito relacionar a este equipamento em particular as informações armazenadas durante as medições as correntes elétricas."/>
+			<field name="originatesFrom" value="47693303"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004141"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1004141"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004141"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI04141"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1004141-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19160" type="Person">
+			<semanticIdentifier>lattes::3273726134990776</semanticIdentifier>
+			<field name="identifier.lattes" value="3273726134990776"/>
+			<field name="name" value="Luiz Eduardo Schardong Spalding"/>
+		</entity>
+		<entity ref="OrgUnit14937" type="OrgUnit">
+			<semanticIdentifier>brcris::eec414b7931ee77101f8fc7b149876e4</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27750" toEntityRef="Person19160" type="Inventor"/>
+		<relation fromEntityRef="Patent27750" toEntityRef="OrgUnit14937" type="Applicant"/>
+	</relations>
+</entity-relation-data>

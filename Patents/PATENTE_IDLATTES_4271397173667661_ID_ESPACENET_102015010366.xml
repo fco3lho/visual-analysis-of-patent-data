@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:11" record="28982" source="Espacenet">
+	<entities>
+		<entity ref="Patent28982" type="Patent">
+			<semanticIdentifier>brcris::e2cbfc5d5b70b6257d64f5d8f7c1f0ab</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015010366A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015010366</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015010366A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151010366</semanticIdentifier>
+			<semanticIdentifier>original::102015010366</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015010366"/>
+			<field name="identifier.lattes" value="4271397173667661"/>
+			<field name="identifier.espacenet" value="102015010366"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo e método para controle inteligente de semáforos de trânsito"/>
+			<field name="title.lattes" value="DISPOSITIVO E MÉTODO PARA CONTROLE INTELIGENTE DE SEMÁFOROS DE TRÂNSITO"/>
+			<field name="depositDate" value="2015-04-23"/>
+			<field name="publicationDate" value="2017-04-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCIANO REBOUCAS DE OLIVEIRA"/>
+			<field name="inventor" value="MARCELO MENDONCA DOS SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08G1/01AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G08G1/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo e método para controle inteligente de semáforos de trânsito, refere-se a um dispositivo de controle inteligente de semáforos de trânsito para otimizar dinamicamente a duração dos estados dos semáforos de um cruzamento de vias a partir do fluxo de veículos. este dispositivo processa informações obtidas a partir de câmeras de vídeo vigilância voltadas para monitoramento de trânsito em tempo real e, com base na massa de veículos presente em cada uma das vias, define as durações de cada estado das sinaleiras. o dispositivo monitora o trânsito constantemente em tempo real, portanto, caso a massa de veículos em uma via que esteja com o sinal vermelho ativado torne-se maior que a massa de veículos da outra via, o dispositivo inicia o processo de inversão de estado entre as sinaleiras para equilibrar o percentual de veículos em espera. o dispositivo de controle inteligente de semáforos embarcao método de detecção de congestionamento que é utilizado para analisar as informações de trânsito capturadas a partir das câmeras de trânsito. este método pertence ao campo da visão computacional e reconhecimento de padrões em imagens, consistindo na aplicação de uma série de processamentos sobre os frames obtidos de câmeras de vídeo voltadas para monitoramento de trânsito."/>
+			<field name="originatesFrom" value="58632037"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015010366"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015010366"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015010366"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151010366"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015010366"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19989" type="Person">
+			<semanticIdentifier>lattes::4271397173667661</semanticIdentifier>
+			<field name="identifier.lattes" value="4271397173667661"/>
+			<field name="name" value="Marcelo Mendonça dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit15631" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28982" toEntityRef="Person19989" type="Inventor"/>
+		<relation fromEntityRef="Patent28982" toEntityRef="OrgUnit15631" type="Applicant"/>
+	</relations>
+</entity-relation-data>

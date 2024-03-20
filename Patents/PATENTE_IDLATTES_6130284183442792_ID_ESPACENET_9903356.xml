@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:44" record="31579" source="Espacenet">
+	<entities>
+		<entity ref="Patent31579" type="Patent">
+			<semanticIdentifier>brcris::10fe81d98ae202a4d9b451cacf505c17</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9903356A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9903356</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9903356A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19999903356</semanticIdentifier>
+			<semanticIdentifier>original::9903356-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9903356"/>
+			<field name="identifier.lattes" value="6130284183442792"/>
+			<field name="identifier.espacenet" value="9903356"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Célula de adsorção de compostos orgânicos e respectivos processos de obtenção"/>
+			<field name="title.lattes" value="CÉLULA DE ADSORÇÃO DE COMPOSTOS ORGÂNICOS E RESPECTIVO PROCESSO DE OBTENÇÃO"/>
+			<field name="depositDate" value="1999-07-14"/>
+			<field name="publicationDate" value="2001-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIA LUCIA PEREIRA DA SILVA"/>
+			<field name="inventor" value="ROGERIO FURLAN"/>
+			<field name="inventor" value="ROGERIO FURLAN"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D53/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;CéLULA DE ADSORçãO DE COMPOSTOS ORGâNICOS E RESPECTIVOS PROCESSOS DE OBTENçãO&quot; Trata-se de célula de adsorção de compostos orgânicos e respectivos processos de obtenção; composta lâmina (1); vidro (2); microcanal (3); entrada (4); saída (5); conexão (6) e mangueira (7) e obtidos através dos processos 1; 2; 3 e 4 do presente relatório. A célula de adsorção terá utilização para coleta de amostra de gases em ambientes agressivos; tais como, industrias, laboratórios, minas, refinarias, plantas químicas, siderúrgicas e outros."/>
+			<field name="originatesFrom" value="4073051"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9903356"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9903356"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9903356"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19999903356"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9903356-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI9903356"/>
+		</entity>
+		<entity ref="Person21631" type="Person">
+			<semanticIdentifier>lattes::6130284183442792</semanticIdentifier>
+			<field name="identifier.lattes" value="6130284183442792"/>
+			<field name="name" value="Maria Lúcia Pereira da Silva"/>
+		</entity>
+		<entity ref="OrgUnit16888" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit16889" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent31580" type="Patent">
+			<semanticIdentifier>epodoc::BRPI9903356</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="4073051"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI9903356"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31579" toEntityRef="Person21631" type="Inventor"/>
+		<relation fromEntityRef="Patent31579" toEntityRef="OrgUnit16888" type="Applicant"/>
+		<relation fromEntityRef="Patent31579" toEntityRef="OrgUnit16889" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:48" record="25130" source="Espacenet">
+	<entities>
+		<entity ref="Patent25130" type="Patent">
+			<semanticIdentifier>brcris::1b8338c61f3e9a1b42dfdf4a52a46943</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202893A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0202893</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202893A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020202893</semanticIdentifier>
+			<semanticIdentifier>original::0202893-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0202893"/>
+			<field name="identifier.lattes" value="7572366766177648"/>
+			<field name="identifier.espacenet" value="0202893"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sensor amperométrico para determinação da atividade da enzima glutationa redutase em hemolisado de hemacias"/>
+			<field name="title.lattes" value="Sensor Amperométrico para determinação da atividade da enzima glutationa redutase em hemolisado de hemácias"/>
+			<field name="depositDate" value="2002-07-12"/>
+			<field name="publicationDate" value="2004-05-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMINDO ANTONIO ALVES"/>
+			<field name="inventor" value="DENISE VAZ DE MACEDO"/>
+			<field name="inventor" value="DENISE VAZ DE TOLEDO"/>
+			<field name="inventor" value="LAURO TATSUO KUBOTA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/573AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="573AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SENSOR AMPEROMéTRICO PARA DETERMINAçãO DA ATIVIDADE DA ENZIMA GLUTATIONA REDUTASE EM HEMOLISADO DE HEMACIAS&quot;. Este processo descreve o desenvolvimento de um sistema amperométrico para dosagem da atividade da enzima glutationa redutase em hemolisado de hemácias. O substrato da enzima (GSSG), sua coenzima (NADPH) e um oxidante da glutationa reduzida (DTNB), diluídos em tampão fosfato/EDTA foram depositados em cima de uma membrana lipofílica disposta sobre 2 eletrodos de platina. A amperagem foi monitorada durante 3 minutos após a adição da amostra. A aplicabilidade deste sistema foi avaliada em amostras de hemolisado de hemácias e sua eficiência foi comparada com o método espectrofotométrico de dosagem da atividade da enzima. As vantagens deste novo método são a rapidez e confiabilidade do resultado e a facilidade de ser usado fora do laboratório, permitindo seu uso por profissionais do esporte e da medicina na avaliação de estresse oxidativo."/>
+			<field name="originatesFrom" value="32330801"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202893"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0202893"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202893"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020202893"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0202893-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0202893"/>
+		</entity>
+		<entity ref="Person17407" type="Person">
+			<semanticIdentifier>lattes::7572366766177648</semanticIdentifier>
+			<field name="identifier.lattes" value="7572366766177648"/>
+			<field name="name" value="Lauro Tatsuo Kubota"/>
+		</entity>
+		<entity ref="OrgUnit13573" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent25131" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0202893</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="32330801"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0202893"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25130" toEntityRef="Person17407" type="Inventor"/>
+		<relation fromEntityRef="Patent25130" toEntityRef="OrgUnit13573" type="Applicant"/>
+	</relations>
+</entity-relation-data>

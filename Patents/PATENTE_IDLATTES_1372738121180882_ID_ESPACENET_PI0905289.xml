@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:18:28" record="41176" source="Espacenet">
+	<entities>
+		<entity ref="Patent41176" type="Patent">
+			<semanticIdentifier>brcris::08ba25baf883ab7fd0d7aa149d6c2aac</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905289A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905289</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905289A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05289</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905289-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905289"/>
+			<field name="identifier.lattes" value="1372738121180882"/>
+			<field name="identifier.espacenet" value="PI0905289"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aperfeiçoamento em estrutura de transistor do gênero mosfet"/>
+			<field name="title.lattes" value="APERFEIÇOAMENTO EM ESTRUTURA DE TRANSISTOR DO GÊNERO MOSFET (Estilo de leiaute elipsolidal para MOSFETs)."/>
+			<field name="depositDate" value="2009-12-02"/>
+			<field name="publicationDate" value="2011-07-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="SALVADOR PINILLOS GIMENEZ"/>
+			<field name="applicant" value="FUNDACAO EDUCACIONAL INACIANA &quot;PE. SABOIA DE MEDEIROS&quot;"/>
+			<field name="applicant" value="FUNDACAO EDUCACIONAL INACIANA &quot;PE. SABOIA DE MEDEIROS&quot;"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L23/13AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="13AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="APERFEIçOAMENTO EM ESTRUTURA DE TRANSISTOR DO GéNERO MOSFET, que usa uma geometria com formato circular para definir as interfaces entre Dreno/Canal e Canal/Fonte para enriquecer o campo elétrico paralelo ou longitudinal decorrente da polarização entre Dreno e Fonte; sendo dita estrutura de transistor aplicada a quaisquer tecnologias planares, tais como &quot;Bipolar&quot;, &quot;JFET&quot;, &quot;MOSFET&quot;, &quot;SOl MOSFET&quot;, e não planares tais como &quot;FinFET&quot;, Multi-Gates, Cynthia e Pilar Surrounding Gate entre outras."/>
+			<field name="originatesFrom" value="44275780"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905289"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905289"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905289"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05289"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905289-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28021" type="Person">
+			<semanticIdentifier>lattes::1372738121180882</semanticIdentifier>
+			<field name="identifier.lattes" value="1372738121180882"/>
+			<field name="name" value="Salvador Pinillos Gimenez"/>
+		</entity>
+		<entity ref="OrgUnit21934" type="OrgUnit">
+			<semanticIdentifier>brcris::47080c1fc5139ffa34d02b2df6a44feb</semanticIdentifier>
+			<field name="name" value="FUNDACAO EDUCACIONAL INACIANA &quot;PE. SABOIA DE MEDEIROS&quot;"/>
+		</entity>
+		<entity ref="OrgUnit21935" type="OrgUnit">
+			<semanticIdentifier>brcris::65c3ff49d72d4afa45a82c62fd2e48dd</semanticIdentifier>
+			<field name="name" value="FUNDACAO EDUCACIONAL INACIANA &quot;PE. SABOIA DE MEDEIROS&quot;"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41176" toEntityRef="Person28021" type="Inventor"/>
+		<relation fromEntityRef="Patent41176" toEntityRef="OrgUnit21934" type="Applicant"/>
+		<relation fromEntityRef="Patent41176" toEntityRef="OrgUnit21935" type="Applicant"/>
+	</relations>
+</entity-relation-data>

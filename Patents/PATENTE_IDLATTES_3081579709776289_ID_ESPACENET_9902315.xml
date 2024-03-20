@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:33" record="34286" source="Espacenet">
+	<entities>
+		<entity ref="Patent34286" type="Patent">
+			<semanticIdentifier>brcris::817ae3623f3617d367d81e8617f91767</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9902315A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9902315</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9902315A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19999902315</semanticIdentifier>
+			<semanticIdentifier>original::9902315-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9902315"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="9902315"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema de monitoração e orientação"/>
+			<field name="title.lattes" value="Sistema de Monitoração e Orientação"/>
+			<field name="depositDate" value="1999-03-09"/>
+			<field name="publicationDate" value="2000-10-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="NEY ROBINSON SALVI DOS REIS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/013AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="013AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE MONITORAçãO E ORIENTAçãO A presente invenção visa prover um sistema de monitoração e orientação a ser fixado num equipamento, de forma que um operador, localizado, normalmente numa embarcação ou plataforma, possa monitorá-lo e orientá-lo, por meio de pelo menos um referencial gerado pelo próprio sistema."/>
+			<field name="originatesFrom" value="4072645"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9902315"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9902315"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9902315"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19999902315"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9902315-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23587" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18488" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34286" toEntityRef="Person23587" type="Inventor"/>
+		<relation fromEntityRef="Patent34286" toEntityRef="OrgUnit18488" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:02" record="13131" source="Espacenet">
+	<entities>
+		<entity ref="Patent13131" type="Patent">
+			<semanticIdentifier>brcris::f1c096a167f141e0fa865e6a27f21410</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018182A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016018182</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018182A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161018182</semanticIdentifier>
+			<semanticIdentifier>original::102016018182</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016018182"/>
+			<field name="identifier.lattes" value="2328030824765516"/>
+			<field name="identifier.espacenet" value="102016018182"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="?processo de acetilação do nopol catalisado por heteropoliácido?"/>
+			<field name="title.lattes" value="Processo de acetilação do nopol catalisado por heteropoliácido"/>
+			<field name="depositDate" value="2016-08-05"/>
+			<field name="publicationDate" value="2018-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELENA VITALIEVNA GOUSSEVSKAIA"/>
+			<field name="inventor" value="KELLY ALESSANDRA DA SILVA ROCHA"/>
+			<field name="inventor" value="VINICIUS VIERA COSTA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C67/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C67/56AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="56AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção trata do processo de obtenção do acetato de nopol, a partir dos substratos nopol e anidrido acético catalisado por heteropoliácido, dissolvido ou na forma de sal insolúvel. acetato de nopol obtido possui ampla aplicação como agentes fragrantes importantes nas indústrias de alimentos e de perfumaria."/>
+			<field name="originatesFrom" value="62043541"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018182"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016018182"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018182"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161018182"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016018182"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9005" type="Person">
+			<semanticIdentifier>lattes::2328030824765516</semanticIdentifier>
+			<field name="identifier.lattes" value="2328030824765516"/>
+			<field name="name" value="Elena Vitalievna Goussevskaia"/>
+		</entity>
+		<entity ref="OrgUnit7076" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit7077" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13131" toEntityRef="Person9005" type="Inventor"/>
+		<relation fromEntityRef="Patent13131" toEntityRef="OrgUnit7076" type="Applicant"/>
+		<relation fromEntityRef="Patent13131" toEntityRef="OrgUnit7077" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:45" record="8257" source="Espacenet">
+	<entities>
+		<entity ref="Patent8257" type="Patent">
+			<semanticIdentifier>brcris::7d5a876d2486ad352cf7d5b71be05765</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301586A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9301586</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301586A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939301586</semanticIdentifier>
+			<semanticIdentifier>original::9301586</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9301586"/>
+			<field name="identifier.lattes" value="2178288479574657"/>
+			<field name="identifier.espacenet" value="9301586"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="COLGADURA RADIOGRAFICA MODULAVEL"/>
+			<field name="title.lattes" value="Colgadura radiográfica modulável"/>
+			<field name="depositDate" value="1993-04-19"/>
+			<field name="publicationDate" value="1993-09-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CESAR ANGELO LASCALA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03D13/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="originatesFrom" value="4056315"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301586"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9301586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301586"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939301586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9301586"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5649" type="Person">
+			<semanticIdentifier>lattes::2178288479574657</semanticIdentifier>
+			<field name="identifier.lattes" value="2178288479574657"/>
+			<field name="name" value="Cesar Angelo Lascala"/>
+		</entity>
+		<entity ref="OrgUnit4477" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8257" toEntityRef="Person5649" type="Inventor"/>
+		<relation fromEntityRef="Patent8257" toEntityRef="OrgUnit4477" type="Applicant"/>
+	</relations>
+</entity-relation-data>

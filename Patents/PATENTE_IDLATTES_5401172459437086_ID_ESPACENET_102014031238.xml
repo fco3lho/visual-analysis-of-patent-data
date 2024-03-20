@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:31" record="38443" source="Espacenet">
+	<entities>
+		<entity ref="Patent38443" type="Patent">
+			<semanticIdentifier>brcris::3a338515c9069ebaa52f189b5af0d2a4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031238A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014031238</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031238A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141031238</semanticIdentifier>
+			<semanticIdentifier>original::102014031238</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014031238"/>
+			<field name="identifier.lattes" value="5401172459437086"/>
+			<field name="identifier.espacenet" value="102014031238"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método para empacotamento seguro e compacto de mensagens de texto curtas tipo sms"/>
+			<field name="title.lattes" value="Sistema e Método para Empacotamento Seguro e Compacto de Mensagens de Texto Curtas Tipo SMS"/>
+			<field name="depositDate" value="2014-12-12"/>
+			<field name="publicationDate" value="2016-07-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE MELO BRAGA"/>
+			<field name="inventor" value="ANDRE LUIZ VANNUCCI"/>
+			<field name="inventor" value="OTAVIO HENRIQUE VIEIRA SANCHEZ"/>
+			<field name="inventor" value="RICARDO SHIGUEMI HIRAMATSU"/>
+			<field name="inventor" value="ROMULO ANGELO ZANCO NETO"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L9/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema e método para empacotamento seguro e compacto de mensagens de texto curtas tipo sms, refere-se à utilização de técnicas criptográficas de assinaturas curtas e encriptação autenticada no empacotamento de mensagens de texto curtas, com diferentes níveis de segurança criptográfica, o sms sendo cifrado por chave simétrica compartilhada entre remetente e destinatário, a chave gerada e distribuída quando da troca de convites do aplicativo mantido no servidor. os níveis de segurança estão associados a diferentes algoritmos de criptografia, para sigilo com encriptação da mensagem, no nível baixo, para sigilo e autenticação com encriptação autenticada, no nível médio, e para sigilo e autenticação não repudiável, com encriptação e assinatura digital curta, no nível alto. o método da invenção determina o tamanho da mensagem criptografada conforme o nível de segurança escolhido e segmenta em blocos a mensagem sms criptografada, se esta extrapolar o tamanho limite, ditos blocos, sendo enviados como uma sequência de smss; o destinatário recupera a mensagem original após reconstituir a cadeia de smss e reverter a criptografia."/>
+			<field name="originatesFrom" value="56406636"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031238"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014031238"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031238"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141031238"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014031238"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26456" type="Person">
+			<semanticIdentifier>lattes::5401172459437086</semanticIdentifier>
+			<field name="identifier.lattes" value="5401172459437086"/>
+			<field name="name" value="Ricardo Shiguemi Hiramatsu"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38443" toEntityRef="Person26456" type="Inventor"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:47" record="14255" source="Espacenet">
+	<entities>
+		<entity ref="Patent14255" type="Patent">
+			<semanticIdentifier>brcris::e1ca0c37d9b9dfd66d1402b7ba20ff9c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8803398A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8803398</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8803398A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888803398</semanticIdentifier>
+			<semanticIdentifier>original::8803398</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8803398"/>
+			<field name="identifier.lattes" value="4808617538189330"/>
+			<field name="identifier.espacenet" value="8803398"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="CONTROLADOR DE ESTABILIDADE DE INTERFEROMETROS EM FIBRA OPTICA"/>
+			<field name="title.lattes" value="Controlador de Estabilização em Interferômetros de Mach-Zehnder para Aplicações em Telemetria"/>
+			<field name="depositDate" value="1988-07-07"/>
+			<field name="publicationDate" value="1990-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EVANDRO CONFORTI"/>
+			<field name="inventor" value="ROGERIO TADEU RAMOS"/>
+			<field name="applicant" value="FINANCIADORA DE ESTUDOS E PROJETOS - FINEP"/>
+			<field name="applicant" value="TELECOMUNICACOES BRASILEIRAS S/A. - TELEBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B9/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="4045127"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8803398"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8803398"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8803398"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888803398"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8803398"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9832" type="Person">
+			<semanticIdentifier>lattes::4808617538189330</semanticIdentifier>
+			<field name="identifier.lattes" value="4808617538189330"/>
+			<field name="name" value="Evandro Conforti"/>
+		</entity>
+		<entity ref="OrgUnit7738" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14255" toEntityRef="Person9832" type="Inventor"/>
+		<relation fromEntityRef="Patent14255" toEntityRef="OrgUnit7738" type="Applicant"/>
+	</relations>
+</entity-relation-data>

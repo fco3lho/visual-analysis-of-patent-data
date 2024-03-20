@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:18" record="7547" source="Espacenet">
+	<entities>
+		<entity ref="Patent7547" type="Patent">
+			<semanticIdentifier>brcris::548994c0bee88b87b8834e1708acc159</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014002955A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014002955</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014002955A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141002955</semanticIdentifier>
+			<semanticIdentifier>original::102014002955</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014002955"/>
+			<field name="identifier.lattes" value="9511899698994715"/>
+			<field name="identifier.espacenet" value="102014002955"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento para adaptação em microtribômetro com sensor do tipo transformador variável rotacional diferencial rvdt, para execução de ensaios tribológicos, com a medição do coeficiente de atrito e taxas de desgaste em biomateriais utilizados em próteses ortopédicas de joelho"/>
+			<field name="title.lattes" value="EQUIPAMENTO PARA ADAPTAÇÃO EM MICROTRIBÔMETRO"/>
+			<field name="depositDate" value="2014-02-07"/>
+			<field name="publicationDate" value="2015-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS JOSE DE MESQUITA SIQUEIRA"/>
+			<field name="inventor" value="JOSE NOGUEIRA ATHAYDE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F2/28AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N19/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="equipamento para adaptação em microtribômetro com sensor do tipo transformador variável rotacional diferencial 'rvdt', para execução de ensaios tribológicos, com a medição do coeficiente de atrito e taxas de desgaste em biomateriais utilizados em próteses ortopédicas de joelho. a invenção tem como objetivo um equipamento construído em aço inoxidável aisi 304, ou outro material que suporte, com mancais de deslizamento ou com rolamentos, para ser adaptado a um microtribômetro, suportando os corpos de prova projetados para simular as superfícies de contato e os movimentos de uma prótese ortopédica quando implantada, permitindo, dessa forma, a realização do movimento basculante oscilatório entre as superfícies de ensaio, quando do acionamento do microtribômetro.o ângulo de oscilação do sistema basculante que é caracterizado por ter uma amplitude oscilação angular variável.um sensor do tipo transformador variável rotacional diferencial 'rvdt' conectado ao equipamento, juntamente com sensor do tipo transformador variável linear diferencial 'lvdt' nativo do mircrotribômetro, permite obter o valor do coeficiente de atrito e consequentemente os valores de taxas de desgaste do par tribológico objeto do ensaio. a coleta de dados do sensor 'rvdt' e dos sinais do 'lvdt' para o processamento e obtenção dos valores das forças resultantes durante o ensaio são realizadas através de uma placa de aquisição de dados conectada a um microcomputador."/>
+			<field name="originatesFrom" value="54837938"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014002955"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014002955"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014002955"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141002955"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014002955"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5081" type="Person">
+			<semanticIdentifier>lattes::9511899698994715</semanticIdentifier>
+			<field name="identifier.lattes" value="9511899698994715"/>
+			<field name="name" value="Carlos José de Mesquita Siqueira"/>
+		</entity>
+		<entity ref="OrgUnit4006" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7547" toEntityRef="Person5081" type="Inventor"/>
+		<relation fromEntityRef="Patent7547" toEntityRef="OrgUnit4006" type="Applicant"/>
+	</relations>
+</entity-relation-data>

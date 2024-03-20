@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:11" record="1817" source="Espacenet">
+	<entities>
+		<entity ref="Patent1817" type="Patent">
+			<semanticIdentifier>brcris::63b31a6a7e4bf9fc34660a4d62903068</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705313A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705313</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705313A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05313</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705313-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705313"/>
+			<field name="identifier.lattes" value="9598903159122155"/>
+			<field name="identifier.espacenet" value="PI0705313"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="cátodo para células a combustìvel de microtubos de paredes porosas de nìquel nanoestruturadas ativadas com catalisador"/>
+			<field name="title.lattes" value="Cátodo para Células a Combustível de microtubos de paredes porosas de Níquel nanoestruturadas ativadas com catalisador"/>
+			<field name="depositDate" value="2007-08-30"/>
+			<field name="publicationDate" value="2009-05-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALFREDO JOSE ALVIM DE CASTRO"/>
+			<field name="inventor" value="FERNANDO MANUEL RAMOS"/>
+			<field name="inventor" value="LUIS ANTONIO WAACK BAMBACE"/>
+			<field name="inventor" value="MIRIAM NISHIMORI"/>
+			<field name="inventor" value="RENATA CRISTINA FAVALLI"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M4/86AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="86AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Cátodo para Células a Combustível de Microtubos de Paredes Porosas de Níquel Nanoestruturadas Ativadas com Catalisador. O presente pedido refere-se a um cátodo para células a combustível de microtubos de paredes porosas de níquel nanoestruturadas ativadas com catalisador caracterizado pela presença de tubos de níquel de dimensões microscópicas e parede porosa esponjosa de escala nanoscópica contendo eletnilito líquido, convenientemente agregados, produzidos pela ativação eletroquímica de microfibras seguida da eletrodeposição de níquel intermediada por tensoativo, uso opcional de proteção de nitreto de cromo-níquel via: cromeação, difusão do cromo e nitretação. E finalizado pela aplicação de catalisador de oxigênio, que no caso alcalino podem ser: nanotubos de prata, prata em grãos, recobrimento com prata via CEAC, espinelos baseados em óxidos mistos de níquel, cromo, lítio, ferro, cobre e cobalto; e em casos ácidos: espinelos mistos de manganês, catalisadores organo-metálicos, sais complexos, ou platina. A alta área de interface gás-líquido melhora a oxigenação. Os tubos tem alta área de suporte ao catalisador. O sistema opera mesmo em altas densidades de corrente com baixa polarização química e taxas de corrosão face a área útil de catálise alta. Altas frações de eletrólito e correntes de fluxo devidas a escoamentos eletiucinéticos e capacidade da camada dupla acarretam em baixa resistência iónica. Células de Bénani melhoram a oxigenação."/>
+			<field name="originatesFrom" value="40622009"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705313"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705313"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705313"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05313"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705313-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1364" type="Person">
+			<semanticIdentifier>lattes::9598903159122155</semanticIdentifier>
+			<field name="identifier.lattes" value="9598903159122155"/>
+			<field name="name" value="Alfredo José Alvim de Castro"/>
+		</entity>
+		<entity ref="OrgUnit1018" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1817" toEntityRef="Person1364" type="Inventor"/>
+		<relation fromEntityRef="Patent1817" toEntityRef="OrgUnit1018" type="Applicant"/>
+	</relations>
+</entity-relation-data>

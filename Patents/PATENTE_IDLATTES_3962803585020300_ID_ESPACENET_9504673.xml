@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:13" record="39275" source="Espacenet">
+	<entities>
+		<entity ref="Patent39275" type="Patent">
+			<semanticIdentifier>brcris::e17658aa92d044bad6235e57edc4fffc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504673A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9504673</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504673A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959504673</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9504673"/>
+			<field name="identifier.lattes" value="3962803585020300"/>
+			<field name="identifier.espacenet" value="9504673"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para tratamento fisico de águas de resfriamento empregando-se filtração tangencial visando a melhoria da qualidade das mesmas"/>
+			<field name="title.lattes" value="Processo para Tratamento Físico de Águas de Resfriamento Empregando-se Filtração Tangencial, Visando Melhorar a Qualidade das Mesmas"/>
+			<field name="depositDate" value="1995-09-15"/>
+			<field name="publicationDate" value="1997-10-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FARIA MORAIS JOSE DE"/>
+			<field name="inventor" value="ROBERTO NASSER JUNIOR"/>
+			<field name="applicant" value="RHODIA S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D61/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="61"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4062544"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504673"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9504673"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504673"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959504673"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26770" type="Person">
+			<semanticIdentifier>lattes::3962803585020300</semanticIdentifier>
+			<field name="identifier.lattes" value="3962803585020300"/>
+			<field name="name" value="Roberto Nasser Junior"/>
+		</entity>
+		<entity ref="OrgUnit20965" type="OrgUnit">
+			<semanticIdentifier>brcris::ce59296bb53fea2d8c98547ccbff3e72</semanticIdentifier>
+			<field name="name" value="RHODIA S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39275" toEntityRef="Person26770" type="Inventor"/>
+		<relation fromEntityRef="Patent39275" toEntityRef="OrgUnit20965" type="Applicant"/>
+	</relations>
+</entity-relation-data>

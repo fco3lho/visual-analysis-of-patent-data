@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:13" record="232" source="Espacenet">
+	<entities>
+		<entity ref="Patent232" type="Patent">
+			<semanticIdentifier>brcris::4d5a3e18d070fd9069334efc37d6a9fd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012017498A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012017498</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012017498A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121017498</semanticIdentifier>
+			<semanticIdentifier>original::102012017498</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012017498"/>
+			<field name="identifier.lattes" value="0206042094557734"/>
+			<field name="identifier.espacenet" value="102012017498"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="chassi de construção modular e dispositivo para acoplamento de implementos agrícolas em um veículo porta ferramenta"/>
+			<field name="title.lattes" value="CHASSI DE CONSTRUÇÃO MODULAR E DISPOSITIVO PARA ACOPLAMENTO DE IMPLEMENTOS AGRÍCOLAS EM UM VEÍCULO PORTA FERRAMENT"/>
+			<field name="depositDate" value="2012-07-16"/>
+			<field name="publicationDate" value="2015-10-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADILSON FABIO BAZUCCO"/>
+			<field name="inventor" value="HEITOR TENCA BOLZAN"/>
+			<field name="inventor" value="REGINALDO ETORE BOVO"/>
+			<field name="applicant" value="MAQUINAS AGRICOLAS JACTO S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01B63/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="chassi de construção modular e dispositivo para acoplamento de implementos agricolas em um veiculo porta ferramenta, conjunto de soluções mecânicas que possibilitam o acoplamento e desacoplamento de ferramentas ou implementos, ditos módulos, por exemplo, um módulo de colheita (mc) a uma máquina base (mb), com todos os sistemas necessários para sua mobilidade, tais como cabina de comando (2), conjunto motor (4) e transmissão (5), sistema de direção e suspensão, além de sistemas para acionamento dos módulos que serão agregados á máquina base (mb). alterando-se a sua configuração, ou seja, substituindo-se o módulo, a máquina pode executar outras tarefas comuns em uma cultura agrícola, por exemplo, pulverização de defensivos, adubação, poda das plantas, recolhimento de frutos caldos no chão, etc. para permitir essas operações, basta acoplar à máquina base (mb), o módulo correspondente à tarefa. o acoplamento é facilitado devido á existência dos engates (6) e (7) na máquina base (mb) e também dos pontos de engate (12) e (13) no módulo (mc). os engates (6), (7), (12) e (13) apresentam superfícies de rampa (cunha) ou arredondadas, de forma a facilitar o engate ou desengate com movimento vertical relativo entre os engates. a máquina base (mb) apresenta forma construtiva de caráter modular, o chassi (1) é composto de dois quadros verticais (17), unidos por duas travessas (18), cuja forma de união é por intermédio dos parafusos (19), dispostos em cada um dos vértices superiores do pórtico. os demais componentes da máquina base (mb), por exemplo, cabina (2), motor (4), ou subconjunto da roda (26), são interligados ao chassi (1), por intermédio de pinos."/>
+			<field name="originatesFrom" value="54541288"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012017498"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012017498"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012017498"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121017498"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012017498"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person176" type="Person">
+			<semanticIdentifier>lattes::0206042094557734</semanticIdentifier>
+			<field name="identifier.lattes" value="0206042094557734"/>
+			<field name="name" value="Adilson Fabio Bazucco"/>
+		</entity>
+		<entity ref="OrgUnit147" type="OrgUnit">
+			<semanticIdentifier>brcris::6d1482874bdf7dc1511cb7a2269630e2</semanticIdentifier>
+			<field name="name" value="MAQUINAS AGRICOLAS JACTO S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent232" toEntityRef="Person176" type="Inventor"/>
+		<relation fromEntityRef="Patent232" toEntityRef="OrgUnit147" type="Applicant"/>
+	</relations>
+</entity-relation-data>

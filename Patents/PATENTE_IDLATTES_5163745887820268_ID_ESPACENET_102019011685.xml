@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:17" record="8033" source="Espacenet">
+	<entities>
+		<entity ref="Patent8033" type="Patent">
+			<semanticIdentifier>brcris::f52f0a72f7864a2cdc675e26aa7f3ca1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011685A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019011685</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011685A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191011685</semanticIdentifier>
+			<semanticIdentifier>original::102019011685</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019011685"/>
+			<field name="identifier.lattes" value="5163745887820268"/>
+			<field name="identifier.espacenet" value="102019011685"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="apalpador acionado por sensor de fluxo magnético auxiliado por mola magnética"/>
+			<field name="title.lattes" value="Apalpador acionado por sensor de fluxo magnético auxiliado por mola magnética"/>
+			<field name="depositDate" value="2019-06-11"/>
+			<field name="publicationDate" value="2020-12-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CASSIO PESSOA VIANA"/>
+			<field name="inventor" value="JOSE DE AVILA JUNIOR"/>
+			<field name="inventor" value="MARCIO EDUARDO SILVEIRA"/>
+			<field name="inventor" value="RAFAEL DE BRITES NASCIMENTO"/>
+			<field name="inventor" value="RONE CESAR DA SILVA FONSECA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01L1/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01F7/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="trata-se de um sensor de contato de precisão do tipo apalpador auxiliado por mola magnética. este sensor possui a função de determinar a existência de contato entre a ponta do êmbolo com a superfície de um objeto. o princípio de funcionamento baseia-se no movimento de um ímã permanente contra um sensor de fluxo magnético, que pode atuar como chave digital ou como chave analógica acionada pela variação do fluxo magnético dos ímãs do sistema. o movimento de retorno ao êmbolo à posição inicial ocorre devido à força magnética repulsiva produzida entre os ímãs."/>
+			<field name="originatesFrom" value="74190195"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011685"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019011685"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011685"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191011685"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019011685"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5457" type="Person">
+			<semanticIdentifier>lattes::5163745887820268</semanticIdentifier>
+			<field name="identifier.lattes" value="5163745887820268"/>
+			<field name="name" value="Cássio Pessoa Viana"/>
+		</entity>
+		<entity ref="OrgUnit4311" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8033" toEntityRef="Person5457" type="Inventor"/>
+		<relation fromEntityRef="Patent8033" toEntityRef="OrgUnit4311" type="Applicant"/>
+	</relations>
+</entity-relation-data>

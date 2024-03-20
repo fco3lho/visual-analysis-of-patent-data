@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:25" record="34820" source="Espacenet">
+	<entities>
+		<entity ref="Patent34820" type="Patent">
+			<semanticIdentifier>brcris::3659c852e2ee726e5f5ff26b47203a78</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9105613A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9105613</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9105613A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19919105613</semanticIdentifier>
+			<semanticIdentifier>original::91 9105613</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9105613"/>
+			<field name="identifier.lattes" value="3348678902807034"/>
+			<field name="identifier.espacenet" value="9105613"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="LIGA ODONTOLOGICA PARA RESTAURACOES METALOCERAMICA"/>
+			<field name="title.lattes" value="liga odontológica para restaurações metalocerãmica"/>
+			<field name="depositDate" value="1991-12-26"/>
+			<field name="publicationDate" value="1993-06-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="OSVALDO LUIZ BEZZON"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22C19/03AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="03AI"/>
+			</field>
+			<field name="originatesFrom" value="4053470"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9105613"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9105613"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9105613"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19919105613"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="91 9105613"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23953" type="Person">
+			<semanticIdentifier>lattes::3348678902807034</semanticIdentifier>
+			<field name="identifier.lattes" value="3348678902807034"/>
+			<field name="name" value="Osvaldo Luiz Bezzon"/>
+		</entity>
+		<entity ref="OrgUnit18787" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34820" toEntityRef="Person23953" type="Inventor"/>
+		<relation fromEntityRef="Patent34820" toEntityRef="OrgUnit18787" type="Applicant"/>
+	</relations>
+</entity-relation-data>

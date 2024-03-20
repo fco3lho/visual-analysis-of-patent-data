@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:00:16" record="30845" source="Espacenet">
+	<entities>
+		<entity ref="Patent30845" type="Patent">
+			<semanticIdentifier>brcris::0e1e063cb7b5f961f8f07c67948a4930</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016171A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016016171</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016171A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161016171</semanticIdentifier>
+			<semanticIdentifier>original::102016016171</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016016171"/>
+			<field name="identifier.lattes" value="3674511692669753"/>
+			<field name="identifier.espacenet" value="102016016171"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de proteção de transformador para faltas internas"/>
+			<field name="title.lattes" value="MÉTODO DE PROTEÇÃO DE TRANSFORMADOR PARA FALTAS INTERNAS"/>
+			<field name="depositDate" value="2016-07-12"/>
+			<field name="publicationDate" value="2018-02-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIANO GUSTAVO SILVEIRA MAGRIN"/>
+			<field name="inventor" value="MARIA CRISTINA DIAS TAVARES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS- UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02H3/28AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02H7/045AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="045AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um método de proteção de transformador para faltas internas. em suma, o método revelado na presente invenção se propõe a aumentar a sensibilidade de detecção de faltas internas em equipamentos, principalmente, transformadores de potência, mas podendo ser também empregado na detecção de faltas internas a outros equipamentos como motores, geradores, reatores shunt, banco de capacitares, linhas de transmissão e até mesma para a combinação de mais de um equipamento na zona de proteção. 0 presente método atua aumentando a sensibilidade para as faltas internas, diminuindo, assim, os tempos de atuação e promovendo uma redução no dano dos equipamentos sob a proteção que fornece."/>
+			<field name="originatesFrom" value="60952262"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016171"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016016171"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016171"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161016171"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016016171"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2018009992"/>
+		</entity>
+		<entity ref="Person21175" type="Person">
+			<semanticIdentifier>lattes::3674511692669753</semanticIdentifier>
+			<field name="identifier.lattes" value="3674511692669753"/>
+			<field name="name" value="Maria Cristina Dias Tavares"/>
+		</entity>
+		<entity ref="OrgUnit16529" type="OrgUnit">
+			<semanticIdentifier>brcris::f8873a24a54ea9b4efaa860a5d9e3f70</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS- UNICAMP"/>
+		</entity>
+		<entity ref="Patent30846" type="Patent">
+			<semanticIdentifier>epodoc::WO2018009992</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="60952262"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2018009992"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30845" toEntityRef="Person21175" type="Inventor"/>
+		<relation fromEntityRef="Patent30845" toEntityRef="OrgUnit16529" type="Applicant"/>
+	</relations>
+</entity-relation-data>

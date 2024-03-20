@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:50" record="26311" source="Espacenet">
+	<entities>
+		<entity ref="Patent26311" type="Patent">
+			<semanticIdentifier>brcris::507388e3f6f12740ab86bf91115bdfa7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202013019739U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202013019739U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202013019739U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20132019739U</semanticIdentifier>
+			<semanticIdentifier>original::202013019739</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202013019739"/>
+			<field name="identifier.lattes" value="6803648710954643"/>
+			<field name="identifier.espacenet" value="202013019739"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="cápsula metálica para vitrificação e criopreservação de biomateriais"/>
+			<field name="title.lattes" value="Cápsula metálica para vitrificação e criopreservação de biomateriais"/>
+			<field name="depositDate" value="2013-08-02"/>
+			<field name="publicationDate" value="2018-11-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA BOS-MIKICH"/>
+			<field name="inventor" value="LUCAS DANIELLI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N1/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F25D25/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido de patente refere-se a um dispositivo metálico para vitrificação e criopreservaçäo de tecidos. é descrita uma cápsula fabricada em metal (aço inox 304 ou aço cirúrgico), que garante uma velocidade de resfriamento maior que o plástico --tradicionalmente utilizado - e o não contato com o nitrogênio liquido (cápsula hermeticamente fechada, contendo um forro interno de teflon) não permite a possibilidade de contaminação com patógenos potencialmente existentes no nitrogênio liquido."/>
+			<field name="originatesFrom" value="64872903"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202013019739"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202013019739U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202013019739"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20132019739U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202013019739"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202013019739Y"/>
+		</entity>
+		<entity ref="Person18211" type="Person">
+			<semanticIdentifier>lattes::6803648710954643</semanticIdentifier>
+			<field name="identifier.lattes" value="6803648710954643"/>
+			<field name="name" value="Lucas Danielli"/>
+		</entity>
+		<entity ref="OrgUnit14244" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+		<entity ref="Patent26312" type="Patent">
+			<semanticIdentifier>epodoc::BR202013019739Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="64872903"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202013019739Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26311" toEntityRef="Person18211" type="Inventor"/>
+		<relation fromEntityRef="Patent26311" toEntityRef="OrgUnit14244" type="Applicant"/>
+	</relations>
+</entity-relation-data>

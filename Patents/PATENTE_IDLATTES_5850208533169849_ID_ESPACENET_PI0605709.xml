@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:29" record="14682" source="Espacenet">
+	<entities>
+		<entity ref="Patent14682" type="Patent">
+			<semanticIdentifier>brcris::ee1c860618802d58c5a8e2d344b641ca</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605709A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605709</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605709A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05709</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605709-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605709"/>
+			<field name="identifier.lattes" value="5850208533169849"/>
+			<field name="identifier.espacenet" value="PI0605709"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema opto-eletrÈnico de detecção para tubulações que permite monitoramento remoto"/>
+			<field name="title.lattes" value="SISTEMA OPTO-ELETRÔNICO DE DETECÇÃO PARA TUBULAÇÕES QUE PERMITE MONITORAMENTO REMOTO"/>
+			<field name="depositDate" value="2006-12-21"/>
+			<field name="publicationDate" value="2008-08-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA MARIA FRATTINI FILETI"/>
+			<field name="inventor" value="FABIO DELATORE"/>
+			<field name="inventor" value="JOAO ALEXANDRE FERREIRA DA ROCHA"/>
+			<field name="inventor" value="JOAO ALEXANDRE FERREIRA DA ROCHA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/85AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="85AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/59AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="59AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA OPTO-ELETRÈNICO DE DETECçãO PARA TUBULAçõES QUE PERMITE MONITORAMENTO REMOTO&quot;. O presente trabalho descreve o desenvolvimento de um sistema óptico de detecção que pode ser integrado em rede. O sistema pode ser utilizado, por exemplo, para detectar bolhas em tubulações. As bolhas podem representar um problema em certos processos químicos, por exemplo, no caso de uma tubulação que alimenta uma bomba. Outro exemplo são tubulações de um trocador de calor, a presença de bolhas faz com que a eficiência da troca térmica do equipamento diminua. O sistema óptico desenvolvido utiliza como emissor de luz, o laser e como receptor, um fototransistor. Dois tipos de sensores ópticos foram desenvolvidos. O primeiro deles, o sensor pontual, utiliza apenas um emissor laser e um fototransistor. Já o segundo, chamado de sensor multiponto, utiliza quatro emissores laser e quatro fototransistores. Duas interfaces eletrónicas foram desenvolvidas. A interface do sensor pontual funciona com retenção do sinal de saída, ou seja, a saída não se altera até a passagem de uma nova bolha. No sensor multiponto, a interface funciona como um contador assíncrono, onde a cada passagem de bolha, o contador é incrementado. Como a utilização da rede Fieldbus vem aumentando em indústrias químicas, essa rede foi escolhida para transmissão de dados do sensor até a sala de controle."/>
+			<field name="originatesFrom" value="39677465"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605709"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605709"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605709"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05709"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605709-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10152" type="Person">
+			<semanticIdentifier>lattes::5850208533169849</semanticIdentifier>
+			<field name="identifier.lattes" value="5850208533169849"/>
+			<field name="name" value="Fabio Delatore"/>
+		</entity>
+		<entity ref="OrgUnit7952" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14682" toEntityRef="Person10152" type="Inventor"/>
+		<relation fromEntityRef="Patent14682" toEntityRef="OrgUnit7952" type="Applicant"/>
+	</relations>
+</entity-relation-data>

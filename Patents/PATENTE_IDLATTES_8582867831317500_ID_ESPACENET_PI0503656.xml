@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:26" record="34825" source="Espacenet">
+	<entities>
+		<entity ref="Patent34825" type="Patent">
+			<semanticIdentifier>brcris::80d36353680a82070b2a941ead17b5a9</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503656A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0503656</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503656A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI03656</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0503656-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0503656"/>
+			<field name="identifier.lattes" value="8582867831317500"/>
+			<field name="identifier.espacenet" value="PI0503656"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método e sistema de armazenamento óptico reversìvel"/>
+			<field name="title.lattes" value="Método e sistema de armazenamento óptico reversível."/>
+			<field name="depositDate" value="2005-08-22"/>
+			<field name="publicationDate" value="2007-04-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ACACIO APARECIDO DE CASTRO ANDRADE"/>
+			<field name="inventor" value="CLEBER RENATO MENDONCA"/>
+			<field name="inventor" value="DAVID SOTERO DOS SANTOS JR"/>
+			<field name="inventor" value="FELIPPE JOSE PAVINATTO"/>
+			<field name="inventor" value="LEONARDO DE BONI"/>
+			<field name="inventor" value="LINO MISOGUTI"/>
+			<field name="inventor" value="OSVALDO NOVAIS DE OLIVEIRA JR"/>
+			<field name="inventor" value="SERGIO CARLOS ZILIO"/>
+			<field name="inventor" value="UBALDO MARTINS NEVES"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G11B7/0065AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="0065AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO E SISTEMA DE ARMAZENAMENTO óPTICO REVERSìVEL&quot;. Compreendendo a gravação e apagamento de dados em duas e três dimensões mediante fenómenos ópticos não lineares induzidos em compostos fotoisoméricos mediante birrefringência resultante do processo de absorção 2-fótons. Os referidos compostos compreendem os azo-polímeros e os polimeros azo-aromáticos. O processo de gravação compreende a irradiação do material fotoisomérico com um feixe de luz polarizada e comprimento de onda fora da região de absorção linear do dito material, dito feixe sendo fortemente concentrado na região a ser gravada mediante um sistema óptico. A leitura da informação gravada sob a forma de birrefringência induzida compreende a iluminação do material gravado por um feixe de prova, que passa por um primeiro e por um segundo polarizadores de leitura, cujos ângulos de polarização são cruzados, podendo dita informação ser observada visualmente ou detectada mediante um fotodetector."/>
+			<field name="originatesFrom" value="37930223"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503656"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0503656"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503656"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI03656"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0503656-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23958" type="Person">
+			<semanticIdentifier>lattes::8582867831317500</semanticIdentifier>
+			<field name="identifier.lattes" value="8582867831317500"/>
+			<field name="name" value="Osvaldo Novais de Oliveira Junior"/>
+		</entity>
+		<entity ref="OrgUnit18794" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit18795" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34825" toEntityRef="Person23958" type="Inventor"/>
+		<relation fromEntityRef="Patent34825" toEntityRef="OrgUnit18794" type="Applicant"/>
+		<relation fromEntityRef="Patent34825" toEntityRef="OrgUnit18795" type="Applicant"/>
+	</relations>
+</entity-relation-data>

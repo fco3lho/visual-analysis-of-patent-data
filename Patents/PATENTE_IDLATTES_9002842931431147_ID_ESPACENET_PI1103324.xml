@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:30:07" record="44019" source="Espacenet">
+	<entities>
+		<entity ref="Patent44019" type="Patent">
+			<semanticIdentifier>brcris::d1e525177656b5c9835e3cbba473aa68</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103324A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1103324</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103324A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI03324</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1103324-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1103324"/>
+			<field name="identifier.lattes" value="9002842931431147"/>
+			<field name="identifier.espacenet" value="PI1103324"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Célula de carga customizada para medição de força mastigatória e método de fabricar a mesma"/>
+			<field name="title.lattes" value="Célula de carga customizada para medição de força mastigatória e método de fabricar a mesma"/>
+			<field name="depositDate" value="2011-07-01"/>
+			<field name="publicationDate" value="2015-08-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDGARD POIATE JUNIOR"/>
+			<field name="inventor" value="EDSON APARECIDO LIBERTI"/>
+			<field name="inventor" value="ISIS ANDREA VENTURINI POLA POIATE"/>
+			<field name="inventor" value="MATSYOSHI MORI"/>
+			<field name="inventor" value="MIKIYA MURAMATSU"/>
+			<field name="inventor" value="NELSON FUKASAWA"/>
+			<field name="inventor" value="TOMIE NAKAKUKI DE CAMPOS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE - UFF"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61C19/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Célula de carga customizada para medição de força mastigatória e método de fabricar a mesma. É apresentada uma célula de carga customizada compreendendo um corpo (1) substancialmente retangular; o corpo (1) tendo aba (2) em uma de suas extremidades e um prolongamento (3) na outra extremidade do mesmo; a superfície superior (4) e a superfície inferior (5) do corpo (1) sendo de formato plano na porção central e tendo rebaixos em ambas as laterais nas respectivas confluências com o prolongamento (3) e a aba (2); em que as regiões (6) e (7) são os locais que recebem a instalação dos extensômetros elétricos, as quais são conectadas a um sistema de aquisição de dados e um computador. A porção interna (8) apresenta uma ranhura (9) de formato oblongo em suas extremidades. Também é apresentado um método de fabricar célula de carga customizada compreendendo gerar a geometria básica estrutural do corpo (1) da célula de carga por meio de diversas simulações numéricas pelo método dos elementos finitos de forma iterativa para obter um modelo de célula de carga de melhor geometria otimizada; aplicar ao modelo de célula de carga gerado as condições de contorno e as propriedades mecânicas do material especificado e avaliar a distribuição de tensões resultantes na célula de carga de geometria gerada; verificar onde ocorrem altas e baixas concentrações de tensões na célula de carga de geometria gerada; alterar a geometria da célula de carga gerada e realizar nova simulação e avaliação dos resultados até ser obitida a configuração com melhor distribuição de tensões; e obter regiões onde o campo de tensões é mais uniforme e com maiores deformações possíveis para a instalação de extensômetros elétricos para possibilitar melhor sensibilidade na obtenção de sinais de medição."/>
+			<field name="originatesFrom" value="53801795"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103324"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1103324"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103324"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI03324"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1103324-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30090" type="Person">
+			<semanticIdentifier>lattes::9002842931431147</semanticIdentifier>
+			<field name="identifier.lattes" value="9002842931431147"/>
+			<field name="name" value="Tomie Toyota de Campos"/>
+		</entity>
+		<entity ref="OrgUnit23622" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44019" toEntityRef="Person30090" type="Inventor"/>
+		<relation fromEntityRef="Patent44019" toEntityRef="OrgUnit23622" type="Applicant"/>
+	</relations>
+</entity-relation-data>

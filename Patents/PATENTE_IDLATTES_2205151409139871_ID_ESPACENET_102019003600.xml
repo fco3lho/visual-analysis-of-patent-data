@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:33" record="37130" source="Espacenet">
+	<entities>
+		<entity ref="Patent37130" type="Patent">
+			<semanticIdentifier>brcris::8b91c6b47fc3039098787f5e07139502</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003600A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019003600</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003600A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191003600</semanticIdentifier>
+			<semanticIdentifier>original::102019003600</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019003600"/>
+			<field name="identifier.lattes" value="2205151409139871"/>
+			<field name="identifier.espacenet" value="102019003600"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="diluente contendo derivado de quitosana, gema de ovo e ácido cítrico em sua composição para criopreservação de sêmen e processo de preparação do mesmo"/>
+			<field name="title.lattes" value="DILUENTE CONTENDO DERIVADO DE QUITOSANA, GEMA DE OVO E ÁCIDO CÍTRICO EM SUA COMPOSIÇÃO PARA CRIOPRESERVAÇÃO DE SÊMEN E PROCESSO DE PREPARAÇÃO DO MESMO"/>
+			<field name="depositDate" value="2019-02-22"/>
+			<field name="publicationDate" value="2020-09-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREIA CYBELLE MARQUES FERREIRA"/>
+			<field name="inventor" value="JULIANNE CORTIZO GONZALEZ"/>
+			<field name="inventor" value="MARIA MADALENA PESSOA GUERRA"/>
+			<field name="inventor" value="RANILSON DE SOUZA BEZERRA"/>
+			<field name="inventor" value="RAQUEL PEREIRA FREITAS DA SILVA"/>
+			<field name="inventor" value="THALLES CLOVES MACIEL DE MOURA"/>
+			<field name="inventor" value="THIAGO BARBOSA CAHU"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N1/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="diluente contendo derivado de quitosana, gema de ovo e ácido cítrico em sua composição para criopreservação de sêmen e processo de preparação do mesmo. a presente invenção trata de um diluente para criopreservação do sêmen, contendo derivado de quitosana em meio aquoso tamponado em associação com a gema de ovo e o ácido cítrico, juntamente com coadjuvantes; e seu processo de preparação. o diluente proposto promove efeitos benéficos nos parâmetros de motilidade, estabilidade e viabilidade espermática, podendo ser utilizado para prolongar a vida funcional do espermatozoide criopreservado e melhorar o seu desempenho reprodutivo. a invenção contribui para a eficiência dos atuais procedimentos de criopreservação empregados no campo técnico da reprodução assistida."/>
+			<field name="originatesFrom" value="73013915"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003600"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019003600"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003600"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191003600"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019003600"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25608" type="Person">
+			<semanticIdentifier>lattes::2205151409139871</semanticIdentifier>
+			<field name="identifier.lattes" value="2205151409139871"/>
+			<field name="name" value="Ranilson de Souza Bezerra"/>
+		</entity>
+		<entity ref="OrgUnit20078" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit20079" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37130" toEntityRef="Person25608" type="Inventor"/>
+		<relation fromEntityRef="Patent37130" toEntityRef="OrgUnit20078" type="Applicant"/>
+		<relation fromEntityRef="Patent37130" toEntityRef="OrgUnit20079" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:11" record="14497" source="Espacenet">
+	<entities>
+		<entity ref="Patent14497" type="Patent">
+			<semanticIdentifier>brcris::12cedc9d187f81825b2234ee08114f1d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018015075A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018015075</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018015075A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181015075</semanticIdentifier>
+			<semanticIdentifier>original::102018015075</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018015075"/>
+			<field name="identifier.lattes" value="8707408004103956"/>
+			<field name="identifier.espacenet" value="102018015075"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="tratamentos térmicos e termoquímicos no campo da austenita metaestável em ciclo único"/>
+			<field name="title.lattes" value="TRATAMENTOS TÉRMICOS E TERMOQUÍMICOS NO CAMPO DA AUSTENITA METAESTÁVEL EM CICLO ÚNICO"/>
+			<field name="depositDate" value="2018-07-24"/>
+			<field name="publicationDate" value="2020-02-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANO JOSE SCHEUER"/>
+			<field name="inventor" value="FABIANE DA SILVA SEVERO"/>
+			<field name="inventor" value="FERNANDO IRTO ZANETTI"/>
+			<field name="inventor" value="IGOR GIACOMELLI ZANELLA"/>
+			<field name="inventor" value="LEONARDO LUIS SANTOS"/>
+			<field name="inventor" value="RODRIGO PERITO CARDOSO"/>
+			<field name="inventor" value="SILVIO FRANCISCO BRUNATTO"/>
+			<field name="inventor" value="TARCIANA DIEB TOSCANO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23C8/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C23C8/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C23C8/26AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="tratamentos térmicos e termoquímicos no campo da austenita metaestável em ciclo único a presente invenção consiste na realização de tratamento térmico e termoquímico em ciclo único, com a característica do tratamento termoquímico ser realizado no campo da austenida metaestável, possibilitando obter camadas tratadas com características diferentes daquelas obtidas quando o tratamento termoquímico não é realizado no campo da austenita metaestável. neste caso o tratamento termoquímico pode ser por exemplo a nitretação, a cementação, a carbonitretação, a nitrocementação, a boretação ou qualquer combinação entre eles, e dependo das dos parâmetros do tratamento termoquímico e das características do aço a ser tratado, diferentes microestruturas podem ser obtidas no núcleo do componente tratado (incluindo martensita, martensita revenida, bainita ou uma combinação destes). dadas às características do processo proposto nesta invenção, este se mostra adequado para aplicação em componentes com elevada solicitação estrutural e de superfície, possibilitando produzir componentes com núcleo apresentando elevada resistência mecânica e tenacidade associado à superfícies com elevadas resistências ao desgaste e à corrosão."/>
+			<field name="originatesFrom" value="69527716"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018015075"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018015075"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018015075"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181015075"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018015075"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10018" type="Person">
+			<semanticIdentifier>lattes::8707408004103956</semanticIdentifier>
+			<field name="identifier.lattes" value="8707408004103956"/>
+			<field name="name" value="Fabiane da Silva Severo"/>
+		</entity>
+		<entity ref="OrgUnit7871" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14497" toEntityRef="Person10018" type="Inventor"/>
+		<relation fromEntityRef="Patent14497" toEntityRef="OrgUnit7871" type="Applicant"/>
+	</relations>
+</entity-relation-data>

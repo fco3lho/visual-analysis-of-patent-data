@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:10:05" record="2940" source="Espacenet">
+	<entities>
+		<entity ref="Patent2940" type="Patent">
+			<semanticIdentifier>brcris::f0642334d578788d064f5d9704fc1ad4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018862A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016018862</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018862A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161018862</semanticIdentifier>
+			<semanticIdentifier>original::102016018862</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016018862"/>
+			<field name="identifier.lattes" value="4811625016953384"/>
+			<field name="identifier.espacenet" value="102016018862"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="eletrodos compósitos a base de grafite e polímeros termoplásticos"/>
+			<field name="title.lattes" value="ELETRODOS COMPÓSITOS A BASE DE GRAFITE E POLÍMEROS TERMOPLÁSTICOS"/>
+			<field name="depositDate" value="2016-08-16"/>
+			<field name="publicationDate" value="2018-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA LUISA SILVA"/>
+			<field name="inventor" value="EDUARDO ARIEL PONZIO"/>
+			<field name="inventor" value="FELIPE SILVA SEMAAN"/>
+			<field name="inventor" value="GRASIELLI CORREA DE OLIVEIRA"/>
+			<field name="inventor" value="RICARDO CUNHA MICHEL"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23F13/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="eletrodos compõsitos baseados em grafite e polimeros termoplásticos o presente invento refere-se em um de seus aspectos ao processo de fabricação de eletrodos compósitos à base de grafite e polímeros termoplásticos usando como polímeros o acrilonitrila-butadieno-estireno (abs) e o poli (ácido lático). em outro aspecto, proteger o uso destes como eletrodos para determinar diferentes analitos.em especial, o ecga trata-se de um eletrodo compósito a partir da mistura de grafite e abs em diferentes proporções 40 - 80% e o ecgp trata-se de um eletrodo compósito a partir da mistura de grafite e pla em diferentes proporções 20 - 80% (mlm), ambos agem como sensores eletroquímicos e foram testados frente a uma sonda eletroquímica redox de fe[(cn)6]4&quot;/fe[(cn)6]3&quot; 5 x 10&quot;6 moi l&quot;' em uma solução de kci 0,5 moi l-' para avaliar sua eletroatividade. a presente invenção foi testada frente a diferentes vitaminas e fármacos, em diferentes valores de ph, variando de 2 a 13 e na detecção simultânea de metais pesados tais como:cd e pb com e sem modificação da superfície do eletrodo com filme de bismuto, empregando diferentes técnicas eletroanalíticas."/>
+			<field name="originatesFrom" value="61970810"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018862"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016018862"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018862"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161018862"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016018862"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2116" type="Person">
+			<semanticIdentifier>lattes::4811625016953384</semanticIdentifier>
+			<field name="identifier.lattes" value="4811625016953384"/>
+			<field name="name" value="Ana Luísa Silva"/>
+		</entity>
+		<entity ref="OrgUnit1690" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+		<entity ref="OrgUnit1691" type="OrgUnit">
+			<semanticIdentifier>brcris::b4e0e2d9cdc0f26db4523380edc59922</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2940" toEntityRef="Person2116" type="Inventor"/>
+		<relation fromEntityRef="Patent2940" toEntityRef="OrgUnit1690" type="Applicant"/>
+		<relation fromEntityRef="Patent2940" toEntityRef="OrgUnit1691" type="Applicant"/>
+	</relations>
+</entity-relation-data>

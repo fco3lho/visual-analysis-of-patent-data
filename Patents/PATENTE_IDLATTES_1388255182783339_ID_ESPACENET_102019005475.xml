@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:46" record="32860" source="Espacenet">
+	<entities>
+		<entity ref="Patent32860" type="Patent">
+			<semanticIdentifier>brcris::a1e40556903a126de41832d957fe8784</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019005475A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019005475</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019005475A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191005475</semanticIdentifier>
+			<semanticIdentifier>original::102019005475</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019005475"/>
+			<field name="identifier.lattes" value="1388255182783339"/>
+			<field name="identifier.espacenet" value="102019005475"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="código de barra bidimensional colorido de alta densidade de informação"/>
+			<field name="title.lattes" value="CÓDIGO DE BARRA BIDIMENSIONAL COLORIDO DE ALTA DENSIDADE DE INFORMAÇÃO"/>
+			<field name="depositDate" value="2019-03-20"/>
+			<field name="publicationDate" value="2020-10-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAX EDUARDO VIZCARRA MELGAR"/>
+			<field name="inventor" value="MYLENE CHRISTINE QUEIROZ DE FARIAS"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K19/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="código de barra bidimensional colorido de alta densidade de informação. a presente invenção refere-se a um código de barras (1) bidimensional colorido para auxilia na transmissão de alta quantidade de informação em pequenos espaços impressos. mais particularmente, a presente invenção consiste de um código de barras (1) bidimensional colorido e um programa de computador, que realizam o armazenamento e decodificação das informações do conjunto de dados impresso. a invenção apresenta diversas configurações, dois conjuntos de cores e níveis de correção de erro reed-solomon, possibilitando um aumento da densidade de informação armazenada por polegada quadrada e maior robustez de decodificação devido as técnicas de processamento de imagens utilizadas. a presente invenção possui aplicação no campo de métodos ou disposições para leitura de transportes de dados por radiação eletromagnética, na indústria de transportes de dados."/>
+			<field name="originatesFrom" value="73015776"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019005475"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019005475"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019005475"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191005475"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019005475"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22599" type="Person">
+			<semanticIdentifier>lattes::1388255182783339</semanticIdentifier>
+			<field name="identifier.lattes" value="1388255182783339"/>
+			<field name="name" value="Max Eduardo Vizcarra Melgar"/>
+		</entity>
+		<entity ref="OrgUnit17669" type="OrgUnit">
+			<semanticIdentifier>brcris::8b713348a365716b0e9d87ffd99b5796</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32860" toEntityRef="Person22599" type="Inventor"/>
+		<relation fromEntityRef="Patent32860" toEntityRef="OrgUnit17669" type="Applicant"/>
+	</relations>
+</entity-relation-data>

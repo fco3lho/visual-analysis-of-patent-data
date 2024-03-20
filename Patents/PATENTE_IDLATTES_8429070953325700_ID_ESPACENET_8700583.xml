@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:22" record="15233" source="Espacenet">
+	<entities>
+		<entity ref="Patent15233" type="Patent">
+			<semanticIdentifier>brcris::e11fe7479507c16cbecdaaf4c2aa9ac2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8700583A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8700583</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8700583A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19878700583</semanticIdentifier>
+			<semanticIdentifier>original::8700583</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8700583"/>
+			<field name="identifier.lattes" value="8429070953325700"/>
+			<field name="identifier.espacenet" value="8700583"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="EQUIPAMENTO PARA SECAGEM DE MATERIAIS GRANULARES"/>
+			<field name="title.lattes" value="Equipamento para Secagem de Materiais Granulares"/>
+			<field name="depositDate" value="1987-02-10"/>
+			<field name="publicationDate" value="1988-08-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FELIX EMILIO PRADO CORNEJO"/>
+			<field name="inventor" value="KIL JIN PARK"/>
+			<field name="inventor" value="SONG WON PARK"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="applicant" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO S/A"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F26B17/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="26"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4041654"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8700583"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8700583"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8700583"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19878700583"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8700583"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10568" type="Person">
+			<semanticIdentifier>lattes::8429070953325700</semanticIdentifier>
+			<field name="identifier.lattes" value="8429070953325700"/>
+			<field name="name" value="Felix Emilio Prado Cornejo"/>
+		</entity>
+		<entity ref="OrgUnit8249" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+		<entity ref="OrgUnit8250" type="OrgUnit">
+			<semanticIdentifier>brcris::902db868dcda53dc042e01bd309a9564</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO S/A"/>
+		</entity>
+		<entity ref="OrgUnit8251" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15233" toEntityRef="Person10568" type="Inventor"/>
+		<relation fromEntityRef="Patent15233" toEntityRef="OrgUnit8249" type="Applicant"/>
+		<relation fromEntityRef="Patent15233" toEntityRef="OrgUnit8250" type="Applicant"/>
+		<relation fromEntityRef="Patent15233" toEntityRef="OrgUnit8251" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:35:03" record="45108" source="Espacenet">
+	<entities>
+		<entity ref="Patent45108" type="Patent">
+			<semanticIdentifier>brcris::b77ccd76758bf6754a88aee5513f4b98</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016013672A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016013672</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016013672A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161013672</semanticIdentifier>
+			<semanticIdentifier>original::102016013672</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016013672"/>
+			<field name="identifier.lattes" value="6402813788982583"/>
+			<field name="identifier.espacenet" value="102016013672"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo biologico de produção de 1,3-propanodiol a partir de glicerina"/>
+			<field name="title.lattes" value="PROCESSO BIOLOGICO DE PRODUÇÃO DE 1,3-PROPANODIOL A PARTIR DE GLICERINA"/>
+			<field name="depositDate" value="2016-06-14"/>
+			<field name="publicationDate" value="2017-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLOVIS FERREIRA MARQUES NETO"/>
+			<field name="inventor" value="MARIO GANDRA"/>
+			<field name="inventor" value="SAMIRA ABDALLAH HANNA"/>
+			<field name="inventor" value="VITOR HUGO MOREAU DA CUNHA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P7/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/01AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AN"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção fornece um processo biologico de produção de 1,3-propanodiol a partir de glicerina através do uso de microrganismos do gênero rhodococcus, cujas cepas foram isoladas a partir de amostras ambientais. o referido processo pode ser aplicado na conversão de glicerol, presente na referida glicerina, em diversas concentrações, aumentando, assim o valor agregado deste composto. a presente invenção pode, ainda, ser aplicada na conversão de glicerol presente em glicerina bruta, glicerina loira e outras formas e misturas onde o glicerol esteja presente. através do referido processo pode-se converter, através da ação metabólica direta de microrganismos isolados e cultivados em anaerobiose e/ou microaerofilia, glicerol em 1,3-propanodiol. o 1,3-propanodiol obtido no referido processo pode ser purificado a partir do caldo de crescimento e utilizado para diversos fins industriais. como o 1,3-propanodiol possui um valor de mercado muito maior que o glicerol, a presente invenção trás a vantagem de converter um produto considerado resíduo (glicerol) em um produto cujos custos de purificação podem ser compensados pelo seu alto valor de mercado. desta forma, a presente invenção se configura em um meio importante de agregar valor aos setores industriais que produzem glicerina como coprodutos e/ou resíduos, agregando, consequentemente, valor à cadeia de produção e aumentando o faturamento das referidas indústrias."/>
+			<field name="originatesFrom" value="62597189"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016013672"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016013672"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016013672"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161013672"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016013672"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30869" type="Person">
+			<semanticIdentifier>lattes::6402813788982583</semanticIdentifier>
+			<field name="identifier.lattes" value="6402813788982583"/>
+			<field name="name" value="Vitor Hugo Moreau da Cunha"/>
+		</entity>
+		<entity ref="OrgUnit24219" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45108" toEntityRef="Person30869" type="Inventor"/>
+		<relation fromEntityRef="Patent45108" toEntityRef="OrgUnit24219" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:22" record="11998" source="Espacenet">
+	<entities>
+		<entity ref="Patent11998" type="Patent">
+			<semanticIdentifier>brcris::7a3f0b02f4a01d15eaa3096e3aa317c7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027061A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016027061</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027061A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161027061</semanticIdentifier>
+			<semanticIdentifier>original::102016027061</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016027061"/>
+			<field name="identifier.lattes" value="1947122730060457"/>
+			<field name="identifier.espacenet" value="102016027061"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de vinagre a partir de farelo de arroz desengordurado por fermentação submersa"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DE VINAGRE A PARTIR DE FARELO DE ARROZ DESENGORDURADO POR FERMENTAÇÃO SUBMERS"/>
+			<field name="depositDate" value="2016-11-18"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CATIUSSA MAIARA PAZUCH"/>
+			<field name="inventor" value="CRISTIANE CANAN"/>
+			<field name="inventor" value="EDER LISANDRO DE MORAES FLORES"/>
+			<field name="inventor" value="ELIANE COLLA"/>
+			<field name="inventor" value="FRANCIELI BEGNINI SIEPMANN"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12J1/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A23L7/104AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="104AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se ao processo de obtenção de vinagre de farelo de arroz desengordurado, com aplicação na indústria vinagreira, que visa a produção de um vinagre, a partir de um resíduo agroindustrial, com propriedades funcionais. o processo de produção é por fermentação submersa, que é o mais utilizado na indústria vinagreira. além da fermentação alcoólica e acética, passa pelo processo de hidrólise enzimática, etapa já utilizada para produção de vinagres a partir de matérias-primas ricas em açúcares não fermentescíveis. a matéria-prima utilizada para o processo, que o caracteriza como único, foi o farelo de arroz desengordurado, subproduto do processo de beneficiamento do arroz, produzido em larga escala e com propriedades nutricionais e antioxidante, o qual, no entanto, é subutilizado, uma vez que grande parte do farelo de arroz produzido é destinado a fabricação de ração animal."/>
+			<field name="originatesFrom" value="62845599"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027061"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016027061"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027061"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161027061"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016027061"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8265" type="Person">
+			<semanticIdentifier>lattes::1947122730060457</semanticIdentifier>
+			<field name="identifier.lattes" value="1947122730060457"/>
+			<field name="name" value="Éder Lisandro de Moraes Flores"/>
+		</entity>
+		<entity ref="OrgUnit6536" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11998" toEntityRef="Person8265" type="Inventor"/>
+		<relation fromEntityRef="Patent11998" toEntityRef="OrgUnit6536" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:12" record="20210" source="Espacenet">
+	<entities>
+		<entity ref="Patent20210" type="Patent">
+			<semanticIdentifier>brcris::462c28c3aeafbebb1010712f4009fb88</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402585A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0402585</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402585A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI02585</semanticIdentifier>
+			<semanticIdentifier>original::0402585-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0402585"/>
+			<field name="identifier.lattes" value="3378038791036594"/>
+			<field name="identifier.espacenet" value="PI0402585"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Técnica de autocontrole de corrente para correção de fator de potência utilizando o conversor boost"/>
+			<field name="title.lattes" value="TÉCNICA DE AUTOCONTROLE DE CORRENTE PARA CORREÇÃO DE FATOR DE POTÊNCIA UTILIZANDO O CONVERSOR BOOST"/>
+			<field name="depositDate" value="2004-03-26"/>
+			<field name="publicationDate" value="2004-12-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARNALDO JOSE PERIN"/>
+			<field name="inventor" value="DEIVES BORGONOVO"/>
+			<field name="inventor" value="IVO BARBI"/>
+			<field name="inventor" value="JOSE PAULO REMOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05F1/70AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="70AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02M1/42AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02M7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TéCNICA DE AUTOCONTROLE DE CORRENTE PARA CORREçãO DE FATOR DE POTêNCIA UTILIZANDO O CONVERSOR BOOST&quot;. A &quot;TéCNICA DE AUTOCONTROLE DE CORRENTE PARA CORREçãO DE FATOR DE POTêNCIA UTILIZANDO O CONVERSOR BOOST&quot; consiste em eliminar a referência de corrente normalmente empregada para a correção do fator de potência de fontes de alimentadas com tensão alternada e que utilizam o conversor boost, alterando a estratégia de realimentação, sendo neste caso efetuada através do próprio circuito de potência do conversor. Para isto, não é necessária uma malha de corrente externa, uma vez que o controle é incorporado ao conversor. Não se faz necessário amostrar a tensão de entrada para gerar uma referência de corrente e não se utiliza um controlador de corrente, mas simplesmente um ganho e o sistema é naturalmente estável, para o controle da corrente. A técnica de controle proposta, comparada à estratégia clássica de controle, permite diminuir o número de componentes e tornar o sistema mais simples e robusto. Pode ser utilizada no controle digital do conversor, tornando o software mais simples, permitindo utilizar processadores mais simples e de menor custo, garantindo ainda aumento na robustez do sistema."/>
+			<field name="originatesFrom" value="33545880"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402585"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0402585"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402585"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI02585"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0402585-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14024" type="Person">
+			<semanticIdentifier>lattes::3378038791036594</semanticIdentifier>
+			<field name="identifier.lattes" value="3378038791036594"/>
+			<field name="name" value="Ivo Barbi"/>
+		</entity>
+		<entity ref="OrgUnit10963" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20210" toEntityRef="Person14024" type="Inventor"/>
+		<relation fromEntityRef="Patent20210" toEntityRef="OrgUnit10963" type="Applicant"/>
+	</relations>
+</entity-relation-data>

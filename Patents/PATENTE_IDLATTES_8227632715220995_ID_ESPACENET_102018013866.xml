@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:52" record="25161" source="Espacenet">
+	<entities>
+		<entity ref="Patent25161" type="Patent">
+			<semanticIdentifier>brcris::a2e11ed09fe5947198c12511da1a3c8f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018013866A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018013866</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018013866A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181013866</semanticIdentifier>
+			<semanticIdentifier>original::102018013866</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018013866"/>
+			<field name="identifier.lattes" value="8227632715220995"/>
+			<field name="identifier.espacenet" value="102018013866"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="síntese da perovskita de la2femno6 com estrutura organizacional do tipo dupla-perovskita"/>
+			<field name="title.lattes" value="SÍNTESE DA PEROVSKITA DE La2FeMnO6 COM ESTRUTURA ORGANIZACIONAL DO TIPO DUPLAPEROVSKITA"/>
+			<field name="depositDate" value="2018-07-05"/>
+			<field name="publicationDate" value="2020-01-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE HUMBERTO DE ARAUJO"/>
+			<field name="inventor" value="LAZARO LUIS DE LIMA SOUSA"/>
+			<field name="inventor" value="MARCO ANTONIO MORALES TORRES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B05D5/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01M4/90AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="90AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01M8/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="síntese da perovskita de la2femno6 com estrutura organizacional do tipo dupla-perovskita materiais cerâmicos tipo dupla perovskita apresentam propriedades semicondutoras e magnéticas muito importantes para o desenvolvimento de novos dispositivos na área de spintrônica. as propriedades físicas da dupla perovskita la2femno6 (lfmo) dependem do nível organizacional dos átomos de fe e mn na estrutura cristalina. estudos teóricos mostraram que a lfmo deve apresentar comportamento ferrimagnético (fim) quando os octaedros que contêm os cátions de fe3+ e mn3+ estão organizados de maneira alternada. vários procedimentos para a síntese da lfmo foram publicados, entretanto, nenhum deles apresentou a formação da fase fim, indicando que esses sistemas consistem de uma distribuição catiônica desordenada. nesta patente de invenção propomos a síntese da lfmo usando o método da reação de estado sólido, com tratamento térmico em elevadas temperaturas e por um intervalo de tempo de 18 horas a 28 horas. a medida de difração de raios x confirmou a formação da estrutura do tipo dupla perovskita, com simetria pbnm. através de medidas de calor específico na faixa de 3 k a 300 k confirmamos o ordenamento fim para temperaturas abaixo de 10 k, um indicativo de que os íons de fe3+ e mn3 estão organizados de forma alternada."/>
+			<field name="originatesFrom" value="69191473"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018013866"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018013866"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018013866"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181013866"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018013866"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17433" type="Person">
+			<semanticIdentifier>lattes::8227632715220995</semanticIdentifier>
+			<field name="identifier.lattes" value="8227632715220995"/>
+			<field name="name" value="Lázaro Luis de Lima Sousa"/>
+		</entity>
+		<entity ref="OrgUnit13593" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25161" toEntityRef="Person17433" type="Inventor"/>
+		<relation fromEntityRef="Patent25161" toEntityRef="OrgUnit13593" type="Applicant"/>
+	</relations>
+</entity-relation-data>

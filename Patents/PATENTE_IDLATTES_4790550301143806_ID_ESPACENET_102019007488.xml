@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:31:58" record="44410" source="Espacenet">
+	<entities>
+		<entity ref="Patent44410" type="Patent">
+			<semanticIdentifier>brcris::65f6131215caaf2513c7a38ed633abdb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019007488A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019007488</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019007488A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191007488</semanticIdentifier>
+			<semanticIdentifier>original::102019007488</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019007488"/>
+			<field name="identifier.lattes" value="4790550301143806"/>
+			<field name="identifier.espacenet" value="102019007488"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de aquisição de dados por sensoriamento e aprendizado do padrão comportamental de indivíduos para monitoramento de domicílios unipessoais"/>
+			<field name="title.lattes" value="SISTEMA DE AQUISIÇÃO DE DADOS POR SENSORIAMENTO E APRENDIZADO DO PADRÃO COMPORTAMENTAL DE INDIVÍDUOS PARA MONITORAMENTO DE DOMICÍLIOS UNIPESSOAIS"/>
+			<field name="depositDate" value="2019-04-12"/>
+			<field name="publicationDate" value="2020-10-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES LIMA SOARES"/>
+			<field name="inventor" value="MARCIO RENE BRANDAO SOUSSA"/>
+			<field name="inventor" value="VALERIA LOUREIRO DA SILVA"/>
+			<field name="inventor" value="VALTER DE SENNA"/>
+			<field name="applicant" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08B3/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08B19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de aquisição de dados por sensoriamento e aprendizado do padrão comportamental de indivíduos para monitoramento de domicílios unipessoais o presente pedido de privilégio de invenção trata de um sistema que utiliza apenas sensores de ativação e de medidas (s1, s2, 5 s3) devidamente instalados nos cômodos e na parte externa de residências unipessoais, cujos sinais são enviados para um dispositivo central (2) na própria residência, que por sua vez, em períodos de tempo pré-definidos os enviam para uma central de reconhecimento (3) de padrões, que baseada em diversas análises é capaz de aprender a rotina da pessoa monitorada e alertar o supervisor (s) do sistema e/ou familiar (5) responsável por meio de mensagem de texto (6) ou congênere, para que tomem medidas cabíveis, caso se constate alguma anormalidade."/>
+			<field name="originatesFrom" value="73038579"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019007488"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019007488"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019007488"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191007488"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019007488"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30375" type="Person">
+			<semanticIdentifier>lattes::4790550301143806</semanticIdentifier>
+			<field name="identifier.lattes" value="4790550301143806"/>
+			<field name="name" value="Valter de Senna"/>
+		</entity>
+		<entity ref="OrgUnit23825" type="OrgUnit">
+			<semanticIdentifier>brcris::3714dd508ac51d7befdd98b951568b4c</semanticIdentifier>
+			<field name="name" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44410" toEntityRef="Person30375" type="Inventor"/>
+		<relation fromEntityRef="Patent44410" toEntityRef="OrgUnit23825" type="Applicant"/>
+	</relations>
+</entity-relation-data>

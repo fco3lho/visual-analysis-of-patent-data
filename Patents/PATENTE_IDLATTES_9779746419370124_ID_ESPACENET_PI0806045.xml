@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:34" record="928" source="Espacenet">
+	<entities>
+		<entity ref="Patent928" type="Patent">
+			<semanticIdentifier>brcris::0f6fba18e6ba63406c457509ec59596e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0806045A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0806045</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0806045A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI06045</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0806045-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0806045"/>
+			<field name="identifier.lattes" value="9779746419370124"/>
+			<field name="identifier.espacenet" value="PI0806045"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="placas cerámicas convexas e seu uso na preparação de blindagem para proteção balìstica"/>
+			<field name="title.lattes" value="Placas Cerâmicas Convexas e seu Uso na Preparação de Blindagem para Proteção Balística"/>
+			<field name="depositDate" value="2008-09-30"/>
+			<field name="publicationDate" value="2010-09-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALAELSON VIEIRA GOMES"/>
+			<field name="applicant" value="INSTITUTO MILITAR DE ENGENHARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F41H5/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="41"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F41H5/04AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="41"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Placas Cerâmicas Convexas e seu Uso na Preparação de Blindagem para Proteção Balística. A presente invenção proporciona uma blindagem para viaturas e outras superfícies. A referida blindagem compreende placas cerâmicas convexas, nas quais a superfície de impacto é centrada com o polígono regular que constitui a superfície posterior. As placas cerâmicas da invenção são preferencialmente aderidas a um suporte, sendo as vizinhas coladas ao longo de faces coincidentes cobrindo a superfície em que forem coladas. A superfície constituída pelas superfícies convexas de cada placa cerâmica pode ser adicionalmente coberta com material que confine os fragmentos cerâmicos gerados pelo impacto balistico. As placas cerâmicas podem ser confeccionadas em espessuras e curvaturas diversas para atender às necessidades de proteção balística."/>
+			<field name="originatesFrom" value="42729259"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0806045"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0806045"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0806045"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI06045"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0806045-2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0906130"/>
+		</entity>
+		<entity ref="Person679" type="Person">
+			<semanticIdentifier>lattes::9779746419370124</semanticIdentifier>
+			<field name="identifier.lattes" value="9779746419370124"/>
+			<field name="name" value="Alaelson Vieira Gomes"/>
+		</entity>
+		<entity ref="OrgUnit540" type="OrgUnit">
+			<semanticIdentifier>brcris::c5b9bb9eb07d5549669cbd21d2895712</semanticIdentifier>
+			<field name="name" value="INSTITUTO MILITAR DE ENGENHARIA"/>
+		</entity>
+		<entity ref="Patent929" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0906130</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="42729259"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0906130"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent928" toEntityRef="Person679" type="Inventor"/>
+		<relation fromEntityRef="Patent928" toEntityRef="OrgUnit540" type="Applicant"/>
+	</relations>
+</entity-relation-data>

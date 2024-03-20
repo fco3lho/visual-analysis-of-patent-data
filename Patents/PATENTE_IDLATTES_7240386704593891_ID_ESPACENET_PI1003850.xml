@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:39" record="18655" source="Espacenet">
+	<entities>
+		<entity ref="Patent18655" type="Patent">
+			<semanticIdentifier>brcris::1d57f86da7b4ec1fe8ab2d6eeb5e5902</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1003850A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1003850</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1003850A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI03850</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1003850-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1003850"/>
+			<field name="identifier.lattes" value="7240386704593891"/>
+			<field name="identifier.espacenet" value="PI1003850"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para autenticar vìdeo"/>
+			<field name="title.lattes" value="Método Para Autenticar Vídeo (patente depositada P.I. 1.003.850-7, 21 de junho de 2011)"/>
+			<field name="depositDate" value="2010-04-20"/>
+			<field name="publicationDate" value="2012-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HAE YOUNG KIM"/>
+			<field name="applicant" value="FLEXMEDIA INDUSTRIA E COMERCIO DE EQUIPAMENTOS E TECNOLOGIA LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K19/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA AUTENTICAR VìDEO. à medida que o custo dos equipamentos para filmar, transmitir e armazenar vídeos diminui, o uso de vídeo torna-se cada vez mais popular em diferentes aplicações. Dada a facilidade com que os vídeos podem ser manipulados, um vídeo pode não possuir valor como prova legal, se não houver algum meio de autenticá-lo, isto é, comprovar que o vídeo não foi editado fraudulentamente e que foi gerado por uma filmadora específica. Assim, a autenticação dos conteúdos dos vídeos torna-se extremamente importante. Propomos um sistema de autenticação de vídeo que calcula a função hashing perceptual do vídeo, criptografa-a e insere os bits resultantes como uma série de pontos numa pequena região espacial do vídeo. A inserção de marca de autenticação pode ser feita num computador convencional ou num aparelho especialmente dedicado à tarefa. A técnica proposta possui as seguintes propriedades: (A) O código de autenticação fica armazenado no próprio vídeo. (B) O vídeo não sofre qualquer degradação na qualidade, exceto na pequena região espacial destinada a receber o código de autenticação. (C) A inserção do código de autenticação pode ser feita em sistemas embarcados, pois requer pouco processamento e memória. (D) O sistema consegue detectar inserção, remoção e substituição de quadros, e localizar espacialmente a região modificada do vídeo. (E) O vídeo autenticado resiste a diferentes níveis de compressão, a conversão analógica-digital, ao ajuste de brilho, contraste e coloração, e pode ser compactado utilizando uma grande variedade de codecs. (F) Dependendo do algoritmo de encriptação utilizada, a geração de vídeos falsamente autenticados por pessoas não-autorizadas pode se tornar extremamente difícil."/>
+			<field name="originatesFrom" value="45562614"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1003850"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1003850"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1003850"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI03850"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1003850-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12926" type="Person">
+			<semanticIdentifier>lattes::7240386704593891</semanticIdentifier>
+			<field name="identifier.lattes" value="7240386704593891"/>
+			<field name="name" value="Hae Yong Kim"/>
+		</entity>
+		<entity ref="OrgUnit10068" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit10069" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18655" toEntityRef="Person12926" type="Inventor"/>
+		<relation fromEntityRef="Patent18655" toEntityRef="OrgUnit10068" type="Applicant"/>
+		<relation fromEntityRef="Patent18655" toEntityRef="OrgUnit10069" type="Applicant"/>
+	</relations>
+</entity-relation-data>

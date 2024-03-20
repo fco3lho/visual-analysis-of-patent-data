@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:29" record="45595" source="Espacenet">
+	<entities>
+		<entity ref="Patent45595" type="Patent">
+			<semanticIdentifier>brcris::4b057d5ccbd61c6f55b1a8c310b4c484</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0101036A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0101036</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0101036A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010101036</semanticIdentifier>
+			<semanticIdentifier>original::0101036-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0101036"/>
+			<field name="identifier.lattes" value="3123848470517021"/>
+			<field name="identifier.espacenet" value="0101036"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Medidor para determinação e avaliação de deformação de veìculos automotores"/>
+			<field name="title.lattes" value="MEDIDOR PARA DETERMINAÇÃO E AVALIAÇÃO DE DEFORMAÇÃO DE VEÍCULOS AUTOMOTORES"/>
+			<field name="depositDate" value="2001-03-08"/>
+			<field name="publicationDate" value="2003-02-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="WALTER XANTHOPULO"/>
+			<field name="inventor" value="WEBER MARTINS"/>
+			<field name="applicant" value="WALTER XANTHOPULO"/>
+			<field name="applicant" value="WEBER MARTINS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B7/008AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="008AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MEDIDOR PARA DETERMINAçãO E AVALIAçãO DE DEFORMAçãO DE VEìCULOS AUTOMOTORES&quot;. Refere-se a presente invenção de um medidor lógico programável para ser aplicado na determinação da deformação de um automóvel. A deformação deve ser determinada de forma automatizada primeiramente através de imagens de um automóvel novo, nunca acidentado. Um medidor lógico programável é constituído por algumas rotinas, e uma destas rotinas carrega a imagem do veículo novo, nunca acidentado. Com a imagem disponível no vídeo, o operador pode clicar ao longo do eixo, ou linha ou aresta a ser estudada no auxílio à determinação da deformação, produzindo uma sucessão de pontos e formando um conjunto de pontos computados em planos formados por eixos cartesianos, que serão a entrada de dados para o processamento, permitindo descrever o eixo, ou linha ou aresta a ser estudada. Com a processamento de pontos assim conseguidos, o medidor lógico programável permite duas utilizações básicas uma no modo não-gráfico e uma no modo gráfico. 1) No modo não-gráfico, tais pontos são processados por uma rotina automatizada. Esta rotina computa uma regressão estatística, de modo a encontrar os coeficientes de uma equação matemática que permite descrever o eixo, ou linha ou aresta em um plano cartesiano. Uma sub-rotina permite mostrar na tela o resultado do processamento, e imprimir os coeficientes, e o desenho do eixo, ou linha ou aresta assim processados. 2) No modo gráfico, tais pontos são processados por uma outra rotina automatizada. Esta rotina permite computar o eixo, ou linha ou aresta e mostrar na tela o resultado do processamento. Uma sub-rotina permite imprimir o desenho do eixo, ou linha ou aresta assim processados. Com o medidor lógico programável acima construído. Deve-se comparar visualmente, ou matematicamente, as curvas denotativos do estado do automóvel de dois automóveis de mesmo ano/modelo e pode-se determinar a diferença entre os dois e pode-se avaliar a deformação do outro automóvel, seja este veículo um veículo acidentado ou não."/>
+			<field name="originatesFrom" value="3946907"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0101036"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0101036"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0101036"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010101036"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0101036-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31176" type="Person">
+			<semanticIdentifier>lattes::3123848470517021</semanticIdentifier>
+			<field name="identifier.lattes" value="3123848470517021"/>
+			<field name="name" value="Weber Martins"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45595" toEntityRef="Person31176" type="Inventor"/>
+		<relation fromEntityRef="Patent45595" toEntityRef="Person31176" type="Depositor"/>
+	</relations>
+</entity-relation-data>

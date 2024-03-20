@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:26" record="1940" source="Espacenet">
+	<entities>
+		<entity ref="Patent1940" type="Patent">
+			<semanticIdentifier>brcris::90aa4690521fa4306486d1d1951fdb3c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400867A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0400867</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400867A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI00867</semanticIdentifier>
+			<semanticIdentifier>original::0400867-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0400867"/>
+			<field name="identifier.lattes" value="8401644850596835"/>
+			<field name="identifier.espacenet" value="PI0400867"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Espectrometria de espalhamento de raios x (eerx) associada a quimiometria"/>
+			<field name="title.lattes" value="ESPECTROMETRIA DE ESPALHAMENTO DE RAIOS X (EERX) ASSOCIADA A QUIMIOMETRIA"/>
+			<field name="depositDate" value="2004-03-02"/>
+			<field name="publicationDate" value="2005-11-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE MOREIRA DE SOUZA"/>
+			<field name="inventor" value="MARIA IZABEL MARETTI SILVEIRA BUENO"/>
+			<field name="inventor" value="MARTHA TERESA PANTOJA DE OLIVEIRA CASTRO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/201AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="201AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ESPECTROMETRIA DE ESPALHAMENTO DE RAIOS X (EERX) ASSOCIADA A QUIMIOMETRIA&quot;. A presente invenção refere-se ao desenvolvimento, otimização e avaliação de um método de análise para substâncias orgânicas e inorgânicas, utilizando espalhamento de fontes de raios X, com resolução alcançada pela utilização de ferramentas quimiométricas. Nesse novo método, as amostras de natureza orgânica ou inorgânica são submetidas à radiação X. Os espectros obtidos são organizados sob a forma de matriz e os dados, quando multivariados são tratados utilizando quimiometria. Se não, utiliza-se tratamento univariado. Desta forma, podem ser obtidas informações tanto de natureza qualitativa quanto quantitativa. Este novo método denominado de Espectrometria de Espalhamento de Raios X (EERX) foi desenvolvido, otimizado e avaliado em duas aplicações analíticas. A primeira relacionada à classificação de amostras como padrões úteis em análise ambiental e de metabolismo animal e, a outra, relacionada com medição quantitativa da massa molar de polímeros naturais orgânicos."/>
+			<field name="originatesFrom" value="35295205"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400867"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0400867"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400867"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI00867"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0400867-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1458" type="Person">
+			<semanticIdentifier>lattes::8401644850596835</semanticIdentifier>
+			<field name="identifier.lattes" value="8401644850596835"/>
+			<field name="name" value="Aline Moreira de Souza"/>
+		</entity>
+		<entity ref="OrgUnit1102" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1940" toEntityRef="Person1458" type="Inventor"/>
+		<relation fromEntityRef="Patent1940" toEntityRef="OrgUnit1102" type="Applicant"/>
+	</relations>
+</entity-relation-data>

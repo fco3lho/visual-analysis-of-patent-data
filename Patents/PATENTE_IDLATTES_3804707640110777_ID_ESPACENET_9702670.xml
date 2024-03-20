@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:19" record="34772" source="Espacenet">
+	<entities>
+		<entity ref="Patent34772" type="Patent">
+			<semanticIdentifier>brcris::1d6d7f058efb515004fb6002d35a5ece</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9702670A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9702670</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9702670A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979702670</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9702670"/>
+			<field name="identifier.lattes" value="3804707640110777"/>
+			<field name="identifier.espacenet" value="9702670"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Metodologia para monitorar regimes de operação em leitos de jorro através da analise espectral da transformada de fourier"/>
+			<field name="title.lattes" value="Patente CONCEDIDA junto ao INPI (9.702.670): Metodologia para monitorar regimes de operação em leitos de jorro através da analise espectral da transformada de Fourier."/>
+			<field name="depositDate" value="1997-09-03"/>
+			<field name="publicationDate" value="1999-04-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="OSVALDIR PEREIRA TARANTO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F15/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4067211"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9702670"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9702670"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9702670"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979702670"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23929" type="Person">
+			<semanticIdentifier>lattes::3804707640110777</semanticIdentifier>
+			<field name="identifier.lattes" value="3804707640110777"/>
+			<field name="name" value="Osvaldir Pereira Taranto"/>
+		</entity>
+		<entity ref="OrgUnit18762" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34772" toEntityRef="Person23929" type="Inventor"/>
+		<relation fromEntityRef="Patent34772" toEntityRef="OrgUnit18762" type="Applicant"/>
+	</relations>
+</entity-relation-data>

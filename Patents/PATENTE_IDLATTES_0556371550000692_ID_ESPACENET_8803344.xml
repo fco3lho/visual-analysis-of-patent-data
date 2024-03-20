@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:11" record="22230" source="Espacenet">
+	<entities>
+		<entity ref="Patent22230" type="Patent">
+			<semanticIdentifier>brcris::a6d74affb364adb40bca6c78574b9cec</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8803344A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8803344</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8803344A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888803344</semanticIdentifier>
+			<semanticIdentifier>original::8803344</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8803344"/>
+			<field name="identifier.lattes" value="0556371550000692"/>
+			<field name="identifier.espacenet" value="8803344"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="DISTRIBUIDOR DE GASES PARA REATORES DE LEITO FLUIDIZADO"/>
+			<field name="title.lattes" value="Processo CIGÁS - Gaseificação visando produzir Gás de Síntese."/>
+			<field name="depositDate" value="1988-06-30"/>
+			<field name="publicationDate" value="1988-11-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EURICO MOREIRA SCHROEDER"/>
+			<field name="inventor" value="JORGE LUIZ CASTELLAN"/>
+			<field name="inventor" value="JOSE CARLOS CARVALHO DA CUNHA"/>
+			<field name="applicant" value="FUNDACAO DE CIENCIA E TECNOLOGIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10J3/56AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="56AI"/>
+			</field>
+			<field name="originatesFrom" value="4045110"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8803344"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8803344"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8803344"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888803344"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8803344"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15370" type="Person">
+			<semanticIdentifier>lattes::0556371550000692</semanticIdentifier>
+			<field name="identifier.lattes" value="0556371550000692"/>
+			<field name="name" value="Jorge Luiz Castellan"/>
+		</entity>
+		<entity ref="OrgUnit11956" type="OrgUnit">
+			<semanticIdentifier>brcris::15ab2119d04f2c8af3c5d2995943e111</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE CIENCIA E TECNOLOGIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22230" toEntityRef="Person15370" type="Inventor"/>
+		<relation fromEntityRef="Patent22230" toEntityRef="OrgUnit11956" type="Applicant"/>
+	</relations>
+</entity-relation-data>

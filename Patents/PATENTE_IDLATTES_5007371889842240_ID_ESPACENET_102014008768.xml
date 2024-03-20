@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:04" record="30336" source="Espacenet">
+	<entities>
+		<entity ref="Patent30336" type="Patent">
+			<semanticIdentifier>brcris::604272bb920618b17aa5fe165d7b050f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014008768A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014008768</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014008768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141008768</semanticIdentifier>
+			<semanticIdentifier>original::102014008768</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014008768"/>
+			<field name="identifier.lattes" value="5007371889842240"/>
+			<field name="identifier.espacenet" value="102014008768"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de encapsulação por emulsão tipo espuma"/>
+			<field name="title.lattes" value="Processo de encapsulação por emulsão tipo espuma"/>
+			<field name="depositDate" value="2014-04-11"/>
+			<field name="publicationDate" value="2015-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AFONSO MOTA RAMOS"/>
+			<field name="inventor" value="MARCOS ROBERTO MOACIR RIBEIRO PINTO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS (FAPEMIG)"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K9/48AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/11AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="11AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C08B30/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C08J3/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de encapsulação por emulsão tipo espuma. a presente invenção trata-se de um método de encapsulamento tanto de compostos hidrofilicos quanto lipofilicos. para o encapsulamento de estruturas hidrofílicas é aplicada a emulsão tipo espuma seguida por secagem. para encapsulamentos de estruturas lipofílicas, deve ser aplicada simultaneamente emulsão líquida e emulsão tipo espuma. neste caso, uma emulsão liquida o/a é utilizada para a formação de microgotas de fitoquimico(s) hidrofôbico(s) e solidificação das mesmas por incorporação de ar na emulsão, obtendo-se um sistema coloidal constituído de matriz encapsulante, microgotas de fitoquímico(s) e bolhas de ar (emulsão tipo espuma), seguido por secagem e obtenção de um produto em pó."/>
+			<field name="originatesFrom" value="54837640"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014008768"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014008768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014008768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141008768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014008768"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20811" type="Person">
+			<semanticIdentifier>lattes::5007371889842240</semanticIdentifier>
+			<field name="identifier.lattes" value="5007371889842240"/>
+			<field name="name" value="Marcos Roberto Moacir Ribeiro Pinto"/>
+		</entity>
+		<entity ref="OrgUnit16268" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30336" toEntityRef="Person20811" type="Inventor"/>
+		<relation fromEntityRef="Patent30336" toEntityRef="OrgUnit16268" type="Applicant"/>
+	</relations>
+</entity-relation-data>

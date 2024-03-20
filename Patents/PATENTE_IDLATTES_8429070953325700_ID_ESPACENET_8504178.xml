@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:22" record="15232" source="Espacenet">
+	<entities>
+		<entity ref="Patent15232" type="Patent">
+			<semanticIdentifier>brcris::35fe7a846a2d367a74c2463e7d334f8b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8504178A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8504178</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8504178A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19858504178</semanticIdentifier>
+			<semanticIdentifier>original::8504178</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8504178"/>
+			<field name="identifier.lattes" value="8429070953325700"/>
+			<field name="identifier.espacenet" value="8504178"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="APARELHAGEM PARA SECAGEM E ARMAZENAMENTO DE MATERIAIS BIOLOGICOS"/>
+			<field name="title.lattes" value="Aparelhagem para Secagem e Armazenamento de Materiais Biológicos"/>
+			<field name="depositDate" value="1985-08-29"/>
+			<field name="publicationDate" value="1987-04-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO TUCUDUVA GREGORI"/>
+			<field name="inventor" value="ARGEMIRO DE CASTRO VILLACA"/>
+			<field name="inventor" value="CELSO COSTA LOPES"/>
+			<field name="inventor" value="CHAW SHAN-HUA"/>
+			<field name="inventor" value="FELIX EMILIO PRADO CORNEJO"/>
+			<field name="inventor" value="JOSE TADEU JORGE"/>
+			<field name="inventor" value="KIL JIN PARK"/>
+			<field name="inventor" value="RICARDO WAGNER"/>
+			<field name="inventor" value="RONALDO SOARES DE ANDRADE"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F26B3/28AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="26"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="originatesFrom" value="4038472"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8504178"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8504178"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8504178"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19858504178"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8504178"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10567" type="Person">
+			<semanticIdentifier>lattes::8429070953325700</semanticIdentifier>
+			<field name="identifier.lattes" value="8429070953325700"/>
+			<field name="name" value="Felix Emilio Prado Cornejo"/>
+		</entity>
+		<entity ref="OrgUnit8246" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+		<entity ref="OrgUnit8247" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="OrgUnit8248" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15232" toEntityRef="Person10567" type="Inventor"/>
+		<relation fromEntityRef="Patent15232" toEntityRef="OrgUnit8246" type="Applicant"/>
+		<relation fromEntityRef="Patent15232" toEntityRef="OrgUnit8247" type="Applicant"/>
+		<relation fromEntityRef="Patent15232" toEntityRef="OrgUnit8248" type="Applicant"/>
+	</relations>
+</entity-relation-data>

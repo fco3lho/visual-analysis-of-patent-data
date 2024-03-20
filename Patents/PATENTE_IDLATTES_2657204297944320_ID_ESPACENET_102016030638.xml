@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:59" record="29455" source="Espacenet">
+	<entities>
+		<entity ref="Patent29455" type="Patent">
+			<semanticIdentifier>brcris::25d7b56ca60db0fda763a0cfe8adde00</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016030638A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016030638</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016030638A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161030638</semanticIdentifier>
+			<semanticIdentifier>original::102016030638</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016030638"/>
+			<field name="identifier.lattes" value="2657204297944320"/>
+			<field name="identifier.espacenet" value="102016030638"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="freio elétrico regenerativo utilizando ultracapacitores"/>
+			<field name="title.lattes" value="Freio Elétrico Regenerativo Utilizando Ultracapacitores (BR 10 2016 030638 8)."/>
+			<field name="depositDate" value="2016-12-27"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCIO ABUD MARCELINO"/>
+			<field name="applicant" value="MARCIO ABUD MARCELINO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B60L7/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B60L7/20AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B60T13/74AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="74AI"/>
+			</field>
+			<field name="abstract.espacenet" value="patente de invenção de um sistema de frenagem utilizado em veículos com tração elétrica (2) ou híbridos, em que a energia elétrica regenerada durante a frenagem é armazenada inicialmente em um banco de ultracapacitores (6) e, depois, mais lentamente, essa energia é transferida para o barramento de alimentação do veículo, evitando assim a necessidade de transformação de parte da energia de frenagem em dissipação por efeito joule, podendo essa energia ser usada na tração (2) do veículo ou para carregamento da bateria (1), aumentando a autonomia do veículo já que aproveita quase que totalmente a energia regenerada. utiliza dois conversores de tensão, um abaixador (4) e outro aumentador (5), para adaptação da tensão da bateria às tensões do ultracapacitor (6), de acordo com a curva característica do mesmo, sendo que, de forma inteligente, os conversores realizam respectivamente as funções de carga, nas desacelerações, e de descarga, em outras situações que não as de desacelerações. para isso o sistema contem um pedal de aceleração construído como na maioria dos veículos atuais, acoplado a um potenciômetro (13), com uma mola de retorno com constante de elasticidade bem pequena, evitando desacelerações bruscas, o que equivalem à frenagens indesejáveis podendo colocar o veículo em risco de acidentes; e um pedal de freio construído da mesma forma, com um potenciômetro acoplado (14), porém com uma mola normal de retorno, de forma que até 50% da escursão do pedal de freio, apenas o potenciômetro de desaceleração é acionado, distinguindo níveis de desacelerações que variam de um valor mínimo a um valor máximo e, a partir dessa escursão, o sistema de freio mecânico é acionado continuamente; tudo isso realizado por uma lógica inteligente que determine prioridade para o pedal de freio (14), ou de desaceleração, na atuação do inversor (3), priorizando a regeneração da energia em detrimento a qualquer dissipação por atrito."/>
+			<field name="originatesFrom" value="62954619"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016030638"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016030638"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016030638"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161030638"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016030638"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20246" type="Person">
+			<semanticIdentifier>lattes::2657204297944320</semanticIdentifier>
+			<field name="identifier.lattes" value="2657204297944320"/>
+			<field name="name" value="Márcio Abud Marcelino"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29455" toEntityRef="Person20246" type="Inventor"/>
+		<relation fromEntityRef="Patent29455" toEntityRef="Person20246" type="Depositor"/>
+	</relations>
+</entity-relation-data>

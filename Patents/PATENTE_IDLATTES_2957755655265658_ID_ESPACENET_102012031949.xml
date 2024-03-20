@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:49" record="17653" source="Espacenet">
+	<entities>
+		<entity ref="Patent17653" type="Patent">
+			<semanticIdentifier>brcris::bcd0f2d38b6e62e97f1aea74a875e079</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012031949A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012031949</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012031949A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121031949</semanticIdentifier>
+			<semanticIdentifier>original::102012031949</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012031949"/>
+			<field name="identifier.lattes" value="2957755655265658"/>
+			<field name="identifier.espacenet" value="102012031949"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para determinação do comprimento de arcos elétricos"/>
+			<field name="title.lattes" value="MÉTODO PARA DETERMINAÇÃO DO COMPRIMENTO DE ARCOS ELÉTRICOS"/>
+			<field name="depositDate" value="2012-12-14"/>
+			<field name="publicationDate" value="2015-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GILMARIO BARBOSA DOS SANTOS"/>
+			<field name="inventor" value="MARIA CRISTINA DIAS TAVARES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B21/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T15/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para determinação do comprimento de arcos elétricos. o presente pedido de patente de invenção refere-se a um método de determinação do comprimento de arcos elétricos tendo como base o modelo snake-3d. a determinação do comprimento de arcos elétricos possui aplicação na caracterização e rastreio de descargas elétricas naturais ou geradas artificialmente. as descargas elétricas naturais provocam falhas na rede de transmissão de energia e tais falhas são tradicionalmente corrigidas pelo desligamento/religamento de todas as fases envolvidas, o que interrompe todo o fornecimento de energia. a alternativa é desligar/religar apenas a fase afetada pela falha e com isso manter as outras fases ligadas e operacionais alimentando a rede. essa estratégia mitiga o impacto da falha, porém propicia o surgimento do arco secundário que deve ser analisado em suas características, dentre elas a variação do seu comprimento, o que é feito pela abordagem proposta."/>
+			<field name="originatesFrom" value="54543546"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012031949"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012031949"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012031949"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121031949"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012031949"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12226" type="Person">
+			<semanticIdentifier>lattes::2957755655265658</semanticIdentifier>
+			<field name="identifier.lattes" value="2957755655265658"/>
+			<field name="name" value="Gilmario Barbosa dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit9550" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17653" toEntityRef="Person12226" type="Inventor"/>
+		<relation fromEntityRef="Patent17653" toEntityRef="OrgUnit9550" type="Applicant"/>
+	</relations>
+</entity-relation-data>

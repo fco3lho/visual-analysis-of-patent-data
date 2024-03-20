@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:37" record="28607" source="Espacenet">
+	<entities>
+		<entity ref="Patent28607" type="Patent">
+			<semanticIdentifier>brcris::ccacea601225ae37fda8cf1a9310e680</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018077400A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018077400</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018077400A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181077400</semanticIdentifier>
+			<semanticIdentifier>original::102018077400</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018077400"/>
+			<field name="identifier.lattes" value="2140285341359128"/>
+			<field name="identifier.espacenet" value="102018077400"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="bancada automatizada com interface gráfica para ensaio de fadiga mecânica por flexão rotativa"/>
+			<field name="title.lattes" value="BANCADA AUTOMATIZADA COM INTERFACE GRÁFICA PARA ENSAIO DE FADIGA MECÂNICA POR FLEXÃO ROTATIVA"/>
+			<field name="depositDate" value="2018-12-28"/>
+			<field name="publicationDate" value="2020-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE CARLOS DE LIMA JUNIOR"/>
+			<field name="inventor" value="JOSE GILSIVAN CARTAXO DA SILVA"/>
+			<field name="inventor" value="MARCELO CAVALCANTI RODRIGUES"/>
+			<field name="inventor" value="MATHEUS SANTOS MORAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N3/32AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção trata de uma bancada de baixo custo, compacta e didática com interface de controle da carga aplicada para ensaios de fadiga por flexão rotativa capaz de obter os gráficos de resistência versus número de ciclos. a aludida bancada automatizada também é dotada de uma interface gráfica, comunicação wifi e bluetooth e, ainda, proporciona realização de ensaios de amostras de materiais devido a amostra ser de tamanho menor que os demais."/>
+			<field name="originatesFrom" value="71451466"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018077400"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018077400"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018077400"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181077400"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018077400"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19784" type="Person">
+			<semanticIdentifier>lattes::2140285341359128</semanticIdentifier>
+			<field name="identifier.lattes" value="2140285341359128"/>
+			<field name="name" value="Marcelo Cavalcanti Rodrigues"/>
+		</entity>
+		<entity ref="OrgUnit15454" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28607" toEntityRef="Person19784" type="Inventor"/>
+		<relation fromEntityRef="Patent28607" toEntityRef="OrgUnit15454" type="Applicant"/>
+	</relations>
+</entity-relation-data>

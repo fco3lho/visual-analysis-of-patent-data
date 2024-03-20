@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:05" record="45486" source="Espacenet">
+	<entities>
+		<entity ref="Patent45486" type="Patent">
+			<semanticIdentifier>brcris::b150025ede7222f2974fdeb00fe83b6a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9403106A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9403106</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9403106A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949403106</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9403106"/>
+			<field name="identifier.lattes" value="9427896861246420"/>
+			<field name="identifier.espacenet" value="9403106"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Eletrodo de referência de eletrólito sólido"/>
+			<field name="title.lattes" value="Eletrodo de referência de eletrólito sólido"/>
+			<field name="depositDate" value="1994-07-29"/>
+			<field name="publicationDate" value="1996-06-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CASTINHEIRAS WILSON GIL"/>
+			<field name="inventor" value="DA COSTA JOSE CARLOS MOREIRA"/>
+			<field name="inventor" value="JOAO FRANCISCO RAMOS JUNIOR"/>
+			<field name="inventor" value="WALMAR BAPTISTA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="originatesFrom" value="4059426"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9403106"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9403106"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9403106"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949403106"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31075" type="Person">
+			<semanticIdentifier>lattes::9427896861246420</semanticIdentifier>
+			<field name="identifier.lattes" value="9427896861246420"/>
+			<field name="name" value="Walmar Baptista"/>
+		</entity>
+		<entity ref="OrgUnit24373" type="OrgUnit">
+			<semanticIdentifier>brcris::1dfb027b364337c698431f151cd6e54c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45486" toEntityRef="Person31075" type="Inventor"/>
+		<relation fromEntityRef="Patent45486" toEntityRef="OrgUnit24373" type="Applicant"/>
+	</relations>
+</entity-relation-data>

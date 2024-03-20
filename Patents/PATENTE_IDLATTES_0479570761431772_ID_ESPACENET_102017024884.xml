@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:01" record="2380" source="Espacenet">
+	<entities>
+		<entity ref="Patent2380" type="Patent">
+			<semanticIdentifier>brcris::28c2deb6cdc6c10d525b6c41bb1a1cea</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017024884A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017024884</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017024884A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171024884</semanticIdentifier>
+			<semanticIdentifier>original::102017024884</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017024884"/>
+			<field name="identifier.lattes" value="0479570761431772"/>
+			<field name="identifier.espacenet" value="102017024884"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de pigmento microbiano para aplicação no tingimento de fibras têxteis e papel"/>
+			<field name="title.lattes" value="Processo de produção de pigmento microbiano para aplicação no tingimento de fibras têxteis e papel"/>
+			<field name="depositDate" value="2017-11-21"/>
+			<field name="publicationDate" value="2019-06-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMANDA DE ARAUJO ALENCAR"/>
+			<field name="inventor" value="CARLOS ALBERTO ALVES DA SILVA"/>
+			<field name="inventor" value="GALBA MARIA DE CAMPOS TAKAKI"/>
+			<field name="inventor" value="ROSILEIDE FONTENELE DA SILVA ANDRADE"/>
+			<field name="applicant" value="UNIVERSIDADE CATOLICA DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09B61/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="61"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/66AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="66AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de pigmento microbiano para aplicação no tingimento de fibras têxteis e papel. a presente invenção refere-se a um processo de produção de pigmento violeta por fungo do gênero aspergillus em meio de cultivo contendo xilose e sais. foram realizados ensaios visando o tingimento de amostra de materiais têxteis e de papeis. assim, a invenção visa a aplicação de pigmento microbiano na produção de artigos diversos pela indústria."/>
+			<field name="originatesFrom" value="67260779"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017024884"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017024884"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017024884"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171024884"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017024884"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1717" type="Person">
+			<semanticIdentifier>lattes::0479570761431772</semanticIdentifier>
+			<field name="identifier.lattes" value="0479570761431772"/>
+			<field name="name" value="Amanda de Araújo Alencar"/>
+		</entity>
+		<entity ref="OrgUnit1322" type="OrgUnit">
+			<semanticIdentifier>brcris::0c8aa2662c88a08cb6fb69d462eec714</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE CATOLICA DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit1323" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2380" toEntityRef="Person1717" type="Inventor"/>
+		<relation fromEntityRef="Patent2380" toEntityRef="OrgUnit1322" type="Applicant"/>
+		<relation fromEntityRef="Patent2380" toEntityRef="OrgUnit1323" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:15" record="16739" source="Espacenet">
+	<entities>
+		<entity ref="Patent16739" type="Patent">
+			<semanticIdentifier>brcris::ed7f28ebbb55e7fab97a570e7ac46a95</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015024226A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015024226</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015024226A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151024226</semanticIdentifier>
+			<semanticIdentifier>original::102015024226</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015024226"/>
+			<field name="identifier.lattes" value="7901838276787191"/>
+			<field name="identifier.espacenet" value="102015024226"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="revestimento híbrido a base de precursores silanos aplicado sobre uma liga magnetoelástica utilizada como plataforma para biossensores de carregamento de massa"/>
+			<field name="title.lattes" value="Revestimento híbrido a base de precursores silanos aplicado sobre uma liga magnetoelástica utilizada como plataforma para biosensores de carregamento de massa"/>
+			<field name="depositDate" value="2015-09-21"/>
+			<field name="publicationDate" value="2017-03-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELIA DE FRAGA MALFATTI"/>
+			<field name="inventor" value="ELIENA JONKO BIRRIEL"/>
+			<field name="inventor" value="FRANK PATRICK MISSELL"/>
+			<field name="inventor" value="LILIAN VANESSA ROSSA BELTRAMI"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE CAXIAS DO SUL"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="revestimento híbrido a base de precursores silanos aplicado sobre uma liga magnetoelástica utilizada como plataforma para biossensores de carregamento de massa. a presente invenção descreve um revestimento híbrido formado por precursores alcoóxidos à silanos destinado a ser utilizado em biossensores para detecção de bactérias em meios líquidos, como soro fisiológico, leite, sucos, etc. a aplicação do revestimento sobre a superfície magnetoelástica forma um sistema protegido contra corrosão. o invento tem ampla utilização na área da saúde, biomédica, laboratorial e farmacêutica, bem como na área ambiental, para controle de microrganismos em solos, água e efluentes."/>
+			<field name="originatesFrom" value="58544437"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015024226"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015024226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015024226"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151024226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015024226"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11650" type="Person">
+			<semanticIdentifier>lattes::7901838276787191</semanticIdentifier>
+			<field name="identifier.lattes" value="7901838276787191"/>
+			<field name="name" value="Frank Patrick Missell"/>
+		</entity>
+		<entity ref="OrgUnit9135" type="OrgUnit">
+			<semanticIdentifier>brcris::6ed82f1798fa2598810b222b0ac27ff0</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE CAXIAS DO SUL"/>
+		</entity>
+		<entity ref="OrgUnit9136" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16739" toEntityRef="Person11650" type="Inventor"/>
+		<relation fromEntityRef="Patent16739" toEntityRef="OrgUnit9135" type="Applicant"/>
+		<relation fromEntityRef="Patent16739" toEntityRef="OrgUnit9136" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:37" record="40192" source="Espacenet">
+	<entities>
+		<entity ref="Patent40192" type="Patent">
+			<semanticIdentifier>brcris::3a6926a601c01766281d00fcaa605223</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002937A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1002937</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002937A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI02937</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1002937-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1002937"/>
+			<field name="identifier.lattes" value="3878202337087042"/>
+			<field name="identifier.espacenet" value="PI1002937"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para tratamento de águas contaminadas produzidas na indústria de petróleo"/>
+			<field name="title.lattes" value="Processo para tratamento de aguas produzidas na industria do petroleo"/>
+			<field name="depositDate" value="2010-08-06"/>
+			<field name="publicationDate" value="2012-04-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO EDUARDO MARTINELLI"/>
+			<field name="inventor" value="DULCE MARIA DE ARAUJO MELO"/>
+			<field name="inventor" value="MARCUS ANTONIO DE FREITAS MELO"/>
+			<field name="inventor" value="ROMERO GOMES DA SILVA ARAUJO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F1/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA TRATAMENTO DE áGUAS CONTAMINADAS PRODUZIDAS NA INDúSTRIA DE PETRóLEO. A presente invenção trata do desenvolvimento de materiais adsorventes naturais para remoção de compostos fenólicos em efluentes de águas produzidas na indústria do petróleo com a finalidade de diminuir a toxicídade desses efluentes e normalizar o teor de fenóis de acordo com a Resolução CONAMA 357 de descarte de efluentes. Utilizando materiais naturais, de baixo custo e de muita abundância no Brasil, o processo pode ser utilizado ainda para tratamento de efluentes de indústrias de diversos tipos quando utilizados de forma sequenciada."/>
+			<field name="originatesFrom" value="45936400"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002937"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1002937"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002937"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI02937"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1002937-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27390" type="Person">
+			<semanticIdentifier>lattes::3878202337087042</semanticIdentifier>
+			<field name="identifier.lattes" value="3878202337087042"/>
+			<field name="name" value="Romero Gomes da Silva Araujo"/>
+		</entity>
+		<entity ref="OrgUnit21409" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40192" toEntityRef="Person27390" type="Inventor"/>
+		<relation fromEntityRef="Patent40192" toEntityRef="OrgUnit21409" type="Applicant"/>
+	</relations>
+</entity-relation-data>

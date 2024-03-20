@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:36" record="9968" source="Espacenet">
+	<entities>
+		<entity ref="Patent9968" type="Patent">
+			<semanticIdentifier>brcris::9383c48d3c6a741981ef4ebfa24e1a4d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031989A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014031989</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031989A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141031989</semanticIdentifier>
+			<semanticIdentifier>original::102014031989</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014031989"/>
+			<field name="identifier.lattes" value="4121566773721400"/>
+			<field name="identifier.espacenet" value="102014031989"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para a contagem de frutos esféricos em condições operacionais de campo"/>
+			<field name="title.lattes" value="Sistema para contagem de frutos esféricos em condições operacionais de campo"/>
+			<field name="depositDate" value="2014-12-19"/>
+			<field name="publicationDate" value="2016-07-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL ALBIERO"/>
+			<field name="inventor" value="FRANCISCO JOSE FIRMINO CANAFISTULA"/>
+			<field name="inventor" value="FRANCISCO RODRIGO DE FREITAS LIMA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T7/60AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para a contagem de frutos esféricos em condições operacionais de campo esta patente trata-se de um modelo de utilidade relativo ao desenvolvimento de um sistema para a contagem de frutas esféricas. esta é constituída de um controlador digital (clp), cone convergente, três lâminas divisoras, armação tubular circular, apoio de suporte, bocal de exaustão de frutas, cinta circular, três sensores fotoelétrico, aro circular do exaustor de frutas e por trés transmissores de ondas eletromagnéticas. para a realização de suas atividades este equipamento é alimentado por energia elétrica, a contagem do fruto se dá através de sensores fotoelétricos que transmitem pulsos elétricos, ocasionado pela interrupção de sua onda eletromagnética pelos frutos, percorrendo até o clp através da ?ação presente em cada sensor. chegando no clp o pulso elétrico é convertido em sinal analógico, contabilizando a quantidade de frutos naquele exato momento, podendo ser visto através do display que este equipamento possui ou ser transferido para um sistema de aquisição de dados ou controle, maximização o desempenho na tarefa de contar frutos."/>
+			<field name="originatesFrom" value="56406648"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031989"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014031989"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031989"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141031989"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014031989"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6837" type="Person">
+			<semanticIdentifier>lattes::4121566773721400</semanticIdentifier>
+			<field name="identifier.lattes" value="4121566773721400"/>
+			<field name="name" value="Daniel Albiero"/>
+		</entity>
+		<entity ref="OrgUnit5409" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9968" toEntityRef="Person6837" type="Inventor"/>
+		<relation fromEntityRef="Patent9968" toEntityRef="OrgUnit5409" type="Applicant"/>
+	</relations>
+</entity-relation-data>

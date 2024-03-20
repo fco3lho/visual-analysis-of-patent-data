@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:05" record="2419" source="Espacenet">
+	<entities>
+		<entity ref="Patent2419" type="Patent">
+			<semanticIdentifier>brcris::1b63978d822d71c9069b54dda00e1e94</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403075A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0403075</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403075A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI03075</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0403075-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0403075"/>
+			<field name="identifier.lattes" value="2596208575988761"/>
+			<field name="identifier.espacenet" value="PI0403075"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="biomassa superparamagnética e processo de obtenção"/>
+			<field name="title.lattes" value="BAGAÇO HIDROFÓBICO COMO ADSORVENTE DE COMPOSTOS ORGÂNICOS E PROCESSO DE OBTENÇÃO"/>
+			<field name="depositDate" value="2004-07-26"/>
+			<field name="publicationDate" value="2006-08-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMANDA PONGELUPPE GUALBERTO DE SOUZA"/>
+			<field name="inventor" value="MARCELO HAMAGUCHI"/>
+			<field name="inventor" value="MITIKO YAMAURA"/>
+			<field name="inventor" value="RUTH LUQUEZE CAMILO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09K3/32AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;BIOMASSA SUPERPARAMAGNéTICA E PROCESSO DE OBTENçãO&quot;. A presente invenção refere-se a uma biomassa combinada com nanopartículas superparamagnéticas e ao processo de preparação e obtenção da biomassa superparamagnética com aplicação em meio ambiente. O material pode ser usado para diminuir os danos ambientais provocados por acidentes com derrame ou vazamento de petróleo na água do mar. O produto dessa invenção com as características oleofílica e superparamagnética é capaz de adsorver o petróleo em sua forma bruta e seus derivados e é possível realizar a sua retirada do meio aquoso/sólido por técnica de separação magnética. é um produto de baixo custo, atóxico, biodegradável, apresenta densidade menor do que da água e tem capacidade de adsorção da ordem de 7 a 8 vezes o seu peso em óleo."/>
+			<field name="originatesFrom" value="36762930"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403075"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0403075"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403075"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI03075"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0403075-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1749" type="Person">
+			<semanticIdentifier>lattes::2596208575988761</semanticIdentifier>
+			<field name="identifier.lattes" value="2596208575988761"/>
+			<field name="name" value="Amanda Pongeluppe Gualberto Yamamura"/>
+		</entity>
+		<entity ref="OrgUnit1361" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit1362" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2419" toEntityRef="Person1749" type="Inventor"/>
+		<relation fromEntityRef="Patent2419" toEntityRef="OrgUnit1361" type="Applicant"/>
+		<relation fromEntityRef="Patent2419" toEntityRef="OrgUnit1362" type="Applicant"/>
+	</relations>
+</entity-relation-data>

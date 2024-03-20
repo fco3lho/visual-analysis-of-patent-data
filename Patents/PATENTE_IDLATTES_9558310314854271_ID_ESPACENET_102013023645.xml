@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:41" record="988" source="Espacenet">
+	<entities>
+		<entity ref="Patent988" type="Patent">
+			<semanticIdentifier>brcris::2d1c546f455953ac653612bf626080ef</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013023645A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013023645</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013023645A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131023645</semanticIdentifier>
+			<semanticIdentifier>original::102013023645</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013023645"/>
+			<field name="identifier.lattes" value="9558310314854271"/>
+			<field name="identifier.espacenet" value="102013023645"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="régua codificada para padronização de imagens"/>
+			<field name="title.lattes" value="Régua Codificada para Padronização de Imagens"/>
+			<field name="depositDate" value="2013-09-16"/>
+			<field name="publicationDate" value="2016-03-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALAN SALVANY FELINTO"/>
+			<field name="inventor" value="SYLVIO BARBON JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="régua codificada para padronização de imagens. a presente invenção atua como uma ferramenta para normalização de cores com propriedades para identificação com unidade e limites de medida ajustáveis, como uma régua. também é possível acrescentar informações diversas no formato qrcode embarcado no corpo da ferramenta."/>
+			<field name="originatesFrom" value="55587606"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013023645"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013023645"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013023645"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131023645"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013023645"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person718" type="Person">
+			<semanticIdentifier>lattes::9558310314854271</semanticIdentifier>
+			<field name="identifier.lattes" value="9558310314854271"/>
+			<field name="name" value="Alan Salvany Felinto"/>
+		</entity>
+		<entity ref="OrgUnit571" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent988" toEntityRef="Person718" type="Inventor"/>
+		<relation fromEntityRef="Patent988" toEntityRef="OrgUnit571" type="Applicant"/>
+	</relations>
+</entity-relation-data>

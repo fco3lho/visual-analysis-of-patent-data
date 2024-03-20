@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:14" record="36970" source="Espacenet">
+	<entities>
+		<entity ref="Patent36970" type="Patent">
+			<semanticIdentifier>brcris::c6b5c2270168234838cf7f850ca379c2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013003266A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013003266</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013003266A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131003266</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 003266-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013003266"/>
+			<field name="identifier.lattes" value="3196088341529197"/>
+			<field name="identifier.espacenet" value="102013003266"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE DETECÇÃO CEGA E AUTOMÁTICA DE FRAUDES EM INDICADORES MODELADOS COMO SÉRIES TEMPORAIS USANDO TÉCNICAS DE ANÁLISE PREDITIVA"/>
+			<field name="title.lattes" value="SISTEMA DE DETECÇÃO CEGA E AUTOMÁTICA DE FRAUDES EM INDICADORES MODELADOS COMO SÉRIES TEMPORAIS USANDO TÉCNICAS DE ANALISE PREDITIVA"/>
+			<field name="depositDate" value="2013-02-08"/>
+			<field name="publicationDate" value="2014-12-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO MANUEL RUBIO SERRANO"/>
+			<field name="inventor" value="JOAO PAULO CARVALHO LUSTOSA DA COSTA"/>
+			<field name="inventor" value="RAFAEL TIMOTEO DE SOUSA JUNIOR"/>
+			<field name="applicant" value="ANTONIO MANUEL RUBIO SERRANO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06N20/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISITEMA DE DETECÇÃOCEGA E AUTOMÁTICA DE FRAUDES EM INDICADORES MODELADOS COMO SÉRIE TEMPORAIS USANDO TÉCNICAS DE ANÁLISE PREDITIVA. A presente patente de invenção, de caráter inovador e inédito, tem por finalidade detectar automaticamente (sem intervenção humana) indícios de irregulares em séries temporais de forma cega, isto é, sem informações sobre ataques anteriores. Este sistema se baseia no uso de algoritmos de predição para estimar os valores futuros de uma série temporal. Uma vez que os valores futuros sejam estimados, estes serão usados como referência de comportamento padrão ou regular. Este resultado será comparado com o valor real dos dados obtidos no final do período de estudo de forma que, se as duas series foram similares considera-se o comportamento como normal e se as duas series apresentam resultados diferentes considera-se que os valores reais contém indícios de fraude. Para realizar a comparação entre as duas séries temporais propõe-se o uso de dois indicadores: o Erro Quadrático Médio Normalizado (NRMSE) e o Coeficiente de Determinação (COD). O sistema proposto, ao realizar a predição dos dados e comparar essa predição com os valores reais, será capaz de determinanar se a série temporal analisada deve ser estudada e revisada por conter indícios de fraude. Este sistema pode ser utilizado como único mecanismo detector de fraude o de forma complementária com outros sistemas de controle e auditoria"/>
+			<field name="originatesFrom" value="52130976"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013003266"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013003266"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013003266"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131003266"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 003266-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25465" type="Person">
+			<semanticIdentifier>lattes::3196088341529197</semanticIdentifier>
+			<field name="identifier.lattes" value="3196088341529197"/>
+			<field name="name" value="Rafael Timóteo de Sousa Jr"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36970" toEntityRef="Person25465" type="Inventor"/>
+	</relations>
+</entity-relation-data>

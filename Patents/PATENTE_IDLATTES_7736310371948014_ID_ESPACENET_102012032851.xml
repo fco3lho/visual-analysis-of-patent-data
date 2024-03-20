@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:51" record="30245" source="Espacenet">
+	<entities>
+		<entity ref="Patent30245" type="Patent">
+			<semanticIdentifier>brcris::f6ce11dbcf32c8648184b45cb2a18072</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032851A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032851</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032851A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032851</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 032851-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032851"/>
+			<field name="identifier.lattes" value="7736310371948014"/>
+			<field name="identifier.espacenet" value="102012032851"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO PARA SEPARAÇÃO E/OU PURIFICAÇÃO DO BIODIESEL USANDO DIÓXIDO DE CARBONO PRESSURIZADO"/>
+			<field name="title.lattes" value="Processo para separação e/ou purificação do biodiesel usando dioxido de carbono pressurizado"/>
+			<field name="depositDate" value="2012-12-21"/>
+			<field name="publicationDate" value="2014-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXIS MIGUEL"/>
+			<field name="inventor" value="CLAUDINEY SOARES CORDEIRO"/>
+			<field name="inventor" value="LUIZ PEREIRA RAMOS"/>
+			<field name="inventor" value="MARCELO KAMINSKI LENZI"/>
+			<field name="inventor" value="MARCOS LUCIO CORAZZA"/>
+			<field name="inventor" value="PAPA MATAR NDIAYE"/>
+			<field name="inventor" value="PEDRO PAULO TOPANOTE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10G3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C10L1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA SEPARAÇÃO E/OU PURIFICAÇÃO DO BIODIESEL USANDO DIÓXIDO DE CARBONO PRESSURIZADO. A presente invenção trata de um processo para separação e/ou purificação do biodiesel usando dióxido de carbono pressurizado. Pode ser aplicada em qualquer processo de produção de biodiesel usando qualquer fonte de matéria prima. O processo consiste em injetar CO2 10 a 50% de CO2 no sistema após a reação e aumentar a pressão do sistema numa faixa de 5 a 20 Mpa na temperatura ambiente. Duas fases se formam sendo a fase superior rica em biodiesel e álcool e a fase inferior formada por álcool, monoacilglicerol diacilglicerol, óleo não reagido, sais e glicerina. A remoção das fases pode ser feito por meio de um vaso de pressão equipado uma válvula de sentido único."/>
+			<field name="originatesFrom" value="50977434"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032851"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032851"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032851"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032851"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 032851-8"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2014094093"/>
+		</entity>
+		<entity ref="Person20741" type="Person">
+			<semanticIdentifier>lattes::7736310371948014</semanticIdentifier>
+			<field name="identifier.lattes" value="7736310371948014"/>
+			<field name="name" value="Marcos Lúcio Corazza"/>
+		</entity>
+		<entity ref="OrgUnit16211" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="Patent30246" type="Patent">
+			<semanticIdentifier>epodoc::WO2014094093</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="50977434"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2014094093"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30245" toEntityRef="Person20741" type="Inventor"/>
+		<relation fromEntityRef="Patent30245" toEntityRef="OrgUnit16211" type="Applicant"/>
+	</relations>
+</entity-relation-data>

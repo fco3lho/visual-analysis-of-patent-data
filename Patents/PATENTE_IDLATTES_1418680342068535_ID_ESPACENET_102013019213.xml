@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:05" record="1203" source="Espacenet">
+	<entities>
+		<entity ref="Patent1203" type="Patent">
+			<semanticIdentifier>brcris::5772a90e432a39634cfc232ab825293a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019213A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013019213</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019213A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131019213</semanticIdentifier>
+			<semanticIdentifier>original::102013019213</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013019213"/>
+			<field name="identifier.lattes" value="1418680342068535"/>
+			<field name="identifier.espacenet" value="102013019213"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composição sintética para criopreservação de sêmen; seu processo de preparação e uso"/>
+			<field name="title.lattes" value="Composição sintética para criopreservação de sêmen; seu processo de preparação e uso"/>
+			<field name="depositDate" value="2013-07-29"/>
+			<field name="publicationDate" value="2015-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRA APARECIDA VIREQUE"/>
+			<field name="inventor" value="MARILDA HATSUMI YAMADA DANTAS"/>
+			<field name="inventor" value="OSWALDO FELIPE LEMOS ORTIZ DA SILVA"/>
+			<field name="inventor" value="ROSANA MARIA DOS REIS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N1/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K35/52AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="52AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composição sintética para criopreservação de sêmen; seu processo de preparação e uso. a presente invenção trata de composição sintética para criopreservação de sêmen que compreende um regulador de osmolaridade um lipídio; um diluente; e, excipientes; seu processo de preparação e uso"/>
+			<field name="originatesFrom" value="54548403"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019213"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013019213"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019213"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131019213"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013019213"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person892" type="Person">
+			<semanticIdentifier>lattes::1418680342068535</semanticIdentifier>
+			<field name="identifier.lattes" value="1418680342068535"/>
+			<field name="name" value="Alessandra Aparecida Vireque"/>
+		</entity>
+		<entity ref="OrgUnit706" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1203" toEntityRef="Person892" type="Inventor"/>
+		<relation fromEntityRef="Patent1203" toEntityRef="OrgUnit706" type="Applicant"/>
+	</relations>
+</entity-relation-data>

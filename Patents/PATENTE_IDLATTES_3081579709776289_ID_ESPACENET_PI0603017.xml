@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:33" record="34288" source="Espacenet">
+	<entities>
+		<entity ref="Patent34288" type="Patent">
+			<semanticIdentifier>brcris::538ae036cea15273722e4bbb36fc66ad</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603017A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0603017</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603017A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI03017</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0603017-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0603017"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="PI0603017"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema e método de extração de petróleo em águas profundas"/>
+			<field name="title.lattes" value="Sistema e Método de Extração de Petróleo em Águas Profundas"/>
+			<field name="depositDate" value="2006-07-28"/>
+			<field name="publicationDate" value="2008-03-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FRANCISCO FONTES LIMA NETO"/>
+			<field name="inventor" value="JOSE EDUARDO DE OLIVEIRA"/>
+			<field name="inventor" value="MAURICIO CARVALHOS DOS SANTOS"/>
+			<field name="inventor" value="NEY ROBINSON SALVI DOS REIS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA E MéTODO DE EXTRAçãO DE PETRõLEO EM áGUAS PROFUNDAS Refere-se a presente invenção a um sistema continuo de produção de petróleo que tem por enfoque um método que objetiva o aproveitamento do princípio físico inerente a diferença de densidades entre 2 fluidos, em vista do processo de produção de petróleo em águas profundas. Permite a produção de poços atualmente considerados inviáveis, como também visa prover um novo conceito de exploração de petróleo em águas profundas e ultraprofundas com grande redução de custos."/>
+			<field name="originatesFrom" value="39181846"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603017"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0603017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603017"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI03017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0603017-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23589" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18491" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34288" toEntityRef="Person23589" type="Inventor"/>
+		<relation fromEntityRef="Patent34288" toEntityRef="OrgUnit18491" type="Applicant"/>
+	</relations>
+</entity-relation-data>

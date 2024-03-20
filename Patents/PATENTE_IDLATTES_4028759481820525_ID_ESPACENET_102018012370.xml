@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:06" record="16210" source="Espacenet">
+	<entities>
+		<entity ref="Patent16210" type="Patent">
+			<semanticIdentifier>brcris::f846502f129c40b4cc2943d1cfa4090e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018012370A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018012370</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018012370A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181012370</semanticIdentifier>
+			<semanticIdentifier>original::102018012370</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018012370"/>
+			<field name="identifier.lattes" value="4028759481820525"/>
+			<field name="identifier.espacenet" value="102018012370"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="proteína recombinante quimérica, método e kit para diagnóstico da infecção causada por htlv-1 e/ou htlv-2, e usos"/>
+			<field name="title.lattes" value="PROTEÍNA RECOMBINANTE QUIMÉRICA, MÉTODO E KIT PARA DIAGNÓSTICO DA INFECÇÃO CAUSADA POR HTLV-1 E/OU HTLV-2, E USOS"/>
+			<field name="depositDate" value="2018-06-18"/>
+			<field name="publicationDate" value="2020-04-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDEL FIGUEIREDO BARBOSA STANCIOLI"/>
+			<field name="inventor" value="FLAVIO GUIMARAES DA FONSECA"/>
+			<field name="inventor" value="GABRIELA DE MELO FRANCO"/>
+			<field name="inventor" value="MARINA LOBATO MARINS DE OLIVEIRA"/>
+			<field name="applicant" value="FUNDACAO CENTRO DE HEMATOLOGIA E HEMOTERAPIA DO ESTADO DE MINAS GERAIS - HEMOMINAS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K14/095AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="095AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/569AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="569AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente tecnologia trata de uma proteína quimérica contendo epitopos das proteínas p19, gp46 e tax dos vírus htlv-1 e htlv-2, os quais são ligados por conectores flexíveis de aminoácidos. a presente tecnologia compreende também um método de diagnóstico de alta especificidade e sensibilidade, permitindo a detecção de resposta sorológica aos vírus htlv-1 e/ou htlv-2 em amostras fisiológicas de organismos infectados, sintomáticos e assintomáticos. a invenção também apresenta um kit diagnóstico e uso da proteína quimérica recombinante para diagnóstico da infeção causada por htlv 1 e/ou 2 e para o preparo de composições imunogênicas e biofármacos e como insumo para a produção de anticorpos policlonais e monoclonais."/>
+			<field name="originatesFrom" value="70547323"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018012370"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018012370"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018012370"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181012370"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018012370"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11235" type="Person">
+			<semanticIdentifier>lattes::4028759481820525</semanticIdentifier>
+			<field name="identifier.lattes" value="4028759481820525"/>
+			<field name="name" value="Flávio Guimarães da Fonseca"/>
+		</entity>
+		<entity ref="OrgUnit8802" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16210" toEntityRef="Person11235" type="Inventor"/>
+		<relation fromEntityRef="Patent16210" toEntityRef="OrgUnit8802" type="Applicant"/>
+	</relations>
+</entity-relation-data>

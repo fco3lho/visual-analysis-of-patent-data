@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:18:13" record="41064" source="Espacenet">
+	<entities>
+		<entity ref="Patent41064" type="Patent">
+			<semanticIdentifier>brcris::0073373b14ff5db5f7a0238c3dc79aa4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012006900A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012006900</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012006900A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121006900</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 006900-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012006900"/>
+			<field name="identifier.lattes" value="8120964167163666"/>
+			<field name="identifier.espacenet" value="102012006900"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE CONTROLE AUTOMÁTICO DE BOMBEIO CENTRÍFUGO SUBMERSO PARA POÇOS DE PETRÓLEO"/>
+			<field name="title.lattes" value="MÉTODO E SISTEMA DE CONTROLE AUTOMÁTICO DE BOMBEIO CENTRÍFUGO SUBMERSO PARA POÇOS DE PETRÓLEO"/>
+			<field name="depositDate" value="2012-03-28"/>
+			<field name="publicationDate" value="2013-11-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LAURINDO MAITELLI"/>
+			<field name="inventor" value="RUTACIO DE OLIVEIRA COSTA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F04D15/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E21B43/12AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE CONTROLE AUTOMÁTICO DE BOMBEIO CENTRÍFUGO SUBMERSO PARA POÇOS DE PETRÓLEO. A presente invençaõ refere-se a um sistema de controle automático de bombeio centrífuho submerso de petróleo por meio de ajuste de frequência de alimentação do motor elétrico da bomba, de modo a aprimorar a vazão produzida e proteger o sistema de bombeio quanto a condições operacionais que venham a comprometer a vida útil da bomba. o ajuste é implementado com base em uma lgoritmo de controle difuso, o qual emprega pelo menos seis atributos de entrada, e está programado para fornecer uma conduta para cada um dos cenários representativos que se espera ocorrer em um poço de petróleo, de modo a melhorar a produção de óleo, uma vez que o poço entra em regime no menor tempo possível, mantendo permanentemente as condições operacionais dentro de limites aceitáveis, garantindo a maior vida útil possível do equipamento, com produção máxima e custos operacionais mínimos."/>
+			<field name="originatesFrom" value="49624623"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012006900"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012006900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012006900"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121006900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 006900-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27930" type="Person">
+			<semanticIdentifier>lattes::8120964167163666</semanticIdentifier>
+			<field name="identifier.lattes" value="8120964167163666"/>
+			<field name="name" value="Rutácio de Oliveira Costa"/>
+		</entity>
+		<entity ref="OrgUnit21863" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41064" toEntityRef="Person27930" type="Inventor"/>
+		<relation fromEntityRef="Patent41064" toEntityRef="OrgUnit21863" type="Applicant"/>
+	</relations>
+</entity-relation-data>

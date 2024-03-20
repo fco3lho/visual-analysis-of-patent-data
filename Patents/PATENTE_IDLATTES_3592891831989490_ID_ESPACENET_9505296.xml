@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:35" record="28594" source="Espacenet">
+	<entities>
+		<entity ref="Patent28594" type="Patent">
+			<semanticIdentifier>brcris::f28cd6ffee96fbe71277b511467b41e9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9505296A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9505296</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9505296A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959505296</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9505296"/>
+			<field name="identifier.lattes" value="3592891831989490"/>
+			<field name="identifier.espacenet" value="9505296"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Gerenciador digital de telemedição"/>
+			<field name="title.lattes" value="Gerenciador Digital de Telemedição"/>
+			<field name="depositDate" value="1995-11-23"/>
+			<field name="publicationDate" value="1997-10-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARDOSO MARCELO CASCARDO"/>
+			<field name="applicant" value="FURNAS CENTRAIS ELETRICAS S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03M1/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="originatesFrom" value="4062860"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9505296"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9505296"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9505296"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959505296"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19773" type="Person">
+			<semanticIdentifier>lattes::3592891831989490</semanticIdentifier>
+			<field name="identifier.lattes" value="3592891831989490"/>
+			<field name="name" value="Marcelo Cascardo Cardoso"/>
+		</entity>
+		<entity ref="OrgUnit15449" type="OrgUnit">
+			<semanticIdentifier>brcris::94f061c3b585c6e51b44471aa72c7415</semanticIdentifier>
+			<field name="name" value="FURNAS CENTRAIS ELETRICAS S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28594" toEntityRef="Person19773" type="Inventor"/>
+		<relation fromEntityRef="Patent28594" toEntityRef="OrgUnit15449" type="Applicant"/>
+	</relations>
+</entity-relation-data>

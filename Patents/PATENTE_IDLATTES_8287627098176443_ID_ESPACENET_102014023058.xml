@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:01" record="6358" source="Espacenet">
+	<entities>
+		<entity ref="Patent6358" type="Patent">
+			<semanticIdentifier>brcris::7ffbbcbecd6cd3a208178cc2c0eb16d5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023058A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014023058</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023058A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141023058</semanticIdentifier>
+			<semanticIdentifier>original::102014023058</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014023058"/>
+			<field name="identifier.lattes" value="8287627098176443"/>
+			<field name="identifier.espacenet" value="102014023058"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="conversor tolerante a falhas com reconfiguração inteligente"/>
+			<field name="title.lattes" value="CONVERSOR TOLERANTE A FALHAS COM RECONFIGURAÇÃO INTELIGENTE"/>
+			<field name="depositDate" value="2014-09-17"/>
+			<field name="publicationDate" value="2016-08-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON VAGNER ROCHA"/>
+			<field name="inventor" value="BRAZ DE JESUS CARDOSO FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02H7/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02M1/32AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="conversor tolerante a falhas com reconfiguração inteligente. a presente invenção compreende um conversor de energia do tipo anpc, tolerante a múltiplas e sucessivas falhas. o dispositivo é constituído de módulos de potência padronizados, além de ser provido de um algoritmo capaz de rearranjar as funções dos componentes semicondutores presentes nos módulos de acordo com a situação da falha observada, utilizando a combinação de reconfiguração de hardware e alocação digital de sinais de comando . essas características, acrescidas de uma topologia especial, simples e com reduzido número de componentes, conferem à solução proposta um grande número de possibilidades de reconfigurações que permitem ao conversor maior tolerância a falhas de componentes dos módulos de potência, além de possibilitar o aproveitamento da estrutura pré-existente, utilizando componentes íntegros dos módulos de potência eventualmente afetados pela falha. a tecnologia aplica-se em sistemas elétricos que se utilizam de conversores de energia e cuja interrupção do serviço implica em grandes prejuízos. no conversor tolerante a falhas está implementado um algoritmo de distribuição de perdas (apenas possível na configuração anpc) que faz com que todas as chaves operem com níveis de estresse térmicos similares."/>
+			<field name="originatesFrom" value="56544705"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023058"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014023058"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023058"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141023058"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014023058"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4209" type="Person">
+			<semanticIdentifier>lattes::8287627098176443</semanticIdentifier>
+			<field name="identifier.lattes" value="8287627098176443"/>
+			<field name="name" value="Braz de Jesus Cardoso Filho"/>
+		</entity>
+		<entity ref="OrgUnit3280" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6358" toEntityRef="Person4209" type="Inventor"/>
+		<relation fromEntityRef="Patent6358" toEntityRef="OrgUnit3280" type="Applicant"/>
+	</relations>
+</entity-relation-data>

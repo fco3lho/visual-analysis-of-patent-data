@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:27" record="30013" source="Espacenet">
+	<entities>
+		<entity ref="Patent30013" type="Patent">
+			<semanticIdentifier>brcris::87bd682864796ee98baf91e6b5089487</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105804A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1105804</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105804A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI05804</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1105804</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1105804"/>
+			<field name="identifier.lattes" value="6457412713967642"/>
+			<field name="identifier.espacenet" value="PI1105804"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de síntese de ácidos pirazolil - nicotínicos e metil - ésteres derivados"/>
+			<field name="title.lattes" value="Processo de Síntese de Ácidos Pirazolil-nicotínicos e Metil-ésteres Derivados"/>
+			<field name="depositDate" value="2011-11-04"/>
+			<field name="publicationDate" value="2015-12-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GISELE ROCHA PAIM"/>
+			<field name="inventor" value="HELIO GAUZE BONACORSO"/>
+			<field name="inventor" value="MARCOS ANTONIO PINTO MARTINS"/>
+			<field name="inventor" value="NILO ZANATTA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D231/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="231"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de síntese de ácidos pirazolil-nicotínicos e metil-ésteres derivados. a presente invenção refere-se ao desenvolvimento de um método para a síntese de ácidos pirazolil-nicotínicos e metil-ésteres derivados. em particular, a invenção, refere-se ao tratamento de 2-[3-alquil/heteroaril)-5-hidróxi-5-trifluormetil-4 ,5-diidro-1h-pirazol-1-ii]-5-[3-alquil(aril/heteroaril)-5-hidróxi-5- trifluormetil-4,5-diidro-1h-pirazol-1 -il- 1 -carbonil]piridinas para produzir os ácidos pirazolil-nicotínicos, que posteriormente são esteriticados levando a obtenção dos respectivos metil-ésteres derivados."/>
+			<field name="originatesFrom" value="55082902"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105804"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1105804"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105804"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI05804"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1105804"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20618" type="Person">
+			<semanticIdentifier>lattes::6457412713967642</semanticIdentifier>
+			<field name="identifier.lattes" value="6457412713967642"/>
+			<field name="name" value="Marcos Antonio Pinto Martins"/>
+		</entity>
+		<entity ref="OrgUnit16132" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30013" toEntityRef="Person20618" type="Inventor"/>
+		<relation fromEntityRef="Patent30013" toEntityRef="OrgUnit16132" type="Applicant"/>
+	</relations>
+</entity-relation-data>

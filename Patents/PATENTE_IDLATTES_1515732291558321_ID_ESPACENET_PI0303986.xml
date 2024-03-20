@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:36" record="20473" source="Espacenet">
+	<entities>
+		<entity ref="Patent20473" type="Patent">
+			<semanticIdentifier>brcris::c812c10f18a4fb8885c0054fb97e86b1</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0303986B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0303986</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0303986A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2003PI03986</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0303986</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0303986"/>
+			<field name="identifier.lattes" value="1515732291558321"/>
+			<field name="identifier.espacenet" value="PI0303986"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="vibrômetro laser doppler rms"/>
+			<field name="title.lattes" value="Velocimetro laser Doppler rms"/>
+			<field name="depositDate" value="2003-10-10"/>
+			<field name="publicationDate" value="2020-01-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AGNALDO APARECIDO FRESCHI"/>
+			<field name="inventor" value="ANTONIO CARLOS DA COSTA TELLES"/>
+			<field name="inventor" value="JAIME FREJLICH"/>
+			<field name="inventor" value="JOSE ROBERTO DE FRANCA ARRUDA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01H9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;vibrômetro laser doppler rms&quot;. novo instrumento denominado vibrômetro laser doppler, destinado à medida da velocidade rms de um objeto em vibração. o instrumento, é composto de um interferômetro e um sistema eletrônico de processamento. onde o interferômetro está baseado na configuração de michelson, contendo nas extremidades dos braços ópticos, o objeto em estudo e uma placa estática cuja superfície contém um conjunto de microesferas. onde os feixes de luz refletidos pela placa e pelo objeto vibrante, interferem entre si e o sinal resultante alimenta o circuito eletrônico para amostragem da velocidade. onde o comprimento de um dos braços do interferômetro é ajustável para viabilizar o uso de um laser de diodo como fonte de luz. e onde o vibrômetro é composto de um interferômetro óptico e um circuito eletrônico destinado ao processamento do sinal óptico. de forma, que no interferômetro, um feixe laser é dividido por um semi-refletor em dois braços, contendo nas suas extremidades o objeto vibrante de interesse e um objeto estático coberto com uma tinta, ou por um adesivo, contendo microesferas, assim, os feixes de luz refletidos pelos objetos interferem entre si, e o padrão óptico resultante é endereçado ao sistema eletrônico para produção de uma tensão de saída proporcional à velocidade do objeto."/>
+			<field name="originatesFrom" value="69191557"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0303986"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0303986"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0303986"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2003PI03986"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0303986"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14205" type="Person">
+			<semanticIdentifier>lattes::1515732291558321</semanticIdentifier>
+			<field name="identifier.lattes" value="1515732291558321"/>
+			<field name="name" value="Jaime Frejlich"/>
+		</entity>
+		<entity ref="OrgUnit11118" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20473" toEntityRef="Person14205" type="Inventor"/>
+		<relation fromEntityRef="Patent20473" toEntityRef="OrgUnit11118" type="Applicant"/>
+	</relations>
+</entity-relation-data>

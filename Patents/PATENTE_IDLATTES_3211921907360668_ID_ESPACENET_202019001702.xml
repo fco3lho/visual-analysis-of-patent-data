@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:25" record="32248" source="Espacenet">
+	<entities>
+		<entity ref="Patent32248" type="Patent">
+			<semanticIdentifier>brcris::f529aaac99db15e3ebc659ed515b3ffa</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019001702U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019001702U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019001702U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192001702U</semanticIdentifier>
+			<semanticIdentifier>original::202019001702</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019001702"/>
+			<field name="identifier.lattes" value="3211921907360668"/>
+			<field name="identifier.espacenet" value="202019001702"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="transmissor de temperatura multicanal com comunicação modbus e controle discreto das temperaturas"/>
+			<field name="title.lattes" value="Transmissor de temperatura multicanalcom comunicação  RS485 ? MODBUS ? 8 Canais"/>
+			<field name="depositDate" value="2019-01-28"/>
+			<field name="publicationDate" value="2020-08-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS LEMOS JUNIOR"/>
+			<field name="inventor" value="MARIO SERGIO DA LUZ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO TRIANGULO MINEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02S50/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="transmissor de temperatura multicanal com comunicação modbus e controle discreto das temperaturas. o presente pedido se trata de um dispositivo eletrônico que concatena as funções de 1 ? monitoramento multicanal da temperatura, 2 ? controle discreto das temperaturas, 3 ? comunicação com dispositivo computacional e 4 ? comunicação com dispositivos de uso industrial. essas tecnologias, quando utilizadas simultaneamente, permitem que as temperaturas mensuras possam ser controladas de forma discreta pelo próprio dispositivo eletrônico ou mesmo serem enviadas para aplicativos de monitoramento como sistemas scada ou dispositivos industriais como clp. em linhas gerais, o modelo prevê conectores para sensores (1), (2), (3), (4), (5), (6), (7) e (8); conversores de força eletromotriz para temperatura (9), (10), (11), (12), (13), (14), (15) e (16); eletrônica para acionamento elétrico dos relés (17), (18), (19), (20), (21), (22), (23) e (24); conectores para ligação de cargas externas (25), (26), (27), (28), (29), (30), (31) e (32); conector para fonte de alimentação (33); regulador de tensão (34), dispositivo microcontrolador (35), conector para comunicação através da porta usb (36), transceptor ttl-rs485 (37), impedâncias para o barramento rs485 (38), conector para barramento rs485 (39)."/>
+			<field name="originatesFrom" value="72292211"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019001702"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019001702U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019001702"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192001702U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019001702"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22151" type="Person">
+			<semanticIdentifier>lattes::3211921907360668</semanticIdentifier>
+			<field name="identifier.lattes" value="3211921907360668"/>
+			<field name="name" value="Mário Sérgio da Luz"/>
+		</entity>
+		<entity ref="OrgUnit17340" type="OrgUnit">
+			<semanticIdentifier>brcris::8e5a1b25fcd415907474252d2ed29061</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO TRIANGULO MINEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32248" toEntityRef="Person22151" type="Inventor"/>
+		<relation fromEntityRef="Patent32248" toEntityRef="OrgUnit17340" type="Applicant"/>
+	</relations>
+</entity-relation-data>

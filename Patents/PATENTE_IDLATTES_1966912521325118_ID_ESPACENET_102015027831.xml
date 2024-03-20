@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:25" record="1929" source="Espacenet">
+	<entities>
+		<entity ref="Patent1929" type="Patent">
+			<semanticIdentifier>brcris::2a6a4b45d323dc70fbe55d8503d90838</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015027831A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015027831</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015027831A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151027831</semanticIdentifier>
+			<semanticIdentifier>original::102015027831</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015027831"/>
+			<field name="identifier.lattes" value="1966912521325118"/>
+			<field name="identifier.espacenet" value="102015027831"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo fermentativo para produção de ácido itacônico ou um sal do mesmo"/>
+			<field name="title.lattes" value="Processo de produção de ácido orgânico e sal do mesmo"/>
+			<field name="depositDate" value="2015-11-04"/>
+			<field name="publicationDate" value="2017-07-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE MACHADO DE CASTRO"/>
+			<field name="inventor" value="CESAR REZENDE DA MOTTA"/>
+			<field name="inventor" value="CLAUDIA MARIA SOARES RIBEIRO"/>
+			<field name="inventor" value="MARIANA ARAUJO JUSTO DA SILVA"/>
+			<field name="inventor" value="ROMULO COSTA DE HOLANDA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C57/13AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="57"/>
+				<field name="subgroup" value="13AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P7/44AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/66AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="66AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo fermentativo para produção de ácido itacônico ou um sal do mesmo a presente invenção refere-se a um processo de produção de ácido itacônico ou um sal do mesmo a partir de fontes de carbono assimiláveis usando um microrganismo produtor do referido ácido, por meio de fermentação submersa, em condições aeróbicas. mais especificamente, o ácido itacônico é produzido utilizando-se fungos do gênero aspergiffus capazes de utilizar fontes de carbono renováveis como substrato. a presente invenção permite, assim, a conversão de uma matéria-prima, de baixo custo e abundante, proveniente da indústria do biodiesel em um produto de maior valor agregado."/>
+			<field name="originatesFrom" value="61827274"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015027831"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015027831"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015027831"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151027831"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015027831"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1451" type="Person">
+			<semanticIdentifier>lattes::1966912521325118</semanticIdentifier>
+			<field name="identifier.lattes" value="1966912521325118"/>
+			<field name="name" value="Aline Machado de Castro"/>
+		</entity>
+		<entity ref="OrgUnit1097" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1929" toEntityRef="Person1451" type="Inventor"/>
+		<relation fromEntityRef="Patent1929" toEntityRef="OrgUnit1097" type="Applicant"/>
+	</relations>
+</entity-relation-data>

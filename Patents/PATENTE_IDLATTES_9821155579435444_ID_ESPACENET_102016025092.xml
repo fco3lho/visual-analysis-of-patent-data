@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:19" record="19564" source="Espacenet">
+	<entities>
+		<entity ref="Patent19564" type="Patent">
+			<semanticIdentifier>brcris::188909a4bb3f6b0280f14d4dd0a0db08</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025092A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016025092</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025092A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161025092</semanticIdentifier>
+			<semanticIdentifier>original::102016025092</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016025092"/>
+			<field name="identifier.lattes" value="9821155579435444"/>
+			<field name="identifier.espacenet" value="102016025092"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="extração de antocianina do capim gordura via sistemas aquosos bifásicos"/>
+			<field name="title.lattes" value="Extração de antocianina do capim gordura via sistemas aquosos bifásicos"/>
+			<field name="depositDate" value="2016-10-26"/>
+			<field name="publicationDate" value="2018-05-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="APARECIDA BARBOSA MAGESTE"/>
+			<field name="inventor" value="GUILHERME DIAS RODRIGUES"/>
+			<field name="inventor" value="HERIVELTOM MORAIS DA SILVA"/>
+			<field name="inventor" value="IGOR JOSE BOGGIONE SANTOS"/>
+			<field name="inventor" value="JUSSARA ALVES PENIDO"/>
+			<field name="inventor" value="LEANDRO RODRIGUES DE LEMOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09B61/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="61"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o pedido de patente descreve o uso dos sistemas aquosos bfásicos (sab) como etapa única do processo de extração de antocianinas a partir do melinis minutiflora, conhecido como capim-gordura. diferenciando-se das técnicas convencionais que além de utilizarem solventes orgânicos, necessitam de etapas posteriores para obter o extrato antocianínico, os sab são ambientalmente seguros e a extração ocorre com uma etapa. além disso, o sistema apresentado possui um baixo custo e fácil implementação."/>
+			<field name="originatesFrom" value="62494743"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025092"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016025092"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025092"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161025092"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016025092"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13621" type="Person">
+			<semanticIdentifier>lattes::9821155579435444</semanticIdentifier>
+			<field name="identifier.lattes" value="9821155579435444"/>
+			<field name="name" value="Igor José Boggione Santos"/>
+		</entity>
+		<entity ref="OrgUnit10647" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit10648" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+		<entity ref="OrgUnit10649" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+		<entity ref="OrgUnit10650" type="OrgUnit">
+			<semanticIdentifier>brcris::732b724cf039d0ba1e57a700f92fb04a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19564" toEntityRef="Person13621" type="Inventor"/>
+		<relation fromEntityRef="Patent19564" toEntityRef="OrgUnit10647" type="Applicant"/>
+		<relation fromEntityRef="Patent19564" toEntityRef="OrgUnit10648" type="Applicant"/>
+		<relation fromEntityRef="Patent19564" toEntityRef="OrgUnit10649" type="Applicant"/>
+		<relation fromEntityRef="Patent19564" toEntityRef="OrgUnit10650" type="Applicant"/>
+	</relations>
+</entity-relation-data>

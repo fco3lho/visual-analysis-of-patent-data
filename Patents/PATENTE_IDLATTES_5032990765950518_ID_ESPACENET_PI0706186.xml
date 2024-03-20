@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:10" record="5170" source="Espacenet">
+	<entities>
+		<entity ref="Patent5170" type="Patent">
+			<semanticIdentifier>brcris::f898dc4af423639e17db2bf3296b13a2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0706186A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0706186</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0706186A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI06186</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0706186-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0706186"/>
+			<field name="identifier.lattes" value="5032990765950518"/>
+			<field name="identifier.espacenet" value="PI0706186"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="preparação de nanocompósitos para uso biomédico e produto"/>
+			<field name="title.lattes" value="Preparacao de Nanocompositos para uso Biomedico e Produto"/>
+			<field name="depositDate" value="2007-06-15"/>
+			<field name="publicationDate" value="2009-03-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA MARIA VALLADAO NOVAIS RODRIGUES"/>
+			<field name="inventor" value="ANTONIO FERREIRA AVILA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B32B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="32"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PREPARAçãO DE NANOCOMPóSITOS PARA USO BIOMéDICO E PRODUTO. A presente invenção refere-se ao desenvolvimento e caracterização de um compósito de matriz polimérica nano-modificada com a inclusão de nanopartículas cerâmicas. Estas nanopartículas dispersas na matriz polimérica dão origem a nano-estruturas, que conferem ao compósito o comportamento dúctil, aumento nos módulos de elasticidade, cisalhamento, resistência ao impacto e limite de resistência. Doravante este tipo de compósito será denominado de nanocompósito."/>
+			<field name="originatesFrom" value="40621684"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0706186"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0706186"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0706186"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI06186"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0706186-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3378" type="Person">
+			<semanticIdentifier>lattes::5032990765950518</semanticIdentifier>
+			<field name="identifier.lattes" value="5032990765950518"/>
+			<field name="name" value="Antonio Ferreira Ávila"/>
+		</entity>
+		<entity ref="OrgUnit2666" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5170" toEntityRef="Person3378" type="Inventor"/>
+		<relation fromEntityRef="Patent5170" toEntityRef="OrgUnit2666" type="Applicant"/>
+	</relations>
+</entity-relation-data>

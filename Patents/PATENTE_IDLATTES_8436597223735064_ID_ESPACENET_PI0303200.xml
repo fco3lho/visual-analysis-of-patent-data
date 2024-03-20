@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:47" record="1053" source="Espacenet">
+	<entities>
+		<entity ref="Patent1053" type="Patent">
+			<semanticIdentifier>brcris::4666610bd68779f591c0cb4d6286f863</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0303200B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0303200</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0303200A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2003PI03200</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0303200</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0303200"/>
+			<field name="identifier.lattes" value="8436597223735064"/>
+			<field name="identifier.espacenet" value="PI0303200"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="uso de antígeno e conjunto para diagnóstico de reabsorção dentinária compreendendo antígeno"/>
+			<field name="title.lattes" value="Antígeno, seus usos, processo de preparação de extrato dentinário e conjunto para diagnóstico de reabsorção dentinária."/>
+			<field name="depositDate" value="2003-07-30"/>
+			<field name="publicationDate" value="2018-04-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO CONSOLARO"/>
+			<field name="inventor" value="EIKO NAKAGAWA ITANO"/>
+			<field name="inventor" value="MIRIAN MARUBAYASHI HIDALGO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/53AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/531AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="531AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;antígeno, seus usos, processo de preparação de extrato dentinário e conjunto para diagnóstico de reabsorção dentinária&quot;. a presente invenção refere-se a um método para identificar o perfil sorológico dos pacientes com reabsorção dentária através da análise bioquímica sangüínea. mais especificamente, a presente invenção refere-se ao desenvolvimento de um conjunto comercial (kit) de dosagem de anticorpos séricos frente às frações e/ou extrato dentinário humano total por métodos imunológicos, permitindo o delineamento preciso do perfil imunológico e levando ao diagnóstico precoce da reabsorção dentária, antes que se manifeste clínica e radiograficamente."/>
+			<field name="originatesFrom" value="62089467"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0303200"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0303200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0303200"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2003PI03200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0303200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR0303200"/>
+		</entity>
+		<entity ref="Person763" type="Person">
+			<semanticIdentifier>lattes::8436597223735064</semanticIdentifier>
+			<field name="identifier.lattes" value="8436597223735064"/>
+			<field name="name" value="Alberto Consolaro"/>
+		</entity>
+		<entity ref="OrgUnit611" type="OrgUnit">
+			<semanticIdentifier>brcris::9b448fbb3793236f618f3ad887c04b60</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit612" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent1054" type="Patent">
+			<semanticIdentifier>epodoc::BR0303200</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62089467"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303200"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1053" toEntityRef="Person763" type="Inventor"/>
+		<relation fromEntityRef="Patent1053" toEntityRef="OrgUnit611" type="Applicant"/>
+		<relation fromEntityRef="Patent1053" toEntityRef="OrgUnit612" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:28" record="34839" source="Espacenet">
+	<entities>
+		<entity ref="Patent34839" type="Patent">
+			<semanticIdentifier>brcris::c6d56ef1bfcae2b2fab86df61ed1dc00</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303155A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303155</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303155A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303155</semanticIdentifier>
+			<semanticIdentifier>original::0303155-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303155"/>
+			<field name="identifier.lattes" value="1062115267877962"/>
+			<field name="identifier.espacenet" value="0303155"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Atuador pneumático"/>
+			<field name="title.lattes" value="Sistema Pneumático em Grandes Dimensões para Levantamento de Plataforma"/>
+			<field name="depositDate" value="2003-07-28"/>
+			<field name="publicationDate" value="2005-04-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO ADILTON OLIVEIRA CARNEIRO"/>
+			<field name="inventor" value="OSWALDO BAFFA FILHO"/>
+			<field name="inventor" value="OSWALDO BAFFA JR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A47C3/30AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="47"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ATUADOR PNEUMáTICO&quot;. Compreendendo um corpo tubular (10) alojando um par de êmbolos (20, 30) axial e respectivamente conectados a uma carga de referência (1) e a uma carga móvel (2) e dimensionados para serem axial e relativamente deslocados, em conjunto com as respectivas cargas e com pequena folga radial, no interior do corpo tubular (10); e uma bolsa inflável (40) disposta entre os dois êmbolos (20,30) e mantida em comunicação fluida com uma fonte de ar comprimido (A), de modo a ser seletivamente inflada em maior ou menor grau, promovendo o deslocamento axial dos dois êmbolos (20,30) entre uma posição recolhida e uma posição distendida, ditos êmbolos (20, 30) sendo constantemente forçados para a posição recolhida, na qual o corpo tubular (10) tem seu deslocamento axial relativo travado pelo menos em relação a um dos dois êmbolos (20, 30), dito corpo tubular (10) contendo a expansão radial da bolsa inflável (40) a partir de um certo grau de insuflamento dessa última."/>
+			<field name="originatesFrom" value="34383521"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303155"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303155"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303155"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303155"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303155-1"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0303155"/>
+		</entity>
+		<entity ref="Person23970" type="Person">
+			<semanticIdentifier>lattes::1062115267877962</semanticIdentifier>
+			<field name="identifier.lattes" value="1062115267877962"/>
+			<field name="name" value="Oswaldo Baffa Filho"/>
+		</entity>
+		<entity ref="OrgUnit18805" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit18806" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent34840" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0303155</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="34383521"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0303155"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34839" toEntityRef="Person23970" type="Inventor"/>
+		<relation fromEntityRef="Patent34839" toEntityRef="OrgUnit18805" type="Applicant"/>
+		<relation fromEntityRef="Patent34839" toEntityRef="OrgUnit18806" type="Applicant"/>
+	</relations>
+</entity-relation-data>

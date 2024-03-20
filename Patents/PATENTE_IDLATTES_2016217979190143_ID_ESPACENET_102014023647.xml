@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:34" record="22526" source="Espacenet">
+	<entities>
+		<entity ref="Patent22526" type="Patent">
+			<semanticIdentifier>brcris::761a5896fdb24267000c7283af155cf4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023647A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014023647</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023647A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141023647</semanticIdentifier>
+			<semanticIdentifier>original::102014023647</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014023647"/>
+			<field name="identifier.lattes" value="2016217979190143"/>
+			<field name="identifier.espacenet" value="102014023647"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema para detecção de fraudes em aplicações baseadas em processamento de voz"/>
+			<field name="title.lattes" value="Método e Sistema para Detecção de Fraudes em Aplicações Baseadas em Processamento de Voz"/>
+			<field name="depositDate" value="2014-09-24"/>
+			<field name="publicationDate" value="2016-05-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE AUGUSTO STUCHI"/>
+			<field name="inventor" value="RICARDO PARANHOS VELLOSO VIOLATO"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G10L17/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G10L17/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sistema para detecção de fraudes em aplicações baseadas em processamento de voz , que detectam ataques de spoofings em sinais de fala, utilizando a informação de fase do sinal no domínio da frequência. a invenção se aplica, principalmente, a sistemas que utilizam biometria por voz, com o objetivo de evitar que um sinal que já foi usado como entrada no sistema, em cadastros ou em reconhecimentos do usuário, seja reutilizado, ainda que esse sinal sofra alterações ou apenas uma parte dele seja reaproveitada. a invenção é capaz de detectar uma ampla gama de ataques, com foco em replay, quando um áudio (parcial ou completo, com ou sem alterações) já utilizado pelo usuário legítimo é novamente apresentado por outro usuário ao sistema. uma forma alternativa de realização da invenção amplia, ainda mais, a detecção de fraudes para casos de distorção na escala do tempo do áudio."/>
+			<field name="originatesFrom" value="55580374"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023647"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014023647"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023647"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141023647"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014023647"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2016046652"/>
+		</entity>
+		<entity ref="Person15546" type="Person">
+			<semanticIdentifier>lattes::2016217979190143</semanticIdentifier>
+			<field name="identifier.lattes" value="2016217979190143"/>
+			<field name="name" value="José Augusto Stuchi"/>
+		</entity>
+		<entity ref="Patent22527" type="Patent">
+			<semanticIdentifier>epodoc::WO2016046652</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="55580374"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2016046652"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22526" toEntityRef="Person15546" type="Inventor"/>
+	</relations>
+</entity-relation-data>

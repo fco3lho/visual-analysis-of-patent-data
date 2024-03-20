@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:38" record="22566" source="Espacenet">
+	<entities>
+		<entity ref="Patent22566" type="Patent">
+			<semanticIdentifier>brcris::94b0872918d458d8a75a92dac67e242a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015009025A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015009025</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015009025A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151009025</semanticIdentifier>
+			<semanticIdentifier>original::102015009025</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015009025"/>
+			<field name="identifier.lattes" value="6479420970768737"/>
+			<field name="identifier.espacenet" value="102015009025"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de polimerização de monômeros vinílicos, polímero de monômeros vinílicos e usos dos mesmos"/>
+			<field name="title.lattes" value="36- Processo de Polimerização de Monômeros Vinílicos, Polímero de Monômeros Vinílicos e Usos dos Mesmos"/>
+			<field name="depositDate" value="2015-04-22"/>
+			<field name="publicationDate" value="2016-12-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO CASTOR JUNIOR"/>
+			<field name="inventor" value="JOSE CARLOS COSTA DA SILVA PINTO"/>
+			<field name="applicant" value="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE"/>
+			<field name="applicant" value="INSTITUT NATIONAL POLYTECHNIQUE DE TOULOUSE"/>
+			<field name="applicant" value="INSTITUTO ALBERTO LUIZ COIMBRA DE POS GRADUACAO EPESQUISA DE ENGENHARIA - COPPE/UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08F2/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08F14/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo processo de polimerização de monômeros vinílicos, polímero de monômeros vinílicos e usos dos mesmos a presente invenção refere-se a um processo de produção de polímeros e copolímeros à base de cloreto de vinila por polimerização do cloreto de vinila ou de uma mistura contendo cloreto de vinila e ao menos um segundo monômero vinílico, tal como o metacrilato de metila, na presença de ao menos um peróxido orgânico composto de dois grupamentos funcionais de oxigênio do tipo o-o, especificamente o iniciador bifuncional 2,5-dimetil-2,5-di(2-etilhexanoil) hexano. a presente invenção refere-se ainda ao polímero de monômeros vinílicos obtido a partir do presente processo e a seus usos para a produção de filmes extrusados, peças extrusadas e peças injetadas."/>
+			<field name="originatesFrom" value="57472321"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015009025"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015009025"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015009025"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151009025"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015009025"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15577" type="Person">
+			<semanticIdentifier>lattes::6479420970768737</semanticIdentifier>
+			<field name="identifier.lattes" value="6479420970768737"/>
+			<field name="name" value="José Carlos Costa da Silva Pinto"/>
+		</entity>
+		<entity ref="OrgUnit12095" type="OrgUnit">
+			<semanticIdentifier>brcris::3dd8adf7378218b42943d9cf442a40be</semanticIdentifier>
+			<field name="name" value="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE"/>
+		</entity>
+		<entity ref="OrgUnit12096" type="OrgUnit">
+			<semanticIdentifier>brcris::8af3159d396f4eff9d40c88b09ac40fd</semanticIdentifier>
+			<field name="name" value="INSTITUT NATIONAL POLYTECHNIQUE DE TOULOUSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22566" toEntityRef="Person15577" type="Inventor"/>
+		<relation fromEntityRef="Patent22566" toEntityRef="OrgUnit12095" type="Applicant"/>
+		<relation fromEntityRef="Patent22566" toEntityRef="OrgUnit12096" type="Applicant"/>
+	</relations>
+</entity-relation-data>

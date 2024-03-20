@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:41" record="42805" source="Espacenet">
+	<entities>
+		<entity ref="Patent42805" type="Patent">
+			<semanticIdentifier>brcris::35c5fd86c2dfad23158f7ea55543bdb5</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001955A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001955</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001955A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01955</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001955-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001955"/>
+			<field name="identifier.lattes" value="2988634049584035"/>
+			<field name="identifier.espacenet" value="PI1001955"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de fabricaÇço de produto alimentÍcio nutricionalmente enriquecido e produto alimentÍcio enriquecido"/>
+			<field name="title.lattes" value="Processo de fabricação de recheio alimentício contendo quitosana quimicamente modificada e quinoa e recheio alimentício obtido"/>
+			<field name="depositDate" value="2010-05-28"/>
+			<field name="publicationDate" value="2012-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADELAIDA GIOVANNA VIZA SALAS"/>
+			<field name="inventor" value="SUZANA CAETANO DA SILVA LANNES"/>
+			<field name="inventor" value="SUZANA CAETANO SILVA LANNES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23L25/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A23L29/275AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="275AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A23L29/281AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="281AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE FABRICAÇçO DE PRODUTO ALIMENTÍCIO NUTRICIONALMENTE ENRIQUECIDO E PRODUTO ALIMENTÍCIO ENRIQUECIDO A presente invenção destina-se a um processo de fabricação de um produto alimenticio nutricionalinente enriquecido contendo grãos de quinoa e quitosana modificada, em particular, N-succinil quitosana. Adicionalmente, o presente pedido provê produto alimentício, preferencialmente, preparado para uso em recheio à base de fruta contendo grãos de quinoa, quitosana quimicamente modificada, xarope de frutose e/ou colágeno hidrolisado."/>
+			<field name="originatesFrom" value="45768059"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001955"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001955"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001955"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01955"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001955-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29201" type="Person">
+			<semanticIdentifier>lattes::2988634049584035</semanticIdentifier>
+			<field name="identifier.lattes" value="2988634049584035"/>
+			<field name="name" value="Suzana Caetano da Silva Lannes"/>
+		</entity>
+		<entity ref="OrgUnit22871" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit22872" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42805" toEntityRef="Person29201" type="Inventor"/>
+		<relation fromEntityRef="Patent42805" toEntityRef="OrgUnit22871" type="Applicant"/>
+		<relation fromEntityRef="Patent42805" toEntityRef="OrgUnit22872" type="Applicant"/>
+	</relations>
+</entity-relation-data>

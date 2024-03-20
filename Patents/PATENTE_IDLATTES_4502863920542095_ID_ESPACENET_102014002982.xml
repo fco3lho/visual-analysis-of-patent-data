@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:00" record="638" source="Espacenet">
+	<entities>
+		<entity ref="Patent638" type="Patent">
+			<semanticIdentifier>brcris::b47731735ff9b1d431193bbd48f316b4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014002982A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014002982</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014002982A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141002982</semanticIdentifier>
+			<semanticIdentifier>original::102014002982</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014002982"/>
+			<field name="identifier.lattes" value="4502863920542095"/>
+			<field name="identifier.espacenet" value="102014002982"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="módulo para dosagem de cana semente para o plantio de cana-de-açucar e processo de plantio de precisão"/>
+			<field name="title.lattes" value="MÓDULO PARA DOSAGEM DE CANA SEMENTE PARA O PLANTIO DE CANA-DE-AÇÚCAR E PROCESSO DE PLANTIO DE PRECISÃO"/>
+			<field name="depositDate" value="2014-02-07"/>
+			<field name="publicationDate" value="2015-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO CHAVES BASTOS"/>
+			<field name="inventor" value="LUIS ALFREDO PIRES BARBOSA"/>
+			<field name="inventor" value="OSCAR ANTONIO BRAUNBECK"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01C11/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="módulo para dosagem de cana semente para o plantio de cana-de-açucar e processo de plantio de precisão. a presente invenção se refere a um módulo para dosagem de rebolos de cana semente, utilizado no plantio de precisão da cana-de-açúcar, que pode ser acoplado a um implemento agrícola, a um trator ou caminhão, a um implemento agrícola rebocado por um trator, ou a uma plantadora de precisão completa, autopropelida. mais especificamente, a presente invenção se refere a um módulo para dosagem de rebolo de cana semente para o plantio de cana-de-açúcar, que compreende, em sequência de operação, um desagregador (1), um ordenador (2) e um dosador (3) . a invenção se refere, ainda, a um processo de plantio de precisão e possui aplicação na área agrícola."/>
+			<field name="originatesFrom" value="54837941"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014002982"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014002982"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014002982"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141002982"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014002982"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR102013003026"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2014121362"/>
+		</entity>
+		<entity ref="Person450" type="Person">
+			<semanticIdentifier>lattes::4502863920542095</semanticIdentifier>
+			<field name="identifier.lattes" value="4502863920542095"/>
+			<field name="name" value="Adriano Chaves Bastos"/>
+		</entity>
+		<entity ref="OrgUnit407" type="OrgUnit">
+			<semanticIdentifier>brcris::8259a83e0c1f2225da8affeb25618bf4</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+		</entity>
+		<entity ref="Patent639" type="Patent">
+			<semanticIdentifier>epodoc::BR102013003026</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="54837941"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013003026"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent640" type="Patent">
+			<semanticIdentifier>epodoc::WO2014121362</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="54837941"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2014121362"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent638" toEntityRef="Person450" type="Inventor"/>
+		<relation fromEntityRef="Patent638" toEntityRef="OrgUnit407" type="Applicant"/>
+	</relations>
+</entity-relation-data>

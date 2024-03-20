@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:04" record="28401" source="Espacenet">
+	<entities>
+		<entity ref="Patent28401" type="Patent">
+			<semanticIdentifier>brcris::28f12adefd18d2d0dfd9954860070af5</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903520A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0903520</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903520A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI03520</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0903520-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0903520"/>
+			<field name="identifier.lattes" value="9471200646848234"/>
+			<field name="identifier.espacenet" value="PI0903520"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processador numérico analógico"/>
+			<field name="title.lattes" value="PROCESSADOR NUMÉRICO ANALÓGICO"/>
+			<field name="depositDate" value="2009-09-21"/>
+			<field name="publicationDate" value="2011-05-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AFRANCISCO DE ASSIS RIBAS BOSCO"/>
+			<field name="inventor" value="FRANCISCO DE ASSIS RIBAS BOSCO"/>
+			<field name="inventor" value="MANFREDO HARRI TABACNIKS"/>
+			<field name="inventor" value="MARCEL DUPRET LOPES BARBOSA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO PAULO - UNIFESP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO PAULO - UNIFESP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06N7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSADOR NUNERICO ANALóGICO. A presente invenção se refere a processador numérico analógico capaz de realizar as quatro operações aritméticas naturais (adição, subtração, multiplicação e divisão) logaritmo, exponencial e potenciação de forma síncrona e direta em qualquer base numérica. Compreende um decodificador de operação (DO); um gerador de funções harmónicas (GFH); uma unidade aritmética (UA); um módulo de transformada de Fourier (MTF); e um sensor de nível e estouro (SNE) . O processador numérico analógico da presente invenção permite significativa redução no tempo de processamento das operações matemáticas, se comparado com os tradicionais processadores digitais com lógica binária. O algoritmo utilizando funções analógicas permite realizar a multiplicação de dois números com muitos dígitos (&gt;30) em tempos significativamente menores que o atual processamento digital. A estrutura intrínseca do processador também possibilita a realização da mesma operação aritmética em paralelo com vários conjuntos de operandos sincronamente em um mesmo núcleo processador."/>
+			<field name="originatesFrom" value="44025334"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903520"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0903520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903520"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI03520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0903520-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19627" type="Person">
+			<semanticIdentifier>lattes::9471200646848234</semanticIdentifier>
+			<field name="identifier.lattes" value="9471200646848234"/>
+			<field name="name" value="Marcel Dupret Lopes Barbosa"/>
+		</entity>
+		<entity ref="OrgUnit15313" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28401" toEntityRef="Person19627" type="Inventor"/>
+		<relation fromEntityRef="Patent28401" toEntityRef="OrgUnit15313" type="Applicant"/>
+	</relations>
+</entity-relation-data>

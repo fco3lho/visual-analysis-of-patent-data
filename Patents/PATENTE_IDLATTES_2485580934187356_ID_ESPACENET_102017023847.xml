@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:01" record="34567" source="Espacenet">
+	<entities>
+		<entity ref="Patent34567" type="Patent">
+			<semanticIdentifier>brcris::dc4c4d31246273cc335fe58a58df8f8d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023847A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017023847</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023847A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171023847</semanticIdentifier>
+			<semanticIdentifier>original::102017023847</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017023847"/>
+			<field name="identifier.lattes" value="2485580934187356"/>
+			<field name="identifier.espacenet" value="102017023847"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="biscoito tipo cookies utilizando óleo de chia microencapsulado"/>
+			<field name="title.lattes" value="Biscoito tipo cookies utilizando óleo de chia microencapsulado"/>
+			<field name="depositDate" value="2017-11-06"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDA VITORIA LEIMANN"/>
+			<field name="inventor" value="ODINEI HESS GONCALVES"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23P10/30AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A21D13/068AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="068AI"/>
+			</field>
+			<field name="abstract.espacenet" value="biscoito tipo cookies utilizando óleo de chia microencapsulado a presente invenção refere-se a uma composição de biscoito tipo cookie desconhecida no estado da técnica, caracterizada pela substituição parcial da gordura hidrogenada comumente usada na formulação por micropartículas sólidas lipídicas contendo óleo de chia, que apresenta elevado teor de ômega-3 e ômega-6. a referida composição alimentícia possui substituição da gordura vegetal hidrogenada pelas micropartículas variando de 0,1 a 45%. o produto tem características sensoriais de sabor, textura, cor e aparência atrativas, além de apresentar a vantagem de conter elevado teor de ácidos graxos poli-insaturados."/>
+			<field name="originatesFrom" value="67260649"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023847"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017023847"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023847"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171023847"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017023847"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23800" type="Person">
+			<semanticIdentifier>lattes::2485580934187356</semanticIdentifier>
+			<field name="identifier.lattes" value="2485580934187356"/>
+			<field name="name" value="Odinei Hess Gonçalves"/>
+		</entity>
+		<entity ref="OrgUnit18682" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34567" toEntityRef="Person23800" type="Inventor"/>
+		<relation fromEntityRef="Patent34567" toEntityRef="OrgUnit18682" type="Applicant"/>
+	</relations>
+</entity-relation-data>

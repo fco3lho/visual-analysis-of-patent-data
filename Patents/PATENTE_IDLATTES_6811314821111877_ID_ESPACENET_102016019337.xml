@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:10" record="41640" source="Espacenet">
+	<entities>
+		<entity ref="Patent41640" type="Patent">
+			<semanticIdentifier>brcris::efefb7eb19ac55da7f58777700cb636e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019337A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019337</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019337A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019337</semanticIdentifier>
+			<semanticIdentifier>original::102016019337</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019337"/>
+			<field name="identifier.lattes" value="6811314821111877"/>
+			<field name="identifier.espacenet" value="102016019337"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="derivados da hederagenina, processo de obtenção e uso"/>
+			<field name="title.lattes" value="DERIVADOS DA HEDERAGENINA, PROCESSO DE OBTENÇÃO E USO"/>
+			<field name="depositDate" value="2016-08-23"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO JACINTO DEMUNER"/>
+			<field name="inventor" value="DIEGO CARLOS RODRIGUEZ HERNANDEZ"/>
+			<field name="inventor" value="LUIZ CLAUDIO ALMEIDA BARBOSA"/>
+			<field name="inventor" value="RAQUEL MARTINS ALMEIDA"/>
+			<field name="inventor" value="RICARDO TOSHIO FUJIWARA"/>
+			<field name="inventor" value="SEBASTIAO RODRIGO FERREIRA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07J63/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P33/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="derivados da hederagenina, processo de obtenção e uso. a presente tecnologia trata de derivados da hederagenina (he) e do processo para a obtenção de derivados ésteres e amidas a partir da he, um triterpeno pentacíclico do tipo oleano, com adição ou não de grupos triazólicos, por química combinatória. os derivados possuem superior atividade leishmanicida em relação aos compostos utilizados regularmente no tratamento contra as leishmanioses."/>
+			<field name="originatesFrom" value="61973198"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019337"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019337"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019337"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019337"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019337"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28392" type="Person">
+			<semanticIdentifier>lattes::6811314821111877</semanticIdentifier>
+			<field name="identifier.lattes" value="6811314821111877"/>
+			<field name="name" value="Sebastião Rodrigo Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit22215" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit22216" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41640" toEntityRef="Person28392" type="Inventor"/>
+		<relation fromEntityRef="Patent41640" toEntityRef="OrgUnit22215" type="Applicant"/>
+		<relation fromEntityRef="Patent41640" toEntityRef="OrgUnit22216" type="Applicant"/>
+	</relations>
+</entity-relation-data>

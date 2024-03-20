@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:40" record="8220" source="Espacenet">
+	<entities>
+		<entity ref="Patent8220" type="Patent">
+			<semanticIdentifier>brcris::566e7f334db62b77fe9b9003cb4041aa</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303473A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303473</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303473A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303473</semanticIdentifier>
+			<semanticIdentifier>original::0303473-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303473"/>
+			<field name="identifier.lattes" value="4963874411976036"/>
+			<field name="identifier.espacenet" value="0303473"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para remoção de incrustações de sais em tubulações metálicas"/>
+			<field name="title.lattes" value="Processo para remoção de incrustações de sais em tubulações metálicas"/>
+			<field name="depositDate" value="2003-09-05"/>
+			<field name="publicationDate" value="2005-10-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELSO MARCELO FRANKLIN LAPA"/>
+			<field name="inventor" value="DENISE CUNHA CABRAL"/>
+			<field name="inventor" value="MARCIO PAES DE BARROS"/>
+			<field name="inventor" value="PAULO AUGUSTO BERQUO DE SAMPAIO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F5/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA REMOçãO DE INCRUSTAçõES DE SAIS EM TUBULAçõES METáLICAS&quot;. Incrustações de sais em equipamentos são um problema freq³ente e antigo na indústria do petróleo, especialmente nas tubulações utilizadas na exploração do petróleo. Para solucionar este problema, inclusive suas conotações radioativas, desenvolveu-se um processo baseado no aquecimento térmico das tubulações acometidas por incrustações que apresenta uma prática economicamente viável, tecnicamente coerente e radiologicamente segura."/>
+			<field name="originatesFrom" value="35044415"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303473"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303473"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303473"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303473"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303473-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5613" type="Person">
+			<semanticIdentifier>lattes::4963874411976036</semanticIdentifier>
+			<field name="identifier.lattes" value="4963874411976036"/>
+			<field name="name" value="Celso Marcelo Franklin Lapa"/>
+		</entity>
+		<entity ref="OrgUnit4447" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8220" toEntityRef="Person5613" type="Inventor"/>
+		<relation fromEntityRef="Patent8220" toEntityRef="OrgUnit4447" type="Applicant"/>
+	</relations>
+</entity-relation-data>

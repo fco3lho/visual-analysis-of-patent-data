@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:30" record="15877" source="Espacenet">
+	<entities>
+		<entity ref="Patent15877" type="Patent">
+			<semanticIdentifier>brcris::515c78dc0a525165b9ac02638652673c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8806414A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8806414</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8806414A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888806414</semanticIdentifier>
+			<semanticIdentifier>original::88 8806414</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8806414"/>
+			<field name="identifier.lattes" value="1775441236942704"/>
+			<field name="identifier.espacenet" value="8806414"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PROCESSO PARA PRODUCAO DE PO DE AI2-O3 PARA OBTENCAO DE CORPOS DE ALTA DENSIDADE SINTERIZADOS A BAIXA TEMPERATURA E CURTO TEMPO"/>
+			<field name="title.lattes" value="Processo para Produção de Pó de Al2O3 Para Obtenção de Corpos de Alta Densidade Sinterizados a Baixa Temperatura e Curto Tempo"/>
+			<field name="depositDate" value="1988-12-06"/>
+			<field name="publicationDate" value="1990-07-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMINDO SOARES"/>
+			<field name="inventor" value="FERNANDO SOARES LAMEIRAS"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR - CNEN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01F7/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C03B19/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4046150"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8806414"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8806414"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8806414"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888806414"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="88 8806414"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11004" type="Person">
+			<semanticIdentifier>lattes::1775441236942704</semanticIdentifier>
+			<field name="identifier.lattes" value="1775441236942704"/>
+			<field name="name" value="Fernando Soares Lameiras"/>
+		</entity>
+		<entity ref="OrgUnit8600" type="OrgUnit">
+			<semanticIdentifier>brcris::b85011ca73a7e327c6cc2109dbb40bea</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR - CNEN"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15877" toEntityRef="Person11004" type="Inventor"/>
+		<relation fromEntityRef="Patent15877" toEntityRef="OrgUnit8600" type="Applicant"/>
+	</relations>
+</entity-relation-data>

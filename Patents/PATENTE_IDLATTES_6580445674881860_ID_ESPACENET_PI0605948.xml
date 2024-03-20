@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:18" record="10322" source="Espacenet">
+	<entities>
+		<entity ref="Patent10322" type="Patent">
+			<semanticIdentifier>brcris::274ed54dd5efdc3e159b6c4d214e1d02</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605948A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605948</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605948A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05948</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605948-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605948"/>
+			<field name="identifier.lattes" value="6580445674881860"/>
+			<field name="identifier.espacenet" value="PI0605948"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de monitoramento e controle para aeração de grãos armazenados (controlador aero)"/>
+			<field name="title.lattes" value="Sistema de controle e aquisição de dados, em tempo real, aplicados a processos agrícolas, com base em dispositivos eletrônicos endereçáveis"/>
+			<field name="depositDate" value="2006-11-27"/>
+			<field name="publicationDate" value="2008-07-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADILIO FLAUZINO LACERDA JR"/>
+			<field name="inventor" value="DANIELA DE CARVALHO LOPES"/>
+			<field name="inventor" value="JOSE HELVECIO MARTINS"/>
+			<field name="inventor" value="PAULO MARCOS DE BARROS MONTEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B02B1/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F26B25/22AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="26"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema de monitoramento e controle para aeração de grãos armazenados (Controlador AERO). Os sistemas utilizados atualmente para o monitoramento e controle da aeração de grãos armazenados apresentam uma grande complexidade física e um alto custo operacional, devido a quantidade de fios e equipamentos eletrónicos necessários para sua montagem. As estratégias de controle utilizadas nestes sistemas tendem a gerar conflitos na configuração das condições pré-estabelecidas ou não atender com eficiência às exigências do processo, requerendo constantes atualizações de acordo com as variações das condições climáticas. Na presente invenção é proposto um sistema para aeração de grãos armazenados que utiliza dispositivos eletrónicos endereçáveis, conectados em 2 ou 3 fios, diminuindo a complexidade física da estrutura utilizada no monitoramento do processo e o seu custo operacional. Utilizando-se um único programa de computador, é possível gerenciar o monitoramento, executar a estratégia de controle e armazenar os dados coletados de forma rápida e eficiente. Esta estratégia se baseia na simulação do processo e na aquisição de dados em tempo real, minimizando a ocorrência de conflitos nas condições da estratégia e possibilitando que o sistema proposto seja utilizado em diferentes regiões, adaptando-se automaticamente às variações climáticas observadas durante o ano."/>
+			<field name="originatesFrom" value="39628821"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605948"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605948"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605948"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05948"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605948-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7119" type="Person">
+			<semanticIdentifier>lattes::6580445674881860</semanticIdentifier>
+			<field name="identifier.lattes" value="6580445674881860"/>
+			<field name="name" value="Daniela de Carvalho Lopes"/>
+		</entity>
+		<entity ref="OrgUnit5664" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10322" toEntityRef="Person7119" type="Inventor"/>
+		<relation fromEntityRef="Patent10322" toEntityRef="OrgUnit5664" type="Applicant"/>
+	</relations>
+</entity-relation-data>

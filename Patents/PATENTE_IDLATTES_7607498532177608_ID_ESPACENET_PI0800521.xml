@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:29" record="12085" source="Espacenet">
+	<entities>
+		<entity ref="Patent12085" type="Patent">
+			<semanticIdentifier>brcris::6ba5001ead24dfafee64d8001b94a2a6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800521A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0800521</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800521A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI00521</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0800521-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0800521"/>
+			<field name="identifier.lattes" value="7607498532177608"/>
+			<field name="identifier.espacenet" value="PI0800521"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para diferenciar soja convencional de soja resistente ao glifosato"/>
+			<field name="title.lattes" value="Processo para diferenciar soja convencional de soja resistente ao glifosato"/>
+			<field name="depositDate" value="2008-02-22"/>
+			<field name="publicationDate" value="2009-10-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDICLEIA APARECIDA BONINI"/>
+			<field name="inventor" value="MARIA DE LOURDES LUCIO FERRARESE"/>
+			<field name="inventor" value="OSVALDO FERRARESE FILHO"/>
+			<field name="inventor" value="ROGERIO MARCHIOSI"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N30/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA DIFERENCIAR SOJA CONVENCIONAL DE SOJA RESISTENTE AO GLIFOSATO. A presente invenção estabelece um processo, sensível e confiável, em que se aplica cromatografia líquida de alta eficiência para detectar ácido chiquimico nos tecidos (folhas, raízes ou radículas) de soja com uso específico para discriminar variedades de soja convencionais daquelas geneticamente modificadas, resistentes ao glifosato. Diferentes protocolos experimentais podem ser aplicados para a análise do ácido chiquimico no cromatógrafo, sendo que o uso de cada um depende do tecido vegetal escolhido. O invento foi desenvolvido com base no fato do ácido chiquímico se acumular significativamente nos tecidos vegetais de soja convencional, após tratamento com o herbicida glifosato, que inibe a enzima-chave do metabolismo do ácido chiquímico. Por sua vez, a soja geneticamente modificada, resistente ao glifosato, e insensível a este herbicida e, portanto, não acumula ácido chiquímico em nenhuma das condições experimentais descritas no invento. Por cromatografia líquida de alta eficiência, o ácido chiquímico pode ser detectado em quantidades extremamente baixas (na faixa de &lt;109&gt;g), permitindo discriminar eficientemente soja convencional de soja modificada geneticamente, resistente ao glifosato."/>
+			<field name="originatesFrom" value="41139207"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800521"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0800521"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800521"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI00521"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0800521-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8326" type="Person">
+			<semanticIdentifier>lattes::7607498532177608</semanticIdentifier>
+			<field name="identifier.lattes" value="7607498532177608"/>
+			<field name="name" value="Edicleia Aparecida Bonini e Silva"/>
+		</entity>
+		<entity ref="OrgUnit6584" type="OrgUnit">
+			<semanticIdentifier>brcris::c6e71346825fb2a3951456d69e7ff640</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12085" toEntityRef="Person8326" type="Inventor"/>
+		<relation fromEntityRef="Patent12085" toEntityRef="OrgUnit6584" type="Applicant"/>
+	</relations>
+</entity-relation-data>

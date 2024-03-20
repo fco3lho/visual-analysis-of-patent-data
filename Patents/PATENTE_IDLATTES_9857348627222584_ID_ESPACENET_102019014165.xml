@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:23" record="1898" source="Espacenet">
+	<entities>
+		<entity ref="Patent1898" type="Patent">
+			<semanticIdentifier>brcris::3d68c81b5246eeba7e5a338424946d17</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014165A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019014165</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014165A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191014165</semanticIdentifier>
+			<semanticIdentifier>original::102019014165</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019014165"/>
+			<field name="identifier.lattes" value="9857348627222584"/>
+			<field name="identifier.espacenet" value="102019014165"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para produção de quitinase fúngica por fermentação submersa pela espécie curvularia lunata urm6861"/>
+			<field name="title.lattes" value="MÉTODO PARA PRODUÇÃO DE QUITINASE FÚNGICA POR FERMENTAÇÃO SUBMERSA PELA ESPÉCIE CURVULARIA LUNATA URM6861"/>
+			<field name="depositDate" value="2019-07-09"/>
+			<field name="publicationDate" value="2021-01-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE GLEYCE JULIAO BOMFIM"/>
+			<field name="inventor" value="CRISTINA MARIA DE SOUZA MOTTA"/>
+			<field name="inventor" value="JOAO TIAGO CORREIA OLIVEIRA"/>
+			<field name="inventor" value="JOYCE BARROS DOS SANTOS"/>
+			<field name="inventor" value="KEILA APARECIDA MOREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/645AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="645AN"/>
+			</field>
+			<field name="abstract.espacenet" value="método para produção de quitinase fúngica por fermentação submersa pela espécie curvularia lunata urm6861. esta invenção estabelece uma composição de substrato nutricional sem a utilização de indutores quitinilóticos comerciais e descreve uma metodologia para a produção e obtenção da enzima quitinase produzida pelo fungo curvularia lunata urm6861 em fermentação submersa semiestática. tendo essa metodologia apresentando eficiência em relação à capacidade de produção elevada da enzima quitinase, resultando em um metabólito com características termoestáveis e metal-compatível, tendo assim, potencial para a aplicação em diversos campos industriais."/>
+			<field name="originatesFrom" value="74504391"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014165"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019014165"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014165"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191014165"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019014165"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1433" type="Person">
+			<semanticIdentifier>lattes::9857348627222584</semanticIdentifier>
+			<field name="identifier.lattes" value="9857348627222584"/>
+			<field name="name" value="Aline Gleyce Julião Bomfim"/>
+		</entity>
+		<entity ref="OrgUnit1076" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit1077" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1898" toEntityRef="Person1433" type="Inventor"/>
+		<relation fromEntityRef="Patent1898" toEntityRef="OrgUnit1076" type="Applicant"/>
+		<relation fromEntityRef="Patent1898" toEntityRef="OrgUnit1077" type="Applicant"/>
+	</relations>
+</entity-relation-data>

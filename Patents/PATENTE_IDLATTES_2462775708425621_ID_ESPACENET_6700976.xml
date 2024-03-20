@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:23:38" record="42545" source="Espacenet">
+	<entities>
+		<entity ref="Patent42545" type="Patent">
+			<semanticIdentifier>brcris::e357271ed969527147c900e46646257b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR6700976U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR6700976U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR6700976U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR6700976U</semanticIdentifier>
+			<semanticIdentifier>original::6700976</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=6700976"/>
+			<field name="identifier.lattes" value="2462775708425621"/>
+			<field name="identifier.espacenet" value="6700976"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="CADEIRA PARA COLHEITA DA AMOSTRA DE URINA,PARA CULTURA BACTERIOLOGICA,EM MULHERES"/>
+			<field name="title.lattes" value="PATENTE MU 6.700.976-0 - GADI/USP"/>
+			<field name="depositDate" value="1987-05-13"/>
+			<field name="publicationDate" value="1988-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="SOFIA MARIA TAFFIL BELLO VALENTE"/>
+			<field name="applicant" value="SOFIA MARIA TAFFIL BELLO VALENTE"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A47C1/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="47"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="3971982"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="6700976"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR6700976U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="6700976"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR6700976U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="6700976"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29017" type="Person">
+			<semanticIdentifier>lattes::2462775708425621</semanticIdentifier>
+			<field name="identifier.lattes" value="2462775708425621"/>
+			<field name="name" value="Sofia Maria Taffil Bello Valente"/>
+		</entity>
+		<entity ref="OrgUnit22704" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42545" toEntityRef="Person29017" type="Inventor"/>
+		<relation fromEntityRef="Patent42545" toEntityRef="OrgUnit22704" type="Applicant"/>
+		<relation fromEntityRef="Patent42545" toEntityRef="Person29017" type="Depositor"/>
+	</relations>
+</entity-relation-data>

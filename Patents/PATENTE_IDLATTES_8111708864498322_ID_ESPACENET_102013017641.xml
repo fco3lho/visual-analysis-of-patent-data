@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:00:21" record="30902" source="Espacenet">
+	<entities>
+		<entity ref="Patent30902" type="Patent">
+			<semanticIdentifier>brcris::0e1608d769e5143cf7641da4afb28983</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013017641A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013017641</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013017641A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131017641</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 017641-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013017641"/>
+			<field name="identifier.lattes" value="8111708864498322"/>
+			<field name="identifier.espacenet" value="102013017641"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="APERFEIÇOAMENTO INTRODUZIDO NA FERRAMENTA DE CORTE LÂMINA DE SERRA CIRCULAR - FIXAÇÃO DOS INSERTOS NOS DENTES"/>
+			<field name="title.lattes" value="APERFEIÇOAMENTO INTRODUZIDO EM FERRAMENTA DE CORTE -FIXAÇÃO DOS INSERTOS NOS DENTES"/>
+			<field name="depositDate" value="2013-07-10"/>
+			<field name="publicationDate" value="2014-11-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIA CRISTINA MOREIRA"/>
+			<field name="applicant" value="KAMPMANN DO BRASIL LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B27B5/29AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="27"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="29AI"/>
+			</field>
+			<field name="abstract.espacenet" value="APERFEIÇOAMENTO INTRODUZIDO NA FERRAMENTA DE CORTE LÂMINA DE SERRA CIRCULAR - FIXAÇÃO DOS INSERTOS NOS DENTES. A ferramenta lâmina de serra circular é amplamente utilizada para corte de diversos tipos de materiais disponíveis comercialmente, desde madeiras até aços com elevada dureza, bitolas e perfis distintos. Os motivos que levam as empresas a utilizarem lâminas de serras circulares se devem ao fato da operação de serramento com as referidas lâminas proporcionarem cortes rápidos, precisos, com ótimo acabamento, conferindo aos processos industriais, altíssima produtividade. A necessária melhora das propriedades mecânicas da ferramenta de corte para que esta tenha o rendimento satisfatório se dá com a utilização de revestimento nos insertos da lâmina de serra. A presente invenção visa o aperfeiçoamento da fixação dos insertos nos dentes da serra por meio de parafuso e pino de fixação com o intuito de revestir apenas os insertos da serra, assim permitindo a utilização do processo de deposição química de vapor (CVD) para a realização do revestimento."/>
+			<field name="originatesFrom" value="51868475"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013017641"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013017641"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013017641"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131017641"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 017641-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2015003234"/>
+		</entity>
+		<entity ref="Person21194" type="Person">
+			<semanticIdentifier>lattes::8111708864498322</semanticIdentifier>
+			<field name="identifier.lattes" value="8111708864498322"/>
+			<field name="name" value="Maria Cristina Moreira"/>
+		</entity>
+		<entity ref="OrgUnit16547" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf3451eeeee35a32a92499df333b37d</semanticIdentifier>
+			<field name="name" value="KAMPMANN DO BRASIL LTDA"/>
+		</entity>
+		<entity ref="Patent30903" type="Patent">
+			<semanticIdentifier>epodoc::WO2015003234</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="51868475"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2015003234"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30902" toEntityRef="Person21194" type="Inventor"/>
+		<relation fromEntityRef="Patent30902" toEntityRef="OrgUnit16547" type="Applicant"/>
+	</relations>
+</entity-relation-data>

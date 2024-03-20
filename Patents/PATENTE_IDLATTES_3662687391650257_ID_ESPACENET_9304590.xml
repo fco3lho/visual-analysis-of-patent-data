@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:55" record="22691" source="Espacenet">
+	<entities>
+		<entity ref="Patent22691" type="Patent">
+			<semanticIdentifier>brcris::d9294d73c9ff0335454863cfadbf13a5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9304590A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9304590</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9304590A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939304590</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9304590"/>
+			<field name="identifier.lattes" value="3662687391650257"/>
+			<field name="identifier.espacenet" value="9304590"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de extração de um ácido poli-alfa-D-galacturônico (ácido péctico) de cactáceas"/>
+			<field name="title.lattes" value="Processo de extraçao de um ácido poli-alfa-D-galacturônico (ácido péctico) de cactáceas"/>
+			<field name="depositDate" value="1993-11-29"/>
+			<field name="publicationDate" value="1995-07-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="COSTA SILVIO CLAUDIO DA"/>
+			<field name="inventor" value="HIROSHI UTUMI"/>
+			<field name="inventor" value="JOSE DOMINGOS SANTANA"/>
+			<field name="inventor" value="MAURO ALVAREZ"/>
+			<field name="applicant" value="FUNDACAO BANCO DO BRASIL FBB"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07H1/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08B37/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="originatesFrom" value="4057721"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9304590"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9304590"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9304590"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939304590"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15685" type="Person">
+			<semanticIdentifier>lattes::3662687391650257</semanticIdentifier>
+			<field name="identifier.lattes" value="3662687391650257"/>
+			<field name="name" value="Jose Domingos Fontana"/>
+		</entity>
+		<entity ref="OrgUnit12192" type="OrgUnit">
+			<semanticIdentifier>brcris::e2506f938555d6bfe6ccf0c4e3276fcf</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22691" toEntityRef="Person15685" type="Inventor"/>
+		<relation fromEntityRef="Patent22691" toEntityRef="OrgUnit12192" type="Applicant"/>
+	</relations>
+</entity-relation-data>

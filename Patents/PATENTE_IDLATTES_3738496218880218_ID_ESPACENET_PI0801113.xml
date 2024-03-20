@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:29" record="34846" source="Espacenet">
+	<entities>
+		<entity ref="Patent34846" type="Patent">
+			<semanticIdentifier>brcris::58f7a5f86bfaa9ec13b6ccf83597a7dc</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801113A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0801113</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801113A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI01113</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0801113-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0801113"/>
+			<field name="identifier.lattes" value="3738496218880218"/>
+			<field name="identifier.espacenet" value="PI0801113"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de elevação retrátil para uso em veìculos com comando remoto inteligente"/>
+			<field name="title.lattes" value="Dispositivo de Elevação Retrátil para Uso em Veículos com Comando Remoto Inteligente"/>
+			<field name="depositDate" value="2008-03-27"/>
+			<field name="publicationDate" value="2009-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE RYUICHI HIRAKAWA"/>
+			<field name="inventor" value="JOSE ANTONIO JARDINI"/>
+			<field name="inventor" value="OSWALDO HORIKAWA"/>
+			<field name="applicant" value="COMPANHIA PAULISTA DE FORCA E LUZ"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO -USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO -USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B66F7/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="66"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO DE ELEVAçãO RETRáTIL PARA USO EM VEìCULOS COM COMANDO REMOTO INTELIGENTE. O presente pedido de patente tem como objeto um dispositivo de elevação retrátil que consiste de um sistema que eleva uma pessoa a uma altura desejada, mediante comandos elétricos. O dispositivo de elevação retrátil é equipado com um microprocessador o que será responsável pela transformação de comandos por parte do operador numa seqUência de comandos de maior simplicidade, destinados aos acionamentos dos motores elétricos (6, 7) . O mesmo microprocessador monitora sinais de sensores (9,10,11,12 e 13) distribuídos no dispositivo de elevação retrátil de modo a evitar acidentes. Trata-se de um sistema que é instalado numa caminhonete (8) e cuja estrutura principal pode ser recolhida, assumindo dimensões menores durante o seu transporte."/>
+			<field name="originatesFrom" value="41263760"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801113"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0801113"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801113"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI01113"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0801113-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23976" type="Person">
+			<semanticIdentifier>lattes::3738496218880218</semanticIdentifier>
+			<field name="identifier.lattes" value="3738496218880218"/>
+			<field name="name" value="Oswaldo Horikawa"/>
+		</entity>
+		<entity ref="OrgUnit18809" type="OrgUnit">
+			<semanticIdentifier>brcris::d560549db4a7d5d0dc27987d0d87ade0</semanticIdentifier>
+			<field name="name" value="COMPANHIA PAULISTA DE FORCA E LUZ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34846" toEntityRef="Person23976" type="Inventor"/>
+		<relation fromEntityRef="Patent34846" toEntityRef="OrgUnit18809" type="Applicant"/>
+	</relations>
+</entity-relation-data>

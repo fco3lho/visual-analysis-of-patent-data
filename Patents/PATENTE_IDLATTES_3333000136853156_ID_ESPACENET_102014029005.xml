@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:13" record="39995" source="Espacenet">
+	<entities>
+		<entity ref="Patent39995" type="Patent">
+			<semanticIdentifier>brcris::39b203591ad14db00bff91b171909c65</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029005A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029005</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029005A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029005</semanticIdentifier>
+			<semanticIdentifier>original::102014029005</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029005"/>
+			<field name="identifier.lattes" value="3333000136853156"/>
+			<field name="identifier.espacenet" value="102014029005"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="módulos de comunicação sem fios para geofones"/>
+			<field name="title.lattes" value="Módulos de Comunicação Sem Fio para Geofones"/>
+			<field name="depositDate" value="2014-11-21"/>
+			<field name="publicationDate" value="2016-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RAUHE ABDULHAMID"/>
+			<field name="inventor" value="RODRIGO PINTO LEMOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01V1/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01V1/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01V1/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01V1/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="módulos de comunicação sem fios para geofones. o produto desta invenção soluciona problemas introduzid s das redes convencionais no sensoriamento geofísico terrestre, tornando-o wireless, ou seja, independente de cabos. o protótipo proposto emprega comunicação wireless (sem fio) para transmitir a informação coletada nos eofones, de maneira ad hoc, até chegar na base coletora remota. a invenção é aplicável em zonas terrestres de prospecção sismica, porém dá-se margem para novas aplicações dos módulos-sensores em diversas soluções no mercado da engenharia, tais como: monitoramento e movimento em áreas remotas; manejamento florestal; medição de vibração e esteiras de academias; detecção de pequenas vibrações em ambientes de di icil acesso ou pouca flexibilidade de instalação elétrica cabeada; e detecção de vibrações de veículos em movimento sobre estradas."/>
+			<field name="originatesFrom" value="57003171"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029005"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029005"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014029005"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27222" type="Person">
+			<semanticIdentifier>lattes::3333000136853156</semanticIdentifier>
+			<field name="identifier.lattes" value="3333000136853156"/>
+			<field name="name" value="Rodrigo Pinto Lemos"/>
+		</entity>
+		<entity ref="OrgUnit21302" type="OrgUnit">
+			<semanticIdentifier>brcris::b1f2c79921deb4fdda2bdb4dd2e76b96</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39995" toEntityRef="Person27222" type="Inventor"/>
+		<relation fromEntityRef="Patent39995" toEntityRef="OrgUnit21302" type="Applicant"/>
+	</relations>
+</entity-relation-data>

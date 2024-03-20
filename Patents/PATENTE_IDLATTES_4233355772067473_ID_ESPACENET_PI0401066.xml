@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:15" record="17329" source="Espacenet">
+	<entities>
+		<entity ref="Patent17329" type="Patent">
+			<semanticIdentifier>brcris::e506b4b5b70c205975fd9436339dd093</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0401066A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0401066</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0401066A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI01066</semanticIdentifier>
+			<semanticIdentifier>original::0401066-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0401066"/>
+			<field name="identifier.lattes" value="4233355772067473"/>
+			<field name="identifier.espacenet" value="PI0401066"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Dispositivo para a correção do efeito da temperatura em amplificadores de antenas refletoras de radiotelescópios"/>
+			<field name="title.lattes" value="Dispositivo para a correção do efeito da temperatura em amplificadores de baixo ruído"/>
+			<field name="depositDate" value="2004-02-05"/>
+			<field name="publicationDate" value="2005-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GERALDO HENRIQUE FONSECA MELO"/>
+			<field name="applicant" value="GERALDO HENRIQUE FONSECA MELO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01Q23/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;DISPOSITIVO PARA A CORREçãO DO EFEITO DA TEMPERATURA EM AMPLIFICADORES DE ANTENAS REFLETORAS DE RADIOTELESCóPIOS&quot;. De acordo com a presente invenção, medidas erráticas devido a variações da temperatura no alimentador (2) onde está presente o amplificador (3) em uma antena refletora (1) de um radiotelescópio são canceladas com a utilização do processo e do dispositivo inventivo que coletam estas enviando-as para um microcomputador (9). Quando ocorrem variações na temperatura ambiente, o sensor de temperatura (4) do dispositivo inventivo altera sua resistência, o que ocasiona uma variação do sinal. Um amplificador operacional (5) amplifica esta variação que é convertida em um sinal digital por um conversor de sinais analógicos em sinais digitais - conversor A/D (6). Um conversor de dados paralelos em dados seriais (7) propicia a transmissão de forma serial dos dados provenientes do conversor A/D (6)utilizando um único canal. Para realizar a interface com a porta RS-232 de um microcomputador (9) é utilizando um circuito (8) que converte as amplitudes provenientes do conversor paralelo-série (7) em níveis RS-232 (&lt;sym&gt;12V). No microcomputador (9), um algoritmo inteligente é responsável pelo cancelamento do ruído ocasionado pela variação da temperatura, predizendo qual será a influência desta variação no sinal fornecendo adaptativamente o sinal desejado."/>
+			<field name="originatesFrom" value="35044363"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0401066"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0401066"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0401066"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI01066"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0401066-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12006" type="Person">
+			<semanticIdentifier>lattes::4233355772067473</semanticIdentifier>
+			<field name="identifier.lattes" value="4233355772067473"/>
+			<field name="name" value="Geraldo Henrique Fonseca Melo"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17329" toEntityRef="Person12006" type="Inventor"/>
+		<relation fromEntityRef="Patent17329" toEntityRef="Person12006" type="Depositor"/>
+	</relations>
+</entity-relation-data>

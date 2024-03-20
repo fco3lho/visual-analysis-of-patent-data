@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:28" record="40130" source="Espacenet">
+	<entities>
+		<entity ref="Patent40130" type="Patent">
+			<semanticIdentifier>brcris::2c5ca16f8d0abce5ea5447fbf660a616</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303856A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303856</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303856A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303856</semanticIdentifier>
+			<semanticIdentifier>original::0303856-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303856"/>
+			<field name="identifier.lattes" value="9073921650696148"/>
+			<field name="identifier.espacenet" value="0303856"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema para supervisão remota de redes ópticas e método para chaveamento de seletor óptico remoto"/>
+			<field name="title.lattes" value="Sistema para supervisão remota de redes ópticas e método para chaveamento de seletor óptico remoto"/>
+			<field name="depositDate" value="2003-09-18"/>
+			<field name="publicationDate" value="2005-05-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HELIO SILVINO DE ALMEIDA PRATA"/>
+			<field name="inventor" value="ROGERIO LARA LEITE"/>
+			<field name="inventor" value="ROGERIO LARA LEITE"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOEES"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B10/077AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="077AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA PARA SUPERVISãO REMOTA DE REDES óPTICAS E MéTODO PARA CHAVEAMENTO DE SELETOR óPTICO REMOTO&quot;. Constituído de um centralizado de supervisão óptica (CSO) 5b ao qual são ligados via rede metálica de dados 6b, uma pluralidade de pontos remotos de supervisão (PRS) 4d, formando um sistema de supervisão centralizado, no qual, cada PRS 4d, comanda, através das próprias rotas ópticas por ele supervisionadas, uma pluralidade de seletores remotos 12, integrados respectivamente por um acoplador WDM x, um receptor, um microcontrolador e um seletor óptico 13e. De acordo com outra característica da presente invenção, o sinal óptico utilizado para comandar o seletor remoto 12 é modulado pelo próprio laser do OTDR, de maneira transmitir o cabeçalho que identifica o sinal como sendo um comando, e o número do canal para o qual o seletor óptico 13e deve comutar para estabelecer a rota que o PRS 4d deseja supervisionar. No seletor remoto 12, o sinal óptico de supervisão é recebido pelo acoplador WDM x que divide esse sinal em duas partes, sendo uma parte encaminhada para o seletor óptico 13e e a outra parte desviada para o receptor, onde é convertida de sinal óptico para sinal elétrico digital, o qual é amplificado, e encaminhado para o microcontrolador que o identifica e decodifica, extraindo as informações com base nas quais comanda o seletor óptico 13e para verificar a sua operabilidade e estabelecer a rota de supervisão."/>
+			<field name="originatesFrom" value="34528920"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303856"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303856"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303856"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303856"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303856-4"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0303856"/>
+		</entity>
+		<entity ref="Person27335" type="Person">
+			<semanticIdentifier>lattes::9073921650696148</semanticIdentifier>
+			<field name="identifier.lattes" value="9073921650696148"/>
+			<field name="name" value="Rogério Lara Leite"/>
+		</entity>
+		<entity ref="Patent40131" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0303856</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="34528920"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0303856"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40130" toEntityRef="Person27335" type="Inventor"/>
+	</relations>
+</entity-relation-data>

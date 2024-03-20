@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:14" record="27285" source="Espacenet">
+	<entities>
+		<entity ref="Patent27285" type="Patent">
+			<semanticIdentifier>brcris::78675c67a11d42efccfa4e491f2e2692</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031499A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014031499</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031499A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141031499</semanticIdentifier>
+			<semanticIdentifier>original::102014031499</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014031499"/>
+			<field name="identifier.lattes" value="6020002287949740"/>
+			<field name="identifier.espacenet" value="102014031499"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sub-amostragem e conversão em frequência analógica no tempo discreto dispensando misturadores e osciladores com frequência variável"/>
+			<field name="title.lattes" value="Sub-amostragem e conversão em frequência analógica no tempo discreto dispensando misturadores e osciladores com frequência variável"/>
+			<field name="depositDate" value="2014-12-16"/>
+			<field name="publicationDate" value="2016-07-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIS HENRIQUE ASSUMPCAO LOLIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03D7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo sub-amostragem e conversão em frequência analógica no tempo discreto dispensando misturadores e osciladores com frequência variável esse documento visa apresentar uma nova técnica de conversão em frequência e amostragem para receptores de rádio- frequência (rf). essa estratégia está inserida no contexto de rádio definido por software (sdr - software defined radio). a técnica apresentada tem as seguintes vantagens: aplicar as operações de conversão em frequência e amostragem em uma única etapa; reduzir drasticamente a frequência do oscilador local através da sub- amostragem; e dispensar o uso de complexos circuitos de síntese de frequência, necessitando somente de gerar uma única frequência no oscilador local, aquela do conversor analógico digital (cad). a ideia principal é aliar a sub-amostragem com a conversão em frequência, fazendo variar a frequência do sinal de conversão em frequência aplicando uma modulação em amplitude do sinal amostrador. a técnica permite deslocar diferentes canais de sinais rf para a banda base sem alterar a frequência de amostragem, que permanece fixa e muito inferior a frequência da portadora do sinal em rf."/>
+			<field name="originatesFrom" value="56355230"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031499"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014031499"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031499"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141031499"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014031499"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18877" type="Person">
+			<semanticIdentifier>lattes::6020002287949740</semanticIdentifier>
+			<field name="identifier.lattes" value="6020002287949740"/>
+			<field name="name" value="Luis Henrique Assumpcao Lolis"/>
+		</entity>
+		<entity ref="OrgUnit14789" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27285" toEntityRef="Person18877" type="Inventor"/>
+		<relation fromEntityRef="Patent27285" toEntityRef="OrgUnit14789" type="Applicant"/>
+	</relations>
+</entity-relation-data>

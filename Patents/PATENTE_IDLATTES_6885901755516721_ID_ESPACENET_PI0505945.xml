@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:43" record="7269" source="Espacenet">
+	<entities>
+		<entity ref="Patent7269" type="Patent">
+			<semanticIdentifier>brcris::2521d94458ee7d43cf71fbca9fc3e908</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505945A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505945</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505945A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05945</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505945-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505945"/>
+			<field name="identifier.lattes" value="6885901755516721"/>
+			<field name="identifier.espacenet" value="PI0505945"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="classificador de disturbios de qualidade de energia elétrica de baixa complexidade computacional - low complexity event classification (lcec)"/>
+			<field name="title.lattes" value="Classificador de distúrbios de qualidade de energia elétrica de baixa complexidade computacional, Low Complexity Event Classification (LCEC)"/>
+			<field name="depositDate" value="2005-12-13"/>
+			<field name="publicationDate" value="2008-01-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUGUSTO SANTIAGO CERQUEIRA"/>
+			<field name="inventor" value="CARLOS AUGUSTO DUQUE"/>
+			<field name="inventor" value="MOISES VIDAL RIBEIRO"/>
+			<field name="inventor" value="MOISES VIDAL RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02H1/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="O CLASSIFICADOR DE DISTURBIOS DE QUALIDADE DE ENERGIA ELéTRICA DE BAIXA COMPLEXIDADE COMPUTACIONAL (Low Complexity Event Classification- LCEC) compreende de um método de classificação de distúrbios elétricos que afetam a qualidade da energia elétrica baseado no sinal de erro. O sinal de erro é definido como a diferença entre a componente fundamental do sinal de tensão e o sinal contendo o distúrbio elétrico. Este sinal de erro é alinhado, através de técnicas de processamento digital de sinais, com o objetivo de identificar o momento exato do inicio do evento, dentro da janela de erro. O sinal alinhado é sub-amostrado por um fator M, gerando um sinal de erro sub-amostrado, mas que contém a informação necessária para a diferenciação das diversas classes de distúrbio que afetam a qualidade de energia. Após a sub-amostragem o sinal é normalizado e apresentado a uma Rede Neural Artificial para a classificação. Ao mesmo tempo em que a eficiência da classificação é mantida o esforço computacional para realizar a classificação é reduzido drasticamente. O método é indicado para a implementação de classificadores de distúrbios de qualidade de energia operando em tempo real."/>
+			<field name="originatesFrom" value="38878544"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505945"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505945"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505945"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05945"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505945-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4885" type="Person">
+			<semanticIdentifier>lattes::6885901755516721</semanticIdentifier>
+			<field name="identifier.lattes" value="6885901755516721"/>
+			<field name="name" value="Carlos Augusto Duque"/>
+		</entity>
+		<entity ref="OrgUnit3868" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7269" toEntityRef="Person4885" type="Inventor"/>
+		<relation fromEntityRef="Patent7269" toEntityRef="OrgUnit3868" type="Applicant"/>
+	</relations>
+</entity-relation-data>

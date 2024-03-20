@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:59" record="38980" source="Espacenet">
+	<entities>
+		<entity ref="Patent38980" type="Patent">
+			<semanticIdentifier>brcris::968a6525b502108fcedd40a5f9766767</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013031836A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013031836</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013031836A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131031836</semanticIdentifier>
+			<semanticIdentifier>original::102013031836</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013031836"/>
+			<field name="identifier.lattes" value="1936100827379631"/>
+			<field name="identifier.espacenet" value="102013031836"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor capacitivo à base de paina (chorisia speciosa) para detecção de óleos em água"/>
+			<field name="title.lattes" value="Sensor capacitivo à base de paina (Chorisia speciosa) para detecção de óleos em água"/>
+			<field name="depositDate" value="2013-12-11"/>
+			<field name="publicationDate" value="2015-11-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO PARENTE RIBEIRO"/>
+			<field name="inventor" value="ROBERTA PAYE BARA"/>
+			<field name="inventor" value="THAIS HELENA SYDENSTRICKER FLORES-SAHAGUN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01R27/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sensor capacitivo à base de paina ( chorisia speciosa) para detecção de óleos em água. o sensor é composto de um capacitor formado por duas peças metálicas paralelas entre si, onde um tapete de paina (chorisia speciosa) é inserido entre os metais. as placas metálicas são dispostas paralelamente, sustentadas por um suporte não condutor (polimérico) lateral. um medidor de capacitância é conectado às placas. fios da paina trançados formam o tapete que fica no interior das placas metálicas dispostas paralelamente e que podem apresentar estrutura lisa, ou uma matriz em forma de grade ou ainda uma matriz de furos com pinos internos, o tapete de paina em contato com a água tem, um comportamento padrão mas na presença de óleo, o absorve, alterando a capacitância do sistema e indicando a presença de óleo em água."/>
+			<field name="originatesFrom" value="54548795"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013031836"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013031836"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013031836"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131031836"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013031836"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26664" type="Person">
+			<semanticIdentifier>lattes::1936100827379631</semanticIdentifier>
+			<field name="identifier.lattes" value="1936100827379631"/>
+			<field name="name" value="Roberta Paye Bara"/>
+		</entity>
+		<entity ref="OrgUnit20900" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38980" toEntityRef="Person26664" type="Inventor"/>
+		<relation fromEntityRef="Patent38980" toEntityRef="OrgUnit20900" type="Applicant"/>
+	</relations>
+</entity-relation-data>

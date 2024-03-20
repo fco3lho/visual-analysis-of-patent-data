@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:27:00" record="43285" source="Espacenet">
+	<entities>
+		<entity ref="Patent43285" type="Patent">
+			<semanticIdentifier>brcris::84ea008130d96d1c7b941c3f4e8accb6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012020183A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012020183</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012020183A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121020183</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 020183-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012020183"/>
+			<field name="identifier.lattes" value="4073806576367509"/>
+			<field name="identifier.espacenet" value="102012020183"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SACO DE PLÁSTICO DUAL"/>
+			<field name="title.lattes" value="Saco Plástico Dual"/>
+			<field name="depositDate" value="2012-08-13"/>
+			<field name="publicationDate" value="2014-09-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE SALGADO REIS PECANHA"/>
+			<field name="inventor" value="ALICE SOUTO DE VASCONCELOS TORRES"/>
+			<field name="inventor" value="ANA BUARQUE FERREIRA"/>
+			<field name="inventor" value="AYLA SANT'ANA DA SILVA"/>
+			<field name="inventor" value="BRUNO CAVALCANTI"/>
+			<field name="inventor" value="ERICA BORDINHO LEWIS"/>
+			<field name="inventor" value="FERNANDO LUIZ CYRINO OLIVEIRA"/>
+			<field name="inventor" value="GUSTAVO HENRIQUE SILVEIRA DE ARAUJO"/>
+			<field name="inventor" value="LEONARDO MOREIRA DA COSTA"/>
+			<field name="inventor" value="MARIANA VIEIRA ABRAHAO"/>
+			<field name="inventor" value="RAFAEL DIEGO DE SERRAO MORALEZ"/>
+			<field name="inventor" value="THAIANE MOREIRA DE OLIVEIRA"/>
+			<field name="applicant" value="FACULDADES CATOLICAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ABC"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B65D30/22AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="65"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SACO DE PLÁSTICO DUAL.A presente invenção se refere a um saco de plástico com dois compartimentos. Mais especificamente, se refere a um saco de plástico primeiramente intencionado para jogar lixo reciclável de dois tipos, por exemplo, um compartimento para pel/papelão/embalagens e um compartimento para material orgânico."/>
+			<field name="originatesFrom" value="51564857"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012020183"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012020183"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012020183"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121020183"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 020183-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29578" type="Person">
+			<semanticIdentifier>lattes::4073806576367509</semanticIdentifier>
+			<field name="identifier.lattes" value="4073806576367509"/>
+			<field name="name" value="Thaiane Moreira de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit23197" type="OrgUnit">
+			<semanticIdentifier>brcris::043c15f0585953bfcfea3f5d1a819bed</semanticIdentifier>
+			<field name="name" value="FACULDADES CATOLICAS"/>
+		</entity>
+		<entity ref="OrgUnit23198" type="OrgUnit">
+			<semanticIdentifier>brcris::35194764d99a1e00ba76cc075b709fb0</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO ABC"/>
+		</entity>
+		<entity ref="OrgUnit23199" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+		<entity ref="OrgUnit23200" type="OrgUnit">
+			<semanticIdentifier>brcris::b4e0e2d9cdc0f26db4523380edc59922</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43285" toEntityRef="Person29578" type="Inventor"/>
+		<relation fromEntityRef="Patent43285" toEntityRef="OrgUnit23197" type="Applicant"/>
+		<relation fromEntityRef="Patent43285" toEntityRef="OrgUnit23198" type="Applicant"/>
+		<relation fromEntityRef="Patent43285" toEntityRef="OrgUnit23199" type="Applicant"/>
+		<relation fromEntityRef="Patent43285" toEntityRef="OrgUnit23200" type="Applicant"/>
+	</relations>
+</entity-relation-data>

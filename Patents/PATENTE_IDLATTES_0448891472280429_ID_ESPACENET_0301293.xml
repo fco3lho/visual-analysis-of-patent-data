@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:05" record="20110" source="Espacenet">
+	<entities>
+		<entity ref="Patent20110" type="Patent">
+			<semanticIdentifier>brcris::1fec2a9bb6cb7b615ede08e7b9e8b931</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301293A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0301293</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301293A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030301293</semanticIdentifier>
+			<semanticIdentifier>original::0301293-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0301293"/>
+			<field name="identifier.lattes" value="0448891472280429"/>
+			<field name="identifier.espacenet" value="0301293"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método para dimensionamento de brake lights através de redes neurais artificiais"/>
+			<field name="title.lattes" value="Método Para Dimensionamento de Brake Lights Através de Redes Neurais Artificiais (Código INPI: PI0301293-0)"/>
+			<field name="depositDate" value="2003-05-08"/>
+			<field name="publicationDate" value="2004-12-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO VANDERLEI ORTEGA"/>
+			<field name="inventor" value="IVAN NUNES DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B60Q1/44AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO PARA DIMENSIONAMENTO DE BRAKE LIGHTS ATRAVéS DE REDES NEURAIS ARTIFICIAIS&quot;. Compreendendo basicamente as seguintes etapas. a)Inicialmente a primeira amostra é colocada no dispositivo de medição sendo o primeiro ângulo posicionado; faz-se a medição da intensidade luminosa e o valor é registrado; este procedimento é repetido até que se registre o valor da intensidade luminosa referente ao ultimo ângulo da amostra; b)a amostra é retirada do dispositivo e uma nova amostra é colocada para a medição da intensidade luminosa nos diferentes ângulos, este procedimento se repete até que se registre o último valor da intensidade luminosa referente ao último ângulo da última amostra; c)através dos dados de projeto e dos resultantes da medição da intensidade luminosa das amostras de brake lights nos diferentes ângulos, é realizado o treinamento de uma rede perceptron multicamadas sendo que durante esta fase é realizada uma variação dos parâmetros da rede, alterando-se o número de camadas, o número de neurónios por camada, a função de ativação de cada camada e o tipo de treinamento, a fim de se obter uma topologia de rede que gerasse o menor erro quadrático médio, e que garantisse que a generalização fosse eficiente."/>
+			<field name="originatesFrom" value="33557260"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301293"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0301293"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301293"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030301293"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0301293-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13971" type="Person">
+			<semanticIdentifier>lattes::0448891472280429</semanticIdentifier>
+			<field name="identifier.lattes" value="0448891472280429"/>
+			<field name="name" value="Ivan Nunes da Silva"/>
+		</entity>
+		<entity ref="OrgUnit10931" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20110" toEntityRef="Person13971" type="Inventor"/>
+		<relation fromEntityRef="Patent20110" toEntityRef="OrgUnit10931" type="Applicant"/>
+	</relations>
+</entity-relation-data>

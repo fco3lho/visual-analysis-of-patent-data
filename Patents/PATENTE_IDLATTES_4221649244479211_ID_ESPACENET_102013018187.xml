@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:33" record="35918" source="Espacenet">
+	<entities>
+		<entity ref="Patent35918" type="Patent">
+			<semanticIdentifier>brcris::82aea2c60bef2cf07f51ef10735eb611</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013018187A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013018187</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013018187A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131018187</semanticIdentifier>
+			<semanticIdentifier>original::102013018187</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013018187"/>
+			<field name="identifier.lattes" value="4221649244479211"/>
+			<field name="identifier.espacenet" value="102013018187"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produto fungicida, método para eliminar o fitopatógeno lasiodiplodia theobromae com uso de óleo essencial de lippia alba"/>
+			<field name="title.lattes" value="PRODUTO FUNGICIDA, MÉTODO PARA ELIMINAR O FITOPATÓGENO Lasiodiplodia theobromae COM USO DE ÓLEO ESSENCIAL DE Lippia alba"/>
+			<field name="depositDate" value="2013-07-17"/>
+			<field name="publicationDate" value="2016-03-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO FERREIRA DO NASCIMENTO JUNIOR"/>
+			<field name="inventor" value="ALYNE DANTAS LIMA"/>
+			<field name="inventor" value="ARIE FITZGERALD BLANK"/>
+			<field name="inventor" value="FABIO LEAL SANTOS DA SILVA"/>
+			<field name="inventor" value="JULIANA OLIVEIRA DE MELO"/>
+			<field name="inventor" value="MAGNA GALVAO PEIXOTO"/>
+			<field name="inventor" value="MARCELINO DE SOUZA SANTOS"/>
+			<field name="inventor" value="MARIA DE FATIMA ARRIGONI-BLANK"/>
+			<field name="inventor" value="MERCIA FREITAS ALVES"/>
+			<field name="inventor" value="PAULO ROBERTO GAGLIARDI"/>
+			<field name="inventor" value="PERICLES BARRETO ALVES"/>
+			<field name="inventor" value="ROGERIA DE SOUZA NUNES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01P3/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01N65/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="65"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="produto fungicida, metodo para eliminar o fitopat(§geno lasiodiplodia tlzeobromae com uso de qleo essencial de lippia alba . a presente invenoao refere-se, de maneira geral, a uma composio?o fungicida, a base de oleo essencial e/ou qualquer outro principio ativo de lippia alba particularmente para plantas, sendo a aplicagz?o em tecidos super?ciais de frutos, cascas, folhas, caule e/ou raizes, nos quais se deseja reduzir ou elifninar 0 ?topatégeno lasiodzplodia theobromae causador da podridao do fmto. as formulagoes da inveno?o se apresentam sob formas adequadas, por exemplo solugao, emulsao, 10950, pé, suspens?o, aerossol, spray, pour-on, gel, ?lme protetor ou qualquer composioao farmaceuticamente aceitavel, contendo entre ce1ca de 0,01% a 10% de oleo essencial de lippia alba, porcentagem em volume, um emulsi?cante representando 10% a 30% e um solvente com concentra&lt;;ao entre 10% a 30% e agua. -"/>
+			<field name="originatesFrom" value="55586880"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013018187"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013018187"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013018187"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131018187"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013018187"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24701" type="Person">
+			<semanticIdentifier>lattes::4221649244479211</semanticIdentifier>
+			<field name="identifier.lattes" value="4221649244479211"/>
+			<field name="name" value="Paulo Roberto Gagliardi"/>
+		</entity>
+		<entity ref="OrgUnit19374" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35918" toEntityRef="Person24701" type="Inventor"/>
+		<relation fromEntityRef="Patent35918" toEntityRef="OrgUnit19374" type="Applicant"/>
+	</relations>
+</entity-relation-data>

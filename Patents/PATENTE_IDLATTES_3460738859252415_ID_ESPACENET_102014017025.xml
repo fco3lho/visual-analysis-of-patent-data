@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:46" record="37933" source="Espacenet">
+	<entities>
+		<entity ref="Patent37933" type="Patent">
+			<semanticIdentifier>brcris::cf58df44941b375635147c659050f169</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014017025A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014017025</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014017025A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141017025</semanticIdentifier>
+			<semanticIdentifier>original::102014017025</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014017025"/>
+			<field name="identifier.lattes" value="3460738859252415"/>
+			<field name="identifier.espacenet" value="102014017025"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="microdispositivo com eletrodos concêntricos e seu processo de produção"/>
+			<field name="title.lattes" value="MICRODISPOSITIVO COM ELETRODOS CONCÊNTRICOS E SEU PROCESSO DE PRODUÇÃO"/>
+			<field name="depositDate" value="2014-07-10"/>
+			<field name="publicationDate" value="2016-02-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELO UIZ GOBBI"/>
+			<field name="inventor" value="EMANUEL CARRILHO"/>
+			<field name="inventor" value="RENATO SOUSA LIMA"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R27/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="microdispositivo com eletrodos concêntricos e seu processo de produção. microdispositivo com eletrodos concêntricos que compreende duas lâminas contendo, microcanais, eletrodos, dielétricos, e, reservatórios; e processo de produção de um microdispositivo com eletrodos concêntricos."/>
+			<field name="originatesFrom" value="55303333"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014017025"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014017025"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014017025"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141017025"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014017025"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26164" type="Person">
+			<semanticIdentifier>lattes::3460738859252415</semanticIdentifier>
+			<field name="identifier.lattes" value="3460738859252415"/>
+			<field name="name" value="Renato Sousa Lima"/>
+		</entity>
+		<entity ref="OrgUnit20513" type="OrgUnit">
+			<semanticIdentifier>brcris::8259a83e0c1f2225da8affeb25618bf4</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+		</entity>
+		<entity ref="OrgUnit20514" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37933" toEntityRef="Person26164" type="Inventor"/>
+		<relation fromEntityRef="Patent37933" toEntityRef="OrgUnit20513" type="Applicant"/>
+		<relation fromEntityRef="Patent37933" toEntityRef="OrgUnit20514" type="Applicant"/>
+	</relations>
+</entity-relation-data>

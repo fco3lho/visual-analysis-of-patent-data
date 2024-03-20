@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:40" record="20500" source="Espacenet">
+	<entities>
+		<entity ref="Patent20500" type="Patent">
+			<semanticIdentifier>brcris::f28a9c28c49d7e9ccf0f6e0f1ca6e95e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022081A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014022081</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022081A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141022081</semanticIdentifier>
+			<semanticIdentifier>original::102014022081</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014022081"/>
+			<field name="identifier.lattes" value="5305161085001591"/>
+			<field name="identifier.espacenet" value="102014022081"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="caixa d'água modular"/>
+			<field name="title.lattes" value="Caixa d´água modular"/>
+			<field name="depositDate" value="2014-09-05"/>
+			<field name="publicationDate" value="2016-03-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AGUINALDO DOS SANTOS"/>
+			<field name="inventor" value="ALESSANDRA ENRICONI"/>
+			<field name="inventor" value="ANGELO RECK NETO"/>
+			<field name="inventor" value="CLAUDIA REGINA HASEGAWA ZACAR"/>
+			<field name="inventor" value="DIEGO PAULINO SILVERIO"/>
+			<field name="inventor" value="GUILHERME LUTTI"/>
+			<field name="inventor" value="JAIRO DA COSTA JR"/>
+			<field name="inventor" value="JOAO VICTOR INACIO PEREIRA"/>
+			<field name="inventor" value="MARCOS DANIEL HUTTL"/>
+			<field name="inventor" value="ROBERTO HOMEM DE MELLO"/>
+			<field name="inventor" value="SANDER BRUNO GABRIEL FILHO"/>
+			<field name="inventor" value="SANDRO LUIS SILVA"/>
+			<field name="applicant" value="TIGRE S.A. - TUBOS E CONEXOES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E03B11/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="caixa d'água modular. a presente invenção refere-se a uma caixa d'água (1) constituída por módulos (2,3) que se alçam telescopicamente entre uma configuração encolhida e uma configuração estendida. a caixa d'água modular (1) compreende um módulo base (2) e pelo menos um módulo anelar (3), os ditos módulos (2,3) sendo concêntricos entre si, sendo que o módulo base (2) é dotado de uma superfície de fundo (7) e de paredes laterais (8) e sendo que o pelo menos um módulo anelar (3) tem perímetro maior que o módulo base (2), o pelo menos um módulo anelar (3) sendo ainda dimensionado para se encaixar de forma justa em torno do módulo base (2) quando o pelo menos um módulo anelar (3) é alçado."/>
+			<field name="originatesFrom" value="55586910"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022081"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014022081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022081"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141022081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014022081"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14232" type="Person">
+			<semanticIdentifier>lattes::5305161085001591</semanticIdentifier>
+			<field name="identifier.lattes" value="5305161085001591"/>
+			<field name="name" value="Jairo da Costa Junior"/>
+		</entity>
+		<entity ref="OrgUnit11143" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20500" toEntityRef="Person14232" type="Inventor"/>
+		<relation fromEntityRef="Patent20500" toEntityRef="OrgUnit11143" type="Applicant"/>
+	</relations>
+</entity-relation-data>

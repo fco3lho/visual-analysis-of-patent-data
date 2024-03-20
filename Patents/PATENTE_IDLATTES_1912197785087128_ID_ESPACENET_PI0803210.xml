@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:32" record="27779" source="Espacenet">
+	<entities>
+		<entity ref="Patent27779" type="Patent">
+			<semanticIdentifier>brcris::3c2705532090a6e1c2e76686eab464ff</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803210A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803210</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803210A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03210</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803210-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803210"/>
+			<field name="identifier.lattes" value="1912197785087128"/>
+			<field name="identifier.espacenet" value="PI0803210"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produto e processo de preparação de vidros pela reação de coacervação de polifosfatos em solução aquosa à temperatura ambiente"/>
+			<field name="title.lattes" value="Produto e Processo de Preparação de Vidros pela Reação de Coacervação de Polifosfatos em Solução Aquosa a temperatura Ambiente"/>
+			<field name="depositDate" value="2008-08-14"/>
+			<field name="publicationDate" value="2010-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ FERNANDO CAPPA DE OLIVEIRA"/>
+			<field name="inventor" value="MAURICIO ANTONIO PEREIRA DA SILVA"/>
+			<field name="inventor" value="SIDNEY JOSE LIMA RIBEIRO"/>
+			<field name="inventor" value="YOUNES MESSADDEQ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C03C1/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C01B25/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C03C3/16AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Para a preparação de vidros em temperatura ambiente, soluções de cloretos, iodetos, fluoretos, nitratos, sulfatos ou acetatos de metais alcalinos, alcalinos-terrosos e metais de transição são adicionadas lentamente a uma solução de Polifosfato de Sódio, sob constante agitação, seguido ou não pela adição de metanol ou etanol, dependendo da composição da mistura. Após um período de agitação constante o material é decantado, o sobrenadante descartado, e o coacervato resultante, mais denso, pode ser lavado com água destilada, O coacervato é então depositado em moldes e seco em dessecador com agentes secantes sob vácuo. O produto resultante possui todas as características de materiais vítreos. A presente invenção permite, em particular, a incorporação no vidro de diferentes produtos químicos, inorgânicos e/ou inorgânicos, promovendo diferentes características fisico-químicas aos materiais envolvidos, e diferentes aplicações podem ser vislumbradas."/>
+			<field name="originatesFrom" value="42234086"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803210"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803210"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803210"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03210"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803210-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19185" type="Person">
+			<semanticIdentifier>lattes::1912197785087128</semanticIdentifier>
+			<field name="identifier.lattes" value="1912197785087128"/>
+			<field name="name" value="Luiz Fernando Cappa de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit14943" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27779" toEntityRef="Person19185" type="Inventor"/>
+		<relation fromEntityRef="Patent27779" toEntityRef="OrgUnit14943" type="Applicant"/>
+	</relations>
+</entity-relation-data>

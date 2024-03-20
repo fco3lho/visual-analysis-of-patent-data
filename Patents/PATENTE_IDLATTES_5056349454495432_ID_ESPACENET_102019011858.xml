@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:56" record="9023" source="Espacenet">
+	<entities>
+		<entity ref="Patent9023" type="Patent">
+			<semanticIdentifier>brcris::1d3351dbc0f761f1d4d2154c82b308ef</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011858A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019011858</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011858A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191011858</semanticIdentifier>
+			<semanticIdentifier>original::102019011858</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019011858"/>
+			<field name="identifier.lattes" value="5056349454495432"/>
+			<field name="identifier.espacenet" value="102019011858"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para fabricação de válvula de ondas progressivas com estrutura de ondas lentas helicoidal"/>
+			<field name="title.lattes" value="Método para Fabricação de Válvulas de Ondas Progressivas com Estrutura de Ondas Lentas Helicoidal"/>
+			<field name="depositDate" value="2019-06-11"/>
+			<field name="publicationDate" value="2020-12-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO COSTA MOTTA"/>
+			<field name="inventor" value="DANIEL TEIXEIRA LOPES"/>
+			<field name="applicant" value="CENTRO TECNOLOGICO DA MARINHA EM SAO PAULO"/>
+			<field name="applicant" value="DIRETORIA-GERAL DE DESENVOLVIMENTO NUCLEAR E TECNOLOGICO DA MARINHA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01J23/16AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para fabricação de válvula de ondas progressivas com estrutura de ondas lentas helicoidal método para fabricação de válvula de ondas progressivas com estrutura de ondas lentas helicoidal. o método é separado na fabricação dos três componentes principais da válvula: o canhão de elétrons; o circuito de interação; e o coletor de elétrons. o canhão é fabricado em partes, tendo um corpo externo com os terminais de polarização e a lente eletrostática, enquanto um corpo interno contém o catodo termiônico e os refletores de radiação. o circuito de interação é divido em três partes: a seção do anodo complementa a estrutura aceleradora do canhão. a seção de entrada recebe o sinal de rf e alimenta a estrutura de ondas lentas helicoidal. a estrutura de helicoidal é fabricada enrolando-se uma fita de tungstênio em um mandril que contém a ranhura casada do perfil da hélice a ser fabricada. o coletor de elétrons é fabricado de forma similar ao canhão com o eletrodo principal compondo um corpo interno que é inserido no corpo externo que compõe o principal dissipador de calor. depois de montada e testada, a válvula passa por processo de condicionamento das superfícies internas, seguido da ativação de seu catodo termiônico, quando estará pronta para a montagem dos ímãs e os testes de desempenho."/>
+			<field name="originatesFrom" value="74184991"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011858"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019011858"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011858"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191011858"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019011858"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6150" type="Person">
+			<semanticIdentifier>lattes::5056349454495432</semanticIdentifier>
+			<field name="identifier.lattes" value="5056349454495432"/>
+			<field name="name" value="Cláudio Costa Motta"/>
+		</entity>
+		<entity ref="OrgUnit4855" type="OrgUnit">
+			<semanticIdentifier>brcris::4d3423e2413553c7f3faed57696bada2</semanticIdentifier>
+			<field name="name" value="CENTRO TECNOLOGICO DA MARINHA EM SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit4856" type="OrgUnit">
+			<semanticIdentifier>brcris::c393d5df010cb39b9da7b22bf989cb2c</semanticIdentifier>
+			<field name="name" value="DIRETORIA-GERAL DE DESENVOLVIMENTO NUCLEAR E TECNOLOGICO DA MARINHA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9023" toEntityRef="Person6150" type="Inventor"/>
+		<relation fromEntityRef="Patent9023" toEntityRef="OrgUnit4855" type="Applicant"/>
+		<relation fromEntityRef="Patent9023" toEntityRef="OrgUnit4856" type="Applicant"/>
+	</relations>
+</entity-relation-data>

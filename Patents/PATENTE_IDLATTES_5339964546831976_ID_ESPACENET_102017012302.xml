@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:09:47" record="35425" source="Espacenet">
+	<entities>
+		<entity ref="Patent35425" type="Patent">
+			<semanticIdentifier>brcris::465ecb08b5650f69047c981cd6b08a3d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017012302A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017012302</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017012302A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171012302</semanticIdentifier>
+			<semanticIdentifier>original::102017012302</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017012302"/>
+			<field name="identifier.lattes" value="5339964546831976"/>
+			<field name="identifier.espacenet" value="102017012302"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="protótipo de medidor do tempo de irradiação solar utilizando plataforma computacional embarcada"/>
+			<field name="title.lattes" value="Protótipo de Medidor do Tempo de Irradiação Solar Utilizando Plataforma Computacional Embarcada"/>
+			<field name="depositDate" value="2017-06-09"/>
+			<field name="publicationDate" value="2018-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAIO CRISOSTOMO PEREIRA"/>
+			<field name="inventor" value="JONATHAN BARROSO DE ARAUJO"/>
+			<field name="inventor" value="MARIA EUGENIA VIEIRA DA SILVA"/>
+			<field name="inventor" value="PAULO ALEXANDRE COSTA ROCHA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01J1/42AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="protótipo de medidor do tempo de irradiação solar utilizando plataforma computacional embarcada a patente de invenção proposta descreve um medidor do tempo de irradiação solar que utiliza plataforma computacional embarcada programada com um software desenvolvido pelos inventores, fazendo a leitura de seis ldrs que têm seus valores tratados e armazenados, a cada dois minutos, em um cartão de memória através de um módulo leitor/gravador periférico. os valores de tempo de irradiação são armazenados juntamente com os intervalos de tempo nos quais as coletas foram realizadas, possível devido à presença de um relógio de tempo real periférico. o medidor apresentou um baixo custo final, com grande facilidade para adaptação e com taxa média de acerto de 70,48%, sob uma pluralidade de situações testadas."/>
+			<field name="originatesFrom" value="65002948"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017012302"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017012302"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017012302"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171012302"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017012302"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24384" type="Person">
+			<semanticIdentifier>lattes::5339964546831976</semanticIdentifier>
+			<field name="identifier.lattes" value="5339964546831976"/>
+			<field name="name" value="Paulo Alexandre Costa Rocha"/>
+		</entity>
+		<entity ref="OrgUnit19161" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35425" toEntityRef="Person24384" type="Inventor"/>
+		<relation fromEntityRef="Patent35425" toEntityRef="OrgUnit19161" type="Applicant"/>
+	</relations>
+</entity-relation-data>

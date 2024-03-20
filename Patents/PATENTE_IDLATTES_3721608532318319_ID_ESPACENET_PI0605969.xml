@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:29" record="15872" source="Espacenet">
+	<entities>
+		<entity ref="Patent15872" type="Patent">
+			<semanticIdentifier>brcris::cc5d7dfbb233545ee67b23a610f6e564</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605969A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605969</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605969A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05969</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605969-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605969"/>
+			<field name="identifier.lattes" value="3721608532318319"/>
+			<field name="identifier.espacenet" value="PI0605969"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de codificação de imagens e vìdeos digitais utilizando técnica hìbrida wavelet-fractal"/>
+			<field name="title.lattes" value="Sistema de Segmentação de Pupila e da Íris em Imagens Digitais"/>
+			<field name="depositDate" value="2006-12-21"/>
+			<field name="publicationDate" value="2008-08-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA LUCIA MENDES CRUZ SILVESTRE DA SILVA"/>
+			<field name="inventor" value="FERNANDO SILVESTRE DA SILVA"/>
+			<field name="inventor" value="YUZO IANO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T9/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/36AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04N1/64AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE CODIFICAçãO DE IMAGENS E VìDEOS DIGITAIS UTILIZANDO TéCNICA HìBRIDA WAVELET-FRACTAL&quot;. A presente invenção se refere a um processo de codificação de imagens digitais o qual emprega uma combinação de codificação fractal associada a transformada Wavelet. Neste processo o codificador fractal é aplicado à camada de aproximação da imagem decomposta por transformada wavelet, de forma a realizar a compressão das imagens digitais obtidas a partir de uma informação visual, e prover uma maneira mais eficiente de armazenar e transmitir as referidas imagens digitais."/>
+			<field name="originatesFrom" value="39677506"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605969"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605969"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605969"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05969"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605969-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10999" type="Person">
+			<semanticIdentifier>lattes::3721608532318319</semanticIdentifier>
+			<field name="identifier.lattes" value="3721608532318319"/>
+			<field name="name" value="Fernando Silvestre da Silva"/>
+		</entity>
+		<entity ref="OrgUnit8596" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15872" toEntityRef="Person10999" type="Inventor"/>
+		<relation fromEntityRef="Patent15872" toEntityRef="OrgUnit8596" type="Applicant"/>
+	</relations>
+</entity-relation-data>

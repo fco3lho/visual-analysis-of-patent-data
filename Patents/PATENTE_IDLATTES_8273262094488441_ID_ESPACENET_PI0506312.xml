@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:25" record="9860" source="Espacenet">
+	<entities>
+		<entity ref="Patent9860" type="Patent">
+			<semanticIdentifier>brcris::eca0637b130237feb0168e326c862aa3</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0506312A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0506312</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0506312A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI06312</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0506312-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0506312"/>
+			<field name="identifier.lattes" value="8273262094488441"/>
+			<field name="identifier.espacenet" value="PI0506312"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="veìculo de exploração todo-terreno para uso geral"/>
+			<field name="title.lattes" value="PI 0506312-4 (B1) VEÍCULO DE EXPLORAÇÃO TODO-TERRENO PARA USO GERAL"/>
+			<field name="depositDate" value="2005-11-21"/>
+			<field name="publicationDate" value="2007-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CYRO KETZER SAUL"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E02F3/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="VEìCULO DE EXPLORAçãO TODO-PODEROSO PARA USO GERAL, constituído por uma estrutura externa, rígida ou flexível, preferncialmnte esférica e um sistema pendular interno capaz de gerar o deslocamento e o controle direcional mediante a mudança de sua posição, baseando-se no princípio físico de conservação de momento angular. O controle robótico, ou de forma remota por por intermédio de qualquer meio de transmissão de informação a distancia disponível. Os sistemas de acionamento empregados para gerar o movimento e o controle de direção podem ser eletromagnéticos, mecânicos, pneumáticos ou qualquer outro tipo definido pelo estado da arte no momento da fabricação. A vantagem desta configuração em relação aos veículos de exploração existentes está na sua forma preferencialmente esférica, que lhe permite deslocamento em terrenos irregulares planos ou inclinados. A localização dos elementos de acionamento no seu interior lhe confere uma segunda vantagem no que se refere à durabilidade de seus componentes, os quais podem ser completamente isolados do ambiente externo. Isto permite a aplicação em operações terrestres, espaciais, em ambientes de difícil acesso ou hostis. A simplicidadede seu sistema de acionamento permite um redução apreciável do numero de elementos de móveis com uma evidente redução de consumo energético, fato que é de extrema importância em aplicações espaciais. Este sistema ainda permite o uso de superfícies externas flexíveis, infláveis ou não, as quais podem ser empregadas como elementos de amortecimento em impactos, assim como para redução de volume útil até o momento do emprego do mesmo."/>
+			<field name="originatesFrom" value="38336753"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0506312"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0506312"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0506312"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI06312"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0506312-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6765" type="Person">
+			<semanticIdentifier>lattes::8273262094488441</semanticIdentifier>
+			<field name="identifier.lattes" value="8273262094488441"/>
+			<field name="name" value="Cyro Ketzer Saul"/>
+		</entity>
+		<entity ref="OrgUnit5337" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit5338" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9860" toEntityRef="Person6765" type="Inventor"/>
+		<relation fromEntityRef="Patent9860" toEntityRef="OrgUnit5337" type="Applicant"/>
+		<relation fromEntityRef="Patent9860" toEntityRef="OrgUnit5338" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:03" record="20099" source="Espacenet">
+	<entities>
+		<entity ref="Patent20099" type="Patent">
+			<semanticIdentifier>brcris::cd7ed320ac3722bfe2b55619321b2e5d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501389A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501389</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501389A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01389</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501389-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501389"/>
+			<field name="identifier.lattes" value="0619557363444436"/>
+			<field name="identifier.espacenet" value="PI0501389"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="aparelho eletromagnético de posicionamento linear com dinamometria e respectivo método de medição"/>
+			<field name="title.lattes" value="Aparelho eletromagnético de posicionamento linear com dinamometria e respectivo método de medição"/>
+			<field name="depositDate" value="2005-04-11"/>
+			<field name="publicationDate" value="2006-11-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CASSIO DE MIRANDA MEIRA JR"/>
+			<field name="inventor" value="GO TANI"/>
+			<field name="inventor" value="IVAN EDUARDO CHABU"/>
+			<field name="inventor" value="JOSE ROBERTO CARDOSO"/>
+			<field name="inventor" value="MARCELO ENDO FERRAZ DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08C19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;APARELHO ELETROMAGNéTICO DE POSICIONAMENTO LINEAR COM DINAMOMETRIA E RESPECTIVO MéTODO DE MEDIçãO&quot;. Refere-se o presente invento a um aparelho com a finalidade de simular situações reais de controle e aprendizagem de força e posicionamento espacial na execução de movimentos com os braços (por exemplo, a aplicação ou defesa de um golpe de judó ou a troca de câmbio de um veículo). O aparelho é constituído de um conjunto indutor e um conjunto induzido que configuram um freio eletromagnético linear (freio de Foucault linear). O conjunto indutor, excitado em corrente continua selecionável no painel de controle, permite um ajuste contínuo e suave da força de translação. O aparelho dispõe de dois sistemas de medição de forças, sendo um para medição do esforço de translação (força de perturbação ao movimento) e outro para medição do esforço de preensão do operador.Os sistemas de medição dos esforços são compostos por molas calibradas e transdutores do tipo LVDT. O sinal do transdutor, aplicado a um simples circuito elétrico no painel de controle, possibilita a medição em tempo real dos esforços exercidos, de forma simples, robusta e de baixo custo."/>
+			<field name="originatesFrom" value="37459895"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501389"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501389"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501389"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01389"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501389-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13960" type="Person">
+			<semanticIdentifier>lattes::0619557363444436</semanticIdentifier>
+			<field name="identifier.lattes" value="0619557363444436"/>
+			<field name="name" value="Ivan Eduardo Chabu"/>
+		</entity>
+		<entity ref="OrgUnit10924" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit10925" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20099" toEntityRef="Person13960" type="Inventor"/>
+		<relation fromEntityRef="Patent20099" toEntityRef="OrgUnit10924" type="Applicant"/>
+		<relation fromEntityRef="Patent20099" toEntityRef="OrgUnit10925" type="Applicant"/>
+	</relations>
+</entity-relation-data>

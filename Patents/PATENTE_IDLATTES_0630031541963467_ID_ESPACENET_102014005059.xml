@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:51" record="36111" source="Espacenet">
+	<entities>
+		<entity ref="Patent36111" type="Patent">
+			<semanticIdentifier>brcris::ce130130163bc4fc33ddbab023bd9789</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014005059A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014005059</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014005059A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141005059</semanticIdentifier>
+			<semanticIdentifier>original::102014005059</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014005059"/>
+			<field name="identifier.lattes" value="0630031541963467"/>
+			<field name="identifier.espacenet" value="102014005059"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aerogerador de velocidade variável e tensão e frequência constantes com regulação eletromagnética de frequência"/>
+			<field name="title.lattes" value="Aerogerador de Velocidade Variável e Tensão e Frequência Constantes com Regulação Eletromagnética de Frequência"/>
+			<field name="depositDate" value="2014-01-29"/>
+			<field name="publicationDate" value="2016-02-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="NAZARENO COSTA JUNIOR"/>
+			<field name="inventor" value="PAULO VITOR SILVA"/>
+			<field name="inventor" value="RICARDO FERREIRA PINHEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F03D7/04AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02P4/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02P101/15AN"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="15AN"/>
+			</field>
+			<field name="abstract.espacenet" value="aerogerador de velocidade variável e tensão e frequência constantes com regulação eletromagnética de frequência. o sistema tem como ponto principal, a diferenciá-lo da técnica atual, o uso de uma máquina de indução adaptada para operar como regulador eletromagnético de frequência (ou de velocidade), paralelamente à concepção da respectiva estratégia de controle. para tanto, o enrolamento trifásico de armadura da máquina de indução é alimentado eletricamente através de um conversor que injeta correntes a uma frequência tal que a velocidade do campo girante produzido, acrescida da velocidade da turbina, resulta em velocidade superior à velocidade síncrona desejada. o eixo que acomoda o enrolamento de armadura possui formato cilíndrico, permitindo concentricamente o giro de um rotor com enrolamento em gaiola de esquilo, cuja velocidade iguala à síncrona desejada. sendo o rotor em gaiola solidário ao eixo do gerador síncrono, é garantida a velocidade necessária para fornecer energia a uma rede ou cargas elétricas à frequência industrial. um gerador de indução também pode ser utilizado como gerador principal no lugar do síncrono, desde que a estratégia de controle seja adaptada para que assegure frequência gerada igual a da rede ao invés de velocidade síncrona no eixo do gerador."/>
+			<field name="originatesFrom" value="55182674"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014005059"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014005059"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014005059"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141005059"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014005059"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24834" type="Person">
+			<semanticIdentifier>lattes::0630031541963467</semanticIdentifier>
+			<field name="identifier.lattes" value="0630031541963467"/>
+			<field name="name" value="Paulo Vitor Silva"/>
+		</entity>
+		<entity ref="OrgUnit19488" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36111" toEntityRef="Person24834" type="Inventor"/>
+		<relation fromEntityRef="Patent36111" toEntityRef="OrgUnit19488" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:24" record="1374" source="Espacenet">
+	<entities>
+		<entity ref="Patent1374" type="Patent">
+			<semanticIdentifier>brcris::723befbadacf4646a4384af432eb1231</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8505201A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8505201</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8505201A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19858505201</semanticIdentifier>
+			<semanticIdentifier>original::8505201</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8505201"/>
+			<field name="identifier.lattes" value="5905967201590284"/>
+			<field name="identifier.espacenet" value="8505201"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="BOMBA A AR COMPRIMIDO"/>
+			<field name="title.lattes" value="Bomba de ar comprimido"/>
+			<field name="depositDate" value="1985-10-03"/>
+			<field name="publicationDate" value="1987-05-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX MAURICIO ARAUJO"/>
+			<field name="inventor" value="ANTONIO MARQUES DA COSTA SOARES JR"/>
+			<field name="inventor" value="CARLSON ANTONIO MENDES VERCOSA"/>
+			<field name="inventor" value="DAVI PESSOA FERRAZ"/>
+			<field name="inventor" value="EVERALDO ALENCAR DO NASCIMENTO FEITOSA"/>
+			<field name="inventor" value="JOSE ALMIR CIRILLO"/>
+			<field name="inventor" value="JOSE CARLOS CHARAMBA DUTRA"/>
+			<field name="inventor" value="NOEMIA GOMES DE MATTOS DE MESQUITA"/>
+			<field name="applicant" value="FINANCIADORA DE ESTUDOS E PROJETOS - FINEP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F03D9/17AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="17AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F03D9/28AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="originatesFrom" value="4038845"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8505201"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8505201"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8505201"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19858505201"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8505201"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1030" type="Person">
+			<semanticIdentifier>lattes::5905967201590284</semanticIdentifier>
+			<field name="identifier.lattes" value="5905967201590284"/>
+			<field name="name" value="Alex Maurício Araújo"/>
+		</entity>
+		<entity ref="OrgUnit816" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1374" toEntityRef="Person1030" type="Inventor"/>
+		<relation fromEntityRef="Patent1374" toEntityRef="OrgUnit816" type="Applicant"/>
+	</relations>
+</entity-relation-data>

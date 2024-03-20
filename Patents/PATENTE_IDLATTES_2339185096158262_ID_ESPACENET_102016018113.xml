@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:56" record="28365" source="Espacenet">
+	<entities>
+		<entity ref="Patent28365" type="Patent">
+			<semanticIdentifier>brcris::fb71c527c4470317aaa847d483ac86b7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018113A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016018113</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018113A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161018113</semanticIdentifier>
+			<semanticIdentifier>original::102016018113</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016018113"/>
+			<field name="identifier.lattes" value="2339185096158262"/>
+			<field name="identifier.espacenet" value="102016018113"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="proteína recombinante rbfl e seu uso como agente antiproliferativo"/>
+			<field name="title.lattes" value="PROTEINA RECOMBINANTE rBfl E SEU USO COMO AGENTE ANTIPROLIFERATIVO"/>
+			<field name="depositDate" value="2016-08-04"/>
+			<field name="publicationDate" value="2018-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE ALEX GRASSMANN"/>
+			<field name="inventor" value="CAROLINE RIZZI"/>
+			<field name="inventor" value="FREDERICO SCHMITT KREMER"/>
+			<field name="inventor" value="GUILHERME CARDOSO"/>
+			<field name="inventor" value="LAURA JUNQUEIRA DE CAMARGO"/>
+			<field name="inventor" value="LUCIANO DA SILVA PINTO"/>
+			<field name="inventor" value="MARA ANDRADE COLARES MAIA"/>
+			<field name="inventor" value="ODIR ANTONIO DELLAGOSTIN"/>
+			<field name="inventor" value="PAULA FERREIRA KNABAH"/>
+			<field name="inventor" value="RAFAEL CAGLIARI"/>
+			<field name="inventor" value="VINICIUS FARIAS CAMPOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K38/16AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07K14/42AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01N33/53AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se à produção da proteína rbfl, uma lectina recombinante produzida em bactéria transformada com o gene obtido da plantabauhiniaforficata e o uso desta proteína para inibir a proliferação de células. em particular, a invenção é uma possível solução alternativa para o tratamento do câncer e ou no teste diagnóstico específico para tipos de câncer."/>
+			<field name="originatesFrom" value="61970766"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018113"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016018113"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018113"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161018113"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016018113"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19592" type="Person">
+			<semanticIdentifier>lattes::2339185096158262</semanticIdentifier>
+			<field name="identifier.lattes" value="2339185096158262"/>
+			<field name="name" value="Mara Andrade Colares Maia"/>
+		</entity>
+		<entity ref="OrgUnit15279" type="OrgUnit">
+			<semanticIdentifier>brcris::5aa56af182c84d54a22c21eb8549aed1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28365" toEntityRef="Person19592" type="Inventor"/>
+		<relation fromEntityRef="Patent28365" toEntityRef="OrgUnit15279" type="Applicant"/>
+	</relations>
+</entity-relation-data>

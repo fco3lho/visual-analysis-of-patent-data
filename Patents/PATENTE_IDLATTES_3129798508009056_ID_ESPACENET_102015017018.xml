@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:44" record="2173" source="Espacenet">
+	<entities>
+		<entity ref="Patent2173" type="Patent">
+			<semanticIdentifier>brcris::dc9fb7d28cc50ecc4294e77f8f9aee41</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015017018A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015017018</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015017018A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151017018</semanticIdentifier>
+			<semanticIdentifier>original::102015017018</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015017018"/>
+			<field name="identifier.lattes" value="3129798508009056"/>
+			<field name="identifier.espacenet" value="102015017018"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de modificação da interface de biocerâmica com poli(?- caprolactona) de topologia estrelada para obtenção de nanocompósito biocompatível, biodegradável e bioreabsorvível"/>
+			<field name="title.lattes" value="PROCESSO DE MODIFICAÇÃO DA INTERFACE DE BIOCERÂMICA COM POLI(ÉPSILON-CAPROLACTONA) DE TOPOLOGIA ESTRELADA PARA A OBTENÇÃO DE NANOCOMPÓSITO BIOCOMPATÍVEL, BIODEGRADÁVEL E BIORREABSORVÍVEL."/>
+			<field name="depositDate" value="2015-07-16"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO ANTONIO ALENCAR DE QUEIROZ"/>
+			<field name="inventor" value="AMANDA DE CARVALHO PEREIRA MORAES"/>
+			<field name="inventor" value="ANA HELENA DE ALMEIDA BRESSIANI"/>
+			<field name="inventor" value="DANIELA SACHS"/>
+			<field name="inventor" value="ELENI CRISTINA KAIRALLA"/>
+			<field name="inventor" value="JOSE CARLOS BRESSIANI"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08L67/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61L31/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve o compósito obtido por acoplamento químico do poli(£-caprolactona) de topologia estrelada (pcs) com nanocristais elou microcristais de hidroxiapatita (hap). o processo de funcionalização química da superfície de hap com pcs para obtenção de um compósito com propriedades biodegradáveis, biocompatíveis e bioreabsorvível é obtido utilizando diferentes núcleos iniciadores."/>
+			<field name="originatesFrom" value="62954458"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015017018"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015017018"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015017018"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151017018"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015017018"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1589" type="Person">
+			<semanticIdentifier>lattes::3129798508009056</semanticIdentifier>
+			<field name="identifier.lattes" value="3129798508009056"/>
+			<field name="name" value="Alvaro Antonio Alencar de Queiroz"/>
+		</entity>
+		<entity ref="OrgUnit1196" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit1197" type="OrgUnit">
+			<semanticIdentifier>brcris::1181a7dc37385866177856d680d3cd6f</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2173" toEntityRef="Person1589" type="Inventor"/>
+		<relation fromEntityRef="Patent2173" toEntityRef="OrgUnit1196" type="Applicant"/>
+		<relation fromEntityRef="Patent2173" toEntityRef="OrgUnit1197" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:59" record="30310" source="Espacenet">
+	<entities>
+		<entity ref="Patent30310" type="Patent">
+			<semanticIdentifier>brcris::8ee04ee49f209bef1f134d01d0640097</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012022729A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012022729</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012022729A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121022729</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 022729-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012022729"/>
+			<field name="identifier.lattes" value="1221789114690533"/>
+			<field name="identifier.espacenet" value="102012022729"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="DISPOSITIVO PORTÁTIL PARA CICATRIZAÇÃO DE FERIDAS CUTÂNEAS"/>
+			<field name="title.lattes" value="Dispositivo Portátil Para Cicatrização de Feridas Cutâneas"/>
+			<field name="depositDate" value="2012-09-10"/>
+			<field name="publicationDate" value="2014-10-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL NEVES ROCHA"/>
+			<field name="inventor" value="MARCOS PINOTTI BARBOSA"/>
+			<field name="inventor" value="MARIA EMILIA DE ABREU CHAVES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61N5/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B6/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO PORTÁTIL PARA CICATRIZAÇÃO DE FERIDAS CUTÂNEAS O presente pedido de patente refere-se a um dispositivo portátil para cicatrização de feridas cosntituído por um filtro passa banda, que apresenta uma camada de vidro (1) para absorver a radiação infravermelha média e longa (acima de 1000 nm) e pelo menos uma camada de filme acrílico (2) para absorver a radiação ultravioleta (100 a 400 nm), presas nas extremidades por duas peças adesivas (3) para fixarem na pele do paciente; um medidor de potência (4) formado pelas mesmas camadas do filtro passa banda (1 e 2) e pelo sensor fotoelétrico (5); e um sistema de controle (9) composto por um microcontrolador, uma interface com o usuário (7), um display (6) e um componente de áudio (8). Esse dispositivo é capaz de absorver luz proveniente do sol ou emitida por um lâmpada branca e transmitir parte dessa radiação na faixa espectral de 400 a 1000 nm, a fim de promover a cicatrização de feridas cutâneas por meio da fotobiomodulação."/>
+			<field name="originatesFrom" value="51688527"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012022729"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012022729"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012022729"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121022729"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 022729-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20786" type="Person">
+			<semanticIdentifier>lattes::1221789114690533</semanticIdentifier>
+			<field name="identifier.lattes" value="1221789114690533"/>
+			<field name="name" value="Marcos Pinotti Barbosa"/>
+		</entity>
+		<entity ref="OrgUnit16244" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30310" toEntityRef="Person20786" type="Inventor"/>
+		<relation fromEntityRef="Patent30310" toEntityRef="OrgUnit16244" type="Applicant"/>
+	</relations>
+</entity-relation-data>

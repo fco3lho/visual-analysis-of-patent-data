@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:48" record="2231" source="Espacenet">
+	<entities>
+		<entity ref="Patent2231" type="Patent">
+			<semanticIdentifier>brcris::3c5d68ec5ab78ef1803aa4e87a3a184a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0106701A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0106701</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0106701A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010106701</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0106701-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0106701"/>
+			<field name="identifier.lattes" value="2761389246297718"/>
+			<field name="identifier.espacenet" value="0106701"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="atraentes de oviposição de mosquitos"/>
+			<field name="title.lattes" value="Atraentes de oviposição de mosquitos."/>
+			<field name="depositDate" value="2001-12-20"/>
+			<field name="publicationDate" value="2006-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADSON LUIS SANT'ANA"/>
+			<field name="inventor" value="ALVARO EDUARDO EIRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS - UFMG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="abstract.espacenet" value="&quot;ATRAENTES DE OVIPOSIçãO DE MOSQUITOS&quot;. Atraentes de mosquito foram identificados a partir de voláteis de infusões de folhas de gramíneas que são capazes de atrair fêmeas grávidas de mosquitos, principalmente do gênero Aedes, para armadilhas."/>
+			<field name="originatesFrom" value="36089586"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0106701"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0106701"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0106701"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010106701"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0106701-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0106701"/>
+		</entity>
+		<entity ref="Person1622" type="Person">
+			<semanticIdentifier>lattes::2761389246297718</semanticIdentifier>
+			<field name="identifier.lattes" value="2761389246297718"/>
+			<field name="name" value="Alvaro Eduardo Eiras"/>
+		</entity>
+		<entity ref="OrgUnit1218" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent2232" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0106701</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="36089586"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0106701"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2231" toEntityRef="Person1622" type="Inventor"/>
+		<relation fromEntityRef="Patent2231" toEntityRef="OrgUnit1218" type="Applicant"/>
+	</relations>
+</entity-relation-data>

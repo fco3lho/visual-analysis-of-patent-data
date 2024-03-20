@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:12" record="30427" source="Espacenet">
+	<entities>
+		<entity ref="Patent30427" type="Patent">
+			<semanticIdentifier>brcris::0d407801c5247e599df036b8c4a1cb9c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013024833A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013024833</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013024833A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131024833</semanticIdentifier>
+			<semanticIdentifier>original::102013024833</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013024833"/>
+			<field name="identifier.lattes" value="5616548479109270"/>
+			<field name="identifier.espacenet" value="102013024833"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de localização de fraudes e desvios de energia em redes de baixa tensão de distribuição de energia elétrica"/>
+			<field name="title.lattes" value="SISTEMA E PROCESSO DE LOCALIZAÇÃO DE FRAUDES E DESVIOS DE ENERGIA EM REDES DE BAIXA TENSÃO DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA"/>
+			<field name="depositDate" value="2013-09-27"/>
+			<field name="publicationDate" value="2015-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="INACIO LOIOLA PEREIRA CAMPOS"/>
+			<field name="inventor" value="MARCOS VALADAO ABI-ACKEL"/>
+			<field name="applicant" value="INACIO LOIOLA PEREIRA CAMPOS"/>
+			<field name="applicant" value="MARCOS VALADAO ABI-ACKEL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R11/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R13/34AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de localização de fraudes e desvios de energia em redes de baixa tensão de distribuição de energia elétrica. a presente invenção refere-se a um sistema para localização de fraudes e desvios de energia em redes de baixa tensão de empresas de distribuição de energia elétrica, indicando os pontos de medição adulterados nos casos de fraude e o intervalo ou intervalos de rede entre dois pontos de medição que apresentam desvio para furto de energia. a localização de fraudes e desvios de energia é feita por dois processos: 1) injeção de sinal de alta frequência, da ordem de centenas de vezes do valor nominal da rede no circuito secundário, com medição simultânea dos valores de tensão em alta frequência através de medidores instalados ao longo do circuito. a localização é feita através da análise do perfil de queda de tensão em alta frequência. 2) medição simultânea de corrente, tensão e ângulo na frequência nominal da rede, feita na central de comando e em grupos de medidores do circuito secundário. a localização é feita pela comparação entre os valores medidos pela central de comando e a soma fasorial dos valores de medição de cada grupo de medidores, tomados em grupos cada vez menores e otimizando-se o número de desligamentos na rede para o procedimento."/>
+			<field name="originatesFrom" value="54543561"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013024833"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013024833"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013024833"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131024833"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013024833"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20859" type="Person">
+			<semanticIdentifier>lattes::5616548479109270</semanticIdentifier>
+			<field name="identifier.lattes" value="5616548479109270"/>
+			<field name="name" value="Marcos Valadão Abi-Ackel"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30427" toEntityRef="Person20859" type="Inventor"/>
+		<relation fromEntityRef="Patent30427" toEntityRef="Person20859" type="Depositor"/>
+	</relations>
+</entity-relation-data>

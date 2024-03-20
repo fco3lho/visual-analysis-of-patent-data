@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:35" record="36567" source="Espacenet">
+	<entities>
+		<entity ref="Patent36567" type="Patent">
+			<semanticIdentifier>brcris::3cec6c2847164ad4df809c0758ccc189</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0913254A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0913254</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0913254A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI13254</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0913254-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0913254"/>
+			<field name="identifier.lattes" value="3766314612643280"/>
+			<field name="identifier.espacenet" value="PI0913254"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para disgnóstico de falhas em transformadores de distribuição e método"/>
+			<field name="title.lattes" value="Dispositivo para diagnóstico de falhas em transformadores de distribuição e método"/>
+			<field name="depositDate" value="2009-12-04"/>
+			<field name="publicationDate" value="2012-09-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL LUCIO DE SOUZA BORBA"/>
+			<field name="inventor" value="ELICE FERNANDO DE MELO"/>
+			<field name="inventor" value="ELICE FERNANDO DE MELO"/>
+			<field name="inventor" value="ERIVALDO COSTA COUTO"/>
+			<field name="inventor" value="PORFIRIO CABALEIRO CORTIZO"/>
+			<field name="inventor" value="WALLACE DO COUTO BOAVENTURA"/>
+			<field name="inventor" value="WALMIR MATOS CAMINHAS"/>
+			<field name="applicant" value="CEMIG D DISTRIBUICAO S.A"/>
+			<field name="applicant" value="CEMIG D DISTRIBUICAO S.A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO PARA DIAGNóSTICO DE FALHAS EM TRANSFORMADORES DE DISTRIBUIçãO E MéTODO A presente invenção refere-se a um equipamento leve, compacto,robusto, de fácil utilização, alimentado por uma bateria, que pode, inclusive, ser a do próprio veículo automotor responsável pelo atendimento da ocorrência, para ser utilizado em campo por um eletricista, e que realiza o diagnóstico da condição operativa dos transformadores de distribuição. Estando esse transformador em uma rede cuja proteção primária tenha atuado, não há a necessidade de se desconectar o enrolamento secundário. A confiabilidade no resultado desses testes, é consideravelmente incrementada, pois o núcleo de processamento desse equipamento é baseado em inteligência computacional, obtida a partir do processamento digital de sinais realizado por software dedicado embutido em um dispositivo Controlador Digital de Sinais - DSC."/>
+			<field name="originatesFrom" value="46750523"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0913254"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0913254"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0913254"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI13254"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0913254-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25167" type="Person">
+			<semanticIdentifier>lattes::3766314612643280</semanticIdentifier>
+			<field name="identifier.lattes" value="3766314612643280"/>
+			<field name="name" value="Porfirio Cabaleiro Cortizo"/>
+		</entity>
+		<entity ref="OrgUnit19751" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36567" toEntityRef="Person25167" type="Inventor"/>
+		<relation fromEntityRef="Patent36567" toEntityRef="OrgUnit19751" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:07" record="10688" source="Espacenet">
+	<entities>
+		<entity ref="Patent10688" type="Patent">
+			<semanticIdentifier>brcris::66ccd670e361d69fdfed566adaa5d186</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026028A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017026028</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026028A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171026028</semanticIdentifier>
+			<semanticIdentifier>original::102017026028</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017026028"/>
+			<field name="identifier.lattes" value="4128790994413223"/>
+			<field name="identifier.espacenet" value="102017026028"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para análise e reconhecimento de imagem para estudo do comportamento dimensional (inchamento e contração) de materiais higroscópicos"/>
+			<field name="title.lattes" value="Dispositivo de Reconhecimento e Análise de Imagem para Estudo do Comportamento Dimensional de Materiais Higroscópicos (Inchamento e Contração)"/>
+			<field name="depositDate" value="2017-12-04"/>
+			<field name="publicationDate" value="2019-06-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DAVID ROCHA MILSTED"/>
+			<field name="inventor" value="IVAN VENSON"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L23/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01L23/26AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo para análise e reconhecimento de imagem para estudo do comportamento dimensional (inchamento e contração) de materiais higroscópicos. a determinação do comportamento higroscópico de um material, ou seja, o quanto e como esse material sofre inchamento ou contração é de fundamental importância quando esse material é utilizado. porém, o método padrão de determinação é demorado, pouco preciso e sujeito a erros humanos. para aperfeiçoar o estudo do comportamento dimensional de materiais higroscópicos se sugere a não-remoção do material do ambiente com temperatura e umidade relativa do ar controladas, a fim de evitar interferências no equilíbrio higroscópico e alteração dimensional indesejada. essa melhoria é possibilitada por meio da utilização de um equipamento coletor de imagens (1) em um ambiente hermético (2 e 4) o qual pode ter sua temperatura e umidade relativa do ar controladas. o controle climático é realizado a partir de um sistema computacional (8) que aciona, por meio de uma interface i/o de controle (7), secador (5), umidificador (6) e aquecedor (10) de ar. o reconhecimento e análise de imagem também é realizada pelo sistema computacional, o qual solicita as imagens e informa (a) a variação dimensional da(s) amostra(s), (b) o ponto de saturação de materiais higroscópicos e (c) os percentuais de lenho inicial e tardio de corpos de prova de madeira."/>
+			<field name="originatesFrom" value="67294619"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026028"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017026028"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026028"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171026028"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017026028"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7427" type="Person">
+			<semanticIdentifier>lattes::4128790994413223</semanticIdentifier>
+			<field name="identifier.lattes" value="4128790994413223"/>
+			<field name="name" value="David Rocha Milsted"/>
+		</entity>
+		<entity ref="OrgUnit5898" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10688" toEntityRef="Person7427" type="Inventor"/>
+		<relation fromEntityRef="Patent10688" toEntityRef="OrgUnit5898" type="Applicant"/>
+	</relations>
+</entity-relation-data>

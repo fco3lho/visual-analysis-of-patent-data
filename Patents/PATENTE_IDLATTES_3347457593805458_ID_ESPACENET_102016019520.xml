@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:42" record="19838" source="Espacenet">
+	<entities>
+		<entity ref="Patent19838" type="Patent">
+			<semanticIdentifier>brcris::ddcc71b412aa3a542ff03fbd0a4420dc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019520A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019520</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019520A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019520</semanticIdentifier>
+			<semanticIdentifier>original::102016019520</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019520"/>
+			<field name="identifier.lattes" value="3347457593805458"/>
+			<field name="identifier.espacenet" value="102016019520"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="biossurfactante obtido por meio alternativo oriundo de material lignocelulósico"/>
+			<field name="title.lattes" value="BIOSSURFACTANTE OBTIDO POR MEIO ALTERNATIVO ORIUNDO DE MATERIAL LIGNOCELULÓSICO"/>
+			<field name="depositDate" value="2016-08-24"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE ALVES OLIVEIRA SANTOS PRADO"/>
+			<field name="inventor" value="ANITA MARIA DE LIMA"/>
+			<field name="inventor" value="DANIEL PEREIRA DA SILVA"/>
+			<field name="inventor" value="DENISE SANTOS RUZENE"/>
+			<field name="inventor" value="ISABELA MARIA MONTEIRO VIEIRA"/>
+			<field name="inventor" value="LARISSA CASTOR RAMOS"/>
+			<field name="inventor" value="ROBERTO RODRIGUES DE SOUZA"/>
+			<field name="applicant" value="SERGIPE QUIMICA E SERVICOS LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C1/20AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P5/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/07AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="07AN"/>
+			</field>
+			<field name="abstract.espacenet" value="biossurfactante obtido por meio alternativo oriundo de material lignocelulósico. a presente invenção diz respeito ao uso de frações ricas em hemiceluloses oriundas de sabugo de milho, obtida por intermédio de tratamento com compostos alcalinos, para utilização como meio de cultura em processo fermentativo por uso de bactérias do gênero bacillus para produção de biossurfactantes. o invento demonstra caráter inovador pela proposição de tratamento e utilização de um resíduo agrícola ou agroindustrial que não possui valor agregado obtido a partir da cultura do milho (setor agrícola) ou do seu processamento (setor agroindustrial) para que possa ser empregado como fonte de carbono por microrganismos produtores de biossurfactantes. tais características, por conseguinte, tornam a produção de biossurfactantes empregando fração hemicelulósica sabugo de milho pré-tratado como fonte de carbono uma opção promissora para o setor industrial e biotecnológico, já que haverá diminuição nos custos de produção de biossurfactantes permitindo assim a substituição progressiva dos surfactantes sintéticos."/>
+			<field name="originatesFrom" value="61973153"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019520"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019520"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019520"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13798" type="Person">
+			<semanticIdentifier>lattes::3347457593805458</semanticIdentifier>
+			<field name="identifier.lattes" value="3347457593805458"/>
+			<field name="name" value="Isabela Maria Monteiro Vieira"/>
+		</entity>
+		<entity ref="OrgUnit10787" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19838" toEntityRef="Person13798" type="Inventor"/>
+		<relation fromEntityRef="Patent19838" toEntityRef="OrgUnit10787" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:20" record="38364" source="Espacenet">
+	<entities>
+		<entity ref="Patent38364" type="Patent">
+			<semanticIdentifier>brcris::be933450ae1c50159425744a020b9f4d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031559A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015031559</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031559A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151031559</semanticIdentifier>
+			<semanticIdentifier>original::102015031559</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015031559"/>
+			<field name="identifier.lattes" value="8426768558256309"/>
+			<field name="identifier.espacenet" value="102015031559"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para avaliação de desempenho de combustíveis em motores do ciclo brayton"/>
+			<field name="title.lattes" value="Dispositivo para avaliação de desempenho de combustíveis em motores do Ciclo Brayton"/>
+			<field name="depositDate" value="2015-12-16"/>
+			<field name="publicationDate" value="2017-07-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMIR ANTONIO MARTINS DE OLIVEIR J"/>
+			<field name="inventor" value="AMIR ROBERTO DE TONI JUNIOR"/>
+			<field name="inventor" value="EDIMILSON JESUS DE OLIVEIRA"/>
+			<field name="inventor" value="LEANDRO ALVES DE OLIVEIRA"/>
+			<field name="inventor" value="LEONEL RINCON CANCINO"/>
+			<field name="inventor" value="MAURO IURK ROCHA"/>
+			<field name="inventor" value="RICARDO MOREL HARTMANN"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N25/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo dispositivo para avaliação de desempenho de combustíveis em motores do ciclo brayton é descrito um dispositivo para a simulação da combustão de correntes de hidrocarbonetos na fração querosene em turbinas de aviação. 1 / 1"/>
+			<field name="originatesFrom" value="61622218"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031559"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015031559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031559"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151031559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015031559"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26398" type="Person">
+			<semanticIdentifier>lattes::8426768558256309</semanticIdentifier>
+			<field name="identifier.lattes" value="8426768558256309"/>
+			<field name="name" value="Ricardo Morel Hartmann"/>
+		</entity>
+		<entity ref="OrgUnit20686" type="OrgUnit">
+			<semanticIdentifier>brcris::ecee5f2da62582a0cd34092d7070e4a6</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit20687" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38364" toEntityRef="Person26398" type="Inventor"/>
+		<relation fromEntityRef="Patent38364" toEntityRef="OrgUnit20686" type="Applicant"/>
+		<relation fromEntityRef="Patent38364" toEntityRef="OrgUnit20687" type="Applicant"/>
+	</relations>
+</entity-relation-data>

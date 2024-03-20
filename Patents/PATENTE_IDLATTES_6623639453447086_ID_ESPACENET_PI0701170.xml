@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:00:20" record="30900" source="Espacenet">
+	<entities>
+		<entity ref="Patent30900" type="Patent">
+			<semanticIdentifier>brcris::dd358a1da35ceff1e419234b04b2db0f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701170A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0701170</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701170A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI01170</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0701170-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0701170"/>
+			<field name="identifier.lattes" value="6623639453447086"/>
+			<field name="identifier.espacenet" value="PI0701170"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de obtenção de barra de cereal utilizando casca de frutas e sementes de linhaça"/>
+			<field name="title.lattes" value="Processo de Obtenção de barra de cereal utilizando casca de frutas e sementes de linhaça"/>
+			<field name="depositDate" value="2007-03-16"/>
+			<field name="publicationDate" value="2008-11-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA NERY DE OLIVEIRA"/>
+			<field name="inventor" value="JESUI VERGILIO VISENTAINER"/>
+			<field name="inventor" value="MAKOTO MATSUSHITA"/>
+			<field name="inventor" value="MARIA CRISTINA MILINSK"/>
+			<field name="inventor" value="NILSON EVELAZIO DE SOUZA"/>
+			<field name="inventor" value="NILSON EVELAZIO DE SOUZA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23L7/117AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="117AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE OBTENçãO DE BARRA DE CEREAL UTILIZANDO CASCAS DE FRUTAS E SEMENTES DE LINHAçA. Trata-se de um novo processo de fabricação de barra de cereal para consumo humano, utilizando como matéria-prima cascas de frutas, resíduo geralmente descartado pelas indústrias de polpa e suco de frutas, e com adição de sementes de linhaça, que é uma forma de se disponibilizar ao mercado um alimento rico em ácidos graxos poliinsaturados da série n-3."/>
+			<field name="originatesFrom" value="39924752"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701170"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0701170"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701170"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI01170"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0701170-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21192" type="Person">
+			<semanticIdentifier>lattes::6623639453447086</semanticIdentifier>
+			<field name="identifier.lattes" value="6623639453447086"/>
+			<field name="name" value="Maria Cristina Milinsk"/>
+		</entity>
+		<entity ref="OrgUnit16544" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit16545" type="OrgUnit">
+			<semanticIdentifier>brcris::e2506f938555d6bfe6ccf0c4e3276fcf</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30900" toEntityRef="Person21192" type="Inventor"/>
+		<relation fromEntityRef="Patent30900" toEntityRef="OrgUnit16544" type="Applicant"/>
+		<relation fromEntityRef="Patent30900" toEntityRef="OrgUnit16545" type="Applicant"/>
+	</relations>
+</entity-relation-data>

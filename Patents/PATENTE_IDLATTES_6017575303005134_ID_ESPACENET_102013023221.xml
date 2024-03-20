@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:23" record="40602" source="Espacenet">
+	<entities>
+		<entity ref="Patent40602" type="Patent">
+			<semanticIdentifier>brcris::a2b57da1a49a1e75241998eeadf1a15a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013023221A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013023221</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013023221A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131023221</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 023221-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013023221"/>
+			<field name="identifier.lattes" value="6017575303005134"/>
+			<field name="identifier.espacenet" value="102013023221"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Processo de síntese de fenolftaleína bisfosfato tetrassódio e kit"/>
+			<field name="title.lattes" value="Processo de síntese e formulação da fenolftaleína bifosfato tetrassódio um reagente forense a ser empregado no combate ao crime de estupro."/>
+			<field name="depositDate" value="2013-09-11"/>
+			<field name="publicationDate" value="2015-08-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIZ MAZZEI ALBERT"/>
+			<field name="inventor" value="CLAUDIO CERQUEIRA LOPES"/>
+			<field name="inventor" value="PAULO ROBERTO MIGUEL FRAGAS"/>
+			<field name="inventor" value="ROSANGELA SABBATINI CAPELLA LOPES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07F9/655AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="655AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo de síntese de fenolftaleína bisfosfato tetrassódio e kit. A presente invenção refere-se a um processo de sintese do composto fenolftaleína bisfosfato tetrassódio utilizando trietilamina.mais especificamente, o composto da presente invenção permite a identificação in loco da enzima fosfatase ácida, presente em manchas de sêmen, aplicável a casos de denúncias de crimes de estupro"/>
+			<field name="originatesFrom" value="52664860"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013023221"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013023221"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013023221"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131023221"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 023221-1"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2015035487"/>
+		</entity>
+		<entity ref="Person27657" type="Person">
+			<semanticIdentifier>lattes::6017575303005134</semanticIdentifier>
+			<field name="identifier.lattes" value="6017575303005134"/>
+			<field name="name" value="Rosangela Sabbatini Capella Lopes"/>
+		</entity>
+		<entity ref="OrgUnit21624" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+		<entity ref="Patent40603" type="Patent">
+			<semanticIdentifier>epodoc::WO2015035487</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="52664860"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2015035487"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40602" toEntityRef="Person27657" type="Inventor"/>
+		<relation fromEntityRef="Patent40602" toEntityRef="OrgUnit21624" type="Applicant"/>
+	</relations>
+</entity-relation-data>

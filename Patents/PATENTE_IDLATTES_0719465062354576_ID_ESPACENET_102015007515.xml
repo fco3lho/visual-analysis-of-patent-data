@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:42" record="34374" source="Espacenet">
+	<entities>
+		<entity ref="Patent34374" type="Patent">
+			<semanticIdentifier>brcris::dd58674514206895a0330b1f5ae0ab2e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015007515A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015007515</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015007515A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151007515</semanticIdentifier>
+			<semanticIdentifier>original::102015007515</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015007515"/>
+			<field name="identifier.lattes" value="0719465062354576"/>
+			<field name="identifier.espacenet" value="102015007515"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compostos sintéticos pirimidínicos e seus derivados, processo para sua obtenção e seu respectivo uso"/>
+			<field name="title.lattes" value="Compostos sintéticos pirimidínicos e seus derivados, processo para sua obtenção e seus respectivo uso"/>
+			<field name="depositDate" value="2015-04-02"/>
+			<field name="publicationDate" value="2016-11-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CASSIANA MACAGNAN VIAU"/>
+			<field name="inventor" value="HELIO GAUZE BONACORSO"/>
+			<field name="inventor" value="JENIFER SAFFI"/>
+			<field name="inventor" value="JOSIANE MORAES DOS SANTOS"/>
+			<field name="inventor" value="MARCIO MARCAL LOBO"/>
+			<field name="inventor" value="MARCOS ANTONIO PINTO MARTINS"/>
+			<field name="inventor" value="NILO ZANATTA"/>
+			<field name="inventor" value="SIMONE SCHNEIDER AMARAL"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE CIENCIAS DA SAUDE DE PORTO ALEGRE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D413/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="413"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="compostos sintéticos pirimidínicos e seus derivados, processo para sua obtenção e seu respectivo uso a presente patente de invenção corresponde a uma classe de compostos sintéticos pirimidínicos quimicamente definidos como 1-(3-aril-4,5-diidroisoxazol-5-il)-metil-4-trialometil-1h-pirimidin-2-onas, e seus derivados (sais), processo de síntese para sua obtenção, o qual, emprega uma metodologia simplificada com poucos passos reacionais e lapso temporal reduzido, bem como, o respectivo uso da aludida classe de compostos como inibidores potentes e seletivos frente à linhagens humanas tumorais para aplicação como princípio ativo em formulação farmacêuticas antineoplásicas"/>
+			<field name="originatesFrom" value="57223403"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015007515"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015007515"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015007515"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151007515"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015007515"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23654" type="Person">
+			<semanticIdentifier>lattes::0719465062354576</semanticIdentifier>
+			<field name="identifier.lattes" value="0719465062354576"/>
+			<field name="name" value="Nilo Zanatta"/>
+		</entity>
+		<entity ref="OrgUnit18552" type="OrgUnit">
+			<semanticIdentifier>brcris::f899f1377c8a2fc052b1ab8f3940b1ec</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE CIENCIAS DA SAUDE DE PORTO ALEGRE"/>
+		</entity>
+		<entity ref="OrgUnit18553" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34374" toEntityRef="Person23654" type="Inventor"/>
+		<relation fromEntityRef="Patent34374" toEntityRef="OrgUnit18552" type="Applicant"/>
+		<relation fromEntityRef="Patent34374" toEntityRef="OrgUnit18553" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:04" record="33983" source="Espacenet">
+	<entities>
+		<entity ref="Patent33983" type="Patent">
+			<semanticIdentifier>brcris::984472e9a0ba5bd084e1b19e162f2cd4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505299A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505299</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505299A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05299</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505299-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505299"/>
+			<field name="identifier.lattes" value="7992694643607149"/>
+			<field name="identifier.espacenet" value="PI0505299"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de produção de etanol a partir do hidrolisado da fração hemicelulósica do bagaço de cana-de-açúcar em reator do tipo prensa"/>
+			<field name="title.lattes" value="Processo de Produção de Etanol a partir do Hidrolisado da Fração Hemicelulosica do Bagaço de Cana-de-Açúcar em Reator do Tipo Prensa"/>
+			<field name="depositDate" value="2005-11-11"/>
+			<field name="publicationDate" value="2007-08-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABSAI DA CONCEICAO GOMES"/>
+			<field name="inventor" value="EMERSON PIRES MENEZES"/>
+			<field name="inventor" value="GABRIEL JAIME VARGAS BITANCUR"/>
+			<field name="inventor" value="JULIANA VAZ BEVILAQUA"/>
+			<field name="inventor" value="LIDIA MARIA MELO SANT'ANNA"/>
+			<field name="inventor" value="NEI PEREIRA JUNIOR"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P7/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PRODUçãO DE ETANOL A PARTIR DO HIDROLISADOR DA FRAçãO HEMICELULóSICA DO BRAGAçO DE CANA-DE-AçúCAR EM REATOR DO TIPO PRENSA A invenção trata de um processo de produção de etanol a partir de bagaço de cana, o qual tem como etapas principais a hidrólise branda com ácido da fração hemicelulósica do gagaço de cana seguida da extração do hidrolisado e sua posterior fermentação com a levedura Pichia stipitis. O processo pode ser realizado em diferentes condições de relação sólido: líquido, na etapa de hidrólise, e, prevê uma etapa de aclimatação da levedura Pichia stiptis, o que propicia uma maior produtividade na obtenção de etanol. O processo se passa em um reator do tipo prensa, especialmente projetado para esta finalidade, o que permite uma extração mais eficiente do hidrolisado, e, consequentemente, melhor performance do processo"/>
+			<field name="originatesFrom" value="38331895"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505299"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505299"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505299"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05299"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505299-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23427" type="Person">
+			<semanticIdentifier>lattes::7992694643607149</semanticIdentifier>
+			<field name="identifier.lattes" value="7992694643607149"/>
+			<field name="name" value="Nei Pereira Junior"/>
+		</entity>
+		<entity ref="OrgUnit18348" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33983" toEntityRef="Person23427" type="Inventor"/>
+		<relation fromEntityRef="Patent33983" toEntityRef="OrgUnit18348" type="Applicant"/>
+	</relations>
+</entity-relation-data>

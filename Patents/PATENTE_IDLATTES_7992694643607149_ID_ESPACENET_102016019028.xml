@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:05" record="34009" source="Espacenet">
+	<entities>
+		<entity ref="Patent34009" type="Patent">
+			<semanticIdentifier>brcris::cfa44171a4299ef0464a3d1830cab00f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019028A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019028</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019028A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019028</semanticIdentifier>
+			<semanticIdentifier>original::102016019028</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019028"/>
+			<field name="identifier.lattes" value="7992694643607149"/>
+			<field name="identifier.espacenet" value="102016019028"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para produção de ácido lático a partir de biomassa lignocelulósica"/>
+			<field name="title.lattes" value="Processo para Produção de Ácido Lático a partir de Biomassa Lignocelulósica"/>
+			<field name="depositDate" value="2016-08-17"/>
+			<field name="publicationDate" value="2018-04-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABSAI DA CONCEICAO GOMES"/>
+			<field name="inventor" value="ANA PAULA RODRIGUES TORRES"/>
+			<field name="inventor" value="LIDIA MARIA MELO SANTA ANNA"/>
+			<field name="inventor" value="NEI PEREIRA JUNIOR"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/22AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P7/56AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="56AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/225AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="225AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para produção de ácido lático a partir de biomassa lignocelulósica. a presente invenção se refere a um processo para produção de isômero específico de ácido lático a partir de biomassa lignocelulósica, em que tanto as pentoses quanto as hexoses disponíveis na biomassa são eficientemente convertidas e não há necessidade da realização da etapa de deslignificação ou qualquer outro processo de detoxificação. o processo aqui descrito compreende as etapas de pré- tratamento em condições ácidas brandas, separação da biomassa pré-tratada em uma fase líquida e uma fase sólida, neutralização da fase líquida, hidrólise enzimática da mistura líquida e sólida, fermentação lática realizada por um microrganismo produtor de ácido tático e obtenção do ácido lático."/>
+			<field name="originatesFrom" value="62062507"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019028"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019028"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019028"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019028"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019028"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23433" type="Person">
+			<semanticIdentifier>lattes::7992694643607149</semanticIdentifier>
+			<field name="identifier.lattes" value="7992694643607149"/>
+			<field name="name" value="Nei Pereira Junior"/>
+		</entity>
+		<entity ref="OrgUnit18355" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit18356" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34009" toEntityRef="Person23433" type="Inventor"/>
+		<relation fromEntityRef="Patent34009" toEntityRef="OrgUnit18355" type="Applicant"/>
+		<relation fromEntityRef="Patent34009" toEntityRef="OrgUnit18356" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:36" record="14755" source="Espacenet">
+	<entities>
+		<entity ref="Patent14755" type="Patent">
+			<semanticIdentifier>brcris::4b781abd17945a6fb1f2e574054ec395</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801331A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0801331</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801331A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI01331</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0801331-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0801331"/>
+			<field name="identifier.lattes" value="8539939787669526"/>
+			<field name="identifier.espacenet" value="PI0801331"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema portátil de fluorescência de raios x"/>
+			<field name="title.lattes" value="DESENVOLVIMENTO DE UM SISTEMA PORTÁTIL DE FLUORESCÊNCIA DE RAIOS X"/>
+			<field name="depositDate" value="2008-05-05"/>
+			<field name="publicationDate" value="2010-01-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ROBERTO APPOLONI"/>
+			<field name="inventor" value="FABIO LOPES"/>
+			<field name="inventor" value="FABIO LUIS MELQUIADES"/>
+			<field name="inventor" value="PAULO SERGIO PARREIRA"/>
+			<field name="inventor" value="VENANCIO FERREIRA DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/223AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="223AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA PORTáTIL DE FLUORESCêNCIA DE RAIOS X. A presente invenção consiste em um sistema portátil de Fluorescéncia de Raios X, contendo suporte mecânico especialmente desenvolvido para acomodar um mini-tubo de raios X e um mini-detector de raios X. O sistema foi desenvolvido para utilização tanto em laboratórios como in situ, para realização de análises semi-quantitativas e quantitativas, abrangendo diversos setores."/>
+			<field name="originatesFrom" value="41509603"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801331"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0801331"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801331"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI01331"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0801331-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10207" type="Person">
+			<semanticIdentifier>lattes::8539939787669526</semanticIdentifier>
+			<field name="identifier.lattes" value="8539939787669526"/>
+			<field name="name" value="Fábio Luiz Melquiades"/>
+		</entity>
+		<entity ref="OrgUnit7985" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14755" toEntityRef="Person10207" type="Inventor"/>
+		<relation fromEntityRef="Patent14755" toEntityRef="OrgUnit7985" type="Applicant"/>
+	</relations>
+</entity-relation-data>

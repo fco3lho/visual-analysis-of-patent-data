@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:05" record="8491" source="Espacenet">
+	<entities>
+		<entity ref="Patent8491" type="Patent">
+			<semanticIdentifier>brcris::5f6dd1adbf3542dd809a4fd26baa8c69</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017003926A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017003926</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017003926A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171003926</semanticIdentifier>
+			<semanticIdentifier>original::102017003926</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017003926"/>
+			<field name="identifier.lattes" value="8381515141542572"/>
+			<field name="identifier.espacenet" value="102017003926"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compressa fria elétrica"/>
+			<field name="title.lattes" value="COMPRESSA FRIA ELÉTRICA"/>
+			<field name="depositDate" value="2017-02-16"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES TACIRO"/>
+			<field name="inventor" value="ROBERTA LAZARI PADAVINI"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F7/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="compressa fria elétrica a presente invenção refere-se a um dispositivo de resfriamento, alimentado por baterias, que utiliza o efeito peltier para trocas de calor. o presente equipamento destina-se ao uso terapêutico de crioterapia, objetivando a diminuição da temperatura, reduzindo o metabolismo biológico, controlando a inflamação. possui interface de bolsa de gel, conferindo bom contato e conforto. como sistema de proteção, há sensores térmicos, para controle da temperatura da pele. na porção superior há um visor de cristal líquido para indicação de valores de temperatura, timer, alarme e botões de controle de parâmetros de temperatura e liga/desliga."/>
+			<field name="originatesFrom" value="64268838"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017003926"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017003926"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017003926"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171003926"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017003926"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5791" type="Person">
+			<semanticIdentifier>lattes::8381515141542572</semanticIdentifier>
+			<field name="identifier.lattes" value="8381515141542572"/>
+			<field name="name" value="Charles Taciro"/>
+		</entity>
+		<entity ref="OrgUnit4581" type="OrgUnit">
+			<semanticIdentifier>brcris::03c2b2c8dd0c202eab1bde92d80854a4</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8491" toEntityRef="Person5791" type="Inventor"/>
+		<relation fromEntityRef="Patent8491" toEntityRef="OrgUnit4581" type="Applicant"/>
+	</relations>
+</entity-relation-data>

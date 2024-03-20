@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:06" record="31282" source="Espacenet">
+	<entities>
+		<entity ref="Patent31282" type="Patent">
+			<semanticIdentifier>brcris::23d1213ba91e217dc75ce1720c7722a2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017015698A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017015698</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017015698A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171015698</semanticIdentifier>
+			<semanticIdentifier>original::102017015698</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017015698"/>
+			<field name="identifier.lattes" value="4947891787244417"/>
+			<field name="identifier.espacenet" value="102017015698"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de soldagem a laser para produção de fontes radioativas"/>
+			<field name="title.lattes" value="Processo de soldagem a laser para produção de fontes radioativas"/>
+			<field name="depositDate" value="2017-07-21"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANSELMO FEHER"/>
+			<field name="inventor" value="CARLA DARUICH DE SOUZA"/>
+			<field name="inventor" value="CARLOS ALBERTO ZEITUNI"/>
+			<field name="inventor" value="FRANCISCO EDMUNDO SPRENGER"/>
+			<field name="inventor" value="JOAO AUGUSTO MOURA"/>
+			<field name="inventor" value="MARIA ELISA CHUERY MARTINS ROSTELATO"/>
+			<field name="inventor" value="OSVALDO LUIZ DA COSTA"/>
+			<field name="inventor" value="SAMIR LUIZ SOMESSARI"/>
+			<field name="inventor" value="WILSON APARECIDO PAREJO CALVO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23K26/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="26"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de soldagem a laser para produção de fontes radioativas. a presente invenção refere-se a um processo de soldagem a laser para fontes radioativas utilizadas para tratamento de câncer. a complexidade devido ao tamanho diminuto do material e as exigências de proteção radiológica resultaram num processo único que demandou um estudo detalhado do desenvolvimento de suas etapas. o processo apresentado mostrou-se eficaz e capaz de produzir sementes de iodo-125 com soldas com acabamentos esféricos e qualidade que atendem aos critérios determinados nas normas iso 2919 e iso 9978. os parâmetros utilizados na soldagem a laser mostraram-se adequados, pois as sementes de iodo-125 produzidas não apresentaram poros ou falhas de selagem."/>
+			<field name="originatesFrom" value="67250271"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017015698"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017015698"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017015698"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171015698"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017015698"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21429" type="Person">
+			<semanticIdentifier>lattes::4947891787244417</semanticIdentifier>
+			<field name="identifier.lattes" value="4947891787244417"/>
+			<field name="name" value="Maria Elisa Chuery Martins Rostelato"/>
+		</entity>
+		<entity ref="OrgUnit16703" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31282" toEntityRef="Person21429" type="Inventor"/>
+		<relation fromEntityRef="Patent31282" toEntityRef="OrgUnit16703" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:37" record="1473" source="Espacenet">
+	<entities>
+		<entity ref="Patent1473" type="Patent">
+			<semanticIdentifier>brcris::14c9cc87c8f3762ca63ff42b3193d969</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013026889A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013026889</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013026889A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131026889</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 026889-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013026889"/>
+			<field name="identifier.lattes" value="7360563327585400"/>
+			<field name="identifier.espacenet" value="102013026889"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Quebra-cabeça tridimensional eletrônico"/>
+			<field name="title.lattes" value="Quebra-cabeça tridimensional eletrônico"/>
+			<field name="depositDate" value="2013-10-18"/>
+			<field name="publicationDate" value="2015-08-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE CESAR RODRIGUES DA SILVA"/>
+			<field name="inventor" value="PEDRO FERREIRA MAMEDE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A63F9/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A63F9/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Quebra-cabeça tridimensional eletrônico. É descrita a invenção de um quebra-cabeça tridimensional eletrônico de formato cúbico (100) onde cada face apresenta nove peças cúbicas distribuídas em três colunas, ditas peças cúbicas que, dependendo de seu posicionamento na face do cubo, são denominadas de peças centrais (c) (aquelas dispostas na porção central de cada face do corpo cúbico (100), apresentando somente uma das faces visível externamente (10)), peças medianas (m) (aquelas posicionadas adjacentes às peças centrais (c) e às peças de quina (q) e apresentam duas faces visíveis externamente (10)) e peças de quina (q) (peças dispostas nos quatro vértices de cada face do cubo (100) e apresentando três faces visíveis externamente (10)), tendo um dispositivo controlador programável que controla a iluminação das peças (c, m e q) de cada face através de trilhas deslizantes de condução de energia por contato mecânico, permitindo a livre movimentação mecânica do objeto, e funções como o auto embaralhamento das cores, a montagem automática do cubo e a função para salvar o estado atual da montagem do cubo pelo usuário."/>
+			<field name="originatesFrom" value="53901323"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013026889"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013026889"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013026889"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131026889"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 026889-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1106" type="Person">
+			<semanticIdentifier>lattes::7360563327585400</semanticIdentifier>
+			<field name="identifier.lattes" value="7360563327585400"/>
+			<field name="name" value="Alexandre César Rodrigues da Silva"/>
+		</entity>
+		<entity ref="OrgUnit868" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1473" toEntityRef="Person1106" type="Inventor"/>
+		<relation fromEntityRef="Patent1473" toEntityRef="OrgUnit868" type="Applicant"/>
+	</relations>
+</entity-relation-data>

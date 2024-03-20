@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:59" record="32535" source="Espacenet">
+	<entities>
+		<entity ref="Patent32535" type="Patent">
+			<semanticIdentifier>brcris::d7ca36fdd70fb705bec16d5cc9b2adf8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028342A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015028342</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028342A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151028342</semanticIdentifier>
+			<semanticIdentifier>original::102015028342</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015028342"/>
+			<field name="identifier.lattes" value="7988623395780708"/>
+			<field name="identifier.espacenet" value="102015028342"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para monitoramento do consumo energético de equipamentos de computação"/>
+			<field name="title.lattes" value="DISPOSITIVO PARA MONITORAMENTO DO CONSUMO ENERGÉTICO DE EQUIPAMENTOS DE COMPUTAÇÃO"/>
+			<field name="depositDate" value="2015-11-11"/>
+			<field name="publicationDate" value="2017-12-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMADEU ACIOLY LINO FILHO"/>
+			<field name="inventor" value="ANTONIO MANOEL RIBEIRO DE ALMEIDA"/>
+			<field name="inventor" value="MATEUS ARAUJO CARVALHO"/>
+			<field name="applicant" value="ANTONIO MANOEL RIBEIRO DE ALMEIDA"/>
+			<field name="applicant" value="MATEUS ARAUJO CARVALHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F1/3203AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="3203AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o &quot;dispositivo para monitoramento do consumo energético de equipamentos de computação&quot; é um dispositivo de firmware específico embarcado em um hardware universal, desenvolvido com o objetivo de realizar o monitoramento de equipamentos computacionais. funcionará assim: y o sensor sct-013-000 irá fazer a leitura do campo magnético que é gerado quando o fio de alimentação do equipamento computacional está carregado, após essa leitura os valores são enviados para a placa de circuito específica que é responsável por tratar a leitura dos valores e repassar para a placa arduino mega 2560, a mesma possui um firmware embarcado que detecta qual foi o sensor responsável por enviar aquele valor, logo em seguida o firmware é responsável por utilizar o ethernet shield w5100 juntamente com o protocolo snmp (simple network management protocol ou protocolo simples de gerenciamento de rede) para enviar os valores da leitura para um software de geração dos gráficos de consumo elétrico universal. o &quot;dispositivo para monitoramento do consumo energético de equipamentos de computação&quot; tem a seguinte composição: arduino mega 2560 (1), firmware específico escrito em linguagem de programação c/c++ (2), sensor sct-013-000 (3), placa de circuito específica (4), protocolo aberto snmp (5), caixa para encaixe do hardware universal (part number a000009) (6), conector p2 fêmea que ficará fixo na caixa para encaixe dos sensores (7), conector db-32 que fará a ligação entre a placa de circuito e os conectores p2 fêmea utilizados para encaixe dos sensores (8), shield ethernet w5100 (9), software genérico a escolha da empresa para geração dos gráficos de consumo elétrico (10)."/>
+			<field name="originatesFrom" value="62566708"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028342"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015028342"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028342"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151028342"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015028342"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22345" type="Person">
+			<semanticIdentifier>lattes::7988623395780708</semanticIdentifier>
+			<field name="identifier.lattes" value="7988623395780708"/>
+			<field name="name" value="Mateus Araújo Carvalho"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32535" toEntityRef="Person22345" type="Inventor"/>
+		<relation fromEntityRef="Patent32535" toEntityRef="Person22345" type="Depositor"/>
+	</relations>
+</entity-relation-data>

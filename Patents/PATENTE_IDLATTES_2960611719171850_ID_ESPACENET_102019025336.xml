@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:01" record="33420" source="Espacenet">
+	<entities>
+		<entity ref="Patent33420" type="Patent">
+			<semanticIdentifier>brcris::2666a3248f1d79d9e7c4ff18ed30397a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025336A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019025336</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025336A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191025336</semanticIdentifier>
+			<semanticIdentifier>original::102019025336</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019025336"/>
+			<field name="identifier.lattes" value="2960611719171850"/>
+			<field name="identifier.espacenet" value="102019025336"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de verificação de identidade multifatorial."/>
+			<field name="title.lattes" value="VERIFICAÇÃO MULTIFATORIAL DE IDENTIDADE"/>
+			<field name="depositDate" value="2019-11-29"/>
+			<field name="publicationDate" value="2021-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MOHAMMED IRFAN"/>
+			<field name="applicant" value="MOHAMMED IRFAN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F21/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de verificação de identidade multifatorial. é um método para verificar a identidade de um usuário, que inclui receber uma solicitação rápida de verificação de identidade de um usuário corporativo, a solicitação contendo elementos de dados pessoais selecionados de um usuário pessoa física cuja identidade deve ser verificada; acessar um banco de dados de verificação rápida e obter dados do usuário corporativo e do usuário pessoa física; enviando um sms contendo um pin único (otp) e dados selecionados do usuário corporativo, para um número de celular pessoal associado ao usuário; receber o otp do usuário corporativo; e confirmando a verificação positiva do usuário para o corporativo. mais especificamente, o método de verificação da identidade de um usuário pessoa física inclui: registro de usuário pessoa física capturando elementos de dados pessoais que podem incluir pelo menos o nome, sobrenome, número de identidade (rg; cpf; cnpj), impressões digitais e número de celular pessoal de usuário (cliente) e compilando um perfil de usuário no qual os elementos de dados pessoais estão associados. registro de um usuário corporativo capturando elementos de dados pessoais que podem incluem pelo menos o nome de usuário corporativo, sobrenome, número de identidade (cnpj), impressões digitais e número de celular e compilar um perfil de usuário corporativo no qual os elementos de dados pessoais estão associados. o método inclui a atribuição de um número de sistema exclusivo (também conhecido como número de gerenciamento de identidade global ou número de sistema) a cada usuário registrado. o método também inclui o enviodo número exclusivo do sistema ao usuário registrado após a conclusão do registro."/>
+			<field name="originatesFrom" value="76807348"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025336"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019025336"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025336"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191025336"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019025336"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23044" type="Person">
+			<semanticIdentifier>lattes::2960611719171850</semanticIdentifier>
+			<field name="identifier.lattes" value="2960611719171850"/>
+			<field name="name" value="Mohammed Irfan"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33420" toEntityRef="Person23044" type="Inventor"/>
+		<relation fromEntityRef="Patent33420" toEntityRef="Person23044" type="Depositor"/>
+	</relations>
+</entity-relation-data>

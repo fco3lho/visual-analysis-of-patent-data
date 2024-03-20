@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:13" record="34705" source="Espacenet">
+	<entities>
+		<entity ref="Patent34705" type="Patent">
+			<semanticIdentifier>brcris::c71b1a6ce0f5e644d967f9684ae06fe9</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0900271A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0900271</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0900271A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI00271</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0900271-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0900271"/>
+			<field name="identifier.lattes" value="7089479973667101"/>
+			<field name="identifier.espacenet" value="PI0900271"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de craqueamento e petróleo com laser de co2"/>
+			<field name="title.lattes" value="PROCESSO DE CRAQUEAMENTO DE PETRÓLEO COM LASER DE CO2"/>
+			<field name="depositDate" value="2009-02-06"/>
+			<field name="publicationDate" value="2010-10-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIZ JARDINI MUNHOZ"/>
+			<field name="inventor" value="CESAR BENEDITO BATISTELLA"/>
+			<field name="inventor" value="MARIA REGINA WOLF MACIEL"/>
+			<field name="inventor" value="OSCAR JAVIER CELIS ARIZA"/>
+			<field name="inventor" value="RUBENS MACIEL FILHO"/>
+			<field name="inventor" value="RUBENS MACIEL JR"/>
+			<field name="inventor" value="SERGIO ANDRES VILLALBA MORALES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10G15/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE CRAQUEAMENTO DE PETRóLEO COM LASER DE CO2. Um processo para o craqueamento rápido de petróleos pesados e resíduos ultra pesados de petróleo foi proposto com a finalidade de romper as cadeias de hidrocarbonetos pelo aquecimento (craqueamento) através da energia térmica gerada pela interação laser de CO2/petróleo. O processo é operado sob uma ampla variedade de condições de irradiação em uma faixa de temperatura entre 200 a 1000&lt;198&gt;C, suficiente para dar inicio as reações de craqueamento térmico."/>
+			<field name="originatesFrom" value="42990043"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0900271"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0900271"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0900271"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI00271"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0900271-5"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0900271E"/>
+		</entity>
+		<entity ref="Person23896" type="Person">
+			<semanticIdentifier>lattes::7089479973667101</semanticIdentifier>
+			<field name="identifier.lattes" value="7089479973667101"/>
+			<field name="name" value="Oscar Javier Celis Ariza"/>
+		</entity>
+		<entity ref="OrgUnit18746" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent34706" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0900271E</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="42990043"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0900271E"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34705" toEntityRef="Person23896" type="Inventor"/>
+		<relation fromEntityRef="Patent34705" toEntityRef="OrgUnit18746" type="Applicant"/>
+	</relations>
+</entity-relation-data>

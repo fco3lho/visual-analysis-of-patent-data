@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:20" record="15215" source="Espacenet">
+	<entities>
+		<entity ref="Patent15215" type="Patent">
+			<semanticIdentifier>brcris::267c74c30a642266402fb3201c7e5eef</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011920A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011920</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011920A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011920</semanticIdentifier>
+			<semanticIdentifier>original::102016011920</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011920"/>
+			<field name="identifier.lattes" value="7279063146008344"/>
+			<field name="identifier.espacenet" value="102016011920"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="eletrodo compósito flexível e autossustentado a base de grafite e silicone"/>
+			<field name="title.lattes" value="Eletrodo Compósito Flexível e Autossutentatdo a Base de Grafite e Silicone"/>
+			<field name="depositDate" value="2016-05-25"/>
+			<field name="publicationDate" value="2017-12-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA LUISA SILVA"/>
+			<field name="inventor" value="EDUARDO ARIEL PONZIO"/>
+			<field name="inventor" value="FELIPE SILVA SEMAAN"/>
+			<field name="inventor" value="RICARDO CUNHA MACIEL"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M10/0525AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="0525AI"/>
+			</field>
+			<field name="abstract.espacenet" value="eletrodo compósito flexível e autossustentado a base de grafite e silicone esta presente invenção protege o uso do eletrodo compósito flexível autossustentado à base de grafite-silicone (ecfa/gs) como sensor eletroquímico para determinar diferentes analitos. o objetivo dessa invenção é ampliar as possibilidades de uso deste sensor em diferentes amostras, uma vez que por possuir caráter flexível e ser autossustentado, ou seja, não há necessidade de utilizá-lo em nenhum substrato e nem utilizar contato elétrico, devido seu próprio corpo ser suficientemente condutivo, tornado-o uma ótima alternativa em diversas áreas. de um modo geral, o ecfa/gs trata-se de um eletrodo compósito a partir da mistura de grafite e silicone na proporção de 50% (m/m), que age como sensor eletroquímico testado frente a uma esta presente invençãosonda eletroquímica redox de fe[(cn)6]4- e fe[(cn)6]3- 5 x 10-6 mol l-1 em uma solução de kcl 0,5 mol l-1 para avaliar sua eletroatividade. o ecfa/gs foi testado frente a vitamina b2, em diferesta presente invençãoentes valores de ph, variando de 2 a 10, frente a vitamina b6 e na detecção dos metais cd e pb simultaneamente, empregando a técnica eletroanalítica de voltametria de onda quadrada."/>
+			<field name="originatesFrom" value="62566890"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011920"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011920"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011920"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011920"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011920"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10553" type="Person">
+			<semanticIdentifier>lattes::7279063146008344</semanticIdentifier>
+			<field name="identifier.lattes" value="7279063146008344"/>
+			<field name="name" value="Felipe Silva Semaan"/>
+		</entity>
+		<entity ref="OrgUnit8233" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+		<entity ref="OrgUnit8234" type="OrgUnit">
+			<semanticIdentifier>brcris::b4e0e2d9cdc0f26db4523380edc59922</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15215" toEntityRef="Person10553" type="Inventor"/>
+		<relation fromEntityRef="Patent15215" toEntityRef="OrgUnit8233" type="Applicant"/>
+		<relation fromEntityRef="Patent15215" toEntityRef="OrgUnit8234" type="Applicant"/>
+	</relations>
+</entity-relation-data>

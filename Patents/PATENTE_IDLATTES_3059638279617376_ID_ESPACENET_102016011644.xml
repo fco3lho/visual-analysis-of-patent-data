@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:06" record="18365" source="Espacenet">
+	<entities>
+		<entity ref="Patent18365" type="Patent">
+			<semanticIdentifier>brcris::3fc8ca4f30497e3ece0b54b3ab337a65</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011644A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011644</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011644A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011644</semanticIdentifier>
+			<semanticIdentifier>original::102016011644</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011644"/>
+			<field name="identifier.lattes" value="3059638279617376"/>
+			<field name="identifier.espacenet" value="102016011644"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de substratos revestidos com óxido de grafeno reduzido e dispositivos voltaicos"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DE SUBSTRATOS REVESTIDOS COM ÓXIDO DE GRAFENO REDUZIDO E DISPOSITIVOS VOLTAICOS"/>
+			<field name="depositDate" value="2016-05-23"/>
+			<field name="publicationDate" value="2017-12-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUILHERME FREDERICO BERNARDO LENZ E SILVA"/>
+			<field name="inventor" value="MARINA SPARVOLI DE MEDEIROS"/>
+			<field name="inventor" value="MAURO FRANCISCO PINHEIRO DA SILVA"/>
+			<field name="inventor" value="WANG SHU HUI"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO ABC - UFABC"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L21/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um processo de obtenção de substratos revestidos com óxido de grafeno, em que é realizada a deposição direta do grafeno sobre preferencialmente, uma lâmina de silício tipo p, através das etapas de ?preparação do óxido de grafeno?; ?limpeza do substrato?; ?umidificação do substrato?; ?revestimento?; ?redução?; e, ?deposição dos contatos?. adicionalmente, a invenção refere-se a dispositivos voltaicos, tais como uma célula solar, um diodo e sensores de luz, em que estes compreendem substratos revestidos com óxido de grafeno reduzido conforme processo aqui escrito."/>
+			<field name="originatesFrom" value="62566829"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011644"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011644"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011644"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011644"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011644"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12726" type="Person">
+			<semanticIdentifier>lattes::3059638279617376</semanticIdentifier>
+			<field name="identifier.lattes" value="3059638279617376"/>
+			<field name="name" value="Guilherme Frederico Bernardo Lenz e Silva"/>
+		</entity>
+		<entity ref="OrgUnit9922" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18365" toEntityRef="Person12726" type="Inventor"/>
+		<relation fromEntityRef="Patent18365" toEntityRef="OrgUnit9922" type="Applicant"/>
+	</relations>
+</entity-relation-data>

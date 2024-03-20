@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:09" record="4172" source="Espacenet">
+	<entities>
+		<entity ref="Patent4172" type="Patent">
+			<semanticIdentifier>brcris::b1f5cd1fccd8002bffd73cda2ff4bf45</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925294A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0925294</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925294A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI25294</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0925294</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0925294"/>
+			<field name="identifier.lattes" value="3206762579434374"/>
+			<field name="identifier.espacenet" value="PI0925294"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de degradação de corantes por peroxidase"/>
+			<field name="title.lattes" value="Processo de degradação de corantes por peroxidase vegetal (Depósito de patente protocolo 014090005324)"/>
+			<field name="depositDate" value="2009-12-03"/>
+			<field name="publicationDate" value="2015-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELITA DUARTE CORREA"/>
+			<field name="inventor" value="JULIANA ARRIEL TORRES"/>
+			<field name="inventor" value="MARIA CRISTINA SILVA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N9/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12Q1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C02F103/30AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="103"/>
+				<field name="subgroup" value="30AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de degradação de corantes por peroxidase. processo de obtenção de uma fonte alternativa e de baixo custo da enzima peroxidase e sua utilização na oxidação do corante reativo turqueza remazol g 133%. quando lançados em águas naturais os efluentes coloridos geram além da poluição visual, alterações em ciclos biológicos, sobretudo no processo de fotossintese. este invento consiste em: (a) extrair a peroxidase de nabo (brassica campestre ssp. rapífera); (b) utilizar o extrato enzimático, após precipitação com acetona, na oxidação do corante turqueza azul remazol g 133%. a utilização do extrato precipitado de nabo na oxidação de corantes pode representar uma alternativa de baixo custo para o tratamento de efluentes de indústrias têxteis e ou efluentes contendo corantes. o uso da enzima não purificada reduz significativamente os custos de obtenção e aplicação desta enzima."/>
+			<field name="originatesFrom" value="54543506"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925294"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0925294"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925294"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI25294"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0925294"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2936" type="Person">
+			<semanticIdentifier>lattes::3206762579434374</semanticIdentifier>
+			<field name="identifier.lattes" value="3206762579434374"/>
+			<field name="name" value="Angelita Duarte Correa"/>
+		</entity>
+		<entity ref="OrgUnit2382" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4172" toEntityRef="Person2936" type="Inventor"/>
+		<relation fromEntityRef="Patent4172" toEntityRef="OrgUnit2382" type="Applicant"/>
+	</relations>
+</entity-relation-data>

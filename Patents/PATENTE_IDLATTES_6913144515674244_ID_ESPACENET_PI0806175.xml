@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:06" record="10223" source="Espacenet">
+	<entities>
+		<entity ref="Patent10223" type="Patent">
+			<semanticIdentifier>brcris::4ffa9cb8eea97b74961d6b2b56da74c0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0806175A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0806175</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0806175A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI06175</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0806175-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0806175"/>
+			<field name="identifier.lattes" value="6913144515674244"/>
+			<field name="identifier.espacenet" value="PI0806175"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador remoto de chave seccionadora de média tensão e suas aplicações"/>
+			<field name="title.lattes" value="CONTROLADOR REMOTO DE CHAVE SECCIONADORA DE MÉDIA TENSÃO E SUAS APLICAÇÕES"/>
+			<field name="depositDate" value="2008-11-13"/>
+			<field name="publicationDate" value="2010-09-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS AUGUSTO BISSOCHI JUNIOR"/>
+			<field name="inventor" value="DANIEL PEREIRA DE CARVALHO"/>
+			<field name="inventor" value="FERNANDO CORDEIRO DE CASTRO"/>
+			<field name="applicant" value="ALTRIZ INDUSTRIA E COMERCIO DE EQUIPAMENTOS ELETRONICOS LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01H3/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CONTROLADOR REMOTO DE CHAVE SECCIONADORA DE MéDIA TENSãO E SUAS APLICAçOES. ontrolador remoto para chaves seccionadoras de média tensão que compreende um sistema mecânico (5) e um sistema eletrónico (20), que não interfere no funcionamento interno original da chave seccionadora e que comunica-se com um sistema supervisório, permitindo-se conhecer à distância o status dos equipamentos monitorados e possibilitando-se realizar remotamente manobras de abertura e de fechamento da chave seccionadora."/>
+			<field name="originatesFrom" value="42736037"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0806175"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0806175"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0806175"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI06175"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0806175-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7041" type="Person">
+			<semanticIdentifier>lattes::6913144515674244</semanticIdentifier>
+			<field name="identifier.lattes" value="6913144515674244"/>
+			<field name="name" value="Daniel Pereira de Carvalho"/>
+		</entity>
+		<entity ref="OrgUnit5605" type="OrgUnit">
+			<semanticIdentifier>brcris::fa95793bd10cf2105122ea0e931c861a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10223" toEntityRef="Person7041" type="Inventor"/>
+		<relation fromEntityRef="Patent10223" toEntityRef="OrgUnit5605" type="Applicant"/>
+	</relations>
+</entity-relation-data>

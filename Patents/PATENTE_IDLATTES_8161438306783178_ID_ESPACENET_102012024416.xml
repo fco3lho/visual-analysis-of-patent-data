@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:15" record="29556" source="Espacenet">
+	<entities>
+		<entity ref="Patent29556" type="Patent">
+			<semanticIdentifier>brcris::36724bb194087aa5d77e9e87561d5363</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012024416A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012024416</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012024416A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121024416</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 024416-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012024416"/>
+			<field name="identifier.lattes" value="8161438306783178"/>
+			<field name="identifier.espacenet" value="102012024416"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE IMAGEAMENTO DE EQUIPAMENTOS INDUSTRIAIS"/>
+			<field name="title.lattes" value="Sistema de Imageamento de Equipamentos Industriais"/>
+			<field name="depositDate" value="2012-09-26"/>
+			<field name="publicationDate" value="2014-08-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FRANCISCO EDMUNDO SPRENGER"/>
+			<field name="inventor" value="HAE YONG KIM"/>
+			<field name="inventor" value="MARCIO ISSAMU HARAGUCHI"/>
+			<field name="inventor" value="WILSON APARECIDO PAREJO CALVO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="TRICOM TECNOLOGIA E SERVICOS DE MANUTENCAO INDUSTRIAL LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G21K5/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE IMAGEAMENTO DE EQUIPAMENTOS INDUSTRIAIS. A presente invenção refere-se a uma tecnologia para coletar os dados necessários e gerar uma imagem do perfil de densidades longitudinal de um equipamento industrial por meio da técnica de perfilagem por raios gama ou raios x empregando conceitos de reconstrução tomográfica imgens."/>
+			<field name="originatesFrom" value="51360512"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012024416"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012024416"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012024416"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121024416"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 024416-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20320" type="Person">
+			<semanticIdentifier>lattes::8161438306783178</semanticIdentifier>
+			<field name="identifier.lattes" value="8161438306783178"/>
+			<field name="name" value="Marcio Issamu Haraguchi"/>
+		</entity>
+		<entity ref="OrgUnit15908" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit15909" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29556" toEntityRef="Person20320" type="Inventor"/>
+		<relation fromEntityRef="Patent29556" toEntityRef="OrgUnit15908" type="Applicant"/>
+		<relation fromEntityRef="Patent29556" toEntityRef="OrgUnit15909" type="Applicant"/>
+	</relations>
+</entity-relation-data>

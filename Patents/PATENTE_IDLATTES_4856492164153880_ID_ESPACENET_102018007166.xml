@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:30" record="1418" source="Espacenet">
+	<entities>
+		<entity ref="Patent1418" type="Patent">
+			<semanticIdentifier>brcris::e728c6a98c86436bae32ffa31d4e507c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018007166A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018007166</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018007166A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181007166</semanticIdentifier>
+			<semanticIdentifier>original::102018007166</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018007166"/>
+			<field name="identifier.lattes" value="4856492164153880"/>
+			<field name="identifier.espacenet" value="102018007166"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de identificação de compostos inibidores de ecto-5`-nucleotidase humana (cd73) e uso dos compostos identificados"/>
+			<field name="title.lattes" value="Método de Identificação de Compostos com Potencial Atividade Antitumoral"/>
+			<field name="depositDate" value="2018-04-09"/>
+			<field name="publicationDate" value="2019-10-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDER HENNING ULRICH"/>
+			<field name="inventor" value="ANTONIA TAVARES DO AMARAL"/>
+			<field name="inventor" value="ARQUIMEDES CHEFFER"/>
+			<field name="inventor" value="LUCAS GASPARELLO VIVIANI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/68AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="68AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P37/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G16B15/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um método de identificação de compostos que apresentam massa molecular inferior a 500 g.mol-1 e potencial atividade antitumoral, mais especificamente a seleção de inibidores da enzima ecto-5?-nucleotidase humana (cd73). o referido método compreende as etapas de a) triagem virtual; b) filtro de inspeção visual; e c) análise de inibição enzimática; e as subetapas a.1) filtro farmacofórico na conformação aberta ou fechada da enzima; a.2) filtro de propriedades físico-químicas; e a.3) filtro de ancoragem. adicionalmente, a presente invenção refere-se ao uso dos compostos identificados através do método proposto para preparar uma composição farmacêutica para tratar neoplasias."/>
+			<field name="originatesFrom" value="68238493"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018007166"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018007166"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018007166"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181007166"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018007166"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1062" type="Person">
+			<semanticIdentifier>lattes::4856492164153880</semanticIdentifier>
+			<field name="identifier.lattes" value="4856492164153880"/>
+			<field name="name" value="Alexander Henning Ulrich"/>
+		</entity>
+		<entity ref="OrgUnit837" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1418" toEntityRef="Person1062" type="Inventor"/>
+		<relation fromEntityRef="Patent1418" toEntityRef="OrgUnit837" type="Applicant"/>
+	</relations>
+</entity-relation-data>

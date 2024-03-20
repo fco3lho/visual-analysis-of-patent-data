@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:10" record="9727" source="Espacenet">
+	<entities>
+		<entity ref="Patent9727" type="Patent">
+			<semanticIdentifier>brcris::97c33539ddfd683e445f3f9311f7c657</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033523A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012033523</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033523A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121033523</semanticIdentifier>
+			<semanticIdentifier>original::102012033523</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012033523"/>
+			<field name="identifier.lattes" value="7897779819494573"/>
+			<field name="identifier.espacenet" value="102012033523"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparelho e método para determinação de acetileno em óleos por calibração multivariada"/>
+			<field name="title.lattes" value="Brasil BRPI1020120335239 - Aparelho e Método para Determinação de Acetileno em Óleos por Calibração Multivariada"/>
+			<field name="depositDate" value="2012-12-28"/>
+			<field name="publicationDate" value="2016-04-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIZ CARNEIRO ARAUJO"/>
+			<field name="inventor" value="CRISTINA M. QUINTELLA"/>
+			<field name="inventor" value="ELIAS TEODORO DA SILVA JUNIOR"/>
+			<field name="inventor" value="GLENDO DE FREITAS MAGALHAES"/>
+			<field name="inventor" value="MARCIO DE OLIVEIRA MONTE"/>
+			<field name="inventor" value="MARIANA ANDRADE SANTOS"/>
+			<field name="inventor" value="MARILENA MEIRA"/>
+			<field name="inventor" value="ROGERIO GUERRA DIOGENES FILHO"/>
+			<field name="inventor" value="SAIONARA LUNA"/>
+			<field name="inventor" value="WEIDSON LEAL SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01J3/443AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="443AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aparelho e método para determinação de acetileno em óleos por calibração multivariada. a presente invenção se refere a um protótipo de sensor baseado em espectrofluorímetro de led com um software estatístico embarcado que permite determinar automaticamente, através da análise espectral de um conjunto de amostras as concentrações de acetileno das ditas amostras. mais especificamente o software estatístico embarcado realiza a classificação das amostras através da análise de componentes principais (pca) dos dados de análise espectrofluorimétrica e determina as concentrações de acetileno de amostras desconhecidas através da predição por meio de um construído com pardões através da técnica multivariada dos mínimos quadrados parciais (pls) cujas concentrações de acetileno sejam previamente determinadas por meio de um método de referência tal como cromatografia gasosa."/>
+			<field name="originatesFrom" value="55858550"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033523"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012033523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033523"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121033523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012033523"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6659" type="Person">
+			<semanticIdentifier>lattes::7897779819494573</semanticIdentifier>
+			<field name="identifier.lattes" value="7897779819494573"/>
+			<field name="name" value="Cristina Maria Assis Lopes Tavares da Mata Hermida Quintella"/>
+		</entity>
+		<entity ref="OrgUnit5253" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9727" toEntityRef="Person6659" type="Inventor"/>
+		<relation fromEntityRef="Patent9727" toEntityRef="OrgUnit5253" type="Applicant"/>
+	</relations>
+</entity-relation-data>

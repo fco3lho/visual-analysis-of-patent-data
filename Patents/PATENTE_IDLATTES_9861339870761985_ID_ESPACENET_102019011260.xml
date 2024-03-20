@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:12" record="28995" source="Espacenet">
+	<entities>
+		<entity ref="Patent28995" type="Patent">
+			<semanticIdentifier>brcris::029d61a5a207e652e3717467ccbbd371</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011260A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019011260</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011260A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191011260</semanticIdentifier>
+			<semanticIdentifier>original::102019011260</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019011260"/>
+			<field name="identifier.lattes" value="9861339870761985"/>
+			<field name="identifier.espacenet" value="102019011260"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para a produção de cana-de-açúcar transgênica com modificação na parede celular"/>
+			<field name="title.lattes" value="Processo para a produção de cana-de-açúcar transgênica com modificação na parede celular"/>
+			<field name="depositDate" value="2019-05-31"/>
+			<field name="publicationDate" value="2020-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO MENOSSI TEIXEIRA"/>
+			<field name="inventor" value="PEDRO ARAUJO"/>
+			<field name="inventor" value="RAFAEL HENRIQUE GALLINARI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/113AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="113AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01H6/46AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para a produção de cana-de-açúcar transgênica com modificação na parede celular a presente invenção refere-se a um processo para a produção de cana-de-açúcar com modificação na parede celular, utilizando uma abordagem de rnai para reduzir os níveis de expressão do gene homólogo de gux em cana-de-açúcar (scgux2). foi observado que a recalcitrância da biomassa nas plantas transgênicas foi reduzida e um aumento de pelo menos 15% no rendimento da sacarificação foi observado em plantas transgênicas de cana-de-açúcar. descobriu-se também que nenhum efeito negativo foi observado em vários parâmetros agronômicos, como tamanho, peso, número de colmos e brix. a parede celular das plantas transgênicas não apresentou redução dos níveis de celulose, hemicelulose e pectina. os dados obtidos mostram que o processo sugerido na presente invenção apresenta um potencial comercial muito elevado, já que os eventos mostraram um aumento na sacarificação de pelo menos 15%, chegando até 30%, o que em larga escala representa um aumento na produção de etanol muito considerável."/>
+			<field name="originatesFrom" value="74042471"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011260"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019011260"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011260"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191011260"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019011260"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19994" type="Person">
+			<semanticIdentifier>lattes::9861339870761985</semanticIdentifier>
+			<field name="identifier.lattes" value="9861339870761985"/>
+			<field name="name" value="Marcelo Menossi Teixeira"/>
+		</entity>
+		<entity ref="OrgUnit15637" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28995" toEntityRef="Person19994" type="Inventor"/>
+		<relation fromEntityRef="Patent28995" toEntityRef="OrgUnit15637" type="Applicant"/>
+	</relations>
+</entity-relation-data>

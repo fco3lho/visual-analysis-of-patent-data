@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:41" record="12930" source="Espacenet">
+	<entities>
+		<entity ref="Patent12930" type="Patent">
+			<semanticIdentifier>brcris::d232ace0cf157fbf0b398e5a9658c8f0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013008434A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013008434</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013008434A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131008434</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 008434-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013008434"/>
+			<field name="identifier.lattes" value="0488056148950480"/>
+			<field name="identifier.espacenet" value="102013008434"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Processo para elaboração de um fermentado alcoólico de polpa de baru (dipteryx alata vog.)"/>
+			<field name="title.lattes" value="Processo pra Elaboração de um fermentado alcoolico de polpa de baru (Dipteryx alata Vog)"/>
+			<field name="depositDate" value="2013-04-08"/>
+			<field name="publicationDate" value="2015-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLARISSA DAMIANI"/>
+			<field name="inventor" value="EDUARDO RAMIREZ ASQUIERI"/>
+			<field name="inventor" value="NATHALYA BASTOS SOARES FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo para elaboração de um fermentado alcoólico de polpa de baru (dipteryx alata vog.). A presente invenção diz respeito ao processo de elaboração de fermentado alcoólico de polpa de baru (dipteryx alata vog.), no qual uma mistura homogênea de polpa de baru com sacarose, água e levedura passam por processos fermentativos, vigorosa e lenta, e pelo envelhecimento a fim de produzir uma bebida fermentada exótica semelhante a vinho"/>
+			<field name="originatesFrom" value="53432745"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013008434"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013008434"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013008434"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131008434"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 008434-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8843" type="Person">
+			<semanticIdentifier>lattes::0488056148950480</semanticIdentifier>
+			<field name="identifier.lattes" value="0488056148950480"/>
+			<field name="name" value="Eduardo Ramirez Asquieri"/>
+		</entity>
+		<entity ref="OrgUnit6935" type="OrgUnit">
+			<semanticIdentifier>brcris::b1f2c79921deb4fdda2bdb4dd2e76b96</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12930" toEntityRef="Person8843" type="Inventor"/>
+		<relation fromEntityRef="Patent12930" toEntityRef="OrgUnit6935" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:57" record="8401" source="Espacenet">
+	<entities>
+		<entity ref="Patent8401" type="Patent">
+			<semanticIdentifier>brcris::3665fdbe0d556167c2d5e75ea50696a9</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0908205A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0908205</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0908205A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI08205</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0908205-0 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0908205"/>
+			<field name="identifier.lattes" value="8557280090837529"/>
+			<field name="identifier.espacenet" value="PI0908205"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE ENLONAMENTO AUTOMÁTICO"/>
+			<field name="title.lattes" value="SISTEMA DE ENLONAMENTO AUTOMÁTICO"/>
+			<field name="depositDate" value="2009-12-14"/>
+			<field name="publicationDate" value="2013-11-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CESAR MONZU FREIRE"/>
+			<field name="inventor" value="PAULO CARLOS KAMINSKI"/>
+			<field name="inventor" value="RENATO RAMIREZ VIANA NEVES"/>
+			<field name="inventor" value="SERGIO DE PAULA PELLEGRINI"/>
+			<field name="inventor" value="SERGIO DE PAULA PELLEGRINI"/>
+			<field name="inventor" value="STERGIOS PERICLES TSILOUFAS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B60J7/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B60P7/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE ENLONAMENTO AUTOMÁTICO. Sistema de enlonamento automático, compreendendo trilho (1) com aba para fixação à carroceria (2), encaixe para receber os carros (C) com as cavernas (3) e guia linear para receber luva (6); carros (C) compostos de alma (21), rolamentos (9), guia de cabo (22) e batente (26); cavernas (3) de formato convexo tendo fixador (15), luva (6) e guia do cabo (22) fixados em si; às cavernas (3) é fixada a lona cuja parte interna se sobrepõe à luva (6) e a parte externa se sobrepõe à caverna (3) e toca o guia de cabo (22); cabo (14) enrolado ao tambor (13), acoplado a um acionador, passando pela polia (7) e retornando ao tambor (13); o cabo (14) passando pelo guia de cabo (22) de cada carro (C) e sendo fixado ao guia de cabo (22) do carro (C) da primeira caverna (3); e tampa (23) fixada na traseira da carroceria (2) com abas, recobertas internamente comescovas (27), para prender a primeira caverna (3) no fim de curso."/>
+			<field name="originatesFrom" value="49549727"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0908205"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0908205"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0908205"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI08205"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0908205-0 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5733" type="Person">
+			<semanticIdentifier>lattes::8557280090837529</semanticIdentifier>
+			<field name="identifier.lattes" value="8557280090837529"/>
+			<field name="name" value="César Monzu Freire"/>
+		</entity>
+		<entity ref="OrgUnit4538" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit4539" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8401" toEntityRef="Person5733" type="Inventor"/>
+		<relation fromEntityRef="Patent8401" toEntityRef="OrgUnit4538" type="Applicant"/>
+		<relation fromEntityRef="Patent8401" toEntityRef="OrgUnit4539" type="Applicant"/>
+	</relations>
+</entity-relation-data>

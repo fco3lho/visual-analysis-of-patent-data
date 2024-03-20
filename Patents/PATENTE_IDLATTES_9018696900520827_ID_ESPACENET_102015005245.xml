@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:28:07" record="43567" source="Espacenet">
+	<entities>
+		<entity ref="Patent43567" type="Patent">
+			<semanticIdentifier>brcris::f8decdd0ca03e854f5187abc86b0b03c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005245A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015005245</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005245A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151005245</semanticIdentifier>
+			<semanticIdentifier>original::102015005245</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015005245"/>
+			<field name="identifier.lattes" value="9018696900520827"/>
+			<field name="identifier.espacenet" value="102015005245"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo mostrador eletrônico remoto com informações audiovisuais e em braille para redes inteligentes"/>
+			<field name="title.lattes" value="Sigilo"/>
+			<field name="depositDate" value="2015-02-04"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DIOGO FERNANDES"/>
+			<field name="inventor" value="FABRICIO PABLO VIRGINIO DE CAMPOS"/>
+			<field name="inventor" value="THIAGO CAMPOS PASCHOALIN"/>
+			<field name="applicant" value="SMART INOVE LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F3/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G09B21/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04N21/472AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="472AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo mostrador eletrônico remoto com informações audiovisuais e em braille para redes inteligentes é descrito um equipamento que permite a visualização de informações de uma rede inteligente (smart grid) de forma remota, e imprime as informações em um mostrador lcd ou led, em uma interface braille e as reproduz de forma sonora através de autofalantes, para atender portadores de deficiência visual. este se comunica com o medidor eletrônico de energia, água ou gás. o equipamento solicita as informações que deseja exibir ao medidor eletrônico, o qual cede estes dados, possibilitando que o equipamento possa exibir as informações nas múltiplas interfaces. o mesmo é capaz de apresentar as informações na interface braille utilizando dois sistemas: o sistema braille de seis pontos e o sistema braille de oito pontos. a interface braille é formado por diversas células eletrônicas braille, cujo princípio de funcionamento se baseia no efeito piezoelétrico. os autofalantes, ou saída para fones de ouvido, reproduzem as mesmas informações contidas apresentadas nas outras interfaces através de uma gravação de voz prévia."/>
+			<field name="originatesFrom" value="62954417"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005245"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015005245"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005245"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151005245"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015005245"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29773" type="Person">
+			<semanticIdentifier>lattes::9018696900520827</semanticIdentifier>
+			<field name="identifier.lattes" value="9018696900520827"/>
+			<field name="name" value="Thiago Campos Acácio Paschoalin"/>
+		</entity>
+		<entity ref="OrgUnit23381" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43567" toEntityRef="Person29773" type="Inventor"/>
+		<relation fromEntityRef="Patent43567" toEntityRef="OrgUnit23381" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:04" record="13153" source="Espacenet">
+	<entities>
+		<entity ref="Patent13153" type="Patent">
+			<semanticIdentifier>brcris::3d3592b706d4175c3c2a5977bac09c0c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027065A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016027065</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027065A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161027065</semanticIdentifier>
+			<semanticIdentifier>original::102016027065</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016027065"/>
+			<field name="identifier.lattes" value="0329277327197863"/>
+			<field name="identifier.espacenet" value="102016027065"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de análise facial para controle de dispositivos"/>
+			<field name="title.lattes" value="Método de análise facial para controle de dispositivos"/>
+			<field name="depositDate" value="2016-11-18"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELERI CARDOZO"/>
+			<field name="inventor" value="PAULO GURGEL PINHEIRO"/>
+			<field name="applicant" value="HOOBOX ROBOTICS TECNOLOGIA DO BRASIL LTDA. - ME"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F21/32AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="originatesFrom" value="62845542"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027065"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016027065"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027065"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161027065"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016027065"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR132017024318E"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2018090109"/>
+		</entity>
+		<entity ref="Person9024" type="Person">
+			<semanticIdentifier>lattes::0329277327197863</semanticIdentifier>
+			<field name="identifier.lattes" value="0329277327197863"/>
+			<field name="name" value="Eleri Cardozo"/>
+		</entity>
+		<entity ref="OrgUnit7093" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent13154" type="Patent">
+			<semanticIdentifier>epodoc::BR132017024318E</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62845542"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR132017024318E"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent13155" type="Patent">
+			<semanticIdentifier>epodoc::WO2018090109</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="62845542"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2018090109"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13153" toEntityRef="Person9024" type="Inventor"/>
+		<relation fromEntityRef="Patent13153" toEntityRef="OrgUnit7093" type="Applicant"/>
+	</relations>
+</entity-relation-data>

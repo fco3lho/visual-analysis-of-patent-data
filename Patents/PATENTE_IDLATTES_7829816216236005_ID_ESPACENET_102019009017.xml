@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:59" record="36185" source="Espacenet">
+	<entities>
+		<entity ref="Patent36185" type="Patent">
+			<semanticIdentifier>brcris::a6af6b940c1b09db17e9d82c7b7d049d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019009017A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019009017</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019009017A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191009017</semanticIdentifier>
+			<semanticIdentifier>original::102019009017</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019009017"/>
+			<field name="identifier.lattes" value="7829816216236005"/>
+			<field name="identifier.espacenet" value="102019009017"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="estufim automatizado para controle de microclima"/>
+			<field name="title.lattes" value="ESTUFIM AUTOMATIZADO PARA CONTROLE DE MICROCLIMA"/>
+			<field name="depositDate" value="2019-05-03"/>
+			<field name="publicationDate" value="2020-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIS CARVALHO MENDES"/>
+			<field name="inventor" value="GLEISON AUGUSTO DOS SANTOS"/>
+			<field name="inventor" value="GUSTAVO LAPORINE BAESSO E SILVA"/>
+			<field name="inventor" value="PEDRO HENRIQUE DE MOURA RODRIGUES"/>
+			<field name="applicant" value="ANDRE LUIS CARVALHO MENDES"/>
+			<field name="applicant" value="GUSTAVO LAPORINE BAESSO E SILVA"/>
+			<field name="applicant" value="PEDRO HENRIQUE DE MOURA RODRIGUES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01G9/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="estufim automatizado para controle de microclima trata-se de uma estufa automatizada que promove a abertura e fechamento de suas cortinas em função das condições do ambiente. as variáveis de controle podem ser a temperatura do ar, umidade do ar, concentração de co2 e radiação solar, entre outros parâmetros que possam ser mensurados. o equipamento proposto é utilizado sobre os minijardins clonais de eucaliptos, auxiliando no incremento de produtividade de brotações para a propagação vegetativa, atendendo principalmente ao setor florestal. todavia, esse invento pode ser utilizado com outras espécies de plantas que tenham necessidade de maior controle das condições ambientais para seu cultivo."/>
+			<field name="originatesFrom" value="73135910"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019009017"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019009017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019009017"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191009017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019009017"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24897" type="Person">
+			<semanticIdentifier>lattes::7829816216236005</semanticIdentifier>
+			<field name="identifier.lattes" value="7829816216236005"/>
+			<field name="name" value="Pedro Henrique de Moura Rodrigues"/>
+		</entity>
+		<entity ref="OrgUnit19542" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36185" toEntityRef="Person24897" type="Inventor"/>
+		<relation fromEntityRef="Patent36185" toEntityRef="OrgUnit19542" type="Applicant"/>
+		<relation fromEntityRef="Patent36185" toEntityRef="Person24897" type="Depositor"/>
+	</relations>
+</entity-relation-data>

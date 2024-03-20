@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:09" record="39963" source="Espacenet">
+	<entities>
+		<entity ref="Patent39963" type="Patent">
+			<semanticIdentifier>brcris::e698dbdf33086e6c56c5bf4179f038db</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017024827A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017024827</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017024827A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171024827</semanticIdentifier>
+			<semanticIdentifier>original::102017024827</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017024827"/>
+			<field name="identifier.lattes" value="4647772891492051"/>
+			<field name="identifier.espacenet" value="102017024827"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="técnica de modulação digital para giroscópios interferométricos à fibra óptica (ifog) de malha fechada de dois níveis e dois períodos"/>
+			<field name="title.lattes" value="TÉCNICA DE MODULAÇÃO DIGITAL PARA GIROSCÓPIOS INTERFEROMÉTRICOS À FIBRA ÓPTICA (IFOG) DE MALHA FECHADA DE DOIS NÍVEIS E DOIS PERÍODOS"/>
+			<field name="depositDate" value="2017-11-21"/>
+			<field name="publicationDate" value="2019-06-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON WEDDERHOFF SPENGLER"/>
+			<field name="inventor" value="ELNATAN CHAGAS FERREIRA"/>
+			<field name="inventor" value="RODRIGO MOREIRA BACURAU"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01C19/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01C19/72AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="72AI"/>
+			</field>
+			<field name="abstract.espacenet" value="técnica de modulação digital para giroscópios interferométricos à fibra óptica (ifog) de malha fechada de dois níveis e dois períodos. a presente invenção se insere no campo técnico dos sistemas de navegação inercial e diz respeito, mais especificamente, a uma técnica de modulação digital para giroscópios interferométricos a fibra óptica (ifog) de malha fechada, sendo essa nova modulação formada pela intercalação de dois períodos de modulações de dois níveis. tal abordagem elimina a limitação da modulação de dois níveis clássica (controle do fator de escala deficiente em baixas rotações) e permite a implementação de giroscópios de classe inercial com excelente angle random walk (arw) e deriva."/>
+			<field name="originatesFrom" value="67260759"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017024827"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017024827"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017024827"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171024827"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017024827"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27192" type="Person">
+			<semanticIdentifier>lattes::4647772891492051</semanticIdentifier>
+			<field name="identifier.lattes" value="4647772891492051"/>
+			<field name="name" value="Rodrigo Moreira Bacurau"/>
+		</entity>
+		<entity ref="OrgUnit21284" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="OrgUnit21285" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39963" toEntityRef="Person27192" type="Inventor"/>
+		<relation fromEntityRef="Patent39963" toEntityRef="OrgUnit21284" type="Applicant"/>
+		<relation fromEntityRef="Patent39963" toEntityRef="OrgUnit21285" type="Applicant"/>
+	</relations>
+</entity-relation-data>

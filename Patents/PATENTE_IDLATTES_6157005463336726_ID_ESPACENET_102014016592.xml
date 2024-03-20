@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:43" record="34386" source="Espacenet">
+	<entities>
+		<entity ref="Patent34386" type="Patent">
+			<semanticIdentifier>brcris::6054a83a48c314e507c9c9a8aa173ea4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014016592A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014016592</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014016592A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141016592</semanticIdentifier>
+			<semanticIdentifier>original::102014016592</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014016592"/>
+			<field name="identifier.lattes" value="6157005463336726"/>
+			<field name="identifier.espacenet" value="102014016592"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de controle de manopartículas com pulsos laser ultracurtos"/>
+			<field name="title.lattes" value="Controle de Nanopartículas com Pulsos Laser Ultracurtos"/>
+			<field name="depositDate" value="2014-07-03"/>
+			<field name="publicationDate" value="2016-02-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LEANDRO MATIOLLI MACHADO"/>
+			<field name="inventor" value="LILIA CORONATO COURROL"/>
+			<field name="inventor" value="NILSON DIAS VIEIRA JUNIOR"/>
+			<field name="inventor" value="RICARDO ELGUL SAMAD"/>
+			<field name="inventor" value="THIAGO DA SILVA CORDEIRO"/>
+			<field name="inventor" value="WAGNER DE ROSSI"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B22F9/24AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y40/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de controle de nanopartículas com pulsos laser ultracurtos. (1) 0 presente pedido de patente refere-se a um método para o controle do tamanho e da dispersão de tamanhos de partículas nanométricas em meio líquido através do uso de pulsos laser com femtossegundos de duração e dezenas de nanômetros de largura espectral, circuito microfluídico e algoritmo de otimização iterativo, genético ou não. partículas nanométricas de qualquer espécie, diluídas em meio líquido, são irradiadas por um feixe laser que quebra estas partículas em tamanhos menores diminuindo a dispersão na distribuição de tamanhos. uma análise do espectro de transmissão de uma amostra irradiada indica o tamanho gerado e a sua dispersão; parâmetros espectrais dos pulsos laser são então modificados e outra amostra é irradiada. após cada irradiação e análise, o algoritmo de otimização iterativo indica como os parâmetros de irradiação devem ser alterados para que a próxima irradiação leve a resultados mais próximos ao objetivo almejado."/>
+			<field name="originatesFrom" value="55273006"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014016592"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014016592"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014016592"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141016592"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014016592"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23664" type="Person">
+			<semanticIdentifier>lattes::6157005463336726</semanticIdentifier>
+			<field name="identifier.lattes" value="6157005463336726"/>
+			<field name="name" value="Nilson Dias Vieira Junior"/>
+		</entity>
+		<entity ref="OrgUnit18560" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34386" toEntityRef="Person23664" type="Inventor"/>
+		<relation fromEntityRef="Patent34386" toEntityRef="OrgUnit18560" type="Applicant"/>
+	</relations>
+</entity-relation-data>

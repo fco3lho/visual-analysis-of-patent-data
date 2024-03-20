@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:28" record="35864" source="Espacenet">
+	<entities>
+		<entity ref="Patent35864" type="Patent">
+			<semanticIdentifier>brcris::e490abc46b17523ab7578342aa6ebdc2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003367A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015003367</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003367A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151003367</semanticIdentifier>
+			<semanticIdentifier>original::102015003367</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015003367"/>
+			<field name="identifier.lattes" value="1997755245309923"/>
+			<field name="identifier.espacenet" value="102015003367"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de controle para regulador de tensão, sistema de controle para regulador de tensão e método de definição de faixa de insensibilidade"/>
+			<field name="title.lattes" value="MÉTODO DE CONTROLE PARA REGULADOR DE TENSÃO, SISTEMA DE CONTROLE PARA REGULADOR DE TENSÃO E MÉTODO DE DEFINIÇÃO DE FAIXA DE INSENSIBILIDADE E PARÂMETROS DE TENSÃO DE REFERÊNCIA E COMPENSAÇÃO DE QUEDA DE TENSÃO PARA OPERAÇÃO EM SISTEMAS AUTOMATIZADOS DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA E SMART GRIDS"/>
+			<field name="depositDate" value="2015-02-13"/>
+			<field name="publicationDate" value="2016-08-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCIANE NEVES CANHA"/>
+			<field name="inventor" value="PAULO RICARDO DA SILVA PEREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B13/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05F1/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de controle para regulador de tensão, sistema de controle para regulador de tensão e método de definição de faixa de insensibilidade a presente invenção descreve um método de controle de regulador de tensão, um sistema de controle para regulador de tensão e, método de definição de faixa de insensibilidade. especificamente, o controle para reguladores de tensão da presente invenção é acoplado a cada um dos reguladores de tensão e tem por função manter a tensão de saída estabilizada, por intermédio de um algoritmo de auto ajuste, que leva em consideração os dados medidos (tensão, potência, corrente, entre outros) e armazenados na memória do regulador para definir os ajustes da tensão de referência, compensação da queda de tensão na linha, faixa de insensibilidade e temporização. a presente invenção se situa nos campos da engenharia elétrica, eletrônica de potência e redes de distribuição de energia elétrica."/>
+			<field name="originatesFrom" value="56613933"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003367"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015003367"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003367"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151003367"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015003367"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24664" type="Person">
+			<semanticIdentifier>lattes::1997755245309923</semanticIdentifier>
+			<field name="identifier.lattes" value="1997755245309923"/>
+			<field name="name" value="Paulo Ricardo da Silva Pereira"/>
+		</entity>
+		<entity ref="OrgUnit19347" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35864" toEntityRef="Person24664" type="Inventor"/>
+		<relation fromEntityRef="Patent35864" toEntityRef="OrgUnit19347" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:38" record="34349" source="Espacenet">
+	<entities>
+		<entity ref="Patent34349" type="Patent">
+			<semanticIdentifier>brcris::57fbbf4520029ad78ead4381bf3f7d7b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076860A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018076860</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076860A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181076860</semanticIdentifier>
+			<semanticIdentifier>original::102018076860</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018076860"/>
+			<field name="identifier.lattes" value="8623798867256227"/>
+			<field name="identifier.espacenet" value="102018076860"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="laser aleatório eficiente pelo controle diferenciado do ganho e da difusão da luz"/>
+			<field name="title.lattes" value="LASER ALEATÓRIO EFICIENTE PELO CONTROLE DIFERENCIADO DO GANHO E DA DIFUSÃO DA LUZ"/>
+			<field name="depositDate" value="2018-12-21"/>
+			<field name="publicationDate" value="2020-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANILO ANACLETO ARRUDA DA SILVA"/>
+			<field name="inventor" value="ERNESTO JIMENEZ- VILLAR"/>
+			<field name="inventor" value="FELIX BUTZBACH"/>
+			<field name="inventor" value="JULIA MARIA GIEHL"/>
+			<field name="inventor" value="NIKLAUS URSUS WETTER"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23K26/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="26"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01S5/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="é desenvolvida uma nova estratégia para aumentar a eficiência de um laser aleatório, que consiste em controlar separadamente a difusão da luz da absorção e ganho no sistema. partículas menores são presas entre partículas grandes para servir como centros de absorção e ganho, enquanto as partículas grandes controlam principalmente a difusão da luz na amostra. além de suas propriedades ópticas (maior absorção e ganho), estes bolsões são bombeados por todos os lados e em qualquer direção de modo que a penetração ou difusão da luz de bombeio nos bolsões seja optimizada e a densidade de potência de bombeamento seja maximizada. é alcançada uma eficiência maior que 50%, otimizando a difusão e absorção de fótons de bombeio em uma amostra de pó polidisperso, composto por partículas menores entre as maiores, de um cristal triturado e peneirado de 1,33 mol% nd: yvo4 com tamanho médio de partícula de 54 micrômetros. as partículas menores, que ficam presas entre as partículas maiores em bolsões, são responsáveis por um aumento de 15% no número eventos de dispersão, aumentando a densidade de potência de bombeio nestes bolsões. em comparação direta entre amostras polidispersas e monodispersas, o efeito das partículas menores provoca um aumento de 3,1 x em termos de potência de saída total. esta estratégia pode ser estendida ou extrapolada a outros sistemas onde as regiões de maior absorção e ganho com menor comprimento de transporte efetivo (maior força de espalhamento) podem ser constituídas por um material diferente ao que governa a difusão da luz."/>
+			<field name="originatesFrom" value="71451348"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076860"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018076860"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076860"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181076860"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018076860"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23630" type="Person">
+			<semanticIdentifier>lattes::8623798867256227</semanticIdentifier>
+			<field name="identifier.lattes" value="8623798867256227"/>
+			<field name="name" value="Niklaus Ursus Wetter"/>
+		</entity>
+		<entity ref="OrgUnit18531" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34349" toEntityRef="Person23630" type="Inventor"/>
+		<relation fromEntityRef="Patent34349" toEntityRef="OrgUnit18531" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:04" record="36865" source="Espacenet">
+	<entities>
+		<entity ref="Patent36865" type="Patent">
+			<semanticIdentifier>brcris::9a813c3b8c5656ab6be0f6bb5e834d73</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0702069A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0702069</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0702069A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI02069</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0702069-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0702069"/>
+			<field name="identifier.lattes" value="0149098384159023"/>
+			<field name="identifier.espacenet" value="PI0702069"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compensaÇço automÁtica de intensidade de Áudio"/>
+			<field name="title.lattes" value="Compensador automático de intensidade de áudio"/>
+			<field name="depositDate" value="2007-06-20"/>
+			<field name="publicationDate" value="2009-02-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RAFAEL NOGUEIRA BONIFACIO"/>
+			<field name="applicant" value="RAFAEL NOGUEIRA BONIFACIO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03G3/32AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPENSAÇçO AUTOMÁTICA DE INTENSIDADE DE ÁUDIO. Patente de Invenção do processo e do dispositivo de compensação automática de intensidade de áudio. Nos aparelhos conhecidos (televisores, aparelhos de som, computadores e qualquer outro que reproduza áudio em um ambiente) o usuário é obrigado a alterar a intensidade do áudio, mantê-lo sempre muito intenso ou deixar de ouvi-lo, sempre que ocorrem significativas alterações na intensidade do ruído no ambiente (fig.8). Para solucionar esse problema foi desenvolvida a compensação automática, que realiza uma comparação entre o áudio captado do ambiente e um padrão de recepção esperado para a intensidade e amplificação do áudio emitido, esse padrão é armazenado por uma pré-calibração na memória do dispositivo (fig.4) e considera o tempo de atraso da propagação do som no ambiente (fig.2) e a variação de intensidade entre o sinal emitido e recebido (fig.3), para verificar a ocorrência de alterações na intensidade do ruído e então calcular e aplicar a correção necessária à intensidade do sinal a ser emitido no instante seguinte (fig.5), compensando quase sem atraso os ruídos durante sua ocorrência (fig.7), o que permite a audição plena do áudio e é mais eficiente do que a alteração de intensidade feita pelo usuário (fig.8)."/>
+			<field name="originatesFrom" value="40576619"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0702069"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0702069"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0702069"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI02069"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0702069-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25393" type="Person">
+			<semanticIdentifier>lattes::0149098384159023</semanticIdentifier>
+			<field name="identifier.lattes" value="0149098384159023"/>
+			<field name="name" value="Rafael Nogueira Bonifacio"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36865" toEntityRef="Person25393" type="Inventor"/>
+		<relation fromEntityRef="Patent36865" toEntityRef="Person25393" type="Depositor"/>
+	</relations>
+</entity-relation-data>

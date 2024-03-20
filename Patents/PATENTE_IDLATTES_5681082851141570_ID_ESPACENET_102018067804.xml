@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:54" record="31657" source="Espacenet">
+	<entities>
+		<entity ref="Patent31657" type="Patent">
+			<semanticIdentifier>brcris::5c723ee5e0ee97664786af513eab1e59</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067804A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018067804</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067804A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181067804</semanticIdentifier>
+			<semanticIdentifier>original::102018067804</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018067804"/>
+			<field name="identifier.lattes" value="5681082851141570"/>
+			<field name="identifier.espacenet" value="102018067804"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para monitoramento de áreas controladas em ambientes de trabalho"/>
+			<field name="title.lattes" value="PROCESSO DE RECUPERAÇÃO DE SOLO ARENOSO CONTAMINADO COM AGROTÓXICO PARA SER UTILIZADO POR PEQUENOS AGRICULTORES"/>
+			<field name="depositDate" value="2018-09-04"/>
+			<field name="publicationDate" value="2020-03-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADIR PEDRO FILHO"/>
+			<field name="inventor" value="ELOISIO ANDREY BERGAMASCHI"/>
+			<field name="inventor" value="FRANCIELE BOENG MENDES"/>
+			<field name="inventor" value="JULIANA VIEIRA SCHMIDT TEIXEIRA"/>
+			<field name="inventor" value="LUCIANO CAMINHA JUNIOR"/>
+			<field name="inventor" value="MARCELO BARBOSA SILVA"/>
+			<field name="inventor" value="MARCELO BENEDET TOURNIER"/>
+			<field name="inventor" value="RODRIGO BASTOS FERNANDES"/>
+			<field name="applicant" value="SERVICO SOCIAL DA INDUSTRIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B15/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q10/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para monitoramento de áreas controladas em ambientes de trabalho trata-se de sistema para monitorar áreas controladas no ambiente de trabalho aplicado às indústrias que possuem a necessidade de controlar o acesso a determinadas áreas e de registrar as autorizações de acesso, e compreende a tarefa básica de realizar o controle por meio de um conjunto de dispositivos físicos dispostos aleatoriamente pelo ambiente, monitorados por um sistema supervisório, que permite a localização e identificação de pessoas (1) próximas de áreas controladas (l1) e realiza o armazenamento destas informações em um servidor de dados em rede (4), e esta condição permite uma supervisão remota de áreas controladas (l1), por supervisor (2) que tem acesso às informações das pessoas e dos riscos existentes nas áreas controladas através do sistema em rede (4), onde realiza a liberação de acesso às áreas controladas (l1) de forma remota, por meio do sistema supervisório central (5)."/>
+			<field name="originatesFrom" value="70156672"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067804"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018067804"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067804"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181067804"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018067804"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21687" type="Person">
+			<semanticIdentifier>lattes::5681082851141570</semanticIdentifier>
+			<field name="identifier.lattes" value="5681082851141570"/>
+			<field name="name" value="Maria Raimunda Chagas Silva"/>
+		</entity>
+		<entity ref="OrgUnit16942" type="OrgUnit">
+			<semanticIdentifier>brcris::606620cdd682e3e9b14435053846bc83</semanticIdentifier>
+			<field name="name" value="SERVICO SOCIAL DA INDUSTRIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31657" toEntityRef="Person21687" type="Inventor"/>
+		<relation fromEntityRef="Patent31657" toEntityRef="OrgUnit16942" type="Applicant"/>
+	</relations>
+</entity-relation-data>

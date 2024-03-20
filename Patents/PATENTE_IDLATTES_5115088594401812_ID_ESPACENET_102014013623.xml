@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:27" record="37079" source="Espacenet">
+	<entities>
+		<entity ref="Patent37079" type="Patent">
+			<semanticIdentifier>brcris::04988c1e89f0767ac14102af41516f43</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014013623A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014013623</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014013623A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141013623</semanticIdentifier>
+			<semanticIdentifier>original::102014013623</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014013623"/>
+			<field name="identifier.lattes" value="5115088594401812"/>
+			<field name="identifier.espacenet" value="102014013623"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="válvula de escape rápido de fluxo para limitar a velocidade máxima de pig's instrumentados"/>
+			<field name="title.lattes" value="VÁLVULA DE ESCAPE RÁPIDO DE FLUXO PARA LIMITAR A VELOCIDADE MÁXIMA DE PIG'S INSTRUMENTADOS"/>
+			<field name="depositDate" value="2014-03-31"/>
+			<field name="publicationDate" value="2015-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LAURINDO MAITELLI"/>
+			<field name="inventor" value="ANDRES ORTIS SALAZAR"/>
+			<field name="inventor" value="FRANCISCO DE ASSIS OLIVEIRA FONTES"/>
+			<field name="inventor" value="RALYSON RAYALA GONCALVES DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L55/28AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="55"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F16L55/38AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="55"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="abstract.espacenet" value="válvula de escape rápido de fluxo para limitar a velocidade máxima de pig's instrumentados. é compreendida por um módulo conectado na frente do pig instrumentado e composto de: válvula de escape rápido de simples efeito (1), atuador pneumático de pistão de simples efeito (2) e comandado por uma válvula eletropneumática de simples solenoide (6) em resposta ao sinal de velocidade oriundo de um sensor já existente no pig instrumentado. a válvula de escape rápido irá atuar em resposta a este sinal, com a finalidade de controlar a velocidade do pig ao longo do duto, através do escape rápido de fluxo da montante para jusante do pig. a alimentação do atuador pneumático de pistao de simples efeito é feita com a pressão do próprio fluido de propulsão à montante do pig, resultando em um sistema com alta densidade de potência no seu atuador e baixo consumo de energia elétrica necessária apenas para acionar a eletroválvula e o circuito da placa eletrônica microprocessada (8). a configuração proposta caracteriza a lógica de proteção normal fechada, que no caso de falha eletroeletrônica do sistema garante a remoção do pig do duto, pois mantém a pressurização à montante do mesmo."/>
+			<field name="originatesFrom" value="54838053"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014013623"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014013623"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014013623"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141013623"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014013623"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25562" type="Person">
+			<semanticIdentifier>lattes::5115088594401812</semanticIdentifier>
+			<field name="identifier.lattes" value="5115088594401812"/>
+			<field name="name" value="Ralyson Rayala Gonçalves de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit20053" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37079" toEntityRef="Person25562" type="Inventor"/>
+		<relation fromEntityRef="Patent37079" toEntityRef="OrgUnit20053" type="Applicant"/>
+	</relations>
+</entity-relation-data>

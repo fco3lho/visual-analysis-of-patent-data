@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:21" record="5305" source="Espacenet">
+	<entities>
+		<entity ref="Patent5305" type="Patent">
+			<semanticIdentifier>brcris::5dc532df983eba9e1e14064b866b065f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504705A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9504705</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504705A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959504705</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9504705"/>
+			<field name="identifier.lattes" value="3746542179568722"/>
+			<field name="identifier.espacenet" value="9504705"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de obtenção de compositos biomassa vegetal e aglomerantes inorgânicos para construção e produto assim obtido"/>
+			<field name="title.lattes" value="Processo de obtenção de compósitos biomassa vegetal e aglomerantes inorgânicos para construção e produto assim obtido"/>
+			<field name="depositDate" value="1995-09-21"/>
+			<field name="publicationDate" value="1997-09-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO LUDOVICO BERALDO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B18/24AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="originatesFrom" value="4062562"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504705"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9504705"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504705"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959504705"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3461" type="Person">
+			<semanticIdentifier>lattes::3746542179568722</semanticIdentifier>
+			<field name="identifier.lattes" value="3746542179568722"/>
+			<field name="name" value="Antonio Ludovico Beraldo"/>
+		</entity>
+		<entity ref="OrgUnit2736" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5305" toEntityRef="Person3461" type="Inventor"/>
+		<relation fromEntityRef="Patent5305" toEntityRef="OrgUnit2736" type="Applicant"/>
+	</relations>
+</entity-relation-data>

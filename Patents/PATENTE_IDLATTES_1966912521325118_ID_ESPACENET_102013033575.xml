@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:25" record="1924" source="Espacenet">
+	<entities>
+		<entity ref="Patent1924" type="Patent">
+			<semanticIdentifier>brcris::6739b012a6858983ff39b845622a9720</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033575A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013033575</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033575A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131033575</semanticIdentifier>
+			<semanticIdentifier>original::102013033575</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013033575"/>
+			<field name="identifier.lattes" value="1966912521325118"/>
+			<field name="identifier.espacenet" value="102013033575"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para à esterificação de cargas vegetais"/>
+			<field name="title.lattes" value="Processo para a esterificação de cargas vegetais"/>
+			<field name="depositDate" value="2013-12-27"/>
+			<field name="publicationDate" value="2015-12-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE MACHADO DE CASTRO"/>
+			<field name="inventor" value="DEBORA DE OLIVEIRA"/>
+			<field name="inventor" value="DENISE MARIA GUIMARAES FREIRE"/>
+			<field name="inventor" value="HELEN TREICHEL"/>
+			<field name="inventor" value="JOSE VLADIMIR DE OLIVEIRA"/>
+			<field name="inventor" value="MARCIO DE FIGUEIREDO PORTILHO"/>
+			<field name="inventor" value="MARCO DI LUCCIO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C67/03AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="03AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C10L1/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para a esterificação de cargas vegetais. a presente invenção descreve um processo para a esterificação de cargas vegetais, o qual compreende a reação de uma corrente de ácidos graxos livres com uma quantidade estequiométrica ou excesso de um álcool em um solvente gasoso pressurizado utilizando catálise enzimática."/>
+			<field name="originatesFrom" value="55083592"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033575"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013033575"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033575"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131033575"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013033575"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1446" type="Person">
+			<semanticIdentifier>lattes::1966912521325118</semanticIdentifier>
+			<field name="identifier.lattes" value="1966912521325118"/>
+			<field name="name" value="Aline Machado de Castro"/>
+		</entity>
+		<entity ref="OrgUnit1090" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit1091" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1924" toEntityRef="Person1446" type="Inventor"/>
+		<relation fromEntityRef="Patent1924" toEntityRef="OrgUnit1090" type="Applicant"/>
+		<relation fromEntityRef="Patent1924" toEntityRef="OrgUnit1091" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:59" record="19371" source="Espacenet">
+	<entities>
+		<entity ref="Patent19371" type="Patent">
+			<semanticIdentifier>brcris::45742fb2e92b04129bb05f42afc854d0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016026167A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016026167</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016026167A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161026167</semanticIdentifier>
+			<semanticIdentifier>original::102016026167</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016026167"/>
+			<field name="identifier.lattes" value="6710836190826203"/>
+			<field name="identifier.espacenet" value="102016026167"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de correção diferencial gps/gnss por luz para o posicionamento de veículos e processo para correção diferencial de posicionamento de veículos"/>
+			<field name="title.lattes" value="Sistema de Correção de Diferencial GPS/GNSS por Luz para o Posicionamento de Veículos Processo para Correção Diferencial de Posicionamento de Veículos"/>
+			<field name="depositDate" value="2016-11-08"/>
+			<field name="publicationDate" value="2018-05-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO CUGNASCA"/>
+			<field name="inventor" value="CLAUDIO BARBIERI DA CUNHA"/>
+			<field name="inventor" value="EDVALDO SIMOES DA FONSECA JUNIOR"/>
+			<field name="inventor" value="FLAVIO GUILHERME VAZ DE ALMEIDA FILHO"/>
+			<field name="inventor" value="HUGO TSUGUNOBU YOSHIDA YOSHIZAKI"/>
+			<field name="inventor" value="RENATA MARIA MARE GOGLIANO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B10/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01S19/41AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="41AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de correção diferencial gps/gnss por luz para o posicionamento de veículos e processo para correção diferencial de posicionamento de veículos a presente invenção refere-se a um sistema de correção diferencial gps/gnss (dgps) de posicionamento de veículos em uma determinada via através da tecnologia de comunicação por luz visível ou não visível, compreendendo uma unidade de processamento e controle (upc) (6), um dispositivo de comunicação (7) e um receptor gps/gnss (8). adicionalmente, a presente invenção refere-se a um processo para realizar tal correção diferencial de posicionamento de veículos compreendendo as seguintes etapas: implementar o sistema na infraestrutura viária, implementar o sistema no veículo rastreado, e aplicar o algoritmo de correção para as coordenadas obtidas no veículo rastreado."/>
+			<field name="originatesFrom" value="62494833"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016026167"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016026167"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016026167"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161026167"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016026167"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13475" type="Person">
+			<semanticIdentifier>lattes::6710836190826203</semanticIdentifier>
+			<field name="identifier.lattes" value="6710836190826203"/>
+			<field name="name" value="Hugo Tsugunobu Yoshida Yoshizaki"/>
+		</entity>
+		<entity ref="OrgUnit10550" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19371" toEntityRef="Person13475" type="Inventor"/>
+		<relation fromEntityRef="Patent19371" toEntityRef="OrgUnit10550" type="Applicant"/>
+	</relations>
+</entity-relation-data>

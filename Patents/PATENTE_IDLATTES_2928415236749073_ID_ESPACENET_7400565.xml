@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:59" record="40389" source="Espacenet">
+	<entities>
+		<entity ref="Patent40389" type="Patent">
+			<semanticIdentifier>brcris::59d6502659b249fbc3ff84b253728381</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7400565U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7400565U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7400565U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7400565U</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=7400565"/>
+			<field name="identifier.lattes" value="2928415236749073"/>
+			<field name="identifier.espacenet" value="7400565"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="Punch Aórtico"/>
+			<field name="title.lattes" value="Punch Aórtico"/>
+			<field name="depositDate" value="1994-03-14"/>
+			<field name="publicationDate" value="1995-10-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE BACELAR"/>
+			<field name="inventor" value="CUNHA UBIRAJARA MACIEL DA"/>
+			<field name="inventor" value="DA SILVA DANTON PEREIRA JUNIOR"/>
+			<field name="inventor" value="DE OLIVEIRA SERGIO GONCALVES"/>
+			<field name="inventor" value="ELTON LUIZ FERLIN"/>
+			<field name="inventor" value="JORGE ANTONIO RAMOS"/>
+			<field name="inventor" value="LEAO MARIO BORBA"/>
+			<field name="inventor" value="MAIDANA ROSA LUCIA VIEIRA"/>
+			<field name="inventor" value="MULLER ANDRE FROTTA"/>
+			<field name="inventor" value="PAULO RICARDO O THOME"/>
+			<field name="inventor" value="PINTO ANA LUCIA ACOSTA"/>
+			<field name="inventor" value="SANCHES PAULO ROBERTO STEFANI"/>
+			<field name="applicant" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B17/32AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="originatesFrom" value="3990254"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7400565"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7400565U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7400565"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7400565U"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27539" type="Person">
+			<semanticIdentifier>lattes::2928415236749073</semanticIdentifier>
+			<field name="identifier.lattes" value="2928415236749073"/>
+			<field name="name" value="Rosa Lúcia Vieira Maidana"/>
+		</entity>
+		<entity ref="OrgUnit21515" type="OrgUnit">
+			<semanticIdentifier>brcris::e3e7e648939a8e9170a5f114f4ebf300</semanticIdentifier>
+			<field name="name" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40389" toEntityRef="Person27539" type="Inventor"/>
+		<relation fromEntityRef="Patent40389" toEntityRef="OrgUnit21515" type="Applicant"/>
+	</relations>
+</entity-relation-data>

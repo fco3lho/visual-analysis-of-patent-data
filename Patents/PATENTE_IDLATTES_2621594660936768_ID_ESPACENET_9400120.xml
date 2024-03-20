@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:32" record="6042" source="Espacenet">
+	<entities>
+		<entity ref="Patent6042" type="Patent">
+			<semanticIdentifier>brcris::6d775439f7d57c7b41d53952184294df</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9400120A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9400120</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9400120A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949400120</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9400120"/>
+			<field name="identifier.lattes" value="2621594660936768"/>
+			<field name="identifier.espacenet" value="9400120"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de obtenção de sumos e extratos de espécies de kalanchoe;aplicação do sumo,extratos e seus componentes para imunossupressão e para o tratamento da leishmaniose"/>
+			<field name="title.lattes" value="Pedido de Patente PI 9400120. ?Processo de obtenção de sumos e extratos de espécies de Kalanchoe; aplicaçã do sumo, extratos e seus componentes para imunossupressão e para o tratamento da leishmaniose?."/>
+			<field name="depositDate" value="1994-01-17"/>
+			<field name="publicationDate" value="1995-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BERGMAN BARTIRA ROSSI"/>
+			<field name="inventor" value="COSTA SONIA SOARES"/>
+			<field name="inventor" value="KOATZ VERA LUCIA GONCALVES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="originatesFrom" value="4058099"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9400120"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9400120"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9400120"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949400120"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3997" type="Person">
+			<semanticIdentifier>lattes::2621594660936768</semanticIdentifier>
+			<field name="identifier.lattes" value="2621594660936768"/>
+			<field name="name" value="Bartira Rossi Bergmann"/>
+		</entity>
+		<entity ref="OrgUnit3109" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6042" toEntityRef="Person3997" type="Inventor"/>
+		<relation fromEntityRef="Patent6042" toEntityRef="OrgUnit3109" type="Applicant"/>
+	</relations>
+</entity-relation-data>

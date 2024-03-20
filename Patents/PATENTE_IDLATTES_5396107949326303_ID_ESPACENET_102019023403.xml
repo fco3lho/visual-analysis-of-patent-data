@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:37" record="25568" source="Espacenet">
+	<entities>
+		<entity ref="Patent25568" type="Patent">
+			<semanticIdentifier>brcris::1db44dd4bd314ee0d387010e9f7a7c61</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019023403A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019023403</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019023403A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191023403</semanticIdentifier>
+			<semanticIdentifier>original::102019023403</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019023403"/>
+			<field name="identifier.lattes" value="5396107949326303"/>
+			<field name="identifier.espacenet" value="102019023403"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para limpeza de perfil de retardo de potência no canal rádio móvel utilizando redes neurais artificiais"/>
+			<field name="title.lattes" value="PROCESSO PARA LIMPEZA DE PERFIL DE RETARDO DE POTÊNCIA NO CANAL RÁDIO MÓVEL UTILIZANDO REDES NEURAIS ARTIFICIAIS"/>
+			<field name="depositDate" value="2019-11-07"/>
+			<field name="publicationDate" value="2021-05-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMANDA BEATRIZ CUNHA DOS SANTOS"/>
+			<field name="inventor" value="DENNER ARAUJO COSTA"/>
+			<field name="inventor" value="IGOR AMORIM SILVA"/>
+			<field name="inventor" value="JAIRON VIANA BATISTA"/>
+			<field name="inventor" value="LEONARDO HENRIQUE GONSIOROSKI FURTADO DA SILVA"/>
+			<field name="inventor" value="LUCIO FLAVIO DE ALBUQUERQUE"/>
+			<field name="inventor" value="ROGERIO MOREIRA LIMA SILVA"/>
+			<field name="inventor" value="SANDRA ELOI FERREIRA NOGUEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO MARANHAO - UEMA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06N3/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04B17/364AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="364AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para limpeza de perfil de retardo de potência no canal rádio móvel utilizando redes neurais artificiais. a presente invenção trata-se de um processo utilizado na limpeza de perfil de retardo de potência que são gerados após a sondagem de canais rádio móveis de uma determinada região. esses perfis quando gerados, são formados tanto de sinais provenientes do transmissor como por sinais espúrios (ruídos), em decorrência dos efeitos da dispersão temporal que afeta o sinal propagado no canal rádio móvel, com aplicação na área de caracterização de canal de rádio propagação móvel, o qual é um ramo que impacta diretamente a otimização das redes de comunicações móveis. o processo de limpeza do perfil de retardo de potência bruto visando identificar aos sinais que de fato são multipercurso válidos proveniente do transmissor. o que difere esse processo dos demais é que ancorado nos princípios de redes neurais, um sinal padrão é gerado através do treinamento da rede rna. o que é feito tomando dois subsistemas: o primeiro formado pela saída da rna que é alimentada pelos multipercursos válidos proveniente da técnica cfar e o segundo, pela a entrada da rna, formada por sete parâmetros: limiar de recepção, média, mediana, desvio padrão, antecessor, sucessor, e potência do sinal. depois de gerado o sinal padrão, ele será utilizado para detectar os sinais de multipercursos válidos. tendo como principal vantagem o alto número de acerto de 91,38% e diferentemente do que acontece na técnica cfar."/>
+			<field name="originatesFrom" value="76206754"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019023403"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019023403"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019023403"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191023403"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019023403"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17710" type="Person">
+			<semanticIdentifier>lattes::5396107949326303</semanticIdentifier>
+			<field name="identifier.lattes" value="5396107949326303"/>
+			<field name="name" value="Leonardo Henrique Gonsioroski Furtado da Silva"/>
+		</entity>
+		<entity ref="OrgUnit13826" type="OrgUnit">
+			<semanticIdentifier>brcris::80803f20cbb762bf1cd399414aa8142e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO MARANHAO - UEMA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25568" toEntityRef="Person17710" type="Inventor"/>
+		<relation fromEntityRef="Patent25568" toEntityRef="OrgUnit13826" type="Applicant"/>
+	</relations>
+</entity-relation-data>

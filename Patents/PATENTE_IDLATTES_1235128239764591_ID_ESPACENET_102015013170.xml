@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:51" record="42832" source="Espacenet">
+	<entities>
+		<entity ref="Patent42832" type="Patent">
+			<semanticIdentifier>brcris::e18901755e0a028128d55eabe256f28c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015013170A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015013170</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015013170A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151013170</semanticIdentifier>
+			<semanticIdentifier>original::102015013170</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015013170"/>
+			<field name="identifier.lattes" value="1235128239764591"/>
+			<field name="identifier.espacenet" value="102015013170"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="marcadores moleculares de hanseniasporas mais resistentes na fabricação de vinho"/>
+			<field name="title.lattes" value="MARCADORES MOLECULARES DE HANSENIASPORAS MAIS RESISTENTES NA FABRICAÇÃO DE VINHO"/>
+			<field name="depositDate" value="2015-05-19"/>
+			<field name="publicationDate" value="2017-12-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO FERREIRA DA SILVA"/>
+			<field name="inventor" value="FLAVIA MARTINS DA SILVA"/>
+			<field name="inventor" value="MARIA EUGENIA DE OLIVEIRA MAMEDE"/>
+			<field name="inventor" value="SUZANA TELLES DE CUNHA LIMA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12G1/022AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="022AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N1/16AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12Q1/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="as hanseniaspora são leveduras naturais da casca da uva. estas leveduras não possuem resistência ao etanol, entrando em morte celular com concentrações em torno de 6%, dependendo da espécie. apesar da baixa resistência, elas conferem ao vinho, após processo fermentativo, um aroma e flavor que agregam valor a bebida. assim sendo, a seleção de espécies mais resistentes ao etanol é de grande importância no processo de vinificação e a bioprospecção pode ser feita usando-se marcadores proteicos do gênero. esses marcadores são proteínas que aumentam sua expressão em condições de estresse e que servem para proteger as leveduras da presença crescente de etanol no processo fermentativo. foram avaliadas as espécies h. opuntiae e h. guillhermondii, (ho41 e hg43) utilizadas na produção de vinho. o marcador de resistência neste gênero é uma proteína de 100kda expressa em ambas as espécies avaliadas. estes marcadores podem servir para a bioprospecção de hanseniásporas e outras leveduras não-sacharomyces mais apropriadas para a fabricação de vinho."/>
+			<field name="originatesFrom" value="62566745"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015013170"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015013170"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015013170"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151013170"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015013170"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29228" type="Person">
+			<semanticIdentifier>lattes::1235128239764591</semanticIdentifier>
+			<field name="identifier.lattes" value="1235128239764591"/>
+			<field name="name" value="Suzana Telles da Cunha Lima"/>
+		</entity>
+		<entity ref="OrgUnit22896" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42832" toEntityRef="Person29228" type="Inventor"/>
+		<relation fromEntityRef="Patent42832" toEntityRef="OrgUnit22896" type="Applicant"/>
+	</relations>
+</entity-relation-data>

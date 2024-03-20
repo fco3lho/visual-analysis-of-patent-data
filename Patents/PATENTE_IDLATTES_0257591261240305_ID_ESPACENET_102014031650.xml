@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:45" record="42095" source="Espacenet">
+	<entities>
+		<entity ref="Patent42095" type="Patent">
+			<semanticIdentifier>brcris::a32eeac170155761ce08d9f4194bd3e3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031650A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014031650</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031650A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141031650</semanticIdentifier>
+			<semanticIdentifier>original::102014031650</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014031650"/>
+			<field name="identifier.lattes" value="0257591261240305"/>
+			<field name="identifier.espacenet" value="102014031650"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo assistivo de interface homem-ambiente baseada nas técnicas de ecolocalização"/>
+			<field name="title.lattes" value="DISPOSITIVO ASSISTIVO DE INTERFACE HOMEM-AMBIENTE BASEADA NAS TÉCNICAS DE ECOLOCALIZAÇÃO"/>
+			<field name="depositDate" value="2014-12-16"/>
+			<field name="publicationDate" value="2016-06-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE RICARDO GONCALVES MANZAN"/>
+			<field name="inventor" value="SHIGUEO NOMURA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA DO TRIANGULO MINEIRO - IFTM"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61H3/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G02C11/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo assistivo de interface homem-ambiente baseada nas técnicas de ecolocalização o produto da presente invenção refere-se a um dispositivo destinado a usuários idosos ou com deficiência visual que tenham dificuldades de identificar formatos de objetos através da visão no ambiente onde está interagindo. o dispositivo possui um módulo de hardware responsável por coletar as informações sobre o alvo (objeto), emitindo e re_cebendo sinais ultrassonoros e por converter estes em sinais de freqüência audível (para o ser humano) para servirem de entrada para um processador de sinais sonoros (1 o). ele também possui um módulo de software que compreende o processador de sinais sonoros (1 o) para transformar os sinais de forma que fiquem mais agradáveis aos ouvidos e facilitem a evocação das habilidades de ecolocalização para o reconhecimento e interpretação de formatos de objetos num ambiente. o módulo de software também possui a opção do classificador heurístico (11) para que o usuário iniciante possa aprender sem qualquer apoio humano o bê- a-bá de uso, ou seja, a associar os sinais sonoros com os alvos (formatos de objetos) a serem classificados. com o conhecimento do bê-a-bá, o usuário poderá dispensar o classificador e identificar os formatos de objetos no ambiente onde estes se localizam, ouvindo diretamente os sinais sonoros processados e aplicando as técnicas de ecolocalização, independentemente de ajuda alheia."/>
+			<field name="originatesFrom" value="56132630"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031650"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014031650"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031650"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141031650"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014031650"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28695" type="Person">
+			<semanticIdentifier>lattes::0257591261240305</semanticIdentifier>
+			<field name="identifier.lattes" value="0257591261240305"/>
+			<field name="name" value="Shigueo Nomura"/>
+		</entity>
+		<entity ref="OrgUnit22429" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42095" toEntityRef="Person28695" type="Inventor"/>
+		<relation fromEntityRef="Patent42095" toEntityRef="OrgUnit22429" type="Applicant"/>
+	</relations>
+</entity-relation-data>

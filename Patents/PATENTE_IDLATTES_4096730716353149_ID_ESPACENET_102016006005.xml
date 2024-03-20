@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:19" record="9812" source="Espacenet">
+	<entities>
+		<entity ref="Patent9812" type="Patent">
+			<semanticIdentifier>brcris::1db7d09b7ca16deb15a2fe41ee7a1bd5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006005A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016006005</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006005A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161006005</semanticIdentifier>
+			<semanticIdentifier>original::102016006005</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016006005"/>
+			<field name="identifier.lattes" value="4096730716353149"/>
+			<field name="identifier.espacenet" value="102016006005"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="nanopartícula hierarquicamente nanoestruturada para emissão de luz branca e uso"/>
+			<field name="title.lattes" value="NANOPARTÍCULA HIERARQUICAMENTE NANOESTRUTURADA PARA EMISSÃO DE LUZ BRANCA E USO"/>
+			<field name="depositDate" value="2016-03-18"/>
+			<field name="publicationDate" value="2017-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTINE SANTOS DE OLIVEIRA"/>
+			<field name="inventor" value="FERNANDO APARECIDO SIGOLI"/>
+			<field name="inventor" value="ITALO ODONE MAZALI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09K11/54AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="54AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção se aplica no campo da química, de forma mais específica na área de iluminação e faz referência a uma nanopartícula nanoestruturada para emissão de luz branca. as nanopartículas da presente invenção apresentam tamanho pequeno e são nanoestruturadas de modo que evitam a transferência de energia entre os íons emissores, evitando interferência no desempenho do emissor. adicionalmente, as nanopartículas se encontram protegidas do ambiente externo, apresentam alta estabilidade, e integridade cristalina. diferentemente da maioria dos leds e lâmpadas brancas comerciais que consistem de um branco azulado ou &quot;frio&quot;, as nanopartículas da presente invenção emitem luz branca pura, localizada no centro do diagrama cie, ou branco amarelado, similar à luz do sol."/>
+			<field name="originatesFrom" value="59849996"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006005"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016006005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006005"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161006005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016006005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017156600"/>
+		</entity>
+		<entity ref="Person6725" type="Person">
+			<semanticIdentifier>lattes::4096730716353149</semanticIdentifier>
+			<field name="identifier.lattes" value="4096730716353149"/>
+			<field name="name" value="Cristine Santos de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit5302" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent9813" type="Patent">
+			<semanticIdentifier>epodoc::WO2017156600</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="59849996"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017156600"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9812" toEntityRef="Person6725" type="Inventor"/>
+		<relation fromEntityRef="Patent9812" toEntityRef="OrgUnit5302" type="Applicant"/>
+	</relations>
+</entity-relation-data>

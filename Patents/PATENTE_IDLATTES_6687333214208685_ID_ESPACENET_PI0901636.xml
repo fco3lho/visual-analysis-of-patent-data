@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:40" record="29773" source="Espacenet">
+	<entities>
+		<entity ref="Patent29773" type="Patent">
+			<semanticIdentifier>brcris::20c213259e89e81e91f425422bff0dfb</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901636A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0901636</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901636A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI01636</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0901636-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0901636"/>
+			<field name="identifier.lattes" value="6687333214208685"/>
+			<field name="identifier.espacenet" value="PI0901636"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="insumo agrìcola e método de sua produção"/>
+			<field name="title.lattes" value="INSUMO AGRÍCOLA E MÉTODO DE SUA PRODUÇÃO"/>
+			<field name="depositDate" value="2009-05-22"/>
+			<field name="publicationDate" value="2011-01-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE GUILHERME MARINHO GUERRA"/>
+			<field name="inventor" value="MARCO ANTONIO DE ALMEIDA LEAL"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C05F5/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="INSUMO AGRìCOLA E MéTODO DE SUA PRODUçãO. A presente invenção refere-se a um insumo agrícola compreendido por torta de mamona e palhada ou bagaço de gramíneas de grande porte, como o capim-elefante (Pennisetum purpureum) ou a cana de açúcar, ou, opcionalmente outros aditivos. A tecnologia apresentada de produção de insumos agrícolas através da compostagem da mistura de torta de mamona com a palhada ou bagaço de gramíneas de grande porte, como o capim-elefante e a cana de açúcar, produz adubos e substratos orgânicos isentos de contaminação química (carrapaticidas e/ou antibióticos) e biológica (sementes de plantas invasoras e/ou organismos patogênicos)."/>
+			<field name="originatesFrom" value="43480506"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901636"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0901636"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901636"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI01636"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0901636-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20456" type="Person">
+			<semanticIdentifier>lattes::6687333214208685</semanticIdentifier>
+			<field name="identifier.lattes" value="6687333214208685"/>
+			<field name="name" value="Marco Antonio de Almeida Leal"/>
+		</entity>
+		<entity ref="OrgUnit16010" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29773" toEntityRef="Person20456" type="Inventor"/>
+		<relation fromEntityRef="Patent29773" toEntityRef="OrgUnit16010" type="Applicant"/>
+	</relations>
+</entity-relation-data>

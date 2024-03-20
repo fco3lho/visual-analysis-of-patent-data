@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:07" record="7482" source="Espacenet">
+	<entities>
+		<entity ref="Patent7482" type="Patent">
+			<semanticIdentifier>brcris::30a2577ee6a0e08c6fde95d7f4a5d2f6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012027338A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012027338</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012027338A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121027338</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 027338-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012027338"/>
+			<field name="identifier.lattes" value="1558960838080355"/>
+			<field name="identifier.espacenet" value="102012027338"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE CONTROLE AUTOMÁTICO PARA UMA UNIDADE DE COQUEAMENTO RETARDADO"/>
+			<field name="title.lattes" value="SISTEMA DE CONTROLE AUTOMÁTICO PARA UMA UNIDADE DE COQUEAMENTO RETARDADO"/>
+			<field name="depositDate" value="2012-10-25"/>
+			<field name="publicationDate" value="2014-08-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BENJAMIM RODRIGUES MENEZES"/>
+			<field name="inventor" value="CARLOS HENRIQUE DE MORAIS BOMFIM"/>
+			<field name="inventor" value="CELSO JOSE FARIA DE ARAUJO"/>
+			<field name="inventor" value="DANIEL ALVES COSTA"/>
+			<field name="inventor" value="MARIO CESAR MELLO MASSA DE CAMPOS"/>
+			<field name="inventor" value="MATEUS ARAUJO CARVALHO"/>
+			<field name="inventor" value="RODRIGO MAGALHAES ALVES"/>
+			<field name="inventor" value="WALMIR MATOS CAMINHAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS - UFMG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05D23/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C10B57/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="57"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE CONTROLE AUTOMÁTICO PARA UMA UNIDADE DE COQUEAMENTO RETARDADO. Um sistema que minimiza as pertubações em uma unidade de coqueamento utilizando controladores ONFC (1) compreendendo um arranjo especial formado sensores de temperatura (2), controladores de temperatura ONFC (4), válvulas de controle de temperatura (3), sensor de nível (5), controlador de nível ONFC (7), válvula de controle de nível (6), sensor de pressão (8), um controlador de pressão ONFC (9) e uma pluralidade de cabos elétricos (11), cabos de fibras óticas ou quaisquer outros meios de transmissão de sinais interligando os componentes. O Sistema possui, ainda, uma interface que permite acompanhar os ajustes efetuados em tempo real."/>
+			<field name="originatesFrom" value="51360531"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012027338"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012027338"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012027338"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121027338"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 027338-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5031" type="Person">
+			<semanticIdentifier>lattes::1558960838080355</semanticIdentifier>
+			<field name="identifier.lattes" value="1558960838080355"/>
+			<field name="name" value="Carlos Henrique de Morais Bomfim"/>
+		</entity>
+		<entity ref="OrgUnit3976" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit3977" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7482" toEntityRef="Person5031" type="Inventor"/>
+		<relation fromEntityRef="Patent7482" toEntityRef="OrgUnit3976" type="Applicant"/>
+		<relation fromEntityRef="Patent7482" toEntityRef="OrgUnit3977" type="Applicant"/>
+	</relations>
+</entity-relation-data>

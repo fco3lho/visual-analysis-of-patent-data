@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:39" record="22571" source="Espacenet">
+	<entities>
+		<entity ref="Patent22571" type="Patent">
+			<semanticIdentifier>brcris::d3f517967881bd0fb2e99f13a9cd2c3e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071571A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018071571</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071571A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181071571</semanticIdentifier>
+			<semanticIdentifier>original::102018071571</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018071571"/>
+			<field name="identifier.lattes" value="2806084485642993"/>
+			<field name="identifier.espacenet" value="102018071571"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="bancada experimental para determinação dos limites de inflamabilidade a pressões reduzidas de biocombustíveis aeronáuticos"/>
+			<field name="title.lattes" value="Bancada experimental para determinação dos limites de inflamabilidade a pressões reduzidas de biocombustíveis aeronáuticos"/>
+			<field name="depositDate" value="2018-10-19"/>
+			<field name="publicationDate" value="2020-04-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHRISTIAN JEREMI CORONADO RODRIGUEZ"/>
+			<field name="inventor" value="FELIPE SOLFERINI DE CARVALHO"/>
+			<field name="inventor" value="JOAO ANDRADE DE CARVALHO JUNIOR"/>
+			<field name="inventor" value="JOSE CARLOS DE ANDRADE"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIFEI - UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N25/52AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="52AI"/>
+			</field>
+			<field name="abstract.espacenet" value="os limites, inferior e superior, de inflamabilidade de um combustível são ferramentas fundamentais para prever incêndios, avaliar a possibilidade de explosões e projetar sistemas de proteção. atualmente, a maioria dos países usam diferentes testes experimentais padrão, que levam à obtenção de diferentes valores experimentais para esses limites. por outro lado, o brasil já expandiu a sua matriz energética para a produção de bicombustíveis tanto em biodiesel como no etanol. o estudo da combustão destes bicombustíveis e as análises experimentais para se conhecer os limites de inflamabilidade desses biocombustíveis puros e misturados com diesel, gasolina automotiva, gasolina e querosene de aviação, assim como a construção do equipamento/bancada para realizar os testes, são de grande valia na conjuntura atual do país. na bancada proposta, os testes experimentais padrão e a pressões reduzidas foram modificados e/ou melhorados a fim de obter os valores exatos para os biocombustíveis de interesse, tanto aqueles que são utilizados na indústria automotiva (testes padrão) como na indústria aeronáutica (testes a pressões reduzidas)."/>
+			<field name="originatesFrom" value="70547309"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071571"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018071571"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071571"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181071571"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018071571"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15582" type="Person">
+			<semanticIdentifier>lattes::2806084485642993</semanticIdentifier>
+			<field name="identifier.lattes" value="2806084485642993"/>
+			<field name="name" value="Jose Carlos de Andrade"/>
+		</entity>
+		<entity ref="OrgUnit12101" type="OrgUnit">
+			<semanticIdentifier>brcris::a4ccc994cb0e532d68677b719a097898</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22571" toEntityRef="Person15582" type="Inventor"/>
+		<relation fromEntityRef="Patent22571" toEntityRef="OrgUnit12101" type="Applicant"/>
+	</relations>
+</entity-relation-data>

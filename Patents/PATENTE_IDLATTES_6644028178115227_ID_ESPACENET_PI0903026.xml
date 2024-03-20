@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:21" record="8621" source="Espacenet">
+	<entities>
+		<entity ref="Patent8621" type="Patent">
+			<semanticIdentifier>brcris::be189ffb7ab3ae9ea9292ceda08c2874</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903026A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0903026</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903026A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI03026</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0903026-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0903026"/>
+			<field name="identifier.lattes" value="6644028178115227"/>
+			<field name="identifier.espacenet" value="PI0903026"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e processo para facilitar o acesso à internet através de dispositivos móveis"/>
+			<field name="title.lattes" value="SISTEMA E PROCESSO PARA FACILITAR O ACESSO À INTERNET ATRAVÉS DE DISPOSITIVOS MÓVEIS"/>
+			<field name="depositDate" value="2009-08-20"/>
+			<field name="publicationDate" value="2010-05-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADEMAR MARTINS VARELA"/>
+			<field name="inventor" value="ADRIANO GARCIA ALVAREZ"/>
+			<field name="inventor" value="CINTHIA PINEROLI GALVAO"/>
+			<field name="inventor" value="DANILO ANGELO"/>
+			<field name="inventor" value="DANILO FERNANDO LUCENTINI"/>
+			<field name="inventor" value="GUSTAVO LIMA"/>
+			<field name="inventor" value="MARCELLO ANTENIO MARABITA"/>
+			<field name="inventor" value="MARCELO HENRIQUE DE SOUZA"/>
+			<field name="inventor" value="RAFAEL DA CUNHA LIMA"/>
+			<field name="applicant" value="INSTITUTO DE PESQUISAS ELDORADO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W88/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="88"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F13/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA E PROCESSO PARA FACILITAR O ACESSO à INTERNET ATRAVéS DE DISPOSITIVOS MóVEIS. O sistema, objeto do presente pedido, visa disponibilizar uma melhoriaIdisponibilização da utilizaçao pelo usuário final no consumo de conteúdo on-line (principalmente de terceiros), através de aplicações para dispositivos móveis (widgets) e de aplicações que provêm acesso e filtro de conteúdos específicos (conteúdos on-line). Com isto é possível a um usuário acessar o conteúdo desejado de forma rápida, simples e em qualquer área com cobertura celular. Ao mesmo tempo este sistema estimula o uso destes serviços pelo usuário com grande freqúência, o que aumenta o tempo de conexão dos dispositivos móveis e com isto a receita que pode ser obtida pela operadora telefónica utilizando este modelo de negócio."/>
+			<field name="originatesFrom" value="42233931"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903026"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0903026"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903026"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI03026"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0903026-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5899" type="Person">
+			<semanticIdentifier>lattes::6644028178115227</semanticIdentifier>
+			<field name="identifier.lattes" value="6644028178115227"/>
+			<field name="name" value="Cinthia Pineroli Galvão"/>
+		</entity>
+		<entity ref="OrgUnit4648" type="OrgUnit">
+			<semanticIdentifier>brcris::0f8a9243554c94970b733c43a319a63a</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE PESQUISAS ELDORADO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8621" toEntityRef="Person5899" type="Inventor"/>
+		<relation fromEntityRef="Patent8621" toEntityRef="OrgUnit4648" type="Applicant"/>
+	</relations>
+</entity-relation-data>

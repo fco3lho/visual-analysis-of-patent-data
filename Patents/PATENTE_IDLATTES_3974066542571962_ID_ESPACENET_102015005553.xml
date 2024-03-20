@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:24:12" record="11242" source="Espacenet">
+	<entities>
+		<entity ref="Patent11242" type="Patent">
+			<semanticIdentifier>brcris::3e91bde87c6e016248b84a4729bf733c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005553A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015005553</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005553A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151005553</semanticIdentifier>
+			<semanticIdentifier>original::102015005553</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015005553"/>
+			<field name="identifier.lattes" value="3974066542571962"/>
+			<field name="identifier.espacenet" value="102015005553"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composto farmacêutico derivado do ácido selenoglicólico para tratamento do câncer"/>
+			<field name="title.lattes" value="Composto farmacêutico derivado do ácido selenoglicólico para tratamento do câncer"/>
+			<field name="depositDate" value="2015-03-12"/>
+			<field name="publicationDate" value="2017-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO FREITAS LIRA"/>
+			<field name="inventor" value="DIEGO DE SOUZA DANTAS"/>
+			<field name="inventor" value="ELLEN CORDEIRO BENTO DA SILVA"/>
+			<field name="inventor" value="ERICKA FERNANDA FERREIRA DE QUEIROZ"/>
+			<field name="inventor" value="HELIVALDO DIOGENES DA SILVA SOUZA"/>
+			<field name="inventor" value="MANOEL ADRIAO GOMES FILHO"/>
+			<field name="inventor" value="PETRONIO FILGUEIRAS DE ATHAYDE FILHO"/>
+			<field name="inventor" value="ROXANA PEREIRA FERNANDES DE SOUZA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C391/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="391"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P35/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composto farmacêutico derivado do ácido selenoglicólico para tratamento do câncer. a presente invenção refere-se a compostos sintéticos, obtidos a partir do ácido selenoglicólico, que possuem ação citotóxica e apoptótica in vitro em linhagens celulares de vários tipos de cânceres, a exemplo do adenocarcinoma mamário, osteosarcoma, leucemia aguda e crônica, câncer de laringe e esôfago. assim, estes compostos podem ser utilizados para o tratamento de doenças oncológicas em humanos e animais."/>
+			<field name="originatesFrom" value="62597194"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005553"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015005553"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005553"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151005553"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015005553"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7838" type="Person">
+			<semanticIdentifier>lattes::3974066542571962</semanticIdentifier>
+			<field name="identifier.lattes" value="3974066542571962"/>
+			<field name="name" value="Diego de Sousa Dantas"/>
+		</entity>
+		<entity ref="OrgUnit6244" type="OrgUnit">
+			<semanticIdentifier>brcris::d328331eae318b62840a10126b18dc94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+		<entity ref="OrgUnit6245" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11242" toEntityRef="Person7838" type="Inventor"/>
+		<relation fromEntityRef="Patent11242" toEntityRef="OrgUnit6244" type="Applicant"/>
+		<relation fromEntityRef="Patent11242" toEntityRef="OrgUnit6245" type="Applicant"/>
+	</relations>
+</entity-relation-data>

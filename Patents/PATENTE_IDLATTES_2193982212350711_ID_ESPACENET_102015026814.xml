@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:37" record="15362" source="Espacenet">
+	<entities>
+		<entity ref="Patent15362" type="Patent">
+			<semanticIdentifier>brcris::ee99f37b22a0a6aa2e2db43c90782d1a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015026814A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015026814</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015026814A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151026814</semanticIdentifier>
+			<semanticIdentifier>original::102015026814</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015026814"/>
+			<field name="identifier.lattes" value="2193982212350711"/>
+			<field name="identifier.espacenet" value="102015026814"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de previsão de ph em palmito"/>
+			<field name="title.lattes" value="Modelo matemático de previsão de pH em palmito"/>
+			<field name="depositDate" value="2015-10-22"/>
+			<field name="publicationDate" value="2017-07-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDA ASSUMPCAO FIORDA"/>
+			<field name="inventor" value="HELAYNE APARECIDA MAIEVES"/>
+			<field name="inventor" value="MARCELO BARBA BELLETTINI"/>
+			<field name="inventor" value="ROSEMARY HOFFMANN RIBANI"/>
+			<field name="inventor" value="SEBASTIAO BELLETTINI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente patente de invenção refere-se ao processo de previsão de ph em palmito, caracterizado pela utilização de fatores agro-meteorológicos como variáveis da equação, oferecendo uma nova ferramenta para padronização de acidez de palmito em relação a segurança alimentar contra a produção da toxina botulínica pelo clostridium botulinum. a combinação de ph e de dados agro-meteorológicos com ferramentas de análise multivariada para a determinação do teor de acidez em palmito é uma abordagem interessante. na presente invenção, a análise de componentes principais (pca) é capaz de discriminar amostras de palmito, em relação a área de cultivo, enquanto a regressão por mínimos quadrados parciais (pls) possibilita o desenvolvimento de um modelo de previsão de ph com pequenos erros associados. os procedimentos de análise de ph em palmito apresentam a necessidade de repetitividade, porém a modelagem matemática possibilita a ausência de preparo da amostra, envolvendo várias vantagens, relacionadas principalmente com a redução do tempo, custo, ausência de resíduos químicos, elaboração de softwares e potencial aplicação em sistemas on-line."/>
+			<field name="originatesFrom" value="61622244"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015026814"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015026814"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015026814"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151026814"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015026814"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10663" type="Person">
+			<semanticIdentifier>lattes::2193982212350711</semanticIdentifier>
+			<field name="identifier.lattes" value="2193982212350711"/>
+			<field name="name" value="Fernanda Fiorda Mello"/>
+		</entity>
+		<entity ref="OrgUnit8335" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15362" toEntityRef="Person10663" type="Inventor"/>
+		<relation fromEntityRef="Patent15362" toEntityRef="OrgUnit8335" type="Applicant"/>
+	</relations>
+</entity-relation-data>

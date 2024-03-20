@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:18" record="33090" source="Espacenet">
+	<entities>
+		<entity ref="Patent33090" type="Patent">
+			<semanticIdentifier>brcris::02d8a06f6f045b04cfa4e594e2d15434</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500987A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500987</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500987A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00987</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500987-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500987"/>
+			<field name="identifier.lattes" value="2380242691253694"/>
+			<field name="identifier.espacenet" value="PI0500987"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="formulação anti-carrapato, método para repelir ou eliminar carrapatos e uso de ácido fórmico ou formulações que o contém"/>
+			<field name="title.lattes" value="Formulação anti-carrapato, método para repelir ou eliminar carrapatos, uso de ácido fórmico e formulações que o contém"/>
+			<field name="depositDate" value="2005-03-24"/>
+			<field name="publicationDate" value="2006-11-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRISEIDA DOGO DE RESENDE"/>
+			<field name="inventor" value="EDUARDO BENEDICTO OTTONI"/>
+			<field name="inventor" value="MARCELO BAHIA LABRUNA"/>
+			<field name="inventor" value="MICHELE PEREIRA VERDERANE"/>
+			<field name="inventor" value="PATRICIA IZAR"/>
+			<field name="inventor" value="TIAGO FALOTICO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N37/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;FORMULAçãO ANTI-CARRAPATO, MéTODO PARA REPELIR OU ELIMINAR CARRAPATOS E USO DE áCIDO FóRMICO OU FORMULAçõES QUE O CONTéM&quot;. A presente invenção se refere, de maneira geral, a uma composição anti-carrapato, à base de ácido fórmico, particularmente para aplicação em vertebrados terrestres e em ambientes que se deseja sejam livres de carrapatos."/>
+			<field name="originatesFrom" value="37434425"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500987"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500987"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500987"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00987"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500987-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22777" type="Person">
+			<semanticIdentifier>lattes::2380242691253694</semanticIdentifier>
+			<field name="identifier.lattes" value="2380242691253694"/>
+			<field name="name" value="Michele Pereira Verderane"/>
+		</entity>
+		<entity ref="OrgUnit17796" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit17797" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33090" toEntityRef="Person22777" type="Inventor"/>
+		<relation fromEntityRef="Patent33090" toEntityRef="OrgUnit17796" type="Applicant"/>
+		<relation fromEntityRef="Patent33090" toEntityRef="OrgUnit17797" type="Applicant"/>
+	</relations>
+</entity-relation-data>

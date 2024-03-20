@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:35" record="30072" source="Espacenet">
+	<entities>
+		<entity ref="Patent30072" type="Patent">
+			<semanticIdentifier>brcris::dcca2037cdf4a9ff699a820c738359fe</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019043A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019043</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019043A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019043</semanticIdentifier>
+			<semanticIdentifier>original::102016019043</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019043"/>
+			<field name="identifier.lattes" value="0143459797857429"/>
+			<field name="identifier.espacenet" value="102016019043"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo e sistema para variar a frequência de diodo laser"/>
+			<field name="title.lattes" value="PROCESSO E SISTEMA PARA VARIAR A FREQUÊNCIA DE DIODO LASER"/>
+			<field name="depositDate" value="2016-08-04"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HUGO LEONARDO DAVI DE SOUZA CAVALCANTE"/>
+			<field name="inventor" value="MARCOS CESAR SANTOS ORIA"/>
+			<field name="inventor" value="MARTINE PATRICIA ARLETTE CHEVROLLIER"/>
+			<field name="inventor" value="SAMUEL BEZERRA ALVES"/>
+			<field name="inventor" value="THIERRY MARCELINO PASSERAT DE SILANS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01S3/105AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="105AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01S5/0683AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="0683AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;processo e sistema para variar a frequência de diodo laser&quot; a presente invenção consiste de um sistema e um processo que permite variar a frequência de um diodo laser mantendo sua potência ótica de emissão praticamente inalterada. a invenção compreende uma fonte auxiliar de luz com potência ótica estável, um controlador de potência ótica para controlar a potência da fonte auxiliar de luz e um dispositivo ótico que permite injetar luz da fonte auxiliar de luz na junção semicondutora do diodo laser. a invenção baseia-se no fato que a frequência do diodo laser tem uma variação proporcional a potência de luz injetada na sua junção semicondutora. a intenção tem aplicação no campo de analises espectroscópicas em laboratórios de pesquisas de substancias gasosas"/>
+			<field name="originatesFrom" value="61973199"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019043"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019043"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019043"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019043"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019043"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20661" type="Person">
+			<semanticIdentifier>lattes::0143459797857429</semanticIdentifier>
+			<field name="identifier.lattes" value="0143459797857429"/>
+			<field name="name" value="Marcos César Santos Oriá"/>
+		</entity>
+		<entity ref="OrgUnit16159" type="OrgUnit">
+			<semanticIdentifier>brcris::d328331eae318b62840a10126b18dc94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30072" toEntityRef="Person20661" type="Inventor"/>
+		<relation fromEntityRef="Patent30072" toEntityRef="OrgUnit16159" type="Applicant"/>
+	</relations>
+</entity-relation-data>

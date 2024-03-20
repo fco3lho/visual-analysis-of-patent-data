@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:13" record="20912" source="Espacenet">
+	<entities>
+		<entity ref="Patent20912" type="Patent">
+			<semanticIdentifier>brcris::e0bac473c679a746d777a29c378a1262</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8806972A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8806972</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8806972A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888806972</semanticIdentifier>
+			<semanticIdentifier>original::88 8806972</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8806972"/>
+			<field name="identifier.lattes" value="2192738260572343"/>
+			<field name="identifier.espacenet" value="8806972"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="CAVIDADE EXTERNA PARA LASER SEMICONDUTOR COM AUTO ALINHAMENTO POR DUPLA RETROREFLEXAO"/>
+			<field name="title.lattes" value="CAVIDADE EXTERNA PARA LASER SEMICONDUTOR COM AUTO ALINHAMENTO POR DUPLA RETRO -REFLEXÃO"/>
+			<field name="depositDate" value="1988-12-29"/>
+			<field name="publicationDate" value="1990-08-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EVANDRO CONFORTI"/>
+			<field name="inventor" value="JEAN PIERRE VON DER WEID"/>
+			<field name="applicant" value="FINANCIADORA DE ESTUDOS E PROJETOS - FINEP"/>
+			<field name="applicant" value="PONTIFICIA UNIVERSIDADE CATOLICA DO RIO DE JANEIRO - PUC"/>
+			<field name="applicant" value="TELECOMUNICACOES BRASILEIRAS S/A - TELEBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01S3/139AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="139AI"/>
+			</field>
+			<field name="originatesFrom" value="4046320"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8806972"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8806972"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8806972"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888806972"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="88 8806972"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14485" type="Person">
+			<semanticIdentifier>lattes::2192738260572343</semanticIdentifier>
+			<field name="identifier.lattes" value="2192738260572343"/>
+			<field name="name" value="Jean Pierre von der Weid"/>
+		</entity>
+		<entity ref="OrgUnit11349" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20912" toEntityRef="Person14485" type="Inventor"/>
+		<relation fromEntityRef="Patent20912" toEntityRef="OrgUnit11349" type="Applicant"/>
+	</relations>
+</entity-relation-data>

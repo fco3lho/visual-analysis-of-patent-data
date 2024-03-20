@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:10:33" record="3264" source="Espacenet">
+	<entities>
+		<entity ref="Patent3264" type="Patent">
+			<semanticIdentifier>brcris::d3d521c72b1a0a9b0d8388a02983b6ae</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204671A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0204671</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204671A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020204671</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0204671-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0204671"/>
+			<field name="identifier.lattes" value="0107672521253580"/>
+			<field name="identifier.espacenet" value="0204671"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de transferência de água de garrafões de água mineral"/>
+			<field name="title.lattes" value="Sistema de transferência de água de garrafões de água mineral"/>
+			<field name="depositDate" value="2002-08-08"/>
+			<field name="publicationDate" value="2008-06-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA ROSA MENDES PRIMO"/>
+			<field name="inventor" value="JOSE CARLOS CHARAMBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B67D1/10AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="67"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema de Transferência de água de Garrafões de água Mineral. Trata o presente de um sistema para transferência de água de um garrafão de água mineral para um recipiente, utilizando-se para isso uma bomba manual. Esta tecnologia elimina a necessidade de força muscular humana que seria empregada na elevação do garrafão até o suporte, evitando-se assim acidentes e ou dores musculares."/>
+			<field name="originatesFrom" value="39529470"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204671"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0204671"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204671"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020204671"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0204671-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2306" type="Person">
+			<semanticIdentifier>lattes::0107672521253580</semanticIdentifier>
+			<field name="identifier.lattes" value="0107672521253580"/>
+			<field name="name" value="Ana Rosa Mendes Primo"/>
+		</entity>
+		<entity ref="OrgUnit1860" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3264" toEntityRef="Person2306" type="Inventor"/>
+		<relation fromEntityRef="Patent3264" toEntityRef="OrgUnit1860" type="Applicant"/>
+	</relations>
+</entity-relation-data>

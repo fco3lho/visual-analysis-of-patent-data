@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:19" record="4249" source="Espacenet">
+	<entities>
+		<entity ref="Patent4249" type="Patent">
+			<semanticIdentifier>brcris::cee1549e5ac78e614c9802c3e8e5083c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011176A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019011176</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019011176A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191011176</semanticIdentifier>
+			<semanticIdentifier>original::102019011176</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019011176"/>
+			<field name="identifier.lattes" value="0616927177627883"/>
+			<field name="identifier.espacenet" value="102019011176"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de aplicação de óleo essencial de orégano como antimicrobiano no processo de fabricação de queijos e seu produto resultante"/>
+			<field name="title.lattes" value="PROCESSO DE APLICAÇÃO DE ÓLEO ESSENCIAL DE ORÉGANO COMO ANTIMICROBIANO NO PROCESSO DE FABRICAÇÃO DE QUEIJOS E SEU PRODUTO RESULTANTE"/>
+			<field name="depositDate" value="2019-05-30"/>
+			<field name="publicationDate" value="2020-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANNA CAROLINA LEONELLI PIRES DE CAMPOS"/>
+			<field name="inventor" value="CAROLINA GALDINO GUMIERO RIBEIRO"/>
+			<field name="inventor" value="EDER PAULO FAGAN"/>
+			<field name="inventor" value="GERSON NAKAZATO"/>
+			<field name="inventor" value="LUACIANO APARECIDO PANAGIO"/>
+			<field name="inventor" value="RENATA KATSUKO TAKAYAMA KOBAYASHI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO NORTE DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23C19/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de aplicação de óleo essencial de orégano como antimicrobiano no processo de fabricação de queijos e seu produto resultante. a presente invenção descreve um processo de produção de queijo utilizando um antimicrobiano natural e seu respectivo produto. este processo é de grande relevância, pois, utiliza o óleo de orégano como antimicrobiano natural em substituição a nisina e natamicina, os quais são comumente utilizados pela industria e apresentam restrição de espectro de ação, não sendo tão eficiente, pois é comum a contaminação por mais de uma classe de microrganismos. além do mais, a natamicina, especificamente, em concentrações superiores é citotóxica. assim, a aplicação do óleo essencial de orégano como antimicrobiano apresenta menor risco à saúde humana por ser um aditivo natural com menor citotoxicidade, que inibe os principais fungos e bactérias contaminantes de alimentos, sendo, portanto, mais eficiente. quanto ao produto obtido por meio deste processo, o queijo apresenta aroma e sabor característicos do óleo de orégano."/>
+			<field name="originatesFrom" value="74042509"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011176"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019011176"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019011176"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191011176"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019011176"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3004" type="Person">
+			<semanticIdentifier>lattes::0616927177627883</semanticIdentifier>
+			<field name="identifier.lattes" value="0616927177627883"/>
+			<field name="name" value="Anna Carolina Leonelli Pires de Campos"/>
+		</entity>
+		<entity ref="OrgUnit2446" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+		<entity ref="OrgUnit2447" type="OrgUnit">
+			<semanticIdentifier>brcris::846855a5526207f721deb1d905f3100b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO NORTE DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4249" toEntityRef="Person3004" type="Inventor"/>
+		<relation fromEntityRef="Patent4249" toEntityRef="OrgUnit2446" type="Applicant"/>
+		<relation fromEntityRef="Patent4249" toEntityRef="OrgUnit2447" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:44" record="8253" source="Espacenet">
+	<entities>
+		<entity ref="Patent8253" type="Patent">
+			<semanticIdentifier>brcris::5424206ddcd475d668b7048c677480c1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010510A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019010510</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010510A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191010510</semanticIdentifier>
+			<semanticIdentifier>original::102019010510</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019010510"/>
+			<field name="identifier.lattes" value="3994510066689121"/>
+			<field name="identifier.espacenet" value="102019010510"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de clarificação de bebidas utilizando casca de frutas"/>
+			<field name="title.lattes" value="Processo de clarificação de bebidas utilizando casca de frutas"/>
+			<field name="depositDate" value="2019-05-23"/>
+			<field name="publicationDate" value="2020-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALFREDO LOPES DE CARVALHO"/>
+			<field name="inventor" value="CERILENE SANTIAGO MACHADO"/>
+			<field name="inventor" value="IRANA PAIM SILVA"/>
+			<field name="inventor" value="MARIA LETICIA MIRANDA FERNANDES ESTEVINHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RECONCAVO DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12H1/052AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="052AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de clarificação de bebidas utilizando casca de frutas. a presente invenção refere-se a um processo de clarificação de bebidas, refere-se ao aproveitamento de cascas de frutas para elaboração de farinha e sua posterior utilização para sedimentação de partículas em suspensão em bebidas, em substituição a utilização da bentonita. a invenção pretende a obtenção de um clarificante natural com perfil de reaproveitamento de resíduos até então não utilizados para esta finalidade."/>
+			<field name="originatesFrom" value="73678788"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010510"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019010510"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010510"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191010510"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019010510"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5645" type="Person">
+			<semanticIdentifier>lattes::3994510066689121</semanticIdentifier>
+			<field name="identifier.lattes" value="3994510066689121"/>
+			<field name="name" value="Cerilene Santiago Machado"/>
+		</entity>
+		<entity ref="OrgUnit4475" type="OrgUnit">
+			<semanticIdentifier>brcris::c5dfa56c5e0226c092670f6bd852fd8b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RECONCAVO DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8253" toEntityRef="Person5645" type="Inventor"/>
+		<relation fromEntityRef="Patent8253" toEntityRef="OrgUnit4475" type="Applicant"/>
+	</relations>
+</entity-relation-data>

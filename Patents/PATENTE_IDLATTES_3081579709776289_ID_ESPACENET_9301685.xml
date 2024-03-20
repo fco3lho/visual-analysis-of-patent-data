@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:30" record="34259" source="Espacenet">
+	<entities>
+		<entity ref="Patent34259" type="Patent">
+			<semanticIdentifier>brcris::c90a472e7b390fab15a6bf2baab493b5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301685A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9301685</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301685A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939301685</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9301685"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="9301685"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método e sistema para operações de reparo de tubulações submersas"/>
+			<field name="title.lattes" value="Método e sistema para operações de reparo de tubulações submersas"/>
+			<field name="depositDate" value="1993-04-28"/>
+			<field name="publicationDate" value="1994-11-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DOS REIS NEY ROBINSON SALVI"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B29/12AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="originatesFrom" value="4056346"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301685"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9301685"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301685"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939301685"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23572" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18473" type="OrgUnit">
+			<semanticIdentifier>brcris::ec32ab6b506168bb09d22abc9d3b8766</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34259" toEntityRef="Person23572" type="Inventor"/>
+		<relation fromEntityRef="Patent34259" toEntityRef="OrgUnit18473" type="Applicant"/>
+	</relations>
+</entity-relation-data>

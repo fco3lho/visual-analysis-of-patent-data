@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:57" record="17705" source="Espacenet">
+	<entities>
+		<entity ref="Patent17705" type="Patent">
+			<semanticIdentifier>brcris::36dba76a5baa0e87a3db8304103d834a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805446A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805446</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805446A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05446</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805446-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805446"/>
+			<field name="identifier.lattes" value="3114942318419378"/>
+			<field name="identifier.espacenet" value="PI0805446"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de recuperação de óleo de finos de folhelho pirobetuminoso"/>
+			<field name="title.lattes" value="PROCESSO DE RECUPERAÇÃO DE ÓLEO DE FINOS DE FOLHELHO PIROBETUMINOSO"/>
+			<field name="depositDate" value="2008-12-05"/>
+			<field name="publicationDate" value="2012-05-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GIORGIO FRANCESCO CESARE DE TOMI"/>
+			<field name="inventor" value="WILDOR THEODORO HENNIES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/20AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09K8/58AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="58AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE RECUPERAçAãO DE óLEO DE FINOS DE FOLHELHO PIROBETUMINOSO Um processo de recuperação de óleo de finos de folhelhopirobetuminoso compreendendo: succionar em múltiplos estágios, por meio das células de injeção (a, D e E), via conector (B) os sólidos finos (FS) injetando água em jatos convergentes sob pressão por meio de bicos de injeção radialmente instalados em pontos de injeção de água sob pressão (BAP) em cada uma das células de injeção (C, D e E), para aumentar a velocidade dofluxo de sólidos finos (FS) gradualmente com o avanço pelas células de injeção consecutivas (C, D e E); impactar o fluxo de sólidos finos (FS) a alta velocidade contra um anteparo metálico (F) para separar óleo e finos e sedimentar o material segregado no tanque de descarga (G); e retirar o óleo peloconector superior (1) e retirar a polpa água/rocha pelo conector inferior (H)"/>
+			<field name="originatesFrom" value="46087809"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805446"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805446"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805446"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05446"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805446-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12277" type="Person">
+			<semanticIdentifier>lattes::3114942318419378</semanticIdentifier>
+			<field name="identifier.lattes" value="3114942318419378"/>
+			<field name="name" value="Giorgio Francesco Cesare de Tomi"/>
+		</entity>
+		<entity ref="OrgUnit9583" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit9584" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17705" toEntityRef="Person12277" type="Inventor"/>
+		<relation fromEntityRef="Patent17705" toEntityRef="OrgUnit9583" type="Applicant"/>
+		<relation fromEntityRef="Patent17705" toEntityRef="OrgUnit9584" type="Applicant"/>
+	</relations>
+</entity-relation-data>

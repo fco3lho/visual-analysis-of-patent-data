@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:57" record="40938" source="Espacenet">
+	<entities>
+		<entity ref="Patent40938" type="Patent">
+			<semanticIdentifier>brcris::10d9e156eb31b70d774621ad1f1b2f38</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0804470A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0804470</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0804470A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI04470</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0804470-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0804470"/>
+			<field name="identifier.lattes" value="5436713663763286"/>
+			<field name="identifier.espacenet" value="PI0804470"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema, método e processo para caracterizar frações pesadas de petróleo extrapolando a curva de ponto de ebulição verdadeiro"/>
+			<field name="title.lattes" value="Sistema, método e processo para caracterizar frações pesadas de petróleo extrapolando a curva de ponto de ebulição verdadeiro"/>
+			<field name="depositDate" value="2008-06-27"/>
+			<field name="publicationDate" value="2010-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE DE OLIVEIRA GOMES"/>
+			<field name="inventor" value="CESAR BENEDITO BATISTELLA"/>
+			<field name="inventor" value="LILIAN CARMEM MEDINA DE OLIVEIRA"/>
+			<field name="inventor" value="MARIA REGINA WOLF MACIEL"/>
+			<field name="inventor" value="PAULA SBAITE DUARTE DOS SANTOS"/>
+			<field name="inventor" value="RUBENS MACIEL FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N25/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema, Método e Processo para caracterizar frações pesadas de petróleo extrapolando a Curva de Ponto de Ebulição Verdadeiro. Compreende que a presente patente de invenção refere-se a um novo procedimento e sistema para caracterizar frações pesadas de petróleo por destilação molecular, o qual foi inventado para estender a curva dos pontos de ebulição verdadeiros (PEV) de petróleos de 565°C para valores até 750°C, para uso em refinarias de petróleo. Apresenta originalidade com vistas a uma melhor caracterização destes produtos, provendo precisão e velocidade, através de um método muito robusto, sendo que as frações pesadas de petróleo, apresentando corte de aproximadamente 545°C, são submetidos a uma série de destilações moleculares, partindo de 220°C a até 400°C e que cada temperatura operacional se obtém um corte de destilado com uma determinada relação de destilado por massa alimentada, que após o valor da temperatura utilizada, convertida em PEV através de uma expressão matemática específica, denominada FRAMOL, mais o valor da fração destilada acumulada deste corte (relação massa destilada acumulada versos massa de alimentação) permite graficar o ponto PEV, em graus Celsius, em função da fração mássica destilada acumulada para cada corte conduzida no destilador molecular. Desta forma, os pontos PEVs obtidos a temperaturas menores que 545°C através de métodos padronizados, e o conjunto de pontos obtidos por destilação molecular geram, então, a curva PEV estendida."/>
+			<field name="originatesFrom" value="41796382"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0804470"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0804470"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0804470"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI04470"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0804470-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27838" type="Person">
+			<semanticIdentifier>lattes::5436713663763286</semanticIdentifier>
+			<field name="identifier.lattes" value="5436713663763286"/>
+			<field name="name" value="Rubens Maciel Filho"/>
+		</entity>
+		<entity ref="OrgUnit21785" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40938" toEntityRef="Person27838" type="Inventor"/>
+		<relation fromEntityRef="Patent40938" toEntityRef="OrgUnit21785" type="Applicant"/>
+	</relations>
+</entity-relation-data>

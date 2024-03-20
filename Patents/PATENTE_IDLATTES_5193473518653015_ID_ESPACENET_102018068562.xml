@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:25" record="18514" source="Espacenet">
+	<entities>
+		<entity ref="Patent18514" type="Patent">
+			<semanticIdentifier>brcris::16695c24dc51b00a00149c8740d18801</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018068562A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018068562</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018068562A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181068562</semanticIdentifier>
+			<semanticIdentifier>original::102018068562</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018068562"/>
+			<field name="identifier.lattes" value="5193473518653015"/>
+			<field name="identifier.espacenet" value="102018068562"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="classificador locomotivo para dados de captura de movimentos altamente estilizados"/>
+			<field name="title.lattes" value="CLASSIFICADOR LOCOMOTIVO PARA DADOS DE CAPTURA DE MOVIMENTOS ALTAMENTE ESTILIZADOS"/>
+			<field name="depositDate" value="2018-09-13"/>
+			<field name="publicationDate" value="2020-03-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUSTAVO EGGERT BOEHS"/>
+			<field name="inventor" value="MILTON LUIZ HORN VIEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A63B24/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="24"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="classificador locomotivo para dados de captura de movimentos altamente estilizados trata-se de um sistema capaz de classificar os movimentos de locomoção humana registrados por captura de movimentos em tempo real, distingue diferentes tipos de locomoção ainda que performados de modo altamente estilizado, e determina o tipo e a fase dos movimentos que classifica, já capturados, com palavras legíveis por seres humanos, como: andar, correr, pular."/>
+			<field name="originatesFrom" value="70156190"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018068562"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018068562"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018068562"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181068562"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018068562"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12836" type="Person">
+			<semanticIdentifier>lattes::5193473518653015</semanticIdentifier>
+			<field name="identifier.lattes" value="5193473518653015"/>
+			<field name="name" value="Gustavo Eggert Boehs"/>
+		</entity>
+		<entity ref="OrgUnit10001" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18514" toEntityRef="Person12836" type="Inventor"/>
+		<relation fromEntityRef="Patent18514" toEntityRef="OrgUnit10001" type="Applicant"/>
+	</relations>
+</entity-relation-data>

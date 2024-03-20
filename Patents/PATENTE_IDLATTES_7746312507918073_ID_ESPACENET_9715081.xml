@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:35" record="34315" source="Espacenet">
+	<entities>
+		<entity ref="Patent34315" type="Patent">
+			<semanticIdentifier>brcris::1f62cdb2aa6aa699c3cb1fe3a01efbde</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9715081A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9715081</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9715081A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979715081</semanticIdentifier>
+			<semanticIdentifier>original::9715081-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9715081"/>
+			<field name="identifier.lattes" value="7746312507918073"/>
+			<field name="identifier.espacenet" value="9715081"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Produção de agregados leves a partir de rejeitos de ardósia"/>
+			<field name="title.lattes" value="Produção de agregados leves a partir de rejeitos de ardósia"/>
+			<field name="depositDate" value="1997-06-27"/>
+			<field name="publicationDate" value="2004-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JADER MARTINS"/>
+			<field name="inventor" value="NEYMAYER PEREIRA LIMA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B18/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PRODUçãO DE AGREGADOS LEVES A PARTIR DE REJEITOS DE ARDóSIA&quot;. Processo de produção de agregado leve à partir de rejeitos provenientes da extração e serragem de ardósia, em que o material é britado e peneirado em faixas granulométricas específicas para serem submetidas ao aquecimento brusco a altas temperaturas. A fração mais fina, menor que 3,6 mm é aglomerada por processos de briquetagem e pelotização e submetida ao aquecimento idêntico ao do material bitolado."/>
+			<field name="originatesFrom" value="32399651"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9715081"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9715081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9715081"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979715081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9715081-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23604" type="Person">
+			<semanticIdentifier>lattes::7746312507918073</semanticIdentifier>
+			<field name="identifier.lattes" value="7746312507918073"/>
+			<field name="name" value="Neymayer Pereira Lima"/>
+		</entity>
+		<entity ref="OrgUnit18509" type="OrgUnit">
+			<semanticIdentifier>brcris::f60e03e4038d592def216988a602934c</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit18510" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34315" toEntityRef="Person23604" type="Inventor"/>
+		<relation fromEntityRef="Patent34315" toEntityRef="OrgUnit18509" type="Applicant"/>
+		<relation fromEntityRef="Patent34315" toEntityRef="OrgUnit18510" type="Applicant"/>
+	</relations>
+</entity-relation-data>

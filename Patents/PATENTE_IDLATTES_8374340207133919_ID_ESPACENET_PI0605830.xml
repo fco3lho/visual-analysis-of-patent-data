@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:23" record="45851" source="Espacenet">
+	<entities>
+		<entity ref="Patent45851" type="Patent">
+			<semanticIdentifier>brcris::9591f8373fae32a39e5f9bf00f5fc54c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605830A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605830</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605830A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05830</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605830-2 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605830"/>
+			<field name="identifier.lattes" value="8374340207133919"/>
+			<field name="identifier.espacenet" value="PI0605830"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO PARA INSTRUIR TRANSAÇÕES ELETRÔNICAS A UMA INSTITUIÇÃO"/>
+			<field name="title.lattes" value="Método para instruir transações eletrônicas a uma instituição"/>
+			<field name="depositDate" value="2006-10-10"/>
+			<field name="publicationDate" value="2014-11-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMIN WERNER MITTELSDORF"/>
+			<field name="inventor" value="LEON ACHJIAN JUNIOR"/>
+			<field name="inventor" value="RICARDO KOMATSU DE ALMEIDA"/>
+			<field name="inventor" value="WILSON VICENTE RUGGIERO"/>
+			<field name="applicant" value="SCOPUS TECNOLOGIA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G07F19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F21/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="METODO PARA INSTRUIR TRANSAÇOES ELETRÔNICAS A UMA INSTITUIÇAO. Refere-se a presente invenção a um método para permitir que um usuário autorize e assine transaç5es eletrônicas utilizando programas token, mesmo que o software utilizado para realizar as transações eletrônicas seja executado no mesmo dispositivo terminal que executa o programa token, como ocorre em telefones celulares. Um usuário utiliza uma aplicação de acesso ou browser (11) para submeter transações eletrônicas (41) através de um dispositivo terminal (10) para uma aplicação (22) de uma instituição 20 não as executando de imediato, deixando-as pendentes (23) . Em seguida, o usuário aciona o programa token (12), que consulta em (42) as transaç5es pendentes (23) em um dispositivo no servidor (21) da instituição (20). O usuário lê a descrição de cada transação aprovando ou não aprovando as transações, que são transmitidas em (43) ou (44) de volta para a aplicação (22) da instituição (20) com a devida autorização ou assinatura, utilizando um segredo capaz de ser interpretado por esta aplicação. Somente as transações corretamente autorizadas/assinadas são concretizadas pela aplicação da instituição."/>
+			<field name="originatesFrom" value="39275733"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605830"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605830"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605830"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05830"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605830-2 A2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2008086425"/>
+		</entity>
+		<entity ref="Person31377" type="Person">
+			<semanticIdentifier>lattes::8374340207133919</semanticIdentifier>
+			<field name="identifier.lattes" value="8374340207133919"/>
+			<field name="name" value="Wilson Vicente Ruggiero"/>
+		</entity>
+		<entity ref="Patent45852" type="Patent">
+			<semanticIdentifier>epodoc::US2008086425</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="39275733"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2008086425"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45851" toEntityRef="Person31377" type="Inventor"/>
+	</relations>
+</entity-relation-data>

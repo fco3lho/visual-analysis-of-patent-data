@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:45" record="21" source="Espacenet">
+	<entities>
+		<entity ref="Patent21" type="Patent">
+			<semanticIdentifier>brcris::76d92230277f00da52b3bcd62d7d5c81</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001617A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017001617</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001617A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171001617</semanticIdentifier>
+			<semanticIdentifier>original::102017001617</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017001617"/>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="identifier.espacenet" value="102017001617"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema robusto de amplificação da reprodutibilidade, precisão, exatidão das medidas eletrônicas"/>
+			<field name="title.lattes" value="SISTEMA ROBUSTO DE AMPLIFICAÇÃO DA REPRODUTIBILIDADE, PRECISÃO, EXATIDÃO DAS MEDIDAS ELETRÔNICAS"/>
+			<field name="depositDate" value="2017-01-26"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL CAVALCANTE LIMA FILHO"/>
+			<field name="inventor" value="DIOGENES MONTENEGRO GOMES DE BRITO SILVA"/>
+			<field name="inventor" value="FRANCISCO ANTONIO BELO"/>
+			<field name="inventor" value="HUGO RICARDO DE OLIVEIRA LIMA"/>
+			<field name="inventor" value="JOBSON FRANCISCO DA SILVA"/>
+			<field name="inventor" value="PEDRO GRANVILLE GONCALVES"/>
+			<field name="inventor" value="TASSIO ALESSANDRO BORGES DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R29/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05B17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06N7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="equipamento baseado em um sistema de medição eletrônica que aumenta calculadamente a precisão da medição. equipamento que a precisão é igual à reprodutibilidade e igual à exatidão quando calibrada. equipamento baseado em circuitos eletrônicos de transduções, com alta compensação de derivas térmicas ou não, que são embaraçadas em cavidades de temperaturas controladas. equipamento que as amostras e os sensores podem estar no mesmo ambiente da cavidade ou em outros ambientes com cavidades com temperaturas controladas ou não. equipamentos em que as características dos ambientes, circuitos eletrônicos e sensores permitem que seja aplicado o teorema do limite central pela redução drásticas dos efeitos dos fenômenos sistemáticos."/>
+			<field name="originatesFrom" value="63451665"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001617"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017001617"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001617"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171001617"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017001617"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17" type="Person">
+			<semanticIdentifier>lattes::0801399035139894</semanticIdentifier>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="name" value="Abel Cavalcante Lima Filho"/>
+		</entity>
+		<entity ref="OrgUnit13" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21" toEntityRef="Person17" type="Inventor"/>
+		<relation fromEntityRef="Patent21" toEntityRef="OrgUnit13" type="Applicant"/>
+	</relations>
+</entity-relation-data>

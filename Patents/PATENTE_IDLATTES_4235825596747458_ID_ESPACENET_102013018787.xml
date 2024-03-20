@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:48" record="28298" source="Espacenet">
+	<entities>
+		<entity ref="Patent28298" type="Patent">
+			<semanticIdentifier>brcris::f31960ba5cacaa4973f764e540f11768</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013018787A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013018787</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013018787A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131018787</semanticIdentifier>
+			<semanticIdentifier>original::102013018787</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013018787"/>
+			<field name="identifier.lattes" value="4235825596747458"/>
+			<field name="identifier.espacenet" value="102013018787"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="plataforma aceleradora baseada em fpgas para computação de alto desempenho"/>
+			<field name="title.lattes" value="PLATAFORMA ACELERADORA BASEADA EM FPGAs PARA COMPUTAÇÃO DE ALTO DESEMPENHO"/>
+			<field name="depositDate" value="2013-07-23"/>
+			<field name="publicationDate" value="2015-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL GUILHERMINO DA SILVA FILHO"/>
+			<field name="inventor" value="ANTONYUS PYETRO DO AMARAL FERREIRA"/>
+			<field name="inventor" value="AUGUSTO CESAR BENVENUTO DE ALMEIDA"/>
+			<field name="inventor" value="JOAO PAULO FERNANDES BARBOSA"/>
+			<field name="inventor" value="MANOEL EUSEBIO DE LIMA"/>
+			<field name="inventor" value="MARCELO LUIZ MONTEIRO MARINHO"/>
+			<field name="inventor" value="RODRIGO CAMAROTTI FERREIRA DA ROCHA"/>
+			<field name="inventor" value="VICTOR WANDERLEY COSTA DE MEDEIROS"/>
+			<field name="applicant" value="MANOEL EUSEBIO DE LIMA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F13/38AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="abstract.espacenet" value="plataforma aceleradora baseada em fpgas para computação de alto desempenho. esta invenção apresenta uma plataforma escalável para processamento de alto desempenho computacional baseada em dispositivos lógicos fpgas de baixo consumo de potência. esta placa possui suporte para monitoração de consumo de energia e temperatura de seus componentes aceleradores (fpgas). este sistema permite que a frequência de operação dos fpgas possa ser controlada quançio necessário. todo controle e monitoramento de potência e frequência podem ser feito remotamente através de comandos oriundos do host. o sistema é escalávei, permitindo que aplicações utilizem desde uma única fpga a várias, em uma única placa. estas fpgas na placa sâo conectadas através de canais de comunicação. as placas por sua vez, podem ser conectadas umas as outras através de canais de comunicação de alta velocidade, permitindo a confecção de grandes clusters, em função da necessidade do problema"/>
+			<field name="originatesFrom" value="54548386"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013018787"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013018787"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013018787"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131018787"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013018787"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19549" type="Person">
+			<semanticIdentifier>lattes::4235825596747458</semanticIdentifier>
+			<field name="identifier.lattes" value="4235825596747458"/>
+			<field name="name" value="Manoel Eusebio de Lima"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28298" toEntityRef="Person19549" type="Inventor"/>
+		<relation fromEntityRef="Patent28298" toEntityRef="Person19549" type="Depositor"/>
+	</relations>
+</entity-relation-data>

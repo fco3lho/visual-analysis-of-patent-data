@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:35" record="31885" source="Espacenet">
+	<entities>
+		<entity ref="Patent31885" type="Patent">
+			<semanticIdentifier>brcris::f30c518e4e732b6b1feec5ae973e1622</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017014364A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017014364</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017014364A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171014364</semanticIdentifier>
+			<semanticIdentifier>original::102017014364</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017014364"/>
+			<field name="identifier.lattes" value="4731072741882123"/>
+			<field name="identifier.espacenet" value="102017014364"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="pigmentos a base de alumínio metálico recuperado, procedimento para sua elaboração e uso"/>
+			<field name="title.lattes" value="PIGMENTOS A BASE DE ALUMÍNIO METÁLICO RECUPERADO, PROCEDIMENTO PARA SUA ELABORAÇÃO E USO"/>
+			<field name="depositDate" value="2017-06-30"/>
+			<field name="publicationDate" value="2019-01-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DIENIFER FERNANDA LOPES HORSTH"/>
+			<field name="inventor" value="FAUZE JACO ANAISSI"/>
+			<field name="inventor" value="KETLYN WOLFART BORTH"/>
+			<field name="inventor" value="MARIANE DALPASQUALE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22B21/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09C1/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="pigmentos a base de alumínio metálico recuperado, procedimento para sua elaboração e uso. a presente invenção refere-se a um procedimento para a obtenção de pigmentos brancos e coloridos a partir de alumínio metálico e seu uso. os pigmentos são formados por partículas predominantemente ?cristalinas. o processo desenvolvido compreende a digestão do alumínio metálico em solução preferencialmente de ácido clorídrico, ácido nítrico, ácido sulfúrico, hidróxido de amônio ou hidróxido de sódio, na concentração de 1,5 mol l-1, mantendo essa solução por 48 horas em repouso, seguida de filtração e correção do ph para 11, com a solução para correção do ph na concentração de 3 mol l-1, utilizando preferencialmente, mas não exclusivamente, ácido clorídrico, ácido nítrico, ácido sulfúrico, hidróxido de amônio ou hidróxido de sódio para a preparação dos pigmentos brancos e acetatos, cloretos, nitratos e sulfatos, preferencialmente, mas não exclusivamente, de cobalto, ferro ou níquel para a preparação dos pigmentos coloridos. seguidos de nova filtração, secagem na temperatura de 70 ºc por aproximadamente 24 horas, calcinação na temperatura de 1000 ºc, na rampa de 10 ºc min-1, e trituração dos pigmentos obtidos. os pigmentos da invenção podem ser utilizados como pigmentos em tintas, plásticos e cerâmicas."/>
+			<field name="originatesFrom" value="65237319"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017014364"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017014364"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017014364"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171014364"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017014364"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21893" type="Person">
+			<semanticIdentifier>lattes::4731072741882123</semanticIdentifier>
+			<field name="identifier.lattes" value="4731072741882123"/>
+			<field name="name" value="Mariane Dalpasquale"/>
+		</entity>
+		<entity ref="OrgUnit17125" type="OrgUnit">
+			<semanticIdentifier>brcris::43a78740c95a1ca64db4f4f90a86f6ac</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31885" toEntityRef="Person21893" type="Inventor"/>
+		<relation fromEntityRef="Patent31885" toEntityRef="OrgUnit17125" type="Applicant"/>
+	</relations>
+</entity-relation-data>

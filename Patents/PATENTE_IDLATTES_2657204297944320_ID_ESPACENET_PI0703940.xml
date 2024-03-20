@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:58" record="29448" source="Espacenet">
+	<entities>
+		<entity ref="Patent29448" type="Patent">
+			<semanticIdentifier>brcris::2dd8d6fae1b6b2ff27ce15363da61006</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703940A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703940</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703940A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03940</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703940-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703940"/>
+			<field name="identifier.lattes" value="2657204297944320"/>
+			<field name="identifier.espacenet" value="PI0703940"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="temporizador inteligente com sinalizaÇço para manutenÇço preventiva"/>
+			<field name="title.lattes" value="Temporizador inteligente com sinalização para manutenção preventiva (PI 0703940-9)"/>
+			<field name="depositDate" value="2007-07-11"/>
+			<field name="publicationDate" value="2009-03-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCIO ABUD MARCELINO"/>
+			<field name="applicant" value="MARCIO ABUD MARCELINO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G04G11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F15/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Temporizador Inteligente Com Sinalização Para Manutenção Preventiva. De acordo com a presente invenção, um temporizador inteligente com sinalização para manutenção preventiva, de baixo custo, pode ser instalado em qualquer equipamento que inicie sua operação com alimentação elétrica e necessite de intervenção periódica. O sistema tem capacidade de totalizar o tempo de operação do equipamento e, quando alcançar o periodo de manutenção preventiva, uma sinalização é disparada. Sem bateria, armazena o tempo de operação em memória não volátil, mantendo a informação mesmo na ausência de energia elétrica, reduzindo a participação do homem no processo de controle da manutenção preventiva. O sistema é composto por uma placa de circuito impresso (1) com um rnicrocontrolador comercial (4), de baixo custo, equipado com memória EEPROM e gerador de base de tempo. Um retificador de tensão com filtro (2) e um abaixador e regulador de tensão (3) são responsáveis pela conversão da tensão da rede elétrica para a alimentação do microcontrolador (4). O sistema é equipado com um sinalizador visual tipo LED (5), sinalizando quando o tempo para manutenção preventiva foi alcançado e, uma chave para inicialização tipo push-burron (6), localizada internamente ao local da manutenção, evitando inicializações acidentais e/ou equivocadas."/>
+			<field name="originatesFrom" value="40601285"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703940"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703940"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703940"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03940"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703940-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20239" type="Person">
+			<semanticIdentifier>lattes::2657204297944320</semanticIdentifier>
+			<field name="identifier.lattes" value="2657204297944320"/>
+			<field name="name" value="Márcio Abud Marcelino"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29448" toEntityRef="Person20239" type="Inventor"/>
+		<relation fromEntityRef="Patent29448" toEntityRef="Person20239" type="Depositor"/>
+	</relations>
+</entity-relation-data>

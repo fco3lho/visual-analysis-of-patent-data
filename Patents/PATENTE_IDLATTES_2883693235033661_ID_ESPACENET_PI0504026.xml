@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:30" record="33183" source="Espacenet">
+	<entities>
+		<entity ref="Patent33183" type="Patent">
+			<semanticIdentifier>brcris::38488976bd7b2f60872ff3d7db0ec85f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504026A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504026</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504026A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04026</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504026-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504026"/>
+			<field name="identifier.lattes" value="2883693235033661"/>
+			<field name="identifier.espacenet" value="PI0504026"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo implementado em microcomputador para agilizar e precisar o cálculo de 10 dq para compostos de coordenação, utilizando os diagramas de tanabe-sugano"/>
+			<field name="title.lattes" value="Processo Implementado em Microcomputador para Agilizar e Precisar o Cálculo de 10 Dq para Compostos de Coordenação, utilizando os diagramas de Tanabe-Sugano, BRPI0504026 (A)"/>
+			<field name="depositDate" value="2005-02-21"/>
+			<field name="publicationDate" value="2006-10-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE DANILO AYALA"/>
+			<field name="inventor" value="MIGUEL DE ARAUJO MEDEIROS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/62AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01D1/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO IMPLEMENTADO EM MICROCOMPUTADOR PARA AGILIZAR E PRECISAR O CáLCULO DE 10 DQ PARA COMPOSTOS DE COORDENAçãO, UTILIZANDO OS DIAGRAMAS DE TANABE-SUGANO&quot;. O processo desenvolvido e implementado em microcomputador objeto do presente pedido de patente agiliza o cálculo de 10 Dq de compostos de coordenação utilizando os diagramas de Tanabe-Sugano e dados de um espectro eletrónico e melhora a precisão dos cálculos e valores obtidos, uma vez que as escalas dos diagramas são fixas e os erros gerados são minimizados. A metodologia utilizada no software possibilita a utilização de informações de quaisquer técnicas de espectroscopia eletrónica. O software possui grande sensibilidade, o que propicia um valor de 10 Dq mais preciso, principalmente quando comparado com o método clássico realizado de forma manual para a obtenção de dados (utilizando um paquímetro e um diagrama impresso)."/>
+			<field name="originatesFrom" value="37081486"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504026"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504026"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504026"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04026"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504026-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22856" type="Person">
+			<semanticIdentifier>lattes::2883693235033661</semanticIdentifier>
+			<field name="identifier.lattes" value="2883693235033661"/>
+			<field name="name" value="Miguel de Araújo Medeiros"/>
+		</entity>
+		<entity ref="OrgUnit17864" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33183" toEntityRef="Person22856" type="Inventor"/>
+		<relation fromEntityRef="Patent33183" toEntityRef="OrgUnit17864" type="Applicant"/>
+	</relations>
+</entity-relation-data>

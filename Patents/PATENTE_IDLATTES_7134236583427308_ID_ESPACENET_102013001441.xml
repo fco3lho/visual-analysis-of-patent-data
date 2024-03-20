@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:08" record="32113" source="Espacenet">
+	<entities>
+		<entity ref="Patent32113" type="Patent">
+			<semanticIdentifier>brcris::c39d18349db1c3afc8ff7a5fa577a722</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013001441A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013001441</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013001441A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131001441</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 001441-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013001441"/>
+			<field name="identifier.lattes" value="7134236583427308"/>
+			<field name="identifier.espacenet" value="102013001441"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO DE PRODUÇÃO DE MELANINA SINTÉTICA E PRODUTO OBTIDO"/>
+			<field name="title.lattes" value="Processo de Produção de Melanina Sintética e Produto Obtido"/>
+			<field name="depositDate" value="2013-01-21"/>
+			<field name="publicationDate" value="2014-09-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS FREDERICO DE OLIVEIRA GRAEFF"/>
+			<field name="inventor" value="ERIKA SOARES BRONZA UHLE"/>
+			<field name="inventor" value="MARINA PIACENTI DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08J3/03AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="03AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08F2/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C09B62/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="62"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PRODUÇÃO DE MELANINA SINTÉTICA E PRODUTO OBTIDO. É descrita a invenção de um processo de produção de melanina sintética e respectivo produto obtido. Mais especificamente, compreende a síntese da melanina em rota aquosa, a partir da oxidação do precursor da melanina (L-DOPA), utilizando um reator hidrotermal."/>
+			<field name="originatesFrom" value="51208879"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013001441"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013001441"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013001441"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131001441"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 001441-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2014110641"/>
+		</entity>
+		<entity ref="Person22067" type="Person">
+			<semanticIdentifier>lattes::7134236583427308</semanticIdentifier>
+			<field name="identifier.lattes" value="7134236583427308"/>
+			<field name="name" value="Marina Piacenti da Silva"/>
+		</entity>
+		<entity ref="OrgUnit17279" type="OrgUnit">
+			<semanticIdentifier>brcris::31cbcf16d83377fea5a7022e1711da91</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA"/>
+		</entity>
+		<entity ref="Patent32114" type="Patent">
+			<semanticIdentifier>epodoc::WO2014110641</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="51208879"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2014110641"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32113" toEntityRef="Person22067" type="Inventor"/>
+		<relation fromEntityRef="Patent32113" toEntityRef="OrgUnit17279" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:33" record="25514" source="Espacenet">
+	<entities>
+		<entity ref="Patent25514" type="Patent">
+			<semanticIdentifier>brcris::06e422a730148f6f4bb736951f87ff54</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018016562A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018016562</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018016562A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181016562</semanticIdentifier>
+			<semanticIdentifier>original::102018016562</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018016562"/>
+			<field name="identifier.lattes" value="9957323090345724"/>
+			<field name="identifier.espacenet" value="102018016562"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de identificação por radiofrequência para controle de abastecimento de frota com dispositivo antifurto"/>
+			<field name="title.lattes" value="Sistema de Identificação por rádio frequência para controle de abastecimento de frota com dispositivo antifurto"/>
+			<field name="depositDate" value="2018-08-14"/>
+			<field name="publicationDate" value="2020-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE DIOGO POLTRONIERI"/>
+			<field name="inventor" value="AMAURI RIBEIRO"/>
+			<field name="inventor" value="GESSE JUSTINIANO DE OLIVEIRA JUNIOR"/>
+			<field name="inventor" value="JOSE CARLOS CRIALES SOUTO-MAIOR"/>
+			<field name="inventor" value="LEONARDO FERREIRA DALTRO"/>
+			<field name="inventor" value="PLINIO BARBOSA DA SILVA"/>
+			<field name="inventor" value="ROMUALDO PARANHOS SADZVICIUS"/>
+			<field name="inventor" value="SAULO QUEIROZ FIGLIUOLO"/>
+			<field name="applicant" value="METROVAL CONTROLE DE FLUIDOS LTDA"/>
+			<field name="applicant" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G07C3/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G07F7/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="trata a presente solicitação de patente de invenção de um sistema de identificação de veículos para pequeno, médio e grande porte, principalmente tratores e caminhõestanques, para controle de processos de abastecimentos, particularmente mediante instalação do sistema em bombas de combustível de postos, comboios (caminhão de abastecimento para zonas rurais), estações de carregamento de caminhões-tanques, ou em locais privados, onde se faça necessária a identificação e controle de abastecimento de frota veicular. a invenção inclui um dispositivo identificador (1) de veículos, a ser acoplado no tanque de combustível do veículo receptor, e um leitor rfid (9), acoplado em um bico identificador de veículos (8), onde o dispositivo antifurto possui dois estágios de segurança complementares; o primeiro consiste nos sensores eletrônicos (10) adicionais no dispositivo identificador (1) de veículos para possibilitar a leitura do tag rfid (6); o segundo estágio de segurança inviabiliza a remoção de tag rfid (6) cadastrado de dispositivos identificadores (1) em veículos autorizados; para isso, os elementos perfurantes (7), previstos no dispositivo identificador (1), inutilizam mecanicamente o tag rfid (6) em caso de tentativa de violação da tampa (11)."/>
+			<field name="originatesFrom" value="69896955"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018016562"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018016562"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018016562"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181016562"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018016562"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17685" type="Person">
+			<semanticIdentifier>lattes::9957323090345724</semanticIdentifier>
+			<field name="identifier.lattes" value="9957323090345724"/>
+			<field name="name" value="Leonardo Ferreira Daltro"/>
+		</entity>
+		<entity ref="OrgUnit13802" type="OrgUnit">
+			<semanticIdentifier>brcris::3714dd508ac51d7befdd98b951568b4c</semanticIdentifier>
+			<field name="name" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25514" toEntityRef="Person17685" type="Inventor"/>
+		<relation fromEntityRef="Patent25514" toEntityRef="OrgUnit13802" type="Applicant"/>
+	</relations>
+</entity-relation-data>

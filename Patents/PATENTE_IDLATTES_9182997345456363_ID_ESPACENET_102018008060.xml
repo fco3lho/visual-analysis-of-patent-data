@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:36" record="17539" source="Espacenet">
+	<entities>
+		<entity ref="Patent17539" type="Patent">
+			<semanticIdentifier>brcris::0cb3171afba34be95ce80648115e1b1e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008060A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018008060</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008060A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181008060</semanticIdentifier>
+			<semanticIdentifier>original::102018008060</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018008060"/>
+			<field name="identifier.lattes" value="9182997345456363"/>
+			<field name="identifier.espacenet" value="102018008060"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="síntese de um novo adesivo acrílico a partir de éster glicerolado por fotopolimerização"/>
+			<field name="title.lattes" value="SÍNTESE DE UM NOVO ADESIVO ACRÍLICO A PARTIR DE ÉSTER GLICEROLADO POR FOTOPOLIMERIZAÇÃO"/>
+			<field name="depositDate" value="2018-04-20"/>
+			<field name="publicationDate" value="2019-11-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTHUR ROSSI DE OLIVEIRA"/>
+			<field name="inventor" value="GILBERT BANNACH"/>
+			<field name="inventor" value="RAFAEL TURRA ALARCON"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09J131/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="131"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09J133/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="133"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C09J133/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="133"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C09J173/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="173"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="é descrita a patente de invenção pertencente ao campo dos polímeros sintéticos constituída pela produção de um polímero utilizando reagentes de baixo custo como glicerol proveniente da reação de biodiesel, bem como ácido acrílico e anidridos, como o anidrido maleico (composto quimicamente verde). a síntese possui duração inferior a 10 minutos e não utiliza qualquer solvente orgânico, além de possuir baixíssimo gasto energético, pois utilizam-se leds no processo reacional."/>
+			<field name="originatesFrom" value="68385865"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008060"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018008060"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008060"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181008060"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018008060"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12141" type="Person">
+			<semanticIdentifier>lattes::9182997345456363</semanticIdentifier>
+			<field name="identifier.lattes" value="9182997345456363"/>
+			<field name="name" value="Gilbert Bannach"/>
+		</entity>
+		<entity ref="OrgUnit9514" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17539" toEntityRef="Person12141" type="Inventor"/>
+		<relation fromEntityRef="Patent17539" toEntityRef="OrgUnit9514" type="Applicant"/>
+	</relations>
+</entity-relation-data>

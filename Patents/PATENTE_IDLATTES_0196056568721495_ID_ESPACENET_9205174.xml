@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:37" record="32794" source="Espacenet">
+	<entities>
+		<entity ref="Patent32794" type="Patent">
+			<semanticIdentifier>brcris::ee6e5441a05e92c456dcaf83e59bddd5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9205174A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9205174</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9205174A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19929205174</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9205174"/>
+			<field name="identifier.lattes" value="0196056568721495"/>
+			<field name="identifier.espacenet" value="9205174"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Dispositivo de dupla via para inoculação, coleta, preservação, transporte e cultivo de material biológico."/>
+			<field name="title.lattes" value="Dispositivo de dupla via para inoculação, coleta, preservação, transporte e cultivo de material biológico"/>
+			<field name="depositDate" value="1992-12-28"/>
+			<field name="publicationDate" value="1994-06-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAURO CELIO DE ALMEIDA MARZOCHI"/>
+			<field name="applicant" value="FUNDACAO OSWALDO CRUZ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/48AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="originatesFrom" value="4055545"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9205174"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9205174"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9205174"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19929205174"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22559" type="Person">
+			<semanticIdentifier>lattes::0196056568721495</semanticIdentifier>
+			<field name="identifier.lattes" value="0196056568721495"/>
+			<field name="name" value="Mauro Celio de Almeida Marzochi"/>
+		</entity>
+		<entity ref="OrgUnit17647" type="OrgUnit">
+			<semanticIdentifier>brcris::fd1aaa8a379490760047a3d051a56b50</semanticIdentifier>
+			<field name="name" value="FUNDACAO OSWALDO CRUZ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32794" toEntityRef="Person22559" type="Inventor"/>
+		<relation fromEntityRef="Patent32794" toEntityRef="OrgUnit17647" type="Applicant"/>
+	</relations>
+</entity-relation-data>

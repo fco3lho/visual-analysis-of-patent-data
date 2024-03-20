@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:21" record="35742" source="Espacenet">
+	<entities>
+		<entity ref="Patent35742" type="Patent">
+			<semanticIdentifier>brcris::05d1fc2e3dd06e257241d87f18574df4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803479A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803479</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803479A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03479</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803479-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803479"/>
+			<field name="identifier.lattes" value="5294022182296042"/>
+			<field name="identifier.espacenet" value="PI0803479"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparelho para determinação e controle de umidade em amostra de material biodegradável"/>
+			<field name="title.lattes" value="Aparelho para determinação e controle de umidade em amostra de material biodegradável"/>
+			<field name="depositDate" value="2008-09-19"/>
+			<field name="publicationDate" value="2010-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="PAULO JOSE DO AMARAL SOBRAL"/>
+			<field name="inventor" value="PAULO VICTOR ALBUQUERQUE BERGO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N22/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="22"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N22/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="22"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Descreve-se um aparelho para determinar e controlar umidade em amostra de material biodegradável de maneira rápida, simples, nào destrutiva e sensível, que opera nas faixas de microondas com baixa potência, para a determinação qualitativa da umidade que tende a acumular em materiais tais como papel, madeira, alimentos, assim como, permite a determinação da perda de umidade em tais materiais."/>
+			<field name="originatesFrom" value="42238443"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803479"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803479"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803479"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03479"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803479-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24612" type="Person">
+			<semanticIdentifier>lattes::5294022182296042</semanticIdentifier>
+			<field name="identifier.lattes" value="5294022182296042"/>
+			<field name="name" value="Paulo Jose do Amaral Sobral"/>
+		</entity>
+		<entity ref="OrgUnit19312" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit19313" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35742" toEntityRef="Person24612" type="Inventor"/>
+		<relation fromEntityRef="Patent35742" toEntityRef="OrgUnit19312" type="Applicant"/>
+		<relation fromEntityRef="Patent35742" toEntityRef="OrgUnit19313" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:23:13" record="42452" source="Espacenet">
+	<entities>
+		<entity ref="Patent42452" type="Patent">
+			<semanticIdentifier>brcris::15413d2f94cbc0b5417db28304a62152</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019017909A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019017909</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019017909A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191017909</semanticIdentifier>
+			<semanticIdentifier>original::102019017909</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019017909"/>
+			<field name="identifier.lattes" value="8035357058902261"/>
+			<field name="identifier.espacenet" value="102019017909"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de tratamento de lixiviado, uso de lodo residual, processo de obtenção de um biossólido, biossólido e usos do biossólido"/>
+			<field name="title.lattes" value="Processo de tratamento de lixiviado, uso de lodo residual, processo de obtenção de um biossólido, biossólido e usos do biossólido"/>
+			<field name="depositDate" value="2019-08-28"/>
+			<field name="publicationDate" value="2021-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE FERNANDO DO NASCIMENTO JUNIOR"/>
+			<field name="inventor" value="MARILIA LYRA COSTA CASTRO"/>
+			<field name="inventor" value="SILVIO ROMERO DE MELO FERREIRA"/>
+			<field name="inventor" value="ZORAYDE LOURENCO DE OLIVEIRA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C05F9/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C05F11/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C05F15/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de tratamento de lixiviado, uso de lodo residual, processo de obtenção de um biossólido, biossólido e usos do biossólido. a presente invenção descreve um processo de tratamento de lixiviado com extrato de semente de moringa oleífera lam obtendo-se um lodo residual que é útil para obtenção de um biossólido. especificamente, a presente invenção descreve o processo de obtenção de um biossólido oriundo de lodo residual do tratamento de lixiviado e seu uso para produção de mudas e paisagismo em aterros sanitários. a presente invenção se situa nos campos da agronomia e engenharia ambiental."/>
+			<field name="originatesFrom" value="75237073"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019017909"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019017909"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019017909"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191017909"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019017909"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28937" type="Person">
+			<semanticIdentifier>lattes::8035357058902261</semanticIdentifier>
+			<field name="identifier.lattes" value="8035357058902261"/>
+			<field name="name" value="Silvio Romero de Melo Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit22640" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42452" toEntityRef="Person28937" type="Inventor"/>
+		<relation fromEntityRef="Patent42452" toEntityRef="OrgUnit22640" type="Applicant"/>
+	</relations>
+</entity-relation-data>

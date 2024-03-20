@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:47" record="20648" source="Espacenet">
+	<entities>
+		<entity ref="Patent20648" type="Patent">
+			<semanticIdentifier>brcris::b7b61665b551673ee27373091e3ff0e2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000768A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1000768</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI00768</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1000768-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1000768"/>
+			<field name="identifier.lattes" value="2607688973456560"/>
+			<field name="identifier.espacenet" value="PI1000768"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de camisa e camisa para motores de combustão interna"/>
+			<field name="title.lattes" value="Processo de Produção de Camisa para Motores de Combustão Interna"/>
+			<field name="depositDate" value="2010-01-08"/>
+			<field name="publicationDate" value="2012-01-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABNER CABRAL NETO"/>
+			<field name="inventor" value="ANTONIO AUGUSTO COUTO"/>
+			<field name="inventor" value="ELVIS GUERREIRO"/>
+			<field name="inventor" value="GILSON ANTONIO VICENTINI"/>
+			<field name="inventor" value="JAN VATAVUK"/>
+			<field name="inventor" value="MARIO AUGUSTO NAVA"/>
+			<field name="applicant" value="DE MAGNETTI MARELLI COFAP COMPANHIA FABRICADORA PECAS"/>
+			<field name="applicant" value="INSTITUTO PRESBITERIANO MACKENZIE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B22D13/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PRODUçãO DE CAMISA E CAMISA PARA MOTORES DE COMBUSTãO INTERNA. O processo compreende as etapas de: prover uma coquilha (20), girando a uma determinada rotação e tendo uma temperatura inicial; vazar, na coquilha (20)1 uma liga metálica tendo uma temperatura de vazamento e um percentual de material particulado duro (1) disperso em uma matriz de material mole (2) e menor do que aquele necessário para imprimir uma determinada resistência mecânica e ao desgaste na camisa (10), para nesta prover uma zona de usinagem interna (11) uma zona de usinagem externa (12) e uma zona de trabalho intermediária (13). A rotação, a temperatura do molde e a temperatura de vazamento são dimensionadas para que, quando da solidificação da camisa (10), a zona de trabalho intermediária (13) apresente um percentual de material particulado duro (1) superior àquele da liga vazada na coquilha (20) , e suficiente para prover a desejada resistência ao desgaste a uma superfície de trabalho (14) a ser formada quando da retirada de material da zona de usinagem interna (11) ; e retirar material das zonas de usinagem interna e externa (11, 12) da camisa (10), para a obtenção das dimensões finais desta."/>
+			<field name="originatesFrom" value="45465069"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000768"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1000768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI00768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1000768-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14291" type="Person">
+			<semanticIdentifier>lattes::2607688973456560</semanticIdentifier>
+			<field name="identifier.lattes" value="2607688973456560"/>
+			<field name="name" value="Jan Vatavuk"/>
+		</entity>
+		<entity ref="OrgUnit11192" type="OrgUnit">
+			<semanticIdentifier>brcris::3654acf40a79dcc52dcf35ae34d68909</semanticIdentifier>
+			<field name="name" value="INSTITUTO PRESBITERIANO MACKENZIE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20648" toEntityRef="Person14291" type="Inventor"/>
+		<relation fromEntityRef="Patent20648" toEntityRef="OrgUnit11192" type="Applicant"/>
+	</relations>
+</entity-relation-data>

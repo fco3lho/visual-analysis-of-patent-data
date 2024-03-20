@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:40" record="18664" source="Espacenet">
+	<entities>
+		<entity ref="Patent18664" type="Patent">
+			<semanticIdentifier>brcris::95bb5159023114fa6cc95a5a7ef43740</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905530A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905530</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905530A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05530</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905530-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905530"/>
+			<field name="identifier.lattes" value="1240227827563843"/>
+			<field name="identifier.espacenet" value="PI0905530"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de sìntese de policarbonatos sulfonados, produto e uso"/>
+			<field name="title.lattes" value="Processo de síntese de policarbonatos sulfonados, produto e uso"/>
+			<field name="depositDate" value="2009-12-16"/>
+			<field name="publicationDate" value="2011-08-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLA PATRICIA LACERDA RUBINGER"/>
+			<field name="inventor" value="CLAUDIO LUIS DONNICI"/>
+			<field name="inventor" value="HALLEN DANIEL REZENDE CALADO"/>
+			<field name="inventor" value="HALLEN DANIEL REZENDE CALADO"/>
+			<field name="inventor" value="HENRIQUE DOS SANTOS OLIVEIRA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08F8/36AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08G64/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="64"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C08G64/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="64"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE SìNTESE DE POLICARBONATOS SULFONADOS, PRODUTO E USO.&lt;D&gt; Esta invenção refere-se a uma reação de sulfonação que introduz grupos sulfónicos em anéis aromáticos de polímeros termoplásticos. Esta metodologia de síntese permite determinar o grau de sulfonação do composto final a partir da relação molar da solução de acetilsulfato, do tempo de reação e da velocidade de reação. A reatividade dos anéis aromáticos do polímero depende da propagação da reação. O grau de sulfonação foi determinado por análise elementar (CHNS), através da titulação por condutimetria e por RMN de ^ 13^C quantitativo."/>
+			<field name="originatesFrom" value="44482350"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905530"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905530"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905530"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05530"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905530-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12935" type="Person">
+			<semanticIdentifier>lattes::1240227827563843</semanticIdentifier>
+			<field name="identifier.lattes" value="1240227827563843"/>
+			<field name="name" value="Hallen Daniel Rezende Calado"/>
+		</entity>
+		<entity ref="OrgUnit10079" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18664" toEntityRef="Person12935" type="Inventor"/>
+		<relation fromEntityRef="Patent18664" toEntityRef="OrgUnit10079" type="Applicant"/>
+	</relations>
+</entity-relation-data>

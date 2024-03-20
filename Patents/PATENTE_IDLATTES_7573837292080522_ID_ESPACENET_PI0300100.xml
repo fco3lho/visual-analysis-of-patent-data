@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:48" record="1059" source="Espacenet">
+	<entities>
+		<entity ref="Patent1059" type="Patent">
+			<semanticIdentifier>brcris::bca43fb58125c243d09bbd648aa287ee</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0300100B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0300100</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0300100A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2003PI00100</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0300100</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0300100"/>
+			<field name="identifier.lattes" value="7573837292080522"/>
+			<field name="identifier.espacenet" value="PI0300100"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="relógio global distribuído para clusters de computadores"/>
+			<field name="title.lattes" value="Relógio Global Distribuído para Clusters de Computadores"/>
+			<field name="depositDate" value="2003-01-10"/>
+			<field name="publicationDate" value="2018-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO FERREIRA DE SOUZA"/>
+			<field name="inventor" value="CLAUDIO LUIS DE AMORIM"/>
+			<field name="applicant" value="COPPE/UFRJ - COORDENACAO DOS PROGRAMAS DE POS GRADUACAO DE ENGENHARIA DA UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="applicant" value="FEST - FUNDACAO ESPIRITO-SANTENSE DE TECNOLOGIA, PESSOA JURIDICA DE DIREITO PRIVADO"/>
+			<field name="applicant" value="INSTITUTO ALBERTO LUIZ COIMBRA DE POS-GRADUACAO E PESQUISA DE ENGENHARIA COPPE/UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F1/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F1/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="H04L7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="5"/>
+				<field name="text" value="H04L12/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;relógio global distribuído para clusters de computadores&quot;. a presente invenção se refere à um sistema de relógio global, implementado inteiramente em hardware, para utilização em clusters ou rede de computadores. o sistema permite que, a partir de um sinal de reset enviado por qualquer um dos nós do cluster, todos os contadores de tempo locais dos nós sejam inicializados e sincronizados automaticamente. dessa forma, cada processador poderá saber o valor do relógio global consultando seu próprio contador local. o sinal de reset é a única função implementada em software."/>
+			<field name="originatesFrom" value="61971813"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0300100"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0300100"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0300100"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2003PI00100"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0300100"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person768" type="Person">
+			<semanticIdentifier>lattes::7573837292080522</semanticIdentifier>
+			<field name="identifier.lattes" value="7573837292080522"/>
+			<field name="name" value="Alberto Ferreira De Souza"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1059" toEntityRef="Person768" type="Inventor"/>
+	</relations>
+</entity-relation-data>

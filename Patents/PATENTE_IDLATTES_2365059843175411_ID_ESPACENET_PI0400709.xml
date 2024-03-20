@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:23" record="7112" source="Espacenet">
+	<entities>
+		<entity ref="Patent7112" type="Patent">
+			<semanticIdentifier>brcris::181ff2851d1fcb51977d76f059a746aa</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400709A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0400709</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400709A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI00709</semanticIdentifier>
+			<semanticIdentifier>original::0400709-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0400709"/>
+			<field name="identifier.lattes" value="2365059843175411"/>
+			<field name="identifier.espacenet" value="PI0400709"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para prevenção da corrosão de refratários à base de alumina - carbeto de silìcio - carbono - espinélio de alumìnio e magnésio, instalados em carros torpedos, mediante formação de camada protetora - fcp"/>
+			<field name="title.lattes" value="Processo para prevenção da corrosão de refratários à base de alumina - carbeto de silício - carbono - espinélio de alumínio e magnésio, instalados em carros torpedo, mediante formação de camada protetora - FCP"/>
+			<field name="depositDate" value="2004-03-15"/>
+			<field name="publicationDate" value="2005-11-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO PASKOCIMAS"/>
+			<field name="inventor" value="ELSON LONGO DA SILVA"/>
+			<field name="inventor" value="FERNANDO VERNILLI JUNIOR"/>
+			<field name="inventor" value="JOAO BAPTISTA BALDO"/>
+			<field name="inventor" value="JOSE ARANA VARELA"/>
+			<field name="inventor" value="SERGIO MURILO JUSTUS"/>
+			<field name="inventor" value="SIDINEY NASCIMENTO SILVA"/>
+			<field name="applicant" value="COMPANHIA SIDERURGICA NACIONAL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B35/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA PREVENçãO DA CORROSãO DE REFRATáRIOS à BASE DE ALUMINA - CARBETO DE SILìCIO - CARBONO - ESPINéLIO DE ALUMìNIO E MAGNéSIO, INSTALADOS EM CARROS TORPEDOS, MEDIANTE FORMAçãO DE CAMADA PROTETORA - FCP&quot;. Refere-se a presente invenção ao desenvolvimento de um processo para prevenção da corrosão de refratários à base de alumina - carbeto de silício - carbono - espinélio de alumínio e magnésio, instalados em Carros Torpedos, mediante Formação de Camada Protetora - FCP, efetuada por meio da saturação da escória industrial de processo com óxido de magnésio, visando a proteger o material e reduzir a sua taxa de desgaste, com o objetivo final de prolongar a campanha do revestimento refratário dos Carros Torpedos."/>
+			<field name="originatesFrom" value="35277048"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400709"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0400709"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400709"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI00709"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0400709-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4770" type="Person">
+			<semanticIdentifier>lattes::2365059843175411</semanticIdentifier>
+			<field name="identifier.lattes" value="2365059843175411"/>
+			<field name="name" value="Carlos Alberto Paskocimas"/>
+		</entity>
+		<entity ref="OrgUnit3774" type="OrgUnit">
+			<semanticIdentifier>brcris::d94af4d6b21c58e61945e09099554810</semanticIdentifier>
+			<field name="name" value="COMPANHIA SIDERURGICA NACIONAL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7112" toEntityRef="Person4770" type="Inventor"/>
+		<relation fromEntityRef="Patent7112" toEntityRef="OrgUnit3774" type="Applicant"/>
+	</relations>
+</entity-relation-data>

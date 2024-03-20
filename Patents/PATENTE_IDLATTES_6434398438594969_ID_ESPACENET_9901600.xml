@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:04" record="20102" source="Espacenet">
+	<entities>
+		<entity ref="Patent20102" type="Patent">
+			<semanticIdentifier>brcris::290df9319481b2084eeb0b2336ac1898</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9901600A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9901600</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9901600A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19999901600</semanticIdentifier>
+			<semanticIdentifier>original::9901600-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9901600"/>
+			<field name="identifier.lattes" value="6434398438594969"/>
+			<field name="identifier.espacenet" value="9901600"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Metodologia para estimação das constantes ópticas e da espessura de um filme fino utilizando minimização irrestrita"/>
+			<field name="title.lattes" value="Metodologia para estimação das constantes opticas e da espessura de um filme fino utilizando minimização irrestrita"/>
+			<field name="depositDate" value="1999-04-08"/>
+			<field name="publicationDate" value="2000-11-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ERNESTO JULIAN GOLDBERG BIRGIN"/>
+			<field name="inventor" value="IVAN EMILIO CHAMBOULEYRON"/>
+			<field name="inventor" value="JOSE MARIO MARTINEZ"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B11/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;METODOLOGIA PARA ESTIMAçãO DAS CONSTANTES óPTICAS E DA ESPESSURA DE UM FILME FINO UTILIZANDO MINIMIZAçãO IRRESTRITA&quot;, dita metodologia destina-se a possibilitar a estimação das constantes ópticas e da espessura de um filme fino, baseada na minimização irrestrita."/>
+			<field name="originatesFrom" value="4072314"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9901600"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9901600"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9901600"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19999901600"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9901600-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13963" type="Person">
+			<semanticIdentifier>lattes::6434398438594969</semanticIdentifier>
+			<field name="identifier.lattes" value="6434398438594969"/>
+			<field name="name" value="Ivan Emilio Chambouleyron"/>
+		</entity>
+		<entity ref="OrgUnit10927" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20102" toEntityRef="Person13963" type="Inventor"/>
+		<relation fromEntityRef="Patent20102" toEntityRef="OrgUnit10927" type="Applicant"/>
+	</relations>
+</entity-relation-data>

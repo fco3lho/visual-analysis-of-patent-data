@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:03" record="153" source="Espacenet">
+	<entities>
+		<entity ref="Patent153" type="Patent">
+			<semanticIdentifier>brcris::276f7d40b53f23289f9f4e8344abb50b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019022776A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019022776</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019022776A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191022776</semanticIdentifier>
+			<semanticIdentifier>original::102019022776</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019022776"/>
+			<field name="identifier.lattes" value="0585826541984052"/>
+			<field name="identifier.espacenet" value="102019022776"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema eletrônico para controle automático de pasteurização de cerveja"/>
+			<field name="title.lattes" value="Sistema eletrônico para controle automático de pasteurização de cerveja"/>
+			<field name="depositDate" value="2019-10-30"/>
+			<field name="publicationDate" value="2021-05-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADEMAR GONCALVES DA COSTA JUNIOR"/>
+			<field name="inventor" value="FLAVIO DA SILVA VITORINO GOMES"/>
+			<field name="inventor" value="JOSE OTAVIO CAVALCANTI MACIEL"/>
+			<field name="inventor" value="KRISTERSON REINALDO DE LUNA FREIRE"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12H1/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05B11/01AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema eletrônico para controle automático de pasteurização de cerveja .a presente invenção conjuga as funções de controlar a temperatura da cerveja e controlar a quantidade de unidades de pasteurização solicitadas pelo operador, proporcionando, assim, menor variabilidade e, consequentemente,maior precisão na pasteurização , impactando na qualidade do produto final. o dito controlador de pasteurização é constituído por todos os equipamentos, caixa, componentes e programação interna contidos nas figuras 1, 2 e 3, a fim de estabelecer um melhor controle do processo de pasteurização."/>
+			<field name="originatesFrom" value="76038241"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019022776"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019022776"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019022776"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191022776"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019022776"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person122" type="Person">
+			<semanticIdentifier>lattes::0585826541984052</semanticIdentifier>
+			<field name="identifier.lattes" value="0585826541984052"/>
+			<field name="name" value="Ademar Gonçalves da Costa Junior"/>
+		</entity>
+		<entity ref="OrgUnit109" type="OrgUnit">
+			<semanticIdentifier>brcris::f3abfd8754cc9d90863e60a73e02a0f0</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DA PARAIBA"/>
+		</entity>
+		<entity ref="OrgUnit110" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+		<entity ref="OrgUnit111" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent153" toEntityRef="Person122" type="Inventor"/>
+		<relation fromEntityRef="Patent153" toEntityRef="OrgUnit109" type="Applicant"/>
+		<relation fromEntityRef="Patent153" toEntityRef="OrgUnit110" type="Applicant"/>
+		<relation fromEntityRef="Patent153" toEntityRef="OrgUnit111" type="Applicant"/>
+	</relations>
+</entity-relation-data>

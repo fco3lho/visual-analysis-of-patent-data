@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:32:55" record="44657" source="Espacenet">
+	<entities>
+		<entity ref="Patent44657" type="Patent">
+			<semanticIdentifier>brcris::c16aa4931893b23c4582b89faeeb1111</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303490A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9303490</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303490A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939303490</semanticIdentifier>
+			<semanticIdentifier>original::9303490-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9303490"/>
+			<field name="identifier.lattes" value="5359383629291683"/>
+			<field name="identifier.espacenet" value="9303490"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para obtenção de trealose de saccharomyces cerevisiae"/>
+			<field name="title.lattes" value="Processo Para Obtencao de Trealose de Saccharomyces Cerevisiae."/>
+			<field name="depositDate" value="1993-08-26"/>
+			<field name="publicationDate" value="1995-03-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANITA DOLLY PANEK"/>
+			<field name="inventor" value="CELIA REGINA MARTINS MELEIRO"/>
+			<field name="inventor" value="VANIA MARGARET FLOSI PASCHOALIN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P19/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/865AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="865AN"/>
+			</field>
+			<field name="originatesFrom" value="4057236"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303490"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9303490"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303490"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939303490"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9303490-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30533" type="Person">
+			<semanticIdentifier>lattes::5359383629291683</semanticIdentifier>
+			<field name="identifier.lattes" value="5359383629291683"/>
+			<field name="name" value="Vania Margaret Flosi Paschoalin"/>
+		</entity>
+		<entity ref="OrgUnit23959" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44657" toEntityRef="Person30533" type="Inventor"/>
+		<relation fromEntityRef="Patent44657" toEntityRef="OrgUnit23959" type="Applicant"/>
+	</relations>
+</entity-relation-data>

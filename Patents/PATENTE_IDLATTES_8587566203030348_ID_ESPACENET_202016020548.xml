@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:40" record="1491" source="Espacenet">
+	<entities>
+		<entity ref="Patent1491" type="Patent">
+			<semanticIdentifier>brcris::4a54f134cbdd6f1b56adbb88071d02e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202016020548U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202016020548U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202016020548U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20162020548U</semanticIdentifier>
+			<semanticIdentifier>original::202016020548</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202016020548"/>
+			<field name="identifier.lattes" value="8587566203030348"/>
+			<field name="identifier.espacenet" value="202016020548"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="disposição construtiva introduzida em defensa urbana"/>
+			<field name="title.lattes" value="Disposição construtiva introduzida em defensa urbana"/>
+			<field name="depositDate" value="2016-09-06"/>
+			<field name="publicationDate" value="2019-02-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE ARAUJO BETINI"/>
+			<field name="inventor" value="ALEXANDRE DE BARROS TEIXEIRA"/>
+			<field name="inventor" value="ANTONIO EDUARDO BEZERRA CABRAL"/>
+			<field name="inventor" value="ANTONIO MACARIO CARTAXO DE MELO"/>
+			<field name="inventor" value="AUGUSTO TEIXEIRA DE ALBUQUERQUE"/>
+			<field name="inventor" value="EVANDRO PARENTE JUNIOR"/>
+			<field name="inventor" value="JOAQUIM ANTONIO NOGUEIRA CARACAS"/>
+			<field name="inventor" value="TERESA DENYSE PEREIRA DE ARAUJO"/>
+			<field name="applicant" value="COMPANHIA ENERGETICA DO CEARA - COELCE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E01F15/14AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="disposição construtiva introduzida em defensa composta por duas laterais (1), substancialmente prismáticas, confeccionadas em material plástico, tendo projeções transversais internas (la), e que são passíveis de se encaixarem entre si por meio de abas (1 b) dispostas em bordas opostas, envolvendo externa e inferiormente o poste (p), no qual é aplicado, externa e inferiormente, o bloco pré-expandido de ligante (2), composto por 50% de poliuretano e 50% de raspa de pneu, misturados no momento da sua aplicação, podendo, alternativamente, conter recipientes superiores basculantes (3), para uso como jardineiras ou cinzeiros, sendo seus basculamentos obtidos por meio de dobradiças olhais (lc) e (3a), dispostos, respectivamente, nas bordas superior frontais das laterais da defensa e nas bordas inferiores frontais dos recipientes superiores, os quais são unidos entre si por meio de segmento de eixo (4), sendo que, no caso de os recipientes superiores basculantes serem usados como cinzeiros, é prevista ainda tampa superior (3b)."/>
+			<field name="originatesFrom" value="67224167"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202016020548"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202016020548U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202016020548"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20162020548U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202016020548"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1122" type="Person">
+			<semanticIdentifier>lattes::8587566203030348</semanticIdentifier>
+			<field name="identifier.lattes" value="8587566203030348"/>
+			<field name="name" value="Alexandre de Barros Teixeira"/>
+		</entity>
+		<entity ref="OrgUnit877" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1491" toEntityRef="Person1122" type="Inventor"/>
+		<relation fromEntityRef="Patent1491" toEntityRef="OrgUnit877" type="Applicant"/>
+	</relations>
+</entity-relation-data>

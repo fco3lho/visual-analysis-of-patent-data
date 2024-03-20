@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:28" record="40129" source="Espacenet">
+	<entities>
+		<entity ref="Patent40129" type="Patent">
+			<semanticIdentifier>brcris::077d6ac38aa101eb56461eaa655d12e1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9701176A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9701176</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9701176A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979701176</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 9701176-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9701176"/>
+			<field name="identifier.lattes" value="1127239717242981"/>
+			<field name="identifier.espacenet" value="9701176"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de montagem de amostras granuladas finas para estudos microscópios"/>
+			<field name="title.lattes" value="Processo de montagem de amostras granuladas finas para estudos microscópicos"/>
+			<field name="depositDate" value="1997-01-22"/>
+			<field name="publicationDate" value="1998-12-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONINO ANTONIO MATHIAS"/>
+			<field name="inventor" value="DE SOUZA FERNANDO SOARES"/>
+			<field name="inventor" value="FERNANDO SOARES DE SOUZA"/>
+			<field name="inventor" value="GERALDO AUGUSTO DA SILVA"/>
+			<field name="inventor" value="GUIMARAES IGNEZ GOMES"/>
+			<field name="inventor" value="IGNEZ GOMES GUIMARAES"/>
+			<field name="inventor" value="MARIA AUXILIADORA DE MELO VIEIRA"/>
+			<field name="inventor" value="MELO VIEIRA MARIA AUXILIADORA DE"/>
+			<field name="inventor" value="RIBEIRO ROGERIO KWITKO"/>
+			<field name="inventor" value="ROGERIO KWITKO RIBEIRO"/>
+			<field name="inventor" value="SILVA GERALDO AUGUSTO DA"/>
+			<field name="applicant" value="COMPANHIA VALE DO RIO DOCE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="originatesFrom" value="4066597"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9701176"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9701176"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9701176"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979701176"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 9701176-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27334" type="Person">
+			<semanticIdentifier>lattes::1127239717242981</semanticIdentifier>
+			<field name="identifier.lattes" value="1127239717242981"/>
+			<field name="name" value="Rogerio Kwitko Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit21374" type="OrgUnit">
+			<semanticIdentifier>brcris::6fd3c47d876ced8ce3eab4ad31be37d0</semanticIdentifier>
+			<field name="name" value="COMPANHIA VALE DO RIO DOCE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40129" toEntityRef="Person27334" type="Inventor"/>
+		<relation fromEntityRef="Patent40129" toEntityRef="OrgUnit21374" type="Applicant"/>
+	</relations>
+</entity-relation-data>

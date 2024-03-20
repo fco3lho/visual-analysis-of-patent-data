@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:30" record="15875" source="Espacenet">
+	<entities>
+		<entity ref="Patent15875" type="Patent">
+			<semanticIdentifier>brcris::e2bd474849b6e17c47348ad318e0aba4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001786A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001786</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001786A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01786</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001786-0 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001786"/>
+			<field name="identifier.lattes" value="3721608532318319"/>
+			<field name="identifier.espacenet" value="PI1001786"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO DE REMULTIPLEXAÇÃO DE SINAIS ISDB-T PARA DISTRIBUIÇÃO DE SINAIS DE TELEVISÃO USANDO PADRÃO DVB"/>
+			<field name="title.lattes" value="Remultiplexação de sinais ISDB-T para distribuição de sinais de televisão usando padrão DVB."/>
+			<field name="depositDate" value="2010-06-22"/>
+			<field name="publicationDate" value="2014-02-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA LUCIA MENDES CRUZ SILVESTRE DA SILVA"/>
+			<field name="inventor" value="ANA LUCIA MENDES CRUZ SILVESTRE DA SILVA"/>
+			<field name="inventor" value="CRISTIANO AKAMINE"/>
+			<field name="inventor" value="FERNANDO SILVESTRE DA SILVA"/>
+			<field name="inventor" value="YUZO IANO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04H20/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04H20/26AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO DE REMULTIPLEXAÇÃO DE SINAIS ISDB-T PARA DISTRIBUIÇÃO DE SINAIS DE TELEVISÃO USANDO PADRÃO DVB O presente invento se trata de um método que realiza de forma simples a conversão entre pacotes de transporte ISDB-T de 204 bytes e pacotes de transporte DVB de 188 bytes (tanto do primeiro para o segundo quanto vice-versa) sem perda de informação, através de um processo de remuItipIexação. Esta conversão é realizada através-da-inclusão de um módulo de remultiplexação para o ISDB-T tanto no transmissor quanto no multiplexador, tornando possíveI a distribuição do BTS (Broadcasting Transport Stream), economizando banda e permitindo a construção de SFN (Single Frequency network) mais amplas e com menor taxa de bits do que o BIS original, o que se traduz em redução de custos de transmissão como, por exemplo, no aluguel do canal de satélite por parte dos radiodifusores, tais como, por exemplo, Redes Públicas, Rede Globo, Record, Bandeirantes, etc. Dentre as aplicações beneficiadas em MFN (Multi Frequency network) e SFN estão a distribuição de TV via satélite, cabo (-C), fibra-ótica, radiodifusão direta terrestre (-T), sistemas de telecomunicações, enlace de microondas, satélite(-S), entre outros"/>
+			<field name="originatesFrom" value="50137342"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001786"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001786"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001786"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01786"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001786-0 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11002" type="Person">
+			<semanticIdentifier>lattes::3721608532318319</semanticIdentifier>
+			<field name="identifier.lattes" value="3721608532318319"/>
+			<field name="name" value="Fernando Silvestre da Silva"/>
+		</entity>
+		<entity ref="OrgUnit8599" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15875" toEntityRef="Person11002" type="Inventor"/>
+		<relation fromEntityRef="Patent15875" toEntityRef="OrgUnit8599" type="Applicant"/>
+	</relations>
+</entity-relation-data>

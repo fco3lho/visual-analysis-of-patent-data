@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:20" record="32658" source="Espacenet">
+	<entities>
+		<entity ref="Patent32658" type="Patent">
+			<semanticIdentifier>brcris::58372f6bd8cec15e6051d451be27be99</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017012742A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017012742</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017012742A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171012742</semanticIdentifier>
+			<semanticIdentifier>original::102017012742</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017012742"/>
+			<field name="identifier.lattes" value="4911440804185230"/>
+			<field name="identifier.espacenet" value="102017012742"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de adequação da expansão de um feixe de luz em um interferômetro"/>
+			<field name="title.lattes" value="Sistema de adequação da expansão de um feixe de luz de um interferômetro"/>
+			<field name="depositDate" value="2017-06-14"/>
+			<field name="publicationDate" value="2019-03-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMANDO ALBERTAZZI JUNIOR"/>
+			<field name="inventor" value="EDUARDO HWANG"/>
+			<field name="inventor" value="FABIO APARECIDO ALVES DA SILVA"/>
+			<field name="inventor" value="JOAO CARLOS DE FREITAS"/>
+			<field name="inventor" value="MATIAS ROBERTO VIOTTI"/>
+			<field name="inventor" value="PAULO MARCELO DE FIGUEIREDO MONTES"/>
+			<field name="inventor" value="SIMON RICARDO SANANDRES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA - UFSC"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B9/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de adequação da expansão de um feixe de luz em um interferômetro a presente invenção está relacionada a técnicas de manipulação de feixes de luz laser em um interferômetro. nesse cenário, a presente invenção provê um sistema de adequação da expansão de um feixe de luz em um interferômetro, compreendendo (i) uma fonte de luz (10), (ii) pelo menos uma lente de expansão (12), (iii) um espelho oblíquo (14) posicionado a um ângulo de 450 com relação à direção do feixe de luz, o espelho oblíquo (14) compreendendo uma abertura (14a), (iv) pelo menos um espelho ortogonal (16), (v) pelo menos um elemento óptico difrativo (20) e (vi) uma cãmera (24), em que o espelho ortogonal (16) compreende uma porção central não refletora (16a) adaptada para que o espelho ortogonal (16) reflita somente raios que, a jusante do mesmo, atingirão a face refletora (14b) do espelho oblíquo (14) fora da região onde está posicionado a abertura (14a)."/>
+			<field name="originatesFrom" value="67250811"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017012742"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017012742"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017012742"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171012742"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017012742"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22454" type="Person">
+			<semanticIdentifier>lattes::4911440804185230</semanticIdentifier>
+			<field name="identifier.lattes" value="4911440804185230"/>
+			<field name="name" value="Matias Roberto Viotti"/>
+		</entity>
+		<entity ref="OrgUnit17574" type="OrgUnit">
+			<semanticIdentifier>brcris::ecee5f2da62582a0cd34092d7070e4a6</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit17575" type="OrgUnit">
+			<semanticIdentifier>brcris::ce47fa51e68aa4ba02f0e9bbed20d337</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA - UFSC"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32658" toEntityRef="Person22454" type="Inventor"/>
+		<relation fromEntityRef="Patent32658" toEntityRef="OrgUnit17574" type="Applicant"/>
+		<relation fromEntityRef="Patent32658" toEntityRef="OrgUnit17575" type="Applicant"/>
+	</relations>
+</entity-relation-data>

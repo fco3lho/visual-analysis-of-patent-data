@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:16" record="40020" source="Espacenet">
+	<entities>
+		<entity ref="Patent40020" type="Patent">
+			<semanticIdentifier>brcris::25155cb02dac0cb3a31d290c7784bd15</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013020314A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013020314</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013020314A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131020314</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 020314-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013020314"/>
+			<field name="identifier.lattes" value="7755832361498705"/>
+			<field name="identifier.espacenet" value="102013020314"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Controle eletrônico e inteligente de geração fotovoltaica para o sistema conectado à rede elétrica convencional"/>
+			<field name="title.lattes" value="Controle eletrônico e inteligente de geração fotovoltáica para o sistema conectado à rede elétrica convencional"/>
+			<field name="depositDate" value="2013-08-09"/>
+			<field name="publicationDate" value="2015-06-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCO AURELIO GONCALVES DE OLIVEIRA"/>
+			<field name="inventor" value="RAFAEL AMARAL SHAYANI"/>
+			<field name="inventor" value="RODRIGO SANTOS JUNGES"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DO MATO GROSSO - IFMT"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02S50/10AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R31/40AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F1/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Controle eletrônico e inteligente de geração fotovoltaica para o sistema conectado à rede elétrica convencional. A presente invenção consiste em um dispositivo para o controle da geração de energia elétrica através de painéis fotovoltaicos, por meio de um módulo de controle cc instalado diretamente nos painéis, que se comunica com um módulo coordenador por meio de rádio frequência. O módulo coordenador pode se comunicar com vários módulos de controle cc, permitindo o gerenciamento de uma planta de geração com número extenso de painéis e promovendo uma rede em malha."/>
+			<field name="originatesFrom" value="53487612"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013020314"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013020314"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013020314"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131020314"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 020314-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27245" type="Person">
+			<semanticIdentifier>lattes::7755832361498705</semanticIdentifier>
+			<field name="identifier.lattes" value="7755832361498705"/>
+			<field name="name" value="Rodrigo Santos Junges"/>
+		</entity>
+		<entity ref="OrgUnit21322" type="OrgUnit">
+			<semanticIdentifier>brcris::862ac5be4be0bb3658f3bee6a7a37d33</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40020" toEntityRef="Person27245" type="Inventor"/>
+		<relation fromEntityRef="Patent40020" toEntityRef="OrgUnit21322" type="Applicant"/>
+	</relations>
+</entity-relation-data>

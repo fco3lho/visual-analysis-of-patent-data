@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:01" record="38120" source="Espacenet">
+	<entities>
+		<entity ref="Patent38120" type="Patent">
+			<semanticIdentifier>brcris::64eab5d6d619db492c8e1d23730e2349</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600954A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0600954</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600954A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI00954</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0600954-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0600954"/>
+			<field name="identifier.lattes" value="7077352492956336"/>
+			<field name="identifier.espacenet" value="PI0600954"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processos de fabricação de novos suplementos minerais para aplicação nas áreas agrìcola e veterinária"/>
+			<field name="title.lattes" value="processos de fabricação de novos suplementos minerais para aplicação nas áreas agrícola e veterinária"/>
+			<field name="depositDate" value="2006-03-13"/>
+			<field name="publicationDate" value="2007-11-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="NELSON HENRIQUES FERNANDES FILHO"/>
+			<field name="inventor" value="NELSON HENRIQUES FERNANDES JR"/>
+			<field name="inventor" value="RICARDO DA SILVA SERCHELI"/>
+			<field name="applicant" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+			<field name="applicant" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C05F11/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSOS DE FABRICAçãO DE NOVOS SUPLEMENTOS MINERAIS PARA APLICAçãO NAS áREAS AGRìCOLA E VETERINáRIA, descreve novos processos para a fabricação de suplementos minerais preparados pela reação entre hidrolisados protéicos e fontes de minerais e sua aplicação como corretores para deficiências minerais em plantas ou como suplementos minerais para animais."/>
+			<field name="originatesFrom" value="38687127"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600954"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0600954"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600954"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI00954"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0600954-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26273" type="Person">
+			<semanticIdentifier>lattes::7077352492956336</semanticIdentifier>
+			<field name="identifier.lattes" value="7077352492956336"/>
+			<field name="name" value="Ricardo da Silva Sercheli"/>
+		</entity>
+		<entity ref="OrgUnit20588" type="OrgUnit">
+			<semanticIdentifier>brcris::0b86e23b3a836e48370c56629e224876</semanticIdentifier>
+			<field name="name" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+		</entity>
+		<entity ref="OrgUnit20589" type="OrgUnit">
+			<semanticIdentifier>brcris::4b03ebf90d2f16dc2f699d65e82cabc1</semanticIdentifier>
+			<field name="name" value="NPA - NUCLEO DE PESQUISAS APLICADAS LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38120" toEntityRef="Person26273" type="Inventor"/>
+		<relation fromEntityRef="Patent38120" toEntityRef="OrgUnit20588" type="Applicant"/>
+		<relation fromEntityRef="Patent38120" toEntityRef="OrgUnit20589" type="Applicant"/>
+	</relations>
+</entity-relation-data>

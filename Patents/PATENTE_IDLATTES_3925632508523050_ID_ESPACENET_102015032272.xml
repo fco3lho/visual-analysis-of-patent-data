@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:28:23" record="43668" source="Espacenet">
+	<entities>
+		<entity ref="Patent43668" type="Patent">
+			<semanticIdentifier>brcris::1811cfb1d53bcb57b3a9b67200305e3f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032272A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015032272</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032272A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151032272</semanticIdentifier>
+			<semanticIdentifier>original::102015032272</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015032272"/>
+			<field name="identifier.lattes" value="3925632508523050"/>
+			<field name="identifier.espacenet" value="102015032272"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para o cómputo aproximado da transformada discreta do cosseno de comprimento 16 com baixo custo aritmético em aplicações de compressão de imagem e vídeo"/>
+			<field name="title.lattes" value="Método para o Cômputo Aproximado da Transformada Discreta do Cosseno de Comprimento 16 com Baixo Custo Aritmético em Aplicações de Compressão de Imagem e Vídeo"/>
+			<field name="depositDate" value="2015-12-22"/>
+			<field name="publicationDate" value="2020-08-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO MARIANO BAYER"/>
+			<field name="inventor" value="RENATO JOSE DE SOBRAL CINTRA"/>
+			<field name="inventor" value="RENATO JOSE SOBRAL CINTRA"/>
+			<field name="inventor" value="THIAGO LOPES TRUGILLO DA SILVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO - UFPE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA - UFSM"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04N19/176AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="176AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04N19/625AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="625AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para o cômputo aproximado da transformada discreta do cosseno de comprimento 16 com baixo custo aritmético em aplicações de compressão de imagem e vídeo diversas aplicações utilizam a transformada discreta do cosseno (dct) para compressão de dados digitais, como imagens e vídeo. apesar do alto poder de descorrelação de dados, o custo associado à dct pode ser proibitivo em aplicações em tempo real, como, por exemplo, transferência de imagens ou vídeos em uma rede. a presente invenção revela uma aproximação ortogonal para a dct de comprimento 16, livre de multiplicações e deslocamentos de bits, e um algoritmo rápido para sua aplicação é descrito, requerendo apenas 44 adições. a invenção revelada neste documento é a aproximação ortogonal para a dct de comprimento 16, que atinge o menor custo computacional associado à sua aplicação. experimentos e aplicações de métricas de similaridade com a dct e desempenho quanto ao poder de codificação mostram que, além de ter o mais baixo custo computacional, a presente invenção tem desempenho comparável com outros métodos existentes."/>
+			<field name="originatesFrom" value="72293192"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032272"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015032272"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032272"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151032272"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015032272"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29822" type="Person">
+			<semanticIdentifier>lattes::3925632508523050</semanticIdentifier>
+			<field name="identifier.lattes" value="3925632508523050"/>
+			<field name="name" value="Thiago Lopes Trugillo da Silveira"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43668" toEntityRef="Person29822" type="Inventor"/>
+	</relations>
+</entity-relation-data>

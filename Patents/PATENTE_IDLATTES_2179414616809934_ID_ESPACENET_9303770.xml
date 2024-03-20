@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:09:59" record="35521" source="Espacenet">
+	<entities>
+		<entity ref="Patent35521" type="Patent">
+			<semanticIdentifier>brcris::a41a5624324f22c90ae44b5e51c75a26</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303770A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9303770</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303770A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939303770</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9303770"/>
+			<field name="identifier.lattes" value="2179414616809934"/>
+			<field name="identifier.espacenet" value="9303770"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Pistom móvel destinado a promover a remoção de detritos do interior de uma tubulação sendo o referido pistom escavado em sua parte traseira"/>
+			<field name="title.lattes" value="Pistom móvel destinado a promover a remoção de detritos do interior de uma tubulação sendo o referido pistom escavado em sua parte traseira"/>
+			<field name="depositDate" value="1993-09-13"/>
+			<field name="publicationDate" value="1994-11-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="PAULO CESAR RIBEIRO LIMA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B08B9/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="originatesFrom" value="4057380"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303770"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9303770"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303770"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939303770"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24459" type="Person">
+			<semanticIdentifier>lattes::2179414616809934</semanticIdentifier>
+			<field name="identifier.lattes" value="2179414616809934"/>
+			<field name="name" value="Paulo César Ribeiro Lima"/>
+		</entity>
+		<entity ref="OrgUnit19221" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35521" toEntityRef="Person24459" type="Inventor"/>
+		<relation fromEntityRef="Patent35521" toEntityRef="OrgUnit19221" type="Applicant"/>
+	</relations>
+</entity-relation-data>

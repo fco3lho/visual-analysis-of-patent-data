@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:31" record="402" source="Espacenet">
+	<entities>
+		<entity ref="Patent402" type="Patent">
+			<semanticIdentifier>brcris::66750be2634ae6f4ce1f264860f46e3e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016001882A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016001882</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016001882A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161001882</semanticIdentifier>
+			<semanticIdentifier>original::102016001882</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016001882"/>
+			<field name="identifier.lattes" value="4428428988156685"/>
+			<field name="identifier.espacenet" value="102016001882"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processos de síntese de misturas compostas por bayerita , nordstrandita e bohemita"/>
+			<field name="title.lattes" value="Processos de síntese de misturas minerais compostas por bayerita, nordstrandita e bohemita"/>
+			<field name="depositDate" value="2016-01-28"/>
+			<field name="publicationDate" value="2018-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA CRISTINA DIAS"/>
+			<field name="inventor" value="MAURICIO PAULO FERREIRA FONTES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01F7/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processos de síntese de misturas minerais compostas por bayerita, nordstrandita e bohemita. a presente invenção refere-se a processos químicos de síntese de misturas minerais, compostas por bayerita, nordstrandita e bohemita. tais processos são vantajosos por serem de fácil condução e empregar condições brandas de síntese."/>
+			<field name="originatesFrom" value="62043384"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016001882"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016001882"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016001882"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161001882"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016001882"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person278" type="Person">
+			<semanticIdentifier>lattes::4428428988156685</semanticIdentifier>
+			<field name="identifier.lattes" value="4428428988156685"/>
+			<field name="name" value="Adriana Cristina Dias"/>
+		</entity>
+		<entity ref="OrgUnit246" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent402" toEntityRef="Person278" type="Inventor"/>
+		<relation fromEntityRef="Patent402" toEntityRef="OrgUnit246" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:35" record="21818" source="Espacenet">
+	<entities>
+		<entity ref="Patent21818" type="Patent">
+			<semanticIdentifier>brcris::2190aec7cd0ccb8c105cb437eafa8a35</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7200231U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7200231U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7200231U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7200231U</semanticIdentifier>
+			<semanticIdentifier>original::7200231</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=7200231"/>
+			<field name="identifier.lattes" value="1902601000093854"/>
+			<field name="identifier.espacenet" value="7200231"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="DISPOSICAO INTRODUZIDA EM ROUPA DE PROTECAO"/>
+			<field name="title.lattes" value="Disposição introduzida em roupas de proteção"/>
+			<field name="depositDate" value="1992-02-18"/>
+			<field name="publicationDate" value="1993-08-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOAQUIM GONCALVES MACHADO NETO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA &quot;JULIO DE MESQUITA FILHO&quot;"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A41D13/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="41"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="originatesFrom" value="3985274"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7200231"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7200231U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7200231"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7200231U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="7200231"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15107" type="Person">
+			<semanticIdentifier>lattes::1902601000093854</semanticIdentifier>
+			<field name="identifier.lattes" value="1902601000093854"/>
+			<field name="name" value="Joaquim Gonçalves Machado Neto"/>
+		</entity>
+		<entity ref="OrgUnit11810" type="OrgUnit">
+			<semanticIdentifier>brcris::69237b4a5f523b35a796ac73ea518aaa</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA &quot;JULIO DE MESQUITA FILHO&quot;"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21818" toEntityRef="Person15107" type="Inventor"/>
+		<relation fromEntityRef="Patent21818" toEntityRef="OrgUnit11810" type="Applicant"/>
+	</relations>
+</entity-relation-data>

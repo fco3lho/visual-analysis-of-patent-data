@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:27" record="7175" source="Espacenet">
+	<entities>
+		<entity ref="Patent7175" type="Patent">
+			<semanticIdentifier>brcris::73b53f18ebaf6549d267a2837777e7e1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014026836U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202014026836U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014026836U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20142026836U</semanticIdentifier>
+			<semanticIdentifier>original::202014026836</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202014026836"/>
+			<field name="identifier.lattes" value="0971091607543044"/>
+			<field name="identifier.espacenet" value="202014026836"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="extrator de solução de solo"/>
+			<field name="title.lattes" value="Extrator de solução do solo"/>
+			<field name="depositDate" value="2014-10-24"/>
+			<field name="publicationDate" value="2017-03-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO SILVA"/>
+			<field name="inventor" value="DAVI LOPES DO CARMO"/>
+			<field name="applicant" value="FAPEMIG - FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E02D1/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="extrator de 50 lição de solo este extrator se destina à coleta d fase líquida (solução) do solo, para avaliação da concentração de nutri ntes, ph, condutividade elétrica etc., atributos que condicionam a fertilida e do solo e a nutrição das plantas. pode, ainda, ser utilizado para a av liação de outros elementos químicos, como metais pesados (elementos-tra o), herbicidas e pesticidas, com o viés de monitoramento ambiental e a q alidade das águas. esta tecnologia, extrator de solução de solo é campos o de dois filtros internos, sendo um de fibra de vidro microporoso e dois filtros de nylon, que são revestidos por um filtro externo de polietileno macropor1so. é constituído de materiais inertes, com vistas a evitar a liberação e r tenção de íons, para não causar a contaminação da solução extraída. lém disso, não entope, permitindo o uso e coletas sucessivas ao longo do tempo ou ao longo do ciclo da cultura e, por ser um extrator com dimens es menores do que os comumente utilizados, também, permite coleta solução do solo em recipientes pequenos ou de menor volume."/>
+			<field name="originatesFrom" value="58544530"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014026836"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202014026836U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014026836"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20142026836U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202014026836"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202014026836Y"/>
+		</entity>
+		<entity ref="Person4805" type="Person">
+			<semanticIdentifier>lattes::0971091607543044</semanticIdentifier>
+			<field name="identifier.lattes" value="0971091607543044"/>
+			<field name="name" value="Carlos Alberto Silva"/>
+		</entity>
+		<entity ref="OrgUnit3801" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+		<entity ref="Patent7176" type="Patent">
+			<semanticIdentifier>epodoc::BR202014026836Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="58544530"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202014026836Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7175" toEntityRef="Person4805" type="Inventor"/>
+		<relation fromEntityRef="Patent7175" toEntityRef="OrgUnit3801" type="Applicant"/>
+	</relations>
+</entity-relation-data>

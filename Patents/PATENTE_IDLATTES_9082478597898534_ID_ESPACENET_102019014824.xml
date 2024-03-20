@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:26:09" record="43131" source="Espacenet">
+	<entities>
+		<entity ref="Patent43131" type="Patent">
+			<semanticIdentifier>brcris::558de0565fed5b2d5a843105e1f87a97</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014824A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019014824</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014824A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191014824</semanticIdentifier>
+			<semanticIdentifier>original::102019014824</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019014824"/>
+			<field name="identifier.lattes" value="9082478597898534"/>
+			<field name="identifier.espacenet" value="102019014824"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método dinâmico de sensoriamento de o2 dissolvido e sistema para método"/>
+			<field name="title.lattes" value="Método Dinâmico de Sensoriamento de O2 Dissolvido e Sistema para Método"/>
+			<field name="depositDate" value="2019-07-18"/>
+			<field name="publicationDate" value="2021-01-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GEOVANY ALBINO DE SOUZA"/>
+			<field name="inventor" value="TATIANA DUQUE MARTINS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01J3/44AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N31/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção trata de um método de sensoriamento sensível a quantidades distintas do gás oxigênio dissolvido em meios distintos, que utiliza um sistema fluorescente composto por nanoestruturas auto-­organizadas de peptídeos, preferencialmente derivados da difenilalanina e dopados com um corante fluorescente derivado da cumarina, podendo ser usados em fase líquida ou estar sorvidos em um substrato transparente. o sistema de sensoriamento opera por meio da detecção do tempo de vida de fluorescência do sistema, registrando curvas de decaimento de fluorescência, de modo que o tratamento das curvas revele o tempo de vida de fluorescência na presença do analito. a eficiente interação do analito com o sistema causa uma alteração na resposta dinâmica do sistema que é correlacionada a variações mínimas de concentração de oxigênio. concentrações da ordem de frações de nanomoles podem ser eficientemente detectadas. a resposta é registrada por espectrofluorímetro com resolução temporal que esteja disponível."/>
+			<field name="originatesFrom" value="74504613"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014824"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019014824"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014824"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191014824"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019014824"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29447" type="Person">
+			<semanticIdentifier>lattes::9082478597898534</semanticIdentifier>
+			<field name="identifier.lattes" value="9082478597898534"/>
+			<field name="name" value="Tatiana Duque Martins"/>
+		</entity>
+		<entity ref="OrgUnit23086" type="OrgUnit">
+			<semanticIdentifier>brcris::b1f2c79921deb4fdda2bdb4dd2e76b96</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43131" toEntityRef="Person29447" type="Inventor"/>
+		<relation fromEntityRef="Patent43131" toEntityRef="OrgUnit23086" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:55" record="15495" source="Espacenet">
+	<entities>
+		<entity ref="Patent15495" type="Patent">
+			<semanticIdentifier>brcris::872a2487440e5f08c3c19d1d5dba9f70</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302514A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0302514</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302514A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030302514</semanticIdentifier>
+			<semanticIdentifier>original::0302514-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0302514"/>
+			<field name="identifier.lattes" value="8228010543041248"/>
+			<field name="identifier.espacenet" value="0302514"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Tecnologia de produção simultânea de insulina humana e outros peptìdeos por engenharia genética"/>
+			<field name="title.lattes" value="Tecnologia de produção simultânea de insulina humana e outros peptídeos de valor econômico engenharia genética"/>
+			<field name="depositDate" value="2003-07-10"/>
+			<field name="publicationDate" value="2005-07-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BEATRIZ DOLABELA DE LIMA"/>
+			<field name="inventor" value="FERNANDO ARARIPE GONCALVES TORRES"/>
+			<field name="inventor" value="MAURO APARECIDO DE SOUSA XAVIER"/>
+			<field name="inventor" value="SPARTACO ASTOLFI JR"/>
+			<field name="applicant" value="FUNDACAO UNIVERSITARIA DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K19/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/17AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="17AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12N15/62AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TECNOLOGIA DE PRODUçãO SIMULTâNEA DE INSULINA HUMANA E OUTROS PEPTìDEOS POR ENGENHARIA GENéTICA&quot;. A presente invenção se refere a uni processo de produção de insulina e peptídeos de interesse a partir de um precursor híbrido obtido por engenharia genética. O gene híbrido é expresso em hospedeiras apropriadas, utilizando-se vetores de expressão ou expressão/secreção fortes. A proteína recombinante é extraída e convertida in vitro em insulina e no peptídeo em questão. Desta forma, a insulina funciona como uma molécula carreadora e/ou estabilizando o peptídeo de interesse. Esta abordagem de produção simultânea de uma proteína híbrida foi ilustrada pela produção de calcitonina humana no interior da molécula de insulina, isto é, em substituição à cadeia C da próinsulina humana. Desta forma, a calcitonina é estabilizada e sua degradação proteolítica evitada pela presença da molécula de insulina, sendo a proteína híbrida insulinacalcitonina expressa em altos níveis em E. coli."/>
+			<field name="originatesFrom" value="34800173"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302514"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0302514"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302514"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030302514"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0302514-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10775" type="Person">
+			<semanticIdentifier>lattes::8228010543041248</semanticIdentifier>
+			<field name="identifier.lattes" value="8228010543041248"/>
+			<field name="name" value="Fernando Araripe Gonçalves Torres"/>
+		</entity>
+		<entity ref="OrgUnit8424" type="OrgUnit">
+			<semanticIdentifier>brcris::76debf44bb998bbf87040504cda36a5c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSITARIA DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15495" toEntityRef="Person10775" type="Inventor"/>
+		<relation fromEntityRef="Patent15495" toEntityRef="OrgUnit8424" type="Applicant"/>
+	</relations>
+</entity-relation-data>

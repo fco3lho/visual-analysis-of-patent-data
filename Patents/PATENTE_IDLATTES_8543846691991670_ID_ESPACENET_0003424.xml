@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:02" record="30326" source="Espacenet">
+	<entities>
+		<entity ref="Patent30326" type="Patent">
+			<semanticIdentifier>brcris::99b650d73692e132fb33ca902eabbfa1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0003424A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0003424</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0003424A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000003424</semanticIdentifier>
+			<semanticIdentifier>original::0003424-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0003424"/>
+			<field name="identifier.lattes" value="8543846691991670"/>
+			<field name="identifier.espacenet" value="0003424"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processos eletroquìmicos para o tratamento de efluentes aquosos contendo metais pesados"/>
+			<field name="title.lattes" value="PROCESSOS ELETROQUÍMICOS PARA O TRATAMENTO DE EFLUENTES AQUOSOS CONTENDO METAIS PESADOS"/>
+			<field name="depositDate" value="2000-07-27"/>
+			<field name="publicationDate" value="2002-02-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCOS ROBERTO DE VASCONCELOS LANZA"/>
+			<field name="inventor" value="RODNEI BERTAZOLLI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/461AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="461AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F101/20AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="20AN"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSOS ELETROQUìMICOS PARA O TRATAMENTO DE EFLUENTES AQUOSOS CONTENDO METAIS PESADOS&quot;. Este processo refere-se a um método eletroquímico utilizado no tratamento e/ou despoluição de efluentes aquosos contendo metais pesados advindos das indústrias de tratamentos de superfície, de explosivos, metal-mecânica, de fertilizantes, da produção de jóias e semijóias e outras, através do uso de células eletrolíticas utilizando catodos tridimensionais (esponjas de carbono vítreo reticulado, esponjas metálicas, etc.). O processo promove a remoção catódica de íons de metais pesados presentes no efluente. A eficiência do processo foi verificada tratando-se efluentes contendo alguns íons de metais pesados, como cobre, chumbo e zinco em diferentes meios. Nos ensaios realizados os teores metálicos foram reduzidos de aproximadamente 50 mg.L^ -1^ para 0,1 mg.L^ -1^ em 30 minutos, equivalendo a uma taxa de remoção em torno de 99,9%."/>
+			<field name="originatesFrom" value="3944871"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0003424"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0003424"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0003424"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000003424"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0003424-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20801" type="Person">
+			<semanticIdentifier>lattes::8543846691991670</semanticIdentifier>
+			<field name="identifier.lattes" value="8543846691991670"/>
+			<field name="name" value="Marcos Roberto de Vasconcelos Lanza"/>
+		</entity>
+		<entity ref="OrgUnit16256" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30326" toEntityRef="Person20801" type="Inventor"/>
+		<relation fromEntityRef="Patent30326" toEntityRef="OrgUnit16256" type="Applicant"/>
+	</relations>
+</entity-relation-data>

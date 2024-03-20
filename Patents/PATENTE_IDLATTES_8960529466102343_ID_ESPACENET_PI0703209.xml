@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:08" record="45500" source="Espacenet">
+	<entities>
+		<entity ref="Patent45500" type="Patent">
+			<semanticIdentifier>brcris::82fa59d4cb0b54067de05e5d2c038be2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703209A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703209</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703209A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03209</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703209-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703209"/>
+			<field name="identifier.lattes" value="8960529466102343"/>
+			<field name="identifier.espacenet" value="PI0703209"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mecanismo manipulador com seis graus de liberdade de cadeia cinemÁtica hibrida com um grau de liberdade longo"/>
+			<field name="title.lattes" value="MECANISMO MANIPULADOR COM SEIS GRAUS DE LIBERDADE DE CADEIA CINEMÁTICA HIBRIDA COM UM GRAU DE LIBERDADE LONGO"/>
+			<field name="depositDate" value="2007-07-09"/>
+			<field name="publicationDate" value="2009-02-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="WALTER ANTONIO KAPP"/>
+			<field name="inventor" value="WALTER ANTONIO KAPP"/>
+			<field name="applicant" value="ENGEMOVI ENGENHARIA DE AUTOMACAO E PROJETOS MECANICOS LTDA"/>
+			<field name="applicant" value="ENGEMOVI ENGENHARIA DE AUTOMACAO E PROJETOS MECANICOS S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B25J11/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MECANISMO MANIPULADOR COM SEIS GRAUS DE LIBERDADE DE CADEIA CINEMÁTICA HIBRIDA COM UM GRAU DE LIBERDADE LONGO. É formado por uma cadeia cinemática híbrida, com seis graus de liberdade, com base em dois trilhos, podendo estes ser de quaisquer formas não colineares no espaço. O conceito geral do mecanismo é baseado em uma plataforma móvel na forma de um sólido minimamente octogonal (2), apoiada em pernas triangulares (4) sobre uma base triangular (1). A mobilidade da plataforma é conseguida pela flexibilidade do triângulo da base (1) e dos triângulos das pernas (4). A flexibilidade da base triangular é obtida pela posição de seus vértices que se apóiam nas trajetórias de pontos guiados sobre trilhos (3), que podem ter uma forma qualquer. Outro importante aspecto deste conceito é a plataforma móvel (2), que tem os pivôs de contato com as pernas triangulares (4) dispostos em volume em vez de no plano. Na concepção básica, as pernas triangulares possuem um lado composto por uma haste de comprimento fixo (4.a) e um lado composto por um atuador extensível. A perna triangular (4) é conectada a plataforma (2) por dois pivôs semi-esféricos (4.f) e é conectada ao carro por um pivô esférico (4.g). Uma variação da concepção básica é mostrada na figura 4, onde as pernas triangulares (5) estão configuradas por uma haste de comprimento constante que desliza sobre a outra haste de comprimento constante. Uma extensão do conceito geral, mostrada na figura 6, é a adoção de uma quarta perna triangular (4). A plataforma móvel (7) tem os pivôs de conexão com as pernas triangulares (4) dispostas nos vértices de um decaedro não regular, composto por oito faces triangulares e duas faces retangulares. A figura 7 mostra que os flanges para fixação de ferramentas (7.a) são nas faces retangulares, inferiores e superiores."/>
+			<field name="originatesFrom" value="40601027"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703209"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703209"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703209"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03209"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703209-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31087" type="Person">
+			<semanticIdentifier>lattes::8960529466102343</semanticIdentifier>
+			<field name="identifier.lattes" value="8960529466102343"/>
+			<field name="name" value="Walter Antonio Kapp"/>
+		</entity>
+		<entity ref="OrgUnit24381" type="OrgUnit">
+			<semanticIdentifier>brcris::91f6c965b81017e4250e0b38e47fb01a</semanticIdentifier>
+			<field name="name" value="ENGEMOVI ENGENHARIA DE AUTOMACAO E PROJETOS MECANICOS S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45500" toEntityRef="Person31087" type="Inventor"/>
+		<relation fromEntityRef="Patent45500" toEntityRef="OrgUnit24381" type="Applicant"/>
+	</relations>
+</entity-relation-data>

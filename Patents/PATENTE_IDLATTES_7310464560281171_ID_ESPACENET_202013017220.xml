@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:16" record="19540" source="Espacenet">
+	<entities>
+		<entity ref="Patent19540" type="Patent">
+			<semanticIdentifier>brcris::7d4f8ae1c5dad217a46011a71a76e061</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202013017220U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202013017220U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202013017220U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20132017220U</semanticIdentifier>
+			<semanticIdentifier>original::202013017220</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202013017220"/>
+			<field name="identifier.lattes" value="7310464560281171"/>
+			<field name="identifier.espacenet" value="202013017220"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="pino-rei com dispositivo magnético"/>
+			<field name="title.lattes" value="Pino Rei com Dispositivo Magnético"/>
+			<field name="depositDate" value="2013-07-04"/>
+			<field name="publicationDate" value="2015-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GABRIEL HAMDAN FERREIRA"/>
+			<field name="inventor" value="IGOR AUGUSTO ALVES BATISTA"/>
+			<field name="applicant" value="GABRIEL HAMDAN FERREIRA"/>
+			<field name="applicant" value="IGOR AUGUSTO ALVES BATISTA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B62D7/18AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="62"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B62D53/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="62"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="pino-rei com dispositivo magnético. devido ao avanço tecnológico faz-se necessário mensurar o ângulo de rotação entre o caminhão (cavalo-mecânico) e o semi-reboque de forma simples e objetiva. o pino-rei com dispositivo magnético trata de um pino-rei (1), acoplado a ele um dispositivo magnético (2), o qual pode ser um imã ou um eletroimã. por se tratar de um ponto de rotação entre o veículo trator e o veículo rebocado, esta disposição, ao ser rotacionada, variará a posição do dispositivo magnético (2), consequentemente variará o campo magnético na região. esta variação será sentida por um sensor (3) de variação de campo magnético, o qual poderá alimentar um sistema eletrônico de controle do veículo."/>
+			<field name="originatesFrom" value="54548553"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202013017220"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202013017220U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202013017220"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20132017220U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202013017220"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202013017220Y"/>
+		</entity>
+		<entity ref="Person13602" type="Person">
+			<semanticIdentifier>lattes::7310464560281171</semanticIdentifier>
+			<field name="identifier.lattes" value="7310464560281171"/>
+			<field name="name" value="Igor Augusto Alves Batista"/>
+		</entity>
+		<entity ref="Patent19541" type="Patent">
+			<semanticIdentifier>epodoc::BR202013017220Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="54548553"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202013017220Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19540" toEntityRef="Person13602" type="Inventor"/>
+		<relation fromEntityRef="Patent19540" toEntityRef="Person13602" type="Depositor"/>
+	</relations>
+</entity-relation-data>

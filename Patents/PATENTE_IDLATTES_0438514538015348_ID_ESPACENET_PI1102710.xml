@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:04" record="35569" source="Espacenet">
+	<entities>
+		<entity ref="Patent35569" type="Patent">
+			<semanticIdentifier>brcris::e762beac57be63bc0b3a305638abe81b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102710A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1102710</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102710A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI02710</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1102710-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1102710"/>
+			<field name="identifier.lattes" value="0438514538015348"/>
+			<field name="identifier.espacenet" value="PI1102710"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo dosador de biomassa vegetal para queima em fornalha"/>
+			<field name="title.lattes" value="DISPOSITIVO DOSADOR DE BIOMASSA VEGETAL PARA QUEIMA EM FORNALHA"/>
+			<field name="depositDate" value="2011-06-30"/>
+			<field name="publicationDate" value="2012-12-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO CESAR BOSCARIOL"/>
+			<field name="inventor" value="JOSE LUIZ OLIVERIO"/>
+			<field name="inventor" value="MARCILIO DO AMARAL GURGEL"/>
+			<field name="inventor" value="PAULO EDUARDO MANTELATTO"/>
+			<field name="applicant" value="DEDINI S/A INDUSTRIAS DE BASE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F23G5/46AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO DOSADOR DE BIOMASSA VEGETAL PARA QUEIMA EM FORNALHA. O dispositivo dosador (D) compreende: uma carcaça tubular (10) provida de uma abertura superior (11), de uma abertura inferior (12) e de uma porção mediana alargada (13); e um par de rotores (20), paralelos entre si e dispostos no interior da porção alargada (13) da carcaça tubular (10), para serem rotativamente acionados em sentidos opostos e descendentes na região intermediária aos rotores (20), cada rotor (20) compreendendo um eixo (21), com poções extremas opostas (22) apoiadas na carcaça tubular (10), e uma pluralidade de aletas radiais (23), longitudinalmente fixadas em torno do eixo (21), igualmente espaçadas entre si, cada duas aletas radiais (24) consecutivas definindo uma caçamba longitudinal (C) com perfil em forma de &quot;V&quot;, com o vértice adjacente ao eixo (21) e com os extremos opostos fechados por respectivas porções de flange (24b)."/>
+			<field name="originatesFrom" value="47291748"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102710"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1102710"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102710"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI02710"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1102710-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU9001282U"/>
+		</entity>
+		<entity ref="Person24494" type="Person">
+			<semanticIdentifier>lattes::0438514538015348</semanticIdentifier>
+			<field name="identifier.lattes" value="0438514538015348"/>
+			<field name="name" value="Paulo Eduardo Mantelatto"/>
+		</entity>
+		<entity ref="OrgUnit19238" type="OrgUnit">
+			<semanticIdentifier>brcris::9cd0cceb41388c62ad266608b8143a74</semanticIdentifier>
+			<field name="name" value="DEDINI S/A INDUSTRIAS DE BASE"/>
+		</entity>
+		<entity ref="Patent35570" type="Patent">
+			<semanticIdentifier>epodoc::BRMU9001282U</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="47291748"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9001282U"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35569" toEntityRef="Person24494" type="Inventor"/>
+		<relation fromEntityRef="Patent35569" toEntityRef="OrgUnit19238" type="Applicant"/>
+	</relations>
+</entity-relation-data>

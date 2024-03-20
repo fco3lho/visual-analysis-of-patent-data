@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:10" record="22229" source="Espacenet">
+	<entities>
+		<entity ref="Patent22229" type="Patent">
+			<semanticIdentifier>brcris::de89b2a91fc856413640eccd8ca5602d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802516A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0802516</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802516A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI02516</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0802516-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0802516"/>
+			<field name="identifier.lattes" value="0814534888391295"/>
+			<field name="identifier.espacenet" value="PI0802516"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de rastreamento e/ou monitoramento"/>
+			<field name="title.lattes" value="DESENVOLVIMENTO DE SISTEMA AVL COM REGRAS PARA ATUALIZAÇÃO DE POSIÇÃO INTELIGENTE QUE MELHORA A REPRESENTAÇÃO DOS TRAJETOS"/>
+			<field name="depositDate" value="2008-07-29"/>
+			<field name="publicationDate" value="2011-03-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JORGE LUIZ ALVES TRABANCO"/>
+			<field name="inventor" value="ROGERIO RODRIGUES AMARANTE"/>
+			<field name="inventor" value="ROGERIO RODRIGUES AMARANTE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08G1/123AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="123AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01S5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04B7/185AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="185AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE RASTREAMENTO E/OU MONITORAMENTO. A presente invenção refere-se a um sistema de rastreamento e/ou monitoramento, baseado na tecnologia de transmissão de dados entre um determinado objeto e uma central de monitoramento Um dos principais beneficios associado ao uso da tecnologia ora revelada consiste na redução dos gastos com comunicação e armazenamento de dados, além de fornecer uma melhor representação dos trajetos percorridos por um veículo devido a otimização do sistema."/>
+			<field name="originatesFrom" value="43719581"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802516"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0802516"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802516"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI02516"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0802516-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15369" type="Person">
+			<semanticIdentifier>lattes::0814534888391295</semanticIdentifier>
+			<field name="identifier.lattes" value="0814534888391295"/>
+			<field name="name" value="Jorge Luiz Alves Trabanco"/>
+		</entity>
+		<entity ref="OrgUnit11955" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22229" toEntityRef="Person15369" type="Inventor"/>
+		<relation fromEntityRef="Patent22229" toEntityRef="OrgUnit11955" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:10" record="20197" source="Espacenet">
+	<entities>
+		<entity ref="Patent20197" type="Patent">
+			<semanticIdentifier>brcris::788e38015f0658dd8d634aa058e14d55</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0201050A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0201050</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0201050A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020201050</semanticIdentifier>
+			<semanticIdentifier>original::0201050-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0201050"/>
+			<field name="identifier.lattes" value="8139095662827864"/>
+			<field name="identifier.espacenet" value="0201050"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para obtenção de polìmeros aromáticos funcionalizados com propriedade elétricas especiais e produto obtido"/>
+			<field name="title.lattes" value="Processo para obtenção de polímeros aromáticos funcionalizados com propriedades elétricas especiais e produto obtido"/>
+			<field name="depositDate" value="2002-03-15"/>
+			<field name="publicationDate" value="2003-11-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO MENEGUZZI"/>
+			<field name="inventor" value="CARLOS ARTHUR FERREIRA"/>
+			<field name="inventor" value="IVO ALEXANDRE HUMMELGEN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08F132/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="132"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA OBTENçãO DE POLìMEROS AROMáTICOS FUNCIONALIZADOS COM PROPRIEDADES ELéTRICAS ESPECIAIS E PRODUTO OBTIDO&quot;. A presente invenção se refere a um processo para a obtenção de materiais poliméricos com propriedades de condutividade elétrica como são os do tipo poli(naftilaminas), tal como é o caso do tipo preferido de polímero conhecido como poli(5-amino-1-naftol). A presente invenção pode ser aplicada como dispositivo de proteção de componentes sensíveis a altas tensões em circuitos eletrónicos, na construção da nova geração de memórias para computadores, aumentando a capacidade de armazenagem e a velocidade de processamento de dados em chips de computadores, além da presente invenção poder ser utilizado na construção de sensores eletroquímicos capazes de detectar substâncias diversas como glicose, amónia e outras capazes de serem detectadas pelo polímero depositado sobre a platina."/>
+			<field name="originatesFrom" value="29220343"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0201050"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0201050"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0201050"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020201050"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0201050-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14012" type="Person">
+			<semanticIdentifier>lattes::8139095662827864</semanticIdentifier>
+			<field name="identifier.lattes" value="8139095662827864"/>
+			<field name="name" value="Ivo Alexandre Hümmelgen"/>
+		</entity>
+		<entity ref="OrgUnit10959" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20197" toEntityRef="Person14012" type="Inventor"/>
+		<relation fromEntityRef="Patent20197" toEntityRef="OrgUnit10959" type="Applicant"/>
+	</relations>
+</entity-relation-data>

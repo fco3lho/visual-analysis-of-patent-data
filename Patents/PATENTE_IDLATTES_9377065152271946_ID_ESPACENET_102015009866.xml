@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:45" record="39712" source="Espacenet">
+	<entities>
+		<entity ref="Patent39712" type="Patent">
+			<semanticIdentifier>brcris::eda657a5e938afe1f77c1ad09fbe34d4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015009866A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015009866</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015009866A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151009866</semanticIdentifier>
+			<semanticIdentifier>original::102015009866</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015009866"/>
+			<field name="identifier.lattes" value="9377065152271946"/>
+			<field name="identifier.espacenet" value="102015009866"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para caracterização em linha de propriedades físico-químicas do petróleo"/>
+			<field name="title.lattes" value="Processo para Caracterizacao em Linha de Propriedades Fisico-Quimicas do Petroleo"/>
+			<field name="depositDate" value="2015-04-30"/>
+			<field name="publicationDate" value="2016-11-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE JAIME MELLO VIEIRA"/>
+			<field name="inventor" value="ASIF MUHAMMAD"/>
+			<field name="inventor" value="RODRIGO BAGUEIRA DE VASCONCELLOS AZEREDO"/>
+			<field name="inventor" value="SONIA MARIA CABRAL DE MENEZES"/>
+			<field name="inventor" value="VINICIUS DE FRANCA MACHADO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE - UFF"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01V3/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para caracterização em linha de propriedades físico-químicas do petróleo. a presente invenção refere-se a um processo para caracterização em linha de propriedades físico-químicas do petróleo que pode ser aplicado diretamente na unidade industrial, sem a necessidade do envio de amostras a laboratórios de controle de qualidade. o processo da presente invenção compreende a medição, em linha, do espectro de 1 h rmn da corrente do petróleo que chega ao processo; a medição, em linha, dos tempos de relaxação de rmn de uma derivação da referida corrente do petróleo que chega ao processo; a combinação dos dados obtidos com a medição da etapa a) com as dados obtidos com a medição da etapa b) em uma matriz de dados única; aplicação de um modelo de predição híbrido para estimar pelo menos uma propriedade físico-química desejada a partir da matriz de dados única; e o cálculo de pelo menos uma prioridade físico-química desejada a partir do modelo de predição. utilizando um modelo híbrido de predição a partir de uma matriz de dados única, a presente invenção possibilita um efeito sinérgico em comparação aos modelos de predição aplicados individualmente, levando a uma caracterização mais precisa e eficaz."/>
+			<field name="originatesFrom" value="57197789"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015009866"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015009866"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015009866"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151009866"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015009866"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27014" type="Person">
+			<semanticIdentifier>lattes::9377065152271946</semanticIdentifier>
+			<field name="identifier.lattes" value="9377065152271946"/>
+			<field name="name" value="Rodrigo Bagueira de Vasconcellos Azeredo"/>
+		</entity>
+		<entity ref="OrgUnit21163" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit21164" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39712" toEntityRef="Person27014" type="Inventor"/>
+		<relation fromEntityRef="Patent39712" toEntityRef="OrgUnit21163" type="Applicant"/>
+		<relation fromEntityRef="Patent39712" toEntityRef="OrgUnit21164" type="Applicant"/>
+	</relations>
+</entity-relation-data>

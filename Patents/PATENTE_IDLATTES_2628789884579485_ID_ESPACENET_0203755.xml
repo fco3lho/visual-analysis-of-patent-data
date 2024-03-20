@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:19" record="7559" source="Espacenet">
+	<entities>
+		<entity ref="Patent7559" type="Patent">
+			<semanticIdentifier>brcris::4174037c4e6962de2ed0f09ca0089f67</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203755A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0203755</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203755A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020203755</semanticIdentifier>
+			<semanticIdentifier>original::0203755-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0203755"/>
+			<field name="identifier.lattes" value="2628789884579485"/>
+			<field name="identifier.espacenet" value="0203755"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de automação para fabricação de preforma porosa para fibra óptica"/>
+			<field name="title.lattes" value="Processo de automação para fabricação de preforma porosa para fibra óptica"/>
+			<field name="depositDate" value="2002-07-12"/>
+			<field name="publicationDate" value="2004-05-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS KENICHI SUZUKI"/>
+			<field name="inventor" value="DELSON TORIKAI"/>
+			<field name="inventor" value="EDSON HARUHICO SEKIYA"/>
+			<field name="inventor" value="EDUARDO ONO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C03B37/018AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="018AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C03B37/07AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="07AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE AUTOMAçãO PARA FABRICAçãO DE PREFORMA POROSA PARA FIBRA óPTICA&quot;. Patente de processo para controle automático do diâmetro da preforma porosa fabricada pelo método VAD (Vapor-phase Axial Deposition&quot;) de modo a mantê-lo constante durante o processo de deposição. Tal controle é baseado na detecção do diâmetro da preforma porosa através do processamento da imagem da mesma adquirida por uma câmera de vídeo em tempo real. O diâmetro detectado é utilizado por um sistema de controle retro-alimentado que atua no mecanismo de ascersão da preforma e/ou no fluxo dos gases que alimentam um ou mais maçaricos de forma a manter o diâmetro constante ao longo de toda a preforma porosa. Em relação aos processos convencionais de controle da geometria da preforma, o processo reivindicado beneficia-se pela maior precisão e menor custo de produção."/>
+			<field name="originatesFrom" value="32331092"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203755"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0203755"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203755"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020203755"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0203755-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5092" type="Person">
+			<semanticIdentifier>lattes::2628789884579485</semanticIdentifier>
+			<field name="identifier.lattes" value="2628789884579485"/>
+			<field name="name" value="Carlos Kenichi Suzuki"/>
+		</entity>
+		<entity ref="OrgUnit4013" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7559" toEntityRef="Person5092" type="Inventor"/>
+		<relation fromEntityRef="Patent7559" toEntityRef="OrgUnit4013" type="Applicant"/>
+	</relations>
+</entity-relation-data>

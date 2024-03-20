@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:08" record="42675" source="Espacenet">
+	<entities>
+		<entity ref="Patent42675" type="Patent">
+			<semanticIdentifier>brcris::0326a16cc97f189439cf1fe79c0ad3c4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803177A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803177</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803177A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03177</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803177-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803177"/>
+			<field name="identifier.lattes" value="9999504478654225"/>
+			<field name="identifier.espacenet" value="PI0803177"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="metodo de acionamento de raspador periodontal e equipamento"/>
+			<field name="title.lattes" value="METODO DE ACIONAMENTO DE RASPADOR PERIODONTAL E EQUIPAMENTO"/>
+			<field name="depositDate" value="2008-08-07"/>
+			<field name="publicationDate" value="2010-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS CARDOSO"/>
+			<field name="inventor" value="ARIADNI CRISTIANE CABRAL DA CRUZ"/>
+			<field name="inventor" value="MARCO AURELIO BIANCHINI"/>
+			<field name="inventor" value="RICARDO DE SOUZA MAGINI"/>
+			<field name="inventor" value="STEFERSON LUIZ STARES"/>
+			<field name="inventor" value="WOLFGANG RUDOLPH"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61C17/34AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Trata de método e equipamento que aciona ferramenta raspadora periodontal e que atua na superficie de dentes e de implantes dentários, através do emprego de pontas de curetas convencionais e especiais, onde os movimentos supra e subgengivais, ao longo do dente, são retilíneos alternativos proporcionados por uma cadeia cinemática tipo biela-manivela, acionada por moto elétrico."/>
+			<field name="originatesFrom" value="42238390"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803177"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803177"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803177-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29100" type="Person">
+			<semanticIdentifier>lattes::9999504478654225</semanticIdentifier>
+			<field name="identifier.lattes" value="9999504478654225"/>
+			<field name="name" value="Steferson Luiz Stares"/>
+		</entity>
+		<entity ref="OrgUnit22785" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42675" toEntityRef="Person29100" type="Inventor"/>
+		<relation fromEntityRef="Patent42675" toEntityRef="OrgUnit22785" type="Applicant"/>
+	</relations>
+</entity-relation-data>

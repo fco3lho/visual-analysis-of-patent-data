@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:15" record="31779" source="Espacenet">
+	<entities>
+		<entity ref="Patent31779" type="Patent">
+			<semanticIdentifier>brcris::52a466181e6062aecd37f3238142b95c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012022016A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012022016</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012022016A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121022016</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 022016-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012022016"/>
+			<field name="identifier.lattes" value="8043325346556259"/>
+			<field name="identifier.espacenet" value="102012022016"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="COMPOSIÇÃO LEISHAMANICIDA CONTENDO EXTRATO DE GENGIBRE E SUAS FRAÇÕES DERIVADAS"/>
+			<field name="title.lattes" value="Composição leishmanicida contendo extrato de gengibre e suas frações derivadas."/>
+			<field name="depositDate" value="2012-08-31"/>
+			<field name="publicationDate" value="2014-10-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO PEREIRA TAVARES"/>
+			<field name="inventor" value="EDUARDO ANTONIO FERRAZ COELHO"/>
+			<field name="inventor" value="JAMIL SILVANO DE OLIVEIRA"/>
+			<field name="inventor" value="MARCELO MATOS SANTORO"/>
+			<field name="inventor" value="MARIANA COSTA DUARTE"/>
+			<field name="inventor" value="MIGUEL ANGEL CHAVEZ FUMAGALLI"/>
+			<field name="inventor" value="RACHEL OLIVEIRA CASTILHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K36/9068AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="9068AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P33/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPOSIÇÃO LEISHAMANICIDA CONTENDO EXTRATO DE GENGIBRE E SUAS FRAÇÕES PURIFICADAS. A presente tecnologia descreve composições farmacêuticas compreendendo extrato aquoso de gengibre (Zingiber Officinalis Roscoe) e frações purificadas derivadas do mesmo. Essas composições apresentam elevada atividade leishmanicida sobre Leishmania (Leishmanis) amazonensis, não apresentam citotoxicidade sobre células de mamíferos e são eficazes no tratamento de macrófagos infectados com tal espécie do parasita. Tais composições poderão ser utilizadas para solucionar os problemas relacionados ao tratamento atual das leishmanioses."/>
+			<field name="originatesFrom" value="51660146"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012022016"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012022016"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012022016"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121022016"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 022016-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21796" type="Person">
+			<semanticIdentifier>lattes::8043325346556259</semanticIdentifier>
+			<field name="identifier.lattes" value="8043325346556259"/>
+			<field name="name" value="Mariana Costa Duarte"/>
+		</entity>
+		<entity ref="OrgUnit17038" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31779" toEntityRef="Person21796" type="Inventor"/>
+		<relation fromEntityRef="Patent31779" toEntityRef="OrgUnit17038" type="Applicant"/>
+	</relations>
+</entity-relation-data>

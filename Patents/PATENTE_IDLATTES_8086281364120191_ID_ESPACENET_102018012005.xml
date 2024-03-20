@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:44" record="40260" source="Espacenet">
+	<entities>
+		<entity ref="Patent40260" type="Patent">
+			<semanticIdentifier>brcris::33863158edb38d4378bdbcccec458a01</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018012005A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018012005</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018012005A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181012005</semanticIdentifier>
+			<semanticIdentifier>original::102018012005</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018012005"/>
+			<field name="identifier.lattes" value="8086281364120191"/>
+			<field name="identifier.espacenet" value="102018012005"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="metodologia para o monitoramento da estabilidade de equipamentos com base no coeficiente de capabilidade cdl"/>
+			<field name="title.lattes" value="PROCESSO DE PRODUÇÃO E UTILIZAÇÃO DE UM NANOAGREGADO À BASE DE CATEQUINA E PLURÔNICO PARA COMBATER RADICAIS LIVRES EM SISTEMAS BIOLÓGICOS"/>
+			<field name="depositDate" value="2018-06-13"/>
+			<field name="publicationDate" value="2020-01-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO MARCOS FIGUEIREDO SOARES"/>
+			<field name="inventor" value="APOLLO MELO DA SILVA FREITAS"/>
+			<field name="inventor" value="CARLOS AUGUSTO DO NASCIMENTO OLIVEIRA"/>
+			<field name="inventor" value="DAVI ANDERSON GADELHA DE SENA"/>
+			<field name="inventor" value="EDUARDO JOSE ALECIO DE OLIVEIRA"/>
+			<field name="inventor" value="JOAO JOSE DE SOUZA MARQUES"/>
+			<field name="inventor" value="JOSE EDUARDO FERREIRA DE OLIVEIRA"/>
+			<field name="inventor" value="MATEUS DE MELO SILVA FREITAS"/>
+			<field name="inventor" value="NELSON GONCALVES DA SILVA"/>
+			<field name="inventor" value="ROGERIO PONTES DE ARAUJO"/>
+			<field name="applicant" value="ASSOCIACAO INSTITUTO DE TECNOLOGIA DE PERNAMBUCO ? ITEP/OS"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01D3/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o objetivo deste método é utilizar o coeficiente de capabilidade cdl para monitorar a estabilidade de equipamentos. o coeficiente cdl por nós desenvolvido é um coeficiente de capabilidade aplicado em equipamentos de medição com o objetivo de verificar se um determinado equipamento de medição (instrumento de medição, sistema de medição, medida materializada ou material de referência) é capaz de realizar uma medição com confiabilidade metrológica. este coeficiente se difere dos demais utilizados para o mesmo fim, pois aplica a relação existente entre a máxima incerteza expandida de medição atribuída ao equipamento, e a resultante da combinação entre a incerteza estatística e a incerteza herdada, obtida do certificado de calibração do equipamento), e atribuindo a esta combinação, um fator de abrangência igual a 3, o que garante uma confiabilidade de 99,73%. assim, o equipamento é considerado capaz, se o coeficiente de capabilidade cdl for maior que 1 e incapaz, caso contrário."/>
+			<field name="originatesFrom" value="69191345"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018012005"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018012005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018012005"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181012005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018012005"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27439" type="Person">
+			<semanticIdentifier>lattes::8086281364120191</semanticIdentifier>
+			<field name="identifier.lattes" value="8086281364120191"/>
+			<field name="name" value="Ronaldo Carvalho da Silva"/>
+		</entity>
+		<entity ref="OrgUnit21450" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40260" toEntityRef="Person27439" type="Inventor"/>
+		<relation fromEntityRef="Patent40260" toEntityRef="OrgUnit21450" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:28" record="26147" source="Espacenet">
+	<entities>
+		<entity ref="Patent26147" type="Patent">
+			<semanticIdentifier>brcris::b03e772f498a93214214c6875a4951ec</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805123A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805123</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805123A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05123</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805123-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805123"/>
+			<field name="identifier.lattes" value="7095045011605056"/>
+			<field name="identifier.espacenet" value="PI0805123"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de aproveitamento de dióxido de carbono e seu uso no cultivo de microorganismos fotossintetizantes"/>
+			<field name="title.lattes" value="Método de aproveitamento de dióxido de carbono e seu uso no cultivo de microrganismos fotossintetizantes"/>
+			<field name="depositDate" value="2008-11-19"/>
+			<field name="publicationDate" value="2010-08-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ATTILIO CONVERTI"/>
+			<field name="inventor" value="DENISE CRISTINA MORETTI VIEIRA"/>
+			<field name="inventor" value="JOAO CARLOS MONTEIRO DE CARVALHO"/>
+			<field name="inventor" value="LIVIA SENO FERREIRA"/>
+			<field name="inventor" value="LIVIA SENO FERREIRA"/>
+			<field name="inventor" value="MARCELO CHUEI MATSUDO"/>
+			<field name="inventor" value="MAYLA SANTOS RODRIGUES"/>
+			<field name="inventor" value="RAQUEL PEDROSA BEZERRA"/>
+			<field name="inventor" value="SUNAO SATO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE GENEVA"/>
+			<field name="applicant" value="UNIVERSIDADE DE GENOVA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12F3/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE APROVEITAMENTO DE DIóXIDO DE CARBONO E SEU USO NO CULTIVO DE MICRORGANISMOS FOTOSSINTETIZANTES. A presente invenção destina-se ao método de aproveitamento de diáxido de carbono (CO~ 2~), em particular proveniente da fermentação alcoólica e/ou queima de materiais lignocelulósicos e/ou celulósicos. Adicionalmente, o presente pedido provê o uso do dito CO~ 2~ reaproveitado no cultivo de microrganismos fotossintetizantes, em particular, microalgas ei ou cianobactérias, preferencialmente Spirulina spp.."/>
+			<field name="originatesFrom" value="42557113"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805123"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805123"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805123"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05123"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805123-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18077" type="Person">
+			<semanticIdentifier>lattes::7095045011605056</semanticIdentifier>
+			<field name="identifier.lattes" value="7095045011605056"/>
+			<field name="name" value="Lívia Seno Ferreira Camargo"/>
+		</entity>
+		<entity ref="OrgUnit14128" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit14129" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26147" toEntityRef="Person18077" type="Inventor"/>
+		<relation fromEntityRef="Patent26147" toEntityRef="OrgUnit14128" type="Applicant"/>
+		<relation fromEntityRef="Patent26147" toEntityRef="OrgUnit14129" type="Applicant"/>
+	</relations>
+</entity-relation-data>

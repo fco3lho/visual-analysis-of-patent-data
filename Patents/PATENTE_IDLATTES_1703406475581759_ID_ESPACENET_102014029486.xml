@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:51" record="5577" source="Espacenet">
+	<entities>
+		<entity ref="Patent5577" type="Patent">
+			<semanticIdentifier>brcris::001d5f570db397b023713226eb2469f3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029486A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029486</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029486A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029486</semanticIdentifier>
+			<semanticIdentifier>original::102014029486</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029486"/>
+			<field name="identifier.lattes" value="1703406475581759"/>
+			<field name="identifier.espacenet" value="102014029486"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="antena em guia fendido"/>
+			<field name="title.lattes" value="Antena em Guia Fendido"/>
+			<field name="depositDate" value="2014-11-26"/>
+			<field name="publicationDate" value="2017-02-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARISMAR CERQUEIRA SODRE JUNIOR"/>
+			<field name="inventor" value="EDSON CESAR DOS REIS"/>
+			<field name="inventor" value="IGOR FELICIANO DA COSTA"/>
+			<field name="inventor" value="JOAO ROBERTO MOREIRA NETO"/>
+			<field name="inventor" value="RENAN ALVES DOS SANTOS"/>
+			<field name="applicant" value="BRADAR INDUSTRIA S.A"/>
+			<field name="applicant" value="FUNDACAO INSTITUTO NACIONAL DE TELECOMUNICACOES- FINATEL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01Q13/20AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="antena em guia fendido possuindo ganho uniforme em banda larga, constituída por uma sucessão de conjuntos (13-14-15, 13'-14'-15') de fendas ao longo da parede iateral (11b) de um guia de onda de secção retangular, circular ou eliptica, as fendas de cada conjunto sendo paralelas entre si, ditas fendas formando ãngulos (01, 02, 03) com o plano transversal do guia de ondas, compreendendo cada conjunto pelo menos duas fendas de comprimentos diferentes, correspondendo estes a diferentes freqüências (fmin, fcent, fmax) dentro da faixa de operação da antena. ditos ãngulos podem ter valores iguais e opostos (+0 e -0) ou diferentes entre si (01, 02, 03) ao longo do guia de onda. 0 comprimento de cada fenda de um conjunto é igual a aproximadamente metade do comprimento de onda guiado (?g/2) de uma das frequências dentro da faixa de operação da antena."/>
+			<field name="originatesFrom" value="58043688"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029486"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029486"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029486"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029486"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014029486"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3684" type="Person">
+			<semanticIdentifier>lattes::1703406475581759</semanticIdentifier>
+			<field name="identifier.lattes" value="1703406475581759"/>
+			<field name="name" value="Arismar Cerqueira Sodré Junior"/>
+		</entity>
+		<entity ref="OrgUnit2897" type="OrgUnit">
+			<semanticIdentifier>brcris::d25438948f4758c788f9a4e07351cfb5</semanticIdentifier>
+			<field name="name" value="BRADAR INDUSTRIA S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5577" toEntityRef="Person3684" type="Inventor"/>
+		<relation fromEntityRef="Patent5577" toEntityRef="OrgUnit2897" type="Applicant"/>
+	</relations>
+</entity-relation-data>

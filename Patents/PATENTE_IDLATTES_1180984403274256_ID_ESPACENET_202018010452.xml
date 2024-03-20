@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:23" record="30518" source="Espacenet">
+	<entities>
+		<entity ref="Patent30518" type="Patent">
+			<semanticIdentifier>brcris::92ee81a3dcbf8e94dc404d925eacbe7b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018010452U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202018010452U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018010452U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20182010452U</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202018010452"/>
+			<field name="identifier.lattes" value="1180984403274256"/>
+			<field name="identifier.espacenet" value="202018010452"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="modelo anatômico tridimensional para o ensino do reflexo vermelho para profissionais de saúde"/>
+			<field name="title.lattes" value="Modelo anatômico tridimensionalpara o ensino do reflexo vermelho (teste do olhinho) para profissionais de saúde"/>
+			<field name="depositDate" value="2018-05-23"/>
+			<field name="publicationDate" value="2019-12-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCUS VINICIUS HENRIQUES BRITO"/>
+			<field name="inventor" value="MAURICIO LEONARDI DA SILVA DIAS"/>
+			<field name="inventor" value="RAFAEL OLIVEIRA CHAVES"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G09B23/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente modelo de utilidade conjuga as funções de auxiliar o ensino do reflexo vermelho ocular (teste do olhinho) para os profissionais de saúde. o dito modelo é constituído por uma cabeça, pescoço e parte superior do tronco (figura 1) (figura 1.1) que é fechada contendo em seu interior os globos oculares humanos (figura 2) com um dispositivo eletrônico (figura 3) composto por diodos emissores de luz (led) e resistores dependentes de luz (ldr), para permitir que a luz do oftalmoscópio, diminua a resistência da corrente elétrica e acenda o led correspondente, a fim de estabelecer uma maior semelhança com o olho normal e doente por catarata ou retinoblastoma, com o objetivo de auxiliar o aprendizado em saúde, além de ajudar na explicação de referências anatômicas para os pacientes que precisam ser informados sobre doenças ou procedimentos na referida região anatômica do modelo."/>
+			<field name="originatesFrom" value="68765820"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018010452"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202018010452U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018010452"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20182010452U"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20926" type="Person">
+			<semanticIdentifier>lattes::1180984403274256</semanticIdentifier>
+			<field name="identifier.lattes" value="1180984403274256"/>
+			<field name="name" value="Marcus Vinicius Henriques Brito"/>
+		</entity>
+		<entity ref="OrgUnit16344" type="OrgUnit">
+			<semanticIdentifier>brcris::1969cccef68d8ea7d52fb37ad8c89a87</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO ESTADO DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30518" toEntityRef="Person20926" type="Inventor"/>
+		<relation fromEntityRef="Patent30518" toEntityRef="OrgUnit16344" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:17" record="15145" source="Espacenet">
+	<entities>
+		<entity ref="Patent15145" type="Patent">
+			<semanticIdentifier>brcris::6bd60183275c8203524e5d8794d8612e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103061A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1103061</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103061A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI03061</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1103061</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1103061"/>
+			<field name="identifier.lattes" value="8400341497103471"/>
+			<field name="identifier.espacenet" value="PI1103061"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="tratamento e recuperação de manganês oriundo de indústrias de papel e celulose utilizando ferro residual do processo de usinagem"/>
+			<field name="title.lattes" value="Tratamento e Recuperação de Manganês oriundo de indústria de papel e celulose utilizando ferro residual do processo de usinagem"/>
+			<field name="depositDate" value="2011-06-16"/>
+			<field name="publicationDate" value="2016-01-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADELIR APARECIDA ZACZK"/>
+			<field name="inventor" value="FELIPE MOREIRA PINTO"/>
+			<field name="inventor" value="ZUY MARIA MAGRIOTIS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01G45/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="45"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="tratamento e recuperação de manganês oriundo de indústrias de papel e celulose utilizando ferro residual do processo de usinagem. o permanganato de potássio é um forte agente oxidante e o seu descarte inadequado pode ocasionar acidentes. é utilizado em diversos processos como na síntese orgânica, em titulações redox e nas indústrias de papel e celulose. urna das maneiras de se realizar a redução do permanganato (mn^ +7^) a mn^ +2^ é por meio de matérias primas alternativas e abundantes como o fe^ 0^, residual do processo de usinagem. essas matérias primas podem ser consideradas resíduos por alguns setores, mas que podem ser reutilizadas em outros. assim a presente invenção trata do desenvolvimento de um processo para o tratamento e recuperação do manganês oriundo de indústrias de papel e celulose utilizando ferro zero (fe^ 0^) residual do processo de usinagem. os resultados mostraram diversas vantagens como o baixo custo, fácil operação, alto rendimento e boas taxas de recuperação."/>
+			<field name="originatesFrom" value="55083209"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103061"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1103061"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103061"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI03061"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1103061"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10527" type="Person">
+			<semanticIdentifier>lattes::8400341497103471</semanticIdentifier>
+			<field name="identifier.lattes" value="8400341497103471"/>
+			<field name="name" value="Felipe Moreira Pinto"/>
+		</entity>
+		<entity ref="OrgUnit8214" type="OrgUnit">
+			<semanticIdentifier>brcris::3e60fe4cbc4ad65afa2393d0a704c5ea</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit8215" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15145" toEntityRef="Person10527" type="Inventor"/>
+		<relation fromEntityRef="Patent15145" toEntityRef="OrgUnit8214" type="Applicant"/>
+		<relation fromEntityRef="Patent15145" toEntityRef="OrgUnit8215" type="Applicant"/>
+	</relations>
+</entity-relation-data>

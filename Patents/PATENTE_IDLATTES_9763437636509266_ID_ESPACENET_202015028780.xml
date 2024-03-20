@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:40" record="35970" source="Espacenet">
+	<entities>
+		<entity ref="Patent35970" type="Patent">
+			<semanticIdentifier>brcris::30c6b24988600871d003124ee3821bee</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015028780U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015028780U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015028780U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152028780U</semanticIdentifier>
+			<semanticIdentifier>original::202015028780</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015028780"/>
+			<field name="identifier.lattes" value="9763437636509266"/>
+			<field name="identifier.espacenet" value="202015028780"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="equipamento e método para estimulação elétrica transcraniana em animais"/>
+			<field name="title.lattes" value="Equipamento e método para estimulação elétrica transcraniana em animais"/>
+			<field name="depositDate" value="2015-11-17"/>
+			<field name="publicationDate" value="2017-05-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE FROTA MULLER"/>
+			<field name="inventor" value="ANDRESSA DE SOUZA"/>
+			<field name="inventor" value="BRUNO RODRIGUEZ TONDIN"/>
+			<field name="inventor" value="DANTON PEREIRA DA SILVA JUNIOR"/>
+			<field name="inventor" value="FELIPE FREGNI"/>
+			<field name="inventor" value="IRACI LUCENA DA SILVA TORRES"/>
+			<field name="inventor" value="LAUREN NAOMI SPEZIA ADACHI"/>
+			<field name="inventor" value="PAULO RICARDO OPPERMANN THOME"/>
+			<field name="inventor" value="PAULO ROBERTO STEFANI SANCHES"/>
+			<field name="inventor" value="RAFAEL VERCELINO"/>
+			<field name="inventor" value="WOLNEI CAUMO"/>
+			<field name="applicant" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE-HCPA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61N1/36AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61N1/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="equipamento e método para estimulação elétrica transcraniana em animais. o presente pedido de privilégio de modelo de utilidade é um equipamento estimulador portátil, programável, alimentado por bateria, e com dispositivos de segurança incorporados. o método de estimulação (parâmetros de estimulação e utilização) é programado exclusivamente pelo pesquisador, através da conexão do equipamento a um computador pessoal, com a utilização de um software especialmente desenvolvido para este fim. o equipamento e método destinam-se a realização de estudos, em animais, de técnicas de neuromodulação, através da aplicação de estímulos elétricos, visando avaliação e entendimento de seus efeitos, para o tratamento de diversas patologias."/>
+			<field name="originatesFrom" value="59101010"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015028780"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015028780U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015028780"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152028780U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015028780"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24748" type="Person">
+			<semanticIdentifier>lattes::9763437636509266</semanticIdentifier>
+			<field name="identifier.lattes" value="9763437636509266"/>
+			<field name="name" value="Paulo Roberto Stefani Sanches"/>
+		</entity>
+		<entity ref="OrgUnit19421" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35970" toEntityRef="Person24748" type="Inventor"/>
+		<relation fromEntityRef="Patent35970" toEntityRef="OrgUnit19421" type="Applicant"/>
+	</relations>
+</entity-relation-data>

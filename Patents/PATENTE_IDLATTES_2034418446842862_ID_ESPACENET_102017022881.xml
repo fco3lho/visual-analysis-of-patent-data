@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:14" record="2489" source="Espacenet">
+	<entities>
+		<entity ref="Patent2489" type="Patent">
+			<semanticIdentifier>brcris::5b221f85adce2c8a1cb0753398e9a115</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017022881A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017022881</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017022881A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171022881</semanticIdentifier>
+			<semanticIdentifier>original::102017022881</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017022881"/>
+			<field name="identifier.lattes" value="2034418446842862"/>
+			<field name="identifier.espacenet" value="102017022881"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="talco antiodor e antisséptico à base de cymbopogon citratus na bromidrose plantar"/>
+			<field name="title.lattes" value="TALCO ANTIODOR E ANTISSÉPTICO À BASE DE CYMBOPOGON CITRATUS NA BROMIDROSE PLANTAR"/>
+			<field name="depositDate" value="2017-10-24"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA BEATRIZ ALKMIM TEIXEIRA LOYOLA"/>
+			<field name="inventor" value="ANA PAULA DOS SANTOS VIANNA DE ANDRADE"/>
+			<field name="inventor" value="DIBA MARIA SEBBA TOSTA DE SOUZA"/>
+			<field name="applicant" value="UNIVERSIDADE DO VALE DO SAPUCAI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61Q17/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/27AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="27AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61K8/365AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="365AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="A61K8/92AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="92AI"/>
+			</field>
+			<field name="abstract.espacenet" value="talco antiodor e antisséptico à base de cymbopogon citratus na bromidrose plantar. o presente pedido de patente de invenção trata-se de um talco antiodor e antisséptico à base de cymbopogon citratus para uso nos pés. o talco tem a função de diminuir o odor e a presença de bactérias nos pés a presente invenção trata-se de um produto elaborado a base do óleo de cymbopogon citratus a 5% com 3% de óxido de zinco e 1% de acido salicílico que pode ser um auxilio na prevenção e tratamento da bromidrose (chulé) nos pés, podendo vir a ser utilizado topicamente na redução do odor e na redução de bactérias nos pés. o óleo de cymbopogon citratus quando manipulado com óxido de zinco e ácido salicílico demonstrou ser eficaz na potencialização do efeito antimicrobiano e com redução do odor dos pés."/>
+			<field name="originatesFrom" value="67260513"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017022881"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017022881"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017022881"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171022881"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017022881"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1812" type="Person">
+			<semanticIdentifier>lattes::2034418446842862</semanticIdentifier>
+			<field name="identifier.lattes" value="2034418446842862"/>
+			<field name="name" value="Ana Beatriz Alkmim Teixeira Loyola"/>
+		</entity>
+		<entity ref="OrgUnit1423" type="OrgUnit">
+			<semanticIdentifier>brcris::1760429d10b2f95fbfe5f810875c48a2</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO VALE DO SAPUCAI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2489" toEntityRef="Person1812" type="Inventor"/>
+		<relation fromEntityRef="Patent2489" toEntityRef="OrgUnit1423" type="Applicant"/>
+	</relations>
+</entity-relation-data>

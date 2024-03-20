@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:28:43" record="43740" source="Espacenet">
+	<entities>
+		<entity ref="Patent43740" type="Patent">
+			<semanticIdentifier>brcris::d2d1e4bd292788688e40fae33fa4104c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805055A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805055</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805055A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05055</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805055-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805055"/>
+			<field name="identifier.lattes" value="8166874558095198"/>
+			<field name="identifier.espacenet" value="PI0805055"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de texturização superficial de peças retificadas com uso de rebolo condicionado atráves da alteração da pronfudidade de dressagem"/>
+			<field name="title.lattes" value="PROCESSO DE TEXTURIZAÇÃO SUPERFICIAL DE PEÇAS RETIFICADAS COM USO DE REBOLO CONDICIONADO ATRAVÉS DA ALTERAÇÃO DA PROFUNDIDADE DE DRESSAGEM"/>
+			<field name="depositDate" value="2008-11-26"/>
+			<field name="publicationDate" value="2010-07-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX CAMILLI BOTTENE"/>
+			<field name="inventor" value="CARLOS MAGNO DE OLIVEIRA VALENTE"/>
+			<field name="inventor" value="JOAO FERNANDO GOMES DE OLIVEIRA"/>
+			<field name="inventor" value="THIAGO VALLE FRANCA"/>
+			<field name="inventor" value="THIAGO VALLE FRANCA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B24D7/18AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B24D7/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="O processo da presente invenção para inscrição de texturas em superfícies de peças retificadas pode ser dividido em três etapas principais: - Geração das texturas escolhidas; - Inscrição das texturas na superfície do rebolo; - Transferência das texturas para a superfície da peça."/>
+			<field name="originatesFrom" value="42352877"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805055"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805055"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805055"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05055"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805055-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29876" type="Person">
+			<semanticIdentifier>lattes::8166874558095198</semanticIdentifier>
+			<field name="identifier.lattes" value="8166874558095198"/>
+			<field name="name" value="Thiago Valle França"/>
+		</entity>
+		<entity ref="OrgUnit23442" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit23443" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43740" toEntityRef="Person29876" type="Inventor"/>
+		<relation fromEntityRef="Patent43740" toEntityRef="OrgUnit23442" type="Applicant"/>
+		<relation fromEntityRef="Patent43740" toEntityRef="OrgUnit23443" type="Applicant"/>
+	</relations>
+</entity-relation-data>

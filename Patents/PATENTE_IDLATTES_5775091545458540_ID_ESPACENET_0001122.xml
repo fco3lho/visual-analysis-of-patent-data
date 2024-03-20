@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:36" record="18125" source="Espacenet">
+	<entities>
+		<entity ref="Patent18125" type="Patent">
+			<semanticIdentifier>brcris::891b6d1d447ee776940a3ffaf5bcdaa1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0001122A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0001122</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0001122A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000001122</semanticIdentifier>
+			<semanticIdentifier>original::0001122-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0001122"/>
+			<field name="identifier.lattes" value="5775091545458540"/>
+			<field name="identifier.espacenet" value="0001122"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de fermentacao com uso demicroorganismos floculantes condicionais"/>
+			<field name="title.lattes" value="Processo de fermentação com uso de microrganismos floculantes condicionais"/>
+			<field name="depositDate" value="2000-04-04"/>
+			<field name="publicationDate" value="2001-11-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON FERREIRA DA CUNHA"/>
+			<field name="inventor" value="GONCALO AMARANTE GUIMARAES PEREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/81AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="81AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P7/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE FERMENTAçãO COM USO DEMICROORGANISMOS FLOCULANTES CONDICIONAIS&quot;. O qualcompreende a geração e utilização de linhagens floculantescondicionais de microorganismos, que partem de uma linhagemselvagem não floculante, na qual é então introduzido um gene defloculação com o seu promotor modificado, sendo que essamodificação do promotor visa tornar a expressão do gene defloculação reprimida à presença de um substrato específico."/>
+			<field name="originatesFrom" value="3943876"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0001122"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0001122"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0001122"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000001122"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0001122-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12535" type="Person">
+			<semanticIdentifier>lattes::5775091545458540</semanticIdentifier>
+			<field name="identifier.lattes" value="5775091545458540"/>
+			<field name="name" value="Goncalo Amarante Guimarães Pereira"/>
+		</entity>
+		<entity ref="OrgUnit9762" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18125" toEntityRef="Person12535" type="Inventor"/>
+		<relation fromEntityRef="Patent18125" toEntityRef="OrgUnit9762" type="Applicant"/>
+	</relations>
+</entity-relation-data>

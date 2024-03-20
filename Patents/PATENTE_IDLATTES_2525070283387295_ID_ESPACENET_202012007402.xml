@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:59" record="28862" source="Espacenet">
+	<entities>
+		<entity ref="Patent28862" type="Patent">
+			<semanticIdentifier>brcris::9df3c352e9e38fe8ada112785ea3281d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012007402U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202012007402U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012007402U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20122007402U</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 20 2012 007402-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202012007402"/>
+			<field name="identifier.lattes" value="2525070283387295"/>
+			<field name="identifier.espacenet" value="202012007402"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="SECADOR TÉRMICO POR FUSO AQUECIDO"/>
+			<field name="title.lattes" value="Secador Término por Fuso Aquecido"/>
+			<field name="depositDate" value="2012-04-02"/>
+			<field name="publicationDate" value="2013-11-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIS GALENDE"/>
+			<field name="inventor" value="FLAVIO CLARETH COLMAN"/>
+			<field name="inventor" value="JEFFERSON RODRIGO AVILA PELOI"/>
+			<field name="inventor" value="MARCELO JOSE ALBA"/>
+			<field name="inventor" value="PEDRO HENRIQUE CANTELLI GONCALVES"/>
+			<field name="inventor" value="RAFAEL HENRIQUE GIOVANELLI"/>
+			<field name="inventor" value="WILSON TADEU TAKATUJI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F26B17/18AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="26"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SECADOR TÉRMICO POR FUSO AQUECIDO. Equipamento secador horizontal destinado ao transporte e secagem de sólidos e líquidos, por meio da passagem de gás ou vapor em temperatura elevada no interior do fuso, trocando calor de forma indireta por condução ou de forma direta e indireta, por condução e convencção, respectivamente. O eixo do fuso é vazado, propiciando a passagem de gás ou vapor através de todo o comprimento do equipamento e pode ou não possuir orifícios que permitem contato do gás com o produto a ser secado, reduzindo assim sua umidade. O transporte é executado pelo helicoide soldado ou fundido junto ao eixo, formando assim o fuso. O equipamento é modular, já que é possível aterar suas dimensões e, consequentemente, sua capacidade de sacagem."/>
+			<field name="originatesFrom" value="49624753"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012007402"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012007402U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012007402"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20122007402U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 20 2012 007402-3"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202012007402Y"/>
+		</entity>
+		<entity ref="Person19916" type="Person">
+			<semanticIdentifier>lattes::2525070283387295</semanticIdentifier>
+			<field name="identifier.lattes" value="2525070283387295"/>
+			<field name="name" value="Marcelo José Alba"/>
+		</entity>
+		<entity ref="OrgUnit15564" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit15565" type="OrgUnit">
+			<semanticIdentifier>brcris::e2506f938555d6bfe6ccf0c4e3276fcf</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="Patent28863" type="Patent">
+			<semanticIdentifier>epodoc::BR202012007402Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="49624753"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012007402Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28862" toEntityRef="Person19916" type="Inventor"/>
+		<relation fromEntityRef="Patent28862" toEntityRef="OrgUnit15564" type="Applicant"/>
+		<relation fromEntityRef="Patent28862" toEntityRef="OrgUnit15565" type="Applicant"/>
+	</relations>
+</entity-relation-data>

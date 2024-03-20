@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:05" record="5129" source="Espacenet">
+	<entities>
+		<entity ref="Patent5129" type="Patent">
+			<semanticIdentifier>brcris::3b13f4bd699d08eb765c8a88ca070894</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014028961A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014028961</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014028961A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141028961</semanticIdentifier>
+			<semanticIdentifier>original::102014028961</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014028961"/>
+			<field name="identifier.lattes" value="0022988322449627"/>
+			<field name="identifier.espacenet" value="102014028961"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistemas de pastas à base de sulfato de cálcio hidratado para aplicação em poços petrolíferos"/>
+			<field name="title.lattes" value="Sistemas de Pastas à Base de Sulfato de Cálcio Hidratado para Aplicação em Poços Petrolíferos"/>
+			<field name="depositDate" value="2014-10-08"/>
+			<field name="publicationDate" value="2016-07-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CECILIA VIEIRA DA NOBREGA"/>
+			<field name="inventor" value="ANTONIO EDUARDO MARTINELLI"/>
+			<field name="inventor" value="DENNYS SALVINO SERGIO PEREIRA"/>
+			<field name="inventor" value="DULCE MARIA DE ARAUJO MELO"/>
+			<field name="inventor" value="FIAMMA RAPHAELA DA SILVA SILVESTRE"/>
+			<field name="inventor" value="JULIO CESAR DE OLIVEIRA FREITAS"/>
+			<field name="inventor" value="MARCUS ANTONIO DE FREITAS MELO"/>
+			<field name="inventor" value="PETRUCIA DUARTE DA SILVA"/>
+			<field name="inventor" value="ULISSES TARGINO BEZERRA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09K8/467AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="467AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;sistemas de pastas à base de sulfato de cálcio hidratado para aplicação em poços petrolíferos&quot; sistemas de pastas contendo sulfato de cálcio hidratado como aglomerante básico para a cimentação de poços de petróleo, objetivando a promoção do selo hidráulico entre as zonas permeáveis ou até mesmo a vedação de um único intervalo permeável, impedindo a intercomunicação de fluidos da formação, além de suporte mecânico ao revestimento. os sistemas mostram-se viáveis devido ao sulfato de cálcio hidratado, em conjunto com aditivos químicos, permitir a obtenção de pastas com características reológicas, propriedades mecânicas e tempo de pega (endurecimento), semelhantes às pastas preparadas com cimento portland empregadas comumente pela indústria petrolífera em operações de cimentação de poços de petróleo. essas propriedades justificam a aplicação das formulações à base de sulfato de cálcio hidratado como potenciais sistemas inovadores para aplicação em operações de cimentação em poços petrolíferos, em substituição aos sistemas de pastas de cimento portland utilizados atualmente."/>
+			<field name="originatesFrom" value="56406625"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014028961"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014028961"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014028961"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141028961"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014028961"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3342" type="Person">
+			<semanticIdentifier>lattes::0022988322449627</semanticIdentifier>
+			<field name="identifier.lattes" value="0022988322449627"/>
+			<field name="name" value="Antonio Eduardo Martinelli"/>
+		</entity>
+		<entity ref="OrgUnit2633" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit2634" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5129" toEntityRef="Person3342" type="Inventor"/>
+		<relation fromEntityRef="Patent5129" toEntityRef="OrgUnit2633" type="Applicant"/>
+		<relation fromEntityRef="Patent5129" toEntityRef="OrgUnit2634" type="Applicant"/>
+	</relations>
+</entity-relation-data>

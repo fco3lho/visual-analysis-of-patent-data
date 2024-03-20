@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:15" record="8021" source="Espacenet">
+	<entities>
+		<entity ref="Patent8021" type="Patent">
+			<semanticIdentifier>brcris::fe8463c51ed4d531ed356e12eecf4b03</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003689A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019003689</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003689A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191003689</semanticIdentifier>
+			<semanticIdentifier>original::102019003689</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019003689"/>
+			<field name="identifier.lattes" value="9375639768929991"/>
+			<field name="identifier.espacenet" value="102019003689"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador repetitivo vetorial para compensação de harmônicas de ordem nk+m"/>
+			<field name="title.lattes" value="Controlador repetitivo vetorial para compensação de harmônicas de ordem nk+m"/>
+			<field name="depositDate" value="2019-02-22"/>
+			<field name="publicationDate" value="2020-09-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO LUIZ BATSCHAUER"/>
+			<field name="inventor" value="CASSIANO RECH"/>
+			<field name="inventor" value="FELIPE JOEL ZIMANN"/>
+			<field name="inventor" value="FRANCISCO DE ASSIS DOS SANTOS NEVES"/>
+			<field name="inventor" value="HELBER ELIAS PAZ DE SOUZA"/>
+			<field name="inventor" value="RAFAEL CAVALCANTI NETO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DO ESTADO DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B13/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02J3/01AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="um esquema de controle repetitivo de estrutura vetorial com realimentação positiva, que aloca polos sobre o círculo unitário e zeros na origem do plano z. este controlador repetitivo possui a vantagem da seleção de componentes harmônicas da família n·k+m, o que, em certas condições, pode permitir menor número de amostras e melhor desempenho do sistema de controle. a estrutura completa possui um bloco de ganho após a entrada, um núcleo repetitivo composto por um bloco de atraso e um bloco de deslocamento angular em série com um bloco de filtro fir passa-baixas de coeficientes simétricos, todos na malha de realimentação positiva, e conectados à saída por um bloco de predição do tipo avanço de fase. estes itens restringem a banda de atuação do controlador repetitivo, porém visam o aumento da estabilidade relativa do controle."/>
+			<field name="originatesFrom" value="73013889"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003689"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019003689"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003689"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191003689"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019003689"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5445" type="Person">
+			<semanticIdentifier>lattes::9375639768929991</semanticIdentifier>
+			<field name="identifier.lattes" value="9375639768929991"/>
+			<field name="name" value="Cassiano Rech"/>
+		</entity>
+		<entity ref="OrgUnit4306" type="OrgUnit">
+			<semanticIdentifier>brcris::3417ad15b87d7a53f9069aacebdbdae7</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DO ESTADO DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8021" toEntityRef="Person5445" type="Inventor"/>
+		<relation fromEntityRef="Patent8021" toEntityRef="OrgUnit4306" type="Applicant"/>
+	</relations>
+</entity-relation-data>

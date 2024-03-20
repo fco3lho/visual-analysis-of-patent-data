@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:07" record="34635" source="Espacenet">
+	<entities>
+		<entity ref="Patent34635" type="Patent">
+			<semanticIdentifier>brcris::484ed567699e76b3083e67c0e836abb5</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602031A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602031</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602031A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02031</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602031-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602031"/>
+			<field name="identifier.lattes" value="9448206585707320"/>
+			<field name="identifier.espacenet" value="PI0602031"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="equipamento para monitoramento iÈnico da solução do solo"/>
+			<field name="title.lattes" value="EQUIPAMENTO PARA MONITORAMENTO IÔNICO DA SOLUÇÃO DO SOLO"/>
+			<field name="depositDate" value="2006-05-19"/>
+			<field name="publicationDate" value="2008-01-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALTAIR BERTONHA"/>
+			<field name="inventor" value="OMAR CLEO NEVES PEREIRA"/>
+			<field name="inventor" value="OMAR CLEO NEVES PEREIRA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="EQUIPAMENTO PARA MONITORAMENTO IÈNICO DA SOLUçãO DO SOLO O seguinte relatório descritivo do pedido de Patente de Invenção refere-se ao desenvolvimento de um equipamento capaz de determinar a concentração de íons na solução do solo com forças iónicas menores que 0,1. A sonda construída consiste em uma câmara fechada de paredes de cerâmica porosa com uma célula eletrolítica e um sensor de temperatura, correspondente a um termopar, em seu interior. Um sistema de pressão/tensão produz a força necessária para a entrada e saída da solução do solo na sonda. A leitura de potencial elétrico da célula eletrolítica e da temperatura do termopar para a amostra de solução é indicada num mostrador digital."/>
+			<field name="originatesFrom" value="38878638"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602031"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602031"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602031"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02031"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602031-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23845" type="Person">
+			<semanticIdentifier>lattes::9448206585707320</semanticIdentifier>
+			<field name="identifier.lattes" value="9448206585707320"/>
+			<field name="name" value="Omar Cléo Neves Pereira"/>
+		</entity>
+		<entity ref="OrgUnit18720" type="OrgUnit">
+			<semanticIdentifier>brcris::c6e71346825fb2a3951456d69e7ff640</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit18721" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34635" toEntityRef="Person23845" type="Inventor"/>
+		<relation fromEntityRef="Patent34635" toEntityRef="OrgUnit18720" type="Applicant"/>
+		<relation fromEntityRef="Patent34635" toEntityRef="OrgUnit18721" type="Applicant"/>
+	</relations>
+</entity-relation-data>

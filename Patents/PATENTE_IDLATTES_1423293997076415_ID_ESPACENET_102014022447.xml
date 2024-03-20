@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:58" record="20761" source="Espacenet">
+	<entities>
+		<entity ref="Patent20761" type="Patent">
+			<semanticIdentifier>brcris::3fc8c06af3fba84fd1e5e236714a68dd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022447A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014022447</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022447A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141022447</semanticIdentifier>
+			<semanticIdentifier>original::102014022447</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014022447"/>
+			<field name="identifier.lattes" value="1423293997076415"/>
+			<field name="identifier.espacenet" value="102014022447"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="eletrocardiograma via serviçode mensagem curta de texto (sms)"/>
+			<field name="title.lattes" value="ELETROCARDIOGRAMA VIA SERVIÇO DE MENSAGEM CURTA DE TEXTO (SMS)"/>
+			<field name="depositDate" value="2014-08-28"/>
+			<field name="publicationDate" value="2016-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLEONILSON PROTASIO DE SOUZA"/>
+			<field name="inventor" value="DENIVALDO CICERO PAVAO LOPES"/>
+			<field name="inventor" value="JANYELISON RODRIGO MARQUES FERREIRA"/>
+			<field name="inventor" value="VICTOR MIRANDA FERNANDES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L12/54AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="54AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W88/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="88"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="patente de invenção eletrocardiograma via serviço de mensagem curta de texto (sms). sistema em que sinais eletrocardiográficos são adquiridos, tratados e comprimidos de forma a serem enviados através do serviço de mensagem curta de texto (sms) disponível pelas redes de comunicações móveis celulares. o dito sistema consiste em um circuito de aquisição de sinal de ecg (1), um dispositivo de compressão (2) que se comunica de forma serial, por fio (wired) ou sem fio (wireless), com um aparelho celular local (3) que, por sua vez, envia sms(s), que contém o sinal comprimido de ecg, a um aparelho celular remoto (4), que pode ser do médico ou de qualquer profissional habilitado, conectado a um computador (5) que contém um programa de software para descomprimir o sms e mostrar na tela o ecg recebido. o dito sistema pode também ser configurado de forma que não há necessidade de um computador e o processo de descompressão do sms e visualização do ecg é realizado no próprio celular remoto através de um programa aplicativo instalado neste."/>
+			<field name="originatesFrom" value="55405536"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022447"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014022447"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022447"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141022447"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014022447"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14372" type="Person">
+			<semanticIdentifier>lattes::1423293997076415</semanticIdentifier>
+			<field name="identifier.lattes" value="1423293997076415"/>
+			<field name="name" value="Janyelison Rodrigo Marques Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit11258" type="OrgUnit">
+			<semanticIdentifier>brcris::d328331eae318b62840a10126b18dc94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20761" toEntityRef="Person14372" type="Inventor"/>
+		<relation fromEntityRef="Patent20761" toEntityRef="OrgUnit11258" type="Applicant"/>
+	</relations>
+</entity-relation-data>

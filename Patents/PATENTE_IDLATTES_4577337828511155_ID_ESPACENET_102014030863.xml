@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:56" record="36158" source="Espacenet">
+	<entities>
+		<entity ref="Patent36158" type="Patent">
+			<semanticIdentifier>brcris::fb863f3bd38c422859df2a7ef51872e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030863A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014030863</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030863A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141030863</semanticIdentifier>
+			<semanticIdentifier>original::102014030863</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014030863"/>
+			<field name="identifier.lattes" value="4577337828511155"/>
+			<field name="identifier.espacenet" value="102014030863"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="uso de composto, método ex-vivo, processo e extrato purificado"/>
+			<field name="title.lattes" value="Uso de composto, método ex-vivo, processo e extrato purificado"/>
+			<field name="depositDate" value="2014-12-09"/>
+			<field name="publicationDate" value="2016-12-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CECILIA VERONICA NUNEZ"/>
+			<field name="inventor" value="DAIANE MARTINS"/>
+			<field name="inventor" value="DANIELA FERNANDES RAMOS"/>
+			<field name="inventor" value="PEDRO EDUARDO ALMEIDA DA SILVA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE - FURG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D455/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="455"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K31/436AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="436AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P31/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="uso de composto, método ex-vivo, processo e extrato purificado. a presente invenção descreve o uso de pelo menos um composto de fórmula i, método ex-vivo de inibição microbiana, processo de obtenção de extrato purificado e extrato purificado obtido pelo processo. a presente invenção se situa nos campos da farmácia, da medicina e da fitoquímica."/>
+			<field name="originatesFrom" value="57680549"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030863"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014030863"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030863"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141030863"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014030863"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24870" type="Person">
+			<semanticIdentifier>lattes::4577337828511155</semanticIdentifier>
+			<field name="identifier.lattes" value="4577337828511155"/>
+			<field name="name" value="Pedro Eduardo Almeida da Silva"/>
+		</entity>
+		<entity ref="OrgUnit19520" type="OrgUnit">
+			<semanticIdentifier>brcris::8216edde71d5cb54d39cca550db7679d</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="OrgUnit19521" type="OrgUnit">
+			<semanticIdentifier>brcris::5f210e0c7d95cf557275f5ec47d2aa6c</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE - FURG"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36158" toEntityRef="Person24870" type="Inventor"/>
+		<relation fromEntityRef="Patent36158" toEntityRef="OrgUnit19520" type="Applicant"/>
+		<relation fromEntityRef="Patent36158" toEntityRef="OrgUnit19521" type="Applicant"/>
+	</relations>
+</entity-relation-data>

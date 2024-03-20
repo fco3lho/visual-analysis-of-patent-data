@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:44:38" record="23514" source="Espacenet">
+	<entities>
+		<entity ref="Patent23514" type="Patent">
+			<semanticIdentifier>brcris::765ee067e92eee6414ef1309b3ac807a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032306A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014032306</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032306A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141032306</semanticIdentifier>
+			<semanticIdentifier>original::102014032306</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014032306"/>
+			<field name="identifier.lattes" value="5385801263390593"/>
+			<field name="identifier.espacenet" value="102014032306"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="destilador de água compacto com eficiência máxima de reutilização de água"/>
+			<field name="title.lattes" value="Destilador de água compacto com eficiência máxima de reutilização de água"/>
+			<field name="depositDate" value="2014-12-22"/>
+			<field name="publicationDate" value="2016-08-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSEMIR MOURA MAIA"/>
+			<field name="inventor" value="POTI OLIVEIRA CORTEZ COSTA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D3/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01D5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B01L3/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="destilador de água compacto com eficiência máxima de reutilização de água. este equipamento é destinado à produção de água destilada, com qualidade laboratorial para fins diversos, reduzindo significativamente o consumo de água. é baseado em princípio conhecido de destilação que inicia com a evaporação da água, seguida pela condensação. consiste de duas partes básicas: (a) cuba de inox aquecida por resistência de banho-maria, onde o nível de água é mantido constante por sensores elétricos resistentes a alta temperatura e; (b) unidade condensadora que possui sistema de resfriamento independente e com circulação fechada e auto-resfriável. as inovações estabelecidas neste invento dizem respeito: (a) ao controle do nível de água na cuba de aquecimento o que evita o transbordo, queima da resistência e desperdício de água potável; e (b) ao esquema que separa o fluxo de água a ser destilado, do líquido a ser utilizado no sistema de condensação, o qual também pode utilizar água ou outros líquidos arrefecedores como etanol ou solução automotiva de radiador. o apelo comercial diz respeito ao baixo custo de produção do equipamento, vinculado com a economia e a preservação dos recursos hídricos."/>
+			<field name="originatesFrom" value="56544754"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032306"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014032306"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032306"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141032306"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014032306"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16299" type="Person">
+			<semanticIdentifier>lattes::5385801263390593</semanticIdentifier>
+			<field name="identifier.lattes" value="5385801263390593"/>
+			<field name="name" value="Josemir Moura Maia"/>
+		</entity>
+		<entity ref="OrgUnit12605" type="OrgUnit">
+			<semanticIdentifier>brcris::440b0056ba9e05212795aca11d2e4493</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23514" toEntityRef="Person16299" type="Inventor"/>
+		<relation fromEntityRef="Patent23514" toEntityRef="OrgUnit12605" type="Applicant"/>
+	</relations>
+</entity-relation-data>

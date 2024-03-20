@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:07" record="5144" source="Espacenet">
+	<entities>
+		<entity ref="Patent5144" type="Patent">
+			<semanticIdentifier>brcris::58716d34d295b59ab15592094411f98e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012032020U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202012032020U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012032020U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20122032020U</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 20 2012 032020-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202012032020"/>
+			<field name="identifier.lattes" value="9728927370760469"/>
+			<field name="identifier.espacenet" value="202012032020"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="DISPOSITIVO DE TRIGGER POINT"/>
+			<field name="title.lattes" value="Dispositivo de Trigger Point"/>
+			<field name="depositDate" value="2012-12-14"/>
+			<field name="publicationDate" value="2014-09-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CARLA COUTO FINELLI"/>
+			<field name="inventor" value="ANTONIO EUSTAQUIO DE MELO PERTENCE"/>
+			<field name="inventor" value="RENATO GUILHERME TREDE FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61H39/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO DE TRIGGER POINT. O presente pedido de modelo de utilidade compreende um dispositivo (Figura 1) que potencializa a atuação manual do usuário na inibição do trigger point com um posicionamento mais ergonômico das mãos reduzindo o risco de distúrbios osteomusculares, relacionados ao trabalho do usuário através da eliminação da sobrecarga na musculatura flexo extensora dos dedos e punho, necessária para a manutenção da compressão. Além disso, permite a padronização do tratamento, uma vez que possibilita o controle da força aplicada com boa sensibilidade de medida; reduzindo, dessa forma, as deficiências presentes no tratamento atual, e permitindo que o mesmo tratamento possa ser repetido por profissinais distintos baseados em um protocolo de atendimento. O dispositivo possui a união de uma empunhadura priméria (4) que se conflui em corpo principal (1), sendo estes majoritariamente compostos de material polimérico rígido, propiciando maior durabilidade e leveza. Internamente ao corpo principal tem-se um sistema móvel rígido e elástico, composto principalmente por material metálico, responsável pela deformação elástica de uma parte do dispositivo, esta primordial para o funcionamento do mesmo."/>
+			<field name="originatesFrom" value="51483917"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012032020"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012032020U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012032020"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20122032020U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 20 2012 032020-2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202012032020Y"/>
+		</entity>
+		<entity ref="Person3355" type="Person">
+			<semanticIdentifier>lattes::9728927370760469</semanticIdentifier>
+			<field name="identifier.lattes" value="9728927370760469"/>
+			<field name="name" value="Antônio Eustáquio de Melo Pertence"/>
+		</entity>
+		<entity ref="OrgUnit2647" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent5145" type="Patent">
+			<semanticIdentifier>epodoc::BR202012032020Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="51483917"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012032020Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5144" toEntityRef="Person3355" type="Inventor"/>
+		<relation fromEntityRef="Patent5144" toEntityRef="OrgUnit2647" type="Applicant"/>
+	</relations>
+</entity-relation-data>

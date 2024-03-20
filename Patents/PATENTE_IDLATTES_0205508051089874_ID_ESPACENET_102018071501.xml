@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:55" record="105" source="Espacenet">
+	<entities>
+		<entity ref="Patent105" type="Patent">
+			<semanticIdentifier>brcris::58a73b9d853f376c6d73d47b04274a4e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071501A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018071501</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071501A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181071501</semanticIdentifier>
+			<semanticIdentifier>original::102018071501</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018071501"/>
+			<field name="identifier.lattes" value="0205508051089874"/>
+			<field name="identifier.espacenet" value="102018071501"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="transdutor óptico para detecção de oclusão em bombas de infusão peristálticas"/>
+			<field name="title.lattes" value="?TRANSDUTOR ÓPTICO PARA DETECÇÃO DE OCLUSÃO EM BOMBAS DE INFUSÃO PERISTÁLTICAS?"/>
+			<field name="depositDate" value="2018-10-18"/>
+			<field name="publicationDate" value="2020-04-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADAO ANTONIO DE SOUZA JR"/>
+			<field name="inventor" value="EDUARDO COSTA DA MOTTA"/>
+			<field name="inventor" value="PABLO CALDEIRA MOREIRA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL SUL-RIO-GRANDENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F04B43/12AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F04B49/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="49"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um transdutor do tipo sensor para detecção de oclusão em bombas de infusão peristálticas. o transdutor compreende um segmento de tubo elástico (7), acoplado ao tubo do equipo através de um elemento estrangulador (6) e um conjunto de pares ópticos (5) incluído no canal de infusão da bomba peristáltica (11). o conjunto de pares ópticos apresenta ao menos dois pares adjacentes, onde o emissor e o receptor de cada par são separados, dispostos em oposição um ao outro e em sentido contrário. os pares são posicionados de forma que cada receptor receba tanto o sinal transmitido pelo emissor em oposição quanto o sinal refletido pelo emissor adjacente (17). os sinais de saída do transdutor proposto permitem detectar a ocorrência de oclusão do equipo mesmo com líquidos de infusão com uma grande variação de suas características de cor e translucidez. o arranjo permite, ainda, detectar a porta aberta do canal de infusão, diferenciar a ocorrência de bolhas de ar de um evento de oclusão e o término do líquido de infusão."/>
+			<field name="originatesFrom" value="70547321"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071501"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018071501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071501"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181071501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018071501"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person79" type="Person">
+			<semanticIdentifier>lattes::0205508051089874</semanticIdentifier>
+			<field name="identifier.lattes" value="0205508051089874"/>
+			<field name="name" value="Adao Antonio de Souza Junior"/>
+		</entity>
+		<entity ref="OrgUnit62" type="OrgUnit">
+			<semanticIdentifier>brcris::61769b2c85bc048b20bf95ac2cfbb9d2</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL SUL-RIO-GRANDENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent105" toEntityRef="Person79" type="Inventor"/>
+		<relation fromEntityRef="Patent105" toEntityRef="OrgUnit62" type="Applicant"/>
+	</relations>
+</entity-relation-data>

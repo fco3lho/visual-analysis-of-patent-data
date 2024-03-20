@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:46" record="29" source="Espacenet">
+	<entities>
+		<entity ref="Patent29" type="Patent">
+			<semanticIdentifier>brcris::e75ebfb1378fd7900bbeb72fb7554de7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032588A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032588</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032588A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032588</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 032588-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032588"/>
+			<field name="identifier.lattes" value="2983321554384698"/>
+			<field name="identifier.espacenet" value="102012032588"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="COMPOSIÇÕES FARMACÊUTICAS À BASE DE EXTRATOS DE BACCHARIS TRIMERA E USO DESTAS NA PREPARAÇÃO DE AGENTES TERAPÊUTICOS PARA PREVENÇÃO E CONTROLE DA CINOMOSE CANINA"/>
+			<field name="title.lattes" value="Composições farmacêuticas a base de extratos de Baccharis trimera e uso destas na preparação de agentes terapêuticos para prevenção e controle da cinomose canina"/>
+			<field name="depositDate" value="2012-12-20"/>
+			<field name="publicationDate" value="2014-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABERLARDO SILVA JUNIOR"/>
+			<field name="inventor" value="CAROLINE GRACIELLE TORRES FERREIRA"/>
+			<field name="inventor" value="HANNA CAROLINA CAMPOS FERREIRA"/>
+			<field name="inventor" value="MARCIA ROGERIA DE ALMEIDA"/>
+			<field name="inventor" value="MARCUS REBOUCAS SANTOS"/>
+			<field name="inventor" value="MARISA ALVES NOGUEIRA DIAZ"/>
+			<field name="inventor" value="OTAVIO VALERIO DE CARVALHO"/>
+			<field name="applicant" value="FAPEMIG - FUNDACAO DE AMPARO A PESQUISA DO ESTADODE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K36/28AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPOSIÇÕES FARMACÊUTICAS À BASE DE EXTRATOS DE BACCHARIS TRIMERA E USO DESTAS NA PREPARAÇÃO DE AGENTES TERAPÊUTICOS PARA PREVENÇÃO E CONTROLE DA CINOMOSE CANINA. A presente invenção, destinada ao setor técnico terapêutico, trata do uso de extratos orgãnicos e alcoólicos das partes aéreas de Baccharis trimera (Asteraceae) para prevenção e controle da cinomose (CDV). A composição 1 (baseada no extrato hexânico) e a composição 2 (baseada no extrato etanólico) foram submetidas a ensaios biológicos contra o CDV. As composições 1 e 2 de B. trimera apresentaram atividade antiviral. A composição 2 foi que a atuou em mais de uma etapa da infecção viral, impedindo a ligação vírus-célula, a internalização e os processos virais intracelulares. As composições 1 e 2 podem ser usadas como medicamento em formulações de uso oral, separadas ou em associação."/>
+			<field name="originatesFrom" value="51452992"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032588"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032588"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032588"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032588"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 032588-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25" type="Person">
+			<semanticIdentifier>lattes::2983321554384698</semanticIdentifier>
+			<field name="identifier.lattes" value="2983321554384698"/>
+			<field name="name" value="Abelardo Silva Júnior"/>
+		</entity>
+		<entity ref="OrgUnit19" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29" toEntityRef="Person25" type="Inventor"/>
+		<relation fromEntityRef="Patent29" toEntityRef="OrgUnit19" type="Applicant"/>
+	</relations>
+</entity-relation-data>

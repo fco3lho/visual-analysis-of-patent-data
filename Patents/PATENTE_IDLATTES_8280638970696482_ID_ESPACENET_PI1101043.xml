@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:42" record="24046" source="Espacenet">
+	<entities>
+		<entity ref="Patent24046" type="Patent">
+			<semanticIdentifier>brcris::b1da33fb6ba09db18704012362341260</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101043A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1101043</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101043A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI01043</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1101043-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1101043"/>
+			<field name="identifier.lattes" value="8280638970696482"/>
+			<field name="identifier.espacenet" value="PI1101043"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e aparelho para o controle de admissão e transferência forçada em uma configuração de rede de múltiplas camadas"/>
+			<field name="title.lattes" value="Método e aparelho para controle de admissão e transferência forçada em uma configuração de rede de múltiplas camadas"/>
+			<field name="depositDate" value="2011-03-02"/>
+			<field name="publicationDate" value="2012-10-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JULIANO JOAO BAZZO"/>
+			<field name="inventor" value="VICENTE ANGELO DE SOUSA JUNIOR"/>
+			<field name="applicant" value="NOKIA CORPORATION"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W36/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO E APARELHO PARA O CONTROLE DE ADMISSãO E TRANSFERêNCIA FORçADA EM UMA CONFIGURAçãO DE REDE DE MúLTIPLAS CAMADAS. De acordo com uma modalidade de exemplo da presente invenção, um método compreende o registro das medições a partir de cada uma das estações móveis em uma camada em serviço após decidir que a camada em serviço está sobrecarregada; o cálculo de uma função de custo para cada uma das estações móveis com base nas medições registradas; a seleção de pelo menos uma estação móvel dentro do conjunto das estações móveis na camada em serviço com base na função de custo para uma transferência forçada a partir da camada em serviço para uma camada de baixa carga; e o início da transferência forçada a partir da camada em serviço para a camada de baixa carga através de uma mensagem de sinalização para, pelo menos, uma estação móvel selecionada."/>
+			<field name="originatesFrom" value="44901878"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101043"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1101043"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101043"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI01043"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1101043-6"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2011274083"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US8660086"/>
+		</entity>
+		<entity ref="Person16694" type="Person">
+			<semanticIdentifier>lattes::8280638970696482</semanticIdentifier>
+			<field name="identifier.lattes" value="8280638970696482"/>
+			<field name="name" value="Juliano João Bazzo"/>
+		</entity>
+		<entity ref="Patent24047" type="Patent">
+			<semanticIdentifier>epodoc::US2011274083</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="44901878"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2011274083"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent24048" type="Patent">
+			<semanticIdentifier>epodoc::US8660086</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="44901878"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US8660086"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24046" toEntityRef="Person16694" type="Inventor"/>
+	</relations>
+</entity-relation-data>

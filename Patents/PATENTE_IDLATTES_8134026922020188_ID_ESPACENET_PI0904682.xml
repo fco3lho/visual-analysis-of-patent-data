@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:11" record="7989" source="Espacenet">
+	<entities>
+		<entity ref="Patent7989" type="Patent">
+			<semanticIdentifier>brcris::50e1f9329d1edf112de7e591d89ecae5</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904682A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904682</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904682A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04682</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0904682-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904682"/>
+			<field name="identifier.lattes" value="8134026922020188"/>
+			<field name="identifier.espacenet" value="PI0904682"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para a eliminação dos oligossacarìdeos da famìlia rafinose de feijão e outras leguminosas"/>
+			<field name="title.lattes" value="Processo para a eliminação dos oligossacarídeos da Família Rafinose de feijão e outras leguminosas"/>
+			<field name="depositDate" value="2009-06-10"/>
+			<field name="publicationDate" value="2011-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS RICARDO SOCCOL"/>
+			<field name="inventor" value="CAROLINE TIEMI YAMAGUISHI"/>
+			<field name="inventor" value="JOSE LUIS PARADA"/>
+			<field name="inventor" value="JOSE LUIS PARADA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23L11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A23L5/20AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="A presente invenção trata de PROCESSO PARA A ELIMINAçãO DOS OLIGOSSACARIDEOS DA FAMìLIA RAFINOSEDE FEIJãO E OUTRAS LEGUMINOSAS, o qual descreve um método para a redução dos Oligossacarídeos da Família Rafinose (OFR), causadores da flatulência, presentes em feijão (Phaseolus vulgaris) e outras leguminosas. O processo é realizado através da fermentação da leguminosa com uma o mais bactérias ácido lácticas selecionadas. Os grãos das leguminosas podem ser macerados (6-24 horas), cozidos (80- 120 C115-120 mm) e triturados ou não juntamente com o caldo. A fermentação láctica pode ocorrer entre 25-45 C por 6-72 horas, O produto pode ser condimentado e envasado assepticamente ou desidratado para uso posterior."/>
+			<field name="originatesFrom" value="43622546"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904682"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904682"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904682"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04682"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0904682-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5422" type="Person">
+			<semanticIdentifier>lattes::8134026922020188</semanticIdentifier>
+			<field name="identifier.lattes" value="8134026922020188"/>
+			<field name="name" value="Caroline Tiemi Yamaguishi Damo"/>
+		</entity>
+		<entity ref="OrgUnit4284" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit4285" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7989" toEntityRef="Person5422" type="Inventor"/>
+		<relation fromEntityRef="Patent7989" toEntityRef="OrgUnit4284" type="Applicant"/>
+		<relation fromEntityRef="Patent7989" toEntityRef="OrgUnit4285" type="Applicant"/>
+	</relations>
+</entity-relation-data>

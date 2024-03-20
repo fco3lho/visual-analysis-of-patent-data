@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:10" record="3553" source="Espacenet">
+	<entities>
+		<entity ref="Patent3553" type="Patent">
+			<semanticIdentifier>brcris::cea7279a2ff937313f05ae04e16bb206</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003310A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015003310</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003310A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151003310</semanticIdentifier>
+			<semanticIdentifier>original::102015003310</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015003310"/>
+			<field name="identifier.lattes" value="0174325304693036"/>
+			<field name="identifier.espacenet" value="102015003310"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de detecção de células metastáticas em linfonodos de pacientes com carcinoma epidermóide de cabeça e pescoço e uso de micrornas como marcadores"/>
+			<field name="title.lattes" value="Método de detecção de células metastáticas em linfonodos de pacientes com carcinoma epitermóide de cabeça e pescoço e uso de microRNAs como marcadores"/>
+			<field name="depositDate" value="2015-02-13"/>
+			<field name="publicationDate" value="2016-08-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CAROLINA DE CARVALHO PETERS"/>
+			<field name="inventor" value="ANDRE LOPES CARVALHO"/>
+			<field name="inventor" value="ANDRE LUIZ VETTORE"/>
+			<field name="inventor" value="CRISTOVAM SCAPULATEMPO NETO"/>
+			<field name="applicant" value="HOSPITAL DE CANCER DE BARRETOS - FUNDACAO PIO XII"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO PAULO - UNIFESP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/68AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="68AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/113AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="113AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de detecção de células metastáticas em linfonodos de pacientes com carcinoma epidermóide de cabeça e pescoço e uso de micrornas como marcadores. a presente invenção tem como objetivo um teste para o diagnóstico de metástase cervical em pacientes com cecp através da avaliação do nível de expressão dos micrornas mir-203 e mir-205. o teste pode ser aplicado em amostras coletadas utilizando-se várias abordagens em diferentes momentos, como no pré-tratamento através do diagnóstico utilizando biópsias de paaf, no intra-operatório através de biópsia do linfonodo sentinela e após a cirurgia como uma ferramenta auxiliar para a avaliação histopatológica de linfonodos ressecados durante a cirurgia, ajudando na escolha do tratamento destes pacientes desde o tratamento inicial até a terapia adjuvante."/>
+			<field name="originatesFrom" value="56613929"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003310"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015003310"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003310"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151003310"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015003310"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2016127239"/>
+		</entity>
+		<entity ref="Person2507" type="Person">
+			<semanticIdentifier>lattes::0174325304693036</semanticIdentifier>
+			<field name="identifier.lattes" value="0174325304693036"/>
+			<field name="name" value="André Lopes Carvalho"/>
+		</entity>
+		<entity ref="OrgUnit2010" type="OrgUnit">
+			<semanticIdentifier>brcris::e92788fe12609c4ac3c354a8cfa9f71a</semanticIdentifier>
+			<field name="name" value="HOSPITAL DE CANCER DE BARRETOS - FUNDACAO PIO XII"/>
+		</entity>
+		<entity ref="Patent3554" type="Patent">
+			<semanticIdentifier>epodoc::WO2016127239</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="56613929"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2016127239"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3553" toEntityRef="Person2507" type="Inventor"/>
+		<relation fromEntityRef="Patent3553" toEntityRef="OrgUnit2010" type="Applicant"/>
+	</relations>
+</entity-relation-data>

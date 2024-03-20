@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:43" record="41788" source="Espacenet">
+	<entities>
+		<entity ref="Patent41788" type="Patent">
+			<semanticIdentifier>brcris::74fd6d08929f0aa68f7b774c23b69d3e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032412A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013032412</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032412A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131032412</semanticIdentifier>
+			<semanticIdentifier>original::102013032412</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013032412"/>
+			<field name="identifier.lattes" value="7706717198580424"/>
+			<field name="identifier.espacenet" value="102013032412"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="analisador portátil para determinação de umidade em gás através de imagens digitais"/>
+			<field name="title.lattes" value="Analisador portátil para determinação de umidade em gás através de imagens digitais"/>
+			<field name="depositDate" value="2013-12-17"/>
+			<field name="publicationDate" value="2016-01-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS JAVIER ALFONSO VILLAROEL ZURITA"/>
+			<field name="inventor" value="EDVALDO DA NOBREGA GAIAO"/>
+			<field name="inventor" value="SERGIO SA LEITAO DE PAIVA JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N25/68AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="68AI"/>
+			</field>
+			<field name="abstract.espacenet" value="analisador portátil para determinação de umidade em gás através de imagens digitais. para determinação da temperatura do ponto de orvalho, o gás em análise passa pelo interior de uma câmara contendo um espelho que é resfriádo por um sistema de elemento peltier com dissipador e ventilador cooler com alimentação e controle realizados por fonte microcontrolada interfaceada a microcomputador. a detecção da formação de filmes ou gotículas na superfície do espelho é realizada por meio da captura por uma câmara digital de imagens digitais que são tratadas via software em computador, informando ao sistema que deve tomar a temperatura do ponto de orvalho. todo o sistema de detecção pesa em torno de 3,0 kg e possui dimensões aproximadas de 25x17x23cm. a fonte de alimentação possui dimensões 25*15*10cm e pesa cerca de 2,5kg."/>
+			<field name="originatesFrom" value="55084569"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032412"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013032412"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032412"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131032412"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013032412"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28483" type="Person">
+			<semanticIdentifier>lattes::7706717198580424</semanticIdentifier>
+			<field name="identifier.lattes" value="7706717198580424"/>
+			<field name="name" value="Sérgio de Sá Leitão Paiva Júnior"/>
+		</entity>
+		<entity ref="OrgUnit22291" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41788" toEntityRef="Person28483" type="Inventor"/>
+		<relation fromEntityRef="Patent41788" toEntityRef="OrgUnit22291" type="Applicant"/>
+	</relations>
+</entity-relation-data>

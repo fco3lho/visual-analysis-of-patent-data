@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:41" record="991" source="Espacenet">
+	<entities>
+		<entity ref="Patent991" type="Patent">
+			<semanticIdentifier>brcris::ee917761bf224f496316a84a76481cbf</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017018531U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202017018531U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017018531U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20172018531U</semanticIdentifier>
+			<semanticIdentifier>original::202017018531</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202017018531"/>
+			<field name="identifier.lattes" value="1937172002316563"/>
+			<field name="identifier.espacenet" value="202017018531"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="sistema para transferência autônoma de indivíduos com deficiência motora nos membros inferiores"/>
+			<field name="title.lattes" value="SISTEMA PARA TRANSFERÊNCIA AUTÔNOMA DE INDIVÍDUOS COM DEFICIÊNCIA MOTORA NOS MEMBROS INFERIORES"/>
+			<field name="depositDate" value="2017-08-29"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA FONTES"/>
+			<field name="inventor" value="ALANA ELZA FONTES DA GAMA"/>
+			<field name="inventor" value="CLARISSE LINS DE LIMA"/>
+			<field name="inventor" value="HYNGLYSON LUCAS FERREIRA MENDES"/>
+			<field name="inventor" value="JABSON HERBER PROFIRO DE OLIVEIRA"/>
+			<field name="inventor" value="MILTON MARCELINO FILHO"/>
+			<field name="inventor" value="PAULA ALMEIDA DOS SANTOS"/>
+			<field name="inventor" value="VANESSA LEANDRO DOS SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61G7/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para transferência autônoma de indivíduos com deficiência motora nos membros inferiores trata-se de um modelo de utilidade constituído por um conjunto de componentes eletromecânicos, pertencente ao setor das tecnologias assistivas e destinado a auxiliar na mobilidade de pessoas com deficiência motora dos membros inferiores, realizando a sua transferência da cama para a cadeira de rodas e vice-versa, assim como da cadeira de rodas para a cadeira de banho e vice-versa, de forma autônoma. o conjunto eletromecânico é constituído por um guincho elétrico (1), o qual através de um carretel (7) enrola o cabo de aço (3), tendo a função de levantar e abaixar o indivíduo com deficiência motora, para tal o cadeirante é acomodado em um colete de transferência (16), acoplado a um cabide metálico (13), que se conecta ao cabo de aço através da patesca (4). o trole (2), utilizando-se de rodízios (10), acionadas por um motor elétrico, desliza apoiado em uma viga metálica, que funciona como guia (11), sendo responsável pelo deslocamento horizontal (esquerda e direita) de todo o conjunto. os movimentos, vertical e horizontal, são determinados pelo próprio cadeirante através de um controle remoto sem fio. o trilho (11) é fixado nas paredes transversalmente à cama, através de dois suportes metálicos (18)."/>
+			<field name="originatesFrom" value="67250686"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017018531"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202017018531U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017018531"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20172018531U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202017018531"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person721" type="Person">
+			<semanticIdentifier>lattes::1937172002316563</semanticIdentifier>
+			<field name="identifier.lattes" value="1937172002316563"/>
+			<field name="name" value="Alana Elza Fontes da Gama"/>
+		</entity>
+		<entity ref="OrgUnit573" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent991" toEntityRef="Person721" type="Inventor"/>
+		<relation fromEntityRef="Patent991" toEntityRef="OrgUnit573" type="Applicant"/>
+	</relations>
+</entity-relation-data>

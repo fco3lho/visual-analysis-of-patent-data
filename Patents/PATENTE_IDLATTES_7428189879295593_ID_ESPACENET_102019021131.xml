@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:31" record="41740" source="Espacenet">
+	<entities>
+		<entity ref="Patent41740" type="Patent">
+			<semanticIdentifier>brcris::d77287251df67113eb9f76d3017b1c08</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021131A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019021131</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021131A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191021131</semanticIdentifier>
+			<semanticIdentifier>original::102019021131</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019021131"/>
+			<field name="identifier.lattes" value="7428189879295593"/>
+			<field name="identifier.espacenet" value="102019021131"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="módulo inversor com conversores zeta integrados operando como interface entre fontes cc de energia renováveis e fontes ca de energia elétrica monofásicas"/>
+			<field name="title.lattes" value="Módulo Inversor com Conversores ZETA Integrados operando como Interface entre Fontes CC de Energia Renováveis e Fontes CA de Energia Elétrica Monofásicas"/>
+			<field name="depositDate" value="2019-10-08"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LEONARDO POLTRONIERI SAMPAIO"/>
+			<field name="inventor" value="PAULO JUNIOR SILVA COSTA"/>
+			<field name="inventor" value="SERGIO AUGUSTO OLIVEIRA DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M7/64AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="abstract.espacenet" value="módulo inversor com conversores zeta integrados operando como interface entre fontes cc de energia renováveis e fontes ca de energia elétrica monofásicas. este pedido de patente tem como objetivo a reserva de mercado para potencial exploração de um módulo inversor (conversor cc-ca), caracterizado por possuir um único estágio de conversão de energia. este equipamento é destinado a operar como interface de condicionamento entre fontes de energia renováveis (fers) com geração em corrente contínua (cc) e fontes de corrente alternada (ca) representadas pelas redes elétricas monofásicas. o sistema proposto, denominado módulo inversor zeta-integrado (mizi), tem a finalidade de injetar na rede elétrica monofásica a energia produzida em cc a partir de fers, tais como energia solar baseada em arranjos fotovoltaicos, células à combustível, dentre outras. a estrutura do mizi é capaz de realizar a elevação da tensão cc das fers conectadas em sua entrada, e ao mesmo tempo realizar a inversão desta tensão, injetando na rede elétrica uma corrente senoidal, em fase com a tensão da rede e com baixa taxa de distorção harmônica, de forma a atender as normas reguladoras vigentes. a corrente injetada na rede é controlada utilizando tanto a técnica de modulação por largura de pulsos, como a modulação por histerese. a amplitude da corrente ca injetada na rede é controlada por meio de algoritmos destinados a extrair a máxima potência das fers conectados ao mizi, de forma que o balanço do fluxo de energia entre as fers e a rede elétrica seja estabelecido."/>
+			<field name="originatesFrom" value="75845300"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021131"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019021131"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021131"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191021131"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019021131"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28449" type="Person">
+			<semanticIdentifier>lattes::7428189879295593</semanticIdentifier>
+			<field name="identifier.lattes" value="7428189879295593"/>
+			<field name="name" value="Sérgio Augusto Oliveira da Silva"/>
+		</entity>
+		<entity ref="OrgUnit22266" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41740" toEntityRef="Person28449" type="Inventor"/>
+		<relation fromEntityRef="Patent41740" toEntityRef="OrgUnit22266" type="Applicant"/>
+	</relations>
+</entity-relation-data>

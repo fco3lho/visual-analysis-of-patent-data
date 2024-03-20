@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:15" record="27289" source="Espacenet">
+	<entities>
+		<entity ref="Patent27289" type="Patent">
+			<semanticIdentifier>brcris::3dfe22814c69c1380105f3164d88752e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007548A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017007548</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007548A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171007548</semanticIdentifier>
+			<semanticIdentifier>original::102017007548</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017007548"/>
+			<field name="identifier.lattes" value="3369026753730781"/>
+			<field name="identifier.espacenet" value="102017007548"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="etiqueta adesiva de monitoração eletrocardiográfica"/>
+			<field name="title.lattes" value="Etiqueta adesiva de monitoração eletrocardiográfica"/>
+			<field name="depositDate" value="2017-04-12"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUSTAVO DELLA COLLETA"/>
+			<field name="inventor" value="LUIS HENRIQUE DE CARVALHO FERREIRA"/>
+			<field name="inventor" value="ODILON DE OLIVEIRA DUTRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/0432AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="0432AI"/>
+			</field>
+			<field name="abstract.espacenet" value="etiqueta adesiva de monitoração eletrocardiográfica. a presente patente de invenção propõe urna etiqueta adesiva de monitoração eletrocardiográfica, estilo um curativo bandeide a ser utilizado do lado esquerdo do peito, o qual é capaz de monitorar sinais de ecg (especificamente a derivação di, a qual é obtida a partir dos eletrodos ra e la de acordo com o triângulo de einthoven) de modo contínuo, em tempo real e sem o uso do eletrodo de referência, com uma transmissão de dados sem fio para um smartphone ordinário via comunicação bluetooth low energy."/>
+			<field name="originatesFrom" value="64268996"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007548"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017007548"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007548"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171007548"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017007548"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18880" type="Person">
+			<semanticIdentifier>lattes::3369026753730781</semanticIdentifier>
+			<field name="identifier.lattes" value="3369026753730781"/>
+			<field name="name" value="Luís Henrique de Carvalho Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit14790" type="OrgUnit">
+			<semanticIdentifier>brcris::1181a7dc37385866177856d680d3cd6f</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27289" toEntityRef="Person18880" type="Inventor"/>
+		<relation fromEntityRef="Patent27289" toEntityRef="OrgUnit14790" type="Applicant"/>
+	</relations>
+</entity-relation-data>

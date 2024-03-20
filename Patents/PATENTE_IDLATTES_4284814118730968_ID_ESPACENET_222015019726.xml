@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:44:37" record="23511" source="Espacenet">
+	<entities>
+		<entity ref="Patent23511" type="Patent">
+			<semanticIdentifier>brcris::b7d20629c091b1a68a33e9ea29157f4e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR222015019726Y1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR222015019726Y</semanticIdentifier>
+			<semanticIdentifier>docdb::BR222015019726U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152219726U</semanticIdentifier>
+			<semanticIdentifier>original::222015019726</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=222015019726"/>
+			<field name="identifier.lattes" value="4284814118730968"/>
+			<field name="identifier.espacenet" value="222015019726"/>
+			<field name="kindCode" value="Y1"/>
+			<field name="title.espacenet" value="dispositivo sinalizador de falhas monofásico"/>
+			<field name="title.lattes" value="DISPOSITIVO SINALIZADOR DE FALHAS MONOFÁSICO"/>
+			<field name="depositDate" value="2006-04-24"/>
+			<field name="publicationDate" value="2016-12-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIS TREVISAN NOGUEIRA"/>
+			<field name="inventor" value="JOSEMIR COELHO SANTOS"/>
+			<field name="inventor" value="JOSUE DE CAMARGO"/>
+			<field name="applicant" value="COMPANHIA PAULISTA DE FORCA E LUZ - CPFL"/>
+			<field name="applicant" value="EXPERTISE ENGENHARIA LTDA"/>
+			<field name="applicant" value="FUNDACAO DE APOIO A UNIVERSIDADE DE SAO PAULO - FUSP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R31/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ÿþr"/>
+			<field name="originatesFrom" value="57681082"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="222015019726"/>
+				<field name="kind" value="Y1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR222015019726Y"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="222015019726"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152219726U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="222015019726"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16296" type="Person">
+			<semanticIdentifier>lattes::4284814118730968</semanticIdentifier>
+			<field name="identifier.lattes" value="4284814118730968"/>
+			<field name="name" value="Josemir Coelho Santos"/>
+		</entity>
+		<entity ref="OrgUnit12604" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23511" toEntityRef="Person16296" type="Inventor"/>
+		<relation fromEntityRef="Patent23511" toEntityRef="OrgUnit12604" type="Applicant"/>
+	</relations>
+</entity-relation-data>

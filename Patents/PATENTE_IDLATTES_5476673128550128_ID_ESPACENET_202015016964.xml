@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:41" record="6153" source="Espacenet">
+	<entities>
+		<entity ref="Patent6153" type="Patent">
+			<semanticIdentifier>brcris::f4e683680f2d416985ae74d7128969fb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015016964U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015016964U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015016964U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152016964U</semanticIdentifier>
+			<semanticIdentifier>original::202015016964</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015016964"/>
+			<field name="identifier.lattes" value="5476673128550128"/>
+			<field name="identifier.espacenet" value="202015016964"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="poste autoaterrado com base condutiva"/>
+			<field name="title.lattes" value="Poste autoaterrado com base condutiva"/>
+			<field name="depositDate" value="2015-07-15"/>
+			<field name="publicationDate" value="2017-01-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS DE ALMEIDA CANNABRAVA"/>
+			<field name="inventor" value="BENEDITO EDMUNDO MOURA FERREIRA"/>
+			<field name="inventor" value="LEVI PEREIRA PASQUA"/>
+			<field name="applicant" value="COMPANHIA PAULISTA DE FORCA E LUZ"/>
+			<field name="applicant" value="MATOS FERREIRA ENGENHARIA E SERVICOS LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E04H12/22AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="poste autoaterrado com base condutiva. a presente patente de modelo de utilidade tem como objetivo um modelo de poste autoaterrado (1, 2) com base (4) de concreto condutivo para uso em redes de distribuição de energia elétrica fabricado com a função incremental de dissipar por si só para terra, através da ferragem da armação (7), as correntes de surto de tensão atmosférica ou de curto-circuito geradas na instalação elétrica a que pertence."/>
+			<field name="originatesFrom" value="57848028"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015016964"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015016964U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015016964"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152016964U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015016964"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202015016964Y"/>
+		</entity>
+		<entity ref="Person4070" type="Person">
+			<semanticIdentifier>lattes::5476673128550128</semanticIdentifier>
+			<field name="identifier.lattes" value="5476673128550128"/>
+			<field name="name" value="Benedito Edmundo Moura Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit3171" type="OrgUnit">
+			<semanticIdentifier>brcris::2efec649006fbc78809b8b6ed8df5635</semanticIdentifier>
+			<field name="name" value="COMPANHIA PAULISTA DE FORCA E LUZ"/>
+		</entity>
+		<entity ref="Patent6154" type="Patent">
+			<semanticIdentifier>epodoc::BR202015016964Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="57848028"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015016964Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6153" toEntityRef="Person4070" type="Inventor"/>
+		<relation fromEntityRef="Patent6153" toEntityRef="OrgUnit3171" type="Applicant"/>
+	</relations>
+</entity-relation-data>

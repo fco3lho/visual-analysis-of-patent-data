@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:19" record="27310" source="Espacenet">
+	<entities>
+		<entity ref="Patent27310" type="Patent">
+			<semanticIdentifier>brcris::ce4ddbe5b166234e57da5ccfc8550d07</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018070523A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018070523</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018070523A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181070523</semanticIdentifier>
+			<semanticIdentifier>original::102018070523</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018070523"/>
+			<field name="identifier.lattes" value="8822117002365577"/>
+			<field name="identifier.espacenet" value="102018070523"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="linhagem leucocitária transformada e suas aplicações biotecnológicas"/>
+			<field name="title.lattes" value="LINHAGEM LEUCOCITÁRIA TRANSFORMADA E SUAS APLICAÇÕES BIOTECNOLÓGICAS"/>
+			<field name="depositDate" value="2018-10-04"/>
+			<field name="publicationDate" value="2020-04-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELIDA CLEYSE GOMES DA MATA"/>
+			<field name="inventor" value="LUIS ISAMU BARROS KANZAKI"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/91AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="91AN"/>
+			</field>
+			<field name="abstract.espacenet" value="linhagem leucocitária transformada e suas aplicações biotecnológicas. há vários métodos para a imortalização de células primárias, particularmente humanas, para fins experimentais e biotecnológicos. dentre as formas de obtenção de células imortalizadas, comumente lança-se mão da manipulação gênica em mecanismos envolvidos na reversão da senescência celular, tendo como principal alvo enzimas ativas na síntese do telômero, entre outras abordagens. no presente desenvolvimento, tem-se um processo simples, de fácil execução e reprodutibilidade e de baixo custo: células leucocitárias primárias obtidas de sangue periférico são cultivadas em meio comum para células em suspensão, acrescido de volume equivalente de sobrenadante de cultivos de hut-78. a linhagem leucocitária resultante apresenta divisão contínua em meio adequado, propriedade característica da imortalização, além de as células apresentarem fenótipo alterado, com morfologia típica de blastos e produção de diversas citocinas e quimiocinas sob qualquer estímulo químico. estas células podem facilmente se multiplicar em larga escala e seus produtos serem fracionados e purificados para fins industriais e farmacêuticos, como para a produção de anticorpos, vírions, peptídeos e proteínas virais."/>
+			<field name="originatesFrom" value="70453872"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018070523"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018070523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018070523"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181070523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018070523"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18899" type="Person">
+			<semanticIdentifier>lattes::8822117002365577</semanticIdentifier>
+			<field name="identifier.lattes" value="8822117002365577"/>
+			<field name="name" value="Luis Isamu Barros Kanzaki"/>
+		</entity>
+		<entity ref="OrgUnit14800" type="OrgUnit">
+			<semanticIdentifier>brcris::8b713348a365716b0e9d87ffd99b5796</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27310" toEntityRef="Person18899" type="Inventor"/>
+		<relation fromEntityRef="Patent27310" toEntityRef="OrgUnit14800" type="Applicant"/>
+	</relations>
+</entity-relation-data>

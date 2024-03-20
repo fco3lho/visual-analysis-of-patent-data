@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:09" record="5787" source="Espacenet">
+	<entities>
+		<entity ref="Patent5787" type="Patent">
+			<semanticIdentifier>brcris::1aa6c73ebf8c3314485da5b0995093bf</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004669A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1004669</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004669A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI04669</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1004669-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1004669"/>
+			<field name="identifier.lattes" value="7139428674498983"/>
+			<field name="identifier.espacenet" value="PI1004669"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema hÍbrido de aquecimento de Água e geraÇço fotovoltaica com melhor aproveitamento da energia solar"/>
+			<field name="title.lattes" value="Sistema híbrido de aquecimento de água e geração fotovoltaica com melhor aproveitamento da energia solar"/>
+			<field name="depositDate" value="2010-11-24"/>
+			<field name="publicationDate" value="2013-03-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTHUR VIEIRA DE OLIVEIRA"/>
+			<field name="inventor" value="NEWTON CESARIO FRATESCHI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L31/052AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="052AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F24S50/80AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="80AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02S40/44AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA HÍBRIDO DE AQUECIMENTO DE ÁGUA E GERAÇçO FOTOVOLTAICA COM MELHOR APROVEITAMENTO DA ENERGIA SOLAR. A presente invenção apresenta um sistema híbrido de geração fotovoltaica e aquecimento de água. Este sistema apresenta um módulo de células solares com um trocador de calor em sua traseira, um coletor solar térmico ligado ao módulo de modo a ter um grau de liberdade angular e um boiler para armazenar a água quente. Água fria vinda de um caixa d'água resfria o módulo ao passar pelo trocador de calor. O grau de liberdade entre o módulo e o coletor é interessante, pois assim pode-se ajustar o sistema de acordo com a posição do Sol para maximizar a extração da energia (este posicionamento pode ser feito com um posicionador eletrônico movido por um servo-motor) . Isto ocorre devido à utilização da reflexão de infravermelho promovida pelas células, que pode auxiliar no aquecimento da água. Portanto, este invento melhora os dispositivos em dois sentidos: resfriando as células (aumentando suas eficiências) e melhorando o sistema de aquecimento."/>
+			<field name="originatesFrom" value="47750287"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004669"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1004669"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004669"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI04669"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1004669-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3827" type="Person">
+			<semanticIdentifier>lattes::7139428674498983</semanticIdentifier>
+			<field name="identifier.lattes" value="7139428674498983"/>
+			<field name="name" value="Arthur Vieira da Silva Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit2991" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5787" toEntityRef="Person3827" type="Inventor"/>
+		<relation fromEntityRef="Patent5787" toEntityRef="OrgUnit2991" type="Applicant"/>
+	</relations>
+</entity-relation-data>

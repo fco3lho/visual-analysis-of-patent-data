@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:42" record="21946" source="Espacenet">
+	<entities>
+		<entity ref="Patent21946" type="Patent">
+			<semanticIdentifier>brcris::f42ee8ec3da77a290e4bca67e57f3532</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019018496U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019018496U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019018496U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192018496U</semanticIdentifier>
+			<semanticIdentifier>original::202019018496</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019018496"/>
+			<field name="identifier.lattes" value="8803118572182071"/>
+			<field name="identifier.espacenet" value="202019018496"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="fotômetro para aquisição de dados em linha e cela fotométrica de caminho ótico reduzido"/>
+			<field name="title.lattes" value="Fotômetro para aquisição de dados em linha e cela fotométrica de caminho ótico reduzido"/>
+			<field name="depositDate" value="2019-09-05"/>
+			<field name="publicationDate" value="2021-03-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRENO ALVES MACHADO"/>
+			<field name="inventor" value="JOAO BAPTISTA SEVERO JUNIOR"/>
+			<field name="inventor" value="JOELINGTON DO CARMO CONCEICAO"/>
+			<field name="inventor" value="PAULO CARDOZO CARVALHO DE ARAUJO"/>
+			<field name="inventor" value="RAPHAEL LIMA SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/01AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="fotômetro para aquisição de dados em linha e cela fotométrica de caminho ótico reduzido o presente modelo de utilidade trata de um dispositivo fotométrico de emissão de radiação monocromática na região do visível, que conjuga a função de quantificação de um determinado soluto no estudo de adsorção mono componente em meio líquido, proporcionando obter informações a respeito dos efeitos de equilíbrio e cinéticos associado a menores custos, maior sensibilidade e estabilidade nas leituras comparado aos aparatos analíticos convencionais, com a flexibilidade de realizar análises em linha de soluções concentradas, utilizando um sistema de diluição óptica a partir de uma cela fotométrica de caminho ótico reduzido. o dito sistema é constituído por uma fonte de radiação laser (9) de emissão na região do visível no comprimento de onda 650 nm, um fotodiodo (3) como detector, e uma placa de arduino mega (15) que atua como elemento de aquisição de sinal de tensão, e é capaz de proporcionar a determinação de perfis cinéticos, de equilíbrio e de efeitos térmicos, via modo de operação online ou offline de sistemas de adsorção sólido/líquidos com controle de temperatura de operação. além disso, o presente invento proporciona a fácil substituição da fonte de radiação laser (9) que permite, por conseguinte, a quantificação de uma gama de solutos que contemplem específicas faixas de comprimento de onda."/>
+			<field name="originatesFrom" value="75243335"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019018496"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019018496U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019018496"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192018496U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019018496"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15156" type="Person">
+			<semanticIdentifier>lattes::8803118572182071</semanticIdentifier>
+			<field name="identifier.lattes" value="8803118572182071"/>
+			<field name="name" value="Joélington do Carmo Conceição"/>
+		</entity>
+		<entity ref="OrgUnit11840" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21946" toEntityRef="Person15156" type="Inventor"/>
+		<relation fromEntityRef="Patent21946" toEntityRef="OrgUnit11840" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:33:40" record="44842" source="Espacenet">
+	<entities>
+		<entity ref="Patent44842" type="Patent">
+			<semanticIdentifier>brcris::6a741b560e272dbdc1f8998d77175d82</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016014426A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016014426</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016014426A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161014426</semanticIdentifier>
+			<semanticIdentifier>original::102016014426</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016014426"/>
+			<field name="identifier.lattes" value="0841132375137421"/>
+			<field name="identifier.espacenet" value="102016014426"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de solda por fricção e mistura mecânica para união de tubos bimetálicos"/>
+			<field name="title.lattes" value="Processo de solda por fricção e mistura mecânica para união de tubos metálicos"/>
+			<field name="depositDate" value="2016-06-20"/>
+			<field name="publicationDate" value="2018-01-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO BERTONI DA FONSECA"/>
+			<field name="inventor" value="VICTOR FERRINHO PEREIRA"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23K20/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B23K20/22AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B23K20/227AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="227AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de solda por fricção e mistura mecânica para união de tubos bimetálicos. a presente invenção trata-se de um processo de solda por fricção e mistura mecânica para união de tubos bimetálicos em que a solda é realizada com um único passe com penetração total da ferramenta na espessura do tubo. a ferramenta é introduzida pelo lado externo do tubo bimetálico, sendo esse o lado da liga de material estrutural, oposto ao lado bimetálico com material resistente a corrosão."/>
+			<field name="originatesFrom" value="60783590"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016014426"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016014426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016014426"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161014426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016014426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017219109"/>
+		</entity>
+		<entity ref="Person30656" type="Person">
+			<semanticIdentifier>lattes::0841132375137421</semanticIdentifier>
+			<field name="identifier.lattes" value="0841132375137421"/>
+			<field name="name" value="Victor Ferrinho Pereira"/>
+		</entity>
+		<entity ref="OrgUnit24055" type="OrgUnit">
+			<semanticIdentifier>brcris::8259a83e0c1f2225da8affeb25618bf4</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+		</entity>
+		<entity ref="Patent44843" type="Patent">
+			<semanticIdentifier>epodoc::WO2017219109</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="60783590"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017219109"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44842" toEntityRef="Person30656" type="Inventor"/>
+		<relation fromEntityRef="Patent44842" toEntityRef="OrgUnit24055" type="Applicant"/>
+	</relations>
+</entity-relation-data>

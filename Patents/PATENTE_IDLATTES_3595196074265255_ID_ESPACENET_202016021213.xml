@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:47" record="33862" source="Espacenet">
+	<entities>
+		<entity ref="Patent33862" type="Patent">
+			<semanticIdentifier>brcris::215a76c1d02c601e88865dfb0e891d21</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202016021213U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202016021213U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202016021213U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20162021213U</semanticIdentifier>
+			<semanticIdentifier>original::202016021213</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202016021213"/>
+			<field name="identifier.lattes" value="3595196074265255"/>
+			<field name="identifier.espacenet" value="202016021213"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="dispositivo emissor de cortina de luz ultravioleta em autoclaves"/>
+			<field name="title.lattes" value="DISPOSITIVO EMISSOR DE CORTINA DE LUZ ULTRAVIOLETA EM AUTOCLAVES"/>
+			<field name="depositDate" value="2016-09-14"/>
+			<field name="publicationDate" value="2018-04-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO PEREIRA DE OLIVEIRA"/>
+			<field name="inventor" value="KATE CRISTINA BLANCO"/>
+			<field name="inventor" value="NATALIA MAYUMI INADA"/>
+			<field name="inventor" value="VANDERLEI SALVADOR BAGNATO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61L2/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J3/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente modelo de utilidade refere-se a um dispositivo emissor de luz ultravioleta capaz de produzir uma cortina de luz de ação germicida, a qual impede a entrada de microrganismos e gera descontaminação por agentes presentes no ambiente em que se encontram as autoclaves, quando estes equipamentos estiverem com a porta aberta após concluída a esterilização. tal solução aplica-se a qualquer modelo de autoclave, atuando especialmente no sentido de proteger instrumentos submetidos à esterilização fora de embalagens, após concluído o processo de esterilização."/>
+			<field name="originatesFrom" value="62107420"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202016021213"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202016021213U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202016021213"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20162021213U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202016021213"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202016021213Y"/>
+		</entity>
+		<entity ref="Person23323" type="Person">
+			<semanticIdentifier>lattes::3595196074265255</semanticIdentifier>
+			<field name="identifier.lattes" value="3595196074265255"/>
+			<field name="name" value="Natalia Mayumi Inada"/>
+		</entity>
+		<entity ref="OrgUnit18252" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent33863" type="Patent">
+			<semanticIdentifier>epodoc::BR202016021213Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62107420"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202016021213Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33862" toEntityRef="Person23323" type="Inventor"/>
+		<relation fromEntityRef="Patent33862" toEntityRef="OrgUnit18252" type="Applicant"/>
+	</relations>
+</entity-relation-data>

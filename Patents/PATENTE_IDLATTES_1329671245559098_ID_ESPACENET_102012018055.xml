@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:13" record="33051" source="Espacenet">
+	<entities>
+		<entity ref="Patent33051" type="Patent">
+			<semanticIdentifier>brcris::c4aaf003e80ce01a62c5a757a7c89318</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012018055A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012018055</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012018055A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121018055</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 018055-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012018055"/>
+			<field name="identifier.lattes" value="1329671245559098"/>
+			<field name="identifier.espacenet" value="102012018055"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO E DISPOSITIVO DE MEDIÇÃO DAS DIMENSÕES DO CANAL DE REFRIGERAÇÃO EM ELEMENTOS COMBUSTÍVEIS TIPO PLACA"/>
+			<field name="title.lattes" value="DISPOSITIVO E MÉTODO DE MEDIÇÃO DAS DIMENSÕES DO CANAL DE REFRIGERAÇÃO EM ELEMENTOS COMBUSTÍVEIS TIPO PLACA"/>
+			<field name="depositDate" value="2012-07-20"/>
+			<field name="publicationDate" value="2014-07-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DAVILSON GOMES DA SILVA"/>
+			<field name="inventor" value="ELITA FONTENELE URANO DE CARVALHO"/>
+			<field name="inventor" value="HUMBERTO GRACHER RIELLA"/>
+			<field name="inventor" value="LAURO ROBERTO DOS SANTOS"/>
+			<field name="inventor" value="MICHELANGELO DURAZZO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G21C17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G21C3/322AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="322AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO E DISPOSITIVO DE MEDIÇÃO DAS DIMENSÕES DO CANAL DE REFRIGERAÇÃO EM ELEMENTOS COMBUSTIVEIS TIPO PLACA Método de medição, e dispositivo relacionado, dos canais de refrigeração de elementos combustíveis usados em reatores nucleares de pesquisas, tipicamente formados pela montagem de placas com bustiveis paralelas entre si. O método de medição é baseado na instalação de sensores de posição nos eixos X, Y e Z da máquina de cravamento usada na montagem do elemento combustível. O sensor de posição no eixo Z permite a determinação da distância entre as placas combustíveis durante a montagem do elemento combustivel. Neste eixo Z é fixado o dispositivo de medição. Após a fixação da placa combustivel, uma vez conhecida a sua espessura numa posição de medição qualquer predeterminada, a dimensão do canal de refrigeração nessa posição é calculada. Após a fixação de cada placa combustível, o dispositivo de medição é zerado com base na superfície da placa combustivel fixada na operação imediatamente anterior, repetindo-se a metodologia até a fixação da última placa combustível do elemento combustível. O método caracteriza-se por ser aplicado durante a montagem do elemento combustível. A precisão típica da medição é ± 0,010 mm."/>
+			<field name="originatesFrom" value="51013981"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012018055"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012018055"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012018055"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121018055"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 018055-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22748" type="Person">
+			<semanticIdentifier>lattes::1329671245559098</semanticIdentifier>
+			<field name="identifier.lattes" value="1329671245559098"/>
+			<field name="name" value="Michelangelo Durazzo"/>
+		</entity>
+		<entity ref="OrgUnit17777" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33051" toEntityRef="Person22748" type="Inventor"/>
+		<relation fromEntityRef="Patent33051" toEntityRef="OrgUnit17777" type="Applicant"/>
+	</relations>
+</entity-relation-data>

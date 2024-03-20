@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:15" record="22883" source="Espacenet">
+	<entities>
+		<entity ref="Patent22883" type="Patent">
+			<semanticIdentifier>brcris::63a5895ff3c0046c744756af3c809599</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015010133A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015010133</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015010133A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151010133</semanticIdentifier>
+			<semanticIdentifier>original::102015010133</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015010133"/>
+			<field name="identifier.lattes" value="8116645697040838"/>
+			<field name="identifier.espacenet" value="102015010133"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de germanossilicatos cristalinos microporosos e produto obtido"/>
+			<field name="title.lattes" value="Obtaining crystalline microporous germanosilicates involves synthesizing organic molecules of cis- and trans-3,5-dimethylpiperidine derivatives, cis-2,6- dimethylpiperidine derivatives and 1,4-diazabicyclo(2,2,2)octane derivatives"/>
+			<field name="depositDate" value="2015-05-05"/>
+			<field name="publicationDate" value="2017-01-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX SILVA PAULA"/>
+			<field name="inventor" value="JANINE CONTRO"/>
+			<field name="inventor" value="JOSE GERALDO NERY"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07F7/30AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo processo de obtenção de germanossilicatos cristalinos microporosos e produto obtido é descrita invenção de um processo de obtenção de germanossilicatos crsitalinos microporosos que emprega moléculas orgânicas quirais e íon lítio no processo de síntese destes materiais possibilitando a obtenção de compostos que podem ser utilizados como catalisadores heterogêneos na separação e transformação de compostos orgânicos e, em alguns casos, empregados no processamento de petróleo."/>
+			<field name="originatesFrom" value="57714756"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015010133"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015010133"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015010133"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151010133"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015010133"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15809" type="Person">
+			<semanticIdentifier>lattes::8116645697040838</semanticIdentifier>
+			<field name="identifier.lattes" value="8116645697040838"/>
+			<field name="name" value="Jose Geraldo Nery"/>
+		</entity>
+		<entity ref="OrgUnit12269" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22883" toEntityRef="Person15809" type="Inventor"/>
+		<relation fromEntityRef="Patent22883" toEntityRef="OrgUnit12269" type="Applicant"/>
+	</relations>
+</entity-relation-data>

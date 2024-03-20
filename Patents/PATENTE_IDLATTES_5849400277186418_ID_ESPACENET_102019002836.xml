@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:11" record="29528" source="Espacenet">
+	<entities>
+		<entity ref="Patent29528" type="Patent">
+			<semanticIdentifier>brcris::a56227707299a828ebbc61b911403952</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019002836A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019002836</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019002836A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191002836</semanticIdentifier>
+			<semanticIdentifier>original::102019002836</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019002836"/>
+			<field name="identifier.lattes" value="5849400277186418"/>
+			<field name="identifier.espacenet" value="102019002836"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de medição de eletrosensibilidade em peixes"/>
+			<field name="title.lattes" value="SISTEMA DE MEDIÇÃO DE ELETROSENSIBILIDADE EM PEIXES"/>
+			<field name="depositDate" value="2019-02-12"/>
+			<field name="publicationDate" value="2020-10-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCCAS BRANDO"/>
+			<field name="inventor" value="MARCIO FALCAO SANTOS BARROSO"/>
+			<field name="inventor" value="RAFAEL EMILIO LOPES"/>
+			<field name="inventor" value="WANER WODSON APARECIDO GONCALVES SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K63/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01M29/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção demonstra o desenvolvimento de um sistema portátil capaz de determinar a resposta elétrica de peixes a um determinado campo elétrico a partir de ensaios realizados em campo, o que minimiza as interferências externas. além disso, os ajustes dos sinais aplicados e as medições obtidas são realizados automaticamente pelo próprio equipamento, o que reduz a ocorrência de erros sistêmicos."/>
+			<field name="originatesFrom" value="73015688"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019002836"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019002836"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019002836"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191002836"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019002836"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20301" type="Person">
+			<semanticIdentifier>lattes::5849400277186418</semanticIdentifier>
+			<field name="identifier.lattes" value="5849400277186418"/>
+			<field name="name" value="Márcio Falcão Santos Barroso"/>
+		</entity>
+		<entity ref="OrgUnit15891" type="OrgUnit">
+			<semanticIdentifier>brcris::1181a7dc37385866177856d680d3cd6f</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+		</entity>
+		<entity ref="OrgUnit15892" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29528" toEntityRef="Person20301" type="Inventor"/>
+		<relation fromEntityRef="Patent29528" toEntityRef="OrgUnit15891" type="Applicant"/>
+		<relation fromEntityRef="Patent29528" toEntityRef="OrgUnit15892" type="Applicant"/>
+	</relations>
+</entity-relation-data>

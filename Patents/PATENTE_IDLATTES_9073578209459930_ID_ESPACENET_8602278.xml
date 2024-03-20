@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:54" record="20015" source="Espacenet">
+	<entities>
+		<entity ref="Patent20015" type="Patent">
+			<semanticIdentifier>brcris::d8af9a19fc20dc2480fbc0130d411bdc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8602278A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8602278</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8602278A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19868602278</semanticIdentifier>
+			<semanticIdentifier>original::8602278</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8602278"/>
+			<field name="identifier.lattes" value="9073578209459930"/>
+			<field name="identifier.espacenet" value="8602278"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PROCESSO E DISPOSICAO PARA AQUECIMENTO DE COLUNAS DE PRODUCAO EM POCOS DE PETROLEO"/>
+			<field name="title.lattes" value="Processo e disposição para aquecimento de colunas de produção em poços de petroleo"/>
+			<field name="depositDate" value="1986-05-20"/>
+			<field name="publicationDate" value="1987-12-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO ADOLFO HACKER ROCHA"/>
+			<field name="inventor" value="CLOMIR GONCALVES DA SILVA"/>
+			<field name="inventor" value="GILVAN COUCEIRO D'AMORIM"/>
+			<field name="inventor" value="ITACIR UNGARETTI ROSSI"/>
+			<field name="inventor" value="JOAO CARLOS DE MELO CARVALHO"/>
+			<field name="inventor" value="JOSE ROSSINI DE OLIVEIRA"/>
+			<field name="inventor" value="ODAIR GERALDO DOS SANTOS"/>
+			<field name="inventor" value="RICARDO DA SILVA DAVID"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B36/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="originatesFrom" value="4040033"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8602278"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8602278"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8602278"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19868602278"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8602278"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13892" type="Person">
+			<semanticIdentifier>lattes::9073578209459930</semanticIdentifier>
+			<field name="identifier.lattes" value="9073578209459930"/>
+			<field name="name" value="Itacir Ungaretti Rossi"/>
+		</entity>
+		<entity ref="OrgUnit10874" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20015" toEntityRef="Person13892" type="Inventor"/>
+		<relation fromEntityRef="Patent20015" toEntityRef="OrgUnit10874" type="Applicant"/>
+	</relations>
+</entity-relation-data>

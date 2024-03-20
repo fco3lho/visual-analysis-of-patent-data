@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:34:01" record="44920" source="Espacenet">
+	<entities>
+		<entity ref="Patent44920" type="Patent">
+			<semanticIdentifier>brcris::c962387074d6e84bc4b1686d9a243bc8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021917A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016021917</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021917A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161021917</semanticIdentifier>
+			<semanticIdentifier>original::102016021917</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016021917"/>
+			<field name="identifier.lattes" value="8469286241035840"/>
+			<field name="identifier.espacenet" value="102016021917"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo autônomo de indicação de nível para implementos agrícolas"/>
+			<field name="title.lattes" value="Dispositivo autônomo de indicação de nível para implementos agrícolas"/>
+			<field name="depositDate" value="2016-09-23"/>
+			<field name="publicationDate" value="2018-04-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE GUILHERME DAUBERMANN DOS REIS"/>
+			<field name="inventor" value="DANIEL LUIS MARTINS"/>
+			<field name="inventor" value="LEANDRO CANAL BONFANTE"/>
+			<field name="inventor" value="VILSON ANTONIO KLEIN"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+			<field name="applicant" value="INELCA INDUSTRIA ELETRONICA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01B59/041AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="59"/>
+				<field name="subgroup" value="041AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção pertence ao setor tecnológico de implementos agrícolas e refere-se, mais especificamente, a um dispositivo autônomo de indicação de nível o qual consiste em um dispositivo eletrônico equipado com interface homem-máquina (ihm), o qual é colocado sobre um veículo. tal dispositivo possui o objetivo de indicar ao operador a posição do veículo no plano e ainda indica a ação a ser tomada para que o veículo se desloque em nível. levando em consideração que a realização de tarefas em nível, em áreas com topografia irregular, é uma tarefa complexa e difícil para o operador de uma máquina, o invento desenvolvido é capaz de analisar a inclinação lateral e frontal de uma máquina em relação à uma linha horizontal e uma linha reta a frentes imaginárias perfeitamente planas. além disso, existe a possibilidade de se configurar a inclinação dessas linhas no início do trabalho, para que a máquina, ao se deslocar, tenda a manter uma inclinação constante pré-definida, conforme a inclinação do momento inicial da tarefa."/>
+			<field name="originatesFrom" value="62079111"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021917"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016021917"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021917"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161021917"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016021917"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30717" type="Person">
+			<semanticIdentifier>lattes::8469286241035840</semanticIdentifier>
+			<field name="identifier.lattes" value="8469286241035840"/>
+			<field name="name" value="Vilson Antonio Klein"/>
+		</entity>
+		<entity ref="OrgUnit24100" type="OrgUnit">
+			<semanticIdentifier>brcris::9bb3731112d7e4b09168df4b2da2dc8c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44920" toEntityRef="Person30717" type="Inventor"/>
+		<relation fromEntityRef="Patent44920" toEntityRef="OrgUnit24100" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:25" record="17414" source="Espacenet">
+	<entities>
+		<entity ref="Patent17414" type="Patent">
+			<semanticIdentifier>brcris::3e99d07c8efc62c45ae357f182f4f564</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021093A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019021093</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021093A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191021093</semanticIdentifier>
+			<semanticIdentifier>original::102019021093</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019021093"/>
+			<field name="identifier.lattes" value="1173620785883814"/>
+			<field name="identifier.espacenet" value="102019021093"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="transdutor de corrente elétrica sem fio autoalimentado pelo campo magnético"/>
+			<field name="title.lattes" value="Transdutor de Corrente Elétrica Sem Fio Autoalimentado pelo Campo Magnético"/>
+			<field name="depositDate" value="2019-10-08"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO TEIXEIRA"/>
+			<field name="inventor" value="ERIK LEANDRO BONALDI"/>
+			<field name="inventor" value="GERMANO LAMBERT TORRES"/>
+			<field name="inventor" value="LEVY ELY DE LACERDA DE OLIVEIRA"/>
+			<field name="applicant" value="INSTITUTO GNARUS"/>
+			<field name="applicant" value="NORTE ENERGIA S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R15/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot; transdutor de corrente elétrica sem fio autoalimentado pelo campo magnético&quot;. a presente patente de invenção, pertencente à área de eletrônica, refere-se a um dispositivo eletrônico capaz de capturar a forma de onda da corrente elétrica, fazer sua digitalização, armazenamento, processamento e transmissão sem fio em formato digital, utilizando como fonte de alimentação para seu circuito eletrônico, a própria energia disponível no campo magnético existente ao redor do condutor de corrente que está sendo medido. o transdutor de corrente pode ser considerado um dispositivo de medição de corrente elétrica totalmente isolado galvanicamente, pois não depende de nenhuma conexão elétrica com o sistema medido ou com a rede de alimentação do usuário, já que tanto o meio de medição quanto o meio de extração de energia se dão pelo campo magnético da corrente a ser medida e a transmissão da medição é também por uma interface de comunicação sem-fio."/>
+			<field name="originatesFrom" value="75845285"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021093"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019021093"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021093"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191021093"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019021093"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12070" type="Person">
+			<semanticIdentifier>lattes::1173620785883814</semanticIdentifier>
+			<field name="identifier.lattes" value="1173620785883814"/>
+			<field name="name" value="Germano Lambert-Torres"/>
+		</entity>
+		<entity ref="OrgUnit9451" type="OrgUnit">
+			<semanticIdentifier>brcris::c1b890158418876a562a2ce82c9314c5</semanticIdentifier>
+			<field name="name" value="INSTITUTO GNARUS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17414" toEntityRef="Person12070" type="Inventor"/>
+		<relation fromEntityRef="Patent17414" toEntityRef="OrgUnit9451" type="Applicant"/>
+	</relations>
+</entity-relation-data>

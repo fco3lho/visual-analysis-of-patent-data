@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:24" record="35800" source="Espacenet">
+	<entities>
+		<entity ref="Patent35800" type="Patent">
+			<semanticIdentifier>brcris::c85b5f322cb9e5fd90458b9f5cc49db5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0101904A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0101904</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0101904A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010101904</semanticIdentifier>
+			<semanticIdentifier>original::0101904-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0101904"/>
+			<field name="identifier.lattes" value="6361145094736043"/>
+			<field name="identifier.espacenet" value="0101904"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Aperfeiçoamento introduzidos em dispositivo de contenção cardìaca"/>
+			<field name="title.lattes" value="Aperfeiçoamentos introduzidos em dispositivo de contenção cardíaca"/>
+			<field name="depositDate" value="2001-04-27"/>
+			<field name="publicationDate" value="2002-12-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARTINO MARTINELLI FILHO"/>
+			<field name="inventor" value="PAULO M. PEGO FERNANDES"/>
+			<field name="applicant" value="FUNDACAO ZERBINI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;APERFEIçOAMENTOS INTRODUZIDOS EM DISPOSITIVO DE CONTENçãO CARDìACA&quot;. Dispositivo (1) este constituído por malha elástica (2), cirurgicamente implantada no coração (C) do paciente, dita malha sendo dotada de fios condutores (3), de material apropriado, devidamente entrelaçados aos fios da dita malha (2), ou configurando suporte para uma segunda malha (4) integrada à primeira, e formada por uma multiplicidade de fios condutores (4a), de material apropriado, ou ainda sendo totalmente confeccionada em material condutor apropriado, resultando em uma malha condutora de espera, a ser interligada a marcapasso biventricular e/ou a desfibrilador."/>
+			<field name="originatesFrom" value="3947278"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0101904"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0101904"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0101904"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010101904"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0101904-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24630" type="Person">
+			<semanticIdentifier>lattes::6361145094736043</semanticIdentifier>
+			<field name="identifier.lattes" value="6361145094736043"/>
+			<field name="name" value="Paulo Manuel Pêgo-Fernandes"/>
+		</entity>
+		<entity ref="OrgUnit19325" type="OrgUnit">
+			<semanticIdentifier>brcris::8109235aad882306ec90d66a5c715818</semanticIdentifier>
+			<field name="name" value="FUNDACAO ZERBINI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35800" toEntityRef="Person24630" type="Inventor"/>
+		<relation fromEntityRef="Patent35800" toEntityRef="OrgUnit19325" type="Applicant"/>
+	</relations>
+</entity-relation-data>

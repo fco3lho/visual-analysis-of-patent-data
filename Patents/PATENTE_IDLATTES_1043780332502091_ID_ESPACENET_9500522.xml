@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:10" record="15676" source="Espacenet">
+	<entities>
+		<entity ref="Patent15676" type="Patent">
+			<semanticIdentifier>brcris::08eca313caf165a27740677f7a51edf3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9500522A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9500522</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9500522A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959500522</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9500522"/>
+			<field name="identifier.lattes" value="1043780332502091"/>
+			<field name="identifier.espacenet" value="9500522"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de obtençao de partículas ocas de um metafosfato duplo de alumínio e cálcio em latex poliméricos"/>
+			<field name="title.lattes" value="Processo de obtenção de partículas ocas de um metafosfato duplo de alumínio e cálcio em látex poliméricos (PI: 9500522-6)"/>
+			<field name="depositDate" value="1995-01-30"/>
+			<field name="publicationDate" value="1997-03-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO GALEMBECK"/>
+			<field name="inventor" value="SOUZA ELIZABETH FATIMA DE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09C1/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="originatesFrom" value="4060646"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9500522"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9500522"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9500522"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959500522"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10866" type="Person">
+			<semanticIdentifier>lattes::1043780332502091</semanticIdentifier>
+			<field name="identifier.lattes" value="1043780332502091"/>
+			<field name="name" value="Fernando Galembeck"/>
+		</entity>
+		<entity ref="OrgUnit8501" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15676" toEntityRef="Person10866" type="Inventor"/>
+		<relation fromEntityRef="Patent15676" toEntityRef="OrgUnit8501" type="Applicant"/>
+	</relations>
+</entity-relation-data>

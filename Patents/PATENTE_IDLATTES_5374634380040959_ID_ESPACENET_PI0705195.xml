@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:22" record="14602" source="Espacenet">
+	<entities>
+		<entity ref="Patent14602" type="Patent">
+			<semanticIdentifier>brcris::fb0dc80bc06ea5367a41dffea50d6406</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705195A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705195</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705195A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05195</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705195-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705195"/>
+			<field name="identifier.lattes" value="5374634380040959"/>
+			<field name="identifier.espacenet" value="PI0705195"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="formulação dentifrìcia lìquida acidulada com baixa concentração de flúor e seu uso"/>
+			<field name="title.lattes" value="FORMULAÇÃO DENTIFRÍCIA LÍQUIDA ACIDULADA COM BAIXA CONCENTRAÇÃO DE FLÚOR E SEU USO"/>
+			<field name="depositDate" value="2007-11-01"/>
+			<field name="publicationDate" value="2009-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO CARLOS BOTAZZO DELBEM"/>
+			<field name="inventor" value="FABIANO VIEIRA VILHENA"/>
+			<field name="inventor" value="MARILIA AFONSO RABELO BUZALAF"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K8/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/21AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="21AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61Q11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="FORMULAçãO DENTIFRìCIA LìQUIDA ACIDULADA COM BAIXA CONCENTRAçãO DE FLúOR E SEU USO. A presente invenção provê uma formulação dentifricia &quot;líquida&quot; (gel fluido) com baixa concentração de flúor e pH reduzido, de forma a aumentar a eficácia do produto no controle da cárie dentária e diminuir o risco de ocorrência da fluorose dentária."/>
+			<field name="originatesFrom" value="40775251"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705195"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705195"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705195"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05195"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705195-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10097" type="Person">
+			<semanticIdentifier>lattes::5374634380040959</semanticIdentifier>
+			<field name="identifier.lattes" value="5374634380040959"/>
+			<field name="name" value="Fabiano Vieira Vilhena"/>
+		</entity>
+		<entity ref="OrgUnit7909" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit7910" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14602" toEntityRef="Person10097" type="Inventor"/>
+		<relation fromEntityRef="Patent14602" toEntityRef="OrgUnit7909" type="Applicant"/>
+		<relation fromEntityRef="Patent14602" toEntityRef="OrgUnit7910" type="Applicant"/>
+	</relations>
+</entity-relation-data>

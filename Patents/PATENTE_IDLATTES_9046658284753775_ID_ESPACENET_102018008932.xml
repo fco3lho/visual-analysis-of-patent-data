@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:50" record="18239" source="Espacenet">
+	<entities>
+		<entity ref="Patent18239" type="Patent">
+			<semanticIdentifier>brcris::86628dafb65c92210f71051e0c800a1b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008932A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018008932</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008932A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181008932</semanticIdentifier>
+			<semanticIdentifier>original::102018008932</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018008932"/>
+			<field name="identifier.lattes" value="9046658284753775"/>
+			<field name="identifier.espacenet" value="102018008932"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de gerenciamento de fenômenos urbanos e uso do mesmo"/>
+			<field name="title.lattes" value="MÉTODO DE GERENCIAMENTO DE FENÔMENOS URBANOS E USO DO MESMO"/>
+			<field name="depositDate" value="2018-05-02"/>
+			<field name="publicationDate" value="2019-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE VASTELLA FERREIRA DE MELO"/>
+			<field name="inventor" value="FELIPE FERRAZ MACHADO"/>
+			<field name="inventor" value="GRETA YALE LIMA DOS SANTOS"/>
+			<field name="inventor" value="LUIS ANTONIO BITTAR VENTURI"/>
+			<field name="inventor" value="PEDRO PAULO FERNANDES DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06Q10/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q10/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06Q50/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de gerenciamento de fenômenos urbanos e uso do mesmo a presente invenção se insere na área de engenharia, geografia e gerenciamento urbano, mais precisamente a um método para sistematização de fenômenos urbanos e seu uso. os objetivos desta invenção são alcançados por meio de um método de gerenciamento de fenômenos urbanos que compreende as etapas de: a) determinar o objeto a ser gerenciado e sua área geográfica; b) levantar os conceitos e informações estatísticas/descritivas para o objeto determinado; c) identificar e selecionar os indicadores a serem considerados para a análise, baseado nos dados obtidos na etapa b); d) obter dados georreferenciados para os indicadores identificados e selecionados na etapa c); e) inserir os dados obtidos na etapa d) em uma matriz analítica; f) atribuir pesos aos indicadores de acordo com os resultados obtidos na etapa e); e g) gerar o mapa geográfico para o objeto escolhido. assim, a invenção sistematiza informações relacionadas a diferentes fenômenos urbanos, identificando, espacializando e atribuindo classes de intensidade a fenômenos urbanos a ser escolhidos, facilitando a visualização espacial, distribuição, visualização de tendências, possibilitando o gerenciamento e planejamento urbano para diversos objetos, por exemplo: fornecimento de energia, abastecimento de água, áreas de risco, emissões de poluentes, violência urbana, mobilidade urbana, entre outros."/>
+			<field name="originatesFrom" value="68530999"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008932"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018008932"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008932"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181008932"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018008932"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12619" type="Person">
+			<semanticIdentifier>lattes::9046658284753775</semanticIdentifier>
+			<field name="identifier.lattes" value="9046658284753775"/>
+			<field name="name" value="Greta Yale Lima dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit9836" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18239" toEntityRef="Person12619" type="Inventor"/>
+		<relation fromEntityRef="Patent18239" toEntityRef="OrgUnit9836" type="Applicant"/>
+	</relations>
+</entity-relation-data>

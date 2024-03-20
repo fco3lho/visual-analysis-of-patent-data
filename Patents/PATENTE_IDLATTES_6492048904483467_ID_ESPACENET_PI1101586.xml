@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:49" record="2756" source="Espacenet">
+	<entities>
+		<entity ref="Patent2756" type="Patent">
+			<semanticIdentifier>brcris::c4840fe3e8dd206bffb415f6a0d0b6dd</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101586A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1101586</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101586A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI01586</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1101586-1 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1101586"/>
+			<field name="identifier.lattes" value="6492048904483467"/>
+			<field name="identifier.espacenet" value="PI1101586"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SIMULADOR DOSIMÉTRICO PARA MEDIDA DE DOSE ABSORVIDA EM TOMOGRAFIA COMPUTADORIZADA DE FEIXE CÔNICO EM ODONTOLOGIA"/>
+			<field name="title.lattes" value="Simulador dosimétrico para medida de dose absorvida em tomografia de feixe cônico"/>
+			<field name="depositDate" value="2011-04-15"/>
+			<field name="publicationDate" value="2014-01-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA FIGUEIREDO MAIA"/>
+			<field name="inventor" value="MARCUS VINICIUS TEIXEIRA NAVARRO"/>
+			<field name="inventor" value="WILSON OTTO GOMES BATISTA"/>
+			<field name="applicant" value="IFBA - INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA BAHIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01T1/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SIMULADOR DOSIMÉTRICO PARA MEDIDA DE DOSE ABSORVIDA EM TOMOGRAFIA COMPUTADORIZADA DE FEIXE CÔNICO EM ODONTOLOGIA.Patente de Invenção que consiste de um cilindro de PMMA 1 oco e fechado na parte inferior por tampa, 14, com 9, (nove) furos para encaixe dos condutos de acesso para detectores e na parte de superior por tampa 5 com nove, (9), (nove), furos para encaixe dos condutos de passagem e orifício 8 com tampa roscável para enchimento e esvaziamento do cilindro com água. Os condutos de acesso para o sistema de detecção, cilindros ocos, são formados por cilindros em PMMA com dimensões adequadas para passagem de câmara de ionização tipo Farmer ou câmara de ionização tipo lápis ou sistema semicondutor de dimensões semelhante. É previsto o uso de tarugos de PMMA 15 para preenchimento dos condutos de acesso que não estejam sendo utilizados e tarugos compensadores 16 e 17, para preenchimento do espaço não ocupado pelo detector. A disposição dos condutos de acesso para os detectores permite a determinação da dose absorvida em órgãos e tecidos relevantes. Os condutos de acesso estão dispostos na periferia do cilindro permitindo avaliar doses em medula espinhal, tireóide e superfície esquerda e direita da face e na posição central permitindo avaliar dose absorvida na linha média do cérebro. Os condutos de acesso localizados no arranjo que simula posições em uma arcada dentária de adulto permitirão avaliar doses absorvidas no isocentro de giro e nas glândulas salivares sublinguais e submandibulares e tireóide."/>
+			<field name="originatesFrom" value="49921015"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101586"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1101586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101586"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI01586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1101586-1 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2004" type="Person">
+			<semanticIdentifier>lattes::6492048904483467</semanticIdentifier>
+			<field name="identifier.lattes" value="6492048904483467"/>
+			<field name="name" value="Ana Figueiredo Maia"/>
+		</entity>
+		<entity ref="OrgUnit1573" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2756" toEntityRef="Person2004" type="Inventor"/>
+		<relation fromEntityRef="Patent2756" toEntityRef="OrgUnit1573" type="Applicant"/>
+	</relations>
+</entity-relation-data>

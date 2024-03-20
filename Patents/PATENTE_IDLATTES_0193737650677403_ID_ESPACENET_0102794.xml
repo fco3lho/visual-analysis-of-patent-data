@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:39" record="13534" source="Espacenet">
+	<entities>
+		<entity ref="Patent13534" type="Patent">
+			<semanticIdentifier>brcris::78df4b92dfc174eb1e7b129445e9f4f5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0102794A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0102794</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0102794A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010102794</semanticIdentifier>
+			<semanticIdentifier>original::0102794-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0102794"/>
+			<field name="identifier.lattes" value="0193737650677403"/>
+			<field name="identifier.espacenet" value="0102794"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Técnica de processamento de sinais de girÈmetros interferométricos de sagnac através da diferença das médias dos semiciclos negativos do sinal"/>
+			<field name="title.lattes" value="TÉCNICA DE PROCESSAMENTO DE SINAIS DE GIRÔMETROS INTERFEROMÉTRICOS DE SAGNAC ATRAVÉS DA DIFERENÇA DAS MÉDIAS DOS SEMI-CICLOS NEGATIVOS DO SINAL"/>
+			<field name="depositDate" value="2001-05-23"/>
+			<field name="publicationDate" value="2003-04-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELNATAN CHAGAS FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01C19/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TéCNICA DE PROCESSAMENTO DE SINAIS DE GIRÈMETROS INTERFEROMéTRICOS DE SAGNAC ATRAVéS DA DIFERENçA DAS MéDIAS DOS SEMICICLOS NEGATIVOS DO SINAL&quot;. O presente relatório apresenta um sistema opto-eletrónico (figura 1) que demodula a intensidade e o sentido da razão de rotação experimentada por um sensor interferométrico de Sagnac à polarização dinâmica e fornece tensões elétricas de saída que podem ser usadas para controlar a intensidade luminosa dos feixes de luz e a estabilidade da modulação dinâmica empregada no sistema. Propõe-se a utilização da diferença entre os valores das médias dos semi-ciclos negativos alternados do sinal de saída do amplificador de transimpedância acoplado ao fotodiodo do sistema interferométrico. No qual o circuito detector de médias dos semiciclos (106) é implementado utilizando-se chaves analógicas e comparadores de tensão. Também são propostos a medição e o controle da profundidade de modulação utilizando-se os valores das médias dos semi-ciclos negativos (201), (202) e o valor de pico (203) da tensão ac de saída do amplificador (103). Este modelo de configuração pode ser utilizado tanto em sistemas de malha óptica aberta ou fechada. As dificuldades tecnológicas de implementação desta técnica de processamento são bem menores do que aquelas das configurações já conhecidas."/>
+			<field name="originatesFrom" value="3947616"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0102794"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0102794"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0102794"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010102794"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0102794-8"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0102794"/>
+		</entity>
+		<entity ref="Person9299" type="Person">
+			<semanticIdentifier>lattes::0193737650677403</semanticIdentifier>
+			<field name="identifier.lattes" value="0193737650677403"/>
+			<field name="name" value="Elnatan Chagas Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit7312" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent13535" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0102794</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="3947616"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0102794"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13534" toEntityRef="Person9299" type="Inventor"/>
+		<relation fromEntityRef="Patent13534" toEntityRef="OrgUnit7312" type="Applicant"/>
+	</relations>
+</entity-relation-data>

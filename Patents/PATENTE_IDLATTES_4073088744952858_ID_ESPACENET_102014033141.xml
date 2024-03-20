@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:54" record="102" source="Espacenet">
+	<entities>
+		<entity ref="Patent102" type="Patent">
+			<semanticIdentifier>brcris::73fc0afbea9613892fd13ca895240839</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014033141A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014033141</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014033141A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141033141</semanticIdentifier>
+			<semanticIdentifier>original::102014033141</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014033141"/>
+			<field name="identifier.lattes" value="4073088744952858"/>
+			<field name="identifier.espacenet" value="102014033141"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de clusterização em tempo real de fluxos contínuos de dados distribuídos no contexto de bigdata"/>
+			<field name="title.lattes" value="Processo de clusterização em tempo real de fluxos contínuos de dados distribuídos no contexto de bigdata"/>
+			<field name="depositDate" value="2014-12-23"/>
+			<field name="publicationDate" value="2018-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADAMO LINMA DE SANTANA"/>
+			<field name="inventor" value="ANTONIO FERNANDO LAVAREDA JACOB JUNIOR"/>
+			<field name="inventor" value="JOAO GABRIEL RODRIGUES DE OLIVEIRA LIMA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de clusterização em tempo real de fluxos contínuos de dados distribuídos no contexto de bigdata no âmbito da computação e mineração de fluxos de dados em tempo real, um conjunto composto por arquitetura de topologia e método são providos para possibilitar o processamento e clusterização de grande volume de fluxos de dados em um ambiente de computação em nuvem. além da clusterização de dados, o modelo também é capaz de tratar dados faltosos e fazer coletas estatísticas, abrindo a possibilidade para aplicação de outras técnicas de extração do conhecimento. é proposta uma nova forma de processamento de dados alterando a estrutura de funcionamento de redes neurais conhecidas como mapas auto-organizáveis possibilitando seu processamento sobre fluxos contínuos e infinitos de dados com resultados sendo obtidos em tempo real."/>
+			<field name="originatesFrom" value="62599311"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014033141"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014033141"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014033141"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141033141"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014033141"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person76" type="Person">
+			<semanticIdentifier>lattes::4073088744952858</semanticIdentifier>
+			<field name="identifier.lattes" value="4073088744952858"/>
+			<field name="name" value="Ádamo Lima de Santana"/>
+		</entity>
+		<entity ref="OrgUnit60" type="OrgUnit">
+			<semanticIdentifier>brcris::42afeb3d303bfc80f672242070a7c5c1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent102" toEntityRef="Person76" type="Inventor"/>
+		<relation fromEntityRef="Patent102" toEntityRef="OrgUnit60" type="Applicant"/>
+	</relations>
+</entity-relation-data>

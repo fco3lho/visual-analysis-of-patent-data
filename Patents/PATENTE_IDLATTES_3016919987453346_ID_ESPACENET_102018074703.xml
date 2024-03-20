@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:30" record="2617" source="Espacenet">
+	<entities>
+		<entity ref="Patent2617" type="Patent">
+			<semanticIdentifier>brcris::da14770be28445097c16fcf396ed4062</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018074703A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018074703</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018074703A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181074703</semanticIdentifier>
+			<semanticIdentifier>original::102018074703</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018074703"/>
+			<field name="identifier.lattes" value="3016919987453346"/>
+			<field name="identifier.espacenet" value="102018074703"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento automatizado para medição de vazão de rios de pequeno porte e método para medição de vazão com análise dimensional do canal do rio"/>
+			<field name="title.lattes" value="PROCESSO DE PRODUÇÃO DE BIOMASSA A PARTIR DO TRATAMENTO DE LICOR NEGRO POR MEIO DO CULTIVO DE CIANOBACTÉRIAS E MICROALGAS E USO DA BIOMASSA OBTIDA."/>
+			<field name="depositDate" value="2018-11-29"/>
+			<field name="publicationDate" value="2020-06-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA MARIA REFATI DE ARAUJO"/>
+			<field name="inventor" value="BRUNA CAPRA TOPANOTTI"/>
+			<field name="inventor" value="ELIAS LIRA SANTOS JUNIOR"/>
+			<field name="inventor" value="FABIANA COSTA DE ARAUJO SCHUTZ"/>
+			<field name="inventor" value="LUCAS FELIPE KUNZ"/>
+			<field name="inventor" value="PAULO LOPES DE MENEZES"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F1/05AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="05AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o equipamento (e) é formado por um tubo (1) extensível ao qual está ligado uma hélice (2), apoiada em rolamento (3), por meio de uma luva (4) conectora, a qual comporta um conta giros (5) que mede a velocidade, além de um sensor ultrassônico (6) para aferição da profundidade, em que se dá a medida da referida velocidade. o método consiste no cálculo da vazão do rio em tempo real por meio de um algoritmo, utilizando a velocidade e a seção transversal medida e transmitida por meio de tecnologia sem fio instalada na caixa (7) estanque de acrílico do equipamento (e)."/>
+			<field name="originatesFrom" value="70977226"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018074703"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018074703"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018074703"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181074703"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018074703"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1905" type="Person">
+			<semanticIdentifier>lattes::3016919987453346</semanticIdentifier>
+			<field name="identifier.lattes" value="3016919987453346"/>
+			<field name="name" value="Ana Clara Ozelhieri de Almeida"/>
+		</entity>
+		<entity ref="OrgUnit1493" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2617" toEntityRef="Person1905" type="Inventor"/>
+		<relation fromEntityRef="Patent2617" toEntityRef="OrgUnit1493" type="Applicant"/>
+	</relations>
+</entity-relation-data>

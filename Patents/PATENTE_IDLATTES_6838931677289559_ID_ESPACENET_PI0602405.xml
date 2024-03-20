@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:54" record="11120" source="Espacenet">
+	<entities>
+		<entity ref="Patent11120" type="Patent">
+			<semanticIdentifier>brcris::d33209c8073e47957cc67c09d6e06e06</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602405A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602405</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602405A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02405</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602405-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602405"/>
+			<field name="identifier.lattes" value="6838931677289559"/>
+			<field name="identifier.espacenet" value="PI0602405"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de monitoramento e controle de parámetros fìsicos e equipamentos presentes em vias públicas e privadas de área urbanas e/ou rurais"/>
+			<field name="title.lattes" value="Sistema de monitoramento e controle de parâmetros físicos e equipamentos presentes em vias públicas e privadas de área urbanas e/ou rurais"/>
+			<field name="depositDate" value="2006-06-02"/>
+			<field name="publicationDate" value="2008-01-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DENNIS BRANDAO"/>
+			<field name="inventor" value="JAIME MARINI JUNIOR"/>
+			<field name="inventor" value="LUIS CARLOS PASSARINI"/>
+			<field name="inventor" value="LUIS CARLOS PASSARINI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B19/042AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="042AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE MONITORAMENTO E CONTROLE DE PARáMETROS FìSICOS E EQUIPAMENTOS PRESENTES EM VIAS PúBLICAS E PRIVADAS DE áREA URBANAS E/OU RURAIS compreende o monitoramento, o controle e a otimização dos parâmetros físicos presentes em vias públicas e privadas de área urbanas e/ou rurais, em tempo mal, através de uma rede digital de comunicação de dados, sendo que dita rede apresenta como função conectar os diversos dispositivos instalados junto aos pontos de monitoramento e controle dos parâmetros físicos; a estrutura física da dita rede é composta por dispositivos ou nós de comunicação constituídos por uma unidade gerenciadora de processamento, por um dispositivo de processamento e de comunicação setorial e por dispositivos de entrada e de saída, além de um meio físico e um protocolo de comunicação."/>
+			<field name="originatesFrom" value="38969622"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602405"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602405"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602405"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02405"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602405-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7728" type="Person">
+			<semanticIdentifier>lattes::6838931677289559</semanticIdentifier>
+			<field name="identifier.lattes" value="6838931677289559"/>
+			<field name="name" value="Dennis Brandão"/>
+		</entity>
+		<entity ref="OrgUnit6163" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit6164" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11120" toEntityRef="Person7728" type="Inventor"/>
+		<relation fromEntityRef="Patent11120" toEntityRef="OrgUnit6163" type="Applicant"/>
+		<relation fromEntityRef="Patent11120" toEntityRef="OrgUnit6164" type="Applicant"/>
+	</relations>
+</entity-relation-data>

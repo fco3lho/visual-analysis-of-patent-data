@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:36" record="5451" source="Espacenet">
+	<entities>
+		<entity ref="Patent5451" type="Patent">
+			<semanticIdentifier>brcris::429e7116ef081f79505a5ba608879ca6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027731A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016027731</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027731A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161027731</semanticIdentifier>
+			<semanticIdentifier>original::102016027731</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016027731"/>
+			<field name="identifier.lattes" value="0550262144390243"/>
+			<field name="identifier.espacenet" value="102016027731"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de anodização sulfúrico-silânica com incorporação de silanos na superfície para proteção contra a corrosão e condensação de água em alumínio"/>
+			<field name="title.lattes" value="Método de anodização sulfúrico-silânica com incorporação de silanos na superfície para proteção contra corrosão e condensação de água em alumínio"/>
+			<field name="depositDate" value="2016-11-25"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO SHIGUEAKI TAKIMI"/>
+			<field name="inventor" value="LUIS FREDERICO PINHEIRO DICK"/>
+			<field name="inventor" value="PEDRO ATZ DICK"/>
+			<field name="inventor" value="YESENIA RATIVA MELO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23F13/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C25D11/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de anodização sulfúrico-silânica com incorporação de silanos na superfície para proteção contra a corrosão e condensação de água em alumínio . a presente patente se refere a um processo de anodização de alumínio e suas ligas, bem como a preparação do respectivo eletrólito de anodização para obtenção de superfícies de alta resistência à corrosão e alta hidrofobicidade, num só passo. os eletrólitos de anodização são compostos por água, etanol, ácido sulfúrico e algum alcoxissilano hidrofóbico hidrolisável, previamente hidrolisado ou não em solução alcoólica. após a preparação do eletrólito de anodização, realiza-se imediatamente o processo de oxidação anódica, que resulta em camadas de óxido de alta resistência à corrosão e alta hidrofobicidade. devido a essas características, o processo tem aplicação em peças sujeitas à corrosão atmosférica ou situações industriais onde a condensação de água é prejudicial, como em sistemas de refrigeração."/>
+			<field name="originatesFrom" value="62845585"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027731"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016027731"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027731"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161027731"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016027731"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3575" type="Person">
+			<semanticIdentifier>lattes::0550262144390243</semanticIdentifier>
+			<field name="identifier.lattes" value="0550262144390243"/>
+			<field name="name" value="Antonio Shigueaki Takimi"/>
+		</entity>
+		<entity ref="OrgUnit2818" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5451" toEntityRef="Person3575" type="Inventor"/>
+		<relation fromEntityRef="Patent5451" toEntityRef="OrgUnit2818" type="Applicant"/>
+	</relations>
+</entity-relation-data>

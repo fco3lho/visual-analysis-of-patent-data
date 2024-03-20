@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:55" record="5629" source="Espacenet">
+	<entities>
+		<entity ref="Patent5629" type="Patent">
+			<semanticIdentifier>brcris::df3b96bc8f755a137e811d31120cae36</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076106A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018076106</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076106A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181076106</semanticIdentifier>
+			<semanticIdentifier>original::102018076106</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018076106"/>
+			<field name="identifier.lattes" value="7685193163728288"/>
+			<field name="identifier.espacenet" value="102018076106"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo termo acústico para torrefação de biomassas"/>
+			<field name="title.lattes" value="DISPOSITIVO TERMO ACÚSTICO PARA TORREFAÇÃO DE BIOMASSAS"/>
+			<field name="depositDate" value="2018-12-14"/>
+			<field name="publicationDate" value="2020-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMANDO DE AZEVEDO CALDEIRA PIRES"/>
+			<field name="inventor" value="EDGAR AMARAL SILVEIRA"/>
+			<field name="inventor" value="MARCUS VINICIUS GIRAO DE MORAIS"/>
+			<field name="inventor" value="PATRICK LOUIS ALBERT ROUSSET"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="applicant" value="SERVICO FLORESTAL BRASILEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J19/10AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H03H3/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo termo acústico para torrefação de biomassas. a presente invenção refere-se a um dispositivo termo acústico para torrefação de biomassa. situa-se no campo de equipamentos para a produção de combustíveis sólidos, a partir de processos químicos, físicos ou físico-químicos em geral, com aplicação no setor industrial para produção de biocombustíveis. diferentemente das tecnologias existentes no estado da técnica, a presente invenção realiza o tratamento térmico de biomassa, sobre a influência de frequências acústicas, em atmosfera oxidativa (8 a 12% de oxigênio), sem a utilização de geradores de vibrações mecânicas, presentes em alguns modelos de reatores contínuos."/>
+			<field name="originatesFrom" value="71138382"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076106"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018076106"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076106"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181076106"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018076106"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3722" type="Person">
+			<semanticIdentifier>lattes::7685193163728288</semanticIdentifier>
+			<field name="identifier.lattes" value="7685193163728288"/>
+			<field name="name" value="Armando de Azevedo Caldeira Pires"/>
+		</entity>
+		<entity ref="OrgUnit2928" type="OrgUnit">
+			<semanticIdentifier>brcris::8b713348a365716b0e9d87ffd99b5796</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+		<entity ref="OrgUnit2929" type="OrgUnit">
+			<semanticIdentifier>brcris::64d3e1fad0a43bf27bd8eb96de313eef</semanticIdentifier>
+			<field name="name" value="SERVICO FLORESTAL BRASILEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5629" toEntityRef="Person3722" type="Inventor"/>
+		<relation fromEntityRef="Patent5629" toEntityRef="OrgUnit2928" type="Applicant"/>
+		<relation fromEntityRef="Patent5629" toEntityRef="OrgUnit2929" type="Applicant"/>
+	</relations>
+</entity-relation-data>

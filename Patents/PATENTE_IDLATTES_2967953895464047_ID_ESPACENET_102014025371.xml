@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:12" record="36954" source="Espacenet">
+	<entities>
+		<entity ref="Patent36954" type="Patent">
+			<semanticIdentifier>brcris::fcbaf6570cf9b18a7de8d02367017800</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014025371A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014025371</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014025371A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141025371</semanticIdentifier>
+			<semanticIdentifier>original::102014025371</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014025371"/>
+			<field name="identifier.lattes" value="2967953895464047"/>
+			<field name="identifier.espacenet" value="102014025371"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para medição, monitoramento e controle tamanho de bolha em colunas de flotação"/>
+			<field name="title.lattes" value="Sistema para medição, monitoramento e controle do tamanho de bolha em colunas de flotação"/>
+			<field name="depositDate" value="2014-10-10"/>
+			<field name="publicationDate" value="2016-05-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANE OLIVEIRA RODRIGUES"/>
+			<field name="inventor" value="RAFAEL TEIXEIRA RODRIGUES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B03D1/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B03D1/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para medição, monitoramento e controle do tamanho de bolha em colunas de flotação. a presente invenção descreve um sistema &quot;online&quot; de medição, monitoramento e controle do tamanho de bolhas para ensaios piloto ou de bancada de flotação em coluna. sua principal área de aplicação é a do processamento mineral, o sistema é acoplado na base de colunas de flotação, sendo composto basicamente por 3 partes: câmara de geração de bolhas; câmara de visualização para obtenção de imagens digitais das bolhas e câmara de injeção das bolhas na coluna de flotação. as bolhas geradas, de forma controlada, na câmara de geração de bolhas, ascendem até a câmara de visualização onde são obtidas imagens digitais das bolhas, sendo estas imagens processadas e analisadas em um computador em tempo real (onhine). após, as bolhas são introduzidas na base da coluna de flotação através de uma câmara de injeção de bolhas. o controle automatizado do tamanho de bolha é realizado variando-se a dosagem (vazão) de tensoativo injetado na câmara de geração de bolhas em função da diferença entre o diâmetro de bolha medido e o diâmetro de bolha desejado (&quot;set point')."/>
+			<field name="originatesFrom" value="55854507"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014025371"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014025371"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014025371"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141025371"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014025371"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25450" type="Person">
+			<semanticIdentifier>lattes::2967953895464047</semanticIdentifier>
+			<field name="identifier.lattes" value="2967953895464047"/>
+			<field name="name" value="Rafael Teixeira Rodrigues"/>
+		</entity>
+		<entity ref="OrgUnit19974" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36954" toEntityRef="Person25450" type="Inventor"/>
+		<relation fromEntityRef="Patent36954" toEntityRef="OrgUnit19974" type="Applicant"/>
+	</relations>
+</entity-relation-data>

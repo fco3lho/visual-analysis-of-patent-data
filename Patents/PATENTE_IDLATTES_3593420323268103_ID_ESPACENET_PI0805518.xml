@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:11" record="20904" source="Espacenet">
+	<entities>
+		<entity ref="Patent20904" type="Patent">
+			<semanticIdentifier>brcris::4b572587a30c1e69bc3054e4dc7411cc</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805518A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805518</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805518A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05518</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805518-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805518"/>
+			<field name="identifier.lattes" value="3593420323268103"/>
+			<field name="identifier.espacenet" value="PI0805518"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="paradigma orientado a notificaÇÕes (pon) - uma tÉcnica de composiÇço e execuÇço de software orientada a notificaÇÕes"/>
+			<field name="title.lattes" value="PEDIDO DE PATENTE: Paradigma Orientado a Notificações (PON) ? Uma Técnica de Composição e Execução de Software Orientada a Notificações."/>
+			<field name="depositDate" value="2008-11-26"/>
+			<field name="publicationDate" value="2010-08-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEAN MARCELO SIMAO"/>
+			<field name="inventor" value="PAULO CEZAR STADZISZ"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Este documento apresenta um novo paradigma de programação de computadores intitulado Paradigma Orientado a Notificações (PON) ou Notification Oriented Paradigm (NOP) em inglês. PON objetiva uma solução com melhor desempenho e abertura para paralelismo e distribuição do que as soluções baseadas nos paradigmas correntes, como linguagens orientadas a objetos. PON resolve seus problemas, como sintaxe inapropriada, redundância estrutural e temporal e principalmente entidades computacionais fortemente acopladas. Este acoplamento existe devido a uma orientação a processo de avaliação causal baseado em pesquisa, normalmente monolítico, que causa dificuldades de distribuição. Justamente, PON impõe outra maneira para realizar as avaliações e inferências. Em PON, isto é feito a partir do conhecimento de regras por meio de entidades computacionais de pequeno porte, 'inteligentes' e desacopladas que interagem e colaboram por meio de notificações pontuais."/>
+			<field name="originatesFrom" value="42633164"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805518"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805518"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805518"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05518"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805518-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14477" type="Person">
+			<semanticIdentifier>lattes::3593420323268103</semanticIdentifier>
+			<field name="identifier.lattes" value="3593420323268103"/>
+			<field name="name" value="Jean Marcelo Simão"/>
+		</entity>
+		<entity ref="OrgUnit11341" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20904" toEntityRef="Person14477" type="Inventor"/>
+		<relation fromEntityRef="Patent20904" toEntityRef="OrgUnit11341" type="Applicant"/>
+	</relations>
+</entity-relation-data>

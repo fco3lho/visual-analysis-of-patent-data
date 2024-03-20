@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:29" record="38435" source="Espacenet">
+	<entities>
+		<entity ref="Patent38435" type="Patent">
+			<semanticIdentifier>brcris::36135aa48feece1a10b5e45e3c1941c3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015211A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016015211</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015211A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161015211</semanticIdentifier>
+			<semanticIdentifier>original::102016015211</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016015211"/>
+			<field name="identifier.lattes" value="4840716491040163"/>
+			<field name="identifier.espacenet" value="102016015211"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composições farmacêuticas leishmanicidas contendo isoborneol e uso"/>
+			<field name="title.lattes" value="Composições Farmacêuticas Leishmanicidas Contendo Isoborneol e Uso"/>
+			<field name="depositDate" value="2016-06-28"/>
+			<field name="publicationDate" value="2018-01-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUDREY ROUSE SOARES TAVARES SILVA"/>
+			<field name="inventor" value="DANIELLA CASTANHEIRA BARTHOLOMEU"/>
+			<field name="inventor" value="LILIAN LACERDA BUENO"/>
+			<field name="inventor" value="RAQUEL MARTINS ALMEIDA"/>
+			<field name="inventor" value="RICARDO SCHER"/>
+			<field name="inventor" value="RICARDO TOSHIO FUJIWARA"/>
+			<field name="inventor" value="SEBASTIAO RODRIGO FERREIRA"/>
+			<field name="inventor" value="SILVIO SANTANA DOLABELLA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE - UFS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/045AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="045AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P33/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção se refere a composições farmacêuticas contendo isoborneol e excipientes farmacêutica e farmacologicamente aceitáveis. a referida composição é útil no tratamento das leishmanioses cutânea e cutâneo-difusa."/>
+			<field name="originatesFrom" value="62599074"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015211"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016015211"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015211"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161015211"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016015211"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26448" type="Person">
+			<semanticIdentifier>lattes::4840716491040163</semanticIdentifier>
+			<field name="identifier.lattes" value="4840716491040163"/>
+			<field name="name" value="Ricardo Scher"/>
+		</entity>
+		<entity ref="OrgUnit20733" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38435" toEntityRef="Person26448" type="Inventor"/>
+		<relation fromEntityRef="Patent38435" toEntityRef="OrgUnit20733" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:14" record="29551" source="Espacenet">
+	<entities>
+		<entity ref="Patent29551" type="Patent">
+			<semanticIdentifier>brcris::2a3349a7447751287421ce5fe51fcb91</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032427A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014032427</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032427A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141032427</semanticIdentifier>
+			<semanticIdentifier>original::102014032427</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014032427"/>
+			<field name="identifier.lattes" value="1816180779690005"/>
+			<field name="identifier.espacenet" value="102014032427"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de produto químico renovável a partir de um álcool"/>
+			<field name="title.lattes" value="Processo de Produção de Produto Químico Renovável a Partir de um Álcool"/>
+			<field name="depositDate" value="2014-12-23"/>
+			<field name="publicationDate" value="2016-08-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO LUIZ RIBEIRO DE CASTRO MORSCHBACKER"/>
+			<field name="inventor" value="GABRIEL SABENCA GUSMAO"/>
+			<field name="inventor" value="LILIANA ZANELLI DE OLIVEIRA MARTINS IKARI"/>
+			<field name="inventor" value="MARCIO HENRIQUE DOS SANTOS ANDRADE"/>
+			<field name="inventor" value="ROBERTO WERNECK CARMO"/>
+			<field name="inventor" value="ROMILDO PEREIRA BRITO"/>
+			<field name="applicant" value="BRASKEM S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07B61/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="61"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07B63/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07C1/24AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de produto químico renovável a partir de um álcool. a presente invenção refere-se a um processo de produção de produtos químicos renováveis a partir de um álcool contendo impurezas ou contaminantes orgânicos compreendendo as etapas de (i) vaporização parcial de uma corrente compreendendo álcool, água e contaminantes orgânicos em um sistema vaporizador; (ii) retirada de uma fração de líquido compreendendo álcool, água e contaminantes orgânicos pesados ou pouco voláteis, de um ponto baixo do sistema vaporizador, seguida da passagem da dita fração por um sistema com uma ou mais operações unitárias complementares de modo a separar os contaminantes orgânicos pesados ou pouco voláteis e, opcionalmente recuperar pelo menos parte do álcool contido na fração retirada do sistema vaporizador; (iii) alimentação da corrente compreendendo álcool, água e, opcionalmente uma fração volátil dos contaminantes orgânicos, vaporizados em uma zona de reação para a geração de uma corrente de produtos compreendendo o produto químico renovável de interesse, subprodutos de reação, compostos não reagidos; (iv) separação e purificação do produto químico renovável de interesse dos subprodutos de reação e dos compostos não reagidos e, opcionalmente, retorno dos compostos não reagidos para o processo."/>
+			<field name="originatesFrom" value="56565096"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032427"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014032427"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032427"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141032427"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014032427"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20315" type="Person">
+			<semanticIdentifier>lattes::1816180779690005</semanticIdentifier>
+			<field name="identifier.lattes" value="1816180779690005"/>
+			<field name="name" value="Márcio Henrique dos Santos Andrade"/>
+		</entity>
+		<entity ref="OrgUnit15906" type="OrgUnit">
+			<semanticIdentifier>brcris::0dbbd2641b08c703b37ba584cb8d9c81</semanticIdentifier>
+			<field name="name" value="BRASKEM S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29551" toEntityRef="Person20315" type="Inventor"/>
+		<relation fromEntityRef="Patent29551" toEntityRef="OrgUnit15906" type="Applicant"/>
+	</relations>
+</entity-relation-data>

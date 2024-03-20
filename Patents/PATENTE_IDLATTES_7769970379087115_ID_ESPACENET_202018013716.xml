@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:38" record="30155" source="Espacenet">
+	<entities>
+		<entity ref="Patent30155" type="Patent">
+			<semanticIdentifier>brcris::6a923fda2917a10fd17836d41226a303</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018013716U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202018013716U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018013716U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20182013716U</semanticIdentifier>
+			<semanticIdentifier>original::202018013716</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202018013716"/>
+			<field name="identifier.lattes" value="7769970379087115"/>
+			<field name="identifier.espacenet" value="202018013716"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="suporte automatizado para fixação e condução de ligas metálicas em equipamento automatizado de solda capacitiva com ambiente inerte para ligas de pequena espessura"/>
+			<field name="title.lattes" value="Suporte automatizado para fixação e condução de ligas metálicas em equipamento automatizado de solda capacitiva com ambiente inerte para ligas de pequena espessura"/>
+			<field name="depositDate" value="2018-07-04"/>
+			<field name="publicationDate" value="2020-01-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CID MARCOS GONCALVES ANDRADE"/>
+			<field name="inventor" value="IGOR ROSSI FERMO"/>
+			<field name="inventor" value="MARCOS DE SOUZA"/>
+			<field name="inventor" value="RUBENS ZENKO SAKIYAMA"/>
+			<field name="inventor" value="VICTOR RAMOM RIBEIRO VALEREO DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23K11/20AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um suporte automatizado para fixação e condução de ligas metálicas em equipamento automatizado de solda capacitiva com ambiente inerte para ligas de pequena espessura (neste caso projetada para termopares), o que não impede a sua utilização para outros tipos de materiais metálicos que necessitem ser soldados. o equipamento possui 3 características peculiares: armazena-se uma quantidade de energia conforme o necessário para a união do material a ser soldado, para tal fim utilizando-se de balanços de massa e energia; a solda é feita num ambiente inerte (gas argônio); o processo de união é feito de forma totalmente automatizada com a utilização de um microcontrolador o qual possui uma rotina personalizável para diferentes tipos de ligas metálicas a serem unidas. o principal diferencial do equipamento é seu baixo custo de produção se comparado com os demais existentes no mercado. os resultados obtidos com a soldagem de diferentes tipos e bitolas de termopar foram considerados de boa qualidade de acordo com os parâmetros de análise estabelecidos."/>
+			<field name="originatesFrom" value="69191615"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018013716"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202018013716U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018013716"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20182013716U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202018013716"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20679" type="Person">
+			<semanticIdentifier>lattes::7769970379087115</semanticIdentifier>
+			<field name="identifier.lattes" value="7769970379087115"/>
+			<field name="name" value="Marcos de Souza"/>
+		</entity>
+		<entity ref="OrgUnit16171" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30155" toEntityRef="Person20679" type="Inventor"/>
+		<relation fromEntityRef="Patent30155" toEntityRef="OrgUnit16171" type="Applicant"/>
+	</relations>
+</entity-relation-data>

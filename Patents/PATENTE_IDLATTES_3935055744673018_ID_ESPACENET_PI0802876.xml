@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:53" record="21381" source="Espacenet">
+	<entities>
+		<entity ref="Patent21381" type="Patent">
+			<semanticIdentifier>brcris::8123b7ee82532547e0a9ee0c3aa1bf52</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802876A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0802876</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802876A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI02876</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0802876-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0802876"/>
+			<field name="identifier.lattes" value="3935055744673018"/>
+			<field name="identifier.espacenet" value="PI0802876"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composiÇço farmacÊutica fungicida"/>
+			<field name="title.lattes" value="FORMULAÇÃO FUNGICIDA"/>
+			<field name="depositDate" value="2008-06-12"/>
+			<field name="publicationDate" value="2010-03-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTINA WAYNE NOGUEIRA"/>
+			<field name="inventor" value="ERICO SILVA DE LORETO"/>
+			<field name="inventor" value="GILSON ROGERIO ZENI"/>
+			<field name="inventor" value="JANIO MORAES SANTURIO"/>
+			<field name="inventor" value="JOAO BATISTA TEIXEIRA DA ROCHA"/>
+			<field name="inventor" value="SYDNEY HARTZ ALVES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/095AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="095AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P17/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPOSIÇçO FARMACÊUTICA FUNGICIDA. A presente invenção é relacionada a composições farmacêuticas compreendendo derivados de disseleneto de difenila úteis como fungicidas direcionados a fungos pertencentes ao gênero Pythium, sendo útil no tratamento da pitiose."/>
+			<field name="originatesFrom" value="41722488"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802876"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0802876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802876"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI02876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0802876-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14790" type="Person">
+			<semanticIdentifier>lattes::3935055744673018</semanticIdentifier>
+			<field name="identifier.lattes" value="3935055744673018"/>
+			<field name="name" value="Joao Batista Teixeira da Rocha"/>
+		</entity>
+		<entity ref="OrgUnit11589" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21381" toEntityRef="Person14790" type="Inventor"/>
+		<relation fromEntityRef="Patent21381" toEntityRef="OrgUnit11589" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:51:29" record="26933" source="Espacenet">
+	<entities>
+		<entity ref="Patent26933" type="Patent">
+			<semanticIdentifier>brcris::be2e26295d58c3282a3471b9cf8b8c62</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505957A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505957</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505957A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05957</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505957-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505957"/>
+			<field name="identifier.lattes" value="3036476562950521"/>
+			<field name="identifier.espacenet" value="PI0505957"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método e equipamento para deteção de morte súbita dos citros"/>
+			<field name="title.lattes" value="Método e equipamento para detecção de morte súbita dos citros"/>
+			<field name="depositDate" value="2005-12-22"/>
+			<field name="publicationDate" value="2007-10-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE TORRE NETO"/>
+			<field name="inventor" value="DEBORA MARCONDES BASTOS PEREIRA MILORI"/>
+			<field name="inventor" value="JEAN CARLOS CORTE TERENCIO"/>
+			<field name="inventor" value="LADISLAU MARTIN NETO"/>
+			<field name="inventor" value="LUCIO ANDRE DE CASTRO JORGE"/>
+			<field name="inventor" value="LUCIO ANDRE DE CASTRO JORGE"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01J3/443AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="443AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO E EQUIPAMENTO PARA DETECçãO DE MORTE SúBITA DOS CITROS A presente invenção refere-se a um equipamento e método para detecção precoce da Morte Súbita dos Citros através da diferença de fluorescência observada em caules e folhas. Para isto, a planta é submetida a uma luz de médio comprimento de onda onde é detectada a doença. A técnica possibilita a detecção da doença de forma mais rápida e precisa do que a metodologia atual, que se baseia em inspeção visual. Através dela toma-se possível a seleção de mudas e o mapeamento de zonas de produção para controle da disseminação da doença."/>
+			<field name="originatesFrom" value="38530041"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505957"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505957"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505957-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18654" type="Person">
+			<semanticIdentifier>lattes::3036476562950521</semanticIdentifier>
+			<field name="identifier.lattes" value="3036476562950521"/>
+			<field name="name" value="Lucio Andre de Castro Jorge"/>
+		</entity>
+		<entity ref="OrgUnit14612" type="OrgUnit">
+			<semanticIdentifier>brcris::956dd76a118ed0e661cb8fe62a95e3df</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+		<entity ref="OrgUnit14613" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26933" toEntityRef="Person18654" type="Inventor"/>
+		<relation fromEntityRef="Patent26933" toEntityRef="OrgUnit14612" type="Applicant"/>
+		<relation fromEntityRef="Patent26933" toEntityRef="OrgUnit14613" type="Applicant"/>
+	</relations>
+</entity-relation-data>

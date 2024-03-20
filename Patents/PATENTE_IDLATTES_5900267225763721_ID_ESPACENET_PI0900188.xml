@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:42" record="40232" source="Espacenet">
+	<entities>
+		<entity ref="Patent40232" type="Patent">
+			<semanticIdentifier>brcris::4440873171aa5665adbd67259e7b3a9b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0900188A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0900188</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0900188A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI00188</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0900188-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0900188"/>
+			<field name="identifier.lattes" value="5900267225763721"/>
+			<field name="identifier.espacenet" value="PI0900188"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor sers com nanopartìculas de superfìcie molecularmente funcionalizada"/>
+			<field name="title.lattes" value="SENSOR SERS COM NANOPARTÍCULAS DE SUPERFÍCIE MOLECULARMENTE FUNCIONALIZADA"/>
+			<field name="depositDate" value="2009-01-19"/>
+			<field name="publicationDate" value="2010-10-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HENRIQUE EISI TOMA"/>
+			<field name="inventor" value="KOITI ARAKI"/>
+			<field name="inventor" value="RONALDO ADRIANO TIMM"/>
+			<field name="inventor" value="VITOR DE MORAES ZAMARION"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/65AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="65AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SENSOR SERS COM NANOPARTICULAS DE SUPERFìCIE MOLECULARMENTE FUNCIONALIZADA. A presente invenção se refere a sensores para cádmio e mercúrio baseado em efeito SERS, composto por nanoparticuias de ouro ou prata e trimercaptotríazina ancoradas em sua superfície, utilizando como método de análise dos dados espectrais a correlação entre a relação de intensidade de duas bandas vibracionais específicas para cada analito."/>
+			<field name="originatesFrom" value="42989997"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0900188"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0900188"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0900188"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI00188"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0900188-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27424" type="Person">
+			<semanticIdentifier>lattes::5900267225763721</semanticIdentifier>
+			<field name="identifier.lattes" value="5900267225763721"/>
+			<field name="name" value="Ronaldo Adriano Timm"/>
+		</entity>
+		<entity ref="OrgUnit21436" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit21437" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40232" toEntityRef="Person27424" type="Inventor"/>
+		<relation fromEntityRef="Patent40232" toEntityRef="OrgUnit21436" type="Applicant"/>
+		<relation fromEntityRef="Patent40232" toEntityRef="OrgUnit21437" type="Applicant"/>
+	</relations>
+</entity-relation-data>

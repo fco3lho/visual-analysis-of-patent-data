@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:17" record="18965" source="Espacenet">
+	<entities>
+		<entity ref="Patent18965" type="Patent">
+			<semanticIdentifier>brcris::34297ccc877336c9241a41f3cf352983</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009691A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016009691</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009691A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161009691</semanticIdentifier>
+			<semanticIdentifier>original::102016009691</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016009691"/>
+			<field name="identifier.lattes" value="3987934708080297"/>
+			<field name="identifier.espacenet" value="102016009691"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de desacoplamento de um bujão de uma cabeça de tração"/>
+			<field name="title.lattes" value="DISPOSITIVO DE DESACOPLAMENTO DE UM BUJÃO DE UMA CABEÇA DE TRAÇÃO"/>
+			<field name="depositDate" value="2016-04-29"/>
+			<field name="publicationDate" value="2017-11-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL ALMEIDA CAMERINI"/>
+			<field name="inventor" value="HENRI FIORENZA DE LIMA"/>
+			<field name="inventor" value="RODRIGO CARVALHO FERREIRA"/>
+			<field name="applicant" value="ATIVA TECNOLOGIA E DESENVOLVIMENTO LTDA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L1/14AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;dispositivo de desacoplamento de um bujão de uma cabeça de tração&quot; a presente invenção está relacionada a um dispositivo de desacoplamento de um bujão de uma cabeça de tração, compreendendo um corpo principal (1) que, por sua vez, compreende uma câmara de isolamento (32) formada por uma parede de isolamento (31), em que a câmara de isolamento (32) compreende em seu interior um elemento de desacoplamento (21) do bujão (8) em relação à cabeça de tração (9), e um elemento acoplador (4) adaptado para manter uma borda extrema da parede de isolamento (31) em contato com uma superfície da cabeça de tração (9), de modo a manter a câmara de isolamento (32) isolada do ambiente externo."/>
+			<field name="originatesFrom" value="60160583"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009691"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016009691"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009691"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161009691"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016009691"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=CA3062933"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017185152"/>
+		</entity>
+		<entity ref="Person13175" type="Person">
+			<semanticIdentifier>lattes::3987934708080297</semanticIdentifier>
+			<field name="identifier.lattes" value="3987934708080297"/>
+			<field name="name" value="Henri Fiorenza de Lima"/>
+		</entity>
+		<entity ref="OrgUnit10301" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="Patent18966" type="Patent">
+			<semanticIdentifier>epodoc::CA3062933</semanticIdentifier>
+			<field name="countryCode" value="CA"/>
+			<field name="originatesFrom" value="60160583"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="CA"/>
+				<field name="number" value="CA3062933"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent18967" type="Patent">
+			<semanticIdentifier>epodoc::WO2017185152</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="60160583"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017185152"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18965" toEntityRef="Person13175" type="Inventor"/>
+		<relation fromEntityRef="Patent18965" toEntityRef="OrgUnit10301" type="Applicant"/>
+	</relations>
+</entity-relation-data>

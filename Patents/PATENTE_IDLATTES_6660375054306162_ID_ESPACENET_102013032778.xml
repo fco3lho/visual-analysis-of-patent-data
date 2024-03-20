@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:02" record="39885" source="Espacenet">
+	<entities>
+		<entity ref="Patent39885" type="Patent">
+			<semanticIdentifier>brcris::e0157c1d439d537eefc7f04c61d75cf4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032778A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013032778</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032778A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131032778</semanticIdentifier>
+			<semanticIdentifier>original::102013032778</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013032778"/>
+			<field name="identifier.lattes" value="6660375054306162"/>
+			<field name="identifier.espacenet" value="102013032778"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="padrão primário para a calibração de transdutores de torque através da variação angular de braço de reação"/>
+			<field name="title.lattes" value="Padrão Primário para a Calibração de Instrumentos de Medição de Torque"/>
+			<field name="depositDate" value="2013-12-19"/>
+			<field name="publicationDate" value="2015-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GREGORY MULLER TACCOLA"/>
+			<field name="inventor" value="RODRIGO JUNQUEIRA LEAO"/>
+			<field name="applicant" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01L25/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01L3/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="padrão primário para a calibração de transdutores de torque através da variação angular de braço de reação, pertencente ao setor técnico da metrologia mecânica, especificamente ao campo de teste ou calibração de aparelhos para a medição de força, torque, trabalho, potência mecânica ou eficiência mecânica, mais especificamente dos padrões de referência para calibração de transdutores de torque e calibradores de torquímetros, refere-se a equipamento e programa de computador para calibração de transdutores de torque estático através da aplicação de um valor conhecido de torque (dito torque de referência).os métodos de referência atuais mais comuns de calibração de transdutores de torque são realizados através da aplicação de massas a um braço de reação. a presente invenção visa ser solução para o problema mencionado, evitando degraus e retornos ao zero durante etapas crescentes ou decrescentes de aplicação de torque. além disso, evita o processo manual do executor da calibração na colocação/recolocação de pesos, pois, além de utilizar um valor fixo de pesos-padrão por calibração efetuada, prevê um mecanismo automatizado de movimentação do braço. também, prevê a calibração dos dois sentidos (horário e anti-horário) com a mesma montagem, sem que seja necessária a remoção e posterior reposicionamento do transdutor em calibração. o objeto em pleito utiliza, para tal, um sistema de braço com reposicionamento angular, de modo que se varie o braço de aplicação da força (para que seja gerado um torque), ao invés de se variar o peso aplicado à sua extremidade. sensores de medição de ângulo digitais fornecem um sinal com informação da posição angular do braço de modo que seja calculado o torque efetivo aplicado."/>
+			<field name="originatesFrom" value="54837905"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032778"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013032778"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032778"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131032778"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013032778"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27147" type="Person">
+			<semanticIdentifier>lattes::6660375054306162</semanticIdentifier>
+			<field name="identifier.lattes" value="6660375054306162"/>
+			<field name="name" value="Rodrigo Junqueira Leão"/>
+		</entity>
+		<entity ref="OrgUnit21243" type="OrgUnit">
+			<semanticIdentifier>brcris::6090249bb6d47a11c59aab6fa7a40133</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39885" toEntityRef="Person27147" type="Inventor"/>
+		<relation fromEntityRef="Patent39885" toEntityRef="OrgUnit21243" type="Applicant"/>
+	</relations>
+</entity-relation-data>

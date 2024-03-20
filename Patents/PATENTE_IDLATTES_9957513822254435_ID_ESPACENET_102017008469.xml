@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:22" record="34164" source="Espacenet">
+	<entities>
+		<entity ref="Patent34164" type="Patent">
+			<semanticIdentifier>brcris::29804fab134ca05c0716be0145f1a5bc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017008469A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017008469</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017008469A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171008469</semanticIdentifier>
+			<semanticIdentifier>original::102017008469</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017008469"/>
+			<field name="identifier.lattes" value="9957513822254435"/>
+			<field name="identifier.espacenet" value="102017008469"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método para otimizar o consumo de energia em dispositivos móveis no serviço de fluxo de conteúdo multimídia"/>
+			<field name="title.lattes" value="SISTEMA E MÉTODO PARA OTIMIZAR O CONSUMO DE ENERGIA EM DISPOSITIVOS MÓVEIS NO SERVIÇO DE FLUXO DE CONTEÚDO MULTIMÍDIA"/>
+			<field name="depositDate" value="2017-04-25"/>
+			<field name="publicationDate" value="2018-11-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DEMOSTENES ZEGARRA RODRIGUEZ"/>
+			<field name="inventor" value="DIEGO JOSE DE SOUSA GOUVEIA"/>
+			<field name="inventor" value="GINO LOZADA MARQUEZ"/>
+			<field name="inventor" value="LUIZ HENRIQUE ANDRADE CORREIA"/>
+			<field name="inventor" value="NEUMAR COSTA MALHEIROS"/>
+			<field name="inventor" value="RENATA LOPES ROSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04N19/156AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="156AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção diz respeito a um sistema e método integral de economia de energia em dispositivos móveis no serviço de fluxo de conteúdo multimídia, cujas características apresentem um balanceamento ótimo entre a qualidade e continuidade do conteúdo multimídia percebido pelo assinante. o sistema compreende um servidor principal, computadores assinantes e dispositivos móveis assinantes, sendo que os computadores assinantes também podem realizar as mesmas tarefas de servidores secundários, quando requeridos, para distribuir o conteúdo multimídia aos dispositivos móveis geograficamente mais próximos. os computadores assinantes são selecionados como servidores secundários caso possuam uma configuração mínima de processamento e memória sem que haja problemas de sobrecarga interna. uma lista com os servidores secundários é criada e mantida no servidor principal. um servidor secundário passa a armazenar conteúdo multimídia de diferentes qualidades. um dispositivo móvel recebe o conteúdo do servidor secundário mais próximo e executa mecanismos de economia de energia para mudar a qualidade do conteúdo recebido, diminuindo a carga do servidor principal, reduzindo o tempo de download e consequentemente otimizando o uso da bateria do dispositivo. além do mais, dependendo do nível de bateria, pode-se executar ações que diminuam o consumo de energia."/>
+			<field name="originatesFrom" value="64872796"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017008469"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017008469"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017008469"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171008469"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017008469"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23529" type="Person">
+			<semanticIdentifier>lattes::9957513822254435</semanticIdentifier>
+			<field name="identifier.lattes" value="9957513822254435"/>
+			<field name="name" value="Neumar Costa Malheiros"/>
+		</entity>
+		<entity ref="OrgUnit18440" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34164" toEntityRef="Person23529" type="Inventor"/>
+		<relation fromEntityRef="Patent34164" toEntityRef="OrgUnit18440" type="Applicant"/>
+	</relations>
+</entity-relation-data>

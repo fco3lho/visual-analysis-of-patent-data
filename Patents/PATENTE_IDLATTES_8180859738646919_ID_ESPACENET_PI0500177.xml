@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:33" record="31496" source="Espacenet">
+	<entities>
+		<entity ref="Patent31496" type="Patent">
+			<semanticIdentifier>brcris::f53a057e4cc147e673430b82ec5589f3</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500177A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500177</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500177A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00177</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500177-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500177"/>
+			<field name="identifier.lattes" value="8180859738646919"/>
+			<field name="identifier.espacenet" value="PI0500177"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="espalhamento de raios x e quimiometria para classificação de óleos vegetais, animais, minerais e/ou sintéticos"/>
+			<field name="title.lattes" value="Espalhamento de raio X e quimiometria para classificação de óleos vegetais, animais, minerais e/ou sintéticos"/>
+			<field name="depositDate" value="2005-01-21"/>
+			<field name="publicationDate" value="2006-09-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GISELE GONCALVES BORTOLETO"/>
+			<field name="inventor" value="LUIZ CARLOS MOUTINHO PATACA"/>
+			<field name="inventor" value="MARIA IZABEL MARETTI SILVEIRA BUENO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/223AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="223AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ESPALHAMENTO DE RAIO X E QUIMIOMETRIA PARA CLASSIFICAçãO DE óLEOS VEGETAIS, ANIMAIS, MINERAIS E/OU SINTéTICOS&quot;. Trata-se de um método de identificação de vários tipos de óleos através do espalhamento de raios X, como nova técnica de medida, aliado a quimiometria. Mais especificamente, as amostras utilizadas foram obtidas comercialmente e dentre elas estão: óleos de girassol, milho, soja e canola, de cinco diferentes marcas, e azeites de oliva extra-virgem e outros tipos de azeites de onze e seis diferentes marcas, respectivamente. Para as análises, as alíquotas são adicionadas nas celas apropriadas para irradiação usando um equipamento de Fluorescência de Raios-X por Dispersão de Energia (EDXRF, do inglês Energy Dispersive X-Ray Fluorescence), e medidas usando um espectrómetro, operando com condições controladas. Os espectros obtidos são analisados utilizando os programas estatísticos e aplicando a Análise de Componentes Principais (PCA, do inglês Principal Component Analysis) como modelo matemático. Com os dados obtidos desta forma, é possível identificar as diferentes classes referentes aos vários tipos de óleos, devido às composições distintas das matrizes destas amostras. O novo método analítico, que emprega espalhamento de raios X, de grande simplicidade e rapidez, com baixo custo de análise, é otimizado, avaliado e empregado para classificação dos óleos vegetais, animais, minerais, sintéticos e/ou seus derivados, que possuam aplicações industriais como: alimento, medicamento, combustível, aroma, cosmético, óleos essenciais, lubrificante e/ou ornamental."/>
+			<field name="originatesFrom" value="36930562"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500177"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500177"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500177-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21570" type="Person">
+			<semanticIdentifier>lattes::8180859738646919</semanticIdentifier>
+			<field name="identifier.lattes" value="8180859738646919"/>
+			<field name="name" value="Maria Izabel Maretti Silveira Bueno"/>
+		</entity>
+		<entity ref="OrgUnit16836" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31496" toEntityRef="Person21570" type="Inventor"/>
+		<relation fromEntityRef="Patent31496" toEntityRef="OrgUnit16836" type="Applicant"/>
+	</relations>
+</entity-relation-data>

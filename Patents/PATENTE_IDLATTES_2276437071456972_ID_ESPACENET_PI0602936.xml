@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:20" record="21658" source="Espacenet">
+	<entities>
+		<entity ref="Patent21658" type="Patent">
+			<semanticIdentifier>brcris::2d328d52db8b973b2ef808868904205e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602936A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602936</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602936A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02936</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602936-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602936"/>
+			<field name="identifier.lattes" value="2276437071456972"/>
+			<field name="identifier.espacenet" value="PI0602936"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de transmissão de dados através de interface serial, para uso em telemetria"/>
+			<field name="title.lattes" value="SISTEMA DE TRANSMISSÃO DE DADOS ATRAVÉS DE INTERFACE SERIAL, PARA USO EM TELEMETRIA"/>
+			<field name="depositDate" value="2006-06-29"/>
+			<field name="publicationDate" value="2006-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOAO NELSON CAVEZALE DE LA TORRE"/>
+			<field name="applicant" value="ACTARIS LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q90/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="90"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04L23/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA DE TRANSMISSãO DE DADOS ATRAVéS DE INTERFACE SERIAL, PARA USO EM TELEMETRIA&quot;. Especialmente de um sistema responsável pela transmissão de dados vindos de uma rede GPRS, onde medidores de energia elétrica estão ligados, para os drivers de conexão com medidores do sistema de telemedição especialmente idealizado para este aplicativo, e vice-versa. O sistema é composto de vários conjuntos de duas portas de escuta TCP/IP, sendo que, cada conjunto de porta, envia os dados recebidos em uma destas a outra; em uma das portas está a rede GPRS e em outra o driver de leitura de medidores do NOTUS (através de componente STD); o sistema utiliza o hardware do Data Modem remoto TCP-IP C'Wireless') (3) que apresenta, basicamente, duas versões: para uso em GSMGPRS e para uso em DCM - 1XRTT; o sistema contempla, ainda, interfaces através de telas sendo uma tela de interface de Status das conexões (30), uma tela de interface de visualizar status (31), uma tela de interface de configurações (32), uma tela de interface de visualizar logs (33) que permite visualizar logs habilitados e uma tela de visualizar logs (34) que permite visualizar e reiniciar a quantidade de alarmes recebidos; o sistema contempla, também, alguns casos específicos de uso: tratar alarme (4), transmitir mensagem (4a) - tratar mensagem (6) configurar portas - gateway (4b), visualizar status (4c) e visualizar logs (4d)."/>
+			<field name="originatesFrom" value="37546515"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602936"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602936"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602936"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02936"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602936-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14996" type="Person">
+			<semanticIdentifier>lattes::2276437071456972</semanticIdentifier>
+			<field name="identifier.lattes" value="2276437071456972"/>
+			<field name="name" value="João Nelson Cavezale de La Torre"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21658" toEntityRef="Person14996" type="Inventor"/>
+	</relations>
+</entity-relation-data>

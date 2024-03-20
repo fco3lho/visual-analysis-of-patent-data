@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:13" record="27682" source="Espacenet">
+	<entities>
+		<entity ref="Patent27682" type="Patent">
+			<semanticIdentifier>brcris::933faf691d34fc538133fef1898ad05d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015009378U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015009378U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015009378U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152009378U</semanticIdentifier>
+			<semanticIdentifier>original::202015009378</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015009378"/>
+			<field name="identifier.lattes" value="2039487569879678"/>
+			<field name="identifier.espacenet" value="202015009378"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="ninho toca para coelhas"/>
+			<field name="title.lattes" value="Ninho toca para coelhas"/>
+			<field name="depositDate" value="2015-04-27"/>
+			<field name="publicationDate" value="2017-12-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ CARLOS MACHADO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K1/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01K29/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ninho toca para coelhas&quot; este pedido se refere a um ninho toca destinado ao nascimento e amamentação de filhotes de coelhos e propicia ambiente adequado para que a coelha faça a preparação pré-parto, parição e amamentação de seus filhotes, garantindo conforto e bem estar a esses animais e favorecendo o aumento da taxa de nascimento e desmame. o referido ninho toca é constituído por corpo metálico em forma cilíndrica (1 ), com escada interna (2), fundo de base metálica (3) com furos que permitem o escoamento de líquidos, base metálica para firmar o ninho na gaiola (4), aberturas internas laterais aos degraus para facilitação da circulação de ar (5) e abertura longitudinal aos degraus (6). um arame pode ser colocado para ligar a base do ninho à gaiola e um garantir a sustentação do ninho e um ângulo de 45º. é colocado, ainda, material de papelão de 1 o cm de altura na saída lateral do ninho para controle de queda e escape do animal"/>
+			<field name="originatesFrom" value="62566794"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015009378"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015009378U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015009378"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152009378U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015009378"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202015009378Y"/>
+		</entity>
+		<entity ref="Person19109" type="Person">
+			<semanticIdentifier>lattes::2039487569879678</semanticIdentifier>
+			<field name="identifier.lattes" value="2039487569879678"/>
+			<field name="name" value="Luiz Carlos Machado"/>
+		</entity>
+		<entity ref="OrgUnit14906" type="OrgUnit">
+			<semanticIdentifier>brcris::ac0ffefbdce1729b9727564228aac37b</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent27683" type="Patent">
+			<semanticIdentifier>epodoc::BR202015009378Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62566794"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015009378Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27682" toEntityRef="Person19109" type="Inventor"/>
+		<relation fromEntityRef="Patent27682" toEntityRef="OrgUnit14906" type="Applicant"/>
+	</relations>
+</entity-relation-data>

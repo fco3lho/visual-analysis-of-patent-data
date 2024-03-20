@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:40" record="39667" source="Espacenet">
+	<entities>
+		<entity ref="Patent39667" type="Patent">
+			<semanticIdentifier>brcris::6318fc63d5e7e9e88bb31d97bfd2e783</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023483A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017023483</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023483A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171023483</semanticIdentifier>
+			<semanticIdentifier>original::102017023483</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017023483"/>
+			<field name="identifier.lattes" value="7450093129036326"/>
+			<field name="identifier.espacenet" value="102017023483"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="formulação à base de própolis para o tratamento de mastite bovina"/>
+			<field name="title.lattes" value="Formulação à base de própolis para o tratamento de mastite bovina"/>
+			<field name="depositDate" value="2017-10-31"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EVA MONICA SARMENTO DA SILVA"/>
+			<field name="inventor" value="MATEUS MATIUZZI DA COSTA"/>
+			<field name="inventor" value="RODOLFO DE MORAES PEIXOTO"/>
+			<field name="inventor" value="SILVIO ALAN GONCALVES BONFIM REIS"/>
+			<field name="inventor" value="TANIA MARIA SARMENTO DA SILVA"/>
+			<field name="inventor" value="VALDENICE FELIX DA SILVA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO VALE DO SAO FRANCISCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO (UFRPE)"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61P31/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K35/644AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="644AI"/>
+			</field>
+			<field name="abstract.espacenet" value="formulação à base de própolis para o tratamento de mastite bovina, patente de invenção que trata de uma formulação composta por extrato etanólico de própolis marrom, lanolina, vaselina sólida e vaselina líquida sendo eficiente para o tratamento natural de mastite em vacas secas e em lactação em qualquer sistema de criação, orgânico ou não. o produto permite tratar a doença por meio de sua ação antibacteriana e ainda estimula o sistema imune dos animais, é atóxico, seguro, não interfere nos componentes do leite, o descarte do leite não é necessário, possui disponibilidade de matéria prima, com fácil utilização e custo-benefício."/>
+			<field name="originatesFrom" value="67260656"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023483"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017023483"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023483"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171023483"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017023483"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26980" type="Person">
+			<semanticIdentifier>lattes::7450093129036326</semanticIdentifier>
+			<field name="identifier.lattes" value="7450093129036326"/>
+			<field name="name" value="Rodolfo de Moraes Peixoto"/>
+		</entity>
+		<entity ref="OrgUnit21137" type="OrgUnit">
+			<semanticIdentifier>brcris::59059ef5cb6531abec93dc96d6085c5f</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DO VALE DO SAO FRANCISCO"/>
+		</entity>
+		<entity ref="OrgUnit21138" type="OrgUnit">
+			<semanticIdentifier>brcris::ec9889ff811263753544b3183c6d1e81</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO (UFRPE)"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39667" toEntityRef="Person26980" type="Inventor"/>
+		<relation fromEntityRef="Patent39667" toEntityRef="OrgUnit21137" type="Applicant"/>
+		<relation fromEntityRef="Patent39667" toEntityRef="OrgUnit21138" type="Applicant"/>
+	</relations>
+</entity-relation-data>

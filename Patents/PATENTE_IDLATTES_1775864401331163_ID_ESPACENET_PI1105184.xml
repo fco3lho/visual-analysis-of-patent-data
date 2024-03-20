@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:35:32" record="45213" source="Espacenet">
+	<entities>
+		<entity ref="Patent45213" type="Patent">
+			<semanticIdentifier>brcris::7eda018f9932f1585b6a2f589b3c776c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105184A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1105184</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105184A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI05184</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1105184-1 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1105184"/>
+			<field name="identifier.lattes" value="1775864401331163"/>
+			<field name="identifier.espacenet" value="PI1105184"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO DE RECICLAGEM DE RESÍDUOS DE EQUIPAMENTOS ELETROELETRÔNICOS"/>
+			<field name="title.lattes" value="PROCESSO DE RECICLAGEM DE RESÍDUOS DE EQUIPAMENTOS ELETROELETRÔNICOS"/>
+			<field name="depositDate" value="2011-12-21"/>
+			<field name="publicationDate" value="2013-10-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DENISE CROCCE ROMANO ESPINOSA"/>
+			<field name="inventor" value="JORGE ALBERTO SOARES"/>
+			<field name="inventor" value="VIVIANE TAVARES DE MORAES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B09B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B03B7/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B03B9/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="B03C1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="5"/>
+				<field name="text" value="C22B3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE RECICLAGEM DE RESÍDUOS DE EQUIPAMENTOS ELETROELETRÔNICOS. A presente invenção se refere a um processo de reciclagem de resíduos de equipamentos eletroeletrônicos e de recuperação de metais. A presente invenção além de minimizar a disposição de resíduos provenientes de equipamentos eletroeletrônicos visa à recuperação de materiais, especialmente metais, reduzindo com isso, o consumo de recursos naturais. Esta recuperação é feita através de processos mecânicos, físicos, hidrometalúrgicos e eletrometalúrgicos."/>
+			<field name="originatesFrom" value="49274159"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105184"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1105184"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105184"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI05184"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1105184-1 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30945" type="Person">
+			<semanticIdentifier>lattes::1775864401331163</semanticIdentifier>
+			<field name="identifier.lattes" value="1775864401331163"/>
+			<field name="name" value="Viviane Tavares de Moraes"/>
+		</entity>
+		<entity ref="OrgUnit24274" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45213" toEntityRef="Person30945" type="Inventor"/>
+		<relation fromEntityRef="Patent45213" toEntityRef="OrgUnit24274" type="Applicant"/>
+	</relations>
+</entity-relation-data>

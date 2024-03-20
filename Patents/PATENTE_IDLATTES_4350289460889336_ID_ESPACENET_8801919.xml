@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:59" record="23164" source="Espacenet">
+	<entities>
+		<entity ref="Patent23164" type="Patent">
+			<semanticIdentifier>brcris::b5953f44442706c8930df46c05fe4b2f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8801919A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8801919</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8801919A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888801919</semanticIdentifier>
+			<semanticIdentifier>original::8801919</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8801919"/>
+			<field name="identifier.lattes" value="4350289460889336"/>
+			<field name="identifier.espacenet" value="8801919"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="LIGAS A BASE DE COBRE SEGUNDO UM SISTEMA COBRE-NIQUEL-MANGANES PARA RESTAURACOES METALICAS FUNDIDAS E PROTESES FIXAS"/>
+			<field name="title.lattes" value="Ligas a base de cobre segundo um sistema cobre-niquel-manganês para restaurações metálicas fundidas e próteses fixas"/>
+			<field name="depositDate" value="1988-04-15"/>
+			<field name="publicationDate" value="1989-11-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AQUIRA ISHIKIRIAMA"/>
+			<field name="inventor" value="JOSE MONDELLI"/>
+			<field name="applicant" value="AQUIRA ISHIKIRIAMA"/>
+			<field name="applicant" value="FINANCIADORA DE ESTUDOS E PROJETOS-FINEP"/>
+			<field name="applicant" value="JOSE MONDELLI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22C9/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="originatesFrom" value="4044610"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8801919"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8801919"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8801919"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888801919"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8801919"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16059" type="Person">
+			<semanticIdentifier>lattes::4350289460889336</semanticIdentifier>
+			<field name="identifier.lattes" value="4350289460889336"/>
+			<field name="name" value="José Mondelli"/>
+		</entity>
+		<entity ref="OrgUnit12439" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23164" toEntityRef="Person16059" type="Inventor"/>
+		<relation fromEntityRef="Patent23164" toEntityRef="OrgUnit12439" type="Applicant"/>
+		<relation fromEntityRef="Patent23164" toEntityRef="Person16059" type="Depositor"/>
+	</relations>
+</entity-relation-data>

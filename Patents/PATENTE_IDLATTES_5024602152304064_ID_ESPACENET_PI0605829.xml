@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:09:54" record="35481" source="Espacenet">
+	<entities>
+		<entity ref="Patent35481" type="Patent">
+			<semanticIdentifier>brcris::ae58a6500fe93cc2fef807d9bf1b0534</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605829A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605829</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605829A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05829</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605829-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605829"/>
+			<field name="identifier.lattes" value="5024602152304064"/>
+			<field name="identifier.espacenet" value="PI0605829"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="algoritmo de fluxo óptico modificado para rastreamento de deslocamentos em cámeras de baixa resolução"/>
+			<field name="title.lattes" value="Algoritmo de Fluxo Óptico Modificado para Rastreamento de Deslocamentos em Câmeras de Baixa Resolução"/>
+			<field name="depositDate" value="2006-12-28"/>
+			<field name="publicationDate" value="2008-08-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CINCINATO FURTADO LEITE NETO"/>
+			<field name="inventor" value="JOSE MARQUES SOARES"/>
+			<field name="inventor" value="PAULO CESAR CORTEZ"/>
+			<field name="inventor" value="ROBSON DA SILVA SIQUEIRA"/>
+			<field name="inventor" value="RODRIGO CARVALHO SOUSA COSTA"/>
+			<field name="applicant" value="SAMSUNG ELETRONICA DA AMAZONIA LTDA"/>
+			<field name="applicant" value="SAMSUNG ELETRONICA DA AMAZONIA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F13/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F3/042AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="042AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ALGORITMO DE FLUXO óPTICO MODIFICADO PARA RASTREAMENTO DE DESLOCAMENTOS EM CáMERAS DE BAIXA RESOLUçãO EM DISPOSITIVOS PORTáTEIS&quot;. De acordo com a presente invenção o invento abrange a identificação de deslocamento, utilizando-se de um algoritmo de fluxo óptico modificado, utilizando-se de um ganho não-linear, e de um fator de esquecimento da velocidade média que diminua o efeito da histerese provocada pelo processamento de vídeos a baixas taxas. Este parâmetro possui uma pequena variação para o cenário slide dependendo da luminosidade e distância a projeção. Parâmetros pequenos geram muito ruído na detecção, contudo, parâmetros grandes geram o fenómeno da histerese descrito Previamente. O vídeo a ser processado deve ser obtido por uma câmera portátil do tipo webcam ou acoplada a algum dispositivo móvel como celular, smartphone ou PDA. A obtenção do vídeo deve ser feita visualizando um ambiente estático, onde a única movimentação seja provida pelo movimento relativo da câmera. A movimentação deverá utilizar a movimentação do pulso para minimizar o esforço e maximizar a identificação do movimento relativo."/>
+			<field name="originatesFrom" value="39690897"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605829"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605829"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605829"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05829"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605829-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24430" type="Person">
+			<semanticIdentifier>lattes::5024602152304064</semanticIdentifier>
+			<field name="identifier.lattes" value="5024602152304064"/>
+			<field name="name" value="Paulo Cesar Cortez"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35481" toEntityRef="Person24430" type="Inventor"/>
+	</relations>
+</entity-relation-data>

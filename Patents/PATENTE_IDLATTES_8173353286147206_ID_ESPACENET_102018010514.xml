@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:10" record="7979" source="Espacenet">
+	<entities>
+		<entity ref="Patent7979" type="Patent">
+			<semanticIdentifier>brcris::13c8a26fde58dcd46c305744914e6185</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010514A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018010514</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010514A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181010514</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018010514"/>
+			<field name="identifier.lattes" value="8173353286147206"/>
+			<field name="identifier.espacenet" value="102018010514"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="creme de avicennia schaueriana e processo de obtenção"/>
+			<field name="title.lattes" value="CREME DE AVICENNIA SCHAUERIANA E PROCESSO DE OBTENÇÃO"/>
+			<field name="depositDate" value="2018-05-23"/>
+			<field name="publicationDate" value="2019-12-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAROLINE MARIA IGREJAS LOPES"/>
+			<field name="inventor" value="IVONE ANTONIA DE SOUZA"/>
+			<field name="inventor" value="JESSICA GUIDO DE ARAUJO SA"/>
+			<field name="inventor" value="JEYMESSON RAPHAEL CARDOSO VIEIRA"/>
+			<field name="inventor" value="LEILA BASTOS LEAL"/>
+			<field name="inventor" value="LIRIANE BARATELLA EVENCIO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D12/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K36/19AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="19AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P17/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="A61K127/00AN"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="127"/>
+				<field name="subgroup" value="00AN"/>
+			</field>
+			<field name="abstract.espacenet" value="trata-se de creme de uma preparação emulsionada (cremosa) com 5% do extrato aquoso liofilizado das folhas da planta avicennia schaueriana, com composição de extrato de emulsão aniônica, cujo processo de obtenção compreende a coleta de folhas de avicennia schaueriana, solubilizar com água destilada, homogeneizar, pesar, triturar e extrair com água à 40º c, por 20 minutos, então remover o resíduo sólido por filtração e a água por liofilização, por fim misturar com emulsão aniônica e envasar a mistura em pote, compondo o extrato aquoso de avicennia schaueriana a 5%, em creme."/>
+			<field name="originatesFrom" value="68765778"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010514"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018010514"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010514"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181010514"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5412" type="Person">
+			<semanticIdentifier>lattes::8173353286147206</semanticIdentifier>
+			<field name="identifier.lattes" value="8173353286147206"/>
+			<field name="name" value="Caroline Maria Igrejas Lopes"/>
+		</entity>
+		<entity ref="OrgUnit4275" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7979" toEntityRef="Person5412" type="Inventor"/>
+		<relation fromEntityRef="Patent7979" toEntityRef="OrgUnit4275" type="Applicant"/>
+	</relations>
+</entity-relation-data>

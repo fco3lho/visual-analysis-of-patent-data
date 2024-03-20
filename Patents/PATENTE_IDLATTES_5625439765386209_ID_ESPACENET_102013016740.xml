@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:19:28" record="41450" source="Espacenet">
+	<entities>
+		<entity ref="Patent41450" type="Patent">
+			<semanticIdentifier>brcris::abc2ae79cd6c37d23a2e4992426df576</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013016740A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013016740</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013016740A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131016740</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 016740-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013016740"/>
+			<field name="identifier.lattes" value="5625439765386209"/>
+			<field name="identifier.espacenet" value="102013016740"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Método para atribuição dinâmica de largura de banda em redes ópticas passivas com predição de tráfego"/>
+			<field name="title.lattes" value="MÉTODO PARA ATRIBUIÇÃO DINÂMICA DE LARGURA DE BANDA EM REDES ÓPTICAS PASSIVAS COM PREDIÇÃO DE TRÁFEGO"/>
+			<field name="depositDate" value="2013-06-28"/>
+			<field name="publicationDate" value="2015-03-31"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIELA MAYUMI FRANCHINI SASAKI SASSI"/>
+			<field name="inventor" value="SANDRO MARCELO ROSSI"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L12/917AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="917AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Resumo método para atribuição dinâmica de largura de banda em redes ópticas passivas com predição de tráfego. A presente invenção se refere a um método no qual a olt utiliza predição da carga de tráfego realizada por uma tdnn (time delay neural network, rede neural com atraso no tempo) no dba (dynamic bandwidth assignment, atribuição dinâmica de banda), permitindo estimar e antecipar a demanda futura de tráfego (banda) com base no histórico de tráfego upstream de cada onu. O dito método de dba realiza a inferência da carga de tráfego na onu baseado preferencialmente no método tm-dba e compreende as seguintes etapas: predição (701) da demanda de tráfego ril de cada alloc-id i através da dita tdnn; atribuição de banda fixa (702) rif para cada alloc-id i; atribuição de banda assegurada (703) para cada alloc-id i até que um respectivo nível aprovisionado ria seja alcançado ou a demanda de tráfego seja satisfeita; atribuição de banda extra (704) para todos os alloc-ids proporcionalmente às demandas de tráfego restantes até o limite dos seus respectivos níveis máximos configurados rim; gerando como resultado as informações necessárias para montagem do mapa de largura banda (bwmap) a ser enviado para as onus. 1/1"/>
+			<field name="originatesFrom" value="52780295"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013016740"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013016740"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013016740"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131016740"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 016740-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28252" type="Person">
+			<semanticIdentifier>lattes::5625439765386209</semanticIdentifier>
+			<field name="identifier.lattes" value="5625439765386209"/>
+			<field name="name" value="Sandro Marcelo Rossi"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41450" toEntityRef="Person28252" type="Inventor"/>
+	</relations>
+</entity-relation-data>

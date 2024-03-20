@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:14" record="10744" source="Espacenet">
+	<entities>
+		<entity ref="Patent10744" type="Patent">
+			<semanticIdentifier>brcris::40824613d66d2cb54f126940b9cd6670</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015019250A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015019250</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015019250A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151019250</semanticIdentifier>
+			<semanticIdentifier>original::102015019250</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015019250"/>
+			<field name="identifier.lattes" value="6510271930077491"/>
+			<field name="identifier.espacenet" value="102015019250"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de equalização para detectores de raios x realizando contagem de fótons"/>
+			<field name="title.lattes" value="MÉTODO DE EQUALIZAÇÃO PARA DETECTORES DE RAIOS X REALIZANDO CONTAGEM DE FÓTONS"/>
+			<field name="depositDate" value="2015-08-11"/>
+			<field name="publicationDate" value="2017-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DEBORA DE PAIVA MAGALHAES"/>
+			<field name="inventor" value="FRANZ WAGNER PUEBLA DO COUTO"/>
+			<field name="inventor" value="JEAN RINKEL"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01T1/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01T1/29AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="29AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de equalização para detectores de raios x realizando contagem de fótons. a presente invenção refere-se a um método de equalização dos limiares de energia detectados por pixels em detectores de radiação híbridos, preferencialmente em detectores de raios x com circuito integrado do modelo medipix3rx. essa equalização ajusta um parâmetro de ganho global levando em conta a minimização de uma equação que compreende os erros de reprodutibilidade dos experimentos com o detector e erros de discretização devido a precisão finita dos conversores digital-analógico do chip do detector."/>
+			<field name="originatesFrom" value="57965164"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015019250"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015019250"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015019250"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151019250"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015019250"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7475" type="Person">
+			<semanticIdentifier>lattes::6510271930077491</semanticIdentifier>
+			<field name="identifier.lattes" value="6510271930077491"/>
+			<field name="name" value="Débora de Paiva Magalhães"/>
+		</entity>
+		<entity ref="OrgUnit5946" type="OrgUnit">
+			<semanticIdentifier>brcris::8259a83e0c1f2225da8affeb25618bf4</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10744" toEntityRef="Person7475" type="Inventor"/>
+		<relation fromEntityRef="Patent10744" toEntityRef="OrgUnit5946" type="Applicant"/>
+	</relations>
+</entity-relation-data>

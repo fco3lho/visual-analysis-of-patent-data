@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:00:34" record="31008" source="Espacenet">
+	<entities>
+		<entity ref="Patent31008" type="Patent">
+			<semanticIdentifier>brcris::1bfe65dc50d59319ae8770c8aa367bd6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105457A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1105457</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105457A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI05457</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1105457-3 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1105457"/>
+			<field name="identifier.lattes" value="7663631003841813"/>
+			<field name="identifier.espacenet" value="PI1105457"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="FORMULÇÃO FARMACÊUTICA DERIVADA DE ÓLEO ESSENCIAL DE LIPPIA ORIGANOIDES H.B.K."/>
+			<field name="title.lattes" value="Formulação farmacêutica derivada de óleo essencial de Lippia origanoides H.B.K."/>
+			<field name="depositDate" value="2011-01-07"/>
+			<field name="publicationDate" value="2013-11-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIA MARIA DAS GRACAS LOPES CITO"/>
+			<field name="inventor" value="JOSE ARIMATEIA DANTAS LOPES"/>
+			<field name="inventor" value="MARIA DAS GRACAS FREIRE DE MEDEIROS"/>
+			<field name="inventor" value="REGINA CELIA BRESSAN QUEIROZ DE FIGUEREDO"/>
+			<field name="inventor" value="TULIO FLAVIO ACCIOLY DE LIMA E MOURA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K36/85AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="85AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P33/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C11B9/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="FORMULAÇÃO FARMACÊUTICA DERIVADA DE ÓLEO ESSENCIAL DE Lippia origanoides. A presente invenção se refere a formulações farmacêuticas à base do óleo essencial de Lippia origanoides H.B.K., de seus complexos de inclusão de 13-ciclodextrina com o óleo essencial em veículo(s), diluente(s), solvente(s) e/ou excipiente(s) farmaceuticamente aceitável (eis), para uso humano e veterinário, destinados a administração pelas vias oral e tópica, com aplicações no tratamento de infecções microbianas e parasitárias, em especial as leishmanioses."/>
+			<field name="originatesFrom" value="49549761"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105457"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1105457"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105457"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI05457"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1105457-3 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21251" type="Person">
+			<semanticIdentifier>lattes::7663631003841813</semanticIdentifier>
+			<field name="identifier.lattes" value="7663631003841813"/>
+			<field name="name" value="Maria das Gracas Freire de Medeiros"/>
+		</entity>
+		<entity ref="OrgUnit16576" type="OrgUnit">
+			<semanticIdentifier>brcris::1c1749386358c918331305e6e41a880a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31008" toEntityRef="Person21251" type="Inventor"/>
+		<relation fromEntityRef="Patent31008" toEntityRef="OrgUnit16576" type="Applicant"/>
+	</relations>
+</entity-relation-data>

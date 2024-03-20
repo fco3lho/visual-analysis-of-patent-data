@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:15" record="7015" source="Espacenet">
+	<entities>
+		<entity ref="Patent7015" type="Patent">
+			<semanticIdentifier>brcris::1caef0795032476f688764f4eb16abe0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602400A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602400</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602400A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02400</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602400-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602400"/>
+			<field name="identifier.lattes" value="1246572405382250"/>
+			<field name="identifier.espacenet" value="PI0602400"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="isolador óptico totalmente a fibra óptica"/>
+			<field name="title.lattes" value="Isolador óptico totalmente a fibra óptica"/>
+			<field name="depositDate" value="2006-05-29"/>
+			<field name="publicationDate" value="2008-03-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO DE FRANCISCO"/>
+			<field name="inventor" value="JOAO BATISTA ROSOLEM"/>
+			<field name="inventor" value="MURILO ARAUJO ROMERO"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Refere-se a presente invenção a dispositivo ISOLADOR óPTICO TOTALMENTE A FIBRA óPTICA, utilizado para isolar os sinais ópticos utilizados em redes ópticas de comunicação, o qual compreendende uma única fibra óptica do tipo W, na qual, pelo menos uma das camadas (núcleo, casca 1 ou casca 2) é constituída de material magnetoóptico, dita fibra cujas propriedades magnetoópticas, índices de refração e dimensões físicas das camadas que a compõem são especificados e dimensionados de maneira que, ao ser submetida a um campo magnético H transversal ao seu eixo longitudinal, a fibra apresente uma constante de propagação (ß¬+¬) para o sinal luminoso transmitido, oriundo da fonte emissora de luz (sentido de propagação +z), e uma outra constante de propagação (ß?) para o sinal luminoso refletido e/ou retroespalhado que retorna pela mesma fibra (sentido de propagação -z), de tal forma que o sinal transmitido pela fonte emissora de luz, que trafega no sentido +z seja guiado pelo núcleo, enquanto o sinal refletido e/ou retroespalhado, que trafega no sentido -z, do mesmo núcleo, esteja na condição de corte, vazando do núcleo para a região das cascas onde o mesmo é absorvido e/ou dissipado antes de atingir a fonte emissora da luz, que se encontra acoplada ao núcleo"/>
+			<field name="originatesFrom" value="39124632"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602400"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602400"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602400"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02400"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602400-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4716" type="Person">
+			<semanticIdentifier>lattes::1246572405382250</semanticIdentifier>
+			<field name="identifier.lattes" value="1246572405382250"/>
+			<field name="name" value="Carlos Alberto De Francisco"/>
+		</entity>
+		<entity ref="OrgUnit3735" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit3736" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7015" toEntityRef="Person4716" type="Inventor"/>
+		<relation fromEntityRef="Patent7015" toEntityRef="OrgUnit3735" type="Applicant"/>
+		<relation fromEntityRef="Patent7015" toEntityRef="OrgUnit3736" type="Applicant"/>
+	</relations>
+</entity-relation-data>

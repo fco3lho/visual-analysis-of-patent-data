@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:42" record="34901" source="Espacenet">
+	<entities>
+		<entity ref="Patent34901" type="Patent">
+			<semanticIdentifier>brcris::98cdc7b992cfc76d88ed3f794a732d7a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704450A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0704450</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704450A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI04450</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0704450-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0704450"/>
+			<field name="identifier.lattes" value="0831378986076282"/>
+			<field name="identifier.espacenet" value="PI0704450"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para preparação de sal disódico do 5,5-difenil-[(3-fosfonoxi) metil]-2,4-imidazolidinediona"/>
+			<field name="title.lattes" value="PROCESSO PARA PREPARAÇÃO DE SAL DISÓDICO DO 5,5-DIFENIL-[(3-FOSFONOXI) METIL]-2,4-IMIDAZOLIDINEDIONA"/>
+			<field name="depositDate" value="2007-11-30"/>
+			<field name="publicationDate" value="2012-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREA PEREIRA DOS SANTOS"/>
+			<field name="inventor" value="JOAO VITOR INACIO DOS SANTOS"/>
+			<field name="inventor" value="MARCUS CESAR SOALHEIRO ALEXANDRINO DA CRUZ"/>
+			<field name="inventor" value="OCTAVIO AUGUSTO CEVA ANTUNES"/>
+			<field name="inventor" value="OTAVIO VIANNA DE CARVALHO"/>
+			<field name="inventor" value="SERGIO FALOMIR PEDRAZA YUBERO CAMPO"/>
+			<field name="inventor" value="SILVIA DE LIMA MUNIZ"/>
+			<field name="applicant" value="NORTEC QUIMICA S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D233/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="233"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA PREPARAçãO DO SAL DISóDICO DO 5,5-DIFENIL-[(3-FOSFONOXI) METIL]-2,4-JMIDAZOLIDINEDlONA. A preparação da fosfenitoína disódica a partir do ácido fosfórico dibenzil éster 2,5-dioxo-4.4-difenil-imidazolidin-1-ilmetil éster ocorre através da utilização de agentes de transferência catalítica de hidrogênio, preferencialmente formiato de sódio, obtendo-se uma fase orgânica com o produto e subprodutos, os quais são adequadamente separados do solvente orgânico com precipitação do produto e redissolução em água que tem seu pH ajustado com solução aquosa de um ácido orgânico até pH na faixa de 8 a 9 sendo então obtido o produto fosfenitoína disódica que e separado de contaminantes por refrigeração da mistura reacional e isolado por filtração."/>
+			<field name="originatesFrom" value="45816304"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704450"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0704450"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704450"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI04450"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0704450-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24021" type="Person">
+			<semanticIdentifier>lattes::0831378986076282</semanticIdentifier>
+			<field name="identifier.lattes" value="0831378986076282"/>
+			<field name="name" value="Otavio Vianna de Carvalho"/>
+		</entity>
+		<entity ref="OrgUnit18847" type="OrgUnit">
+			<semanticIdentifier>brcris::20ee838f4dd65580254e1de95e320eb3</semanticIdentifier>
+			<field name="name" value="NORTEC QUIMICA S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34901" toEntityRef="Person24021" type="Inventor"/>
+		<relation fromEntityRef="Patent34901" toEntityRef="OrgUnit18847" type="Applicant"/>
+	</relations>
+</entity-relation-data>

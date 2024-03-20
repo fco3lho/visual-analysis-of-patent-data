@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:43" record="27530" source="Espacenet">
+	<entities>
+		<entity ref="Patent27530" type="Patent">
+			<semanticIdentifier>brcris::0718606d24bcf2bf5b9559f3991f4a17</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925417B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0925417</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925417A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI25417</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0925417</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0925417"/>
+			<field name="identifier.lattes" value="1168675569547602"/>
+			<field name="identifier.espacenet" value="PI0925417"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="analisador portátil de parâmetros de dispositivo quadripolar detector de partículas e fótons"/>
+			<field name="title.lattes" value="Analisador portátil de parâmetros de dispositivo quadripolar detector de partículas e fótons"/>
+			<field name="depositDate" value="2009-09-23"/>
+			<field name="publicationDate" value="2018-07-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ ANTONIO PEREIRA DOS SANTOS"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01T1/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="analisador portátil de parâmetros de dispositivo quadripolar detector de partículas e fótons. a presente invenção refere-se a um sistema eletrônico de baixo custo, leve e portátil que tem a função de mensurar curvas características de corrente versus tensão elétrica (ixv) de dispositivo quadripolar, tripolar, e bipolar utilizado como sensor/detector de partículas as mais diversas tais como elétrons, pósitrons, prótons, antiprótons, néutrons, múons, antimúons, káons, antikáons, pions, antipions, etc., e de fótons de raios x, gama, cósmico, síncrontron, lasers bem como fótons de luz emaranhados ou não. o circuito de controle central (1) mais (6) recebe instruções digitais ou digitalizadas oriundas de um usuário via (2) para ser decodificadas em (1). estas instruções consistem em códigos para executar funções, como polarizar o sensor/detector (7) via circuitos de sinais de corrente/tensão (3) e (4), para que (7) ao ser submetido à interação com partículas ou fótons forneça via eletrômetro (5) uma intensidade de corrente elétrica a ser mensurada. o resultado da medição digitalizado em (5) é transferido para (1) o qual transmite via (2) para um computador ou sistema de mostrador/tela gráfica qualquer o qual traçará a curva paramétrica do dispositivo (7). um programa computacional armazena as curvas num computador ou mostrador/tela gráfica para correlacioná-las com alguma grandeza fisica de interesse na área de medicina diagnóstica ou terápica, técnicas nucleares, técnicas analíticas de radioisótopos, técnicas de laboratório de fisica, química, forense, indústrias, mineração, petróleo, eletrônica, mecânica, mecatrônica, entre outras."/>
+			<field name="originatesFrom" value="62873036"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925417"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0925417"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925417"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI25417"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0925417"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19016" type="Person">
+			<semanticIdentifier>lattes::1168675569547602</semanticIdentifier>
+			<field name="identifier.lattes" value="1168675569547602"/>
+			<field name="name" value="Luiz Antonio Pereira dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit14842" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27530" toEntityRef="Person19016" type="Inventor"/>
+		<relation fromEntityRef="Patent27530" toEntityRef="OrgUnit14842" type="Applicant"/>
+	</relations>
+</entity-relation-data>

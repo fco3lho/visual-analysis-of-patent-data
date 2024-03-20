@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:08" record="10245" source="Espacenet">
+	<entities>
+		<entity ref="Patent10245" type="Patent">
+			<semanticIdentifier>brcris::bf2ac7db6fa62b0184c6168f74eb05a2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504495A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504495</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504495A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04495</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504495-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504495"/>
+			<field name="identifier.lattes" value="0264232179982467"/>
+			<field name="identifier.espacenet" value="PI0504495"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="promotor do gene de defesa de cana-de-açucar induzido por herbivoria e sua utilização"/>
+			<field name="title.lattes" value="Promotor do gene de defesa de cana-de-açúcar induzido por herbivoria e sua utilização"/>
+			<field name="depositDate" value="2005-07-04"/>
+			<field name="publicationDate" value="2007-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANE HACKBART DE MEDEIROS"/>
+			<field name="inventor" value="DANIEL SCHERER DE MOURA"/>
+			<field name="inventor" value="MARCIO DE CASTRO SILVA JR"/>
+			<field name="inventor" value="PATRICIA POMPERMAYER"/>
+			<field name="inventor" value="REINALDO MONTRAZI BARATA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/29AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="29AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROMOTOR DO GENE DE DEFESA DE CANA-DE AçúCAR INDUZIDO POR HERBIVORIA E SUA UTILIZAçãO. Novo promotor, ou agente promovedor, do gene de defesa da cana-de-açúcar, denominado de gene SUGARWIN, o qual é responsável pela regulação gênica deste gene SUGARWIN e de qualquer sequência genética que codifique uma proteína uma vez colocada sob seu controle. O presente invento refere-se a um promotor gênico induzido, especificamente para o ataque de insetos, mais particularmente ao ataque do inseto D. saccharalis, composto por uma seqüência reguladora de produtos gênicos, composta de nucleotídeos do promotor do gene nuclear de cana-de-açúcar que regula a expressão do gene de defesa SUGARWIN. O qual coloca a disposição uma seqüência reguladora de produtos gênicos na cana-de-açúcar, onde essa seqüência é composta de nucleotídeos do promotor do gene nuclear de cana-de-açúcar que regula a expressão do gene de defesa SUGARWIN, sendo ativada especificamente pelo inseto praga da cana-de-açúcar Diatraea saccharalis e, induzindo a expressão (ativação) de todo e qualquer gene que esteja sob o seu controle, possibilitando a manifestação de proteínas tóxicas ao inseto quando e, somente quando, a planta estiver sob ataque das pragas, oferecendo a capacidade de regulação da expressão gênica de genes de defesa somente quando os mesmos forem necessários para a produção de proteínas de defesa.."/>
+			<field name="originatesFrom" value="38007671"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504495"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504495"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504495"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04495"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504495-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7054" type="Person">
+			<semanticIdentifier>lattes::0264232179982467</semanticIdentifier>
+			<field name="identifier.lattes" value="0264232179982467"/>
+			<field name="name" value="Daniel Scherer de Moura"/>
+		</entity>
+		<entity ref="OrgUnit5613" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit5614" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10245" toEntityRef="Person7054" type="Inventor"/>
+		<relation fromEntityRef="Patent10245" toEntityRef="OrgUnit5613" type="Applicant"/>
+		<relation fromEntityRef="Patent10245" toEntityRef="OrgUnit5614" type="Applicant"/>
+	</relations>
+</entity-relation-data>

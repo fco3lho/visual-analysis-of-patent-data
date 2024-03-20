@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:09:34" record="35315" source="Espacenet">
+	<entities>
+		<entity ref="Patent35315" type="Patent">
+			<semanticIdentifier>brcris::192c45a2e8675d61707e4fa27d748c04</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013008200A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013008200</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013008200A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131008200</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 008200-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013008200"/>
+			<field name="identifier.lattes" value="9508701751298431"/>
+			<field name="identifier.espacenet" value="102013008200"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="FORMULAÇÃO CONTENDO EXTRATO DE MORINDA CITRIFOLIA NA PREVENÇÃO DE DANOS ASSOCIADOS AO ENVELHECIMENTO CUTÂNEO E QUEIMADURAS SOLARES"/>
+			<field name="title.lattes" value="Formulação contendo extrato de Morinda citrifolia na prevenção de danos associados ao envelhecimento cutâneo e queimaduras solares"/>
+			<field name="depositDate" value="2013-04-04"/>
+			<field name="publicationDate" value="2014-12-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO ANTUNES DE SOUZA ARAUJO"/>
+			<field name="inventor" value="CASSIA BRITTO DETONI"/>
+			<field name="inventor" value="MAIRIM RUSSO SERAFINI"/>
+			<field name="inventor" value="PAULA DOS PASSOS MENEZES"/>
+			<field name="inventor" value="RICARDO LUIZ CAVALCANTI DE ALBUQUERQUE JUNIOR"/>
+			<field name="inventor" value="SILVIA STANISCUASKI GUTERRES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K8/97AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="97AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61Q17/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="FORMULAÇÃO CONTENDO EXTRATO DE MORINDA CITRIFOLIA NA PREVENÇÃO DE DANOS ASSOCIADOS AO ENVELHECIMENTO CUTÂNEO E QUEIMADURAS SOLARES. O presente pedido de patente de invenção trata de um produto de aplicação tópica, contendo extrato de Morinda citrifolia, utilizado na prevenção de danos causados por radiação ultravioleta. A avaliação da eficácia do referido produto, em fase pré-clínica mostou que em relação aos danos causadas pela foto exposição, no parâmetro espessura, eritema, perda transepidérmica de água a análise histológica, pode-se afirmar que o extrato exerceu uma proteção aos danos causados pela radiação ultra-violeta."/>
+			<field name="originatesFrom" value="52003175"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013008200"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013008200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013008200"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131008200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 008200-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24314" type="Person">
+			<semanticIdentifier>lattes::9508701751298431</semanticIdentifier>
+			<field name="identifier.lattes" value="9508701751298431"/>
+			<field name="name" value="Paula dos Passos Menezes"/>
+		</entity>
+		<entity ref="OrgUnit19104" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+		<entity ref="OrgUnit19105" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35315" toEntityRef="Person24314" type="Inventor"/>
+		<relation fromEntityRef="Patent35315" toEntityRef="OrgUnit19104" type="Applicant"/>
+		<relation fromEntityRef="Patent35315" toEntityRef="OrgUnit19105" type="Applicant"/>
+	</relations>
+</entity-relation-data>

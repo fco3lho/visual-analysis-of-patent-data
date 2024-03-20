@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:10" record="7504" source="Espacenet">
+	<entities>
+		<entity ref="Patent7504" type="Patent">
+			<semanticIdentifier>brcris::3c30d36210b2a6a5148cb50b6d972d3f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017009708A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017009708</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017009708A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171009708</semanticIdentifier>
+			<semanticIdentifier>original::102017009708</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017009708"/>
+			<field name="identifier.lattes" value="0739489284822297"/>
+			<field name="identifier.espacenet" value="102017009708"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de comunicação sem fio em 250 mhz com tecnologia de rádio definido por software para internet das coisas"/>
+			<field name="title.lattes" value="SISTEMA DE COMUNICAÇÃO SEM FIO EM 250 MHz COM TECNOLOGIA DE RÁDIO DEFINIDO POR SOFTWARE PARA INTERNET DAS COISAS"/>
+			<field name="depositDate" value="2017-05-09"/>
+			<field name="publicationDate" value="2018-12-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS HENRIQUE RODRIGUES DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO MARANHAO - UEMA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W84/18AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="84"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve uma solução de comunicação sem fio utilizando a plataforma de rádio definido por software (sdr - software-defined radio) operando em frequência licenciada na faixa de vhf (very high frequency) em 250 mhz em consonância com a resolução 555 vigente da anatel (agência nacional de telecomunicações) para atendimento da demanda de comunicação de dados da 4ª revolução industrial mundial a chamada ?internet das coisas (iot - internet of things)? visando proporcionar longo alcance de cobertura de sinal de rádio frequência (rf - radio frequency), maior capacidade de transmissão de dados, maior flexibilidade na alocação de parâmetros sistêmicos por meio do recurso fpga (field programmable gate array), baixo custo de implantação e baixo consumo de energia dentro dos conceitos da atual tecnologia de lpwa (low power wide area)."/>
+			<field name="originatesFrom" value="64900213"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017009708"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017009708"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017009708"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171009708"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017009708"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5047" type="Person">
+			<semanticIdentifier>lattes::0739489284822297</semanticIdentifier>
+			<field name="identifier.lattes" value="0739489284822297"/>
+			<field name="name" value="Carlos Henrique Rodrigues de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit3983" type="OrgUnit">
+			<semanticIdentifier>brcris::80803f20cbb762bf1cd399414aa8142e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO MARANHAO - UEMA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7504" toEntityRef="Person5047" type="Inventor"/>
+		<relation fromEntityRef="Patent7504" toEntityRef="OrgUnit3983" type="Applicant"/>
+	</relations>
+</entity-relation-data>

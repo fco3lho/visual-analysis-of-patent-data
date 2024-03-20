@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:22" record="28493" source="Espacenet">
+	<entities>
+		<entity ref="Patent28493" type="Patent">
+			<semanticIdentifier>brcris::833dfc26923583c35f64e432eef08d31</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019907A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019907</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019907A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019907</semanticIdentifier>
+			<semanticIdentifier>original::102016019907</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019907"/>
+			<field name="identifier.lattes" value="0572979312975554"/>
+			<field name="identifier.espacenet" value="102016019907"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compósito à base de polipirrol e acetato de celulose como material adsorvente para extração em fase sólida, processo de preparação e uso"/>
+			<field name="title.lattes" value="Compósito à base de polipirrol e acetato de celulose como material adsorvente para extração em fase sólida, processo de preparação e uso"/>
+			<field name="depositDate" value="2016-08-29"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNA CARNEIRO PIRES"/>
+			<field name="inventor" value="FLAVIA VIANA AVELAR DUTRA"/>
+			<field name="inventor" value="KEYLLER BASTOS BORGES"/>
+			<field name="inventor" value="MARCELLA MATOS CORDEIRO"/>
+			<field name="inventor" value="TIENNE APARECIDA DO NASCIMENTO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08G2/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="compósito à base de polipirrol e acetato de celulose como material adsorvente para extração em fase sólida, processo de preparação e uso. a presente invenção refere-se à síntese de um compósito polimérico à base de polipirrol e acetato de celulose para uso em extração em fase sólida. este material possui alta capacidade de adsorção e também restrição às macromoléculas oriundas de fluidos biológicos por meio de duplo revestimento externo. o material é sintetizado facilmente e todo o processo de síntese é de baixo custo, reprodutível e com alto rendimento, podendo ser bastante utilizado em preparo de amostras e indústrias químicas, farmacêuticas e médicas."/>
+			<field name="originatesFrom" value="61973118"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019907"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019907"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019907"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19693" type="Person">
+			<semanticIdentifier>lattes::0572979312975554</semanticIdentifier>
+			<field name="identifier.lattes" value="0572979312975554"/>
+			<field name="name" value="Marcella Matos Cordeiro Borges"/>
+		</entity>
+		<entity ref="OrgUnit15379" type="OrgUnit">
+			<semanticIdentifier>brcris::a4ccc994cb0e532d68677b719a097898</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit15380" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28493" toEntityRef="Person19693" type="Inventor"/>
+		<relation fromEntityRef="Patent28493" toEntityRef="OrgUnit15379" type="Applicant"/>
+		<relation fromEntityRef="Patent28493" toEntityRef="OrgUnit15380" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:22" record="20305" source="Espacenet">
+	<entities>
+		<entity ref="Patent20305" type="Patent">
+			<semanticIdentifier>brcris::6b793fed21b1a55f8d1ee45e3d7cbfbf</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013006864A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013006864</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013006864A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131006864</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 006864-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013006864"/>
+			<field name="identifier.lattes" value="0956965042711324"/>
+			<field name="identifier.espacenet" value="102013006864"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA E PROCESSO PARA MONITORAMENTO DE PROCESSOS DE FERMENTAÇÃO"/>
+			<field name="title.lattes" value="Sistema e Processo para Monitoramento de Processos de Fermentação"/>
+			<field name="depositDate" value="2013-03-25"/>
+			<field name="publicationDate" value="2014-12-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO VAZ ROSSELL"/>
+			<field name="inventor" value="CARLOS KENICHI SUZUKI"/>
+			<field name="inventor" value="CELINA KIYOMI YAMAKAWA"/>
+			<field name="inventor" value="EDUARDO ONO"/>
+			<field name="inventor" value="ERIC FUJIWARA"/>
+			<field name="inventor" value="JACIANE LUTZ IENCZAK"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS - CNPEM"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/17AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="17AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12M1/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA E PROCESSO PARA MONITORAMENTO DE PROCESSOS DE FERMENTAÇÃO O presente pedido de patente de invenção refere-se a um processo e um sistema para monitoramento de processos de fermentação. A invenção proposta tem seu campo de aplicação no monitoramento em tempo real do processo de fermentação alcoólica, fornecendo o instante ideal para interrupção do processo fermentativo, de forma a otimizar o processo produtivo. As principais vantagens do sistema da presente invenção são decorrentes da utilização da própria fibra óptica como elemento sensor pois estas apresentam tamanho e peso reduzidos, baixa reatividade em meios agressivos, imunidade eletromagnética a riscos em ambientes potencialmente explosivos. Além disso, para a aplicação descrita no presente relatório, a fibra óptica possui também a vantagem da facilidade de acoplamento no biorreator, a aquisição dos dados pode ser feita a distância e o sistema não requer a utilização de nenhum tipo de fibra óptica especial, sendo que as fibras ópticas comerciais, utilizadas principalmente em telecomunicações, são totalmente adequadas. O processo proposto apresenta como vantagem monitoramento em tempo real do processo de fermentação alcoólica."/>
+			<field name="originatesFrom" value="52020593"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013006864"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013006864"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013006864"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131006864"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 006864-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14100" type="Person">
+			<semanticIdentifier>lattes::0956965042711324</semanticIdentifier>
+			<field name="identifier.lattes" value="0956965042711324"/>
+			<field name="name" value="Jaciane Lutz Ienczak"/>
+		</entity>
+		<entity ref="OrgUnit11045" type="OrgUnit">
+			<semanticIdentifier>brcris::8bd2dd74edf0a3c0cd7728b09ba1d497</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS - CNPEM"/>
+		</entity>
+		<entity ref="OrgUnit11046" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20305" toEntityRef="Person14100" type="Inventor"/>
+		<relation fromEntityRef="Patent20305" toEntityRef="OrgUnit11045" type="Applicant"/>
+		<relation fromEntityRef="Patent20305" toEntityRef="OrgUnit11046" type="Applicant"/>
+	</relations>
+</entity-relation-data>

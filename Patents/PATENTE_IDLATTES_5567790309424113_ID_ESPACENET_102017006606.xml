@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:00" record="9651" source="Espacenet">
+	<entities>
+		<entity ref="Patent9651" type="Patent">
+			<semanticIdentifier>brcris::46d8892905c1857bedae5e813712c468</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017006606A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017006606</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017006606A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171006606</semanticIdentifier>
+			<semanticIdentifier>original::102017006606</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017006606"/>
+			<field name="identifier.lattes" value="5567790309424113"/>
+			<field name="identifier.espacenet" value="102017006606"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="chave electro-óptica espacial amplificada com acoplador a filme fino de dupla entrada"/>
+			<field name="title.lattes" value="Chave eletro-óptica espacial amplificada com acoplador a filme fino de dupla entrada"/>
+			<field name="depositDate" value="2017-03-28"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANO DE MELLO GALLEP"/>
+			<field name="inventor" value="EVANDRO CONFORTI"/>
+			<field name="inventor" value="NAPOLEAO DOS SANTOS RIBEIRO"/>
+			<field name="inventor" value="RAFAEL CARVALHO FIGUEIREDO"/>
+			<field name="inventor" value="TIAGO SUTILI"/>
+			<field name="applicant" value="PADTEC S.A"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/122AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="122AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G02B6/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="chave electro-óptica espacial amplificada com acoplador a filme fino de dupla entrada a presente invenção refere-se a uma chave eletro-óptica com duas entradas de re seguidas de um acoplador de micro-ondas. 0 acoplador é feito com um resistor de filme fino simétrico conectando duas entradas independentes até o amplificador óptico a semicondutor (soa - semiconductor optical amplifier). esse acoplador integrado reduz os elementos parasitas elétricos da montagem e melhora a qualidade do sinal elétrico injetado para ligar e desligar o soa, permitindo o uso de técnica de chaveamento com injeção de pré-impulso próximo do ponto ótimo de compromisso entre tempos de chaveamento e oscilações da resposta óptica. a presente invenção permite alcançar tempos ultrarrápidos de chaveamento com pequenas oscilações, dispensando o uso da técnica de chaveamento com injeção de múltiplos impulsos que exige sinais elétricos com maiores amplitudes e maior duração no decorrer de todo o degrau de chaveamento, tendo como consequência a redução da eficiência energética do chaveamento eletro-óptico. em suma, a presente invenção revela uma chave eletro-óptica baseada em soa com acoplador integrado por resistor com tecnologia de filme fino que permite o uso da técnica chaveamento com injeção de pré-impulso com ótima qualidade do sinal elétrico, atendendo as exigências de rápidos tempos de chaveamento e resolvendo o problema de flutuações da resposta óptica e eficiência energética das chaves até então disponíveis."/>
+			<field name="originatesFrom" value="64269110"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017006606"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017006606"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017006606"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171006606"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017006606"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6596" type="Person">
+			<semanticIdentifier>lattes::5567790309424113</semanticIdentifier>
+			<field name="identifier.lattes" value="5567790309424113"/>
+			<field name="name" value="Cristiano de Mello Gallep"/>
+		</entity>
+		<entity ref="OrgUnit5202" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9651" toEntityRef="Person6596" type="Inventor"/>
+		<relation fromEntityRef="Patent9651" toEntityRef="OrgUnit5202" type="Applicant"/>
+	</relations>
+</entity-relation-data>

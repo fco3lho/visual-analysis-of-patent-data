@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:51" record="5587" source="Espacenet">
+	<entities>
+		<entity ref="Patent5587" type="Patent">
+			<semanticIdentifier>brcris::ccc72cc67245f816ffe4edf3609aaa51</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605397A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605397</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605397A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05397</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605397-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605397"/>
+			<field name="identifier.lattes" value="1570337112488817"/>
+			<field name="identifier.espacenet" value="PI0605397"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema e método de aproveitamento de biogás"/>
+			<field name="title.lattes" value="Sistema e Método de Aproveitamento de Biogás"/>
+			<field name="depositDate" value="2006-03-31"/>
+			<field name="publicationDate" value="2007-12-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE KEMENES"/>
+			<field name="inventor" value="LUZIA GOMES FERREIRA PAVANI"/>
+			<field name="inventor" value="MARIA DA CONSOLACAO GOMES CUNHA FERNANDES TAVARES"/>
+			<field name="inventor" value="MARIA DA CONSOLACAO GOMES CUNHA FERNANDES TAVARES"/>
+			<field name="inventor" value="SYLVIA SOUZA FORSBERG"/>
+			<field name="applicant" value="ALEXANDRE KEMENES"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="applicant" value="LUZIA GOMES FERREIRA PAVANI"/>
+			<field name="applicant" value="MARIA DA CONSOLACAO GOMES CUNHA FERNANDES TAVARES"/>
+			<field name="applicant" value="MARIA DA CONSOLACAO GOMES CUNHA FERNANDES TAVARES"/>
+			<field name="applicant" value="SYLVIA SOUZA FORSBERG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F11/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA E MéTODO DE APROVEITAMENTO DE BIOGáS derivado das águas profundas dos lagos formados pela inundação de terras decorrente da implantação de barragens para produção de energia hidrelétrica, visando reduzir as emissões de metano para a atmosfera, de modo a diminuir substancialmente o aquecimento global por efeito estufa, bem como aproveitar este biogás para a geração de energia. O biogás liberado nas usinas hidroelétricas durante a súbita descompressão da água que passa pelas turbinas, é captado durante e após a passagem pelas turbinas, podendo ser armazenado para ulterior aproveitamento ou queimado localmente em instalações geradoras de energia termoelétrica ou ainda em outros locais caso seja transportado por gasodutos."/>
+			<field name="originatesFrom" value="38217698"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605397"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605397"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605397"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05397"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605397-1"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2007112526"/>
+		</entity>
+		<entity ref="Person3690" type="Person">
+			<semanticIdentifier>lattes::1570337112488817</semanticIdentifier>
+			<field name="identifier.lattes" value="1570337112488817"/>
+			<field name="name" value="Aristides Pavani Filho"/>
+		</entity>
+		<entity ref="OrgUnit2902" type="OrgUnit">
+			<semanticIdentifier>brcris::8216edde71d5cb54d39cca550db7679d</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="Patent5588" type="Patent">
+			<semanticIdentifier>epodoc::WO2007112526</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="38217698"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2007112526"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5587" toEntityRef="Person3690" type="Inventor"/>
+		<relation fromEntityRef="Patent5587" toEntityRef="OrgUnit2902" type="Applicant"/>
+	</relations>
+</entity-relation-data>

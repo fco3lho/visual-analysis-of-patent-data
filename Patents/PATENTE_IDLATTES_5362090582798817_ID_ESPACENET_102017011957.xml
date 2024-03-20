@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:14" record="29941" source="Espacenet">
+	<entities>
+		<entity ref="Patent29941" type="Patent">
+			<semanticIdentifier>brcris::949a43eeeea982692349026aca11c76c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017011957A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017011957</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017011957A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171011957</semanticIdentifier>
+			<semanticIdentifier>original::102017011957</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017011957"/>
+			<field name="identifier.lattes" value="5362090582798817"/>
+			<field name="identifier.espacenet" value="102017011957"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="kit de eliminação de adutos de sódio e potássio para uso em espectrometria de massas por electrospray"/>
+			<field name="title.lattes" value="KIT DE ELIMINAÇÃO DE ADUTOS DE SÓDIO E POTÁSSIO PARA USO EM ESPECTROMETRIA DE MASSAS POR ELECTROSPRAY"/>
+			<field name="depositDate" value="2017-06-06"/>
+			<field name="publicationDate" value="2018-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO CESAR MEURER"/>
+			<field name="inventor" value="MARCOS ALESSANDRO DOS SANTOS RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/62AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N1/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N23/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01N30/72AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="72AI"/>
+			</field>
+			<field name="abstract.espacenet" value="utilização de um kit para sequestrar metais catiônicos eliminando íons orgânicos sodiados [m+na]+ e potassiados [m+k]+ favorecendo a detecção de somente íons protonados [m+h]+ em análise de soluções com metanol, acetonitrila ou água e suas respectivas misturas de qualquer tipo de analito orgânico e misturas de analitos por espectrometria de massas por eletrospray esi(+)-ms. o uso do kit elimina a divisão de íons que pode resultar em interferências isobáricas e forma íons protonados facilmente fragmentáveis, então aumenta a qualidade da análise facilitando a identificação do analito. a relação de um íon por analito é altamente benéfica para análise por infusão direta de misturas complexas por esi-ms e esi-ms/ms."/>
+			<field name="originatesFrom" value="65002993"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017011957"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017011957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017011957"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171011957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017011957"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20569" type="Person">
+			<semanticIdentifier>lattes::5362090582798817</semanticIdentifier>
+			<field name="identifier.lattes" value="5362090582798817"/>
+			<field name="name" value="Marcos Alessandro dos Santos Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit16095" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29941" toEntityRef="Person20569" type="Inventor"/>
+		<relation fromEntityRef="Patent29941" toEntityRef="OrgUnit16095" type="Applicant"/>
+	</relations>
+</entity-relation-data>

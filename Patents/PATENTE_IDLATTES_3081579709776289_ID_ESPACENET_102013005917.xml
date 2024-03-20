@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:33" record="34292" source="Espacenet">
+	<entities>
+		<entity ref="Patent34292" type="Patent">
+			<semanticIdentifier>brcris::50ff8a8634f6b925756d3ad7f97314c0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005917A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013005917</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005917A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131005917</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 005917-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013005917"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="102013005917"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="DISPOSITIVO AUTOPORTANTE SUBMARINO E SISTEMA"/>
+			<field name="title.lattes" value="Dispositivo Autoportante Submarino e Sistema ? Tenda"/>
+			<field name="depositDate" value="2013-03-13"/>
+			<field name="publicationDate" value="2014-11-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JORGE ROBERTO LOPES DOS SANTOS"/>
+			<field name="inventor" value="MAURICIO CARVALHO DOS SANTOS"/>
+			<field name="inventor" value="NEY ROBINSON SALVI DOS REIS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E02B15/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E21B43/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO AUTOPORTANTE SUBMARINO E SISTEMA. Dispositivo autoportante submarino erguido com o emprego de tecido compósito flexível, com a finalidade de cobrir, abrigar, conter ou sustentar diferentes materiais líquidos, sólidos ou gasosos, seres vivos e/ou equipamentos; cuja estrutura que suporta os esforços mecânicos de sustentação do conjunto fazer parte das paredes internas, externas e transversais do dispositivo, construída de tecido compósito flexível, no formato de dutos, que se espalham e interconectam num arranjo espacial, formando um esqueleto composto de nervuras (1) feitas do mesmo material compósito; e, sistema autoportante submarino formado pelo dispositivo autoportante submarino; sistema de bombeio submarino; injetores de produtos químicos; sensores para monitoração da presença e nível de óleo e gás e de comunicação destas informações para a superfície; eletrônica de medição e controle do seu desdobramento, soerguimento, permanência e dinâmica de operação sobre o solo marinho."/>
+			<field name="originatesFrom" value="51868430"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005917"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013005917"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005917"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131005917"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 005917-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23593" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18495" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34292" toEntityRef="Person23593" type="Inventor"/>
+		<relation fromEntityRef="Patent34292" toEntityRef="OrgUnit18495" type="Applicant"/>
+	</relations>
+</entity-relation-data>

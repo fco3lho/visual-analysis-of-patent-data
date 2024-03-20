@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:11" record="7990" source="Espacenet">
+	<entities>
+		<entity ref="Patent7990" type="Patent">
+			<semanticIdentifier>brcris::075957fd70cc64ba764a943d17bdbe19</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102588A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1102588</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102588A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI02588</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1102588</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1102588"/>
+			<field name="identifier.lattes" value="8134026922020188"/>
+			<field name="identifier.espacenet" value="PI1102588"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="colostro bovino e/ou caprino como ingrediente funcional em produtos lácteos fermentados"/>
+			<field name="title.lattes" value="Colostro bovino e/ou caprino como ingrediente funcional em produtos lácteos fermentados"/>
+			<field name="depositDate" value="2011-05-18"/>
+			<field name="publicationDate" value="2017-01-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS RICARDO SOCCOL"/>
+			<field name="inventor" value="CAROLINE TIEMI YAMAGUISHI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="originatesFrom" value="62748656"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102588"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1102588"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102588"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI02588"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1102588"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5423" type="Person">
+			<semanticIdentifier>lattes::8134026922020188</semanticIdentifier>
+			<field name="identifier.lattes" value="8134026922020188"/>
+			<field name="name" value="Caroline Tiemi Yamaguishi Damo"/>
+		</entity>
+		<entity ref="OrgUnit4286" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7990" toEntityRef="Person5423" type="Inventor"/>
+		<relation fromEntityRef="Patent7990" toEntityRef="OrgUnit4286" type="Applicant"/>
+	</relations>
+</entity-relation-data>

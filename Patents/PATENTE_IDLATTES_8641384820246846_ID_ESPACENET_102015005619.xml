@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:16" record="4224" source="Espacenet">
+	<entities>
+		<entity ref="Patent4224" type="Patent">
+			<semanticIdentifier>brcris::0841c2e4e1764963017c4cb4e50a4bb7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005619A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015005619</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005619A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151005619</semanticIdentifier>
+			<semanticIdentifier>original::102015005619</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015005619"/>
+			<field name="identifier.lattes" value="8641384820246846"/>
+			<field name="identifier.espacenet" value="102015005619"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="semeadora de precisão de duas linhas e um único dosador acionada por tração animal ou por trator de duas rodas para uso em plantio convencional ou direto"/>
+			<field name="title.lattes" value="Semeadora de precisão de duas linhas e um único dosador de tração animal ou com trator de duas rodas"/>
+			<field name="depositDate" value="2015-03-13"/>
+			<field name="publicationDate" value="2016-11-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELO VIERA DOS REIS"/>
+			<field name="inventor" value="ANTONIO LILLES TAVARES MACHADO"/>
+			<field name="inventor" value="SANDRO SILVA TEIXEIRA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL SUL-RIO-GRANDENSE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01C7/16AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a uma máquina para semear grãos graúdos como milho, feijão, soja entre outros. a máquina constitui-se de uma semeadora que utiliza um único dosador de sementes de disco horizontal perfurado (5) para duas linhas de plantio. a condução das sementes é realizada por meio de duas mangueiras flexíveis (7) uma disposta internamente à outra (sistema telescópico). cada linha é composta por uma roda de controle de profundidade com sulco central (10), um disco de corte liso (11), uma haste sulcadora (12) com ponteira com ângulo de ataque adequado para facilitar a penetração no solo e uma roda compactadora com alívio central (13). 0 chassi (6) serve de suporte para o reservatório de sementes, a barra de tração (9) e para a roda de acionamento (8) do sistema de transmissão de torque ao dosador (19) que é articulada e dotada de molas. para uso com tração animal devem ser montadas rabiças (1) com regulagem de altura e o sistema de acoplamento de tração animal (2) e se apresenta igualmente com regulagem de altura. para uso em tração mecânica, devem-se retirar as rabiças e o sistema de acoplamento para tração animal e montar o acoplamento para tração mecânica (3) e um par de estribos (4). a semeadora pode ser tracionada por animais ou por tratores de duas rodas, caracterizando dois sistemas de tração. a semeadora pode igualmente ser utilizada tanto para plantio direto, como para o plantio convencional caracterizando a possibilidade de utilização em dois sistemas de plantio."/>
+			<field name="originatesFrom" value="57197784"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005619"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015005619"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005619"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151005619"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015005619"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2980" type="Person">
+			<semanticIdentifier>lattes::8641384820246846</semanticIdentifier>
+			<field name="identifier.lattes" value="8641384820246846"/>
+			<field name="name" value="Ângelo Vieira dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit2425" type="OrgUnit">
+			<semanticIdentifier>brcris::61769b2c85bc048b20bf95ac2cfbb9d2</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL SUL-RIO-GRANDENSE"/>
+		</entity>
+		<entity ref="OrgUnit2426" type="OrgUnit">
+			<semanticIdentifier>brcris::5aa56af182c84d54a22c21eb8549aed1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4224" toEntityRef="Person2980" type="Inventor"/>
+		<relation fromEntityRef="Patent4224" toEntityRef="OrgUnit2425" type="Applicant"/>
+		<relation fromEntityRef="Patent4224" toEntityRef="OrgUnit2426" type="Applicant"/>
+	</relations>
+</entity-relation-data>

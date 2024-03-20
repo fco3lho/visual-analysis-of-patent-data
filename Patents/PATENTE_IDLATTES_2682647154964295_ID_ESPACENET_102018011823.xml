@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:46:58" record="24633" source="Espacenet">
+	<entities>
+		<entity ref="Patent24633" type="Patent">
+			<semanticIdentifier>brcris::8e3229e9cd0c6078292f256f25676f5a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018011823A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018011823</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018011823A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181011823</semanticIdentifier>
+			<semanticIdentifier>original::102018011823</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018011823"/>
+			<field name="identifier.lattes" value="2682647154964295"/>
+			<field name="identifier.espacenet" value="102018011823"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="conjunto e método para medição da vazão de fluido em tubulações"/>
+			<field name="title.lattes" value="?Conjunto e método para medição da vazão de fluido em tubulações?"/>
+			<field name="depositDate" value="2018-06-11"/>
+			<field name="publicationDate" value="2019-12-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE SANT'ANNA RIBEIRO"/>
+			<field name="inventor" value="ARTHUR MARTINS BARBOSA BRAGA"/>
+			<field name="inventor" value="CARLOS ROBERTO HALL BARBOSA"/>
+			<field name="inventor" value="JOSE ROBERTO MORAES D'ALMEIDA"/>
+			<field name="inventor" value="KHRISSY ARACELLY REIS MEDEIROS"/>
+			<field name="inventor" value="PAULA MEDEIROS PROENCA DE GOUVEA"/>
+			<field name="applicant" value="FACULDADES CATOLICAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F1/66AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="66AI"/>
+			</field>
+			<field name="abstract.espacenet" value="conjunto e método para medição da vazão de fluido em tubulações. a presente invenção consiste em um método para medição de vazão que compreende um sensor de fluxo não intrusivo e não invasivo para medição de vazão em tubulações baseado em fiber bragg grating (fbg) e flow-induced vibrations (fiv), objetivando correlacionar as deformações medidas na tubulação pelos sensores a fbg com as vazões que induziram a vibração que provocou estas deformações. o ruído do sinal de vibração é obtido pela medição direta da deformação, usando fbgs acoplados à superfície externa da tubulação. os resultados mostram que o nível de ruído, dado pelo desvio padrão do sinal da série temporal de deformação obtido pelos fbgs, é proporcional à vazão."/>
+			<field name="originatesFrom" value="68841714"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018011823"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018011823"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018011823"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181011823"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018011823"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2019237170"/>
+		</entity>
+		<entity ref="Person17129" type="Person">
+			<semanticIdentifier>lattes::2682647154964295</semanticIdentifier>
+			<field name="identifier.lattes" value="2682647154964295"/>
+			<field name="name" value="Khrissy Aracélly Reis Medeiros"/>
+		</entity>
+		<entity ref="OrgUnit13296" type="OrgUnit">
+			<semanticIdentifier>brcris::043c15f0585953bfcfea3f5d1a819bed</semanticIdentifier>
+			<field name="name" value="FACULDADES CATOLICAS"/>
+		</entity>
+		<entity ref="Patent24634" type="Patent">
+			<semanticIdentifier>epodoc::WO2019237170</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="68841714"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2019237170"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24633" toEntityRef="Person17129" type="Inventor"/>
+		<relation fromEntityRef="Patent24633" toEntityRef="OrgUnit13296" type="Applicant"/>
+	</relations>
+</entity-relation-data>

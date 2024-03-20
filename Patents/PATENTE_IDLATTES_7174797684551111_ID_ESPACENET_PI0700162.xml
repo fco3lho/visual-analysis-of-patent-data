@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:02" record="8467" source="Espacenet">
+	<entities>
+		<entity ref="Patent8467" type="Patent">
+			<semanticIdentifier>brcris::471556ef571a35232c78994203face3c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700162A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0700162</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700162A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI00162</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0700162-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0700162"/>
+			<field name="identifier.lattes" value="7174797684551111"/>
+			<field name="identifier.espacenet" value="PI0700162"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de automação do processo de animação labial de uma personagem virtual a partir de um vìdeo gravado"/>
+			<field name="title.lattes" value="SISTEMA DE AUTOMAÇÃO DO PROCESSO DE ANIMAÇÃO LABIAL DE UMA PERSONAGEM VIRTUAL A PARTIR DE UM VÍDEO GRAVADO"/>
+			<field name="depositDate" value="2007-01-31"/>
+			<field name="publicationDate" value="2008-09-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES BEZERRA DO PRADO"/>
+			<field name="applicant" value="GLOBO COMUNICACAO E PARTICIPACOES S.A"/>
+			<field name="applicant" value="GLOBO COMUNICACAO E PARTICIPACOES S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T13/40AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G10L21/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE AUTOMAçãO DO PROCESSO DE ANIMAçãO LABIAL DE UMA PERSONAGEM VIRTUAL A PARTIR DE UM VìDEO GRAVADO. Baseado em redes neurais Wisard, o sistema da presente invenção realiza uma captura inteligente da boca de um ator real em cada quadro de um vídeo gravado. Os quadros-chave, ou keyframes, são selecionados pelo operador. Um banco de imagens com bocas previamente armazenadas é acessado, e as bocas ali encontradas são comparadas com aquelas extraídas pelo sistema a partir de cada quadro. As bocas com menor grau de semelhança com relação às já armazenadas são adicionadas ao banco de imagens, garantindo, desta forma, que em um posterior uso do sistema o processo de animação será mais rápido e preciso. Ao não depender da análise do sinal de áudio como entrada do sistema, a presente invenção garante uma sincronização labial realística mediante um processo automático."/>
+			<field name="originatesFrom" value="39743889"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700162"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0700162"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700162"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI00162"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0700162-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5768" type="Person">
+			<semanticIdentifier>lattes::7174797684551111</semanticIdentifier>
+			<field name="identifier.lattes" value="7174797684551111"/>
+			<field name="name" value="Charles Bezerra do Prado"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8467" toEntityRef="Person5768" type="Inventor"/>
+	</relations>
+</entity-relation-data>

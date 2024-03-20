@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:29" record="32277" source="Espacenet">
+	<entities>
+		<entity ref="Patent32277" type="Patent">
+			<semanticIdentifier>brcris::24a7a3aac6152dd3f59d33c6b1a96de6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801094A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0801094</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801094A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI01094</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0801094-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0801094"/>
+			<field name="identifier.lattes" value="1691882914063691"/>
+			<field name="identifier.espacenet" value="PI0801094"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção da molécula, molécula, composição, método de preparo de biopróteses e uso da composição"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DA MOLÉCULA, MOLÉCULA, COMPOSIÇÃO, MÉTODO DE PREPARO DE BIOPRÓTESES E USO DA COMPOSIÇÃO"/>
+			<field name="depositDate" value="2008-03-31"/>
+			<field name="publicationDate" value="2009-11-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADOLFO ALBERTO LEIRNER"/>
+			<field name="inventor" value="BRONISLAW POLAKIEWICZ"/>
+			<field name="inventor" value="MARINA JUNKO SHIOTSU MAIZATO"/>
+			<field name="inventor" value="MARISA MASUMI BEPPU"/>
+			<field name="inventor" value="OLGA ZAZUCO HIGA"/>
+			<field name="inventor" value="RONALDO NOGUEIRA DE MORAES PITOMBO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR - CNEN"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C209/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="209"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61F2/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE OBTENçãO DA MOLéCULA, MOLéCULA, COMPOSIçãO, MéTODO DE PREPARO DE BIOPRóTESES E USO DA COMPOSIçãO. A presente invenção provê o processo de obtenção da molécula (fenetilamina-diepóxido), a dita molécula e composições farmacêuticas. Adicionalmente, a invenção ainda refere-se ao método de preparo de biopróteses e uso da composição."/>
+			<field name="originatesFrom" value="41297307"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801094"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0801094"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801094"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI01094"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0801094-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22179" type="Person">
+			<semanticIdentifier>lattes::1691882914063691</semanticIdentifier>
+			<field name="identifier.lattes" value="1691882914063691"/>
+			<field name="name" value="Marisa Masumi Beppu"/>
+		</entity>
+		<entity ref="OrgUnit17363" type="OrgUnit">
+			<semanticIdentifier>brcris::b85011ca73a7e327c6cc2109dbb40bea</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR - CNEN"/>
+		</entity>
+		<entity ref="OrgUnit17364" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit17365" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32277" toEntityRef="Person22179" type="Inventor"/>
+		<relation fromEntityRef="Patent32277" toEntityRef="OrgUnit17363" type="Applicant"/>
+		<relation fromEntityRef="Patent32277" toEntityRef="OrgUnit17364" type="Applicant"/>
+		<relation fromEntityRef="Patent32277" toEntityRef="OrgUnit17365" type="Applicant"/>
+	</relations>
+</entity-relation-data>

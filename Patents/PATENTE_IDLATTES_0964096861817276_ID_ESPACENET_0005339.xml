@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:02" record="20807" source="Espacenet">
+	<entities>
+		<entity ref="Patent20807" type="Patent">
+			<semanticIdentifier>brcris::19d2cd9f8d46efd608bf9210c82ce7c0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0005339A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0005339</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0005339A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000005339</semanticIdentifier>
+			<semanticIdentifier>original::0005339-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0005339"/>
+			<field name="identifier.lattes" value="0964096861817276"/>
+			<field name="identifier.espacenet" value="0005339"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Titulador em sistema de fluxo monossegmentado"/>
+			<field name="title.lattes" value="Titulador em Sistema de fluxo monossegmentado"/>
+			<field name="depositDate" value="2000-10-30"/>
+			<field name="publicationDate" value="2002-06-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELIO PASQUINI"/>
+			<field name="inventor" value="EMERSON VIDAL DE AQUINO"/>
+			<field name="inventor" value="JARBAS JOSE RODRIGUES ROHWEDDER"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01L3/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TITULADOR EM SISTEMA DE FLUXO MONOSSEGMENTADO&quot;. Para utilização em análise titulométricas em fluxo, caracterizado por compreender uma bomba (1), responsável pela propulsão da amostra e reagente através do reator; um injetor de amostra (2) o qual é responsável pela injeção de uma quantidade definida e reprodutível de amostra a ser titulada; o sistema de injeção de reagentes e soluções (3) o qual injeta volumes exatamente conhecidos de reagentes e soluções, necessários à execução da titulação, no interior do monossegmento válvulas solenóides de três vias (4); chaves ópticas (5), empregadas para localizar a posição exata do monossegmento; tubo reator (6), podendo ser constituído de material inerte aos constituintes de amostra e regentes; detector (7), monitora as mudanças Físicoquímicas da solução da amostra durante a titulação; purificador de ar (8), o qual pode ser substituído por um cilindro de gás inerte; frasco reservatório de água deionizada (9), utilizado na lavagem do sistema; frasco reservatório de titulante (10), utilizado para preencher o sistema de injeção sem a necessidade de desconectar o sistema da bobina de extração."/>
+			<field name="originatesFrom" value="3945732"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0005339"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0005339"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0005339"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000005339"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0005339-2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0005339"/>
+		</entity>
+		<entity ref="Person14406" type="Person">
+			<semanticIdentifier>lattes::0964096861817276</semanticIdentifier>
+			<field name="identifier.lattes" value="0964096861817276"/>
+			<field name="name" value="Jarbas Jose Rodrigues Rohwedder"/>
+		</entity>
+		<entity ref="OrgUnit11291" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent20808" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0005339</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="3945732"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0005339"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20807" toEntityRef="Person14406" type="Inventor"/>
+		<relation fromEntityRef="Patent20807" toEntityRef="OrgUnit11291" type="Applicant"/>
+	</relations>
+</entity-relation-data>

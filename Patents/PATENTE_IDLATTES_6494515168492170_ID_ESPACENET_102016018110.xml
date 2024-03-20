@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:15" record="5239" source="Espacenet">
+	<entities>
+		<entity ref="Patent5239" type="Patent">
+			<semanticIdentifier>brcris::9de4e66b227320d724994f74f9dee019</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018110A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016018110</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016018110A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161018110</semanticIdentifier>
+			<semanticIdentifier>original::102016018110</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016018110"/>
+			<field name="identifier.lattes" value="6494515168492170"/>
+			<field name="identifier.espacenet" value="102016018110"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mix de extrato pó de amendoim e umbu"/>
+			<field name="title.lattes" value="MIX DE EXTRATO PÓ DE AMENDOIM E UMBU"/>
+			<field name="depositDate" value="2016-07-26"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO JACKSON RIBEIRO BARROSO"/>
+			<field name="inventor" value="FRANCISCO DE ASSIS CARDOSO ALMEIDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE CAMPINA GRANDE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23L3/44AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="originatesFrom" value="62845536"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018110"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016018110"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016018110"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161018110"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016018110"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3411" type="Person">
+			<semanticIdentifier>lattes::6494515168492170</semanticIdentifier>
+			<field name="identifier.lattes" value="6494515168492170"/>
+			<field name="name" value="Antonio Jackson Ribeiro Barroso"/>
+		</entity>
+		<entity ref="OrgUnit2695" type="OrgUnit">
+			<semanticIdentifier>brcris::fe8e5586992df8b68e4a82dfd4fae1e3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE CAMPINA GRANDE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5239" toEntityRef="Person3411" type="Inventor"/>
+		<relation fromEntityRef="Patent5239" toEntityRef="OrgUnit2695" type="Applicant"/>
+	</relations>
+</entity-relation-data>

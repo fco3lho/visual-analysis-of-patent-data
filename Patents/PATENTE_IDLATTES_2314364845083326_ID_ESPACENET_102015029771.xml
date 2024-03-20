@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:28:50" record="43768" source="Espacenet">
+	<entities>
+		<entity ref="Patent43768" type="Patent">
+			<semanticIdentifier>brcris::f369aefd1a625fac874c53e8605c6139</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015029771A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015029771</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015029771A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151029771</semanticIdentifier>
+			<semanticIdentifier>original::102015029771</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015029771"/>
+			<field name="identifier.lattes" value="2314364845083326"/>
+			<field name="identifier.espacenet" value="102015029771"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="segmentação de vasos sanguíneos pulmonares em imagens de tomografia computadorizada do tórax utilizando análise de densidade pulmonar"/>
+			<field name="title.lattes" value="Segmentação de Vasos Sanguíneos Pulmonares em Imagens de Tomografia Computadorizada do Tórax Utilizando Análise de Densidade Pulmonar."/>
+			<field name="depositDate" value="2015-11-27"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALYSON BEZERRA NOGUEIRA RIBEIRO"/>
+			<field name="inventor" value="EDSON CAVALCANTI NETO"/>
+			<field name="inventor" value="MARCELO ALCANTARA HOLANDA"/>
+			<field name="inventor" value="PAULO CESAR CORTEZ"/>
+			<field name="inventor" value="TARIQUE DA SILVEIRA CAVALCANTE"/>
+			<field name="inventor" value="THOMAZ MAIA DE ALMEIDA"/>
+			<field name="inventor" value="VALBERTO ENOC RODRIGUES DA SILVA FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06T15/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="segmentação de vasos sanguíneos pulmonares em imagens de tomografia computadorizada do tórax utilizando análise de densidade pulmonar. nesta patente é proposto um novo método de segmentação de vasos sanguíneos baseado na análise da densidade pulmonar em 3d combinado com o algoritmo k-médias. 0 desenvolvimento do método se sustenta na importância do auxílio ao diagnóstico de cardiopatias pulmonares que a segmentação e extração de características dos vasos sanguíneos proporcionam. o método de segmentação é aplicado em imagens médicas no formato dicom ou similar."/>
+			<field name="originatesFrom" value="62954480"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015029771"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015029771"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015029771"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151029771"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015029771"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29898" type="Person">
+			<semanticIdentifier>lattes::2314364845083326</semanticIdentifier>
+			<field name="identifier.lattes" value="2314364845083326"/>
+			<field name="name" value="Thomaz Maia de Almeida"/>
+		</entity>
+		<entity ref="OrgUnit23467" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43768" toEntityRef="Person29898" type="Inventor"/>
+		<relation fromEntityRef="Patent43768" toEntityRef="OrgUnit23467" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:17" record="45543" source="Espacenet">
+	<entities>
+		<entity ref="Patent45543" type="Patent">
+			<semanticIdentifier>brcris::abc05c0c7b2012cbb7375c98babf2557</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0606087A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0606087</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0606087A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI06087</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0606087-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0606087"/>
+			<field name="identifier.lattes" value="3617697065989200"/>
+			<field name="identifier.espacenet" value="PI0606087"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="cimento produzido com adição de rpp"/>
+			<field name="title.lattes" value="Produção de cimento com usos de resíduos"/>
+			<field name="depositDate" value="2006-12-01"/>
+			<field name="publicationDate" value="2010-08-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUILHERME JORGE BRIGOLINI SILVA"/>
+			<field name="inventor" value="WANDER LUIZ VASCONCELOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B14/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="A mistura obtida pela adição de resíduo gerado através do polimento da cerâmica conhecida como grês-porcelanato ao cimento Portland trazendo um novo cimento p ara s er us ado na c onstrução c ivil c om m elhor de sempenho e menor custo final, melhorando também as propriedades no estado endurecido e a durabilidade do concreto produzido com este cimento. O resíduo de polimento porcelanato apresenta composição química e fisica apropriados para substituição de parte do cimento Portland, apresentando atividade pozolânica pelo ensaio da NBR 5753, também conhecida como Método de Fratini.. O produto da invenção é utilizado na construção civil em concreto estrutural e revestimento."/>
+			<field name="originatesFrom" value="42538020"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0606087"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0606087"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0606087"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI06087"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0606087-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31128" type="Person">
+			<semanticIdentifier>lattes::3617697065989200</semanticIdentifier>
+			<field name="identifier.lattes" value="3617697065989200"/>
+			<field name="name" value="Wander Luiz Vasconcelos"/>
+		</entity>
+		<entity ref="OrgUnit24415" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45543" toEntityRef="Person31128" type="Inventor"/>
+		<relation fromEntityRef="Patent45543" toEntityRef="OrgUnit24415" type="Applicant"/>
+	</relations>
+</entity-relation-data>

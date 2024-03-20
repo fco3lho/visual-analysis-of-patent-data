@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:09" record="3535" source="Espacenet">
+	<entities>
+		<entity ref="Patent3535" type="Patent">
+			<semanticIdentifier>brcris::bd5d9257b0e399978b5f32422ffb7231</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013020126A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013020126</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013020126A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131020126</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 020126-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013020126"/>
+			<field name="identifier.lattes" value="1244804271465938"/>
+			<field name="identifier.espacenet" value="102013020126"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Processo de determinação da corrosão de metais por combustíveis e/ou biocombustíveis"/>
+			<field name="title.lattes" value="PROCESSO DE DETERMINAÇÃO DA CORROSÃO DE METAIS POR COMBUSTÍVEIS E/OU BIOCOMBUSTÍVEIS"/>
+			<field name="depositDate" value="2013-08-07"/>
+			<field name="publicationDate" value="2015-08-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LAZARIN GALLINA"/>
+			<field name="inventor" value="EVERSON DO PRADO BANCZEK"/>
+			<field name="inventor" value="GUILHERME ARIELO RODRIGUES MAIA"/>
+			<field name="inventor" value="JAQUELINE APARECIDA ALVES PEREIRA"/>
+			<field name="inventor" value="LARISSA APARECIDA CORREA MATOS"/>
+			<field name="inventor" value="PAULO ROGERIO PINTO RODRIGUES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N17/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo de determinação da corrosão de metais por combustíveis e/ou biocombustíveis. O processo para a determinação da corrosão de metais por combustíveis e/ou biocombustíveis, de maneira indireta utilizando-se técnicas eletroquímicas, como polarização potenciodinâmia anódica, espectroscopia de impedância eletroquímica e potencial de circuito aberto. O processo consiste na imersão do metal no combustível e/ou biocombustível e posterior imersão do metal em um eletrólito forte, nacl 0,00002 a 20 mol/l em solução aquosa, para a determinação eletroquímica de parâmetros corrosivos, tais como a taxa de corrosão, potencial de corrosão e resistência de polarização."/>
+			<field name="originatesFrom" value="53801898"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013020126"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013020126"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013020126"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131020126"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 020126-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2498" type="Person">
+			<semanticIdentifier>lattes::1244804271465938</semanticIdentifier>
+			<field name="identifier.lattes" value="1244804271465938"/>
+			<field name="name" value="André Lazarin Gallina"/>
+		</entity>
+		<entity ref="OrgUnit1999" type="OrgUnit">
+			<semanticIdentifier>brcris::43a78740c95a1ca64db4f4f90a86f6ac</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3535" toEntityRef="Person2498" type="Inventor"/>
+		<relation fromEntityRef="Patent3535" toEntityRef="OrgUnit1999" type="Applicant"/>
+	</relations>
+</entity-relation-data>

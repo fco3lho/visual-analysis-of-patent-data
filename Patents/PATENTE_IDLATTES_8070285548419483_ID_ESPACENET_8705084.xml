@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:20" record="17370" source="Espacenet">
+	<entities>
+		<entity ref="Patent17370" type="Patent">
+			<semanticIdentifier>brcris::43dbea8ac12f182ca889558ebc5d6a60</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8705084A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8705084</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8705084A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19878705084</semanticIdentifier>
+			<semanticIdentifier>original::8705084</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8705084"/>
+			<field name="identifier.lattes" value="8070285548419483"/>
+			<field name="identifier.espacenet" value="8705084"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="SOLO TERMICO"/>
+			<field name="title.lattes" value="Solo Térmico"/>
+			<field name="depositDate" value="1987-08-20"/>
+			<field name="publicationDate" value="1988-04-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GERALDO ROBERTO DE ALMEIDA"/>
+			<field name="inventor" value="JULIO ROBERTO BARTOLI"/>
+			<field name="applicant" value="PIRELLI S/A COMPANHIA INDUSTRIAL BRASILEIRA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02G9/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="4043137"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8705084"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8705084"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8705084"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19878705084"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8705084"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12039" type="Person">
+			<semanticIdentifier>lattes::8070285548419483</semanticIdentifier>
+			<field name="identifier.lattes" value="8070285548419483"/>
+			<field name="name" value="Geraldo Roberto de Almeida"/>
+		</entity>
+		<entity ref="OrgUnit9428" type="OrgUnit">
+			<semanticIdentifier>brcris::f87a71056365e67ff6edee0589d9a228</semanticIdentifier>
+			<field name="name" value="PIRELLI S/A COMPANHIA INDUSTRIAL BRASILEIRA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17370" toEntityRef="Person12039" type="Inventor"/>
+		<relation fromEntityRef="Patent17370" toEntityRef="OrgUnit9428" type="Applicant"/>
+	</relations>
+</entity-relation-data>

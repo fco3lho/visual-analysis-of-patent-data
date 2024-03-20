@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:24" record="22952" source="Espacenet">
+	<entities>
+		<entity ref="Patent22952" type="Patent">
+			<semanticIdentifier>brcris::84f4d4e8f94b8711fe96d5a4eea07029</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9302553A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9302553</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9302553A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939302553</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9302553"/>
+			<field name="identifier.lattes" value="4399449818488690"/>
+			<field name="identifier.espacenet" value="9302553"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para projeção de imagens com paralaxe horizontal sobre tela holográfica"/>
+			<field name="title.lattes" value="Holoprojetor  por amplitude de campo"/>
+			<field name="depositDate" value="1993-07-28"/>
+			<field name="publicationDate" value="1995-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE JOAQUIM LUNAZZI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03H1/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="originatesFrom" value="4056776"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9302553"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9302553"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9302553"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939302553"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15862" type="Person">
+			<semanticIdentifier>lattes::4399449818488690</semanticIdentifier>
+			<field name="identifier.lattes" value="4399449818488690"/>
+			<field name="name" value="Jose Joaquín Lunazzi"/>
+		</entity>
+		<entity ref="OrgUnit12299" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22952" toEntityRef="Person15862" type="Inventor"/>
+		<relation fromEntityRef="Patent22952" toEntityRef="OrgUnit12299" type="Applicant"/>
+	</relations>
+</entity-relation-data>

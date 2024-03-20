@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:24:16" record="11263" source="Espacenet">
+	<entities>
+		<entity ref="Patent11263" type="Patent">
+			<semanticIdentifier>brcris::86e90a89dc6c93f3f052bf61dc601484</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017014441U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202017014441U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017014441U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20172014441U</semanticIdentifier>
+			<semanticIdentifier>original::202017014441</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202017014441"/>
+			<field name="identifier.lattes" value="4564237305773815"/>
+			<field name="identifier.espacenet" value="202017014441"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="sistema para estimativa de peso corporal via régua antropométrica"/>
+			<field name="title.lattes" value="SISTEMA PARA ESTIMATIVA DE PESO CORPORAL VIA RÉGUA ANTROPOMÉTRICA"/>
+			<field name="depositDate" value="2017-07-03"/>
+			<field name="publicationDate" value="2019-01-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE ROQUE DA SILVA"/>
+			<field name="inventor" value="DIEGO JOSE RATIVA MILLAN"/>
+			<field name="applicant" value="ALEXANDRE ROQUE DA SILVA"/>
+			<field name="applicant" value="DIEGO JOSE RATIVA MILLAN"/>
+			<field name="applicant" value="ESCOLA POLITECNICA DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/107AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="107AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para estimativa de peso corporal via régua antropométrica este pedido de concessão de patente através de modelo de utilidade refere-se à um sistema composto por um dispositivo capaz de realizar de modo preciso a perimetria dos membros superiores e inferiores e seus respectivos comprimentos visando à estimativa de peso corporal. de acordo com a organização mundial de saúde, a antropometria fornece uma técnica mais simples, portátil e universalmente aplicável, de baixo custo e não invasiva para avaliar o tamanho, proporções e composição do corpo humano. a primeira parte deste sistema, o dispositivo de medida é composto de duas hastes milimetradas cada haste possui duas presilhas, em cada presilha está fixada uma fita milimétrica antropométrica inelástica e inflexível que ao circundar o membro, apresenta a sua perimetria. a segunda parte do sistema é composto por um aplicativo que através de técnica de regressão por aprendizagem de máquinas estima-se o peso do indivíduo. a análise estatística no processamento dos dados é validada aceitando-se o erro quadrático médio (r2) que penaliza os erros significativos, sendo mais adequado para medir o desempenho do processamento dos dados na estimativa do peso do indivíduo. também são considerados o intervalo de confiança mínimo de 95%, e um erro máximo de 3 kg por indivíduo entre o peso predito e o peso real mensurado."/>
+			<field name="originatesFrom" value="65237923"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017014441"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202017014441U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017014441"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20172014441U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202017014441"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7856" type="Person">
+			<semanticIdentifier>lattes::4564237305773815</semanticIdentifier>
+			<field name="identifier.lattes" value="4564237305773815"/>
+			<field name="name" value="Diego José Rátiva Millán"/>
+		</entity>
+		<entity ref="OrgUnit6260" type="OrgUnit">
+			<semanticIdentifier>brcris::9132a069b7f9486a679b887118993e88</semanticIdentifier>
+			<field name="name" value="ESCOLA POLITECNICA DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11263" toEntityRef="Person7856" type="Inventor"/>
+		<relation fromEntityRef="Patent11263" toEntityRef="OrgUnit6260" type="Applicant"/>
+		<relation fromEntityRef="Patent11263" toEntityRef="Person7856" type="Depositor"/>
+	</relations>
+</entity-relation-data>

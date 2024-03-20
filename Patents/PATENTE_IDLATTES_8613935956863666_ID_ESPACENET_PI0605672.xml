@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:44" record="1025" source="Espacenet">
+	<entities>
+		<entity ref="Patent1025" type="Patent">
+			<semanticIdentifier>brcris::6d0e1b8789ae33b2d45b47749ab3021b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605672A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605672</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605672A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05672</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605672-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605672"/>
+			<field name="identifier.lattes" value="8613935956863666"/>
+			<field name="identifier.espacenet" value="PI0605672"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="densìmetro de processo"/>
+			<field name="title.lattes" value="DENSÍMETRO DE PROCESSO"/>
+			<field name="depositDate" value="2006-12-29"/>
+			<field name="publicationDate" value="2008-08-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO ALVES DE OLIVEIRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N9/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N9/34AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;DENSìMETRO DE PROCESSO&quot;. Trata a presente invenção de um densímetro de processo, que apresenta características de medição da densidade em tempo real. O objetivo acima é alcançado com a concepção de um equipamento que, basicamente, compreende um trecho de tubulação (1), o qual aloja em seu interior um tubo venturi (3), um transdutor de pressão diferencial (6), um sensor de inclinação (7), um mecanismo sensor de vazão (8). Os dados recolhidos pelos diversos sensores são encaminhados a uma unidade de processamento (12) para serem tratados segundo a modelagem matemática adotada para a presente invenção."/>
+			<field name="originatesFrom" value="39690873"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605672"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605672"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605672"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05672"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605672-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person739" type="Person">
+			<semanticIdentifier>lattes::8613935956863666</semanticIdentifier>
+			<field name="identifier.lattes" value="8613935956863666"/>
+			<field name="name" value="Alberto Alves de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit586" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1025" toEntityRef="Person739" type="Inventor"/>
+		<relation fromEntityRef="Patent1025" toEntityRef="OrgUnit586" type="Applicant"/>
+	</relations>
+</entity-relation-data>

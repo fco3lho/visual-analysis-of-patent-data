@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:37" record="18626" source="Espacenet">
+	<entities>
+		<entity ref="Patent18626" type="Patent">
+			<semanticIdentifier>brcris::d18819124a547c7041137ab0f9fc6d5e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012026054A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012026054</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012026054A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121026054</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 026054-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012026054"/>
+			<field name="identifier.lattes" value="8559702581252966"/>
+			<field name="identifier.espacenet" value="102012026054"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA PARA REDUÇÃO DE ARRASTO EM EMBARCAÇÕES"/>
+			<field name="title.lattes" value="Sistema para redução de arrasto em embarcações"/>
+			<field name="depositDate" value="2012-10-11"/>
+			<field name="publicationDate" value="2014-06-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO SOUZA CARMO"/>
+			<field name="inventor" value="CLOVIS DE ARRUDA MARTINS"/>
+			<field name="inventor" value="GUSTAVO ROQUE DA SILVA ASSI"/>
+			<field name="inventor" value="IVAN KORKISCHKO"/>
+			<field name="inventor" value="JOSE ALGUSTO PENTEADO ARANHA"/>
+			<field name="inventor" value="JULIO ROMANO MENEGHINI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B63H1/28AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA PARA REDUÇÃO DE ARRASTO EM EMBARCAÇÕES. O sistema para redução de arrasto em embarcações consiste num mecanismo composto por dois cilindros (2) com pequeno diãmetro, acoplados a motores que os façam girar com rotação controlada, localizados na popa de embarcação (1) que se deseja reduzir a força de arrasto."/>
+			<field name="originatesFrom" value="50932722"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012026054"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012026054"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012026054"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121026054"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 026054-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12911" type="Person">
+			<semanticIdentifier>lattes::8559702581252966</semanticIdentifier>
+			<field name="identifier.lattes" value="8559702581252966"/>
+			<field name="name" value="Gustavo Roque da Silva Assi"/>
+		</entity>
+		<entity ref="OrgUnit10054" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18626" toEntityRef="Person12911" type="Inventor"/>
+		<relation fromEntityRef="Patent18626" toEntityRef="OrgUnit10054" type="Applicant"/>
+	</relations>
+</entity-relation-data>

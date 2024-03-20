@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:01" record="38132" source="Espacenet">
+	<entities>
+		<entity ref="Patent38132" type="Patent">
+			<semanticIdentifier>brcris::b36258ffc656f31d058b0a1fd6525498</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1012480A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1012480</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1012480A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI12480</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1012480-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1012480"/>
+			<field name="identifier.lattes" value="9093331241572944"/>
+			<field name="identifier.espacenet" value="PI1012480"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Método privado e semi-público de marcas d'água raster em mapas vetoriais"/>
+			<field name="title.lattes" value="MÉTODO PRIVADO E SEMI-PÚBLICO DE MARCAS D?ÁGUA RASTER EM MAPAS VETORIAIS"/>
+			<field name="depositDate" value="2010-03-11"/>
+			<field name="publicationDate" value="2015-03-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DOUGLAS AURELIO MARQUES"/>
+			<field name="inventor" value="KARINA MOCHETTI DE MAGALHAES"/>
+			<field name="inventor" value="RICARDO DAHAB"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T1/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Método privado e semi-público de marcas d'água raster em mapas vetoriais. A presente invenção trata-se de um método privado de inserção e detecção de marcas d'água raster em mapas vetoriais (rawvec) e um método semi-público de inserção e detecção de marcas d'água raster em mapas vetoriais (sb-rawvec). A invenção traz vantajosamente uma proposta de métodos robustos de marca d'água para mapas vetoriais que utilizam informações específicas do mapa vetorial para inserir uma imagem raster no domínio espacial do mapa. Além de serem específicos para mapas vetoriais são robustos a diversos ataques, possuem um bom controle da qualidade do mapa vetorial marcado e inserem uma imagem raster com marca d'água ao invés de uma sequência binária, tornando a verificação da marca d'água extraída mais completa, já que esta pode ser feita tanto por algorítmos probabilísticos como pelo olho humano. A utilização de métodos para identificar a autoridade e posse de imagens raster é essencial para empresas especializadas na tomada de imagens aerofotogramétricas, na produção de mapas e plantas destinadas a planejamento territorial e a projetos de engenharia"/>
+			<field name="originatesFrom" value="52780236"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1012480"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1012480"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1012480"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI12480"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1012480-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26276" type="Person">
+			<semanticIdentifier>lattes::9093331241572944</semanticIdentifier>
+			<field name="identifier.lattes" value="9093331241572944"/>
+			<field name="name" value="Ricardo Dahab"/>
+		</entity>
+		<entity ref="OrgUnit20590" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38132" toEntityRef="Person26276" type="Inventor"/>
+		<relation fromEntityRef="Patent38132" toEntityRef="OrgUnit20590" type="Applicant"/>
+	</relations>
+</entity-relation-data>

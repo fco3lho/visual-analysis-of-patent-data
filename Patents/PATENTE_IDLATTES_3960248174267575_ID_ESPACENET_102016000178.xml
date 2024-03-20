@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:47" record="7320" source="Espacenet">
+	<entities>
+		<entity ref="Patent7320" type="Patent">
+			<semanticIdentifier>brcris::62eb99d322f14aae41146b93afe9dd98</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016000178A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016000178</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016000178A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161000178</semanticIdentifier>
+			<semanticIdentifier>original::102016000178</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016000178"/>
+			<field name="identifier.lattes" value="3960248174267575"/>
+			<field name="identifier.espacenet" value="102016000178"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para extração de dna a partir de tecidos orgânicos utilizando como enzima a pancreatina"/>
+			<field name="title.lattes" value="PROCESSO PARA EXTRAÇÃO DE DNA A PARTIR DE TECIDOS ORGÂNICOS UTILIZANDO COMO ENZIMA A PANCREATINA"/>
+			<field name="depositDate" value="2016-01-06"/>
+			<field name="publicationDate" value="2017-07-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNA FELICIO MILAZZOTTO MALDONADO PORCHIA"/>
+			<field name="inventor" value="CARLOS CAMARGO ALBERTS"/>
+			<field name="inventor" value="EDISLANE BARREIROS DE SOUZA"/>
+			<field name="inventor" value="GABRIEL ARANDA SELVERIO"/>
+			<field name="inventor" value="JENY RACHID CURSINO DOS SANTOS"/>
+			<field name="inventor" value="JOAO TADEU RIBEIRO PAES"/>
+			<field name="inventor" value="VANESSA ROMA MORENO COTULIO"/>
+			<field name="inventor" value="WAGNER FERREIRA DOS SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para extração de dna a partir de tecidos orgânicos utilizando como enzima a pancreatina a presente invenção se refere a um processo para extração de dna a partir de tecidos orgânicos utilizando como enzima a pancreatina em substituição da proteinase k. o material biológico é obtido, como exemplo de uso da nova técnica, a partir dos pelos de nove espécies de felinos e quatro de canídeos, bem como das penas de pavão (pavo sp.), tecidos de coração, osso e fígado de camundongos (mus musculus)."/>
+			<field name="originatesFrom" value="61622221"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016000178"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016000178"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016000178"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161000178"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016000178"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4902" type="Person">
+			<semanticIdentifier>lattes::3960248174267575</semanticIdentifier>
+			<field name="identifier.lattes" value="3960248174267575"/>
+			<field name="name" value="Carlos C Alberts"/>
+		</entity>
+		<entity ref="OrgUnit3883" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7320" toEntityRef="Person4902" type="Inventor"/>
+		<relation fromEntityRef="Patent7320" toEntityRef="OrgUnit3883" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:05" record="8490" source="Espacenet">
+	<entities>
+		<entity ref="Patent8490" type="Patent">
+			<semanticIdentifier>brcris::9580539a16887b18f0601fb61682381d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007352A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017007352</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007352A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171007352</semanticIdentifier>
+			<semanticIdentifier>original::102017007352</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017007352"/>
+			<field name="identifier.lattes" value="8381515141542572"/>
+			<field name="identifier.espacenet" value="102017007352"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="pulseira monitor de radiação eletromagnética"/>
+			<field name="title.lattes" value="PULSEIRA MONITOR DE RADIAÇÃO ELETROMAGNÉTICA"/>
+			<field name="depositDate" value="2017-04-04"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES TACIRO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01J1/42AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="pulseira monitor de radiação eletromagnética. a presente invenção refere-se a um dispositivo de pulso destinado à uso pessoal, para monitoramento e alerta do nível de exposição à radiação proveniente de campos eletromagnéticos. o dispositivo destina-se principalmente à proteção individual, seja por uso de equipamentos sensíveis à radiação eletromagnética, como marca-passo cardíaco e aparelhos auditivos, ou profissionais que são expostos devido a atividade profissional diariamente à níveis elevados e acumulativos de radiação eletromagnética, como radiologistas e fisioterapeutas os dados de horário local, alarme sonoro e vibratório para nível de radiação eletromagnética, exposição de radiação eletromagnética instantânea e acumulada ao longo de um período pré-determinado são mostrados no visor lcd. o dispositivo possui interface via bluetooth para transmissão de dados para computador, tablet ou smartphone para análise e interpretação detalhada dos dados."/>
+			<field name="originatesFrom" value="64269128"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007352"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017007352"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007352"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171007352"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017007352"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5790" type="Person">
+			<semanticIdentifier>lattes::8381515141542572</semanticIdentifier>
+			<field name="identifier.lattes" value="8381515141542572"/>
+			<field name="name" value="Charles Taciro"/>
+		</entity>
+		<entity ref="OrgUnit4580" type="OrgUnit">
+			<semanticIdentifier>brcris::03c2b2c8dd0c202eab1bde92d80854a4</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8490" toEntityRef="Person5790" type="Inventor"/>
+		<relation fromEntityRef="Patent8490" toEntityRef="OrgUnit4580" type="Applicant"/>
+	</relations>
+</entity-relation-data>

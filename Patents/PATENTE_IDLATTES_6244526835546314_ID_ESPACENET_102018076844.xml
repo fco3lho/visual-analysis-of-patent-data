@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:32" record="37123" source="Espacenet">
+	<entities>
+		<entity ref="Patent37123" type="Patent">
+			<semanticIdentifier>brcris::9180ca1e8fcf27d29af9f3e4547d92a8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076844A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018076844</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076844A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181076844</semanticIdentifier>
+			<semanticIdentifier>original::102018076844</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018076844"/>
+			<field name="identifier.lattes" value="6244526835546314"/>
+			<field name="identifier.espacenet" value="102018076844"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de extração de hemicelulose da cana-de-açúcar"/>
+			<field name="title.lattes" value="PROCESSO DE EXTRAÇÃO DE HEMICELULOSE DA CANA-DE-AÇÚCAR"/>
+			<field name="depositDate" value="2018-12-21"/>
+			<field name="publicationDate" value="2020-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELSO BARBOSA DE SANT?ANNA FILHO"/>
+			<field name="inventor" value="FERNANDO CARLOS PAGNOCCA"/>
+			<field name="inventor" value="JONAS CONTIERO"/>
+			<field name="inventor" value="MICHEL BRIENZO"/>
+			<field name="inventor" value="PEDRO DE OLIVA NETO"/>
+			<field name="inventor" value="RANIERI BUENO MELATI"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE METROLOGIA, QUALIDADE E TECNOLOGIA - INMETRO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08B15/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08B37/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C08L5/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de extração de hemicelulose da cana-de- açúcar . é descrito um processo de extração de hemicelulose a partir do entrenó da cana-de-açúcar, incluindo as etapas de remoção da sacarose dos entrenós mediante prensagem ou moagem, secagem, remoção de extrativos em soxhlet, com etanol e água, por 6 horas, seguindo a secagem em estufa a 60°c e extração da hemicelulose (xilana, 4-o-metil-glucuronoarabinoxylana) utilizando 3% m/v de um reagente, sob agitação de 75 rpm, a 25°c, por 4 horas, provendo um processo com significativa redução de reagente (cerca de 50% da quantidade de reagente necessário para o processamento do bagaço da cana-de-açúcar) e na consequente redução de custo de produção, viabilizando o processo de extração de hemicelulose em larga escala."/>
+			<field name="originatesFrom" value="71451329"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076844"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018076844"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076844"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181076844"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018076844"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25601" type="Person">
+			<semanticIdentifier>lattes::6244526835546314</semanticIdentifier>
+			<field name="identifier.lattes" value="6244526835546314"/>
+			<field name="name" value="Ranieri Bueno Melati"/>
+		</entity>
+		<entity ref="OrgUnit20074" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37123" toEntityRef="Person25601" type="Inventor"/>
+		<relation fromEntityRef="Patent37123" toEntityRef="OrgUnit20074" type="Applicant"/>
+	</relations>
+</entity-relation-data>

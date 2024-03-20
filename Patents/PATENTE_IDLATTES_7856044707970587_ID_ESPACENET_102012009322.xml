@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:54" record="1095" source="Espacenet">
+	<entities>
+		<entity ref="Patent1095" type="Patent">
+			<semanticIdentifier>brcris::813da11b750096335ff615eba73ea920</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012009322A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012009322</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012009322A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121009322</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 009322-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012009322"/>
+			<field name="identifier.lattes" value="7856044707970587"/>
+			<field name="identifier.espacenet" value="102012009322"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO PARA MEDIÇÃO DE NÍVEL DE PRODUTO EM EQUIPAMENTOS DE PROCESSO"/>
+			<field name="title.lattes" value="MEDIDOR DE NÍVEL TERMOGRÁFICO"/>
+			<field name="depositDate" value="2012-04-20"/>
+			<field name="publicationDate" value="2013-11-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALCEO CARTA NETO"/>
+			<field name="inventor" value="PAULO ROBERTO PINHEIRO AMARAL"/>
+			<field name="inventor" value="ROBERTO GLIESE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F23/284AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="284AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01J5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO PARA MEDIÇÃO DE NÍVEL DE PRODUTO EM EQUIPAMENTOS DE PROCESSO. A presente invenção possui como objetivo um método de medição do nível de produto em equipamentos de processo que permite a interpretação da imagem de forma a obter uma informação de nível de produtos no interior de um equipamento monitorado em tempo real e em formato que permite seu uso em sistemas de controle de processo. O método de medição de nível consiste fundamentalmente em quatro etapas: a) aquisição na imagem termográfica b) realce da diferença entre as temperaturas na imagem. c) detecção das arestas e d) correlação da posição da aresta na imagem com o nível de produto no equipamento."/>
+			<field name="originatesFrom" value="49624663"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012009322"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012009322"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012009322"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121009322"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 009322-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person803" type="Person">
+			<semanticIdentifier>lattes::7856044707970587</semanticIdentifier>
+			<field name="identifier.lattes" value="7856044707970587"/>
+			<field name="name" value="Alceo Carta Neto"/>
+		</entity>
+		<entity ref="OrgUnit639" type="OrgUnit">
+			<semanticIdentifier>brcris::1dfb027b364337c698431f151cd6e54c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A"/>
+		</entity>
+		<entity ref="OrgUnit640" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1095" toEntityRef="Person803" type="Inventor"/>
+		<relation fromEntityRef="Patent1095" toEntityRef="OrgUnit639" type="Applicant"/>
+		<relation fromEntityRef="Patent1095" toEntityRef="OrgUnit640" type="Applicant"/>
+	</relations>
+</entity-relation-data>

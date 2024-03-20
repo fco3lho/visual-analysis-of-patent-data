@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:39" record="8210" source="Espacenet">
+	<entities>
+		<entity ref="Patent8210" type="Patent">
+			<semanticIdentifier>brcris::99ad7450a5bc5e2ae3a2bc98bf65ec94</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008156A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018008156</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008156A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181008156</semanticIdentifier>
+			<semanticIdentifier>original::102018008156</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018008156"/>
+			<field name="identifier.lattes" value="4500025814149366"/>
+			<field name="identifier.espacenet" value="102018008156"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="formulação cosmética anti candida contendo extrato de geopropolis"/>
+			<field name="title.lattes" value="FORMULAÇÃO COSMÉTICA ANTI CANDIDA CONTENDO EXTRATO DE GEOPROPOLIS"/>
+			<field name="depositDate" value="2018-04-23"/>
+			<field name="publicationDate" value="2019-11-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELSO DE AMORIM CAMARA"/>
+			<field name="inventor" value="EVA MONICA SARMENTO DA SILVA"/>
+			<field name="inventor" value="TANIA MARIA SARMENTO DA SILVA"/>
+			<field name="inventor" value="TELMA MARIA GUEDES DA SILVA"/>
+			<field name="inventor" value="UMBERTO PEREIRA SOUZA JUNIOR"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO VALE DO SAO FRANCISCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61Q17/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/98AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="98AI"/>
+			</field>
+			<field name="abstract.espacenet" value="?formulação cosmética anti candida contendo extrato de geopropolis?. a presente invenção relata o processo de fabricação de um sabonete líquido a base de extrato de geoprópolis da abelha nativa mandaçaia (melipona mandacaia) constituindo um adjuvante no tratamento de infecções vaginais causadas por leveduras do gênero candida, rico em fenólicos e a caracteização dos biomarcadores químicos (flavonoides e derivados de fenilpropanóides), sendo uma inovadora formulação a partir de um produto natural com excelente qualidade."/>
+			<field name="originatesFrom" value="68385831"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008156"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018008156"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008156"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181008156"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018008156"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5606" type="Person">
+			<semanticIdentifier>lattes::4500025814149366</semanticIdentifier>
+			<field name="identifier.lattes" value="4500025814149366"/>
+			<field name="name" value="Celso de Amorim Camara"/>
+		</entity>
+		<entity ref="OrgUnit4439" type="OrgUnit">
+			<semanticIdentifier>brcris::c8e2321fba226978f3a19d994adeff7a</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DO VALE DO SAO FRANCISCO"/>
+		</entity>
+		<entity ref="OrgUnit4440" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8210" toEntityRef="Person5606" type="Inventor"/>
+		<relation fromEntityRef="Patent8210" toEntityRef="OrgUnit4439" type="Applicant"/>
+		<relation fromEntityRef="Patent8210" toEntityRef="OrgUnit4440" type="Applicant"/>
+	</relations>
+</entity-relation-data>

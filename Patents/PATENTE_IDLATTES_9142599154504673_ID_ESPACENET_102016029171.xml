@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:47" record="42102" source="Espacenet">
+	<entities>
+		<entity ref="Patent42102" type="Patent">
+			<semanticIdentifier>brcris::c1b17ecd249f6e993922898f271ecdae</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016029171A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016029171</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016029171A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161029171</semanticIdentifier>
+			<semanticIdentifier>original::102016029171</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016029171"/>
+			<field name="identifier.lattes" value="9142599154504673"/>
+			<field name="identifier.espacenet" value="102016029171"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="fibra óptica plástica amplificadora"/>
+			<field name="title.lattes" value="Fibra Óptica Plástica Amplificadora"/>
+			<field name="depositDate" value="2016-12-13"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADILSON RIBEIRO PRADO"/>
+			<field name="inventor" value="ALEX DOS SANTOS BORGES"/>
+			<field name="inventor" value="KAIO FARDIM"/>
+			<field name="inventor" value="SHIRLEY PERONI NEVES CANI"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01S3/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04B10/50AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;fibra óptica plástica amplificadora&quot; fibras ópticas são guias de ondas eletromagnéticas circulares que têm seu princípio baseado na reflexão total da luz. assim, para que funcione de forma eficaz a sua constituição dever ser composta de núcleo (core), onde deverá se propagar a onda eletromagnética, casca (cladding) que é a responsável pelo confinamento da luz, e revestimento (jaket), que garante a proteção mecânica da fibra. a presente patente de invenção, trata de um dispositivo amplificador dopado com európio, a ser utilizado nas comunicações ópticas baseadas em fibras ópticas plásticas."/>
+			<field name="originatesFrom" value="62954428"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016029171"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016029171"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016029171"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161029171"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016029171"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28702" type="Person">
+			<semanticIdentifier>lattes::9142599154504673</semanticIdentifier>
+			<field name="identifier.lattes" value="9142599154504673"/>
+			<field name="name" value="Shirley Peroni Neves Cani"/>
+		</entity>
+		<entity ref="OrgUnit22435" type="OrgUnit">
+			<semanticIdentifier>brcris::06bebaffaf67663afba14efa6fb85cc5</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42102" toEntityRef="Person28702" type="Inventor"/>
+		<relation fromEntityRef="Patent42102" toEntityRef="OrgUnit22435" type="Applicant"/>
+	</relations>
+</entity-relation-data>

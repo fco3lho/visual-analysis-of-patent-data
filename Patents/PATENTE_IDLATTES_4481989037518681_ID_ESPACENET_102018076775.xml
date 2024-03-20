@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:48" record="18720" source="Espacenet">
+	<entities>
+		<entity ref="Patent18720" type="Patent">
+			<semanticIdentifier>brcris::d1344a76cca743a29fd86dfa489fbac8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076775A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018076775</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018076775A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181076775</semanticIdentifier>
+			<semanticIdentifier>original::102018076775</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018076775"/>
+			<field name="identifier.lattes" value="4481989037518681"/>
+			<field name="identifier.espacenet" value="102018076775"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="obtenção de ovo em pó por spray dryer"/>
+			<field name="title.lattes" value="OBTENÇÃO DE OVO EM PÓ POR SPRAY DRYER"/>
+			<field name="depositDate" value="2018-12-20"/>
+			<field name="publicationDate" value="2020-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HEBER SIVINI FERREIRA"/>
+			<field name="inventor" value="MAYARA DAVILA DE MESQUITA DE LIMA"/>
+			<field name="inventor" value="VERUSCKA ARAUJO SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23B5/035AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="035AI"/>
+			</field>
+			<field name="abstract.espacenet" value="obtenção de ovo em pó por spray dryer. a presente invenção trata de um método para a obtenção do ovo na forma de pó por meio da técnica de spray dryer. neste método, o ovo foi seco em um spray dryer com temperaturas de entrada do ar entre 120 a 150ºc. os pós obtidos foram caracterizados por atividade de água (aw), umidade, cinzas, minerais, lipídeos, proteínas e carboidratos. de acordo com os resultados foi verificado que houve conservação das características físico-químicas, indicando a viabilidade do processo descrito."/>
+			<field name="originatesFrom" value="71451356"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076775"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018076775"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018076775"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181076775"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018076775"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12986" type="Person">
+			<semanticIdentifier>lattes::4481989037518681</semanticIdentifier>
+			<field name="identifier.lattes" value="4481989037518681"/>
+			<field name="name" value="Heber Sivini Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit10123" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18720" toEntityRef="Person12986" type="Inventor"/>
+		<relation fromEntityRef="Patent18720" toEntityRef="OrgUnit10123" type="Applicant"/>
+	</relations>
+</entity-relation-data>

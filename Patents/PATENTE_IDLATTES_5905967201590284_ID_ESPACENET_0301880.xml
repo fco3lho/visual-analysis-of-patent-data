@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:24" record="1375" source="Espacenet">
+	<entities>
+		<entity ref="Patent1375" type="Patent">
+			<semanticIdentifier>brcris::0d36f9bee94acf078bc1dced0a8aaf06</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301880A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0301880</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301880A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030301880</semanticIdentifier>
+			<semanticIdentifier>original::0301880-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0301880"/>
+			<field name="identifier.lattes" value="5905967201590284"/>
+			<field name="identifier.espacenet" value="0301880"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Mecarebe-medidor da capacidade de recomposição de bancos estuarianos"/>
+			<field name="title.lattes" value="MECAREBE-Medidor da Capacidade de Recomposição de Bancos Estuarinos"/>
+			<field name="depositDate" value="2003-04-25"/>
+			<field name="publicationDate" value="2005-03-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX MAURICIO ARAUJO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E02B3/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MECAREBE - MEDIDOR DA CAPACIDADE DE RECOMPOSIçãO DE BANCOS ESTUARINOS&quot;. Dispositivo concebido para uso em processo de medidas de recomposição de bancos estuarinos composto por receptáculo volumétrico variável principal de material preferencialmente resistente às intempéries e ação corrosiva das águas estuarinas associado a um conjunto de discos, com peso devidamente calculado para suportar o empuxo das águas, que funciona como lastro para o receptáculo e, ao mesmo tempo, base para fixação de haste com alça facilitadora da sua retirada e transporte da amostra não deformada. A alça serve também como elemento de fixação de corda da bóia de localização do dispositivo no banco."/>
+			<field name="originatesFrom" value="34383154"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301880"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0301880"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301880"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030301880"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0301880-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1031" type="Person">
+			<semanticIdentifier>lattes::5905967201590284</semanticIdentifier>
+			<field name="identifier.lattes" value="5905967201590284"/>
+			<field name="name" value="Alex Maurício Araújo"/>
+		</entity>
+		<entity ref="OrgUnit817" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1375" toEntityRef="Person1031" type="Inventor"/>
+		<relation fromEntityRef="Patent1375" toEntityRef="OrgUnit817" type="Applicant"/>
+	</relations>
+</entity-relation-data>

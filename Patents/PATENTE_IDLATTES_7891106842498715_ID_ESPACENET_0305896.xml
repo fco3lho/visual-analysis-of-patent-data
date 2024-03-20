@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:01" record="16132" source="Espacenet">
+	<entities>
+		<entity ref="Patent16132" type="Patent">
+			<semanticIdentifier>brcris::f01eff36b190f05fc99444ca5cdb794d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305896A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0305896</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305896A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030305896</semanticIdentifier>
+			<semanticIdentifier>original::0305896-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0305896"/>
+			<field name="identifier.lattes" value="7891106842498715"/>
+			<field name="identifier.espacenet" value="0305896"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema de gerenciamento de dados fiscais em pontos comerciais e/ou de serviços, através de hardware acoplado em série entre um pdv e uma impressora fiscal ou similar"/>
+			<field name="title.lattes" value="Sistema de gerenciamento de dados fiscais em pontos comerciais e/ou de serviços, através de hardware acoplado em série entre um pdv e uma impressora fiscal ou similar"/>
+			<field name="depositDate" value="2003-11-25"/>
+			<field name="publicationDate" value="2005-08-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DIEGO RODRIGUES THULER"/>
+			<field name="inventor" value="ELIAS DE ASSIS GOIS"/>
+			<field name="inventor" value="FLAVIO DE CASTRO ALVES JR"/>
+			<field name="applicant" value="TECNAL TECNOLOGIA EM INFORMATICA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G07B5/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA DE GERENCIAMENTO DE DADOS FISCAIS EM PONTOS COMERCIAIS E/OU DE SERVIçOS, ATRAVéS DE HARDWARE ACOPLADO EM SéRIE ENTRE UM PDV E UMA IMPRESSORA FISCAL OU SIMILAR&quot;. Que compreende um dispositivo de hardware capaz de identificar e armazenar dados enviados por um PDV a uma impressora fiscal ECF, para a substituição da fita detalhe. Esta placa é um periférico localizado entre o PDV e a bobina de impressão. O sistema (hardware) necessitou de um software cujo propósito é o tratamento da linha de comunicação. O hardware utiliza microcontrolador MC68HC11 da Motorola ou dispositivos Cyclone^ TM^ EP1C6 da Altera. O cupom fiscal gerado no PDV, após emitido digitalmente, passa primeiro pelo sistema em questão, onde fica automaticamente armazenado, sendo em seguida enviado ao ECF. O sistema escreve informações relativas à empresa na qual será instalado o sistema de gerenciamento; realiza a leitura dos dados que trafegam entre o ponto de venda (PDV) e o emissor de cupom fiscal (ECF); envia, via porta serial, as informações contidas na memória flash para um terminal próprio."/>
+			<field name="originatesFrom" value="34831784"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305896"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0305896"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305896"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030305896"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0305896-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11205" type="Person">
+			<semanticIdentifier>lattes::7891106842498715</semanticIdentifier>
+			<field name="identifier.lattes" value="7891106842498715"/>
+			<field name="name" value="Flavio de Castro Alves Filho"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16132" toEntityRef="Person11205" type="Inventor"/>
+	</relations>
+</entity-relation-data>

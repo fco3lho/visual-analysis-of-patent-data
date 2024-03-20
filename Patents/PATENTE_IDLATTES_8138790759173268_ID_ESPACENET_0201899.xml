@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:02" record="5098" source="Espacenet">
+	<entities>
+		<entity ref="Patent5098" type="Patent">
+			<semanticIdentifier>brcris::40ba1575fa117043b4dd708716e7b807</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0201899A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0201899</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0201899A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020201899</semanticIdentifier>
+			<semanticIdentifier>original::0201899-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0201899"/>
+			<field name="identifier.lattes" value="8138790759173268"/>
+			<field name="identifier.espacenet" value="0201899"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Armadilha para insetos"/>
+			<field name="title.lattes" value="Armadilha para insetos (patente)"/>
+			<field name="depositDate" value="2002-05-22"/>
+			<field name="publicationDate" value="2004-04-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO DA SILVA SOUTO"/>
+			<field name="inventor" value="LEDA NARCISA REGIS"/>
+			<field name="inventor" value="ROSANGELA MARIA RODRIGUES BARBOSA"/>
+			<field name="applicant" value="FUNDACAO OSWALDO CRUZ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01M1/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ARMADILHA PARA INSETOS&quot;. A presente invenção se refere à uma armadilha simples, de baixo custo e fácil manejo, que funcione como um sítio de oviposição para Culex, utilizando uma combinação de fatores físicos e químicos capazes de aumentar a sua atratividade. A presente invenção proporciona uma armadilha que funciona como um sítio de oviposição para o vetor da filariose, Cx. quinquefasciatus."/>
+			<field name="originatesFrom" value="32097324"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0201899"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0201899"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0201899"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020201899"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0201899-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3315" type="Person">
+			<semanticIdentifier>lattes::8138790759173268</semanticIdentifier>
+			<field name="identifier.lattes" value="8138790759173268"/>
+			<field name="name" value="Antonio da Silva Souto"/>
+		</entity>
+		<entity ref="OrgUnit2614" type="OrgUnit">
+			<semanticIdentifier>brcris::fd1aaa8a379490760047a3d051a56b50</semanticIdentifier>
+			<field name="name" value="FUNDACAO OSWALDO CRUZ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5098" toEntityRef="Person3315" type="Inventor"/>
+		<relation fromEntityRef="Patent5098" toEntityRef="OrgUnit2614" type="Applicant"/>
+	</relations>
+</entity-relation-data>

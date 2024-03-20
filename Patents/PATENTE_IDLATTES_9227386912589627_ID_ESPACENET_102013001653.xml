@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:10" record="23725" source="Espacenet">
+	<entities>
+		<entity ref="Patent23725" type="Patent">
+			<semanticIdentifier>brcris::5f38d0d871472b36c0eaea99c961fd6b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013001653A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013001653</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013001653A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131001653</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 001653-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013001653"/>
+			<field name="identifier.lattes" value="9227386912589627"/>
+			<field name="identifier.espacenet" value="102013001653"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="COMPOSIÇÃO PARA FABRICAÇÃO DE DORMENTES DE CONCRETO REFORÇADO COM FIBRAS"/>
+			<field name="title.lattes" value="Emprego do rejeito da fabricação de fibra óptica para produção de materiais de construção civil"/>
+			<field name="depositDate" value="2013-01-23"/>
+			<field name="publicationDate" value="2014-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA RAMOS DE MIRANDA"/>
+			<field name="inventor" value="JULIA MARIA GIEHL"/>
+			<field name="inventor" value="LUIZ CARLOS BARBOSA"/>
+			<field name="inventor" value="MARIA TERESA GOMES BARBOSA"/>
+			<field name="inventor" value="MARIANA PAES DA FONSECA MAIA"/>
+			<field name="inventor" value="ZELIA MARIA DA COSTA LUDWIG"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B14/42AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E01B3/46AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPOSIÇÃO PARA FABRICAÇÃO DE DORMENTES DE CONCRETO REFORÇADO COM FIBRAS. Refere-se o presente pedido de patente de invenção a uma composição a base de concreto, doravante denominado ECODOR, destinada à fabricação de dormentes. O produto final pode substituir os dormentes de madeira e de concreto convencional em vias permanentes (ferrovias), tendo em vista a redução de custos, uma vez que consiste no reaproveitamento de rejeitos como agregados e fibras ópticas, bem como os benefícios ambientais resultantes da redução de área de depósitos de entulhos em aterros ou bota-foras, além de apresentar elevada resistência à compressão e à tração."/>
+			<field name="originatesFrom" value="51453067"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013001653"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013001653"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013001653"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131001653"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 001653-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16490" type="Person">
+			<semanticIdentifier>lattes::9227386912589627</semanticIdentifier>
+			<field name="identifier.lattes" value="9227386912589627"/>
+			<field name="name" value="Júlia Maria Giehl"/>
+		</entity>
+		<entity ref="OrgUnit12767" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="OrgUnit12768" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23725" toEntityRef="Person16490" type="Inventor"/>
+		<relation fromEntityRef="Patent23725" toEntityRef="OrgUnit12767" type="Applicant"/>
+		<relation fromEntityRef="Patent23725" toEntityRef="OrgUnit12768" type="Applicant"/>
+	</relations>
+</entity-relation-data>

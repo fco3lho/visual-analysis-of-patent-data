@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:44" record="10981" source="Espacenet">
+	<entities>
+		<entity ref="Patent10981" type="Patent">
+			<semanticIdentifier>brcris::633d8f111b7ff6be7167651862431ce5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020837A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016020837</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020837A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161020837</semanticIdentifier>
+			<semanticIdentifier>original::102016020837</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016020837"/>
+			<field name="identifier.lattes" value="5284295521212505"/>
+			<field name="identifier.espacenet" value="102016020837"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo integrado de produção de biodiesel por transesterificação enzimática"/>
+			<field name="title.lattes" value="PROCESSO INTEGRADO DE PRODUÇÃO DE BIODIESEL POR TRANSESTERIFICAÇÃO A PARTIR DE ÓLEOS ÁCIDOS EMPREGANDO REAÇÃO CATALISADA POR ENZIMAS DE SÓLIDO FERMENTADO"/>
+			<field name="depositDate" value="2016-09-09"/>
+			<field name="publicationDate" value="2019-01-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE MACHADO DE CASTRO"/>
+			<field name="inventor" value="ANA CRISTINA DE ARAUJO COLLACO"/>
+			<field name="inventor" value="DENISE MARIA GUIMARAES FREIRE"/>
+			<field name="inventor" value="ELISA D'AVILA CAVALCANTI OLIVEIRA"/>
+			<field name="inventor" value="ERIKA CRISTINA GONCALVES AGUIEIRAS"/>
+			<field name="inventor" value="JAQUELINE GRECO DUARTE"/>
+			<field name="inventor" value="MELISSA LIMOEIRO ESTRADA GUTARRA"/>
+			<field name="inventor" value="SABRINI NATALI DA SILVA AVILA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P7/64AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/645AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="645AN"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/845AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="845AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo integrado de produção de biodiesel por transesterificação enzimática a presente invenção descreve um processo integrado de produção de biodiesel a partir do óleo ácido da polpa do fruto de macaúba (acrocomia aculeata) por meio da rota de transesterificação catalisada por lipases de baixo custo (biocatalisadores) usando a torta de macaúba como meio de cultivo da fermentação em estado sólido."/>
+			<field name="originatesFrom" value="65237497"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020837"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016020837"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020837"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161020837"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016020837"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7669" type="Person">
+			<semanticIdentifier>lattes::5284295521212505</semanticIdentifier>
+			<field name="identifier.lattes" value="5284295521212505"/>
+			<field name="name" value="Denise Maria Guimarães Freire"/>
+		</entity>
+		<entity ref="OrgUnit6108" type="OrgUnit">
+			<semanticIdentifier>brcris::ecee5f2da62582a0cd34092d7070e4a6</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10981" toEntityRef="Person7669" type="Inventor"/>
+		<relation fromEntityRef="Patent10981" toEntityRef="OrgUnit6108" type="Applicant"/>
+	</relations>
+</entity-relation-data>

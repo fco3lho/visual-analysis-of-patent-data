@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:05" record="41907" source="Espacenet">
+	<entities>
+		<entity ref="Patent41907" type="Patent">
+			<semanticIdentifier>brcris::3f50f3d181f00094472178d05afe0ff3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010651A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019010651</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010651A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191010651</semanticIdentifier>
+			<semanticIdentifier>original::102019010651</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019010651"/>
+			<field name="identifier.lattes" value="7618571401128973"/>
+			<field name="identifier.espacenet" value="102019010651"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema modular de coleta, análise e gerência de solos e de apoio à tomada de decisões em segurança e governança de solos"/>
+			<field name="title.lattes" value="Em avaliação de registro no INPI até o até Out 2020"/>
+			<field name="depositDate" value="2019-05-24"/>
+			<field name="publicationDate" value="2020-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXIA DUARTE"/>
+			<field name="inventor" value="FILIPE KLINGER MARQUES DE LIMA"/>
+			<field name="inventor" value="IGOR LEITE DA SILVA"/>
+			<field name="inventor" value="JESSICA MENDES DE OLIVEIRA"/>
+			<field name="inventor" value="MARCOS BACIS CEDDIA"/>
+			<field name="inventor" value="PEDRO VIEIRA CRUZ"/>
+			<field name="inventor" value="RENAN CARVALHO TAVORA MIRANDA"/>
+			<field name="inventor" value="RICARDO AUGUSTO CORDEIRO"/>
+			<field name="inventor" value="SABRINA SANTOS CRUZ DE OLIVEIRA"/>
+			<field name="inventor" value="SERGIO MANUEL SERRA DA CRUZ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01B79/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="79"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e um sistema modular de apoio e gestão de investigações de solos que englobam projetos de levantamentos e mapeamento solos para fins diversos (agricultura, meio ambiente, geotecnia, planejamento territorial e gestão de recursos naturais). o sistema é distribuído, multiusuário e rastreia, apoia a coleta amostras de solos e de dados de solos, processa, analisa dados, gerência ações em ambientes de campo e laboratórios de análises de solos, e gera relatórios e mapas de solos. o sistema possui uma sequência de passos lógicos que armazena e processa dinamicamente grandes volumes de dados e metadados de proveniência oriundos de sensores fixos ou móveis; de repositórios de dados legados de solos; de dispositivos móveis dotados de capacidade coletar dados a partir de observações de solos (trincheiras, perfis ou tradagens). o sistema realiza o controle de acesso de vários tipos de usuários no campo e em laboratórios; dispõe de um ambiente, similar à uma sala virtual de controle, que controla, mapeia e gerencia os pontos de coleta; calcula os deslocamentos dos analistas em campo; gera, sob demanda, diversos tipos de relatórios parametrizáveis que contém elementos textuais, gráficos e imagens. possui interfaces de transferência de dados com outros sistemas; permite buscas, importação e exportação parametrizáveis de dados de solos e produz mapas e relatórios digitais georreferenciados de tipos, atributos e propriedades dos solos."/>
+			<field name="originatesFrom" value="73678833"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010651"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019010651"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010651"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191010651"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019010651"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28555" type="Person">
+			<semanticIdentifier>lattes::7618571401128973</semanticIdentifier>
+			<field name="identifier.lattes" value="7618571401128973"/>
+			<field name="name" value="Sergio Manuel Serra da Cruz"/>
+		</entity>
+		<entity ref="OrgUnit22342" type="OrgUnit">
+			<semanticIdentifier>brcris::062d1ca579f1763a39894d32b6d9644e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41907" toEntityRef="Person28555" type="Inventor"/>
+		<relation fromEntityRef="Patent41907" toEntityRef="OrgUnit22342" type="Applicant"/>
+	</relations>
+</entity-relation-data>

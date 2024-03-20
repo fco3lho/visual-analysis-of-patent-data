@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:00" record="16635" source="Espacenet">
+	<entities>
+		<entity ref="Patent16635" type="Patent">
+			<semanticIdentifier>brcris::0f2fbbe05349fafbced388486178ed22</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202602A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0202602</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202602A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020202602</semanticIdentifier>
+			<semanticIdentifier>original::0202602-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0202602"/>
+			<field name="identifier.lattes" value="0008550912436203"/>
+			<field name="identifier.espacenet" value="0202602"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Produção de xarope de açúcar contendo frutose e glicose, enriquecido ou não com frutooligossacarìdeos, a partir de sacarose"/>
+			<field name="title.lattes" value="Produção de Xarope de Açucar Contendo Frutose e Glicose, Enriquecido ou não com Frutooligossacarídeos, a Partir de Sacarose"/>
+			<field name="depositDate" value="2002-02-28"/>
+			<field name="publicationDate" value="2004-05-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRELINA MARIA PINHEIRO SANTOS"/>
+			<field name="inventor" value="FRANCISCO MAUGERI FILHO"/>
+			<field name="inventor" value="FRANCISCO MAUGERI JR"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12M1/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P19/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PRODUçãO DE XAROPE DE AçúCAR CONTENDO FRUTOSE E GLICOSE, ENRIQUECIDO OU NãO COM FRUTOOLIGOSSACARìDEOS, A PARTIR DE SACAROSE&quot;. Consiste de processo para a conversão da sacarose em glicose, frutose e frutooligossacarídeos por biocatalisador formado por enzima inulinase imobilizada de Kluyvermyces sp. O processo é constituindo das seguintes etapas: produção e purificação da enzima em condições otimizadas, imobilização da enzima em suporte sólido, montagem de coluna de leito fixo contendo o biocatalisador, conversão de xarope de sacarose em xarope contendo frutose, glicose e frutooligossacarídeos, em condições otimizadas. A composição final do produto pode variar segundo a especificação desejada, dependendo das condições de operação. O produto pode ser uma mistura de frutose e glicose (50%/50%) ou uma mistura de glicose, frutose, sacarose e frutooliogossacarídeos, com composição variável. O produto obtido deste processo é ideal para aplicações em industrias de refrigerantes, doces, confeitos, balas, bombons, iogurtes, etc. Além disso, as propriedades prébioticas dos frutooligossacarídeos, ou seja, estimulantes benéficos da flora intestinal, darão ao produto um caráter funcional e diferenciado. Sendo o gênero Kluyveromyces reconhecidamente não nocivo ao homem (pertencente ao grupo GRAS americano ) o produto pode ser aplicado em qualquer tipo de alimento. O processo enzimático, além disso, não produz nenhuma substância tóxica indesejável, sendo totalmente seguro."/>
+			<field name="originatesFrom" value="32181180"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202602"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0202602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202602"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020202602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0202602-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11558" type="Person">
+			<semanticIdentifier>lattes::0008550912436203</semanticIdentifier>
+			<field name="identifier.lattes" value="0008550912436203"/>
+			<field name="name" value="Francisco Maugeri Filho"/>
+		</entity>
+		<entity ref="OrgUnit9058" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16635" toEntityRef="Person11558" type="Inventor"/>
+		<relation fromEntityRef="Patent16635" toEntityRef="OrgUnit9058" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:49" record="24088" source="Espacenet">
+	<entities>
+		<entity ref="Patent24088" type="Patent">
+			<semanticIdentifier>brcris::406e83b289dbb82624d43215c98ca90b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006931A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016006931</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006931A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161006931</semanticIdentifier>
+			<semanticIdentifier>original::102016006931</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016006931"/>
+			<field name="identifier.lattes" value="7863702116442865"/>
+			<field name="identifier.espacenet" value="102016006931"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produção de bebida fermentada tipo cerveja a base de malte e extrato solúvel de macela (achyrocline satureioides)"/>
+			<field name="title.lattes" value="Produção de Bebida Fermentada tipo Cerveja à base de Malte e Extrato Solúvel de Macela (Achyrocline satureoides)"/>
+			<field name="depositDate" value="2016-03-29"/>
+			<field name="publicationDate" value="2018-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO DE PINHO MONTEIRO"/>
+			<field name="inventor" value="CARLOS RICARDO SOCCOL"/>
+			<field name="inventor" value="JULIO CESAR DE CARVALHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12C5/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="produção de bebida fermentada tipo cerveja a base de malte e extrato solúvel de macela (achyrocline satureioides) a presente invenção relata a preparação de uma cerveja elaborada com extrato solúvel (chá) de macela (achrycocline satureoides). aspectos como a cor e sabores ervais e florais provenientes das flores da macela produzem com sucesso uma bebida bem equilibrada que combina o sabor da macela com a cerveja, sem perder as principais características funcionais da erva."/>
+			<field name="originatesFrom" value="62089341"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006931"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016006931"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006931"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161006931"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016006931"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16732" type="Person">
+			<semanticIdentifier>lattes::7863702116442865</semanticIdentifier>
+			<field name="identifier.lattes" value="7863702116442865"/>
+			<field name="name" value="Júlio Cesar de Carvalho"/>
+		</entity>
+		<entity ref="OrgUnit12977" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24088" toEntityRef="Person16732" type="Inventor"/>
+		<relation fromEntityRef="Patent24088" toEntityRef="OrgUnit12977" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:30" record="36492" source="Espacenet">
+	<entities>
+		<entity ref="Patent36492" type="Patent">
+			<semanticIdentifier>brcris::941c91e251357002146b5c2554dfe49a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI9101270F1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI9101270F</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI9101270A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1991PI01270</semanticIdentifier>
+			<semanticIdentifier>original::C1C19101270</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI9101270"/>
+			<field name="identifier.lattes" value="6120952417164903"/>
+			<field name="identifier.espacenet" value="PI9101270"/>
+			<field name="kindCode" value="F1"/>
+			<field name="title.espacenet" value="&quot;sistema de posicionamento geográfico e navegação&quot;."/>
+			<field name="title.lattes" value="Sistema e Processo de Posicionamento Geográfico e Navegacao"/>
+			<field name="depositDate" value="2002-05-17"/>
+			<field name="publicationDate" value="2016-02-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="PIERRE KAUFMANN"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01S13/86AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="86AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01S5/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01S13/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01S19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;sistema e processo de posicionamento geográfico e navegação&quot;. certificado de adição de invenção da pi9101270 -8, depositado em 25.03.1991. trata-se de um aperfeiçoamento introduzido no sistema de posicionamento geográfico e navegação da patente acima mencionada. o presente certificado de adição tem por objetivo a obtenção de uma maior abrangência no posicionamento geográfico com o sistema apresentado na patente em referência, utilizando para isto um transdutor qualquer na forma de uma plataforma ativa no espaço. a plataforma ativa em questão é localizável em várias altitudes no espaço, cobrindo diferentes extensões de superfície, sendo particularmente possível posicioná -la em qualquer altitude entre aquelas suborbitais e orbitais em torno da terra permitindo determinar posições geográficas ao longo de distâncias superiores a 4000 quilômetros, cobrindo superfícies superiores a 12 milhões de quilômetros quadrados."/>
+			<field name="originatesFrom" value="55303386"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI9101270"/>
+				<field name="kind" value="F1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI9101270F"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI9101270"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1991PI01270"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="C1"/>
+				<field name="number" value="C19101270"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25131" type="Person">
+			<semanticIdentifier>lattes::6120952417164903</semanticIdentifier>
+			<field name="identifier.lattes" value="6120952417164903"/>
+			<field name="name" value="Pierre Kaufmann"/>
+		</entity>
+		<entity ref="OrgUnit19719" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36492" toEntityRef="Person25131" type="Inventor"/>
+		<relation fromEntityRef="Patent36492" toEntityRef="OrgUnit19719" type="Applicant"/>
+	</relations>
+</entity-relation-data>

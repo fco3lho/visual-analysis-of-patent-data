@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:28" record="39541" source="Espacenet">
+	<entities>
+		<entity ref="Patent39541" type="Patent">
+			<semanticIdentifier>brcris::055ef86406034977853140395ca4b768</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405317A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0405317</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405317A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI05317</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0405317-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0405317"/>
+			<field name="identifier.lattes" value="3375136546975082"/>
+			<field name="identifier.espacenet" value="PI0405317"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para estimar a germinação das sementes de cafeeiro (coffea arabica l.)"/>
+			<field name="title.lattes" value="PROCESSO PARA ESTIMAR A GERMINAÇÃO DAS SEMENTES DE CAFEEIRO (Coffea arabica L.)"/>
+			<field name="depositDate" value="2004-11-12"/>
+			<field name="publicationDate" value="2006-08-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO FONTES ARAUJO"/>
+			<field name="inventor" value="LUCILEA SILVA DOS REIS"/>
+			<field name="inventor" value="ROBSON CELESTINO MEIRELES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01C1/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA ESTIMAR A GERMINAçãO DAS SEMENTES DE CAFEEIRO (COFFEA ARABICA L.)&quot;. O processo usa soluções de hipoclorito de sódio na avaliação da qualidade das sementes de cafeeiro, estimando a germinação por meio de processo colorimétrico. O emprego de soluções de hipoclorito de sódio em sementes de cafeeiro promove a formação de manchas esverdeadas em regiões inviáveis das sementes, permitindo avaliação visual das mesmas."/>
+			<field name="originatesFrom" value="36716735"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405317"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0405317"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405317"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI05317"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0405317-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26882" type="Person">
+			<semanticIdentifier>lattes::3375136546975082</semanticIdentifier>
+			<field name="identifier.lattes" value="3375136546975082"/>
+			<field name="name" value="Robson Celestino Meireles"/>
+		</entity>
+		<entity ref="OrgUnit21050" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39541" toEntityRef="Person26882" type="Inventor"/>
+		<relation fromEntityRef="Patent39541" toEntityRef="OrgUnit21050" type="Applicant"/>
+	</relations>
+</entity-relation-data>

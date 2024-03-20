@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:38" record="32805" source="Espacenet">
+	<entities>
+		<entity ref="Patent32805" type="Patent">
+			<semanticIdentifier>brcris::9c325edd5a3b3050cbe9ca91d30dc925</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600724A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0600724</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600724A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI00724</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0600724-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0600724"/>
+			<field name="identifier.lattes" value="0334597213491571"/>
+			<field name="identifier.espacenet" value="PI0600724"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo e equipamento para experimentos somestésicos e para substituição sensorial para auxìlio a deficientes via técnicas de processamento digital de sinais e estimulação cutãnea"/>
+			<field name="title.lattes" value="Processo e equipamento para experimentos somestésicos e para substituição sensorial para auxílio a deficientes via técnicas de processamento de sinais e estimulação cutânea"/>
+			<field name="depositDate" value="2006-02-16"/>
+			<field name="publicationDate" value="2007-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAURO CONTI PEREIRA"/>
+			<field name="applicant" value="MAURO CONTI PEREIRA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F9/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO E EQUIPAMENTO PARA EXPERIMENTOS SOMESTéSICOS E PARA SUBSTITUIçãO SENSORIAL PARA AUXìLIO A DEFICIENTES VIA TéCNICAS DE PROCESSAMENTO DIGITAL DE SINAIS E ESTIMULAçãO CUTáNEA que foi desenvolvido com a finalidade de proporcionar um equipamento para pesquisas na área somestésica (tato), e para auxilio à orientação e mobilidade de deficientes visuais, passando informações visuais através do tato, mas também podendo ajudar deficientes auditivos também através do tato. O equipamento consiste de uma câmera, um microcomputador, equipamento para eletro-estimulação e matriz de eletrodos. Onde as imagens são capturadas através de uma câmera fotográfica ligada a um microcomputador, tratando estas imagens por software para diminuir detalhes, binarizar a imagem, detectar bordas e diminuir resolução, transformando o original colorido em uma imagem binária. Este conjunto é passado serialmente a um microcontrolador para acionar o sistema de estimulação, acionando numa matriz de eletrodos posicionada sobre o abdómen apenas os eletrodos correspondentes aos pixels ativos na imagem tratada. Para auxiliar deficientes auditivos pode-se trocar a entrada feita pela câmera por um microfone e adequar o software. Para pesquisas também se pode mudar o estímulo táctil, usando em vez de matriz de eletrodos uma matriz de atuadores mecânicos, tais como micro-motores ou atuadores piezoelétricos."/>
+			<field name="originatesFrom" value="38617726"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600724"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0600724"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600724"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI00724"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0600724-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22562" type="Person">
+			<semanticIdentifier>lattes::0334597213491571</semanticIdentifier>
+			<field name="identifier.lattes" value="0334597213491571"/>
+			<field name="name" value="Mauro Conti Pereira"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32805" toEntityRef="Person22562" type="Inventor"/>
+		<relation fromEntityRef="Patent32805" toEntityRef="Person22562" type="Depositor"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:28" record="28549" source="Espacenet">
+	<entities>
+		<entity ref="Patent28549" type="Patent">
+			<semanticIdentifier>brcris::75efc0d57d512749527abe9d147138e7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203876A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0203876</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203876A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020203876</semanticIdentifier>
+			<semanticIdentifier>original::0203876-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0203876"/>
+			<field name="identifier.lattes" value="3264248290660253"/>
+			<field name="identifier.espacenet" value="0203876"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de fabricação de pós nanoparticulados"/>
+			<field name="title.lattes" value="Processo de fabricação de pós nanoparticulados"/>
+			<field name="depositDate" value="2002-09-24"/>
+			<field name="publicationDate" value="2004-05-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE MARCOS SASAKI"/>
+			<field name="inventor" value="MARCELO ANDRADE MACEDO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B05D7/24AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE FABRICAçãO DE PóS NANOPARTICULADOS&quot;. A invenção se refere a um processo de preparação de pós nanoparticulados, que consiste essencialmente na formação de um sol composto da dissolução de sal inorgânico ou orgânico em água de coco processada (ACP), que se transforma em um gel e em seguida em pós nanoparticulados através de aquecimento."/>
+			<field name="originatesFrom" value="32331133"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203876"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0203876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203876"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020203876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0203876-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19731" type="Person">
+			<semanticIdentifier>lattes::3264248290660253</semanticIdentifier>
+			<field name="identifier.lattes" value="3264248290660253"/>
+			<field name="name" value="Marcelo Andrade Macêdo"/>
+		</entity>
+		<entity ref="OrgUnit15412" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28549" toEntityRef="Person19731" type="Inventor"/>
+		<relation fromEntityRef="Patent28549" toEntityRef="OrgUnit15412" type="Applicant"/>
+	</relations>
+</entity-relation-data>

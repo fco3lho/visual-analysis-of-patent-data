@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:58" record="5649" source="Espacenet">
+	<entities>
+		<entity ref="Patent5649" type="Patent">
+			<semanticIdentifier>brcris::a74b872d133710947868c14e9a0d8d7e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703259A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703259</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703259A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03259</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703259-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703259"/>
+			<field name="identifier.lattes" value="9329821904538636"/>
+			<field name="identifier.espacenet" value="PI0703259"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para realizar o sincronismo manual de relógios em dispositivos executando aplicações com requisitos de segurança"/>
+			<field name="title.lattes" value="MÉTODO PARA REALIZAR O SINCRONISMO MANUAL DE RELÓGIOS EM DISPOSITIVOS EXECUTANDO APLICAÇÕES COM REQUISITOS DE SEGURANÇA"/>
+			<field name="depositDate" value="2007-08-03"/>
+			<field name="publicationDate" value="2009-03-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMIN WERNER MITTELSDORF"/>
+			<field name="inventor" value="LEON ACHJIAN JR"/>
+			<field name="inventor" value="LEON ACHJIAN JUNIOR"/>
+			<field name="inventor" value="RICARDO KOMATSU DE ALMEIDA"/>
+			<field name="inventor" value="WILSON VICENTE RUGGIERO"/>
+			<field name="applicant" value="SCOPUS SOLUCOES EM TI LTDA"/>
+			<field name="applicant" value="SCOPUS SOLUCOES EM TI S.A"/>
+			<field name="applicant" value="SCOPUS TECNOLOGIA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F1/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA REALIZAR O SINCRONISMO MANUAL DE RELóGIOS EM DISPOSITIVOS EXECUTANDO APLICAçõES COM REQUISITOS DE SEGURANçA. O método em questão permite que relógios (13, 23) utilizados por aplicações em dispositivos distintos, como um telefone celular (10) e um servidor de autenticação (20) de uma instituição (2) sejam sincronizados entre si. o método é particularmente adequado para aplicações de segurança, como tokens temporais (13), de um dispositivo móvel (DM), pendentes de sincronismo com o servidor de autenticação (20) ou outra fonte de tempo, que rodam em dispositivos móveis (DM), como aparelhos celulares (10), PDAs e notebooks. é provido um relógio de token (14), que se baseia em um relógio de servidor (23) e em um relógio de dispositivo (12). Quando uma aplicação de autenticação (22) detecta que o relógio de token (14) está defasado em relação ao relógio de servidor (23)1 é iniciada uma operação de resincronismo, gerando um dado de sincronismo a ser digitado pelo usuário na aplicação token temporal (13) e que é calculado a partir de uma representação reduzida do valor de relógio de servidor (23), através de uma função de redução e criptografado, utilizando um algoritmo com tamanho de bloco pequeno. Este valor é digitado pelo usuário e o cálculo inverso é realizado pela aplicação token temporal (12) e o resultado é utilizado para calcular o valor do relógio de token (14). Uma OTP é gerada imediatamente pela aplicação token temporal (13) e usada para autenticar o usuário neste instante de sincronismo."/>
+			<field name="originatesFrom" value="40621654"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703259"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703259"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703259"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03259"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703259-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3738" type="Person">
+			<semanticIdentifier>lattes::9329821904538636</semanticIdentifier>
+			<field name="identifier.lattes" value="9329821904538636"/>
+			<field name="name" value="Armin Werner Mittelsdorf"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5649" toEntityRef="Person3738" type="Inventor"/>
+	</relations>
+</entity-relation-data>

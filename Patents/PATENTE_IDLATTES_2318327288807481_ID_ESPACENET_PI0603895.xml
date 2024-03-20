@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:41" record="21200" source="Espacenet">
+	<entities>
+		<entity ref="Patent21200" type="Patent">
+			<semanticIdentifier>brcris::df465b94d29bb98e3597d429a997a907</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603895A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0603895</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603895A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI03895</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0603895-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0603895"/>
+			<field name="identifier.lattes" value="2318327288807481"/>
+			<field name="identifier.espacenet" value="PI0603895"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="fechadura eletrÈnica para controle e monitoramento de acesso a gabinetes"/>
+			<field name="title.lattes" value="Fechadura Eletrônica para Controle e Monitoramento de Acesso a Gabinetes"/>
+			<field name="depositDate" value="2006-09-14"/>
+			<field name="publicationDate" value="2008-04-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ADEMAR PURIM"/>
+			<field name="inventor" value="JOAO ADALBERTO PEREIRA"/>
+			<field name="inventor" value="MARCELLO ABREU PATRIZZI"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA PARA O DESENVOLVIMENTO - LACTEC"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E05B47/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="47"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="FECHADURA ELETRÈNICA PARA CONTROLE E MONITORAMENTO DE ACESSO A GABINETES, descreve-se a presente patente mais especificamente a fechadura eletrónica para controle e monitoramento de acesso a gabinetes que abrigam medidores de energia elétrica, equipamentos de telecomando, telecomunicação e outros que, de acordo com as suas características gerais, possui como princípio básico promover segurança e agilidade em identificar violações e adulterações nas instalações contidas nos gabinetes por atos fraudulentos. A fechadura eletrónica (1) é composta por uma unidade principal constituída de uma central de controle (2) que contêm um circuito eletrónico de controle (2A), por francas eletromecânicas (8), e por uma chave eletrónica (7) implementada por um dispositivo que contém um micro chip que agrega um código binário específico previamente gravado em sua memória, a qual funciona como uma identidade."/>
+			<field name="originatesFrom" value="39325716"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603895"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0603895"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603895"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI03895"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0603895-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14695" type="Person">
+			<semanticIdentifier>lattes::2318327288807481</semanticIdentifier>
+			<field name="identifier.lattes" value="2318327288807481"/>
+			<field name="name" value="João Adalberto Pereira"/>
+		</entity>
+		<entity ref="OrgUnit11542" type="OrgUnit">
+			<semanticIdentifier>brcris::3e5edf08296d2d87aabd96d42ccac2e0</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE TECNOLOGIA PARA O DESENVOLVIMENTO - LACTEC"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21200" toEntityRef="Person14695" type="Inventor"/>
+		<relation fromEntityRef="Patent21200" toEntityRef="OrgUnit11542" type="Applicant"/>
+	</relations>
+</entity-relation-data>

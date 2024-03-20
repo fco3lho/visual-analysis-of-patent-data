@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:16" record="1314" source="Espacenet">
+	<entities>
+		<entity ref="Patent1314" type="Patent">
+			<semanticIdentifier>brcris::ec2a8afd51295b444f76fb3373355526</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013029250A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013029250</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013029250A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131029250</semanticIdentifier>
+			<semanticIdentifier>original::102013029250</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013029250"/>
+			<field name="identifier.lattes" value="3678668865183045"/>
+			<field name="identifier.espacenet" value="102013029250"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo e método para detecção de lesões cariosas e não cariosas por espalhamento de luz"/>
+			<field name="title.lattes" value="DISPOSITIVO E MÉTODO PARA DETECÇÃO DE LESÕES CARIOSAS E NÃO CARIOSAS POR ESPALHAMENTO DE LUZ"/>
+			<field name="depositDate" value="2013-11-13"/>
+			<field name="publicationDate" value="2015-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO MELO DE ANA"/>
+			<field name="inventor" value="ANDRE FELIPE LIBRANTZ"/>
+			<field name="inventor" value="MARCELO TAVARES DE OLIVEIRA"/>
+			<field name="inventor" value="SANDRA KALIL BUSSADORI"/>
+			<field name="applicant" value="ASSOCIACAO EDUCACIONAL NOVE DE JULHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo e método para detecção de lesões cariosas e não cariosas por espalhamento de luz. o presente resumo refere-se a uma de patente de invenção para dispositivo (1) e método para detecção de lesões cariosas e não cariosas por espalhamento de luz, pertencente ao campo dos equipamentos usados em odontologia, dito dispositivo compreendido: por emissor de luz coerente (10); por sistema digital de aquisição de imagens de alta resolução (20); por unidade de processamento de dados (40) que recebe os dados relativos às imagens adquiridas, processa-as para detectar e/ou qualificar e/ou quantificar lesões em tecidos dentários e gerar informações de saída; por dispositivos de interface com o usuário, compreendidos: por visor (50); e pór alto-falante (60) que recebem e veiculam as informações de saída; dito emissor (10) e um terminal (21) do sistema digital de aquisição de imagens (20) apresentam-se montados em uma peça de mão odontológica (30) e os demais componentes alojados em uma barcaça-central (90) do dispositivo"/>
+			<field name="originatesFrom" value="54540538"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013029250"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013029250"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013029250"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131029250"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013029250"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person977" type="Person">
+			<semanticIdentifier>lattes::3678668865183045</semanticIdentifier>
+			<field name="identifier.lattes" value="3678668865183045"/>
+			<field name="name" value="Alessandro Melo de Ana"/>
+		</entity>
+		<entity ref="OrgUnit777" type="OrgUnit">
+			<semanticIdentifier>brcris::19f484c0ca79a3daebea9b7726015157</semanticIdentifier>
+			<field name="name" value="ASSOCIACAO EDUCACIONAL NOVE DE JULHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1314" toEntityRef="Person977" type="Inventor"/>
+		<relation fromEntityRef="Patent1314" toEntityRef="OrgUnit777" type="Applicant"/>
+	</relations>
+</entity-relation-data>

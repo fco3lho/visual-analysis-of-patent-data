@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:25" record="14054" source="Espacenet">
+	<entities>
+		<entity ref="Patent14054" type="Patent">
+			<semanticIdentifier>brcris::e2ee35d5d2e30a6b563f2809eab4fc2e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9104660A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9104660</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9104660A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19919104660</semanticIdentifier>
+			<semanticIdentifier>original::91 9104660</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9104660"/>
+			<field name="identifier.lattes" value="2467159617627119"/>
+			<field name="identifier.espacenet" value="9104660"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PROCESSO DE PREPARACAO DE MATRIZES COM CARBETO DE NIOBIO E CARBETO DE SILICIO E MATRIZES PRODUZIDAS"/>
+			<field name="title.lattes" value="Processo de Preparação de Matrizes com Carbeto de Nióbio e Carbeto de Silício e Matrizes Produzidas"/>
+			<field name="depositDate" value="1991-10-28"/>
+			<field name="publicationDate" value="1993-05-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CESAR FERREIRA"/>
+			<field name="inventor" value="EDSON ANTONIO TICIANELLI"/>
+			<field name="inventor" value="ERNESTO RAFAEL GONZALEZ"/>
+			<field name="inventor" value="MARIA ISABEL CAIRES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M8/0293AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="0293AI"/>
+			</field>
+			<field name="originatesFrom" value="4053117"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9104660"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9104660"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9104660"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19919104660"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="91 9104660"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9659" type="Person">
+			<semanticIdentifier>lattes::2467159617627119</semanticIdentifier>
+			<field name="identifier.lattes" value="2467159617627119"/>
+			<field name="name" value="Ernesto Rafael Gonzalez"/>
+		</entity>
+		<entity ref="OrgUnit7602" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14054" toEntityRef="Person9659" type="Inventor"/>
+		<relation fromEntityRef="Patent14054" toEntityRef="OrgUnit7602" type="Applicant"/>
+	</relations>
+</entity-relation-data>

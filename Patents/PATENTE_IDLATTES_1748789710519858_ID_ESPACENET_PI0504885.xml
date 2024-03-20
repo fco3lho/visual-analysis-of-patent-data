@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:25" record="7591" source="Espacenet">
+	<entities>
+		<entity ref="Patent7591" type="Patent">
+			<semanticIdentifier>brcris::cf1be6f0f93cd26c7854035458d35703</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504885A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504885</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504885A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04885</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504885-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504885"/>
+			<field name="identifier.lattes" value="1748789710519858"/>
+			<field name="identifier.espacenet" value="PI0504885"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para o tratamento da superfìcie de aços inoxidáveis dúplex, aços inoxidáveis dúplex tratados e uso dos mesmos"/>
+			<field name="title.lattes" value="PROCESSO PARA O TRATAMENTO DA SUPERFÍCIE DE AÇOS INOXIDÁVEIS DÚPLEX, AÇOS INOXIDÁVEIS DÚPLEX TRATADOS E USO DOS MESMOS"/>
+			<field name="depositDate" value="2005-10-18"/>
+			<field name="publicationDate" value="2007-06-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE PAULO TSCHIPTSCHIN"/>
+			<field name="inventor" value="ANDRE PAULO TSCHIPTSCHIN"/>
+			<field name="inventor" value="CARLOS MARIO GARZON OSPINA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23C14/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA O TRATAMENTO DA SUPERFìCIE DE AçOS INOXIDáVEIS DúPLEX, AçOS INOXIDáVEIS DúPLEX TRATADOS E USO DOS MESMOS A presente invenção refere-se a um processo para o tratamento da superfície de aços inoxidáveis dúplex que compreende o recozimento em alta temperatura dos ditos aços, sob atmosfera gasosa rica em nitrogênio, em que a pressão parcial de intogênio do processo é submetida á variação, induzindo reações de formação e dissolução de ferrita. O processo da presente invenção compreende pelo menos um ciclo de nitretação composto por 2 etapas distintas (absorção e dessorção de nitrogênio) e por uma etapa final de absorção de nitrogênio.A presente invenção refere-se também aos aços inoxidáveis dúplex tratados, obtidos pelo processo da presente invenção. Outro objeto da presente invenção trata do uso dos aços inoxidáveis dúplex tratados, obtidos pelo processo da presente invenção, para a fabricação de peças aplicadas em diversos campos."/>
+			<field name="originatesFrom" value="38175669"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504885"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504885"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504885"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04885"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504885-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5117" type="Person">
+			<semanticIdentifier>lattes::1748789710519858</semanticIdentifier>
+			<field name="identifier.lattes" value="1748789710519858"/>
+			<field name="name" value="Carlos Mario Garzón Ospina"/>
+		</entity>
+		<entity ref="OrgUnit4030" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit4031" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7591" toEntityRef="Person5117" type="Inventor"/>
+		<relation fromEntityRef="Patent7591" toEntityRef="OrgUnit4030" type="Applicant"/>
+		<relation fromEntityRef="Patent7591" toEntityRef="OrgUnit4031" type="Applicant"/>
+	</relations>
+</entity-relation-data>

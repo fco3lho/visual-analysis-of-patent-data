@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:25" record="32249" source="Espacenet">
+	<entities>
+		<entity ref="Patent32249" type="Patent">
+			<semanticIdentifier>brcris::64852cc9acc308114da2669dbb41bf7a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012016713A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012016713</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012016713A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121016713</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 016713-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012016713"/>
+			<field name="identifier.lattes" value="8142493139507525"/>
+			<field name="identifier.espacenet" value="102012016713"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="CONCRETO NÃO ESTRUTURAL PARA A CONSTRUÇÃO CIVIL"/>
+			<field name="title.lattes" value="COMPOSIÇÃO DE CONCRETO SIMPLES ESTRUTURAL PARA CONFECÇÃO DE PEÇAS E ELEMENTOS UTILIZADOS EM PAVIMENTAÇÕES DE VIAS E/OU EM PAVIMENTAÇÕES DE CONSTRUÇÕES"/>
+			<field name="depositDate" value="2012-07-06"/>
+			<field name="publicationDate" value="2014-05-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUVALDO PAULO SICHIERI"/>
+			<field name="inventor" value="JAVIER MAZARIEGOS PABLOS"/>
+			<field name="inventor" value="MARIO SERGIO DE ANDRADE ZAGO"/>
+			<field name="inventor" value="MARIO SERGIO DE ANDRADE ZAGO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B28/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="28"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C04B18/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CONCRETO NÃO ESTRUTURAL PARA A CONSTRUÇÃO CIVIL. A presente invenção se refere a um concreto não estrutural compreendendo resíduos sólidos industriais, tais como escória de alto-forno ou aciaria e areia de fundição."/>
+			<field name="originatesFrom" value="50628327"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012016713"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012016713"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012016713"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121016713"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 016713-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22152" type="Person">
+			<semanticIdentifier>lattes::8142493139507525</semanticIdentifier>
+			<field name="identifier.lattes" value="8142493139507525"/>
+			<field name="name" value="Mário Sérgio de Andrade Zago"/>
+		</entity>
+		<entity ref="OrgUnit17341" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit17342" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32249" toEntityRef="Person22152" type="Inventor"/>
+		<relation fromEntityRef="Patent32249" toEntityRef="OrgUnit17341" type="Applicant"/>
+		<relation fromEntityRef="Patent32249" toEntityRef="OrgUnit17342" type="Applicant"/>
+	</relations>
+</entity-relation-data>

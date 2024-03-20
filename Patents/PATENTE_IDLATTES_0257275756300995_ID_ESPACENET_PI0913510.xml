@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:44:06" record="23229" source="Espacenet">
+	<entities>
+		<entity ref="Patent23229" type="Patent">
+			<semanticIdentifier>brcris::c1572022b88c6b91e27ae474d85ef5f3</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0913510A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0913510</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0913510A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI13510</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0913510-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0913510"/>
+			<field name="identifier.lattes" value="0257275756300995"/>
+			<field name="identifier.espacenet" value="PI0913510"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo àptico de varredura com processamento de imagem para identificaÇço de bovino atravÉs da Íris e controle por rastreamento"/>
+			<field name="title.lattes" value="Dispositivo óptico de varredura com processamento de imagem para identificação de bovino através da íris e controle por rastreamento"/>
+			<field name="depositDate" value="2009-12-17"/>
+			<field name="publicationDate" value="2012-07-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS GUIMARAES DE ALMEIDA"/>
+			<field name="inventor" value="ANTONIO MARCIO RODRIGUES"/>
+			<field name="inventor" value="FELIPE CAMPOS KITAMURA"/>
+			<field name="inventor" value="FERNANDO DE PAULA LEONEL"/>
+			<field name="inventor" value="JOSE PAULO RDRIGUES FURTADO DE MENDONCA"/>
+			<field name="inventor" value="PEDRO PAULO FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL-REI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO àPTICO DE VARREDURA COM PROCESSAMENTO DE IMAGEM PARA IDENTIFICAÇçO DE BOVINO ATRAVÉS DA ÍRIS E CONTROLE POR RASTREAMENTO. A presente invenção refere-se a um dispositivo óptico capaz de realizar a varredura da íris do bovino, para vários comprimentos de ondas. O sinal espalhado pela íris é capturado por uma câmera. Um software de processamento de imagem é capaz de analisar e escolher as melhores imagens conforme o comprimento de onda. Para cada imagem escolhida é gerado um código alfanumérico que é enviado via radio freqúência para uma central de dados. Desta forma, cada animal terá um banco de dados que o identifica e é único. Este sistema é inviolável por não conter nenhum tipo de tag como, por exemplo, chip ou brinco que possam ser alterados. A única identificação é a íris do animal que é única."/>
+			<field name="originatesFrom" value="46513977"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0913510"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0913510"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0913510"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI13510"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0913510-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16104" type="Person">
+			<semanticIdentifier>lattes::0257275756300995</semanticIdentifier>
+			<field name="identifier.lattes" value="0257275756300995"/>
+			<field name="name" value="Jose Paulo Rodrigues Furtado de Mendonca"/>
+		</entity>
+		<entity ref="OrgUnit12464" type="OrgUnit">
+			<semanticIdentifier>brcris::8907b85266a51df2bb5cfb27185c4c32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL-REI"/>
+		</entity>
+		<entity ref="OrgUnit12465" type="OrgUnit">
+			<semanticIdentifier>brcris::9514485d08c1902c543a0721cf6bf35b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23229" toEntityRef="Person16104" type="Inventor"/>
+		<relation fromEntityRef="Patent23229" toEntityRef="OrgUnit12464" type="Applicant"/>
+		<relation fromEntityRef="Patent23229" toEntityRef="OrgUnit12465" type="Applicant"/>
+	</relations>
+</entity-relation-data>

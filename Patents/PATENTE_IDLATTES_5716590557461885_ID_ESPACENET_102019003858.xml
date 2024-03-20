@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:24:35" record="11436" source="Espacenet">
+	<entities>
+		<entity ref="Patent11436" type="Patent">
+			<semanticIdentifier>brcris::e05156109a591c4514671eb859dcde4c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003858A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019003858</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003858A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191003858</semanticIdentifier>
+			<semanticIdentifier>original::102019003858</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019003858"/>
+			<field name="identifier.lattes" value="5716590557461885"/>
+			<field name="identifier.espacenet" value="102019003858"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de lacase e descoloração do rbbr por ascomicetos isolados do manguezal"/>
+			<field name="title.lattes" value="Processo de obtenção de lacase e descoloração do rbbr por ascomicetos isolados do manguezal"/>
+			<field name="depositDate" value="2019-02-25"/>
+			<field name="publicationDate" value="2020-09-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANYELLE STRINGARI"/>
+			<field name="inventor" value="DIOGO ROBL"/>
+			<field name="inventor" value="GABRIELA XAVIER SCHNEIDER"/>
+			<field name="inventor" value="KASSIELY ZAMARCHI"/>
+			<field name="inventor" value="RENATA RODRIGUES GOMES"/>
+			<field name="inventor" value="VANIA APARECIDA VICENTE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F3/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N1/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12P21/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C12R1/645AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="645AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de lacase e descoloração do rbbr por ascomicetos isolados do manguezal a presente patente de invenção propõe o uso da enzima lacase sintetizada por fungos ascomicetos isolados do sedimento do ecossistema de manguezal, para a descoloração do corante antraquinônico azul de remazol brilhante r (rbbr) por meio da técnica de fermentação submersa. tal invenção permitiu com 192h de incubação a descoloração de 60-70% do corante rbbr presente em meio de cultura específico, suplementado com cuso4 1mm, demonstrando potencial biotecnológico mesmo não havendo otimização das condições de cultivo. a presente invenção está situada nos campos da micologia, enzimologia e biotecnologia, mais especificamente, nas áreas de degradação de poluentes oriundos do processamento de papel e têxtil."/>
+			<field name="originatesFrom" value="72964367"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003858"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019003858"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003858"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191003858"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019003858"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7974" type="Person">
+			<semanticIdentifier>lattes::5716590557461885</semanticIdentifier>
+			<field name="identifier.lattes" value="5716590557461885"/>
+			<field name="name" value="Diogo Robl"/>
+		</entity>
+		<entity ref="OrgUnit6366" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11436" toEntityRef="Person7974" type="Inventor"/>
+		<relation fromEntityRef="Patent11436" toEntityRef="OrgUnit6366" type="Applicant"/>
+	</relations>
+</entity-relation-data>

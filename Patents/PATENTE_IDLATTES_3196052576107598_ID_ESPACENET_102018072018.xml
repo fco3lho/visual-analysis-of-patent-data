@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:19:45" record="41525" source="Espacenet">
+	<entities>
+		<entity ref="Patent41525" type="Patent">
+			<semanticIdentifier>brcris::3aa50c17f3a064fb3fa1e7382e1d9abf</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018072018A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018072018</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018072018A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181072018</semanticIdentifier>
+			<semanticIdentifier>original::102018072018</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018072018"/>
+			<field name="identifier.lattes" value="3196052576107598"/>
+			<field name="identifier.espacenet" value="102018072018"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="capacete inteligente para pesquisas de campo em ecologia"/>
+			<field name="title.lattes" value="Capacete Inteligente para pesquisas de campo em Ecologia"/>
+			<field name="depositDate" value="2018-10-25"/>
+			<field name="publicationDate" value="2020-05-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MATEUS COELHO SILVA"/>
+			<field name="inventor" value="RICARDO AUGUSTO RABELO OLIVEIRA"/>
+			<field name="inventor" value="SAUL EMANUEL DELABRIDA SILVA"/>
+			<field name="inventor" value="SERVIO PONTES RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A42B3/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="42"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A42B3/30AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="42"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a invenção criada nesse projeto consiste em um capacete inteligente composto por computadores embarcados e sensores. como um sistema embarcado vestível, o capacete possui um conjunto de características padrão. o dispositivo opera constantemente enquanto é portado, é utilizável sem o uso das mãos, possui sensores, recolhe e trata a informação mesmo em estado passivo. além disso, o capacete possui características de um sistema distribuído, onde cada computador embarcado é uma unidade independente de produção de dados, chamado de nó do sistema. isso torna o sistema uma composição formada por diversos computadores distribuídos em uma rede sem fio local de área corporal (wban). cada computador embarcado carrega consigo um conjunto de sensores. o capacete possui uma bateria capaz de alimentar os computadores embarcados. estes, por sua vez, fornecem a energia necessária para o funcionamento de cada sensor. os sensores envolvidos no projeto são uma unidade de medição inercial, um radar laser, uma câmera no espectro de luz visível e uma câmera no espectro infravermelho. um computador embarcado é responsável por adquirir os dados da unidade de medição inercial e os dados do radar laser e transmitir como servidor em rede sem fio local. outro computador embarcado adquire os dados da câmera de espectro visível e transmite através de um stream de vídeo em rede sem fio local. por fim, outro computador embarcado adquire os dados da câmera de espectro infravermelho e transmite através de um stream de vídeo em rede local. cada um dos nós desse sistema é configurado como um servidor em rede local, e opera paralelamente. a aquisição de dados, portanto, ocorre de maneira paralela e distribuída, podendo ser consumida por dispositivos computacionais e aplicações externos."/>
+			<field name="originatesFrom" value="70553632"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018072018"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018072018"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018072018"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181072018"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018072018"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28310" type="Person">
+			<semanticIdentifier>lattes::3196052576107598</semanticIdentifier>
+			<field name="identifier.lattes" value="3196052576107598"/>
+			<field name="name" value="Saul Emanuel Delabrida Silva"/>
+		</entity>
+		<entity ref="OrgUnit22170" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41525" toEntityRef="Person28310" type="Inventor"/>
+		<relation fromEntityRef="Patent41525" toEntityRef="OrgUnit22170" type="Applicant"/>
+	</relations>
+</entity-relation-data>

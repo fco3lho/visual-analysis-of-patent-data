@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:34" record="39607" source="Espacenet">
+	<entities>
+		<entity ref="Patent39607" type="Patent">
+			<semanticIdentifier>brcris::5b5eb9c84272b8ac85654959a35aa634</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604111A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0604111</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604111A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI04111</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0604111-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0604111"/>
+			<field name="identifier.lattes" value="1856471030624999"/>
+			<field name="identifier.espacenet" value="PI0604111"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de eliminação de mercúrio de rejeitos sólidos"/>
+			<field name="title.lattes" value="PROCESSO DE ELIMINAÇÃO DE MERCÚRIO DE REJEITOS SÓLIDOS"/>
+			<field name="depositDate" value="2006-08-24"/>
+			<field name="publicationDate" value="2008-04-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIA CARVALHINHO WINDMOLLER"/>
+			<field name="inventor" value="ROCHEL MONTERO LAGO"/>
+			<field name="inventor" value="WALTER ALVES DURAO JUNIOR"/>
+			<field name="inventor" value="WALTER ALVES DURAO JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22B43/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B09B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B09C1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE ELIMINAçãO DE MERCúRIO DE REJEITOS SóLIDOS A presente invenção caracteriza-se pelo processo de eliminação de mercúrio contaminante presente em rejeitos sólidos em geral que contenham Hg¬ 2+¬ fortemente aderido, como solos, vidros, cerâmicas, madeiras, rejeitos industriais e especialmente resíduos de lâmpadas de vapor de mercúrio, utilizando de forma inovadora agentes químicos redutores sólidos. O processo se baseia na utilização de um redutor químico inorgânico, que por simples trituração com o material sólido contaminado, resulta na rápida redução das diferentes espécies contaminantes de mercúrio para mercúrio metálico. Este mercúrio metálico pode então ser volatilizado e facilmente removido e coletado, levando à descontaminação do rejeito. O processo mostra as vantagens de ser simples, de menor custo, limpo, sem gerar qualquer outro tipo de efluente que necessite tratamento e ainda ser capaz de retirar de forma mais eficiente o mercúrio mais fortemente ligado a rejeitos sólidos comparado ao simples tratamento térmico."/>
+			<field name="originatesFrom" value="39309859"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604111"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0604111"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604111"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI04111"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0604111-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26932" type="Person">
+			<semanticIdentifier>lattes::1856471030624999</semanticIdentifier>
+			<field name="identifier.lattes" value="1856471030624999"/>
+			<field name="name" value="Rochel Montero Lago"/>
+		</entity>
+		<entity ref="OrgUnit21090" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39607" toEntityRef="Person26932" type="Inventor"/>
+		<relation fromEntityRef="Patent39607" toEntityRef="OrgUnit21090" type="Applicant"/>
+	</relations>
+</entity-relation-data>

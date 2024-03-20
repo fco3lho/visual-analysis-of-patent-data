@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:35" record="35928" source="Espacenet">
+	<entities>
+		<entity ref="Patent35928" type="Patent">
+			<semanticIdentifier>brcris::0d38ba0eee1af3b025ce6ed9244b036a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905542A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905542</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905542A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05542</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905542-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905542"/>
+			<field name="identifier.lattes" value="4115942565606954"/>
+			<field name="identifier.espacenet" value="PI0905542"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de roteamento anycast utilizando algoritmos genéticos em redes tolerantes a atrasos e desconexões"/>
+			<field name="title.lattes" value="Método de Roteamento Anycast Utilizando Algoritmos Genéticos em Redes Tolerantes a Atrasos e Desconexões"/>
+			<field name="depositDate" value="2009-12-16"/>
+			<field name="publicationDate" value="2011-08-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDERSON ROSA DA SILVA"/>
+			<field name="inventor" value="EDERSON ROSA DA SILVA"/>
+			<field name="inventor" value="PAULO ROBERTO GUARDIEIRO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L12/721AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="721AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE ROTEAMENTO ANYCAST UTILIZANDO ALGORITMOS GENéTICOS EM REDES TOLERANTES A ATRASOS E DESCONEXõES.&lt;D&gt; A presente invenção trata de um método para seleção de caminhos anycast utilizando algoritmos genéticos (AGs) em redes tolerantes a atrasos e desconexões ou DTNs, representadas através de grafos evolutivos. No método, o conjunto de nós que formarão as rotas entre o par fonte-destino de cada sessão anycast é definido como um cromossomo, que possui representação de tamanho constante. Utiliza-se o algoritmo de Dijkstra de menor caminho para geração de soluções potenciais (rotas) para cada sessão anycast. Essas soluções são combinadas pelo algoritmo de roteamento anycast baseado em AGs, que é projetado para produzir apenas indivíduos regulares e para permitir encontrar soluções em um tempo reduzido. O AG, através da avaliação da função de aptidão, analisa as várias combinações de rotas a fim de encontrar rotas que otimizem os objetivos do roteamento: rotas que satisfaçam uma taxa de entrega mínima e possuam o menor atraso. A utilização das aproximações acima permite que a seleção de rotas realizada pelo algoritmo de roteamento seja eficiente e otimize as medidas de desempenho da rede."/>
+			<field name="originatesFrom" value="44482356"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905542"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905542"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905542"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05542"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905542-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24711" type="Person">
+			<semanticIdentifier>lattes::4115942565606954</semanticIdentifier>
+			<field name="identifier.lattes" value="4115942565606954"/>
+			<field name="name" value="Paulo Roberto Guardieiro"/>
+		</entity>
+		<entity ref="OrgUnit19384" type="OrgUnit">
+			<semanticIdentifier>brcris::f60e03e4038d592def216988a602934c</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit19385" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+		<entity ref="OrgUnit19386" type="OrgUnit">
+			<semanticIdentifier>brcris::fa95793bd10cf2105122ea0e931c861a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35928" toEntityRef="Person24711" type="Inventor"/>
+		<relation fromEntityRef="Patent35928" toEntityRef="OrgUnit19384" type="Applicant"/>
+		<relation fromEntityRef="Patent35928" toEntityRef="OrgUnit19385" type="Applicant"/>
+		<relation fromEntityRef="Patent35928" toEntityRef="OrgUnit19386" type="Applicant"/>
+	</relations>
+</entity-relation-data>

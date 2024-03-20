@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:10" record="39969" source="Espacenet">
+	<entities>
+		<entity ref="Patent39969" type="Patent">
+			<semanticIdentifier>brcris::ea40f9656eb1671d6b31a87d276419a7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016026233A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016026233</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016026233A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161026233</semanticIdentifier>
+			<semanticIdentifier>original::102016026233</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016026233"/>
+			<field name="identifier.lattes" value="0941546772583856"/>
+			<field name="identifier.espacenet" value="102016026233"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de acetato de butila utilizando lipases comerciais imobilizadas"/>
+			<field name="title.lattes" value="PROCESSO DE PRODUÇÃO DE ACETATO DE BUTILA VIA CATÁLISE ENZIMÁTICA"/>
+			<field name="depositDate" value="2016-11-09"/>
+			<field name="publicationDate" value="2019-01-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE MACHADO DE CASTRO"/>
+			<field name="inventor" value="CLAUDIA DE OLIVEIRA VELOSO"/>
+			<field name="inventor" value="KAREN MEDEIROS GONCALVES"/>
+			<field name="inventor" value="MARTA ANTUNES PEREIRA LANGONE"/>
+			<field name="inventor" value="RODRIGO OCTAVIO MENDONCA ALVES DE SOUZA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO - UERJ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N9/20AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N11/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12P7/62AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;processo de produção de acetato de butila utilizando lipases comerciais imobilizadas&quot; a presente invenção provê um processo otimizado, altamente eficiente, de produção de acetato de butila utilizando lir)ases comerciais imobilizadas como catalisador em reações de esterificação ou transesterificação entre o butanol e doadores de acila."/>
+			<field name="originatesFrom" value="65237293"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016026233"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016026233"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016026233"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161026233"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016026233"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27197" type="Person">
+			<semanticIdentifier>lattes::0941546772583856</semanticIdentifier>
+			<field name="identifier.lattes" value="0941546772583856"/>
+			<field name="name" value="Rodrigo Octavio Mendonca Alves de Souza"/>
+		</entity>
+		<entity ref="OrgUnit21291" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit21292" type="OrgUnit">
+			<semanticIdentifier>brcris::41e04b28b5000e86fd4a21d9e6c508eb</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO - UERJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39969" toEntityRef="Person27197" type="Inventor"/>
+		<relation fromEntityRef="Patent39969" toEntityRef="OrgUnit21291" type="Applicant"/>
+		<relation fromEntityRef="Patent39969" toEntityRef="OrgUnit21292" type="Applicant"/>
+	</relations>
+</entity-relation-data>

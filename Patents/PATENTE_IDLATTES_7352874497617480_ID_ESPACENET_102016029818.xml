@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:59" record="7432" source="Espacenet">
+	<entities>
+		<entity ref="Patent7432" type="Patent">
+			<semanticIdentifier>brcris::4b7cfb654e113b6ef86530b76930a0f3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016029818A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016029818</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016029818A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161029818</semanticIdentifier>
+			<semanticIdentifier>original::102016029818</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016029818"/>
+			<field name="identifier.lattes" value="7352874497617480"/>
+			<field name="identifier.espacenet" value="102016029818"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="refrigerador por absorção para fornos de panificação"/>
+			<field name="title.lattes" value="Refrigerador por absorção para fornos de panificação (Financiada pela FAPEMIG e a empresa Pratica Fornos)"/>
+			<field name="depositDate" value="2016-12-19"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO SANCHES DA SILVA"/>
+			<field name="inventor" value="HUGO ANDERSON ARAUJO PONTES"/>
+			<field name="inventor" value="SILVIO FRANCISCO DA SILVA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="PRATICA KLIMAQUIP INDUSTRIA E COMERCIO S.A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F25B15/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A21B1/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="62954446"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016029818"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016029818"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016029818"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161029818"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016029818"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4986" type="Person">
+			<semanticIdentifier>lattes::7352874497617480</semanticIdentifier>
+			<field name="identifier.lattes" value="7352874497617480"/>
+			<field name="name" value="Carlos Eduardo Sanches da Silva"/>
+		</entity>
+		<entity ref="OrgUnit3939" type="OrgUnit">
+			<semanticIdentifier>brcris::1181a7dc37385866177856d680d3cd6f</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7432" toEntityRef="Person4986" type="Inventor"/>
+		<relation fromEntityRef="Patent7432" toEntityRef="OrgUnit3939" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:49" record="46060" source="Espacenet">
+	<entities>
+		<entity ref="Patent46060" type="Patent">
+			<semanticIdentifier>brcris::cadd35491b268c7973abc1a1f426dd05</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012021910A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012021910</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012021910A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121021910</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 021910-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012021910"/>
+			<field name="identifier.lattes" value="7399179037419892"/>
+			<field name="identifier.espacenet" value="102012021910"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="CLUSTERIZAÇÃO DINÂMICA PARA TRANSMISSÃO COORDENADA EM SISTEMA DE COMUNICAÇÃO SEM FIO"/>
+			<field name="title.lattes" value="Clusterização dinâmica para transmissão coordenada em sistema de comunicação sem fio"/>
+			<field name="depositDate" value="2012-08-30"/>
+			<field name="publicationDate" value="2013-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELVIS M. G. STANCANELLI"/>
+			<field name="inventor" value="FRANCISCO RODRIGO P. CAVALCANTI"/>
+			<field name="inventor" value="TARCISIO MACIEL"/>
+			<field name="inventor" value="WALTER DA CRUZ FREITAS JUNIOR"/>
+			<field name="inventor" value="YURI C. B. SILVA"/>
+			<field name="applicant" value="ERICSSON TELECOMUNICACOES S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W16/18AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CLUSTERIZAÇÃO DINÂMICA PARA TRANSMISSÃO COORDENADA EM SISTEMA DE COMUNICAÇÃO SEM FIO. Sistemas e métodos são providos para aplicar um algoritimo de atribuição baseado em clusterização (CbAA) em um sistema de telecomunicações. Um método inclui: receber informações de intensidade para pontos de transmissão pertencentes a uma célula Multiponto C oordenado (CoMP) associada; determinar os subconjuntos de clusterização, em que a etapa de determinar os subconjuntos de clusterização inclui: aplicar um algoritmo de k-médias ás informações de intensidade para formar K clusters; identificar o cluster associado a cada UE; associar um cluster a cada ponto de transmissão de acordo com uma regra pré-definida; e selecionar os UEs a serem atendidos; e reportar as formações de clusterização."/>
+			<field name="originatesFrom" value="49292678"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012021910"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012021910"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012021910"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121021910"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 021910-7"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2013267239"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US9136918"/>
+		</entity>
+		<entity ref="Person31469" type="Person">
+			<semanticIdentifier>lattes::7399179037419892</semanticIdentifier>
+			<field name="identifier.lattes" value="7399179037419892"/>
+			<field name="name" value="Yuri Carvalho Barbosa Silva"/>
+		</entity>
+		<entity ref="Patent46061" type="Patent">
+			<semanticIdentifier>epodoc::US2013267239</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="49292678"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2013267239"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent46062" type="Patent">
+			<semanticIdentifier>epodoc::US9136918</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="49292678"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US9136918"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent46060" toEntityRef="Person31469" type="Inventor"/>
+	</relations>
+</entity-relation-data>

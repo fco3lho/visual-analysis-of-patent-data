@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:31" record="1420" source="Espacenet">
+	<entities>
+		<entity ref="Patent1420" type="Patent">
+			<semanticIdentifier>brcris::ee6fc7ce5868992aa99ca840ec9723a3</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505330A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505330</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505330A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05330</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505330-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505330"/>
+			<field name="identifier.lattes" value="2870505249595744"/>
+			<field name="identifier.espacenet" value="PI0505330"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método de determinação espécie-especìfico de leishmania (viannia) guyanensis"/>
+			<field name="title.lattes" value="Metodo de determinacao especie especifico de Leishmania guyanensis"/>
+			<field name="depositDate" value="2005-11-22"/>
+			<field name="publicationDate" value="2007-08-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDER SIBAJEV"/>
+			<field name="inventor" value="ALEXANDRE SIBAJEV"/>
+			<field name="inventor" value="ANTONIA MARIA RAMOS FRANCO PEREIRA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/6893AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="6893AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12Q1/686AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="686AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE DETERMINAçãO ESPéCIE-ESPECIFICO DE LEISHMANIA (VIANNIA) GUYANENSIS A presente invenção diz respeito a um método de identificação espécie-especifico de LEISHMANIA (VIANNIA), através da reação de amplificação em cadeia da DNA polimerase (PCR), tendo como substrato o DNA isolado dessa espécie de microorganismo, a partir de lesão cutânea ulcerada, bem como a partir de biópsia de tecido cultivo parasitário e dos insetos vetores flebotomíneos infectados pelo protozoário."/>
+			<field name="originatesFrom" value="38331899"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505330"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505330"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505330"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05330"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505330-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1064" type="Person">
+			<semanticIdentifier>lattes::2870505249595744</semanticIdentifier>
+			<field name="identifier.lattes" value="2870505249595744"/>
+			<field name="name" value="Alexander Sibajev"/>
+		</entity>
+		<entity ref="OrgUnit838" type="OrgUnit">
+			<semanticIdentifier>brcris::8216edde71d5cb54d39cca550db7679d</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="OrgUnit839" type="OrgUnit">
+			<semanticIdentifier>brcris::ec47f492ca0551bbf05c2477ecd20b73</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1420" toEntityRef="Person1064" type="Inventor"/>
+		<relation fromEntityRef="Patent1420" toEntityRef="OrgUnit838" type="Applicant"/>
+		<relation fromEntityRef="Patent1420" toEntityRef="OrgUnit839" type="Applicant"/>
+	</relations>
+</entity-relation-data>

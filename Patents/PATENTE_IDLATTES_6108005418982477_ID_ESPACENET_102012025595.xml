@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:29" record="31469" source="Espacenet">
+	<entities>
+		<entity ref="Patent31469" type="Patent">
+			<semanticIdentifier>brcris::23c4a2e52186456d182ad5eeab1a00ed</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012025595A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012025595</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012025595A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121025595</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 025595-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012025595"/>
+			<field name="identifier.lattes" value="6108005418982477"/>
+			<field name="identifier.espacenet" value="102012025595"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO DE PRODUÇÃO DE UM NANOCOMPÓSITO DE POLIAMIDA-6 E USO DO MESMO"/>
+			<field name="title.lattes" value="PROCESSO DE PRODUÇÃO DE UM NANOCOMPÓSITO DE POLIAMIDA-6 E USO DO MESMO"/>
+			<field name="depositDate" value="2012-10-08"/>
+			<field name="publicationDate" value="2014-08-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE LOPES PARRA"/>
+			<field name="inventor" value="ANA FLAVIA PATTARO COELHO"/>
+			<field name="inventor" value="ANDRE LUIZ JARDINI MUNHOZ"/>
+			<field name="inventor" value="LEONARDO LODI"/>
+			<field name="inventor" value="MARIA CAROLINA BURGOS COSTA DO NASCIMENTO"/>
+			<field name="inventor" value="MARIA INGRID ROCHA BARBOSA"/>
+			<field name="inventor" value="RUBENS MACIEL FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08F2/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y30/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B82Y40/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PRODUÇÃO DE UM NANOCOMPÓSITO DE POLIAMIDA-6, E USO DO MESMO A presente invenção descreve um processo para a produção de um nanocompósito de Poliamida-6 compreendendo as seguintes etapas: (a) são alimentados em um reator: e e-caproIactama sólida, água, ácido acético e argila sódica ou argila organofilica; (b) inertização do reator com nitrogênio; (c) homonegeneização da mistura obtida sob agitação; d) aquecimento da massa reacional sob agitação; (e) manutenção da temperatura da mistura por 3 a 5 horas, com controle de pressão; (f) acionamento da bomba de vácuo; (g) remoção do produto obtido do reator; e (h) lavagem e secagem do produto. Adicionalmente, a presente invenção descreve o nanocompósito de poliamida-6 produzido por meio desse processo, e o uso do referido nanocompósito de poliamida-6."/>
+			<field name="originatesFrom" value="51359812"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012025595"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012025595"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012025595"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121025595"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 025595-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21546" type="Person">
+			<semanticIdentifier>lattes::6108005418982477</semanticIdentifier>
+			<field name="identifier.lattes" value="6108005418982477"/>
+			<field name="name" value="Maria Ingrid Rocha Barbosa Schiavon"/>
+		</entity>
+		<entity ref="OrgUnit16819" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31469" toEntityRef="Person21546" type="Inventor"/>
+		<relation fromEntityRef="Patent31469" toEntityRef="OrgUnit16819" type="Applicant"/>
+	</relations>
+</entity-relation-data>

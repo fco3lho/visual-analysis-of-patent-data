@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:24" record="33135" source="Espacenet">
+	<entities>
+		<entity ref="Patent33135" type="Patent">
+			<semanticIdentifier>brcris::3de0e0f603f19497d39008ac0afdcfbb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301111A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9301111</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301111A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939301111</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9301111"/>
+			<field name="identifier.lattes" value="6745094778936874"/>
+			<field name="identifier.espacenet" value="9301111"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Dispositivo para separação de dois líquidos de densidades diferentes que inclui um hidrociclone e processo que compreende o uso do dito dispositivo"/>
+			<field name="title.lattes" value="Dispositivo para separação de dois líquidos de densidades diferentes que inclui um hidrociclone"/>
+			<field name="depositDate" value="1993-03-09"/>
+			<field name="publicationDate" value="1994-10-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LIMA JOSE RENATO BAPTISTA DE"/>
+			<field name="inventor" value="MIGUEL ANGEL BUELTA MARTINEZ"/>
+			<field name="inventor" value="NETO ANTONIO PERES"/>
+			<field name="inventor" value="SOUZA GILBERTO FRANCISCO MARTHA DE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D17/032AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="032AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F1/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="E02B15/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="originatesFrom" value="4056146"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301111"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9301111"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301111"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939301111"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22816" type="Person">
+			<semanticIdentifier>lattes::6745094778936874</semanticIdentifier>
+			<field name="identifier.lattes" value="6745094778936874"/>
+			<field name="name" value="Miguel Angel Buelta Martinez"/>
+		</entity>
+		<entity ref="OrgUnit17830" type="OrgUnit">
+			<semanticIdentifier>brcris::ec32ab6b506168bb09d22abc9d3b8766</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33135" toEntityRef="Person22816" type="Inventor"/>
+		<relation fromEntityRef="Patent33135" toEntityRef="OrgUnit17830" type="Applicant"/>
+	</relations>
+</entity-relation-data>

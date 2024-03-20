@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:12" record="20910" source="Espacenet">
+	<entities>
+		<entity ref="Patent20910" type="Patent">
+			<semanticIdentifier>brcris::ebd2fe75ea3b5af7c06a48be60d6c7d9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8904583A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8904583</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8904583A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19898904583</semanticIdentifier>
+			<semanticIdentifier>original::89 8904583</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8904583"/>
+			<field name="identifier.lattes" value="2192738260572343"/>
+			<field name="identifier.espacenet" value="8904583"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="CABO OTICO DE INTERCONEXAO E SEU PROCESSO DE PRODUCAO"/>
+			<field name="title.lattes" value="Cabo Ótico de Inter-conexão e seu Processo de Produção"/>
+			<field name="depositDate" value="1989-09-12"/>
+			<field name="publicationDate" value="1991-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEAN PIERRE VON DER WEILD"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="PONTIFICIA UNIVERSIDADE CATOLICA DO RIO DE JANEIRO - PUC/RJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/44AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="originatesFrom" value="4047886"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8904583"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8904583"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8904583"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19898904583"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="89 8904583"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14483" type="Person">
+			<semanticIdentifier>lattes::2192738260572343</semanticIdentifier>
+			<field name="identifier.lattes" value="2192738260572343"/>
+			<field name="name" value="Jean Pierre von der Weid"/>
+		</entity>
+		<entity ref="OrgUnit11347" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20910" toEntityRef="Person14483" type="Inventor"/>
+		<relation fromEntityRef="Patent20910" toEntityRef="OrgUnit11347" type="Applicant"/>
+	</relations>
+</entity-relation-data>

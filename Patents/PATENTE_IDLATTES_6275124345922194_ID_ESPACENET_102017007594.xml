@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:53" record="13050" source="Espacenet">
+	<entities>
+		<entity ref="Patent13050" type="Patent">
+			<semanticIdentifier>brcris::b0716720ca8ce1c52d34103176d201cc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007594A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017007594</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007594A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171007594</semanticIdentifier>
+			<semanticIdentifier>original::102017007594</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017007594"/>
+			<field name="identifier.lattes" value="6275124345922194"/>
+			<field name="identifier.espacenet" value="102017007594"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compostos 1,2,3-triazólicos, composições farmacêuticas anticancerígenas e usos"/>
+			<field name="title.lattes" value="Composos 1,2,3-triazolicos, composiçoes farmaceuticas anticancerigena e usos"/>
+			<field name="depositDate" value="2017-04-12"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADILSON DAVID DA SILVA"/>
+			<field name="inventor" value="ELAINE MARIA DE SOUZA FAGUNDES"/>
+			<field name="inventor" value="NICOLAS GLANZMANN"/>
+			<field name="inventor" value="PEDRO HENRIQUE DIAS MOURA PRAZERES"/>
+			<field name="inventor" value="PEDRO HENRIQUE FAZZA STROPPA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS ? FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA - UFJF"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K9/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K31/4192AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="4192AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C07D249/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="249"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção trata de compostos 1,2,3-triazólicos ou seus sais, de composições farmacêuticas contendo tais compostos e do uso dos compostos e/ou das composições como anticancerígeno. as composições podem conter os compostos tanto na sua forma livre quanto encapsulado em lipossomas ou outras nanoestruturas para aumentar a biodisponibilidade."/>
+			<field name="originatesFrom" value="64269039"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007594"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017007594"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007594"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171007594"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017007594"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8938" type="Person">
+			<semanticIdentifier>lattes::6275124345922194</semanticIdentifier>
+			<field name="identifier.lattes" value="6275124345922194"/>
+			<field name="name" value="Elaine Maria de Souza Fagundes"/>
+		</entity>
+		<entity ref="OrgUnit7015" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13050" toEntityRef="Person8938" type="Inventor"/>
+		<relation fromEntityRef="Patent13050" toEntityRef="OrgUnit7015" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:32" record="23009" source="Espacenet">
+	<entities>
+		<entity ref="Patent23009" type="Patent">
+			<semanticIdentifier>brcris::f1d58ce9d995572e2aee850a3bcf30a4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902810A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0902810</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902810A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI02810</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0902810-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0902810"/>
+			<field name="identifier.lattes" value="5358305966593634"/>
+			<field name="identifier.espacenet" value="PI0902810"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo para construÇço de carvernas submarinas em rochas salinas"/>
+			<field name="title.lattes" value="MÉTODO DE CONSTRUÇÃO DE CAVERNAS SUBMARINAS EM ROCHAS SALINAS"/>
+			<field name="depositDate" value="2009-08-31"/>
+			<field name="publicationDate" value="2012-07-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO MAIA DA COSTA"/>
+			<field name="inventor" value="CLAUDIO DOS SANTOS AMARAL"/>
+			<field name="inventor" value="EDGARD POIATE JR"/>
+			<field name="inventor" value="JOSE LUIZ FALCAO"/>
+			<field name="inventor" value="ROBERTO RODRIGUES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/40AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B65G5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="65"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="E21B43/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO DE CONSTRUÇçO DE CAVERNAS SUBMARINAS EM ROCHAS SALINAS, A presente invenção se refere a um método de construção de cavernas submarinas em rochas salinas que reduz o uso de sondas marítimas. O referido método compreende as etapas de perfuração de um ou mais poços; instalação de duas colunas no poço, sendo uma para injeção de água e a outra para retorno de salmoura; circulação de água para dissolver o sal; redução do comprimento da coluna de injenção de água e avaliação da geometria da caverna, sendo que as etapas de circulação de água para dissolver o sal e de redução do comprimento da coluna de injenção de água dispensam o uso de embarcações dotadas de sonda marítima, fazendo uso de outros meios adequados de menor custo."/>
+			<field name="originatesFrom" value="46513971"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902810"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0902810"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902810"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI02810"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0902810-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15916" type="Person">
+			<semanticIdentifier>lattes::5358305966593634</semanticIdentifier>
+			<field name="identifier.lattes" value="5358305966593634"/>
+			<field name="name" value="José Luiz Falcão"/>
+		</entity>
+		<entity ref="OrgUnit12327" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23009" toEntityRef="Person15916" type="Inventor"/>
+		<relation fromEntityRef="Patent23009" toEntityRef="OrgUnit12327" type="Applicant"/>
+	</relations>
+</entity-relation-data>

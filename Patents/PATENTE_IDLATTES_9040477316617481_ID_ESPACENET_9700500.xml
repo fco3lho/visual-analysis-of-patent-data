@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:13" record="45780" source="Espacenet">
+	<entities>
+		<entity ref="Patent45780" type="Patent">
+			<semanticIdentifier>brcris::f664377b50a9265bd7ca34c9071f3490</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700500A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9700500</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700500A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979700500</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9700500"/>
+			<field name="identifier.lattes" value="9040477316617481"/>
+			<field name="identifier.espacenet" value="9700500"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para destruição de compostos orgânicos e inorganicos voláteis em fase gasosa por fotocatalise heterogenea"/>
+			<field name="title.lattes" value="Processo para destruição de compostos organicos volateis em fase gasossa por fotocatalise heterogenea"/>
+			<field name="depositDate" value="1997-04-04"/>
+			<field name="publicationDate" value="1998-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FIGUEREDO JARDIM WILSON DE"/>
+			<field name="inventor" value="OLIVEIRA ROSANA MARIA ALBERICI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="originatesFrom" value="4066337"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700500"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9700500"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700500"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979700500"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31344" type="Person">
+			<semanticIdentifier>lattes::9040477316617481</semanticIdentifier>
+			<field name="identifier.lattes" value="9040477316617481"/>
+			<field name="name" value="Wilson de Figueiredo Jardim"/>
+		</entity>
+		<entity ref="OrgUnit24584" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45780" toEntityRef="Person31344" type="Inventor"/>
+		<relation fromEntityRef="Patent45780" toEntityRef="OrgUnit24584" type="Applicant"/>
+	</relations>
+</entity-relation-data>

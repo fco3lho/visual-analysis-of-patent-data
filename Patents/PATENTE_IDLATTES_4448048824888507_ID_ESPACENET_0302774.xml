@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:37" record="17546" source="Espacenet">
+	<entities>
+		<entity ref="Patent17546" type="Patent">
+			<semanticIdentifier>brcris::d440331d534ac7b7957a1612c95c8c00</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302774A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0302774</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302774A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030302774</semanticIdentifier>
+			<semanticIdentifier>original::0302774-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0302774"/>
+			<field name="identifier.lattes" value="4448048824888507"/>
+			<field name="identifier.espacenet" value="0302774"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de separação de vapores metálicos alcalinos por indução magnética"/>
+			<field name="title.lattes" value="Processo de separação de vapores metálicos alcalinos por indução magnética"/>
+			<field name="depositDate" value="2003-07-02"/>
+			<field name="publicationDate" value="2005-04-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GILBERTO CALDEIRA BANDEIRA DE MELO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B03C1/01AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE SEPARAçãO DE VAPORES METáLICOS ALCALINOS POR INDUçãO MAGNéTICA&quot;. O invento consiste no uso de um campo magnético não uniforme como forma de indução de uma força separadora para que os metais alcalinos sódio e potássio, de propriedades paramagnéticas, sejam separados do magnésio, que é diamagnético. O processo tem aplicação na fabricação industrial, pela via silicotérmica, do magnésio metálico primário, no qual o magnésio é obtido na forma de vapor no reator de uma retorta de redução previamente evacuada, migrando do reator, aquecido, para o condensador, resfriado, onde condensase elou sublima formando o magnésio sólido."/>
+			<field name="originatesFrom" value="34383388"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302774"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0302774"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302774"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030302774"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0302774-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12148" type="Person">
+			<semanticIdentifier>lattes::4448048824888507</semanticIdentifier>
+			<field name="identifier.lattes" value="4448048824888507"/>
+			<field name="name" value="Gilberto Caldeira Bandeira de Melo"/>
+		</entity>
+		<entity ref="OrgUnit9518" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17546" toEntityRef="Person12148" type="Inventor"/>
+		<relation fromEntityRef="Patent17546" toEntityRef="OrgUnit9518" type="Applicant"/>
+	</relations>
+</entity-relation-data>

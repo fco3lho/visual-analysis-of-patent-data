@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:27" record="16868" source="Espacenet">
+	<entities>
+		<entity ref="Patent16868" type="Patent">
+			<semanticIdentifier>brcris::6f24cfff38852098566ba5cf594972f7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012027013A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012027013</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012027013A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121027013</semanticIdentifier>
+			<semanticIdentifier>original::102012027013</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012027013"/>
+			<field name="identifier.lattes" value="4427578264303416"/>
+			<field name="identifier.espacenet" value="102012027013"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo e dispositivo de pré-detecção de colisão"/>
+			<field name="title.lattes" value="PROCESSO E DISPOSITIVO DE PRÉ-DETECÇÃO DE COLISÃO"/>
+			<field name="depositDate" value="2012-10-22"/>
+			<field name="publicationDate" value="2018-03-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GABRIEL ANTOINE LOUIS PAILLARD"/>
+			<field name="inventor" value="TARCISIO FERREIRA MACIEL"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08G1/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo e dispositivo de pré-detecção de colisão. o sistema aqui apresentado tem como objetivo principal a detecção da possibilidade de colisão entre veículos circulando em vias perpendiculares próximos a um mesmo cruzamento. para este fim o dispositivo ora proposto detecta a presença e/ou velocidade de um veículo na via principal próximo ao cruzamento e através do uso de um sistema de comunicação emite um sinal de alerta para os veículos próximos ao cruzamento que estejam trafegando na via secundária através de equipamento instalado no veículo e/ou na via. este sistema pode ter aplicações na indústria automobilística bem como no controle de tráfego automotivo."/>
+			<field name="originatesFrom" value="62062476"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012027013"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012027013"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012027013"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121027013"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012027013"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11722" type="Person">
+			<semanticIdentifier>lattes::4427578264303416</semanticIdentifier>
+			<field name="identifier.lattes" value="4427578264303416"/>
+			<field name="name" value="Gabriel Antoine Louis Paillard"/>
+		</entity>
+		<entity ref="OrgUnit9178" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16868" toEntityRef="Person11722" type="Inventor"/>
+		<relation fromEntityRef="Patent16868" toEntityRef="OrgUnit9178" type="Applicant"/>
+	</relations>
+</entity-relation-data>

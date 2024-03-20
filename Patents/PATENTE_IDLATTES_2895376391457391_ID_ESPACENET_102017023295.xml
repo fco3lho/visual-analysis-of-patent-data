@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:59" record="635" source="Espacenet">
+	<entities>
+		<entity ref="Patent635" type="Patent">
+			<semanticIdentifier>brcris::a2745ecfe9a5b3ffc5b75eb764c0d662</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023295A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017023295</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023295A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171023295</semanticIdentifier>
+			<semanticIdentifier>original::102017023295</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017023295"/>
+			<field name="identifier.lattes" value="2895376391457391"/>
+			<field name="identifier.espacenet" value="102017023295"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="medidor eletrônico de nível d'água baseado em sensor de pressão diferencial"/>
+			<field name="title.lattes" value="MEDIDOR ELETRÔNICO DE NÍVEL D'ÁGUA BASEADO EM SENSOR DE PRESSÃO DIFERENCIAL"/>
+			<field name="depositDate" value="2017-10-27"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO BORGES DA CUNHA"/>
+			<field name="inventor" value="ALBERTO DE FIGUEIREDO GONTIJO"/>
+			<field name="inventor" value="ALEXANDRE VAZ DE MELO"/>
+			<field name="inventor" value="DANILO PACHECO LIMA"/>
+			<field name="inventor" value="DENER AUGUSTO DE LISBOA BRANDAO"/>
+			<field name="inventor" value="EDILSON HUMBERTO CALIMAN"/>
+			<field name="inventor" value="JOAO EDUARDO MONTANDON DE ARAUJO FILHO"/>
+			<field name="inventor" value="PEDRO HENRIQUE ALMEIDA MACIEL"/>
+			<field name="inventor" value="VICTOR MARCIUS MAGALHAES PINTO"/>
+			<field name="applicant" value="CEMIG GERACAO E TRANSMISSAO S.A"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UFMG - UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F23/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente patente de invenção é aplicada na área de gestão de bacias e meio ambiente e refere-se a um medidor de nível de água, de baixo custo e sem fio, em vertedouros em ?v?, utilizado principalmente em barragens de usinas hidrelétricas. poderá ser utilizado em qualquer ambiente de medição de nível d?água com dimensões abaixo de 1 metro. o sensor de pressão (1) é composto de tubo tranquilizador (1.12) que reduz as agitações da água, tubo interno (1.17) contendo o sensor de pressão (1), isolando-o da água; tampão de polímero (1.14) isolando o tubo do sensor de pressão da água pelo fundo; sensor de pressão diferencial (1.19); furo (1.15) no tampão conectando uma das entradas diferenciais do sensor (1) com a água, de chip (1.8) de referência de tensão; trimpot (1.9) de ajuste de offset; comparador (1.10) de tensão; barramento (1.11) para conexão com um circuito externo de condicionamento de sinais, a tampa (1.13) que protege a placa de circuito impresso da base de acomodação da pci (1.6)."/>
+			<field name="originatesFrom" value="67260508"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023295"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017023295"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023295"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171023295"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017023295"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person447" type="Person">
+			<semanticIdentifier>lattes::2895376391457391</semanticIdentifier>
+			<field name="identifier.lattes" value="2895376391457391"/>
+			<field name="name" value="Adriano Borges da Cunha"/>
+		</entity>
+		<entity ref="OrgUnit405" type="OrgUnit">
+			<semanticIdentifier>brcris::a4ccc994cb0e532d68677b719a097898</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent635" toEntityRef="Person447" type="Inventor"/>
+		<relation fromEntityRef="Patent635" toEntityRef="OrgUnit405" type="Applicant"/>
+	</relations>
+</entity-relation-data>

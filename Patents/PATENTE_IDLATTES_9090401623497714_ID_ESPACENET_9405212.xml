@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:53" record="1094" source="Espacenet">
+	<entities>
+		<entity ref="Patent1094" type="Patent">
+			<semanticIdentifier>brcris::98bcdbe6d14476d6ccb1017bc1d95f17</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9405212A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9405212</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9405212A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949405212</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9405212"/>
+			<field name="identifier.lattes" value="9090401623497714"/>
+			<field name="identifier.espacenet" value="9405212"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="uturais atuantes em suportes apoiados Dispositivo e método para medição de esforços estr"/>
+			<field name="title.lattes" value="Dispositivo e método para medição de esforços estruturais atuantes em suportes apoiados"/>
+			<field name="depositDate" value="1994-12-22"/>
+			<field name="publicationDate" value="1996-12-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADAIR PEDROSO"/>
+			<field name="inventor" value="DE SOUZA ALCEMIR COSTA"/>
+			<field name="inventor" value="SILVA ROQUE NASCIMENTO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01M1/38AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="originatesFrom" value="4060277"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9405212"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9405212"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9405212"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949405212"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person802" type="Person">
+			<semanticIdentifier>lattes::9090401623497714</semanticIdentifier>
+			<field name="identifier.lattes" value="9090401623497714"/>
+			<field name="name" value="Alcemir Costa de Souza"/>
+		</entity>
+		<entity ref="OrgUnit638" type="OrgUnit">
+			<semanticIdentifier>brcris::1dfb027b364337c698431f151cd6e54c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1094" toEntityRef="Person802" type="Inventor"/>
+		<relation fromEntityRef="Patent1094" toEntityRef="OrgUnit638" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:26" record="371" source="Espacenet">
+	<entities>
+		<entity ref="Patent371" type="Patent">
+			<semanticIdentifier>brcris::b8d50192a072c5adc1f3545bce855abf</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032272A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014032272</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032272A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141032272</semanticIdentifier>
+			<semanticIdentifier>original::102014032272</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014032272"/>
+			<field name="identifier.lattes" value="2100207320235478"/>
+			<field name="identifier.espacenet" value="102014032272"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de fabricação de múltiplos alvos para produção de mo-99"/>
+			<field name="title.lattes" value="MÉTODO DE FABRICAÇÃO DE MÚLTIPLOS ALVOS PARA PRODUÇÃO DE Mo-99"/>
+			<field name="depositDate" value="2014-12-22"/>
+			<field name="publicationDate" value="2016-06-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADONIS MARCELO SALIBA SILVA"/>
+			<field name="inventor" value="DAVILSON GOMES DA SILVA"/>
+			<field name="inventor" value="GIOVANNI DE LIMA CABRAL ROMEIRO CONTURBIA"/>
+			<field name="inventor" value="MICHELANGELO DURAZZO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G21C3/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G21C3/36AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de fabricação de múltiplos alvos para produção de mo-99. método de fabricação de alvos de irradiação para produção de mo-99 por fissão nuclear que permite a fabricação de múltiplos alvos por meio da fabricação de uma placa base laminada contendo múltiplos núcleos de dispersão, caracterizado pela montagem de múltiplos núcleos de dispersão numa moldura contendo múltiplas cavidades nos quais os núcleos se encaixam, formando-se o conjunto núcleo-moldura-revestimentos ou sanduíche, os quais são laminados simultaneamente. após a montagem do sanduíche contendo os múltiplos núcleos, o conjunto é deformado por laminação em uma direção que permite o alongamento dos núcleos dos alvos. a partir da placa base laminada são determinadas as posições individuais dos múltiplos núcleos e são traçadas linhas guias que orientam o corte dos múltiplos alvos fabricados segundo o presente método. o número de alvos fabricados simultaneamente não é restrito, dependendo apenas das especificações dimensionais do alvo de irradiação a ser fabricado."/>
+			<field name="originatesFrom" value="56139213"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032272"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014032272"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032272"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141032272"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014032272"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person254" type="Person">
+			<semanticIdentifier>lattes::2100207320235478</semanticIdentifier>
+			<field name="identifier.lattes" value="2100207320235478"/>
+			<field name="name" value="Adonis Marcelo Saliba Silva"/>
+		</entity>
+		<entity ref="OrgUnit222" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent371" toEntityRef="Person254" type="Inventor"/>
+		<relation fromEntityRef="Patent371" toEntityRef="OrgUnit222" type="Applicant"/>
+	</relations>
+</entity-relation-data>

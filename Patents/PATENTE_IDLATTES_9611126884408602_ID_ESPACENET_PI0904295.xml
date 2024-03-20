@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:08" record="17801" source="Espacenet">
+	<entities>
+		<entity ref="Patent17801" type="Patent">
+			<semanticIdentifier>brcris::5ece12167c9936ff62f3d4c29eb6275d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904295A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904295</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904295A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04295</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0904295-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904295"/>
+			<field name="identifier.lattes" value="9611126884408602"/>
+			<field name="identifier.espacenet" value="PI0904295"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de nanocompósitos reticulados superabsorventes"/>
+			<field name="title.lattes" value="Processo de obtenção de nanocompósitos reticulados superabsorventes"/>
+			<field name="depositDate" value="2009-10-30"/>
+			<field name="publicationDate" value="2011-06-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANE XAVIER DA SILVA CAMPOS"/>
+			<field name="inventor" value="CRISTINA TRISTAO DE ANDRADE"/>
+			<field name="inventor" value="GISELA KLOC LOPES"/>
+			<field name="inventor" value="RACHEL OLIVEIRA NASSER"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08B15/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61F13/15AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="15AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C08B3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE OBTENçãO DE NANOCOMPóSITOS RETICULADOS SUPERABSORVENTES A presente invenção se refere a um processo para a obtenção de nanocompósitos reticulados com propriedade de superabsorbância. Mais especificamente, os referidos nanocompósitos são preparados a partir da graftização de um polissacarídeo, em particular o amido de milho regular, com ácido acrílico. O copolímero resultante é reticulado na presença de pequenas quantidades de argila montmorilonita naturalmente sádica (MMTNa), obtendo-se um hidrogel dotado de resistência mecânica aperfeiçoada e maior capacidade de absorção de fluidos. Os géis superabsorventes obtidos, apresentam baixa toxicidade e capacidade de absorver grandes quantidades de água, a elevadas taxas de absorção, o que os tornam adequados para serem utilizados na manufatura de artigos de higiene pessoal."/>
+			<field name="originatesFrom" value="44189341"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904295"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904295"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904295"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04295"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0904295-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12350" type="Person">
+			<semanticIdentifier>lattes::9611126884408602</semanticIdentifier>
+			<field name="identifier.lattes" value="9611126884408602"/>
+			<field name="name" value="Gisela Kloc Lopes"/>
+		</entity>
+		<entity ref="OrgUnit9628" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit9629" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17801" toEntityRef="Person12350" type="Inventor"/>
+		<relation fromEntityRef="Patent17801" toEntityRef="OrgUnit9628" type="Applicant"/>
+		<relation fromEntityRef="Patent17801" toEntityRef="OrgUnit9629" type="Applicant"/>
+	</relations>
+</entity-relation-data>

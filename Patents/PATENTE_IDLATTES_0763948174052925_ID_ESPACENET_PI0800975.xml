@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:33" record="21115" source="Espacenet">
+	<entities>
+		<entity ref="Patent21115" type="Patent">
+			<semanticIdentifier>brcris::d582170061db122fac978b71de75d882</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800975A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0800975</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800975A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI00975</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0800975-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0800975"/>
+			<field name="identifier.lattes" value="0763948174052925"/>
+			<field name="identifier.espacenet" value="PI0800975"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="tubo para prótese de membro inferior em compósito hìbrido epóxi carbono-vidro e processo para fabricação do mesmo"/>
+			<field name="title.lattes" value="Tubo para prótese de membro inferior em compósito híbrido epóxi carbono vidro e processo para a fabricação do mesmo"/>
+			<field name="depositDate" value="2008-03-25"/>
+			<field name="publicationDate" value="2009-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GERSON MARINUCCI"/>
+			<field name="inventor" value="GUILHERME WOLF LEBRAO"/>
+			<field name="inventor" value="JESUALDO LUIZ ROSSI"/>
+			<field name="inventor" value="JOSUAL ROSSE"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F2/60AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="TUBO PARA PRóTESE DE MEMBRO INFERIOR EM COMPóSITO HìBRIDO EPóXI CARBONO-VIDRO E PROCESSO PARA FABRICAçãO DO MESMO. é descrito um processo para a fabricação de um tubo de material compósito híbrido, com fibra de vidro e fibra de carbono, para utilização como prolongador de prótese de membro inferior a serem fabricados. O objetivo é avaliar as solicitações da prótese para otimizar custo e reduzir a massa. Fez-se inicialmente um levantamento das patentes dos materiais comerciais utilizados para a fabricação do prolongador para referenciar o desenvolvimento do componente da prótese. O trabalho permitiu encontrar uma rota de menor custo para a fabricação de compósito que utiliza um processo de transferência de resina auxiliado a vácuo e pré-formados de vidro e carbono. Como referência, foi fabricado um componente pelo processo de bobinagem filamentar que produz materiais compósitos de qualidade reconhecida. O processo de moldagem por transferência de resina assistido à vácuo, apesar de ter alguns insumos importados, pela sua simplicidade pode ser realizado pelas indústrias do ramo píásticos e se mostrou capaz de obter componentes com custo que víabiliza sua produção sem grandes investimentos em equipamentos. Apesar da redução de algumas das propriedades em relação à peça de referência, o tubo apresentou vantagens na redução de massa e na absorção de impacto."/>
+			<field name="originatesFrom" value="41263740"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800975"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0800975"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800975"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI00975"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0800975-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14640" type="Person">
+			<semanticIdentifier>lattes::0763948174052925</semanticIdentifier>
+			<field name="identifier.lattes" value="0763948174052925"/>
+			<field name="name" value="Jesualdo Luiz Rossi"/>
+		</entity>
+		<entity ref="OrgUnit11498" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit11499" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21115" toEntityRef="Person14640" type="Inventor"/>
+		<relation fromEntityRef="Patent21115" toEntityRef="OrgUnit11498" type="Applicant"/>
+		<relation fromEntityRef="Patent21115" toEntityRef="OrgUnit11499" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:46" record="37265" source="Espacenet">
+	<entities>
+		<entity ref="Patent37265" type="Patent">
+			<semanticIdentifier>brcris::168ef6d3fa9ee2ee88a16891028f334d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016022303A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016022303</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016022303A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161022303</semanticIdentifier>
+			<semanticIdentifier>original::102016022303</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016022303"/>
+			<field name="identifier.lattes" value="3120810650181134"/>
+			<field name="identifier.espacenet" value="102016022303"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de grafeno e uso do mesmo"/>
+			<field name="title.lattes" value="PROCESSO DE PRODUÇÃO DE GRAFENO E USO DO MESMO"/>
+			<field name="depositDate" value="2016-09-27"/>
+			<field name="publicationDate" value="2018-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DOUGLAS ALEXANDRE SIMON"/>
+			<field name="inventor" value="EVELINE BISCHOFF"/>
+			<field name="inventor" value="HENRI STEPHAN SCHREKKER"/>
+			<field name="inventor" value="HESHENG XIA"/>
+			<field name="inventor" value="LUIGI AMBROSIO"/>
+			<field name="inventor" value="MARINO LAVORGNA"/>
+			<field name="inventor" value="RAQUEL SANTOS MAULER"/>
+			<field name="applicant" value="CONSIGLIO NAZIONALE DELLE RICERCHE"/>
+			<field name="applicant" value="SICHUAN UNIVERSITY"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M4/66AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="66AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um processo de produção de grafeno a partir de grafite, utilizando polímeros adequado, que atuam tanto como surfactante como matriz para masterbatch. especificamente, a presente invenção compreende um processo de produção de grafeno utilizando o álcool polivinílico modificado (mpvoh) como surfactante. o mpvoh altera a energia de superfície do solvente, permitindo a exfoliação do grafite a presente invenção se situa no campo da química, engenharia de materiais e nanomateriais."/>
+			<field name="originatesFrom" value="62089359"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016022303"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016022303"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016022303"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161022303"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016022303"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25711" type="Person">
+			<semanticIdentifier>lattes::3120810650181134</semanticIdentifier>
+			<field name="identifier.lattes" value="3120810650181134"/>
+			<field name="name" value="Raquel Santos Mauler"/>
+		</entity>
+		<entity ref="OrgUnit20183" type="OrgUnit">
+			<semanticIdentifier>brcris::284ec060473d395f65ff5a1bab76eb27</semanticIdentifier>
+			<field name="name" value="CONSIGLIO NAZIONALE DELLE RICERCHE"/>
+		</entity>
+		<entity ref="OrgUnit20184" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37265" toEntityRef="Person25711" type="Inventor"/>
+		<relation fromEntityRef="Patent37265" toEntityRef="OrgUnit20183" type="Applicant"/>
+		<relation fromEntityRef="Patent37265" toEntityRef="OrgUnit20184" type="Applicant"/>
+	</relations>
+</entity-relation-data>

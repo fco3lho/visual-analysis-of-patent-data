@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:20" record="17368" source="Espacenet">
+	<entities>
+		<entity ref="Patent17368" type="Patent">
+			<semanticIdentifier>brcris::a2bf7a682f778785996519d5a6796918</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904196A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904196</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904196A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04196</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0904196-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904196"/>
+			<field name="identifier.lattes" value="0717367953543712"/>
+			<field name="identifier.espacenet" value="PI0904196"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="registrador multipropósito modular para monitoramento remoto"/>
+			<field name="title.lattes" value="Registrador multipropósito modular para monitoramento remoto"/>
+			<field name="depositDate" value="2009-10-14"/>
+			<field name="publicationDate" value="2011-06-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE BENEVENTO MARQUES"/>
+			<field name="inventor" value="GERALDO ROBERTO CARVALHO CERNICCHIARO"/>
+			<field name="applicant" value="CENTRO BRASILEIRO DE PESQUISAS FISICAS - CBPF"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE TECNOLOGIA - INT"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="REGISTRADOR MULTIPROPóSITO MODULAR PARA MONITORAMENTO REMOTO Que visa proporcionar o controle, em tempo real, através da medição de parâmetros físico-químicos, obtidos por meio de transdutores elétricos, homologados por instituições habilitadas para verificação de conformidade, de parâmetros ambientais, por exemplo, temperatura, resistividade elétrica, turbidez, acidez, dentre outros, a partir de dados armazenados em dispositivo de memória não volátil. O presente registrador tem sua principal aplicação relacionada com as atividades de fiscalização e controle de poluição ambiental, podendo, no entanto, servir a multipropósitos, em face da possibilidade de ser configurado para vários tipos de aplicações, inclusive distintas do monitoramento ambiental. Sua arquitetura modular permite que módulos adicionais com funções específicas possam ser desenvolvidos e incorporados. Em principio, o registrador é composto por um Módulo de Alimentação, que fornece as tensões de operação dos demais circuitos, a partir de bateria e/ou da rede elétrica, ou de fontes alternativas de energia elétrica; Módulo de Controle, que gerencia a operação do registrador; Módulo de Entrada, onde são digitalizados dos sinais provenientes dos sensores; Módulo de Condicionamento de Sinais, que processa analogicamente o sinal dos sensores, adequando-os à faixa de tensão do Módulo de Entrada, além de prover alimentação e demais sinais ao perfeito funcionamento dos sensores; Módulo de Armazenamento, onde são armazenados, em memória não volátil, os dados digitalizados dos sensores. Devido a considerações de segurança de dados e sigilo, o processamento do registrador é distribuído por diversos microcontroladores."/>
+			<field name="originatesFrom" value="44189328"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904196"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904196"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904196"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04196"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0904196-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12037" type="Person">
+			<semanticIdentifier>lattes::0717367953543712</semanticIdentifier>
+			<field name="identifier.lattes" value="0717367953543712"/>
+			<field name="name" value="Geraldo Roberto Carvalho Cernicchiaro"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17368" toEntityRef="Person12037" type="Inventor"/>
+	</relations>
+</entity-relation-data>

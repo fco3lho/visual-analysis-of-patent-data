@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:32" record="23014" source="Espacenet">
+	<entities>
+		<entity ref="Patent23014" type="Patent">
+			<semanticIdentifier>brcris::735ff3a3f53aa1a40ac72820701dbfde</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010323A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018010323</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010323A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181010323</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018010323"/>
+			<field name="identifier.lattes" value="8633557951315823"/>
+			<field name="identifier.espacenet" value="102018010323"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de membranas estáveis a partir da fração insolúvel de fragmentos de tendão flexor digital bovino"/>
+			<field name="title.lattes" value="Processo de obtenção de membranas estáveis a partir da fração insolúvel de fragmentos de tendão digital bovino"/>
+			<field name="depositDate" value="2018-05-21"/>
+			<field name="publicationDate" value="2019-12-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE AUGUSTO FRANCHI DE BARROS SOBRINHO"/>
+			<field name="inventor" value="JOSE LUIZ LAUS"/>
+			<field name="inventor" value="MARCELA ALDROVANI RODRIGUES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P21/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61L27/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="é descrito um processo de obtenção de membranas estáveis a partir da fração insolúvel de fragmentos de tendão flexor digital bovino tratados em soluções acídicas e com pepsina, incluindo uma sequência de etapas e tempos de tratamento que se diferem daqueles do estado da técnica por não envolver reconstituição de fibras colágenas isoladas, diálise, reticulação ou liofilização das mesmas."/>
+			<field name="originatesFrom" value="68765854"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010323"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018010323"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010323"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181010323"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15921" type="Person">
+			<semanticIdentifier>lattes::8633557951315823</semanticIdentifier>
+			<field name="identifier.lattes" value="8633557951315823"/>
+			<field name="name" value="José Luiz Laus"/>
+		</entity>
+		<entity ref="OrgUnit12333" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23014" toEntityRef="Person15921" type="Inventor"/>
+		<relation fromEntityRef="Patent23014" toEntityRef="OrgUnit12333" type="Applicant"/>
+	</relations>
+</entity-relation-data>

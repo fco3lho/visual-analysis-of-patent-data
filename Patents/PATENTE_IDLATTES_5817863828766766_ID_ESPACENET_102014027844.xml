@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:30" record="23875" source="Espacenet">
+	<entities>
+		<entity ref="Patent23875" type="Patent">
+			<semanticIdentifier>brcris::8e79854730fc30f4c58d2a272f1b48f7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027844A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014027844</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027844A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141027844</semanticIdentifier>
+			<semanticIdentifier>original::102014027844</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014027844"/>
+			<field name="identifier.lattes" value="5817863828766766"/>
+			<field name="identifier.espacenet" value="102014027844"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="eletrólito sólido e seu uso"/>
+			<field name="title.lattes" value="Eletrólito sólido e seu uso."/>
+			<field name="depositDate" value="2014-11-07"/>
+			<field name="publicationDate" value="2016-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AGNIESZKA JOANNA PAWLICKA MAULE"/>
+			<field name="inventor" value="JULIANA RAMOS DE ANDRADE"/>
+			<field name="inventor" value="MIECZYSLAW LAPKOWSKI"/>
+			<field name="inventor" value="PRZEMYSLAW LEDWON"/>
+			<field name="applicant" value="SILESIAN UNIVERSITY OF TECHNOLOGY"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M10/056AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="056AI"/>
+			</field>
+			<field name="abstract.espacenet" value="eletrólito sólido e seu uso .a presente invenção descreve um eletrólito sólido não aquoso, à base de derivados de celulose, para ser aplicado em dispositivos eletroquímicos. o eletrólito da presente invenção compreende derivado de celulose diluído em solvente, plastificante, sal e surfactante."/>
+			<field name="originatesFrom" value="57003152"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027844"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014027844"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027844"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141027844"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014027844"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16616" type="Person">
+			<semanticIdentifier>lattes::5817863828766766</semanticIdentifier>
+			<field name="identifier.lattes" value="5817863828766766"/>
+			<field name="name" value="Juliana Ramos de Andrade"/>
+		</entity>
+		<entity ref="OrgUnit12895" type="OrgUnit">
+			<semanticIdentifier>brcris::1d2626d22df4bfa2d988bd2ea26834d1</semanticIdentifier>
+			<field name="name" value="SILESIAN UNIVERSITY OF TECHNOLOGY"/>
+		</entity>
+		<entity ref="OrgUnit12896" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23875" toEntityRef="Person16616" type="Inventor"/>
+		<relation fromEntityRef="Patent23875" toEntityRef="OrgUnit12895" type="Applicant"/>
+		<relation fromEntityRef="Patent23875" toEntityRef="OrgUnit12896" type="Applicant"/>
+	</relations>
+</entity-relation-data>

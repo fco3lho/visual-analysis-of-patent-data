@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:19" record="12648" source="Espacenet">
+	<entities>
+		<entity ref="Patent12648" type="Patent">
+			<semanticIdentifier>brcris::c9ee64e0b4b8ce651db344127e822351</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015019222A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015019222</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015019222A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151019222</semanticIdentifier>
+			<semanticIdentifier>original::102015019222</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015019222"/>
+			<field name="identifier.lattes" value="9583249575723834"/>
+			<field name="identifier.espacenet" value="102015019222"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equalizador cego, direcionado à decisão radial, com passo de adaptação variável"/>
+			<field name="title.lattes" value="Equalizador Cego, Direcionado à Decisão Radial, com Passo de Adaptação Variável"/>
+			<field name="depositDate" value="2015-08-11"/>
+			<field name="publicationDate" value="2017-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO DE SOUZA ROSA"/>
+			<field name="inventor" value="JACKLYN DIAS REIS"/>
+			<field name="inventor" value="JULIO CESAR MEDEIROS DINIZ"/>
+			<field name="inventor" value="TIAGO CARNEIRO DE LIMA"/>
+			<field name="inventor" value="VALERY NOBL ROZENTAL"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03D1/24AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L25/03AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="03AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04L27/38AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="abstract.espacenet" value="equalizador cego, direcionado à decisão radial, com passo de adaptação variável. novo equalizador cego, direcionado à decisão radial, com passo de adaptação variável, conhecido como vss-rde (variable step-size - radius directed equalization) ( equalização direcionada à decisão radial com passo de adaptação variável), o qual aplica-se a sistemas de telecomunicações com alta taxa de transmissão, em especial aplica-se a receptores digitais com equalização cega, para processamento de sinais mqam (qam modulação de amplitude em quadratura (quadrature amplitude modulation)), que empregam detecção coerente do sinal transmitido no receptor e processamento digital de sinais (dsp) no receptor, utilizando uma técnica inédita de adaptação de passo de atualização do algoritmo de equalização direcionada à decisão radial rde (radius directed equalization), que consistem em uma equalização não supervisionada de sinais com modulação de amplitude em quadratura qam (quadrature amplitude modulation). onde esta técnica se aplica a sistemas digitais de comunicação com modulação mqam, com cardinalidade igual ou superior a 16, como 16qam, 32qam, 64qam, ou superiores, com o objetivo de modificar o algoritmo rde de modo a melhorar seu desempenho, minimizando o impacto das limitações do estado atual da técnica, utilizando passos de adaptação variáveis, dependentes do raio decidido para o cálculo da função custo, com a vantagem de melhorar o desempenho do equalizador adaptativo, o que se reflete em menor taxa de erro de bit, ao final da cadeia de blocos de processamento digital de sinais do receptor, e reduzir o tempo de convergência do algoritmo no processamento do sinal recebido."/>
+			<field name="originatesFrom" value="57965163"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015019222"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015019222"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015019222"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151019222"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015019222"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8675" type="Person">
+			<semanticIdentifier>lattes::9583249575723834</semanticIdentifier>
+			<field name="identifier.lattes" value="9583249575723834"/>
+			<field name="name" value="Eduardo de Souza Rosa"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12648" toEntityRef="Person8675" type="Inventor"/>
+	</relations>
+</entity-relation-data>

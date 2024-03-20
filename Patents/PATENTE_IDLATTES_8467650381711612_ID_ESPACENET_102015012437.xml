@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:52" record="23114" source="Espacenet">
+	<entities>
+		<entity ref="Patent23114" type="Patent">
+			<semanticIdentifier>brcris::c562dba3b74d624beebf03ea36379cc6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015012437A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015012437</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015012437A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151012437</semanticIdentifier>
+			<semanticIdentifier>original::102015012437</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015012437"/>
+			<field name="identifier.lattes" value="8467650381711612"/>
+			<field name="identifier.espacenet" value="102015012437"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de construção de uma base de imagens, método de reconhecimento de imagens, sistema de reconhecimento de imagens e seus usos"/>
+			<field name="title.lattes" value="Método de Construção de uma Base de Imagens. Método de Reconhecimento de Imagens, Sistema de Reconhecimento de Imagens e seus Usos"/>
+			<field name="depositDate" value="2015-05-28"/>
+			<field name="publicationDate" value="2017-04-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HELIO PEDRINI"/>
+			<field name="inventor" value="JOSE MARIO DE MARTINO"/>
+			<field name="inventor" value="RENAN RICARDO SOARES LOBO"/>
+			<field name="applicant" value="SQUADRA TECNOLOGIA S/A"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F17/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/46AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06K9/68AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="68AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de construção de uma base de imagens, método de reconhecimento de imagens, sistema de reconhecimento de imagens e seus usos. a presente invenção se refere a um método de construção de uma base de imagens, a um método de reconhecimento de imagens, a um sistema de reconhecimento de imagens e a seus usos. ela se insere no campo da tecnologia da informação, mais especificamente nas áreas de computação gráfica, visão computacional, processamento e reconhecimento de imagens, tendo aplicação na identificação e no reconhecimento automático de locais de interesse a partir de sua representação visual."/>
+			<field name="originatesFrom" value="57392274"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015012437"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015012437"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015012437"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151012437"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015012437"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2016187681"/>
+		</entity>
+		<entity ref="Person16013" type="Person">
+			<semanticIdentifier>lattes::8467650381711612</semanticIdentifier>
+			<field name="identifier.lattes" value="8467650381711612"/>
+			<field name="name" value="José Mario De Martino"/>
+		</entity>
+		<entity ref="OrgUnit12399" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent23115" type="Patent">
+			<semanticIdentifier>epodoc::WO2016187681</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="57392274"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2016187681"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23114" toEntityRef="Person16013" type="Inventor"/>
+		<relation fromEntityRef="Patent23114" toEntityRef="OrgUnit12399" type="Applicant"/>
+	</relations>
+</entity-relation-data>

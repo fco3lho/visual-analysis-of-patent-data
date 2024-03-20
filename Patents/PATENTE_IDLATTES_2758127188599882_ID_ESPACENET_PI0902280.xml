@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:24" record="29126" source="Espacenet">
+	<entities>
+		<entity ref="Patent29126" type="Patent">
+			<semanticIdentifier>brcris::b7f46de53afd5c734af9c1d21eed3684</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902280A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0902280</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902280A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI02280</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0902280-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0902280"/>
+			<field name="identifier.lattes" value="2758127188599882"/>
+			<field name="identifier.espacenet" value="PI0902280"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para monitorar os movimentos de linhas flexìveis em ambiente submarino e método associado"/>
+			<field name="title.lattes" value="Sistema para monitorar os movimentos de linhas flexíveis em ambiente submarino e método associado"/>
+			<field name="depositDate" value="2009-07-13"/>
+			<field name="publicationDate" value="2011-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO SOLIGO CAMERINI"/>
+			<field name="inventor" value="JEAN PIERRE VON DER WEILD"/>
+			<field name="inventor" value="MARCELO ROBERTO JIMENEZ"/>
+			<field name="inventor" value="MARCO ANTONIO GRIVET MATTOSO MAIA"/>
+			<field name="inventor" value="MIGUEL DE ANDRADE FREITAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01S3/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W84/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="84"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04W84/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="84"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA PARA MONITORAR OS MOVIMENTOS DE LINHAS FLEXìVEIS EM AMBIENTE SUBMARINO E MéTODO ASSOCIADO. O sistema é configurado com transmissores de sinais, montados em uma estrutura fixa, e receptores de sinais, solidários ao corpo da linha flexível, de modo que os receptores, dois a dois, tenham visada direta de um dos transmissores de sinais. O método associado ao sistema permite estimar, de modo contínuo, a rotação (ângulo 0~n~) e a transíação (x~n~,y~n~) de uma linha flexível em ambiente submarino, em relação ao seu eixo central, sendo conhecidas as coordenadas de um ponto fixo no eixo central, a posição dos transmissores em relação ao eixo central, e a DTOA de um transmissor emitindo um sinal modulado que o identifique para os receptores, dois a dois."/>
+			<field name="originatesFrom" value="43661638"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902280"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0902280"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902280"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI02280"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0902280-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20060" type="Person">
+			<semanticIdentifier>lattes::2758127188599882</semanticIdentifier>
+			<field name="identifier.lattes" value="2758127188599882"/>
+			<field name="name" value="Marcelo Roberto Baptista Pereira Luis Jimenez"/>
+		</entity>
+		<entity ref="OrgUnit15685" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29126" toEntityRef="Person20060" type="Inventor"/>
+		<relation fromEntityRef="Patent29126" toEntityRef="OrgUnit15685" type="Applicant"/>
+	</relations>
+</entity-relation-data>

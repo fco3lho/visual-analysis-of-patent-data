@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:05" record="14448" source="Espacenet">
+	<entities>
+		<entity ref="Patent14448" type="Patent">
+			<semanticIdentifier>brcris::46031ce7f10832dcf356506b0310f169</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017015071A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017015071</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017015071A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171015071</semanticIdentifier>
+			<semanticIdentifier>original::102017015071</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017015071"/>
+			<field name="identifier.lattes" value="5310196853446603"/>
+			<field name="identifier.espacenet" value="102017015071"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="peptídeos recombinantes associados à tuberculose, uso e composição diagnóstica"/>
+			<field name="title.lattes" value="PEPTÍDEOS RECOMBINANTES ASSOCIADOS À TUBERCULOSE, USO E COMPOSIÇÃO DIAGNÓSTICA"/>
+			<field name="depositDate" value="2017-07-13"/>
+			<field name="publicationDate" value="2020-04-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS UEIRA VIEIRA"/>
+			<field name="inventor" value="FABIANA DE ALMEIDA ARAUJO SANTOS"/>
+			<field name="inventor" value="LEA DUARTE DA SILVA MORAES"/>
+			<field name="inventor" value="LUIZ RICARDO GOULART FILHO"/>
+			<field name="inventor" value="THULIO MARQUEZ CUNHA"/>
+			<field name="applicant" value="FAPEMIG-FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K39/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07K7/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01N33/569AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="569AI"/>
+			</field>
+			<field name="abstract.espacenet" value="peptídeos recombinantes associados à tuberculose, uso e composição diagnóstica. a presente invenção refere-se à seleção, caracterização e utilização de peptídeos recombinantes que mimetizam proteínas antigênicas de mycobacterium tuberculosis, agente etiológico da tuberculose (tb). os peptídeos recombinantes foram selecionados pela técnica de phage display, utilizando uma biblioteca comercial phd-12 contra imunoglobulina a (iga) de saliva de indivíduos com tuberculose. os clones selecionados, sequenciados, traduzidos e sintetizados quimicamente foram avaliados quanto as potenciais aplicações diagnósticas. são aplicáveis como sondas, através de ensaios imunológicos, comumente utilizados em laboratórios e para fins terapêuticos."/>
+			<field name="originatesFrom" value="70547251"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017015071"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017015071"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017015071"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171015071"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017015071"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9970" type="Person">
+			<semanticIdentifier>lattes::5310196853446603</semanticIdentifier>
+			<field name="identifier.lattes" value="5310196853446603"/>
+			<field name="name" value="Fabiana de Almeida Araújo Santos"/>
+		</entity>
+		<entity ref="OrgUnit7821" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14448" toEntityRef="Person9970" type="Inventor"/>
+		<relation fromEntityRef="Patent14448" toEntityRef="OrgUnit7821" type="Applicant"/>
+	</relations>
+</entity-relation-data>

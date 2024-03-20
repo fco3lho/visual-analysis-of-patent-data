@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:50" record="18745" source="Espacenet">
+	<entities>
+		<entity ref="Patent18745" type="Patent">
+			<semanticIdentifier>brcris::31d2c7b86b7b98fef6b4d6d096cca6c7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204598A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0204598</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204598A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020204598</semanticIdentifier>
+			<semanticIdentifier>original::0204598-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0204598"/>
+			<field name="identifier.lattes" value="7407679973829420"/>
+			<field name="identifier.espacenet" value="0204598"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Composição catalisadora homogênea, processo de produção de alquilbenzenos e uso dos mesmos, alquilbenzeno de cadeia alquìlica longa e composição detergente"/>
+			<field name="title.lattes" value="COMPOSIÇÃO CATALISADORA HOMOGÊNEA, PROCESSO DE PRODUÇÃO DE ALQUILBENZENOS E USO DOS MESMOS, ALQUILBENZENO DE CADEIA ALQUÍLICA LONGA E COMPOSIÇÃO DETERGENTE. (Patente, PI 0204598-2)"/>
+			<field name="depositDate" value="2002-11-08"/>
+			<field name="publicationDate" value="2004-09-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DONATO ALEXANDRE GOMES ARANDA"/>
+			<field name="inventor" value="HEIDDY MARQUEZ ALVAREZ"/>
+			<field name="inventor" value="OCTAVIO AUGUSTO CEVA ANTUNES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J21/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C4/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C11D1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;COMPOSIçãO CATALISADORA HOMOGêNEA, PROCESSO DE PRODUçãO DE ALQUILBENZENOS E USO DOS MESMOS, ALQUILBENZENO DE CADEIA ALQUìLICA LONGA E COMPOSIçãO DETERGENTE&quot;. A presente invenção está de um modo geral relacionada a um processo de transalquilação de polialquilbenzeno em alquilbenzeno, sob condições de catálise homogênea, utilizando o benzeno como receptor do grupamento alquílico, onde este grupamento alquílico possui uma cadeia de hidrocarbonetos pesada, C12 à C14, e de forma que os catalisadores utilizados compreendam, pelo menos, mas não exclusivamente, os ácidos de Lewis."/>
+			<field name="originatesFrom" value="33034897"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204598"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0204598"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204598"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020204598"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0204598-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13000" type="Person">
+			<semanticIdentifier>lattes::7407679973829420</semanticIdentifier>
+			<field name="identifier.lattes" value="7407679973829420"/>
+			<field name="name" value="Heiddy Márquez Alvarez"/>
+		</entity>
+		<entity ref="OrgUnit10132" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18745" toEntityRef="Person13000" type="Inventor"/>
+		<relation fromEntityRef="Patent18745" toEntityRef="OrgUnit10132" type="Applicant"/>
+	</relations>
+</entity-relation-data>

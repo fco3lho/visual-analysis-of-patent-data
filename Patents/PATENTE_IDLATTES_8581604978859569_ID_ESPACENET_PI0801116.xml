@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:10" record="1255" source="Espacenet">
+	<entities>
+		<entity ref="Patent1255" type="Patent">
+			<semanticIdentifier>brcris::85448345d0a9ae9e53aaf22a95b79e04</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801116A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0801116</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801116A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI01116</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0801116-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0801116"/>
+			<field name="identifier.lattes" value="8581604978859569"/>
+			<field name="identifier.espacenet" value="PI0801116"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de extratos de eugenia uniflora l., extratos supercrìticos e seus usos"/>
+			<field name="title.lattes" value="Processo de obtenção de extratos de Eugenia Uniflora L., extratos supercríticos e seus usos."/>
+			<field name="depositDate" value="2008-03-19"/>
+			<field name="publicationDate" value="2009-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRA LOPES DE OLIVEIRA"/>
+			<field name="inventor" value="CAMILA ARANTES PEIXOTO"/>
+			<field name="inventor" value="FERNANDO ANTONIO CABRAL"/>
+			<field name="inventor" value="GENIVAL LOPES JR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D11/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE OBTENçãO DE EXTRATOS DE EUGENIA UNIFLORA, EXTRATOS SUPERCRìTICOS E SEUS USOS. A presente invenção refere-se a um processo de obtenção de extratos de folhas e frutos de Eugenia uniflora L., obtidos através do emprego de CO~ 2~ em estado supercritico. Adicionalmente, o presente pedido destina-se aos extratos altamente purificados e livres de solventes orgânicos resultantes do dito processo e suas utilizações no preparo de composições farmacêuticas, cosméticas e alimentos."/>
+			<field name="originatesFrom" value="41228496"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801116"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0801116"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801116"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI01116"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0801116-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person927" type="Person">
+			<semanticIdentifier>lattes::8581604978859569</semanticIdentifier>
+			<field name="identifier.lattes" value="8581604978859569"/>
+			<field name="name" value="Alessandra Lopes de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit729" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit730" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1255" toEntityRef="Person927" type="Inventor"/>
+		<relation fromEntityRef="Patent1255" toEntityRef="OrgUnit729" type="Applicant"/>
+		<relation fromEntityRef="Patent1255" toEntityRef="OrgUnit730" type="Applicant"/>
+	</relations>
+</entity-relation-data>

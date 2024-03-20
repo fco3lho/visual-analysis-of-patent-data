@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:33" record="31872" source="Espacenet">
+	<entities>
+		<entity ref="Patent31872" type="Patent">
+			<semanticIdentifier>brcris::21f8ae68f84cb3313a30299c32bb973b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106675A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1106675</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106675A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI06675</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1106675</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1106675"/>
+			<field name="identifier.lattes" value="0270835810303518"/>
+			<field name="identifier.espacenet" value="PI1106675"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produção de antimicrobianos a partir de streptomyces sp"/>
+			<field name="title.lattes" value="Produção de antimicrobiano a partir de Streptomyces sp"/>
+			<field name="depositDate" value="2011-11-01"/>
+			<field name="publicationDate" value="2016-05-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRAS HELENO DE OLIVEIRA"/>
+			<field name="inventor" value="HEDDA ELISABETH KOLM"/>
+			<field name="inventor" value="IDA CHAPAVAL PIMENTEL"/>
+			<field name="inventor" value="LEOPOLDO CLEMENTE BARATTO"/>
+			<field name="inventor" value="MARIANA VIEIRA PORSANI"/>
+			<field name="inventor" value="PATRICIA DO ROCIO DALZOTO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K35/74AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="74AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12P1/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C12R1/465AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="465AN"/>
+			</field>
+			<field name="abstract.espacenet" value="produção de antimicrobianos a partir de streptomyces sp. são produzidas substâncias antimicrobianas a partir do cultivo de streptomyces sp. o microorganismo foi isolado de sedimento marinho e alguns de seus metabólítos mostraram atividade contra niicro-organismos patogênicos incluindo um resistente a antibióticos comerciais. o microorganismo isolado foi devidamente caracterizado morfológica e molecularmente. os extratos obtidos de fermentações foram ativos contra vários microorganismos patogênicos incluindo staphylococcus aureus resistente à meticilina (mrsa). fracionamento cromatografico do extrato levou ao isolamento de substâncias responsáveis pela atividade antibiótica. estas substâncias são potencialmente úteis para tratamento de infecções ocasíonadas por microorganismos patogênicos, especialmente aqueles resistentes a antibióticos comerciais."/>
+			<field name="originatesFrom" value="56008328"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106675"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1106675"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106675"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI06675"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1106675"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21882" type="Person">
+			<semanticIdentifier>lattes::0270835810303518</semanticIdentifier>
+			<field name="identifier.lattes" value="0270835810303518"/>
+			<field name="name" value="Mariana Vieira Porsani"/>
+		</entity>
+		<entity ref="OrgUnit17117" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31872" toEntityRef="Person21882" type="Inventor"/>
+		<relation fromEntityRef="Patent31872" toEntityRef="OrgUnit17117" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:38" record="4414" source="Espacenet">
+	<entities>
+		<entity ref="Patent4414" type="Patent">
+			<semanticIdentifier>brcris::7066f3cfda721bd33353f717337c3388</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202611A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0202611</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202611A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020202611</semanticIdentifier>
+			<semanticIdentifier>original::0202611-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0202611"/>
+			<field name="identifier.lattes" value="8315941974485040"/>
+			<field name="identifier.espacenet" value="0202611"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de utilização de finos de carvão em fornos rotativos"/>
+			<field name="title.lattes" value="Processo de Utilização de Finos de Carvão em Fornos Rotativos"/>
+			<field name="depositDate" value="2002-04-26"/>
+			<field name="publicationDate" value="2004-05-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS BANNWART"/>
+			<field name="inventor" value="MARCO ANTONIO MUNHOZ SAGASETA"/>
+			<field name="applicant" value="MARCO ANTONIO MUNHOZ SAGASETA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10B57/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="57"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE UTILIZAçãO DE FINOS DE CARVãO EM FORNOS ROTATIVOS&quot;. Novo processo para utilização de finos de carvão em fornos rotativos, o qual aproveita a disponibilidade de finos de carvão existente nas modernas siderúrgicas, e os transporta a longas distâncias, da ordem de 1000-2000 m, pneumaticamente em fase diluída, insuflando-o diretamente em queimadores próprios para finos de carvão em fornos rotativos, com o objetivo de reduzir o consumo de gás natural ou óleo combustível na siderurgia, reduzindo sensivelmente os custos com energéticos."/>
+			<field name="originatesFrom" value="32181187"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202611"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0202611"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202611"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020202611"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0202611-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3143" type="Person">
+			<semanticIdentifier>lattes::8315941974485040</semanticIdentifier>
+			<field name="identifier.lattes" value="8315941974485040"/>
+			<field name="name" value="Antonio Carlos Bannwart"/>
+		</entity>
+		<entity ref="OrgUnit2543" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4414" toEntityRef="Person3143" type="Inventor"/>
+		<relation fromEntityRef="Patent4414" toEntityRef="OrgUnit2543" type="Applicant"/>
+	</relations>
+</entity-relation-data>

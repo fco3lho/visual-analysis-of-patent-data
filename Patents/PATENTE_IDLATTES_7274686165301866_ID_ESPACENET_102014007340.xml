@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:11" record="39976" source="Espacenet">
+	<entities>
+		<entity ref="Patent39976" type="Patent">
+			<semanticIdentifier>brcris::13a2dff9b054c3aea79ca37fc53ababa</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014007340A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014007340</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014007340A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141007340</semanticIdentifier>
+			<semanticIdentifier>original::102014007340</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014007340"/>
+			<field name="identifier.lattes" value="7274686165301866"/>
+			<field name="identifier.espacenet" value="102014007340"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema de controle linearizante de máquina de indução sem sensor mecânico"/>
+			<field name="title.lattes" value="Método e Sistema de controle linearizante de máquina de indução sem sensor mecânico"/>
+			<field name="depositDate" value="2014-03-27"/>
+			<field name="publicationDate" value="2016-06-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANE CAUDURO GASTALDINI"/>
+			<field name="inventor" value="HILTON ABILIO GRUNDLING"/>
+			<field name="inventor" value="RODRIGO PADILHA VIEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02P21/14AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sistema de controle linearizante de máquina de indução sem sensor mecânico. a presente invenção compreende um método e sistema de controle linearizante sem o uso de sensores mecânicos, por modos deslizantes em tempo discreto, o que permite que a invenção possa ser utilizada diretamente em processadores digitais de sinais ou microcontroladores. o método de controle linearizante de máquinas de indução utiliza compensações dos fluxos rotóricos por um observador por modos deslizantes em tempo discreto. o controle linearizante da velocidade rotórica pode ser substituído por qualquer tipo de método de controle estável que realize o alinhamento do vetor do fluxo rotórico no eixo direto, capaz de ser implementada em um processador digital de sinais, e a informação da velocidade atual do eixo do rotor ser obtida a partir de informações das variáveis elétricas do motor, as quais são utilizadas por um algoritmo de estimação de velocidade."/>
+			<field name="originatesFrom" value="56090054"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014007340"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014007340"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014007340"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141007340"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014007340"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27204" type="Person">
+			<semanticIdentifier>lattes::7274686165301866</semanticIdentifier>
+			<field name="identifier.lattes" value="7274686165301866"/>
+			<field name="name" value="Rodrigo Padilha Vieira"/>
+		</entity>
+		<entity ref="OrgUnit21295" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39976" toEntityRef="Person27204" type="Inventor"/>
+		<relation fromEntityRef="Patent39976" toEntityRef="OrgUnit21295" type="Applicant"/>
+	</relations>
+</entity-relation-data>

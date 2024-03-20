@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:21" record="22351" source="Espacenet">
+	<entities>
+		<entity ref="Patent22351" type="Patent">
+			<semanticIdentifier>brcris::ce5b743385e4fa400b40864782432533</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504559A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504559</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504559A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04559</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504559-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504559"/>
+			<field name="identifier.lattes" value="0400432783033740"/>
+			<field name="identifier.espacenet" value="PI0504559"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de obtenção de células dendrìticas e vacina ou produto imunomodulador empregando estas células dendrìticas"/>
+			<field name="title.lattes" value="Processo de obtenção de células dendríticas e vacina ou produto imunomodulador empregando estas células dendríticas"/>
+			<field name="depositDate" value="2005-10-10"/>
+			<field name="publicationDate" value="2007-06-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE ALEXANDRE MARZAGAO BARBUTO"/>
+			<field name="inventor" value="ROBERTO PEREIRA GONZALEZ"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N5/0784AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="0784AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K35/15AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="15AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE OBTENçãO DE CéLULAS DENDRìTICAS E VACINA OU PRODUTO IMUNOMODULADOR EMPREGANDO ESTAS CéLULAS DENDRìTICAS A presente invenção trata de processo de obtenção de células dendríticas a partir de células precursoras difenciadas e ativadas através do emprego de melatonina ou seus precursores, metabólitos, ou catabólitos e produto imunomodulador empregando estas células dendríticas obtidas. O processo de preparação de células dendríticas segundo a invenção compreende as etapas: (a) separação das células precursoras (b) ativação e difenciação das células precursoras obtidas na etapa anterior através de sua cultura em presença de melatonina ou seus precursores, ou metabólitos ou catabólitos."/>
+			<field name="originatesFrom" value="38175625"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504559"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504559"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504559-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15451" type="Person">
+			<semanticIdentifier>lattes::0400432783033740</semanticIdentifier>
+			<field name="identifier.lattes" value="0400432783033740"/>
+			<field name="name" value="Jose Alexandre Marzagão Barbuto"/>
+		</entity>
+		<entity ref="OrgUnit12012" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit12013" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22351" toEntityRef="Person15451" type="Inventor"/>
+		<relation fromEntityRef="Patent22351" toEntityRef="OrgUnit12012" type="Applicant"/>
+		<relation fromEntityRef="Patent22351" toEntityRef="OrgUnit12013" type="Applicant"/>
+	</relations>
+</entity-relation-data>

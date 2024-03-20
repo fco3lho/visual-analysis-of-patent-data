@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:41" record="8850" source="Espacenet">
+	<entities>
+		<entity ref="Patent8850" type="Patent">
+			<semanticIdentifier>brcris::b27dfda9f7afc9041778bd9b4e5ff531</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9804032A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9804032</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9804032A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19989804032</semanticIdentifier>
+			<semanticIdentifier>original::9804032-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9804032"/>
+			<field name="identifier.lattes" value="6372649810646310"/>
+			<field name="identifier.espacenet" value="9804032"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Alcalóides de peschiera australis usadas no tratamento de leishmaniose."/>
+			<field name="title.lattes" value="Alcalóides de Pescheria australis usados no tratamento da leischmaniose"/>
+			<field name="depositDate" value="1998-10-21"/>
+			<field name="publicationDate" value="2000-06-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELO DA CUNHA PINTO"/>
+			<field name="inventor" value="CLAUDIA MORAES DE REZENDE"/>
+			<field name="inventor" value="DUMITH CHEQUER BOU-HABIB"/>
+			<field name="inventor" value="ELVIRA MARIA SARAIVA CHEQUER BOU-HABIB"/>
+			<field name="inventor" value="GERALDO ARGOLO FERRARO"/>
+			<field name="inventor" value="JAN CARLO MORAIS OLIVEIRA BERTASSONI DELORENZI"/>
+			<field name="inventor" value="MARCELO TEIXEIRA DE ANDRADE"/>
+			<field name="applicant" value="FUNDACAO OSWALDO CRUZ - FIOCRUZ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61P33/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;Alcalóides de Peschiera australis usadas no tratamento de leishmaniose&quot;. A presente invenção refere-se ao uso de extratos alcaloídicos de P.australis,e em particular a dois alcalóides indólicos presentes no extrato, coronaridina e voacangina, no tratamento da leishmaniose em mamíferos. As composições farmacêuticas da presente invenção; em especial as que possuem coronaridina ou a fração alcaloídica total de P. australis em sua composição, apresentam resultados melhores quando comparados a drogas comerciais usadas no tratamento da doença, sem o entanto, apresenta sua elevada toxicidade."/>
+			<field name="originatesFrom" value="4070638"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9804032"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9804032"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9804032"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19989804032"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9804032-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6039" type="Person">
+			<semanticIdentifier>lattes::6372649810646310</semanticIdentifier>
+			<field name="identifier.lattes" value="6372649810646310"/>
+			<field name="name" value="Claudia Moraes de Rezende"/>
+		</entity>
+		<entity ref="OrgUnit4762" type="OrgUnit">
+			<semanticIdentifier>brcris::7ab85eeef0104ad2df1f2e6200971acd</semanticIdentifier>
+			<field name="name" value="FUNDACAO OSWALDO CRUZ - FIOCRUZ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8850" toEntityRef="Person6039" type="Inventor"/>
+		<relation fromEntityRef="Patent8850" toEntityRef="OrgUnit4762" type="Applicant"/>
+	</relations>
+</entity-relation-data>

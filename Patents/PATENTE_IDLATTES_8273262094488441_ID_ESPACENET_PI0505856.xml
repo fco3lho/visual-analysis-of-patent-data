@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:25" record="9859" source="Espacenet">
+	<entities>
+		<entity ref="Patent9859" type="Patent">
+			<semanticIdentifier>brcris::b722663e722dbf105d832df5822261cd</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505856A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505856</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505856A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05856</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505856-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505856"/>
+			<field name="identifier.lattes" value="8273262094488441"/>
+			<field name="identifier.espacenet" value="PI0505856"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método de determinação de percentual de mistura de biodiesel em óleo diesel"/>
+			<field name="title.lattes" value="MÉTODO DE DETERMINAÇÃO DE PERCENTUAL DE MISTURA DE BIODIESEL EM ÓLEO DIESEL - PI 0505856-2"/>
+			<field name="depositDate" value="2005-12-08"/>
+			<field name="publicationDate" value="2007-09-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CYRO KETZER SAUL"/>
+			<field name="inventor" value="MARCELO ADRIANO ALISKE"/>
+			<field name="inventor" value="WANDERLEY VEIGA"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/35AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="35AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/3577AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="3577AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE DETERMINAçãO DE PERCENTUAL DE MISTURA DE BIODIESEL EM óLEO DIESEL, consiste de um processo simples de determinação do percentual de mistura de biodiesel em óleo diesel empregando a medida de absorbância de radiação no espectro infravermelho médio, mais especificamente na faixa entre 1870-1540 cm¬ -1¬ O pico de absorção correspondente ao alongamento da ligação dupla Carbono-Oxigênio, também conhecido como pico da Carbonila (C=O), existente nesta região está presente apenas no Biodiesel e, portanto pode ser empregado na determinação da presença deste componente em uma mistura Biodiesel-óleo Diesel. Verificou-se a existência de uma dependência não-linear entre a altura do pico de absorção e o percentual de mistura na faixa que vai de 0 a 100%. Esta dependência obedece a uma lei de potencia bem específica passível de análise mediante processamento eletrónico posterior. Mostrou-se também que na faixa reduzida de 0 a 10% a relação pode ser aproximada por uma reta com boa confiabilidade."/>
+			<field name="originatesFrom" value="38516055"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505856"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505856"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505856"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05856"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505856-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6764" type="Person">
+			<semanticIdentifier>lattes::8273262094488441</semanticIdentifier>
+			<field name="identifier.lattes" value="8273262094488441"/>
+			<field name="name" value="Cyro Ketzer Saul"/>
+		</entity>
+		<entity ref="OrgUnit5336" type="OrgUnit">
+			<semanticIdentifier>brcris::3f9d8be29c4aca9eedb68b78ed672bb0</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE TECNOLOGIA DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9859" toEntityRef="Person6764" type="Inventor"/>
+		<relation fromEntityRef="Patent9859" toEntityRef="OrgUnit5336" type="Applicant"/>
+	</relations>
+</entity-relation-data>

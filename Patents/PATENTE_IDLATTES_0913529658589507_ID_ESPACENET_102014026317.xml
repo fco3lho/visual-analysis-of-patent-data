@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:09:30" record="35280" source="Espacenet">
+	<entities>
+		<entity ref="Patent35280" type="Patent">
+			<semanticIdentifier>brcris::1b6d6634ea8f4dc9189bffd258dc3175</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014026317A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014026317</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014026317A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141026317</semanticIdentifier>
+			<semanticIdentifier>original::102014026317</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014026317"/>
+			<field name="identifier.lattes" value="0913529658589507"/>
+			<field name="identifier.espacenet" value="102014026317"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método de instalação de dutos enterrados"/>
+			<field name="title.lattes" value="SISTEMA E MÉTODO DE INSTALAÇÃO DE DUTOS ENTERRADOS"/>
+			<field name="depositDate" value="2014-10-22"/>
+			<field name="publicationDate" value="2016-04-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLA CAROLINE ALLESSI"/>
+			<field name="inventor" value="FERNANDO SABOYA ALBUQUERQUE JUNIOR"/>
+			<field name="inventor" value="JOAO CARLOS DE FREITAS"/>
+			<field name="inventor" value="JOSE TAVARES ARARUNA JR"/>
+			<field name="inventor" value="LUIS FERNANDO GONCALVES MARTINS FILHO"/>
+			<field name="inventor" value="PATRICIO JOSE MOREIRA PIRES"/>
+			<field name="inventor" value="PEDRO ALTOE FERREIRA"/>
+			<field name="inventor" value="SEBASTIAO ARTHUR LOPES DE ANDRADE"/>
+			<field name="inventor" value="SERGIO TIBANA"/>
+			<field name="inventor" value="SIMON RICARDO SANANDRES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="applicant" value="PONTIFICIA UNIVERSIDADE CATOLICA DO RIO DE JANEIRO - PUC-RIO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L1/16AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema e método de instalação de dutos enterrados a presente invenção refere-se a um sistema de instalação de dutos enterrados que compreende uma estrutura de estiva, um primeiro meio de fixação, uma camada de geocomposto e um segundo meio de fixação; o duto sendo fixado sobre as estivas por meio do primeiro meio de fixação; a camada de geocomposto sendo colocada sobre o duto e fixada nas estivas por meio do segundo meio de fixação; as estivas e a camada de geocomposto sendo capazes de aumentar a resistência à força de empuxo do duto."/>
+			<field name="originatesFrom" value="55759968"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014026317"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014026317"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014026317"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141026317"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014026317"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2016061650"/>
+		</entity>
+		<entity ref="Person24284" type="Person">
+			<semanticIdentifier>lattes::0913529658589507</semanticIdentifier>
+			<field name="identifier.lattes" value="0913529658589507"/>
+			<field name="name" value="Patricio Jose Moreira Pires"/>
+		</entity>
+		<entity ref="OrgUnit19071" type="OrgUnit">
+			<semanticIdentifier>brcris::dd59b857a38cbd6527ae49d6df283444</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+		<entity ref="Patent35281" type="Patent">
+			<semanticIdentifier>epodoc::WO2016061650</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="55759968"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2016061650"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35280" toEntityRef="Person24284" type="Inventor"/>
+		<relation fromEntityRef="Patent35280" toEntityRef="OrgUnit19071" type="Applicant"/>
+	</relations>
+</entity-relation-data>

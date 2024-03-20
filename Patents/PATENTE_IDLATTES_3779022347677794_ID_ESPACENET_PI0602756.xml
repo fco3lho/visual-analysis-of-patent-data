@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:10:34" record="3271" source="Espacenet">
+	<entities>
+		<entity ref="Patent3271" type="Patent">
+			<semanticIdentifier>brcris::1bd767b200f747ebc6941c8d4caa401c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602756A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602756</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602756A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02756</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602756-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602756"/>
+			<field name="identifier.lattes" value="3779022347677794"/>
+			<field name="identifier.espacenet" value="PI0602756"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="obtenção in-situ de intermetálicos ni/al pelo processo de deposição por plasma por arco transferido"/>
+			<field name="title.lattes" value="Obtenção in-situ de intermetálicos Ni/Al pelo processo de deposição por Plasma com arco Transferido"/>
+			<field name="depositDate" value="2006-06-29"/>
+			<field name="publicationDate" value="2008-02-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA SOFIA CLIMACO MONTEIRO DE OLIVEIRA"/>
+			<field name="inventor" value="VERONICA ALEXANDRA BUSS ALMEIDA"/>
+			<field name="inventor" value="VERONICA ALEXANDRA BUSS ALMEIDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23K10/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="OBTENçãO IN-SITU DE INTERMETáLICOS NI/AL PELO PROCESSO DE DEPOSIçãO POR PLASMA POR ARCO TRANSFERIDO. Produção de ligas estáveis a altas temperaturas (até 1 000&lt;198&gt;C) e de elevada dureza pela adição de 5 a 25% em peso de alumínio em uma liga comercial a base de níquel da família Hastelloy C (Ni-Cr-Mo-W-Fe), através da deposição pela técnica de plasma por arco transferido, formando in-situ, ou seja durante a deposição, intermetálicos a base de Ni/AI."/>
+			<field name="originatesFrom" value="39125009"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602756"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602756"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602756"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02756"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602756-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2313" type="Person">
+			<semanticIdentifier>lattes::3779022347677794</semanticIdentifier>
+			<field name="identifier.lattes" value="3779022347677794"/>
+			<field name="name" value="Ana Sofia Clímaco Monteiro de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit1866" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit1867" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3271" toEntityRef="Person2313" type="Inventor"/>
+		<relation fromEntityRef="Patent3271" toEntityRef="OrgUnit1866" type="Applicant"/>
+		<relation fromEntityRef="Patent3271" toEntityRef="OrgUnit1867" type="Applicant"/>
+	</relations>
+</entity-relation-data>

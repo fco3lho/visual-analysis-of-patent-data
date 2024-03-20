@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:14" record="8020" source="Espacenet">
+	<entities>
+		<entity ref="Patent8020" type="Patent">
+			<semanticIdentifier>brcris::4e1f252714ea21e53eccc9d3f62aa355</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018015664A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018015664</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018015664A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181015664</semanticIdentifier>
+			<semanticIdentifier>original::102018015664</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018015664"/>
+			<field name="identifier.lattes" value="9375639768929991"/>
+			<field name="identifier.espacenet" value="102018015664"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="inversor multinível com porta cc bidirecional secundária e método de operação de inversor multinível com porta cc bidirecional secundária"/>
+			<field name="title.lattes" value="Inversor multinível com porta CC bidirecional secundária e método de operação de inversor multinível com porta CC bidirecional secundária"/>
+			<field name="depositDate" value="2018-07-31"/>
+			<field name="publicationDate" value="2019-01-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CASSIANO RECH"/>
+			<field name="inventor" value="SILVIO ANTONIO TESTON"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA FRONTEIRA SUL"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M10/44AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02J7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02M1/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um inversor multinível com porta cc bidirecional secundária integrada à topologia e um método de operação de inversor multinível com porta cc bidirecional secundária. especificamente, a presente invenção compreende ao menos um braço, o qual compreende ao menos uma porta cc principal a qual se conecta a fonte de tensão principal (vp), uma porta cc secundária a qual se conecta a fonte de tensão secundária (vsx), (que pode ser um sistema de armazenamento de energia), um filtro secundário (fs) e uma porta ca (cax). a presente invenção visa controlar o fluxo de potência na porta ca (cax) e nas duas portas cc, que pode ser positivo ou negativo independentemente e conforme a necessidade, desde que o balanço de potências seja respeitado. a invenção ainda compreende um sistema de modulação e controle para definição dos vetores de comutação. a presente invenção se situa nos campos de circuitos conversores/inversores estáticos e engenharia elétrica."/>
+			<field name="originatesFrom" value="65003692"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018015664"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018015664"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018015664"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181015664"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018015664"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5444" type="Person">
+			<semanticIdentifier>lattes::9375639768929991</semanticIdentifier>
+			<field name="identifier.lattes" value="9375639768929991"/>
+			<field name="name" value="Cassiano Rech"/>
+		</entity>
+		<entity ref="OrgUnit4304" type="OrgUnit">
+			<semanticIdentifier>brcris::12315863748155476bd72f6b45263b36</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA FRONTEIRA SUL"/>
+		</entity>
+		<entity ref="OrgUnit4305" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8020" toEntityRef="Person5444" type="Inventor"/>
+		<relation fromEntityRef="Patent8020" toEntityRef="OrgUnit4304" type="Applicant"/>
+		<relation fromEntityRef="Patent8020" toEntityRef="OrgUnit4305" type="Applicant"/>
+	</relations>
+</entity-relation-data>

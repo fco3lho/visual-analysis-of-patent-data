@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:29" record="39548" source="Espacenet">
+	<entities>
+		<entity ref="Patent39548" type="Patent">
+			<semanticIdentifier>brcris::31985efa10f9619cf9a095968ef73a24</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104311A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1104311</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104311A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI04311</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1104311-3 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1104311"/>
+			<field name="identifier.lattes" value="6175012288192730"/>
+			<field name="identifier.espacenet" value="PI1104311"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de pseudo referencia para aplicaÇoes eletroquimicas"/>
+			<field name="title.lattes" value="SISTEMA DE PSEUDO-REFERÊNCIA PARA APLICAÇÕES ELETROQUÍMICAS"/>
+			<field name="depositDate" value="2011-10-07"/>
+			<field name="publicationDate" value="2013-08-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE AUGUSTO GUTIERREZ FERNANDES BEAT"/>
+			<field name="inventor" value="MARCOS ROBERTO DE VASCONCELOS LANZA"/>
+			<field name="inventor" value="ROBSON DA SILVA ROCHA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="FUNDACCO DE AMPARO A PESQUISA DO ESTADO DE SCO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SCO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE PSEUDO-REFERÊNCIA PARA APLICAÇÕES ELETROQUÍMICAS. A presente invenção refere-se a um sistema de pseudoreferência que compreende um material condutor (MC), metálico ou não, em contato com solução interna (independente do tipo de solução ou tipo de eletrodo) e de um eletrodo de referência (ER), o qual estabelece um equilíbrio dinâmico, formando o sistema de pseudo-referência do tipo MC//Referência. O sistema de pseudo-referência da presente invenção destina-se a aplicações em processos eletroquímicos que demandam a aplicação de potencial elétrico específico em relação a eletrodos de referência, sendo estes realizados em células ou reatores eletroquímicos de fluxo ou outros sistemas eletroquímicos."/>
+			<field name="originatesFrom" value="48917810"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104311"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1104311"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104311"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI04311"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1104311-3 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26889" type="Person">
+			<semanticIdentifier>lattes::6175012288192730</semanticIdentifier>
+			<field name="identifier.lattes" value="6175012288192730"/>
+			<field name="name" value="Robson da Silva Rocha"/>
+		</entity>
+		<entity ref="OrgUnit21056" type="OrgUnit">
+			<semanticIdentifier>brcris::331526aed2f2395cdd56e308fe8e4499</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit21057" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39548" toEntityRef="Person26889" type="Inventor"/>
+		<relation fromEntityRef="Patent39548" toEntityRef="OrgUnit21056" type="Applicant"/>
+		<relation fromEntityRef="Patent39548" toEntityRef="OrgUnit21057" type="Applicant"/>
+	</relations>
+</entity-relation-data>

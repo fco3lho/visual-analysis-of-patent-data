@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:41" record="31557" source="Espacenet">
+	<entities>
+		<entity ref="Patent31557" type="Patent">
+			<semanticIdentifier>brcris::0e73dd4a68aef0875ccc2435e0e10f54</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017020599A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017020599</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017020599A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171020599</semanticIdentifier>
+			<semanticIdentifier>original::102017020599</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017020599"/>
+			<field name="identifier.lattes" value="3603810130381168"/>
+			<field name="identifier.espacenet" value="102017020599"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para obtenção de um inibidor de peptidase de alta eficiência"/>
+			<field name="title.lattes" value="Modelo de Processo para Obtenção de um inibidor de peptidase de alta eficiência"/>
+			<field name="depositDate" value="2017-09-26"/>
+			<field name="publicationDate" value="2019-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CRISTINA JACOBOWSKI"/>
+			<field name="inventor" value="MARIA LIGIA RODRIGUES MACEDO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K1/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07K1/30AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07K14/81AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="81AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para obtenção de um inibidor de peptidase de alta eficiência. a presente invenção refere-se ao processo de extração aquosa (água destilada, 1:10 peso/volume) de um inibidor de peptidase isolado de sementes de inga laurina, denominado ilit, (inga laurina inhibitor trypsin) eliminando a necessidade de uso de tampão fosfato e também aumentando a pureza do material obtido e diminuindo várias etapas cromatográficas da metodologia habitual. apresenta uma banda simples de aproximadamente 20 kda, com atividades inseticidas, e citotóxicas contra marcadores de linhagem celular de leucemia (molt-4)."/>
+			<field name="originatesFrom" value="67251277"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017020599"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017020599"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017020599"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171020599"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017020599"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21615" type="Person">
+			<semanticIdentifier>lattes::3603810130381168</semanticIdentifier>
+			<field name="identifier.lattes" value="3603810130381168"/>
+			<field name="name" value="Maria Lígia Rodrigues Macedo"/>
+		</entity>
+		<entity ref="OrgUnit16874" type="OrgUnit">
+			<semanticIdentifier>brcris::6a877d5b96e1431746125011a57baef9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31557" toEntityRef="Person21615" type="Inventor"/>
+		<relation fromEntityRef="Patent31557" toEntityRef="OrgUnit16874" type="Applicant"/>
+	</relations>
+</entity-relation-data>

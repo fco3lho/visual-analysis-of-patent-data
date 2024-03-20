@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:27" record="40114" source="Espacenet">
+	<entities>
+		<entity ref="Patent40114" type="Patent">
+			<semanticIdentifier>brcris::d1f64906e8e5d9fe39832e318c90c744</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8702024U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8702024U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8702024U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1987MU02024U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8702024-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8702024"/>
+			<field name="identifier.lattes" value="8909678625152053"/>
+			<field name="identifier.espacenet" value="MU8702024"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="instrumental para liberação de endoprótese de silicone para traquéia e brÈnquios"/>
+			<field name="title.lattes" value="Instrumental para liberação de endoprótese de silicone para traquéia e brônquios"/>
+			<field name="depositDate" value="2007-08-13"/>
+			<field name="publicationDate" value="2009-03-31"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMARILIO VIEIRA MACEDO NETO"/>
+			<field name="inventor" value="ARNO EISEN"/>
+			<field name="inventor" value="GABRIEL KUHL"/>
+			<field name="inventor" value="JOSE CARLOS FRAGA"/>
+			<field name="inventor" value="PAULO ROBERTO STEFANI SANCHES"/>
+			<field name="inventor" value="ROBERTO DIAS DE OLIVEIRA"/>
+			<field name="inventor" value="ROGERIO GASTAL XAVIER"/>
+			<field name="inventor" value="ROGERIO GASTAL XAVIER"/>
+			<field name="applicant" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+			<field name="applicant" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F2/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Instrumental para liberação de endoprótese de silicone para traquéia e brónquios O pedido de privilégio de modelo de utilidade trata-se de um conjunto de instrumental para liberação de endoprótese de silicone para traquéia e brónquios visando à correção de anomalias devido a estenoses ou obstruções de segmentos. Este dispositivo conduz a endoprótese e promove a sua liberação no local desejado. Este conjunto de instrumentos foi desenvolvido no Hospital de Clínicas de Porto Alegre e permite a liberação do modelo de endoprótese desenvolvido e patenteado pelos pesquisadores do grupo ou do modelo de endoprótese proposto por Dumon."/>
+			<field name="originatesFrom" value="40621815"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8702024"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8702024U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8702024"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1987MU02024U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8702024-6"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU8702024Y"/>
+		</entity>
+		<entity ref="Person27321" type="Person">
+			<semanticIdentifier>lattes::8909678625152053</semanticIdentifier>
+			<field name="identifier.lattes" value="8909678625152053"/>
+			<field name="name" value="Rogério Gastal Xavier"/>
+		</entity>
+		<entity ref="OrgUnit21365" type="OrgUnit">
+			<semanticIdentifier>brcris::91d7ceb66ced30f2caaf548eba8e730b</semanticIdentifier>
+			<field name="name" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+		</entity>
+		<entity ref="OrgUnit21366" type="OrgUnit">
+			<semanticIdentifier>brcris::e3e7e648939a8e9170a5f114f4ebf300</semanticIdentifier>
+			<field name="name" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+		</entity>
+		<entity ref="Patent40115" type="Patent">
+			<semanticIdentifier>epodoc::BRMU8702024Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="40621815"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8702024Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40114" toEntityRef="Person27321" type="Inventor"/>
+		<relation fromEntityRef="Patent40114" toEntityRef="OrgUnit21365" type="Applicant"/>
+		<relation fromEntityRef="Patent40114" toEntityRef="OrgUnit21366" type="Applicant"/>
+	</relations>
+</entity-relation-data>

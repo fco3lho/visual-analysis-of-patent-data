@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:28" record="45592" source="Espacenet">
+	<entities>
+		<entity ref="Patent45592" type="Patent">
+			<semanticIdentifier>brcris::bf95889e8ebd0a2e197db06c35cb9a1f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013021143A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013021143</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013021143A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131021143</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 021143-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013021143"/>
+			<field name="identifier.lattes" value="2557267464420233"/>
+			<field name="identifier.espacenet" value="102013021143"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Máquina de ensaio de fadiga em telhas trapezoidais e onduladas"/>
+			<field name="title.lattes" value="MÁQUINA DE ENSAIO DE FADIGA EM TELHAS TRAPEZOIDAIS E ONDULADAS"/>
+			<field name="depositDate" value="2013-08-19"/>
+			<field name="publicationDate" value="2015-09-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ENIO PONTES DE DEUS"/>
+			<field name="inventor" value="WASHINGTON LUIZ RODRIGUES DE QUEIROZ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N3/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01M5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Máquina de ensaio de fadiga em telhas trapezoidais e onduladas.a presente invenção, que é uma máquina para ensaios de fadiga sob controle de cargas, de telhas trapezoidais e onduladas, de diversos tipos de materiais como os mais empregados em cobertas metálicas, sendo utilizados aço, aço galvanizado, aço galvalume (zincaiume), alumínio, policarbonato, dentre outros materiais empregados na fabricação dessas telhas.a dita máquina é constituída de motor de rotação cíclica, que é ligado a uma central de comandos eletrônica que realiza a contagem do número de ciclos de carregamento aplicados e faz a calibração da magnitude da carga aplicada. Todos os dados de carregamento e intensidade de força são monitorados por um computador. A máquina foi construída em estrutura de aço (perfis metálicos) na qual uma faixa de telha é fixada, denominada terça,através de parafuso auto perfurante. O espaçamento entre as terças pode ser variado, fazendo o teste de telhas de diversos comprimentos."/>
+			<field name="originatesFrom" value="53968853"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013021143"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013021143"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013021143"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131021143"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 021143-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31173" type="Person">
+			<semanticIdentifier>lattes::2557267464420233</semanticIdentifier>
+			<field name="identifier.lattes" value="2557267464420233"/>
+			<field name="name" value="Washington Luiz Rodrigues de Queiroz"/>
+		</entity>
+		<entity ref="OrgUnit24451" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45592" toEntityRef="Person31173" type="Inventor"/>
+		<relation fromEntityRef="Patent45592" toEntityRef="OrgUnit24451" type="Applicant"/>
+	</relations>
+</entity-relation-data>

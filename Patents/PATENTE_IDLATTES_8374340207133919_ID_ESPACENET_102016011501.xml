@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:24" record="45855" source="Espacenet">
+	<entities>
+		<entity ref="Patent45855" type="Patent">
+			<semanticIdentifier>brcris::7dc43cc502dc6b8b8727c2f059ecd4ea</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011501A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011501</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011501A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011501</semanticIdentifier>
+			<semanticIdentifier>original::102016011501</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011501"/>
+			<field name="identifier.lattes" value="8374340207133919"/>
+			<field name="identifier.espacenet" value="102016011501"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de comunicação direta entre uma página web e um aplicativo local"/>
+			<field name="title.lattes" value="MÉTODO DE COMUNICAÇÃO DIRETA ENTRE UMA PÁGINA WEB E UM APLICATIVO LOCAL"/>
+			<field name="depositDate" value="2016-05-20"/>
+			<field name="publicationDate" value="2017-12-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADREN SASSAKI HIROSE"/>
+			<field name="inventor" value="REGINALDO ARAKAKI"/>
+			<field name="inventor" value="WILSON VICENTE RUGGIERO"/>
+			<field name="applicant" value="SCOPUS SOLUCOES EM TI LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/90AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="90AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o método utiliza uma página web (pw) associada a um servidor (s) de uma instituição a ser acessada a partir de um aplicativo local (al) carregado em um dispositivo de computação (c). a página web (pw) já aberta em uma tela (t) do dispositivo de computação (c) solicita, ao aplicativo local (al), um objeto de imagem que corresponda às informações requeridas pela página web (pw), gerando, no aplicativo local (al), uma fila com dados de resposta em dimensões de imagem. uma imagem, tendo as dimensões correspondentes aos dados de resposta, é retornada à página web (pw), a cada solicitação de imagem por essa última, até que o aplicativo local (al) consuma a fila de dados de resposta, permitindo que a página web (pw) interprete as dimensões de imagem de cada solicitação e as transforme nos dados de comunicação a serem disponibilizados ao servidor (s) associado."/>
+			<field name="originatesFrom" value="62566810"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011501"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011501"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011501"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31379" type="Person">
+			<semanticIdentifier>lattes::8374340207133919</semanticIdentifier>
+			<field name="identifier.lattes" value="8374340207133919"/>
+			<field name="name" value="Wilson Vicente Ruggiero"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45855" toEntityRef="Person31379" type="Inventor"/>
+	</relations>
+</entity-relation-data>

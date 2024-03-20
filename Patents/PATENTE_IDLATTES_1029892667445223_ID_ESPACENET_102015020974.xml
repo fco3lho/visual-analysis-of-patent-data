@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:43" record="21222" source="Espacenet">
+	<entities>
+		<entity ref="Patent21222" type="Patent">
+			<semanticIdentifier>brcris::522fa2e0e6a74c018573f49e11f232e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015020974A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015020974</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015020974A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151020974</semanticIdentifier>
+			<semanticIdentifier>original::102015020974</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015020974"/>
+			<field name="identifier.lattes" value="1029892667445223"/>
+			<field name="identifier.espacenet" value="102015020974"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="transistor com formação de fonte e dreno induzida por efeito de campo elétrico e seu método de fabricação"/>
+			<field name="title.lattes" value="TRANSISTOR COM FORMAÇÃO DE FONTE E DRENO INDUZIDA POR EFEITO DE CAMPO ELÉTRICO E SEU MÉTODO DE FABRICAÇÃO"/>
+			<field name="depositDate" value="2015-08-28"/>
+			<field name="publicationDate" value="2017-03-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOAO ANTONIO MARTINO"/>
+			<field name="inventor" value="RICARDO CARDOSO RANGEL"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L21/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo transistor com formação de fonte e dreno induzida por efeito de campo elétrico e seu método de fabricação a presente invenção refere-se a transistor soi mosfet (silicon on insulator metal oxide semiconductor field effect transistor) e a seu método de fabricação a partir de uma lâmina soi. o método de fabricação do transistor compreende as seguintes etapas: a. ajuste da espessura da lâmina; b. seleção da região ativa da lâmina; c. corrosão completa da camada de óxido de silício superior; d. formação do óxido de porta; e. deposição do metal de porta; f. definição do eletrodo de porta; g. obtenção do eletrodo metálico nas regiões de fonte e dreno; h. deposição de metal na superfície inferior do substrato; i. sinterização do dispositivo; o transistor é composto por: eletrodo de porta (5), fonte (6), dreno (7), isolante de porta (4) e isolante enterrado (2), eletrodo de substrato (8), camada de silício (3), semicondutor (1). como no método de fabricação não há uma etapa para inserção de impurezas que determinam o tipo de portador de carga majoritário (elétrons ou lacunas) que formaria a fonte/dreno, existe a possibilidade de criar uma camada contendo um ou outro tipo de portador dependendo da tensão aplicada no substrato."/>
+			<field name="originatesFrom" value="58191922"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015020974"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015020974"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015020974"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151020974"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015020974"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14712" type="Person">
+			<semanticIdentifier>lattes::1029892667445223</semanticIdentifier>
+			<field name="identifier.lattes" value="1029892667445223"/>
+			<field name="name" value="João Antonio Martino"/>
+		</entity>
+		<entity ref="OrgUnit11557" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21222" toEntityRef="Person14712" type="Inventor"/>
+		<relation fromEntityRef="Patent21222" toEntityRef="OrgUnit11557" type="Applicant"/>
+	</relations>
+</entity-relation-data>

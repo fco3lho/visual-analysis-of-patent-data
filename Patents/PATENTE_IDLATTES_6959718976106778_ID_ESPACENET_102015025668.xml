@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:28" record="5361" source="Espacenet">
+	<entities>
+		<entity ref="Patent5361" type="Patent">
+			<semanticIdentifier>brcris::3d69c8e916bf064c467137acc4514290</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015025668A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015025668</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015025668A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151025668</semanticIdentifier>
+			<semanticIdentifier>original::102015025668</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015025668"/>
+			<field name="identifier.lattes" value="6959718976106778"/>
+			<field name="identifier.espacenet" value="102015025668"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo contendo sistema eletrônico e palmilha, para indução de simetria na distribuição do suporte de peso entre os pés."/>
+			<field name="title.lattes" value="Dispositivo Contendo Sistema Eletrônico e Palmilha, para Indução de Simetria na Distribuição do Suporte de Peso entre os Pés"/>
+			<field name="depositDate" value="2015-10-08"/>
+			<field name="publicationDate" value="2017-12-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CAROLINA CARDOSO DE SOUSA"/>
+			<field name="inventor" value="ANTONIO PADILHA LANARI BO"/>
+			<field name="inventor" value="EMERSON FACHIN MARTINS"/>
+			<field name="inventor" value="MONIKE BARROS CAMARGOS"/>
+			<field name="inventor" value="PEDRO HENRIQUE GONCALVES INAZAWA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/103AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="103AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61H23/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um dispositivo que realiza o monitoramento da pressão e emite um sinal tátil do tipo vibratório para alertar o usuário quando a distribuição do suporte do peso corporal entre os pés encontra- se fora dos limites de simetria previamente definidos, permitindo que ele corrija conscientemente esse padrão. o dispositivo é composto por um par de palmilhas (1) contendo os sensores de pressão (4) que realizam a mensuração dos dados, que são enviados a uma unidade eletrônica contendo um microcontrolador, que analisa os dados. caso estes dados estejam fora dos limites previamente definidos, o microcontrolador envia um sinal a motores vibratórios, inseridos em uma faixa aderida em torno do tornozelo do usuário, que alertam sobre esta condição. o dispositivo tem finalidade diagnóstica, visto que monitora o padrão de distribuição do suporte de peso e assistiva, pois pode ser introduzido diariamente, pelo usuário, na correção de distribuição do suporte de peso, conforme a indicação e prescrição pelo terapeuta, além de incorporar as funcionalidades que permitem utilizar padrões de referência para ajustar a retroalimentação que irá induzir simetria ou assimetria na distribuição do suporte de peso em tempo real."/>
+			<field name="originatesFrom" value="62566732"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015025668"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015025668"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015025668"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151025668"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015025668"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3511" type="Person">
+			<semanticIdentifier>lattes::6959718976106778</semanticIdentifier>
+			<field name="identifier.lattes" value="6959718976106778"/>
+			<field name="name" value="Antonio Padilha Lanari Bo"/>
+		</entity>
+		<entity ref="OrgUnit2779" type="OrgUnit">
+			<semanticIdentifier>brcris::862ac5be4be0bb3658f3bee6a7a37d33</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5361" toEntityRef="Person3511" type="Inventor"/>
+		<relation fromEntityRef="Patent5361" toEntityRef="OrgUnit2779" type="Applicant"/>
+	</relations>
+</entity-relation-data>

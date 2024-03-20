@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:22" record="333" source="Espacenet">
+	<entities>
+		<entity ref="Patent333" type="Patent">
+			<semanticIdentifier>brcris::e73c8dd7da1e05d66af7398732642684</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300067A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0300067</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300067A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030300067</semanticIdentifier>
+			<semanticIdentifier>original::0300067-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0300067"/>
+			<field name="identifier.lattes" value="8242579817249570"/>
+			<field name="identifier.espacenet" value="0300067"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Aperfeiçoamentos introduzidos em fluxÈmetro eletromagnético"/>
+			<field name="title.lattes" value="Aperfeiçoamentos introduzidos em fluxômetro eletromagnético"/>
+			<field name="depositDate" value="2003-01-21"/>
+			<field name="publicationDate" value="2003-06-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADOLFO ALBERTO LEIRNER"/>
+			<field name="inventor" value="HELENA TAEKO TANAKA OYAMA"/>
+			<field name="inventor" value="IDAGENE APARECIDA CESTARI"/>
+			<field name="inventor" value="JOAO ROBERTO SAMPEL"/>
+			<field name="inventor" value="MARCELO MAZZETTO"/>
+			<field name="inventor" value="MAURO ROBERTO USHIZIMA"/>
+			<field name="inventor" value="MILTON SEIGUI OSHIRO"/>
+			<field name="inventor" value="SERGIO AKINORI HAYASHIDA"/>
+			<field name="inventor" value="SIMAO BACHT"/>
+			<field name="applicant" value="FUNDACAO ZERBINI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F1/58AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="58AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;APERFEIçOAMENTOS INTRODUZIDOS EM FLUXÈMETRO ELETROMAGNéTICO&quot;. Fluxómetro este a ser instalado no circuito de circulação extracorpórea ou nas usuais bombas responsáveis pela substituição das funções do coração, em operações cardíacas, sendo que a velocidade do fluxo é medida pela tensão gerada entre eletrodos através do movimento de um fluido condutor em meio a um campo magnético, dito fluido condutor sendo configurado pelo sangue ou soro fisiológico circulante no circuito extracorpóreo; o referido fluxómetro é constituído por Módulo Amplificador Isolador (1), Módulo de Controle e Condicionamento de Sinal (7), e Transdutor de Fluxo (21)."/>
+			<field name="originatesFrom" value="3948560"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300067"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0300067"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300067"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030300067"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0300067-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person233" type="Person">
+			<semanticIdentifier>lattes::8242579817249570</semanticIdentifier>
+			<field name="identifier.lattes" value="8242579817249570"/>
+			<field name="name" value="Adolfo Alberto Leirner"/>
+		</entity>
+		<entity ref="OrgUnit206" type="OrgUnit">
+			<semanticIdentifier>brcris::8109235aad882306ec90d66a5c715818</semanticIdentifier>
+			<field name="name" value="FUNDACAO ZERBINI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent333" toEntityRef="Person233" type="Inventor"/>
+		<relation fromEntityRef="Patent333" toEntityRef="OrgUnit206" type="Applicant"/>
+	</relations>
+</entity-relation-data>

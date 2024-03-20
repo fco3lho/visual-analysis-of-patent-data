@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:37" record="39634" source="Espacenet">
+	<entities>
+		<entity ref="Patent39634" type="Patent">
+			<semanticIdentifier>brcris::160266af9f44180c857d4fb24f85e776</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020568A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016020568</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020568A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161020568</semanticIdentifier>
+			<semanticIdentifier>original::102016020568</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016020568"/>
+			<field name="identifier.lattes" value="2571715314037365"/>
+			<field name="identifier.espacenet" value="102016020568"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="métodos de processamento de ligas de memória de forma de cu-al-be-cr"/>
+			<field name="title.lattes" value="Ligas Cu-Al-Be modificadas com a adição de Cr."/>
+			<field name="depositDate" value="2016-09-06"/>
+			<field name="publicationDate" value="2018-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRENO HENRIQUE DA SILVA ANDRADE"/>
+			<field name="inventor" value="DANNIEL FERREIRA DE OLIVEIRA"/>
+			<field name="inventor" value="GEMIERSON VALOIS DA MOTA CANDIDO"/>
+			<field name="inventor" value="RAFAEL EVARISTO CALUETE"/>
+			<field name="inventor" value="RODINEI MEDEIROS GOMES"/>
+			<field name="inventor" value="SEVERINO JACKSON GUEDES DE LIMA"/>
+			<field name="inventor" value="TADEU ANTONIO DE AZEVEDO MELO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22C9/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C22C9/01AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C22F1/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="métodos de processamento de ligas de memória de forma de cu-al-be-cr. a presente patente se refere ao método e elaboração de ligas metálicas com efeito memória de forma, compostas pelos metais cobre (cu), alumínio (al), berílio (be), e cromo (cr), com ou sem a adição de outros elementos, incluindo a partir de 0,1% (% em peso) de cromo e a partir de 0,3% (% em peso) de berílio, para promover uma faixa de temperatura de transformação de austenita desejada. o método compreende selecionar uma determinada temperatura de transformação de austenita e processar termicamente a liga cu-al-be-cr, com ou sem a adição de outros elementos, determinando uma quantidade adequada de berílio e cromo na solução sólida na fase ß da liga, através da relação do composto crxbey, tal que a temperatura de transformação de austenita estável alcançada é essencialmente igual à temperatura de transformação de austenita desejada. além disso, caso não seja atingida com precisão a temperatura de transformação de austenita, essa liga possui a vantagem da possibilidade de alteração dessas temperaturas em uma faixa de temperatura de 40ºc, através da variação da temperatura do tratamento térmico de têmpera da liga."/>
+			<field name="originatesFrom" value="62001677"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020568"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016020568"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020568"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161020568"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016020568"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26956" type="Person">
+			<semanticIdentifier>lattes::2571715314037365</semanticIdentifier>
+			<field name="identifier.lattes" value="2571715314037365"/>
+			<field name="name" value="Rodinei Medeiros Gomes"/>
+		</entity>
+		<entity ref="OrgUnit21113" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39634" toEntityRef="Person26956" type="Inventor"/>
+		<relation fromEntityRef="Patent39634" toEntityRef="OrgUnit21113" type="Applicant"/>
+	</relations>
+</entity-relation-data>

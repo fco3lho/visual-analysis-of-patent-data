@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:17" record="29043" source="Espacenet">
+	<entities>
+		<entity ref="Patent29043" type="Patent">
+			<semanticIdentifier>brcris::88dc4b7373aa7e5e73d6530dec0073ed</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704962A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0704962</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704962A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI04962</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0704962-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0704962"/>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="identifier.espacenet" value="PI0704962"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de lavagem de roupas com efeito cascata"/>
+			<field name="title.lattes" value="PROCESSO DE LAVAGEM DE ROUPAS COM EFEITO CASCATA"/>
+			<field name="depositDate" value="2007-12-20"/>
+			<field name="publicationDate" value="2009-12-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CIRILO ALEX CAVALLI"/>
+			<field name="inventor" value="CLAUDIO DE PELLEGRINI"/>
+			<field name="inventor" value="HENRIQUE WESTPHAL"/>
+			<field name="inventor" value="MARCELO PIEKARSKI"/>
+			<field name="applicant" value="ELECTROLUX DO BRASIL S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D06F35/00AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D06F23/04AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE LAVAGEM DE ROUPAS COM EFEITO CASCATA. Processo de lavagem de roupas com efeito cascata numa lavadora de eixo vertical compreendendo um tanque substancialmente cilíndrico dotado de um cesto com paredes perfuradas em seu interior, dito processo compreendendo uma etapa de dispersão do sabão em pó mediante a turbulência gerada pela queda de um fluxo descendente contínuo de água (cascata) dirigido para o interior do dito cesto, dito fluxo originando-se como uma corrente ascendente de líquido junto à parede do dito tanque, a qual atinge uma capa substancialmente anelar, adaptada à borda superior do tanque, que redireciona a dita corrente de liquido para baixo e para dentro do dito cesto. A corrente ascendente resulta da força centrífuga produzida pela rotação do liquido contido na lavadora, dita rotação sendo provida pelo movimento giratório do cesto. O processo pode compreender, ainda, uma etapa de lavagem da carga mediante a movimentação oscilatória de um agitador."/>
+			<field name="originatesFrom" value="41449394"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704962"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0704962"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704962"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI04962"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0704962-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20020" type="Person">
+			<semanticIdentifier>lattes::3417523885966768</semanticIdentifier>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="name" value="Marcelo Piekarski"/>
+		</entity>
+		<entity ref="OrgUnit15652" type="OrgUnit">
+			<semanticIdentifier>brcris::563718fd486870a6f5996414ff59a7d7</semanticIdentifier>
+			<field name="name" value="ELECTROLUX DO BRASIL S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29043" toEntityRef="Person20020" type="Inventor"/>
+		<relation fromEntityRef="Patent29043" toEntityRef="OrgUnit15652" type="Applicant"/>
+	</relations>
+</entity-relation-data>

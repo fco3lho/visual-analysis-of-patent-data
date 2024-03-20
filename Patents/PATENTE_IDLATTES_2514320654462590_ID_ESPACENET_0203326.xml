@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:50" record="50" source="Espacenet">
+	<entities>
+		<entity ref="Patent50" type="Patent">
+			<semanticIdentifier>brcris::d8f6bd1947c6464ea51ef87874adf89a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203326A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0203326</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203326A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020203326</semanticIdentifier>
+			<semanticIdentifier>original::0203326-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0203326"/>
+			<field name="identifier.lattes" value="2514320654462590"/>
+			<field name="identifier.espacenet" value="0203326"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de enraizamento de eucalyptus mediado por rizobactérias"/>
+			<field name="title.lattes" value="Processo de enraizamento de Eucalyptus mediado por rizobactérias"/>
+			<field name="depositDate" value="2002-08-06"/>
+			<field name="publicationDate" value="2004-06-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ACELINO COUTO ALFENAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01H5/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01H6/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A01H17/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE ENRAIZAMENTO DE EUCALYPTUS MEDIADO POR RIZOBACTéRIAS&quot;. Esta invenção relaciona-se com as áreas de Microbiologia, Fitopatologia, Patologia Florestal, Silvicultura, Silvicultura Clonal, Engenharia Florestal, Biotecnologia e Fisiologia Vegetal. O objetivo técnico da invenção consiste no uso de rizobactérias pertencentes a espécies dos gêneros Bacillus, Frateuria, Pseudomonas e Stenotrophomonas para a produção comercial ou de interesse científico de mudas de Eucalyptus e outras espécies arbóreas florestais ou agronomicas, tais como: café, cacao, goiabeira, acácia e pinus, dentre outras, a partir de estacas, miniestacas ou microestacas."/>
+			<field name="originatesFrom" value="32399016"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203326"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0203326"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203326"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020203326"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0203326-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person46" type="Person">
+			<semanticIdentifier>lattes::2514320654462590</semanticIdentifier>
+			<field name="identifier.lattes" value="2514320654462590"/>
+			<field name="name" value="Acelino Couto Alfenas"/>
+		</entity>
+		<entity ref="OrgUnit34" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent50" toEntityRef="Person46" type="Inventor"/>
+		<relation fromEntityRef="Patent50" toEntityRef="OrgUnit34" type="Applicant"/>
+	</relations>
+</entity-relation-data>

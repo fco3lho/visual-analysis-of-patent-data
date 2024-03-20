@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:37" record="45998" source="Espacenet">
+	<entities>
+		<entity ref="Patent45998" type="Patent">
+			<semanticIdentifier>brcris::9f3432c532057f692f9e6a53d839332e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003424A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019003424</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003424A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191003424</semanticIdentifier>
+			<semanticIdentifier>original::102019003424</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019003424"/>
+			<field name="identifier.lattes" value="2532477079704883"/>
+			<field name="identifier.espacenet" value="102019003424"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de detecção de melanoma automatizado"/>
+			<field name="title.lattes" value="Processo de Detecção de Melanoma Automatizado"/>
+			<field name="depositDate" value="2019-02-20"/>
+			<field name="publicationDate" value="2020-09-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL SILVA DE MORAIS"/>
+			<field name="inventor" value="FELIPE FERNANDES LOPES"/>
+			<field name="inventor" value="MARCELO AUGUSTO COSTA FERNANDES"/>
+			<field name="inventor" value="WYSTERLANYA KYURY PEREIRA BARROS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T7/70AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="70AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o melanoma é o tipo mais agressivo de câncer de pele, apresentando uma baixa taxa de sobrevida quando diagnosticado tardiamente. o diagnóstico dessa doença é dificultado pela sua grande semelhança com sinais de pele comuns, o que contribui para uma taxa mundial de mais de 50 mil mortes por ano. a presente invenção trata-se de um processo para detecção automática de câncer de pele usando técnicas de inteligência artificial e processamento digital de imagem implementadas em um hardware dedicado. o objetivo desse invento é proporcionar aos profissionais da saúde uma segunda opinião no reconhecimento de melanoma. a invenção é composta por um dispositivo móvel (4), módulo de processamento digital de imagens (12), módulo de inteligência artificial (14) e hardware dedicado (10). o dispositivo móvel é responsável pela captura da imagem, a qual é enviada para o hardware dedicado que realiza sua análise através das operações dos dois módulos citados, obtendo ao final a classificação do sinal."/>
+			<field name="originatesFrom" value="73013958"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003424"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019003424"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003424"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191003424"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019003424"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31425" type="Person">
+			<semanticIdentifier>lattes::2532477079704883</semanticIdentifier>
+			<field name="identifier.lattes" value="2532477079704883"/>
+			<field name="name" value="Wysterlânya Kyury Pereira Barros"/>
+		</entity>
+		<entity ref="OrgUnit24627" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45998" toEntityRef="Person31425" type="Inventor"/>
+		<relation fromEntityRef="Patent45998" toEntityRef="OrgUnit24627" type="Applicant"/>
+	</relations>
+</entity-relation-data>

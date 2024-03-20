@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:55" record="12386" source="Espacenet">
+	<entities>
+		<entity ref="Patent12386" type="Patent">
+			<semanticIdentifier>brcris::dafff3974e883c076e0cd7e9ddeb651f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019008102A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019008102</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019008102A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191008102</semanticIdentifier>
+			<semanticIdentifier>original::102019008102</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019008102"/>
+			<field name="identifier.lattes" value="2658276454266803"/>
+			<field name="identifier.espacenet" value="102019008102"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema para computar índices de riscos de incidentes ferroviários"/>
+			<field name="title.lattes" value="EXTRATO HIDROALCOÓLICO DE PIMENTA ROSA"/>
+			<field name="depositDate" value="2019-04-22"/>
+			<field name="publicationDate" value="2020-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JAIR DA SILVA FERREIRA JUNIOR"/>
+			<field name="inventor" value="NIKOLAS JORGE SANTIAGO CARNEIRO"/>
+			<field name="inventor" value="SERGIO IVAN VIADEMONTE DA ROSA"/>
+			<field name="applicant" value="VALE S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B61L23/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B61L27/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F11/07AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="07AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sistema para computar índices de riscos de incidentes ferroviários a presente invenção provê um método para computar índices de riscos de incidentes ferroviários, o qual compreende as etapas de obter um conjunto de base de dados analíticas (a) compreendendo pelo menos uma base de dados (a1, a2,.., an); treinar pelo menos um modelo de aprendizado de máquina com pelo menos uma das base de dados para criar uma pluralidade de modelos preditivos (m1, m2, m3, ...., mn); calcular a performance de ao menos um dos modelos preditivos com base em um critério predeterminado; selecionar o modelo com a melhor performance de acordo com o critério predeterminado; mediante uma solicitação de um usuário com dados de uma composição ferroviária, gerar um mapa de risco com base no modelo preditivo selecionado (m+) e os dados da composição. a presente invenção é vantajosa uma vez que as base de dados analíticas (a) compreendem i instâncias de incidente ferroviário e n atributos relacionados ao incidente ferroviário, na forma im{(xn, yn)}, onde xn representa uma pluralidade de pares de atributo e valor referentes ao incidente ferroviário im, e yn representa uma classe do referido incidente ferroviário im. a presente invenção provê ainda um sistema computacional dotado de meios adequados para a realização das etapas descritas acima."/>
+			<field name="originatesFrom" value="73045643"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019008102"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019008102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019008102"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191008102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019008102"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8502" type="Person">
+			<semanticIdentifier>lattes::2658276454266803</semanticIdentifier>
+			<field name="identifier.lattes" value="2658276454266803"/>
+			<field name="name" value="Edson Douglas Silva Pontes"/>
+		</entity>
+		<entity ref="OrgUnit6707" type="OrgUnit">
+			<semanticIdentifier>brcris::0a5f7a62fc1572bdfc704e5120497e2b</semanticIdentifier>
+			<field name="name" value="VALE S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12386" toEntityRef="Person8502" type="Inventor"/>
+		<relation fromEntityRef="Patent12386" toEntityRef="OrgUnit6707" type="Applicant"/>
+	</relations>
+</entity-relation-data>

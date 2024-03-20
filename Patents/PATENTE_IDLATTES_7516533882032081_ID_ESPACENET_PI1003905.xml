@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:19" record="1339" source="Espacenet">
+	<entities>
+		<entity ref="Patent1339" type="Patent">
+			<semanticIdentifier>brcris::9010766d31d60beefc601dc6d13904f4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1003905A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1003905</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1003905A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI03905</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1003905-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1003905"/>
+			<field name="identifier.lattes" value="7516533882032081"/>
+			<field name="identifier.espacenet" value="PI1003905"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo para monitorar degradaÇço estrutural e falhas em materiais e dispositivo sensor"/>
+			<field name="title.lattes" value="MÉTODO PARA MONITORAR DEGRADAÇÃO ESTRUTURAL E FALHAS EM MATERIAIS E DISPOSITIVO SENSOR"/>
+			<field name="depositDate" value="2010-01-21"/>
+			<field name="publicationDate" value="2013-02-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALETE PAIXAO TEIXEIRA"/>
+			<field name="inventor" value="CRISTINA MARIA ASSIS LOPES TAVARES DA MATA HERMIDA QUINTELLA"/>
+			<field name="inventor" value="ERICA BORGES SANTANA DE OLIVEIRA"/>
+			<field name="inventor" value="IURI MUNIZ PEPE"/>
+			<field name="inventor" value="MARTHA TERESA PANTOJA DE OLIVEIRA CASTRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/223AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="223AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO PARA MONITORAR DEGRADAÇçO ESTRUTURAL E FALHAS EM MATERIAIS E DISPOSITIVO SENSOR A presente invenção refere-se a um método de monitoramento da degradação estrutural e de falhas em materiais por intermédio da análise dos espectros fornecidos por esses materiais quando submetidos à radiação X. Mais particularmente a invenção se refere à determinação direta do estágio de degradação micro estrutural por fluência, exposição a temperatura ou outros processos, em aços, ligas metálicas, vidros, compósitos, plásticos, materiais poliméricos, entre outros. A invenção tem emprego no monitoramento da qualidade de dutos, recipientes, tanques, equipamentos industriais em geral."/>
+			<field name="originatesFrom" value="44306326"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1003905"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1003905"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1003905"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI03905"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1003905-8"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2011088539"/>
+		</entity>
+		<entity ref="Person1000" type="Person">
+			<semanticIdentifier>lattes::7516533882032081</semanticIdentifier>
+			<field name="identifier.lattes" value="7516533882032081"/>
+			<field name="name" value="Alete Paixão Teixeira Dias"/>
+		</entity>
+		<entity ref="OrgUnit791" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+		<entity ref="Patent1340" type="Patent">
+			<semanticIdentifier>epodoc::WO2011088539</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="44306326"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2011088539"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1339" toEntityRef="Person1000" type="Inventor"/>
+		<relation fromEntityRef="Patent1339" toEntityRef="OrgUnit791" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:01" record="5680" source="Espacenet">
+	<entities>
+		<entity ref="Patent5680" type="Patent">
+			<semanticIdentifier>brcris::f2c222be47c942f32bcb4fea32eeafb6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604581A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0604581</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604581A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI04581</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0604581-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0604581"/>
+			<field name="identifier.lattes" value="0599286166150301"/>
+			<field name="identifier.espacenet" value="PI0604581"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="reator eletrÈnico para lámpadas fluorescentes usando técnicas de integração para correção do fator de potência"/>
+			<field name="title.lattes" value="REATOR ELETRÔNICO PARA LÂMPADAS FLUORESCENTES USANDO TÉCNICAS DE INTEGRAÇÃO PARA CORREÇÃO DO FATOR DE POTÊNCIA"/>
+			<field name="depositDate" value="2006-09-29"/>
+			<field name="publicationDate" value="2008-05-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARNALDO JOSE PERIN"/>
+			<field name="inventor" value="CLAUDINOR BITENCOURT NASCIMENTO"/>
+			<field name="inventor" value="MARCOS AURELIO IZUMIDA MARTINS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H05B41/24AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="REATOR ELETRÈNICO PARA LáMPADAS FLUORESCENTES USANDO TéCNICAS DE INTEGRAçãO PARA CORREçãO DO FATOR DE POTêNCIA descrevem conversores eletrónicos operando em alta freqüência, para de lâmpadas fluorescentes, utilizando técnicas de integração para obtenção de elevado fator de potência. Utiliza-se um retificador na configuração ponte completa com uni capacitor de filtragem e um inversor na configuração meia ponte, o que possibilita a alimentação da lâmpada em alta freqüência. Baseados no conceito &quot;Charge pump&quot; esses conversores apresentam uma redução expressiva no volume do circuito de potência, em virtude da retirada do elemento magnético limitador da corrente de carga, no caso o indutor &quot;ballast&quot;, são integradas as funções do indutor &quot;ballast&quot; e do indutor &quot;Charge pump&quot; em apenas dois indutores de entrada, que normalmente são responsáveis apenas pela filtragem da corrente de entrada e pela correção do fator de potência. Além disso, o capacitor do filtro LCC de saída é retirado e a sua função passa a ser integrada aos capacitores de entrada. Com isso os conversores apresentam urna redução expressiva no volume do circuito de potência, em virtude da retirada do elemento magnético e a utilização de capacitores menores distribuídos no circuito de potência."/>
+			<field name="originatesFrom" value="39386246"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604581"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0604581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604581"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI04581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0604581-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3763" type="Person">
+			<semanticIdentifier>lattes::0599286166150301</semanticIdentifier>
+			<field name="identifier.lattes" value="0599286166150301"/>
+			<field name="name" value="Arnaldo Jose Perin"/>
+		</entity>
+		<entity ref="OrgUnit2947" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5680" toEntityRef="Person3763" type="Inventor"/>
+		<relation fromEntityRef="Patent5680" toEntityRef="OrgUnit2947" type="Applicant"/>
+	</relations>
+</entity-relation-data>

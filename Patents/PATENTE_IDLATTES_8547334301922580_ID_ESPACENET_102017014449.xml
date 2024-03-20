@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:10" record="21572" source="Espacenet">
+	<entities>
+		<entity ref="Patent21572" type="Patent">
+			<semanticIdentifier>brcris::69943d1b265966e253e7e6c3f6c82bc7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017014449A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017014449</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017014449A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171014449</semanticIdentifier>
+			<semanticIdentifier>original::102017014449</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017014449"/>
+			<field name="identifier.lattes" value="8547334301922580"/>
+			<field name="identifier.espacenet" value="102017014449"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador paraconsistente adaptativo de temperatura"/>
+			<field name="title.lattes" value="CONTROLADOR PARACONSISTENTE ADAPTATIVO DE TEMPERATURA"/>
+			<field name="depositDate" value="2017-06-27"/>
+			<field name="publicationDate" value="2019-01-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARNALDO DE CARVALHO JUNIOR"/>
+			<field name="inventor" value="HYGHOR MIRANDA CORTES"/>
+			<field name="inventor" value="JOAO INACIO DA SILVA FILHO"/>
+			<field name="inventor" value="LUIZ CARLOS RODRIGUES DA SILVA"/>
+			<field name="inventor" value="MAURICIO CONCEICAO MARIO"/>
+			<field name="applicant" value="INSTITUTO SUPERIOR DE EDUCACAO SANTA CECILIA ISESC"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06N5/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="controlador paraconsistente adaptativo de temperatura o controlador paraconsistente adaptativo de temperatura trata-se de um módulo com componentes eletrônicos embarcados compondo um único circuito para controlar temperatura em processos industriais, fornos ou estufas utilizando uma técnica especial. a ação do controle adaptativo é feita a partir de conceitos lógicos não-clássicos originários da lógica paraconsistente anotada (lpa). o circuito do controlador tem um microcontrolador embarcado (1) onde estão instalados os algoritmos que funcionam com base na lpa. os limites e parâmetros são ajustados por teclas (2) e o circuito tem como entradas (3) pontos para aplicação de sinais de sensores de temperatura (4) em valores de instrumentação (4 a 20 miliamperes) e um mostrador display (5). os valores aplicados nas entradas são considerados os graus de evidência e os algoritmos para o tratamento dos dados através da lpa fazem parte do software do microcontrolador (1). a saída é um único sinal controlado entregue através de um relé de estado sólido (6) com valores que se apresentam nos terminais (7) e representados no mostrador (display) de saída (5). 0 controle de temperatura é na faixa de 20 a 150 graus celsius, e os circuitos auxiliares são dois conversores aid e fonte de alimentação (8) de + 5vcc estabilizados."/>
+			<field name="originatesFrom" value="65237297"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017014449"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017014449"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017014449"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171014449"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017014449"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14914" type="Person">
+			<semanticIdentifier>lattes::8547334301922580</semanticIdentifier>
+			<field name="identifier.lattes" value="8547334301922580"/>
+			<field name="name" value="João Inácio da Silva Filho"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21572" toEntityRef="Person14914" type="Inventor"/>
+	</relations>
+</entity-relation-data>

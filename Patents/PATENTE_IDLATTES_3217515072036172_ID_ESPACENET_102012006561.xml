@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:11" record="37525" source="Espacenet">
+	<entities>
+		<entity ref="Patent37525" type="Patent">
+			<semanticIdentifier>brcris::c864892c4795d534b3fb3881c6700336</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012006561A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012006561</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012006561A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121006561</semanticIdentifier>
+			<semanticIdentifier>original::102012006561</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012006561"/>
+			<field name="identifier.lattes" value="3217515072036172"/>
+			<field name="identifier.espacenet" value="102012006561"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para preparação de um novo polímero poli(ceto-vinílico)"/>
+			<field name="title.lattes" value="Método para preparação de um novo polímero poli(ceto-vinílico)"/>
+			<field name="depositDate" value="2012-03-23"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCEL ASTOLPHE"/>
+			<field name="inventor" value="MARIA APARECIDA FERREIRA CESAR OLIVEIRA"/>
+			<field name="inventor" value="REINALDO YOSHIO MORITA"/>
+			<field name="inventor" value="RONILSON VASCONCELOS BARBOSA"/>
+			<field name="inventor" value="TIAGO HOMMERDING PEDROZO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA - UFPR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08F8/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08G67/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para preparação de um novo polímero poli(ceto-vinílico). o método para preparação de um novo polímero e polímero poli(ceto-vinílico) compreende uma metodologia para a preparação de um novo polímero a partir do poli(álcool-vinílico) (pval). o mesmo foi submetido a uma reação de oxidação na presença de nacio, para a obtenção de um polímero inédito denominada poli(ceto-vinílico) (pvak). o reagente de partida e o respectivo produto foram foi caracterizados através das análises de ressonância magnética nuclear de hidrogênio (1h rmn), ressonância magnética nuclear de carbono (13c rmn) e calorimetria exploratória diferencial (dsc). logo, o presente documento compreende a metodologia e também o polímero inédito, pvak, tem potencial para atuar no desenvolvimento de materiais tecnologicamente importantes e como aditivo em composições poliméricas."/>
+			<field name="originatesFrom" value="64220350"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012006561"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012006561"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012006561"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121006561"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012006561"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25890" type="Person">
+			<semanticIdentifier>lattes::3217515072036172</semanticIdentifier>
+			<field name="identifier.lattes" value="3217515072036172"/>
+			<field name="name" value="Reinaldo Yoshio Morita"/>
+		</entity>
+		<entity ref="OrgUnit20318" type="OrgUnit">
+			<semanticIdentifier>brcris::bc435c5eb1867f9f8b1702fa92d61fa4</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA - UFPR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37525" toEntityRef="Person25890" type="Inventor"/>
+		<relation fromEntityRef="Patent37525" toEntityRef="OrgUnit20318" type="Applicant"/>
+	</relations>
+</entity-relation-data>

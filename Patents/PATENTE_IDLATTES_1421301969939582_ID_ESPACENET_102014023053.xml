@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:08" record="32119" source="Espacenet">
+	<entities>
+		<entity ref="Patent32119" type="Patent">
+			<semanticIdentifier>brcris::7d5acbbe63197783ba03a7e6cd393060</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023053A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014023053</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023053A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141023053</semanticIdentifier>
+			<semanticIdentifier>original::102014023053</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014023053"/>
+			<field name="identifier.lattes" value="1421301969939582"/>
+			<field name="identifier.espacenet" value="102014023053"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensores baseados em nitreto de índio (inn) depositado com argônio e seus usos"/>
+			<field name="title.lattes" value="Sensores baseados em nitreto de índio (InN) depositado com argônio e seus usos"/>
+			<field name="depositDate" value="2014-09-17"/>
+			<field name="publicationDate" value="2016-04-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO DE OLIVEIRA JORGE"/>
+			<field name="inventor" value="JOSE FERNANDO DINIZ CHUBACI"/>
+			<field name="inventor" value="MARINA SPARVOLI DE MEDEIROS"/>
+			<field name="inventor" value="RONALDO DOMINGUES MANSANO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L31/108AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="108AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sensores baseados em nitreto de índio (inn) depositado com argônio e seus usos. a invenção se refere a sensores de radiação na faixa do visível e do infravermelho (ir, do inglês &quot;infrared&quot;) baseados em filmes finos de nitreto de índio (inn) depositados com argônio, bem como seus usos. os sensores são obtidos por deposição do inn por pulverização catódica (do inglês &quot;sputtering&quot;) com plasma de argônio/nitrogênio, com a proporção destes gases variando para cada processo de deposição."/>
+			<field name="originatesFrom" value="55696760"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023053"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014023053"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023053"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141023053"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014023053"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22072" type="Person">
+			<semanticIdentifier>lattes::1421301969939582</semanticIdentifier>
+			<field name="identifier.lattes" value="1421301969939582"/>
+			<field name="name" value="Marina Sparvoli de Medeiros"/>
+		</entity>
+		<entity ref="OrgUnit17282" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32119" toEntityRef="Person22072" type="Inventor"/>
+		<relation fromEntityRef="Patent32119" toEntityRef="OrgUnit17282" type="Applicant"/>
+	</relations>
+</entity-relation-data>

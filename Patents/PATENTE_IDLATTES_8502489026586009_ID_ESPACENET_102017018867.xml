@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:57" record="5640" source="Espacenet">
+	<entities>
+		<entity ref="Patent5640" type="Patent">
+			<semanticIdentifier>brcris::c421b7b819e28cf31db1a1bef54bf54e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017018867A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017018867</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017018867A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171018867</semanticIdentifier>
+			<semanticIdentifier>original::102017018867</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017018867"/>
+			<field name="identifier.lattes" value="8502489026586009"/>
+			<field name="identifier.espacenet" value="102017018867"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processos on-line para monitoramento, acompanhamento e indicação dos mecanismos de degradação do isolamento e proteção instantânea contra sobrecorrente de fuga à terra para motores de indução trifásicos"/>
+			<field name="title.lattes" value="Processos On-line para o Monitoramento, Acompanhamento e Indicação dos Mecanismos de Degradação do Isolamento e Proteção Instantânea de Contra Sobrecorrente de Fuga à Terra para Motores de Indução Trifásicos"/>
+			<field name="depositDate" value="2017-09-01"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMANDO SOUZA GUEDES"/>
+			<field name="inventor" value="SIDELMO MAGALHAES SILVA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/34AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido de patente aplica-se a motores de indução trifásicos (mit) e descreve os processos para a indicação de mecanismos de degradação do isolamento, o monitoramento e o acompanhamento preditivo da degradação do isolamento, além da proteção instantânea contra sobrecorrente de fuga à terra. os processos propostos podem ser aplicados com o mit em funcionamento (on-line). a tecnologia proposta utiliza um transformador de corrente de alta sensibilidade (tcas) para medir a corrente diferencial entre as três fases do motor (corrente de fuga do isolamento i_l) e um transformador de potencial (tp) para medir a tensão em uma das fases; a partir destas medidas e da aplicação dos processos propostos é possível indicar se o mecanismo de degradação de isolamento está associado à umidade, temperaturas elevadas, contaminação por óleo ou sujeiras e também permite acompanhar de forma preditiva a situação do isolamento, além de propiciar uma proteção instantânea contra sobrecorrente de fuga à terra com maior sensibilidade. é possível ressaltar as seguintes vantagens da tecnologia: emprego em motores de baixa tensão (bt) e média tensão (mt) com 6 ou 3 terminais de ligação, facilidade e rapidez de instalação em motores novos ou que já estão em operação, utiliza somente um tcas de forma não invasiva, não influencia na operação ou modo de falha do motor e dispensa a instalação de tp?s adicionais. a tecnologia aplica-se em motores trifásicos de baixa e média tensão presentes em diversos processos."/>
+			<field name="originatesFrom" value="67250563"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017018867"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017018867"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017018867"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171018867"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017018867"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3731" type="Person">
+			<semanticIdentifier>lattes::8502489026586009</semanticIdentifier>
+			<field name="identifier.lattes" value="8502489026586009"/>
+			<field name="name" value="Armando Souza Guedes"/>
+		</entity>
+		<entity ref="OrgUnit2936" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5640" toEntityRef="Person3731" type="Inventor"/>
+		<relation fromEntityRef="Patent5640" toEntityRef="OrgUnit2936" type="Applicant"/>
+	</relations>
+</entity-relation-data>

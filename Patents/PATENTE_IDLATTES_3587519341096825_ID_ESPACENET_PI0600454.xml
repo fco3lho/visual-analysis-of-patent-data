@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:21" record="10800" source="Espacenet">
+	<entities>
+		<entity ref="Patent10800" type="Patent">
+			<semanticIdentifier>brcris::4cbf4e43da04547f953b347a4cbd33f6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600454A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0600454</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600454A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI00454</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0600454-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0600454"/>
+			<field name="identifier.lattes" value="3587519341096825"/>
+			<field name="identifier.espacenet" value="PI0600454"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema estrutural modular tipo árvore"/>
+			<field name="title.lattes" value="SISTEMA ESTRUTURAL MODULAR TIPO ÁRVORE"/>
+			<field name="depositDate" value="2006-01-27"/>
+			<field name="publicationDate" value="2007-10-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARNALDO ANTONIO MARTINO"/>
+			<field name="inventor" value="DECIO GONCALVES"/>
+			<field name="inventor" value="DECIO GONCALVES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E04B1/38AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA ESTRUTURAL MODULAR TIPO áRVORE, compreendida essa invenção por sistema estrutural pré-fabricado, para concepção de projetos arquitetónicos que podem ser implantados em terrenos com declividade variada e, mais especificamente, a um sistema estrutural que compõe um módulo (M), ao qual possibilitarão ser acoplados outros módulos (M), em diferentes direções, podendo transformando-se em uma megaestrutura, cuja aplicabilidade abrange residências unifamiliares, conjuntas habitacionais, usos institucionais, espaços culturais, de pesquisa, usos de interesse sociais, entre outros."/>
+			<field name="originatesFrom" value="38603044"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600454"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0600454"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600454"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI00454"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0600454-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7528" type="Person">
+			<semanticIdentifier>lattes::3587519341096825</semanticIdentifier>
+			<field name="identifier.lattes" value="3587519341096825"/>
+			<field name="name" value="Decio Gonçalves"/>
+		</entity>
+		<entity ref="OrgUnit5983" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit5984" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10800" toEntityRef="Person7528" type="Inventor"/>
+		<relation fromEntityRef="Patent10800" toEntityRef="OrgUnit5983" type="Applicant"/>
+		<relation fromEntityRef="Patent10800" toEntityRef="OrgUnit5984" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:17" record="36991" source="Espacenet">
+	<entities>
+		<entity ref="Patent36991" type="Patent">
+			<semanticIdentifier>brcris::53f843c38928eb365032108f746407a6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017008475A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017008475</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017008475A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171008475</semanticIdentifier>
+			<semanticIdentifier>original::102017008475</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017008475"/>
+			<field name="identifier.lattes" value="5376790557254746"/>
+			<field name="identifier.espacenet" value="102017008475"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="azeite de oliva enriquecido com microcápsulas de tomate"/>
+			<field name="title.lattes" value="AZEITE DE OLIVA ENRIQUECIDO COM MICROCÁPSULAS DE TOMATE"/>
+			<field name="depositDate" value="2017-04-25"/>
+			<field name="publicationDate" value="2018-11-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRA ALMEIDA CASTRO PAGANI"/>
+			<field name="inventor" value="ANNE CAROLINE ROCHA XAVIER"/>
+			<field name="inventor" value="GABRIEL FRANCISCO DA SILVA"/>
+			<field name="inventor" value="JUCENIR DOS SANTOS"/>
+			<field name="inventor" value="MARIA APARECIDA PEREIRA DA SILVA"/>
+			<field name="inventor" value="RAFAELA MENEZES DOS PASSOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23D9/007AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="007AI"/>
+			</field>
+			<field name="abstract.espacenet" value="refere-se o processo de gelificação iônica com soluções de hidrocolóides para produção de microcápsulas de tomate utilizadas para o enriquecimento do azeite de oliva. esse produto visa a obtenção de um produto com propriedades funcionais. o produto final é rico em constituintes nutricionais benéficos a saúde, além de o composto ser um antioxidante que previne contra doenças cancerígenas e coronarianas."/>
+			<field name="originatesFrom" value="64872813"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017008475"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017008475"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017008475"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171008475"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017008475"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25486" type="Person">
+			<semanticIdentifier>lattes::5376790557254746</semanticIdentifier>
+			<field name="identifier.lattes" value="5376790557254746"/>
+			<field name="name" value="Rafaela Menezes dos Passos"/>
+		</entity>
+		<entity ref="OrgUnit19992" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36991" toEntityRef="Person25486" type="Inventor"/>
+		<relation fromEntityRef="Patent36991" toEntityRef="OrgUnit19992" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:03" record="8474" source="Espacenet">
+	<entities>
+		<entity ref="Patent8474" type="Patent">
+			<semanticIdentifier>brcris::0e07356881a55df6389069fc05638015</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013020198A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013020198</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013020198A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131020198</semanticIdentifier>
+			<semanticIdentifier>original::102013020198</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013020198"/>
+			<field name="identifier.lattes" value="7302070158208102"/>
+			<field name="identifier.espacenet" value="102013020198"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de automação de seccionador de alta tensão"/>
+			<field name="title.lattes" value="Dispositivo de Automação de Seccionador de Alta Tensão"/>
+			<field name="depositDate" value="2013-08-08"/>
+			<field name="publicationDate" value="2015-10-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES LEONARDO ISRAEL"/>
+			<field name="inventor" value="LUCIANO FAVRETTO DA ROCHA"/>
+			<field name="applicant" value="COMPANHIA ESTADUAL DE ENERGIA ELETRICA - CEEE"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J13/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01H3/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01H3/54AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="54AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo de automação de seccionador de alta tensão. é objetivo da solução proposta, fornecer um dispositivo de automação de seccionador de alta tensão que auxilie na conclusão de fechamento dos contatos principais de chave seccionadora de alta tensão para uso em subestações de energia elétrica, além de monitorar constantemente ou por amostragem a eficiência de fluxo de energia na conexão gerando confiabilidade na manobra de fechamento de chaves, monitorando de forma direta o alinhamento entre os contatos principais móveis com relação aos fixos e trazendo segurança e eficácia em relação aos métodos de fechamento e supervisão convencionais."/>
+			<field name="originatesFrom" value="54540385"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013020198"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013020198"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013020198"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131020198"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013020198"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5775" type="Person">
+			<semanticIdentifier>lattes::7302070158208102</semanticIdentifier>
+			<field name="identifier.lattes" value="7302070158208102"/>
+			<field name="name" value="Charles Leonardo Israel"/>
+		</entity>
+		<entity ref="OrgUnit4567" type="OrgUnit">
+			<semanticIdentifier>brcris::9bb3731112d7e4b09168df4b2da2dc8c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8474" toEntityRef="Person5775" type="Inventor"/>
+		<relation fromEntityRef="Patent8474" toEntityRef="OrgUnit4567" type="Applicant"/>
+	</relations>
+</entity-relation-data>

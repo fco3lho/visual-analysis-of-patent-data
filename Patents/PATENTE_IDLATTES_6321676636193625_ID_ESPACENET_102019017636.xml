@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:33" record="1987" source="Espacenet">
+	<entities>
+		<entity ref="Patent1987" type="Patent">
+			<semanticIdentifier>brcris::4fe6112c08358a1e9a20bc0ec9a4ccd5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019017636A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019017636</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019017636A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191017636</semanticIdentifier>
+			<semanticIdentifier>original::102019017636</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019017636"/>
+			<field name="identifier.lattes" value="6321676636193625"/>
+			<field name="identifier.espacenet" value="102019017636"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para análise de imagens capturadas em tempo real por câmeras infravermelho"/>
+			<field name="title.lattes" value="Dispositivo para Análise de Imagens Capturadas em Tempo Real por Câmeras Infravermelho"/>
+			<field name="depositDate" value="2019-08-23"/>
+			<field name="publicationDate" value="2021-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALISSON VASCONCELOS DE BRITO"/>
+			<field name="inventor" value="JOANACELLE CALDAS DE MELO"/>
+			<field name="inventor" value="SUZANE GOMES DOS SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/46AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo para análise de imagens capturadas em tempo real por câmeras infravermelho. a presente invenção trata de um dispositivo portátil, tendo como função analisar imagens capturadas em tempo real por câmeras infravermelho para diagnosticar vegetações através de imagens. nesse sentido são utilizados índices de vegetação ndvi e diversas técnicas de processamento de imagens em sistemas incorporados. a plataforma é constituída por um servidor remoto, que demarca as áreas a serem analisadas(5) e grava os resultados do diagnóstico de uma planta(12), além de um dispositivo composto por um pequeno computador de placa única(2) responsável por todo o processamento; uma câmera sem filtro infravermelho(3) para capturar a imagem da planta a ser analisada; um módulo gps(4) para adquirir dados de localização geográfica; e uma tela lcd(1) para realizar a interface entre o usuário e o sistema."/>
+			<field name="originatesFrom" value="75237083"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019017636"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019017636"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019017636"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191017636"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019017636"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1504" type="Person">
+			<semanticIdentifier>lattes::6321676636193625</semanticIdentifier>
+			<field name="identifier.lattes" value="6321676636193625"/>
+			<field name="name" value="Alisson Vasconcelos de Brito"/>
+		</entity>
+		<entity ref="OrgUnit1136" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1987" toEntityRef="Person1504" type="Inventor"/>
+		<relation fromEntityRef="Patent1987" toEntityRef="OrgUnit1136" type="Applicant"/>
+	</relations>
+</entity-relation-data>

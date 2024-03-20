@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:24" record="33133" source="Espacenet">
+	<entities>
+		<entity ref="Patent33133" type="Patent">
+			<semanticIdentifier>brcris::eb67e7dda750be8745e2770ee7e79795</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019012935A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019012935</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019012935A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191012935</semanticIdentifier>
+			<semanticIdentifier>original::102019012935</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019012935"/>
+			<field name="identifier.lattes" value="0549389076806391"/>
+			<field name="identifier.espacenet" value="102019012935"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="antena de microfita hi miniaturizada para aplicações no padrão terrestre de tv digital"/>
+			<field name="title.lattes" value="ANTENA DE MICROFITA Hi MINIATURIZADA PARA APLICAÇÕES NO PADRÃO TERRESTRE DE TV DIGITAL"/>
+			<field name="depositDate" value="2019-06-21"/>
+			<field name="publicationDate" value="2020-12-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO FERREIRA RIBEIRO"/>
+			<field name="inventor" value="GERVASIO PROTASIO DOS SANTOS CAVALCANTE"/>
+			<field name="inventor" value="MIERCIO CARDOSO DE ALCANTARA NETO"/>
+			<field name="inventor" value="RODRIGO MELO E SILVA DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01Q1/38AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01Q9/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="antena de microfita hi miniaturizada para aplicações no padrão terrestre de tv digital a presente patente de invenção (pi) refere-se a uma: antena de microfita hi miniaturizada para aplicações no padrão terrestre de tv digital, que apresenta baixo custo para fabricação e construção simplificada, sendo esta projeta para ser impressa em placa de circuito impresso (printed circuit board ? pcb), que consiste em substrato de fibra de vidro (fr4), e suas dimensões reduzidas possibilitam que a antena seja facilmente integrada a carcaça de aparelhos de tv, bem como a de dispositivos portáteis como smartphones e tablets. a antena apresenta operação com características de banda ultra larga, a qual foi obtida aplicando-se técnicas de casamento de impedâncias ao: se inserir entalhe no plano de terra, se ajustar as dimensões da linha de alimentação e ao se inserir dois elementos parasitas na região imediatamente posterior ao elemento irradiador principal da antena. com isso, foi verificado nas medições que o dispositivo é capaz de operar na faixa de 0,41 ghz (410 mhz) ? 1,09 ghz (1090 mhz), com largura de banda de 0,68 ghz (680 mhz). assim, esta antena capta todos os sinais de uhf (ultra high frequency) padronizados para transmissões terrestre de tv digital por rádio difusão implementados em diversos países e, particularmente, no sistema brasileiro de televisão digital terrestre (sbtvd-t), pois possibilita a recepção de todos os canais liberados dentro da banda de uhf para este padrão, ou seja, canais de 16 a 69, na faixa de frequências de 482 mhz a 806 mhz."/>
+			<field name="originatesFrom" value="74067359"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019012935"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019012935"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019012935"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191012935"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019012935"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22814" type="Person">
+			<semanticIdentifier>lattes::0549389076806391</semanticIdentifier>
+			<field name="identifier.lattes" value="0549389076806391"/>
+			<field name="name" value="Miércio Cardoso de Alcântara Neto"/>
+		</entity>
+		<entity ref="OrgUnit17828" type="OrgUnit">
+			<semanticIdentifier>brcris::42afeb3d303bfc80f672242070a7c5c1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33133" toEntityRef="Person22814" type="Inventor"/>
+		<relation fromEntityRef="Patent33133" toEntityRef="OrgUnit17828" type="Applicant"/>
+	</relations>
+</entity-relation-data>

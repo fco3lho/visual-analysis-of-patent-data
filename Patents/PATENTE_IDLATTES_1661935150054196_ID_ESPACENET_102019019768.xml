@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:04" record="41905" source="Espacenet">
+	<entities>
+		<entity ref="Patent41905" type="Patent">
+			<semanticIdentifier>brcris::66afa94dd90229afe0a1d081fa16c38e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019019768A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019019768</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019019768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191019768</semanticIdentifier>
+			<semanticIdentifier>original::102019019768</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019019768"/>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="identifier.espacenet" value="102019019768"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo eletrônico destinado à identificação de maturação de frutos em pomar"/>
+			<field name="title.lattes" value="DISPOSITIVO ELETRÔNICO DESTINADO À IDENTIFICAÇÃO DE MATURAÇÃO DE FRUTOS EM POMAR"/>
+			<field name="depositDate" value="2019-09-23"/>
+			<field name="publicationDate" value="2021-03-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HENIKE GUILHERME JORDAN VOSS"/>
+			<field name="inventor" value="RICARDO ANTONIO AYUB"/>
+			<field name="inventor" value="SERGIO LUIZ STEVAN JR"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE PONTA GROSSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo eletrônico destinado à identificação de maturação de frutos em pomar. dispositivo eletrônico baseado em uma matriz de sensores de gás, de umidade relativa do ar e de temperatura, caracterizando um dispositivo do tipo nariz eletrônico, para detecção de compostos orgânicos voláteis no ambiente, destinado à identificação de maturação de frutos em pomar. o dispositivo difere de um nariz eletrônico convencional pela sua estrutura, uma vez que possui um sistema de ventilação e circulação do ar que permite o fluxo da amostra contida no ambiente através da matriz de sensores. esse sistema de circulação da amostra conta com uma ventoinha na parte superior do dispositivo e furos nas extremidades laterais do equipamento, responsáveis por coletar amostras do ar e manter a pressão do ar constante e renovada dentro da câmara interna do dispositivo. o sistema possui um sistema microcontrolado para pré-processamento dos sinais dos sensores, armazenamento dos dados obtidos e comunicação com periféricos (computador) através da comunicação usb, através do qual, um software realiza o pré-processamento, processamento e construção do modelo de aprendizado de máquina, para identificar os padrões olfativos da amostra."/>
+			<field name="originatesFrom" value="75570905"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019019768"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019019768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019019768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191019768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019019768"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28553" type="Person">
+			<semanticIdentifier>lattes::1661935150054196</semanticIdentifier>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="name" value="Sergio Luiz Stevan Junior"/>
+		</entity>
+		<entity ref="OrgUnit22341" type="OrgUnit">
+			<semanticIdentifier>brcris::97d7b7c33c80517c2049514760e7bf3f</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE PONTA GROSSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41905" toEntityRef="Person28553" type="Inventor"/>
+		<relation fromEntityRef="Patent41905" toEntityRef="OrgUnit22341" type="Applicant"/>
+	</relations>
+</entity-relation-data>

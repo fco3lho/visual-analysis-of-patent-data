@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:16" record="17335" source="Espacenet">
+	<entities>
+		<entity ref="Patent17335" type="Patent">
+			<semanticIdentifier>brcris::fe30fc7ad29dfaf9d5f21eb9e0cb5ea0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0804558A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0804558</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0804558A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI04558</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0804558-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0804558"/>
+			<field name="identifier.lattes" value="1914466350758724"/>
+			<field name="identifier.espacenet" value="PI0804558"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composto organoestánico derivado de mercaptopirimidiletano para formulação de fungicida"/>
+			<field name="title.lattes" value="COMPOSTO ORGANOESTÂNICO DERIVADO DE MERCAPTOPIRIMIDILETANO PARA FORMULAÇÃO DE FUNGICIDA"/>
+			<field name="depositDate" value="2008-10-17"/>
+			<field name="publicationDate" value="2010-07-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDA ANDRADE MENDONCA"/>
+			<field name="inventor" value="GERALDO JOSE DA SILVA JUNIOR"/>
+			<field name="inventor" value="JOSE ROBERTO DA SILVEIRA MAIA"/>
+			<field name="inventor" value="JOSE ROBERTO DA SILVEIRA MAIA"/>
+			<field name="inventor" value="ONKAR DEV DHINGRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N55/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="55"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07F7/22AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Trata de composto organoestânico derivado da reação entre cloreto de trifenilestanho(IV) e bis-(2-mercaptopirimidil)-etano de fórmula geral [SnxCIxPh3x(R1R2CH2CH2R2R1) (1) {R1 = 2-pirimidil, R2 =S(enxofre),x = 1, 2, 3 ,4} com propriedade fungicida, utilizável como princípio ativo único na formulação de novo fungicida ou como ingrediente nas formulações fungicidas existentes para o controle de doenças das plantas e de fungos em ambiente. Vários organoestânicos são conhecidos e empregados como ingredientes em composição fungicida. Entretanto, problemas como a resistência dos fungos, baixo valor do MIC (Concentração Mínima Inibitória) e altas concentrações do ingrediente ativo dificultam o controle de doenças. A presente invenção tem por objetivo o desenvolvimento de composto fungicida para o controle de doenças de plantas, e outros fungos toxicogénicos e alergénicos. A preparação do organoestânico envolve técnica de processo de síntese no estado sólido bem como em solução. O resultado do teste fungitóxico e crescimento micelial mostram claramente atividade da presente invenção contra todos os fungos testados."/>
+			<field name="originatesFrom" value="42335323"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0804558"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0804558"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0804558"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI04558"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0804558-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12012" type="Person">
+			<semanticIdentifier>lattes::1914466350758724</semanticIdentifier>
+			<field name="identifier.lattes" value="1914466350758724"/>
+			<field name="name" value="Geraldo José da Silva Junior"/>
+		</entity>
+		<entity ref="OrgUnit9418" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+		<entity ref="OrgUnit9419" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17335" toEntityRef="Person12012" type="Inventor"/>
+		<relation fromEntityRef="Patent17335" toEntityRef="OrgUnit9418" type="Applicant"/>
+		<relation fromEntityRef="Patent17335" toEntityRef="OrgUnit9419" type="Applicant"/>
+	</relations>
+</entity-relation-data>

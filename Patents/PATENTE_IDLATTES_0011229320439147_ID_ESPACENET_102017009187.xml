@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:04" record="6397" source="Espacenet">
+	<entities>
+		<entity ref="Patent6397" type="Patent">
+			<semanticIdentifier>brcris::b8bcb5e4905aa9dd8de893569fee98dc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017009187A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017009187</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017009187A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171009187</semanticIdentifier>
+			<semanticIdentifier>original::102017009187</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017009187"/>
+			<field name="identifier.lattes" value="0011229320439147"/>
+			<field name="identifier.espacenet" value="102017009187"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor óptico aplicado á descelularização de orgãos"/>
+			<field name="title.lattes" value="Sensor Óptico Aplicado à Descelularização de Órgãos"/>
+			<field name="depositDate" value="2017-05-02"/>
+			<field name="publicationDate" value="2020-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADILSON RIBEIRO PRADO"/>
+			<field name="inventor" value="AFRANIO COGO DESTEFANI"/>
+			<field name="inventor" value="BRENO VALENTIM NOGUEIRA"/>
+			<field name="inventor" value="GABRIEL HENRIQUE TAUFER"/>
+			<field name="inventor" value="GABRIELA MODENESI SIRTOLI"/>
+			<field name="inventor" value="JAIRO PINTO DE OLIVEIRA"/>
+			<field name="inventor" value="LUIZ FELIPE CASTELO DEL CARO"/>
+			<field name="inventor" value="RAYSSA HELENA ARRUDA PEREIRA"/>
+			<field name="inventor" value="TADEU ERITON CALIMAN ZANARDO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ESPIRITO SANTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N1/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12M1/42AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="trata-se de um equipamento que possibilitará avaliar o estado de descelularização de órgãos para habilitá-los para testes de recelularização, fornecendo o comportamento óptico dos processos de descelularização, os dados numéricos de tensão, as derivadas dos pontos e os gráficos, que possibilitam identificar o momento ideal de retirada do órgão dos reagentes de perfusão, correlacionando o material celular residual com a tensão detectada da luz transmitida; o sensor será composto por uma base ajustável (1), fonte luminosa (2), um fotodiodo (3), plataforma (placa) de prototipagem (4) e também por um software de programação (5) formando um sistema de sensoriamento óptico para aplicação biotecnológica que correlacionará o comportamento óptico de órgãos, durante o processo de descelularização, com os testes de verificação tradicionais histológicos e espectrométricos, e assim, possibilitando padronizar o processo de descelularização utilizando o dispositivo eletrônico."/>
+			<field name="originatesFrom" value="69896826"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017009187"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017009187"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017009187"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171009187"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017009187"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4235" type="Person">
+			<semanticIdentifier>lattes::0011229320439147</semanticIdentifier>
+			<field name="identifier.lattes" value="0011229320439147"/>
+			<field name="name" value="Breno Valentim Nogueira"/>
+		</entity>
+		<entity ref="OrgUnit3297" type="OrgUnit">
+			<semanticIdentifier>brcris::3db6ffef85a6e836a3855602b9ab13e8</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO ESPIRITO SANTO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6397" toEntityRef="Person4235" type="Inventor"/>
+		<relation fromEntityRef="Patent6397" toEntityRef="OrgUnit3297" type="Applicant"/>
+	</relations>
+</entity-relation-data>

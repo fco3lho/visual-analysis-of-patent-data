@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:11" record="10262" source="Espacenet">
+	<entities>
+		<entity ref="Patent10262" type="Patent">
+			<semanticIdentifier>brcris::b7a1b096c093d2ea91a0056702fc46db</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012324A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012012324</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012324A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121012324</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 012324-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012012324"/>
+			<field name="identifier.lattes" value="2132578584168482"/>
+			<field name="identifier.espacenet" value="102012012324"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="COBREJUNTA MOLDÁVEL NÃO PERMANENTE PARA SOLDAGEM, APLICADOR DE COBREJUNTA E MÉTODO DE APLICAÇÃO"/>
+			<field name="title.lattes" value="Cobrejunta Moldável não Permanente para Soldagem, Aplicador de Cobrejunta e Método de Aplicação"/>
+			<field name="depositDate" value="2012-05-23"/>
+			<field name="publicationDate" value="2014-12-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMERICO SCOTTI"/>
+			<field name="inventor" value="DANIEL SOUZA"/>
+			<field name="applicant" value="FAPEMIG - FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="FAPEMIG - FUNDACAO DE AMPARO A PESQUISA DO ESTADODE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23K37/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B23K9/035AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="035AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B23K35/362AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="362AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COBREJUNTA MOLDÁVEL NÃO PERMANENTE PARA SOLDAGEM, APLICADOR DE COBREJUNTA E MÉTODO DE APLICAÇÃO. Tipo cobrejunta (backing) formado por uma mistura de minerais e um aglomerante. Uma massa mold.ável (4) é colocada no verso da junta com auxilio de um aplicador (1). Um gás é injetado na massa moldável, utilizando o aplocador (1), provocando a aderência e o endurecimento da mesma. Assim, o aplicad or (1) é retirado e o cobrejunta torna-se um suprote rígido. Depois de soldada a junta, cobrejunta é retirado facilmente, deviod à alta colapsibilidade adquirida."/>
+			<field name="originatesFrom" value="52003085"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012324"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012012324"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012324"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121012324"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 012324-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7071" type="Person">
+			<semanticIdentifier>lattes::2132578584168482</semanticIdentifier>
+			<field name="identifier.lattes" value="2132578584168482"/>
+			<field name="name" value="Daniel Souza"/>
+		</entity>
+		<entity ref="OrgUnit5631" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+		<entity ref="OrgUnit5632" type="OrgUnit">
+			<semanticIdentifier>brcris::fa95793bd10cf2105122ea0e931c861a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10262" toEntityRef="Person7071" type="Inventor"/>
+		<relation fromEntityRef="Patent10262" toEntityRef="OrgUnit5631" type="Applicant"/>
+		<relation fromEntityRef="Patent10262" toEntityRef="OrgUnit5632" type="Applicant"/>
+	</relations>
+</entity-relation-data>

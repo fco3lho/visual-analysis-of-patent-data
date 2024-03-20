@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:03" record="3470" source="Espacenet">
+	<entities>
+		<entity ref="Patent3470" type="Patent">
+			<semanticIdentifier>brcris::5993731a6c0d1a27796d0ef0df5675fa</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8700527U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8700527U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8700527U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1987MU00527U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8700527-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8700527"/>
+			<field name="identifier.lattes" value="8328959774323985"/>
+			<field name="identifier.espacenet" value="MU8700527"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="mimeàgrafo automatizado que utiliza Álcool em gel"/>
+			<field name="title.lattes" value="MIMEÓGRAFO AUTOMATIZADO QUE UTILIZA ÁLCOOL EM GEL"/>
+			<field name="depositDate" value="2007-05-11"/>
+			<field name="publicationDate" value="2008-12-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE DINIZ DE OLIVEIRA"/>
+			<field name="inventor" value="JOSE PAULO RDRIGUES FURTADO DE MENDONCA"/>
+			<field name="inventor" value="PEDRO PAULO FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03G15/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Mimeógrafo Automatizado que utiliza álcool em gel. O Mimeógrafo Automatizado utiliza álcool em gel como InsuxilO básico. Os mimeógrafos comuns exigem esforço e tempo do operador, pelo funcionamento manual, além de utilizar álcool liquido, oferecendo perigos ao usuário. Diferencia- se o Mimeógrafo Automatizado do comum por efetuar as cópias de forma autônoma, utilizando o álcool em gel como insumo básico e produto químico como diluente do álcool. Sua automatização é promovida por um circuito micro-controlado que recebe as informações sobre número de cópias a serem realizadas além de informações sobre a existência ou inexistência de insumos para impressão. A partir destas informações o circuito micro-controlado aciona um motor 5 para realizar as cópias e, através de um display, permite o acompanhamento da reprodução pelo usuário."/>
+			<field name="originatesFrom" value="40551719"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8700527"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8700527U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8700527"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1987MU00527U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8700527-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2450" type="Person">
+			<semanticIdentifier>lattes::8328959774323985</semanticIdentifier>
+			<field name="identifier.lattes" value="8328959774323985"/>
+			<field name="name" value="André Diniz de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit1964" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3470" toEntityRef="Person2450" type="Inventor"/>
+		<relation fromEntityRef="Patent3470" toEntityRef="OrgUnit1964" type="Applicant"/>
+	</relations>
+</entity-relation-data>

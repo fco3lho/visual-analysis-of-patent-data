@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:11" record="22250" source="Espacenet">
+	<entities>
+		<entity ref="Patent22250" type="Patent">
+			<semanticIdentifier>brcris::7061b1bfe88d2812276d82b03837d87f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033663A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013033663</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033663A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131033663</semanticIdentifier>
+			<semanticIdentifier>original::102013033663</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013033663"/>
+			<field name="identifier.lattes" value="0267366096672693"/>
+			<field name="identifier.espacenet" value="102013033663"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo reversível de conversão de produção de polpa papel em polpa solúvel e processo para produção de polpa solúvel"/>
+			<field name="title.lattes" value="Processo reversível de conversão de produção de polpa papel em polpa solúvel e processo para produção de polpa solúvel"/>
+			<field name="depositDate" value="2013-12-27"/>
+			<field name="publicationDate" value="2015-09-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUGUSTO F. MILANEZ"/>
+			<field name="inventor" value="JORGE LUIZ COLODETTE"/>
+			<field name="applicant" value="SUZANO PAPEL E CELULOSE S.A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D21C9/00AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D21H25/02AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo reversível de conversão de produção de polpa papel em polpa solúvel e processo para produção de polpa solúvel. o objetivo da presente invenção é proporcionar um novo modo para a conversão de fábricas operando com produção de polpa papel para passarem a operar com produção de polpa solúvel. uma primeira realização da presente invenção refere-se a um processo reversível de conversão de produção de polpa papel em produção de polpa solúvel, caracterizado pelo fato de que compreende as etapas de extração alcalina a frio (eaf) e oxidação avançada (oa). uma segunda realização da presente invenção refere-se a um processo para produção de polpa solúvel, caracterizado pelo fato de que compreende as etapas de cozimento, opcionalmente deslignificação, opcionalmente branqueamento, extração alcalina a frio (eaf) e oxidação avançada (oa), em que ditas etapas são conforme definidas no processo anterior"/>
+			<field name="originatesFrom" value="54703653"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033663"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013033663"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033663"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131033663"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013033663"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15377" type="Person">
+			<semanticIdentifier>lattes::0267366096672693</semanticIdentifier>
+			<field name="identifier.lattes" value="0267366096672693"/>
+			<field name="name" value="Jorge Luiz Colodette"/>
+		</entity>
+		<entity ref="OrgUnit11960" type="OrgUnit">
+			<semanticIdentifier>brcris::fbd5431a6c8eb90cb01fc71e0f039f2e</semanticIdentifier>
+			<field name="name" value="SUZANO PAPEL E CELULOSE S.A"/>
+		</entity>
+		<entity ref="OrgUnit11961" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22250" toEntityRef="Person15377" type="Inventor"/>
+		<relation fromEntityRef="Patent22250" toEntityRef="OrgUnit11960" type="Applicant"/>
+		<relation fromEntityRef="Patent22250" toEntityRef="OrgUnit11961" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:53" record="39803" source="Espacenet">
+	<entities>
+		<entity ref="Patent39803" type="Patent">
+			<semanticIdentifier>brcris::d1af701324d72bcb53458ff3277ae082</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504587A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504587</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504587A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04587</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504587-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504587"/>
+			<field name="identifier.lattes" value="5223208885424964"/>
+			<field name="identifier.espacenet" value="PI0504587"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método geofìsico para a conversão tempo-profundidade de velocidades intervalares em tempo"/>
+			<field name="title.lattes" value="Método geofísico para a conversão tempo-profundidade de velocidades intervalares em tempo"/>
+			<field name="depositDate" value="2005-10-13"/>
+			<field name="publicationDate" value="2007-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO FILPO FERREIRA DA SILVA"/>
+			<field name="inventor" value="RODRIGO DE SOUZA PORTUGAL"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01V1/36AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO GEOFìSICO PARA A CONVERSãO TEMPO-PROFUNDIDADE DE VELOCIDADES INTERVALARES EM TEMPO é descrito um método geofísico para a conversão tempo-profundidade de velocidades intervalares em tempo que compreende: a) definir um superfície plana como representativa da superfície de registro do dado após o processamento sísmico ( datum de processamento); b) selecionar, na dita superfície de registro, um conjunto de pontos para traçado de raios imagem, onde cada ponto será referenciado como um ponto de partida; c) definir, para cada ponto de partida, as condições iniciais para traçado de raios; d) traçar, para cada ponto de partida, um raio com um passo de tempo constante &lt;sym&gt;; e) definir, a partir do conjunto de pontos definidos pelas extremidades dos raios em d), uma superfície como sendo uma frente de onda imagem no tempo &lt;sym&gt;; e f) propagar a frente de onda assim obtida até um tempo máximo de interesse (&lt;sym&gt;) através do procedimento iterativo, onde cada iteração compreende propagar uma frente de onda imagem no tempo &lt;sym&gt; para o tempo&lt;sym&gt;+&lt;sym&gt; através de uma série de etapas i) até vii) que culminam com a determinação da velocidade intervalar em profundidade procurada."/>
+			<field name="originatesFrom" value="38116507"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504587"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504587"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504587"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04587"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504587-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27078" type="Person">
+			<semanticIdentifier>lattes::5223208885424964</semanticIdentifier>
+			<field name="identifier.lattes" value="5223208885424964"/>
+			<field name="name" value="Rodrigo de Souza Portugal"/>
+		</entity>
+		<entity ref="OrgUnit21206" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39803" toEntityRef="Person27078" type="Inventor"/>
+		<relation fromEntityRef="Patent39803" toEntityRef="OrgUnit21206" type="Applicant"/>
+	</relations>
+</entity-relation-data>

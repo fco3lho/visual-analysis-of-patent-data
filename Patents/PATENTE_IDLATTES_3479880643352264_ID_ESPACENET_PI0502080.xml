@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:21" record="34783" source="Espacenet">
+	<entities>
+		<entity ref="Patent34783" type="Patent">
+			<semanticIdentifier>brcris::ee1bf03d8164bfb90c5486e6fd67a116</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502080A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0502080</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502080A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI02080</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0502080-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0502080"/>
+			<field name="identifier.lattes" value="3479880643352264"/>
+			<field name="identifier.espacenet" value="PI0502080"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de obtenção de soro equino anti-laquético"/>
+			<field name="title.lattes" value="Processo de obtenção de soro equino anti-Laquético"/>
+			<field name="depositDate" value="2005-06-02"/>
+			<field name="publicationDate" value="2007-01-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DENISE VILARINHO TAMBOURGI"/>
+			<field name="inventor" value="HISAKO GONDO HIGASHI"/>
+			<field name="inventor" value="IVONE KAZUKO YAMAGUCHI"/>
+			<field name="inventor" value="JOSE ROBERTO MARCELINO"/>
+			<field name="inventor" value="JOSEFINA FARINA MORAIS"/>
+			<field name="inventor" value="MARCO ANTONIO STEPHANO"/>
+			<field name="inventor" value="OSVALDO AUGUSTO BRAZIL ESTEVES SANT'ANNA"/>
+			<field name="inventor" value="ROSALVO GUIDOLIN"/>
+			<field name="applicant" value="FUNDACAO BUTANTAN"/>
+			<field name="applicant" value="FUNDACAO BUTANTAN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K35/16AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K39/38AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61K39/395AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="395AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="A61P39/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE OBTENçãO DE SORO EQüINO ANTI-LAQUéTICO&quot;. O qual utiliza, como antígeno, o veneno da serpente Lachesis muta depletado de uma fração supressora."/>
+			<field name="originatesFrom" value="37655000"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502080"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0502080"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502080"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI02080"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0502080-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23940" type="Person">
+			<semanticIdentifier>lattes::3479880643352264</semanticIdentifier>
+			<field name="identifier.lattes" value="3479880643352264"/>
+			<field name="name" value="Osvaldo Augusto Brazil Esteves Sant'Anna"/>
+		</entity>
+		<entity ref="OrgUnit18773" type="OrgUnit">
+			<semanticIdentifier>brcris::b8f88ac3ca91ea182f42b01e1bf8ca70</semanticIdentifier>
+			<field name="name" value="FUNDACAO BUTANTAN"/>
+		</entity>
+		<entity ref="OrgUnit18774" type="OrgUnit">
+			<semanticIdentifier>brcris::71c4a491da401f773e5a01d08d3f9e0e</semanticIdentifier>
+			<field name="name" value="FUNDACAO BUTANTAN"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34783" toEntityRef="Person23940" type="Inventor"/>
+		<relation fromEntityRef="Patent34783" toEntityRef="OrgUnit18773" type="Applicant"/>
+		<relation fromEntityRef="Patent34783" toEntityRef="OrgUnit18774" type="Applicant"/>
+	</relations>
+</entity-relation-data>

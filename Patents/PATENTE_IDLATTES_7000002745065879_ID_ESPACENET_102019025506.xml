@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:27:29" record="43386" source="Espacenet">
+	<entities>
+		<entity ref="Patent43386" type="Patent">
+			<semanticIdentifier>brcris::70f59f4b5d4f5237651efd7d207dac01</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025506A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019025506</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025506A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191025506</semanticIdentifier>
+			<semanticIdentifier>original::102019025506</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019025506"/>
+			<field name="identifier.lattes" value="7000002745065879"/>
+			<field name="identifier.espacenet" value="102019025506"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo integrado para produção de bioetanol de primeira e segunda geração"/>
+			<field name="title.lattes" value="PROCESSO INTEGRADO PARA PRODUÇÃO DE BIOETANOL DE PRIMEIRA E SEGUNDA GERAÇÃO"/>
+			<field name="depositDate" value="2019-12-02"/>
+			<field name="publicationDate" value="2021-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JULIANA PASSAMANI SANDRI"/>
+			<field name="inventor" value="RAQUEL DE LIMA CAMARGO GIORDANO"/>
+			<field name="inventor" value="ROBERTO DE CAMPOS GIORDANO"/>
+			<field name="inventor" value="TERESA CRISTINA ZANGIROLAMI"/>
+			<field name="inventor" value="THAIS SUZANE MILESSI ESTEVES"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ITAJUBA - UNIFEI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/16AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N11/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12P7/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo integrado para produção de bioetanol de primeira e segunda geração. é descrito um processo integrado (200a, 200b) para produção de bioetanol de primeira e segunda geração, compreendendo a) preparar o mosto (60) a ser fermentado pela mistura de melaço (62) com os hidrolisados resultantes (82, 102 e 111) da etapa de pré-tratamento obtendo uma concentração de açúcares totais entre 50 e 300 g/l; b) fermentar em uma única dorna (10),em duas fases, o mosto preparado em a) pela ação da levedura s. cerevisiae em concentração entre 0,1 e 20% m/v, mediada pela enzima xilose isomerase solúvel ou imobilizada em concentração entre 1 e 40% m/v, em ph entre 3 e 9, temperatura entre 25 e 50ºc; c) separar e recuperar a levedura e a enzima utilizadas em b) no vaso (40), obtendo uma fase sobrenadante (42) contendo os produtos da fermentação e uma fase (41) rica em levedura contendo ainda parcial ou totalmente, a enzima inicialmente adicionada, dita enzima sendo retornada total ou parcialmente ao reator (10); e d) separar os produtos da fase (42) obtida em c) obtendo etanol (51)."/>
+			<field name="originatesFrom" value="76825128"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025506"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019025506"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025506"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191025506"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019025506"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29656" type="Person">
+			<semanticIdentifier>lattes::7000002745065879</semanticIdentifier>
+			<field name="identifier.lattes" value="7000002745065879"/>
+			<field name="name" value="Thais Suzane Milessi Esteves"/>
+		</entity>
+		<entity ref="OrgUnit23276" type="OrgUnit">
+			<semanticIdentifier>brcris::01bf8bb8899ab63c21b33a5e3d56f51c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43386" toEntityRef="Person29656" type="Inventor"/>
+		<relation fromEntityRef="Patent43386" toEntityRef="OrgUnit23276" type="Applicant"/>
+	</relations>
+</entity-relation-data>

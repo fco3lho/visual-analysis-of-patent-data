@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:47" record="18712" source="Espacenet">
+	<entities>
+		<entity ref="Patent18712" type="Patent">
+			<semanticIdentifier>brcris::1bf0d0c0b79f38d9eaaace08c6fc8d07</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501963A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501963</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501963A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01963</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501963-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501963"/>
+			<field name="identifier.lattes" value="1826035348340133"/>
+			<field name="identifier.espacenet" value="PI0501963"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="dispositivo de disparo óptico - eletrÈnico para detectar com precisão eventos que ocorrem periodicamente em máquinas e equipamentos"/>
+			<field name="title.lattes" value="Dispositivo de Disparo Óptico-eletrônico para Detectar com Precisão Eventos que ocorrem Periodicamente em Máquinas e Equipamentos"/>
+			<field name="depositDate" value="2005-05-13"/>
+			<field name="publicationDate" value="2007-01-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HEBER FERREIRA FRANCO DE CASTRO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;DISPOSITIVO DE DISPARO óPTICO-ELETRÈNICO PARA DETECTAR COM PRECISãO EVENTOS QUE OCORREM PERIODICAMENTE EM MáQUINAS E EQUIPAMENTOS&quot;. A presente invenção refere-se a um dispositivo óptico-eletrónico usado para produzir com precisão pulsos elétricos que correspondem a eventos que ocorrem periodicamente em máquinas e equipamentos. Ele é empregado como um componente auxiliar de um sistema de medição para testar maquinário em condições dinâmicas. O dispositivo consiste de 2 elementos, a saber: (a) Sistema de Laser Diodo (SLD); e (b) Gerador de pulso. O primeiro elemento produz um par de sinal analógico a partir de uma fotocélula de quatro quadrantes. O segundo converte tais sinais analógicos num pulso quadrado estreito. Para funcionar é necessária a presença de uma superfície refletora no objeto rotativo que pode estar situada em até 1 metro do SLD. Este dispositivo pode ser empregado no monitoramento do número de revoluções de um eixo rotativo. outra aplicação é na aferição dos erros cinemáticos de máquinas-ferramenta utilizando-se um laser interferométrico e um polígono de precisão."/>
+			<field name="originatesFrom" value="37607697"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501963"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501963"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501963"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01963"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501963-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12978" type="Person">
+			<semanticIdentifier>lattes::1826035348340133</semanticIdentifier>
+			<field name="identifier.lattes" value="1826035348340133"/>
+			<field name="name" value="Heber Ferreira Franco de Castro"/>
+		</entity>
+		<entity ref="OrgUnit10114" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit10115" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18712" toEntityRef="Person12978" type="Inventor"/>
+		<relation fromEntityRef="Patent18712" toEntityRef="OrgUnit10114" type="Applicant"/>
+		<relation fromEntityRef="Patent18712" toEntityRef="OrgUnit10115" type="Applicant"/>
+	</relations>
+</entity-relation-data>

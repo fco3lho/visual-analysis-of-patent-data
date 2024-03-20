@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:00" record="8423" source="Espacenet">
+	<entities>
+		<entity ref="Patent8423" type="Patent">
+			<semanticIdentifier>brcris::5654ab72ff51698efee6becd57b63b07</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019029A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019029</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019029A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019029</semanticIdentifier>
+			<semanticIdentifier>original::102016019029</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019029"/>
+			<field name="identifier.lattes" value="4344790398205987"/>
+			<field name="identifier.espacenet" value="102016019029"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para reinício de escoamento de fluidos gelificados"/>
+			<field name="title.lattes" value="Metodo para Reinício de Escoamento de Fluidos Gelificados"/>
+			<field name="depositDate" value="2016-08-17"/>
+			<field name="publicationDate" value="2018-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CEZAR OTAVIANO RIBEIRO NEGRAO"/>
+			<field name="inventor" value="EDUARDO MARTINEZ BARREIRA"/>
+			<field name="inventor" value="FERNANDO MACHADO KROETZ"/>
+			<field name="inventor" value="GUILHERME DOS SANTOS VIEIRA LIMA"/>
+			<field name="inventor" value="NEZIA DE ROSSO"/>
+			<field name="inventor" value="PAULO HENRIQUE DE CARVALHO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F17D1/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="17"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para reinicio de escoamento de fluidos gelificados. a presente invenção está relacionada a um sistema auxiliar de início ou reinício de escoamento de fluido gelificado compreendendo um duto (12) em que o sistema compreende: pelo menos um reservatório de alívio (13) fluidicamente conectado (11) ao duto (12), em que pelo menos um reservatório de alívio (13) é adaptado para receber fluido a partir do duto (12); e pelo menos um elemento pressurizador à montante de pelo menos um reservatório, adaptado para pressurizar o fluido no duto (12). em adição, é provido um método auxiliar de início ou reinício de escoamento de fluido gelificado em um duto (12) compreendendo pelo menos um reservatório fluidicamente conectado (11) ao duto (12) e pelo menos um elemento pressurizador à montante de pelo menos um reservatório, em que o método compreende a etapa de, no início do procedimento, o elemento pressurizador elevar a pressão no duto (12) e preencher pelo menos um reservatório pelo menos parcialmente com fluido proveniente do duto (12)."/>
+			<field name="originatesFrom" value="61970771"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019029"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019029"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019029"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019029"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019029"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5754" type="Person">
+			<semanticIdentifier>lattes::4344790398205987</semanticIdentifier>
+			<field name="identifier.lattes" value="4344790398205987"/>
+			<field name="name" value="Cezar Otaviano Ribeiro Negrão"/>
+		</entity>
+		<entity ref="OrgUnit4556" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit4557" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8423" toEntityRef="Person5754" type="Inventor"/>
+		<relation fromEntityRef="Patent8423" toEntityRef="OrgUnit4556" type="Applicant"/>
+		<relation fromEntityRef="Patent8423" toEntityRef="OrgUnit4557" type="Applicant"/>
+	</relations>
+</entity-relation-data>

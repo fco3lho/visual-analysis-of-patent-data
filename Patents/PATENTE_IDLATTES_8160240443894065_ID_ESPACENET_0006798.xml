@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:40" record="31547" source="Espacenet">
+	<entities>
+		<entity ref="Patent31547" type="Patent">
+			<semanticIdentifier>brcris::23897759425ce8b23aa6f9b5bd476bfd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0006798A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0006798</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0006798A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000006798</semanticIdentifier>
+			<semanticIdentifier>original::0006798-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0006798"/>
+			<field name="identifier.lattes" value="8160240443894065"/>
+			<field name="identifier.espacenet" value="0006798"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de humanização do dna complementar (cdna) do fator de crescimento de fibrolasto-2 (fgf-2) bovino, seu produto expresso em escherichia coli, e uso terapêutico do referido produto"/>
+			<field name="title.lattes" value="Humanização do DNA complementar (cDNA) do Fator de Crescimento de Fibroblasto-2 (FGF-2) e o uso terapêutico do seu produto expresso em Escherichia coli."/>
+			<field name="depositDate" value="2000-11-28"/>
+			<field name="publicationDate" value="2002-07-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOAQUIM COUTINHO NETTO"/>
+			<field name="inventor" value="JOSE EDUARDO KRIEGER"/>
+			<field name="inventor" value="MARIA LEONOR SARNO DE OLIVEIRA"/>
+			<field name="inventor" value="PAULO LEE HO"/>
+			<field name="applicant" value="FUNDACAO BUTANTAN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K38/18AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P1/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12N15/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C12N15/63AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="63AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE HUMANIZAçãO DO DNA COMPLEMENTAR (CDNA) DO FATOR DE CRESCIMENTO DE FIBROLASTO-2 (FGF-2) BOVINO, SEU PRODUTO EXPRESSO EM ESCHERICHIA COLI, E USO TERAPêUTICO DO REFERIDO PRODUTO&quot;, segundo o qual obteve-se o produto FGF2H, passível de ser usado na indução de angiogênese, no tratamento de ferimentos em geral, visando a cicatrização, no tratamento de queimaduras, no reparo e manutenção de células, tecido nervoso e outros tecidos em geral."/>
+			<field name="originatesFrom" value="3946293"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0006798"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0006798"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0006798"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000006798"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0006798-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21609" type="Person">
+			<semanticIdentifier>lattes::8160240443894065</semanticIdentifier>
+			<field name="identifier.lattes" value="8160240443894065"/>
+			<field name="name" value="Maria Leonor Sarno de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit16868" type="OrgUnit">
+			<semanticIdentifier>brcris::71c4a491da401f773e5a01d08d3f9e0e</semanticIdentifier>
+			<field name="name" value="FUNDACAO BUTANTAN"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31547" toEntityRef="Person21609" type="Inventor"/>
+		<relation fromEntityRef="Patent31547" toEntityRef="OrgUnit16868" type="Applicant"/>
+	</relations>
+</entity-relation-data>

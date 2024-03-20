@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:18" record="2516" source="Espacenet">
+	<entities>
+		<entity ref="Patent2516" type="Patent">
+			<semanticIdentifier>brcris::2272df4f2215270027a392f8f3de614a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016240A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016016240</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016240A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161016240</semanticIdentifier>
+			<semanticIdentifier>original::102016016240</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016016240"/>
+			<field name="identifier.lattes" value="4399842974860766"/>
+			<field name="identifier.espacenet" value="102016016240"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de modelamento de inovação tecnologica para planejamento e desenvolvimento regional"/>
+			<field name="title.lattes" value="MÉTODO DE MODELAMENTO DE INOVAÇÃO TECNOLOGICA PARA PLANEJAMENTO E DESENVOLVIMENTO REGIONAL"/>
+			<field name="depositDate" value="2016-07-13"/>
+			<field name="publicationDate" value="2018-02-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CAROLINA BRAGA"/>
+			<field name="inventor" value="JOSEANE PONTES"/>
+			<field name="inventor" value="LUIS MAURICIO MARTINS DE RESENDE"/>
+			<field name="inventor" value="PEDRO PAULO DE ANDRADE JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06Q50/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de modelamento de inovação tecnologica para planejamento e desenvolvimento regional. novo método de modelagem de inovação tecnológica que auxilia as empresas inseridas em clusters industriais a planejarem o desenvolvimento da região e a identificarem seus pontos fracos com relação às atividades de inovação. é baseado em indicadores de inovação, cooperação, promoção de políticas, geográfico e socioeconômico, nos quais as empresas devem se apoiar para praticar atividades de inovação tecnológica."/>
+			<field name="originatesFrom" value="62617414"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016240"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016016240"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016240"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161016240"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016016240"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1835" type="Person">
+			<semanticIdentifier>lattes::4399842974860766</semanticIdentifier>
+			<field name="identifier.lattes" value="4399842974860766"/>
+			<field name="name" value="Ana Carolina Braga"/>
+		</entity>
+		<entity ref="OrgUnit1438" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2516" toEntityRef="Person1835" type="Inventor"/>
+		<relation fromEntityRef="Patent2516" toEntityRef="OrgUnit1438" type="Applicant"/>
+	</relations>
+</entity-relation-data>

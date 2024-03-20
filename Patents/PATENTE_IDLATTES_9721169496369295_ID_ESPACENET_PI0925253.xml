@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:17" record="20967" source="Espacenet">
+	<entities>
+		<entity ref="Patent20967" type="Patent">
+			<semanticIdentifier>brcris::c689645a3157746f6e2ac726df1b2afd</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925253A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0925253</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925253A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI25253</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0925253</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0925253"/>
+			<field name="identifier.lattes" value="9721169496369295"/>
+			<field name="identifier.espacenet" value="PI0925253"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="coletor automático de coleta de amostra de água em corpos hídricos"/>
+			<field name="title.lattes" value="COLETOR AUTOMÁTICO DE COLETA DE AMOSTRA DE ÁGUA EM CORPOS HÍDRICOS"/>
+			<field name="depositDate" value="2009-12-21"/>
+			<field name="publicationDate" value="2016-01-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEAN OLIVEIRA DE PAIVA"/>
+			<field name="inventor" value="JEFFERSON DOOLAN FERNANDES"/>
+			<field name="inventor" value="LUCIO FLAVIO FERREIRA MOREIRA"/>
+			<field name="inventor" value="PABLO JAVIER ALSINA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N1/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="coletor automático de coleta de amostra de água em corpos hídricos. a patente de invenção diz respeito ao desenvolvimento de um equipamento automático destinado à coleta de amostras de água em corpos hídricos. esse tipo de equipamento é utilizando no monitoramento da água em diferentes tipos de sistemas hídricos. a automatização envolve a possibilidade de programação do equipamento de acordo com as necessidades do usuário. o equipamento dispõe de um sistema de controle automático, composto por uma interface homem-máquina e um módulo de controle. a interface homem-máquina utiliza um teclado de membrana e um mostrador de cristal líquido. o módulo de controle contém um microcontrolador que aciona os dispositivos capazes de realizar os procedimentos estabelicidos pelo usuário. a programação permite diferentes opções de amostragem, estabelecimento de horário e freqüência na coleta de amostras. o equipamento foi desenvolvido numa estrutura em acrílico, altura variando entre 0,60-090 m, diâmetro variando entre 0,30-050 m e é composto de três câmaras internas. o equipamento é composto de uma bomba peristáltica, bateria 12 v, sistema de distribuição de amostras com válvulas solenóides e de uma mangueira de sucção com crivo. além disso, funciona acoplado a um sensor ultra-sônico por meio de cabo elétrico, com o objetivo de medir e registrar dados do nível d'água no corpo hídrico. uma vez concluído o programa de amostragem, o equipamento produz um relatório contendo uma série de informações disponíveis ao usuário e que são transferidas a um pc."/>
+			<field name="originatesFrom" value="55083108"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925253"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0925253"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925253"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI25253"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0925253"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14518" type="Person">
+			<semanticIdentifier>lattes::9721169496369295</semanticIdentifier>
+			<field name="identifier.lattes" value="9721169496369295"/>
+			<field name="name" value="Jefferson Doolan Fernandes"/>
+		</entity>
+		<entity ref="OrgUnit11377" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20967" toEntityRef="Person14518" type="Inventor"/>
+		<relation fromEntityRef="Patent20967" toEntityRef="OrgUnit11377" type="Applicant"/>
+	</relations>
+</entity-relation-data>

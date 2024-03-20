@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:55" record="36146" source="Espacenet">
+	<entities>
+		<entity ref="Patent36146" type="Patent">
+			<semanticIdentifier>brcris::e05c06ea565ee54b4c93adfb41e214fe</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017014430U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202017014430U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017014430U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20172014430U</semanticIdentifier>
+			<semanticIdentifier>original::202017014430</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202017014430"/>
+			<field name="identifier.lattes" value="4636070134736820"/>
+			<field name="identifier.espacenet" value="202017014430"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="utilização do catalisador bifuncional pt/al-sba-15 na hidroisomerização de resíduos pesados provenientes da síntese de fischer-tropsch"/>
+			<field name="title.lattes" value="Instrumento para auxiliar no diagnóstico de disfunção temporomandibular e dor orofacial ? digiface"/>
+			<field name="depositDate" value="2017-07-03"/>
+			<field name="publicationDate" value="2019-01-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELCIANE REGINA ZANATTA"/>
+			<field name="inventor" value="MURILO PEREIRA MOISES"/>
+			<field name="inventor" value="PEDRO AUGUSTO ARROYO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J29/76AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="76AI"/>
+			</field>
+			<field name="abstract.espacenet" value="utilização do catalisador bifuncional pt/al-sba-15 na hidroisomerização de resíduos pesados provenientes da síntese de fischer-tropsch. este modelo de utilidade refere-se ao uso do catalisador bifuncional pt/al-sba-15, na reação de hidroisomerização dos resíduos pesados (n-c16) provenientes da síntese de fischer ? trospch. estes produtos isomerizados servem como base para lubrificantes de última geração e alto desempenho. o desenvolvimento experimental comprovou eficiência no processo de obtenção de isômeros mono-ramificados centrais a cadeia de n-parafinas com elevada seletividade. o catalisador apresentou uma seletividade relativa ao isômero 7-metil-pentadecano de 43%, permanecendo praticamente constante com o tempo de reação. o catalisador pt/al-sba-15 também apresenta uma seletividade pequena a produtos craqueados para baixas conversões, e desta forma maximiza produtos de alto valor agregado."/>
+			<field name="originatesFrom" value="65237882"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017014430"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202017014430U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017014430"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20172014430U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202017014430"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24858" type="Person">
+			<semanticIdentifier>lattes::4636070134736820</semanticIdentifier>
+			<field name="identifier.lattes" value="4636070134736820"/>
+			<field name="name" value="Pedro de Lemos Menezes"/>
+		</entity>
+		<entity ref="OrgUnit19506" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit19507" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36146" toEntityRef="Person24858" type="Inventor"/>
+		<relation fromEntityRef="Patent36146" toEntityRef="OrgUnit19506" type="Applicant"/>
+		<relation fromEntityRef="Patent36146" toEntityRef="OrgUnit19507" type="Applicant"/>
+	</relations>
+</entity-relation-data>

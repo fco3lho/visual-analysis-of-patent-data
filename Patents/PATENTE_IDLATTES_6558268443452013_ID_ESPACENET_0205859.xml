@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:05" record="7466" source="Espacenet">
+	<entities>
+		<entity ref="Patent7466" type="Patent">
+			<semanticIdentifier>brcris::78835e108101ade8f1a31876a92c88b7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205859A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0205859</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205859A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020205859</semanticIdentifier>
+			<semanticIdentifier>original::0205859-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0205859"/>
+			<field name="identifier.lattes" value="6558268443452013"/>
+			<field name="identifier.espacenet" value="0205859"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Reator eletrônico para lâmpadas fluorescentes tipo ho"/>
+			<field name="title.lattes" value="Reator eletrônico para lâmpadas fluorescentes tipo HO"/>
+			<field name="depositDate" value="2002-11-13"/>
+			<field name="publicationDate" value="2004-08-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS GABRIEL BIANCHIM"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA PARA O DESENVOLVIMENTO - LACTEC"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H05B41/282AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="282AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H05B41/285AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="285AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;REATOR ELETRôNICO PARA LâMPADAS FLUORESCENTES TIPO HO&quot;. Descreve-se a presente patente como um reator eletrônico que, de acordo com as suas características, possui como princípio a formação de um equipamento eletrônico destinado ao controle de lâmpadas fluorescentes tipo HO (A) que incorpora uma estrutura própria contendo customizado, integrado e disposto em uni invólucro como elemento de proteção do conjunto em ambientes internos e externos um circuito eletrônico (1) completo formado por um bloco de retificação e controle do fator de potência (2), um bloco de meia-ponte (3) e um bloco de pulsos de ignição (4), de modo a viabilizar um dispositivo de controle e acionamento de lâmpadas fluorescentes tipo HO (A) com capacidade de operação em qualquer ambiente e com a finalidade de comandar de uma lâmpada até um total de seis lâmpadas, flexível à necessidade da instalação, dependendo exclusivamente da soma das potências das lâmpadas fluorescentes tipo HO (A) a qual não poderá passar de trezentos e noventa watts."/>
+			<field name="originatesFrom" value="32777798"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205859"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0205859"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205859"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020205859"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0205859-6"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2004155599"/>
+		</entity>
+		<entity ref="Person5017" type="Person">
+			<semanticIdentifier>lattes::6558268443452013</semanticIdentifier>
+			<field name="identifier.lattes" value="6558268443452013"/>
+			<field name="name" value="Carlos Gabriel Bianchin"/>
+		</entity>
+		<entity ref="OrgUnit3968" type="OrgUnit">
+			<semanticIdentifier>brcris::3e5edf08296d2d87aabd96d42ccac2e0</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE TECNOLOGIA PARA O DESENVOLVIMENTO - LACTEC"/>
+		</entity>
+		<entity ref="Patent7467" type="Patent">
+			<semanticIdentifier>epodoc::US2004155599</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="32777798"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2004155599"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7466" toEntityRef="Person5017" type="Inventor"/>
+		<relation fromEntityRef="Patent7466" toEntityRef="OrgUnit3968" type="Applicant"/>
+	</relations>
+</entity-relation-data>

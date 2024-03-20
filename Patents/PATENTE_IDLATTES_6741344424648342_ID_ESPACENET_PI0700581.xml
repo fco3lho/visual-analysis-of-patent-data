@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:35" record="8188" source="Espacenet">
+	<entities>
+		<entity ref="Patent8188" type="Patent">
+			<semanticIdentifier>brcris::6051954b92c6d2b33e76e622f7e543b6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700581A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0700581</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700581A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI00581</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0700581-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0700581"/>
+			<field name="identifier.lattes" value="6741344424648342"/>
+			<field name="identifier.espacenet" value="PI0700581"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="titulador automático, processo de titulação e método de determinação do ìndice de bromo e número de bromo em hidrocarbonetos"/>
+			<field name="title.lattes" value="Titulador automático, processo de titulação e método de determinação do índice de bromo e número de bromo em hidrocarbonetos"/>
+			<field name="depositDate" value="2007-02-05"/>
+			<field name="publicationDate" value="2008-09-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELIO PASQUINI"/>
+			<field name="inventor" value="MARCIO DAS VIRGENS REBOUCAS"/>
+			<field name="inventor" value="MARCIO DAS VIRGENS REBOUCAS"/>
+			<field name="applicant" value="BRASKEM S.A"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N31/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01L3/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="TITULADOR AUTOMáTICO, PROCESSO DE TITULAçãO E MéTODO DE DETERMINAçãO DO ìNDICE DE BROMO E NúMERO DE BROMO EM HIDROCARBONETOS. A presente invenção se refere a um titulador automático para utilização na amostragem, transferência de quantidades de líquidos de forma precisa e exata e determinação de constituintes químicos presentes na amostra por meio do processo titulométrico, compreendendo um dispositivo de introdução de amostra (1), uma válvula de três vias (7), uma célula de titulação (9), uma válvula de três vias (11) e um módulo de adição volumétrica (14), referido dispositivo de introdução de amostras (1) compreendendo uma alça de amostragem (2), uma chave óptica (16), um interruptor de chave óptica (17), um tubo de bombeio (18), um tubo de aspiração (19) e uma porção central (20). Ainda de acordo com a presente invenção, é provido um processo de titulação utilizando o titulador automático antes mencionado. Outro objetivo da presente invenção diz respeito a método de determinação do índice de bromo e número de bromo em hidrocarbonetos."/>
+			<field name="originatesFrom" value="39765123"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700581"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0700581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700581"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI00581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0700581-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5585" type="Person">
+			<semanticIdentifier>lattes::6741344424648342</semanticIdentifier>
+			<field name="identifier.lattes" value="6741344424648342"/>
+			<field name="name" value="Celio Pasquini"/>
+		</entity>
+		<entity ref="OrgUnit4413" type="OrgUnit">
+			<semanticIdentifier>brcris::0dbbd2641b08c703b37ba584cb8d9c81</semanticIdentifier>
+			<field name="name" value="BRASKEM S.A"/>
+		</entity>
+		<entity ref="OrgUnit4414" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8188" toEntityRef="Person5585" type="Inventor"/>
+		<relation fromEntityRef="Patent8188" toEntityRef="OrgUnit4413" type="Applicant"/>
+		<relation fromEntityRef="Patent8188" toEntityRef="OrgUnit4414" type="Applicant"/>
+	</relations>
+</entity-relation-data>

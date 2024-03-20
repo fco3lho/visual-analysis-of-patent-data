@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:26" record="12753" source="Espacenet">
+	<entities>
+		<entity ref="Patent12753" type="Patent">
+			<semanticIdentifier>brcris::66232814f242612e66244ce1942b6d03</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925423B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0925423</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925423A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI25423</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0925423</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0925423"/>
+			<field name="identifier.lattes" value="2132307633780425"/>
+			<field name="identifier.espacenet" value="PI0925423"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="massas cerâmicas para pisos e revestimentos com adição de cinzas da casca do café"/>
+			<field name="title.lattes" value="MASSAS CERÂMICAS PARA PISOS E REVESTIMENTOS COM ADIÇÃO DE CINZAS DA CASCA DO CAFÉ"/>
+			<field name="depositDate" value="2009-09-11"/>
+			<field name="publicationDate" value="2019-01-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO JORGE VIDAL DULTRA"/>
+			<field name="inventor" value="WILSON ACCHAR"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DA BAHIA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA BAHIA - IFBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B33/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C04B33/135AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="135AI"/>
+			</field>
+			<field name="abstract.espacenet" value="adição de cinzas da casca do café em massas cerâmicas para pisos e revestimentos. refere-se a fabricação de placas cerâmicas para pisos e revestimentos com adição de cinzas da casca de café como matéria prima fundente na formulação, com variadas proporções de argilas e caulins, sendo que as cinzas de café são resíduo obtidos no próprio beneficiamento do café (das espécies arábica e robusta) quando as cascas são utilizadas como combustível em fornos de secagem; e que os revestimentos cerâmicos obtidos têm absorção de água entre 0,14 e 12,74%, onde se enquadram na classificação desde o grês porcelanato, com absorção abaixo de 0,5% até porosos, com absorção acima de 10%, e valores de resistência mecânica à flexão entre 19,41 e 40,77 mpa, onde para o grês porcelanato a resistência mínima exigida por norma é de 35 mpa."/>
+			<field name="originatesFrom" value="65256120"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925423"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0925423"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925423"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI25423"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0925423"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8736" type="Person">
+			<semanticIdentifier>lattes::2132307633780425</semanticIdentifier>
+			<field name="identifier.lattes" value="2132307633780425"/>
+			<field name="name" value="Eduardo Jorge Vidal Dultra"/>
+		</entity>
+		<entity ref="OrgUnit6874" type="OrgUnit">
+			<semanticIdentifier>brcris::7314c8b9a19d67f9091bd43cb097e01d</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DA BAHIA"/>
+		</entity>
+		<entity ref="OrgUnit6875" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12753" toEntityRef="Person8736" type="Inventor"/>
+		<relation fromEntityRef="Patent12753" toEntityRef="OrgUnit6874" type="Applicant"/>
+		<relation fromEntityRef="Patent12753" toEntityRef="OrgUnit6875" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:17" record="5265" source="Espacenet">
+	<entities>
+		<entity ref="Patent5265" type="Patent">
+			<semanticIdentifier>brcris::85974cd64abe8f4cd59627e9db1465c7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603857A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0603857</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603857A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI03857</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0603857-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0603857"/>
+			<field name="identifier.lattes" value="9414170256553383"/>
+			<field name="identifier.espacenet" value="PI0603857"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para transesterificação de óleos vegetais e gorduras animais, catalisado por base forte modificada para produção de ésteres alquìlicos"/>
+			<field name="title.lattes" value="PROCESSO PARA TRANSESTERIFICAÇÃO DE ÓLEOS VEGETAIS E GORDURAS ANIMAIS, CATALISADO POR BASE FORTE MODIFICADA PARA PRODUÇÃO DE ÉSTERES ALQUÍLICOS"/>
+			<field name="depositDate" value="2006-06-14"/>
+			<field name="publicationDate" value="2008-01-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO JOSE DA SILVA MACIEL"/>
+			<field name="inventor" value="OSVALDO CANDIDO LOPES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C11C3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA TRANSESTERIFICAçãO DE óLEOS VEGETAIS E GORDURAS ANIMAIS, CATALISADO POR BASE FORTE MODIFICADA PARA PRODUçãO DE éSTERES ALQUìLICOS A presente invenção compreende a produção de ésteres alquílicos, tal como o Biodiesel, a partir de quaisquer óleos vegetais ou gordura animal, nas rotas metílicas ou etílicas, catalisada por base forte modificada, tanto na fase homogênea, onde se obtém um elevado rendimento, na reação de transesterificação, promovendo a decantação espontânea da glicerina. Após retirada do álcool em excesso do meio reacional, a neutralização do catalisador e sua purificação, obtém-se os ésteres (biodiesel) com pureza superior a 99%. Os catalisadores da presente invenção permitem tanto o processo em batelada, quanto contínuo, onde se pode utilizar toda a engenharia das plantas industriais que já operam com Metanol para operar na rota etílica. Os catalisadores na fase heterogênea, simplificam o processo, pois não contaminam os produtos, não necessitando as etapas de neutralização e purificação dos ésteres alquílicos, e não são consumidos durante o processo de transesterificação."/>
+			<field name="originatesFrom" value="38831339"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603857"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0603857"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603857"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI03857"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0603857-3"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2007143803"/>
+		</entity>
+		<entity ref="Person3427" type="Person">
+			<semanticIdentifier>lattes::9414170256553383</semanticIdentifier>
+			<field name="identifier.lattes" value="9414170256553383"/>
+			<field name="name" value="Antonio Jose da Silva Maciel"/>
+		</entity>
+		<entity ref="OrgUnit2706" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent5266" type="Patent">
+			<semanticIdentifier>epodoc::WO2007143803</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="38831339"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2007143803"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5265" toEntityRef="Person3427" type="Inventor"/>
+		<relation fromEntityRef="Patent5265" toEntityRef="OrgUnit2706" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:14" record="16728" source="Espacenet">
+	<entities>
+		<entity ref="Patent16728" type="Patent">
+			<semanticIdentifier>brcris::65d04140eea89bc47dbef6a0d186c18e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705778A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705778</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705778A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05778</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705778-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705778"/>
+			<field name="identifier.lattes" value="6281228206580194"/>
+			<field name="identifier.espacenet" value="PI0705778"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produÇço de farinha proveniente da banana verde"/>
+			<field name="title.lattes" value="Processo de produção de farinha proveniente da banana verde"/>
+			<field name="depositDate" value="2007-07-12"/>
+			<field name="publicationDate" value="2009-03-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARMEN CECILIA TADINI"/>
+			<field name="inventor" value="ELIZABETE WENZEL DE MENEZES"/>
+			<field name="inventor" value="FRANCO MARIA LAJOLO"/>
+			<field name="inventor" value="TATIANA BEATRIS TRIBESS"/>
+			<field name="inventor" value="TATIANA BEATRIS TRIBESS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A21D2/36AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A23L19/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PRODUÇçO DE FARINHA PROVENIENTE DA BANANA VERDE. Compreendendo as etapas de: caracterização do estágio de maturação (1); lavagem das bananas (2) para a retirada de detritos das cascas; descascamento por processo térmico brando ou manualmente (3); pré-tratamento 1 (4), fatiamento das bananas descascadas (5); pré-tratamento 11(6); secagem (7) das fatias em secador com convecção forçada de ar; moagem (8) em moinho de bolas ou de facas, tamização (9) em peneiras com malha maior do que 28 mesh."/>
+			<field name="originatesFrom" value="40601295"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705778"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705778"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705778"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05778"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705778-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11643" type="Person">
+			<semanticIdentifier>lattes::6281228206580194</semanticIdentifier>
+			<field name="identifier.lattes" value="6281228206580194"/>
+			<field name="name" value="Franco Maria Lajolo"/>
+		</entity>
+		<entity ref="OrgUnit9128" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit9129" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16728" toEntityRef="Person11643" type="Inventor"/>
+		<relation fromEntityRef="Patent16728" toEntityRef="OrgUnit9128" type="Applicant"/>
+		<relation fromEntityRef="Patent16728" toEntityRef="OrgUnit9129" type="Applicant"/>
+	</relations>
+</entity-relation-data>

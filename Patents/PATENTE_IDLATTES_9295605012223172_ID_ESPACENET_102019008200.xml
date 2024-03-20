@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:36" record="21132" source="Espacenet">
+	<entities>
+		<entity ref="Patent21132" type="Patent">
+			<semanticIdentifier>brcris::aaadc6fcfa66106d7f32eddf820c66de</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019008200A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019008200</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019008200A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191008200</semanticIdentifier>
+			<semanticIdentifier>original::102019008200</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019008200"/>
+			<field name="identifier.lattes" value="9295605012223172"/>
+			<field name="identifier.espacenet" value="102019008200"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de detecção da saturação do núcleo de transformador de corrente por meio de filtragem adaptativa"/>
+			<field name="title.lattes" value="Processo de obtenção da composição de hidrogel, composição de hidrogel e uso da composição de hidrogel"/>
+			<field name="depositDate" value="2019-04-23"/>
+			<field name="publicationDate" value="2020-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMANDA LOUISE SCHLINGMANN"/>
+			<field name="inventor" value="FABIO LUIS PEREZ"/>
+			<field name="inventor" value="JOAO LUIZ ALTENBURG"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE REGIONAL DE BLUMENAU"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R35/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02H1/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02M1/40AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de detecção da saturação do núcleo de transformador de corrente por meio de filtragem adaptativa a presente patente de invenção consiste em um método de detecção de saturação em transformadores de corrente utilizando filtragem adaptativa o processo é aplicado aos sistemas de potência, principalmente relacionados à proteção de sistemas elétricos a partir de relés de proteção digitais. o método faz uso do valor do erro quadrático obtido através de um filtro adaptativo, utilizando para isso o sinal de corrente no secundário do transformador e um sinal de referência construído a partir da própria corrente do secundário."/>
+			<field name="originatesFrom" value="73135998"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019008200"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019008200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019008200"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191008200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019008200"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14657" type="Person">
+			<semanticIdentifier>lattes::9295605012223172</semanticIdentifier>
+			<field name="identifier.lattes" value="9295605012223172"/>
+			<field name="name" value="Jhones Luiz de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit11513" type="OrgUnit">
+			<semanticIdentifier>brcris::702b940adde6df5830e4e06f077f596a</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE REGIONAL DE BLUMENAU"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21132" toEntityRef="Person14657" type="Inventor"/>
+		<relation fromEntityRef="Patent21132" toEntityRef="OrgUnit11513" type="Applicant"/>
+	</relations>
+</entity-relation-data>

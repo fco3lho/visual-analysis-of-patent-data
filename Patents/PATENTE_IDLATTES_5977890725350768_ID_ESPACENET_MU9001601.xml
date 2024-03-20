@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:34" record="23902" source="Espacenet">
+	<entities>
+		<entity ref="Patent23902" type="Patent">
+			<semanticIdentifier>brcris::3da3025d6ab0d27bd597c57e7f60bd2b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9001601U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9001601U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9001601U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1990MU01601U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 9001601-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9001601"/>
+			<field name="identifier.lattes" value="5977890725350768"/>
+			<field name="identifier.espacenet" value="MU9001601"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="estaca escavada a seco com anéis e consolidação da ponta"/>
+			<field name="title.lattes" value="Estaca Escavada a Seco com Anéis e Consolidação da Ponta"/>
+			<field name="depositDate" value="2010-08-06"/>
+			<field name="publicationDate" value="2012-12-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL GALINDO MARQUES"/>
+			<field name="applicant" value="AGM GEOTECNICA LTDA"/>
+			<field name="applicant" value="AGM GEOTECNICA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E02D5/22AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ESTACA ESCAVADA A SECO COM ANéIS E CONSOLIDAçãO DA PONTA, pertencente ao campo da construção civil, constituída de um ponteiro (1) que vai ser acoplado à borda do trado cavador helicoidal (2), cuja instalação é muito económica e poderá ser colocado em diversas alturas do helicóide (2), possibilitando inclusive a utilização de mais peças para realizar diversos anéis no buraco da estaca. O presente invento foi idealizado para baratear a fabricação de estacas utilizadas na construção de edifícios, pois, com a utilização dos anéis (4), possuirão maior capacidade de carga e não terão que ser tão profundas."/>
+			<field name="originatesFrom" value="47351311"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9001601"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9001601U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9001601"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1990MU01601U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 9001601-7"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU9001601Y"/>
+		</entity>
+		<entity ref="Person16641" type="Person">
+			<semanticIdentifier>lattes::5977890725350768</semanticIdentifier>
+			<field name="identifier.lattes" value="5977890725350768"/>
+			<field name="name" value="Juliane Andréia Figueiredo Marques"/>
+		</entity>
+		<entity ref="OrgUnit12916" type="OrgUnit">
+			<semanticIdentifier>brcris::a1e9f86ecf17329333d37b6381589215</semanticIdentifier>
+			<field name="name" value="AGM GEOTECNICA LTDA"/>
+		</entity>
+		<entity ref="OrgUnit12917" type="OrgUnit">
+			<semanticIdentifier>brcris::fd6a32c3efd71cc955cddca47f05e54e</semanticIdentifier>
+			<field name="name" value="AGM GEOTECNICA LTDA"/>
+		</entity>
+		<entity ref="Patent23903" type="Patent">
+			<semanticIdentifier>epodoc::BRMU9001601Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="47351311"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9001601Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23902" toEntityRef="Person16641" type="Inventor"/>
+		<relation fromEntityRef="Patent23902" toEntityRef="OrgUnit12916" type="Applicant"/>
+		<relation fromEntityRef="Patent23902" toEntityRef="OrgUnit12917" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:35" record="36564" source="Espacenet">
+	<entities>
+		<entity ref="Patent36564" type="Patent">
+			<semanticIdentifier>brcris::aaf21f4707276e1618cb8cea106d43c7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002905A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1002905</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002905A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI02905</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1002905-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1002905"/>
+			<field name="identifier.lattes" value="7052201259361634"/>
+			<field name="identifier.espacenet" value="PI1002905"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de quantificação de vitamina c em morangos"/>
+			<field name="title.lattes" value="Metodologia para quantificação da vitamina C."/>
+			<field name="depositDate" value="2010-08-23"/>
+			<field name="publicationDate" value="2012-07-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADELIR APARECIDA ZACZK"/>
+			<field name="inventor" value="CELESTE MARIA PATTO DE ABREU"/>
+			<field name="inventor" value="POLYANNA ALVES SILVA PORTO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/33AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="33AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N30/36AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE QUANTIFICAçãO DE VITAMINA C EM MORANGOS A presente invenção desenvolveu uma metodologia para quantificar a vitamina C por Cromatografia Líquida de Alta Eficiência (HPLC) utilizando coluna e pré-coluna de fase reversa (250 x 4,6 mm; 5pMID). 100% de um tampão pH 6,67, contendo acetato de sódio 0,04 mol.L1, EDTA ácido 0,05 mol.L1, fosfato de tetrabutilamónio 0,5 mol.L1, (1:1:1) como fase móvel, modo isocrático, fluxo 0,6 mL mm 1 e o detector UV, no comprimento de onda de 254 nm. A metodologia desenvolvida apresentou boa resolução entre os picos, a precisão do método foi de 95 a 100%, utilizou como fase móvel soluções aquosas bastante diluídas com pH 6,67, reagentes de baixa periculosidade, em temperatura ambiente (25&lt;198&gt;C) e também otimizou o tempo de análise."/>
+			<field name="originatesFrom" value="46420618"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002905"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1002905"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002905"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI02905"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1002905-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25164" type="Person">
+			<semanticIdentifier>lattes::7052201259361634</semanticIdentifier>
+			<field name="identifier.lattes" value="7052201259361634"/>
+			<field name="name" value="Polyanna Alves Silva"/>
+		</entity>
+		<entity ref="OrgUnit19746" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36564" toEntityRef="Person25164" type="Inventor"/>
+		<relation fromEntityRef="Patent36564" toEntityRef="OrgUnit19746" type="Applicant"/>
+	</relations>
+</entity-relation-data>

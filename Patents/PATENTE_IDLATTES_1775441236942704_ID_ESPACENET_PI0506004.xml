@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:30" record="15879" source="Espacenet">
+	<entities>
+		<entity ref="Patent15879" type="Patent">
+			<semanticIdentifier>brcris::89a9029b70d218aea3fe6ab0fca88b3f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0506004A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0506004</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0506004A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI06004</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0506004-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0506004"/>
+			<field name="identifier.lattes" value="1775441236942704"/>
+			<field name="identifier.espacenet" value="PI0506004"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="substáncia aditiva para tintas"/>
+			<field name="title.lattes" value="Substância Aditiva para Tintas"/>
+			<field name="depositDate" value="2005-07-01"/>
+			<field name="publicationDate" value="2007-10-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO SOARES LAMEIRAS"/>
+			<field name="inventor" value="JOSE MARIA LEAL"/>
+			<field name="inventor" value="OTAVIO ROCHA LIZ"/>
+			<field name="inventor" value="VALERIA ALVES RODRIGUES DE MELO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09D5/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09D7/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Substância Aditiva para Tintas, Substância a partir de partículas de turmalina que formam o pó de turmalina usado como aditivo para tintas, empregado como inibidor do crescimento de musgos e liquens e tintas que contém pó de turmalina com a propósito de inibição do crescimento de musgos e liquens."/>
+			<field name="originatesFrom" value="38577234"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0506004"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0506004"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0506004"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI06004"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0506004-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11006" type="Person">
+			<semanticIdentifier>lattes::1775441236942704</semanticIdentifier>
+			<field name="identifier.lattes" value="1775441236942704"/>
+			<field name="name" value="Fernando Soares Lameiras"/>
+		</entity>
+		<entity ref="OrgUnit8603" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15879" toEntityRef="Person11006" type="Inventor"/>
+		<relation fromEntityRef="Patent15879" toEntityRef="OrgUnit8603" type="Applicant"/>
+	</relations>
+</entity-relation-data>

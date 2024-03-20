@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:03" record="41900" source="Espacenet">
+	<entities>
+		<entity ref="Patent41900" type="Patent">
+			<semanticIdentifier>brcris::4de2867a2d59a4157c6258f780c69bfe</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015023180A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015023180</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015023180A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151023180</semanticIdentifier>
+			<semanticIdentifier>original::102015023180</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015023180"/>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="identifier.espacenet" value="102015023180"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor capacitivo para identificação de composição de combustível para motores automotivos flex à combustão interna."/>
+			<field name="title.lattes" value="SENSOR CAPACITIVO PARA IDENTIFICAÇÃO DE COMPOSIÇÃO DE COMBUSTÍVEL PARA MOTORES AUTOMOTIVOS FLEX À COMBUSTÃO INTERNA"/>
+			<field name="depositDate" value="2015-09-14"/>
+			<field name="publicationDate" value="2017-03-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ERICKSON DIOGO PEREIRA PUCHTA"/>
+			<field name="inventor" value="SERGIO LUIZ STEVAN JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F02D41/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;sensor capacitivo para identificação de composição de combustível para motores automotivos flex à combustão interna&quot; sensor capacitivo baseado em cilindros concêntricos, destinado à determinação do tipo de combustível (etanol ou gasolina) ou da proporção de sua mistura, capaz de identificar o tipo de fluido (combustível) em seu interior, de modo dinâmico e contínuo. apresenta um elemento separador, responsável pela fixação em rosca e contra-rosca dos elementos do sensor, e um sensor de temperatura. o combustível flui do interior do cilindro interno por orifícios na parte inicial do sensor que enchem a cavidade entre ele e o cilindro externo até sair pelo outro lado, em uma cavidade formada a partir do final do cilindro externo. possui um circuito de condicionamento de sinais para adequar os sinais dos dois sensores e entregá-lo a um processador que trata o sinal e transmite-o via protocolo de rede de comunicação de dados automotiva para a central eletrônica de injeção, informando o tipo de combustível ou mistura sendo entregue ao motor."/>
+			<field name="originatesFrom" value="58343324"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015023180"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015023180"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015023180"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151023180"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015023180"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28548" type="Person">
+			<semanticIdentifier>lattes::1661935150054196</semanticIdentifier>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="name" value="Sergio Luiz Stevan Junior"/>
+		</entity>
+		<entity ref="OrgUnit22336" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41900" toEntityRef="Person28548" type="Inventor"/>
+		<relation fromEntityRef="Patent41900" toEntityRef="OrgUnit22336" type="Applicant"/>
+	</relations>
+</entity-relation-data>

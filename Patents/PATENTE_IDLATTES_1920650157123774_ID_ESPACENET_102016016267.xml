@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:15" record="1292" source="Espacenet">
+	<entities>
+		<entity ref="Patent1292" type="Patent">
+			<semanticIdentifier>brcris::ac2bc3c44009926b80be948704b79a86</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016267A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016016267</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016267A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161016267</semanticIdentifier>
+			<semanticIdentifier>original::102016016267</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016016267"/>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="identifier.espacenet" value="102016016267"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para diagnóstico de falhas em máquinas elétricas rotativas"/>
+			<field name="title.lattes" value="SISTEMA PARA DIAGNÓSTICO DE FALHAS EM MÁQUINAS ELÉTRICAS ROTATIVAS"/>
+			<field name="depositDate" value="2016-07-13"/>
+			<field name="publicationDate" value="2018-02-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO GOEDTEL"/>
+			<field name="inventor" value="TIAGO DRUMMOND LOPES"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/34AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para diagnóstico de falhas em máquinas elétricas rotativas . este pedido descreve um equipamento utilizado para a detecção e o diagnóstico de faltas e falhas de curto-circuito em enrolamentos de estator, barras quebradas de rotor e desgaste excessivo de rolamentos de máquinas elétricas, sendo os sinais de corrente de cada fase sensoriados que permitem determinar o estado do motor: sem falha, falha de rolamento, falha de estator ou falha de rotor."/>
+			<field name="originatesFrom" value="62617404"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016267"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016016267"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016267"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161016267"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016016267"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person963" type="Person">
+			<semanticIdentifier>lattes::1920650157123774</semanticIdentifier>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="name" value="Alessandro Goedtel"/>
+		</entity>
+		<entity ref="OrgUnit761" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1292" toEntityRef="Person963" type="Inventor"/>
+		<relation fromEntityRef="Patent1292" toEntityRef="OrgUnit761" type="Applicant"/>
+	</relations>
+</entity-relation-data>

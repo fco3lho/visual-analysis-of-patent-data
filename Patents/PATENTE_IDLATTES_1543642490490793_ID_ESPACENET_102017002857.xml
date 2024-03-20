@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:10" record="12561" source="Espacenet">
+	<entities>
+		<entity ref="Patent12561" type="Patent">
+			<semanticIdentifier>brcris::3acc4a2eef3bb12312ae2d59b309cdf8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017002857A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017002857</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017002857A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171002857</semanticIdentifier>
+			<semanticIdentifier>original::102017002857</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017002857"/>
+			<field name="identifier.lattes" value="1543642490490793"/>
+			<field name="identifier.espacenet" value="102017002857"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de comunicação para surdocegos utilizando ferrogel como transdutor tátil"/>
+			<field name="title.lattes" value="DISPOSITIVO DE COMUNICAÇÃO PARA SURDOCEGOS UTILIZANDO FERROGEL COMO TRANSDUTOR TÁTIL"/>
+			<field name="depositDate" value="2017-02-13"/>
+			<field name="publicationDate" value="2018-10-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO BENTO PEREIRA"/>
+			<field name="inventor" value="JOAO RICARDO DA SILVA"/>
+			<field name="inventor" value="LUAN PASCOAL DA COSTA ANDRADE"/>
+			<field name="inventor" value="MARCUS TULIO RIBEIRO DE LIMA"/>
+			<field name="inventor" value="RODOLFO ANTONIO RIBEIRO DE MOURA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/543AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="543AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N35/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G05B1/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aparelho conversor de texto, áudio e imagens em interações táteis como o código lorm e outros alfabetos manuais, por meio da deformação do ferrogel sobre a mão do surdocego. um campo magnético modulado controla o ferrogel de tal forma a simular interações de profundidade e relevo presente nas imagens. o dispositivo também é capaz de traduzir textos e áudios em uma linguagem tátil."/>
+			<field name="originatesFrom" value="63855375"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017002857"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017002857"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017002857"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171002857"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017002857"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8611" type="Person">
+			<semanticIdentifier>lattes::1543642490490793</semanticIdentifier>
+			<field name="identifier.lattes" value="1543642490490793"/>
+			<field name="name" value="Eduardo Bento Pereira"/>
+		</entity>
+		<entity ref="OrgUnit6790" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12561" toEntityRef="Person8611" type="Inventor"/>
+		<relation fromEntityRef="Patent12561" toEntityRef="OrgUnit6790" type="Applicant"/>
+	</relations>
+</entity-relation-data>

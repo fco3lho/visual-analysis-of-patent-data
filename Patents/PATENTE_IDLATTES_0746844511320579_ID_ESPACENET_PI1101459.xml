@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:21" record="24847" source="Espacenet">
+	<entities>
+		<entity ref="Patent24847" type="Patent">
+			<semanticIdentifier>brcris::647b2d5e3eba2ca9cfc53fd24937f829</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101459A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1101459</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101459A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI01459</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1101459</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1101459"/>
+			<field name="identifier.lattes" value="0746844511320579"/>
+			<field name="identifier.espacenet" value="PI1101459"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de acesso com segundo fator de autenticação para transações financeiras e comércio eletrônico"/>
+			<field name="title.lattes" value="Sistema de Acesso com Segundo Fator de Autenticação para Transações Financeiras e Comércio Eletrônico"/>
+			<field name="depositDate" value="2011-04-01"/>
+			<field name="publicationDate" value="2016-05-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BERNARDO MACHADO DAVID"/>
+			<field name="inventor" value="DINO MACEDO AMARAL"/>
+			<field name="inventor" value="FABIO LUCIO LOPES DE MENDONCA"/>
+			<field name="inventor" value="LAERTE PEOTTA DE MELO"/>
+			<field name="inventor" value="MAYANA WANDERLEY PEREIRA"/>
+			<field name="applicant" value="BERNARDO MACHADO DAVID"/>
+			<field name="applicant" value="DINO MACEDO AMARAL"/>
+			<field name="applicant" value="FABIO LUCIO LOPES DE MENDONCA"/>
+			<field name="applicant" value="LAERTE PEOTTA DE MELO"/>
+			<field name="applicant" value="MAYANA WANDERLEY PEREIRA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G07F19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q20/40AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de acesso com segundo fator de autenticaçao para transaooes financeiras e comércio eletrônico a presente patente refere-se a um sistema de autenticação e autorização de transações financeiras através do processamento de mensagens trocadas entre a instituição financeira e (j usuário final. no sistema proposto nesta patente, a instituição financeira, ao receber uma solicitação de transação, cifra lmi código verificador, que e gerado para esta transação e assina o conteúdo da transação. estas informações são recebidas apelo 'usuário final, que tendo em seu jpoder as chaves criptográficas, que foram geradas pela instituição financeira e enviadas de modo seguro para o mesmo, poderá averiguar a autenticidade da assinatura e decifrar o conteúdo ck) código verificador. para obter 21 confirmação da transação, ca usuário final deverá fornecer o código verificador para a instituição financeira"/>
+			<field name="originatesFrom" value="55854423"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101459"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1101459"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101459"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI01459"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1101459"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17245" type="Person">
+			<semanticIdentifier>lattes::0746844511320579</semanticIdentifier>
+			<field name="identifier.lattes" value="0746844511320579"/>
+			<field name="name" value="Laerte Peotta de Melo"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24847" toEntityRef="Person17245" type="Inventor"/>
+		<relation fromEntityRef="Patent24847" toEntityRef="Person17245" type="Depositor"/>
+	</relations>
+</entity-relation-data>

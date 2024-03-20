@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:17" record="23784" source="Espacenet">
+	<entities>
+		<entity ref="Patent23784" type="Patent">
+			<semanticIdentifier>brcris::b902d478134fecb8392eaf46d8b84f36</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019025868U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019025868U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019025868U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192025868U</semanticIdentifier>
+			<semanticIdentifier>original::202019025868</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019025868"/>
+			<field name="identifier.lattes" value="7148964803818935"/>
+			<field name="identifier.espacenet" value="202019025868"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="dispositivo para uso sobre plataforma de biorreator de ondas"/>
+			<field name="title.lattes" value="DISPOSITIVO PARA USO SOBRE PLATAFORMA DE BIORREATOR DE ONDAS"/>
+			<field name="depositDate" value="2019-12-06"/>
+			<field name="publicationDate" value="2021-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO ALBERTO TORRES SUAZO"/>
+			<field name="inventor" value="JULIANA DE SA DA SILVA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01F11/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo para uso sobre plataforma de biorreator de ondas. dispositivo para uso sobre plataforma de biorreator de ondas cujo objetivo é modificar o formato do dispositivo descartável e, assim, alterar o escoamento do fluido contido no dispositivo descartável. tal alteração de escoamento do fluido é feita através da elevação das laterais - verticalização - do dispositivo descartável através do suporte. a alteração no formato do dispositivo descartável, através do uso do suporte, inibe a formação de depósitos tipo duna, o que viabiliza o emprego do biorreator de ondas em bioprocessos como, por exemplo, o cultivo de células-tronco."/>
+			<field name="originatesFrom" value="76862689"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019025868"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019025868U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019025868"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192025868U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019025868"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16532" type="Person">
+			<semanticIdentifier>lattes::7148964803818935</semanticIdentifier>
+			<field name="identifier.lattes" value="7148964803818935"/>
+			<field name="name" value="Juliana de Sá da Silva"/>
+		</entity>
+		<entity ref="OrgUnit12812" type="OrgUnit">
+			<semanticIdentifier>brcris::01bf8bb8899ab63c21b33a5e3d56f51c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23784" toEntityRef="Person16532" type="Inventor"/>
+		<relation fromEntityRef="Patent23784" toEntityRef="OrgUnit12812" type="Applicant"/>
+	</relations>
+</entity-relation-data>

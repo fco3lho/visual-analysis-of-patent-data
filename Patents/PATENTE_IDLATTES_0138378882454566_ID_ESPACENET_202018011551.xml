@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:28" record="30020" source="Espacenet">
+	<entities>
+		<entity ref="Patent30020" type="Patent">
+			<semanticIdentifier>brcris::80bc94094bbf8addbf6bc86fc92af781</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018011551U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202018011551U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018011551U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20182011551U</semanticIdentifier>
+			<semanticIdentifier>original::202018011551</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202018011551"/>
+			<field name="identifier.lattes" value="0138378882454566"/>
+			<field name="identifier.espacenet" value="202018011551"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="fibra óptica capilar com núcleo embutido"/>
+			<field name="title.lattes" value="Fibra Óptica Capilar com Núcleo Embutido"/>
+			<field name="depositDate" value="2018-06-07"/>
+			<field name="publicationDate" value="2019-12-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANO MONTEIRO DE BARROS CORDEIRO"/>
+			<field name="inventor" value="JONAS HENRIQUE OSORIO"/>
+			<field name="inventor" value="MARCOS ANTONIO RUGGIERI FRANCO"/>
+			<field name="applicant" value="INSTITUTO DE ESTUDOS AVANCADOS - IEAV"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="fibra óptica capilar com núcleo embutido. a presente patente de modelo de utilidade se insere na área de física, mais precisamente relacionado a um projeto de fibras ópticas microestruturadas com um núcleo de material dopante, apresentando alta sensibilidade à pressão. a fibra ótica em questão compreende uma fibra capilar com núcleo embutido, sendo que o núcleo da fibra é colocado no interior da parede da fibra capilar visando aumento da sensibilidade a variações de pressão. preferencialmente, o núcleo de material dopante é um núcleo de germânio, dada a facilidade de acesso. tais fibras óticas fabricadas de acordo com a geometria em questão são especialmente adaptadas para a aplicação em sensores de pressão."/>
+			<field name="originatesFrom" value="69054506"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018011551"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202018011551U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018011551"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20182011551U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202018011551"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20625" type="Person">
+			<semanticIdentifier>lattes::0138378882454566</semanticIdentifier>
+			<field name="identifier.lattes" value="0138378882454566"/>
+			<field name="name" value="Marcos Antonio Ruggieri Franco"/>
+		</entity>
+		<entity ref="OrgUnit16137" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30020" toEntityRef="Person20625" type="Inventor"/>
+		<relation fromEntityRef="Patent30020" toEntityRef="OrgUnit16137" type="Applicant"/>
+	</relations>
+</entity-relation-data>

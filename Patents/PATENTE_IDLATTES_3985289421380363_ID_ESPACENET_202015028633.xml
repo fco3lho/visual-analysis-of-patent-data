@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:45" record="32382" source="Espacenet">
+	<entities>
+		<entity ref="Patent32382" type="Patent">
+			<semanticIdentifier>brcris::3bed66366ee74690352bd7ab6af9ec21</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015028633U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015028633U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015028633U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152028633U</semanticIdentifier>
+			<semanticIdentifier>original::202015028633</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015028633"/>
+			<field name="identifier.lattes" value="3985289421380363"/>
+			<field name="identifier.espacenet" value="202015028633"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="aperfeiçoamento introduzido em máquina selecionadora de frutas"/>
+			<field name="title.lattes" value="APERFEIÇOAMENTO INTRODUZIDO EM MÁQUINA SELECIONADORA DE FRUTAS"/>
+			<field name="depositDate" value="2015-11-13"/>
+			<field name="publicationDate" value="2017-05-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO KESKE"/>
+			<field name="inventor" value="FABRICIO CAMPOS MASIERO"/>
+			<field name="inventor" value="FILIPE HAMM"/>
+			<field name="inventor" value="JHEFFERSON SCHEIDT"/>
+			<field name="inventor" value="JUCLEI VENTURI"/>
+			<field name="inventor" value="MARLON GOEDE"/>
+			<field name="inventor" value="RICARDO KOZOROSKI VEIGA"/>
+			<field name="inventor" value="SAMUEL HENRIQUE WERLICH"/>
+			<field name="inventor" value="VIGAND HAMM"/>
+			<field name="inventor" value="WILIAN OBORIZZI"/>
+			<field name="applicant" value="INSTITUTO FEDERAL CATARINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B07C5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="59101011"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015028633"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015028633U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015028633"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152028633U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015028633"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22257" type="Person">
+			<semanticIdentifier>lattes::3985289421380363</semanticIdentifier>
+			<field name="identifier.lattes" value="3985289421380363"/>
+			<field name="name" value="Marlon Goede"/>
+		</entity>
+		<entity ref="OrgUnit17405" type="OrgUnit">
+			<semanticIdentifier>brcris::d241859c553c5e4c896e820ea19f8328</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL CATARINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32382" toEntityRef="Person22257" type="Inventor"/>
+		<relation fromEntityRef="Patent32382" toEntityRef="OrgUnit17405" type="Applicant"/>
+	</relations>
+</entity-relation-data>

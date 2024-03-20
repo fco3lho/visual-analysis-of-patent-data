@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:24:52" record="11535" source="Espacenet">
+	<entities>
+		<entity ref="Patent11535" type="Patent">
+			<semanticIdentifier>brcris::1307aa19e8863d32e0315890cf3a180c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7200230U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7200230U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7200230U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7200230U</semanticIdentifier>
+			<semanticIdentifier>original::7200230</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=7200230"/>
+			<field name="identifier.lattes" value="6559297554290145"/>
+			<field name="identifier.espacenet" value="7200230"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="DISPOSICAO INTRODUZIDA EM CAMA"/>
+			<field name="title.lattes" value="Disposição Introduzida em Cama (Cólera)"/>
+			<field name="depositDate" value="1992-02-18"/>
+			<field name="publicationDate" value="1993-08-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DOMINGOS ALVES MEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA &quot;JULIO DE MESQUITA FILHO&quot;"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61G7/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="3985273"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7200230"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7200230U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7200230"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7200230U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="7200230"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8050" type="Person">
+			<semanticIdentifier>lattes::6559297554290145</semanticIdentifier>
+			<field name="identifier.lattes" value="6559297554290145"/>
+			<field name="name" value="Domingos Alves Meira"/>
+		</entity>
+		<entity ref="OrgUnit6404" type="OrgUnit">
+			<semanticIdentifier>brcris::69237b4a5f523b35a796ac73ea518aaa</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA &quot;JULIO DE MESQUITA FILHO&quot;"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11535" toEntityRef="Person8050" type="Inventor"/>
+		<relation fromEntityRef="Patent11535" toEntityRef="OrgUnit6404" type="Applicant"/>
+	</relations>
+</entity-relation-data>

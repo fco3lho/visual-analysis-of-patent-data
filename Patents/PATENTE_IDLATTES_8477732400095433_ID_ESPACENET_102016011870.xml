@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:50" record="28788" source="Espacenet">
+	<entities>
+		<entity ref="Patent28788" type="Patent">
+			<semanticIdentifier>brcris::2033c21351a7cd6a174dfe7291167739</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011870A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011870</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011870A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011870</semanticIdentifier>
+			<semanticIdentifier>original::102016011870</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011870"/>
+			<field name="identifier.lattes" value="8477732400095433"/>
+			<field name="identifier.espacenet" value="102016011870"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="eletrodo base para pasta de carbono e uso do mesmo"/>
+			<field name="title.lattes" value="Eletrodo base para pasta de carbono e uso do mesmo."/>
+			<field name="depositDate" value="2016-05-24"/>
+			<field name="publicationDate" value="2017-12-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="IZABEL CRISTINA ELEOTERIO"/>
+			<field name="inventor" value="MARCELO FIRMINO DE OLIVEIRA"/>
+			<field name="inventor" value="MARCO ANTONIO BALBINO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um eletrodo base para pasta de carbono compreendendo um conector tipo banana (1), uma haste, um bico (3) onde se aloca a pasta (4), um êmbolo (5), um fio condutor (6) e uma esfera de extremidade (7). por meio do uso do eletrodo base para pasta de carbono da presente invenção, é alcançada melhor qualidade de análise qualitativa e quantitativa, podendo ser aplicado a diversos estudos eletroquímicos, em que os materiais e a forma especialmente desenvolvida para sua manufatura, com materiais robustos e inertes, impedem a contaminação e efeitos indesejados."/>
+			<field name="originatesFrom" value="62566886"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011870"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011870"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011870"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011870"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011870"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19861" type="Person">
+			<semanticIdentifier>lattes::8477732400095433</semanticIdentifier>
+			<field name="identifier.lattes" value="8477732400095433"/>
+			<field name="name" value="Marcelo Firmino de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit15519" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28788" toEntityRef="Person19861" type="Inventor"/>
+		<relation fromEntityRef="Patent28788" toEntityRef="OrgUnit15519" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:33" record="31494" source="Espacenet">
+	<entities>
+		<entity ref="Patent31494" type="Patent">
+			<semanticIdentifier>brcris::c14d09d03d0f4d29b8dd915c55a11426</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301390A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0301390</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301390A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030301390</semanticIdentifier>
+			<semanticIdentifier>original::0301390-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0301390"/>
+			<field name="identifier.lattes" value="8180859738646919"/>
+			<field name="identifier.espacenet" value="0301390"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método rápido e indireto de medida de espessuras de filmes poliméricos - que não possuem elementos que absorvam raios x - utilizando espectrometria de fluorescência de raios x de energia dispersiva (edxrf)"/>
+			<field name="title.lattes" value="Método rápido e indireto de medida de espessura de filmes poliméricos - que não possuem elementos que absorvam raios-X - utilizando espectrometria de fluorescência de raios-X de energia dispersiva"/>
+			<field name="depositDate" value="2003-05-30"/>
+			<field name="publicationDate" value="2005-03-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTENOR LOPES DE JESUS JR"/>
+			<field name="inventor" value="MARIA IZABEL MARETTI SILVEIRA BUENO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/69AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="69AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO RáPIDO E INDIRETO DE MEDIDA DE ESPESSURAS DE FILMES POLIMéRICOS - QUE NãO POSSUEM ELEMENTOS QUE ABSORVAM RAIOS X - UTILIZANDO ESPECTROMETRIA DE FLUORESCêNCIA DE RAIOS X DE ENERGIA DISPERSIVA (EDXRF)&quot;. Patente de Invenção que descreve o desenvolvimento de um método rápido e indireto de medida de espessuras de filmes poliméricos utilizando Espectrometria de Fluorescência de Raios X. No método são utilizados anteparos metálicos sob os filmes e é medida a atenuação da linha de emissão do elemento deste anteparo. Após introdução destes valores de atenuação em uma equação de calibração previamente obtida para aquele filme, é determinado a sua espessura real. Os anteparos metálicos utilizados foram de chumbo, cobre e alumínio. As medidas mostraram que o método é rápido, sendo estas realizadas em 100 segundos durante o processo de irradiação. Os valores encontrados de coeficientes de correlação das curvas analíticas obtidas mostraram que a técnica é promissora (R chegando até 1). Os limites de detecção alcançados (LD variando de 0,043 a 4,04 &lt;109&gt;m) mostraram valores aplicáveis para amostras reais, principalmente aquelas com interesse industrial."/>
+			<field name="originatesFrom" value="34230323"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301390"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0301390"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301390"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030301390"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0301390-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21568" type="Person">
+			<semanticIdentifier>lattes::8180859738646919</semanticIdentifier>
+			<field name="identifier.lattes" value="8180859738646919"/>
+			<field name="name" value="Maria Izabel Maretti Silveira Bueno"/>
+		</entity>
+		<entity ref="OrgUnit16834" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31494" toEntityRef="Person21568" type="Inventor"/>
+		<relation fromEntityRef="Patent31494" toEntityRef="OrgUnit16834" type="Applicant"/>
+	</relations>
+</entity-relation-data>

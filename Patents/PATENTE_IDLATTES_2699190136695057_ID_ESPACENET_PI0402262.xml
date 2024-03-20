@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:03" record="42641" source="Espacenet">
+	<entities>
+		<entity ref="Patent42641" type="Patent">
+			<semanticIdentifier>brcris::287954654408fe64a06da7a7cb101cbf</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402262A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0402262</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402262A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI02262</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0402262-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0402262"/>
+			<field name="identifier.lattes" value="2699190136695057"/>
+			<field name="identifier.espacenet" value="PI0402262"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="composição de obturação endodÈntica, método para preparação de cimento endodÈntico e uso de dita composição"/>
+			<field name="title.lattes" value="Composição de Obturação Endodôntica. Método para preparação de cimento endodôntico e uso de dita composição."/>
+			<field name="depositDate" value="2004-06-07"/>
+			<field name="publicationDate" value="2006-05-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELA DELFINA BITTENCOURT GARRIDO"/>
+			<field name="inventor" value="JOSE FERREIRA DA SILVA"/>
+			<field name="inventor" value="MANOEL DAMIAO DE SOUSA NETO"/>
+			<field name="inventor" value="RAPHAEL CARLOS COMELLI LIA"/>
+			<field name="inventor" value="SPARTACO ASTOLFI JR"/>
+			<field name="inventor" value="SUZELEI DE CASTRO FRANCA"/>
+			<field name="applicant" value="ASSOCIACAO DE ENSINO DE RIBEIRAO PRETO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K6/54AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="54AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K6/849AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="849AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;COMPOSIçãO DE OBTURAçãO ENDODÈNTICA, MéTODO PARA PREPARAçãO DE CIMENTO ENDODÈNTICO E USO DE DITA COMPOSIçãO&quot;. A presente invenção refere-se uma composição atóxica, biocompatível, apropriada para uso como material de obturação endodóntica, endurecível in situ, compreendendo os seguintes componentes, embalados separadamente: (i) um componente pulverulento baseado em hidróxido de cálcio e em um óxido de zinco e aditivos para melhorar as características físico-químicas e de biocompatibilidade, (ii) um componente líquido baseado em copaíba, opcionalmente em mistura com um aditivo para aumentar a biodisponibilidade, e, opcionalmente, (iii) componente (s) sólido (s) e ou líquido (s) histocompatível (is) tendo atividade farmacológica. A invenção também provê um método de preparação do cimento endodóntico e o uso de dita composição."/>
+			<field name="originatesFrom" value="36314463"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402262"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0402262"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402262"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI02262"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0402262-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29083" type="Person">
+			<semanticIdentifier>lattes::2699190136695057</semanticIdentifier>
+			<field name="identifier.lattes" value="2699190136695057"/>
+			<field name="name" value="Spartaco Astolfi Filho"/>
+		</entity>
+		<entity ref="OrgUnit22771" type="OrgUnit">
+			<semanticIdentifier>brcris::04e0d425e207996ea2f50324eb87af15</semanticIdentifier>
+			<field name="name" value="ASSOCIACAO DE ENSINO DE RIBEIRAO PRETO"/>
+		</entity>
+		<entity ref="OrgUnit22772" type="OrgUnit">
+			<semanticIdentifier>brcris::c4d38dee3c28c06d5ce64dfbbe90193e</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42641" toEntityRef="Person29083" type="Inventor"/>
+		<relation fromEntityRef="Patent42641" toEntityRef="OrgUnit22771" type="Applicant"/>
+		<relation fromEntityRef="Patent42641" toEntityRef="OrgUnit22772" type="Applicant"/>
+	</relations>
+</entity-relation-data>

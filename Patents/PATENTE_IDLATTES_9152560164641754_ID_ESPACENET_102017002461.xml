@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:18:45" record="41260" source="Espacenet">
+	<entities>
+		<entity ref="Patent41260" type="Patent">
+			<semanticIdentifier>brcris::56ee511f4253db4b5995763c2cc98239</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017002461A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017002461</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017002461A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171002461</semanticIdentifier>
+			<semanticIdentifier>original::102017002461</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017002461"/>
+			<field name="identifier.lattes" value="9152560164641754"/>
+			<field name="identifier.espacenet" value="102017002461"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador e método de energização de conversor fonte de tensão conectado à rede elétrica"/>
+			<field name="title.lattes" value="Controlador e Método de Energização de Conversor Fonte de Tensão Conectado à Rede Elétrica"/>
+			<field name="depositDate" value="2017-02-07"/>
+			<field name="publicationDate" value="2018-09-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GABRIEL AZEVEDO FOGLI"/>
+			<field name="inventor" value="PEDRO GOMES BARBOSA"/>
+			<field name="inventor" value="SAMUEL NEVES DUARTE"/>
+			<field name="applicant" value="FAPEMIG - FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA - UFJF"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M7/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02M1/44AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="controlador e método de energização de conversor fonte de tensão conectado à rede elétrica a presente invenção refere-se à um controlador e método de energização (carga) do capacitor equivalente do barramento de corrente contínua de um conversor estático fonte de tensão (vsc) conectado a uma rede elétrica. o circuito de energização do vsc é composto por dois interruptores do tipo scr (tiristores) formando um quarto braço do vsc e ligado a uma das fases da rede elétrica de um lado e conectado em paralelo com o capacitor do barramento cc do outro lado. durante o processo de energização os pulsos de disparo dos interruptores autocomutados (igbts) do conversor são bloqueados. um interruptor eletromecânico formado por três interruptores monofásicos permite alimentar, de maneira independente, o circuito do controlador de energização e uma das fases do vsc. o ângulo de disparo dos scrs (tiristores) é usado para controlar a amplitude da corrente de carga do capacitor do barramento cc. a tensão do barramento de corrente contínua do conversor é aumentada na frequência da rede elétrica a medida que o ângulo de disparo dos scrs (tiristores) do circuito de energização é variado. o método de controle do conversor de energização é baseado no modelo matemático do circuito equivalente formado pelo braço do controlador e uma das fases do vsc. além da modelagem matemática o referido método de controle engloba a solução da equação que modela a dinâmica da corrente no referido circuito de energização do conversor, a determinação dos ângulos de disparo dos scrs para regular o valor máximo (pico) da corrente de energização do conversor e a utilização de uma função matemática para aproximar a curva que relaciona a tensão do barramento de corrente contínua do conversor com o ângulo de disparo dos scrs (tiristores) do circuito de energização."/>
+			<field name="originatesFrom" value="63638444"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017002461"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017002461"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017002461"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171002461"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017002461"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28103" type="Person">
+			<semanticIdentifier>lattes::9152560164641754</semanticIdentifier>
+			<field name="identifier.lattes" value="9152560164641754"/>
+			<field name="name" value="Samuel Neves Duarte"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41260" toEntityRef="Person28103" type="Inventor"/>
+	</relations>
+</entity-relation-data>

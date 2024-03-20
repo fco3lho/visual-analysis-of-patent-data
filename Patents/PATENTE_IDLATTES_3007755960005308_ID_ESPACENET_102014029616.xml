@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:07" record="32102" source="Espacenet">
+	<entities>
+		<entity ref="Patent32102" type="Patent">
+			<semanticIdentifier>brcris::5397a666afe2d43498c6ad9d0b7099a8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029616A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029616</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029616A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029616</semanticIdentifier>
+			<semanticIdentifier>original::102014029616</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029616"/>
+			<field name="identifier.lattes" value="3007755960005308"/>
+			<field name="identifier.espacenet" value="102014029616"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de biopolímero iônico a partir de biopolímeros provenientes do tratamento térmico de materiais graxos, biopolímero iônico e suas aplicações"/>
+			<field name="title.lattes" value="Processo para obtenção de biopolímero iônico a partir de boiopolímeros provenientes do tratamento térmico de materiais graxos, biopolímeros iônico e suas aplicações"/>
+			<field name="depositDate" value="2014-11-27"/>
+			<field name="publicationDate" value="2016-06-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUILHERME BANDEIRA CANDIDO MARTINS"/>
+			<field name="inventor" value="MARIA LUIZA BASILIO GRACA COUTO"/>
+			<field name="inventor" value="MARINA GUEDES VALERIO"/>
+			<field name="inventor" value="MATEUS DE AGUIAR MONTENEGRO"/>
+			<field name="inventor" value="PAULO ANSELMO ZIANI SUAREZ"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08F2/32AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08F4/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C09D11/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de biopolímero iônico a partir de biopolímeros provenientes do tratamento térmico de materiais graxos, biopolímero iônico e suas aplicações. o tratamento de biopolímeros, advindos do processo de tratamento térmico ou termo-catalítico de materiais graxos, com substâncias alcalinas gera biopolímeros iônicos os quais possuem características físico-químicas diferentes do seu precursor. além disso, foi observado neste novo produto, biopolímero iônico, que os grupos ésteres e ácidos carboxílicos presentes são transformados em grupos carboxilatos, que aumentam a viscosidade do biopolímero, bem como alteram sua aparência para um tom branco e faz com que este forme um coloide estável à temperatura ambiente com fases aquosas. adicionalmente, os biopolímeros iônicos obtidos são úteis como veículos para tintas de impressão, diminuindo a quantidade necessária de carga e pigmento para na formulação."/>
+			<field name="originatesFrom" value="56132617"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029616"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029616"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029616"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029616"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014029616"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22062" type="Person">
+			<semanticIdentifier>lattes::3007755960005308</semanticIdentifier>
+			<field name="identifier.lattes" value="3007755960005308"/>
+			<field name="name" value="Marina Guedes Valerio"/>
+		</entity>
+		<entity ref="OrgUnit17275" type="OrgUnit">
+			<semanticIdentifier>brcris::862ac5be4be0bb3658f3bee6a7a37d33</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32102" toEntityRef="Person22062" type="Inventor"/>
+		<relation fromEntityRef="Patent32102" toEntityRef="OrgUnit17275" type="Applicant"/>
+	</relations>
+</entity-relation-data>

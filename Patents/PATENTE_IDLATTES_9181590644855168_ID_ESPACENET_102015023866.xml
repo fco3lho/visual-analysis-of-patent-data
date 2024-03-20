@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:05" record="8492" source="Espacenet">
+	<entities>
+		<entity ref="Patent8492" type="Patent">
+			<semanticIdentifier>brcris::555e8b4929ac379e60aae2e51f5d5a0a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015023866A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015023866</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015023866A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151023866</semanticIdentifier>
+			<semanticIdentifier>original::102015023866</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015023866"/>
+			<field name="identifier.lattes" value="9181590644855168"/>
+			<field name="identifier.espacenet" value="102015023866"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de criação e manutenção de redes oportunistas sem pareamento entre os dispositivos e o seu uso"/>
+			<field name="title.lattes" value="Processo de Criação e Manutenção de Redes Oportunistas sem Pareamento Entre os Dispositivos e o Seu Uso"/>
+			<field name="depositDate" value="2015-09-16"/>
+			<field name="publicationDate" value="2017-03-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES TIM BATISTA GARROCHO"/>
+			<field name="inventor" value="MAURICIO JOSE DA SILVA"/>
+			<field name="inventor" value="RICARDO AUGUSTO RABELO OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W72/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="72"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W88/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="88"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de criação e manutenção de redes oportunistas sem pareamento entre os dispositivos e o seu uso a presente invenção refere-se a um processo de criação e manutenção de redes oportunistas, visando sua aplicação em descarregamento de tráfego celular e comunicações em situações de emergência, destinada principalmente de modelo para o desenvolvimento de aplicações oportunistas que necessitem da troca de conteúdos entre dispositivos móveis sem que haja a interação do usuário com os dispositivos. mais particularmente, a presente invenção refere-se a um processo de criação e manutenção de redes oportunistas, caracterizado por utilizar o modo de tethering de smartphones, permitindo que smartphones tornem-se pontos de acesso ieee 802.11 wlan e oferecem rede para outros smartphones, de forma automatizada, efetuando transições entre o modo tethering e o modo de pesquisa de redes, com o objetivo de formar a rede de comunicação e promover a troca de conteúdos sem a necessidade de pareamento entre os dispositivos ou autorização do usuário com o dispositivo."/>
+			<field name="originatesFrom" value="58343337"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015023866"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015023866"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015023866"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151023866"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015023866"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5792" type="Person">
+			<semanticIdentifier>lattes::9181590644855168</semanticIdentifier>
+			<field name="identifier.lattes" value="9181590644855168"/>
+			<field name="name" value="Charles Tim Batista Garrocho"/>
+		</entity>
+		<entity ref="OrgUnit4582" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8492" toEntityRef="Person5792" type="Inventor"/>
+		<relation fromEntityRef="Patent8492" toEntityRef="OrgUnit4582" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:50" record="37314" source="Espacenet">
+	<entities>
+		<entity ref="Patent37314" type="Patent">
+			<semanticIdentifier>brcris::b6bf3569847da7a56b5a11aa226ae8b7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019009239A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019009239</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019009239A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191009239</semanticIdentifier>
+			<semanticIdentifier>original::102019009239</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019009239"/>
+			<field name="identifier.lattes" value="5082978896420563"/>
+			<field name="identifier.espacenet" value="102019009239"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="laser coerente de diodo"/>
+			<field name="title.lattes" value="Laser Coerente de Diodo"/>
+			<field name="depositDate" value="2019-05-06"/>
+			<field name="publicationDate" value="2020-11-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO MARTINELLI"/>
+			<field name="inventor" value="RAUL LEONARDO RINCON CELIS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01S5/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção apresenta um laser com uma cavidade em anel que usa um diodo laser como meio de ganho e que fornece luz monocromática sintonizável e coerente, onde, pela combinação de elementos interferométricos e polarizadores, é controlado o modo de oscilação do laser e inibido a energia nos demais modos não oscilantes, responsáveis pelo excesso de ruído de fase tipicamente observado em montagens lineares."/>
+			<field name="originatesFrom" value="73419208"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019009239"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019009239"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019009239"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191009239"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019009239"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25740" type="Person">
+			<semanticIdentifier>lattes::5082978896420563</semanticIdentifier>
+			<field name="identifier.lattes" value="5082978896420563"/>
+			<field name="name" value="Raul Leonardo Rincon Celis"/>
+		</entity>
+		<entity ref="OrgUnit20206" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37314" toEntityRef="Person25740" type="Inventor"/>
+		<relation fromEntityRef="Patent37314" toEntityRef="OrgUnit20206" type="Applicant"/>
+	</relations>
+</entity-relation-data>

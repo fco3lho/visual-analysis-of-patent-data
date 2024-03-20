@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:17" record="45540" source="Espacenet">
+	<entities>
+		<entity ref="Patent45540" type="Patent">
+			<semanticIdentifier>brcris::78e228cff8c848afaa11e25b6ff53ee0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500971A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500971</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500971A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00971</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500971-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500971"/>
+			<field name="identifier.lattes" value="3617697065989200"/>
+			<field name="identifier.espacenet" value="PI0500971"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de fabricação de sensores coloridos para a determinação de radiação y e sensores coloridos"/>
+			<field name="title.lattes" value="Fabricação de sensores"/>
+			<field name="depositDate" value="2005-01-14"/>
+			<field name="publicationDate" value="2007-05-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAX PASSOS FERREIRA"/>
+			<field name="inventor" value="WANDER LUIZ VASCONCELOS"/>
+			<field name="applicant" value="CENTRO DE DESENVOLVIMENTO DE TECNOLOGIA NUCLEAR - CDTN/CNEN"/>
+			<field name="applicant" value="CENTRO DE DESENVOLVIMENTO DE TECNOLOGIA NUCLEAR"/>
+			<field name="applicant" value="UNIVERCIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo de fabricação de sensores coloridos para a determinação de radiação y e sensores coloridos A presente invenção se refere a um processo para a fabricação de sensores sensíveis à radiação ionizante como os raios y em uma ampla faixa de dose variando de &lt;1Gy até&gt; 900 kGy.Sob a influencia da radiação ionizante ocorrem reações quimicas em uma película colorida especialmente preparada contendo substâncias que sofrem mudanças de cor podem ser associadas ás doses recebidas.é descrita a obtenção de um filme sílica/corante e ou sílica/corante/surfactante preparado pelo processo sol-gel tendo como precursores o tetrametilortossilano e substâncias coloridas sintéticas como difenilazos,benzotiazossulfonatos,sulfoftaleinas,aminifenilazos,entre vários outros e pigmentos vegetais como extratos de flores de quaresmeira (Tibouchina granulosa),jabuticaba(Myrciaria cauliflora),amora (Morus nigra),beterraba(Beta vulgaris) entre outros para a avaliação visual das doses recebidas.O sensor obtido possui uma ampla faixa de atuação- doses variando de &lt;1 Gy até&gt; 950 kGy -,prescinde o uso de equipamentos, (a mudança de cor é observada visualmente),é resistente, simples,de fácil utilização e de baixo custo, podendo se constituir em uma maneira rápida de verificar se um material foi submetido a radiação y,fornecendo uma indicação semi-quantitativa da dose absorvida."/>
+			<field name="originatesFrom" value="38007741"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500971"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500971"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500971"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00971"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500971-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31125" type="Person">
+			<semanticIdentifier>lattes::3617697065989200</semanticIdentifier>
+			<field name="identifier.lattes" value="3617697065989200"/>
+			<field name="name" value="Wander Luiz Vasconcelos"/>
+		</entity>
+		<entity ref="OrgUnit24411" type="OrgUnit">
+			<semanticIdentifier>brcris::7933e1d1ee7a4875f6459ebc3b9b75a4</semanticIdentifier>
+			<field name="name" value="CENTRO DE DESENVOLVIMENTO DE TECNOLOGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit24412" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45540" toEntityRef="Person31125" type="Inventor"/>
+		<relation fromEntityRef="Patent45540" toEntityRef="OrgUnit24411" type="Applicant"/>
+		<relation fromEntityRef="Patent45540" toEntityRef="OrgUnit24412" type="Applicant"/>
+	</relations>
+</entity-relation-data>

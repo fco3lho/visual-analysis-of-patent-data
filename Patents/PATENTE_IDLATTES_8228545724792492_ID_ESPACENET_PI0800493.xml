@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:14" record="7527" source="Espacenet">
+	<entities>
+		<entity ref="Patent7527" type="Patent">
+			<semanticIdentifier>brcris::a9f50a1bb51d68c536787996ae1f4145</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800493A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0800493</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800493A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI00493</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0800493-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0800493"/>
+			<field name="identifier.lattes" value="8228545724792492"/>
+			<field name="identifier.espacenet" value="PI0800493"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="quantificação de aditivo melhorador de cetano para diesel de origem nitrada"/>
+			<field name="title.lattes" value="Quantificação de aditivo melhorador de cetano para diesel de origem nitrada"/>
+			<field name="depositDate" value="2008-03-04"/>
+			<field name="publicationDate" value="2009-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ITSUO YAMAMOTO"/>
+			<field name="inventor" value="LILIAN CRISTINA CECCO"/>
+			<field name="inventor" value="LILIAN CRISTINA COCCO"/>
+			<field name="inventor" value="MARIANA DE BITTENCOURT GRITZNER"/>
+			<field name="inventor" value="MARIANA DE BITTENCOURT GROTZNER"/>
+			<field name="inventor" value="TATIANA BITTENCOURT DE SOUZA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10L1/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C7/135AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="135AI"/>
+			</field>
+			<field name="abstract.espacenet" value="QUANTIFICAçãO DE ADITIVO MELHORADOR DE CETANO PARA DIESEL DE ORIGEM NITRADA. Quantificação de aditivo melhorador de cetano para diesel de origem nitrada, utilizando-se a técnica de cromatografia gasosa com detector ECD (Eletron Capture Detector) e a técnica de calibração externa, utilizando-se soluções de calibração com padrão do aditivo de origem nitrada para montagem de uma curva de calibração externa, e posterior cálculo da concentração em uma amostra de diesel comercial."/>
+			<field name="originatesFrom" value="41212968"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800493"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0800493"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800493"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI00493"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0800493-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5063" type="Person">
+			<semanticIdentifier>lattes::8228545724792492</semanticIdentifier>
+			<field name="identifier.lattes" value="8228545724792492"/>
+			<field name="name" value="Carlos Itsuo Yamamoto"/>
+		</entity>
+		<entity ref="OrgUnit3991" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit3992" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7527" toEntityRef="Person5063" type="Inventor"/>
+		<relation fromEntityRef="Patent7527" toEntityRef="OrgUnit3991" type="Applicant"/>
+		<relation fromEntityRef="Patent7527" toEntityRef="OrgUnit3992" type="Applicant"/>
+	</relations>
+</entity-relation-data>

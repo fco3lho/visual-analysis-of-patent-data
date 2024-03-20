@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:12" record="18410" source="Espacenet">
+	<entities>
+		<entity ref="Patent18410" type="Patent">
+			<semanticIdentifier>brcris::cfdbc6b84208afd81a8d5e39675e97ce</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013010611A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013010611</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013010611A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131010611</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 010611-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013010611"/>
+			<field name="identifier.lattes" value="5123670323536163"/>
+			<field name="identifier.espacenet" value="102013010611"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Método de modulação e demodulação mimo-hsofdm de baixa complexidade para a comunicação mimo de dados"/>
+			<field name="title.lattes" value="Método de modulação e demodulação MIMO-HSOFDM de baixa complexidade para a comunicação MIMO de dados"/>
+			<field name="depositDate" value="2013-04-30"/>
+			<field name="publicationDate" value="2015-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABRICIO PABLO VIRGINIO CAMPOS"/>
+			<field name="inventor" value="GUILHERME RIBEIRO COLEN"/>
+			<field name="inventor" value="MOISES VIDAL RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B7/208AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="208AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01Q25/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Método de modulação e demodulação mimo-hsofdm de baixa complexidade para a comunicação mimo de dados. A presente invenção consiste em um método para realizar modulação e desmodulação ofdm de baixa complexidade para comunicação mimo de dados em sistemas de comunicação com fio ou sem fio, considerando banda base e banda passante. Deste modo, essa invenção tem por objetivo reduzir a complexidade computacional de chipset dos modems em sistemas de comunicação mimo de dados. Tal redução de complexidade implica em diminuição do custo do chipset desses modems. São utilizadas técnicas de processamento de sinais que permitem a redução do custo final do chipset dos modems que utilizam a modulação hsofdm, baseada na dft ou em qualquer outra técnica multiportadora, em sistemas de comunicação mimo de dados"/>
+			<field name="originatesFrom" value="53432768"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013010611"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013010611"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013010611"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131010611"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 010611-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12765" type="Person">
+			<semanticIdentifier>lattes::5123670323536163</semanticIdentifier>
+			<field name="identifier.lattes" value="5123670323536163"/>
+			<field name="name" value="Guilherme Ribeiro Colen"/>
+		</entity>
+		<entity ref="OrgUnit9950" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18410" toEntityRef="Person12765" type="Inventor"/>
+		<relation fromEntityRef="Patent18410" toEntityRef="OrgUnit9950" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:18" record="21641" source="Espacenet">
+	<entities>
+		<entity ref="Patent21641" type="Patent">
+			<semanticIdentifier>brcris::00030f56d578074a6c33f159e301757b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105064A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1105064</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105064A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI05064</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1105064</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1105064"/>
+			<field name="identifier.lattes" value="6161888127051479"/>
+			<field name="identifier.espacenet" value="PI1105064"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="metodo de controle distribuído e oportunista de potência de transmissão para redes de comunicação sem fio"/>
+			<field name="title.lattes" value="Método de controle distribuído e oportunista de potência de transmissão para redes de comunicação sem fio"/>
+			<field name="depositDate" value="2011-11-10"/>
+			<field name="publicationDate" value="2020-09-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIANO DE SOUSA CHAVES"/>
+			<field name="inventor" value="FABIANO DE SOUZA CHAVES"/>
+			<field name="inventor" value="JOAO MARCOS TRAVASSOS ROMANO"/>
+			<field name="inventor" value="JOAO MARCOS TRAVESSOS ROMANO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W52/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="52"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W52/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="52"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04W52/10AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="52"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de controle distribuído e oportunista de potência de transmissão para redes de comunicação sem fio. o presente pedido de patente de invenção refere-se a um método de controle distribuído e oportunista de potência de transmissão para redes de comunicação sem fio. a metodologia é desenvolvida através da teoria de jogos dinâmicos lineares-quadráticos não-cooperativos de soma não-nula, que traduz o contexto multi-critério em que consiste o controle de potência de transmissão oportunista. o controle de potência de transmissão é uma técnica fundamental para o gerenciamento dos recursos de rádio em redes de comunicação sem fio. ele é um meio efetivo para a satisfação de exigências de qualidade, para a redução de interferência e para a economia de energia. os métodos descritos neste pedido de patente podem ser utilizados em redes de comunicação sem fio dotadas de mecanismos e medidas necessárias ao controle de potência, como redes celulares cdma/wcdma, dentre outras."/>
+			<field name="originatesFrom" value="72964346"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105064"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1105064"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105064"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI05064"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1105064"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14979" type="Person">
+			<semanticIdentifier>lattes::6161888127051479</semanticIdentifier>
+			<field name="identifier.lattes" value="6161888127051479"/>
+			<field name="name" value="Joao Marcos Travassos Romano"/>
+		</entity>
+		<entity ref="OrgUnit11725" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21641" toEntityRef="Person14979" type="Inventor"/>
+		<relation fromEntityRef="Patent21641" toEntityRef="OrgUnit11725" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:49" record="34947" source="Espacenet">
+	<entities>
+		<entity ref="Patent34947" type="Patent">
+			<semanticIdentifier>brcris::02e71c41adbdf41a30a6eac1d5e82346</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013025102A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013025102</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013025102A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131025102</semanticIdentifier>
+			<semanticIdentifier>original::102013025102</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013025102"/>
+			<field name="identifier.lattes" value="5895778880725317"/>
+			<field name="identifier.espacenet" value="102013025102"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="tablet indutivo"/>
+			<field name="title.lattes" value="Tablet Indutivo"/>
+			<field name="depositDate" value="2013-09-30"/>
+			<field name="publicationDate" value="2016-08-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE CANDIDO DE PAULO"/>
+			<field name="inventor" value="ANTONIO CARLOS CAMARGO DO AMARAL"/>
+			<field name="inventor" value="CARLOS IGNACIO ZAMITTI MAMMANA"/>
+			<field name="inventor" value="GUSTAVO JUNIOR ALVES"/>
+			<field name="inventor" value="MARCELO A. REZENDE"/>
+			<field name="inventor" value="NATANAEL LOPES DIAS"/>
+			<field name="inventor" value="PABLO JENNER PAREDEZ ANGELES"/>
+			<field name="inventor" value="VICTOR PELLEGRINI MAMMANA"/>
+			<field name="applicant" value="CENTRO DE TECNOLOGIA DA INFORMACAO RENATO ARCHER - CTI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F3/033AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="033AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F3/046AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="046AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;taelet indutivo&quot; funciona por indução de sinal elétrico na ponteira, a qual se comporta como uma antena. o sinal elétrico gerado pela comutação das coordenadas x e y na camada condutiva emissora (2), que pode ser transparente ou não, é induzido na ponteira (6). deste modo a ponteira lê sequencialmente as tensões que são proporcionais às coordenadas x, y e z que simultaneamente é reconhecida por aproximação (s). um conjunto de diodos (4) permite a comutação da tensão entre os eixos horizontal (x) e vertical (y) e a linearização das linhas de campo sobre a superfície da camada condutiva emissora (2) . o sinal de acionamento (5) da camada condutiva emissora (2) é em quadratura (defasados de 90 graus) e permite gerar um sinal que contém informações proporcionais às coordenadas x e y e a coordenada z de aproximação."/>
+			<field name="originatesFrom" value="56544682"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013025102"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013025102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013025102"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131025102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013025102"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24052" type="Person">
+			<semanticIdentifier>lattes::5895778880725317</semanticIdentifier>
+			<field name="identifier.lattes" value="5895778880725317"/>
+			<field name="name" value="Pablo Jenner Paredez Angeles"/>
+		</entity>
+		<entity ref="OrgUnit18869" type="OrgUnit">
+			<semanticIdentifier>brcris::3d1b52d432c2c1e85d48f2e9947b1790</semanticIdentifier>
+			<field name="name" value="CENTRO DE TECNOLOGIA DA INFORMACAO RENATO ARCHER - CTI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34947" toEntityRef="Person24052" type="Inventor"/>
+		<relation fromEntityRef="Patent34947" toEntityRef="OrgUnit18869" type="Applicant"/>
+	</relations>
+</entity-relation-data>

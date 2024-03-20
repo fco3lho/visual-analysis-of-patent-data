@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:53" record="5602" source="Espacenet">
+	<entities>
+		<entity ref="Patent5602" type="Patent">
+			<semanticIdentifier>brcris::a1c6f8b7b147c96481924c8589958ca8</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8901754U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8901754U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8901754U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1989MU01754U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8901754-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8901754"/>
+			<field name="identifier.lattes" value="3316008918329052"/>
+			<field name="identifier.espacenet" value="MU8901754"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="amostrador de água para análise de qualidade em rios e reservatórios"/>
+			<field name="title.lattes" value="Amostrador de água para análise de qualidade em rios e reservatórios"/>
+			<field name="depositDate" value="2009-08-06"/>
+			<field name="publicationDate" value="2011-04-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARISVALDO VIEIRA MELLO JUNIOR"/>
+			<field name="inventor" value="DHIEGO DE MENEZES FONTES MARTINS"/>
+			<field name="inventor" value="JOSE DE OLIVEIRA MELO NETO"/>
+			<field name="inventor" value="ROGERIO MOREIRA CHAGAS"/>
+			<field name="inventor" value="ROGERIO MOREIRA CHAGAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="AMOSTRADOR DE áGUA PARA ANáLISE DE QUALIDADE EM RIOS E RESERVATóRIOS. Refere-se o presente modelo de utilidade a um dispositivo amostrador de águas, para ser empregado na coleta de águas em rios, lagos e reservatórios, visando a análise de parãmetros qualitativos (físicos, químicos e microbiológicos) da água coletada. O amostrador agora pleiteado apresenta como características principais: simplicidade de construção, facilidade de utilização, eficácia e baixo custo. Compreende basicamente: um tubo coletor (1), substancialmente cilíndrico, uma tampa (2) provida de rosca e pega, que serve para garantir o perfeito fechamento do tubo coletor (1); uma armação (3), que serve para acoplar o tubo coletor (1), uma régua graduada (7) e uma haste (5), que serve de alavanca; um par de registros (4a e 4b), acoplados ao corpo do tubo coletor (1); uma haste (5), que é fixada na armação (3), e que serve para abrir e fechar os registros (4a e 4b)."/>
+			<field name="originatesFrom" value="43824459"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8901754"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8901754U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8901754"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1989MU01754U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8901754-4"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU8901754Y"/>
+		</entity>
+		<entity ref="Person3701" type="Person">
+			<semanticIdentifier>lattes::3316008918329052</semanticIdentifier>
+			<field name="identifier.lattes" value="3316008918329052"/>
+			<field name="name" value="Arisvaldo Vieira Mello Junior"/>
+		</entity>
+		<entity ref="OrgUnit2911" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+		<entity ref="Patent5603" type="Patent">
+			<semanticIdentifier>epodoc::BRMU8901754Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="43824459"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8901754Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5602" toEntityRef="Person3701" type="Inventor"/>
+		<relation fromEntityRef="Patent5602" toEntityRef="OrgUnit2911" type="Applicant"/>
+	</relations>
+</entity-relation-data>

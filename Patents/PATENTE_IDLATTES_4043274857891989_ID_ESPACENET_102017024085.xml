@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:34:56" record="45074" source="Espacenet">
+	<entities>
+		<entity ref="Patent45074" type="Patent">
+			<semanticIdentifier>brcris::3351060cd2fe2aff1cbf1a06a7888df3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017024085A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017024085</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017024085A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171024085</semanticIdentifier>
+			<semanticIdentifier>original::102017024085</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017024085"/>
+			<field name="identifier.lattes" value="4043274857891989"/>
+			<field name="identifier.espacenet" value="102017024085"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de rastreamento visual baseado em transformada tridimensional de baixa complexidade"/>
+			<field name="title.lattes" value="Sistema de Rastreamento Visual Baseado em Transformada Tridimensional de Baixa Complexidade"/>
+			<field name="depositDate" value="2017-11-09"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO MARIANO BAYER"/>
+			<field name="inventor" value="RENATO JOSE DE SOBRAL CINTRA"/>
+			<field name="inventor" value="VITOR DE ANDRADE COUTINHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/62AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T7/262AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="262AI"/>
+			</field>
+			<field name="abstract.espacenet" value="esta invenção se trata de um dispositivo de rastreamento de objeto em movimento em um vídeo digital de reduzido consumo energético. o método pode ser empregado em diferentes aplicações, tais como vigilância digital, navegação autônoma, interação homem-robô e realidade aumentada. este esquema é fundamentado em uma nova transformação tridimensional baseada em uma matriz de transformação associada a uma aproximação para a dct de baixo custo computacional. o bloco da transformada usualmente implementada pela transformada discreta do cosseno tridimensional (3d dct) é substituído pela transformada tridimensional de baixa complexidade apresentada, que possui alta performance de concentração de energia de vídeos e imagens tridimensionais. além da substituição do bloco da 3d dct por uma outra transformada, o bloco de quantização é modificado de modo a tornar a complexidade da transformada apresentada baixa. o presente invento apresenta grande eficiência energética por fazer uso de uma matriz com coeficientes apenas em 0 e +-1. isso implica em eliminação da complexidade multiplicativa da etapa de processamento do sinal tridimensional e torna desnecessária a utilização de aritmética de ponto flutuante. este comportamento da presente dispositivo configura um dispositivo ambientalmente correto - livre tradução de eco-friendly ou green device."/>
+			<field name="originatesFrom" value="67260507"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017024085"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017024085"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017024085"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171024085"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017024085"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30848" type="Person">
+			<semanticIdentifier>lattes::4043274857891989</semanticIdentifier>
+			<field name="identifier.lattes" value="4043274857891989"/>
+			<field name="name" value="Vítor de Andrade Coutinho"/>
+		</entity>
+		<entity ref="OrgUnit24201" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit24202" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45074" toEntityRef="Person30848" type="Inventor"/>
+		<relation fromEntityRef="Patent45074" toEntityRef="OrgUnit24201" type="Applicant"/>
+		<relation fromEntityRef="Patent45074" toEntityRef="OrgUnit24202" type="Applicant"/>
+	</relations>
+</entity-relation-data>

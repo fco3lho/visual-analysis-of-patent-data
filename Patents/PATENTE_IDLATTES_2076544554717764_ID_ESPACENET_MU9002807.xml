@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:21" record="7098" source="Espacenet">
+	<entities>
+		<entity ref="Patent7098" type="Patent">
+			<semanticIdentifier>brcris::f29301823196893ca4adbd501ef308c6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9002807U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9002807U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9002807U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1990MU02807U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU9002807-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9002807"/>
+			<field name="identifier.lattes" value="2076544554717764"/>
+			<field name="identifier.espacenet" value="MU9002807"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="Disposições construtivas em isolador elétrico montável"/>
+			<field name="title.lattes" value="DISPOSIÇÕES CONSTRUTIVAS EM ISOLADOR ELÉTRICO MONTÁVEL"/>
+			<field name="depositDate" value="2010-12-09"/>
+			<field name="publicationDate" value="2015-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAIO SAIBEL"/>
+			<field name="inventor" value="CARLOS ALBERTO MENDES MORAES"/>
+			<field name="inventor" value="FRANCISCO ANASTACIO DE OLIVEIRA NETO"/>
+			<field name="inventor" value="RODRIGO COSTA DE SOUZA LIMA"/>
+			<field name="inventor" value="WALTER ANDREY FONTANA"/>
+			<field name="applicant" value="UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L3/01AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Disposições construtivas em isoldador elétrico montável formado pelo encaixe de três peças únicas, obtidas em processo de injeção/moldagem em polímeros plásticos de poliamida 6, composto na seção superior pela aba de encaixe (2), pelo monobloco de suporte (7) na seção meridional e pela base fixadora (9) na seção inferior."/>
+			<field name="originatesFrom" value="53491199"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9002807"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9002807U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9002807"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1990MU02807U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU9002807-4"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU9002807Y"/>
+		</entity>
+		<entity ref="Person4757" type="Person">
+			<semanticIdentifier>lattes::2076544554717764</semanticIdentifier>
+			<field name="identifier.lattes" value="2076544554717764"/>
+			<field name="name" value="Carlos Alberto Mendes Moraes"/>
+		</entity>
+		<entity ref="OrgUnit3770" type="OrgUnit">
+			<semanticIdentifier>brcris::41a81f47a3be6a85d719269697dea119</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS"/>
+		</entity>
+		<entity ref="Patent7099" type="Patent">
+			<semanticIdentifier>epodoc::BRMU9002807Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="53491199"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9002807Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7098" toEntityRef="Person4757" type="Inventor"/>
+		<relation fromEntityRef="Patent7098" toEntityRef="OrgUnit3770" type="Applicant"/>
+	</relations>
+</entity-relation-data>

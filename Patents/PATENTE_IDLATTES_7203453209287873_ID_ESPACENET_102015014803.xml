@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:58" record="13093" source="Espacenet">
+	<entities>
+		<entity ref="Patent13093" type="Patent">
+			<semanticIdentifier>brcris::1664a0a69827ee7ae20a957cace8f01c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015014803A8</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015014803</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015014803A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151014803</semanticIdentifier>
+			<semanticIdentifier>original::102015014803</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015014803"/>
+			<field name="identifier.lattes" value="7203453209287873"/>
+			<field name="identifier.espacenet" value="102015014803"/>
+			<field name="kindCode" value="A8"/>
+			<field name="title.espacenet" value="método e aparato para inibir a ocorrência de furto de energia elétrica através de derivações na rede elétrica com proteção contra cargas assimétricas"/>
+			<field name="title.lattes" value="Método e aparato para inibir a ocorrência de furto de energia elétrica através de derivações na rede elétrica com proteção contra cargas assimétricas"/>
+			<field name="depositDate" value="2015-06-19"/>
+			<field name="publicationDate" value="2018-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DECCACHE, ELCIO"/>
+			<field name="applicant" value="SOSAMA MERCANTIL E INDUSTRIAL LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R11/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02H7/16AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02J3/26AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção se refere a um dispositivo (53) para proteger um filtro capacitivo (42) contra cargas assimétricas. este dispositivo inclui uma carga controlada (52), que complementa uma onda assimétrica tornando-a simétrica, um controlador (50), que pode ser um microprocessador programado, um chaveador (51), que pode ser um scr ou uma composição de um diodo com um transistor, dito controlador (50) medindo periodicamente a tensão nos terminais do filtro capacitivo (42), e o chaveador (51) sendo acionado no sentido contrário ao da carga assimétrica (43). a presente invenção também se refere a um segundo dispositivo (64) para proteger um filtro capacitivo (42) contra cargas assimétricas, cujo dispositivo inclui um controlador (60), que pode ser um microprocessador programado, chaveadores (61 e 62), que podem ser transistores mosfet ou igbt que tenham velocidade de atuação compatível com a necessidade do circuito, e uma carga (63), composta por um capacitor para armazenar a energia que vem através de um dos chaveadores (61) e um limitador da corrente de pico, que pode ser uma resistência ou uma impedância indutiva. ademais, a presente invenção também contempla dispositivos e métodos para impedir o furto de energia em redes elétricas compreendendo um dos dois dispositivos apresentados acima."/>
+			<field name="originatesFrom" value="62043443"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015014803"/>
+				<field name="kind" value="A8"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015014803"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015014803"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151014803"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015014803"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8973" type="Person">
+			<semanticIdentifier>lattes::7203453209287873</semanticIdentifier>
+			<field name="identifier.lattes" value="7203453209287873"/>
+			<field name="name" value="Elcio Deccache"/>
+		</entity>
+		<entity ref="OrgUnit7048" type="OrgUnit">
+			<semanticIdentifier>brcris::522e37e4238b0bb636fbfef8e27b894d</semanticIdentifier>
+			<field name="name" value="SOSAMA MERCANTIL E INDUSTRIAL LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13093" toEntityRef="Person8973" type="Inventor"/>
+		<relation fromEntityRef="Patent13093" toEntityRef="OrgUnit7048" type="Applicant"/>
+	</relations>
+</entity-relation-data>

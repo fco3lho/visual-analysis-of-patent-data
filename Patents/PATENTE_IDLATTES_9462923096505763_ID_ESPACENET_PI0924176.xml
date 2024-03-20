@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:30" record="16423" source="Espacenet">
+	<entities>
+		<entity ref="Patent16423" type="Patent">
+			<semanticIdentifier>brcris::fbe7b0ccee50c3506d5d63a6a88e5255</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0924176A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0924176</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0924176A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI24176</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0924176-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0924176"/>
+			<field name="identifier.lattes" value="9462923096505763"/>
+			<field name="identifier.espacenet" value="PI0924176"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de controle de temperatura de precisão de elementos de circuitos impressos ou de fluìdos"/>
+			<field name="title.lattes" value="SISTEMA DE CONTROLE DE TEMPERATURA DE PRECISÃO DE ELEMENTOS DE CIRCUITOS IMPRESSOS OU DE FLUÍDOS"/>
+			<field name="depositDate" value="2009-08-11"/>
+			<field name="publicationDate" value="2012-09-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL CAVALCANTE LIMA FILHO"/>
+			<field name="inventor" value="ANDREA SAMARA SANTOS DE OLIVEIRA"/>
+			<field name="inventor" value="FRANCISCO ANTONIO BELO"/>
+			<field name="inventor" value="LEONALDO JOSE LIRA DO NASCIMENTO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05D23/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE CONTROLE DE TEMPERATURA DE PRECISãO DE ELEMENTOS DE CIRCUITOS IMPRESSOS OU DE FLUIDOS. Para manter fluidos ou placas de circuito impresso( 15) em uma temperatura determinada. Este sistema pode impedir que a precisão ou comportamento de determinados instrumentos e/ou componentes sejam afetados devido à deriva térmica, tendo em vista que sua função é manter a temperatura destes componentes constantes de acordo com a temperatura requerida dentro de um recipiente, independente da temperatura ambiente. O sinal enviado pelos sensores( 1) é comparado com a temperatura requerida no ambiente de amostra e é transmitido para o elemento de transdução eletrónico e processamento de sinais(4) que, através de técnicas de controle do estado da arte, fornecem ou retira energia do elemento de aquecimento ou arrefecimento(5) para manter uma determinada amostra na temperatura requerida. O ambiente de amostra(6) é mantido na temperatura pretendida através de uma caixa metálica(7)."/>
+			<field name="originatesFrom" value="46750524"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0924176"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0924176"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0924176"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI24176"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0924176-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11390" type="Person">
+			<semanticIdentifier>lattes::9462923096505763</semanticIdentifier>
+			<field name="identifier.lattes" value="9462923096505763"/>
+			<field name="name" value="Francisco Antônio Belo"/>
+		</entity>
+		<entity ref="OrgUnit8930" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16423" toEntityRef="Person11390" type="Inventor"/>
+		<relation fromEntityRef="Patent16423" toEntityRef="OrgUnit8930" type="Applicant"/>
+	</relations>
+</entity-relation-data>

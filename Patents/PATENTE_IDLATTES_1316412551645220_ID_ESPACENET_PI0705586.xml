@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:41" record="32839" source="Espacenet">
+	<entities>
+		<entity ref="Patent32839" type="Patent">
+			<semanticIdentifier>brcris::de0ab873518fc8838900d6c2d6591723</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705586A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705586</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705586A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05586</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705586-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705586"/>
+			<field name="identifier.lattes" value="1316412551645220"/>
+			<field name="identifier.espacenet" value="PI0705586"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="uso de antagonistas do receptor fator de ativação plaquetária para o tratamento infecções causadas pelo vìrus influenza"/>
+			<field name="title.lattes" value="Uso de antagonistas do receptor fator de ativacao plaquetária para o tratamento de infeções causadas pelo virus influenza"/>
+			<field name="depositDate" value="2007-11-08"/>
+			<field name="publicationDate" value="2009-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE DE MAGALHAES VIEIRA MACHADO"/>
+			<field name="inventor" value="CRISTIANA COUTO GARCIA"/>
+			<field name="inventor" value="MAURO MARTINS TEIXEIRA"/>
+			<field name="inventor" value="REMO DE CASTRO RUSSO"/>
+			<field name="inventor" value="RICARDO TOSTES GAZZINELLI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS - UFMG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/4422AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="4422AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/16AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="USO DE ANTAGONISTAS DO RECEPTOR FATOR DE ATIVAçãO PLAQUETáRIA PARA O TRATAMENTO INFECçõES CAUSADAS PELO VìRUS INFLUENZA. A presente invenção diz respeito ao uso de antagonistas do receptor Fator de Ativação Píaquetária (PAF), seus análogos e/ou derivados, para o tratamento de infecções causadas pelo vírus influenza."/>
+			<field name="originatesFrom" value="40625307"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705586"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705586"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705586-2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2009059388"/>
+		</entity>
+		<entity ref="Person22579" type="Person">
+			<semanticIdentifier>lattes::1316412551645220</semanticIdentifier>
+			<field name="identifier.lattes" value="1316412551645220"/>
+			<field name="name" value="Mauro Martins Teixeira"/>
+		</entity>
+		<entity ref="OrgUnit17657" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent32840" type="Patent">
+			<semanticIdentifier>epodoc::WO2009059388</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="40625307"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2009059388"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32839" toEntityRef="Person22579" type="Inventor"/>
+		<relation fromEntityRef="Patent32839" toEntityRef="OrgUnit17657" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:18" record="288" source="Espacenet">
+	<entities>
+		<entity ref="Patent288" type="Patent">
+			<semanticIdentifier>brcris::b305d2fb44b669ed3f46144518958b09</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602028A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602028</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602028A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02028</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602028-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602028"/>
+			<field name="identifier.lattes" value="7300207658471022"/>
+			<field name="identifier.espacenet" value="PI0602028"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="hidrógeis ph-responsivo constituìdos de goma arábica quimicamente modificada"/>
+			<field name="title.lattes" value="Hidrogéis pH-responsivo constituídos de goma arábica químicamente modificada"/>
+			<field name="depositDate" value="2006-05-19"/>
+			<field name="publicationDate" value="2008-01-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADLEY FORTI RUBIRA"/>
+			<field name="inventor" value="ADRIANO VALIM REIS"/>
+			<field name="inventor" value="EDVANI CURTI MUNIZ"/>
+			<field name="inventor" value="MARCOS ROGERIO GUILHERME"/>
+			<field name="inventor" value="MARCOS ROGERIO GUILHERME"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08B37/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="HIDROGéIS pH-RESPONSIVO CONSTITUìDOS DE GOMA ARáBICA QUìMICAMENTE MODIFICADA. Matriz tridimensional de hidrogel sem revestimento e pH-responsivo, composto de material biodegradável (Goma Arábica), obtida através da copolimerização da Goma Arábica quimicamente modificada com metacrilato de glicidila. O hidrogel de Goma Arábica modificada é um dispositivo com características hidrofílicas que não se dissolve em água e seu perfil de liberação não depende somente do pH, mas, também, do seu grau de hidratação. Este material é extremamente apropriado para ser aplicado como dispositivo oral, de liberação sustentada de fármacos, para regiões específicas, do trato-grastrintestinal."/>
+			<field name="originatesFrom" value="38878635"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602028"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602028"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602028"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02028"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602028-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person207" type="Person">
+			<semanticIdentifier>lattes::7300207658471022</semanticIdentifier>
+			<field name="identifier.lattes" value="7300207658471022"/>
+			<field name="name" value="Adley Forti Rubira"/>
+		</entity>
+		<entity ref="OrgUnit175" type="OrgUnit">
+			<semanticIdentifier>brcris::c6e71346825fb2a3951456d69e7ff640</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit176" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent288" toEntityRef="Person207" type="Inventor"/>
+		<relation fromEntityRef="Patent288" toEntityRef="OrgUnit175" type="Applicant"/>
+		<relation fromEntityRef="Patent288" toEntityRef="OrgUnit176" type="Applicant"/>
+	</relations>
+</entity-relation-data>

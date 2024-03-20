@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:05" record="34003" source="Espacenet">
+	<entities>
+		<entity ref="Patent34003" type="Patent">
+			<semanticIdentifier>brcris::d8bad02830d2f35afe2aa42cdb52b1c7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000997A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1000997</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000997A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI00997</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1000997-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1000997"/>
+			<field name="identifier.lattes" value="7992694643607149"/>
+			<field name="identifier.espacenet" value="PI1000997"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para a produção de etanol a partir de biomassa residual oriunda da indústria de celulose"/>
+			<field name="title.lattes" value="Processo para a Produção de Etanol a partir de Biomassa Residual Oriunda da Indústria de Celulose"/>
+			<field name="depositDate" value="2010-04-13"/>
+			<field name="publicationDate" value="2011-11-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDELVIO DE BARROS GOMES"/>
+			<field name="inventor" value="LUIZ ANDRE FELIZARDO SILVA SCHLITTLER"/>
+			<field name="inventor" value="LUIZ CLAUDIO SOUZA CARLOS"/>
+			<field name="inventor" value="NEI PEREIRA JR"/>
+			<field name="inventor" value="NEUMARA LUCI CONCEICAO SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P7/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA A PRODUçãO DE ETANOL A PARTIR DE BIOMASSA RESIDUAL ORIUNDA DA INDúSTRIA DE CELULOSE. A presente invenção pertence ao campo da engenharia química e tem como objeto principal um processo para a produção de etanol a partir da biomassa residual oriunda da indústria de celulose, em que a biomassa é processada em um vaso reacional único, onde a hidrólise enzimática e a fermentação (sacarificação) ocorrem de forma simultânea dentro de condições propícias. A invenção também trata do etanol produzido de acordo com o processo aqui descrito."/>
+			<field name="originatesFrom" value="44798188"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000997"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1000997"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000997"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI00997"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1000997-3"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2011127545"/>
+		</entity>
+		<entity ref="Person23430" type="Person">
+			<semanticIdentifier>lattes::7992694643607149</semanticIdentifier>
+			<field name="identifier.lattes" value="7992694643607149"/>
+			<field name="name" value="Nei Pereira Junior"/>
+		</entity>
+		<entity ref="OrgUnit18351" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+		<entity ref="Patent34004" type="Patent">
+			<semanticIdentifier>epodoc::WO2011127545</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="44798188"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2011127545"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34003" toEntityRef="Person23430" type="Inventor"/>
+		<relation fromEntityRef="Patent34003" toEntityRef="OrgUnit18351" type="Applicant"/>
+	</relations>
+</entity-relation-data>

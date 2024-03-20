@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:02" record="6374" source="Espacenet">
+	<entities>
+		<entity ref="Patent6374" type="Patent">
+			<semanticIdentifier>brcris::76631ccd6bb96d54644db338ca911fad</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019015082A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019015082</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019015082A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191015082</semanticIdentifier>
+			<semanticIdentifier>original::102019015082</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019015082"/>
+			<field name="identifier.lattes" value="7183657444814444"/>
+			<field name="identifier.espacenet" value="102019015082"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="anel de sombreamento de melo-escobedo automatizado"/>
+			<field name="title.lattes" value="ANEL DE SOMBREAMENTO DE MELO-ESCOBEDO AUTOMATIZADO"/>
+			<field name="depositDate" value="2019-07-22"/>
+			<field name="publicationDate" value="2021-02-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRENO CRUZ DE GOIS"/>
+			<field name="inventor" value="CHIGUERU TIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01J1/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01J1/42AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01S3/78AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="78AI"/>
+			</field>
+			<field name="abstract.espacenet" value="anel de sombreamento de melo-escobedo automatizado. para aperfeiçoar um sistema de medição da irradiância solar difusa, chamado anel de sombreamento de melo-escobedo, foi proposto a sua automatização, dispensando assim sua operação manual. este dispositivo consiste em um anel de sombreamento(1), com seu eixo longitudinal(38) alinhado na direção norte-sul verdadeiro, utilizado para medir irradiância solar difusa. esta é medida através de um piranômetro(2), constantemente sombreado por um anel(1) fixo, montado em uma base horizontal móvel(3) que pode se deslocar para o sul ou para o norte para compensar a variação da declinação solar, fato este que tem como consequência a mudança da posição da sombra do anel diariamente sobre o piranômetro(2). o inconveniente do referido equipamento é a necessidade de um ajuste, por parte de um operador, quase diário da posição da plataforma móvel horizontal(3), onde se encontra o piranômetro(2), através do uso de uma manivela(7) para manter o piranômetro(2) abaixo da sombra do anel(1), visto que esta se desloca, na direção norte-sul ou sul-norte, com o passar dos dias devido ao movimento aparente do sol no céu. para solucionar tal problema, foi feita a automatização da plataforma horizontal móvel(3) de modo que a mesma rastreia automaticamente a sombra projetada pelo anel(1) sobre o plano horizontal."/>
+			<field name="originatesFrom" value="74568896"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019015082"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019015082"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019015082"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191015082"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019015082"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4219" type="Person">
+			<semanticIdentifier>lattes::7183657444814444</semanticIdentifier>
+			<field name="identifier.lattes" value="7183657444814444"/>
+			<field name="name" value="Breno Cruz de Góis"/>
+		</entity>
+		<entity ref="OrgUnit3290" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6374" toEntityRef="Person4219" type="Inventor"/>
+		<relation fromEntityRef="Patent6374" toEntityRef="OrgUnit3290" type="Applicant"/>
+	</relations>
+</entity-relation-data>

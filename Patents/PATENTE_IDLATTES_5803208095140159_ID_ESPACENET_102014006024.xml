@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:20" record="14587" source="Espacenet">
+	<entities>
+		<entity ref="Patent14587" type="Patent">
+			<semanticIdentifier>brcris::800307c47f282a56d8a76e0d403bcce9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014006024A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014006024</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014006024A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141006024</semanticIdentifier>
+			<semanticIdentifier>original::102014006024</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014006024"/>
+			<field name="identifier.lattes" value="5803208095140159"/>
+			<field name="identifier.espacenet" value="102014006024"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="arquitetura de hardware de um conversor digital de frequências de uso geral"/>
+			<field name="title.lattes" value="Arquitetura de Hardware de um Conversor Digital de Frequências de Uso Geral"/>
+			<field name="depositDate" value="2014-03-14"/>
+			<field name="publicationDate" value="2015-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABBRYCCIO AKKAZZHA CHAVES MACHADO CARDOSO"/>
+			<field name="inventor" value="FABIANO SILVA MATHILDE"/>
+			<field name="inventor" value="FELIPE AUGUSTO PEREIRA DE FIGUEIREDO"/>
+			<field name="inventor" value="RAFAEL MENDES VILELA"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L27/36AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo arquitetura de hardware de um conversor digital de frequências de uso geral , a presente invenção se aplica ao campo das telecomunicações, mais especificamente à engenharia de hardware, no referente a transmissores digitais. mais especificamente, propõe a arquitetura de hardware de um conversor digital de frequências de uso geral totalmente baseado em hardware reconfigurável, particularmente fpgas, e que utiliza apenas recursos lógicos básicos encontrados em qualquer marca e modelo, incluindo esta arquitetura um filtro polifásico (1b); um multiplicador complexo (2b), e um oscilador em quadratura (3b). a fig. 2 mostra a arquitetura do duc proposto nesta patente. como pode ser visto, o duc tem dois caminhos de entrada idênticos, um para a entrada i, conhecida como sinal em fase, e outra para a entrada q, conhecida como sinal em quadratura. por esta razão, o duc aqui proposto também é referido como um duc complexo. o sinal de entrada passa inicialmente através de um filtro polifásico (1b) que realiza duas tarefas importantes: aumento da taxa de amostragem do sinal de entrada e filtragem das imagens geradas pela interpolação do sinal. ou seja, após a mudança da taxa de amostragem, o sinal complexo é utilizado para modular uma exponencial complexa gerada pelo oscilador em quadratura. o processo de modulação é executado pelo bloco chamado de multiplicador complexo (2b). o resultado do bloco multiplicador complexo (2b) é um sinal com espectro de frequência centrado na frequência desejada, isto é, a frequência gerada pelo oscilador em quadratura (3b), 0 . ?? ?? ?? ?? 1/1"/>
+			<field name="originatesFrom" value="54837584"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014006024"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014006024"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014006024"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141006024"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014006024"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10082" type="Person">
+			<semanticIdentifier>lattes::5803208095140159</semanticIdentifier>
+			<field name="identifier.lattes" value="5803208095140159"/>
+			<field name="name" value="Fabiano Silva Mathilde"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14587" toEntityRef="Person10082" type="Inventor"/>
+	</relations>
+</entity-relation-data>

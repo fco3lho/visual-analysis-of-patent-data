@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:43" record="10978" source="Espacenet">
+	<entities>
+		<entity ref="Patent10978" type="Patent">
+			<semanticIdentifier>brcris::7d91f9393fec27a5864690d8e704ff13</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014020132A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014020132</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014020132A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141020132</semanticIdentifier>
+			<semanticIdentifier>original::102014020132</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014020132"/>
+			<field name="identifier.lattes" value="5284295521212505"/>
+			<field name="identifier.espacenet" value="102014020132"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de biocatalisadores a partir de biomassa para a síntese de ésteres de cadeia curta"/>
+			<field name="title.lattes" value="Processo de produção de biocatalisadores a partir de biomassa para a síntese de ésteres de cadeia curta."/>
+			<field name="depositDate" value="2014-08-14"/>
+			<field name="publicationDate" value="2016-02-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE MACHADO DE CASTRO"/>
+			<field name="inventor" value="BERNARDO DIAS RIBEIRO"/>
+			<field name="inventor" value="DENISE MARIA GUIMARAES FREIRE"/>
+			<field name="inventor" value="ERIKA DE ARAUJO VALONI"/>
+			<field name="inventor" value="MARCELLE ALVES FARIAS"/>
+			<field name="inventor" value="MARIA ALICE ZARUR COELHO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/22AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N9/20AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12P1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C12P7/62AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de biocatalisador a partir de biomassas para a síntese de ésteres de cadeia curta. a presente invenção trata da obtenção de biocatalisadores a base da enzima lipase, produzidas pela levedura yarrowie lipolytica imufrj 50682 (depositada na autoridade depositária do canadá sob o número de acesso 310714-1 em 6 de agosto de 2014), por fermentação em estado sólido, a partir de biomassa. tais biocatalisadores são úteis na síntese de ésteres resultantes da reação de ácidos de cadeia curta com álcoois orgânicos."/>
+			<field name="originatesFrom" value="55303373"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014020132"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014020132"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014020132"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141020132"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014020132"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7666" type="Person">
+			<semanticIdentifier>lattes::5284295521212505</semanticIdentifier>
+			<field name="identifier.lattes" value="5284295521212505"/>
+			<field name="name" value="Denise Maria Guimarães Freire"/>
+		</entity>
+		<entity ref="OrgUnit6105" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10978" toEntityRef="Person7666" type="Inventor"/>
+		<relation fromEntityRef="Patent10978" toEntityRef="OrgUnit6105" type="Applicant"/>
+	</relations>
+</entity-relation-data>

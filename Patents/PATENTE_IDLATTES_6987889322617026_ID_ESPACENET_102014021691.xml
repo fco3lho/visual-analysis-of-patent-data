@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:17" record="15150" source="Espacenet">
+	<entities>
+		<entity ref="Patent15150" type="Patent">
+			<semanticIdentifier>brcris::8f9ef0fbc4c7cc67e3b7659a4205d855</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014021691A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014021691</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014021691A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141021691</semanticIdentifier>
+			<semanticIdentifier>original::102014021691</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014021691"/>
+			<field name="identifier.lattes" value="6987889322617026"/>
+			<field name="identifier.espacenet" value="102014021691"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="hardware para transporte autônomo com veículos rodoviários"/>
+			<field name="title.lattes" value="Transporte Rodoviário Autônomo por Ferrovias Virtuais"/>
+			<field name="depositDate" value="2014-09-02"/>
+			<field name="publicationDate" value="2016-06-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FELIPE NASCIMENTO MARTINS"/>
+			<field name="inventor" value="RAFAEL PEIXOTO DERENZI VIVACQUA"/>
+			<field name="inventor" value="RAQUEL FRIZERA VASSALLO"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ESPIRITO SANTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01D1/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01C21/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="hardware para transporte autônomo com veículos rodoviários a presente invenção refere-se a um sistema de transporte rodoviário autônomo baseado em veículos autônomos operando de maneira similar a trens em ferrovias. neste sistema, um veículo rodoviário comum, como carro, ônibus ou caminhão, pode ser devidamente equipado com sensores e computadores para se auto-dirigir, guiado por trilhos virtuais de uma estação a outra. uma ferrovia virtual é construída a partir de um conjunto de estações interligadas por trilhos virtuais. os trilhos virtuais podem ser qualquer tipo de técnica ou equipamento capaz de guiar o veículo pelo centro da rodovia de modo autônomo, como por exemplo, técnicas avançadas de mapeamento e localização ou ímãs instalados sob o pavimento. as estações servem como ponto de partida e parada para os veículos."/>
+			<field name="originatesFrom" value="56090058"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014021691"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014021691"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014021691"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141021691"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014021691"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10530" type="Person">
+			<semanticIdentifier>lattes::6987889322617026</semanticIdentifier>
+			<field name="identifier.lattes" value="6987889322617026"/>
+			<field name="name" value="Felipe Nascimento Martins"/>
+		</entity>
+		<entity ref="OrgUnit8219" type="OrgUnit">
+			<semanticIdentifier>brcris::83419e83957f7826bbc65caf1899f2da</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+		</entity>
+		<entity ref="OrgUnit8220" type="OrgUnit">
+			<semanticIdentifier>brcris::3db6ffef85a6e836a3855602b9ab13e8</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO ESPIRITO SANTO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15150" toEntityRef="Person10530" type="Inventor"/>
+		<relation fromEntityRef="Patent15150" toEntityRef="OrgUnit8219" type="Applicant"/>
+		<relation fromEntityRef="Patent15150" toEntityRef="OrgUnit8220" type="Applicant"/>
+	</relations>
+</entity-relation-data>

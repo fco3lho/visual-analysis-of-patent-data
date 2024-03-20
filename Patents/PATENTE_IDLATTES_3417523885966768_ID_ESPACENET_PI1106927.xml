@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:18" record="29062" source="Espacenet">
+	<entities>
+		<entity ref="Patent29062" type="Patent">
+			<semanticIdentifier>brcris::dbb6361d2ee8276b8e87a461100cd06b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106927A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1106927</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106927A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI06927</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1106927-9 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1106927"/>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="identifier.espacenet" value="PI1106927"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="maquina de lavar e secar roupas com carregamento superior"/>
+			<field name="title.lattes" value="MAQUINA DE LAVAR E SECAR ROUPAS COM CARREGAMENTO SUPERIOR"/>
+			<field name="depositDate" value="2011-09-26"/>
+			<field name="publicationDate" value="2013-09-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO VOLPATO JUNIOR"/>
+			<field name="inventor" value="ANDERSON DIEGO VIANA"/>
+			<field name="inventor" value="CECILIA MITSUE TOTAKE"/>
+			<field name="inventor" value="CLAUDIO ROBERTO GONCALVES"/>
+			<field name="inventor" value="FABIANO COSTI"/>
+			<field name="inventor" value="LEONARDO GEMBAROWSKI"/>
+			<field name="inventor" value="MARCELO PIEKARSKI"/>
+			<field name="inventor" value="OSCAR LUIZ MADALENA"/>
+			<field name="inventor" value="SIMONE CRISTINA LOMBARDI"/>
+			<field name="inventor" value="VICENTE MARCONCIN VANHAZEBROUCK"/>
+			<field name="applicant" value="ELECTROLUX DO BRASIL S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D06F58/20AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="58"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D06F21/06AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÁQUINA DE LAVAR E SECAR ROUPAS COM CARREGAMENTO SUPERIOR. A presente invenção está relacionada a uma máquina de lavar e secar com carregamento superior. Tal máquina é dotada de um sistema que promove uma secagem da carga úmida no interior do tanque mais rápida e eficiente, quando comparada com outras máquinas do estado da técnica com carregamento superior e que utilizam sistema de secagem por condensação. Isso ocorre porque, na máquina segundo a presente invenção, o ar utilizado para a secagem é renovado a cada ciclo. Além disso, a presente máquina não utiliza água fria durante o processo de secagem, o que reduz bastante o consumo de água da mesma. Para tal, a máquina da presente invenção realiza uma secagem por ventilação e compreende pelo menos uma entrada de ar (12) do ambiente externo, pelo menos um elelmento gerador de fluxo de ar (14, 20) no interior do tanque (5), pelo menos um elemento aquecedor (15) e pelo menos uma saída de ar (17) para o ambiente externo."/>
+			<field name="originatesFrom" value="49083909"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106927"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1106927"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106927"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI06927"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1106927-9 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20028" type="Person">
+			<semanticIdentifier>lattes::3417523885966768</semanticIdentifier>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="name" value="Marcelo Piekarski"/>
+		</entity>
+		<entity ref="OrgUnit15659" type="OrgUnit">
+			<semanticIdentifier>brcris::563718fd486870a6f5996414ff59a7d7</semanticIdentifier>
+			<field name="name" value="ELECTROLUX DO BRASIL S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29062" toEntityRef="Person20028" type="Inventor"/>
+		<relation fromEntityRef="Patent29062" toEntityRef="OrgUnit15659" type="Applicant"/>
+	</relations>
+</entity-relation-data>

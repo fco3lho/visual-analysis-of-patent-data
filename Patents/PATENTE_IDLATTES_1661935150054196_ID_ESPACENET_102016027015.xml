@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:04" record="41903" source="Espacenet">
+	<entities>
+		<entity ref="Patent41903" type="Patent">
+			<semanticIdentifier>brcris::05c841104f4fc19e70553dfd208d1368</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027015A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016027015</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016027015A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161027015</semanticIdentifier>
+			<semanticIdentifier>original::102016027015</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016027015"/>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="identifier.espacenet" value="102016027015"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de comunicação de dados pela rede elétrica de sinais de sensores e controle de atuadores para supervisão e controle de processos industriais"/>
+			<field name="title.lattes" value="DISPOSITIVO DE COMUNICAÇÃO DE DADOS PELA REDE ELÉTRICA DE SINAIS DE SENSORES E CONTROLE DE ATUADORES PARA SUPERVISÃO E CONTROLE DE PROCESSOS INDUSTRIAIS."/>
+			<field name="depositDate" value="2016-11-18"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MURILO OLIVEIRA LEME"/>
+			<field name="inventor" value="SERGIO LUIZ STEVAN JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B3/54AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="54AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção caracteriza-se por um dispositivo eletrônico configurado para coleta de sinais de sensores/atuadores utilizados para realizar supervisão e/ou controle em um ambiente industrial, transmitindo os dados através da rede elétrica existente no ambiente industrial para outro dispositivo configurado como concentrador de dados, o qual recebe as informações dos sensores e transmite via ethernet para um computador local com um sistema de supervisão e/ou controle de um processo industrial ou de forma serial para um computador ou outro dispositivo eletrônico. estes dispositivos, quando configurados para coleta de sinais (chamados de dispositivos remotos) são compostos por sistemas inteligentes de aquisição e condicionamento de sinais dos sensores os quais modulam os dados e os transmitem pela rede elétrica industrial local; de outra forma, estes dispositivos podem ser configurados como módulo concentrador, com capacidade de recepção dos dados via rede elétrica, condicionamento de sinais e conversão dos mesmos para o protocolo de comunicação ethernet ou através de comunicação serial."/>
+			<field name="originatesFrom" value="62845579"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027015"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016027015"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016027015"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161027015"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016027015"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28551" type="Person">
+			<semanticIdentifier>lattes::1661935150054196</semanticIdentifier>
+			<field name="identifier.lattes" value="1661935150054196"/>
+			<field name="name" value="Sergio Luiz Stevan Junior"/>
+		</entity>
+		<entity ref="OrgUnit22339" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41903" toEntityRef="Person28551" type="Inventor"/>
+		<relation fromEntityRef="Patent41903" toEntityRef="OrgUnit22339" type="Applicant"/>
+	</relations>
+</entity-relation-data>

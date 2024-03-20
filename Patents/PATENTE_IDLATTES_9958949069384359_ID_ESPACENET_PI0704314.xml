@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:35" record="14750" source="Espacenet">
+	<entities>
+		<entity ref="Patent14750" type="Patent">
+			<semanticIdentifier>brcris::2e81bc9826fe7135de4a633baad21894</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704314A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0704314</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0704314A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI04314</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0704314-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0704314"/>
+			<field name="identifier.lattes" value="9958949069384359"/>
+			<field name="identifier.espacenet" value="PI0704314"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="plantadora automática de cana picada"/>
+			<field name="title.lattes" value="Plantadora Automática de Cana Picada"/>
+			<field name="depositDate" value="2007-11-21"/>
+			<field name="publicationDate" value="2009-07-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS VINICIUS AMADEO ROSIN"/>
+			<field name="inventor" value="DARLAN ROQUE DAPIEVE"/>
+			<field name="inventor" value="FABIO LUCIO SANTOS"/>
+			<field name="inventor" value="HENRIQUE NAIOTI HIRACAVA"/>
+			<field name="inventor" value="JEAN RODRIGO BOCCA"/>
+			<field name="inventor" value="RICARDO ROGERIO DE SANTANA"/>
+			<field name="inventor" value="RODRIGO DA SILVA CORRAL"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01C11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PLANTADORA AUTOMáTICA DE CANA PICADA. Compreendida pelo uso de um Controlador Lógico Programável, com comandos de controle em um painel de controle junto à cabina (17) do tratorista. Uso de bombas de fluxo variável, com uma espécie de célula de carga (14) no compartimento de carga (4) e um sistema com captura e interpretação de imagens para o controle do nível de mudas no compartimento intermediário (16). Uso de um sistema hidráulico parcialmente independente entre trator e plantadora. Emprego de Polietileno de Ultra Alto Peso Molecular (UHMWPE) nas ponteiras dos sulcadores (2) e subsoladores (1), nas asas dos sulcadores (3), revestindo o compartimento de carga (4) e correias transportadoras (10) e (11)."/>
+			<field name="originatesFrom" value="40873639"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704314"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0704314"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0704314"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI04314"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0704314-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10202" type="Person">
+			<semanticIdentifier>lattes::9958949069384359</semanticIdentifier>
+			<field name="identifier.lattes" value="9958949069384359"/>
+			<field name="name" value="Fábio Lúcio Santos"/>
+		</entity>
+		<entity ref="OrgUnit7977" type="OrgUnit">
+			<semanticIdentifier>brcris::c6e71346825fb2a3951456d69e7ff640</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit7978" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14750" toEntityRef="Person10202" type="Inventor"/>
+		<relation fromEntityRef="Patent14750" toEntityRef="OrgUnit7977" type="Applicant"/>
+		<relation fromEntityRef="Patent14750" toEntityRef="OrgUnit7978" type="Applicant"/>
+	</relations>
+</entity-relation-data>

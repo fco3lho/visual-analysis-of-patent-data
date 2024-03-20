@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:50" record="46070" source="Espacenet">
+	<entities>
+		<entity ref="Patent46070" type="Patent">
+			<semanticIdentifier>brcris::64fd093a69e99f8b4aaeeaa73276011e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013000005A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013000005</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013000005A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131000005</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 000005-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013000005"/>
+			<field name="identifier.lattes" value="2340781002764990"/>
+			<field name="identifier.espacenet" value="102013000005"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="DISPOSITIVO DE MEDIÇÃO ALIMENTADO POR INDUÇÃO MAGNÉTICA DISPERSA EM CONDUTORES ELÉTRICOS."/>
+			<field name="title.lattes" value="DISPOSITIVO DE MEDIÇÃO POR INDUÇÃO MAGNÉTICA DISPERSA EM ALIMENTADO POR INDUÇÃO MAGNÉTICA DISPERSA EM CONDUTORES ELÉTRICOS"/>
+			<field name="depositDate" value="2012-12-19"/>
+			<field name="publicationDate" value="2014-12-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLEONILSON PROTASIO DE SOUZA"/>
+			<field name="inventor" value="TARCISIO OLIVEIRA DE MORAES JUNIOR"/>
+			<field name="inventor" value="YURI PERCY MOLINA RODRIGUEZ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01D21/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02J50/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04B7/24AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO DE MEDIÇÃO ALIMENTADO POR INDUÇÃO MAGNÉTICA DISPERSA EM CONDUTORES ELÉTRICOS. Dispositivo de medição alimentado pela energia do campo magnético disperso e envolta de condutores elétricos presentes em rede elétrica de transmissão, distribuição ou de fornecimento de energia por onde passa uma corrente elétrica e capaz de realizar medições de grandezas do ambiente ao redor do dito condutor. O dito dispositivo é capaz de recuperar a energia do campo magnético disperso e envolva do condutor elétrico através de um enrolamento e de um núcleo formado por material magnético, sem uso de enrolamento primário normalmente usado em transformadores. Essa energia é utilizada para alimentar o próprio dispositivo a fim de realizar medições de grandezas do ambiente em volta do condutor. Réplicas do dito dispositivo podem formar uma rede de comunicação a fim de interagirem entre si com objetivo de aumentar a precisão das medições ou diminuir as incertezas das medições, e aumentar o alcance da rede possibilitando comunicação à longa destância."/>
+			<field name="originatesFrom" value="52129874"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013000005"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013000005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013000005"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131000005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 000005-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31473" type="Person">
+			<semanticIdentifier>lattes::2340781002764990</semanticIdentifier>
+			<field name="identifier.lattes" value="2340781002764990"/>
+			<field name="name" value="Yuri Percy Molina Rodriguez"/>
+		</entity>
+		<entity ref="OrgUnit24675" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent46070" toEntityRef="Person31473" type="Inventor"/>
+		<relation fromEntityRef="Patent46070" toEntityRef="OrgUnit24675" type="Applicant"/>
+	</relations>
+</entity-relation-data>

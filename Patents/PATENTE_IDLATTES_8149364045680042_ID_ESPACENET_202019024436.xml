@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:09" record="36285" source="Espacenet">
+	<entities>
+		<entity ref="Patent36285" type="Patent">
+			<semanticIdentifier>brcris::b90b30dd27ba36ef30075fe0a67bbf30</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019024436U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019024436U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019024436U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192024436U</semanticIdentifier>
+			<semanticIdentifier>original::202019024436</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019024436"/>
+			<field name="identifier.lattes" value="8149364045680042"/>
+			<field name="identifier.espacenet" value="202019024436"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="queimador de biomassa automatizado com microcontrolador"/>
+			<field name="title.lattes" value="Queimador de biomassa automatizado com microcontrolador"/>
+			<field name="depositDate" value="2019-11-20"/>
+			<field name="publicationDate" value="2021-06-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDILIO MOACIR ANTONIOLLI"/>
+			<field name="inventor" value="FABIANA COSTA DE ARAUJO SCHUTZ"/>
+			<field name="inventor" value="PEDRO LUIZ DE PAULA FILHO"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F23L5/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F23B40/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="F23L17/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="queimador de biomassa automatizado com microcontrolador. refere-se a um queimador de biomassa com câmara de combustão em formato cônico (1), com alimentador e insuflamento de ar automatizados por microcontrolador. o fornecimento de combustível acontece de forma gradual de acordo com a temperatura. uma helicóide (3) e pequenos anteparos (9) nos orifícios (8) aumentam o percurso do ar na câmara de combustão (1), formando um vórtice com os produtos da combustão, homogeneizando a mistura do ar com os gases da combustão, completando assim sua queima. os orifícios axiais (21) diminuem a pressão do ar, resfriam o disco (7) e arrefecem a tampa do bocal (6) e suprem a falta de oxigênio para as reações químicas da combustão, aumentando a vida útil do bocal de queima e diminuindo as emissões."/>
+			<field name="originatesFrom" value="76726192"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019024436"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019024436U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019024436"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192024436U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019024436"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24972" type="Person">
+			<semanticIdentifier>lattes::8149364045680042</semanticIdentifier>
+			<field name="identifier.lattes" value="8149364045680042"/>
+			<field name="name" value="Pedro Luiz de Paula Filho"/>
+		</entity>
+		<entity ref="OrgUnit19603" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36285" toEntityRef="Person24972" type="Inventor"/>
+		<relation fromEntityRef="Patent36285" toEntityRef="OrgUnit19603" type="Applicant"/>
+	</relations>
+</entity-relation-data>

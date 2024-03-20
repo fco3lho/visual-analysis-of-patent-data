@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:27:08" record="43322" source="Espacenet">
+	<entities>
+		<entity ref="Patent43322" type="Patent">
+			<semanticIdentifier>brcris::fe9d3cfd8b58bcd69c152493c39a30f9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015009867A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015009867</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015009867A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151009867</semanticIdentifier>
+			<semanticIdentifier>original::102015009867</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015009867"/>
+			<field name="identifier.lattes" value="0677212446736764"/>
+			<field name="identifier.espacenet" value="102015009867"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de resfriamento de corpos de prova por fluidos criogênicos em simuladores termomecânicos"/>
+			<field name="title.lattes" value="Sistema de resfriamento de corpos de prova por fluidos criogênicos em simuladores termomecânicos"/>
+			<field name="depositDate" value="2015-04-30"/>
+			<field name="publicationDate" value="2017-07-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO JOSE RAMIREZ LONDONO"/>
+			<field name="inventor" value="EDUARDO BERTONI DA FONSECA"/>
+			<field name="inventor" value="LEONARDO WU"/>
+			<field name="inventor" value="THAIS CRISTINA ALONSO"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/42AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G12B15/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo sistema de resfriamento de corpos de prova por fluidos criogênicos em simuladores termomecânicos a presente invenção refere-se a um sistema de resfriamento de corpos de prova por fluidos criogênicos em simuladores termomecânicos, que pode ser usado em simuladores termomecânicos gleeble®, permitindo o resfriamento interno e externo de corpos de prova por fluidos criogênicos de resfriamento, preferencialmente o nitrogênio líquido. o dispositivo é versátil para resfriamento de corpos de prova de diferentes geometrias e formatos, e mantém os corpos de prova em temperatura constante por tempos longos de ensaio garantindo um resfriamento eficiente e possibilitando simulações sob condições controladas a temperaturas abaixo da ambiente e temperaturas abaixo de 0 °c, com taxas de resfriamento variável que podem atingir um máximo de 170 °c/s."/>
+			<field name="originatesFrom" value="57197964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015009867"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015009867"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015009867"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151009867"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015009867"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2016172778"/>
+		</entity>
+		<entity ref="Person29603" type="Person">
+			<semanticIdentifier>lattes::0677212446736764</semanticIdentifier>
+			<field name="identifier.lattes" value="0677212446736764"/>
+			<field name="name" value="Thaís Cristina Alonso"/>
+		</entity>
+		<entity ref="OrgUnit23224" type="OrgUnit">
+			<semanticIdentifier>brcris::8259a83e0c1f2225da8affeb25618bf4</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+		</entity>
+		<entity ref="Patent43323" type="Patent">
+			<semanticIdentifier>epodoc::WO2016172778</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="57197964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2016172778"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43322" toEntityRef="Person29603" type="Inventor"/>
+		<relation fromEntityRef="Patent43322" toEntityRef="OrgUnit23224" type="Applicant"/>
+	</relations>
+</entity-relation-data>

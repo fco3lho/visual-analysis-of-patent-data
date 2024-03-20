@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:54" record="1096" source="Espacenet">
+	<entities>
+		<entity ref="Patent1096" type="Patent">
+			<semanticIdentifier>brcris::d9e3bee302ba41191f232f005ef8d88f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013022175A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013022175</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013022175A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131022175</semanticIdentifier>
+			<semanticIdentifier>original::102013022175</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013022175"/>
+			<field name="identifier.lattes" value="7856044707970587"/>
+			<field name="identifier.espacenet" value="102013022175"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="ferrule para caldeiras e trocadores de calor"/>
+			<field name="title.lattes" value="FERRULE PARA CALDEIRAS E TROCADORES DE CALOR"/>
+			<field name="depositDate" value="2013-08-30"/>
+			<field name="publicationDate" value="2015-12-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALCEO CARTA NETO"/>
+			<field name="inventor" value="PAULO ROBERTO PINHEIRO AMARAL"/>
+			<field name="inventor" value="ROBERTO GLIESE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F22B37/08AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ferrule para caldeiras e trocadores de calor o equipamento para caldeiras e trocadores de calor se aplica a indústria química e petrolífera e, mais especificamente se refere a um ferrule para caldeiras e trocadores de calor, sendo constituído por um tubo com flange em uma das extremidades e bloco com furo constituído de duas ou mais partes, permitindo a utilização de manta isolante entre as partes do bloco e a utilização destas partes fabricadas em materiais diferentes."/>
+			<field name="originatesFrom" value="55082700"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013022175"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013022175"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013022175"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131022175"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013022175"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person804" type="Person">
+			<semanticIdentifier>lattes::7856044707970587</semanticIdentifier>
+			<field name="identifier.lattes" value="7856044707970587"/>
+			<field name="name" value="Alceo Carta Neto"/>
+		</entity>
+		<entity ref="OrgUnit641" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1096" toEntityRef="Person804" type="Inventor"/>
+		<relation fromEntityRef="Patent1096" toEntityRef="OrgUnit641" type="Applicant"/>
+	</relations>
+</entity-relation-data>

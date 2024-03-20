@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:15" record="777" source="Espacenet">
+	<entities>
+		<entity ref="Patent777" type="Patent">
+			<semanticIdentifier>brcris::772c6d41257fe99d2a02f498bac005a8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019017745U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019017745U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019017745U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192017745U</semanticIdentifier>
+			<semanticIdentifier>original::202019017745</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019017745"/>
+			<field name="identifier.lattes" value="5154345089398804"/>
+			<field name="identifier.espacenet" value="202019017745"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="solução integrada de configuração automatizada para ativos de rede"/>
+			<field name="title.lattes" value="Solução integrada de configuração automatizada para ativos de rede"/>
+			<field name="depositDate" value="2019-08-26"/>
+			<field name="publicationDate" value="2021-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AECIO DOS SANTOS PIRES"/>
+			<field name="inventor" value="MARCELO PORTELA SOUSA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA PARAIBA"/>
+			<field name="applicant" value="UNIREDE INFORMATICA EIRELI - EPP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L12/24AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente modelo de utilidade descreve dois processos escritos como código que permitem criar uma solução de software formada pela integração de outros softwares que realizam o versionamento de código, a integração contínua, a gerência de configuração e o envio de emails e notificações. a solução é chamada de pipeconf e proporciona a criação de pipelines que automatizam o backup e a implantação de novas configurações em switches e roteadores de diferentes modelos e fabricantes, utilizando a abordagem infrastructure as code - iac. o pipeconf apresenta baixa curva de aprendizagem para ser ultilizada por uma equipe de administradores de rede e gera um aumento na produtividade, padronização das configurações, redução de trabalho repetitivo e rastreabilidade de mudanças nas configurações dos equipamentos de rede."/>
+			<field name="originatesFrom" value="75237099"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019017745"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019017745U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019017745"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192017745U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019017745"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person544" type="Person">
+			<semanticIdentifier>lattes::5154345089398804</semanticIdentifier>
+			<field name="identifier.lattes" value="5154345089398804"/>
+			<field name="name" value="Aecio dos Santos Pires"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent777" toEntityRef="Person544" type="Inventor"/>
+	</relations>
+</entity-relation-data>

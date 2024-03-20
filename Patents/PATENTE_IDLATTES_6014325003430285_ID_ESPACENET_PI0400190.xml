@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:26" record="38399" source="Espacenet">
+	<entities>
+		<entity ref="Patent38399" type="Patent">
+			<semanticIdentifier>brcris::e31fa5f1afba0c6750f96b4327c2537c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400190A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0400190</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400190A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI00190</semanticIdentifier>
+			<semanticIdentifier>original::0400190-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0400190"/>
+			<field name="identifier.lattes" value="6014325003430285"/>
+			<field name="identifier.espacenet" value="PI0400190"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Modelos de meios porosos e método de preparação"/>
+			<field name="title.lattes" value="Modelos de Meios Porosos e Método de Preparação"/>
+			<field name="depositDate" value="2004-03-10"/>
+			<field name="publicationDate" value="2005-11-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AFFONSO CARLOS SEABRA DA SILVA TELLES"/>
+			<field name="inventor" value="CARLOS HENRIQUE VIERA ARAUJO"/>
+			<field name="inventor" value="IVONETE PEREIRA GONZALEZ DA SILVA"/>
+			<field name="inventor" value="MARIA APARECIDA DE MELO"/>
+			<field name="inventor" value="RICARDO PIRES PECANHA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N15/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MODELOS DE MEIOS POROSOS E MéTODO DE PREPARAçãO&quot;. Modelos de meios porosos, com distribuição uniforme de poros, são consolidados a partir de areia tratada e um adesivo, em proporções definidas entre 5 e 15 % m/m de adesivo, por um método de preparação sob condições controladas para obter valores de porosidade entre 18 e 27 % e permeabilidade entre 500 a 4000 mD. Tais propriedades, especificadas e reprodutíveis, viabilizam a utilização de destes modelos de meios porosos, homogêneos, como padrões para testes de simulação de escoamento de fluidos em rochas porosas, em laboratório, com destaque para estudos de recuperação suplementar em reservatórios de petróleo."/>
+			<field name="originatesFrom" value="35295200"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400190"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0400190"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400190"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI00190"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0400190-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26430" type="Person">
+			<semanticIdentifier>lattes::6014325003430285</semanticIdentifier>
+			<field name="identifier.lattes" value="6014325003430285"/>
+			<field name="name" value="Ricardo Pires Peçanha"/>
+		</entity>
+		<entity ref="OrgUnit20715" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38399" toEntityRef="Person26430" type="Inventor"/>
+		<relation fromEntityRef="Patent38399" toEntityRef="OrgUnit20715" type="Applicant"/>
+	</relations>
+</entity-relation-data>

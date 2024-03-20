@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:53" record="93" source="Espacenet">
+	<entities>
+		<entity ref="Patent93" type="Patent">
+			<semanticIdentifier>brcris::4b8c8e2963e9e694ab2adc033782c21d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802588A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0802588</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802588A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI02588</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0802588-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0802588"/>
+			<field name="identifier.lattes" value="2793740911505627"/>
+			<field name="identifier.espacenet" value="PI0802588"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="fibra obtida a partir de resìduos agroindustriais, processo para sua preparação e produto compreendendo tal fibra"/>
+			<field name="title.lattes" value="Fibra obtida a partir de resíduos agroindustriais, processos para sua preparação e produto compreendendo tal fibra"/>
+			<field name="depositDate" value="2008-08-13"/>
+			<field name="publicationDate" value="2010-04-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADALBERTO PESSOA JR"/>
+			<field name="inventor" value="ADALBERTO PESSOA JUNIOR"/>
+			<field name="inventor" value="SILGIA APARECIDA DA COSTA"/>
+			<field name="inventor" value="SIRLENE MARIA DA COSTA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D01F2/24AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D01F11/02AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="FIBRA OBTIDA A PARTIR DE RESìDUOS AGROINDUSTRIAIS, PROCESSO PARA SUA PREPARAçãO E PRODUTO COMPREENDENDO TAL FIBRA. A presente invenção é direcionada à obtenção de fibras a partir de resíduos agroindustrias, em especial de matéria-prima vegetal. Em especial, a presente invenção propõe a utilização do bagaço de cana-de-açúcar, assim como um processo para sua preparaçao. Especificamente, as fibras obtidas na presente invenção podem ter aplicação têxtil e/ou conter substâncias ativas, tais como medicamentos, enzimas, proteínas ou revestimentos especiais com ação medicamentosa aderidos ás fibras por adsorção, incorporação na estrutura do gel ou ligação covalente."/>
+			<field name="originatesFrom" value="42062640"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802588"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0802588"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802588"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI02588"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0802588-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person67" type="Person">
+			<semanticIdentifier>lattes::2793740911505627</semanticIdentifier>
+			<field name="identifier.lattes" value="2793740911505627"/>
+			<field name="name" value="Adalberto Pessoa Junior"/>
+		</entity>
+		<entity ref="OrgUnit52" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit53" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent93" toEntityRef="Person67" type="Inventor"/>
+		<relation fromEntityRef="Patent93" toEntityRef="OrgUnit52" type="Applicant"/>
+		<relation fromEntityRef="Patent93" toEntityRef="OrgUnit53" type="Applicant"/>
+	</relations>
+</entity-relation-data>

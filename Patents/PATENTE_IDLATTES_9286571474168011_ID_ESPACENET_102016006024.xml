@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:19" record="9235" source="Espacenet">
+	<entities>
+		<entity ref="Patent9235" type="Patent">
+			<semanticIdentifier>brcris::5c6ae0db92379776874357e4dfb5efd1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006024A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016006024</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006024A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161006024</semanticIdentifier>
+			<semanticIdentifier>original::102016006024</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016006024"/>
+			<field name="identifier.lattes" value="9286571474168011"/>
+			<field name="identifier.espacenet" value="102016006024"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo portátil de detecção de desvio embutido de energia elétrica"/>
+			<field name="title.lattes" value="DISPOSITIVO PORTÁTIL DE DETECÇÃO DE DESVIO EMBUTIDO DE ENERGIA ELÉTRICA"/>
+			<field name="depositDate" value="2016-03-18"/>
+			<field name="publicationDate" value="2017-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLEBER VINICIUS RIBEIRO DE ALMEIDA"/>
+			<field name="inventor" value="DENIS GILBERT FRANCIS DAVID"/>
+			<field name="inventor" value="GABRIEL FERREIRA ARJONES ABRIL"/>
+			<field name="inventor" value="GUSTAVO MOURA COSTA"/>
+			<field name="inventor" value="PLINIO BARBOSA DA SILVA"/>
+			<field name="inventor" value="THIERRY JACQUES LEMAIRE"/>
+			<field name="applicant" value="COMPANHHIA DE ELETRICIDADE DO ESTADO DA BAHIA - COELBA"/>
+			<field name="applicant" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA - UFBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R11/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo portátil de detecção de desvio embutido de energia elétrica. a presente invenção trata-se de um dispositivo relacionado ao setor de instrumentação física de medição, especificamente no campo de medições de sinais acústicos, elétricos e magnéticos, na qual são aplicados métodos físicos, acústico e magnéticos de detecção de sinais em eletrodutos de ramais de entradas de baixa tensão de unidades consumidoras e nas suas vizinhanças com o objetivo de detectar desvios embutidos de energia elétrica em paredes, pisos e tetos. os procedimentos são seguros e rápidos em relação aos sistemas existentes permitindo um aumento da produtividade do setor de fiscalização de furto de energia elétrica, assim como permitindo uma diminuição da taxa de alarmes falsos, reduzindo assim consequentemente o prejuízo das concessionárias de distribuição de energia elétrica, devido ao furto de energia elétrica, e por via de consequência beneficiando os consumidores. o dispositivo completo que implementa esses métodos é constituído por: um detector de dispositivos embutidos (dde) (101), um gerador de áudio externo (102), que se comunica com o dde por meio de radiofrequência, um microfone (104) acoplado ao dde por meio de um cabo de áudio (112); e, por fim, um computador portátil (106) cujo aplicativo nele instalado se comunica com o dde por meio de intertace bluetooth (107) para parametrização, coleta, tratamento e exibição de dados. o dde é conectado à fase (ou a uma das fases) e ao neutro, ou entre duas fases, da entrada do medidor por meio de um cabo com dois conectores."/>
+			<field name="originatesFrom" value="62027695"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006024"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016006024"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006024"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161006024"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016006024"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6316" type="Person">
+			<semanticIdentifier>lattes::9286571474168011</semanticIdentifier>
+			<field name="identifier.lattes" value="9286571474168011"/>
+			<field name="name" value="Cleber Vinícius Ribeiro de Almeida"/>
+		</entity>
+		<entity ref="OrgUnit4987" type="OrgUnit">
+			<semanticIdentifier>brcris::38368f6669cd664eca00f3544d02ea28</semanticIdentifier>
+			<field name="name" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9235" toEntityRef="Person6316" type="Inventor"/>
+		<relation fromEntityRef="Patent9235" toEntityRef="OrgUnit4987" type="Applicant"/>
+	</relations>
+</entity-relation-data>

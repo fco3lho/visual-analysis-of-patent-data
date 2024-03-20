@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:12" record="5843" source="Espacenet">
+	<entities>
+		<entity ref="Patent5843" type="Patent">
+			<semanticIdentifier>brcris::4b2d202208878379d83120a66c44c4e6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005579A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015005579</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005579A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151005579</semanticIdentifier>
+			<semanticIdentifier>original::102015005579</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015005579"/>
+			<field name="identifier.lattes" value="2974585773521551"/>
+			<field name="identifier.espacenet" value="102015005579"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para alocação de tarefas em cenários dinâmicos"/>
+			<field name="title.lattes" value="Método para Alocação de Tarefas em Cenários Dinâmicos"/>
+			<field name="depositDate" value="2015-03-12"/>
+			<field name="publicationDate" value="2016-10-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREW KOSTER"/>
+			<field name="inventor" value="ARTUR FREITAS"/>
+			<field name="inventor" value="FELIPE RECH MENEGUZZI"/>
+			<field name="inventor" value="RAFAEL HEITOR BORDINI"/>
+			<field name="inventor" value="RENATA VIEIRA"/>
+			<field name="applicant" value="SAMSUNG ELETRONICA DA AMAZONIA LTDA"/>
+			<field name="applicant" value="UNIAO BRASILEIRA DE EDUCACAO E ASSISTENCIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06Q10/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q50/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para alocação de tarefas em cenários dinâmicos. a presente invenção refere-se a um método para alocação de tarefas em grupos de trabalho que compreende as etapas de apresentar uma interface gráfica (270) inicial (etapa 110); receber um comando de usuário para uma nova alocação de tarefa (etapa 120); verificar se a nova alocação de tarefa é válida (etapa 130) de acordo com bases de conhecimento de pessoas (210) e tarefas (220) através de uma máquina de raciocínio semântico (240); se a nova alocação de tarefa é inválida, informar ao usuário sobre erros ou inconsistências (etapa 140) e retornar a interface inicial (etapa 110); se a nova alocação de tarefa é válida, verificar se a alocação é completa (etapa 150): se a nova alocação de tarefa é incompleta, atualizar automaticamente a interface de usuário para mostrar somente as alternativas válidas considerando o contexto atual, e esconder as opções inválidas (etapa 160), permitindo ao usuário completar a alocação de tarefa; se a nova alocação de tarefa é válida e completa, atualizar as bases de conhecimento de pessoas e de tarefas para incluir a nova alocação de tarefa (etapa 170) na interface visual de tarefas alocadas (260); gerar atribuições de tarefas para todos os usuários envolvidos na referida alocação de tarefa específica (etapa 180); notificar os usuários envolvidos sobre a nova alocação de tarefa específica (etapa 190) e reconfigurar a interface de alocação de tarefas."/>
+			<field name="originatesFrom" value="57127872"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005579"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015005579"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005579"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151005579"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015005579"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3848" type="Person">
+			<semanticIdentifier>lattes::2974585773521551</semanticIdentifier>
+			<field name="identifier.lattes" value="2974585773521551"/>
+			<field name="name" value="Artur Luiz Silva da Cunha Freitas"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5843" toEntityRef="Person3848" type="Inventor"/>
+	</relations>
+</entity-relation-data>

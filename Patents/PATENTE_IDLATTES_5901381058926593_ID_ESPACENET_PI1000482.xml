@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:04" record="15028" source="Espacenet">
+	<entities>
+		<entity ref="Patent15028" type="Patent">
+			<semanticIdentifier>brcris::ca39580af521aed515c762fc33630f21</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000482A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1000482</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000482A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI00482</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1000482-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1000482"/>
+			<field name="identifier.lattes" value="5901381058926593"/>
+			<field name="identifier.espacenet" value="PI1000482"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo de preparaÇço e uso de nanopartÍculas de alfa hidràxido de nÍquel na forma de sol e gel"/>
+			<field name="title.lattes" value="Método de Preparação e Uso de Nanopartículas de Alfa- Hidróxido de Níquel na Forma de Sol e Gel"/>
+			<field name="depositDate" value="2010-02-19"/>
+			<field name="publicationDate" value="2012-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FAUZE JACO ANAISSI"/>
+			<field name="inventor" value="HENRIQUE EISI TOMA"/>
+			<field name="inventor" value="KOITI ARAKI"/>
+			<field name="inventor" value="MICHELE APARECIDA ROCHA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE - UNICENTRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01G53/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01M4/32AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO DE PREPARAÇçO E USO DE NANOPARTÍCULAS DE ALFA HIDRàXIDO DE NÍQUEL NA FORMA DE SOL E GEL A presente invenção refere-se a nanomateriais a base de nanopartículas de alfa hidróxido de níquel estabilizado que podem ser facilmente processados na forma de emulsão ou pá, gerando eletrodos que se caracterizam por serem nanoestruturados e apresentarem elevada estabilidade e reversibilidade eletroquímica, elevada capacidade de carga/descarga e atividade eletrocatalítica, podendo ser empregados para o desenvolvimento de dispositivos tais como baterias, sensores, dispositivos eletrocrômicos e supercapacitores eletroquímicos."/>
+			<field name="originatesFrom" value="45768012"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000482"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1000482"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000482"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI00482"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1000482-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10429" type="Person">
+			<semanticIdentifier>lattes::5901381058926593</semanticIdentifier>
+			<field name="identifier.lattes" value="5901381058926593"/>
+			<field name="name" value="Fauze Jaco Anaissi"/>
+		</entity>
+		<entity ref="OrgUnit8139" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit8140" type="OrgUnit">
+			<semanticIdentifier>brcris::02fb41ca5acb02a2a10d532eadacca40</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE - UNICENTRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15028" toEntityRef="Person10429" type="Inventor"/>
+		<relation fromEntityRef="Patent15028" toEntityRef="OrgUnit8139" type="Applicant"/>
+		<relation fromEntityRef="Patent15028" toEntityRef="OrgUnit8140" type="Applicant"/>
+	</relations>
+</entity-relation-data>

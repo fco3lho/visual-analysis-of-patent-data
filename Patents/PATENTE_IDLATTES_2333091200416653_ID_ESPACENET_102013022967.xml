@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:32" record="16432" source="Espacenet">
+	<entities>
+		<entity ref="Patent16432" type="Patent">
+			<semanticIdentifier>brcris::bb2a51c6572ca8107d200e0ccbd3b41c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013022967A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013022967</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013022967A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131022967</semanticIdentifier>
+			<semanticIdentifier>original::102013022967</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013022967"/>
+			<field name="identifier.lattes" value="2333091200416653"/>
+			<field name="identifier.espacenet" value="102013022967"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema estrutural estaiado tipo árvore"/>
+			<field name="title.lattes" value="Sistema Estrutural Estaiada Tipo Árvore"/>
+			<field name="depositDate" value="2013-09-09"/>
+			<field name="publicationDate" value="2016-04-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLITO CALIL JUNIOR"/>
+			<field name="inventor" value="DECIO GONCALVES"/>
+			<field name="inventor" value="FRANCISCO ANTONIO ROCCO LAHR"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E04B1/34AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema estrutural estaiado tipo árvore a presente invenção trata de um sistema estrutural estaiado tipo árvore consistido de um pilar de sustentação 5 (l); um módulo base (2) que serve de apoio a toda a estrutura; um módulo laje (3) que se apoia sobre o módulo base (2) e ao menos um cabo de estaiamento (4)."/>
+			<field name="originatesFrom" value="55850982"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013022967"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013022967"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013022967"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131022967"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013022967"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11399" type="Person">
+			<semanticIdentifier>lattes::2333091200416653</semanticIdentifier>
+			<field name="identifier.lattes" value="2333091200416653"/>
+			<field name="name" value="Francisco Antonio Rocco Lahr"/>
+		</entity>
+		<entity ref="OrgUnit8939" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16432" toEntityRef="Person11399" type="Inventor"/>
+		<relation fromEntityRef="Patent16432" toEntityRef="OrgUnit8939" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:48" record="24079" source="Espacenet">
+	<entities>
+		<entity ref="Patent24079" type="Patent">
+			<semanticIdentifier>brcris::956776cb8dda24506bf8a8c459145e70</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300079A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0300079</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300079A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030300079</semanticIdentifier>
+			<semanticIdentifier>original::0300079-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0300079"/>
+			<field name="identifier.lattes" value="8109297452581881"/>
+			<field name="identifier.espacenet" value="0300079"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Aplicação de resinas flexográficas em tecnologia de microssistemas"/>
+			<field name="title.lattes" value="APLICAÇÃO DE RESINAS FLEXOGRÁFICAS EM TECNOLOGIA DE MICROSSISTEMAS"/>
+			<field name="depositDate" value="2003-01-06"/>
+			<field name="publicationDate" value="2004-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JULIO CESAR BASTOS FERNANDES"/>
+			<field name="inventor" value="LUIZ OTAVIO SARAIVA FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08G18/62AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G03F7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;APLICAçãO DE RESINAS FLEXOGRáFICAS EM TECNOLOGIA DE MICROSSISTEMAS&quot;. Resinas utilizadas comumente em processos flexográficos foram desenvolvidas para aplicação em tecnologia de microssistemas. Microssistemas têm sido um campo científico de considerável avanço na última década. O interesse na miniaturização de instrumentos analíticos químicos e bioquímicos ou máquinas mecânicas tem gerado muitas áreas de interesse, principalmente no campo de desenvolvimento de resinas fotossensíveis à radiação ultravioleta e raios-X. Vários aparelhos têm sido fabricados usando a tecnologia de microssistemas, tais como micromáquinas para a separação de DNA, eletrocromatografia e eletroforese capilar, além de microssistemas eletromecânicos como acelerómetros, sensores de pressão, umidade, poluição, temperatura, dentre outros. As resinas foram testadas em litografia profunda no ultravioleta e raios-X, litografia soft e de nanoestampagem, micromolde para eletroformação, na construção de dispositivos microfluídicos e como microlente."/>
+			<field name="originatesFrom" value="33102804"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300079"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0300079"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300079"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030300079"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0300079-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16724" type="Person">
+			<semanticIdentifier>lattes::8109297452581881</semanticIdentifier>
+			<field name="identifier.lattes" value="8109297452581881"/>
+			<field name="name" value="Julio Cesar Bastos Fernandes"/>
+		</entity>
+		<entity ref="OrgUnit12969" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24079" toEntityRef="Person16724" type="Inventor"/>
+		<relation fromEntityRef="Patent24079" toEntityRef="OrgUnit12969" type="Applicant"/>
+	</relations>
+</entity-relation-data>

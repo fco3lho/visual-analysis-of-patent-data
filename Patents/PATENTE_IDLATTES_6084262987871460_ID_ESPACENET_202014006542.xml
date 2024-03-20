@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:51" record="33316" source="Espacenet">
+	<entities>
+		<entity ref="Patent33316" type="Patent">
+			<semanticIdentifier>brcris::78979ed1c272932d5ad0c6c7a471ba02</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014006542U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202014006542U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014006542U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20142006542U</semanticIdentifier>
+			<semanticIdentifier>original::202014006542</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202014006542"/>
+			<field name="identifier.lattes" value="6084262987871460"/>
+			<field name="identifier.espacenet" value="202014006542"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="broqueiro"/>
+			<field name="title.lattes" value="Broqueiro"/>
+			<field name="depositDate" value="2014-03-19"/>
+			<field name="publicationDate" value="2016-04-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO KENJI SHIMOKAWA"/>
+			<field name="inventor" value="GLAUCO FIORANELLI VIEIRA"/>
+			<field name="inventor" value="MILENA TRAVERSA PALAZON"/>
+			<field name="inventor" value="MIRIAM LACALLE TURBINO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B65D85/24AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="65"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="85"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="broqueiro o presente modelo de utilidade trata de um broqueiro consistido de um estojo (1) e dispositivos identificadores (2) de instrumentos odontológicos, que permite a identificação fácil e rápida do o instrumento odontológico nele contido, além. da especialidade odontológica e uso específico a qual o instrumento é indicado."/>
+			<field name="originatesFrom" value="55851138"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014006542"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202014006542U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014006542"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20142006542U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202014006542"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202014006542Y"/>
+		</entity>
+		<entity ref="Person22979" type="Person">
+			<semanticIdentifier>lattes::6084262987871460</semanticIdentifier>
+			<field name="identifier.lattes" value="6084262987871460"/>
+			<field name="name" value="Míriam Lacalle Turbino"/>
+		</entity>
+		<entity ref="OrgUnit17934" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent33317" type="Patent">
+			<semanticIdentifier>epodoc::BR202014006542Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="55851138"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202014006542Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33316" toEntityRef="Person22979" type="Inventor"/>
+		<relation fromEntityRef="Patent33316" toEntityRef="OrgUnit17934" type="Applicant"/>
+	</relations>
+</entity-relation-data>

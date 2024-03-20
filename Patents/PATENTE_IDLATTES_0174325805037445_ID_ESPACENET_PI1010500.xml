@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:45" record="23" source="Espacenet">
+	<entities>
+		<entity ref="Patent23" type="Patent">
+			<semanticIdentifier>brcris::aa684bca51aaff5542768f40bdb19651</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1010500A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1010500</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1010500A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI10500</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1010500</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1010500"/>
+			<field name="identifier.lattes" value="0174325805037445"/>
+			<field name="identifier.espacenet" value="PI1010500"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para a preparação de nanobiocompósitos reforçados com nanopartículas de celulose tipo nanowhiskers"/>
+			<field name="title.lattes" value="Reator Eletrocoagulador para tratamento de águas residuárias."/>
+			<field name="depositDate" value="2010-12-23"/>
+			<field name="publicationDate" value="2016-01-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNA APARECIDA SOUZA MACHADO"/>
+			<field name="inventor" value="FABIANO VARGAS PEREIRA"/>
+			<field name="inventor" value="JANIA BETANIA ALVES DA SILVA"/>
+			<field name="inventor" value="JANICE IZABEL DRUZIAN"/>
+			<field name="inventor" value="LARISSA ALVES DE SOUZA COSTA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS - UFMG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B29K201/00AN"/>
+				<field name="section" value="B"/>
+				<field name="class" value="29"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="201"/>
+				<field name="subgroup" value="00AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para a preparação de nanobiocompósitos reforçados com nanopartículas de celulose tipo nanowhiskers. a presente invenção refere-se á preparação de nanobiocompósitos reforçados com nanobiofios (nanowhiskers) de celulose e corpos extrudados com propriedades melhoradas, utilizando uma matriz biodegradável que não agrida o meio ambiente. o processo de incorporação destes nanobiofios (nanowhiskers) de celulose de diferentes fontes vegetais para reforço mecânico, de barreira e térmico de matrizes poliméricas biodegradáveis, como o amido, goma xantana, poli(3-hidroxobutirato), poli(ácido lático), poli (e-caprolactona) e poli(butileno-adipato-co-tereftalato) entre outros, além de blendas destas. os nanobiocompósitos podem ser utilizados como, embalagens, além de outras aplicações, os quais originados deste são preparados elos processo como casting ou por extrusão, com propriedades ecânicas, de barreira, térmicas, melhoradas devido à incorporação os nanobiofios."/>
+			<field name="originatesFrom" value="55084533"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1010500"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1010500"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1010500"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI10500"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1010500"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19" type="Person">
+			<semanticIdentifier>lattes::0174325805037445</semanticIdentifier>
+			<field name="identifier.lattes" value="0174325805037445"/>
+			<field name="name" value="Abel Coelho da Silva Neto"/>
+		</entity>
+		<entity ref="OrgUnit14" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23" toEntityRef="Person19" type="Inventor"/>
+		<relation fromEntityRef="Patent23" toEntityRef="OrgUnit14" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:22" record="33658" source="Espacenet">
+	<entities>
+		<entity ref="Patent33658" type="Patent">
+			<semanticIdentifier>brcris::4a93b82b19bd482ab668f35bbc553465</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9001786A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9001786</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9001786A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19909001786</semanticIdentifier>
+			<semanticIdentifier>original::90 9001786</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9001786"/>
+			<field name="identifier.lattes" value="2985082775320220"/>
+			<field name="identifier.espacenet" value="9001786"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PONTILHOES EM ABOBADAS E MUROS PRE-MOLDADOS SOLIDARIZADOS COM CONCRETO MOLDADO NO LOCAL"/>
+			<field name="title.lattes" value="Pontilhoes Em Abobodas e Muros Solidarizados Com Concreto Moldado No Local"/>
+			<field name="depositDate" value="1990-04-17"/>
+			<field name="publicationDate" value="1991-11-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MOUNIR KHALIL EL DEBS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E01D19/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4049301"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9001786"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9001786"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9001786"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19909001786"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="90 9001786"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23170" type="Person">
+			<semanticIdentifier>lattes::2985082775320220</semanticIdentifier>
+			<field name="identifier.lattes" value="2985082775320220"/>
+			<field name="name" value="Mounir Khalil El Debs"/>
+		</entity>
+		<entity ref="OrgUnit18112" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33658" toEntityRef="Person23170" type="Inventor"/>
+		<relation fromEntityRef="Patent33658" toEntityRef="OrgUnit18112" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:41" record="18665" source="Espacenet">
+	<entities>
+		<entity ref="Patent18665" type="Patent">
+			<semanticIdentifier>brcris::a43f50d7ac87385f0117e592528ace08</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027029A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014027029</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027029A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141027029</semanticIdentifier>
+			<semanticIdentifier>original::102014027029</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014027029"/>
+			<field name="identifier.lattes" value="1240227827563843"/>
+			<field name="identifier.espacenet" value="102014027029"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de modificação química de nanomateriais de carbono via micro-ondas para incorporação em poliuretanos"/>
+			<field name="title.lattes" value="PROCESSO DE MODIFICAÇÃO QUÍMICA DE NANOMATERIAIS DE CARBONO VIA MICRO-ONDAS PARA INCORPORAÇÃO EM POLIURETANOS"/>
+			<field name="depositDate" value="2014-10-24"/>
+			<field name="publicationDate" value="2016-07-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GLAURA GOULART SILVA"/>
+			<field name="inventor" value="HALLEN DANIEL RESENDE CALADO"/>
+			<field name="inventor" value="HELIO RIBEIRO"/>
+			<field name="inventor" value="MAGNOVALDO CARVALHO LOPES"/>
+			<field name="inventor" value="RODRIGO LASSAROTE LAVALL"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01B31/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y30/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B82Y40/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de modificação química de nanomateriais de carbono via micro-ondas para incorporação em poliuretanos a presente invenção descreve um processo inovador, rápido, econômico e compacto para modificação química de nanomateriais de carbono (nmcs) com grupos isocianatos (-nco), diisocianatos ou poliisocianatos (alifáticos ou aromáticos) via micro-ondas visando sua utilização no preparo de nanocompósitos poliméricos a base de poliuretanos. dentre as inúmeras aplicações, destaca-se nessa invenção a incorporação de nmcs quimicamente modificados em matrizes poliméricas na produção de nanocompósitos com alto desempenho mecânico, térmico e elétrico."/>
+			<field name="originatesFrom" value="56406621"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027029"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014027029"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027029"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141027029"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014027029"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12936" type="Person">
+			<semanticIdentifier>lattes::1240227827563843</semanticIdentifier>
+			<field name="identifier.lattes" value="1240227827563843"/>
+			<field name="name" value="Hallen Daniel Rezende Calado"/>
+		</entity>
+		<entity ref="OrgUnit10080" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit10081" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18665" toEntityRef="Person12936" type="Inventor"/>
+		<relation fromEntityRef="Patent18665" toEntityRef="OrgUnit10080" type="Applicant"/>
+		<relation fromEntityRef="Patent18665" toEntityRef="OrgUnit10081" type="Applicant"/>
+	</relations>
+</entity-relation-data>

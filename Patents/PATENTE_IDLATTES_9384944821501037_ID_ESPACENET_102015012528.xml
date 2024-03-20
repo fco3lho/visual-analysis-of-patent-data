@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:23:01" record="42412" source="Espacenet">
+	<entities>
+		<entity ref="Patent42412" type="Patent">
+			<semanticIdentifier>brcris::f49708a17528c7e242cb5057ed27b8fc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015012528A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015012528</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015012528A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151012528</semanticIdentifier>
+			<semanticIdentifier>original::102015012528</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015012528"/>
+			<field name="identifier.lattes" value="9384944821501037"/>
+			<field name="identifier.espacenet" value="102015012528"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="uso de lodo de curtume na composição de substrato comercial para eucalipto"/>
+			<field name="title.lattes" value="USO DE LODO DE CURTUME NA COMPOSIÇÃO DE SUBSTRATO COMERCIAL PARA EUCALIPTO,"/>
+			<field name="depositDate" value="2015-05-28"/>
+			<field name="publicationDate" value="2017-01-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO HENRIQUE DE MOURA"/>
+			<field name="inventor" value="HUMBERTO WILLIAMS BONAZINA"/>
+			<field name="inventor" value="SAVIO DA SILVA BERILLI"/>
+			<field name="inventor" value="SILVIO DE JESUS FREITAS"/>
+			<field name="applicant" value="CAPIXABA COUROS LTDA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA E INOVACAO DO ESPIRITO SANTO"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C05F7/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F103/24AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="103"/>
+				<field name="subgroup" value="24AN"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo &quot;uso de lodo de curtume na composição de substrato comercial para eucalipto&quot; [001] a presente invenção refere-se a criação de uma mistura composta por diferentes partes de substratos convencionais utilizados comumente na produção de mudas de eucalipto, adicionada de lodo de curtume desidratado, tal processo de produção de mudas, diz respeito a um processo nunca antes utilizado para produção de mudas de eucalipto. esse novo processo de produção de mudas tem a vantagem de poder substituir a adubação convencional pelo lodo de curtume, visto que este resíduo apresenta muitos elementos essenciais ao desenvolvimento das plantas, com potencial de substituição dos adubos químicos comerciais a baixos custos e melhoria das condições dos substratos de plantas. ?? ?? ?? ?? 1/1"/>
+			<field name="originatesFrom" value="57793577"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015012528"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015012528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015012528"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151012528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015012528"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28907" type="Person">
+			<semanticIdentifier>lattes::9384944821501037</semanticIdentifier>
+			<field name="identifier.lattes" value="9384944821501037"/>
+			<field name="name" value="Sílvio de Jesus Freitas"/>
+		</entity>
+		<entity ref="OrgUnit22615" type="OrgUnit">
+			<semanticIdentifier>brcris::83419e83957f7826bbc65caf1899f2da</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+		</entity>
+		<entity ref="OrgUnit22616" type="OrgUnit">
+			<semanticIdentifier>brcris::74cc3956f0618ab971949de8c9ae51d8</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42412" toEntityRef="Person28907" type="Inventor"/>
+		<relation fromEntityRef="Patent42412" toEntityRef="OrgUnit22615" type="Applicant"/>
+		<relation fromEntityRef="Patent42412" toEntityRef="OrgUnit22616" type="Applicant"/>
+	</relations>
+</entity-relation-data>

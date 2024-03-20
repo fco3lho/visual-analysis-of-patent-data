@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:46" record="28701" source="Espacenet">
+	<entities>
+		<entity ref="Patent28701" type="Patent">
+			<semanticIdentifier>brcris::b67fd344060cfd862e43568ed09aeea0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016024247A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016024247</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016024247A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161024247</semanticIdentifier>
+			<semanticIdentifier>original::102016024247</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016024247"/>
+			<field name="identifier.lattes" value="5681812218970006"/>
+			<field name="identifier.espacenet" value="102016024247"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema operacional portátil para ensaio eletroquímico de corrosão em microrregiões em altas temperaturas e seu uso"/>
+			<field name="title.lattes" value="Sistema operacional portátil para ensaio eletroquímico de corrosão em microrregiões em altas temperaturas e seu uso"/>
+			<field name="depositDate" value="2016-10-18"/>
+			<field name="publicationDate" value="2018-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIS HENRIQUE GUILHERME"/>
+			<field name="inventor" value="MARCELO FALCAO DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/403AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="403AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um sistema operacional portátil para ensaio eletroquímico de corrosão em microrregiões em alta temperatura, denominado soencat, compreendendo um conjunto de controle de temperatura e aquecimento do sistema (60) que compreende uma base aquecedora com termostato (61), uma caixa reservatório de areia (62), um reservatório de eletrólito (63) com conexões para instalação de um termômetro (64) e saída de eletrólito (65), um termômetro (66), um condensador de bola (67) com conexão de entrada (68) e saída de água (69), uma manta térmica (70); e um conjunto da microcélula eletroquímica para ensaio de corrosão (1) que compreende um corpo (11), uma tampa (12), um suporte (13), um contra-eletrodo (14) e um eletrodo de referência (15). a interligação do conjunto de aquecimento e controle de temperatura (60) com o conjunto da microcélula eletroquímica para ensaio de corrosão (1) ocorre basicamente através da mangueira (2) usada para o escoamento de eletrólito com controle por gotejamento. sendo assim, a conexão de saída do reservatório de eletrólito (63), para escoamento do eletrólito, é a responsável pela interligação dos dois conjuntos (1 e 60), visto que o eletrólito aquecido na temperatura desejada é o resultado do trabalho do conjunto de aquecimento e controle de temperatura (60)."/>
+			<field name="originatesFrom" value="62103450"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016024247"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016024247"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016024247"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161024247"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016024247"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19836" type="Person">
+			<semanticIdentifier>lattes::5681812218970006</semanticIdentifier>
+			<field name="identifier.lattes" value="5681812218970006"/>
+			<field name="name" value="Marcelo Falcão de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit15502" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28701" toEntityRef="Person19836" type="Inventor"/>
+		<relation fromEntityRef="Patent28701" toEntityRef="OrgUnit15502" type="Applicant"/>
+	</relations>
+</entity-relation-data>

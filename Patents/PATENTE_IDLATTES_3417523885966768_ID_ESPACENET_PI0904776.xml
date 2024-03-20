@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:18" record="29049" source="Espacenet">
+	<entities>
+		<entity ref="Patent29049" type="Patent">
+			<semanticIdentifier>brcris::dfcf85128f1572ae8fab9f4332fe3a06</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904776A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904776</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904776A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04776</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0904776-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904776"/>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="identifier.espacenet" value="PI0904776"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Sistema e método para correção do sentido de rotação de um motor de dois pólos aplicado a uma bomba de duas vias"/>
+			<field name="title.lattes" value="SISTEMA E MÉTODO PARA CORREÇÃO DO SENTIDO DE ROTAÇÃO DE UM MOTOR DE DOIS PÓLOS APLICADO A UMA BOMBA DE DUAS VIAS"/>
+			<field name="depositDate" value="2009-11-04"/>
+			<field name="publicationDate" value="2015-09-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CIRILO ALEX CAVALLI"/>
+			<field name="inventor" value="JOHNINSON IMHOFF"/>
+			<field name="inventor" value="MARCELO PIEKARSKI"/>
+			<field name="applicant" value="ELECTROLUX DO BRASIL S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D06F33/02AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02P6/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema e método para correção do sentido de rotação de um motor de dois pólos aplicado a uma bomba de duas vias. Sistema e método de identificação e correção do sentido de rotação de um motor (10) de dois pólos de fase única associado a uma bomba (10) de duas vias, aplicado em máquinas de lavar, utilizado para identificação e correção do sentido de rotação do propulsor (5) de acordo com a programação selecionada para uma lavadora permitindo também o controle da velocidade de rotação da dita bomba (10)."/>
+			<field name="originatesFrom" value="43797820"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904776"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904776"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904776"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04776"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0904776-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2011054069"/>
+		</entity>
+		<entity ref="Person20024" type="Person">
+			<semanticIdentifier>lattes::3417523885966768</semanticIdentifier>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="name" value="Marcelo Piekarski"/>
+		</entity>
+		<entity ref="OrgUnit15655" type="OrgUnit">
+			<semanticIdentifier>brcris::563718fd486870a6f5996414ff59a7d7</semanticIdentifier>
+			<field name="name" value="ELECTROLUX DO BRASIL S.A"/>
+		</entity>
+		<entity ref="Patent29050" type="Patent">
+			<semanticIdentifier>epodoc::WO2011054069</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="43797820"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2011054069"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29049" toEntityRef="Person20024" type="Inventor"/>
+		<relation fromEntityRef="Patent29049" toEntityRef="OrgUnit15655" type="Applicant"/>
+	</relations>
+</entity-relation-data>

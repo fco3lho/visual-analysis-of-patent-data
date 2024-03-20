@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:01" record="37403" source="Espacenet">
+	<entities>
+		<entity ref="Patent37403" type="Patent">
+			<semanticIdentifier>brcris::88d3ab19a24322682c8f66e8fbae3d1a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013009768A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013009768</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013009768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131009768</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 009768-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013009768"/>
+			<field name="identifier.lattes" value="3986090028709056"/>
+			<field name="identifier.espacenet" value="102013009768"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO DE DETECÇÃO DA ATIVIDADE METABÓLICA DE PROTOZOÁRIOS"/>
+			<field name="title.lattes" value="Método de Detecção da Atividade Metabólica de Protozoários"/>
+			<field name="depositDate" value="2013-04-22"/>
+			<field name="publicationDate" value="2015-01-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANO DE MELO GALLEP"/>
+			<field name="inventor" value="JESSICA BEZERRA DA SILVA"/>
+			<field name="inventor" value="JESSICA BEZERRA DA SILVA"/>
+			<field name="inventor" value="JOSE EUCLIDES STIPP PATERNIANI"/>
+			<field name="inventor" value="NILSON BRANCO"/>
+			<field name="inventor" value="REGINA MAURA BUENO FRANCO"/>
+			<field name="inventor" value="SAMUEL RICARDO DOS SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12Q1/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/90AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="90AN"/>
+			</field>
+			<field name="originatesFrom" value="51790925"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013009768"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013009768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013009768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131009768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 009768-3"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2014172764"/>
+		</entity>
+		<entity ref="Person25815" type="Person">
+			<semanticIdentifier>lattes::3986090028709056</semanticIdentifier>
+			<field name="identifier.lattes" value="3986090028709056"/>
+			<field name="name" value="Regina Maura Bueno Franco"/>
+		</entity>
+		<entity ref="OrgUnit20267" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent37404" type="Patent">
+			<semanticIdentifier>epodoc::WO2014172764</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="51790925"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2014172764"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37403" toEntityRef="Person25815" type="Inventor"/>
+		<relation fromEntityRef="Patent37403" toEntityRef="OrgUnit20267" type="Applicant"/>
+	</relations>
+</entity-relation-data>

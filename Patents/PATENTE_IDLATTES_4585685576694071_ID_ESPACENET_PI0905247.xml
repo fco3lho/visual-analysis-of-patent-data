@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:32" record="27459" source="Espacenet">
+	<entities>
+		<entity ref="Patent27459" type="Patent">
+			<semanticIdentifier>brcris::ef09d45c22fc32f5077303e5e56ec6d7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905247A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905247</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905247A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05247</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905247-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905247"/>
+			<field name="identifier.lattes" value="4585685576694071"/>
+			<field name="identifier.espacenet" value="PI0905247"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para a remoção de boro de correntes salinas aquosas"/>
+			<field name="title.lattes" value="PROCESSO PARA A REMOÇÃO DE BORO DE CORRENTES SALINAS AQUOSAS"/>
+			<field name="depositDate" value="2009-12-30"/>
+			<field name="publicationDate" value="2011-08-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JAVIER PAUL MONTALVO ANDIA"/>
+			<field name="inventor" value="LIDIA YOKOYAMA"/>
+			<field name="inventor" value="LUIZ ALBERTO CEZAR TEIXEIRA"/>
+			<field name="inventor" value="RODRIGO SUHETT DE SOUZA"/>
+			<field name="inventor" value="VANIA MARIA JUNQUEIRA SANTIAGO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F1/56AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="56AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA A REMOçãO DE BORO DE CORRENTES SALINAS AQUOSAS é descrito um processo de tratamento de correntes salinas aquosas, para a remoção de boro pelo uso de óxido de magnésio como adsorvente, na presença de polímeros catiónicos, em pH alcalino. Em tal processo, há menor geração de resíduo sólido, e as correntes tratadas resultantes tem removido pelo menos 90% do boro."/>
+			<field name="originatesFrom" value="44503265"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905247"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905247"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905247"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05247"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905247-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18968" type="Person">
+			<semanticIdentifier>lattes::4585685576694071</semanticIdentifier>
+			<field name="identifier.lattes" value="4585685576694071"/>
+			<field name="name" value="Luiz Alberto Cesar Teixeira"/>
+		</entity>
+		<entity ref="OrgUnit14819" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27459" toEntityRef="Person18968" type="Inventor"/>
+		<relation fromEntityRef="Patent27459" toEntityRef="OrgUnit14819" type="Applicant"/>
+	</relations>
+</entity-relation-data>

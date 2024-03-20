@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:27" record="29170" source="Espacenet">
+	<entities>
+		<entity ref="Patent29170" type="Patent">
+			<semanticIdentifier>brcris::3ab22bf5ce60b02b0042db4ae0b47a7c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605708A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605708</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605708A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05708</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605708-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605708"/>
+			<field name="identifier.lattes" value="7593950695805418"/>
+			<field name="identifier.espacenet" value="PI0605708"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="tratamento biológico de redução de sulfato utilizando reator anaeróbio operado em bateladas seqüenciais e carvão mineral como meio suporte"/>
+			<field name="title.lattes" value="Processo Biológico de Redução de Sulfato Utilizando Reator Anaeróbio Operado em Bateladas Seqüenciais e Carvão Mineral Como Meio Suporte"/>
+			<field name="depositDate" value="2006-12-21"/>
+			<field name="publicationDate" value="2008-08-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARIOVALDO JOSE DA SILVA"/>
+			<field name="inventor" value="ARNALDO SARTI"/>
+			<field name="inventor" value="EUGENIO FORESTI"/>
+			<field name="inventor" value="MARCELO ZAIAT"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F3/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TRATAMENTO BIOLóGICO DE REDUçãO DE SULFATO UTILIZANDO REATOR ANAERóBIO OPERADO EM BATELADAS SEQüENCIAIS E CARVãO MINERAL COMO MEIO SUPORTE&quot;. Compreendido pelo fato de remover o íon sulfato por via biológica por meio de microrganismos anaeróbios redutores aderidos ao meio suporte dispostos dentro de uma unidade reacional, dito meio suporte inerte sendo preferencialmente preenchido com carvão mineral garantindo a manutenção dos organismos no sistema por meio de aderência física, dito processo biológico de sulfato é operado em bateladas seqüenciais e o esgoto sanitário juntamente com etanol são adicionados ao processo promovendo a efetiva redução do sulfato a sulfeto, dito processo apresenta recirculação de líquido durante a fase reacional."/>
+			<field name="originatesFrom" value="39677464"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605708"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605708"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605708"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05708"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605708-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20083" type="Person">
+			<semanticIdentifier>lattes::7593950695805418</semanticIdentifier>
+			<field name="identifier.lattes" value="7593950695805418"/>
+			<field name="name" value="Marcelo Zaiat"/>
+		</entity>
+		<entity ref="OrgUnit15705" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit15706" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29170" toEntityRef="Person20083" type="Inventor"/>
+		<relation fromEntityRef="Patent29170" toEntityRef="OrgUnit15705" type="Applicant"/>
+		<relation fromEntityRef="Patent29170" toEntityRef="OrgUnit15706" type="Applicant"/>
+	</relations>
+</entity-relation-data>

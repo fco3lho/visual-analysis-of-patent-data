@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:04" record="28894" source="Espacenet">
+	<entities>
+		<entity ref="Patent28894" type="Patent">
+			<semanticIdentifier>brcris::b3fbface77cf3e86e5e615f35f83b9fc</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001211A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001211</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001211A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01211</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001211-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001211"/>
+			<field name="identifier.lattes" value="4100312412618474"/>
+			<field name="identifier.espacenet" value="PI1001211"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de preparação de zeólitas utilizando lìquidos iÈnicos como agentes direcionadores de estrutura"/>
+			<field name="title.lattes" value="Processo de preparação de zeólitas utilizando líquidos iônicos como direcionadores de estrutura"/>
+			<field name="depositDate" value="2010-04-19"/>
+			<field name="publicationDate" value="2011-12-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="KATIA BERNARDO GUSMAO"/>
+			<field name="inventor" value="MARCELO LUIS MIGNONI"/>
+			<field name="inventor" value="MICHELE OBERSON DE SOUZA"/>
+			<field name="inventor" value="ROBERTO FERNANDO DE SOUZA"/>
+			<field name="inventor" value="SIBELE BERENICE CASTELLA PERGHER"/>
+			<field name="inventor" value="SIBELE BERENICE CASTELLA PERGUER"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J37/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J27/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B01J27/24AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="B01J29/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PREPARAçãO DE ZEOLITAS UTILIZANDO LìQUIDOS IÈNICOS COMO AGENTES DIRECIONADORES DE ESTRUTURA. A presente invenção refere-se a um processo de síntese de aluminossilícatos com estruturas zeolíticas obtidas utilizando-se líquidos iónicos como direcionadores de estrutura. As zeólitas objeto deste processo são obtidas pela reação hidrotérmica de uma mistura compreendendo uma fonte de silício, uma fonte de alumínio, compensadores de carga da estrutura zeolítica, líquidos iónicos e água. O processo permite a síntese das zeólitas do tipo ZSM-5, Beta, ZSM-35 e outras, através da escolha conveniente de componentes da mistura e das condições reacionais."/>
+			<field name="originatesFrom" value="45062602"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001211"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001211"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001211"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01211"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001211-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19940" type="Person">
+			<semanticIdentifier>lattes::4100312412618474</semanticIdentifier>
+			<field name="identifier.lattes" value="4100312412618474"/>
+			<field name="name" value="Marcelo Luis Mignoni"/>
+		</entity>
+		<entity ref="OrgUnit15587" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28894" toEntityRef="Person19940" type="Inventor"/>
+		<relation fromEntityRef="Patent28894" toEntityRef="OrgUnit15587" type="Applicant"/>
+	</relations>
+</entity-relation-data>

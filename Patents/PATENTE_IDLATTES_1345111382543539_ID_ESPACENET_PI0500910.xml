@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:20" record="12686" source="Espacenet">
+	<entities>
+		<entity ref="Patent12686" type="Patent">
+			<semanticIdentifier>brcris::0e6fa5e86bad76c5bd316df3eded3476</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500910A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500910</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500910A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00910</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500910-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500910"/>
+			<field name="identifier.lattes" value="1345111382543539"/>
+			<field name="identifier.espacenet" value="PI0500910"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para a despolimerização de polìmeros acrìlicos via pirólise catalìtica"/>
+			<field name="title.lattes" value="PROCESSO PARA A DESPOLIMERIZAÇÃO DE POLÍMEROS ACRÍLICOS VIA PIRÓLISE CATALÍTICA"/>
+			<field name="depositDate" value="2005-03-10"/>
+			<field name="publicationDate" value="2006-11-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE DE FIGUEIREDO COSTA"/>
+			<field name="inventor" value="ANA MARIA MARTELO RAMOS"/>
+			<field name="inventor" value="EDUARDO FALABELLA SOUZA AGUIAR"/>
+			<field name="inventor" value="ISABEL MARIA DE FIGUEIREDO LIGEIRO DA FONSECA"/>
+			<field name="inventor" value="JOAQUIM VITAL"/>
+			<field name="inventor" value="MARLON BRANDO BEZERRA DA ALMEIDA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08F8/50AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA A DESPOLIMERIZAçãO DE POLìMEROS ACRìLICOS VIA PIRóLISE CATALìTICA&quot;. é descrito um processo para a despolimerização de polímeros acrílicos via pirólise catalítica que compreende colocar em contato o(s) polímero(s) acrílico(s) com entre 1 e 20% em peso, em relação ao peso de polímero, de um catalisador de alta acessibilidade com AAI de pelo menos 3,0, em atmosfera de gás inerte sob pressão entre 1 e 2 atmosferas, a temperaturas entre 200&lt;198&gt;C e 400&lt;198&gt;C, obtidas por aquecimento a uma taxa entre 10&lt;198&gt;C e 30&lt;198&gt;C/minuto, a reação ocorrendo durante um intervalo de tempo entre 200 e 400 mínutos, e separar e coletar os gases de monómeros correspondentes. As temperaturas praticadas são inferiores àquelas de processos do estado da técnica. Um modo preferido de preparo do catalisador de alta acessibilidade envolve uma zeólita na forma sódica preparada em reator (1) e enviada para um tanque de mistura (3), adicionada aos outros ingredientes da matriz, obtendo uma mistura precursora seca em spray dryer (4) para produzir o catalisador que é ressuspenso e lavado com solução de sulfato de amónio e água podendo ser submetido a troca iónica com terras raras (5) de modo a conter entre 0 e 14% em peso de terras raras, em relação ao peso da zeólita e enviado para o calcinador (6). O catalisador pode sofrer uma ou mais etapas adicionais de lavagem com solução de sulfato de amónio e troca iónica em (7). Alternativamente, o catalisador é seco a 150-160&lt;198&gt;C e lavado logo após a troca em (5), dispensando a calcinação em (6)."/>
+			<field name="originatesFrom" value="37395580"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500910"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500910"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500910"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00910"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500910-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8686" type="Person">
+			<semanticIdentifier>lattes::1345111382543539</semanticIdentifier>
+			<field name="identifier.lattes" value="1345111382543539"/>
+			<field name="name" value="Eduardo Falabella Sousa-Aguiar"/>
+		</entity>
+		<entity ref="OrgUnit6843" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12686" toEntityRef="Person8686" type="Inventor"/>
+		<relation fromEntityRef="Patent12686" toEntityRef="OrgUnit6843" type="Applicant"/>
+	</relations>
+</entity-relation-data>

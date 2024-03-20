@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:22" record="331" source="Espacenet">
+	<entities>
+		<entity ref="Patent331" type="Patent">
+			<semanticIdentifier>brcris::6aa0a6e266810d57a1ea2b0192c2e657</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7302210U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7302210U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7302210U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7302210U</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=7302210"/>
+			<field name="identifier.lattes" value="8242579817249570"/>
+			<field name="identifier.espacenet" value="7302210"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="Disposição construtiva introduzida em bioprótese valvar cardíaca"/>
+			<field name="title.lattes" value="Bioprótese valvar cardíaca"/>
+			<field name="depositDate" value="1993-11-17"/>
+			<field name="publicationDate" value="1995-07-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADOLFO ALBERTO LEIRNER"/>
+			<field name="inventor" value="DA SILVA MAGDA APARECIDA ARROYO"/>
+			<field name="inventor" value="SERGIO AKINORI HAYASHIDA"/>
+			<field name="applicant" value="FUNDACAO E.J. ZERBINI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F2/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="originatesFrom" value="3989314"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7302210"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7302210U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7302210"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7302210U"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person231" type="Person">
+			<semanticIdentifier>lattes::8242579817249570</semanticIdentifier>
+			<field name="identifier.lattes" value="8242579817249570"/>
+			<field name="name" value="Adolfo Alberto Leirner"/>
+		</entity>
+		<entity ref="OrgUnit204" type="OrgUnit">
+			<semanticIdentifier>brcris::41d95843bc97466c5c804512a665f447</semanticIdentifier>
+			<field name="name" value="FUNDACAO E.J. ZERBINI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent331" toEntityRef="Person231" type="Inventor"/>
+		<relation fromEntityRef="Patent331" toEntityRef="OrgUnit204" type="Applicant"/>
+	</relations>
+</entity-relation-data>

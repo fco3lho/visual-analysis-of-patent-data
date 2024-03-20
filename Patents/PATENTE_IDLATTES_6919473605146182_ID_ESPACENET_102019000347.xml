@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:42" record="14814" source="Espacenet">
+	<entities>
+		<entity ref="Patent14814" type="Patent">
+			<semanticIdentifier>brcris::7875c741d5f7f76afce109f3e046b541</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019000347A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019000347</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019000347A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191000347</semanticIdentifier>
+			<semanticIdentifier>original::102019000347</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019000347"/>
+			<field name="identifier.lattes" value="6919473605146182"/>
+			<field name="identifier.espacenet" value="102019000347"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="prótese eletrônica para membros superiores e método de controle em prótese eletrônica"/>
+			<field name="title.lattes" value="Prótese eletrônica para membros superiores e método de controle em prótese eletrônica"/>
+			<field name="depositDate" value="2019-01-08"/>
+			<field name="publicationDate" value="2020-07-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO PINTO DA SILVA"/>
+			<field name="inventor" value="PAUL RICHARD MAYER"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F2/54AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="54AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B5/0488AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="0488AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61F2/58AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="58AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="A61F2/72AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="72AI"/>
+			</field>
+			<field name="abstract.espacenet" value="prótese eletrônica para membros superiores e método de controle em prótese eletrônica. a presente invenção descreve um método de controle em prótese eletrônica e uma prótese eletrônica para membros superiores compreendendo uma mão protética e um sensor de eletromiografia. especificamente, a presente invenção compreende um sensor de eletromiografia para detecção de sinal elétrico gerado pela atividade muscular, um processador, ao menos três servomotores e dedos artificiais comandados eletronicamente. a presente invenção se situa nos campos da engenharia elétrica, robótica, próteses, mecanismos conectáveis ao corpo, ortopedia e aparelhos ortopédicos."/>
+			<field name="originatesFrom" value="71845929"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019000347"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019000347"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019000347"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191000347"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019000347"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10259" type="Person">
+			<semanticIdentifier>lattes::6919473605146182</semanticIdentifier>
+			<field name="identifier.lattes" value="6919473605146182"/>
+			<field name="name" value="Fabio Pinto da Silva"/>
+		</entity>
+		<entity ref="OrgUnit8025" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14814" toEntityRef="Person10259" type="Inventor"/>
+		<relation fromEntityRef="Patent14814" toEntityRef="OrgUnit8025" type="Applicant"/>
+	</relations>
+</entity-relation-data>

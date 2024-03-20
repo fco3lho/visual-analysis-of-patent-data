@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:28" record="22979" source="Espacenet">
+	<entities>
+		<entity ref="Patent22979" type="Patent">
+			<semanticIdentifier>brcris::94b73e6d4e5fe8910f096292a9794b4d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203712A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0203712</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203712A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020203712</semanticIdentifier>
+			<semanticIdentifier>original::0203712-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0203712"/>
+			<field name="identifier.lattes" value="1133118124160525"/>
+			<field name="identifier.espacenet" value="0203712"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Medidor ótico de qualidade de combustìvel para medição local e medição remota"/>
+			<field name="title.lattes" value="Medidor ótico de qualidade de combustível para medição local e medição remota"/>
+			<field name="depositDate" value="2002-09-12"/>
+			<field name="publicationDate" value="2004-05-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HYPOLITO JOSE KALINOWSKI"/>
+			<field name="inventor" value="JOSE LUIS FABRIS"/>
+			<field name="inventor" value="MARCIA MUELLER"/>
+			<field name="inventor" value="MARCIA MULLER"/>
+			<field name="inventor" value="ROSANE FALATE"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/41AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="41AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MEDIDOR óTICO DE QUALIDADE DE COMBUSTìVEL PARA MEDIçãO LOCAL E MEDIçãO REMOTA&quot;. Com possibilidade de utilização tanto local quanto remota nos pontos onde se faça necessário o controle de qualidade de combustíveis. O aparelho detecta alterações no espectro de transmissão de uma LPG (Long Period Grating - Rede de Longo Período) causadas pela adição de misturas ao combustível sob análise, comparativamente ao espectro referente a um combustível com quantidades permitidas de misturas. São apresentadas duas configurações básicas para o aparelho, sendo que em cada uma destas configurações estão descritos os diversos componentes óticos, eletrónicos e optoeletrónicos que podem ser empregados na sua construção."/>
+			<field name="originatesFrom" value="32331082"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203712"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0203712"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203712"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020203712"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0203712-2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0203712"/>
+		</entity>
+		<entity ref="Person15889" type="Person">
+			<semanticIdentifier>lattes::1133118124160525</semanticIdentifier>
+			<field name="identifier.lattes" value="1133118124160525"/>
+			<field name="name" value="José Luís Fabris"/>
+		</entity>
+		<entity ref="OrgUnit12319" type="OrgUnit">
+			<semanticIdentifier>brcris::3b3ad337e4052323bc07effe0e151610</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit12320" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="Patent22980" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0203712</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="32331082"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0203712"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22979" toEntityRef="Person15889" type="Inventor"/>
+		<relation fromEntityRef="Patent22979" toEntityRef="OrgUnit12319" type="Applicant"/>
+		<relation fromEntityRef="Patent22979" toEntityRef="OrgUnit12320" type="Applicant"/>
+	</relations>
+</entity-relation-data>

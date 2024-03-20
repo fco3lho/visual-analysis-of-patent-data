@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:20" record="22922" source="Espacenet">
+	<entities>
+		<entity ref="Patent22922" type="Patent">
+			<semanticIdentifier>brcris::81364067ae739767cffb98a4396812dd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031750A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014031750</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031750A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141031750</semanticIdentifier>
+			<semanticIdentifier>original::102014031750</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014031750"/>
+			<field name="identifier.lattes" value="2582725571935270"/>
+			<field name="identifier.espacenet" value="102014031750"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controle de nível por limnímetro piezoresistivo"/>
+			<field name="title.lattes" value="CONTROLE DE NÍVEL POR LIMNÍMETRO PIEZORESISTIVO"/>
+			<field name="depositDate" value="2014-12-18"/>
+			<field name="publicationDate" value="2016-06-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMILO LELIS DE GOUVEIA"/>
+			<field name="inventor" value="JOSE HELVECIO MARTINS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ACRE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F23/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08C17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="controle de nível por limnímetro piezoresistivo. a presente invenção refere-se a um limnímetro que utiliza um sensor de pressão piezorresistivo, de alto grau de precisão, autônomo, robusto, sem peças móveis, microcontrolado, de baixo custo e capaz de transmitir dados por telemetria, para sistema de alerta de eventos extremos como enchentes, bem como a monitoração do nível de reservatórios."/>
+			<field name="originatesFrom" value="56132634"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031750"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014031750"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031750"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141031750"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014031750"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15842" type="Person">
+			<semanticIdentifier>lattes::2582725571935270</semanticIdentifier>
+			<field name="identifier.lattes" value="2582725571935270"/>
+			<field name="name" value="José Helvecio Martins"/>
+		</entity>
+		<entity ref="OrgUnit12287" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+		<entity ref="OrgUnit12288" type="OrgUnit">
+			<semanticIdentifier>brcris::f9033f35b949e2c6b57ee94206befec7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO ACRE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22922" toEntityRef="Person15842" type="Inventor"/>
+		<relation fromEntityRef="Patent22922" toEntityRef="OrgUnit12287" type="Applicant"/>
+		<relation fromEntityRef="Patent22922" toEntityRef="OrgUnit12288" type="Applicant"/>
+	</relations>
+</entity-relation-data>

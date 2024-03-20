@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:50" record="20687" source="Espacenet">
+	<entities>
+		<entity ref="Patent20687" type="Patent">
+			<semanticIdentifier>brcris::8f94bf6f123f62e951471d7ab3c94fb2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1013436A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1013436</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1013436A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI13436</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1013436-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1013436"/>
+			<field name="identifier.lattes" value="8032871065166582"/>
+			<field name="identifier.espacenet" value="PI1013436"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Arquitetura de memória nanoeletrônica"/>
+			<field name="title.lattes" value="Arquitetura de Memória Nanoeletrônica"/>
+			<field name="depositDate" value="2010-12-10"/>
+			<field name="publicationDate" value="2015-07-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BIANCA MARIA SALATIEL MATOS DE ALENCAR"/>
+			<field name="inventor" value="JANAINA GONCALVES GUIMARAES"/>
+			<field name="inventor" value="JANAINA GONCALVES GUIMARAES"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G11C15/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Arquitetura de memória nanoeletrônica a presente invenção insere-se no campo da engenharia da computação, referindo-se a um circuito de memória nanoeletrônica endereçada por conteúdo, cuja arquitetura foi inteiramente desenvolvida para utilização de dispositivos mono-elétrons, os quais consistem em componentes eletrônicos, em escala nanométrica, que consideram os efeitos quânticos em seu funcionamento. A arquitetura proposta para o circuito foi formada a partir de um bloco de células de memória (2), um bloco comparador (3) e um bloco de endereçamento (4), cuja interconexão permite a obtenção do endereçamento da palavra de entrada de acordo com o caminho de maior semelhança entre seu valor e palavras armazenadasn previamente. O circuito proposto nessa patente não se limita a funcionamento em baixas temperaturas, podendo ser alcançada a operação em temperatura ambiente, caracterizando-o assim como boa alternativa para a obtenção desse tipo de memória no campo da nanoeletrônica."/>
+			<field name="originatesFrom" value="53682178"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1013436"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1013436"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1013436"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI13436"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1013436-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14311" type="Person">
+			<semanticIdentifier>lattes::8032871065166582</semanticIdentifier>
+			<field name="identifier.lattes" value="8032871065166582"/>
+			<field name="name" value="Janaina Goncalves Guimaraes"/>
+		</entity>
+		<entity ref="OrgUnit11213" type="OrgUnit">
+			<semanticIdentifier>brcris::862ac5be4be0bb3658f3bee6a7a37d33</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20687" toEntityRef="Person14311" type="Inventor"/>
+		<relation fromEntityRef="Patent20687" toEntityRef="OrgUnit11213" type="Applicant"/>
+	</relations>
+</entity-relation-data>

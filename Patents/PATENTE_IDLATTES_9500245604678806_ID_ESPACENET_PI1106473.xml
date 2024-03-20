@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:14" record="27693" source="Espacenet">
+	<entities>
+		<entity ref="Patent27693" type="Patent">
+			<semanticIdentifier>brcris::0b85a7dd4df3676356d6fea55985d3b0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106473A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1106473</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106473A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI06473</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1106473-0 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1106473"/>
+			<field name="identifier.lattes" value="9500245604678806"/>
+			<field name="identifier.espacenet" value="PI1106473"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO PARA CAPTURA E EXIBIÇÃO DE IMAGENS ESTEREOSCÓPICAS, APLICAÇÃO E USO RELACIONADO"/>
+			<field name="title.lattes" value="Processo de captura e exibicao de imagens estereoscopicas, aplicacao e uso relacionado"/>
+			<field name="depositDate" value="2011-11-08"/>
+			<field name="publicationDate" value="2013-10-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO EDUARDO MADEIRA"/>
+			<field name="inventor" value="LUIZ CARLOS PACHECO RODRIGUES VELHO"/>
+			<field name="applicant" value="ASSOCIACAO INSTITUTO NACIONAL DE MATEMATICA PURA E APLICADA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F7/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G02B27/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Patente de Invenção para &quot;PROCESSO PARA CAPTURA E EXIBIÇÃO DE IMAGENS ESTEREOSCÓPICAS, APLICAÇÃO E USO RELACIONADO&quot;. A presente invenção se refere a um processo para captura e exibição de imagens estereoscópicas. Mais especificamente, este processo visa a captura e exibição da imagem na horizontal e em tempo real. O processo ora descrito é composto por duas partes, ou seja, por um sistema de captura e por um sistema de exibição, sendo operado em duas fases distintas, quais sejam, a fase de calibração e a fase de uso."/>
+			<field name="originatesFrom" value="48288393"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106473"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1106473"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106473"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI06473"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1106473-0 A2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2013067610"/>
+		</entity>
+		<entity ref="Person19114" type="Person">
+			<semanticIdentifier>lattes::9500245604678806</semanticIdentifier>
+			<field name="identifier.lattes" value="9500245604678806"/>
+			<field name="name" value="Luiz Carlos Pacheco Rodrigues Velho"/>
+		</entity>
+		<entity ref="OrgUnit14910" type="OrgUnit">
+			<semanticIdentifier>brcris::892e695ed5735e43ad2fcc52640d2af8</semanticIdentifier>
+			<field name="name" value="ASSOCIACAO INSTITUTO NACIONAL DE MATEMATICA PURA E APLICADA"/>
+		</entity>
+		<entity ref="Patent27694" type="Patent">
+			<semanticIdentifier>epodoc::WO2013067610</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="48288393"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2013067610"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27693" toEntityRef="Person19114" type="Inventor"/>
+		<relation fromEntityRef="Patent27693" toEntityRef="OrgUnit14910" type="Applicant"/>
+	</relations>
+</entity-relation-data>

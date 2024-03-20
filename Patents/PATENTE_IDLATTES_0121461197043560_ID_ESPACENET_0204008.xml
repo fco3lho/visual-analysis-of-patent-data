@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:18" record="13286" source="Espacenet">
+	<entities>
+		<entity ref="Patent13286" type="Patent">
+			<semanticIdentifier>brcris::56a2faa5ec916815ad3c4430ff0c81d1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204008A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0204008</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204008A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020204008</semanticIdentifier>
+			<semanticIdentifier>original::0204008-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0204008"/>
+			<field name="identifier.lattes" value="0121461197043560"/>
+			<field name="identifier.espacenet" value="0204008"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Novo processo de monitoramento ambiental de herbicidas por fusarium oxysporum"/>
+			<field name="title.lattes" value="Novo Processo de Monitoramento Ambiental de Herbicidas por Fusarium oxysporum"/>
+			<field name="depositDate" value="2002-09-11"/>
+			<field name="publicationDate" value="2004-06-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLARICE LOGUERCIO LEITE"/>
+			<field name="inventor" value="ELISA ESPOSITO"/>
+			<field name="inventor" value="NELSON EDUARDO DURAN CABALLERO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;NOVO PROCESSO DE MONITORAMENTO AMBIENTAL DE HERBICIDAS POR FUSARIUM OXYSPORUM&quot;. Este processo relata a eficiência de um procedimento rápido, simples e de baixo custo, para monitoramento ambiental de herbicidas em águas e amostras de solos usando a produção do pigmento associado a mudanças morfológicas do Fusarium oxysporuum como uma propriedade de bioindicador. Neste processo o fungo foi isolado de solos contaminados com o herbicida Gramocil."/>
+			<field name="originatesFrom" value="32399031"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204008"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0204008"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204008"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020204008"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0204008-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9132" type="Person">
+			<semanticIdentifier>lattes::0121461197043560</semanticIdentifier>
+			<field name="identifier.lattes" value="0121461197043560"/>
+			<field name="name" value="Elisa Esposito"/>
+		</entity>
+		<entity ref="OrgUnit7160" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13286" toEntityRef="Person9132" type="Inventor"/>
+		<relation fromEntityRef="Patent13286" toEntityRef="OrgUnit7160" type="Applicant"/>
+	</relations>
+</entity-relation-data>

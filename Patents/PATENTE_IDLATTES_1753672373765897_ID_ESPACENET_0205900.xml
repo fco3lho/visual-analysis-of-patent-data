@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:58" record="17063" source="Espacenet">
+	<entities>
+		<entity ref="Patent17063" type="Patent">
+			<semanticIdentifier>brcris::fb0216dc8eda3fd80125bd02b9b8cc57</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205900A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0205900</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205900A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020205900</semanticIdentifier>
+			<semanticIdentifier>original::0205900-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0205900"/>
+			<field name="identifier.lattes" value="1753672373765897"/>
+			<field name="identifier.espacenet" value="0205900"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de análise e sequenciamento molecular para classificação e identificação de rna, dna e/ou proteìnas utilizando técnicas de inteligência artificial"/>
+			<field name="title.lattes" value="PROCESSO DE ANÁLISE E SEQÜENCIAMENTO MOLECULAR PARA CLASSIFICAÇÃO E IDENTIFICAÇÃO DE RNA, DNA E/OU PROTEÍNAS UTILIZANDO TÉCNICAS DE INTELIGÊNCIA ARTIFICIAL"/>
+			<field name="depositDate" value="2002-11-11"/>
+			<field name="publicationDate" value="2004-10-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GEISON VOGA PEREIRA"/>
+			<field name="inventor" value="JADSON CLAUDIO BELCHIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE ANáLISE E SEQuENCIAMENTO MOLECULAR PARA CLASSIFICAçãO E IDENTIFICAçãO DE RNA, DNA E/OU PROTEìNAS UTILIZANDO TéCNICAS DE INTELIGêNCIA ARTIFICIAL&quot;. A presente invenção caracteriza-se pelo desenvolvimento de um processo de análise para o estudo de seq³ências lineares de dados a partir de técnicas de inteligência artificial - sistemas especialistas e regras heurísticas. A metodologia elaborada consiste no cálculo das regras e leis que regem o domínio de atuação dos sistemas, como por exemplo DNA, RNA e/ou proteínas, em que serão realizadas as análises. O processo elaborado propõe a classificação e/ou identificação de seq³ências biomoleculares, D.NA, RNA, proteínas em famílias predeterminadas por um banco de dados de exemplos. O banco de dados pode ser construído com base na atividade biológica, propriedades químicas e/ou estruturais, não limitantes."/>
+			<field name="originatesFrom" value="33136611"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205900"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0205900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205900"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020205900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0205900-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11899" type="Person">
+			<semanticIdentifier>lattes::1753672373765897</semanticIdentifier>
+			<field name="identifier.lattes" value="1753672373765897"/>
+			<field name="name" value="Geison Voga Pereira"/>
+		</entity>
+		<entity ref="OrgUnit9336" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17063" toEntityRef="Person11899" type="Inventor"/>
+		<relation fromEntityRef="Patent17063" toEntityRef="OrgUnit9336" type="Applicant"/>
+	</relations>
+</entity-relation-data>

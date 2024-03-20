@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:21" record="15809" source="Espacenet">
+	<entities>
+		<entity ref="Patent15809" type="Patent">
+			<semanticIdentifier>brcris::6cb76b8f0a06a15fc88a210b4156736b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103947A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1103947</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103947A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI03947</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1103947</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1103947"/>
+			<field name="identifier.lattes" value="2753589795308175"/>
+			<field name="identifier.espacenet" value="PI1103947"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="superfície aerodinâmica geometricamente adaptável por controle ativo da curvatura"/>
+			<field name="title.lattes" value="Superfície aerodinâmica Geometricamente Adaptável por Controle ativo da Curvatura"/>
+			<field name="depositDate" value="2011-09-13"/>
+			<field name="publicationDate" value="2015-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO MARTINI CATALANO"/>
+			<field name="inventor" value="MARCUS VINICIUS ANGELO"/>
+			<field name="inventor" value="RENATO COSIN"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B64C3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="64"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F03D3/06AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="superfície aerodinâmica geometricamente adaptável por controle ativo da curvatura. a invenção se refere a uma superfície aerodinâmica, que pode ser uma asa, pá de hélice ou rotor de helicópteros ou geradores eólicos, capaz de modificar sua forma através distribuição de arqueamento do perfil ao longo de sua envergadura a fim de se obter alta eficiência aerodinâmica num espectro maior de regimes de vôo. o objetivo de se modificar a geometria da asa é otimizar cada seção da mesma de acordo com a condição local do escoamento juntamente com o carregamento global da asa, visando menor arrasto, menores esforços estruturais, forças e momentos para controle e manobras, bem como atenuação do efeito de rajadas. o objetivo da otimização varia a cada condição de vôo, sendo definida de acordo com uma análise multidisciplinar. a variável a ser otimizada pode abranger máxima sustentação, mínimo arrasto, menor carregamento estrutural, menores momentos aerodinâmicos entre outros, combinados com diferentes fatores de importância de maneira a quantificar o desempenho aerodinâmico em cada regime de vôo e possibilitar a busca pela configuração ótima. além da aplicação em asas aeronáuticas, a presente tecnologia pode ser aplicada com objetivos análogos de aumento da eficiência em hélices e rotores, sejam eles de aeronaves, ventiladores e geradores eólicos. neste último caso, o uso de aerodinâmica ativa permitiria não apenas maior aproveitamento da energia disponível no vento, como a aplicação do envelope de condições meteorológicas operacionais, de forma que um mesmo gerador opere em ventos calmos ou em ventanias de tempestades, podendo inclusive utilizar a adaptação geométrica para prevenir danos estruturais outras aplicações possíveis, onde a adaptação geométrica tem potencial de benefícios são aerofólios automobilísticos e hidrofólios para controle e estabilização de embarcações."/>
+			<field name="originatesFrom" value="54543520"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103947"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1103947"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103947"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI03947"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1103947"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10942" type="Person">
+			<semanticIdentifier>lattes::2753589795308175</semanticIdentifier>
+			<field name="identifier.lattes" value="2753589795308175"/>
+			<field name="name" value="Fernando Martini Catalano"/>
+		</entity>
+		<entity ref="OrgUnit8554" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15809" toEntityRef="Person10942" type="Inventor"/>
+		<relation fromEntityRef="Patent15809" toEntityRef="OrgUnit8554" type="Applicant"/>
+	</relations>
+</entity-relation-data>

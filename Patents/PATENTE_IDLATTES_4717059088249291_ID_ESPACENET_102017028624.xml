@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:28" record="23853" source="Espacenet">
+	<entities>
+		<entity ref="Patent23853" type="Patent">
+			<semanticIdentifier>brcris::2dc65008eb5d615ea8affccbdbacc157</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017028624A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017028624</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017028624A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171028624</semanticIdentifier>
+			<semanticIdentifier>original::102017028624</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017028624"/>
+			<field name="identifier.lattes" value="4717059088249291"/>
+			<field name="identifier.espacenet" value="102017028624"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composto fluorescente, processo de produção e seu uso"/>
+			<field name="title.lattes" value="Composto fluorescente, processo de produção e seu uso"/>
+			<field name="depositDate" value="2017-12-29"/>
+			<field name="publicationDate" value="2021-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL CARVALHO PIMENTA"/>
+			<field name="inventor" value="HELIO ALEXANDRE STEFANI"/>
+			<field name="inventor" value="JULIANA MOZER SCIANI"/>
+			<field name="inventor" value="STANLEY NUNES SIQUEIRA VASCONCELOS"/>
+			<field name="applicant" value="INSTITUTO BUTANTAN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C229/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="229"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/533AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="533AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composto fluorescente, processo de produção e seu uso. a presente invenção se refere a um composto derivado de um aminoácido, o qual emite fluorescência visualizada na coloração azul, podendo ser observada em filtros comuns. a presente invenção também se refere ao processo de obtenção do dito composto assim como ao seu uso."/>
+			<field name="originatesFrom" value="67064285"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017028624"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017028624"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017028624"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171028624"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017028624"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2019126859"/>
+		</entity>
+		<entity ref="Person16598" type="Person">
+			<semanticIdentifier>lattes::4717059088249291</semanticIdentifier>
+			<field name="identifier.lattes" value="4717059088249291"/>
+			<field name="name" value="Juliana Mozer Sciani"/>
+		</entity>
+		<entity ref="OrgUnit12879" type="OrgUnit">
+			<semanticIdentifier>brcris::e2cc2a643963c2021d6661653f958772</semanticIdentifier>
+			<field name="name" value="INSTITUTO BUTANTAN"/>
+		</entity>
+		<entity ref="Patent23854" type="Patent">
+			<semanticIdentifier>epodoc::WO2019126859</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="67064285"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2019126859"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23853" toEntityRef="Person16598" type="Inventor"/>
+		<relation fromEntityRef="Patent23853" toEntityRef="OrgUnit12879" type="Applicant"/>
+	</relations>
+</entity-relation-data>

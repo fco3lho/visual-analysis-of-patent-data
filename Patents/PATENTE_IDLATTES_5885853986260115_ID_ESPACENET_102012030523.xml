@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:25" record="40103" source="Espacenet">
+	<entities>
+		<entity ref="Patent40103" type="Patent">
+			<semanticIdentifier>brcris::0c34e64888478a6bc472d6d437f2d439</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012030523A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012030523</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012030523A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121030523</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 030523-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012030523"/>
+			<field name="identifier.lattes" value="5885853986260115"/>
+			<field name="identifier.espacenet" value="102012030523"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO DE NITRETAÇÃO ATRAVÉS DA USINAGEM COM DESCARGAS ELÉTRICAS - NDE"/>
+			<field name="title.lattes" value="Método de nitretação por descargas elétricas NDE"/>
+			<field name="depositDate" value="2012-11-30"/>
+			<field name="publicationDate" value="2014-09-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO ARNALDO RASLAN"/>
+			<field name="inventor" value="ERNANE RODRIGUES DA SILVA"/>
+			<field name="inventor" value="ROGERIO FELICIO DOS SANTOS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23H5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B23H1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO DE NITRETAÇÃO ATRAVÉS DA USINAGEM COM DESCARGAS ELÉTRICAS - NDE. A presente invenção refere-se a um processo de nitretação com o emprego de descargas elétricas geradas em equipamentos de usinagem com descargas elétricas por penetração (EDM - Electrical Discharge Machining), a fio (WEDM - Wire EDM), jato de fluido (FJEDM - Fluid Jet EDM) e jato de fluido abrasivo (AJEDM - Abrasive Jet EDM). O processo consiste na utilizaçõa de uma solução de água deionizada e uréia como fluido dielétrico. Ao se passar a corrente elétrica entre os eletrodos ferramenta e peça, forma-se um canal de plasma enriquecido com nitrogênio proveniente da uréia. Ao ocorrer a descarga o nitrogênio é incorporado à superfície da peça, formando nitretos e, consequentemente, o endurecimento da mesma. O processo alia a nitretação ao processo de usinagem. Além disso, é um processo rápido e pouco oneroso, se comparado aos métodos tradicionais de nitretação."/>
+			<field name="originatesFrom" value="51483729"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012030523"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012030523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012030523"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121030523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 030523-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27312" type="Person">
+			<semanticIdentifier>lattes::5885853986260115</semanticIdentifier>
+			<field name="identifier.lattes" value="5885853986260115"/>
+			<field name="name" value="Rogério Felício dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit21362" type="OrgUnit">
+			<semanticIdentifier>brcris::f60e03e4038d592def216988a602934c</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit21363" type="OrgUnit">
+			<semanticIdentifier>brcris::fa95793bd10cf2105122ea0e931c861a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40103" toEntityRef="Person27312" type="Inventor"/>
+		<relation fromEntityRef="Patent40103" toEntityRef="OrgUnit21362" type="Applicant"/>
+		<relation fromEntityRef="Patent40103" toEntityRef="OrgUnit21363" type="Applicant"/>
+	</relations>
+</entity-relation-data>

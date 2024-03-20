@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:24" record="21039" source="Espacenet">
+	<entities>
+		<entity ref="Patent21039" type="Patent">
+			<semanticIdentifier>brcris::58cb38e49f947ab2e264caaee56be1ef</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005906A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015005906</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005906A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151005906</semanticIdentifier>
+			<semanticIdentifier>original::102015005906</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015005906"/>
+			<field name="identifier.lattes" value="0069989873499216"/>
+			<field name="identifier.espacenet" value="102015005906"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para realização de um protocolo de reconciliação de chaves baseado em compartilhamento de sinais e uso"/>
+			<field name="title.lattes" value="Protocolo de estabelecimento de chaves baseado em reconciliação de sinais e criação de canal seguro de comunicação"/>
+			<field name="depositDate" value="2015-03-17"/>
+			<field name="publicationDate" value="2020-06-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEROEN ANTONIUS MARIA VAN DE GRAAF"/>
+			<field name="inventor" value="VLADIMIR PORTELA PARENTE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L9/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L9/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04L9/18AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para realização de um protocolo de reconciliação de chaves baseado em compartilhamento de sinais e uso a presente invenção descreve um método capaz realizar um protocolo de reconciliação de chaves baseado em compartilhamento de sinais, alcançando elevados níveis de segurança e garantindo o sigilo e a inviolabilidade de informações. trata-se de uma técnica de criptografia que extrai uma chave a partir de uma informação contínua (por exemplo, um sinal com uma componente de ruído) comum às duas partes que pretendem trocar informações. para promover a adequada reconciliação dos sinais, a tecnologia proposta se utiliza de uma codificação/decodificação iterativa por meio de códigos low density lattice codes (ldlc). o método proposto propicia uma abordagem refinada e eficiente que utiliza ldlc para tratar dados fortemente correlacionados. pode ser utilizada em dispositivos eletrônicos diversos que compartilham informações sigilosas, como telefones móveis, computadores portáteis, aparelhos de telecomunicação, não limitante."/>
+			<field name="originatesFrom" value="61731523"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005906"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015005906"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005906"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151005906"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015005906"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14567" type="Person">
+			<semanticIdentifier>lattes::0069989873499216</semanticIdentifier>
+			<field name="identifier.lattes" value="0069989873499216"/>
+			<field name="name" value="Jeroen Antonius Maria van de Graaf"/>
+		</entity>
+		<entity ref="OrgUnit11418" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21039" toEntityRef="Person14567" type="Inventor"/>
+		<relation fromEntityRef="Patent21039" toEntityRef="OrgUnit11418" type="Applicant"/>
+	</relations>
+</entity-relation-data>

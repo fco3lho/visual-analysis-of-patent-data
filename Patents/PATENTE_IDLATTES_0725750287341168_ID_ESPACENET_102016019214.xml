@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:26" record="28515" source="Espacenet">
+	<entities>
+		<entity ref="Patent28515" type="Patent">
+			<semanticIdentifier>brcris::251aeadaa927fb5f6c52947dcb974091</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019214A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019214</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019214A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019214</semanticIdentifier>
+			<semanticIdentifier>original::102016019214</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019214"/>
+			<field name="identifier.lattes" value="0725750287341168"/>
+			<field name="identifier.espacenet" value="102016019214"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compósito de corte de tripla camada formado por um substrato de metal duro e corpo de diamante sinterizado unidos através de uma interface"/>
+			<field name="title.lattes" value="COMPÓSITO DE CORTE DE TRIPLA CAMADA FORMADO POR UM SUBSTRATO DE METAL DURO E CORPO DE DIAMANTE SINTERIZADO UNIDOS ATRAVÉS DE UMA INTERFACE"/>
+			<field name="depositDate" value="2016-08-19"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELLO FILGUEIRA"/>
+			<field name="inventor" value="MEYSAM MASHHADIKARIMI"/>
+			<field name="inventor" value="UILAME UMBELINO GOMES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B22F7/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C22C26/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="26"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot; compósito de corte de tripla camada formado por um substrato de metal duro e um corpo de diamante sinterizado unidos através de uma interface&quot;. a presente invenção enquadra-se na área de processamento de materiais da metalurgia do pó, mais especificamente, de produção de materiais de super alta dureza com corpo de corte sinterizado com três camadas diferentes. o substrato compreende o wc cementado com um ligante de cobalto, sendo a interface um wc cementado com um ligante de níquel e nióbio misturados, e a parte superior é um corpo de diamante sinterizado com um ligante de nióbio. as tensões residuais menores e mais uniformes são estabelecidas pela camada fina e muito uniforme de metal duro ligada ao substrato de carbeto através de uma interface com composição próxima a do corpo de diamante sinterizado e a do substrato, melhorando a aderência da interface entre as camadas. um novo ligante de nióbio puro também é usado para melhorar as propriedades da camada de diamante, e, como a interface também contém nióbio, ela pode apresentar uma melhor adesão."/>
+			<field name="originatesFrom" value="62845513"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019214"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019214"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019214"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019214"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019214"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19714" type="Person">
+			<semanticIdentifier>lattes::0725750287341168</semanticIdentifier>
+			<field name="identifier.lattes" value="0725750287341168"/>
+			<field name="name" value="Marcello Filgueira"/>
+		</entity>
+		<entity ref="OrgUnit15401" type="OrgUnit">
+			<semanticIdentifier>brcris::74cc3956f0618ab971949de8c9ae51d8</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO"/>
+		</entity>
+		<entity ref="OrgUnit15402" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28515" toEntityRef="Person19714" type="Inventor"/>
+		<relation fromEntityRef="Patent28515" toEntityRef="OrgUnit15401" type="Applicant"/>
+		<relation fromEntityRef="Patent28515" toEntityRef="OrgUnit15402" type="Applicant"/>
+	</relations>
+</entity-relation-data>

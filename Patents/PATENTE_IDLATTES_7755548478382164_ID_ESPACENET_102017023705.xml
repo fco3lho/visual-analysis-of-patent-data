@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:35:45" record="45296" source="Espacenet">
+	<entities>
+		<entity ref="Patent45296" type="Patent">
+			<semanticIdentifier>brcris::ca7119d6285dc08347f2e8ae762072ce</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023705A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017023705</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023705A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171023705</semanticIdentifier>
+			<semanticIdentifier>original::102017023705</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017023705"/>
+			<field name="identifier.lattes" value="7755548478382164"/>
+			<field name="identifier.espacenet" value="102017023705"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de aquecimento e controle de temperatura para microreatores"/>
+			<field name="title.lattes" value="Dispositivo de aquecimento e controle de temperatura para microrreatores"/>
+			<field name="depositDate" value="2017-11-03"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTHIANO DA COSTA HERRERA"/>
+			<field name="inventor" value="LEANDRO GUSMAO DA SILVA"/>
+			<field name="inventor" value="NILSON DIAS VIEIRA JUNIOR"/>
+			<field name="inventor" value="RICARDO ELGUL SAMAD"/>
+			<field name="inventor" value="WAGNER DE ROSSI"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01L7/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05D23/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo de aquecimento e controle de temperatura para microreatores. o presente pedido de patente refere-se ao conjunto de sistemas e componentes e ao funcionamento de um dispositivo para aquecimento e controle de temperatura em microrreatores utilizados em circuitos microfluídicos. o referido dispositivo é composto de um circuito microfluídico (1) contendo um microrreator (2), uma lâmina metálica ou de semicondutor (3), fonte de luz (4) com sistema de focalização (5), sensor de temperatura (6) e sistema de realimentação (7) que controla a temperatura do líquido dentro de (2) e a potência de (4). lâminas finas de qualquer material metálico ou semicondutor (3) são usinadas com pulsos laser ultracurtos, de maneira a produzir uma de suas superfícies com estruturas submicrométricas altamente absorvedoras de luz, denominada superfície texturizada (8). estas lâminas são colocadas no fundo do microrreator onde se deseja aquecer e controlar a temperatura de líquidos em regimes estacionários ou em movimento. o feixe de luz é focalizado sobre a superfície texturizada, que deve estar voltada para a superfície do fundo do microrreator. a fonte do feixe de luz deve ter potência adequada para se atingir a temperatura desejada e um espectro com alta transmissão para o material da região do circuito por onde deve se propagar até atingir a superfície texturizada."/>
+			<field name="originatesFrom" value="67260609"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023705"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017023705"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023705"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171023705"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017023705"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30994" type="Person">
+			<semanticIdentifier>lattes::7755548478382164</semanticIdentifier>
+			<field name="identifier.lattes" value="7755548478382164"/>
+			<field name="name" value="Wagner de Rossi"/>
+		</entity>
+		<entity ref="OrgUnit24302" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45296" toEntityRef="Person30994" type="Inventor"/>
+		<relation fromEntityRef="Patent45296" toEntityRef="OrgUnit24302" type="Applicant"/>
+	</relations>
+</entity-relation-data>

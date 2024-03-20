@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:33:18" record="44739" source="Espacenet">
+	<entities>
+		<entity ref="Patent44739" type="Patent">
+			<semanticIdentifier>brcris::85e36b068d6e9201238ca08805e7f143</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030118A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015030118</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030118A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151030118</semanticIdentifier>
+			<semanticIdentifier>original::102015030118</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015030118"/>
+			<field name="identifier.lattes" value="7947426011712250"/>
+			<field name="identifier.espacenet" value="102015030118"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de gás hidrogênio (h2) e uso de pelo menos uma fonte de carbono e de pelo menos uma fonte de nitrogênio"/>
+			<field name="title.lattes" value="Processo de produção de gás hidrogênio (H2) e uso de pelo menos uma fonte de carbono e de pelo menos uma fonte de nitrogênio"/>
+			<field name="depositDate" value="2015-12-01"/>
+			<field name="publicationDate" value="2017-06-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIANA REGINA XAVIER BATISTA"/>
+			<field name="inventor" value="JULIANA DE SOUZA FERREIRA"/>
+			<field name="inventor" value="THAMAYNE VALADARES DE OLIVEIRA"/>
+			<field name="inventor" value="VICELMA LUIZ CARDOSO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA - UFU"/>
+			<field name="applicant" value="VALE S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/01AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AN"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção se refere a um processo de produção de gás hidrogênio (h2), por fotofermentação de cepas de bactérias púrpuras não sulfurosas (pns), em que se utiliza pelo menos uma fonte de carbono e pelo menos uma fonte de nitrogênio como substratos. a invenção também se refere ao uso destas fontes de carbono e nitrogênio na produção de gás hidrogênio (h2) por fotofermentação de cepas de bactérias púrpuras não sulfurosas (pns)."/>
+			<field name="originatesFrom" value="59152242"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030118"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015030118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030118"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151030118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015030118"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30599" type="Person">
+			<semanticIdentifier>lattes::7947426011712250</semanticIdentifier>
+			<field name="identifier.lattes" value="7947426011712250"/>
+			<field name="name" value="Vicelma Luiz Cardoso"/>
+		</entity>
+		<entity ref="OrgUnit24000" type="OrgUnit">
+			<semanticIdentifier>brcris::4e47f00a1377c8fa988921eae306e9a2</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA - UFU"/>
+		</entity>
+		<entity ref="OrgUnit24001" type="OrgUnit">
+			<semanticIdentifier>brcris::2fa354bb34b034123cc5bb13bb076ecd</semanticIdentifier>
+			<field name="name" value="VALE S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44739" toEntityRef="Person30599" type="Inventor"/>
+		<relation fromEntityRef="Patent44739" toEntityRef="OrgUnit24000" type="Applicant"/>
+		<relation fromEntityRef="Patent44739" toEntityRef="OrgUnit24001" type="Applicant"/>
+	</relations>
+</entity-relation-data>

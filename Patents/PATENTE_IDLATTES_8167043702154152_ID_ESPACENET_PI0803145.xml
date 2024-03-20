@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:30" record="5381" source="Espacenet">
+	<entities>
+		<entity ref="Patent5381" type="Patent">
+			<semanticIdentifier>brcris::24ca019d73c2e995800ac844fe3f5bdf</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803145A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803145</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803145A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03145</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803145-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803145"/>
+			<field name="identifier.lattes" value="8167043702154152"/>
+			<field name="identifier.espacenet" value="PI0803145"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="barra com esferas virtuais e sua aplicaÇço em testes de desempenho de mÁquinas de medir por coordenadas"/>
+			<field name="title.lattes" value="BARRA COM ESFERAS VIRTUAIS E SUA APLICAÇÃO EM TESTES DE DESEMPENHO DE MÁQUINAS DE MEDIR POR COORDENADAS"/>
+			<field name="depositDate" value="2008-06-05"/>
+			<field name="publicationDate" value="2010-03-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO PIRATELLI FILHO"/>
+			<field name="inventor" value="GLAUBER ROBERTO LESNAU"/>
+			<field name="inventor" value="TARSIS DE OLIVEIRA QUEIROZ"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B21/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="BARRA COM ESFERAS VIRTUAIS E SUA APLICAÇçO EM TESTES DE DESEMPENHO DE MÁQUINAS DE MEDIR POR COORDENADAS. A presente invenção se refere a um instrumento utilizado como padrão para calibração ou para testes de verificação de desempenho de Máquinas de Medir por Coordenadas (MMC), principalmente para os modelos de braço articulado, em substituição ao modelo de barras com esferas. O método de uso do padrão está detalhado na norma americana ANSI/ASME B89.1.12, a mesma elaborada para a aplicação da barra de esferas. O instrumento portátil de medição da presente invenção trata-se de uma barra metálica com quatro furos cônicos distribuídos em ambas as extremidades de forma que não sejam coplanares, permitindo a obtenção das coordenadas (x,y,z) de cada furo pelo apalpador posicionado nos furos, um de cada vez, O ajuste de uma esfera virtual é feito para cada grupo de quatro furos cônicos com auxilio de um algoritmo da própria MMC ou desenvolvido em software de cálculos matemáticos usados na determinação do diâmetro e as coordenadas do centro da esfera virtual."/>
+			<field name="originatesFrom" value="41722503"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803145"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803145"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803145"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03145"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803145-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3528" type="Person">
+			<semanticIdentifier>lattes::8167043702154152</semanticIdentifier>
+			<field name="identifier.lattes" value="8167043702154152"/>
+			<field name="name" value="Antonio Piratelli Filho"/>
+		</entity>
+		<entity ref="OrgUnit2786" type="OrgUnit">
+			<semanticIdentifier>brcris::862ac5be4be0bb3658f3bee6a7a37d33</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+		<entity ref="OrgUnit2787" type="OrgUnit">
+			<semanticIdentifier>brcris::7259df9d676146d4a071204c9276c546</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5381" toEntityRef="Person3528" type="Inventor"/>
+		<relation fromEntityRef="Patent5381" toEntityRef="OrgUnit2786" type="Applicant"/>
+		<relation fromEntityRef="Patent5381" toEntityRef="OrgUnit2787" type="Applicant"/>
+	</relations>
+</entity-relation-data>

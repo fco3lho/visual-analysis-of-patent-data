@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:15" record="21617" source="Espacenet">
+	<entities>
+		<entity ref="Patent21617" type="Patent">
+			<semanticIdentifier>brcris::ee62e0d464563736888fd8a343219ef4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803388A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803388</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803388A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03388</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803388-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803388"/>
+			<field name="identifier.lattes" value="6996766105587937"/>
+			<field name="identifier.espacenet" value="PI0803388"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema estereoscópico endoscópico"/>
+			<field name="title.lattes" value="Sistema Endoscópico Estereoscópico de Inspeção de Dutos (ENDORISER)"/>
+			<field name="depositDate" value="2008-08-14"/>
+			<field name="publicationDate" value="2010-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALLAN HOFFMAN"/>
+			<field name="inventor" value="ARMANDO ALBERTAZZI GONCALVES JUNIOR"/>
+			<field name="inventor" value="JOAO MARCIO DE CASTILHO SANTOS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B23/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G02B23/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Refere-se a presente invenção a um sistema estereoscópico endoscópico (1) utilizado para medição da geometria, em três dimensões, de raizes de cordões de solda de tubos metálicos, para avaliação de defeitos geométricos nas superfícies internas de tais cordões de solda. O sistema estereoscópico endoscópico (1) compreende um dispositivo de aquisição de imagens (20), um primeiro dispositivo de posicionamento (40a) e um segundo dispositivo de posicionamento (40b). O primeiro dispositivo de posicionamento (40a) e o segundo dispositivo de posicionamento (40b) têm por função manter o dispositivo de aquisição de imagens (20) centralizado, em relação ao tubo (2) inspecionado, e permitir o deslocamento do dispositivo de aquisição de imagens (20) no interior de um tubo (2). O dispositivo de aquisição de imagens (20) dispõe de duas cameras (21a e 21b) e de um conjunto de componentes o qual projeta na parede interna, do duto inspecionado, um padrão de imagem o qual permite identificar, para cada ponto medido, a sua posição em cada uma das imagens capturadas pelas cámeras. As informações coletadas pelo sistema estereoscópico endoscópico são processadas por um sistema baseado em microcomputador o qual não faz parte da presente invenção."/>
+			<field name="originatesFrom" value="42238404"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803388"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803388"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803388"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03388"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803388-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14955" type="Person">
+			<semanticIdentifier>lattes::6996766105587937</semanticIdentifier>
+			<field name="identifier.lattes" value="6996766105587937"/>
+			<field name="name" value="João Marcio de Castilho Santos"/>
+		</entity>
+		<entity ref="OrgUnit11700" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21617" toEntityRef="Person14955" type="Inventor"/>
+		<relation fromEntityRef="Patent21617" toEntityRef="OrgUnit11700" type="Applicant"/>
+	</relations>
+</entity-relation-data>

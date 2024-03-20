@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:48" record="46059" source="Espacenet">
+	<entities>
+		<entity ref="Patent46059" type="Patent">
+			<semanticIdentifier>brcris::af07f957eda0d480748e03f2c33c9ef9</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803656A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803656</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803656A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03656</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803656-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803656"/>
+			<field name="identifier.lattes" value="5284695001551726"/>
+			<field name="identifier.espacenet" value="PI0803656"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de remoção de óleo e graxa em água por adsorção em resina polimérica"/>
+			<field name="title.lattes" value="Processo de remoção de contaminantes oleosos por adsorção em resina polimérica"/>
+			<field name="depositDate" value="2008-08-29"/>
+			<field name="publicationDate" value="2010-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA MARIA TRAVALLONI LOUVISSE"/>
+			<field name="inventor" value="ELIZABETE FERNANDES LUCAS"/>
+			<field name="inventor" value="LUIZ CESAR FERREIRA BARBOSA"/>
+			<field name="inventor" value="MARCIA DOREA CLARISSE"/>
+			<field name="inventor" value="YURE GOMES DE CARVALHO QUEIROS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01D15/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Refere-se a presente invenção a um método de remoção de óleos e graxas solúveis e/ou insolúveis em correntes de água, por adsorção em um leito misto composto por duas resinas poliméricas, sendo uma primeira a base de divinil-benzeno (DVB) e uma segunda a base de metacrilato de metila e divinil-benzeno (MMA/DVB). O método inclui a obtenção das resinas poliméricas com porosidade e tamanho de partícula especificados, a preparação de um sistema de colunas recheadas com as resinas, e a percolação de uma corrente de água contendo contaminantes através do leito misto. Tal método apresenta eficiência superior a 95% na redução do teor de óleos e graxas (TOG) presente na corrente de água percolada."/>
+			<field name="originatesFrom" value="42238479"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803656"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803656"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803656"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03656"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803656-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31468" type="Person">
+			<semanticIdentifier>lattes::5284695001551726</semanticIdentifier>
+			<field name="identifier.lattes" value="5284695001551726"/>
+			<field name="name" value="Yure Gomes de Carvalho Queiros"/>
+		</entity>
+		<entity ref="OrgUnit24673" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent46059" toEntityRef="Person31468" type="Inventor"/>
+		<relation fromEntityRef="Patent46059" toEntityRef="OrgUnit24673" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:25" record="9276" source="Espacenet">
+	<entities>
+		<entity ref="Patent9276" type="Patent">
+			<semanticIdentifier>brcris::37432172edb3632c8a03fbf4921a911f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014016701A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014016701</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014016701A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141016701</semanticIdentifier>
+			<semanticIdentifier>original::102014016701</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014016701"/>
+			<field name="identifier.lattes" value="5635983022553950"/>
+			<field name="identifier.espacenet" value="102014016701"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="cabo de energia elétrica instrumentado"/>
+			<field name="title.lattes" value="CABO DE ENERGIA ELÉTRICA INSTRUMENTADO"/>
+			<field name="depositDate" value="2014-06-16"/>
+			<field name="publicationDate" value="2016-04-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLEONILSON PROTASIO DE SOUZA"/>
+			<field name="inventor" value="FABRICIO BRAGA SOARES DE CARVALHO"/>
+			<field name="inventor" value="YURI PERCY MOLINA RODRIGUEZ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R11/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R22/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="22"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01R31/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="cabo de energia elétrica instrumentado. a presente invenção se relaciona a um sistema de detecção de desvio fraudulento de energia elétrica através de derivações da rede elétrica da concessionária, conhecido como &quot;gato&quot;. a presente invenção se caracteriza pela substituição do cabo convencional utilizado nas ligações elétricas pelo cabo de energia elétrica instrumentado composto por um conjunto de circuitos eletroeletrônicos de instrumentação localizados dentro da capa isolante do cabo e distribuídos ao longo do dito cabo e que, dessa forma, não é possível visualizar externamente se o dito cabo tem instrumentação interna ou se é um cabo de energia com isolação convencional. cada circuito eletroeletrônico de instrumentação é composto por módulos de autoalimentação (1), de medição (2), de processamento (4) e de comunicação (5). os módulos de autoalimentação (1) e de medição (2) aproveitam a energia do campo magnético gerado pela corrente elétrica que percorre os condutores do cabo para alimentar o circuito e também para realizar medições do valor dessa corrente elétrica. o valor medido é processado e transmitido para os outros circuitos eletroeletrônicos de instrumentação distribuídos no cabo por meio da técnica de power line communication ou comunicação de dados pela linha de energia. caso haja desvio fraudulento, os valores medidos da corrente elétrica serão discrepantes em dois ou mais circuitos eletroeletrônicos de instrumentação e assim o desvio de energia elétrica é detectado."/>
+			<field name="originatesFrom" value="55851035"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014016701"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014016701"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014016701"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141016701"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014016701"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6354" type="Person">
+			<semanticIdentifier>lattes::5635983022553950</semanticIdentifier>
+			<field name="identifier.lattes" value="5635983022553950"/>
+			<field name="name" value="Cleonilson Protásio de Souza"/>
+		</entity>
+		<entity ref="OrgUnit5032" type="OrgUnit">
+			<semanticIdentifier>brcris::d328331eae318b62840a10126b18dc94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9276" toEntityRef="Person6354" type="Inventor"/>
+		<relation fromEntityRef="Patent9276" toEntityRef="OrgUnit5032" type="Applicant"/>
+	</relations>
+</entity-relation-data>

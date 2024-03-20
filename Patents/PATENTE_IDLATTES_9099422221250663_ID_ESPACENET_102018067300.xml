@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:26" record="15849" source="Espacenet">
+	<entities>
+		<entity ref="Patent15849" type="Patent">
+			<semanticIdentifier>brcris::a5c33a17a0466559b2671c5eece9bf20</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067300A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018067300</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067300A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181067300</semanticIdentifier>
+			<semanticIdentifier>original::102018067300</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018067300"/>
+			<field name="identifier.lattes" value="9099422221250663"/>
+			<field name="identifier.espacenet" value="102018067300"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema computacional para auxiliar na locomoção de deficientes visuais em ambientes voláteis"/>
+			<field name="title.lattes" value="Sistema Computacional para Auxiliar na Locomoção de Deficientes Visuais em Ambientes Voláteis"/>
+			<field name="depositDate" value="2018-08-31"/>
+			<field name="publicationDate" value="2020-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO RODRIGUES TRINDADE FERREIRA"/>
+			<field name="inventor" value="LUIZ GUSTAVO BIZARRO MIRISOLA"/>
+			<field name="inventor" value="NEY YOSHIHIRO SOMA"/>
+			<field name="applicant" value="FERNANDO RODRIGUES TRINDADE FERREIRA"/>
+			<field name="applicant" value="INSTITUTO TECNOLOGICO DE AERONAUTICA - ITA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F9/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema computacional para auxiliar na locomoção de deficientes visuais em ambientes voláteis o presente pedido de patente de privilégio de invenção, é caracterizado essencialmente por um sistema integrador entre hardware e software que permite que pessoas com deficiência visual a efetuar o reconhecimento de faces, detecção de obstáculos e mapeamento de ambientes, no qual essa combinação permite além dos contextos propostos, outras diversas aplicações, como: controle de acesso, identificação biométrica e vigilância; composto por: kinect (1) e sensor ultrassônico (2) hc-sr04; apresenta o diagrama em blocos do método ovn proposto, no qual apresenta um conjunto de sensores que a intenção é capturar o máximo de informações externas do ambiente; após essa etapa, é passado por um módulo de pré-processamento, onde os dados capturados pelos sensores são filtrados e analisados; os classificadores apresentam uma versatilidade de métodos e algoritmos nos quais através de uma pré-análise a cada estímulo, classificará as informações como procedentes ou não, de acordo com um banco de dados previamente septado e posteriormente preenchido a cada etapa; o módulo sistema de decisão é onde ocorrerá a tomada de decisão através de filtros, limites e redes neurais que aprenderão à medida que o tempo passar."/>
+			<field name="originatesFrom" value="69896949"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067300"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018067300"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067300"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181067300"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018067300"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10977" type="Person">
+			<semanticIdentifier>lattes::9099422221250663</semanticIdentifier>
+			<field name="identifier.lattes" value="9099422221250663"/>
+			<field name="name" value="Fernando Rodrigues Trindade Ferreira"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15849" toEntityRef="Person10977" type="Inventor"/>
+		<relation fromEntityRef="Patent15849" toEntityRef="Person10977" type="Depositor"/>
+	</relations>
+</entity-relation-data>

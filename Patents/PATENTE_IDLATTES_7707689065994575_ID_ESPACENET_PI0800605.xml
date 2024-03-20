@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:26" record="3732" source="Espacenet">
+	<entities>
+		<entity ref="Patent3732" type="Patent">
+			<semanticIdentifier>brcris::ff89c3dea8be9241ea97ed27b161050f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800605A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0800605</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800605A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI00605</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0800605-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0800605"/>
+			<field name="identifier.lattes" value="7707689065994575"/>
+			<field name="identifier.espacenet" value="PI0800605"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de sìntese de sistemas nanoestruturados hìbridos: nanotubos de carbono-nanopartìculas metálicas"/>
+			<field name="title.lattes" value="Processo de Síntese de Sistemas Nanoestruturados Híbridos: Nanotubos de Carbono-Nanopartículas Metálicas"/>
+			<field name="depositDate" value="2008-01-15"/>
+			<field name="publicationDate" value="2010-12-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE SANTAROSA FERLAUTO"/>
+			<field name="inventor" value="EDELMA ELETO DA SILVA"/>
+			<field name="inventor" value="EUDES LORENCON"/>
+			<field name="inventor" value="LUIZ ORLANDO LADEIRA"/>
+			<field name="inventor" value="RODRIGO GRIBEL LACERDA"/>
+			<field name="inventor" value="SERGIO DE OLIVEIRA"/>
+			<field name="inventor" value="SERGIO DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS - UFMG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B82B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo de Síntese de Sistemas Nanoestruturados Híbridos: Nanotubos de Carbono-Nanoparticulas Metálicas A presente invenção refere-se a um processo de decoração das superfícies externas de nanotubos de carbono com nanoparticulas metálicas resultando em sistemas nanoestruturados híbridos formados por nanotubos de carbono e nanopartículas metálicas."/>
+			<field name="originatesFrom" value="40951751"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800605"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0800605"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800605"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI00605"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0800605-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2009097669"/>
+		</entity>
+		<entity ref="Person2623" type="Person">
+			<semanticIdentifier>lattes::7707689065994575</semanticIdentifier>
+			<field name="identifier.lattes" value="7707689065994575"/>
+			<field name="name" value="Andre Santarosa Ferlauto"/>
+		</entity>
+		<entity ref="OrgUnit2099" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent3733" type="Patent">
+			<semanticIdentifier>epodoc::WO2009097669</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="40951751"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2009097669"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3732" toEntityRef="Person2623" type="Inventor"/>
+		<relation fromEntityRef="Patent3732" toEntityRef="OrgUnit2099" type="Applicant"/>
+	</relations>
+</entity-relation-data>

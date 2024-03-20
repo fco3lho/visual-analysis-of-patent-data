@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:14" record="31771" source="Espacenet">
+	<entities>
+		<entity ref="Patent31771" type="Patent">
+			<semanticIdentifier>brcris::322c6e235e77b63270c2426136bd588b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016008627A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016008627</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016008627A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161008627</semanticIdentifier>
+			<semanticIdentifier>original::102016008627</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016008627"/>
+			<field name="identifier.lattes" value="1107176357334781"/>
+			<field name="identifier.espacenet" value="102016008627"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de ésteres metílicos e/ou etílicos (biodiesel) a partir de residuos oleosos de fritura utilizando mistura de catalisadores básicos á base de hidróxido de litio (lioh)"/>
+			<field name="title.lattes" value="Processo de produção de de ésteres metílicos e/ou etílicos (biodiesel) a partir de resíduos oleosos de fritura utilizando mistura de catalisadores básicos à base de hidróxido de lítio (LiOH)"/>
+			<field name="depositDate" value="2016-04-18"/>
+			<field name="publicationDate" value="2018-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUMAR RAMOS CABRAL COELHO"/>
+			<field name="inventor" value="GILBERTO MAIA DE BRITO"/>
+			<field name="inventor" value="JAIR CARLOS CHECON DE FREITAS"/>
+			<field name="inventor" value="MARIANA BORSOI CHICON"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ESPIRITO SANTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J23/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C67/03AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="03AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C11C3/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de esteres metílicos e/ou etílicos (biodiesel) a partir de resíduos oleosos de fritura utilizando mistura de catalisadores básicos à base de hidróxido de lítio (lioh), trata-se de uma mistura de catalisadores básicos metálicos (naoh+lioh e koh+lioh) que aumenta o rendimento de conversão de óleo residual de fritura (sem tratamento prévio) em biocombustivel (biodiesel), de tal forma que esse processo contribui com uma nova mistura de catalisadores básicos metálicos que propicia a transformação de um resíduo danoso em meio ambiente num combustível limpo, de origem renovável e sem a presença de enxofre ou metais pesados."/>
+			<field name="originatesFrom" value="62001652"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016008627"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016008627"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016008627"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161008627"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016008627"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21789" type="Person">
+			<semanticIdentifier>lattes::1107176357334781</semanticIdentifier>
+			<field name="identifier.lattes" value="1107176357334781"/>
+			<field name="name" value="Mariana Borsoi Chicon"/>
+		</entity>
+		<entity ref="OrgUnit17028" type="OrgUnit">
+			<semanticIdentifier>brcris::05b3c0678454400860379bba162c5549</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO ESPIRITO SANTO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31771" toEntityRef="Person21789" type="Inventor"/>
+		<relation fromEntityRef="Patent31771" toEntityRef="OrgUnit17028" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:46" record="13618" source="Espacenet">
+	<entities>
+		<entity ref="Patent13618" type="Patent">
+			<semanticIdentifier>brcris::f3022e6f8622f493115a8deac31f31fb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7402073U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7402073U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7402073U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7402073U</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=7402073"/>
+			<field name="identifier.lattes" value="8895177879089354"/>
+			<field name="identifier.espacenet" value="7402073"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="Microestimulador tens"/>
+			<field name="title.lattes" value="Microestimulador TENS"/>
+			<field name="depositDate" value="1994-11-29"/>
+			<field name="publicationDate" value="1996-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DA CUNHA UBIRAJARA MACIEL"/>
+			<field name="inventor" value="DA SILVA DANTON PEREIRA JUNIOR"/>
+			<field name="inventor" value="ELTON LUIZ FERLIN"/>
+			<field name="inventor" value="MULLER ANDRE FROTTA"/>
+			<field name="inventor" value="SANCHES PAULO ROBERTO STEFANI"/>
+			<field name="inventor" value="THOME PAULO RICARDO OPPERMANN"/>
+			<field name="applicant" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61M1/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="3991718"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7402073"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7402073U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7402073"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7402073U"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9352" type="Person">
+			<semanticIdentifier>lattes::8895177879089354</semanticIdentifier>
+			<field name="identifier.lattes" value="8895177879089354"/>
+			<field name="name" value="Elton Luiz Ferlin"/>
+		</entity>
+		<entity ref="OrgUnit7357" type="OrgUnit">
+			<semanticIdentifier>brcris::e3e7e648939a8e9170a5f114f4ebf300</semanticIdentifier>
+			<field name="name" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13618" toEntityRef="Person9352" type="Inventor"/>
+		<relation fromEntityRef="Patent13618" toEntityRef="OrgUnit7357" type="Applicant"/>
+	</relations>
+</entity-relation-data>

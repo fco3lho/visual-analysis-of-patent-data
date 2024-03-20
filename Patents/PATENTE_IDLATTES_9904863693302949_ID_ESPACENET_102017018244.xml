@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:37" record="14767" source="Espacenet">
+	<entities>
+		<entity ref="Patent14767" type="Patent">
+			<semanticIdentifier>brcris::154dbc6040332a1e80414bd14430abca</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017018244A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017018244</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017018244A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171018244</semanticIdentifier>
+			<semanticIdentifier>original::102017018244</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017018244"/>
+			<field name="identifier.lattes" value="9904863693302949"/>
+			<field name="identifier.espacenet" value="102017018244"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="transformada inteira de baixa complexidade para descorrelação de dados"/>
+			<field name="title.lattes" value="Transformada inteira de baixa complexidade para descorrelação de dados"/>
+			<field name="depositDate" value="2017-08-25"/>
+			<field name="publicationDate" value="2019-03-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO MARIANO BAYER"/>
+			<field name="inventor" value="RAIZA DOS SANTOS OLIVEIRA"/>
+			<field name="inventor" value="RENATO JOSE DE SOBRAL CINTRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA - UFSM"/>
+			<field name="abstract.espacenet" value="transformada inteira de baixa complexidade para descorrelação de dados a análise de componentes principais (pca) é altamente utilizada para descorrelação de dados e redução de dimensionalidade, pode ser impraticável em aplicações em tempo real, ou em equipamentos de baixo poder de processamento, devido ao alto custo computacional requerido, e neste contexto, a transformada discreta do cosseno (dct) se torna uma alternativa de baixo custo para descorrelação de dados, onde a dct é uma aproximação assintótica para a pca que independe dos dados de entrada, sendo possível o desenvolvimento de algoritmos rápidos que a implementem, e o presente relatório apresenta duas novas transformadas aproximadas ortogonais e de baixa complexidade aritmética para a dct, sendo que uma das transformadas propostas apresenta o melhor desempenho quando comparada à outras aproximações da dct encontradas na literatura, e também é proposto o uso de estatísticas circulares para avaliação da qualidade de transformadas aproximadas, e o método possui uma aplicação no campo de compressão de imagens onde demonstra a relevância prática das transformadas propostas."/>
+			<field name="originatesFrom" value="67250968"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017018244"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017018244"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017018244"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171018244"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017018244"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10218" type="Person">
+			<semanticIdentifier>lattes::9904863693302949</semanticIdentifier>
+			<field name="identifier.lattes" value="9904863693302949"/>
+			<field name="name" value="Fabio Mariano Bayer"/>
+		</entity>
+		<entity ref="OrgUnit7990" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14767" toEntityRef="Person10218" type="Inventor"/>
+		<relation fromEntityRef="Patent14767" toEntityRef="OrgUnit7990" type="Applicant"/>
+	</relations>
+</entity-relation-data>

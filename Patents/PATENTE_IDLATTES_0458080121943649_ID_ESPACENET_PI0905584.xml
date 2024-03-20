@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:14" record="31325" source="Espacenet">
+	<entities>
+		<entity ref="Patent31325" type="Patent">
+			<semanticIdentifier>brcris::326723d0b782406bd172d30a2d63fa36</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905584A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905584</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905584A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05584</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905584-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905584"/>
+			<field name="identifier.lattes" value="0458080121943649"/>
+			<field name="identifier.espacenet" value="PI0905584"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="extrato e fração padronizados de cascas de aspidosperma parvifolium e/ou uleìna e sua composição farmacêutica"/>
+			<field name="title.lattes" value="Extrato e fração padronização de A. parvifolium e/ou uleína e sua composição"/>
+			<field name="depositDate" value="2009-12-23"/>
+			<field name="publicationDate" value="2011-08-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALAIDE BRAGA DE OLIVEIRA"/>
+			<field name="inventor" value="FABIANA MARIA ANDRADE GOMES"/>
+			<field name="inventor" value="FABIOLA DUTRA ROCHA"/>
+			<field name="inventor" value="MARIA FANI DOLABELA"/>
+			<field name="inventor" value="ROSA MARIA TAVEIRA NEIVA"/>
+			<field name="inventor" value="ROSE LISIEUX RIBEIRO PAIVA JACOME"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K36/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P33/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="EXTRATO E FRAçãO PADRONIZADOS DE CASCAS DE ASPIDOSPERMA PAR VIFOLIUM E SUA COMPOSIçãO FARMACEUTICA A presente invenção descreve o processo para obtenção de extrato e fração pad ronizados de Aspidosperma paà'vifolium, popularmente denominada &quot;pau-pereira, guatambu ou peroba&quot;, além do isolamento e purificação da uleina.A invenção compreende, ainda, a obtenção de composições farmacêuticas que contêm o extrato, fração derivada e/ou uleina, bem como sua utilização para o tratamento da malária. O extrato, fração e uleina apresentados foram ensaiados e mostraram atividade antiplasmódica, particularmente contra Plasmodium falciparum."/>
+			<field name="originatesFrom" value="44484628"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905584"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905584"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905584"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05584"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905584-3"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR132012033307E"/>
+		</entity>
+		<entity ref="Person21461" type="Person">
+			<semanticIdentifier>lattes::0458080121943649</semanticIdentifier>
+			<field name="identifier.lattes" value="0458080121943649"/>
+			<field name="name" value="Maria Fâni Dolabela"/>
+		</entity>
+		<entity ref="OrgUnit16732" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent31326" type="Patent">
+			<semanticIdentifier>epodoc::BR132012033307E</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="44484628"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR132012033307E"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31325" toEntityRef="Person21461" type="Inventor"/>
+		<relation fromEntityRef="Patent31325" toEntityRef="OrgUnit16732" type="Applicant"/>
+	</relations>
+</entity-relation-data>

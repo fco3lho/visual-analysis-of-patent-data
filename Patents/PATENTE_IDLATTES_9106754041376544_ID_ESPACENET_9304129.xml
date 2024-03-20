@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:09" record="28941" source="Espacenet">
+	<entities>
+		<entity ref="Patent28941" type="Patent">
+			<semanticIdentifier>brcris::675398300ef743effbcb478aa889d993</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9304129A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9304129</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9304129A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939304129</semanticIdentifier>
+			<semanticIdentifier>original::9304129-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9304129"/>
+			<field name="identifier.lattes" value="9106754041376544"/>
+			<field name="identifier.espacenet" value="9304129"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema optoeletrÈnico para medidas de tensão e corrente em linhas de alta tensão"/>
+			<field name="title.lattes" value="High voltage line voltage and current optoelectronic meter"/>
+			<field name="depositDate" value="1993-10-04"/>
+			<field name="publicationDate" value="2001-08-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO MARTINS WERNECK"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Patente de invenção para &quot;SISTEMA OPTOELETRÈNICO PARA MEDIDAS DE TENSãO E CORRENTE EM LINHAS DE ALTA TENSãO&quot;. Trata a presente invenção de um transdutor de grandezas elétricas a ser utilizado em linhas de distribuição de energia em alta tensão, sendo que o mesmo dispõe de um enlace óptico entre o transdutor propriamente dito e o sistema de recepção dos dados, permitindo assim um isolamento por fibras ópticas entre o equipamento fixado à linha de alta tensão e o operador ou sistema remoto de aquisição e análise de dados. O aparelho compreende um transdutor de corrente (bobina captadora ou fibra óptica sensibilizada), um redutor de tensão a divisor resistivo, um sistema de alimentação (a fibra óptica, a bateria ou a divisor capacitivo), uma eletrónica embarcada, um transdutor eletro-óptico, cabo de fibra óptica, e um conversor -receptor opto-elétrico. O sensor óptico de corrente é um dispositivo conectável à linha de distribuição e é sensível ao campo magnético que circula pela mesma.Um sinal proporcional a esta corrente é gerado pelo sensor e convertido em sinal de luz. Através de um cabo de fibra óptica, o sinal luminoso é conduzido até um dispositivo armazenador de dados. O sensor óptico de tensão é conectado à linha de distribuição e a um ponto de terra próximo ou outra fase. O potencial elétrico da linha é convertido em informação luminosa e conduzido por um cabo de fibra óptica até o dispositivo de armazenamento de dados. Pelo fato da fibra ser puramente dielétrica, o dispositivo armazenador de dados não fica energizado e por isto pode ser acessado facilmente pelo operador."/>
+			<field name="originatesFrom" value="4057530"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9304129"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9304129"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9304129"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939304129"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9304129-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19973" type="Person">
+			<semanticIdentifier>lattes::9106754041376544</semanticIdentifier>
+			<field name="identifier.lattes" value="9106754041376544"/>
+			<field name="name" value="Marcelo Martins Werneck"/>
+		</entity>
+		<entity ref="OrgUnit15625" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28941" toEntityRef="Person19973" type="Inventor"/>
+		<relation fromEntityRef="Patent28941" toEntityRef="OrgUnit15625" type="Applicant"/>
+	</relations>
+</entity-relation-data>

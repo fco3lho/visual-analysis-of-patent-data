@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:06" record="42660" source="Espacenet">
+	<entities>
+		<entity ref="Patent42660" type="Patent">
+			<semanticIdentifier>brcris::5ebedd5ac60cdc673f31bc1f593e43eb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013025309A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013025309</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013025309A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131025309</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 025309-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013025309"/>
+			<field name="identifier.lattes" value="4749039276717947"/>
+			<field name="identifier.espacenet" value="102013025309"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Sistema e processo de atendimento inteligente com reconhecimento de fala e busca de informações em base de dados"/>
+			<field name="title.lattes" value="Sistema e processo de atendimento inteligente com reconhecimento de fala e busca de informações em base de dados"/>
+			<field name="depositDate" value="2013-10-01"/>
+			<field name="publicationDate" value="2015-09-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE VILLAVICENCIO"/>
+			<field name="inventor" value="DANIEL NEHME MULLER"/>
+			<field name="inventor" value="FABIO MOREIRA DA SILVA"/>
+			<field name="inventor" value="LEANDRO KRUG WIVES"/>
+			<field name="inventor" value="RODRIGO SOUZA WILKENS"/>
+			<field name="inventor" value="STANLEY LOH"/>
+			<field name="applicant" value="CONEXUM - SISTEMAS COMPUTACIONAIS INTELIGENTES LTDA"/>
+			<field name="applicant" value="DFL CONSULTORIA EM INFORMATICA E SOLUCOES EMPRESARIAIS LTDA"/>
+			<field name="applicant" value="INTEXT MINING DESCOBERTA DE CONHECIMENTO EM TEXTOS LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G10L15/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema e processo de atendimento inteligente com reconhecimento de fala e busca de informações em base de dados. A presente invenção se destaca por suas características construtivas totalmente diferenciadas em relação às demais encontradas no mercado consumidor. É objetivo do sistema responder perguntas sobre os dados disponibilizados em uma base de dados, definida previamente. Para tanto, é capaz de entender a pergunta feita pelo usuário, via voz, consultar a base de dados e preparar uma resposta de maneira que faça sentido ao usuário, respondendo a sua pergunta de maneira apropriada."/>
+			<field name="originatesFrom" value="53968867"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013025309"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013025309"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013025309"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131025309"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 025309-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29092" type="Person">
+			<semanticIdentifier>lattes::4749039276717947</semanticIdentifier>
+			<field name="identifier.lattes" value="4749039276717947"/>
+			<field name="name" value="Stanley Loh"/>
+		</entity>
+		<entity ref="OrgUnit22777" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42660" toEntityRef="Person29092" type="Inventor"/>
+		<relation fromEntityRef="Patent42660" toEntityRef="OrgUnit22777" type="Applicant"/>
+	</relations>
+</entity-relation-data>

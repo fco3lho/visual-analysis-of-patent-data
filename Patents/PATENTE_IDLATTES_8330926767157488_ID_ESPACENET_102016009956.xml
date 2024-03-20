@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:24" record="15250" source="Espacenet">
+	<entities>
+		<entity ref="Patent15250" type="Patent">
+			<semanticIdentifier>brcris::48421103b3f48e86a047d54f43e1778b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009956A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016009956</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009956A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161009956</semanticIdentifier>
+			<semanticIdentifier>original::102016009956</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016009956"/>
+			<field name="identifier.lattes" value="8330926767157488"/>
+			<field name="identifier.espacenet" value="102016009956"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para cálculo de parâmetros cinéticos de crescimento microbiano a partir da leitura da densidade ótica (do)"/>
+			<field name="title.lattes" value="Método para cálculo de parâmetros cinéticos de crescimento microbiano a partir da leitura da densidade ótica (DO)"/>
+			<field name="depositDate" value="2016-05-03"/>
+			<field name="publicationDate" value="2017-11-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO LUIS VENEGA CORADINI"/>
+			<field name="inventor" value="FELLIPE DA SILVEIRA BEZERRA DE MELLO"/>
+			<field name="inventor" value="GABRIEL VIEIRA SANTELLO"/>
+			<field name="inventor" value="GLEIDSON SILVA TEIXEIRA"/>
+			<field name="inventor" value="GONCALO AMARANTE GUIMARAES PEREIRA"/>
+			<field name="inventor" value="MARCELO FALSARELLA CARAZZOLLE"/>
+			<field name="inventor" value="PEDRO AUGUSTO GALVAO TIZEI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/416AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="416AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para cálculo de parâmetros cinéticos de crescimento microbiano a partir da leitura da densidade ótica (do) a presente invenção é um método para análise do crescimento microbiano, capaz de corrigir a leitura de densidade ótica e calcular parâmetros cinéticos de crescimento de uma ou múltiplas culturas de micro-organismos. a análise dos dados obtido permite a construção de curvas de crescimento individuais (ou de grupos pré-definidos), o cálculo da taxa específica de crescimento e duração da fase de adaptação, a montagem histogramas baseados nesses valores obtidos com análise estatística baseada em p-valor."/>
+			<field name="originatesFrom" value="60202513"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009956"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016009956"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009956"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161009956"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016009956"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017190203"/>
+		</entity>
+		<entity ref="Person10582" type="Person">
+			<semanticIdentifier>lattes::8330926767157488</semanticIdentifier>
+			<field name="identifier.lattes" value="8330926767157488"/>
+			<field name="name" value="Fellipe da Silveira Bezerra de Mello"/>
+		</entity>
+		<entity ref="OrgUnit8258" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent15251" type="Patent">
+			<semanticIdentifier>epodoc::WO2017190203</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="60202513"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017190203"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15250" toEntityRef="Person10582" type="Inventor"/>
+		<relation fromEntityRef="Patent15250" toEntityRef="OrgUnit8258" type="Applicant"/>
+	</relations>
+</entity-relation-data>

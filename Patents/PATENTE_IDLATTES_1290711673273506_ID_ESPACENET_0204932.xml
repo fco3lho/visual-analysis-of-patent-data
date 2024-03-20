@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:04" record="33439" source="Espacenet">
+	<entities>
+		<entity ref="Patent33439" type="Patent">
+			<semanticIdentifier>brcris::5842e2ac1e07456b4f63abfababb9cd3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204932A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0204932</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204932A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020204932</semanticIdentifier>
+			<semanticIdentifier>original::0204932-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0204932"/>
+			<field name="identifier.lattes" value="1290711673273506"/>
+			<field name="identifier.espacenet" value="0204932"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método fl-pmc (fourier lapped - perceptron multicamadas) para a estimação de qualidade de voz"/>
+			<field name="title.lattes" value="Método FL-PMC (Fourier Lapped - Perceptron Multicamadas) para a estimação de qualidade de voz"/>
+			<field name="depositDate" value="2002-11-06"/>
+			<field name="publicationDate" value="2004-06-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMAURI LOPES"/>
+			<field name="inventor" value="CLODOALDO APARECIDO DE MORAES LIMA"/>
+			<field name="inventor" value="JAYME GARCIA ARNAL BARBEDO"/>
+			<field name="inventor" value="JOAO MARCOS TRAVASSOS ROMANO"/>
+			<field name="inventor" value="MOISES VIDAL RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G10L19/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO FL-PMC (FOURIER LAPPED - PERCEPTRON MULTICAMADAS) PARA A ESTIMAçãO DE QUALIDADE DE VOZ&quot;. A Patente de invenção para a estimação da qualidade subjetiva dos sinais de voz é compreendida por: a) técnicas de processamento de sinais aplicadas ao alinhamento (1) e ajustes para igualar o nível de energia (2) dos sinais de voz; aplicação das transformadas FFT (3) e MLT (4) e adaptação dos padrões resultantes às características auditivas humanas, a fim de revelar as informações espectrais e perceptuais dos sinais de voz; extração da diferença entre as SNR segmentadas (5) entre os sinais de voz; extração da distância espectral perceptual (6), após a aplicação da FFT e da NLT; extração da distância cepstral perceptual (7), após a aplicação da FFT e da MLT; cálculo da medida objetiva MOQVI (8) após a aplicação da FFT e da MLT e cálculo da medida objetiva MOQV2 (9) após a aplicação da FFT e da MLT; implementação da rede neural Perceptron multicamadas para o mapeamento multidimensional e não-linear dos dez parâmetros extraídos dos sinais de voz numa correspondente estimativa da qualidade subjetiva dos sinais de voz (MOS ou CMOS) ou por um código binário associado aos valores MOS e CMOS (10)."/>
+			<field name="originatesFrom" value="32399278"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204932"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0204932"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204932"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020204932"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0204932-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23059" type="Person">
+			<semanticIdentifier>lattes::1290711673273506</semanticIdentifier>
+			<field name="identifier.lattes" value="1290711673273506"/>
+			<field name="name" value="Moises Vidal Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit18006" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33439" toEntityRef="Person23059" type="Inventor"/>
+		<relation fromEntityRef="Patent33439" toEntityRef="OrgUnit18006" type="Applicant"/>
+	</relations>
+</entity-relation-data>

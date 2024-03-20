@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:42" record="33263" source="Espacenet">
+	<entities>
+		<entity ref="Patent33263" type="Patent">
+			<semanticIdentifier>brcris::db4ea98f99f9a6a14a5a9927873c1d8c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104177A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1104177</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104177A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI04177</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1104177-3 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1104177"/>
+			<field name="identifier.lattes" value="6742390457977989"/>
+			<field name="identifier.espacenet" value="PI1104177"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="USO DA FISALINA E DOS EXTRATOS ETNÓLICO E AQUOSO NA PROLIFERAÇÃO DE CÉLULAS-TRONCO NEURONAIS DO GIRO DENTEADO"/>
+			<field name="title.lattes" value="Uso da Fisalina D e dos extratos etanólicos e aquoso na produção de células tronco neuronais"/>
+			<field name="depositDate" value="2011-07-18"/>
+			<field name="publicationDate" value="2014-05-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANILA TERESA VALERIANO ALVES"/>
+			<field name="inventor" value="EDILENE OLIVEIRA DA SILVA"/>
+			<field name="inventor" value="GILMARA NAZERETH TAVARES BASTOS"/>
+			<field name="inventor" value="JOSE LUIZ MARTINS DO NASCIMENTO"/>
+			<field name="inventor" value="MARA SILVIA PINHEIRO ARRUDA"/>
+			<field name="inventor" value="MILTON NASCIMENTO DA SILVA"/>
+			<field name="inventor" value="RICARDO AUGUSTO DE MELO REIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/585AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="585AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K36/81AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="81AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P25/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="USO DA FISALINA D E DOS EXTRATOS ETANÓLICO E AQUOSO NA PROLEFERAÇÃO DE CÉLULAS-TRONCO NEURONAIS DO GIRO DENTEADO. A presente patente refere-se à utilização de extrato aquoso, etanólico e substância purificada da espécie Physalis angulata, como agente neurogênico. A atividade exercida é sobre o aumento da proleferação de células-tronco hipocampais e a diferenciação destas em células-progenitoras no nicho neurogênio hipocampal na dose de 5mg/Kg in vivo e na concentração de 10uM in vitro. Neste sentido, a busca de moléculas de fácil obtenção que apresentem atividade eficácia na proleferação de células-tronco, na diferenciação células progenitoras neuronais e que não cause reações adversas é apresentada aqui através do EE, EA e FD. Essa molécula e os extratos podem vir a seu usada no tratamento de doenças neurodegenerativas e déficit de memór"/>
+			<field name="originatesFrom" value="50777130"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104177"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1104177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104177"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI04177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1104177-3 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22929" type="Person">
+			<semanticIdentifier>lattes::6742390457977989</semanticIdentifier>
+			<field name="identifier.lattes" value="6742390457977989"/>
+			<field name="name" value="Milton Nascimento da Silva"/>
+		</entity>
+		<entity ref="OrgUnit17908" type="OrgUnit">
+			<semanticIdentifier>brcris::cce0ccb766f695fc2ed9b3ca40d55423</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33263" toEntityRef="Person22929" type="Inventor"/>
+		<relation fromEntityRef="Patent33263" toEntityRef="OrgUnit17908" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:44:20" record="23371" source="Espacenet">
+	<entities>
+		<entity ref="Patent23371" type="Patent">
+			<semanticIdentifier>brcris::cc7e0c59352667e1122d6aa787a5d3a6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0404948A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0404948</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0404948A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI04948</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0404948-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0404948"/>
+			<field name="identifier.lattes" value="6181152382269455"/>
+			<field name="identifier.espacenet" value="PI0404948"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método para avaliar os perfis tridimensionais de velocidade e de concentração de múltiplos componentes dispersos em um escoamento fluido"/>
+			<field name="title.lattes" value="MÉTODO PARA AVALIAR OS PERFIS TRIDIMENSIONAIS DE VELOCIDADE E DE CONCENTRAÇÃO DE MÚLTIPLOS COMPONENTES DISPERSOS EM UM ESCOAMENTO FLUIDO"/>
+			<field name="depositDate" value="2004-11-10"/>
+			<field name="publicationDate" value="2006-08-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE ROBERTO NUNHEZ"/>
+			<field name="inventor" value="LUIS TADEU FURLAN"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01P5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J8/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO PARA AVALIAR OS PERFIS TRIDIMENSIONAIS DE VELOCIDADE E DE CONCENTRAçãO DE MúLTIPLOS COMPONENTES DISPERSOS EM UM ESCOAMENTO FLUIDO&quot;. é descrito um método para avaliar os perfis tridimensionais de velocidade e de concentração de múltiplos componentes dispersos em um escoamento fluido. O método descrito na presente invenção utiliza um modelo de calha longa inclinada com secção reta retangular, dito modelo simulando um escoamento natural e aplica o método dos volumes finitos (MVF) em conjunto com as equações de conservação de massa (continuidade), de conservação de momento e de transferência de massa de cada componente no efluente seguindo diversas premissas para determinar a velocidade e concentração de cada componente disperso. Em seguida, o perfil de velocidades é determinado para cada secção transversal do escoamento em estudo, considerando regime turbulento. Os cálculos são realizados com o auxílio de um microprocessador e registrados em gráficos específicos. A invenção é útil para determinar a dispersão tridimensional de múltiplos efluentes industriais lançados em pontos distintos da lateral de um rio, ditos efluentes tendo as concentrações nulas ou previamente definidas em pontos anteriores ao ponto de despejo, ou seja, a montante do ponto de lançamento."/>
+			<field name="originatesFrom" value="36910605"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0404948"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0404948"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0404948"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI04948"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0404948-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16187" type="Person">
+			<semanticIdentifier>lattes::6181152382269455</semanticIdentifier>
+			<field name="identifier.lattes" value="6181152382269455"/>
+			<field name="name" value="José Roberto Nunhez"/>
+		</entity>
+		<entity ref="OrgUnit12534" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23371" toEntityRef="Person16187" type="Inventor"/>
+		<relation fromEntityRef="Patent23371" toEntityRef="OrgUnit12534" type="Applicant"/>
+	</relations>
+</entity-relation-data>

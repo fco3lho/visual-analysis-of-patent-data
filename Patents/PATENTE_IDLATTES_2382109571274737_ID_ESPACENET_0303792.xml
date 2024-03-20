@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:52" record="11102" source="Espacenet">
+	<entities>
+		<entity ref="Patent11102" type="Patent">
+			<semanticIdentifier>brcris::694f3a506e034ad287015829aa83f3c2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303792A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303792</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303792A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303792</semanticIdentifier>
+			<semanticIdentifier>original::0303792-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303792"/>
+			<field name="identifier.lattes" value="2382109571274737"/>
+			<field name="identifier.espacenet" value="0303792"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Biossensor baseado em hrp para avaliação rápida da capacidade antioxidante de extratos vegetais"/>
+			<field name="title.lattes" value="Biossensor baseado em HRP para avaliação rápida da capacidade antioxidante de extratos vegetais."/>
+			<field name="depositDate" value="2003-09-05"/>
+			<field name="publicationDate" value="2005-07-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARMINDO ANTONIO ALVES"/>
+			<field name="inventor" value="DENISE VAZ DE MACEDO"/>
+			<field name="inventor" value="LAURO TATSUO KUBOTA"/>
+			<field name="inventor" value="LUCILENE DORNELLES MELLO MARTINS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;BIOSSENSOR BASEADO EM HRP PARA AVALIAçãO RáPIDA DA CAPACIDADE ANTIOXIDANTE DE EXTRATOS VEGETAIS&quot;. Utilizando a metodologia baseada no desenvolvimento e aplicação de dispositivos químicos, como os biossensores, procurou-se caracterizar uma importante aplicação do biossensor eletroquímico para detecção de compostos fenólicos. O biossensor amperométrico, foi aplicado para avaliação da capacidade antioxidante de extratos de chás cuja propriedade antiradical é amplamente conhecida. Esta avaliação foi feita através da correlação do teor de compostos fenólicos, em termos de fenóis totais, quantificados pelo biossensor e a atividade antioxidante total (AAT) pelo método do radical relativamente estável DPP^ &lt;sym&gt;^ (1,1-difenil-2-picrilhidrazil). O efeito antioxidante foi avaliado baseado no cálculo de IC~ 50~. IC~ 50~ representa a concentração necessária de antioxidante para reduzir 50% da concentração inicial de DPPH^ &lt;sym&gt;^, cuja concentração remanescente do radical no meio reacional foi calculada por curva de calibração utilizando o Trolox como composto de referência. Amostras de chá preto mostrou melhores valores de IC~ 50~ (IC~ 50~ = 0,44&lt;109&gt;mol 1^ -1^ &lt;sym&gt; 0,091) em comparação ao chá mate (IC~ 50~ = 11,5&lt;109&gt;mol 1^ -1^ &lt;sym&gt; 0,32). O coeficiente de correlação em ambas as amostras de chás permitiu obter a atividade antioxidante total através das seguintes relações: AAT (chá mate) = 0,84 (&lt;sym&gt; 0,08) [fenóis totais] + 2,83, R = 0,986 e AAT (chá preto) = 39 (&lt;sym&gt; 3) [fenóis totais] + 2,51, R = 0,989. Estes resultados permitem concluir que pela medida do biossensor é possível determinar de maneira rápida, fácil e seletiva a capacidade antioxidante de extratos vegetais."/>
+			<field name="originatesFrom" value="34744259"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303792"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303792"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303792"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303792"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303792-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7718" type="Person">
+			<semanticIdentifier>lattes::2382109571274737</semanticIdentifier>
+			<field name="identifier.lattes" value="2382109571274737"/>
+			<field name="name" value="Denise Vaz de Macedo"/>
+		</entity>
+		<entity ref="OrgUnit6154" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11102" toEntityRef="Person7718" type="Inventor"/>
+		<relation fromEntityRef="Patent11102" toEntityRef="OrgUnit6154" type="Applicant"/>
+	</relations>
+</entity-relation-data>

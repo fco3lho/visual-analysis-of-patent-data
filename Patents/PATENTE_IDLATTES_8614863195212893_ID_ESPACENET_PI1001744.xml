@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:47" record="28292" source="Espacenet">
+	<entities>
+		<entity ref="Patent28292" type="Patent">
+			<semanticIdentifier>brcris::518c54558df93d13ceddeec7711369e1</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001744A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001744</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001744A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01744</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1001744-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001744"/>
+			<field name="identifier.lattes" value="8614863195212893"/>
+			<field name="identifier.espacenet" value="PI1001744"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Dispositivo para dar partida e desligar motor automotivo a combustão, considerando o nível de carga da beteria a fim de recarregá-la"/>
+			<field name="title.lattes" value="DISPOSITIVO PARA DAR PARTIDA E DESLIGAR MOTOR AUTOMOTIVO A COMBUSTÃO, CONSIDERANDO O NÍVEL DE CARGA DA BATERIA A FIM DE RECARREGÁ-LA"/>
+			<field name="depositDate" value="2010-02-25"/>
+			<field name="publicationDate" value="2015-06-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MANOEL CRISTIANO VIEIRA DA SILVA"/>
+			<field name="applicant" value="MANOEL CRISTIANO VIEIRA DA SILVA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J7/14AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05F1/66AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="66AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Dispositivo para dar partida e desligar motor automotivo a combustão, considernado o nível de carga da bateria a fim de regarregá-la. Patente de modelo de utilidade automobilística de um dispositivo para dar partida e desligar moto automotivo a combustão, considerando o nível de carga da bateria a fim de recarregá-la que é compreendido de um circuito eletro-eletrônico dividido em cinco partes distinas, sendo elas, relés de potência 3, carga ôhmica 4, estabilizador e filtro de tensão e corrente 5, circuito conversor de pulsos 6, divisor de tensão 7 que também auxilia o auto diagnóstico, e um microcontrolador 2 que tem função de temporizado, contador de pulsos e ihm (interface homem máquina): ambos, são alimentados através da chave liga-desliga 1; dito circuito 5 é alimentado pela bateria do automóvel e admite variar para menor até cinquenta por cento do valor da tensão nominal da bateria, mantendo os mesmos doze volts na saída do circuito afim de alimentar os blocos 2,3,4,6 e 7 com tensão e corrente estabilizadas e filtradas, visto que a tensão na bateria poderá cair significativamente durante o solo do motor a combustão"/>
+			<field name="originatesFrom" value="53268961"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001744"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001744"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001744"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01744"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1001744-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19543" type="Person">
+			<semanticIdentifier>lattes::8614863195212893</semanticIdentifier>
+			<field name="identifier.lattes" value="8614863195212893"/>
+			<field name="name" value="Manoel Cristiano Vieira da Silva"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28292" toEntityRef="Person19543" type="Inventor"/>
+		<relation fromEntityRef="Patent28292" toEntityRef="Person19543" type="Depositor"/>
+	</relations>
+</entity-relation-data>

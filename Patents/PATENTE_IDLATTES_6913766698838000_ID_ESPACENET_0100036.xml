@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:35" record="8772" source="Espacenet">
+	<entities>
+		<entity ref="Patent8772" type="Patent">
+			<semanticIdentifier>brcris::abe7bd2663fc92244eac293c16ef0689</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0100036A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0100036</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0100036A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010100036</semanticIdentifier>
+			<semanticIdentifier>original::0100036-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0100036"/>
+			<field name="identifier.lattes" value="6913766698838000"/>
+			<field name="identifier.espacenet" value="0100036"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema e processo de transporte de dados"/>
+			<field name="title.lattes" value="Sistema e Processo de Transporte de Dados"/>
+			<field name="depositDate" value="2001-01-09"/>
+			<field name="publicationDate" value="2002-09-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIA BARUCKE MARCONDES PAES LEME"/>
+			<field name="applicant" value="VIRTUALAB PARTICIPACOEES S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L27/30AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA E PROCESSO DE TRANSPORTE DE DADOS&quot;. A presente invenção refere-se a um sistema e processo de transmissão de dados em que o pacote de dados (1) a ser transmitido em uma rede de telecomunicações é transmitido com uma etiqueta (2) contendo informações do destino e origem (2.1, 2.2) do referido pacote (1). Em cada nó de um percurso do pacote (1) a etiqueta (2) será lida e não haverá a necessidade da abertura do primeiro. A informação contida na etiqueta (2) é formada de uma constelação de subportadoras de RF (2) e sua detecção é realizada pela verificação da ausência ou presença das subportadoras. O processo é realizado sem a necessidade de modulação das subportadoras, o que acelera a verificação da informação contida nelas."/>
+			<field name="originatesFrom" value="3946485"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0100036"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0100036"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0100036"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010100036"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0100036-5"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2002089974"/>
+		</entity>
+		<entity ref="Person5997" type="Person">
+			<semanticIdentifier>lattes::6913766698838000</semanticIdentifier>
+			<field name="identifier.lattes" value="6913766698838000"/>
+			<field name="name" value="Cláudia Barucke Marcondes"/>
+		</entity>
+		<entity ref="Patent8773" type="Patent">
+			<semanticIdentifier>epodoc::US2002089974</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="3946485"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2002089974"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8772" toEntityRef="Person5997" type="Inventor"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:48" record="42" source="Espacenet">
+	<entities>
+		<entity ref="Patent42" type="Patent">
+			<semanticIdentifier>brcris::b90b6c58b9ad9cb59f537695274c8002</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023765A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017023765</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017023765A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171023765</semanticIdentifier>
+			<semanticIdentifier>original::102017023765</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017023765"/>
+			<field name="identifier.lattes" value="7419764880191120"/>
+			<field name="identifier.espacenet" value="102017023765"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="manga ataulfo em pó integral e para formulação de produtos da indústria alimentícia"/>
+			<field name="title.lattes" value="Manga Ataulfo em pó integral e para formulação de produtos da indústria alimentícia"/>
+			<field name="depositDate" value="2017-11-03"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ACACIO FIGUEIREDO NETO"/>
+			<field name="inventor" value="EUZEBIO PEREIRA NEVES"/>
+			<field name="inventor" value="FRANCISCO DE ASSIS CARDOSO ALMEIDA"/>
+			<field name="inventor" value="JOICE NAIANE DE SOUSA COSTA SANTOS"/>
+			<field name="inventor" value="JOSENARA DAIANE DE SOUZA COSTA"/>
+			<field name="inventor" value="MARYLIA DE SOUSA COSTA"/>
+			<field name="inventor" value="VIVIANNI MARQUES LEITE DOS SANTOS"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO VALE DO SAO FRANCISCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE CAMPINA GRANDE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23B7/024AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="024AI"/>
+			</field>
+			<field name="abstract.espacenet" value="manga ataulfo em pó integral e para formulação de produtos da indústria alimentícia. a presente invenção trata-se de um produto que agrega valor a produto do agronegócio, o qual em tem diferentes propriedades físico-químicas e nutricionais em função do seu processamento em diferentes estágios de maturação. esse produto é obtido por meio do processo de obtenção do pó liofilizado da manga ataulfo em três estádios de maturação, cuja variedade é bastante produzida no vale do são francisco e ainda pouco conhecida no restante do país. possui pequena quantidade de fibras, polpa de coloração atraente, tom amarelo ouro, e, quando comparada com outras variedades, possui uma polpa mais carnosa. as etapas do processo de obtenção incluem a seleção dos frutos nos diferentes estádios de maturação, seguidos de lavagem e de sanitização, despolpamento, congelamento entre -40 a -55°c por 10 a 24 horas e a liofilização entre -45 a -55°c por um período entre 8 e 24 horas. o pó integral pode então ser adicionado para formulações de produtos como: sucos, sorvetes, geleias, barras de cereais, mousses, suplementos alimentares e vários outros produtos da indústria alimentícia."/>
+			<field name="originatesFrom" value="67260593"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023765"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017023765"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017023765"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171023765"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017023765"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person38" type="Person">
+			<semanticIdentifier>lattes::7419764880191120</semanticIdentifier>
+			<field name="identifier.lattes" value="7419764880191120"/>
+			<field name="name" value="Acácio Figueirêdo Neto"/>
+		</entity>
+		<entity ref="OrgUnit29" type="OrgUnit">
+			<semanticIdentifier>brcris::59059ef5cb6531abec93dc96d6085c5f</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DO VALE DO SAO FRANCISCO"/>
+		</entity>
+		<entity ref="OrgUnit30" type="OrgUnit">
+			<semanticIdentifier>brcris::fe8e5586992df8b68e4a82dfd4fae1e3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE CAMPINA GRANDE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42" toEntityRef="Person38" type="Inventor"/>
+		<relation fromEntityRef="Patent42" toEntityRef="OrgUnit29" type="Applicant"/>
+		<relation fromEntityRef="Patent42" toEntityRef="OrgUnit30" type="Applicant"/>
+	</relations>
+</entity-relation-data>

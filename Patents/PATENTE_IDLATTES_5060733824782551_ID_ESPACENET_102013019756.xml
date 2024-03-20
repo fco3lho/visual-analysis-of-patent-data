@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:56" record="20028" source="Espacenet">
+	<entities>
+		<entity ref="Patent20028" type="Patent">
+			<semanticIdentifier>brcris::c67fccbdb54f0dbcd19c1879629b875b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019756A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013019756</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019756A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131019756</semanticIdentifier>
+			<semanticIdentifier>original::102013019756</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013019756"/>
+			<field name="identifier.lattes" value="5060733824782551"/>
+			<field name="identifier.espacenet" value="102013019756"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de síntese, compósito de nanopartículas de prata e hexaniobato de potássio e seus usos"/>
+			<field name="title.lattes" value="Processo de síntese, compósito de nanopartículas de prata e hexaniobato de potássio e seus usos"/>
+			<field name="depositDate" value="2013-08-02"/>
+			<field name="publicationDate" value="2015-09-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ITALO ODONE MAZALI"/>
+			<field name="inventor" value="JORG KOBARG"/>
+			<field name="inventor" value="JULIANA MARTINS DE SOUZA E SILVA"/>
+			<field name="inventor" value="MATEUS BORBA CARDOSO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01G5/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de síntese, compósito de nanopartículas de prata e hexaniobato de potássio e seus usos. a presente invenção se refere a um processo de síntese de compósito de nanopartículas de prata metálica na superfície de cristalitos de hexaniobato de potássio por meio da redução de íons prata localizados seletivamente na sua superfície por ação de luz uv, o compósito obtido e seus usos. o processo não utiliza reagentes tóxicos ao meio ambiente e resulta em compósito com nanopartículas localizadas na superfície, garantindo fácil ação da prata contra bactérias e liberação controlada. os compósitos obtidos no presente pedido de patente são aplicáveis superfícies autolimpantes e antimicrobianas, interessantes para as indústrias relacionadas às áreas de saúde e de alimentos."/>
+			<field name="originatesFrom" value="52430772"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019756"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013019756"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019756"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131019756"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013019756"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2015013787"/>
+		</entity>
+		<entity ref="Person13905" type="Person">
+			<semanticIdentifier>lattes::5060733824782551</semanticIdentifier>
+			<field name="identifier.lattes" value="5060733824782551"/>
+			<field name="name" value="Italo Odone Mazali"/>
+		</entity>
+		<entity ref="OrgUnit10885" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent20029" type="Patent">
+			<semanticIdentifier>epodoc::WO2015013787</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="52430772"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2015013787"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20028" toEntityRef="Person13905" type="Inventor"/>
+		<relation fromEntityRef="Patent20028" toEntityRef="OrgUnit10885" type="Applicant"/>
+	</relations>
+</entity-relation-data>

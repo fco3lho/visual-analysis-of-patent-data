@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:36" record="7245" source="Espacenet">
+	<entities>
+		<entity ref="Patent7245" type="Patent">
+			<semanticIdentifier>brcris::bbbecccd9ea3fe0fb6f95ab6108cbc9c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005740A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1005740</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005740A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI05740</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1005740-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1005740"/>
+			<field name="identifier.lattes" value="9375515251716708"/>
+			<field name="identifier.espacenet" value="PI1005740"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo para mapeamento de documentos textuais para bases de dados estruturas utilizando ontologias"/>
+			<field name="title.lattes" value="MÉTODO PARA MAPEAMENTO DE DOCUMENTOS TEXTUAIS PARA BASES DE DADOS ESTRUTURADAS UTILIZANDO ONTOLOGIAS"/>
+			<field name="depositDate" value="2010-10-01"/>
+			<field name="publicationDate" value="2013-04-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE GUSTAVO MALETZKE"/>
+			<field name="inventor" value="CARLOS ANDRES FERRERO"/>
+			<field name="inventor" value="CLAUDIO SADDY RODRIGUES COY"/>
+			<field name="inventor" value="HUEI DIANA LEE"/>
+			<field name="inventor" value="JOCO JOSE FAGUNDES"/>
+			<field name="inventor" value="LUIZ HENRIQUE DUTRA DA COSTA"/>
+			<field name="inventor" value="MARIA DE LOURDES SETSUKO AYRIZONO"/>
+			<field name="inventor" value="RAQUEL FRANCO LEAL"/>
+			<field name="inventor" value="RENATO BOBSIN MACHADO"/>
+			<field name="inventor" value="WILLIAN ZALEWSKI"/>
+			<field name="inventor" value="WU FENG CHUNG"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F17/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G16Z99/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="Z"/>
+				<field name="group" value="99"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO PARA MAPEAMENTO DE DOCUMENTOS TEXTUAIS PARA BASES DE DADOS ESTRUTURADAS UTILIZANDO ONTOLOGIAS. Refere-se o presente pedido de patente de invenção a um método para mapeamento de dados textuais descritos em língua natural (arquivos digitais de texto como laudos e relatórios) para um formato estruturado (bases de dados computacionais (BD) com campos e valores que estes podem assumir, bem definidos)."/>
+			<field name="originatesFrom" value="48139517"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005740"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1005740"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005740"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI05740"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1005740-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4863" type="Person">
+			<semanticIdentifier>lattes::9375515251716708</semanticIdentifier>
+			<field name="identifier.lattes" value="9375515251716708"/>
+			<field name="name" value="Carlos Andres Ferrero"/>
+		</entity>
+		<entity ref="OrgUnit3849" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7245" toEntityRef="Person4863" type="Inventor"/>
+		<relation fromEntityRef="Patent7245" toEntityRef="OrgUnit3849" type="Applicant"/>
+	</relations>
+</entity-relation-data>

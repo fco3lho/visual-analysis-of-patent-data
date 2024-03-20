@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:03" record="22133" source="Espacenet">
+	<entities>
+		<entity ref="Patent22133" type="Patent">
+			<semanticIdentifier>brcris::8a3902c269dd5d3fe83d50c5a599a596</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8403307A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8403307</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8403307A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19848403307</semanticIdentifier>
+			<semanticIdentifier>original::8403307</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8403307"/>
+			<field name="identifier.lattes" value="7373617216548749"/>
+			<field name="identifier.espacenet" value="8403307"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="TRANSDUTOR DE PRESSAO FISIOLOGICA"/>
+			<field name="title.lattes" value="TRANSDUTOR DE PRESSÃO FISIOLÓGICA"/>
+			<field name="depositDate" value="1984-06-29"/>
+			<field name="publicationDate" value="1986-02-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADIB DOMINGOS JATENE"/>
+			<field name="inventor" value="JORGE BONASSA"/>
+			<field name="inventor" value="KENJI NAKIRI"/>
+			<field name="inventor" value="MILTON SEIGUI OSHIRO"/>
+			<field name="applicant" value="FUNDACAO E.J. ZERBINI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="4035983"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8403307"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8403307"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8403307"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19848403307"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8403307"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15311" type="Person">
+			<semanticIdentifier>lattes::7373617216548749</semanticIdentifier>
+			<field name="identifier.lattes" value="7373617216548749"/>
+			<field name="name" value="Jorge Bonassa"/>
+		</entity>
+		<entity ref="OrgUnit11932" type="OrgUnit">
+			<semanticIdentifier>brcris::41d95843bc97466c5c804512a665f447</semanticIdentifier>
+			<field name="name" value="FUNDACAO E.J. ZERBINI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22133" toEntityRef="Person15311" type="Inventor"/>
+		<relation fromEntityRef="Patent22133" toEntityRef="OrgUnit11932" type="Applicant"/>
+	</relations>
+</entity-relation-data>

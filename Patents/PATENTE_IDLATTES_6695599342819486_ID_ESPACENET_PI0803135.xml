@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:57" record="10145" source="Espacenet">
+	<entities>
+		<entity ref="Patent10145" type="Patent">
+			<semanticIdentifier>brcris::a4e76d9b92c4999b96aba3cee948d4ae</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803135A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803135</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803135A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03135</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803135-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803135"/>
+			<field name="identifier.lattes" value="6695599342819486"/>
+			<field name="identifier.espacenet" value="PI0803135"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de controle distribuìdo de grupo de elevadores usando dispositivos reconfiguráveis"/>
+			<field name="title.lattes" value="Sistema de Controle Distribuido de Grupos de Elevadores usando Dispositivos Reconfiguráveis"/>
+			<field name="depositDate" value="2008-07-02"/>
+			<field name="publicationDate" value="2010-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS HUMBERTO LLANOS QUINTERO"/>
+			<field name="inventor" value="DANIEL MAURICIO MUNOZ ARBOLEDA"/>
+			<field name="inventor" value="MAURICIO AYALA RINCON"/>
+			<field name="inventor" value="RUDI HENRI VAN ELS"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B66B1/24AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="66"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B66B1/28AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="66"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE CONTROLE DISTRIBUIDO DE GRUPO DE ELEVADORES USANDO DISPOSITIVOS RECONFIGURáVEIS. A presente invenção refere-se a um sistema para controle distribuído de um grupo de elevadores que visa reduzir o tempo de espera dos usuários e o consumo de potência do sistema de elevadores. O sistema de elevadores da presente invenção compreende um controle de grupo (1) baseado em lógica nebulosa, um barramento de comunicação (3) que interliga os controles locais (2) com o controle de grupo (1) e um barramento de botoeiras (5) que interliga as botoeiras de chamada de elevador (4) com o barramento de comunicação (3). Cada controle local (2) é implementado por dispositivos reconfiguráveis e possui uma descrição em hardware de diferentes algoritmos de alocação (2.1) para garantir o atendimento dos passageiros em presença de diferentes padrões de tráfego. Além disso, posiciona o grupo de elevadores (6) de acordo com os parâmetros de tráfego próprios de cada edifício. O controle de grupo (1) analisa o tráfego no prédio e seleciona o melhor algoritmo de alocação (2.1) que cada controle local LCS (2) deve executar."/>
+			<field name="originatesFrom" value="41796344"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803135"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803135"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803135"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03135"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803135-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6977" type="Person">
+			<semanticIdentifier>lattes::6695599342819486</semanticIdentifier>
+			<field name="identifier.lattes" value="6695599342819486"/>
+			<field name="name" value="Daniel Mauricio Muñoz Arboleda"/>
+		</entity>
+		<entity ref="OrgUnit5521" type="OrgUnit">
+			<semanticIdentifier>brcris::7259df9d676146d4a071204c9276c546</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10145" toEntityRef="Person6977" type="Inventor"/>
+		<relation fromEntityRef="Patent10145" toEntityRef="OrgUnit5521" type="Applicant"/>
+	</relations>
+</entity-relation-data>

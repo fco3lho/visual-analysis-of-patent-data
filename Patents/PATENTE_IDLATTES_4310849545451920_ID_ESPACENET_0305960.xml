@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:59" record="1703" source="Espacenet">
+	<entities>
+		<entity ref="Patent1703" type="Patent">
+			<semanticIdentifier>brcris::69b14ed13567ac84675e51748a8c58f7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305960A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0305960</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305960A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030305960</semanticIdentifier>
+			<semanticIdentifier>original::0305960-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0305960"/>
+			<field name="identifier.lattes" value="4310849545451920"/>
+			<field name="identifier.espacenet" value="0305960"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de degradação de hidrocarbonetos e processo de produção biossurfactantes"/>
+			<field name="title.lattes" value="Processo de degradação de hidrocarbonetos e processo de produção biossurfactantes"/>
+			<field name="depositDate" value="2003-12-30"/>
+			<field name="publicationDate" value="2005-10-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE SOARES ROSADO"/>
+			<field name="inventor" value="BIANCA ERIKA DE OLIVEIRA"/>
+			<field name="inventor" value="CLAUDIA DUARTE DA CUNHA"/>
+			<field name="inventor" value="MARIO DO ROSARIO"/>
+			<field name="inventor" value="SELMA GOMES FERREIRA LEITE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B09C1/10AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12S1/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE DEGRADAçãO DE HIDROCARBONETOS E PROCESSO DE PRODUçãO DE BIOSSURFACTANTES&quot;. Proporciona-se degradação de hidrocarbonetos que compreende o uso de microorganismos que produzem, simultaneamente, biossurfactantes. Tais microorganismos utilizam derivados do petróleo como fonte de carbono e produzem biossurfactantes, atuando de maneira sinérgica para, por exemplo, eliminar derivados de petróleo de áreas onde ocorreram vazamentos."/>
+			<field name="originatesFrom" value="35044429"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305960"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0305960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305960"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030305960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0305960-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1272" type="Person">
+			<semanticIdentifier>lattes::4310849545451920</semanticIdentifier>
+			<field name="identifier.lattes" value="4310849545451920"/>
+			<field name="name" value="Alexandre Soares Rosado"/>
+		</entity>
+		<entity ref="OrgUnit949" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1703" toEntityRef="Person1272" type="Inventor"/>
+		<relation fromEntityRef="Patent1703" toEntityRef="OrgUnit949" type="Applicant"/>
+	</relations>
+</entity-relation-data>

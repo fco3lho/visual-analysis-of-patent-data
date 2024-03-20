@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:56" record="1118" source="Espacenet">
+	<entities>
+		<entity ref="Patent1118" type="Patent">
+			<semanticIdentifier>brcris::f1c62beff03bd3f3f77ee4436ee71ff5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8805580A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8805580</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8805580A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888805580</semanticIdentifier>
+			<semanticIdentifier>original::8805580</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8805580"/>
+			<field name="identifier.lattes" value="9323724665148754"/>
+			<field name="identifier.espacenet" value="8805580"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PULVERIZADOR PNEUMATICO ELETROSTATICO COSTAL,ACIONADO POR ALAVANCA MANUAL"/>
+			<field name="title.lattes" value="Pulverizador pneumático eletrostático costal acionado por alavanca manual"/>
+			<field name="depositDate" value="1988-10-27"/>
+			<field name="publicationDate" value="1990-06-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALDEMIR CHAIM"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01M7/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4045855"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8805580"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8805580"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8805580"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888805580"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8805580"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person823" type="Person">
+			<semanticIdentifier>lattes::9323724665148754</semanticIdentifier>
+			<field name="identifier.lattes" value="9323724665148754"/>
+			<field name="name" value="Aldemir Chaim"/>
+		</entity>
+		<entity ref="OrgUnit658" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1118" toEntityRef="Person823" type="Inventor"/>
+		<relation fromEntityRef="Patent1118" toEntityRef="OrgUnit658" type="Applicant"/>
+	</relations>
+</entity-relation-data>

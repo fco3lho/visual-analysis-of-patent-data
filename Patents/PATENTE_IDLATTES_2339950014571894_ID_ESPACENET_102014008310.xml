@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:13" record="39996" source="Espacenet">
+	<entities>
+		<entity ref="Patent39996" type="Patent">
+			<semanticIdentifier>brcris::17808ff34e94e2c74fb783d974665459</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014008310A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014008310</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014008310A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141008310</semanticIdentifier>
+			<semanticIdentifier>original::102014008310</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014008310"/>
+			<field name="identifier.lattes" value="2339950014571894"/>
+			<field name="identifier.espacenet" value="102014008310"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de uísque, uísque puro e uísque cortado"/>
+			<field name="title.lattes" value="PROCESSO DE PRODUÇÃO DE UÍSQUE, UÍSQUE PURO E UÍSQUE CORTADO"/>
+			<field name="depositDate" value="2014-04-07"/>
+			<field name="publicationDate" value="2015-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOAO BATISTA DE ALMEIDA E SILVA"/>
+			<field name="inventor" value="RODRIGO PITANGA GUEDES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12G3/022AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="022AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12H6/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produçao de uísque, uísque puro e uísque cortado. a presente invenção trata de um processo de produção de um uísque compreendendo arroz e/ou quirera de arroz; bem como a de um uísque cortado."/>
+			<field name="originatesFrom" value="54548460"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014008310"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014008310"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014008310"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141008310"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014008310"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27223" type="Person">
+			<semanticIdentifier>lattes::2339950014571894</semanticIdentifier>
+			<field name="identifier.lattes" value="2339950014571894"/>
+			<field name="name" value="Rodrigo Pitanga Guedes"/>
+		</entity>
+		<entity ref="OrgUnit21303" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39996" toEntityRef="Person27223" type="Inventor"/>
+		<relation fromEntityRef="Patent39996" toEntityRef="OrgUnit21303" type="Applicant"/>
+	</relations>
+</entity-relation-data>

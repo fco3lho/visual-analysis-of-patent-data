@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:46:03" record="24167" source="Espacenet">
+	<entities>
+		<entity ref="Patent24167" type="Patent">
+			<semanticIdentifier>brcris::b15a0731b85ecaf5c001b1a5cc7a6fa3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028898A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015028898</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028898A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151028898</semanticIdentifier>
+			<semanticIdentifier>original::102015028898</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015028898"/>
+			<field name="identifier.lattes" value="7590162832506062"/>
+			<field name="identifier.espacenet" value="102015028898"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="gerador de números pseudo-aleatórios de consumo reduzido"/>
+			<field name="title.lattes" value="Gerador de números pseudo-aleatórios de consumo reduzido"/>
+			<field name="depositDate" value="2015-11-18"/>
+			<field name="publicationDate" value="2017-05-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDSON IFARRAGUIRE MORENO"/>
+			<field name="inventor" value="FREDERICO BARTZ MOLLER"/>
+			<field name="inventor" value="GUILHERME FREDERICO ROHDE"/>
+			<field name="inventor" value="JANAINA DOMINGUES COSTA"/>
+			<field name="inventor" value="JULIO LEAO DA SILVA JUNIOR"/>
+			<field name="inventor" value="RAFAEL RODRIGUES PEREIRA SOARES"/>
+			<field name="applicant" value="CENTRO NACIONAL DE TECNOLOGIA ELETRONICA AVANCADA S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F7/58AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="58AI"/>
+			</field>
+			<field name="abstract.espacenet" value="gerador de números pseudo-aleatórios de consumo reduzido. a presente invenção trata da arquitetura de um gerador de números pseudo-aleatórios (prng) de baixo consumo. esta arquitetura utiliza um par de osciladores defasados entre si e uma lógica de amostragem para gerar números aleatórios verdadeiros (semente). esta semente é consumida por um registrador de deslocamento com a realimentação linear (lfsr), cuja saída é uma sequência de números pseudo-aleatórios. esta arquitetura leva em consideração a quantidade de energia disponível nas distintas fases de operação do circuito onde a invenção será integrada. a arquitetura possui uma lógica de controle que permite reduzir o consumo de acordo com a fase de operação do circuito. a arquitetura do gerador de números pseudo-aleatórios (prng) proposto é aplicável tanto para circuitos de baixa complexidade, como rfids, quanto para circuitos de alta complexidade, como socs"/>
+			<field name="originatesFrom" value="59100891"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028898"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015028898"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028898"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151028898"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015028898"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16803" type="Person">
+			<semanticIdentifier>lattes::7590162832506062</semanticIdentifier>
+			<field name="identifier.lattes" value="7590162832506062"/>
+			<field name="name" value="Julio L Silva Junior"/>
+		</entity>
+		<entity ref="OrgUnit13016" type="OrgUnit">
+			<semanticIdentifier>brcris::6ce13e1ea6cf49856e643c3f35bb7242</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE TECNOLOGIA ELETRONICA AVANCADA S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24167" toEntityRef="Person16803" type="Inventor"/>
+		<relation fromEntityRef="Patent24167" toEntityRef="OrgUnit13016" type="Applicant"/>
+	</relations>
+</entity-relation-data>

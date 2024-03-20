@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:25" record="39472" source="Espacenet">
+	<entities>
+		<entity ref="Patent39472" type="Patent">
+			<semanticIdentifier>brcris::e77f80046f59480ee022cb61183d5e95</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016437A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016016437</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016437A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161016437</semanticIdentifier>
+			<semanticIdentifier>original::102016016437</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016016437"/>
+			<field name="identifier.lattes" value="4450395842375027"/>
+			<field name="identifier.espacenet" value="102016016437"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento e sistema de aquisição de dados para medição automática da condutividade hidráulica de meios porosos"/>
+			<field name="title.lattes" value="Equipamento e Sistema de Aquisição de Dados para Medição Automática da Condutividade Hidráulica de Meios Porosos"/>
+			<field name="depositDate" value="2016-07-15"/>
+			<field name="publicationDate" value="2018-02-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE AUGUSTO MARIANO"/>
+			<field name="inventor" value="FERNANDO KELVIN DA SILVA SOARES"/>
+			<field name="inventor" value="ROBSON ANDRE ARMINDO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N15/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção é composta de um equipamento e um sistema de aquisição automático da condutividade hidráulica de meios porosos (figs. 1/2). amostras de diversos meios porosos (fig. 4) podem ser inseridas na invenção, destacando-se o solo por ser objeto de análise de muitas ciências como a física e conservação do solo, hidrologia, engenharia civil, geologia, ciência dos materiais, etc. o produto contém reservatório de alimentação com tampa e tubo piezõmetro (figs. 2/3), podendo ser operado como um permeâmetro de carga constante ou descrescente. na base do reservatório é instalado um transdutor diferencial de pressão (tdp) para medição da vazão (que possui uma tomada de pressão na base e outra na parte superior do reservatório) e um sensor de temperatura (fig. 1). a amostra é instalada na posição horizontal, não havendo diferença gravitacional entre as extremidades, com outro tdp instalado nas extremidades para medição do diferencial hidráulico (figs. 1 e 2). 0 produto possui conexões de engate rápido, válvulas de controle e dutos para permitir o fluxo de água através da amostra com vedação adequada sem vazamentos (fig. 5). um conjunto de circuitos de aquisição e controle (figs. 6/7/8) realiza a aquisição de dados dos sensores e os transmite para o computador, onde um software (fig. 9) realiza o cálculo da vazão, gradiente hidráulico, viscosidade, condutividade hidráulica e permeabilidade intrínseca da amostra pela lei de buchingham-darcy. o software permite a conexão com o equipamento, iniciar e pausar a aquisição, criar novo documento, salvar dados, abrir arquivo já existente e plotar em tempo real gráfico da condutividade hidráulica (fig. 9) e permite exportar os dados em formato .xlsx (com a data e hora de criação)."/>
+			<field name="originatesFrom" value="62617447"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016437"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016016437"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016437"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161016437"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016016437"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26859" type="Person">
+			<semanticIdentifier>lattes::4450395842375027</semanticIdentifier>
+			<field name="identifier.lattes" value="4450395842375027"/>
+			<field name="name" value="Robson André Armindo"/>
+		</entity>
+		<entity ref="OrgUnit21031" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39472" toEntityRef="Person26859" type="Inventor"/>
+		<relation fromEntityRef="Patent39472" toEntityRef="OrgUnit21031" type="Applicant"/>
+	</relations>
+</entity-relation-data>

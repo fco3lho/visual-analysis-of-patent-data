@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:27" record="16863" source="Espacenet">
+	<entities>
+		<entity ref="Patent16863" type="Patent">
+			<semanticIdentifier>brcris::7f691dd2ca061b3f88021cd8e608a9b4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402966A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0402966</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402966A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI02966</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0402966-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0402966"/>
+			<field name="identifier.lattes" value="5130806039129225"/>
+			<field name="identifier.espacenet" value="PI0402966"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método para suprimir o espalhamento brillouin estimulado e dispositivos paramétricos com supressão do espalhamento brillouin estimulado"/>
+			<field name="title.lattes" value="Método para suprimir o espalhamento Brillouin estimulado e dispositivos paramétricos com supressão do espalhamento Brillouin estimulado"/>
+			<field name="depositDate" value="2004-07-15"/>
+			<field name="publicationDate" value="2006-08-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE GUIMARAES DOS SANTOS"/>
+			<field name="inventor" value="FULVIO ANDRES CALLEGARI"/>
+			<field name="inventor" value="HUGO LUIS FRAGNITO"/>
+			<field name="inventor" value="JORGE DIEGO MARCONI"/>
+			<field name="inventor" value="JOSE MANUEL CHAVEZ BOGGIO"/>
+			<field name="inventor" value="JOSE MANUEL CHAVEZ BOGGIO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/44AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO PARA SUPRIMIR O ESPALHAMENTO BRILLOUIN ESTIMULADO E DISPOSITIVOS PARAMéTRICOS COM SUPRESSãO DO ESPALHAMENTO DE BRILLOUIN ESTIMULADO&quot;. A presente invenção se refere a dispositivos ópticos paramétricos com o espalhamento de Brillouin estimulado (SBS) suprimido e a um método para suprimir este SBS. Mais especificamente, a presente invenção está relacionada à aplicação de uma tensão mecânica na fibra óptica (utilizada como meio não linear para obter amplificação paramétrica) para diminuir o SBS em conversores e amplificadores ópticos paramétricos. O princípio de funcionamento do invento está baseado na modificação da freqüência dos fónons que representam as ondas acústicas presentes na fibra óptica. Para isso se aplica um perfil de tensão (ou deformação) mecânica ao longo do comprimento da mesma, de forma a ter em cada segmento uma tensão diferente e assim, uma freqüência dos fónons diferente. A interação dos fótons com os fónons de diferente freqüência gera vários picos no ganho do espectro Brillouin, com uma amplitude e uma largura de acordo ao numero de fónons nas diferentes freqüências e as características físicas do vidro da fibra. O efeito de ter aplicado a tensão é aumentar o limiar a partir do qual aparece o SBS."/>
+			<field name="originatesFrom" value="36716701"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402966"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0402966"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402966"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI02966"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0402966-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11717" type="Person">
+			<semanticIdentifier>lattes::5130806039129225</semanticIdentifier>
+			<field name="identifier.lattes" value="5130806039129225"/>
+			<field name="name" value="Fulvio Andres Callegari"/>
+		</entity>
+		<entity ref="OrgUnit9176" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16863" toEntityRef="Person11717" type="Inventor"/>
+		<relation fromEntityRef="Patent16863" toEntityRef="OrgUnit9176" type="Applicant"/>
+	</relations>
+</entity-relation-data>

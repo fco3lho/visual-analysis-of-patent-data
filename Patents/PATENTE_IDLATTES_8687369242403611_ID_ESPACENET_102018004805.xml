@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:06" record="17786" source="Espacenet">
+	<entities>
+		<entity ref="Patent17786" type="Patent">
+			<semanticIdentifier>brcris::b480a43adc42732d754bcfd78eb1dc88</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018004805A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018004805</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018004805A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181004805</semanticIdentifier>
+			<semanticIdentifier>original::102018004805</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018004805"/>
+			<field name="identifier.lattes" value="8687369242403611"/>
+			<field name="identifier.espacenet" value="102018004805"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de identificação de faltas em ao menos um equipamento de um sistema elétrico, método de proteção de ao menos um equipamento de um sistema elétrico, sistemas que executam os métodos e uso dos métodos e sistema"/>
+			<field name="title.lattes" value="Método de identificação de faltas em ao menos um equipamento de um sistema elétrico, método de proteção de ao menos um equipamento de um sistema elétrico, sistemas que executam os métodos e uso dos métodos e sistema"/>
+			<field name="depositDate" value="2018-03-09"/>
+			<field name="publicationDate" value="2019-10-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL TEXIDOR DANTAS"/>
+			<field name="inventor" value="EDUARDO LORENZETTI PELLINI"/>
+			<field name="inventor" value="GIOVANNI MANASSERO JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de identificação de faltas em ao menos um equipamento de um sistema elétrico, método de proteção de ao menos um equipamento de um sistema elétrico, sistemas que executam os métodos e uso dos métodos e sistema a presente invenção se insere na área de engenharia elétrica, mais precisamente na tecnologia de proteção de sistemas elétricos e refere-se a um método que possibilita identificar faltas em equipamentos da rede elétrica, e posteriormente atuar de modo a proteger tais equipamentos. o método compreende as etapas de: obter medidas de tensão e corrente elétrica em terminais do (s) equipamento (s) elétrico a ser(em) protegido(s); calcular característica de fluxo com base na tensão elétrica e na corrente elétrica obtidas para cada terminal do equipamento elétrico a ser protegido; calcular grandeza de operação e de restrição a partir das características de fluxo calculadas; comparar a grandeza de operação com a de restrição para indicar a possibilidade de falta do equipamento elétrico a ser protegido. ainda, é descrito um sistema de identificação de faltas que executa o método acima, e um método e proteção de equipamentos elétricos compreendidos por sistemas elétricos."/>
+			<field name="originatesFrom" value="68158637"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018004805"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018004805"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018004805"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181004805"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018004805"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12338" type="Person">
+			<semanticIdentifier>lattes::8687369242403611</semanticIdentifier>
+			<field name="identifier.lattes" value="8687369242403611"/>
+			<field name="name" value="Giovanni Manassero Junior"/>
+		</entity>
+		<entity ref="OrgUnit9618" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17786" toEntityRef="Person12338" type="Inventor"/>
+		<relation fromEntityRef="Patent17786" toEntityRef="OrgUnit9618" type="Applicant"/>
+	</relations>
+</entity-relation-data>

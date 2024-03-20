@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:22" record="12003" source="Espacenet">
+	<entities>
+		<entity ref="Patent12003" type="Patent">
+			<semanticIdentifier>brcris::5588c2579527a20c85c95009b3f6418f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014013914A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014013914</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014013914A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141013914</semanticIdentifier>
+			<semanticIdentifier>original::102014013914</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014013914"/>
+			<field name="identifier.lattes" value="4745280891704797"/>
+			<field name="identifier.espacenet" value="102014013914"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de n,n' -diciclohexilsulfamida"/>
+			<field name="title.lattes" value="Processo de obtenção de N,N'-diciclohexilsulfamida"/>
+			<field name="depositDate" value="2014-06-09"/>
+			<field name="publicationDate" value="2016-02-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA PAULA GARCIA FERREIRA"/>
+			<field name="inventor" value="DEYBER ARLEY VARGAS MEDINA"/>
+			<field name="inventor" value="EDER TADEU GOMES CAVALHEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/18AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C303/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="303"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de n,n'-diciclohexilsulfamida a presente invenção descreve um novo processo de obtenção de n,n'-diciclohexilsulfamida, uma substância com demonstrada atividade ansiolítica e anticonvulsivante. este novo processo compreende etapa de formação da referida molécula a partir da reação de condensação promovida pelo aquecimento do ciclamato de sódio em estado sólido."/>
+			<field name="originatesFrom" value="55182696"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014013914"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014013914"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014013914"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141013914"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014013914"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8270" type="Person">
+			<semanticIdentifier>lattes::4745280891704797</semanticIdentifier>
+			<field name="identifier.lattes" value="4745280891704797"/>
+			<field name="name" value="Éder Tadeu Gomes Cavalheiro"/>
+		</entity>
+		<entity ref="OrgUnit6539" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12003" toEntityRef="Person8270" type="Inventor"/>
+		<relation fromEntityRef="Patent12003" toEntityRef="OrgUnit6539" type="Applicant"/>
+	</relations>
+</entity-relation-data>

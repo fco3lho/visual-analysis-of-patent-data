@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:06" record="15048" source="Espacenet">
+	<entities>
+		<entity ref="Patent15048" type="Patent">
+			<semanticIdentifier>brcris::b78ac337005fd0dbaf0451bc570f5450</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019018683A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019018683</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019018683A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191018683</semanticIdentifier>
+			<semanticIdentifier>original::102019018683</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019018683"/>
+			<field name="identifier.lattes" value="4861420446945917"/>
+			<field name="identifier.espacenet" value="102019018683"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método de detecção de danos em peças submetidas a processos de usinagem"/>
+			<field name="title.lattes" value="SISTEMA E MÉTODO DE DETECÇÃO DE DANOS EM PEÇAS SUBMETIDAS A PROCESSOS DE USINAGEM"/>
+			<field name="depositDate" value="2019-09-09"/>
+			<field name="publicationDate" value="2021-03-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO CARLOS BIANCHI"/>
+			<field name="inventor" value="FELIPE APARECIDO ALEXANDRE"/>
+			<field name="inventor" value="PAULO ROBERTO DE AGUIAR"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B17/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N29/09AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="09AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema e método de detecção de danos em peças submetidas a processos de usinagem. a presente invenção se refere a sistema de monitoramento e método de detecção de danos em peças nos processos de usinagem, mais especificamente no processo de retificação. o referido sistema é composto essencialmente de dois diafragmas piezelétricos que se localizam diametralmente opostos, um atuando como emissor de sinais e outro atuando como receptor de sinais, bem como um hardware gerador de sinais com frequências determinadas, um hardware de aquisição dos sinais provenientes da aplicação técnica, e uma interface computacional para tratamento dos sinais e diagnóstico da superfície da peça. o método abrange principalmente as etapas de: a) envio de pacotes de sinais com frequências determinadas do diafragma emissor para o diafragma receptor antes de iniciar o processo de usinagem; b) reenvio do pacote de sinais após o processo de usinagem; c) processamento e seleção de bandas de frequência específicas; d) aplicação de um filtro digital nas bandas determinadas nos sinais de recepção; e) aplicação de tratamento estatístico."/>
+			<field name="originatesFrom" value="75438514"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019018683"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019018683"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019018683"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191018683"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019018683"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10447" type="Person">
+			<semanticIdentifier>lattes::4861420446945917</semanticIdentifier>
+			<field name="identifier.lattes" value="4861420446945917"/>
+			<field name="name" value="Felipe Aparecido Alexandre"/>
+		</entity>
+		<entity ref="OrgUnit8156" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15048" toEntityRef="Person10447" type="Inventor"/>
+		<relation fromEntityRef="Patent15048" toEntityRef="OrgUnit8156" type="Applicant"/>
+	</relations>
+</entity-relation-data>

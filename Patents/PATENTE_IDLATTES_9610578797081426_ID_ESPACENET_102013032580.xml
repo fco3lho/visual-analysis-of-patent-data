@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:12" record="1275" source="Espacenet">
+	<entities>
+		<entity ref="Patent1275" type="Patent">
+			<semanticIdentifier>brcris::4ec4e1406512d8ec83939e4c457b3b38</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032580A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013032580</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032580A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131032580</semanticIdentifier>
+			<semanticIdentifier>original::102013032580</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013032580"/>
+			<field name="identifier.lattes" value="9610578797081426"/>
+			<field name="identifier.espacenet" value="102013032580"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mesa lúdica para reabilitação de disfunções motoras dos membros superiores"/>
+			<field name="title.lattes" value="Mesa lúdica para reabilitação de disfunções motoras dos membros superiores"/>
+			<field name="depositDate" value="2013-12-18"/>
+			<field name="publicationDate" value="2015-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO BRAWERMAN"/>
+			<field name="inventor" value="EDUARDO JULIANO ALBERTI"/>
+			<field name="inventor" value="SERGIO FRANCISCO PICHORIM"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G16H40/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="mesa lúdica para reabilitaçãode disfunções motoras dos membros superiores. o projeto consiste em uma mesa lúdica para desenvolvimento de exercícios, denominada mesa de desenvolvimento motor e um software de controle de execução, histórico de exercícios, cadastro de pacientes e cadastro e histórico de medidas goniométricas. a mesa de desenvolvimento motor, construída em madeira, composta por 8 placas de circuito impresso, chamados segmentos, cada qual constituída por matrizes de leds e sensores infravermelhos, permite ao fisioterapeuta a execução de exercícios fisioterapêuticos de ganho de amplitude, desenvolvimento e aprimoramento da motricidade personalizados para cada paciente, baseados no toque com a mão, do usuário, em um segmento acionado e aferição através de sensores ópticos. um computador conectado a mesa de desenvolvimento motor integra o sistema de controle de execução de exercícios, recebendo dados de exercícios e enviando dados de tempos de execução, permitindo a análise temporal do progresso do paciente."/>
+			<field name="originatesFrom" value="54837895"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032580"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013032580"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032580"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131032580"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013032580"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person947" type="Person">
+			<semanticIdentifier>lattes::9610578797081426</semanticIdentifier>
+			<field name="identifier.lattes" value="9610578797081426"/>
+			<field name="name" value="Alessandro Brawerman"/>
+		</entity>
+		<entity ref="OrgUnit747" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit748" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1275" toEntityRef="Person947" type="Inventor"/>
+		<relation fromEntityRef="Patent1275" toEntityRef="OrgUnit747" type="Applicant"/>
+		<relation fromEntityRef="Patent1275" toEntityRef="OrgUnit748" type="Applicant"/>
+	</relations>
+</entity-relation-data>

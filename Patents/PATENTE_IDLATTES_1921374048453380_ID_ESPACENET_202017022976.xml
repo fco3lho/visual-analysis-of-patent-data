@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:19:24" record="41431" source="Espacenet">
+	<entities>
+		<entity ref="Patent41431" type="Patent">
+			<semanticIdentifier>brcris::d36a9f30e09149970693eb7f021fb3f7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017022976U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202017022976U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202017022976U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20172022976U</semanticIdentifier>
+			<semanticIdentifier>original::202017022976</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202017022976"/>
+			<field name="identifier.lattes" value="1921374048453380"/>
+			<field name="identifier.espacenet" value="202017022976"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="comporta para portas e janelas contra enchentes"/>
+			<field name="title.lattes" value="Comporta para Portas e Janelas Contra Enchentes"/>
+			<field name="depositDate" value="2017-10-25"/>
+			<field name="publicationDate" value="2019-06-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="NOEL GOMES DOS SANTOS"/>
+			<field name="inventor" value="SANDRO APARECIDO DOS SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E02B7/20AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="comporta para portas e janelas contra enchentes. trata-se de um modelo de utilidade denominado de &quot;comporta&quot; que tem por finalidade prevenir a entrada de água em residências em dias de enchente. o modelo pode ser derivado tanto para portas quanto para janelas, sendo que suas dimensões podem ser planejadas no momento da produção em série, variando de acordo com os padrões comerciais de portas e janelas. não existe no mercado algum sistema de amortização de cheias para residências, que tenha a finalidade de obstruir a entrada de agua nas residências, de modo prático e rápido. portanto pensamos que terá grande aceitação em mercados onde há histórico de enchentes recorrentes."/>
+			<field name="originatesFrom" value="67260449"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017022976"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202017022976U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202017022976"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20172022976U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202017022976"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28239" type="Person">
+			<semanticIdentifier>lattes::1921374048453380</semanticIdentifier>
+			<field name="identifier.lattes" value="1921374048453380"/>
+			<field name="name" value="Sandro Aparecido dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit22102" type="OrgUnit">
+			<semanticIdentifier>brcris::43a78740c95a1ca64db4f4f90a86f6ac</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41431" toEntityRef="Person28239" type="Inventor"/>
+		<relation fromEntityRef="Patent41431" toEntityRef="OrgUnit22102" type="Applicant"/>
+	</relations>
+</entity-relation-data>

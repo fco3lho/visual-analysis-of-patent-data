@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:40" record="29772" source="Espacenet">
+	<entities>
+		<entity ref="Patent29772" type="Patent">
+			<semanticIdentifier>brcris::e6c845aaa9c9a76e560a77e2a539379d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025545A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016025545</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025545A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161025545</semanticIdentifier>
+			<semanticIdentifier>original::102016025545</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016025545"/>
+			<field name="identifier.lattes" value="4455422053321491"/>
+			<field name="identifier.espacenet" value="102016025545"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="luminária led rgbw aplicada a microscópio óptico"/>
+			<field name="title.lattes" value="LUMINÁRIA LED RGBW APLICADA A MICROSCÓPIO ÓPTICO"/>
+			<field name="depositDate" value="2016-11-01"/>
+			<field name="publicationDate" value="2018-05-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CICERO HILDENBERG LIMA DE OLIVEIRA"/>
+			<field name="inventor" value="MARCO ANTONIO DALLA COSTA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE RONDONIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B21/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F21K99/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="99"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve uma luminária led rgbw aplicada a microscópio óptico, especificamente, a presente invenção compreende uma luminária aplicada a microscópio óptico para análise de amostras cujos meios de iluminação compreendem uma unidade de led rgbw. a presente invenção se situa nos campos da física óptica, na área de aparelhos ópticos, mais precisamente na área de iluminação para microscópios."/>
+			<field name="originatesFrom" value="62494796"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025545"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016025545"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025545"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161025545"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016025545"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20455" type="Person">
+			<semanticIdentifier>lattes::4455422053321491</semanticIdentifier>
+			<field name="identifier.lattes" value="4455422053321491"/>
+			<field name="name" value="Marco Antônio Dalla Costa"/>
+		</entity>
+		<entity ref="OrgUnit16008" type="OrgUnit">
+			<semanticIdentifier>brcris::7fdad6c6dcefd5cd8dcf527919efa82a</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE RONDONIA"/>
+		</entity>
+		<entity ref="OrgUnit16009" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29772" toEntityRef="Person20455" type="Inventor"/>
+		<relation fromEntityRef="Patent29772" toEntityRef="OrgUnit16008" type="Applicant"/>
+		<relation fromEntityRef="Patent29772" toEntityRef="OrgUnit16009" type="Applicant"/>
+	</relations>
+</entity-relation-data>

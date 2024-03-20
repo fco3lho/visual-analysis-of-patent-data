@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:33" record="34287" source="Espacenet">
+	<entities>
+		<entity ref="Patent34287" type="Patent">
+			<semanticIdentifier>brcris::bc11c51db3dafb6ddbf413d3325ee5ab</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603018A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0603018</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603018A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI03018</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0603018-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0603018"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="PI0603018"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método para processamento primário de petróleo em águas profundas"/>
+			<field name="title.lattes" value="Método para Processamento Primário de Petróleo em Águas Profundas"/>
+			<field name="depositDate" value="2006-07-28"/>
+			<field name="publicationDate" value="2008-03-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FRANCISCO FONTES LIMA NETO"/>
+			<field name="inventor" value="JOSE EDUARDO DE OLIVEIRA"/>
+			<field name="inventor" value="MAURICIO CARVALHO DOS SANTOS"/>
+			<field name="inventor" value="NEY ROBINSON SALVI DOS REIS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA PROCESSAMENTO PRIMáRIO DE PETRóLEO EM áGUAS PROFUNDAS Refere-se a presente invenção a um método que visa aproveitar as condições de pressão e temperatura encontradas em águas profundas e ultraprofundas, e utilizá-las controladamente para realizar o processamento primário do petróleo ainda em ambiente subaquático."/>
+			<field name="originatesFrom" value="39181847"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603018"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0603018"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603018"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI03018"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0603018-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23588" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18489" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit18490" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34287" toEntityRef="Person23588" type="Inventor"/>
+		<relation fromEntityRef="Patent34287" toEntityRef="OrgUnit18489" type="Applicant"/>
+		<relation fromEntityRef="Patent34287" toEntityRef="OrgUnit18490" type="Applicant"/>
+	</relations>
+</entity-relation-data>

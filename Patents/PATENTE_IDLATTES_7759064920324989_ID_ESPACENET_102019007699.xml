@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:22" record="10807" source="Espacenet">
+	<entities>
+		<entity ref="Patent10807" type="Patent">
+			<semanticIdentifier>brcris::aa59ccd038bfeb65d5e9824292b0c64f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019007699A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019007699</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019007699A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191007699</semanticIdentifier>
+			<semanticIdentifier>original::102019007699</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019007699"/>
+			<field name="identifier.lattes" value="7759064920324989"/>
+			<field name="identifier.espacenet" value="102019007699"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="efeito analgésico da bixina isolada das sementes de bixa orellana linné"/>
+			<field name="title.lattes" value="EFEITO ANALGÉSICO DA BIXINA ISOLADA DAS SEMENTES DE Bixa orellana Linne."/>
+			<field name="depositDate" value="2019-04-16"/>
+			<field name="publicationDate" value="2020-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXIA THAMARA GASPARIN"/>
+			<field name="inventor" value="BRUNA BITTENCOURT SOTOMAIOR"/>
+			<field name="inventor" value="CARLOS HENRIQUE ALVES JESUS"/>
+			<field name="inventor" value="DAIANY DARLLY BELLO REDIVO"/>
+			<field name="inventor" value="DEISE PREHS MONTRUCCHIO"/>
+			<field name="inventor" value="JOICE MARIA DA CUNHA"/>
+			<field name="inventor" value="JOSIANE FATIMA GASPARI DIAS"/>
+			<field name="inventor" value="MARILIS DALLARMI MIGUEL"/>
+			<field name="inventor" value="OBDULIO GOMES MIGUEL"/>
+			<field name="inventor" value="SAMANTA DALIANA GOLIN PACHECO"/>
+			<field name="inventor" value="SANDRA MARIA WARUMBY ZANIN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/22AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K36/185AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="185AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P29/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C07C69/602AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="69"/>
+				<field name="subgroup" value="602AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente patente de invenção está inserida no setor biotecnológico. refere-se a utilização da bixina isolada das sementes de bixa orellana linné com atividades anti-inflamatória, analgésica, antinociceptiva com aplicabilidade na área humana, veterinária. a invenção está relacionada ao uso da bixina isolada em preparações líquidas, semissólidas e sólidas."/>
+			<field name="originatesFrom" value="73045635"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019007699"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019007699"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019007699"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191007699"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019007699"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7535" type="Person">
+			<semanticIdentifier>lattes::7759064920324989</semanticIdentifier>
+			<field name="identifier.lattes" value="7759064920324989"/>
+			<field name="name" value="Deise Prehs Montrucchio"/>
+		</entity>
+		<entity ref="OrgUnit5994" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10807" toEntityRef="Person7535" type="Inventor"/>
+		<relation fromEntityRef="Patent10807" toEntityRef="OrgUnit5994" type="Applicant"/>
+	</relations>
+</entity-relation-data>

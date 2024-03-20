@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:36" record="41762" source="Espacenet">
+	<entities>
+		<entity ref="Patent41762" type="Patent">
+			<semanticIdentifier>brcris::af22786ae2725f82edde8b8ac0efeec3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033584A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013033584</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013033584A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131033584</semanticIdentifier>
+			<semanticIdentifier>original::102013033584</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013033584"/>
+			<field name="identifier.lattes" value="8192100748931041"/>
+			<field name="identifier.espacenet" value="102013033584"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e medidor online de estabilidade elétrica de fluido de perfuração"/>
+			<field name="title.lattes" value="SISTEMA E MEDIDOR ONLINE DE ESTABILIDADE ELETRICA DE FLUIDO DE PERFURACAO"/>
+			<field name="depositDate" value="2013-12-27"/>
+			<field name="publicationDate" value="2017-02-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIA MIRIAM SCHEID"/>
+			<field name="inventor" value="HERALDO LUIS SILVEIRA DE ALMEIDA"/>
+			<field name="inventor" value="LUIS AMERICO CALCADA"/>
+			<field name="inventor" value="MAURICIO GIMENES FOLSTA"/>
+			<field name="inventor" value="SERGIO DA CRUZ MAGALHAES FILHO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO - UFRRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B21/08AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R27/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo sistema e medidor online de estabilidade elétrica de fluido de perfuração refere-se o presente pedido a um sistema e aparelho para a 5 realização do sistema, de controle automatizado provido para efetuar a medição, análise e o controle da estabilidade elétrica de fluidos de poços de perfuração. o parâmetro &quot;estabilidade elétrica&quot; corresponde à diferença de potencial elétrico necessária a uma emulsão para que esta conduza adequadamente a corrente elétrica. la no sistema da presente invenção o diferencial de potencia elétrico é aplicado continuamente e simultaneamente é medida a corrente contínua que passa pela solução, permitindo que sejam construídas curvas de corrente versus potencial que fornecem mais informações à respeito da estabilidade do fluido. permite ainda a 15 identificação mais rápida de eventos durante a perfuração, como influxo de água para o poço, deterioração térmica de surfactantes, etc., possibilitando o acompanhamento contínuo e remoto do parâmetro estabilidade elétrica. o equipamento desenvolvido realiza a medição online (11) da 20 estabilidade elétrica. isto foi possível utilizando sistema online que emprega equipamento que é provido com sonda probe (2), responsável por investigar e obter informações do fluido de perfuração (1) de uma região remota de um poço de perfuração (12), alimentador (3) e placa amplificadora de aquisição de dados (4), conectado a computador (8) e 25 hardware de automação (7), software de tratamento de sinais (5) e algoritmo (6) incorporado no dito software, para controle e modelagem."/>
+			<field name="originatesFrom" value="58043699"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033584"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013033584"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013033584"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131033584"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013033584"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28465" type="Person">
+			<semanticIdentifier>lattes::8192100748931041</semanticIdentifier>
+			<field name="identifier.lattes" value="8192100748931041"/>
+			<field name="name" value="Sérgio da Cruz Magalhães Filho"/>
+		</entity>
+		<entity ref="OrgUnit22280" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41762" toEntityRef="Person28465" type="Inventor"/>
+		<relation fromEntityRef="Patent41762" toEntityRef="OrgUnit22280" type="Applicant"/>
+	</relations>
+</entity-relation-data>

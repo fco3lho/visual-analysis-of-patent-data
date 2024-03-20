@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:48" record="2228" source="Espacenet">
+	<entities>
+		<entity ref="Patent2228" type="Patent">
+			<semanticIdentifier>brcris::2d1901f58fa941033b3939a5fd1d2fb7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403540A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0403540</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403540A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI03540</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0403540-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0403540"/>
+			<field name="identifier.lattes" value="0006459316446998"/>
+			<field name="identifier.espacenet" value="PI0403540"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="vacina contra clostridiose e processo de purificação do antìgeno"/>
+			<field name="title.lattes" value="VACINA CONTRA CLOSTRIDIOSE E PROCESSO DE PURIFICAÇÃO DO ANTÍGENO"/>
+			<field name="depositDate" value="2004-08-17"/>
+			<field name="publicationDate" value="2006-04-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO DUTRA DE CARVALHO JUNIOR"/>
+			<field name="inventor" value="FRANCISCO CARLOS FARIA LOBATO"/>
+			<field name="inventor" value="LUIZ GUILHERME DIAS HENEINE"/>
+			<field name="inventor" value="MONICA CRISTINA DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K39/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;VACINA CONTRA CLOSTRIDIOSE E PROCESSO DE PURIFICAçãO DO ANTìGENO&quot;. A presente invenção diz respeito à formulação de vacina contra clostridiose a qual é constituída da toxina &lt;sym&gt;de Clostridium perfringens purificada e destoxificada e adjuvantes constituídos por lipossomas e/ou partículas de sais metálicos. A composição dessa vacina é capaz de induzir uma resposta imune nos animais equivalente àquela produzida por adjuvante comumente utilizado em processos de vacinação; pode ser administrada em dose única, no caso do emprego de lipossomas, sendo capaz de promover uma liberação lenta do antígeno; e não leva à formação de granulomas no sítio de aplicação, não comprometendo, portanto, o valor comercial do animal."/>
+			<field name="originatesFrom" value="36118356"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403540"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0403540"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403540"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI03540"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0403540-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1619" type="Person">
+			<semanticIdentifier>lattes::0006459316446998</semanticIdentifier>
+			<field name="identifier.lattes" value="0006459316446998"/>
+			<field name="name" value="Alvaro Dutra de Carvalho Junior"/>
+		</entity>
+		<entity ref="OrgUnit1216" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2228" toEntityRef="Person1619" type="Inventor"/>
+		<relation fromEntityRef="Patent2228" toEntityRef="OrgUnit1216" type="Applicant"/>
+	</relations>
+</entity-relation-data>

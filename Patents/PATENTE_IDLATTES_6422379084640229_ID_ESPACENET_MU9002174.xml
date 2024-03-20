@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:35" record="27493" source="Espacenet">
+	<entities>
+		<entity ref="Patent27493" type="Patent">
+			<semanticIdentifier>brcris::bb55ccc52fe856a92d5a4a59be1ec4bf</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9002174U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9002174U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9002174U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1990MU02174U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 9002174-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9002174"/>
+			<field name="identifier.lattes" value="6422379084640229"/>
+			<field name="identifier.espacenet" value="MU9002174"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="motor elÉtrico supercondutor utilizando o efeito da repulsço magnÉtica supercondutora"/>
+			<field name="title.lattes" value="Motor Elétrico Supercondutor Utilzando o Efeitp da Repulsão Magnética Supercondutora"/>
+			<field name="depositDate" value="2010-11-26"/>
+			<field name="publicationDate" value="2013-03-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LINCOLN BRUM LEITE GUSMAO PINHEIRO"/>
+			<field name="inventor" value="LUIZ AMERICO ALVES PEREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE PONTA GROSSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02N15/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MOTOR ELÉTRICO SUPERCONDUTOR UTILIZANDO O EFEITO DA REPULSçO MAGNÉTICA SUPERCONDUTORA. Motor elétrico supercondutor utilizando o efeito da repuísão magnética supercondutora entre uma pastilha supercondutora (metálica ou cerâmica) e uma bobina elétrica (convencional ou supercondutora), acopladas a um sistema mecânico que transforma o movimento linear da repuísão em movimento rotativo."/>
+			<field name="originatesFrom" value="47750316"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9002174"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9002174U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9002174"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1990MU02174U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 9002174-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18982" type="Person">
+			<semanticIdentifier>lattes::6422379084640229</semanticIdentifier>
+			<field name="identifier.lattes" value="6422379084640229"/>
+			<field name="name" value="Luiz Americo Alves Pereira"/>
+		</entity>
+		<entity ref="OrgUnit14825" type="OrgUnit">
+			<semanticIdentifier>brcris::97d7b7c33c80517c2049514760e7bf3f</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE PONTA GROSSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27493" toEntityRef="Person18982" type="Inventor"/>
+		<relation fromEntityRef="Patent27493" toEntityRef="OrgUnit14825" type="Applicant"/>
+	</relations>
+</entity-relation-data>

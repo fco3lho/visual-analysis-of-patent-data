@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:30" record="14101" source="Espacenet">
+	<entities>
+		<entity ref="Patent14101" type="Patent">
+			<semanticIdentifier>brcris::dfbafccad14bc7d22c12873f4f0b9bd5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032631A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015032631</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032631A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151032631</semanticIdentifier>
+			<semanticIdentifier>original::102015032631</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015032631"/>
+			<field name="identifier.lattes" value="9148105444816964"/>
+			<field name="identifier.espacenet" value="102015032631"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para produção de ligas de alumínio solubilizadas com tempo otimizado"/>
+			<field name="title.lattes" value="Processo para produção de ligas de alumínio solubilizadas com tempo otimizado"/>
+			<field name="depositDate" value="2015-12-28"/>
+			<field name="publicationDate" value="2017-07-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELO ANTONIO REIS"/>
+			<field name="inventor" value="CHRISTIAN MARIANI LUCAS DOS SANTOS"/>
+			<field name="inventor" value="ESTEFANO APARECIDO VIEIRA"/>
+			<field name="inventor" value="GIANNI FERREIRA ALVES"/>
+			<field name="inventor" value="JOSE ROBERTO DE OLIVEIRA"/>
+			<field name="inventor" value="RONAN MILLER VIEIRA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N25/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N3/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N25/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para produção de ligas de alumínio solubilizadas com o tempo otimizado. refere-se a um processo adequado o qual permite determinar o tempo ideal de solubilização de ligas de alumínio tratáveis termicamente. a primeira etapa refere-se a obtenção de amostra da liga (1) em seguida faz-se a determinação exata temperatura da linha liquidus na etapa (2) seleciona-se a temperatura de tratamento (3) em função do resultado obtido. tendo-se definido a temperatura de trabalho as amostras serão aquecidas (4) em um forno. serão retiradas para tempos variando de 0 a 32h e de preferência usando-se uma progressão geométrica, com o tempo aumentando gradualmente. as amostras deverão ser resfriadas (5) bruscamente em água gelada, ou nitrogênio líquido ou qualquer outro agente que promova a refrigeração rápida. imediatamente após o resfriamento de cada amostra procede-se a medida de dureza (6) brinnel (hb) ou vickers (hv). um gráfico (7) dureza em função do tempo irá mostra o tempo para o qual a mesma não sofre alterações significativas e sendo assim, possível determinar o tempo otimizado para o tratamento de solubilização (8)."/>
+			<field name="originatesFrom" value="61526442"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032631"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015032631"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032631"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151032631"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015032631"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9703" type="Person">
+			<semanticIdentifier>lattes::9148105444816964</semanticIdentifier>
+			<field name="identifier.lattes" value="9148105444816964"/>
+			<field name="name" value="Estéfano Aparecido Vieira"/>
+		</entity>
+		<entity ref="OrgUnit7638" type="OrgUnit">
+			<semanticIdentifier>brcris::06bebaffaf67663afba14efa6fb85cc5</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14101" toEntityRef="Person9703" type="Inventor"/>
+		<relation fromEntityRef="Patent14101" toEntityRef="OrgUnit7638" type="Applicant"/>
+	</relations>
+</entity-relation-data>

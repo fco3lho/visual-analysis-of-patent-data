@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:57" record="20756" source="Espacenet">
+	<entities>
+		<entity ref="Patent20756" type="Patent">
+			<semanticIdentifier>brcris::c6af2db5880b6611e03410ca9705e752</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015020346A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015020346</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015020346A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151020346</semanticIdentifier>
+			<semanticIdentifier>original::102015020346</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015020346"/>
+			<field name="identifier.lattes" value="6190171659047174"/>
+			<field name="identifier.espacenet" value="102015020346"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de percepção veicular"/>
+			<field name="title.lattes" value="Método de Percepção Veicular"/>
+			<field name="depositDate" value="2015-08-24"/>
+			<field name="publicationDate" value="2018-05-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GIOVANI BERNARDES VITOR"/>
+			<field name="inventor" value="JANITO VAQUEIRO FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05D1/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01C21/36AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de percepção veicular a presente invenção refere-se a um método de percepção veicular usando um par de câmeras estereoscópicas para a interpretação do cenário em ambientes urbanos complexos ao redor do veículo, levando em conta elementos semânticos, dinâmicos e incertos."/>
+			<field name="originatesFrom" value="62485169"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015020346"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015020346"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015020346"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151020346"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015020346"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14367" type="Person">
+			<semanticIdentifier>lattes::6190171659047174</semanticIdentifier>
+			<field name="identifier.lattes" value="6190171659047174"/>
+			<field name="name" value="Janito Vaqueiro Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit11254" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20756" toEntityRef="Person14367" type="Inventor"/>
+		<relation fromEntityRef="Patent20756" toEntityRef="OrgUnit11254" type="Applicant"/>
+	</relations>
+</entity-relation-data>

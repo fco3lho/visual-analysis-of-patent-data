@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:28" record="12762" source="Espacenet">
+	<entities>
+		<entity ref="Patent12762" type="Patent">
+			<semanticIdentifier>brcris::b29cf2f1296289ea38797f3c9b73fbfe</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019023124A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019023124</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019023124A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191023124</semanticIdentifier>
+			<semanticIdentifier>original::102019023124</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019023124"/>
+			<field name="identifier.lattes" value="3624370723788970"/>
+			<field name="identifier.espacenet" value="102019023124"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="filmes a base de pectina"/>
+			<field name="title.lattes" value="Filmes a base de pectina"/>
+			<field name="depositDate" value="2019-11-04"/>
+			<field name="publicationDate" value="2021-05-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAROLINA APARECIDA ANTUNES AMADEU"/>
+			<field name="inventor" value="EDUARDO JOSE DE ARRUDA"/>
+			<field name="inventor" value="EUCLESIO SIMIONATTO"/>
+			<field name="inventor" value="FRANCIELLI BRONDANI DA SILVA"/>
+			<field name="inventor" value="SILVIA MARIA MARTELLI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA GRANDE DOURADOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23F3/34AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A23L29/231AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="231AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A23P20/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="filmes a base de pectina. referem-se a formulações de filme filmes comestíveis poliméricos utilizados como embalagem de alimentos e no desenvolvimento de fitas comestíveis, estes filmes possuem funcionalidade e atividade abrangente e podem ser utilizados para produção de diversos produtos, tais como, embalagens multifuncionais para proteção de alimentos e elaboração de fitas comestíveis, a pectina é um aditivo alimentar seguro com uso reconhecido pelo codex alimentarius internacional, no brasil, a anvisa (secretária de vigilância sanitária do ministério da saúde), no uso de suas atribuições legais, considera seu uso permitido pela legislação brasileira com a função de coadjuvante de tecnologias e formulações para diferentes tipos de produtos, além de constar na lista positiva de aditivos alimentares, a erva mate como aditivo em filmes agrega proteção extra contra condições ambientais adversas devido aos constituintes presentes originalmente na erva mate, principalmente: as xantinas, as saponinas e os compostos fenólicos, como ácidos fenólicos, derivados do cafeoil e flavonóides; a erva mate ajuda, ainda, a prevenir a contaminação, onde o ácido caféico, presente na erva-mate, juntamente com os flavonóides, apresentam atividades antimicrobianas frente a bactérias, fungos e vírus, além disso, adiciona características funcionais aos alimentos embalados, onde a cafeína e os compostos antioxidantes, presentes na erva mate, são carreados aos filmes e coberturas e, desta forma, ao alimento."/>
+			<field name="originatesFrom" value="76159044"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019023124"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019023124"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019023124"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191023124"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019023124"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8745" type="Person">
+			<semanticIdentifier>lattes::3624370723788970</semanticIdentifier>
+			<field name="identifier.lattes" value="3624370723788970"/>
+			<field name="name" value="Eduardo José de Arruda"/>
+		</entity>
+		<entity ref="OrgUnit6883" type="OrgUnit">
+			<semanticIdentifier>brcris::d74b6f523c99fbe14a4f473b88762f40</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA GRANDE DOURADOS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12762" toEntityRef="Person8745" type="Inventor"/>
+		<relation fromEntityRef="Patent12762" toEntityRef="OrgUnit6883" type="Applicant"/>
+	</relations>
+</entity-relation-data>

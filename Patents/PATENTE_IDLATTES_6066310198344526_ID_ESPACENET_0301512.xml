@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:16" record="25357" source="Espacenet">
+	<entities>
+		<entity ref="Patent25357" type="Patent">
+			<semanticIdentifier>brcris::049583a7a8aa4b179bb2206385f20fc9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301512A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0301512</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301512A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030301512</semanticIdentifier>
+			<semanticIdentifier>original::0301512-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0301512"/>
+			<field name="identifier.lattes" value="6066310198344526"/>
+			<field name="identifier.espacenet" value="0301512"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Modelo tridimensional para representar molécula ou parte de molécula de ácido nucléico e kit"/>
+			<field name="title.lattes" value="Construindo as moléculas da vida: DNA e RNA"/>
+			<field name="depositDate" value="2003-05-16"/>
+			<field name="publicationDate" value="2005-03-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA PAULA ULIAN DE ARAUJO"/>
+			<field name="inventor" value="LEILA MARIA BELTRAMINI"/>
+			<field name="inventor" value="LUCIANO DOUGLAS DOS SANTOS ABEL"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G09B23/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MODELO TRIDIMENSIONAL PARA REPRESENTAR MOLéCULA OU PARTE DE MOLéCULA DE áCIDO NUCLéICO E KIT&quot;. A presente invenção refere-se a componentes modulares para serem usados na construção de modelos moleculares que representam a estrutura tridimensional de moléculas orgânicas e kits compostos pelos mesmos. Mais especificamente, a invenção revela componentes que permitem a construção de um modelo da molécula de DNA (ácido desoxirribonucléico) e, a partir dele, a visualização dos processos de duplicação e transcrição em uma molécula de RNA (ácido ribonucléico), com compreensão, inclusive, da síntese protéica."/>
+			<field name="originatesFrom" value="34230337"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301512"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0301512"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301512"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030301512"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0301512-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17579" type="Person">
+			<semanticIdentifier>lattes::6066310198344526</semanticIdentifier>
+			<field name="identifier.lattes" value="6066310198344526"/>
+			<field name="name" value="Leila Maria Beltramini"/>
+		</entity>
+		<entity ref="OrgUnit13719" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit13720" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25357" toEntityRef="Person17579" type="Inventor"/>
+		<relation fromEntityRef="Patent25357" toEntityRef="OrgUnit13719" type="Applicant"/>
+		<relation fromEntityRef="Patent25357" toEntityRef="OrgUnit13720" type="Applicant"/>
+	</relations>
+</entity-relation-data>

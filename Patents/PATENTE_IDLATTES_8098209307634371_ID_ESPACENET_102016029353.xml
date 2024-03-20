@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:37" record="21166" source="Espacenet">
+	<entities>
+		<entity ref="Patent21166" type="Patent">
+			<semanticIdentifier>brcris::234fbaffed5aaa832b17c561a1e0f5e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016029353A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016029353</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016029353A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161029353</semanticIdentifier>
+			<semanticIdentifier>original::102016029353</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016029353"/>
+			<field name="identifier.lattes" value="8098209307634371"/>
+			<field name="identifier.espacenet" value="102016029353"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de pulverização e método de controle de pulverização"/>
+			<field name="title.lattes" value="Sistema de Pulverização e Método de Controle de Pulverização"/>
+			<field name="depositDate" value="2016-12-14"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO SQUIZATO FAICAL"/>
+			<field name="inventor" value="FERNANDO MASCAGNA BITTENCOURT LIMA"/>
+			<field name="inventor" value="HEITOR DE FREITAS VIEIRA"/>
+			<field name="inventor" value="JO UEYAMA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B05B17/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05D16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um sistema de pulverização e a um método de controle de pulverização, preferencialmente aplicado a pulverizações agrícolas com a disseminação automatizada e adaptativa e previsão de interoperabilidade para diferentes aeronaves/veículos, em que podem ser ressaltadas as seguintes características: (i) permite uma pulverização adaptativa que inclui uma aplicação com taxa variada; (ii) possibilita a definição de uma área de interesse para a pulverização, evitando-se a disseminação em locais indesejados; (iii) incorpora os mecanismos automatizados para realizar a atividade, sem a intervenção humana (exceto em casos emergenciais); (iv) inclui as funcionalidades para adaptar o sistema e configurar-se em tempo de execução de maneira a ajustar-se para as condições meteorológicas, como velocidade e direção do vento; (v) implementa uma estrutura modular, de forma a permitir que novas funcionalidades possam ser inclusas de maneira &quot;plug and play&quot;; (vi) embarca um engenho para a retomada de controle a qualquer momento para a intervenção parcial ou total em casos emergenciais."/>
+			<field name="originatesFrom" value="62954528"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016029353"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016029353"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016029353"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161029353"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016029353"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14667" type="Person">
+			<semanticIdentifier>lattes::8098209307634371</semanticIdentifier>
+			<field name="identifier.lattes" value="8098209307634371"/>
+			<field name="name" value="Jó Ueyama"/>
+		</entity>
+		<entity ref="OrgUnit11526" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21166" toEntityRef="Person14667" type="Inventor"/>
+		<relation fromEntityRef="Patent21166" toEntityRef="OrgUnit11526" type="Applicant"/>
+	</relations>
+</entity-relation-data>

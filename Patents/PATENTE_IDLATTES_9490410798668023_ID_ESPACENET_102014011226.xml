@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:29" record="40650" source="Espacenet">
+	<entities>
+		<entity ref="Patent40650" type="Patent">
+			<semanticIdentifier>brcris::ef816c2cf8574e6288edac66f8d72391</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014011226A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014011226</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014011226A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141011226</semanticIdentifier>
+			<semanticIdentifier>original::102014011226</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014011226"/>
+			<field name="identifier.lattes" value="9490410798668023"/>
+			<field name="identifier.espacenet" value="102014011226"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de controle pelo lábio"/>
+			<field name="title.lattes" value="Sistema de Controle pelo Lábio"/>
+			<field name="depositDate" value="2014-05-09"/>
+			<field name="publicationDate" value="2015-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO ARCHANJO JOSE"/>
+			<field name="inventor" value="ROSELI DE DEUS LOPES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F3/033AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="033AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05G1/52AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="52AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de controle pelo lábio. o lcs (lip contral system) é um sistema de controle pelo lábio feito principalmente para pessoas com tetraplegia, que consiste de um dispositivo para cabeça (1) com uma estrutura (2) que posiciona um sensor (joystick ou outras) próximo ao lábio inferior e um circuito eletrônico (3). com o movimento do lábio inferior e/ou mandíbula é possível controlar o cursor do mouse e também controlar cadeiras de rodas motorizadas sem a necessidade de mover a cabeça, permitindo o uso do dispositivo numa cadeira de rodas, sofá, cama, etc. ele possui comunicação sem fio ou com fio dependendo das necessidades. é considerado um sistema, pois pode ser reconfigurado para as diversas condições de uso e utilizando diversos tipos de sensores."/>
+			<field name="originatesFrom" value="54838043"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014011226"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014011226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014011226"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141011226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014011226"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27688" type="Person">
+			<semanticIdentifier>lattes::9490410798668023</semanticIdentifier>
+			<field name="identifier.lattes" value="9490410798668023"/>
+			<field name="name" value="Roseli de Deus Lopes"/>
+		</entity>
+		<entity ref="OrgUnit21654" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40650" toEntityRef="Person27688" type="Inventor"/>
+		<relation fromEntityRef="Patent40650" toEntityRef="OrgUnit21654" type="Applicant"/>
+	</relations>
+</entity-relation-data>

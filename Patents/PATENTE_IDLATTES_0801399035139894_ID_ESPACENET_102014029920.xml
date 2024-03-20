@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:45" record="19" source="Espacenet">
+	<entities>
+		<entity ref="Patent19" type="Patent">
+			<semanticIdentifier>brcris::5eabf6ae5fa6eee091d6c2085993de56</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029920A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029920</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029920A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029920</semanticIdentifier>
+			<semanticIdentifier>original::102014029920</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029920"/>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="identifier.espacenet" value="102014029920"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema magnético de medição e controle dinâmico de torque em eixos em rotação"/>
+			<field name="title.lattes" value="Sistema Magnético de Medição e Controle Dinâmico de Torque em Eixos em Rotação"/>
+			<field name="depositDate" value="2014-11-10"/>
+			<field name="publicationDate" value="2016-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL CAVALCANTE LIMA FILHO"/>
+			<field name="inventor" value="FRANCISCO ANTONIO BELO"/>
+			<field name="inventor" value="JACQUES COUSTEAU DA SILVA BORGES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01L1/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01L3/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema magnético de medição e controle dinâmico de torque em eixos em rotação. a presente invenção utiliza conceitos de instrumentação eletrônica, eletromagnetismo e mecânica dos sólidos para idealização de um sistema capaz de realizar a medidas de torque em eixos girantes. o sistema é capaz de medir as deformações radias no eixo de forma não evasiva, ocupando um mínimo de espaço físico, não influindo no comportamento dinâmico do eixo em rotação. é composto de uma unidade dinâmica, que é fixa ao eixo e gira junto com este, e uma unidade estática, que realizara a leitura de dados e o processamento computacional. todo o processo de aquisição, estimação e controle é feito de forma autônoma pelo sistema."/>
+			<field name="originatesFrom" value="57003178"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029920"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029920"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029920"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029920"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014029920"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15" type="Person">
+			<semanticIdentifier>lattes::0801399035139894</semanticIdentifier>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="name" value="Abel Cavalcante Lima Filho"/>
+		</entity>
+		<entity ref="OrgUnit11" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19" toEntityRef="Person15" type="Inventor"/>
+		<relation fromEntityRef="Patent19" toEntityRef="OrgUnit11" type="Applicant"/>
+	</relations>
+</entity-relation-data>

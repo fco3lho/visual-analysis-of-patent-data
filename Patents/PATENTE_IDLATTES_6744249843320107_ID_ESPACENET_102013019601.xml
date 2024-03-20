@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:06" record="25252" source="Espacenet">
+	<entities>
+		<entity ref="Patent25252" type="Patent">
+			<semanticIdentifier>brcris::1f1ac3e5b7622c107ce0129d43088ba5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019601A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013019601</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019601A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131019601</semanticIdentifier>
+			<semanticIdentifier>original::102013019601</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013019601"/>
+			<field name="identifier.lattes" value="6744249843320107"/>
+			<field name="identifier.espacenet" value="102013019601"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema integrado de escoamento de produção e injeção de água em reservatórios de petróleo e método"/>
+			<field name="title.lattes" value="SISTEMA INTEGRADO DE ESCOAMENTO DE PRODUÇÃO E INJEÇÃO DE ÁGUA EM RESERVATÓRIOS DE PETRÓLEO E MÉTODO"/>
+			<field name="depositDate" value="2013-08-01"/>
+			<field name="publicationDate" value="2015-10-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO BARRETO DE FRANCA"/>
+			<field name="inventor" value="FABIANO GARCIA DRUMOND"/>
+			<field name="inventor" value="JONATAS RIBEIRO"/>
+			<field name="inventor" value="LEANDRO PEREIRA BASILIO"/>
+			<field name="inventor" value="MARCILIO PAIVA PRADO"/>
+			<field name="inventor" value="PEDRO LUIZ FERREIRA MENDES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B36/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E21B43/24AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema integrado de escoamento de produção e injeção de água em reservatórios de petróleo e método. o sistema integrado de escoamento de fluido produzido e injeção de água ao longo de uma tubulação (riser) do tipo pipe-in-pipe pip em reservatórios de petróleo garante o escoamento pela troca de calor ao longo da tubulação (riser) e aumenta o fator de recuperação do reservatório através da aplicação da água ainda aquecida. em um riser do tipo pip, o método integrado de escoamento de produção e injeção de água em reservatórios de petróleo combina o escoamento do fluido produzido de um reservatório de petróleo com a injeção de água captada na superfície e aquecida à temperatura suficiente para simultaneamente promover condições de produção e de recuperação de petróleo."/>
+			<field name="originatesFrom" value="54541306"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019601"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013019601"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019601"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131019601"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013019601"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17515" type="Person">
+			<semanticIdentifier>lattes::6744249843320107</semanticIdentifier>
+			<field name="identifier.lattes" value="6744249843320107"/>
+			<field name="name" value="Leandro Pereira Basilio"/>
+		</entity>
+		<entity ref="OrgUnit13665" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25252" toEntityRef="Person17515" type="Inventor"/>
+		<relation fromEntityRef="Patent25252" toEntityRef="OrgUnit13665" type="Applicant"/>
+	</relations>
+</entity-relation-data>

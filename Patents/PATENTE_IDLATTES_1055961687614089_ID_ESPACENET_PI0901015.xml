@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:00" record="29859" source="Espacenet">
+	<entities>
+		<entity ref="Patent29859" type="Patent">
+			<semanticIdentifier>brcris::6001c78bd754a936df72123ed1dea8d8</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901015A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0901015</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901015A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI01015</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0901015-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0901015"/>
+			<field name="identifier.lattes" value="1055961687614089"/>
+			<field name="identifier.espacenet" value="PI0901015"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador multiprotocolo para sistemas modulares de aquisição de dados"/>
+			<field name="title.lattes" value="Controlador multiprotocolo para sistemas modulares de aquisição de dados"/>
+			<field name="depositDate" value="2009-03-12"/>
+			<field name="publicationDate" value="2010-11-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCO AURELIO LISBOA LEITE"/>
+			<field name="inventor" value="MARCO AURELIO LISBOA LEITE"/>
+			<field name="inventor" value="RICARDO MENEGASSO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F13/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F13/42AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CONTROLADOR MULTIPROTOCOLO PARA SISTEMAS MODULARES DE AQUISIçãO DE DADOS. é apresentado um controlador multiprotocolo para sistemas modulares de aquisição de dados, padrão CAMAC, compreendendo uma seção de registradores (I) de entrada e saida (E/S) multiplexadas; uma seção de controle (II) responsável pela formatação e transferência de comandos e dados, sincronismo e arbitragem; e uma seção de circuitos (III) dedicados ao controle de interfaces de comunicação; em que o controlador multiprotocolo permite o uso simultâneo de interfaces de comunicação."/>
+			<field name="originatesFrom" value="43086554"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901015"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0901015"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901015"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI01015"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0901015-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20517" type="Person">
+			<semanticIdentifier>lattes::1055961687614089</semanticIdentifier>
+			<field name="identifier.lattes" value="1055961687614089"/>
+			<field name="name" value="Marco Aurelio Lisboa Leite"/>
+		</entity>
+		<entity ref="OrgUnit16052" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit16053" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29859" toEntityRef="Person20517" type="Inventor"/>
+		<relation fromEntityRef="Patent29859" toEntityRef="OrgUnit16052" type="Applicant"/>
+		<relation fromEntityRef="Patent29859" toEntityRef="OrgUnit16053" type="Applicant"/>
+	</relations>
+</entity-relation-data>

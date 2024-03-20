@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:21" record="33656" source="Espacenet">
+	<entities>
+		<entity ref="Patent33656" type="Patent">
+			<semanticIdentifier>brcris::ff6e116162761ea593b5c56f2b07872b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020542A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019020542</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020542A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191020542</semanticIdentifier>
+			<semanticIdentifier>original::102019020542</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019020542"/>
+			<field name="identifier.lattes" value="4152913739117997"/>
+			<field name="identifier.espacenet" value="102019020542"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema integrador de compensação de deslocamento linear em equipamento comandado numericamente"/>
+			<field name="title.lattes" value="Sistema integrador de compensação de deslocamento linear em equipamento comandado numericamente"/>
+			<field name="depositDate" value="2019-09-30"/>
+			<field name="publicationDate" value="2021-06-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS NERI"/>
+			<field name="inventor" value="BRUNO HENRIQUE GROENNER BARBOSA"/>
+			<field name="inventor" value="DANTON DIEGO FERREIRA"/>
+			<field name="inventor" value="FRANCISCO SCINOCCA"/>
+			<field name="inventor" value="JOELMA REZENDE DURAO PEREIRA"/>
+			<field name="inventor" value="MOUHAMED ZORKOT"/>
+			<field name="inventor" value="MURILO HENRIQUE FERREIRA"/>
+			<field name="inventor" value="RICARDO RODRIGUES MAGALHAES"/>
+			<field name="inventor" value="SANDRO PEREIRA DA SILVA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23Q15/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B23Q15/007AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="007AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema integrador de compensação de deslocamento linear em equipamento comandado numericamente. a presente invenção trata-se de um sistema de monitoramento e otimização de processo de usinagem, a fim de minimizar a interface humana e auxiliar as decisões de processo. este sistema poderá ser aplicado no ramo industrial em qualquer operação de usinagem comandado numericamente ou mesmo embarcado diretamente nas máquinas operatrizes controladas numericamente. o campo tecnológico engloba as áreas de processos de fabricação e manufatura enxuta. o sistema de monitoramento e otimização do processo de usinagem proposto nesta patente consiste em monitorar e otimizar, na menor taxa de aquisição possível pelo hardware aplicado no processo de usinagem, os dados decorrentes do posicionamento do eixo x, y e z (quando utilizados no processo) responsável pelo mergulho da ferramenta à peça, tendo como resposta a variação de tensão, corrente e consequentemente a potência empregada no processo de usinagem, além da deformação linear inserida no conjunto de fixação, ferramenta e máquina operatriz comandada numericamente."/>
+			<field name="originatesFrom" value="76865400"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020542"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019020542"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020542"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191020542"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019020542"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23168" type="Person">
+			<semanticIdentifier>lattes::4152913739117997</semanticIdentifier>
+			<field name="identifier.lattes" value="4152913739117997"/>
+			<field name="name" value="Mouhamed Zorkot"/>
+		</entity>
+		<entity ref="OrgUnit18110" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33656" toEntityRef="Person23168" type="Inventor"/>
+		<relation fromEntityRef="Patent33656" toEntityRef="OrgUnit18110" type="Applicant"/>
+	</relations>
+</entity-relation-data>

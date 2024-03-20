@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:53" record="24111" source="Espacenet">
+	<entities>
+		<entity ref="Patent24111" type="Patent">
+			<semanticIdentifier>brcris::734ecc1c82e23fed7775731d62debb13</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009787A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016009787</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009787A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161009787</semanticIdentifier>
+			<semanticIdentifier>original::102016009787</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016009787"/>
+			<field name="identifier.lattes" value="3687549531282805"/>
+			<field name="identifier.espacenet" value="102016009787"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de controle do fluxo de potência de um sistema híbrido de armazenamento de energia elétrica, dispositivo associado e usos"/>
+			<field name="title.lattes" value="MÉTODO DE CONTROLE DO FLUXO DE POTÊNCIA DE UM SISTEMA HÍBRIDO DE ARMAZENAMENTO DE ENERGIA ELÉTRICA, DISPOSITIVO ASSOCIADO E USOS"/>
+			<field name="depositDate" value="2016-04-29"/>
+			<field name="publicationDate" value="2017-11-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRAZ DE JESUS CARDOSO FILHO"/>
+			<field name="inventor" value="JULIO CESAR GUERRA JUSTINO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B60K6/36AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B60K6/442AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="442AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido de patente descreve um método capaz de controlar o fluxo de potência de um sistema híbrido de armazenamento de energia elétrica baseado em dois dispositivos com taxas de carga e descarga diferentes, ou seja, dois elementos de armazenamento de energia: um que se carrega e descarrega rapidamente e outro que se carrega e descarrega a uma taxa inferior em relação ao primeiro. descreve também um dispositivo de que utiliza o método proposto, de forma não limitante, em um sistema de tração elétrica. a tecnologia proposta propicia a redução da capacidade de potência do dispositivo de menor taxa de carga e descarga e uma redução na capacidade de armazenamento de energia do dispositivo de maior taxa de carga e descarga, possibilitando uma redução de custo e também dimensionamento correto dos dispositivos que não são subutilizados. o uso do dispositivo de menor taxa de carga e descarga ocorre de forma complementar em situações de maior demanda de energia. a tecnologia apresentada pode ser utilizada em dispositivos facts (fexible ac transmission systems), como em restauradores dinâmicos de tensão (dvr- dynamic voltage restorer), em ups (uninterruptible power systems), como suplemento a geração sazonal, como em painéis solares, geração eólica, e outras, em smart grids, junto a estações de recargas elétricas veiculares e outras."/>
+			<field name="originatesFrom" value="62529539"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009787"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016009787"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009787"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161009787"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016009787"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16753" type="Person">
+			<semanticIdentifier>lattes::3687549531282805</semanticIdentifier>
+			<field name="identifier.lattes" value="3687549531282805"/>
+			<field name="name" value="Júlio César Guerra Justino"/>
+		</entity>
+		<entity ref="OrgUnit12995" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24111" toEntityRef="Person16753" type="Inventor"/>
+		<relation fromEntityRef="Patent24111" toEntityRef="OrgUnit12995" type="Applicant"/>
+	</relations>
+</entity-relation-data>

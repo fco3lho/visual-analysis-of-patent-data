@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:27" record="6000" source="Espacenet">
+	<entities>
+		<entity ref="Patent6000" type="Patent">
+			<semanticIdentifier>brcris::7b9e1a11c2e5dee64d66a753df5c92da</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032823A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015032823</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032823A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151032823</semanticIdentifier>
+			<semanticIdentifier>original::102015032823</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015032823"/>
+			<field name="identifier.lattes" value="2113532494494821"/>
+			<field name="identifier.espacenet" value="102015032823"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de ácido itacônico a partir de fermentação fúngica"/>
+			<field name="title.lattes" value="Processo de Produção de Ácido Itacônico a partir de fermentação fúngica"/>
+			<field name="depositDate" value="2015-12-29"/>
+			<field name="publicationDate" value="2017-07-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AYRTON FIGUEIREDO MARTINS"/>
+			<field name="inventor" value="GIOVANNI BRESSIANI PEDROSO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P7/46AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/66AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="66AN"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de ácido itacônico a partir de fermentação fúngica a presente invenção descreve um processo de produção de ácido itacônico via fermentação fúngica empregando hidrolisado ácido de biomassa obtido por meio de um sistema fechado à pressão e, assim, utilizado como substrato. especificamente, a presente invenção compreende o uso de cepas não mutantes de fungos e da utilização de etapas downstream no processo, estas que visam proporcionar maior rendimento e pureza ao produto final. a presente invenção se situa nos campos da química industrial e da engenharia química."/>
+			<field name="originatesFrom" value="61526456"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032823"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015032823"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032823"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151032823"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015032823"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3963" type="Person">
+			<semanticIdentifier>lattes::2113532494494821</semanticIdentifier>
+			<field name="identifier.lattes" value="2113532494494821"/>
+			<field name="name" value="Ayrton Figueiredo Martins"/>
+		</entity>
+		<entity ref="OrgUnit3080" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6000" toEntityRef="Person3963" type="Inventor"/>
+		<relation fromEntityRef="Patent6000" toEntityRef="OrgUnit3080" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:30:13" record="44053" source="Espacenet">
+	<entities>
+		<entity ref="Patent44053" type="Patent">
+			<semanticIdentifier>brcris::7c7743109c14f2c2cf8abc452ff6e3f8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017019002A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017019002</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017019002A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171019002</semanticIdentifier>
+			<semanticIdentifier>original::102017019002</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017019002"/>
+			<field name="identifier.lattes" value="7718575334057071"/>
+			<field name="identifier.espacenet" value="102017019002"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="coletor de amostras de frutos em cargas a granel"/>
+			<field name="title.lattes" value="Coletor de amostras de frutos em cargas a granel"/>
+			<field name="depositDate" value="2017-09-05"/>
+			<field name="publicationDate" value="2019-03-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLARICE APARECIDA MEGGUER"/>
+			<field name="inventor" value="FABIO LUCIO SANTOS"/>
+			<field name="inventor" value="HAROLDO CARLOS FERNANDES"/>
+			<field name="inventor" value="TULIO DE ALMEIRA MACHADO"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA GOIANO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N1/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N1/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido de patente de invenção refere-se a um coletor de amostras de frutos em cargas a granel. ele é dotado de um suporte que se apoia nas laterais de um recipiente de transporte (caçambas, carretas, etc.) e de um amostrador que, montado junto ao suporte, possui a função de reter os frutos coletados em seu interior. mesmo após essa separação o coletor garante a interação entre os frutos que estão dentro e fora do amostrador. este equipamento auxilia na coleta de frutos em cargas a granel em qualquer ponto do recipiente transportador a qualquer momento durante o trajeto de transporte. o coletor foi desenvolvido para o setor de transporte de frutos a granel, principalmente, para consumo in natura e para a indústria alimentícia."/>
+			<field name="originatesFrom" value="67250910"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017019002"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017019002"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017019002"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171019002"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017019002"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30108" type="Person">
+			<semanticIdentifier>lattes::7718575334057071</semanticIdentifier>
+			<field name="identifier.lattes" value="7718575334057071"/>
+			<field name="name" value="Túlio de Almeida Machado"/>
+		</entity>
+		<entity ref="OrgUnit23640" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+		<entity ref="OrgUnit23641" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44053" toEntityRef="Person30108" type="Inventor"/>
+		<relation fromEntityRef="Patent44053" toEntityRef="OrgUnit23640" type="Applicant"/>
+		<relation fromEntityRef="Patent44053" toEntityRef="OrgUnit23641" type="Applicant"/>
+	</relations>
+</entity-relation-data>

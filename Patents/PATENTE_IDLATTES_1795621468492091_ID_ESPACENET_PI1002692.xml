@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:07" record="7479" source="Espacenet">
+	<entities>
+		<entity ref="Patent7479" type="Patent">
+			<semanticIdentifier>brcris::abbceb52e1612559aab2980200a32bd1</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002692A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1002692</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002692A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI02692</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1002692-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1002692"/>
+			<field name="identifier.lattes" value="1795621468492091"/>
+			<field name="identifier.espacenet" value="PI1002692"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador para chaveamento automático de circuitos de interligação de áreas de sistemas elétricos"/>
+			<field name="title.lattes" value="CONTROLADOR PARA CHAVEAMENTO AUTOMÁTICO DE CIRCUITOS DE INTERLIGAÇÃO ENTRE ÁREAS ELÉTRICAS (PI1002692-4 do INPI)"/>
+			<field name="depositDate" value="2010-07-30"/>
+			<field name="publicationDate" value="2012-03-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS HENRIQUE COSTA GUIMARAES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J3/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CONTROLADOR PARA CHAVEAMENTO AUTOMáTICO DE CIRCUITOS DE INTERLIGAçãO DE áREAS DE SISTEMAS ELéTRICOS. A presente invenção refere-se a controlador automático centralizado para comandar as operações de chaveamento de linhas de transmissão de energia elétrica que interligam áreas de sistemas elétricos de grande porte, reduzindo os impactos torcionais nos eixos dos geradores presentes em cada área elétrica, protegendo-os contra rompimento ou perda de vida útil."/>
+			<field name="originatesFrom" value="45868901"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002692"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1002692"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002692"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI02692"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1002692-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5029" type="Person">
+			<semanticIdentifier>lattes::1795621468492091</semanticIdentifier>
+			<field name="identifier.lattes" value="1795621468492091"/>
+			<field name="name" value="Carlos Henrique Costa Guimarães"/>
+		</entity>
+		<entity ref="OrgUnit3974" type="OrgUnit">
+			<semanticIdentifier>brcris::b4e0e2d9cdc0f26db4523380edc59922</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7479" toEntityRef="Person5029" type="Inventor"/>
+		<relation fromEntityRef="Patent7479" toEntityRef="OrgUnit3974" type="Applicant"/>
+	</relations>
+</entity-relation-data>

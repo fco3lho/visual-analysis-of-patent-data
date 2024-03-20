@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:20" record="7092" source="Espacenet">
+	<entities>
+		<entity ref="Patent7092" type="Patent">
+			<semanticIdentifier>brcris::23ec9a9f37e67809599f176c3d6c7330</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9002315U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9002315U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9002315U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1990MU02315U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 9002315-3 U2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9002315"/>
+			<field name="identifier.lattes" value="2076544554717764"/>
+			<field name="identifier.espacenet" value="MU9002315"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="DISPOSIÇÕES CONSTRUTIVAS EM ISOLADOR ELÉTRICO MONTÁVEL COM DISPOSITIVO DE ENCAIXE POR PRESSÃO"/>
+			<field name="title.lattes" value="DISPOSIÇÕES CONSTRUTIVAS EM ISOLADOR ELÉTRICO MONTÁVEL COM DISPOSITIVO DE ENCAIXE POR PRESSÃO, 2010.  Processo: MU 9002315-3, Depósito: 09/12/2010"/>
+			<field name="depositDate" value="2010-12-09"/>
+			<field name="publicationDate" value="2014-02-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAIO SAIBEL"/>
+			<field name="inventor" value="CARLOS ALBERTO MENDES MORAES"/>
+			<field name="inventor" value="FRANCISCO ANASTACIO DE OLIVEIRA NETO"/>
+			<field name="inventor" value="GUILHERME LUIS ROEHE VACCARO"/>
+			<field name="inventor" value="RODRIGO COSTA DE SOUZA LIMA"/>
+			<field name="inventor" value="WALTER ANDREY FONTANA"/>
+			<field name="applicant" value="UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01B17/42AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSIÇÕES CONSTRUTIVAS EM ISOLADOR ELÉTRICO MONTÁVEL COM DISPOSITIVO DE ENCAIXE POR PRESSÃO. Caracterizado por ser constituído por aba de encaixe (2), monobloco de suporte e base fixadora, unidas por encaixes por pressão para formar o isolador elétrico."/>
+			<field name="originatesFrom" value="50097215"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9002315"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9002315U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9002315"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1990MU02315U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 9002315-3 U2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU9002315Y"/>
+		</entity>
+		<entity ref="Person4754" type="Person">
+			<semanticIdentifier>lattes::2076544554717764</semanticIdentifier>
+			<field name="identifier.lattes" value="2076544554717764"/>
+			<field name="name" value="Carlos Alberto Mendes Moraes"/>
+		</entity>
+		<entity ref="OrgUnit3768" type="OrgUnit">
+			<semanticIdentifier>brcris::41a81f47a3be6a85d719269697dea119</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS"/>
+		</entity>
+		<entity ref="Patent7093" type="Patent">
+			<semanticIdentifier>epodoc::BRMU9002315Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="50097215"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9002315Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7092" toEntityRef="Person4754" type="Inventor"/>
+		<relation fromEntityRef="Patent7092" toEntityRef="OrgUnit3768" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:51" record="37319" source="Espacenet">
+	<entities>
+		<entity ref="Patent37319" type="Patent">
+			<semanticIdentifier>brcris::db8178b7a3abc6c0aecb7fbfda0bcb3d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012023734A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012023734</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012023734A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121023734</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 023734-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012023734"/>
+			<field name="identifier.lattes" value="6248162960757599"/>
+			<field name="identifier.espacenet" value="102012023734"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO PARA DEFINIÇÃO DE CAMINHOS ÓPTICOS UTILIZANDO ALGORITMOS DE RWA GENÉRICOS"/>
+			<field name="title.lattes" value="Método para Definição de Caminhos Ópticos Utilizando Algoritmos de RWA Genéricos."/>
+			<field name="depositDate" value="2012-09-20"/>
+			<field name="publicationDate" value="2014-10-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GIOVANNI CURIEL DOS SANTOS"/>
+			<field name="inventor" value="RAUL NEGREIROS"/>
+			<field name="inventor" value="RENATO FOOT GUIMARAES COSTALLAT"/>
+			<field name="inventor" value="RENATO FOOT GUIMARAES COSTALLAT"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04J14/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO PARA DEFINIÇÃO DE CAMINHOS ÓPTICOS UTILIZANDO ALGORITMOS DE RWA GENÉRICOS, no qual as informações topológicas são alteradas para que o algoritmo de RWA use apenas aqueles recursos que podem ser efetivamente configurados no palno de transporte. Tais alterações levam em consideração análises das portas insere/deriva e dos transmissores instalados, que estão conectados ao ROADM WSS, além dos tipos de porta (local, global ou de rede). O método compreende a verificação da conformidade de portas (501, 502, 503), a verificação da conformidade de transmissão (601, 602), a remoção dos recursos indisponíveis (603, 604, 605), o cálculo de rota (701, 702) propriamente dito, mediante execução do algoritmo RWA e a pós-análise (801, 802, 803), em que são selecionados os transmissores efetivamente usados na rota calculada."/>
+			<field name="originatesFrom" value="51660157"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012023734"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012023734"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012023734"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121023734"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 023734-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25745" type="Person">
+			<semanticIdentifier>lattes::6248162960757599</semanticIdentifier>
+			<field name="identifier.lattes" value="6248162960757599"/>
+			<field name="name" value="Raul Negreiros"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37319" toEntityRef="Person25745" type="Inventor"/>
+	</relations>
+</entity-relation-data>

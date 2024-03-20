@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:09" record="710" source="Espacenet">
+	<entities>
+		<entity ref="Patent710" type="Patent">
+			<semanticIdentifier>brcris::e7ff76758dc8422d0c4dd0263bdcc2c0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030429A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014030429</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030429A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141030429</semanticIdentifier>
+			<semanticIdentifier>original::102014030429</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014030429"/>
+			<field name="identifier.lattes" value="4491298319412591"/>
+			<field name="identifier.espacenet" value="102014030429"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="agente retardante de chama nanoestruturado"/>
+			<field name="title.lattes" value="titulo sob sigilo - Patente com Elekeiroz"/>
+			<field name="depositDate" value="2014-12-04"/>
+			<field name="publicationDate" value="2016-06-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADEMIR DONIZETI LLBA"/>
+			<field name="inventor" value="ADRIANO MARIM DE OLIVEIRA"/>
+			<field name="inventor" value="CARINA LOFFREDO DE OLIVEIRA NETO"/>
+			<field name="inventor" value="LUCILENE BETEGA DE PAIVA"/>
+			<field name="inventor" value="RAUL ROBERTO RISSO"/>
+			<field name="applicant" value="ELEKEIROZ S.A"/>
+			<field name="applicant" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08K9/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y40/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01B7/29AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="29AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;agente retardante de chama nanoestruturado&quot;, pertencente ao setor de materiais inorgânicos à prova de fogo contendo fósforo e materiais macromoleculares, para uso como aditivo em materiais plásticos, compósitos e borrachas, consiste em um sistema composto por nanoargila modificada, sal de fósforo e polímero hidrofílico apresentando um produto retardante de chamas composto por micropartículas nanoestruturadas a partir de nanoargila modificada com sal de fósforo e revestida 1 estruturada com um polímero hidrofílico. o produto é obtido pela dispersão da nanoargila em meio aquoso, no qual esta sofre um processo de esfoliação expondo suas lamelas de espessura nanométrica, seguindo-se a adição de sal de fosfato a essa dispersão com o objetivo de modificação da nanoargila e a incorporação do polímero hidrofílico que, durante a formação da micropartícula nanoestruturada, atuará como a matriz de revestimento e conformação das partículas desejadas. a formação das micropartículas ocorre pela secagem por aspersão, e o produto obtido apresenta-se de forma regular, esférica, boa fluidez e tamanho de partícula inferior a 20 mícrons."/>
+			<field name="originatesFrom" value="56090116"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030429"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014030429"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030429"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141030429"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014030429"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person503" type="Person">
+			<semanticIdentifier>lattes::4491298319412591</semanticIdentifier>
+			<field name="identifier.lattes" value="4491298319412591"/>
+			<field name="name" value="Adriano Marim de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit443" type="OrgUnit">
+			<semanticIdentifier>brcris::6090249bb6d47a11c59aab6fa7a40133</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent710" toEntityRef="Person503" type="Inventor"/>
+		<relation fromEntityRef="Patent710" toEntityRef="OrgUnit443" type="Applicant"/>
+	</relations>
+</entity-relation-data>

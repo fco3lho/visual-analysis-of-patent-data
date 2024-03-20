@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:08" record="28038" source="Espacenet">
+	<entities>
+		<entity ref="Patent28038" type="Patent">
+			<semanticIdentifier>brcris::76ea3954ff185a7770e799fe8cdf4631</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9500860A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9500860</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9500860A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959500860</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9500860"/>
+			<field name="identifier.lattes" value="8697469670765187"/>
+			<field name="identifier.espacenet" value="9500860"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Dispositivo microdefletor de luz galvanométrico"/>
+			<field name="title.lattes" value="DISPOSITIVO MICRODEFLETOR DE LUZ GALVANOMÉTRICO"/>
+			<field name="depositDate" value="1995-02-21"/>
+			<field name="publicationDate" value="1997-04-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ OTAVIO SARAIVA FERREIRA"/>
+			<field name="inventor" value="SERGIO MOEHLECKE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B26/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="26"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="originatesFrom" value="4060802"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9500860"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9500860"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9500860"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959500860"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19343" type="Person">
+			<semanticIdentifier>lattes::8697469670765187</semanticIdentifier>
+			<field name="identifier.lattes" value="8697469670765187"/>
+			<field name="name" value="Luiz Otávio Saraiva Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit15063" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28038" toEntityRef="Person19343" type="Inventor"/>
+		<relation fromEntityRef="Patent28038" toEntityRef="OrgUnit15063" type="Applicant"/>
+	</relations>
+</entity-relation-data>

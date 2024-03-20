@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:02" record="1730" source="Espacenet">
+	<entities>
+		<entity ref="Patent1730" type="Patent">
+			<semanticIdentifier>brcris::7d11bbfd2abef3a9bd6417f8af9c5186</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905833A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905833</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905833A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05833</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905833-8 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905833"/>
+			<field name="identifier.lattes" value="7533729699758819"/>
+			<field name="identifier.espacenet" value="PI0905833"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo de preparaÇço de amostra coproparasitolàgina fecal e composiÇço clarificante"/>
+			<field name="title.lattes" value="Método de Preparação de Amostra Coproparasitológica Fecal e Composição Clarificante"/>
+			<field name="depositDate" value="2009-10-15"/>
+			<field name="publicationDate" value="2013-07-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE XAVIER FALCCO"/>
+			<field name="inventor" value="CELSO TETSUO NAGASE SUZUKI"/>
+			<field name="inventor" value="JANCARLO FERREIRA GOMES"/>
+			<field name="inventor" value="SUMIE HOSHINO SHIMIZU"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/483AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="483AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO PREPARAÇçO DE AMOSTRA COPROPARASITOLàGICA FECAL E COMPOSIÇçO CLARIFICANTE. A presente invenção trata-se de um método técnico-laboratorial de enriquecimento parasitário e redução de impurezas fecais simultâneos em amostra para diagnóstico de enteroparasitoses humanas e animais. O método ora proposto compreende combinação de procedimentos técnicos laboratoriais apropriados e uso de soluções reagentes, sendo o referido método compatível com técnicas coproparasitológicas convencionais e/ou kits diagnósticos disponíveis no comércio. O invento confere melhoria da sensibilidade diagnóstica devido a dois fatores: a) um enriquecimento seletivo parasitário considerável e, b) uma redução drástica e concomitante de impurezas fecais. Mesmo quando as estruturas de diversas espécies parasitárias estão presentes em pequeno número nas amostras fecais, o invento proposto confere capacidade de apresentar estas estruturas na lâmina, conferindo ao diagnóstico melhor desempenho e sensibilidade."/>
+			<field name="originatesFrom" value="43875735"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905833"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905833"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905833"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05833"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905833-8 A2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2011044649"/>
+		</entity>
+		<entity ref="Person1297" type="Person">
+			<semanticIdentifier>lattes::7533729699758819</semanticIdentifier>
+			<field name="identifier.lattes" value="7533729699758819"/>
+			<field name="name" value="Alexandre Xavier Falcão"/>
+		</entity>
+		<entity ref="OrgUnit964" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent1731" type="Patent">
+			<semanticIdentifier>epodoc::WO2011044649</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="43875735"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2011044649"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1730" toEntityRef="Person1297" type="Inventor"/>
+		<relation fromEntityRef="Patent1730" toEntityRef="OrgUnit964" type="Applicant"/>
+	</relations>
+</entity-relation-data>

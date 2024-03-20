@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:43" record="40254" source="Espacenet">
+	<entities>
+		<entity ref="Patent40254" type="Patent">
+			<semanticIdentifier>brcris::a36564619ca60b44014851d98f952d76</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801277A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0801277</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0801277A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI01277</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0801277-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0801277"/>
+			<field name="identifier.lattes" value="2772090650982911"/>
+			<field name="identifier.espacenet" value="PI0801277"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="promotor heterólogo para expressão de proteìnas em bactérias e seu uso em aplicações biotecnológicas"/>
+			<field name="title.lattes" value="USO DE PROMOTOR HETERÓLOGO PARA EXPRESSÃO DE PROTEÍNAS EM BACTÉRIAS E APLICAÇÕES BIOTECNOLÓGICAS"/>
+			<field name="depositDate" value="2008-04-01"/>
+			<field name="publicationDate" value="2009-11-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CLARA GUERRINI SCHENBERG"/>
+			<field name="inventor" value="ELISABETE JOSE VICENTE"/>
+			<field name="inventor" value="MARIA GABRIELA GUIMARAES RIBEIRO DOS SANTOS"/>
+			<field name="inventor" value="MARIA GABRIELA GUIMARAES RIBEIRO DOS SANTOS"/>
+			<field name="inventor" value="OEBER DE FREITAS QUADROS"/>
+			<field name="inventor" value="RONALDO BIONDO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/113AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="113AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROMOTOR HETERóLOGO PARA EXPRESSãO DE PROTEìNAS EM BACTéRIAS E SEU USO EM APLICAçõES BIOTECNOLóGICAS A presente invenção provê uma seqúência de DNA promotora, SEQ. ID N0 1, derivada do promotor do gene mrgA (&quot;metal regulated gene A&quot;) da bactéria Bacillus subtilis, capaz de promover alto nivel de expressão gênica em diferentes gêneros de bactérias e seu uso em aplicações biotecnológicas."/>
+			<field name="originatesFrom" value="41297317"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801277"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0801277"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0801277"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI01277"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0801277-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27435" type="Person">
+			<semanticIdentifier>lattes::2772090650982911</semanticIdentifier>
+			<field name="identifier.lattes" value="2772090650982911"/>
+			<field name="name" value="Ronaldo Biondo"/>
+		</entity>
+		<entity ref="OrgUnit21446" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit21447" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40254" toEntityRef="Person27435" type="Inventor"/>
+		<relation fromEntityRef="Patent40254" toEntityRef="OrgUnit21446" type="Applicant"/>
+		<relation fromEntityRef="Patent40254" toEntityRef="OrgUnit21447" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:08" record="37508" source="Espacenet">
+	<entities>
+		<entity ref="Patent37508" type="Patent">
+			<semanticIdentifier>brcris::8a804ac49f0f3cb0b930b1a089150635</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015474A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016015474</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015474A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161015474</semanticIdentifier>
+			<semanticIdentifier>original::102016015474</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016015474"/>
+			<field name="identifier.lattes" value="4194801952934254"/>
+			<field name="identifier.espacenet" value="102016015474"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para o planejamento integrado e otimização das operações agrícolas e industriais na indústria de processamento de tomates, produção de produtos intermediários e produtos finais à base de tomate"/>
+			<field name="title.lattes" value="Processo para o planejamento integrado e otimização das operações agrícolas e industriais na indústria de processamento de tomates, produção de produtos intermediários e produtos finais à base de tomate"/>
+			<field name="depositDate" value="2016-06-30"/>
+			<field name="publicationDate" value="2018-01-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLEBER DAMIAO ROCCO"/>
+			<field name="inventor" value="REINALDO MORABITO NETO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06Q10/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="esta invenção refere-se a um novo processo para elaborar o planejamento integrado e a otimização das principais atividades de produção e logística na gestão do transporte e estoques, em fábricas que processam tomates, produzem produtos intermediários (diferentes tipos de polpas concentradas de tomates) e também produtos à base de tomates para os consumidores finais. o processo propõe em definitivo a resolução do problema da elaboração do planejamento integrado e otimização das principais atividades agrícolas, como a definição da escolha de variedades e a programação de plantio e a colheita de tomate, e o transporte da produção de tomate para as fábricas processadoras; na indústria, resolve o problema do planejamento da produção e logística dos produtos produzidos especificamente no processamento de tomates, seja de produtos intermediários (polpas concentradas) que são usadas em outros processos, seja de produtos finais para os consumidores. o processo é representado em etapas e modelado por formulações que podem ser implementadas em softwares de otimização para que sejam resolvidas integralmente, respeitando as restrições de cada etapa, e assim se obtém o planejamento integrado das atividades agrícolas e industriais de uma única ou múltiplas fábricas processadoras consideradas em um sistema agroindustrial, de maneira que as ações possam ser colocadas em prática. pode-se utilizar o processo para fazer análises do sistema agroindustrial alterando-se as configurações, e assim descobrir, por exemplo, operações gargalos e dimensionar investimentos. pode-se utilizar o processo na forma de horizonte rolante, quando uma operação é realizada, por exemplo, plantio do tomate, e assim toda a otimização industrial será feita com base naquilo que a empresa efetivamente realizou. economias significativas em recurso financeiro e aumento na eficiência operacional das empresas processadoras de tomates podem ser alcançados com a utilização deste novo processo. análises dos impactos de modificação nas operações do sistema podem ser elaboradas antes da realização de possíveis investimentos."/>
+			<field name="originatesFrom" value="62599100"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015474"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016015474"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015474"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161015474"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016015474"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25875" type="Person">
+			<semanticIdentifier>lattes::4194801952934254</semanticIdentifier>
+			<field name="identifier.lattes" value="4194801952934254"/>
+			<field name="name" value="Reinaldo Morabito Neto"/>
+		</entity>
+		<entity ref="OrgUnit20305" type="OrgUnit">
+			<semanticIdentifier>brcris::01bf8bb8899ab63c21b33a5e3d56f51c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37508" toEntityRef="Person25875" type="Inventor"/>
+		<relation fromEntityRef="Patent37508" toEntityRef="OrgUnit20305" type="Applicant"/>
+	</relations>
+</entity-relation-data>

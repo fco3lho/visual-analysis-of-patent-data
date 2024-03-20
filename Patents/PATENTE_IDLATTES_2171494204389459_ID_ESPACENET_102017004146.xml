@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:09" record="39961" source="Espacenet">
+	<entities>
+		<entity ref="Patent39961" type="Patent">
+			<semanticIdentifier>brcris::b8690cd9b3762173c8cac031ee0ee8dc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004146A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017004146</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004146A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171004146</semanticIdentifier>
+			<semanticIdentifier>original::102017004146</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017004146"/>
+			<field name="identifier.lattes" value="2171494204389459"/>
+			<field name="identifier.espacenet" value="102017004146"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para reposicionamento automático de segmentos ósseos maxilares em planejamento virtual tridimensional"/>
+			<field name="title.lattes" value="Método para reposicionamento automático de segmentos ósseos maxilares em planejamento virtual tridimensional"/>
+			<field name="depositDate" value="2017-03-02"/>
+			<field name="publicationDate" value="2019-02-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE MARIO DE MARTINO"/>
+			<field name="inventor" value="LUIS AUGUSTO PASSERI"/>
+			<field name="inventor" value="RODRIGO MOLOGNI GONCALVES DOS SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61C7/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B34/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="34"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para reposicionamento automático de segmentos ósseos maxilares em planejamento virtuais tridimensional a presente invenção consiste de um método dedicado à automatização do reposicionamento de segmentos ósseos maxilares no crânio, realizado em ambiente virtual tridimensional. o método atua sobre três segmentos ósseos: a maxila, o corpo da mandíbula e o queixo, movendo-os para suas posições adequadas no crânio. as relações entre os segmentos e entre eles e a base do crânio são consideradas nestas movimentações. as posições adequadas são alcançadas pela minimização das diferenças entre os resultados das medidas cefalométricas do paciente e as médias de um padrão cefalométrico. após as movimentações, problemas de maloclusão esquelética, de assimetria facial e de discrepâncias de maxilares são corrigidos automaticamente, desonerando o profissional de um procedimento manual árduo e demorado."/>
+			<field name="originatesFrom" value="65322001"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004146"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017004146"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004146"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171004146"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017004146"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27190" type="Person">
+			<semanticIdentifier>lattes::2171494204389459</semanticIdentifier>
+			<field name="identifier.lattes" value="2171494204389459"/>
+			<field name="name" value="Rodrigo Mologni Gonçalves dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit21282" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39961" toEntityRef="Person27190" type="Inventor"/>
+		<relation fromEntityRef="Patent39961" toEntityRef="OrgUnit21282" type="Applicant"/>
+	</relations>
+</entity-relation-data>

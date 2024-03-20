@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:08" record="38233" source="Espacenet">
+	<entities>
+		<entity ref="Patent38233" type="Patent">
+			<semanticIdentifier>brcris::851238d23bf525ad43d44cf7944328be</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503783A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0503783</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503783A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI03783</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0503783-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0503783"/>
+			<field name="identifier.lattes" value="9482021882787974"/>
+			<field name="identifier.espacenet" value="PI0503783"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método para transporte e instalação de risers rìgidos em catenária por reboque"/>
+			<field name="title.lattes" value="Método para Transporte e Instalação de Risers Rígidos em Catenária por Reboque"/>
+			<field name="depositDate" value="2005-08-31"/>
+			<field name="publicationDate" value="2007-05-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RICARDO FRANCISS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B17/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA TRANSPORTE E INSTALAçãO DE RISERS RìGIDOS EM CATENáRIA POR REBOQUE A presente invenção refere-se a um método para transporte e instalação de risers rígidos em configuração de catenária livre pelo sistema de reboque. Esse método viabilizará uma redução de custos na área de instalação de risers de qualquer diâmetro em lâminas d'água de grande profundidade. Com o método da presente invenção, após montagem em canteiro e posterior reboque até o local de operação, viabiliza a utilização de risers rígidos de produção por um período estimado entre 20 e 30 anos ininterruptos."/>
+			<field name="originatesFrom" value="38051082"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503783"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0503783"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503783"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI03783"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0503783-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26329" type="Person">
+			<semanticIdentifier>lattes::9482021882787974</semanticIdentifier>
+			<field name="identifier.lattes" value="9482021882787974"/>
+			<field name="name" value="Ricardo Franciss"/>
+		</entity>
+		<entity ref="OrgUnit20625" type="OrgUnit">
+			<semanticIdentifier>brcris::16bb61d1d4add34580b89b50e63247b3</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38233" toEntityRef="Person26329" type="Inventor"/>
+		<relation fromEntityRef="Patent38233" toEntityRef="OrgUnit20625" type="Applicant"/>
+	</relations>
+</entity-relation-data>

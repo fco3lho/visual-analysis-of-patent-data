@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:54" record="41870" source="Espacenet">
+	<entities>
+		<entity ref="Patent41870" type="Patent">
+			<semanticIdentifier>brcris::96163ea19bf74d3175c8bb2e0fbf3c8a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805222A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805222</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805222A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05222</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805222-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805222"/>
+			<field name="identifier.lattes" value="4168538689240017"/>
+			<field name="identifier.espacenet" value="PI0805222"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador de vazão e sua aplicação à dosagem de combustìveis alternativos em motores de ignição por compressão"/>
+			<field name="title.lattes" value="Controlador de Vazão e sua Aplicação à Dosagem de Combustíveis Alternativos em Motores de Ignição por Compressão"/>
+			<field name="depositDate" value="2008-11-25"/>
+			<field name="publicationDate" value="2010-08-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS VALOIS MACIEL BRAGA"/>
+			<field name="inventor" value="RICARDO HERNANDEZ PEREIRA"/>
+			<field name="inventor" value="SERGIO LEAL BRAGA"/>
+			<field name="inventor" value="SERGIO LEAL BRAGA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F02D19/06AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Na presente invenção é apresentado um sistema de injeção para onversão de motores monocombustivel de ignição por compressão (caso os a óleo Diesel e óleo combustível) para motores multicombustível. O Sistema de injeção do segundo combustível é totalmente independente do sistema de injeção original de óleo e é constituído pelos seguintes 10 componentes: um dispositivo eletro-mecânico (1), um sistema de controle (2) e por sensores variados. O dispositivo eletro-mecânico (1) dosa a quantidade do segundo combustível a ser injetado no motor por meio de um conjunto de válvulas (3) do tipo abre-fecha, em paralelo, cada uma dasquais, permite uma vazão específica e precisa de combustível. O sistema 15 de controle (2) é composto por uma aparelhagem (hardware) especialmente desenvolvida e um programa de computador (software) específico e de uso dedicado junto a tal aparelhagem (harclware), os quai comandam o dispositivo eletro-mecânico (1). Os sensores se destinam a medir os parâmetros necessários à dosagem do combustivel. A invenção 20 pode ser usada na substituição parcial do combustível original por gás natural, álcool etílico carburante ou gás liquefeito de petróleo (GLP)."/>
+			<field name="originatesFrom" value="42557165"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805222"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805222"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805222"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05222"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805222-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28518" type="Person">
+			<semanticIdentifier>lattes::4168538689240017</semanticIdentifier>
+			<field name="identifier.lattes" value="4168538689240017"/>
+			<field name="name" value="Sergio Leal Braga"/>
+		</entity>
+		<entity ref="OrgUnit22323" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit22324" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41870" toEntityRef="Person28518" type="Inventor"/>
+		<relation fromEntityRef="Patent41870" toEntityRef="OrgUnit22323" type="Applicant"/>
+		<relation fromEntityRef="Patent41870" toEntityRef="OrgUnit22324" type="Applicant"/>
+	</relations>
+</entity-relation-data>

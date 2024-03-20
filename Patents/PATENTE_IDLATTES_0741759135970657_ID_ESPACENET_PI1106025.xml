@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:24" record="7589" source="Espacenet">
+	<entities>
+		<entity ref="Patent7589" type="Patent">
+			<semanticIdentifier>brcris::bd71b30b30849419da908795553cfa04</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106025A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1106025</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106025A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI06025</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1106025-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1106025"/>
+			<field name="identifier.lattes" value="0741759135970657"/>
+			<field name="identifier.espacenet" value="PI1106025"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Método para geração de tráfego de voz sobre ip"/>
+			<field name="title.lattes" value="Método para Geração de Tráfego de Voz sobre IP - Data de Concessão: 22/04/2015"/>
+			<field name="depositDate" value="2011-09-27"/>
+			<field name="publicationDate" value="2015-04-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS MARCELO PEDROSO"/>
+			<field name="inventor" value="IGNACIO MATTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA - UFPR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W16/22AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Método para geração de tráfego de voz sobre ip. Este modelo trata da geração de tráfego de sistemas de transmissão de voz utilizando uma rede de transmissão digital baseada pacotes (por exemplo, sistemas de transmissão de voz sobre ip). O modelo pode ser utilizado em previsões de capacidade, em instrumentação para geração de tráfego real, em simuladores e em cálculos analíticos"/>
+			<field name="originatesFrom" value="52828873"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106025"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1106025"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106025"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI06025"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1106025-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5115" type="Person">
+			<semanticIdentifier>lattes::0741759135970657</semanticIdentifier>
+			<field name="identifier.lattes" value="0741759135970657"/>
+			<field name="name" value="Carlos Marcelo Pedroso"/>
+		</entity>
+		<entity ref="OrgUnit4029" type="OrgUnit">
+			<semanticIdentifier>brcris::bc435c5eb1867f9f8b1702fa92d61fa4</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA - UFPR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7589" toEntityRef="Person5115" type="Inventor"/>
+		<relation fromEntityRef="Patent7589" toEntityRef="OrgUnit4029" type="Applicant"/>
+	</relations>
+</entity-relation-data>

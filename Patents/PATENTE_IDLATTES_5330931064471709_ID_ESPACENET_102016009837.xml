@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:08" record="32992" source="Espacenet">
+	<entities>
+		<entity ref="Patent32992" type="Patent">
+			<semanticIdentifier>brcris::cd8fe2d983783b894e0567665fd31ea2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009837A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016009837</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016009837A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161009837</semanticIdentifier>
+			<semanticIdentifier>original::102016009837</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016009837"/>
+			<field name="identifier.lattes" value="5330931064471709"/>
+			<field name="identifier.espacenet" value="102016009837"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de armazenamento acionado por motor elétrico para estocagem de gases na forma adsorvida à baixa vazão e baixa pressão"/>
+			<field name="title.lattes" value="Sistema de armazenamento acionado por motor elétrico para estocagem de gases na forma adsorvida à baixa vazão e baixa pressão"/>
+			<field name="depositDate" value="2016-05-02"/>
+			<field name="publicationDate" value="2018-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRESSA CAROLINE NEVES"/>
+			<field name="inventor" value="HELTON JOSE ALVES"/>
+			<field name="inventor" value="MICHAEL FEROLDI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F17C7/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="17"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F17C11/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="17"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="F17C13/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="17"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de armazenamento acionado por motor elétrico para estocagem de gases na forma adsorvida à baixa vazão e baixa pressão. trata-se de um sistema de armazenamento de gases compacto e dinâmico com aplicação no transporte e armazenamento de gases, principalmente os combustíveis. a invenção compreende o processo de adsorção física para o armazenamento de gases à pressão reduzida com alimentação em baixa vazão para garantir altos rendimentos no armazenamento. a alimentação dos gases em baixa vazão é realizada a partir de uma bomba compressora acionada por motor elétrico que é capaz de fornecer vazões abaixo de 5% do volume útil do cilindro de armazenamento por minuto e até 30 bar de pressão ao leito preenchido com sólidos adsorventes. o processo de descarga do sistema apresenta possibilidade de controle de temperatura devido à necessidade de fornecer energia (calor) ao fenômeno de dessorção para garantir maiores taxas de entrega. por apresentar dimensões compactas porém passíveis de serem escalonadas, a facilidade de transporte do sistema completo e principalmente a possibilidade do cilindro ser sacado do sistema e transportado individualmente reservam à invenção grande aplicabilidade e mobilidade."/>
+			<field name="originatesFrom" value="62599358"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009837"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016009837"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016009837"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161009837"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016009837"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22725" type="Person">
+			<semanticIdentifier>lattes::5330931064471709</semanticIdentifier>
+			<field name="identifier.lattes" value="5330931064471709"/>
+			<field name="name" value="Michael Feroldi"/>
+		</entity>
+		<entity ref="OrgUnit17765" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32992" toEntityRef="Person22725" type="Inventor"/>
+		<relation fromEntityRef="Patent32992" toEntityRef="OrgUnit17765" type="Applicant"/>
+	</relations>
+</entity-relation-data>

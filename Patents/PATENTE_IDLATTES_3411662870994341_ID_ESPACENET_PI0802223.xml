@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:52" record="8306" source="Espacenet">
+	<entities>
+		<entity ref="Patent8306" type="Patent">
+			<semanticIdentifier>brcris::35dd1db72a7774126fad355740af1c31</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802223A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0802223</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802223A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI02223</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0802223-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0802223"/>
+			<field name="identifier.lattes" value="3411662870994341"/>
+			<field name="identifier.espacenet" value="PI0802223"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composição fitossanitária para controle de pragas e doenças de plantas"/>
+			<field name="title.lattes" value="Composição Fitossanitária para Controle de Pragas e Doenças de Plantas"/>
+			<field name="depositDate" value="2008-06-03"/>
+			<field name="publicationDate" value="2010-02-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELA DINIZ CAMPOS"/>
+			<field name="inventor" value="CESAR BAUER GOMES"/>
+			<field name="inventor" value="LUIZ ALBERTO MEDEIROS NOVICKI"/>
+			<field name="inventor" value="VALMOR NEVES VIEIRA"/>
+			<field name="inventor" value="WALDEMAR JIRO TORII"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N27/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPOSIçãO FITOSSANITáRIA PARA CONTROLE DE PRAGAS E DOENçAS DE PLANTAS. A presente invenção trata de uma composição fitossanitária, obtida a partir da água de retortagem de xisto betuminoso estripada, para ser usada em agricultura, para o controle de pragas e doenças de plantas, em particular doenças foliares altamente destrutivas nas culturas da batata e do tomate. Tal composição adicionaírnente poderá conter um óleo essencial natural de plantas medicinais, como por exemplo, óleo essencial de funcho, de camomila, de orégano e de hortelã, ou um nutriente mineral. Em testes in vitro e in vivo realizados recentemente tem-se observado o efeito fungicida da água de xisto estripada, agregada ou não a outros adjuvantes, sobre diferentes microrganismos fitopatógenos. A composição objeto da presente invenção traz a vantagem de introduzir complementarmente elementos minerais que agregam valor ao produto agrícola gerado, quer seja pela obtenção de vegetais e ou suas partes com maior concentração desses elementos ou substâncias vegetais desejáveis, quer seja pela menor concentração de resíduos de elementos ou compostos tóxicos na planta e/ou suas partes."/>
+			<field name="originatesFrom" value="41682981"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802223"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0802223"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802223"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI02223"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0802223-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5697" type="Person">
+			<semanticIdentifier>lattes::3411662870994341</semanticIdentifier>
+			<field name="identifier.lattes" value="3411662870994341"/>
+			<field name="name" value="Cesar Bauer Gomes"/>
+		</entity>
+		<entity ref="OrgUnit4511" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+		<entity ref="OrgUnit4512" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8306" toEntityRef="Person5697" type="Inventor"/>
+		<relation fromEntityRef="Patent8306" toEntityRef="OrgUnit4511" type="Applicant"/>
+		<relation fromEntityRef="Patent8306" toEntityRef="OrgUnit4512" type="Applicant"/>
+	</relations>
+</entity-relation-data>

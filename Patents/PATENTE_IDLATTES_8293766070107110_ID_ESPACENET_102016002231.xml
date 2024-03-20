@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:05" record="42656" source="Espacenet">
+	<entities>
+		<entity ref="Patent42656" type="Patent">
+			<semanticIdentifier>brcris::50d6a25a298146b51b344890162057c8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016002231A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016002231</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016002231A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161002231</semanticIdentifier>
+			<semanticIdentifier>original::102016002231</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016002231"/>
+			<field name="identifier.lattes" value="8293766070107110"/>
+			<field name="identifier.espacenet" value="102016002231"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor de deformações mecânicas baseado em nanofitas de grafeno e uso"/>
+			<field name="title.lattes" value="SENSOR DE DEFORMAÇÕES MECÂNICAS BASEADO EM NANOFITAS DE GRAFENO E USO"/>
+			<field name="depositDate" value="2016-01-29"/>
+			<field name="publicationDate" value="2017-08-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREI ALAFERDOV"/>
+			<field name="inventor" value="RALUCA SAVU"/>
+			<field name="inventor" value="STANISLAW MOSHKALEV"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01B1/24AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01L41/047AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="047AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sensor de deformações mecânicas baseado em nanofitas de grafeno e uso a presente invenção se aplica no campo da física, de forma mais específica na área de sensores e filmes condutores vestíveis e flexíveis de alto desempenho para monitoramento de deformações e movimentos nas áreas de saúde, esporte, robótica e máquinas e instalações industriais. mais especificamente, a presente invenção refere-se a um sensor ultrafino, deformável e resistente, com alta razão de aspecto, alta condutividade, alta sensibilidade e baixo consumo de energia."/>
+			<field name="originatesFrom" value="59396964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016002231"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016002231"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016002231"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161002231"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016002231"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017127907"/>
+		</entity>
+		<entity ref="Person29089" type="Person">
+			<semanticIdentifier>lattes::8293766070107110</semanticIdentifier>
+			<field name="identifier.lattes" value="8293766070107110"/>
+			<field name="name" value="Stanislav Moshkalev"/>
+		</entity>
+		<entity ref="OrgUnit22775" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent42657" type="Patent">
+			<semanticIdentifier>epodoc::WO2017127907</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="59396964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017127907"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42656" toEntityRef="Person29089" type="Inventor"/>
+		<relation fromEntityRef="Patent42656" toEntityRef="OrgUnit22775" type="Applicant"/>
+	</relations>
+</entity-relation-data>

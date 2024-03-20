@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:43" record="30202" source="Espacenet">
+	<entities>
+		<entity ref="Patent30202" type="Patent">
+			<semanticIdentifier>brcris::db107cb6adb5df96c496fa2323c077d2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101859A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1101859</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1101859A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI01859</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1101859-3 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1101859"/>
+			<field name="identifier.lattes" value="3452853876787328"/>
+			<field name="identifier.espacenet" value="PI1101859"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenÇço de tensoativos nço-iânicos, e, uso de tensoativos nço-iânicos obtidos pelo processo"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DE TENSOATIVOS NÃO-IÔNICOS, E, USO DE TENSOATIVOS NÃO-IÔNICOS OBTIDOS PELO PROCESSO"/>
+			<field name="depositDate" value="2011-04-19"/>
+			<field name="publicationDate" value="2013-06-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADAO DE MATTOS COELHO"/>
+			<field name="inventor" value="ANDRE LUIZ CONDE DA SILVA"/>
+			<field name="inventor" value="MARCOS EDUARDO SEDRA GUGLIOTTI"/>
+			<field name="inventor" value="RODRIGO CELLA"/>
+			<field name="applicant" value="OXITENO S.A. INDUSTRIA E COMERCIO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C43/11AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="11AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01F17/42AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C11D1/72AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="72AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE OBTENÇçO DE TENSOATIVOS NçO-IâNICOS, E, USO DE TENSOATIVOS NçO-IâNICOS OBTIDOS PELO PROCESSO. A presente invenção versa sobre um processo para se obter tensoativos nao-iônicos e seus usos. Especificamente, esta invenção descreve um novo processo de obtenção de tensoativos não-iônicos possuidores do grupo poliglicerol e pertencentes à classe dos éteres de poliglicerol, predominantemente monoéteres de poliglicerol, bem como seus usos. O processo desta invenção baseiase na combinação direta entre um ou mais alcoóis contendo entre 8 e 22 átomos de carbono em suas cadeias e um carbonato orgânico, protegido ou não, na presença de um catalisador: Os tensoativos obtidos de acordo com o processo desta invenção apresentam grande capacidade de redução da tensão superficial e eficiente espalhamento sobre superfícies sólidas, sendo adequados para uso como emulsificantes e na formulação de composições de cosméticos, agroquímicos, detergentes, produtos de limpeza, fármacos, produtos paras o recobrimento de superfícies e aditivos para fluidos funcionais e combustíveis."/>
+			<field name="originatesFrom" value="48608507"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101859"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1101859"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1101859"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI01859"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1101859-3 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20702" type="Person">
+			<semanticIdentifier>lattes::3452853876787328</semanticIdentifier>
+			<field name="identifier.lattes" value="3452853876787328"/>
+			<field name="name" value="Marcos Eduardo Sedra Gugliotti"/>
+		</entity>
+		<entity ref="OrgUnit16180" type="OrgUnit">
+			<semanticIdentifier>brcris::c1a64c582c82add7dd44c42e4e473b72</semanticIdentifier>
+			<field name="name" value="OXITENO S.A. INDUSTRIA E COMERCIO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30202" toEntityRef="Person20702" type="Inventor"/>
+		<relation fromEntityRef="Patent30202" toEntityRef="OrgUnit16180" type="Applicant"/>
+	</relations>
+</entity-relation-data>

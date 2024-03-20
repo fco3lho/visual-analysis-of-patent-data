@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:06" record="29494" source="Espacenet">
+	<entities>
+		<entity ref="Patent29494" type="Patent">
+			<semanticIdentifier>brcris::f76e1585d2057903d59cac6cb4c9d3ad</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012004200A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012004200</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012004200A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121004200</semanticIdentifier>
+			<semanticIdentifier>original::102012004200</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012004200"/>
+			<field name="identifier.lattes" value="3050177100771478"/>
+			<field name="identifier.espacenet" value="102012004200"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="detector de radiação multipropósito'"/>
+			<field name="title.lattes" value="Detector de Radiação Multipropósito"/>
+			<field name="depositDate" value="2012-02-27"/>
+			<field name="publicationDate" value="2016-08-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCIO BOTTARO"/>
+			<field name="inventor" value="MAURICIO LANDI"/>
+			<field name="inventor" value="MAURICIO MORALLES"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR CNEN"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01T1/185AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="185AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01J47/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="47"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="detector de radiação multipropósito a presente invenção descreve um detector multipropósito de radiação ionizante de baixo custo e alta robustez mecânica, com dupla face, com um corpo que constitui a cavidade e define o detector como uma câmara de ionização. o detector da presente invenção pode ser aplicado para medição de qualquer tipo de fóton de radiação ionizante, variando de raios x a raios gama, com energias entre 10 kev e 150 kev, estendível a 2 mev (com uso de anteparos de equilíbrio eletrônico), provenientes de qualquer direção, inclusive radiação espalhada, e consiste de uma câmara de ionização (1) compreendendo placas paralelas com três eletrodos, sendo duas janelas de entrada (2) e eletrodo coletor central (3) e anel de guarda (4) circundante, encerrado em um corpo constituindo uma cavidade e desta forma, constituindo uma câmara de ionização, preenchida internamente com ar (d), não constituindo um semicondutor, nem sendo incorporada a um eletrômetro."/>
+			<field name="originatesFrom" value="56544648"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012004200"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012004200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012004200"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121004200"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012004200"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20277" type="Person">
+			<semanticIdentifier>lattes::3050177100771478</semanticIdentifier>
+			<field name="identifier.lattes" value="3050177100771478"/>
+			<field name="name" value="Marcio Bottaro"/>
+		</entity>
+		<entity ref="OrgUnit15871" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29494" toEntityRef="Person20277" type="Inventor"/>
+		<relation fromEntityRef="Patent29494" toEntityRef="OrgUnit15871" type="Applicant"/>
+	</relations>
+</entity-relation-data>

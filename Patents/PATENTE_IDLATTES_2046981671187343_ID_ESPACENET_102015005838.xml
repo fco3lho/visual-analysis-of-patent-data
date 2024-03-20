@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:41" record="39683" source="Espacenet">
+	<entities>
+		<entity ref="Patent39683" type="Patent">
+			<semanticIdentifier>brcris::6df04a09f3bf1187c71f8d61f1e0933c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005838A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015005838</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005838A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151005838</semanticIdentifier>
+			<semanticIdentifier>original::102015005838</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015005838"/>
+			<field name="identifier.lattes" value="2046981671187343"/>
+			<field name="identifier.espacenet" value="102015005838"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema para emulação de instruções e execução de código legado"/>
+			<field name="title.lattes" value="Método e Sistema para Emulação de Instruções e Execução de Código Legado"/>
+			<field name="depositDate" value="2015-03-13"/>
+			<field name="publicationDate" value="2016-09-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO CARDOSO LOPES"/>
+			<field name="inventor" value="EDSON BORIN"/>
+			<field name="inventor" value="RAFAEL AULER"/>
+			<field name="inventor" value="RODOLFO JARDIM AZEVEDO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F9/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F9/455AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="455AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sistema para remoção de instruções e execução de código legado a presente invenção se insere no campo da tecnologia da informação, mais especificamente na execução de instruções em arquiteturas de computador e na compatibilidade do código legado, e refere-se a um método e sistema para remoção de instruções em arquiteturas de computador sem quebrar a compatibilidade com o código legado. tem aplicação na garantia de compatibilidade de execução de programas antigos em novas gerações de um determinado processador, que não necessariamente inclui o subconjunto das instruções necessárias para se executar o seu código."/>
+			<field name="originatesFrom" value="56888792"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005838"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015005838"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005838"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151005838"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015005838"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2016145498"/>
+		</entity>
+		<entity ref="Person26987" type="Person">
+			<semanticIdentifier>lattes::2046981671187343</semanticIdentifier>
+			<field name="identifier.lattes" value="2046981671187343"/>
+			<field name="name" value="Rodolfo Jardim de Azevedo"/>
+		</entity>
+		<entity ref="OrgUnit21144" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent39684" type="Patent">
+			<semanticIdentifier>epodoc::WO2016145498</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="56888792"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2016145498"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39683" toEntityRef="Person26987" type="Inventor"/>
+		<relation fromEntityRef="Patent39683" toEntityRef="OrgUnit21144" type="Applicant"/>
+	</relations>
+</entity-relation-data>

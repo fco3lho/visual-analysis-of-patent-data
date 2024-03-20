@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:53" record="34979" source="Espacenet">
+	<entities>
+		<entity ref="Patent34979" type="Patent">
+			<semanticIdentifier>brcris::2532e36e9a8419ebadfb358cd3507918</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030303A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014030303</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030303A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141030303</semanticIdentifier>
+			<semanticIdentifier>original::102014030303</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014030303"/>
+			<field name="identifier.lattes" value="0655014992762819"/>
+			<field name="identifier.espacenet" value="102014030303"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para obtenção de penas magnéticas e aplicação em biocatálise"/>
+			<field name="title.lattes" value="Processo para obtenção de penas magnéticas e sua aplicação em biocatálise"/>
+			<field name="depositDate" value="2014-12-04"/>
+			<field name="publicationDate" value="2017-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA LUCIA FIGUEIREDO PORTO"/>
+			<field name="inventor" value="LUIZ BEZERRA DE CARVALHO JUNIOR"/>
+			<field name="inventor" value="MARILIA RIBEIRO SALES CADENA"/>
+			<field name="inventor" value="PABYTON GONCALVES CADENA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N13/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para obtenção de penas magnéticas e aplicação em biocatálise. a presente invenção refere-se a um processo de limpeza, retirada de gordura e magnetização de penas por reação com ferro em meio alcalino. a pena é um resíduo da indústria avícola com boa resistência mecânica. estas características permitem a aplicação em biocatálise como suporte magnético para a imobilização de biomoléculas. adicionalmente a presente invenção também descreve a aplicação da pena magnética na imobilização de ~-galactosidase, enzima utilizada para a remoção de lactose em produtos lácteos, e sua estabilidade operacional."/>
+			<field name="originatesFrom" value="57965127"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030303"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014030303"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030303"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141030303"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014030303"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24077" type="Person">
+			<semanticIdentifier>lattes::0655014992762819</semanticIdentifier>
+			<field name="identifier.lattes" value="0655014992762819"/>
+			<field name="name" value="Pabyton Goncalves Cadena"/>
+		</entity>
+		<entity ref="OrgUnit18881" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit18882" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34979" toEntityRef="Person24077" type="Inventor"/>
+		<relation fromEntityRef="Patent34979" toEntityRef="OrgUnit18881" type="Applicant"/>
+		<relation fromEntityRef="Patent34979" toEntityRef="OrgUnit18882" type="Applicant"/>
+	</relations>
+</entity-relation-data>

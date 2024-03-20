@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:57" record="14366" source="Espacenet">
+	<entities>
+		<entity ref="Patent14366" type="Patent">
+			<semanticIdentifier>brcris::9faf4e8ee3f1a43e2d77ac9531a24f08</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028636A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016028636</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028636A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161028636</semanticIdentifier>
+			<semanticIdentifier>original::102016028636</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016028636"/>
+			<field name="identifier.lattes" value="8992571360119124"/>
+			<field name="identifier.espacenet" value="102016028636"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de otimização de uso e despacho de energia em pequenas redes de geração elétrica"/>
+			<field name="title.lattes" value="SISTEMA DE OTIMIZAÇÃO DE USO E DESPACHO DE ENERGIA EM PEQUENAS REDES DE GERAÇÃO ELÉTRICA"/>
+			<field name="depositDate" value="2016-12-06"/>
+			<field name="publicationDate" value="2018-06-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EVERSON OSVANIR DA SILVA"/>
+			<field name="inventor" value="GREGORY CHAGAS DA COSTA GOMES"/>
+			<field name="inventor" value="ROBERTO ALEXANDRE DIAS"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08C17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de otimização de uso e despacho de energia em pequenas redes de geração elétrica para gestão de consumo e fornecimento de energia, de equipamentos individuais, de fornecimento e de consumo de energia, instalados em uma rede e ligados à um barramento elétrico controlado por softwares específicos, compreendendo um servidor de dados instalado em cada equipamento de consumo e de fornecimento, de modo a captar e informar a demanda energética de cada equipamento de consumo, bem como a capacidade e custo de fornecimento energético de cada equipamento de fornecimento; um servidor de endereços que mapeia todos os servidores de dados na rede, de modo a identificar cada equipamento ligado na rede e fornecer a informações endereçadas a um servidor de controle central; um servidor de custos que captura, por um meio de comunicação, todas as informações de custos energéticos que compõe o sistema de energia, em suas diferentes fontes de produção, e envia para o servidor de controle central, que calcula qual é a melhor relação custo benefício para despacho e uso de energia elétrica, dos seus equipamentos de consumo e de fornecimento, baseados no custo de produção de energia gerada e nos custos da energia obtida pelo sistema de energia elétrica, e realiza o controle da distribuição do uso e fornecimento de energia conforme calculado, fazendo este controle em tempo real e considerando a vida útil das baterias existentes no sistema realizando um ciclo de carga e prevendo um rodízio de uso das mesmas."/>
+			<field name="originatesFrom" value="62845271"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028636"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016028636"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028636"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161028636"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016028636"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9909" type="Person">
+			<semanticIdentifier>lattes::8992571360119124</semanticIdentifier>
+			<field name="identifier.lattes" value="8992571360119124"/>
+			<field name="name" value="Everson Osvanir da Silva"/>
+		</entity>
+		<entity ref="OrgUnit7785" type="OrgUnit">
+			<semanticIdentifier>brcris::5266ca15601abc507c03ef259f95aee7</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14366" toEntityRef="Person9909" type="Inventor"/>
+		<relation fromEntityRef="Patent14366" toEntityRef="OrgUnit7785" type="Applicant"/>
+	</relations>
+</entity-relation-data>

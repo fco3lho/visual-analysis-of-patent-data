@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:12" record="20213" source="Espacenet">
+	<entities>
+		<entity ref="Patent20213" type="Patent">
+			<semanticIdentifier>brcris::1040e4403ac11ca16b2711dcf61bf9f7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805177A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805177</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805177A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05177</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805177-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805177"/>
+			<field name="identifier.lattes" value="3378038791036594"/>
+			<field name="identifier.espacenet" value="PI0805177"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="conversores multinìveis unidirecionais do tipo elevador baseados na conexão de múltiplos conversores através de células de comutação de múltiplos estados"/>
+			<field name="title.lattes" value="CONVERSORES MULTINÍVEIS UNIDIRECIONAIS DO TIPO ELEVADOR BASEADOS NA CONEXÃO DE MÚLTIPLOS CONVERSORES ATRAVÉS DE CÉLULAS DE COMUTAÇÃO DE MÚLTIPLOS ESTADOS"/>
+			<field name="depositDate" value="2008-11-21"/>
+			<field name="publicationDate" value="2010-08-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="IVO BARBI"/>
+			<field name="inventor" value="MARCELO LOBO HELDWEIN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M7/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CONVERSORES MULTINIVEIS UNIDIRECIONAIS DO TIPO ELEVADOR BASEADOS NA CONEXAO DE MúLTIPLOS CONVERSORES ATRAVéS DE CéLULAS DE COMUTAçãO DE MúLTIPLOS ESTADOS. Descreve conversores eletrónicos operando em alta freqUência e retificando a tensão de um sistema elétrico trifásico ou muítifásico para uma tensão contínua dividida em duas partes iguais. Utilizam-se conversores do estado-da-arte como blocos básicos que são conectados através de um arranjo especial que é capaz de propiciar melhor desempenho quanto a fatores como distribuição de perdas nos dispositivos semicondutores, redução de amplitudes de corrente em alta freqUência, redução da geração de emissões eletromagnéticas conduzidas de modo comum e de modo diferencial, aumento da freqUência das emissões eletromagnéticas percebida pelos circuitos elétricos conectados à entrada e à saída do conversor. O arranjo de conexão é realizado com indutores acoplados em número inteiro variável de dois (2) a qualquer número inteiro. Estes indutores acoplados são conectados de um lado a um terminal comum que é conectado a um indutor de entrada e do outro lado à interruptores controlados de potência implementados preferencialmente por dispositivos semicondutores. O padrão de modulação é também parte desta invenção, o qual propicia vantagens em desempenho. Com isto, permite-se que o conversor tenha um aumento de eficiência na conversão de energia, uma redução de seus componentes passivos, tais como indutores e capacitores e uma redução do tamanho de sistemas de refrigeração."/>
+			<field name="originatesFrom" value="42557140"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805177"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805177"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05177"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805177-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14026" type="Person">
+			<semanticIdentifier>lattes::3378038791036594</semanticIdentifier>
+			<field name="identifier.lattes" value="3378038791036594"/>
+			<field name="name" value="Ivo Barbi"/>
+		</entity>
+		<entity ref="OrgUnit10965" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20213" toEntityRef="Person14026" type="Inventor"/>
+		<relation fromEntityRef="Patent20213" toEntityRef="OrgUnit10965" type="Applicant"/>
+	</relations>
+</entity-relation-data>

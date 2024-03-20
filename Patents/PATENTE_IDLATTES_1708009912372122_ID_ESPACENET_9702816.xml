@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:03" record="1737" source="Espacenet">
+	<entities>
+		<entity ref="Patent1737" type="Patent">
+			<semanticIdentifier>brcris::b8e12afe02d3b60361553ff6961e9db6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9702816A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9702816</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9702816A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979702816</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9702816"/>
+			<field name="identifier.lattes" value="1708009912372122"/>
+			<field name="identifier.espacenet" value="9702816"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de obtenção de catalisador de platina dispersa ancorada em substrato através da redução por ácido"/>
+			<field name="title.lattes" value="Processo de Obtenção de Catalisador de Platina Dispersa Ancorada em Substrato Através de Redução por Ácido"/>
+			<field name="depositDate" value="1997-09-02"/>
+			<field name="publicationDate" value="1999-04-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDSON ANTONIO TICIANELLI"/>
+			<field name="inventor" value="ERNESTO RAFAEL GONZALES"/>
+			<field name="inventor" value="JOELMA PEREZ"/>
+			<field name="inventor" value="NOVAES PINHEIRO ALEXEI LORENZETTI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J23/42AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J37/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="4067312"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9702816"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9702816"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9702816"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979702816"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1302" type="Person">
+			<semanticIdentifier>lattes::1708009912372122</semanticIdentifier>
+			<field name="identifier.lattes" value="1708009912372122"/>
+			<field name="name" value="Alexei Lorenzetti Novaes Pinheiro"/>
+		</entity>
+		<entity ref="OrgUnit970" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1737" toEntityRef="Person1302" type="Inventor"/>
+		<relation fromEntityRef="Patent1737" toEntityRef="OrgUnit970" type="Applicant"/>
+	</relations>
+</entity-relation-data>

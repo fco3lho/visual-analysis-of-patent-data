@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:36" record="30612" source="Espacenet">
+	<entities>
+		<entity ref="Patent30612" type="Patent">
+			<semanticIdentifier>brcris::13408b2ce725e834cf5b089da4c06519</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0101869A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0101869</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0101869A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010101869</semanticIdentifier>
+			<semanticIdentifier>original::0101869-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0101869"/>
+			<field name="identifier.lattes" value="4809400871166644"/>
+			<field name="identifier.espacenet" value="0101869"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sonda de membrana de inserção direta, com pré-concentração e dessorção, para a análise direta, rápida e sensìvel de compostos orgánicos voláteis e semi-voláteis em matrizes ambientais, processos fermentativos e fluìdos biológicos"/>
+			<field name="title.lattes" value="Sonda de Membrana de Inserção Direta com Pré Concentração e Dessorção, para Análise Direta, Rápida e Sensível de Compostos Orgânicos Voláteis em Matrizes Ambientais, Processos Fermentativos a Fluídos Biológicos"/>
+			<field name="depositDate" value="2001-04-11"/>
+			<field name="publicationDate" value="2003-02-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCOS NOGUEIRA EBERLIN"/>
+			<field name="inventor" value="MARIA ANITA MENDES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N25/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SONDA DE MEMBRANA DE INSERçãO DIRETA, COM PRé-CONCENTRAçãO E DESSORçãO, PARA A ANáLISE DIRETA, RáPIDA E SENSìVEL DE COMPOSTOS ORGáNICOS VOLáTEIS E SEMI-VOLáTEIS EM MATRIZES AMBIENTAIS, PROCESSOS FERMENTATIVOS E FLUìDOS BIOLóGICOS&quot;. Caracterizada pelo fato de compreender uma membrana capilar em forma de loop (B), disposta dentro da fonte de íons (D); a sonda em questão compreende ainda um adaptador de cerâmica para a sonda (F) para assegurar a vedação necessária; a membrana (B) sendo posicionada exatamente entre os dois filamentos (C); o filamento localizado no topo da fonte de ionização aquece a superfície externa do topo do arco formado pela membrana, e a superfície interna da base do arco, enquanto o filamento inferior aquece a superfície externa da base do arco, e a superfície interna do seu topo; a sonda ora tratada compreende ainda uma entrada de gás para CI (E), lentes (G) ; e a fonte de íons (H)."/>
+			<field name="originatesFrom" value="3947249"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0101869"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0101869"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0101869"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010101869"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0101869-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21001" type="Person">
+			<semanticIdentifier>lattes::4809400871166644</semanticIdentifier>
+			<field name="identifier.lattes" value="4809400871166644"/>
+			<field name="name" value="Maria Anita Mendes"/>
+		</entity>
+		<entity ref="OrgUnit16394" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30612" toEntityRef="Person21001" type="Inventor"/>
+		<relation fromEntityRef="Patent30612" toEntityRef="OrgUnit16394" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:47" record="31601" source="Espacenet">
+	<entities>
+		<entity ref="Patent31601" type="Patent">
+			<semanticIdentifier>brcris::c6e09c776fbaddf5531424b6173b7d2d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202724A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0202724</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202724A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020202724</semanticIdentifier>
+			<semanticIdentifier>original::0202724-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0202724"/>
+			<field name="identifier.lattes" value="5832778223847349"/>
+			<field name="identifier.espacenet" value="0202724"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Produto pesticida, composição pesticida e processo para proteção de plantas e sementes contra predadores"/>
+			<field name="title.lattes" value="Produto pesticida, composição pesticida e processo para proteção de plantas e sementes contra predadores"/>
+			<field name="depositDate" value="2002-06-28"/>
+			<field name="publicationDate" value="2004-05-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIA LUIZA VILELA OLIVA"/>
+			<field name="inventor" value="MASAKO UEMURA SAMPAIO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N37/44AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PRODUTO PESTICIDA, COMPOSIçãO PESTICIDA E PROCESSO PARA PROTEçãO DE PLANTAS E SEMENTES CONTRA PREDADORES&quot;. Contra a ação excessiva de predadores, tais como, microorganismos, pragas e herbívoros em geral, particularmente àqueles do grupo dos bruquídeos e cujo desenvolvimento é prejudicado por inibidores de proteases, onde o produto pesticida é definido por um peptídeo compreendendo a seq³ência de aminoácidos RGE e seus derivados, homóloga a um fragmento da proteína BrTI-1, ingrediente ativo da composição pesticida utilizada para proteger plantas e sementes da ação predadoras destes organismos, em combinação com um veículo agriculturalmente aceitável. A presente invenção provê ainda, um processo para induzir resistência em plantas contra a ação excessiva de predadores compreendendo a etapa de incorporar, estavelmente, dentro do genoma da planta, um gene quimérico definido por um peptídeo apresentando uma seq³ência de aminoácidos RGE e seus derivados, homóloga a um fragmento da proteína BrTI-1, capaz de inibir a atividade de enzimas digestivas, particularmente proteases, nos referidos predadores."/>
+			<field name="originatesFrom" value="32181246"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202724"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0202724"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202724"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020202724"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0202724-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21650" type="Person">
+			<semanticIdentifier>lattes::5832778223847349</semanticIdentifier>
+			<field name="identifier.lattes" value="5832778223847349"/>
+			<field name="name" value="Maria Luiza Vilela Oliva"/>
+		</entity>
+		<entity ref="OrgUnit16906" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31601" toEntityRef="Person21650" type="Inventor"/>
+		<relation fromEntityRef="Patent31601" toEntityRef="OrgUnit16906" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:03" record="9668" source="Espacenet">
+	<entities>
+		<entity ref="Patent9668" type="Patent">
+			<semanticIdentifier>brcris::01824f3781dae0520a810e7d627b996d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701339A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0701339</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701339A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI01339</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0701339-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0701339"/>
+			<field name="identifier.lattes" value="4960030568504765"/>
+			<field name="identifier.espacenet" value="PI0701339"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo para acessar e encher lateralmente a estrutura interna de fibras àpticas micro-estruturadas e fibras àpticas com acesso lateral assim obtidas"/>
+			<field name="title.lattes" value="Metodo para acessar e encher lateralmente a estrutura interna de fibras opticas micro-estruturadas e fibras opticas com acesso lateral assim obtidas"/>
+			<field name="depositDate" value="2007-04-09"/>
+			<field name="publicationDate" value="2008-11-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS HENRIQUE DE BRITO CRUZ"/>
+			<field name="inventor" value="CHRISTIANO JOSE SANTIAGO DE MATOS"/>
+			<field name="inventor" value="CRISTIANO MONTEIRO DE BARROS CORDEIRO"/>
+			<field name="applicant" value="INSTITUTO PRESBITERIANO MACKENZIE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/032AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="032AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Método para acessar e encher lateralmente a estrutura interna de fibras ópticas micro-estruturadas e fibras ópticas com acesso lateral assim obtidas A presente invenção consiste em uma fibra óptica com acesso lateral, em um método para acessar lateralmente os buracos da casca de uma fibra micro-estruturada de núcleo sólido ou apenas - seletivamente - o buraco central de fibras micro-estruturadas de núcleo oco, utilizando apenas aplicação de calor localizado e pressão positiva, em um método de enchimento seletivo da fibra óptica micro-estruturada através do acesso lateral, com uma ou ambas extremidades livres, e seu uso em equipamentos e sensores ópticos. Mais especificamente, a produção destes buracos laterais permite o preenchimento da fibra com gases ou líquidos pela sua lateral, mantendo as suas duas extremidades (entrada e saída) livres para serem opticamente acessadas, permitindo o alinhamento óptico da fibra antes da inserção do material, aumentando a aplicação prática de fibras micro-estruturadas na área de sensoriamento. Opcionalmente, o método da presente invenção permite ainda acessar lateralmente apenas o buraco central de fibras micro-estruturadas de núcleo oco e expandir o núcleo de uma fibra fotônica de núcleo oco."/>
+			<field name="originatesFrom" value="40532339"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701339"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0701339"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701339"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI01339"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0701339-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6613" type="Person">
+			<semanticIdentifier>lattes::4960030568504765</semanticIdentifier>
+			<field name="identifier.lattes" value="4960030568504765"/>
+			<field name="name" value="Cristiano Monteiro de Barros Cordeiro"/>
+		</entity>
+		<entity ref="OrgUnit5221" type="OrgUnit">
+			<semanticIdentifier>brcris::3654acf40a79dcc52dcf35ae34d68909</semanticIdentifier>
+			<field name="name" value="INSTITUTO PRESBITERIANO MACKENZIE"/>
+		</entity>
+		<entity ref="OrgUnit5222" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9668" toEntityRef="Person6613" type="Inventor"/>
+		<relation fromEntityRef="Patent9668" toEntityRef="OrgUnit5221" type="Applicant"/>
+		<relation fromEntityRef="Patent9668" toEntityRef="OrgUnit5222" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:59" record="25205" source="Espacenet">
+	<entities>
+		<entity ref="Patent25205" type="Patent">
+			<semanticIdentifier>brcris::ef8ae58c2cb31d2aa63790ba5e30c400</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901954A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0901954</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901954A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI01954</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0901954-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0901954"/>
+			<field name="identifier.lattes" value="9199711496015510"/>
+			<field name="identifier.espacenet" value="PI0901954"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="amplificadores chaveados de potência"/>
+			<field name="title.lattes" value="Amplificadores Chaveados de Potência"/>
+			<field name="depositDate" value="2009-05-26"/>
+			<field name="publicationDate" value="2011-02-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS AUGUSTO BISSOCHI JR"/>
+			<field name="inventor" value="FABIO VINCENZI ROMUALDO DA SILVA"/>
+			<field name="inventor" value="JOAO BATISTA VIEIRA JUNIOR"/>
+			<field name="inventor" value="LEANDRO DOS SANTOS MARTINS"/>
+			<field name="inventor" value="LUIZ CARLOS DE FREITAS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05F1/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="AMPLIFICADORES CHAVEADOS DE POTENCIA A presente invenção refere-se a duas configurações de amplificadores chaveados de potência que não necessitam de filtro passa baixa no estágio de saída como ocorre com os amplificadores Classe D tradicionais, uma vez que possui como princípio de funcionamento, modular o sinal a ser amplificado por meio de duas fontes de corrente controladas sobre um capacitor de filtro de saída. Os circuitos propostos apresentam baixo THD (taxa de distorção harmónica total), para a máxima frequência de projeto, quando acionado por um controle de custo reduzido, além de dispensarem o uso de snubber e operarem com fonte de alimentação não estabilizada. Da forma como foram concebidos, os arranjos propostos também apresentam elevada proteção contra sobrecorrente nas chaves que podem ocorrer por acionamento indevido desses dispositivos controlados devido a ruidos indesejáveis."/>
+			<field name="originatesFrom" value="43567393"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901954"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0901954"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901954"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI01954"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0901954-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17473" type="Person">
+			<semanticIdentifier>lattes::9199711496015510</semanticIdentifier>
+			<field name="identifier.lattes" value="9199711496015510"/>
+			<field name="name" value="Leandro dos Santos Martins"/>
+		</entity>
+		<entity ref="OrgUnit13631" type="OrgUnit">
+			<semanticIdentifier>brcris::f60e03e4038d592def216988a602934c</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit13632" type="OrgUnit">
+			<semanticIdentifier>brcris::fa95793bd10cf2105122ea0e931c861a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25205" toEntityRef="Person17473" type="Inventor"/>
+		<relation fromEntityRef="Patent25205" toEntityRef="OrgUnit13631" type="Applicant"/>
+		<relation fromEntityRef="Patent25205" toEntityRef="OrgUnit13632" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:25" record="32694" source="Espacenet">
+	<entities>
+		<entity ref="Patent32694" type="Patent">
+			<semanticIdentifier>brcris::77da60572dcc547ddc12b8234fd99f66</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203571A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0203571</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203571A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020203571</semanticIdentifier>
+			<semanticIdentifier>original::0203571-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0203571"/>
+			<field name="identifier.lattes" value="6885001509490830"/>
+			<field name="identifier.espacenet" value="0203571"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método e aparelho para caracterização de feixes de laser gaussianos por lente térmica"/>
+			<field name="title.lattes" value="Utilização da técnica de lente térmica para determinar o raio de um feixe de laser"/>
+			<field name="depositDate" value="2002-07-04"/>
+			<field name="publicationDate" value="2004-05-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCOS EDUARDO SEDRA GUGLIOTTI"/>
+			<field name="inventor" value="MARIO JOSE POLITI"/>
+			<field name="inventor" value="MAURICIO DA SILVA BAPTISTA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02F1/29AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="29AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO E APARELHO PARA CARACTERIZAçãO DE FEIXES DE LASER GAUSSIANOS POR LENTE TéRMICA&quot;. A invenção se refere à caracterização de feixes de laser gaussianos. Na concretização preferida utiliza-se um computador para a medida da variação da magnitude da lente térmica induzida numa amostra após absorção do feixe de laser e conseq³ente geração de calor. A distância focal é obtida pela determinação da posição da amostra na qual o sinal de lente térmica é nulo. Tal determinação pode ser feita utilizando-se um osciloscópio, ao invés de um computador. Com base num modelo preciso, o computador realiza o ajuste da curva de variação do sinal de lente térmica medido em diferentes posições em relação ao foco do feixe, obtendo-se os valores do comprimento de Rayleigh e do raio do feixe no foco. Com base nestes valores, determina-se o raio do feixe em qualquer outra posição ao longo do eixo de propagação. Se a difusividade térmica da amostra for conhecida, pode-se obter o raio do feixe numa determinada posição ao longo do eixo de propagação pela medida de apenas um único sinal de lente térmica."/>
+			<field name="originatesFrom" value="32331010"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203571"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0203571"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203571"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020203571"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0203571-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22486" type="Person">
+			<semanticIdentifier>lattes::6885001509490830</semanticIdentifier>
+			<field name="identifier.lattes" value="6885001509490830"/>
+			<field name="name" value="Mauricio da Silva Baptista"/>
+		</entity>
+		<entity ref="OrgUnit17594" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32694" toEntityRef="Person22486" type="Inventor"/>
+		<relation fromEntityRef="Patent32694" toEntityRef="OrgUnit17594" type="Applicant"/>
+	</relations>
+</entity-relation-data>

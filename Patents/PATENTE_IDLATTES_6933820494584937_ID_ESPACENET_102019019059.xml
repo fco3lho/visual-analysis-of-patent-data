@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:29:06" record="43823" source="Espacenet">
+	<entities>
+		<entity ref="Patent43823" type="Patent">
+			<semanticIdentifier>brcris::8c742d9dba68c1c9016cd0e0dbe4cb37</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019019059A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019019059</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019019059A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191019059</semanticIdentifier>
+			<semanticIdentifier>original::102019019059</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019019059"/>
+			<field name="identifier.lattes" value="6933820494584937"/>
+			<field name="identifier.espacenet" value="102019019059"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para remoção de incrustação de manifolde submarino"/>
+			<field name="title.lattes" value="MÉTODO PARA REMOÇÃO DE INCRUSTAÇÃO DE MANIFOLD SUBMARINO"/>
+			<field name="depositDate" value="2019-09-13"/>
+			<field name="publicationDate" value="2021-03-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FRANCISCA FERREIRA DO ROSARIO"/>
+			<field name="inventor" value="KATIA REGINA SILVA ALVES DA ROSA"/>
+			<field name="inventor" value="MARIO GERMINO FERREIRA DA SILVA"/>
+			<field name="inventor" value="ROSANE ALVES FONTES"/>
+			<field name="inventor" value="TIAGO CAVALCANTE FREITAS"/>
+			<field name="inventor" value="VALTAIR MARCOS CRISTANTE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B21/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E21B31/03AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="03AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para remoção de incrustação de manifolde submarino durante reuniões de planejamento de operações de remoção de incrustação e squeeze de inibidor de incrustação nos poços, foi levantada a possibilidade de o manifold estar parcialmente incrustado considerando a mistura mais crítica das águas produzidas. a solução proposta é um método para o tratamento de remoção de incrustação num manifold. esse método utiliza o aquecimento geotérmico do reservatório de exploração para aquecer uma solução química removedora (50). o aquecimento se faz necessário para garantir a temperatura numa faixa que ainda pode realizar a reação de remoção, uma vez que a distância que a solução percorre até o manifold (20) e a baixa temperatura do ambiente submerso fazem com que a reação ocorra de forma não eficiente, como é o caso do pré-sal."/>
+			<field name="originatesFrom" value="74867089"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019019059"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019019059"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019019059"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191019059"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019019059"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2021046625"/>
+		</entity>
+		<entity ref="Person29942" type="Person">
+			<semanticIdentifier>lattes::6933820494584937</semanticIdentifier>
+			<field name="identifier.lattes" value="6933820494584937"/>
+			<field name="name" value="Tiago Cavalcante Freitas"/>
+		</entity>
+		<entity ref="OrgUnit23509" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="Patent43824" type="Patent">
+			<semanticIdentifier>epodoc::WO2021046625</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="74867089"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2021046625"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43823" toEntityRef="Person29942" type="Inventor"/>
+		<relation fromEntityRef="Patent43823" toEntityRef="OrgUnit23509" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:23" record="1363" source="Espacenet">
+	<entities>
+		<entity ref="Patent1363" type="Patent">
+			<semanticIdentifier>brcris::d57e6a22f12b76ed4db9023f8fca30d3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202016021954U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202016021954U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202016021954U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20162021954U</semanticIdentifier>
+			<semanticIdentifier>original::202016021954</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202016021954"/>
+			<field name="identifier.lattes" value="2654487502435490"/>
+			<field name="identifier.espacenet" value="202016021954"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="disposição construtiva de valvula de tubo flexivel acionada por garfo rotativo"/>
+			<field name="title.lattes" value="DISPOSIÇÃO CONSTRUTIVA DE VALVULA DE TUBO FLEXIVEL ACIONADA POR GARFO ROTATIVO"/>
+			<field name="depositDate" value="2016-09-23"/>
+			<field name="publicationDate" value="2018-04-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX ELTON MOURA"/>
+			<field name="inventor" value="CARLOS COSTA DANTAS"/>
+			<field name="inventor" value="EMMANUEL FERREIRA DE CARVALHO"/>
+			<field name="inventor" value="MARCIO FERNANDO PAIXAO DE BRITO"/>
+			<field name="inventor" value="TIAGO LEITE ROLIM"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16K7/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="disposição construtiva de valvula de tubo flexivel acionada por garfo rotativo. modelo de utilidade de válvula que possui tubulação de entrada(1) e de saída(2) interligadas por tubo flexível(4), e o tubo flexível(4) está fixado nas tubulações de entrada(1) e de saída(2) por meio de abraçadeira(13) e abraçadeira tipo ?u?(12), e a tubulação de entrada(1), de saída(2) e o tubo flexível(4) estão situadas na mesma linha de centro, e a válvula possui garfo(3) constituído por duas barras paralelas transversais ao tubo flexível(4) e ficam localizadas na parte mediana do tubo flexível(4), e o garfo(3) possui eixo de rotação(14) cujas extremidades estão apoiadas em mancais de rolamento(5) localizados no interior de caixas de rolamento(6), e o eixo de rotação(14) está acoplado ao motor(18) de acionamento, através de acoplamento(16)."/>
+			<field name="originatesFrom" value="62107528"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202016021954"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202016021954U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202016021954"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20162021954U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202016021954"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202016021954Y"/>
+		</entity>
+		<entity ref="Person1020" type="Person">
+			<semanticIdentifier>lattes::2654487502435490</semanticIdentifier>
+			<field name="identifier.lattes" value="2654487502435490"/>
+			<field name="name" value="Alex Elton de Moura"/>
+		</entity>
+		<entity ref="OrgUnit801" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="Patent1364" type="Patent">
+			<semanticIdentifier>epodoc::BR202016021954Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62107528"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202016021954Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1363" toEntityRef="Person1020" type="Inventor"/>
+		<relation fromEntityRef="Patent1363" toEntityRef="OrgUnit801" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:18" record="22301" source="Espacenet">
+	<entities>
+		<entity ref="Patent22301" type="Patent">
+			<semanticIdentifier>brcris::84a41a01401c55965bf65b99df181240</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004258A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017004258</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004258A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171004258</semanticIdentifier>
+			<semanticIdentifier>original::102017004258</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017004258"/>
+			<field name="identifier.lattes" value="8642746965572430"/>
+			<field name="identifier.espacenet" value="102017004258"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="detector de tumores utilizando tomografia térmica"/>
+			<field name="title.lattes" value="DETECTOR DE TUMORES UTILIZANDO TOMOGRAFIA TÉRMICA"/>
+			<field name="depositDate" value="2017-03-03"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DARIO OLIVEIRA CANOSSI"/>
+			<field name="inventor" value="DOUGLAS BRESSAN RIFFEL"/>
+			<field name="inventor" value="JOSE AGUIAR DOS SANTOS JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/01AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61B10/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção é um equipamento capaz de detectar regiões com tumores ou neoplasias sem utilizar radiação ionizante. este equipamento utiliza uma onda térmica no emissor e mede a temperatura em diversos pontos. através da solução de um problema inverso se estima a geração de calor metabólico e/ou a perfusão sanguínea. como resultado, uma imagem bidimensional da seção sob teste é reconstruída utilizando técnicas de tomografia. a intensidade desse indicador, apresentada através de uma paleta de cores, auxilia o médico no diagnóstico do tumor ou neoplasia."/>
+			<field name="originatesFrom" value="64268714"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004258"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017004258"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004258"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171004258"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017004258"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15426" type="Person">
+			<semanticIdentifier>lattes::8642746965572430</semanticIdentifier>
+			<field name="identifier.lattes" value="8642746965572430"/>
+			<field name="name" value="José Aguiar dos Santos Junior"/>
+		</entity>
+		<entity ref="OrgUnit11994" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22301" toEntityRef="Person15426" type="Inventor"/>
+		<relation fromEntityRef="Patent22301" toEntityRef="OrgUnit11994" type="Applicant"/>
+	</relations>
+</entity-relation-data>

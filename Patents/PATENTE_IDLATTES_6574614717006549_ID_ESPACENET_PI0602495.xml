@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:57" record="38055" source="Espacenet">
+	<entities>
+		<entity ref="Patent38055" type="Patent">
+			<semanticIdentifier>brcris::08e3e155b27f092d1955822aa1c0377c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602495A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602495</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602495A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02495</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602495-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602495"/>
+			<field name="identifier.lattes" value="6574614717006549"/>
+			<field name="identifier.espacenet" value="PI0602495"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="nanocompósito em polipropileno baseado em um compatibilizante"/>
+			<field name="title.lattes" value="NANOCOMPÓSITO EM POLIPROPILENO BASEADO EM UM COMPATIBILIZANTE"/>
+			<field name="depositDate" value="2006-07-03"/>
+			<field name="publicationDate" value="2008-02-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADAIR RANGEL DE OLIVEIRA JUNIOR"/>
+			<field name="inventor" value="ANTONIO CARLOS QUENTAL"/>
+			<field name="inventor" value="CLAUDIO EVARISTO FARIA"/>
+			<field name="inventor" value="FABIO DO NASCIMENTO"/>
+			<field name="inventor" value="RICARDO BIANCHIN MARTIN"/>
+			<field name="inventor" value="ROBSON SANTIAGO DA SILVA"/>
+			<field name="applicant" value="SUZANO PETROQUIMICA S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08K9/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08K3/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C08L23/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="NANOCOMPóSITO EM POLIPROPILENO BASEADO EM UM COMPATIBILIZANTE Descreve-se um nanocompósito em polipropileno baseado em um novo compatibilizante. Um novo compatibilizante é obtido através da reação química entre um aminoalquilsilano e um palipropileno enxertado com anidrido maleico (PP-g-AM) via extrusão reativa. Após a etapa de extrusão, peletização e secagem, o novo compatibilizante é adicionado durante a incorporação de uma argila organofílica ao polipropileno em extrusora de rosca dupla. O nanocompósito obtido por este método apresenta propriedades mecânicas, térmicas e óticas superiores àqueles empregando compatibilizantes baseados em polipropileno enxertado com anidrido maleico."/>
+			<field name="originatesFrom" value="39124764"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602495"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602495"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602495"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02495"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602495-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26248" type="Person">
+			<semanticIdentifier>lattes::6574614717006549</semanticIdentifier>
+			<field name="identifier.lattes" value="6574614717006549"/>
+			<field name="name" value="Ricardo Bianchin Martin"/>
+		</entity>
+		<entity ref="OrgUnit20569" type="OrgUnit">
+			<semanticIdentifier>brcris::1a303b003640a796503a44f5ae94e643</semanticIdentifier>
+			<field name="name" value="SUZANO PETROQUIMICA S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38055" toEntityRef="Person26248" type="Inventor"/>
+		<relation fromEntityRef="Patent38055" toEntityRef="OrgUnit20569" type="Applicant"/>
+	</relations>
+</entity-relation-data>

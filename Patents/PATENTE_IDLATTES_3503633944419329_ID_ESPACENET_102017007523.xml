@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:24" record="14628" source="Espacenet">
+	<entities>
+		<entity ref="Patent14628" type="Patent">
+			<semanticIdentifier>brcris::3121692ba4eb88a0e16a86eb884d73ac</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007523A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017007523</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017007523A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171007523</semanticIdentifier>
+			<semanticIdentifier>original::102017007523</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017007523"/>
+			<field name="identifier.lattes" value="3503633944419329"/>
+			<field name="identifier.espacenet" value="102017007523"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo e kit de volatilização de elementos voláteis e suporte para material carbonáceo"/>
+			<field name="title.lattes" value="Processo e Kit de Volatilização de Elementos Voláteis e Suporte para Material Carbonáceo"/>
+			<field name="depositDate" value="2017-04-11"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CEZAR AUGUSTO BIZZI"/>
+			<field name="inventor" value="ERICO MARLON DE MORAES FLORES"/>
+			<field name="inventor" value="FABIO ANDREI DUARTE"/>
+			<field name="inventor" value="LUCAS SCHMIDT"/>
+			<field name="inventor" value="ROCHELE SOGARI PICOLOTO"/>
+			<field name="inventor" value="SANDRA MEINEN DA CRUZ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J19/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um método e um kit para a volatilização de elementos (ex: as, se, pb, cd, sb e hg) de materiais carbonáceos, baseado na interação entre a radiação micro-ondas e os materiais à base de carbono. a presente invenção se situa nos campos da química, física e engenharias em geral."/>
+			<field name="originatesFrom" value="64268979"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007523"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017007523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017007523"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171007523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017007523"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10116" type="Person">
+			<semanticIdentifier>lattes::3503633944419329</semanticIdentifier>
+			<field name="identifier.lattes" value="3503633944419329"/>
+			<field name="name" value="Fábio Andrei Duarte"/>
+		</entity>
+		<entity ref="OrgUnit7922" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14628" toEntityRef="Person10116" type="Inventor"/>
+		<relation fromEntityRef="Patent14628" toEntityRef="OrgUnit7922" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:39" record="28242" source="Espacenet">
+	<entities>
+		<entity ref="Patent28242" type="Patent">
+			<semanticIdentifier>brcris::e497a4bdc09f38c4ea9bf8d302519405</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018069286A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018069286</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018069286A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181069286</semanticIdentifier>
+			<semanticIdentifier>original::102018069286</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018069286"/>
+			<field name="identifier.lattes" value="9274757626171275"/>
+			<field name="identifier.espacenet" value="102018069286"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de material polimérico com quitosana"/>
+			<field name="title.lattes" value="Processo de obtenção de material polimérico com quitosana"/>
+			<field name="depositDate" value="2018-09-21"/>
+			<field name="publicationDate" value="2020-03-31"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUREA BEATRIZ CERQUEIRA GERALDO"/>
+			<field name="inventor" value="EDUARDO DE MOURA"/>
+			<field name="inventor" value="MAIARA SALLA FERREIRA"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08B37/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01N33/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61K31/722AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="722AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C08L23/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de material polimérico com quitosana a presente invenção trata de um processo de obtenção de um material polimérico que possui a quitosana imobilizada, possibilitando a criação de um produto que possui atividade antibacteriana. o processo desenvolvido compreende as etapas de radiação do material polimérico, com posterior reação deste com a quitosana em solução através do processo de ebulição."/>
+			<field name="originatesFrom" value="70155753"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018069286"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018069286"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018069286"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181069286"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018069286"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19494" type="Person">
+			<semanticIdentifier>lattes::9274757626171275</semanticIdentifier>
+			<field name="identifier.lattes" value="9274757626171275"/>
+			<field name="name" value="Maiara Salla Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit15201" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28242" toEntityRef="Person19494" type="Inventor"/>
+		<relation fromEntityRef="Patent28242" toEntityRef="OrgUnit15201" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:31" record="1423" source="Espacenet">
+	<entities>
+		<entity ref="Patent1423" type="Patent">
+			<semanticIdentifier>brcris::c0c2bef41be852041af439934a05282b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013001900A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013001900</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013001900A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131001900</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 001900-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013001900"/>
+			<field name="identifier.lattes" value="8113986303794763"/>
+			<field name="identifier.espacenet" value="102013001900"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA APLICADO EM MOLDAGEM DE ELEMENTOS PARA DRENAGEM URBANA E ELEMENTOS PRÉ-MOLDADOS"/>
+			<field name="title.lattes" value="Sistema Aplicado em Moldagem de Elementos para Drenagem Urbana e Elementos Pré-Moldados"/>
+			<field name="depositDate" value="2013-01-25"/>
+			<field name="publicationDate" value="2014-09-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRA PASSUELLO"/>
+			<field name="inventor" value="ALEXANDRE LORENZI"/>
+			<field name="inventor" value="EDGAR WALLACE PEREIRA LUCAS"/>
+			<field name="inventor" value="EURIPEDES MARTINS FONTES"/>
+			<field name="inventor" value="FABIANO DA COSTA HOELTZ"/>
+			<field name="inventor" value="GISELE SANTORO LAMB"/>
+			<field name="inventor" value="ISALTINO AVELINO DE OLIVEIRA JUNIOR"/>
+			<field name="inventor" value="JOSUE ARGENTE CHIES"/>
+			<field name="inventor" value="LUCIANE FONSECA CAETANO"/>
+			<field name="inventor" value="LUIZ CARLOS PINTO DA SILVA FILHO"/>
+			<field name="inventor" value="ROSEANE SHIMOMUKAY"/>
+			<field name="inventor" value="TAMARA FRANCISCA BAGGIO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E01C11/22AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E03F5/046AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="046AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA APLICADO EM MOLDAGEM DE ELEMENTOS PARA DRENAGEM URBANA E ELEMENTOS PRÉ-MOLDADOS. A invenção consiste no desenvolvimento de um conjunto de elementos de drenagem (tampas, bocas de lobo, meios-fios, lajes de pavimentação, entre outros) permeáveis, usando concreto permeável, que servem para regular o ingresso de água no sistema de frenagem de águas pluviais. A presente invenção tem importante função sanitária, pois elimina a possibilidade de trânsito de insetos roedores, que são indesejáveis vetores de doenças, e que transitam pelas bocas de lobo e outros elementos de drenagem urbana. O invento se situa na área da engenharia civil e sanitária."/>
+			<field name="originatesFrom" value="51483810"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013001900"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013001900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013001900"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131001900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 001900-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1067" type="Person">
+			<semanticIdentifier>lattes::8113986303794763</semanticIdentifier>
+			<field name="identifier.lattes" value="8113986303794763"/>
+			<field name="name" value="Alexandra Cruz Passuello"/>
+		</entity>
+		<entity ref="OrgUnit843" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1423" toEntityRef="Person1067" type="Inventor"/>
+		<relation fromEntityRef="Patent1423" toEntityRef="OrgUnit843" type="Applicant"/>
+	</relations>
+</entity-relation-data>

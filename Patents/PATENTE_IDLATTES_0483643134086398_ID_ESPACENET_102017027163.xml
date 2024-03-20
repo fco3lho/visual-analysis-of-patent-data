@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:12" record="1274" source="Espacenet">
+	<entities>
+		<entity ref="Patent1274" type="Patent">
+			<semanticIdentifier>brcris::40d16d6b6c817513536914e822c73bc4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017027163A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017027163</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017027163A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171027163</semanticIdentifier>
+			<semanticIdentifier>original::102017027163</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017027163"/>
+			<field name="identifier.lattes" value="0483643134086398"/>
+			<field name="identifier.espacenet" value="102017027163"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processos e dispositivo para identificação da qualidade da interação paciente-ventilador mecânico baseados na análise de quantificação de recorrência ou em gráficos de recorrência"/>
+			<field name="title.lattes" value="PROCESSOS E DISPOSITIVO PARA IDENTIFICAÇÃO DA QUALIDADE DA INTERAÇÃO PACIENTE-VENTILADOR MECÂNICO BASEADOS NA ANÁLISE DE QUANTIFICAÇÃO DE RECORRÊNCIA OU EM GRÁFICOS DE RECORRÊNCIA"/>
+			<field name="depositDate" value="2017-12-15"/>
+			<field name="publicationDate" value="2019-07-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO BEDA"/>
+			<field name="inventor" value="LEONARDO LUIZ PORTES DOS SANTOS"/>
+			<field name="inventor" value="LUCINARA MARTINS SILVA TALLARICO"/>
+			<field name="inventor" value="LUIS ANTONIO AGUIRRE"/>
+			<field name="inventor" value="NADJA CRISTINE CARVALHO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61M16/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q10/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processos e dispositivo para identificação da qualidade da interação paciente-ventilador mecânico baseados na análise de quantificação de recorrência ou em gráficos de recorrência. o presente pedido de patente descreve processos e um dispositivo capazes de identificar da qualidade da interação paciente-ventilador mecânico (pvi) baseados na análise de quantificação de recorrência (aqr) e em gráficos de recorrência (gr). a tecnologia proposta utiliza o sinal que representa o fluxo respiratório disponibilizado no equipamento de ventilação mecânica para formar uma série temporal do fluxo respiratório que contem os dados necessários para aplicação das técnicas de grs e aqr, que inclui cálculos da taxa de recorrência e da entropia de shannon, resultando em um processo que possibilita identificar a qualidade da pvi e monitorar desempenho da ventilação mecânica. a tecnologia identifica a qualidade da pvi associando-a a cenários clínicos pré-definidos. o avanço proporcionado pela tecnologia consiste em identificar a qualidade da pvi sem a necessidade de técnicas invasivas de forma fácil e rápida devido à compactação dos dados propiciada pela técnica utilizada (aqr/gr). a tecnologia se aplica no contexto da ventilação mecânica invasiva em unidades e centros de terapia intensiva e na indústria de equipamentos médico-hospitalares."/>
+			<field name="originatesFrom" value="67294858"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017027163"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017027163"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017027163"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171027163"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017027163"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person946" type="Person">
+			<semanticIdentifier>lattes::0483643134086398</semanticIdentifier>
+			<field name="identifier.lattes" value="0483643134086398"/>
+			<field name="name" value="Alessandro Beda"/>
+		</entity>
+		<entity ref="OrgUnit746" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1274" toEntityRef="Person946" type="Inventor"/>
+		<relation fromEntityRef="Patent1274" toEntityRef="OrgUnit746" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:42" record="18673" source="Espacenet">
+	<entities>
+		<entity ref="Patent18673" type="Patent">
+			<semanticIdentifier>brcris::cafc4693021901c6a49a5277ee69d3db</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805723A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805723</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805723A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05723</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805723-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805723"/>
+			<field name="identifier.lattes" value="4413209638256157"/>
+			<field name="identifier.espacenet" value="PI0805723"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="analisador de incubadoras para neonatos"/>
+			<field name="title.lattes" value="Analisador de incubadora para neonatos"/>
+			<field name="depositDate" value="2008-10-17"/>
+			<field name="publicationDate" value="2011-05-31"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HANDERSON JORGE DOURADO LEITE"/>
+			<field name="inventor" value="JOSEMIR DA CRUZ ALEXANDRINO"/>
+			<field name="inventor" value="RICARDO DE ARAUJO KALID"/>
+			<field name="inventor" value="VALNITON EVILASIO DA SILVA"/>
+			<field name="inventor" value="VALNITON EVILASIO DA SILVA"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DA BAHIA CEFET/BA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA BAHIA - IFBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61G11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ANALISADOR DE INCUBADORAS PARA NEONATOS, objeto de patente de Invenção, compreendido de estrutura de posicionamento de sensores (1), circuito eletrónico de condicionamento de sinais, armazenamento, apresentação e transmissão de dados (2), e opcionalmente um computador(3). A estrutura de posicionamento de sensores (1) possui duas barras laterais móveis (6), com dois blocos de sensores móveis (12) em cada barra, que permitem o posicionamento dos sensores de temperatura e fluxo de ar, um par em cada bloco móvel, possuindo ainda bloco central fixo (7), que abriga sensor de concentração de oxigênio (8), sensor de temperatura (9), sensor de umidade (10) e sensor de ruído sonoro (11). O circuito eletrónico (2) abriga-se em caixa com chave liga-desliga (15), três botões (16) para ajuste de parâmetros e navegação por menu apresentado no visor (17), que também apresenta as medições efetuadas. O circuito eletrónico (2) pode comunicar-se com o computador (3) através de um cabo de comunicação (18) paratransmissão dos dados de medições efetuados e armazenados na memória interna. Adicionalmente, o circuito eletrónico (2) pode ser conectado por outro cabo de comunicação (19) ao computador (3) para fins de programação e/ou leitura do dispositivo processador deste circuito eletrónico (2)."/>
+			<field name="originatesFrom" value="44072865"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805723"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805723"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805723"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05723"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805723-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12943" type="Person">
+			<semanticIdentifier>lattes::4413209638256157</semanticIdentifier>
+			<field name="identifier.lattes" value="4413209638256157"/>
+			<field name="name" value="Handerson Jorge Dourado Leite"/>
+		</entity>
+		<entity ref="OrgUnit10087" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18673" toEntityRef="Person12943" type="Inventor"/>
+		<relation fromEntityRef="Patent18673" toEntityRef="OrgUnit10087" type="Applicant"/>
+	</relations>
+</entity-relation-data>

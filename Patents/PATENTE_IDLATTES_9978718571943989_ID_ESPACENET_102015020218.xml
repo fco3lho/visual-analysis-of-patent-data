@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:10:52" record="3360" source="Espacenet">
+	<entities>
+		<entity ref="Patent3360" type="Patent">
+			<semanticIdentifier>brcris::b564b827785dc849260fd3634d4b1923</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015020218A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015020218</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015020218A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151020218</semanticIdentifier>
+			<semanticIdentifier>original::102015020218</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015020218"/>
+			<field name="identifier.lattes" value="9978718571943989"/>
+			<field name="identifier.espacenet" value="102015020218"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="plasmídeo, vírus recombinante expressando proteína sequestrante de ip3 no núcleo celular e usos"/>
+			<field name="title.lattes" value="PLASMÍDEO, VÍRUS RECOMBINANTE EXPRESSANDO PROTEÍNA SEQUESTRANTE DE IP3 NO NÚCLEO CELULAR E USOS"/>
+			<field name="depositDate" value="2015-08-21"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON KENEDY SANTOS"/>
+			<field name="inventor" value="BRUNA RAPHAELA SOUSA"/>
+			<field name="inventor" value="RODRIGO RIBEIRO RESENDE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/48AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/867AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="867AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/93AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="93AN"/>
+			</field>
+			<field name="abstract.espacenet" value="plasmídeo, vírus recombinante expressando proteína sequestrante de ip3 no núcleo celular e usos a presente invenção descreve uma ferramenta útil para o monitoramento e estudo do fluxo de cálcio mediado pelo mensageiro inositol 1,4,5-trifosfato (ip3), particularmente no núcleo celular. esta ferramenta consiste em um plasmídeo lentiviral, capaz de promover, na célula alvo, a expressão da proteína de fusão cuja sequência compreende: a porção ligante ao ip3 do receptor ip3r (seq id nº: 1 ), responsável por ligar-se ao ip3 competindo com o receptor nativo deste mensageiro na célula; um sinal de localização nuclear (nls) (seq id nº: 2), responsável por direcionar a construção para o núcleo da célula; e uma proteína fluorescente, mais precisamente a proteína fluorescente vermelha (dsred) (seq id nº: 3), que permite a verificação visual da localização desta proteína no interior da célula. esta construção, por meio do emprego do esqueleto de um plasmídeo lentiviral, permite a geração de uma partícula viral que, quando utilizada para infectar a célula alvo, garante a integração do dna recombinante ao genoma da célula, produzindo, assim, uma linhagem celular recombinante e estável, o que possibilita sua utilização em experimentos mais longos, como aqueles de diferenciação de células tronco"/>
+			<field name="originatesFrom" value="62954462"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015020218"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015020218"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015020218"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151020218"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015020218"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2376" type="Person">
+			<semanticIdentifier>lattes::9978718571943989</semanticIdentifier>
+			<field name="identifier.lattes" value="9978718571943989"/>
+			<field name="name" value="Anderson Kenedy Santos"/>
+		</entity>
+		<entity ref="OrgUnit1917" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3360" toEntityRef="Person2376" type="Inventor"/>
+		<relation fromEntityRef="Patent3360" toEntityRef="OrgUnit1917" type="Applicant"/>
+	</relations>
+</entity-relation-data>

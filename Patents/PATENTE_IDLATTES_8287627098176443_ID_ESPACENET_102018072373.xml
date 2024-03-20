@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:01" record="6367" source="Espacenet">
+	<entities>
+		<entity ref="Patent6367" type="Patent">
+			<semanticIdentifier>brcris::ac2ac29311015174d11a3014d566498c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018072373A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018072373</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018072373A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181072373</semanticIdentifier>
+			<semanticIdentifier>original::102018072373</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018072373"/>
+			<field name="identifier.lattes" value="8287627098176443"/>
+			<field name="identifier.espacenet" value="102018072373"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processos e dispositivo para controle ativo de carga, recarga e descarga de multi-elementos armazenadores de energia e reconfiguração de strings em caso de falha ou remoção de elemento(s) armazenador(es) de energia"/>
+			<field name="title.lattes" value="PROCESSOS E DISPOSITIVOS PARA CONTROLE ATIVO DE CARGA, RECARGA E DESCARGA DE MULTI-ELEMENTOS ARMAZENADORES DE ENERGIA E RECONFIGURAÇÃO DE STRINGS EM CASO DE FALHA OU REMOÇÃO DE ELEMENTO(S) ARMAZENADOR(ES) DE ENERGIA"/>
+			<field name="depositDate" value="2018-10-30"/>
+			<field name="publicationDate" value="2020-05-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRAZ DE JESUS CARDOSO FILHO"/>
+			<field name="inventor" value="NICOLAS TADEU DOMINGUES FERNANDES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J7/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processos e dispositivo para controle ativo de carga, recarga e descarga de multi-elementos armazenadores de energia e reconfiguração de strings em caso de falha ou remoção de elemento(s) armazenador(es) de energia a presente tecnologia descreve processos e um dispositivo capazes de realizar o controle ativo de carga, recarga e descarga de elementos armazenadores de energia (células eletroquímicas, capacitores, supercapacitores, baterias e outros) e reconfiguração de strings em caso de falha ou remoção de elemento(s) armazenador(es) de energia. utilizam-se conversores cc-cc (corrente contínua corrente contínua) em configuração modular, conectados individualmente a cada um dos elementos armazenadores de energia que formam as strings que compõem um banco de elementos armazenadores de energia. a tecnologia permite considerar as singularidades de cada elemento armazenador de energia no banco, tais como: 1) condição de degradação, 2) falha, 3) estado de recarga 4) eficiência de recarga e 5) tipo de tecnologia empregada. ademais, permite compor um banco de elementos armazenadores de energia com características distintas, aproveitando o máximo da capacidade do banco, associando elementos de diferentes tecnologias e capacidades. permite manutenção do banco, sem perturbar a carga alimentada. aplica-se a grandes bancos armazenadores de energia para sistemas elétricos de potência; bancos de armazenamento para sistemas fotovoltaicos e eólicos; bancos de armazenamento em veículos elétricos e híbridos, inclusive bancos híbridos de armazenagem de energia e bancos de armazenamento para centrais de dados e subestações."/>
+			<field name="originatesFrom" value="70976798"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018072373"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018072373"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018072373"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181072373"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018072373"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4213" type="Person">
+			<semanticIdentifier>lattes::8287627098176443</semanticIdentifier>
+			<field name="identifier.lattes" value="8287627098176443"/>
+			<field name="name" value="Braz de Jesus Cardoso Filho"/>
+		</entity>
+		<entity ref="OrgUnit3284" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6367" toEntityRef="Person4213" type="Inventor"/>
+		<relation fromEntityRef="Patent6367" toEntityRef="OrgUnit3284" type="Applicant"/>
+	</relations>
+</entity-relation-data>

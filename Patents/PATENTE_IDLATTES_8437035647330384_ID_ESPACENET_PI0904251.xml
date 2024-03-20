@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:40" record="34895" source="Espacenet">
+	<entities>
+		<entity ref="Patent34895" type="Patent">
+			<semanticIdentifier>brcris::3acc731a7c26528cef76b5f45238c201</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904251A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904251</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904251A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04251</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0904251-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904251"/>
+			<field name="identifier.lattes" value="8437035647330384"/>
+			<field name="identifier.espacenet" value="PI0904251"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="indicador de velocidade do vento cilÍndrico vertical"/>
+			<field name="title.lattes" value="INDICADOR DE VELOCIDADE DO VENTO CILÍNDRICO VERTICAL"/>
+			<field name="depositDate" value="2009-10-06"/>
+			<field name="publicationDate" value="2013-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DALZIZA DE OLIVEIRA"/>
+			<field name="inventor" value="DIEGO HENRIQUE DOS SANTOS"/>
+			<field name="inventor" value="OTAVIO JORGE GRIGOLI ABI SAAB"/>
+			<field name="inventor" value="WERNER GENTA"/>
+			<field name="applicant" value="INSTITUTO AGRONOMICO DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01P5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="INDICADOR DE VELOCIDADE DO VENTO CILÍNDRICO VERTICAL - A presente invenção tem por objeto apresentar um modelo simples e custo baixo para indicar a velocidade do vento no meio rural. O indicador proposto é uma solução prática, para que o agricultor tenha alguma referência na tomada de decisão sobre o momento adequado para a aplicação de agrotóxicos. O invento proposto é constituído de um suporte em arame que sustenta o cilindro na posição vertical."/>
+			<field name="originatesFrom" value="48051776"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904251"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904251"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904251"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04251"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0904251-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24015" type="Person">
+			<semanticIdentifier>lattes::8437035647330384</semanticIdentifier>
+			<field name="identifier.lattes" value="8437035647330384"/>
+			<field name="name" value="Otavio Jorge Grigoli Abi-Saab"/>
+		</entity>
+		<entity ref="OrgUnit18839" type="OrgUnit">
+			<semanticIdentifier>brcris::be4000780b340c539641e8f4feebac99</semanticIdentifier>
+			<field name="name" value="INSTITUTO AGRONOMICO DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit18840" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34895" toEntityRef="Person24015" type="Inventor"/>
+		<relation fromEntityRef="Patent34895" toEntityRef="OrgUnit18839" type="Applicant"/>
+		<relation fromEntityRef="Patent34895" toEntityRef="OrgUnit18840" type="Applicant"/>
+	</relations>
+</entity-relation-data>

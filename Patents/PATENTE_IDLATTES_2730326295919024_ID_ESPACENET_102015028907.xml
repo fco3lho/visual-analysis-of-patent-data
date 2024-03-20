@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:28" record="6582" source="Espacenet">
+	<entities>
+		<entity ref="Patent6582" type="Patent">
+			<semanticIdentifier>brcris::4e893429fa8bf0a4f8fdca6a1edf164e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028907A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015028907</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028907A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151028907</semanticIdentifier>
+			<semanticIdentifier>original::102015028907</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015028907"/>
+			<field name="identifier.lattes" value="2730326295919024"/>
+			<field name="identifier.espacenet" value="102015028907"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de detecção de saturação em transformadores de corrente utilizando o filtro de savitzky-golay"/>
+			<field name="title.lattes" value="MÉTODO PARA DETECÇÃO DE SATURAÇÃO EM TRANSFORMADORES DE CORRENTE UTILIZANDO O FILTRO DE SAVITZKY-GOLAY"/>
+			<field name="depositDate" value="2015-11-18"/>
+			<field name="publicationDate" value="2018-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO MONTESANO SCHETTINO"/>
+			<field name="inventor" value="CARLOS AUGUSTO DUQUE"/>
+			<field name="inventor" value="PAULO MARCIO DA SILVEIRA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R35/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para detecção de saturação em transformadores de corrente utilizando o filtro de savitzky-golay método para detecção de saturação eletromagnética do núcleo de um transformador de corrente (tc), utilizando técnicas de processamento de sinais aplicadas às amostras do sinal de corrente elétrica de seu circuito secundário (2). após a detecção da falta (9), o sinal de corrente do circuito secundário (2) é filtrado (13), processado pelo filtro diferenciador de 2a ordem de savitzky-golay (14) e comparado a um limiar adaptativo (15). os resultados desta comparação permitem a detecção dos pontos de início (4) e pontos de fim (5) das regiões saturadas (3). este método pode ser utilizado em processos de mitigação dos efeitos causados pela saturação dos tcs nos dispositivos de proteção dos sistemas elétricos de potência."/>
+			<field name="originatesFrom" value="62001617"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028907"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015028907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028907"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151028907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015028907"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4380" type="Person">
+			<semanticIdentifier>lattes::2730326295919024</semanticIdentifier>
+			<field name="identifier.lattes" value="2730326295919024"/>
+			<field name="name" value="Bruno Montesano Schettino"/>
+		</entity>
+		<entity ref="OrgUnit3447" type="OrgUnit">
+			<semanticIdentifier>brcris::1181a7dc37385866177856d680d3cd6f</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+		</entity>
+		<entity ref="OrgUnit3448" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6582" toEntityRef="Person4380" type="Inventor"/>
+		<relation fromEntityRef="Patent6582" toEntityRef="OrgUnit3447" type="Applicant"/>
+		<relation fromEntityRef="Patent6582" toEntityRef="OrgUnit3448" type="Applicant"/>
+	</relations>
+</entity-relation-data>

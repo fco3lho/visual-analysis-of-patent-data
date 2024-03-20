@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:48" record="42105" source="Espacenet">
+	<entities>
+		<entity ref="Patent42105" type="Patent">
+			<semanticIdentifier>brcris::ebe85b50ccabef2daf72ba05bc359456</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014033134A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014033134</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014033134A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141033134</semanticIdentifier>
+			<semanticIdentifier>original::102014033134</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014033134"/>
+			<field name="identifier.lattes" value="7890000571911617"/>
+			<field name="identifier.espacenet" value="102014033134"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="floculação iônica de tensoativos aniônicos para remoção de corante de efluente têxtil"/>
+			<field name="title.lattes" value="Floculação iônica de tensoativos aniônicos para remoção de corante de efluente têxtil"/>
+			<field name="depositDate" value="2014-12-29"/>
+			<field name="publicationDate" value="2016-07-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AFONSO AVELINO DANTAS NETO"/>
+			<field name="inventor" value="EDUARDO LINS DE BARROS NETO"/>
+			<field name="inventor" value="RICARDO PAULO FONSECA MELO"/>
+			<field name="inventor" value="SHIRLLE KATIA DA SILVA NUNES"/>
+			<field name="inventor" value="TEREZA NEUMA DE CASTRO DANTAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B03D3/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F103/30AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="103"/>
+				<field name="subgroup" value="30AN"/>
+			</field>
+			<field name="abstract.espacenet" value="|=|_ocu|_ação |on|ca de tensoat|vos an|on|cos para re|v|oção de corante de efluente têxt||. a invenção refere-se a um processo de tratamento de efluente têxtil que emprega a ?oculação iônica de tensoativos aniônicos e sais de cálcio de modo a criar ?ocos hidrofóbicos capazes de remover o corante do e?uente, aplicando tensoativos biodegradáveis. o processo consiste na adição de um tensoativo aniônico ao e?uente têxtil, seguido da adição de sais de cálcio, promovendo a reação do tensoativo com o cálcio e a interação deste novo tensoativo com o corante formando um tensoativo insolúvel na forma de um floco impregnado com corante, que após a decantação e/ou filtração leva a um e?uente têxtil tratado"/>
+			<field name="originatesFrom" value="56268391"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014033134"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014033134"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014033134"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141033134"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014033134"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28705" type="Person">
+			<semanticIdentifier>lattes::7890000571911617</semanticIdentifier>
+			<field name="identifier.lattes" value="7890000571911617"/>
+			<field name="name" value="Shirlle Katia da Silva Nunes"/>
+		</entity>
+		<entity ref="OrgUnit22438" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42105" toEntityRef="Person28705" type="Inventor"/>
+		<relation fromEntityRef="Patent42105" toEntityRef="OrgUnit22438" type="Applicant"/>
+	</relations>
+</entity-relation-data>

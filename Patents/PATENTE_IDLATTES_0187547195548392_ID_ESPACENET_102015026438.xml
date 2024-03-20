@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:23" record="340" source="Espacenet">
+	<entities>
+		<entity ref="Patent340" type="Patent">
+			<semanticIdentifier>brcris::c9837c81367013cd8bac70d4a66f83ec</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015026438A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015026438</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015026438A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151026438</semanticIdentifier>
+			<semanticIdentifier>original::102015026438</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015026438"/>
+			<field name="identifier.lattes" value="0187547195548392"/>
+			<field name="identifier.espacenet" value="102015026438"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="prensa isostática"/>
+			<field name="title.lattes" value="Prensa Isostática"/>
+			<field name="depositDate" value="2015-10-19"/>
+			<field name="publicationDate" value="2017-07-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADOLFO FRANCO JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B30B1/32AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="30"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="abstract.espacenet" value="prensa isostática a presente invenção refere-se a um equipamento que consiste na montagem de uma prensa isostática com a finalidade de melhorar o empacotamento de peças feitas de pós de óxidos antes de serem submetidos a tratamentos térmicos elou recozimento. a prensa consiste basicamente de um conjunto pistão-cilindro acionado através de uma alavanca hidráulica."/>
+			<field name="originatesFrom" value="61731525"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015026438"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015026438"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015026438"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151026438"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015026438"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person239" type="Person">
+			<semanticIdentifier>lattes::0187547195548392</semanticIdentifier>
+			<field name="identifier.lattes" value="0187547195548392"/>
+			<field name="name" value="Adolfo Franco Júnior"/>
+		</entity>
+		<entity ref="OrgUnit212" type="OrgUnit">
+			<semanticIdentifier>brcris::b1f2c79921deb4fdda2bdb4dd2e76b96</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent340" toEntityRef="Person239" type="Inventor"/>
+		<relation fromEntityRef="Patent340" toEntityRef="OrgUnit212" type="Applicant"/>
+	</relations>
+</entity-relation-data>

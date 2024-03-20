@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:30:27" record="44096" source="Espacenet">
+	<entities>
+		<entity ref="Patent44096" type="Patent">
+			<semanticIdentifier>brcris::16a71651f0a34b8d9346a206c2adba0a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019197A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019197</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019197A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019197</semanticIdentifier>
+			<semanticIdentifier>original::102016019197</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019197"/>
+			<field name="identifier.lattes" value="9858094266525225"/>
+			<field name="identifier.espacenet" value="102016019197"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="corpo de diamante sinterizado com ligante de nióbio puro"/>
+			<field name="title.lattes" value="Corpo de Diamante Sinterizado com Ligante de Nióbio Puro"/>
+			<field name="depositDate" value="2016-08-19"/>
+			<field name="publicationDate" value="2018-06-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELLO FILGUEIRA"/>
+			<field name="inventor" value="MEYSAM MASHHADIKARIMI"/>
+			<field name="inventor" value="UILAME UMBELINO GOMES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B22F3/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C22C26/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="26"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;corpo de diamante sinterizado com ligante de nióbio puro&quot; a presente invenção diz respeito a um corpo de diamante sinterizado a partir de pós de partículas de diamante e de nióbio puro formando uma fase ligante. esta invenção refere-se à área de processamento de materiais através da metalurgia do pó, mais especificamente, aos métodos de produção de materiais de elevada dureza. o corpo de diamante sinterizado contém um volume de diamante entre 80% e 95%, partículas de pó de diamante, com tamanho médio de partícula de 20 µm a 30 µm; e um resíduo de partículas de nióbio em pó com tamanho médio de partícula de 10 µm a 20 µm. a sinterização é realizada através da retenção de pó moldado num dispositivo gerador de super alta pressão, por um período mínimo de 3 minutos e máximo de 60 minutos, sob uma pressão maior do que 6,0 gpa, mas não superior a 8,0 gpa, e a uma temperatura acima de 1600 °c, mas não superior a 1800 °c. nesta invenção, a utilização de um ligante de nióbio em vez de ligantes convencionais, como ferro e cobalto, permitiu a resolução de problemas como a grafitização do diamante durante a sinterização e o excesso de poros no corpo sinterizado."/>
+			<field name="originatesFrom" value="62845615"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019197"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019197"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019197"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019197"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019197"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30145" type="Person">
+			<semanticIdentifier>lattes::9858094266525225</semanticIdentifier>
+			<field name="identifier.lattes" value="9858094266525225"/>
+			<field name="name" value="Uilame Umbelino Gomes"/>
+		</entity>
+		<entity ref="OrgUnit23660" type="OrgUnit">
+			<semanticIdentifier>brcris::74cc3956f0618ab971949de8c9ae51d8</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO"/>
+		</entity>
+		<entity ref="OrgUnit23661" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44096" toEntityRef="Person30145" type="Inventor"/>
+		<relation fromEntityRef="Patent44096" toEntityRef="OrgUnit23660" type="Applicant"/>
+		<relation fromEntityRef="Patent44096" toEntityRef="OrgUnit23661" type="Applicant"/>
+	</relations>
+</entity-relation-data>

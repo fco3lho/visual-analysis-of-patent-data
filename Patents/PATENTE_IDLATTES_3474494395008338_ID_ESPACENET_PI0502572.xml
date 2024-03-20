@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:30" record="19093" source="Espacenet">
+	<entities>
+		<entity ref="Patent19093" type="Patent">
+			<semanticIdentifier>brcris::8ae04241a4fb2be02db7be31673b5e0f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502572A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0502572</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502572A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI02572</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0502572-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0502572"/>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="identifier.espacenet" value="PI0502572"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para preparação de aditivos para catalisadores utilizados em unidades de craqueamento catalìtico fluido"/>
+			<field name="title.lattes" value="Preparação e aplicação de aditivos para maximização de olefinas leves em unidades de FCC"/>
+			<field name="depositDate" value="2005-07-07"/>
+			<field name="publicationDate" value="2007-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE DE FIGUEIREDO COSTA"/>
+			<field name="inventor" value="HENRIQUE SOARES CERQUEIRA"/>
+			<field name="inventor" value="JOSE MARCOS MOREIRA FERREIRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J37/28AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J29/18AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B01J29/40AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA PREPARAçãO DE ADITIVOS PARA CATALISADORES UTILIZADOS EM UNIDADES DE CRAQUEAMENTO CATALìTICO FLUIDO&quot;. é descrito um processo para preparação de aditivos para catalisadores utilizados em unidades de craqueamento catalítico fluido visa minimizar as etapas, tempo e custos do processo e maximizar o rendimento de olefinas leves em um processo de craqueamento catalítico fluido (FCC). O referido processo de preparação de aditivos para catalisador envolve tratamentos de uma zeólita ZSM-5, de uma zeólita Mordenita e outras etapas assim descritas: - para uma zeólita ZSM-5; - tratamento com ácido fosfórico em meio aquoso; - homogeneização de uma mistura formada por uma zeólita ZSM-5 e ácido fosfórico em meio aquoso; - para uma zeólita Mordenita; - tratamento com ácido fosfórico em meio aquoso; - homogeneização de uma mistura formada por uma zeólita Mordenita e ácido fosfórico em meio aquoso; - mistura das soluções aquosas contendo uma zeólita ZSM-5 e ácido fosfórico, e uma zeólita Mordenita e ácido fosfórico; - adição de uma fonte de alumínio e de uma argila; - secagem em 'spray-dryer' para formação de esferas de aditivo; e - mistura de aditivo com um catalisador de FCC."/>
+			<field name="originatesFrom" value="37770453"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502572"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0502572"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502572"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI02572"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0502572-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13257" type="Person">
+			<semanticIdentifier>lattes::3474494395008338</semanticIdentifier>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="name" value="Henrique Soares Cerqueira"/>
+		</entity>
+		<entity ref="OrgUnit10366" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19093" toEntityRef="Person13257" type="Inventor"/>
+		<relation fromEntityRef="Patent19093" toEntityRef="OrgUnit10366" type="Applicant"/>
+	</relations>
+</entity-relation-data>

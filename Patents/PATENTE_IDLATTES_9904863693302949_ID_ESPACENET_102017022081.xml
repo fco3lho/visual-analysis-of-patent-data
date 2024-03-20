@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:37" record="14768" source="Espacenet">
+	<entities>
+		<entity ref="Patent14768" type="Patent">
+			<semanticIdentifier>brcris::aee7b3ae046da7c2cd67d0bfed1360c2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017022081A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017022081</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017022081A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171022081</semanticIdentifier>
+			<semanticIdentifier>original::102017022081</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017022081"/>
+			<field name="identifier.lattes" value="9904863693302949"/>
+			<field name="identifier.espacenet" value="102017022081"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de processamento de sinais para a formação de feixes múltiplos para sistemas de antenas digitais de radiofrequência"/>
+			<field name="title.lattes" value="Sistema de processamento de sinais para a formação de feixes múltiplos para sistemas de antenas digitais de radiofrequência"/>
+			<field name="depositDate" value="2017-10-13"/>
+			<field name="publicationDate" value="2019-05-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DIEGO FELIPE GOMES COELHO"/>
+			<field name="inventor" value="FABIO MARIANO BAYER"/>
+			<field name="inventor" value="RENATO JOSE DE SOBRAL CINTRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA - UFSM"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B7/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção, que se situa no campo da engenharia eletrônica e de telecomunicações, descreve um sistema de computação de direção de feixes em conjunto de antenas alinhadas usando uma aproximação para a transformada discreta de fourier, conhecida pela sigla dft e se baseia em uma aproximação com reduzida complexidade computacional resultando em hardware mais simples necessitando apenas de operações de soma e deslocamento de bits, e compreende a substituição da dft por uma transformada aproximada, tendo como consequência, a implementação em hardware ou software com redução da complexidade computacional, do consumo de energia e também do tempo de necessário para a computação do feixe."/>
+			<field name="originatesFrom" value="67253376"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017022081"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017022081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017022081"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171022081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017022081"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10219" type="Person">
+			<semanticIdentifier>lattes::9904863693302949</semanticIdentifier>
+			<field name="identifier.lattes" value="9904863693302949"/>
+			<field name="name" value="Fabio Mariano Bayer"/>
+		</entity>
+		<entity ref="OrgUnit7991" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14768" toEntityRef="Person10219" type="Inventor"/>
+		<relation fromEntityRef="Patent14768" toEntityRef="OrgUnit7991" type="Applicant"/>
+	</relations>
+</entity-relation-data>

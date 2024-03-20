@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:46" record="24069" source="Espacenet">
+	<entities>
+		<entity ref="Patent24069" type="Patent">
+			<semanticIdentifier>brcris::980d6b523ab02629124a99af9e14e4e7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019026807A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019026807</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019026807A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191026807</semanticIdentifier>
+			<semanticIdentifier>original::102019026807</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019026807"/>
+			<field name="identifier.lattes" value="2688142079703461"/>
+			<field name="identifier.espacenet" value="102019026807"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produção e uso de adsorventes a base de grãos de canola na forma in natura, modificados quimicamente e carvões ativados para remoção de metais e agrotóxicos de compartimentos hídricos"/>
+			<field name="title.lattes" value="Produção e uso de adsorventes a base de grãos de canola na forma in natura, modificados quimicamente e carvões ativados para remoção de metais e agrotóxicos de compartimentos hídricos"/>
+			<field name="depositDate" value="2019-12-16"/>
+			<field name="publicationDate" value="2021-06-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AFFONSO CELSO GONCALVES JUNIOR"/>
+			<field name="inventor" value="ALESSANDRO LUCCA BRACCINI"/>
+			<field name="inventor" value="ANDREIA DA PAZ SCHILLER"/>
+			<field name="inventor" value="DANIEL SCHWANTES"/>
+			<field name="inventor" value="ELIO CONRADI JUNIOR"/>
+			<field name="inventor" value="JULIANO ZIMMERMANN"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="produção e uso de adsorventes a base de grãos de canola na forma in natura, modificados quimicamente e carvões ativados para remoção de metais e agrotóxicos de compartimentos hídricos. a patente se refere ao produto/processo de sorção e remoção de metais e agrotóxicos presentes de forma isolada ou em conjunto em corpos hídricos contaminados, por meio da utilização de adsorventes naturais, bem como modificados quimicamente, além de carvões ativados quimicamente, fisicamente e/ou termicamente provenientes da torta de grãos de canola (brassica napus l.) resultante do processo de extração de óleo dos grãos na agroindústria."/>
+			<field name="originatesFrom" value="76920329"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019026807"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019026807"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019026807"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191026807"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019026807"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16714" type="Person">
+			<semanticIdentifier>lattes::2688142079703461</semanticIdentifier>
+			<field name="identifier.lattes" value="2688142079703461"/>
+			<field name="name" value="Juliano Zimmermann"/>
+		</entity>
+		<entity ref="OrgUnit12959" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit12960" type="OrgUnit">
+			<semanticIdentifier>brcris::c3fe74a9576877dbb1158a323578f964</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24069" toEntityRef="Person16714" type="Inventor"/>
+		<relation fromEntityRef="Patent24069" toEntityRef="OrgUnit12959" type="Applicant"/>
+		<relation fromEntityRef="Patent24069" toEntityRef="OrgUnit12960" type="Applicant"/>
+	</relations>
+</entity-relation-data>

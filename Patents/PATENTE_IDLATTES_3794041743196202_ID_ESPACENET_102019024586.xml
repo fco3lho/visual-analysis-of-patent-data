@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:04" record="16184" source="Espacenet">
+	<entities>
+		<entity ref="Patent16184" type="Patent">
+			<semanticIdentifier>brcris::8efe6b1779f8861a9335c3c802a01819</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019024586A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019024586</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019024586A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191024586</semanticIdentifier>
+			<semanticIdentifier>original::102019024586</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019024586"/>
+			<field name="identifier.lattes" value="3794041743196202"/>
+			<field name="identifier.espacenet" value="102019024586"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para estimar o perfil de dormentes de uma ponte sem lastro"/>
+			<field name="title.lattes" value="MÉTODO PARA ESTIMAR O PERFIL DE DORMENTES DE UMA PONTE SEM LASTRO"/>
+			<field name="depositDate" value="2019-11-22"/>
+			<field name="publicationDate" value="2021-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE STANZANI FRANCA"/>
+			<field name="inventor" value="FABRICIO BORTOLINI DE SA"/>
+			<field name="inventor" value="FLAVIO GARCIA PEREIRA"/>
+			<field name="inventor" value="JORGE RUAN ZEFERINO CONTI"/>
+			<field name="inventor" value="MARIANA RAMPINELLI FERNANDES"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO ESPIRITO SANTO - IFES"/>
+			<field name="applicant" value="VALE S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B61K9/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01B11/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para estimar o perfil de dormentes de uma ponte sem lastro. a presente invenção revela um método para estimar o perfil de dormentes em uma ponte sem lastro utilizando uma plataforma móvel (10) que compreende sensores laser (12, 12?), encoders (15) e outros elementos para a captura dos dados. através dos dados obtidos pelos lasers e encoders (15), é gerada uma nuvem de dados e, posteriormente, são realizados uma filtragem e o isolamento dos componentes de interesse da ponte sem lastro. após a filtragem e isolamento dos pontos de interesse, é gerada uma nova nuvem de dados, e através dessa nuvem de dados é gerada uma imagem binária para identificar as longarinas, contraventamentos, dormentes e outros elementos, permitindo assim o dimensionamento dos dormentes e os entalhes produzidos na sua superfície. o método da presente invenção obtém modelos tridimensionais dos elementos da ponte, além de estimar os cortes nos novos dormentes que serão instalados na ponte."/>
+			<field name="originatesFrom" value="76726227"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019024586"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019024586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019024586"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191024586"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019024586"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11225" type="Person">
+			<semanticIdentifier>lattes::3794041743196202</semanticIdentifier>
+			<field name="identifier.lattes" value="3794041743196202"/>
+			<field name="name" value="Flávio Garcia Pereira"/>
+		</entity>
+		<entity ref="OrgUnit8792" type="OrgUnit">
+			<semanticIdentifier>brcris::0a5f7a62fc1572bdfc704e5120497e2b</semanticIdentifier>
+			<field name="name" value="VALE S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16184" toEntityRef="Person11225" type="Inventor"/>
+		<relation fromEntityRef="Patent16184" toEntityRef="OrgUnit8792" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:21" record="35739" source="Espacenet">
+	<entities>
+		<entity ref="Patent35739" type="Patent">
+			<semanticIdentifier>brcris::af271371c6ecbac10819331aef9bb49f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400091A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0400091</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400091A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI00091</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0400091-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0400091"/>
+			<field name="identifier.lattes" value="2771856898735617"/>
+			<field name="identifier.espacenet" value="PI0400091"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo e sistema para medição passiva de transdutores remotos via acoplamento indutivo"/>
+			<field name="title.lattes" value="Processo para Medição Passiva de Transdutores Remotos via Acoplamento Indutivo"/>
+			<field name="depositDate" value="2004-03-22"/>
+			<field name="publicationDate" value="2006-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCOS SANTOS HARA"/>
+			<field name="inventor" value="PAULO JOSE ABATTI"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01D5/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO E SISTEMA PARA MEDIçãO PASSIVA DE TRANSDUTORES REMOTOS VIA ACOPLAMENTO INDUTIVO&quot;. Um processo e um sistema para medição de transdutores remotos acoplados magneticamente a uma unidade de leitura são apresentados. O processo utiliza-se de medições de fase, através de um sistema para excitação e leitura (7), da impedância de entrada de um circuito com característica de fase conhecida (3) acoplado a uma unidade remota ressonante ou não (6) que inclui um ou mais transdutores, que podem ser indutivos, resistivos ou capacitivos. Com a medição de dois ou mais valores de fase em duas diferentes freqüências, o processo proposto possibilita a determinação do valor do transdutor e, portanto, a medição de parâmetros físicos que se deseje monitorar. A medição é possível pelo fato de que variações nos valores dos transdutores, de qualquer uma das naturezas acima citadas, nas unidades sensoras (6) incorrem em variações na fase da impedância do circuito de leitura (3) por estarem estes magneticamente acoplados."/>
+			<field name="originatesFrom" value="36037065"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400091"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0400091"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400091"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI00091"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0400091-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24609" type="Person">
+			<semanticIdentifier>lattes::2771856898735617</semanticIdentifier>
+			<field name="identifier.lattes" value="2771856898735617"/>
+			<field name="name" value="Paulo José Abatti"/>
+		</entity>
+		<entity ref="OrgUnit19308" type="OrgUnit">
+			<semanticIdentifier>brcris::3b3ad337e4052323bc07effe0e151610</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35739" toEntityRef="Person24609" type="Inventor"/>
+		<relation fromEntityRef="Patent35739" toEntityRef="OrgUnit19308" type="Applicant"/>
+	</relations>
+</entity-relation-data>

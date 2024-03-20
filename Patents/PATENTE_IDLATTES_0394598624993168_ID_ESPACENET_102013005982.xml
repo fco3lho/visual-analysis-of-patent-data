@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:57" record="9569" source="Espacenet">
+	<entities>
+		<entity ref="Patent9569" type="Patent">
+			<semanticIdentifier>brcris::d1cb29428a00bd64e22e4ef91e57822e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005982A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013005982</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005982A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131005982</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 005982-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013005982"/>
+			<field name="identifier.lattes" value="0394598624993168"/>
+			<field name="identifier.espacenet" value="102013005982"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="ANTENA PARA TV DIGITAL"/>
+			<field name="title.lattes" value="ANTENA PARA TV DIGITAL"/>
+			<field name="depositDate" value="2013-03-13"/>
+			<field name="publicationDate" value="2015-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARISTON LEITE PEREIRA"/>
+			<field name="inventor" value="CRISTIANO AKAMINE"/>
+			<field name="inventor" value="GUIDO STOLFI"/>
+			<field name="inventor" value="GUNNAR BEDICKS JUNIOR"/>
+			<field name="applicant" value="INSTITUTO PRESBITERIANO MACKENZIE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01Q21/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ANTENA PARA TV DIGITAL. A antena em questão compreende uma base (10), metálica, definindo um alojamento interno (A); um elemento irradiante (20), em forma de haste (21), metálica, tendo um extremo básico (21a) a ser fixado, de modo eletricamente isolado, à base (10); e um cabo coaxial (C) para conectar a antena ao aparelho de TV e tendo uma malha e um fio central (F), respectiva e eletricamente conectados à base (10) e ao elemento irradiante (20), no interior do alojamento (A). A antena compreende ainda um circuito eletrônico (30) disposto no interior do alojamento (A) e possuindo uma entrada (31) conectada ao extremo básico (21a) da haste (21) e uma saída (32) conectada ao fio central (F) do cabo coaxial (C), dito circuito eletrônico (30) bloqueando a passagem de sinais em frequências indesejadas, do elemento irradiante (20) para o cabo coaxial (C)"/>
+			<field name="originatesFrom" value="51525221"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005982"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013005982"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005982"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131005982"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 005982-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2014266971"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US9553354"/>
+		</entity>
+		<entity ref="Person6572" type="Person">
+			<semanticIdentifier>lattes::0394598624993168</semanticIdentifier>
+			<field name="identifier.lattes" value="0394598624993168"/>
+			<field name="name" value="Cristiano Akamine"/>
+		</entity>
+		<entity ref="OrgUnit5189" type="OrgUnit">
+			<semanticIdentifier>brcris::3654acf40a79dcc52dcf35ae34d68909</semanticIdentifier>
+			<field name="name" value="INSTITUTO PRESBITERIANO MACKENZIE"/>
+		</entity>
+		<entity ref="Patent9570" type="Patent">
+			<semanticIdentifier>epodoc::US2014266971</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="51525221"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2014266971"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent9571" type="Patent">
+			<semanticIdentifier>epodoc::US9553354</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="51525221"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US9553354"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9569" toEntityRef="Person6572" type="Inventor"/>
+		<relation fromEntityRef="Patent9569" toEntityRef="OrgUnit5189" type="Applicant"/>
+	</relations>
+</entity-relation-data>

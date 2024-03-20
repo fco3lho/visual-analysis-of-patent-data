@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:51:50" record="27091" source="Espacenet">
+	<entities>
+		<entity ref="Patent27091" type="Patent">
+			<semanticIdentifier>brcris::0c67fe95bdfe147d0449286511a25495</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011318A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011318</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011318A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011318</semanticIdentifier>
+			<semanticIdentifier>original::102016011318</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011318"/>
+			<field name="identifier.lattes" value="7408984376493963"/>
+			<field name="identifier.espacenet" value="102016011318"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sequência de ácido nucleico, antígeno recombinante, kits de diagnóstico, e usos dos mesmos"/>
+			<field name="title.lattes" value="Sequência de ácido nucleico, antígeno recombinante, kits de diagnóstico, e usos dos mesmos"/>
+			<field name="depositDate" value="2016-05-18"/>
+			<field name="publicationDate" value="2017-12-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LENNON RAMOS PEREIRA"/>
+			<field name="inventor" value="LUIS CARLOS DE SOUZA FERREIRA"/>
+			<field name="inventor" value="ROBERT ANDREATA SANTOS"/>
+			<field name="inventor" value="RUBENS PRINCE DOS SANTOS ALVES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/33AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="33AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/569AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="569AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um antígeno recombinante derivado da proteína não estrutural 1 do zikv (deltan-ns1) capaz de diferenciar, de forma específica, anticorpos gerados após a infecção pelo zikv e diferenciá-los de anticorpos gerados após infecção com o vírus dengue (denv) ou outros flavivírus. adicionalmente, a presente invenção descreve a montagem de kits de diagnóstico sorológico para a detecção do zikv em diferentes plataformas tecnológicas de aplicação, bem como seu uso no diagnóstico diferencial de indivíduos infectados pelo zikv."/>
+			<field name="originatesFrom" value="60324612"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011318"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011318"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011318"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011318"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011318"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017197477"/>
+		</entity>
+		<entity ref="Person18762" type="Person">
+			<semanticIdentifier>lattes::7408984376493963</semanticIdentifier>
+			<field name="identifier.lattes" value="7408984376493963"/>
+			<field name="name" value="Luis Carlos de Souza Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit14703" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent27092" type="Patent">
+			<semanticIdentifier>epodoc::WO2017197477</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="60324612"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017197477"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27091" toEntityRef="Person18762" type="Inventor"/>
+		<relation fromEntityRef="Patent27091" toEntityRef="OrgUnit14703" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:22" record="18489" source="Espacenet">
+	<entities>
+		<entity ref="Patent18489" type="Patent">
+			<semanticIdentifier>brcris::2dd1ad9cdb825f5083fd4c98985aa852</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9001020U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9001020U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9001020U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1990MU01020U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 9001020-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9001020"/>
+			<field name="identifier.lattes" value="8850986817571748"/>
+			<field name="identifier.espacenet" value="MU9001020"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="máquina para extração de fibra de açaì"/>
+			<field name="title.lattes" value="MÁQUINA PARA EXTRAÇÃO DE FIBRA DE AÇAÍ"/>
+			<field name="depositDate" value="2010-01-18"/>
+			<field name="publicationDate" value="2012-01-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUSTAVO DA SILVA VIEIRA DE MELO"/>
+			<field name="inventor" value="LEOPOLDO PACHECO BASTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23D79/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="79"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D02J1/16AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MáQUINA PARA EXTRAçãO DE FIBRA DE AçAì. Compreendida por um reservatório vertical (1), suspenso por duas braçadeiras (9) ligadas a uma haste de sustentaçào (10), fechado em sua extremidade inferior e com abertura na extremidade superior que é fechada por uma tampa de encaixe bipartida (2) por meio de presilhas de pressão (8), dotado de um eixo (3) que possui dois pares de palhetas metálicas (5), concentricamente acopiado a uma polia (4), e esta acoplada, por meio de uma correia, a um motor elétrico, que realiza repetidas rotações até que as fibras, colocadas junto com os caroços no reservatório (1), através da abertura superior, sejam extraídas. O reservatório dispõe também de um disco de alumínio perfurado (6) posicionado em sua extremidade inferior que separa o pó, resultante do processo de extração, das fibras, e mantém o eixo (3) concentricamente posicionado em relação ao reservatório (1). A guia de abertura (7) por onde as fibras são retiradas, é reforçada por solda."/>
+			<field name="originatesFrom" value="45422513"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9001020"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9001020U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9001020"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1990MU01020U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 9001020-5"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU9001020Y"/>
+		</entity>
+		<entity ref="Person12821" type="Person">
+			<semanticIdentifier>lattes::8850986817571748</semanticIdentifier>
+			<field name="identifier.lattes" value="8850986817571748"/>
+			<field name="name" value="Gustavo da Silva Vieira de Melo"/>
+		</entity>
+		<entity ref="OrgUnit9991" type="OrgUnit">
+			<semanticIdentifier>brcris::cce0ccb766f695fc2ed9b3ca40d55423</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+		<entity ref="Patent18490" type="Patent">
+			<semanticIdentifier>epodoc::BRMU9001020Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="45422513"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9001020Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18489" toEntityRef="Person12821" type="Inventor"/>
+		<relation fromEntityRef="Patent18489" toEntityRef="OrgUnit9991" type="Applicant"/>
+	</relations>
+</entity-relation-data>

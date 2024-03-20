@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:12" record="18404" source="Espacenet">
+	<entities>
+		<entity ref="Patent18404" type="Patent">
+			<semanticIdentifier>brcris::67075d68194d8a43f2af846be84ff23c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023447A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014023447</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014023447A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141023447</semanticIdentifier>
+			<semanticIdentifier>original::102014023447</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014023447"/>
+			<field name="identifier.lattes" value="5281408494719329"/>
+			<field name="identifier.espacenet" value="102014023447"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="uso da levedura saccharomyces cerevisiae cepa ufmg 905 como promotor da redução de micotoxinas em grão"/>
+			<field name="title.lattes" value="Uso da levedura Saccharomyces cerevisae cepa UFMG 905 como promotor da redução de micotoxinas em grãos"/>
+			<field name="depositDate" value="2014-09-16"/>
+			<field name="publicationDate" value="2016-11-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS AUGUSTO ROSA"/>
+			<field name="inventor" value="FLAVIANO DOS SANTOS MARTINS"/>
+			<field name="inventor" value="GUILHERME PRADO"/>
+			<field name="inventor" value="JACQUES ROBERT NICOLI"/>
+			<field name="inventor" value="JOVITA EUGENIA GAZZINELLI CRUZ MADEIRA"/>
+			<field name="inventor" value="JULIANA FONSECA MOREIRA DA SILVA"/>
+			<field name="inventor" value="MARIZE SILVA DE OLIVEIRA"/>
+			<field name="inventor" value="RAPHAEL SANZIO PIMENTA"/>
+			<field name="applicant" value="FUNDACAO EZEQUIEL DIAS"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE TOCANTINS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23L3/3571AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="3571AI"/>
+			</field>
+			<field name="abstract.espacenet" value="uso da levedura saccharomyces cerevisiae cepa ufmg 905 como promotor da redução de micotoxinas em grãos descreve a aplicação da levedura para a conservação de grãos evitando a contaminação com micotoxinas. a tecnologia proposta se presta ao controle da produção de aflatoxinas por fungos em grãos, gerando benefícios para a saúde humana e animal e, dessa forma, este invento se refere ao setor técnico agro-industrial. essa levedura reduz a disseminação do fungo, através da redução da produção de esporos e metabólitos secundários produzidos pelo patógeno, em especial as aflatoxinas. estes microrganismos podem ser aplicados diretamente no substrato a ser protegido através de imersão ou aspersão. a formulação proposta apresenta duas funcionalidades, a redução da disseminação do patógeno e consequentemente a redução da contaminação por micotoxinas e o uso desta levedura como probiótico. além disso, a levedura apresenta longa viabilidade possibilitando a conservação dos grãos durante longo período de tempo."/>
+			<field name="originatesFrom" value="57197777"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023447"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014023447"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014023447"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141023447"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014023447"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12759" type="Person">
+			<semanticIdentifier>lattes::5281408494719329</semanticIdentifier>
+			<field name="identifier.lattes" value="5281408494719329"/>
+			<field name="name" value="Guilherme Prado"/>
+		</entity>
+		<entity ref="OrgUnit9945" type="OrgUnit">
+			<semanticIdentifier>brcris::aadbd5889f0d9f0c34ec2323c0a15104</semanticIdentifier>
+			<field name="name" value="FUNDACAO EZEQUIEL DIAS"/>
+		</entity>
+		<entity ref="OrgUnit9946" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18404" toEntityRef="Person12759" type="Inventor"/>
+		<relation fromEntityRef="Patent18404" toEntityRef="OrgUnit9945" type="Applicant"/>
+		<relation fromEntityRef="Patent18404" toEntityRef="OrgUnit9946" type="Applicant"/>
+	</relations>
+</entity-relation-data>

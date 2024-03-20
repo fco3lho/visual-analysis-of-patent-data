@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:26" record="16401" source="Espacenet">
+	<entities>
+		<entity ref="Patent16401" type="Patent">
+			<semanticIdentifier>brcris::8a088a16767ca8438a632b924e4d58a6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025102A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019025102</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019025102A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191025102</semanticIdentifier>
+			<semanticIdentifier>original::102019025102</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019025102"/>
+			<field name="identifier.lattes" value="8626107472806227"/>
+			<field name="identifier.espacenet" value="102019025102"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="obtenção de coagulante de leite a partir das sementes verdes de crotalaria stipularia (desv. 1814) (farbales: fabaceae)"/>
+			<field name="title.lattes" value="Obtenção de um novo coagulante de leite a partir das sementes verdes de Crotalaria stipularia (Desv. 1814) (Farbales: Fabaceae)"/>
+			<field name="depositDate" value="2019-11-28"/>
+			<field name="publicationDate" value="2021-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREA CARLA DE ALMEIDA BARROS"/>
+			<field name="inventor" value="ANTONIO THOMAS DA SILVA"/>
+			<field name="inventor" value="CAMILA PEREIRA DE LIMA CHICUTA"/>
+			<field name="inventor" value="CLAUDIO WILIAN VICTOR DOS SANTOS"/>
+			<field name="inventor" value="CLEDSON BARROS DE SOUZA"/>
+			<field name="inventor" value="FRANCIS SOARES GOMES"/>
+			<field name="inventor" value="HUGO JUAREZ VIEIRA PEREIRA"/>
+			<field name="inventor" value="JOSIEL SANTOS DO NASCIMENTO"/>
+			<field name="inventor" value="LUCIANO APARECIDO MEIRELES GRILLO"/>
+			<field name="inventor" value="RAPHAEL DE FARIAS TAVARES"/>
+			<field name="inventor" value="RUTH RUFINO DO NASCIMENTO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ALAGOAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23C19/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="obtenção de coagulante de leite a partir das sementes verdes de crotalaria stipularia (desv. 1814) (farbales: farbaceae). devido a fatores como a disponibilidade limitada, o alto custo do coalho, requisitos religiosos e, hábitos alimentares, alguns países tem influenciado a propagação de estudos biotecnológicos que visem identificar e disseminar a utilização de materiais alternativos destinados à produção de queijo. como ferramentas inovadoras, destacam-se a investigação de peptidases de origem vegetal para o emprego na coagulação do leite. a implementação deste tipo de material também imprime ao processo industrial uma maior produtividade, utilização de uma metodologia de baixo custo, assim como fácil extração e purificação do coagulante. desta forma, por intermédio desta invenção, foi possível objetivar a obtenção de um novo coagulante de leite a partir das sementes verdes de crotalaria stipularia (desv. 1814) (farbales: fabaceae). a metodologia de detecção da atividade coagulante, utilizando a solução do extrato enzimático, foi analisada pelo tempo necessário para coagular solução reconstituída de leite bovino em pó desnatado e, leite bovino integral pasteurizado, cujos resultados esboçaram elevada atividade coagulante frente às preparações lácteas, principalmente quando submetido a incubação a 50ºc. além disso, pode-se concluir que a metodologia de preparo do extrato foi extremamente efetiva em estabilizar as proteases e, que por sua vez, não provocara perturbações físico químicas na preparação do substrato."/>
+			<field name="originatesFrom" value="76741500"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025102"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019025102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019025102"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191025102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019025102"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11368" type="Person">
+			<semanticIdentifier>lattes::8626107472806227</semanticIdentifier>
+			<field name="identifier.lattes" value="8626107472806227"/>
+			<field name="name" value="Francis Soares Gomes"/>
+		</entity>
+		<entity ref="OrgUnit8910" type="OrgUnit">
+			<semanticIdentifier>brcris::7da810a4b15bbe1fe6be6e8254160456</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ALAGOAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16401" toEntityRef="Person11368" type="Inventor"/>
+		<relation fromEntityRef="Patent16401" toEntityRef="OrgUnit8910" type="Applicant"/>
+	</relations>
+</entity-relation-data>

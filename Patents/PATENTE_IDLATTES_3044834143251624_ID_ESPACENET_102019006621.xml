@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:20" record="6518" source="Espacenet">
+	<entities>
+		<entity ref="Patent6518" type="Patent">
+			<semanticIdentifier>brcris::570ff753415d8a99a6dc908348d3d3cb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006621A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019006621</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006621A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191006621</semanticIdentifier>
+			<semanticIdentifier>original::102019006621</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019006621"/>
+			<field name="identifier.lattes" value="3044834143251624"/>
+			<field name="identifier.espacenet" value="102019006621"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de purificação de lipases bacterianas"/>
+			<field name="title.lattes" value="PURIFICAÇÃO EM PASSO ÚNICO DA LIPASE PRODUZIDA PELA BACTÉRIA Burkholderia lata LBBIO-BL02 UTILIZANDO DEAE-CELULOSE"/>
+			<field name="depositDate" value="2019-04-01"/>
+			<field name="publicationDate" value="2020-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO HENRIQUE DE OLIVEIRA"/>
+			<field name="inventor" value="VALERIA MARTA GOMES DO NASCIMENTO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/22AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N9/20AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12R1/01AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AN"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um método de purificação de enzima lipase, produzida pela cepa selvagem de burkholderia lata lbbio-bl02. diferentemente das invenções apresentadas, permite produzir uma lipase purificada através de um protocolo que compreende um único passo em que a lipase é deixada em contato com a deae-celulose para ligação seletiva e posterior recuperação da enzima pura. a purificação em etapa única da lipase produzida pela bactéria ocorre através da adição da matriz de celulose a um extrato enzimático com tampão do sistema. o método de lavagem é seguido de centrifugação e recuperação da matriz de celulose e a enzima. os ensaios realizados com 3 lipases microbianas distintas produzidas por burkholderia lata lbbio-bl02, fusarium sp. (gfc) e botryosphaeria ribis demonstraram rendimentos superiores a 45% e banda única em eletroforese sds-page. desta maneira, a purificação simples apresentada neste método, com relativamente alta recuperação, é promissora para a aplicação em larga escala para purificação de lipases com custo reduzido."/>
+			<field name="originatesFrom" value="73034305"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006621"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019006621"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006621"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191006621"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019006621"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4343" type="Person">
+			<semanticIdentifier>lattes::3044834143251624</semanticIdentifier>
+			<field name="identifier.lattes" value="3044834143251624"/>
+			<field name="name" value="Bruno Henrique de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit3405" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6518" toEntityRef="Person4343" type="Inventor"/>
+		<relation fromEntityRef="Patent6518" toEntityRef="OrgUnit3405" type="Applicant"/>
+	</relations>
+</entity-relation-data>

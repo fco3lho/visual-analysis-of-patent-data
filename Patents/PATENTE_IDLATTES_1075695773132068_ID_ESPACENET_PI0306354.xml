@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:27:14" record="43345" source="Espacenet">
+	<entities>
+		<entity ref="Patent43345" type="Patent">
+			<semanticIdentifier>brcris::2b8ac30dcda801843a8062ab370b7583</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0306354A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0306354</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0306354A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2003PI06354</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0306354</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0306354"/>
+			<field name="identifier.lattes" value="1075695773132068"/>
+			<field name="identifier.espacenet" value="PI0306354"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.lattes" value="Máquina para produção de plástico (Rotoextruder)"/>
+			<field name="depositDate" value="2003-12-18"/>
+			<field name="publicationDate" value="2005-08-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUSTAVO VICENTE MAXIMO ANJOS"/>
+			<field name="inventor" value="THAIS HELENA DEMETRIO SYDENSTRICKER"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="originatesFrom" value="65351538"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0306354"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0306354"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0306354"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2003PI06354"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0306354"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29620" type="Person">
+			<semanticIdentifier>lattes::1075695773132068</semanticIdentifier>
+			<field name="identifier.lattes" value="1075695773132068"/>
+			<field name="name" value="Thais Helena Sydenstricker Flores-Sahagun"/>
+		</entity>
+		<entity ref="OrgUnit23237" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43345" toEntityRef="Person29620" type="Inventor"/>
+		<relation fromEntityRef="Patent43345" toEntityRef="OrgUnit23237" type="Applicant"/>
+	</relations>
+</entity-relation-data>

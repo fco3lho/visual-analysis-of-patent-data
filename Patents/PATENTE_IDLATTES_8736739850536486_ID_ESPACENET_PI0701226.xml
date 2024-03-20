@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:59" record="9045" source="Espacenet">
+	<entities>
+		<entity ref="Patent9045" type="Patent">
+			<semanticIdentifier>brcris::63a8bbb87572bb917a03aeac8fcc1957</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701226A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0701226</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701226A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI01226</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0701226-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0701226"/>
+			<field name="identifier.lattes" value="8736739850536486"/>
+			<field name="identifier.espacenet" value="PI0701226"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo para controle independente da potÊncia e comprimento de onda de diodo laser"/>
+			<field name="title.lattes" value="MÉTODO PARA CONTROLE INDEPENDENTE DA POTÊNCIA E COMPRIMENTO DE ONDA DE DIODO A LASER"/>
+			<field name="depositDate" value="2007-03-27"/>
+			<field name="publicationDate" value="2008-11-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO FLORIDIA"/>
+			<field name="inventor" value="FABIO DONATI SIMOES"/>
+			<field name="inventor" value="FABIO DONATI SIMOES"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01S5/0683AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="0683AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO PARA CONTROLE INDEPENDENTE DA POTÊNCIA E COMPRIMENTO DE ONDA DE DIODO LASER. A presente invenção tem por objetivo prover um método de ajuste simples que possibilite sintonizar lasers semicondutores em comprimento de onda e controlar suas potências em um tempo extremamente reduzido, utilizando módulos de laser DFB usuais, dispostos segundo o arranjo mais difundido, o que torna desnecessária a substituição, adaptação ou instalação de onerosos módulos adicionais. O método proposto contempla duas etapas: uma etapa de calibração, na qual é mapeada a correlação entre os comprimentos de onda À emitidos pelo diodo laser, e os correspondentes parâmetros de temperatura T e corrente de operação 1, e também a correlação entre a potência óptica de emissão P, e os correspondentes parâmetros de temperatura T e corrente de operação 1, sendo obtidas duas matrizes, das quais são extraídas as funções bidimensionais ~(T,I) e P(T,I) que retratam as correlações contídas nas respectivas matrizes; e uma etapa, de utilização, na qual as ditas funções bidimensionais À(T,I) e P(T,J) são matemáticamente convertidas nas funções inversas através de um algoritmo específico, resultando numa correlação invertida na qual o usuário entra com um par de valores desejados de potência Px e comprimento de onda Àx, e obtêm intantâneamente o valor da temperatura Tx e da corrente de operação Ix para os quais os módulos ATC e APC devem ser independentemente ajustados, para que o diodo laser DFB opere dentro dos valores de comprimento de onda Àx e potência óptica de emissão Px desejados."/>
+			<field name="originatesFrom" value="40527260"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701226"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0701226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701226"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI01226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0701226-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6168" type="Person">
+			<semanticIdentifier>lattes::8736739850536486</semanticIdentifier>
+			<field name="identifier.lattes" value="8736739850536486"/>
+			<field name="name" value="Claudio Floridia"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9045" toEntityRef="Person6168" type="Inventor"/>
+	</relations>
+</entity-relation-data>

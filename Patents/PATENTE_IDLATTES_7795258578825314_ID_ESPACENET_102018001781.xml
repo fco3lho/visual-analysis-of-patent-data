@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:38" record="10480" source="Espacenet">
+	<entities>
+		<entity ref="Patent10480" type="Patent">
+			<semanticIdentifier>brcris::5d1acd6251c40e3d7b548a58ee22e7aa</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018001781A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018001781</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018001781A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181001781</semanticIdentifier>
+			<semanticIdentifier>original::102018001781</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018001781"/>
+			<field name="identifier.lattes" value="7795258578825314"/>
+			<field name="identifier.espacenet" value="102018001781"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo e método de obtenção de matrizes para engenharia de tecidos do tecido cardiovascular"/>
+			<field name="title.lattes" value="Dispositivo e método de obtenção de matrizes para engenharia de tecido cardiovascular"/>
+			<field name="depositDate" value="2018-01-26"/>
+			<field name="publicationDate" value="2019-08-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALINE BRUNA DA SILVA"/>
+			<field name="inventor" value="DANIELLE MARRA DE FREITAS DA SILVA"/>
+			<field name="inventor" value="GUILHERME HOFFMAN DE CASTRO"/>
+			<field name="inventor" value="JULIANA JESSICA LOPES ROSA"/>
+			<field name="inventor" value="ROBERTA VIANA FERREIRA"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F2/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61L27/48AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61L27/56AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="56AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve os modelos, moldes e matrizes para a engenharia do tecido cardiovascular, particularmente estruturas responsáveis pela manutenção do fluxo unidirecional sanguíneo. as matrizes possuem uma estrutura tridimensional e são constituídas por materiais poliméricos e/ou compósitos biocompatíveis na forma de espumas, fibras e/ou membranas e apresentam morfologia, porosidade e tamanho de poros exigidos para crescimento e regeneração tecidual podendo ser aplicadas na engenharia do tecido cardiovascular para crescimento da estrutura tridimensional in vitro ou regeneração in vivo. essas matrizes são produzidas utilizando os moldes que são obtidos a partir dos modelos também descritos na presente invenção. a presente invenção também descreve o método de obtenção das matrizes, do modelo e o molde que consistem da combinação das técnicas de manufatura aditiva com técnicas de produção de scaffolds porosos e/ou fibrosos."/>
+			<field name="originatesFrom" value="67612957"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018001781"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018001781"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018001781"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181001781"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018001781"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7242" type="Person">
+			<semanticIdentifier>lattes::7795258578825314</semanticIdentifier>
+			<field name="identifier.lattes" value="7795258578825314"/>
+			<field name="name" value="Danielle Marra de Freitas Silva Azevedo"/>
+		</entity>
+		<entity ref="OrgUnit5774" type="OrgUnit">
+			<semanticIdentifier>brcris::b7b1e5fcfe75dddf6f30f7fc6c95201f</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10480" toEntityRef="Person7242" type="Inventor"/>
+		<relation fromEntityRef="Patent10480" toEntityRef="OrgUnit5774" type="Applicant"/>
+	</relations>
+</entity-relation-data>

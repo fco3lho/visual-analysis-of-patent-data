@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:29" record="19082" source="Espacenet">
+	<entities>
+		<entity ref="Patent19082" type="Patent">
+			<semanticIdentifier>brcris::4958f042fdc0e8b2ba6119c4b94c4c66</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305959A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0305959</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305959A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030305959</semanticIdentifier>
+			<semanticIdentifier>original::0305959-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0305959"/>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="identifier.espacenet" value="0305959"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de craqueamento catalìtico fluido com minimização da formação de coque em vasos separadores"/>
+			<field name="title.lattes" value="Processo de Minimização da Formação de Coque no Vaso Separador de Unidades de FCC"/>
+			<field name="depositDate" value="2003-12-30"/>
+			<field name="publicationDate" value="2005-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIA MARIA DE LACERDA ALVARENGA BAPTISTA"/>
+			<field name="inventor" value="EDUARDO CARDOSO DE MELO GUERRA"/>
+			<field name="inventor" value="HENRIQUE SOARES CERQUEIRA"/>
+			<field name="inventor" value="OSCAR RENE CHAMBERLAIN PRAVIA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10G11/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE CRAQUEAMENTO CATALìTICO FLUIDO COM MINIMIZAçãO DA FORMAçãO DE COQUE EM VASOS SEPARADORES&quot;. é descrito um processo de craqueamento catalítico fluido produzindo catalisador gasto e produtos craqueados compreendendo precursores de coque que formam depósitos de coque sobre superfícies sólidas, a minimização da formação de coque no vaso separador (5) de unidades de FCC sendo efetuada através do aumento da turbulência e temperatura, alcançada pela distribuição de um sólido aquecido no interior do vaso (5). Este sólido é de preferência o próprio catalisador de FCC gasto, reciclado na proporção entre 2 e 30% da vazão total de catalisador, do retificador (2) de catalisador para o vaso separador (5), a partir de um duto (6) entre a saída do retificador (2) e o vaso separador (5)."/>
+			<field name="originatesFrom" value="35044266"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305959"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0305959"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305959"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030305959"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0305959-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13248" type="Person">
+			<semanticIdentifier>lattes::3474494395008338</semanticIdentifier>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="name" value="Henrique Soares Cerqueira"/>
+		</entity>
+		<entity ref="OrgUnit10357" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19082" toEntityRef="Person13248" type="Inventor"/>
+		<relation fromEntityRef="Patent19082" toEntityRef="OrgUnit10357" type="Applicant"/>
+	</relations>
+</entity-relation-data>

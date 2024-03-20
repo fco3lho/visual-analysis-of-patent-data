@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:27" record="18541" source="Espacenet">
+	<entities>
+		<entity ref="Patent18541" type="Patent">
+			<semanticIdentifier>brcris::d89f93913309d38dcd89aa86d81d44fa</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005034A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013005034</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005034A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131005034</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013005034"/>
+			<field name="identifier.lattes" value="3306934413960137"/>
+			<field name="identifier.espacenet" value="102013005034"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de nanopartículas proteicas utilizando radiação ionizante"/>
+			<field name="title.lattes" value="Processo de Produção de Nanopartículas Proteicas utilizando radiação ionizante"/>
+			<field name="depositDate" value="2013-03-01"/>
+			<field name="publicationDate" value="2019-12-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADEMAR BENEVOLO LUGAO"/>
+			<field name="inventor" value="GUSTAVO HENRIQUE COSTA VARCA"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N13/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de produção de nanopartículas proteícas utilizando radiação ionizante a presente invenção tem como objetivo produzir nanopartículas à base de proteínas, reticuladas e esterilizadas de forma simultânea, por meio de um processo eficaz, visando o emprego como carreador de droga de baixa toxicidade, ou ainda, como nanopartícula bioativa. o emprego controlado da radiação, associado aos parâmetros físico-químicos adotados, ocasiona a reticulação de proteínas, preservando sua bioatividade, não ocorrendo degradação molecular e desnaturação proteica. o processo é iniciado através da solubilização da proteina em tampão e posterior adição cosolvente. depois de decorrido tempo para estabilização do sistema, a solução é, então, submetida à radiação ionizante na dose esterilizante e mantida sob-refrigeração durante o processo. o emprego da radiação não só permite a diminuição das etapas eventuais associadas à produgeo de sistemas nanoparticulados, como assegura a esterilização e síntese de nanopartículas simultaneamente. deste modo, o processo é simplificado, mais rápido e viabiliza a realização do procedimento em larga escala, sem a geração de resíduos tóxicos, nem a utilização de monômeros."/>
+			<field name="originatesFrom" value="68655172"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005034"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013005034"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005034"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131005034"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12851" type="Person">
+			<semanticIdentifier>lattes::3306934413960137</semanticIdentifier>
+			<field name="identifier.lattes" value="3306934413960137"/>
+			<field name="name" value="Gustavo Henrique Costa Varca"/>
+		</entity>
+		<entity ref="OrgUnit10012" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18541" toEntityRef="Person12851" type="Inventor"/>
+		<relation fromEntityRef="Patent18541" toEntityRef="OrgUnit10012" type="Applicant"/>
+	</relations>
+</entity-relation-data>

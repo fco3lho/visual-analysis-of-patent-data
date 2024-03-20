@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:39" record="28620" source="Espacenet">
+	<entities>
+		<entity ref="Patent28620" type="Patent">
+			<semanticIdentifier>brcris::0f1e0198cffc66df0b35c7dc4013e2ae</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705674A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705674</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705674A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05674</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705674-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705674"/>
+			<field name="identifier.lattes" value="2457494097826106"/>
+			<field name="identifier.espacenet" value="PI0705674"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="novos piretróides ativos"/>
+			<field name="title.lattes" value="NOVOS PIRETRÓIDES ATIVOS"/>
+			<field name="depositDate" value="2007-11-01"/>
+			<field name="publicationDate" value="2009-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELSON SANTIAGO DE ALVARENGA"/>
+			<field name="inventor" value="FLAVIANO OLIVEIRA SILVERIO"/>
+			<field name="inventor" value="MARCELO COUTINHO PICANCO"/>
+			<field name="inventor" value="MARCELO COUTINHO PICANCO"/>
+			<field name="inventor" value="SHAIENE COSTA MORENO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C69/743AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="69"/>
+				<field name="subgroup" value="743AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01N53/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="NOVOS PIRETRóIDES ATIVOS. Se refere a dez ésteres inseticidas inéditos caracterizados por compreender a estrutura geral do composto 3-(2-arilvinil)-2,2-dimetilciclopropanocarboxilato de metila, em que o grupo arila pode apresentar-se para-substituido por um átomo de halogênio (F, CI, Br) ou o grupo nitro (-NO~ 2~). Estes piretróides (incluindo seus isómeros puros e misturas) apresentaram atividade inseticida sobre algumas pragas-chave comuns no Brasil, como lagartas-praga de hortaliças (Tuta absoluta, Dia phania hyalinata e Ascia monuste orseis) e formigas-praga de gramados e jardins (Solenopsis saevissíma). Foi verificada a seletividade destes inseticidas em favor de organismos não-alvo como vespas predadoras (Protonectarina sylveirae), vespas polinizadoras e produtoras de mel (Tetragonisca angustula)."/>
+			<field name="originatesFrom" value="40775281"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705674"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705674"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705674"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05674"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705674-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19795" type="Person">
+			<semanticIdentifier>lattes::2457494097826106</semanticIdentifier>
+			<field name="identifier.lattes" value="2457494097826106"/>
+			<field name="name" value="Marcelo Coutinho Picanço"/>
+		</entity>
+		<entity ref="OrgUnit15463" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+		<entity ref="OrgUnit15464" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28620" toEntityRef="Person19795" type="Inventor"/>
+		<relation fromEntityRef="Patent28620" toEntityRef="OrgUnit15463" type="Applicant"/>
+		<relation fromEntityRef="Patent28620" toEntityRef="OrgUnit15464" type="Applicant"/>
+	</relations>
+</entity-relation-data>

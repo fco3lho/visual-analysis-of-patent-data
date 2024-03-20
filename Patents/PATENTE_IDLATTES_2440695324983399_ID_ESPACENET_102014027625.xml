@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:24:07" record="11209" source="Espacenet">
+	<entities>
+		<entity ref="Patent11209" type="Patent">
+			<semanticIdentifier>brcris::3a94406d4c346e49ec74f20305655ff9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027625A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014027625</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027625A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141027625</semanticIdentifier>
+			<semanticIdentifier>original::102014027625</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014027625"/>
+			<field name="identifier.lattes" value="2440695324983399"/>
+			<field name="identifier.espacenet" value="102014027625"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="arquitetura de circuito e método para processamento recursivo de dados acessados de memória sem penalidade de latência"/>
+			<field name="title.lattes" value="Arquitetura de Circuito e Método para Processamento Recursivo de Dados Acessados de Memória sem Penalidade de Latência"/>
+			<field name="depositDate" value="2014-11-05"/>
+			<field name="publicationDate" value="2016-06-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO UNIAS DE LUCENA"/>
+			<field name="inventor" value="DIEGO BRITO DE CARVALHO"/>
+			<field name="inventor" value="ERICO NUNES FERREIRA BASTOS"/>
+			<field name="inventor" value="GIULIANO FERRONATO"/>
+			<field name="inventor" value="LUIZ JUBERTO ROSSI DE JESUS"/>
+			<field name="inventor" value="MARCELO MARCOS POLIDORO"/>
+			<field name="inventor" value="RODOLFO SOARES CAPRONI"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F13/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G11C7/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="arquitetura de circuito e método para processamento recursivo de dados acessados de memória sem penalidade de latência, compreendendo um módulo de processamento recursivo, multiplexador, banco de registro temporário e módulo de controle. dito módulo de processamento realiza o tratamento de cada dado lido no endereço-x da rajada de leitura recebida, gerando o correspondente comando de reescrita do dado no mesmo endereço-x; dito banco de registro temporário replica o armazenamento de uma pequena quantidade dos dados mais recentes que foram ou estão sendo armazenados na memória e dito módulo de controle determina se o dado a ser lido pelo processamento deve vir pelo barramento de leitura da memória ou se deve ser recuperado do banco de registro local. cada dado recém e simultaneamente processado na memória e num banco de registradores local é tratado de maneira que se o endereço subsequente de leitura tiver sido atualizado recentemente, o dado será recuperado do banco de registadores local, ao invés de ser lido da memória."/>
+			<field name="originatesFrom" value="56090061"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027625"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014027625"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027625"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141027625"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014027625"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7810" type="Person">
+			<semanticIdentifier>lattes::2440695324983399</semanticIdentifier>
+			<field name="identifier.lattes" value="2440695324983399"/>
+			<field name="name" value="Diego Brito de Carvalho"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11209" toEntityRef="Person7810" type="Inventor"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:57" record="18795" source="Espacenet">
+	<entities>
+		<entity ref="Patent18795" type="Patent">
+			<semanticIdentifier>brcris::6c834f29d8599c475205eb909ab4eb10</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014021567A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014021567</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014021567A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141021567</semanticIdentifier>
+			<semanticIdentifier>original::102014021567</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014021567"/>
+			<field name="identifier.lattes" value="6948972964466686"/>
+			<field name="identifier.espacenet" value="102014021567"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="fotobiorreator tubular e vertical em polietileno de baixa densidade para cultivo de microalgas"/>
+			<field name="title.lattes" value="Fotobiorreator Tubular e Vertical em Polietileno de baixa densidade para o cultivo de microalgas"/>
+			<field name="depositDate" value="2014-08-29"/>
+			<field name="publicationDate" value="2017-01-31"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARMEM LUISA BARBOSA GUEDES"/>
+			<field name="inventor" value="DIVA DE SOUZA ANDRADE"/>
+			<field name="inventor" value="HELDER SILVA"/>
+			<field name="applicant" value="INSTITUTO AGRONOMICO DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12M3/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/89AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="89AN"/>
+			</field>
+			<field name="abstract.espacenet" value="fotobiorreator tubular e vertical em polietileno de baixa densidade (pebd) para cultivo de microalgas campo de aplicação: agropecuária, saúde, alimentos e produção de energia a presente invenção visa oferecer uma opção de fotobiorreator destinado para o cultivo de microalgas em sistema fechado, reduzindo assim a presença de contaminantes, de fácil instalação, economicamente viável porque é de baixo custo, buscando a produção de biomassa de microalga, bem como a extração de substâncias de interesse biotecnológico."/>
+			<field name="originatesFrom" value="57890244"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014021567"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014021567"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014021567"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141021567"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014021567"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13041" type="Person">
+			<semanticIdentifier>lattes::6948972964466686</semanticIdentifier>
+			<field name="identifier.lattes" value="6948972964466686"/>
+			<field name="name" value="Helder Rodrigues da Silva"/>
+		</entity>
+		<entity ref="OrgUnit10166" type="OrgUnit">
+			<semanticIdentifier>brcris::bb4d2e82f8869058e7cfaf7fcad3c909</semanticIdentifier>
+			<field name="name" value="INSTITUTO AGRONOMICO DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit10167" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18795" toEntityRef="Person13041" type="Inventor"/>
+		<relation fromEntityRef="Patent18795" toEntityRef="OrgUnit10166" type="Applicant"/>
+		<relation fromEntityRef="Patent18795" toEntityRef="OrgUnit10167" type="Applicant"/>
+	</relations>
+</entity-relation-data>

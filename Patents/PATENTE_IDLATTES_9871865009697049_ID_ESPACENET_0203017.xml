@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:10" record="8547" source="Espacenet">
+	<entities>
+		<entity ref="Patent8547" type="Patent">
+			<semanticIdentifier>brcris::d6ffd3fe0d4bbb1750749b2225adad57</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203017A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0203017</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0203017A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020203017</semanticIdentifier>
+			<semanticIdentifier>original::0203017-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0203017"/>
+			<field name="identifier.lattes" value="9871865009697049"/>
+			<field name="identifier.espacenet" value="0203017"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Reator eletroquìmico para eletrogeração de peróxido de hidrogênio"/>
+			<field name="title.lattes" value="Reator Eletroquímico para Eletrogeração de Peróxido de Hidrogênio"/>
+			<field name="depositDate" value="2002-07-26"/>
+			<field name="publicationDate" value="2004-06-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHRISTIANE DE ARRUDA RODRIGUES RAGNANI"/>
+			<field name="inventor" value="RODNEI BERTAZZOLI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C25B1/30AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;REATOR ELETROQUìMICO PARA ELETROGERAçãO DE PERóXIDO DE HIDROGêNIO&quot;. Este desenvolvimento refere-se a um equipamento (reator eletroquímico e/ou eletrolítico) destinado a produção de peróxido de hidrogênio a partir da redução do oxigênio dissolvido em solução. Este equipamento utiliza processos eletroquímicos e/ou eletrolíticos, através de células eletroquímicas elou eletrolíticas empregando catodos tridimensionais, metálicos ou carbonosos, tipo esponja. Duas configurações de reatores, denominadas de fluxo paralelo e fluxo transversal, foram avaliadas. A eficiência do reator eletroquímico e/ou eletrolítico desenvolvido foi verificada com relação à distância anodo/catodo, velocidade do fluido e a presença de promotores de turbulência, pelo monitoramento da concentração de peróxido de hidrogênio eletrogerada. Concentrações de H~ 2~O~ 2~ acima de 700 mg L^ -1^ foram obtidas após cinco horas de experimento na configuração de fluxo transversal otimizada, com uma eficiência de corrente de 85% e consumo energético de 4,5 kWh kg^ -1^."/>
+			<field name="originatesFrom" value="32398929"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203017"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0203017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0203017"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020203017"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0203017-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0203017"/>
+		</entity>
+		<entity ref="Person5828" type="Person">
+			<semanticIdentifier>lattes::9871865009697049</semanticIdentifier>
+			<field name="identifier.lattes" value="9871865009697049"/>
+			<field name="name" value="Christiane de Arruda Rodrigues"/>
+		</entity>
+		<entity ref="OrgUnit4606" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent8548" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0203017</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="32398929"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0203017"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8547" toEntityRef="Person5828" type="Inventor"/>
+		<relation fromEntityRef="Patent8547" toEntityRef="OrgUnit4606" type="Applicant"/>
+	</relations>
+</entity-relation-data>

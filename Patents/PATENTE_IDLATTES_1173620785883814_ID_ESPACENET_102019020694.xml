@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:25" record="17413" source="Espacenet">
+	<entities>
+		<entity ref="Patent17413" type="Patent">
+			<semanticIdentifier>brcris::dab52f38660c87f308061adb53ba2797</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020694A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019020694</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020694A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191020694</semanticIdentifier>
+			<semanticIdentifier>original::102019020694</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019020694"/>
+			<field name="identifier.lattes" value="1173620785883814"/>
+			<field name="identifier.espacenet" value="102019020694"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para detectar efeito corona e descargas superficiais em isoladores via emissão acústica"/>
+			<field name="title.lattes" value="Sistema para Detectar Efeito Corona e Descargas Superficiais em Isoladores via Emissão Acústica"/>
+			<field name="depositDate" value="2019-10-02"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO TEIXEIRA"/>
+			<field name="inventor" value="ERIK LEANDRO BONALDI"/>
+			<field name="inventor" value="GERMANO LAMBERT TORRES"/>
+			<field name="inventor" value="ISMAEL NORONHA"/>
+			<field name="inventor" value="LEVY ELY DE LACERDA DE OLIVEIRA"/>
+			<field name="inventor" value="MATEUS MENDES CAMPOS"/>
+			<field name="applicant" value="EXTREMOZ TRANSMISSORA DO NORDESTE - ETN S.A"/>
+			<field name="applicant" value="INSTITUTO AVANCADO DE TECNOLOGIA E INOVACAO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02H7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para detectar efeito corona e descargas superficiais em isoladores via emissão acústica. de acordo com a presente invenção, pertencente a área de eletrônica refere-se a um sistema composto por hardware, software de coleta, tratamento e análise de sinais que disponibiliza uma avaliação das condições operacionais de isoladores elétricos energizados e sugere a necessidade de substituí-los ou não antes que possam causar uma falha elétrica. o conjunto de algoritmos de medições e análises dos sinais acústicos coletados visa avaliar a ocorrência significativa de efeito corona e de descargas superficiais que levam à degradação o isolamento elétrico dos isoladores. o sistema permite a avaliação dos isoladores elétricos em operação usados em subestações de energia elétrica, redes de distribuição, linhas de subtransmissão e de transmissão, de modo confiável e seguro."/>
+			<field name="originatesFrom" value="75845191"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020694"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019020694"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020694"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191020694"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019020694"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12069" type="Person">
+			<semanticIdentifier>lattes::1173620785883814</semanticIdentifier>
+			<field name="identifier.lattes" value="1173620785883814"/>
+			<field name="name" value="Germano Lambert-Torres"/>
+		</entity>
+		<entity ref="OrgUnit9450" type="OrgUnit">
+			<semanticIdentifier>brcris::184c80a45fe316b695e5b8383380eee4</semanticIdentifier>
+			<field name="name" value="INSTITUTO AVANCADO DE TECNOLOGIA E INOVACAO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17413" toEntityRef="Person12069" type="Inventor"/>
+		<relation fromEntityRef="Patent17413" toEntityRef="OrgUnit9450" type="Applicant"/>
+	</relations>
+</entity-relation-data>

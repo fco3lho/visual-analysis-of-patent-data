@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:57" record="28368" source="Espacenet">
+	<entities>
+		<entity ref="Patent28368" type="Patent">
+			<semanticIdentifier>brcris::50d8a1ef91a49c1ba7b3ec4e8d71e8b8</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402236A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0402236</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0402236A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI02236</semanticIdentifier>
+			<semanticIdentifier>original::0402236-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0402236"/>
+			<field name="identifier.lattes" value="3251018336089975"/>
+			<field name="identifier.espacenet" value="PI0402236"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Depósito de cilindros"/>
+			<field name="title.lattes" value="Depósito de cilindros"/>
+			<field name="depositDate" value="2004-05-24"/>
+			<field name="publicationDate" value="2006-01-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABNER PAULO ASSUNCAO"/>
+			<field name="inventor" value="ANTONIO LAGE DA SILVA"/>
+			<field name="inventor" value="CELIO DA CONCEICAO FERREIRA"/>
+			<field name="inventor" value="MARA MOREIRA BENEVIDES"/>
+			<field name="inventor" value="MARCOS ADAIR ALVES"/>
+			<field name="inventor" value="MARCUS VINICIUS PEREIRA MARTINS"/>
+			<field name="applicant" value="COMPANHIA VALE DO RIO DOCE"/>
+			<field name="applicant" value="VALE S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F17C13/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="17"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;DEPóSITO DE CILINDROS&quot;. Compreendido por uma plataforma principal (1) montada sobre as bases ou pés de apoio (2, 2a), cada uma destas estendendo-se verticalmente de modo a definir um pilar cilíndrico (3) provido em sua extremidade superior de uma armação (4) que, junto com o seu par análogo, sustenta um telhado (5), sendo que cada pilar de sustentação (3) possui em torno de si uma plataforma giratória (11) de movimento rotatório livre, a qual é compreendida por, dois planos circulares, superior (12) e inferior (13), paralelamente alinhados entre si e interligados por meio de uma estrutura tubular (14); sendo que o plano superior (12) é e provido de hastes (12a) que se projetam radialmente, ditas hastes. (12a) sendo interligadas entre si por uma parede laminar (12b) com borda frontal arqueada, definindo entre cada haste (12a) um nicho para receber um cilindro (20, 20a) a ser armazenado; sendo que o plano inferior (13) dessa plataforma (11) é definido por um declive voltado para o centro; sendo que na mesma altura do plano inferior (13) se encontra a plataforma principal fixa (1) suportada em seu plano horizontal pela porção inferior das duas bases de apoio (2, 2a); sendo que esta plataforma principal (1) inclui ainda uma plataforma de elevação (14) formada por uma placa horizontal verticalmente guiada por calhas verticais (15) fixadas ortogonalmente ao plano da plataforma principal (1), sendo o movimento vertical desta plataforma (14) executado por ação de uma unidade motora (17) que por sua vez é controlada por um painel de controle (18) acionado seletivamente pelo operador responsável."/>
+			<field name="originatesFrom" value="35539083"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402236"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0402236"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0402236"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI02236"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0402236-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19595" type="Person">
+			<semanticIdentifier>lattes::3251018336089975</semanticIdentifier>
+			<field name="identifier.lattes" value="3251018336089975"/>
+			<field name="name" value="Mara Benevides"/>
+		</entity>
+		<entity ref="OrgUnit15282" type="OrgUnit">
+			<semanticIdentifier>brcris::6fd3c47d876ced8ce3eab4ad31be37d0</semanticIdentifier>
+			<field name="name" value="COMPANHIA VALE DO RIO DOCE"/>
+		</entity>
+		<entity ref="OrgUnit15283" type="OrgUnit">
+			<semanticIdentifier>brcris::0a5f7a62fc1572bdfc704e5120497e2b</semanticIdentifier>
+			<field name="name" value="VALE S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28368" toEntityRef="Person19595" type="Inventor"/>
+		<relation fromEntityRef="Patent28368" toEntityRef="OrgUnit15282" type="Applicant"/>
+		<relation fromEntityRef="Patent28368" toEntityRef="OrgUnit15283" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:32" record="16903" source="Espacenet">
+	<entities>
+		<entity ref="Patent16903" type="Patent">
+			<semanticIdentifier>brcris::f7cc63fb278fc10d980a03f1f64cdc2e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014012489A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014012489</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014012489A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141012489</semanticIdentifier>
+			<semanticIdentifier>original::102014012489</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014012489"/>
+			<field name="identifier.lattes" value="0673627615524075"/>
+			<field name="identifier.espacenet" value="102014012489"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aplicação do sabugo do milho pré-tratado no processo de minimização do teor de óleo e graxas da água produzida"/>
+			<field name="title.lattes" value="APLICAÇÃO DO SABUGO DO MILHO PRÉ-TRATADO NO PROCESSO DE MINIMIZAÇÃO DO TEOR DE ÓLEO E GRAXAS DA ÁGUA PRODUZIDA"/>
+			<field name="depositDate" value="2014-05-23"/>
+			<field name="publicationDate" value="2016-04-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL PEREIRA DA SILVA"/>
+			<field name="inventor" value="DENISE SANTOS RUZENE"/>
+			<field name="inventor" value="ELIANE BEZERRA CAVALCANTI"/>
+			<field name="inventor" value="FABIANE SANTOS SERPA"/>
+			<field name="inventor" value="FILIPE SMITH BUARQUE"/>
+			<field name="inventor" value="GABRIEL FRANCISCO DA SILVA"/>
+			<field name="inventor" value="OSIRIS ASHTON VITAL BRAZIL"/>
+			<field name="inventor" value="ROBERTO OLIVEIRA MACEDO JUNIOR"/>
+			<field name="inventor" value="WENDELL KLISMANN SANTANA CAMPOS"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA E PESQUISA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J20/32AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F101/32AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="32AN"/>
+			</field>
+			<field name="abstract.espacenet" value="ÿþr"/>
+			<field name="originatesFrom" value="55633942"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014012489"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014012489"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014012489"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141012489"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014012489"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11753" type="Person">
+			<semanticIdentifier>lattes::0673627615524075</semanticIdentifier>
+			<field name="identifier.lattes" value="0673627615524075"/>
+			<field name="name" value="Gabriel Francisco da Silva"/>
+		</entity>
+		<entity ref="OrgUnit9201" type="OrgUnit">
+			<semanticIdentifier>brcris::694cdc95253ffdadf7f411af652d52db</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE TECNOLOGIA E PESQUISA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16903" toEntityRef="Person11753" type="Inventor"/>
+		<relation fromEntityRef="Patent16903" toEntityRef="OrgUnit9201" type="Applicant"/>
+	</relations>
+</entity-relation-data>

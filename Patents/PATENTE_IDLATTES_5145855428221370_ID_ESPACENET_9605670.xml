@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:42" record="20547" source="Espacenet">
+	<entities>
+		<entity ref="Patent20547" type="Patent">
+			<semanticIdentifier>brcris::0d36f7edce2d02872ef2e0a490bab8b2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9605670A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9605670</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9605670A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19969605670</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9605670"/>
+			<field name="identifier.lattes" value="5145855428221370"/>
+			<field name="identifier.espacenet" value="9605670"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de hidrodimerizaçao de dienos"/>
+			<field name="title.lattes" value="Processo de Dimerização de Dienos"/>
+			<field name="depositDate" value="1996-11-22"/>
+			<field name="publicationDate" value="1998-08-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EINLOFT SANDRA MARA OLIVEIRA"/>
+			<field name="inventor" value="JAIRTON DUPONT"/>
+			<field name="inventor" value="JEANE ESTELA DE LIMA DULLIUS"/>
+			<field name="inventor" value="PAULO ANSELMO ZIANI SUAREZ"/>
+			<field name="inventor" value="SOUZA ROBERTO FERNANDO DE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C6/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C11/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="originatesFrom" value="4065780"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9605670"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9605670"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9605670"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19969605670"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14253" type="Person">
+			<semanticIdentifier>lattes::5145855428221370</semanticIdentifier>
+			<field name="identifier.lattes" value="5145855428221370"/>
+			<field name="name" value="Jairton Dupont"/>
+		</entity>
+		<entity ref="OrgUnit11158" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20547" toEntityRef="Person14253" type="Inventor"/>
+		<relation fromEntityRef="Patent20547" toEntityRef="OrgUnit11158" type="Applicant"/>
+	</relations>
+</entity-relation-data>

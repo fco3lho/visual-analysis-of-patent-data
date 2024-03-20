@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:56" record="26330" source="Espacenet">
+	<entities>
+		<entity ref="Patent26330" type="Patent">
+			<semanticIdentifier>brcris::bebbe8cbc2d4718fd9eac721cef41839</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017025569A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017025569</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017025569A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171025569</semanticIdentifier>
+			<semanticIdentifier>original::102017025569</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017025569"/>
+			<field name="identifier.lattes" value="9163664709948387"/>
+			<field name="identifier.espacenet" value="102017025569"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo híbrido de controle da vazão e temperatura da água"/>
+			<field name="title.lattes" value="DISPOSITIVO HÍBRIDO DE CONTROLE DA VAZÃO E TEMPERATURA DA ÁGUA"/>
+			<field name="depositDate" value="2017-11-28"/>
+			<field name="publicationDate" value="2019-06-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUILHERME HENRIQUE ROSA"/>
+			<field name="inventor" value="LUCAS FERREIRA DE FARIA"/>
+			<field name="inventor" value="PAULO AZEVEDO SOAVE"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F24H9/20AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05D27/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção combina as características de um chuveiro elétrico com as características de um misturador de água ?fria? (temperatura ambiente) e água quente proveniente de um sistema de aquecimento de água. sendo o dispositivo controlado por um microprocessador, que tem como parâmetros as temperaturas e vazões das entradas, com o objetivo de manter as saídas do dispositivo (temperatura e vazão) constantes, sendo esses os parâmetros solicitados pelo usuário. esse dispositivo é utilizado em conjunto com sistemas aquecedores de água (solar, gás, etc.) (1), e instalado antes de duchas e torneiras convencionais (7), substituindo o uso de torneiras e chuveiros elétricos a fim de evitar que seja desperdiçada a água acumulada nas tubulações, além de propiciar um banho mais uniforme e com características pessoais, inicialmente aquecendo-a por meio de uma resistência elétrica a uma temperatura e vazão ajustada pelo usuário na interface homem máquina (8). de acordo com as leituras de vazão e temperatura das entradas de água quente (3) e fria (4) e suas relações com o valor ajustado para a saída por uma interface, são feitos cálculos por um microcontrolador e a resistência elétrica será alimentada proporcionalmente por um controlador de potência, ao mesmo tempo em que a temperatura e vazão serão controladas pela entrada de água quente e fria através de duas válvulas proporcionais instaladas nas entradas de cada tubulação."/>
+			<field name="originatesFrom" value="67294638"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017025569"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017025569"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017025569"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171025569"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017025569"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18229" type="Person">
+			<semanticIdentifier>lattes::9163664709948387</semanticIdentifier>
+			<field name="identifier.lattes" value="9163664709948387"/>
+			<field name="name" value="Lucas Ferreira de Faria"/>
+		</entity>
+		<entity ref="OrgUnit14256" type="OrgUnit">
+			<semanticIdentifier>brcris::b7b1e5fcfe75dddf6f30f7fc6c95201f</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26330" toEntityRef="Person18229" type="Inventor"/>
+		<relation fromEntityRef="Patent26330" toEntityRef="OrgUnit14256" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:57" record="6856" source="Espacenet">
+	<entities>
+		<entity ref="Patent6856" type="Patent">
+			<semanticIdentifier>brcris::eb3a383e4aeb996bd34d282c46a67128</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015011824A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015011824</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015011824A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151011824</semanticIdentifier>
+			<semanticIdentifier>original::102015011824</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015011824"/>
+			<field name="identifier.lattes" value="8038265276112768"/>
+			<field name="identifier.espacenet" value="102015011824"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema eletrônico para monitoramento transiente de poluentes gasosos com comunicação via rádio frequência"/>
+			<field name="title.lattes" value="Sistema eltrônico para monitoramento transiente de poluentes gasosos com comunicação via rádio frequencia"/>
+			<field name="depositDate" value="2015-05-22"/>
+			<field name="publicationDate" value="2017-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDY AVIMAEL SAAVEDRA MENDOZA"/>
+			<field name="inventor" value="CAMILO FREDDY MENDOZA MOREJON"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08B17/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04B1/38AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema eletrônico para monitoramento transiente de poluentes gasosos com comunicação vla rádio frequência&quot; patente de invenção que abrange um método/processo aperfeiçoado composto de dispositivos eletrônicos programáveis e software embarcado, cujo conjunto propicia a coleta de sinais analógicos e, a preparação, acondicionamento, operação, processamento e a transmissão de sinais digitais visando a medição e/ou monitoramento remoto, seletivo, transiente, contínuo, em tempo real, da concentração, em partes por milhão, na escala de 1 a 2500ppm, de poluentes gasosos, entre eles co2, co, h2s e s02, os quais podem ser provenientes de diversas fontes, cujo resultado pode ser visualizado na tela de um computador, numa distância mínima de soometros do ponto de instalação do sensor. os resultados são apresentados em formato de tabelas e gráficos dinâmicos que são atualizados em intervalos programáveis, com tempos iguais ou maiores que 1 segundo, especificamente o sistema compreende um ou mais sensores de gás, um sistema de hardware/software, com método processo diferenciado, para conversão de sinal de corrente elétrica analógica para sinal de voltagem digital e, uma unidade de processamento para coletar, preparar, operar, processar e transmitir o dito sinal para um computador onde acontece o tratamento, processamento e apresentação dos resultados dinâmicos"/>
+			<field name="originatesFrom" value="58722084"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015011824"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015011824"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015011824"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151011824"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015011824"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4591" type="Person">
+			<semanticIdentifier>lattes::8038265276112768</semanticIdentifier>
+			<field name="identifier.lattes" value="8038265276112768"/>
+			<field name="name" value="Camilo Freddy Mendoza Morejon"/>
+		</entity>
+		<entity ref="OrgUnit3629" type="OrgUnit">
+			<semanticIdentifier>brcris::d3cb61a8961c29747cd77f29a5d6d28b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6856" toEntityRef="Person4591" type="Inventor"/>
+		<relation fromEntityRef="Patent6856" toEntityRef="OrgUnit3629" type="Applicant"/>
+	</relations>
+</entity-relation-data>

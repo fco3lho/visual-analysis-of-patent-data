@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:48" record="2233" source="Espacenet">
+	<entities>
+		<entity ref="Patent2233" type="Patent">
+			<semanticIdentifier>brcris::8b189c0c3c114973ca090159bf6d316e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0203907B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0203907</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0203907A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2002PI03907</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0203907"/>
+			<field name="identifier.lattes" value="2761389246297718"/>
+			<field name="identifier.espacenet" value="PI0203907"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="armadilha para captura de mosquitos"/>
+			<field name="title.lattes" value="Armadilha para captura de mosquitos."/>
+			<field name="depositDate" value="2002-09-05"/>
+			<field name="publicationDate" value="2019-11-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO EDUARDO EIRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01M1/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;armadilha para captura de mosquitos&quot;. a presente invenção caracteriza-se por uma armadilha e um método de capturar mosquitos aedes aegypti, aedes albopictus, anopheles sp e culex sp para o seu monitoramento, detecção e controle."/>
+			<field name="originatesFrom" value="68652751"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0203907"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0203907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0203907"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2002PI03907"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1623" type="Person">
+			<semanticIdentifier>lattes::2761389246297718</semanticIdentifier>
+			<field name="identifier.lattes" value="2761389246297718"/>
+			<field name="name" value="Alvaro Eduardo Eiras"/>
+		</entity>
+		<entity ref="OrgUnit1219" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2233" toEntityRef="Person1623" type="Inventor"/>
+		<relation fromEntityRef="Patent2233" toEntityRef="OrgUnit1219" type="Applicant"/>
+	</relations>
+</entity-relation-data>

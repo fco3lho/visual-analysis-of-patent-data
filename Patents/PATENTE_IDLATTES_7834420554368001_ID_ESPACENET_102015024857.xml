@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:25" record="8673" source="Espacenet">
+	<entities>
+		<entity ref="Patent8673" type="Patent">
+			<semanticIdentifier>brcris::12c4decd8253266338c10e1f410639ba</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015024857A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015024857</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015024857A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151024857</semanticIdentifier>
+			<semanticIdentifier>original::102015024857</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015024857"/>
+			<field name="identifier.lattes" value="7834420554368001"/>
+			<field name="identifier.espacenet" value="102015024857"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para obtenção de alimentos adicionados de compostos orgânicos extraídos da cera de carnaúba"/>
+			<field name="title.lattes" value="Processo para obtenção de alimentos adicionados de compostos orgânicos extraídos da cera de carnauba"/>
+			<field name="depositDate" value="2015-09-28"/>
+			<field name="publicationDate" value="2017-12-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAISA ANDREA SILVA DE FREITAS"/>
+			<field name="inventor" value="ICARO GUSMAO PINTO VIEIRA"/>
+			<field name="inventor" value="MARIA ISABEL FLORINDO GUEDES"/>
+			<field name="inventor" value="MARIA ISABEL FLORINO GUEDES"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE ESTADUAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23P10/30AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se, de forma geral, a processo de obtenção de alimentos adicionados de compostos organicos extraidos da cera de carnauba (pco-c) e a utilidade do pco-c para o desenvolvimento de alimentos, especialmente com alegação de propriedades funcionais e ou de saúde relacionada com as doenças metabólicas como diabetes e dislipidemias."/>
+			<field name="originatesFrom" value="62566846"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015024857"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015024857"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015024857"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151024857"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015024857"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5931" type="Person">
+			<semanticIdentifier>lattes::7834420554368001</semanticIdentifier>
+			<field name="identifier.lattes" value="7834420554368001"/>
+			<field name="name" value="Claisa Andrea Freitas Rabelo"/>
+		</entity>
+		<entity ref="OrgUnit4676" type="OrgUnit">
+			<semanticIdentifier>brcris::a915eed8029e153fd76bce75c07c3fae</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE ESTADUAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8673" toEntityRef="Person5931" type="Inventor"/>
+		<relation fromEntityRef="Patent8673" toEntityRef="OrgUnit4676" type="Applicant"/>
+	</relations>
+</entity-relation-data>

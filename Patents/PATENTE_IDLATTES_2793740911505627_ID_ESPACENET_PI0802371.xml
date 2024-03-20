@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:53" record="92" source="Espacenet">
+	<entities>
+		<entity ref="Patent92" type="Patent">
+			<semanticIdentifier>brcris::7750aa9ddd4b19e1e7c8d1056070e238</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802371A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0802371</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802371A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI02371</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0802371-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0802371"/>
+			<field name="identifier.lattes" value="2793740911505627"/>
+			<field name="identifier.espacenet" value="PI0802371"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de bacteriocinas e processo de purificação de bacteriocinas"/>
+			<field name="title.lattes" value="Processo de Obtenção de Biomoléculas Bacterianas e Composições Compreendendo as Mesmas"/>
+			<field name="depositDate" value="2008-08-14"/>
+			<field name="publicationDate" value="2010-05-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADALBERTO PESSOA JR"/>
+			<field name="inventor" value="ADALBERTO PESSOA JUNIOR"/>
+			<field name="inventor" value="ANGELA FAUSTINO JOZALA"/>
+			<field name="inventor" value="PRISCILA GAVA MAZZOLA"/>
+			<field name="inventor" value="THEREZA CHRISTINA VESSONI PENNA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P21/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/46AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="46AN"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PRODUçãO DE BACTERIOCINAS E PROCESSO DE PURIFICAçãO DE BACTERIOCINAS. A presente invenção situa-se no campo dos processos de obtenção de bacteriocinas obtidas a partir do cultivo de bactérias e composições compreendendo as mesmas. Especificamente, o processo de obtenção da presente invenção é um processo que compreende um meio de cultivo contendo soro de leite e/ou residuos de soro de leite em pH &lt;6,0. Especificamente, a bacteriocina produzida é a nisina e a bactéria produtora da nisina é a Lactococcus lactis (ATOCI 1454). A presente invenção compreende ainda um método de purificação da bacteriocina produzida."/>
+			<field name="originatesFrom" value="42167770"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802371"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0802371"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802371"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI02371"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0802371-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person66" type="Person">
+			<semanticIdentifier>lattes::2793740911505627</semanticIdentifier>
+			<field name="identifier.lattes" value="2793740911505627"/>
+			<field name="name" value="Adalberto Pessoa Junior"/>
+		</entity>
+		<entity ref="OrgUnit50" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit51" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent92" toEntityRef="Person66" type="Inventor"/>
+		<relation fromEntityRef="Patent92" toEntityRef="OrgUnit50" type="Applicant"/>
+		<relation fromEntityRef="Patent92" toEntityRef="OrgUnit51" type="Applicant"/>
+	</relations>
+</entity-relation-data>

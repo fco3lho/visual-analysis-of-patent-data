@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:10:20" record="3137" source="Espacenet">
+	<entities>
+		<entity ref="Patent3137" type="Patent">
+			<semanticIdentifier>brcris::9dc1d1fbcbc8bbecb3904687366f9aa4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9102265U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9102265U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9102265U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1991MU02265U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 9102265-7 U2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9102265"/>
+			<field name="identifier.lattes" value="7473282580437099"/>
+			<field name="identifier.espacenet" value="MU9102265"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="EQUIPAMENTO PORTÁTIL A BASE DE LED, PARA O TRATAMENTO DE ONICOMICOSE"/>
+			<field name="title.lattes" value="Equipamento portátil a base de LED, para o tratamento de onicomicose"/>
+			<field name="depositDate" value="2011-12-05"/>
+			<field name="publicationDate" value="2014-03-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA PAULA DA SILVA"/>
+			<field name="inventor" value="CRISTINA KURACHI"/>
+			<field name="inventor" value="HELIO EDUARDO PIZELLI"/>
+			<field name="inventor" value="IGOR QUADROS FERNANDES"/>
+			<field name="inventor" value="NATALIA MAYUMI INADA"/>
+			<field name="inventor" value="VANDERLEI SALVADOR BAGNATO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="VANDERLEI SALVADOR BAGNATO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61N5/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="EQUIPAMENTO PORTÁTIL A BASE DE LED, PARA O TRATAMENTO DE ONICOMICOSE Refere-se a presente patente de modelo de utilidade em um equipamento, que utiliza uma fonte de alimentação (1) (de corrente (2) e de tensão (3)) e presilha(s) (6) de contato com cabeça articulada (7) emissora de luz do tipo LED (8), devidamente conformados, para tratar dedos de pés e mãos infectados com a onicomicose, utilizando a terapia fotodinâmica, sendo um equipamento portátil, de fácil uso e de baixo custo e que permite utilizar diferentes geometrias de iluminação."/>
+			<field name="originatesFrom" value="50241702"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9102265"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9102265U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9102265"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1991MU02265U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 9102265-7 U2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU9102265Y"/>
+		</entity>
+		<entity ref="Person2214" type="Person">
+			<semanticIdentifier>lattes::7473282580437099</semanticIdentifier>
+			<field name="identifier.lattes" value="7473282580437099"/>
+			<field name="name" value="Ana Paula da Silva"/>
+		</entity>
+		<entity ref="OrgUnit1791" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent3138" type="Patent">
+			<semanticIdentifier>epodoc::BRMU9102265Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="50241702"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9102265Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3137" toEntityRef="Person2214" type="Inventor"/>
+		<relation fromEntityRef="Patent3137" toEntityRef="OrgUnit1791" type="Applicant"/>
+	</relations>
+</entity-relation-data>

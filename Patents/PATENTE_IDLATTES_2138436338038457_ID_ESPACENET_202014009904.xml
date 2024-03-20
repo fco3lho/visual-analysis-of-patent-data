@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:00" record="16122" source="Espacenet">
+	<entities>
+		<entity ref="Patent16122" type="Patent">
+			<semanticIdentifier>brcris::d2e708d6f09e6c02af9a0e0d15448148</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014009904U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202014009904U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014009904U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20142009904U</semanticIdentifier>
+			<semanticIdentifier>original::202014009904</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202014009904"/>
+			<field name="identifier.lattes" value="2138436338038457"/>
+			<field name="identifier.espacenet" value="202014009904"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="máquina para perfuração horizontal de solo"/>
+			<field name="title.lattes" value="MÁQUINA PARA PERFURAÇÃO HORIZONTAL DE SOLO"/>
+			<field name="depositDate" value="2014-04-25"/>
+			<field name="publicationDate" value="2017-12-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANILO TOLEDO RIBEIRO DA SILVA"/>
+			<field name="inventor" value="FLAVIO CLARETH COLMAN"/>
+			<field name="inventor" value="GUILHERME GOVEA SIMOES"/>
+			<field name="inventor" value="LUCAS ORTUNHO MOREIRA DA SILVA"/>
+			<field name="inventor" value="LUIZA HELENA COSTA DUTRA SOUSA"/>
+			<field name="inventor" value="THIAGO AUGUSTO RODRIGUES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E02F5/16AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="máquina para perfuração horizontal de solo equipamento destinado a auxiliar na perfuração horizontal subterrânea de solos para a passagem de tubulações das redes de esgoto. essa máquina visa realizar o processo sem a destruição de amplas áreas de superfície, uma vez que consegue trabalhar com grandes distâncias de deslocamentos, reduzindo-se assim o número de valetas abertas para alocação da máquina. o equipamento foi projetado para trabalhar com solos argilosos e a ponteira responsável pela perfuração é o elemento continuamente solicitado, dimensionado de acordo com as tensões desenvolvidas no trabalho. para suavizar essas tensões durante o contato ponteira/solo foi elaborado um sistema para dosagem de água. a perfuração horizontal é realizada com o auxílio de um sistema hidráulico para aquisição da potência necessária na realização do serviço e pelo sistema de deslocamento dos eixos de perfuração. por fim, recomenda-se que a unidade hidráulica seja posicionada externamente ao ambiente de perfuração."/>
+			<field name="originatesFrom" value="62566690"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014009904"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202014009904U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014009904"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20142009904U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202014009904"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202014009904Y"/>
+		</entity>
+		<entity ref="Person11197" type="Person">
+			<semanticIdentifier>lattes::2138436338038457</semanticIdentifier>
+			<field name="identifier.lattes" value="2138436338038457"/>
+			<field name="name" value="Flávio Clareth Colman"/>
+		</entity>
+		<entity ref="OrgUnit8777" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="Patent16123" type="Patent">
+			<semanticIdentifier>epodoc::BR202014009904Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62566690"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202014009904Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16122" toEntityRef="Person11197" type="Inventor"/>
+		<relation fromEntityRef="Patent16122" toEntityRef="OrgUnit8777" type="Applicant"/>
+	</relations>
+</entity-relation-data>

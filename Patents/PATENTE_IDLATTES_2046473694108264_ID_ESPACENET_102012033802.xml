@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:24" record="8095" source="Espacenet">
+	<entities>
+		<entity ref="Patent8095" type="Patent">
+			<semanticIdentifier>brcris::9d386e8850fab8c7b1eef1b19107a264</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033802A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012033802</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033802A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121033802</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 033802-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012033802"/>
+			<field name="identifier.lattes" value="2046473694108264"/>
+			<field name="identifier.espacenet" value="102012033802"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="COMPOSIÇÃO FARMACÊUTICA ANTITUMORAL COMPREENDENDO ALCALÓIDE, PROCESSO PARA SUA OBTENÇÃO, E SEU USO"/>
+			<field name="title.lattes" value="NOVO ALCALOIDE ANTITUMORAL DE DUROIA MACROPHYLLA."/>
+			<field name="depositDate" value="2012-12-28"/>
+			<field name="publicationDate" value="2014-08-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CECILIA VERONICA NUNEZ"/>
+			<field name="inventor" value="MARNE CARVALHO DE VASCONCELLOS"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO AMAZONAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D221/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="221"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K31/4375AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="4375AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPOSIÇÃO FARMACÊUTICA ANTITUMORAL COMPREENDENDO ALCALOIDE, PROCESSO PARA SUA OBTENÇÃO,E SEU USO. A presente invenção fornece um alcaloide com atividade antitumoral, preferencialmente extraído de Duroia macrophylla, sendo mais cototóxico para células tumorais e menos citotóxico para célula normal. Também apresenta um processo para a obtenção do alcaloide, uma composição compreendendo o alcaloide e seu uso."/>
+			<field name="originatesFrom" value="51383496"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033802"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012033802"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033802"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121033802"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 033802-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5507" type="Person">
+			<semanticIdentifier>lattes::2046473694108264</semanticIdentifier>
+			<field name="identifier.lattes" value="2046473694108264"/>
+			<field name="name" value="Cecilia Veronica Nunez"/>
+		</entity>
+		<entity ref="OrgUnit4352" type="OrgUnit">
+			<semanticIdentifier>brcris::ec47f492ca0551bbf05c2477ecd20b73</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="OrgUnit4353" type="OrgUnit">
+			<semanticIdentifier>brcris::08b3724af83b7b5e9f58c1536fc1a03e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO AMAZONAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8095" toEntityRef="Person5507" type="Inventor"/>
+		<relation fromEntityRef="Patent8095" toEntityRef="OrgUnit4352" type="Applicant"/>
+		<relation fromEntityRef="Patent8095" toEntityRef="OrgUnit4353" type="Applicant"/>
+	</relations>
+</entity-relation-data>

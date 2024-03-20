@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:44" record="12" source="Espacenet">
+	<entities>
+		<entity ref="Patent12" type="Patent">
+			<semanticIdentifier>brcris::7dfe94effb96e230820f79a236f4e67d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805974A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0805974</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0805974A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI05974</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0805974-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0805974"/>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="identifier.espacenet" value="PI0805974"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema telemétrico dinámico de monitoramento e automacão de redes ferroviárias"/>
+			<field name="title.lattes" value="SISTEMA TELEMÉTRICO DINÂMICO DE MONITORAMENTO E AUTOMAÇÃO DE REDES FERROVIÁRIAS"/>
+			<field name="depositDate" value="2008-12-01"/>
+			<field name="publicationDate" value="2010-08-31"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL CAVALCANTE LIMA JR"/>
+			<field name="inventor" value="FRANCISCO ANTONIO BELO"/>
+			<field name="inventor" value="JERRY LEE ALVES DOS SANTOS"/>
+			<field name="inventor" value="ROMULO CESAR CARVALHO DE ARAUEJO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04H20/71AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="71AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08B3/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA TELEMéTRICO DINáMICO DE MONITORAMENTO E AUTOMAcãO DE REDES FERROVIáRIAS que utiliza a transmissao de sinais via radiofrequencia, de acordo com protocolo de comunicacao de padróo internacional, para fornecer dados pertinentes à operacao e manutencao do trens. O sistema é composto por vários sensores estrategicamente posicionados no trem(4), por unidades conversoras de sinais e transceptoras constituídas por uma estacao de rádio movel (1) localizados no trem (4) por uma ou mais, estacões rádio base(3) utilizando uma pluralidade de estacões de rádio repetidora(2), ou nóo, estrategicamente posicionados ao longo da via, que recebe estes sinais e transmite-os para uma ou mais centrais de monitoramento (6) permitindo avaliar posicao, velocidade e automatizar a operacao do dito trem (4). Essa avaliacao, por sua vez, pode auxiliar nas acões preventivas e corretivas de operacao e manutencóo e automacao dos veículos ferroviários, a fim de melhorar a qualidade dos servicos prestados."/>
+			<field name="originatesFrom" value="42651541"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805974"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0805974"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0805974"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI05974"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0805974-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8" type="Person">
+			<semanticIdentifier>lattes::0801399035139894</semanticIdentifier>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="name" value="Abel Cavalcante Lima Filho"/>
+		</entity>
+		<entity ref="OrgUnit3" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12" toEntityRef="Person8" type="Inventor"/>
+		<relation fromEntityRef="Patent12" toEntityRef="OrgUnit3" type="Applicant"/>
+	</relations>
+</entity-relation-data>

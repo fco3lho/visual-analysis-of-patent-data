@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:16" record="785" source="Espacenet">
+	<entities>
+		<entity ref="Patent785" type="Patent">
+			<semanticIdentifier>brcris::95445165d35d917c7c05629ed82b0b65</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013024002A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013024002</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013024002A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131024002</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 024002-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013024002"/>
+			<field name="identifier.lattes" value="2174051551046465"/>
+			<field name="identifier.espacenet" value="102013024002"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Processo de remoção do sulfeto de hidrogênio de uma corrente de gás natural por microemulsão contendo sequestrante"/>
+			<field name="title.lattes" value="Processo de remoção do sulfeto de hidrogênio de uma corrente de gás natural por microemulsão contendo sequestrante"/>
+			<field name="depositDate" value="2013-08-22"/>
+			<field name="publicationDate" value="2015-07-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AFONSO AVELINO DANTAS NETO"/>
+			<field name="inventor" value="EDUARDO LINS DE BARROS NETO"/>
+			<field name="inventor" value="LUIZ FERREIRA DA SILVA FILHO"/>
+			<field name="inventor" value="TEREZA NEUMA DE CASTRO DANTAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D53/52AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="52AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01D53/79AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="79AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo de remoção do sulfeto de hidrogênio de uma corrente de gás natural por microemulsão contendo sequestrante patente de invenção para o processo de remoção de sulfeto de hidrogênio de uma corrente de gás natural por microemulsão contendo sequestrante constituído das seguintes etapas: 1- o gás natural contendo h2s interage com a fase orgânica da microemulsão, favorecendo a transferência de massa entre as fases gasosa e líquida: 2 - a baixa tensão interfacial entre as gotículas de água e a fase orgânica da microemulsão faz com que ocorra um contato instantâneo entre o sulfeto de hidrogênio e a solução aquosa do sal sequestrante, com isto a reação entre eles ocorre de forma instantânea formando um floco; 3 - uma vez formado o floco do sulfeto do metal,oriundo do sal sequestrante e insolúvel em água, ele é solubilizado pela fase orgânica da microemulsão; no caso da utilização de um tensoativo anjônico ocorre a formação do quelato do metal, oriundo da interação do metal do sal sequestrante e o ânion do tensoativo. Que, por conseguinte, também interage com o sulfeto de hidrogênio, mas sem passar pela etapa de formação do floco; 4 - absorção do sulfeto de hidrogênio contido no gás natural e obtenção do gás natural tratado e isento de sulfeto de hidrogênio evitando a formação de compostos insolúveis que venham a se depositar em tubulações e equipamentos."/>
+			<field name="originatesFrom" value="53542110"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013024002"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013024002"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013024002"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131024002"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 024002-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person552" type="Person">
+			<semanticIdentifier>lattes::2174051551046465</semanticIdentifier>
+			<field name="identifier.lattes" value="2174051551046465"/>
+			<field name="name" value="Afonso Avelino Dantas Neto"/>
+		</entity>
+		<entity ref="OrgUnit476" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent785" toEntityRef="Person552" type="Inventor"/>
+		<relation fromEntityRef="Patent785" toEntityRef="OrgUnit476" type="Applicant"/>
+	</relations>
+</entity-relation-data>

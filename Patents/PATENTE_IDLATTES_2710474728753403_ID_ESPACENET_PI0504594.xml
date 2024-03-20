@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:51:30" record="26940" source="Espacenet">
+	<entities>
+		<entity ref="Patent26940" type="Patent">
+			<semanticIdentifier>brcris::ba6a12c961921f2f19cdfe95d4176adc</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504594A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504594</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504594A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04594</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504594-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504594"/>
+			<field name="identifier.lattes" value="2710474728753403"/>
+			<field name="identifier.espacenet" value="PI0504594"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de extração de carotenóides"/>
+			<field name="title.lattes" value="Process for Extraction of Carotenoids"/>
+			<field name="depositDate" value="2005-10-18"/>
+			<field name="publicationDate" value="2007-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DONATO ALEXANDRE GOMES ARANHA"/>
+			<field name="inventor" value="LUCIO CARDOZO JR"/>
+			<field name="inventor" value="OCTAVIO AUGUSTO CEVA ANTUNES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C403/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="403"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo de extração de carotenóides A Presente invenção está relacionada a novas técnicas de extração de carotenóides, preferencialmente beta-caroteno, a partir do resíduo ou &quot;bagaço&quot; proveniente do processamento da palma. Esta técnica está baseada na utilização de solventes orgânicos e inorgânicos, tais como o dióxido de carbono (CO2) e/ou hidrocarbonetos leves."/>
+			<field name="originatesFrom" value="37962861"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504594"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504594"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504594"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04594"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504594-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2007045057"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2007045057"/>
+		</entity>
+		<entity ref="Person18660" type="Person">
+			<semanticIdentifier>lattes::2710474728753403</semanticIdentifier>
+			<field name="identifier.lattes" value="2710474728753403"/>
+			<field name="name" value="Lúcio Cardozo Filho"/>
+		</entity>
+		<entity ref="OrgUnit14622" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+		<entity ref="Patent26941" type="Patent">
+			<semanticIdentifier>epodoc::WO2007045057</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="37962861"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2007045057"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent26942" type="Patent">
+			<semanticIdentifier>epodoc::WO2007045057</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="37962861"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2007045057"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26940" toEntityRef="Person18660" type="Inventor"/>
+		<relation fromEntityRef="Patent26940" toEntityRef="OrgUnit14622" type="Applicant"/>
+	</relations>
+</entity-relation-data>

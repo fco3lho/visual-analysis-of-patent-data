@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:59" record="34546" source="Espacenet">
+	<entities>
+		<entity ref="Patent34546" type="Patent">
+			<semanticIdentifier>brcris::3927023c4a3be0f0b63f5fb886de6d55</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011066A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016011066</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016011066A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161011066</semanticIdentifier>
+			<semanticIdentifier>original::102016011066</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016011066"/>
+			<field name="identifier.lattes" value="6929602880393685"/>
+			<field name="identifier.espacenet" value="102016011066"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de recuperação da lactose do leite"/>
+			<field name="title.lattes" value="Processo de Recuperação da Lactose do Leite"/>
+			<field name="depositDate" value="2016-05-16"/>
+			<field name="publicationDate" value="2017-11-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ACENINI LIMA BALIEIRO"/>
+			<field name="inventor" value="ALVARO SILVA LIMA"/>
+			<field name="inventor" value="CINTHIA LARISSA SANTANA LISBOA"/>
+			<field name="inventor" value="CLEIDE MARA FARIA SOARES"/>
+			<field name="inventor" value="EMILIA GABRIELA CEZAR DA SILVA"/>
+			<field name="inventor" value="GILDERLAN RODRIGUES OLIVEIRA"/>
+			<field name="inventor" value="LISIANE DOS SANTOS FREITAS"/>
+			<field name="inventor" value="ODELSIA LEONOR SANCHEZ DE ALSINA"/>
+			<field name="inventor" value="THAIZE SOUZA DOS SANTOS"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA E PESQUISA"/>
+			<field name="applicant" value="UNIVERSIDADE TIRADENTES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07H1/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C13K5/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="13"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="é descrito um processo de recuperação da lactose do leite, o processo compreende em fazer percolar, por uma coluna de adsorção/dessorção, onde a fase estacionária é constituída de uma matriz hidrofóbica constituída de um polímero molecularmente, uma corrente de leite com o intuito obter a lactose retida na fase estacionária. após a percolação, a lactose é eluida em fluxo contínuo da matriz hidrofóbica usando como eluente a água. a solução resultante da eluição é mantida sob agitação e temperatura constante. por fim, inicia-se o processo de recuperação através da cristalização obtida pela adição de etanol. os cristais de lactose obtidos são filtrados e secos a vácuo."/>
+			<field name="originatesFrom" value="62530050"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011066"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016011066"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016011066"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161011066"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016011066"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23786" type="Person">
+			<semanticIdentifier>lattes::6929602880393685</semanticIdentifier>
+			<field name="identifier.lattes" value="6929602880393685"/>
+			<field name="name" value="Odelsia Leonor Sanchez de Alsina"/>
+		</entity>
+		<entity ref="OrgUnit18672" type="OrgUnit">
+			<semanticIdentifier>brcris::694cdc95253ffdadf7f411af652d52db</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE TECNOLOGIA E PESQUISA"/>
+		</entity>
+		<entity ref="OrgUnit18673" type="OrgUnit">
+			<semanticIdentifier>brcris::5502f1577182ecbaafe17b47761b9a07</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TIRADENTES"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34546" toEntityRef="Person23786" type="Inventor"/>
+		<relation fromEntityRef="Patent34546" toEntityRef="OrgUnit18672" type="Applicant"/>
+		<relation fromEntityRef="Patent34546" toEntityRef="OrgUnit18673" type="Applicant"/>
+	</relations>
+</entity-relation-data>

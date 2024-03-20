@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:54" record="96" source="Espacenet">
+	<entities>
+		<entity ref="Patent96" type="Patent">
+			<semanticIdentifier>brcris::d33c21e499238e9d904af31f7f882a97</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015027885A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015027885</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015027885A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151027885</semanticIdentifier>
+			<semanticIdentifier>original::102015027885</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015027885"/>
+			<field name="identifier.lattes" value="7880499442397668"/>
+			<field name="identifier.espacenet" value="102015027885"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo e kit para imunodiagnóstico da criptococose utilizando peptídeos sintéticos imunorreativos"/>
+			<field name="title.lattes" value="Processo e Kit para imunodiagnóstico da criptococose utilizando peptídeos sintéticos imunorreativos"/>
+			<field name="depositDate" value="2015-10-23"/>
+			<field name="publicationDate" value="2020-10-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADALBERTO SOCORRO DA SILVA"/>
+			<field name="inventor" value="HELIDA MONTEIRO DE ANDRADE"/>
+			<field name="inventor" value="LILINE MARIA SOARES MARTINS"/>
+			<field name="inventor" value="MARILENE HENNING VAINSTEIN"/>
+			<field name="inventor" value="RAFAEL MELO SANTOS DE SERPA BRANDAO"/>
+			<field name="inventor" value="SEMIRAMIS JAMIL HADAD DO MONTE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS - UFMG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL - UFRGS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K4/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/531AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="531AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/569AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="569AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo e kit para imunodiagnóstico da criptococose utilizando peptídeos sintéticos imunorreativos. compreende-se a presente patente de invenção a um processo que descreve a utilização de peptídeos sintéticos imunorreativos para o desenvolvimento de um kit para teste imunodiagnóstico da criptococose, a partir da seleção de peptídeos sintéticos oriundos da identificação de proteínas imunorreativas de cryptococcus spp., por análises proteômicas, e de bioinformática, seguido da síntese de peptídeos e realização de imunoensaios, objetivando seu uso como teste imunodiagnóstico mais eficiente para criptococose humana, tendo em vista a alta especificidade e sensibilidade destes antígenos."/>
+			<field name="originatesFrom" value="73038558"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015027885"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015027885"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015027885"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151027885"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015027885"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person70" type="Person">
+			<semanticIdentifier>lattes::7880499442397668</semanticIdentifier>
+			<field name="identifier.lattes" value="7880499442397668"/>
+			<field name="name" value="Adalberto Socorro da Silva"/>
+		</entity>
+		<entity ref="OrgUnit56" type="OrgUnit">
+			<semanticIdentifier>brcris::4b6107aefedefcc50d6792ceb692d145</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent96" toEntityRef="Person70" type="Inventor"/>
+		<relation fromEntityRef="Patent96" toEntityRef="OrgUnit56" type="Applicant"/>
+	</relations>
+</entity-relation-data>

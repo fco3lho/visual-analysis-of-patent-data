@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:20" record="32664" source="Espacenet">
+	<entities>
+		<entity ref="Patent32664" type="Patent">
+			<semanticIdentifier>brcris::4d73d2b8159f273fd9b86a854ea428c0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502946A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0502946</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502946A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI02946</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0502946-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0502946"/>
+			<field name="identifier.lattes" value="0898521160762302"/>
+			<field name="identifier.espacenet" value="PI0502946"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="máquina centrifugadora de frutos de café"/>
+			<field name="title.lattes" value="Máquina centrifugadora de frutos de café"/>
+			<field name="depositDate" value="2005-07-20"/>
+			<field name="publicationDate" value="2007-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO DO CARMO FREITAS"/>
+			<field name="inventor" value="MAURI MARTINS TEIXEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23N12/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MáQUINA CENTRIFUGADORA DE FRUTOS DE CAFé&quot;. Consiste em uma máquina para retirar a água superficial de frutos de café por centrifugação. O café após ser beneficiado é transportado até a centrifugadora, esta possui um motor que faz um cilindro girar resultando em um movimento centrífugo em que os cafés encharcados são jogados contra a parede da peneira metálica cilíndrica proporcionando a máxima perda de água superficial, com isso eliminando ambiente propício à proliferação de fungos preservando a qualidade do café e efetivando uma secagem prévia que resulta em menos demora na secagem em terreiro."/>
+			<field name="originatesFrom" value="37856943"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502946"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0502946"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502946"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI02946"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0502946-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22460" type="Person">
+			<semanticIdentifier>lattes::0898521160762302</semanticIdentifier>
+			<field name="identifier.lattes" value="0898521160762302"/>
+			<field name="name" value="Mauri Martins Teixeira"/>
+		</entity>
+		<entity ref="OrgUnit17578" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32664" toEntityRef="Person22460" type="Inventor"/>
+		<relation fromEntityRef="Patent32664" toEntityRef="OrgUnit17578" type="Applicant"/>
+	</relations>
+</entity-relation-data>

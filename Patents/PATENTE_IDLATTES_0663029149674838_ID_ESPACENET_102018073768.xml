@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:18" record="32186" source="Espacenet">
+	<entities>
+		<entity ref="Patent32186" type="Patent">
+			<semanticIdentifier>brcris::f4d51a2803abf52f4450cf1aaa572f30</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018073768A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018073768</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018073768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181073768</semanticIdentifier>
+			<semanticIdentifier>original::102018073768</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018073768"/>
+			<field name="identifier.lattes" value="0663029149674838"/>
+			<field name="identifier.espacenet" value="102018073768"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para estimulação de poços de petróleo"/>
+			<field name="title.lattes" value="Processo para Estimulação de Poços de Petróleo"/>
+			<field name="depositDate" value="2018-11-19"/>
+			<field name="publicationDate" value="2020-06-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIO GERMINO FERREIRA DA SILVA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/27AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="27AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E21B43/24AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para estimulação de poços de petróleo. a presente invenção um processo para a estimulação de poços de petróleo para aumento da produção de óleo e/ou gás. o processo ora proposto realiza a utilização conjunta de ácido e canhoneio a laser, sequencial e/ou simultaneamente, aumentando a produtividade de poços perfurados para operações em poços de petróleo."/>
+			<field name="originatesFrom" value="70773456"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018073768"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018073768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018073768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181073768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018073768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2020102870"/>
+		</entity>
+		<entity ref="Person22118" type="Person">
+			<semanticIdentifier>lattes::0663029149674838</semanticIdentifier>
+			<field name="identifier.lattes" value="0663029149674838"/>
+			<field name="name" value="Mario Germino Ferreira da Silva"/>
+		</entity>
+		<entity ref="OrgUnit17315" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="Patent32187" type="Patent">
+			<semanticIdentifier>epodoc::WO2020102870</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="70773456"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2020102870"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32186" toEntityRef="Person22118" type="Inventor"/>
+		<relation fromEntityRef="Patent32186" toEntityRef="OrgUnit17315" type="Applicant"/>
+	</relations>
+</entity-relation-data>

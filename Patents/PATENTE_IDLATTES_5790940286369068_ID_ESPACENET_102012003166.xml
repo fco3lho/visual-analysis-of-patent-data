@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:18" record="40037" source="Espacenet">
+	<entities>
+		<entity ref="Patent40037" type="Patent">
+			<semanticIdentifier>brcris::fe02cfee4b405cb6590516cbbced86f7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012003166A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012003166</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012003166A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121003166</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 003166-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012003166"/>
+			<field name="identifier.lattes" value="5790940286369068"/>
+			<field name="identifier.espacenet" value="102012003166"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="DISPOSITIVOS SENSORES DE GÁS PRODUZIDOS COM FILMES AUTOMONTADOS DE NANOTUBOS DE CARBONO"/>
+			<field name="title.lattes" value="Dispositivos sensores de gás produzidos com filmes automontados de nanotubos de carbono"/>
+			<field name="depositDate" value="2012-02-13"/>
+			<field name="publicationDate" value="2013-10-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALDO JOSE GORGATTI ZARBIN"/>
+			<field name="inventor" value="CARLOS EDUARDO CAVA"/>
+			<field name="inventor" value="LUCIMARA STOLZ ROMAN"/>
+			<field name="inventor" value="RODRIGO VILLEGAS SALVATIERRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R27/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVOS SENSORES DE GÁS PRODUZIDOS COM FILMES AUTOMONTADOS DE NANOTUBOS DE CARBONO. Nanotubos de carbono apresentam variações em sua resistência elétrica ao entrarem em contato com alguns tipos de gases, possibilitando a identificação da presença destes. Entretanto, a intensidade da variação destes é de difícil detecção. Técnicas de formação e deposição de filmes nanoestruturados podem proporcionar melhoras significativas nas propriedades físicas destes filmes aprimorando a siua aplicabilidade. A construção de um dispositivo sensor de gás baseado em filmes nanoestruturados de nanotubos de carbobo, depositados pelo método de formação de filmes automontados em interfaces líquidas, se mostrou capaz de detectar a presença de gases de forma extremamente eficiente através do monitoramento da resistência elétrica do dispositivo."/>
+			<field name="originatesFrom" value="49357694"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012003166"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012003166"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012003166"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121003166"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 003166-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27260" type="Person">
+			<semanticIdentifier>lattes::5790940286369068</semanticIdentifier>
+			<field name="identifier.lattes" value="5790940286369068"/>
+			<field name="name" value="Rodrigo Villegas Salvatierra"/>
+		</entity>
+		<entity ref="OrgUnit21327" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40037" toEntityRef="Person27260" type="Inventor"/>
+		<relation fromEntityRef="Patent40037" toEntityRef="OrgUnit21327" type="Applicant"/>
+	</relations>
+</entity-relation-data>

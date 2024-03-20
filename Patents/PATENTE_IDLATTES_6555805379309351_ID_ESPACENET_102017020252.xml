@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:32:00" record="44415" source="Espacenet">
+	<entities>
+		<entity ref="Patent44415" type="Patent">
+			<semanticIdentifier>brcris::5b60c19f53bd4d8490ceaaec667fde64</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017020252A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017020252</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017020252A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171020252</semanticIdentifier>
+			<semanticIdentifier>original::102017020252</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017020252"/>
+			<field name="identifier.lattes" value="6555805379309351"/>
+			<field name="identifier.espacenet" value="102017020252"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador robusto com aprendizagem para saltos do estado do integrador"/>
+			<field name="title.lattes" value="Controlador Robusto com Aprendizagem para Saltos do Estado do Integrador"/>
+			<field name="depositDate" value="2017-09-21"/>
+			<field name="publicationDate" value="2019-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="IGNACIO EDUARDO JESUS RUBIO SCOLA"/>
+			<field name="inventor" value="MARIELLA MAIA QUADROS"/>
+			<field name="inventor" value="VALTER JUNIOR DE SOUZA LEITE"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B13/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o sistema e métodos do controlador robusto com aprendizagem para saltos do estado do integrador pode ser aplicado em processos industriais ou não, especialmente aqueles que possuem dinâmica lenta ou em que o sobressinal deve ser evitado sem prejuízo das características de tempo de subida, tempo de acomodação e rejeição à perturbações. as principais vantagens do sistema e métodos consistem na capacidade de atender às exigências de redução de custos e melhora da eficiência de controle de variáveis de processos mesmo que esses possuam atrasos de tempo, dinâmicas lentas ou restrições operacionais para sobressinais e incertezas nos parâmetros de seus modelos. essas vantagens são alcançadas pelo sistema e métodos propostos via a implementação do controlador robusto com aprendizagem para saltos do estado do integrador que permite reduzir ou eliminar a presença de sobressinal e ao mesmo tempo confere uma minimização tanto do tempo de subida quanto do tempo de estabilização da variável controlada, assegurando ainda rejeição a perturbações. além disso, a invenção do controlador robusto com aprendizagem para saltos do estado do integrador permite atingir excelentes desempenhos para a variável controlada mesmo quando o modelo do processo possui incertezas, assegurando matematicamente robustez ao processo controlado para as incertezas consideradas no modelo."/>
+			<field name="originatesFrom" value="67251287"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017020252"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017020252"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017020252"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171020252"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017020252"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30380" type="Person">
+			<semanticIdentifier>lattes::6555805379309351</semanticIdentifier>
+			<field name="identifier.lattes" value="6555805379309351"/>
+			<field name="name" value="Valter Júnior de Souza Leite"/>
+		</entity>
+		<entity ref="OrgUnit23830" type="OrgUnit">
+			<semanticIdentifier>brcris::b7b1e5fcfe75dddf6f30f7fc6c95201f</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44415" toEntityRef="Person30380" type="Inventor"/>
+		<relation fromEntityRef="Patent44415" toEntityRef="OrgUnit23830" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:00" record="40395" source="Espacenet">
+	<entities>
+		<entity ref="Patent40395" type="Patent">
+			<semanticIdentifier>brcris::747e50be19ef78ba63e769b22becd9f8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8802552A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8802552</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8802552A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19888802552</semanticIdentifier>
+			<semanticIdentifier>original::8802552</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8802552"/>
+			<field name="identifier.lattes" value="8429051786008312"/>
+			<field name="identifier.espacenet" value="8802552"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PROCESSO DE PRODUCAO DE TRICHODERMA PARA COLONIZACAO DE SOLO ESTERILIZADO VISANDO O CONTROLE DE FUNGOS QUE CAUSAM PODRIDOES DE RAIZES DE MACIEIRAS"/>
+			<field name="title.lattes" value="Processo de concessão de material ativo de Trichoderma para colonização de solo esterelizado visando o controle de fungos que causam o controle de raízes de macieiras"/>
+			<field name="depositDate" value="1988-05-25"/>
+			<field name="publicationDate" value="1989-08-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ROSA MARIA VALDEBENITO SANHUEZA"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N63/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N1/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="originatesFrom" value="4044810"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8802552"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8802552"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8802552"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19888802552"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8802552"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27543" type="Person">
+			<semanticIdentifier>lattes::8429051786008312</semanticIdentifier>
+			<field name="identifier.lattes" value="8429051786008312"/>
+			<field name="name" value="Rosa Maria Valdebenito Sanhueza"/>
+		</entity>
+		<entity ref="OrgUnit21517" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40395" toEntityRef="Person27543" type="Inventor"/>
+		<relation fromEntityRef="Patent40395" toEntityRef="OrgUnit21517" type="Applicant"/>
+	</relations>
+</entity-relation-data>

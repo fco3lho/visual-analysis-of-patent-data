@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:18:45" record="41261" source="Espacenet">
+	<entities>
+		<entity ref="Patent41261" type="Patent">
+			<semanticIdentifier>brcris::d885c3f9792d4bcd4ad486d6ee229b8a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004408A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017004408</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004408A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171004408</semanticIdentifier>
+			<semanticIdentifier>original::102017004408</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017004408"/>
+			<field name="identifier.lattes" value="9152560164641754"/>
+			<field name="identifier.espacenet" value="102017004408"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="controlador e método de desenergização de conversor fonte de tensão conectado à rede elétrica"/>
+			<field name="title.lattes" value="Controlador e Método de Desenergização de Conversor Fonte de Tensão Conectado à Rede Elétrica"/>
+			<field name="depositDate" value="2017-03-06"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GABRIEL AZEVEDO FOGLI"/>
+			<field name="inventor" value="PEDRO GOMES BARBOSA"/>
+			<field name="inventor" value="SAMUEL NEVES DUARTE"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA - UFJF"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02H7/125AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="125AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02M7/155AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="155AI"/>
+			</field>
+			<field name="abstract.espacenet" value="controlador e método de desenergização de conversor fonte de tensão conectado à rede elétrica a presente invenção refere-se à um controlador e método de desenergização (descarga) e energização (carga) do capacitor equivalente do barramento de corrente contínua de um conversor fonte de tensão (vsc) conectado à uma rede elétrica. o circuito de desenergização/energização de vsc é composto por dois interruptores do tipo scr (tiristores) conectados em antiparalelo ligados em um dos terminais do conversor a ser energizado/desenergizado. um interruptor tripolar, do tipo eletromecânico ou de estado sólido, formado por três interruptores monofásicos permite alimentar, de maneira independente, o circuito do controlador de energização/desenergização e duas fases do vsc. o ângulo de disparo dos scrs (tiristores) é usado para controlar a amplitude da corrente de descarga do capacitor do barramento cc. durante o processo de desenergização os interruptores autocomutados (igbts) são disparados em sincronismo com os scrs. a tensão do barramento de corrente contínua do conversor é reduzida a medida que o ângulo de disparo dos scrs (tiristores) do circuito de desenergização vai sendo diminuído. o método de controle do controlador de desenergização é baseado no modelo matemático do circuito equivalente formado pelos scrs e duas fases do vsc. além da modelagem matemática o referido método de controle engloba a solução da equação que modela a dinâmica da corrente no referido circuito de desenergização do conversor, a determinação dos ângulos de disparo dos scrs para regular o valor máximo (pico) da corrente de desenergização do conversor e a utilização de uma função matemática para aproximar a curva que relaciona a tensão do barramento de corrente contínua do conversor com o ângulo de disparo dos scrs (tiristores) do circuito de desenergização."/>
+			<field name="originatesFrom" value="64268718"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004408"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017004408"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004408"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171004408"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017004408"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28104" type="Person">
+			<semanticIdentifier>lattes::9152560164641754</semanticIdentifier>
+			<field name="identifier.lattes" value="9152560164641754"/>
+			<field name="name" value="Samuel Neves Duarte"/>
+		</entity>
+		<entity ref="OrgUnit21985" type="OrgUnit">
+			<semanticIdentifier>brcris::a4ccc994cb0e532d68677b719a097898</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41261" toEntityRef="Person28104" type="Inventor"/>
+		<relation fromEntityRef="Patent41261" toEntityRef="OrgUnit21985" type="Applicant"/>
+	</relations>
+</entity-relation-data>

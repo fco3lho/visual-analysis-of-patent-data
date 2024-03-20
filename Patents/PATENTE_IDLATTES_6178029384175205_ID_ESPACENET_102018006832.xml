@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:48" record="28780" source="Espacenet">
+	<entities>
+		<entity ref="Patent28780" type="Patent">
+			<semanticIdentifier>brcris::bfe03758eb2a39710acae2f395b30f22</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018006832A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018006832</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018006832A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181006832</semanticIdentifier>
+			<semanticIdentifier>original::102018006832</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018006832"/>
+			<field name="identifier.lattes" value="6178029384175205"/>
+			<field name="identifier.espacenet" value="102018006832"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para monitoramento online de máquinas elétricas via protocolo tcp/ip"/>
+			<field name="title.lattes" value="SISTEMA PARA MONITORAMENTO ONLINE DE MÁQUINAS ELÉTRICAS VIA PROTOCOLO TCP-IP"/>
+			<field name="depositDate" value="2018-04-04"/>
+			<field name="publicationDate" value="2019-10-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO GOEDTEL"/>
+			<field name="inventor" value="MARCELO FAVORETTO CASTOLDI"/>
+			<field name="inventor" value="MURILLO GARCIA GENTIL"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F11/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05B15/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F13/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G08B25/01AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido de patente de invenção refere-se a um sistema dedicado para o monitoramento de máquinas elétricas, cujas principais características são: a leitura dos sinais de tensão, corrente, temperatura e vibração da máquina, a conversão analógico/digital desses sinais em um microcontrolador e transmissão dos dados via protocolo tcp/ip. os sensores utilizados são: transformador de potencial e transformador de corrente; conectado aos sensores tem-se o condicionamento de sinais, cuja função é ajustar os níveis de tensão dos sensores compatíveis com o microcontrolador. o microcontrolador é responsável por aquisitar os dados de tensão, corrente, temperatura e vibração por meio do conversor a/d, armazená-los em sua memória interna e em seguida encapsulá-los. para realizar a comunicação com à internet o sistema utiliza um transmissor/receptor."/>
+			<field name="originatesFrom" value="68238474"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018006832"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018006832"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018006832"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181006832"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018006832"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19853" type="Person">
+			<semanticIdentifier>lattes::6178029384175205</semanticIdentifier>
+			<field name="identifier.lattes" value="6178029384175205"/>
+			<field name="name" value="Marcelo Favoretto Castoldi"/>
+		</entity>
+		<entity ref="OrgUnit15515" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28780" toEntityRef="Person19853" type="Inventor"/>
+		<relation fromEntityRef="Patent28780" toEntityRef="OrgUnit15515" type="Applicant"/>
+	</relations>
+</entity-relation-data>

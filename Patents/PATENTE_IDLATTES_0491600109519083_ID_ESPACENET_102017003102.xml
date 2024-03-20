@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:03" record="23693" source="Espacenet">
+	<entities>
+		<entity ref="Patent23693" type="Patent">
+			<semanticIdentifier>brcris::49b347573f298a6b1110e1c599d964cd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017003102A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017003102</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017003102A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171003102</semanticIdentifier>
+			<semanticIdentifier>original::102017003102</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017003102"/>
+			<field name="identifier.lattes" value="0491600109519083"/>
+			<field name="identifier.espacenet" value="102017003102"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema automático de análise hidrológica integrada para injeção de traçadores corantes"/>
+			<field name="title.lattes" value="NANO E MICROSSISTEMAS LIPOSSOMARES CONTENDO ÁCIDOS TRITERPÊNICOS (ÁCIDO BETULÍNICO E OLEANÓLICO) PARA APLICAÇÃO FARMACÉUTICA E COSMÉTICA"/>
+			<field name="depositDate" value="2017-02-16"/>
+			<field name="publicationDate" value="2018-09-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="PAULO FERNANDO PEREIRA PESSOA"/>
+			<field name="applicant" value="HIDROVIA HIDROGEOLOGIA E MEIO AMBIENTE LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q10/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06Q50/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema automático de análise hidrológica integrada para injeção de traçadores corantes. patente de invenção, que visa permitir, através da integração das inteligências computacional e eletrônica, a compatibilização do conhecimento acerca do registro, leitura e análise da intensidade de chuvas, com o lançamento de traçadores corantes sobre a superfície do relevo. o sistema permite que seja registrada, lida, analisada e configurada a intensidade das chuvas, que por sua vez pode disparar um comando para que uma válvula eletro-mecânica hidraulicamente conectada ao reservatório seja acionada (aberta), liberando os traçadores corantes que irão se deslocar nos momentos julgados oportunos ao seu deslocamento junto as chuvas incidentes. consiste o sistema em um módulo central (1) que tem a função de realizar a interação de todos os componentes periféricos e que além disso, ele armazena dados obtidos do pluviômetro (6), e transmite os dados armazenados remotamente via gsm/gprs por um sim card instalado no módulo central (1), com o auxílio de uma antena (3). a programação é gerada no computador, atribuindo à abertura do conjunto de válvula eletromecânica (2), dotada de acionamento mecânico (9) e registro (10), a condição de um determinado volume de chuva em um tempo estabelecido."/>
+			<field name="originatesFrom" value="63667595"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017003102"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017003102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017003102"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171003102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017003102"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16463" type="Person">
+			<semanticIdentifier>lattes::0491600109519083</semanticIdentifier>
+			<field name="identifier.lattes" value="0491600109519083"/>
+			<field name="name" value="Juceni Pereira de Lima David"/>
+		</entity>
+		<entity ref="OrgUnit12750" type="OrgUnit">
+			<semanticIdentifier>brcris::8365ff2157f015bee1710e14f72424eb</semanticIdentifier>
+			<field name="name" value="HIDROVIA HIDROGEOLOGIA E MEIO AMBIENTE LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23693" toEntityRef="Person16463" type="Inventor"/>
+		<relation fromEntityRef="Patent23693" toEntityRef="OrgUnit12750" type="Applicant"/>
+	</relations>
+</entity-relation-data>

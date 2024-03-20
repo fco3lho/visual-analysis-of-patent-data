@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:00:17" record="30868" source="Espacenet">
+	<entities>
+		<entity ref="Patent30868" type="Patent">
+			<semanticIdentifier>brcris::e617d5186bcfdfb875dc3c118c0952d2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0105471A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0105471</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0105471A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010105471</semanticIdentifier>
+			<semanticIdentifier>original::0105471-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0105471"/>
+			<field name="identifier.lattes" value="3785872046836692"/>
+			<field name="identifier.espacenet" value="0105471"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Formulações à base de própolis para uso odontológico"/>
+			<field name="title.lattes" value="Formulações à base de própolis para uso odontológico"/>
+			<field name="depositDate" value="2001-09-26"/>
+			<field name="publicationDate" value="2003-09-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIA CRISTINA MARCUCCI RIBEIRO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="MARIA CRISTINA MARCUCCI RIBEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K35/644AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="644AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;FORMULAçõES à BASE DE PRóPOLIS PARA USO ODONTOLóGICO&quot;. A presente invenção refere-se a formulações à base de própolis destinadas à higiene bucal, particularmente, as formulações são apropriadas para a preparação de enxaguatórios bucais empregados na profilaxia do processo cariogênico e assepsia da cavidade bucal."/>
+			<field name="originatesFrom" value="27810231"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0105471"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0105471"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0105471"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010105471"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0105471-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21180" type="Person">
+			<semanticIdentifier>lattes::3785872046836692</semanticIdentifier>
+			<field name="identifier.lattes" value="3785872046836692"/>
+			<field name="name" value="Maria Cristina Marcucci Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit16534" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30868" toEntityRef="Person21180" type="Inventor"/>
+		<relation fromEntityRef="Patent30868" toEntityRef="OrgUnit16534" type="Applicant"/>
+		<relation fromEntityRef="Patent30868" toEntityRef="Person21180" type="Depositor"/>
+	</relations>
+</entity-relation-data>

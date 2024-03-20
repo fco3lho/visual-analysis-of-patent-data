@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:18" record="36370" source="Espacenet">
+	<entities>
+		<entity ref="Patent36370" type="Patent">
+			<semanticIdentifier>brcris::d9dfc3c6581ee2e9e5c6385e1f98f7dd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019001960A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019001960</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019001960A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191001960</semanticIdentifier>
+			<semanticIdentifier>original::102019001960</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019001960"/>
+			<field name="identifier.lattes" value="6299968994043448"/>
+			<field name="identifier.espacenet" value="102019001960"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de utilização dos sensores embutidos em aparelhos do tipo smartphones para a determinação dos dados de desempenho biomecânico em equipamentos de musculação"/>
+			<field name="title.lattes" value="Método de utilização dos sensores embutidos em aparelhos do tipo SmartPhones para a determinação dos dados de desempenho"/>
+			<field name="depositDate" value="2019-01-31"/>
+			<field name="publicationDate" value="2020-08-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="PEDRO VIEIRA SARMET MOREIRA"/>
+			<field name="applicant" value="PEDRO VIEIRA SARMET MOREIRA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de utilização dos sensores embutidos em aparelhos do tipo smartphones para a determinação dos dados de desempenho biomecânico em equipamentos de musculação . refere-se a um método e algoritmo de utilização dos sensores de movimento (acelerômetro, giroscópio e magnetômetro) contidos em aparelhos do tipo smartphones para a determinação dos dados de aceleração, força, velocidade, potência e posição de equipamentos de musculação para que possam ser utilizados para o controle dos resultados de treinamento de atletas e para a determinação da carga ótima. em sua correta forma de utilização, os smartphones (1) devem ser fixados ao centro das barras de musculação (3), pesos ou alteres. então, os dados obtidos pelos três sensores são reamostrados para uma taxa de amostragem regular. os dados de aceleração são girados para o referencial global, calibrados pela subtração da aceleração z pela constante do valor da gravidade medida estaticamente, filtrados por filtro digital rejeita faixa e um passa baixa, duplamente integrados para a obtenção dos dados de posição linear e corrigidos por um filtro de kalman com base nos dados de campo magnético. os dados resultantes são interpretados automaticamente por algoritmo (23) que classifica os voluntários de acordo com o seu nível de rendimento na modalidade, gera relatórios e o envia para a nuvem digital e/ou e-mail."/>
+			<field name="originatesFrom" value="72241907"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019001960"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019001960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019001960"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191001960"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019001960"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25034" type="Person">
+			<semanticIdentifier>lattes::6299968994043448</semanticIdentifier>
+			<field name="identifier.lattes" value="6299968994043448"/>
+			<field name="name" value="Pedro Vieira Sarmet Moreira"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36370" toEntityRef="Person25034" type="Inventor"/>
+		<relation fromEntityRef="Patent36370" toEntityRef="Person25034" type="Depositor"/>
+	</relations>
+</entity-relation-data>

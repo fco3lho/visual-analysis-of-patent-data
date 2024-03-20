@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:56" record="25183" source="Espacenet">
+	<entities>
+		<entity ref="Patent25183" type="Patent">
+			<semanticIdentifier>brcris::f14ca860a1836b6ec7368133b4f6c4af</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017014852A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017014852</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017014852A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171014852</semanticIdentifier>
+			<semanticIdentifier>original::102017014852</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017014852"/>
+			<field name="identifier.lattes" value="1665776371164839"/>
+			<field name="identifier.espacenet" value="102017014852"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispensador de peletes alimentares implementado em plataforma de hardware de microcontrolador"/>
+			<field name="title.lattes" value="DISPENSADOR DE PELETES ALIMENTARES IMPLEMENTADO EM PLATAFORMA DE HARDWARE DE MICROCONTROLADOR"/>
+			<field name="depositDate" value="2017-07-10"/>
+			<field name="publicationDate" value="2019-01-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LEANDRO ALVARO DE ALCANTARA AGUIAR"/>
+			<field name="inventor" value="MARCOS AURELIO DO NASCIMENTO"/>
+			<field name="inventor" value="PEDRO VALADAO CARELLI"/>
+			<field name="inventor" value="ROMILDO DE ALBUQUERQUE NOGUEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K5/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente patente de produto refere-se a um dispositivo de distribuição de peletes controlado eletronicamente por um microcontrolador que compreende um disco de liberação de peletes conectado a um motor sobre uma base fixa; o sensor de luz infravermelha é capaz de identificar o movimento giratório do disco e enviar para o microcontrolador um comando para parar de deslocar o disco assim que o pelete alimentar for liberado pela cânula. este equipamento pode ser aplicado em pesquisas científicas ou no desenvolvimento de medicamentos que necessitem de mecanismos de recompensa para testes comportamentais."/>
+			<field name="originatesFrom" value="65237494"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017014852"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017014852"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017014852"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171014852"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017014852"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17452" type="Person">
+			<semanticIdentifier>lattes::1665776371164839</semanticIdentifier>
+			<field name="identifier.lattes" value="1665776371164839"/>
+			<field name="name" value="Leandro Álvaro de Alcantara Aguiar"/>
+		</entity>
+		<entity ref="OrgUnit13610" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit13611" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25183" toEntityRef="Person17452" type="Inventor"/>
+		<relation fromEntityRef="Patent25183" toEntityRef="OrgUnit13610" type="Applicant"/>
+		<relation fromEntityRef="Patent25183" toEntityRef="OrgUnit13611" type="Applicant"/>
+	</relations>
+</entity-relation-data>

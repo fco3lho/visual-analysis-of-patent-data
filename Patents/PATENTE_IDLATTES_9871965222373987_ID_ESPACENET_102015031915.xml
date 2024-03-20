@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:24:32" record="11410" source="Espacenet">
+	<entities>
+		<entity ref="Patent11410" type="Patent">
+			<semanticIdentifier>brcris::2f03f0f7eb3449eb4b38a41a2331318b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031915A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015031915</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031915A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151031915</semanticIdentifier>
+			<semanticIdentifier>original::102015031915</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015031915"/>
+			<field name="identifier.lattes" value="9871965222373987"/>
+			<field name="identifier.espacenet" value="102015031915"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para medição de velocidade instantânea e média de veículos por reconhecimento de padrões em imagens e vídeos digitais"/>
+			<field name="title.lattes" value="SISTEMA PARA MEDIÇÃO DE VELOCIDADE INSTANTÂNEA E MÉDIA DE VEÍCULOS POR RECONHECIMENTO DE PADRÕES EM IMAGENS E VÍDEOS DIGITAIS"/>
+			<field name="depositDate" value="2015-12-18"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BOGDAN TOMOYUKI NASSU"/>
+			<field name="inventor" value="DIOGO CARBONERA LUVIZON"/>
+			<field name="inventor" value="RODRIGO MINETTO"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08G1/052AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="052AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08G1/01AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para medição de velocidade instantânea e média de veículos por reconhecimento de padrões em imagens e vídeos digitais, descreve-se a presente invenção como um sistema distribuído (sd) para medição da velocidade instantânea e média de veículos por reconhecimento de padrões em imagens e vídeos digitais. o invento pode ser aplicado na área de controle de tráfego de veículos, mais especificamente para a medição de velocidade média e instantânea de veículos de forma não intrusiva. o sistema distribuído (sd) é composto por um computador central (5) e por um ou mais equipamentos de monitoramento periférico (emp). cada equipamento de monitoramento periférico (emp) é composto por um módulo de aquisição de imagens (1), um módulo de processamento (3) e um módulo de comunicação (4). o sistema é capaz de determinar a velocidade instantânea e média dos veículos com base em imagens capturadas por uma câmera (ia) instalada na via (2), posicionada acima do nível em que passam os veículos (2a). a câmera pode estar acompanhada de um sistema de iluminação auxiliar (1b). as imagens capturadas pela câmera são transferidas para um módulo de processamento (3), onde são armazenadas temporariamente (3a) para em seguida serem processadas pelo método de análise de imagens desenvolvido. após o processamento, os padrões reconhecidos e a velocidade instantânea de cada veículo são transmitidos para o computador central, para que este realize o cálculo da velocidade média, caso existam mais de um equipamento de monitoramento periférico instalado na via."/>
+			<field name="originatesFrom" value="61973205"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031915"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015031915"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031915"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151031915"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015031915"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7954" type="Person">
+			<semanticIdentifier>lattes::9871965222373987</semanticIdentifier>
+			<field name="identifier.lattes" value="9871965222373987"/>
+			<field name="name" value="Diogo Carbonera Luvizon"/>
+		</entity>
+		<entity ref="OrgUnit6348" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11410" toEntityRef="Person7954" type="Inventor"/>
+		<relation fromEntityRef="Patent11410" toEntityRef="OrgUnit6348" type="Applicant"/>
+	</relations>
+</entity-relation-data>

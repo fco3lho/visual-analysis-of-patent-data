@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:47" record="18710" source="Espacenet">
+	<entities>
+		<entity ref="Patent18710" type="Patent">
+			<semanticIdentifier>brcris::a68783c520b480e27c74187de70364bb</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501900A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501900</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501900A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01900</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501900-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501900"/>
+			<field name="identifier.lattes" value="1826035348340133"/>
+			<field name="identifier.espacenet" value="PI0501900"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de calibração para avaliar os erros de rotação de eixos - árvore de máquinas e de equipamentos através de um laser interferométrico"/>
+			<field name="title.lattes" value="Sistema de Calibração para Avaliar os Erros de Rotação de Eixos-árvore de Máquinas e de Equipamentos através de um Laser Interferométrico"/>
+			<field name="depositDate" value="2005-05-13"/>
+			<field name="publicationDate" value="2007-01-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HEBER FERREIRA FRANCO DE CASTRO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B19/048AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="048AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA DE CALIBRAçãO PARA AVALIAR OS ERROS DE ROTAçãO DE EIXOS-áRVORE DE MáQUINAS E DE EQUIPAMENTOS ATRAVéS DE UM LASER INTERFEROMéTRICO&quot;. Esta invenção trata-se de um método para avaliar os erros de rotação de eixos-árvore de máquinas e de equipamentos utilizando um laser interferométrico. Este método é capaz de medir os erros de rotação radial e axial, bem como os deslocamentos térmicos ('thermal drifts') radial e axial de eixos-árvore. As medições são realizadas pela reflexão do feixe do laser diretamente através da superfície de uma esfera padrão (8). Esta esfera é fixa na extremidade de um mandril com ajuste angular (10) que é montado na placa do eixo-árvore. Em princípio, a medição do laser é similar à configuração que utiliza interferómetro linear para aferição de deslocamento linear. Uma lente convergente (4) é empregada para focar o feixe de laser em um pequeno ponto na superfície da esfera. Um programa computacional foi desenvolvido para adquirir os dados bem como plotar os gráficos polares dos erros radial e axial e as curvas dos deslocamentos térmicos radial e axial do eixo-árvore em função do tempo. Uma aplicação deste calibrador de erros de rotação foi realizada num centro de usinagem de comando numérico."/>
+			<field name="originatesFrom" value="37607677"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501900"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501900"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501900-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12976" type="Person">
+			<semanticIdentifier>lattes::1826035348340133</semanticIdentifier>
+			<field name="identifier.lattes" value="1826035348340133"/>
+			<field name="name" value="Heber Ferreira Franco de Castro"/>
+		</entity>
+		<entity ref="OrgUnit10110" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit10111" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18710" toEntityRef="Person12976" type="Inventor"/>
+		<relation fromEntityRef="Patent18710" toEntityRef="OrgUnit10110" type="Applicant"/>
+		<relation fromEntityRef="Patent18710" toEntityRef="OrgUnit10111" type="Applicant"/>
+	</relations>
+</entity-relation-data>

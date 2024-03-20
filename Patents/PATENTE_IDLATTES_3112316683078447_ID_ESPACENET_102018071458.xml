@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:21" record="8623" source="Espacenet">
+	<entities>
+		<entity ref="Patent8623" type="Patent">
+			<semanticIdentifier>brcris::ad9d3223a67de63420d4b1af198dcf25</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071458A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018071458</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018071458A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181071458</semanticIdentifier>
+			<semanticIdentifier>original::102018071458</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018071458"/>
+			<field name="identifier.lattes" value="3112316683078447"/>
+			<field name="identifier.espacenet" value="102018071458"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sensor e nanosensor colorimétrico constituído de hidróxido de cobalto e nanotubos de carbono para detecção de glifosato"/>
+			<field name="title.lattes" value="SENSOR E NANOSENSOR COLORIMÉTRICO CONSTITUÍDO DE HIDRÓXIDO DE COBALTO E NANOTUBOS DE CARBONO PARA DETECÇÃO DE GLIFOSATO"/>
+			<field name="depositDate" value="2018-10-18"/>
+			<field name="publicationDate" value="2020-04-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CINTHIA ROCHA DA SILVA"/>
+			<field name="inventor" value="IGOR JOSE BOGGIONE SANTOS"/>
+			<field name="inventor" value="JHONATAN RAFAEL DE OLIVEIRA BIANCHI"/>
+			<field name="inventor" value="LARA CHRYSTINA MALTA NERI"/>
+			<field name="inventor" value="RODRIGO FERNANDO BIANCHI"/>
+			<field name="inventor" value="THAIS ADRIANY DE SOUZA CARVALHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a detecção convencional de agrotóxicos, incluindo aqueles com o ingrediente ativo glifosato, depende de equipamentos e técnicas complexas, muitas vezes demoradas e que requerem um conhecimento prévio para interpretação dos dados, o que dificulta a realização de análises e a obtenção de resultados em curto prazo e maior frequência. a elaboração de novos métodos para a detecção de glifosato que proporcionem uma rápida detecção e interpretação simples, não requerendo conhecimento prévio do analisador, ao contrário de outras formas de detecção existentes, implicam diretamente num monitoramento mais efetivo dessas substâncias, tanto no meio ambiente quanto em alimentos e outros produtos de consumo humano. neste contexto, o densenvolvimento de sensores e nanosensores colorimétricos se torna uma alternativa viável, por permitir a realização de análises in locu, fornecendo resposta em curto prazo e de fácil interpretação, visto que consiste em uma simples alteração colorimétrica quando na presença do glifosato."/>
+			<field name="originatesFrom" value="70547246"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071458"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018071458"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018071458"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181071458"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018071458"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5901" type="Person">
+			<semanticIdentifier>lattes::3112316683078447</semanticIdentifier>
+			<field name="identifier.lattes" value="3112316683078447"/>
+			<field name="name" value="Cinthia Rocha da Silva"/>
+		</entity>
+		<entity ref="OrgUnit4651" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+		<entity ref="OrgUnit4652" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8623" toEntityRef="Person5901" type="Inventor"/>
+		<relation fromEntityRef="Patent8623" toEntityRef="OrgUnit4651" type="Applicant"/>
+		<relation fromEntityRef="Patent8623" toEntityRef="OrgUnit4652" type="Applicant"/>
+	</relations>
+</entity-relation-data>

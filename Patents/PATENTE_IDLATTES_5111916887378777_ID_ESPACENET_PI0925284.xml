@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:23:13" record="42451" source="Espacenet">
+	<entities>
+		<entity ref="Patent42451" type="Patent">
+			<semanticIdentifier>brcris::7b9a0240162a81aab62035812963270b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925284A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0925284</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0925284A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI25284</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0925284-3 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0925284"/>
+			<field name="identifier.lattes" value="5111916887378777"/>
+			<field name="identifier.espacenet" value="PI0925284"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA INTEGRADO DE PROCESSAMENTO BASEADO EM REDES EM CHIP QUE NÃO FAZ USO DE PROCESSADORES DO TIPO VON NEUMANN"/>
+			<field name="title.lattes" value="SISTEMA INTEGRADO DE PROCESSAMENTO BASEADO EM REDES EM CHIP QUE NÃO FAZ USO DE PROCESSADORES DO TIPO VON NEUMANN"/>
+			<field name="depositDate" value="2009-04-03"/>
+			<field name="publicationDate" value="2015-01-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="IVAN SARAIVA SILVA"/>
+			<field name="inventor" value="SILVIO ROBERTO FERNANDES DE ARAUJO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F15/80AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="80AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA INTEGRADO DE PROCESSAMENTO BASEADO EM REDES EM CHIP QUE NÃO FAZ USO DE PROCESSADORES DO TIPO VON NEUMANN A presente invenção refere-se a um sistema integrado baseado em rede em chip capaz de executar aplicações (programas ), descritas em um formato de pacote específico contendo instruções e operandos transmitidos e executados pelo elementos de processamento e roteamento da rede, chamados de Routing and Processing Unit ou RPU. A execução das instruções das aplicações é realizada pelas RPUs, no percurso por onde tais pacotes são encaminhados, sem a necessidade do processamento do tipo Von Neumann. Os pacotes , armazenados na memória , são injetados no sistema através de Memory Access Unit ou MAU ligados aos RPUs dos cantos da rede , que também têm a função de executar instruções de sincronização e acesso a memória. A memória é fisicamente distribuída em quatro módulos (gerenciados pelas MAUs) formando um espaço de endereçamento único. Os pacotes são encaminhados utilizando um algoritmo de roteamento próprio, denominado spiral complement, que garante a execução de todas as instruções das aplicações"/>
+			<field name="originatesFrom" value="52338590"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925284"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0925284"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0925284"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI25284"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0925284-3 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28936" type="Person">
+			<semanticIdentifier>lattes::5111916887378777</semanticIdentifier>
+			<field name="identifier.lattes" value="5111916887378777"/>
+			<field name="name" value="Sílvio Roberto Fernandes de Araújo"/>
+		</entity>
+		<entity ref="OrgUnit22639" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42451" toEntityRef="Person28936" type="Inventor"/>
+		<relation fromEntityRef="Patent42451" toEntityRef="OrgUnit22639" type="Applicant"/>
+	</relations>
+</entity-relation-data>

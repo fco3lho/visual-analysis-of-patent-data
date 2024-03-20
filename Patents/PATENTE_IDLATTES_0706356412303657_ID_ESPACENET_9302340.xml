@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:50" record="12351" source="Espacenet">
+	<entities>
+		<entity ref="Patent12351" type="Patent">
+			<semanticIdentifier>brcris::e0a9073bd2a70c78dca2d4f897d38908</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9302340A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9302340</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9302340A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939302340</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9302340"/>
+			<field name="identifier.lattes" value="0706356412303657"/>
+			<field name="identifier.espacenet" value="9302340"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Máquina para preparação de eletrodos de difusão de gás"/>
+			<field name="title.lattes" value="Maquina Para Preparacao de Eletrodos de Difusao de Gas"/>
+			<field name="depositDate" value="1993-07-06"/>
+			<field name="publicationDate" value="1995-02-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CESAR FERREIRA"/>
+			<field name="inventor" value="EDISON ANTONIO TICIANELLI"/>
+			<field name="inventor" value="ERNESTO RAFAEL GONZALES"/>
+			<field name="inventor" value="MARIA ISABEL CAIRES"/>
+			<field name="applicant" value="CNPQ-CONSELHO NACIONAL DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M4/88AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="88AI"/>
+			</field>
+			<field name="originatesFrom" value="4056665"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9302340"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9302340"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9302340"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939302340"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8469" type="Person">
+			<semanticIdentifier>lattes::0706356412303657</semanticIdentifier>
+			<field name="identifier.lattes" value="0706356412303657"/>
+			<field name="name" value="Edson Antonio Ticianelli"/>
+		</entity>
+		<entity ref="OrgUnit6679" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12351" toEntityRef="Person8469" type="Inventor"/>
+		<relation fromEntityRef="Patent12351" toEntityRef="OrgUnit6679" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:50" record="51" source="Espacenet">
+	<entities>
+		<entity ref="Patent51" type="Patent">
+			<semanticIdentifier>brcris::d8fa62c4213dcd01a8f475841802e1c0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0104661A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0104661</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0104661A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20010104661</semanticIdentifier>
+			<semanticIdentifier>original::0104661-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0104661"/>
+			<field name="identifier.lattes" value="2514320654462590"/>
+			<field name="identifier.espacenet" value="0104661"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de destoca biológica de eucalyptus, mediante o uso de fungos apodrecedores"/>
+			<field name="title.lattes" value="Processo de destoca biológica de Eucalyptus, mediante o uso de fungos apodrecedores."/>
+			<field name="depositDate" value="2001-06-22"/>
+			<field name="publicationDate" value="2003-04-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ACELINO COUTO ALFENAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N63/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE DESTOCA BIOLóGICA DE EUCALYPTUS, MEDIANTE O USO DE FUNGOS APODRECEDORES&quot;. Essa invenção relaciona-se com as áreas de Microbiologia, Fitopatologia, Patologia Florestal, Silvicultura e Engenharia Florestal. O objetivo técnico da invenção consiste no uso de fungos não patogênicos apodrecedores da madeira, para a destoca biológica de Eucalyptus spp. para fins comerciais ou de interesse científico. São apresentados os métodos de isolamento e a freq³ência de fungos capazes de degradar a madeira de tocos de eucalipto, coletados em várias regiões do país."/>
+			<field name="originatesFrom" value="3948043"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0104661"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0104661"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0104661"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20010104661"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0104661-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person47" type="Person">
+			<semanticIdentifier>lattes::2514320654462590</semanticIdentifier>
+			<field name="identifier.lattes" value="2514320654462590"/>
+			<field name="name" value="Acelino Couto Alfenas"/>
+		</entity>
+		<entity ref="OrgUnit35" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent51" toEntityRef="Person47" type="Inventor"/>
+		<relation fromEntityRef="Patent51" toEntityRef="OrgUnit35" type="Applicant"/>
+	</relations>
+</entity-relation-data>

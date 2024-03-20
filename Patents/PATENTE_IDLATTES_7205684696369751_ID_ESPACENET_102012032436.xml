@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:34" record="437" source="Espacenet">
+	<entities>
+		<entity ref="Patent437" type="Patent">
+			<semanticIdentifier>brcris::56f26ff8653d9fb479535a8880858057</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032436A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032436</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032436A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032436</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 032436-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032436"/>
+			<field name="identifier.lattes" value="7205684696369751"/>
+			<field name="identifier.espacenet" value="102012032436"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="POSICIONADOR RADIOGRÁFICO ODONTOLÓGICO"/>
+			<field name="title.lattes" value="Posicionador radiográfico odontológico"/>
+			<field name="depositDate" value="2012-12-19"/>
+			<field name="publicationDate" value="2015-02-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA DIBO DA CRUZ"/>
+			<field name="inventor" value="EDGARD POIATE JUNIOR"/>
+			<field name="inventor" value="ISIS ANDREA VENTURINI POLA POIATE"/>
+			<field name="inventor" value="ISIS ANDREA VENTURINI POLA POIATE"/>
+			<field name="inventor" value="MATSUYOSHI MORI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE - UFF"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03B42/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="42"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="POSICIONADOR RADIOGRAFICO ODONTOLÓGICO. A presente invenção compreende um posicionador radiográfico odontológico que compreende um sistema de suporte (2) para receptor de imagem, anel de acoplamento (3), uma haste (4) dotada de elementos reguladores (4.a), (4.b) e (4.c) e um braço (5) que possibilita sua adaptação aos dentes posteriores e anteriores; sendo empregado para alterar os ângulos horizontais e verticais de incidência do feixe de raios-X, e realizar radiografias padronizadas orrorradiais, distorradiais, mesiorradiais, craniais e caudais e sendo assim, portanto, aplicável a métodos de localização radiográfica; que pode ser produzido em materiais como metal, ligas metálicas, fibra, cerâmica, polímero, dentre outras possíveis bem como a combinação das mesmas e apresenta forma e dimensões compatíveis com a cavidade bucal."/>
+			<field name="originatesFrom" value="52472678"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032436"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032436"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032436"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032436"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 032436-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person295" type="Person">
+			<semanticIdentifier>lattes::7205684696369751</semanticIdentifier>
+			<field name="identifier.lattes" value="7205684696369751"/>
+			<field name="name" value="Adriana Dibo da Cruz"/>
+		</entity>
+		<entity ref="OrgUnit265" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit266" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent437" toEntityRef="Person295" type="Inventor"/>
+		<relation fromEntityRef="Patent437" toEntityRef="OrgUnit265" type="Applicant"/>
+		<relation fromEntityRef="Patent437" toEntityRef="OrgUnit266" type="Applicant"/>
+	</relations>
+</entity-relation-data>

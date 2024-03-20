@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:24" record="37061" source="Espacenet">
+	<entities>
+		<entity ref="Patent37061" type="Patent">
+			<semanticIdentifier>brcris::e41a1749bb50f4fb4ac08640794e1443</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305175A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0305175</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0305175A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030305175</semanticIdentifier>
+			<semanticIdentifier>original::0305175-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0305175"/>
+			<field name="identifier.lattes" value="3286528998900137"/>
+			<field name="identifier.espacenet" value="0305175"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema e método para implementação do computador popular de rede para laboratórios de informática e redes departamentais"/>
+			<field name="title.lattes" value="SISTEMA E MÉTODO PARA IMPLEMENTAÇÃO DO COMPUTADOR POPULAR DE REDE PARA LABORATÓRIOS DE INFORMÁTICA E REDES DEPARTAMENTAIS"/>
+			<field name="depositDate" value="2003-02-18"/>
+			<field name="publicationDate" value="2005-05-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELOI LUIZ FAVERO"/>
+			<field name="inventor" value="EZYO LAMARCA DA SILVA"/>
+			<field name="inventor" value="RAIMUNDO VIEGAS JUNIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L12/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA E MéTODO PARA IMPLEMENTAçãO DO COMPUTADOR POPULAR DE REDE PARA LABORATóRIOS DE INFORMáTICA E REDES DEPARTAMENTAIS.&quot; Um computador popular de rede (200) é constituído por um processador (100), barramento de dados e endereços (120), dispositivos de entrada de dados (130), um vídeo (140), memória (110) e um cartão de rede com EPROM de Boot. Um laboratório de informática (400) compreende uma rede de computadores, onde cada computador cliente é usado como uma estação de trabalho (320) por um aluno da classe (tipicamente, de 6 a 30 estações por laboratório), alguns recursos são compartilhados por todas as estações, por exemplo, impressora (310). De forma similar, numa rede departamental (400) cada estação é utilizada por um funcionário e os recursos comuns são compartilhados por todos os membros da rede. A solução do computador popular de rede consiste na implementação de uma rede de estações de trabalho (320) assistida por um servidor de aplicações (300). Cada cliente (320) executa o processo de Boot Remoto, a partir de uma placa de rede com uma memória EPROM (150) onde é gravado o programa de BOOT. Com isso, a manutenção da rede (software e periféricos) acontece somente no servidor."/>
+			<field name="originatesFrom" value="34529088"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305175"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0305175"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0305175"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030305175"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0305175-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25544" type="Person">
+			<semanticIdentifier>lattes::3286528998900137</semanticIdentifier>
+			<field name="identifier.lattes" value="3286528998900137"/>
+			<field name="name" value="Raimundo Viégas Junior"/>
+		</entity>
+		<entity ref="OrgUnit20037" type="OrgUnit">
+			<semanticIdentifier>brcris::cce0ccb766f695fc2ed9b3ca40d55423</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37061" toEntityRef="Person25544" type="Inventor"/>
+		<relation fromEntityRef="Patent37061" toEntityRef="OrgUnit20037" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:51" record="9530" source="Espacenet">
+	<entities>
+		<entity ref="Patent9530" type="Patent">
+			<semanticIdentifier>brcris::5e4054f0af9d5b6046b92fe21a979f13</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012029230A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012029230</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012029230A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121029230</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 029230-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012029230"/>
+			<field name="identifier.lattes" value="4630729226018844"/>
+			<field name="identifier.espacenet" value="102012029230"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO PARA MONITORAMENTO DA QUALIDADE DE COMBUSTÍVEL E ÓLEOS LUBRIFICANTES E KIT PARA REALIZAR O REFERIDO MONITORAMENTO"/>
+			<field name="title.lattes" value="Processo Para Monitoramento da Qualidade de Combustíveis e Óleos Lubrificantes e Kit para realizar o referido monitoramento."/>
+			<field name="depositDate" value="2012-11-16"/>
+			<field name="publicationDate" value="2014-12-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANE GIMENES DE SOUZA"/>
+			<field name="inventor" value="JAMAL DA SILVA CHAAR"/>
+			<field name="inventor" value="LUIZ ANTONIO D' AVILA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO AMAZONAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA MONITORAMENTO DA QUALIDADE DE COMBUSTÍVEL E ÓLEOS LUBRIFICANTES E KIT PARA REALIZAR O REFERIDO MONITORAMENTO. A presente invenção descreve um processo para monitoramento da qualidade de combustíveis e óleos lubrificantes, e também um kit para realizar o referido monitoramento. O processo de monitoramento identifica aditivos detergente/dispersantes em fluidos hidrocarbônicos que os contenha, preferencialmente combustíveis e óleos Lubrificantes com eles aditivos através da diferença de comportamento cromatográfico. Isto porque os aditivos detergentes/dispersantes são polares e têm natureza básica, enquanto os combustíveis (gasolina e óleo diesel) e os óleos base lubrificabtes têm natureza essencialemente hidrocarbônica. O processo de monitoramento da presente invenção é simples, barato, seguro e de fácil execução e pode ser utilizado quer pelo consumidor e órgão fiscalizador, quer pelo produtor ou distribuidor."/>
+			<field name="originatesFrom" value="50730416"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012029230"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012029230"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012029230"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121029230"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 029230-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2014075158"/>
+		</entity>
+		<entity ref="Person6534" type="Person">
+			<semanticIdentifier>lattes::4630729226018844</semanticIdentifier>
+			<field name="identifier.lattes" value="4630729226018844"/>
+			<field name="name" value="Cristiane Gimenes de Souza"/>
+		</entity>
+		<entity ref="OrgUnit5150" type="OrgUnit">
+			<semanticIdentifier>brcris::08b3724af83b7b5e9f58c1536fc1a03e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO AMAZONAS"/>
+		</entity>
+		<entity ref="OrgUnit5151" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+		<entity ref="Patent9531" type="Patent">
+			<semanticIdentifier>epodoc::WO2014075158</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="50730416"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2014075158"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9530" toEntityRef="Person6534" type="Inventor"/>
+		<relation fromEntityRef="Patent9530" toEntityRef="OrgUnit5150" type="Applicant"/>
+		<relation fromEntityRef="Patent9530" toEntityRef="OrgUnit5151" type="Applicant"/>
+	</relations>
+</entity-relation-data>

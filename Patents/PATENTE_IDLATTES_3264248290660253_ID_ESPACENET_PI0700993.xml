@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:29" record="28550" source="Espacenet">
+	<entities>
+		<entity ref="Patent28550" type="Patent">
+			<semanticIdentifier>brcris::a64974c0aa9e0ffea496fc9d666aa365</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700993A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0700993</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700993A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI00993</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0700993-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0700993"/>
+			<field name="identifier.lattes" value="3264248290660253"/>
+			<field name="identifier.espacenet" value="PI0700993"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de revestimento interno de ductos"/>
+			<field name="title.lattes" value="Processo de revestimento interno de ductos"/>
+			<field name="depositDate" value="2007-01-08"/>
+			<field name="publicationDate" value="2008-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO ANDRADE MACEDO"/>
+			<field name="inventor" value="MARCIO FONTES ANDRADE"/>
+			<field name="inventor" value="RAMIRES MELO SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L101/18AN"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="18AN"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE REVESTIMENTO INTERNO DE DUCTOS. A invenção se refere a um processo de revestimento interno de ductos, que consiste essencialmente na movimentação de um fluido orgânico ou inorgânico, dentro do ducto, em velocidade constante, que após a secagem obtém-se uma camada homogênea e com baixa rugosidade."/>
+			<field name="originatesFrom" value="39708236"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700993"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0700993"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700993"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI00993"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0700993-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19732" type="Person">
+			<semanticIdentifier>lattes::3264248290660253</semanticIdentifier>
+			<field name="identifier.lattes" value="3264248290660253"/>
+			<field name="name" value="Marcelo Andrade Macêdo"/>
+		</entity>
+		<entity ref="OrgUnit15413" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28550" toEntityRef="Person19732" type="Inventor"/>
+		<relation fromEntityRef="Patent28550" toEntityRef="OrgUnit15413" type="Applicant"/>
+	</relations>
+</entity-relation-data>

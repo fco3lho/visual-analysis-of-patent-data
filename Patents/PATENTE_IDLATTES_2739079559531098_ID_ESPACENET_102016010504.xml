@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:32" record="23012" source="Espacenet">
+	<entities>
+		<entity ref="Patent23012" type="Patent">
+			<semanticIdentifier>brcris::6e62621228c70cff2151b86d0b478197</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016010504A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016010504</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016010504A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161010504</semanticIdentifier>
+			<semanticIdentifier>original::102016010504</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016010504"/>
+			<field name="identifier.lattes" value="2739079559531098"/>
+			<field name="identifier.espacenet" value="102016010504"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="formulação dessensibilidade com ativos naturais"/>
+			<field name="title.lattes" value="Formulação dessensibilizante com ativos naturais"/>
+			<field name="depositDate" value="2016-05-02"/>
+			<field name="publicationDate" value="2017-11-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRA SIMONE SANTOS DE OLIVEIRA FLOR"/>
+			<field name="inventor" value="ANDERSON DE OLIVEIRA FERREIRA"/>
+			<field name="inventor" value="HANNY REIS MOCKDECI"/>
+			<field name="inventor" value="HUDSON CAETANO POLONINI"/>
+			<field name="inventor" value="ISADORA CONDE FERREIRA MARTINS"/>
+			<field name="inventor" value="JOSE LUIZ FERNANDES VIEIRA"/>
+			<field name="inventor" value="MARCOS ANTONIO FERNANDES BRANDAO"/>
+			<field name="inventor" value="MARIA DAS GRACAS AFONSO MIRANDA CHAVES"/>
+			<field name="inventor" value="NADIA REZENDE BARBOSA RAPOSO"/>
+			<field name="inventor" value="VIRGINIA ALVES MANSO"/>
+			<field name="inventor" value="WAGNER LUIZ RAMOS BARBOSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61Q11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/97AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="97AI"/>
+			</field>
+			<field name="abstract.espacenet" value="formulação dessensibilizante com ativos naturais. trata-se a presente invenção de uma formulação contendo dois gêneros vegetais, quais sejam spilanthes acme/ia e lithothamnium calacareum, que possui atividade dessensibilizante dentinária e será utilizada para o tratamento da saúde bucal no combate da hipersensibilidade dentinária e patologias bucais relacionadas."/>
+			<field name="originatesFrom" value="62529576"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016010504"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016010504"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016010504"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161010504"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016010504"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15919" type="Person">
+			<semanticIdentifier>lattes::2739079559531098</semanticIdentifier>
+			<field name="identifier.lattes" value="2739079559531098"/>
+			<field name="name" value="Jose Luiz Fernandes Vieira"/>
+		</entity>
+		<entity ref="OrgUnit12331" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+		<entity ref="OrgUnit12332" type="OrgUnit">
+			<semanticIdentifier>brcris::42afeb3d303bfc80f672242070a7c5c1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23012" toEntityRef="Person15919" type="Inventor"/>
+		<relation fromEntityRef="Patent23012" toEntityRef="OrgUnit12331" type="Applicant"/>
+		<relation fromEntityRef="Patent23012" toEntityRef="OrgUnit12332" type="Applicant"/>
+	</relations>
+</entity-relation-data>

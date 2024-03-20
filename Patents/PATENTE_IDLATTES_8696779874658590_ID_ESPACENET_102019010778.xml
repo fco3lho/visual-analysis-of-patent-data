@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:36" record="2025" source="Espacenet">
+	<entities>
+		<entity ref="Patent2025" type="Patent">
+			<semanticIdentifier>brcris::018e68fcee00c67ab8b56607ffdf9300</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010778A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019010778</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019010778A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191010778</semanticIdentifier>
+			<semanticIdentifier>original::102019010778</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019010778"/>
+			<field name="identifier.lattes" value="8696779874658590"/>
+			<field name="identifier.espacenet" value="102019010778"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="planta solar residencial tridimensional microcontrolada por sensores de luminosidade e servo motores"/>
+			<field name="title.lattes" value="PLANTA SOLAR RESIDENCIAL TRIDIMENSIONAL MICROCONTROLADA POR SENSORES DE LUMINOSIDADE E SERVO MOTORES"/>
+			<field name="depositDate" value="2019-05-27"/>
+			<field name="publicationDate" value="2020-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALLAN GIUSEPPE DE ARAUJO CALDAS"/>
+			<field name="inventor" value="ALLYSSON MACARIO DE ARAUJO CALDAS"/>
+			<field name="inventor" value="LUIS HENDRIK DE SOUSA BRITO DOS SANTOS"/>
+			<field name="inventor" value="MATHEUS DO NASCIMENTO SANTOS"/>
+			<field name="inventor" value="THALES MARTINS BEZERRA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02S20/30AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02S40/30AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="planta solar residencial tridimensional microcontrolada por sensores de luminosidade e servo motores a presente invenção trata-se de uma planta solar residencial com designer inovador capaz de se mover no espaço euclidiano tridimensional, a fim de obter o melhor rendimento energético. faz-se uso de um microcontrolador (12) para realizar ações direta no painel solar fotovoltaico (2), orientando-a por meio da movimentação do sol durante todo o dia afim de garantir um melhor aproveitamento da incidência da energia solar sobre a mesma. a partir da utilização de sensores de luminosidade (ldr) (1), os dados obtidos são enviados ao microcontrolador (12) para que possam ser interpretados, ficando encarregado de enviar comandos para os servos motores (8) e (10) buscando a posição ideal para placa fotovoltaica (2). podendo ser instalado em qualquer lugar, já que tem mesmo formato de uma placa solar convencional, com diferenciais técnicos relevantes, a exemplo de sensores de luminosidade (1), braço articulado (6) dentre outros. pelo dinamismo, robustez e todos os elementos diferenciais que traz, a presente invenção torna se interessante e bastante viável residencial e industrialmente, bem como para o meio acadêmico quando levado em conta o processo de dimensionamento, construção, parte eletrônica e toda a programação envolvida."/>
+			<field name="originatesFrom" value="73678856"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010778"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019010778"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019010778"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191010778"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019010778"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1527" type="Person">
+			<semanticIdentifier>lattes::8696779874658590</semanticIdentifier>
+			<field name="identifier.lattes" value="8696779874658590"/>
+			<field name="name" value="Allysson Macário de Araujo Caldas"/>
+		</entity>
+		<entity ref="OrgUnit1146" type="OrgUnit">
+			<semanticIdentifier>brcris::d328331eae318b62840a10126b18dc94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2025" toEntityRef="Person1527" type="Inventor"/>
+		<relation fromEntityRef="Patent2025" toEntityRef="OrgUnit1146" type="Applicant"/>
+	</relations>
+</entity-relation-data>

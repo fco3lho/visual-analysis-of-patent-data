@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:04" record="5705" source="Espacenet">
+	<entities>
+		<entity ref="Patent5705" type="Patent">
+			<semanticIdentifier>brcris::2675a3283455595c08f06dfb8711ca30</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104368A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1104368</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104368A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI04368</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1104368-7 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1104368"/>
+			<field name="identifier.lattes" value="4688924910184370"/>
+			<field name="identifier.espacenet" value="PI1104368"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="APERFEIÇOAMENTOS INTRODUZIDOS EM BOMBA DE SANGUE PARA CIRCULAÇÃO EXTRACORPÓREA"/>
+			<field name="title.lattes" value="Aperfeiçoamento em Bomba de Sangue"/>
+			<field name="depositDate" value="2011-10-24"/>
+			<field name="publicationDate" value="2014-03-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARON JOSE PAZIN DE ANDRADE"/>
+			<field name="inventor" value="JARBAS JAKSON DINKHUYSEN"/>
+			<field name="applicant" value="ARON JOSE PAZIN DE ANDRADE"/>
+			<field name="applicant" value="FUNDACAO ADIB JATENE"/>
+			<field name="applicant" value="JARBAS JAKSON DINKHUYSEN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F04D1/04AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F04D3/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="F04D7/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="F04D29/18AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="APERFEIÇOAMENTOS INTRODUZIDOS EM BOMBA DE SANGUE PARA CIRCULAÇÃO EXTRACORPÓREA, bomba de sangue (1) ou centrífuga, do tipo espiral e utilizada em sistema de circulaçâo extracorpórea, a qual utiliza, simultaneamente, dois princípios de bombeamento, sendo eles: o centrífugo e o axial, proporcionados por meio da geométrica conicidade do receptáculo cônico (2); mencionada bomba de sangue (1) inclui redimensionamento da geometria estrutural do receptáculo cônico (2) e da rosca cônica (8) proporcionando melhoria do desempenho hidrodinâmico e uniformidade no índice normalizado de hemólise, além de permitir melhoria do bombeamento de sangue e redução dos traumas nas bombas de sangue."/>
+			<field name="originatesFrom" value="50335904"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104368"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1104368"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104368"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI04368"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1104368-7 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3782" type="Person">
+			<semanticIdentifier>lattes::4688924910184370</semanticIdentifier>
+			<field name="identifier.lattes" value="4688924910184370"/>
+			<field name="name" value="Aron Jose Pazin de Andrade"/>
+		</entity>
+		<entity ref="OrgUnit2964" type="OrgUnit">
+			<semanticIdentifier>brcris::cb72fc32e22e8a52ec1330c662767de1</semanticIdentifier>
+			<field name="name" value="FUNDACAO ADIB JATENE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5705" toEntityRef="Person3782" type="Inventor"/>
+		<relation fromEntityRef="Patent5705" toEntityRef="OrgUnit2964" type="Applicant"/>
+		<relation fromEntityRef="Patent5705" toEntityRef="Person3782" type="Depositor"/>
+	</relations>
+</entity-relation-data>

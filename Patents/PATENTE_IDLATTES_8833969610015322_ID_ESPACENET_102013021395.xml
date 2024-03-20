@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:36:09" record="45505" source="Espacenet">
+	<entities>
+		<entity ref="Patent45505" type="Patent">
+			<semanticIdentifier>brcris::f0b12ecfd3263d373e7f275f825e0dc0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013021395A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013021395</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013021395A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131021395</semanticIdentifier>
+			<semanticIdentifier>original::102013021395</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013021395"/>
+			<field name="identifier.lattes" value="8833969610015322"/>
+			<field name="identifier.espacenet" value="102013021395"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para solubilização de potássio em fontes silicatadas por bactérias"/>
+			<field name="title.lattes" value="Processo para solubilização de potássio em fontes silicatadas por bacterias"/>
+			<field name="depositDate" value="2013-08-22"/>
+			<field name="publicationDate" value="2016-05-31"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDSON MARCIO MATTIELLO"/>
+			<field name="inventor" value="JOSE ROGERIO DE OLIVEIRA"/>
+			<field name="inventor" value="JOSIMAR HENRIQUE DE LIMA LESSA"/>
+			<field name="inventor" value="LIOVANDO MARCIANO DA COSTA"/>
+			<field name="inventor" value="LUIS CLAUDIO VIEIRA DA CUNHA"/>
+			<field name="inventor" value="REINALDO BERTOLA CANTARUTTI"/>
+			<field name="inventor" value="WALTER ANTONIO PEREIRA ABRAHAO"/>
+			<field name="inventor" value="WEDISSON OLIVEIRA SANTOS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01D5/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C22B3/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para solubilização de potássio em fontes silicatadas por bactérias. o processo de solubilização de fontes silicatadas de potássio (k) por bactérias, acidithiobacillus ferrooxidans e acidithiobacillus thiooxidans, visa à produção de fertilizante potássico de maior reatividade. a técnica possibilita o aproveitamento de fontes de k de baixa reatividade, que atualmente não são utilizadas como fertilizante. é um processo biológico de solubilização de baixo custo e impacto ambiental nulo ou reduzido. a produção atual de fertilizante potássico se dá a partir da exploração de minerais solúvel (sais), de ocorrência restrita. a técnica é uma alternativa para maior oferta de potássio, oriundo de fontes não convencionais e de ampla ocorrência no mundo (silicatos de potássio)."/>
+			<field name="originatesFrom" value="56080768"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013021395"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013021395"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013021395"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131021395"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013021395"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31092" type="Person">
+			<semanticIdentifier>lattes::8833969610015322</semanticIdentifier>
+			<field name="identifier.lattes" value="8833969610015322"/>
+			<field name="name" value="Walter Antônio Pereira Abrahão"/>
+		</entity>
+		<entity ref="OrgUnit24385" type="OrgUnit">
+			<semanticIdentifier>brcris::ac0ffefbdce1729b9727564228aac37b</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit24386" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45505" toEntityRef="Person31092" type="Inventor"/>
+		<relation fromEntityRef="Patent45505" toEntityRef="OrgUnit24385" type="Applicant"/>
+		<relation fromEntityRef="Patent45505" toEntityRef="OrgUnit24386" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:29" record="32275" source="Espacenet">
+	<entities>
+		<entity ref="Patent32275" type="Patent">
+			<semanticIdentifier>brcris::51b1fabda4605b47822b9ff8444be244</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9400746A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9400746</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9400746A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949400746</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9400746"/>
+			<field name="identifier.lattes" value="1691882914063691"/>
+			<field name="identifier.espacenet" value="9400746"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de síntese de partículas ocas de fosfato de alumínio"/>
+			<field name="title.lattes" value="PROCESSO DE SÍNTESE DE PARTÍCULAS OCAS DE FOSFATO DE ALUMÍNIO"/>
+			<field name="depositDate" value="1994-03-15"/>
+			<field name="publicationDate" value="1995-10-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BEPPU MARISA MASUMI"/>
+			<field name="inventor" value="FERNANDO GALEMBECK"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09C1/40AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="originatesFrom" value="4058389"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9400746"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9400746"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9400746"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949400746"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22177" type="Person">
+			<semanticIdentifier>lattes::1691882914063691</semanticIdentifier>
+			<field name="identifier.lattes" value="1691882914063691"/>
+			<field name="name" value="Marisa Masumi Beppu"/>
+		</entity>
+		<entity ref="OrgUnit17360" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32275" toEntityRef="Person22177" type="Inventor"/>
+		<relation fromEntityRef="Patent32275" toEntityRef="OrgUnit17360" type="Applicant"/>
+	</relations>
+</entity-relation-data>

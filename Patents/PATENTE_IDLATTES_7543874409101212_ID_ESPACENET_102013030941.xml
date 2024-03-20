@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:35:05" record="45112" source="Espacenet">
+	<entities>
+		<entity ref="Patent45112" type="Patent">
+			<semanticIdentifier>brcris::81162d974b9d8cc0f5abd0bf72c7111a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013030941A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013030941</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013030941A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131030941</semanticIdentifier>
+			<semanticIdentifier>original::102013030941</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013030941"/>
+			<field name="identifier.lattes" value="7543874409101212"/>
+			<field name="identifier.espacenet" value="102013030941"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método automatizado para a detecção de bankers"/>
+			<field name="title.lattes" value="Método automatizado para a detecção de bankers"/>
+			<field name="depositDate" value="2013-11-28"/>
+			<field name="publicationDate" value="2015-11-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE RICARDO ABED GREGIO"/>
+			<field name="inventor" value="DARIO SIMOES FERNANDES FILHO"/>
+			<field name="inventor" value="PAULO LICIO DE GEUS"/>
+			<field name="inventor" value="VICTOR FURUSE MARTINS"/>
+			<field name="inventor" value="VITOR MONTE AFONSO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F21/56AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="56AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método automatizado para a detecção de bankers. a presente invenção refere-se a um método automatizado para a detecção de bankers e recursos comprometidos (endereços ip e contas de e-mail) em decorrência de uma infecção por esse tipo de malware. mais especificamente, a detecção é realizada durante a execução do malware e combina técnicas de similaridade visual, correspondência de padrões de tráfego de rede e monitoração do sistema de arquivos da máquina vítima. a invenção se insere na indústria eletrônica e está associada a segurança da informação."/>
+			<field name="originatesFrom" value="54543572"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013030941"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013030941"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013030941"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131030941"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013030941"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30873" type="Person">
+			<semanticIdentifier>lattes::7543874409101212</semanticIdentifier>
+			<field name="identifier.lattes" value="7543874409101212"/>
+			<field name="name" value="Vitor Monte Afonso"/>
+		</entity>
+		<entity ref="OrgUnit24220" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45112" toEntityRef="Person30873" type="Inventor"/>
+		<relation fromEntityRef="Patent45112" toEntityRef="OrgUnit24220" type="Applicant"/>
+	</relations>
+</entity-relation-data>

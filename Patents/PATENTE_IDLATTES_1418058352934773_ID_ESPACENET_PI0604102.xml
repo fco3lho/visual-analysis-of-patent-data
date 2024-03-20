@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:31" record="20405" source="Espacenet">
+	<entities>
+		<entity ref="Patent20405" type="Patent">
+			<semanticIdentifier>brcris::ca6e1379be5622aae05eb38d14f05df4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604102A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0604102</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0604102A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI04102</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0604102-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0604102"/>
+			<field name="identifier.lattes" value="1418058352934773"/>
+			<field name="identifier.espacenet" value="PI0604102"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de interpretação de dados termogravimétricos utilizando técnicas de inteligência artificial"/>
+			<field name="title.lattes" value="(Patente Concedida) PI06041027 - Processo de interpretação de dados termogravimétricos utilizando técnicas de inteligência artificial (Concedida em 26/02/2019)"/>
+			<field name="depositDate" value="2006-08-04"/>
+			<field name="publicationDate" value="2008-03-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GEISON VOGA PEREIRA"/>
+			<field name="inventor" value="JADSON CLAUDIO BELCHIOR"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01G7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N25/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06N3/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G06N7/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="5"/>
+				<field name="text" value="G16C20/60AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE INTERPRETAçãO DE DADOS TERMOGRAVIMéTRICOS UTILIZANDO TéCNICAS DE INTELIGêNCIA ARTIFICIAL A presente invenção apresenta uma metodologia capaz de auxiliar analistas a interpretar curvas termogravimétricas. O processo de interpretação consiste em fragmentar a molécula estudada em estruturas que apresentam o número de oxidação (NOX) igual a zero utilizando busca em bancos de dados e um conjunto de regras heurísticas. A interpretação da curva TG/DTG ocorre com a associação dos fragmentos selecionadas às perdas de massa de forma a obter o menor erro em cada atribuição e no processo global."/>
+			<field name="originatesFrom" value="39186916"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604102"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0604102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0604102"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI04102"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0604102-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14168" type="Person">
+			<semanticIdentifier>lattes::1418058352934773</semanticIdentifier>
+			<field name="identifier.lattes" value="1418058352934773"/>
+			<field name="name" value="Jadson Cláudio Belchior"/>
+		</entity>
+		<entity ref="OrgUnit11097" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20405" toEntityRef="Person14168" type="Inventor"/>
+		<relation fromEntityRef="Patent20405" toEntityRef="OrgUnit11097" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:39" record="6684" source="Espacenet">
+	<entities>
+		<entity ref="Patent6684" type="Patent">
+			<semanticIdentifier>brcris::9de968267dd93b9c0a18515a8cdab90d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015016831A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015016831</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015016831A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151016831</semanticIdentifier>
+			<semanticIdentifier>original::102015016831</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015016831"/>
+			<field name="identifier.lattes" value="7874711978008054"/>
+			<field name="identifier.espacenet" value="102015016831"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="arquitetura segura para sistemas embarcados"/>
+			<field name="title.lattes" value="Arquitetura Segura para Sistemas Embarcados"/>
+			<field name="depositDate" value="2015-07-14"/>
+			<field name="publicationDate" value="2017-01-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAIO HOFFMAN"/>
+			<field name="inventor" value="GUIDO COSTA SOUZA DE ARAUJO"/>
+			<field name="inventor" value="MARIO LUCIO CORTES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F21/52AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="52AI"/>
+			</field>
+			<field name="abstract.espacenet" value="arquitetura segura para sistemas embarcados a presente invenção diz respeito a uma arquitetura segura de autenticação e verificação de integridade de linhas de memória cache por meio de pufs para sistemas embarcados e tem a finalidade de evitar inserção de código malicioso nestes sistemas. assim, ela protege a integridade de código e dados e possibilita a detecção de qualquer eventual alteração nos programas de um sistema embarcado (incluindo o sistema operacional, quando presente). ela se insere no campo de sistemas de computadores, mais especificamente na arquitetura de sistemas embarcados e na segurança da informação."/>
+			<field name="originatesFrom" value="57756589"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015016831"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015016831"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015016831"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151016831"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015016831"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017008133"/>
+		</entity>
+		<entity ref="Person4460" type="Person">
+			<semanticIdentifier>lattes::7874711978008054</semanticIdentifier>
+			<field name="identifier.lattes" value="7874711978008054"/>
+			<field name="name" value="Caio Hoffman"/>
+		</entity>
+		<entity ref="OrgUnit3515" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent6685" type="Patent">
+			<semanticIdentifier>epodoc::WO2017008133</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="57756589"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017008133"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6684" toEntityRef="Person4460" type="Inventor"/>
+		<relation fromEntityRef="Patent6684" toEntityRef="OrgUnit3515" type="Applicant"/>
+	</relations>
+</entity-relation-data>

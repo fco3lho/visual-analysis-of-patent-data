@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:05" record="35574" source="Espacenet">
+	<entities>
+		<entity ref="Patent35574" type="Patent">
+			<semanticIdentifier>brcris::1a3a97f4972b735046f083b0204afef3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8702768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8702768</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8702768A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19878702768</semanticIdentifier>
+			<semanticIdentifier>original::8702768</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8702768"/>
+			<field name="identifier.lattes" value="1739245356818264"/>
+			<field name="identifier.espacenet" value="8702768"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PROCESSO E EQUIPAMENTO PARA DETERMINACAO DA SUSCETIBILIDADE A FORMACAO DE DEFEITOS CAUSADOS PELO HIDROGENIO EM PRODUTOS METALICOS ESMALTADOS"/>
+			<field name="title.lattes" value="Processo e Equipamento para Determinação da Suscetibilidade à Formação de Defeitos Causados pelo Hidrogênio em Produtos Metálicos Esmaltados"/>
+			<field name="depositDate" value="1987-05-29"/>
+			<field name="publicationDate" value="1988-12-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DILSON SILVA DOS SANTOS"/>
+			<field name="inventor" value="PAULO EMILIO VALDAO DE MIRANDA"/>
+			<field name="applicant" value="COMPANHIA SIDERURGICA PAULISTA - COSIPA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/61AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="61AI"/>
+			</field>
+			<field name="originatesFrom" value="4042335"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8702768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8702768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8702768"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19878702768"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8702768"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24498" type="Person">
+			<semanticIdentifier>lattes::1739245356818264</semanticIdentifier>
+			<field name="identifier.lattes" value="1739245356818264"/>
+			<field name="name" value="Paulo Emílio Valadão de Miranda"/>
+		</entity>
+		<entity ref="OrgUnit19241" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35574" toEntityRef="Person24498" type="Inventor"/>
+		<relation fromEntityRef="Patent35574" toEntityRef="OrgUnit19241" type="Applicant"/>
+	</relations>
+</entity-relation-data>

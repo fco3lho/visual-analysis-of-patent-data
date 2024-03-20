@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:08" record="685" source="Espacenet">
+	<entities>
+		<entity ref="Patent685" type="Patent">
+			<semanticIdentifier>brcris::652f16109ded7d7bc130ca20902829cd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014000068A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014000068</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014000068A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141000068</semanticIdentifier>
+			<semanticIdentifier>original::102014000068</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014000068"/>
+			<field name="identifier.lattes" value="9543682747765614"/>
+			<field name="identifier.espacenet" value="102014000068"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="disposição construtiva aplicada em sistema de aquisição de dados de inclinação"/>
+			<field name="title.lattes" value="DISPOSIÇÃO CONSTRUTIVA APLICADA EM SISTEMA DE AQUISIÇÃO DE DADOS DE INCLINAÇÃO"/>
+			<field name="depositDate" value="2014-01-03"/>
+			<field name="publicationDate" value="2015-11-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO LUIS TOAZZA"/>
+			<field name="inventor" value="FRANCISCO DALLA ROSA"/>
+			<field name="inventor" value="RODRIGO SIQUEIRA PENZ"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01C9/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo disposição construtiva aplicada em sistema de aquisição de dados de inclinação um instrumento bastante conhecido para medições de movimentos em taludes é o inclinômetro, que especificamente realiza medições da inclinação de sua sonda em relação a vertical gravitacional, segmentando a profundidade do tubo guia em trechos de reta definidas pela distância entre os rodízios da sonda. a solução presente propõe uma nova disposição a ser implementada nesses dispositivos, gerando atributos como redução da distância de segmentação da profundidade do tubo guia para 0,15m, por consequência, aumentando a quantidade de medições ao longo do trecho medido. além disso, a partir da solução presente, é possível realizar a medição automática da profundidade da sonda, propiciando a medição em conjunto da profundidade da sonda e os ângulos em que a mesma se encontra, obtendo os valores das medições com a sonda em movimento. o sistema ainda dispensa a necessidade de uma interface de usuário específica, sendo esta constituída por um computador pessoal e um programa de interface, que realiza a captura de todas as medições e disponibiliza os resultados em um arquivo com extensão .csv . 1/1"/>
+			<field name="originatesFrom" value="54548817"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014000068"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014000068"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014000068"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141000068"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014000068"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person489" type="Person">
+			<semanticIdentifier>lattes::9543682747765614</semanticIdentifier>
+			<field name="identifier.lattes" value="9543682747765614"/>
+			<field name="name" value="Adriano Luís Toazza"/>
+		</entity>
+		<entity ref="OrgUnit436" type="OrgUnit">
+			<semanticIdentifier>brcris::9bb3731112d7e4b09168df4b2da2dc8c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE PASSO FUNDO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent685" toEntityRef="Person489" type="Inventor"/>
+		<relation fromEntityRef="Patent685" toEntityRef="OrgUnit436" type="Applicant"/>
+	</relations>
+</entity-relation-data>

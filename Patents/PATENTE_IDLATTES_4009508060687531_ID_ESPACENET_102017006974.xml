@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:24" record="33678" source="Espacenet">
+	<entities>
+		<entity ref="Patent33678" type="Patent">
+			<semanticIdentifier>brcris::26d20f6139293a69aa5389a84d46db62</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017006974A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017006974</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017006974A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171006974</semanticIdentifier>
+			<semanticIdentifier>original::102017006974</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017006974"/>
+			<field name="identifier.lattes" value="4009508060687531"/>
+			<field name="identifier.espacenet" value="102017006974"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e aparato aplicado a redes de acesso ópticas"/>
+			<field name="title.lattes" value="SISTEMA E APARATO APLICADO A REDES DE ACESSO ÓPTICAS"/>
+			<field name="depositDate" value="2017-04-05"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MURILO ARAUJO ROMERO"/>
+			<field name="inventor" value="ULYSSES RONDINA DUARTE"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04J14/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04B10/27AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="27AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um sistema e um aparato aplicado a redes de acesso ópticas, o qual prevê que tais redes sejam multiplexadas em comprimento de onda com sinais autoalimentados e multiplexados em polarizações ortogonais, que provê meios para gerar um conjunto de sinais downstream e upstream autoalimentados, meios para remodular esse conjunto de sinais downstream autoalimentados, meios para transmitir esse conjunto de sinais multiplexados em polarizações distintas pela rede e meios para detectar ambos os sinais downstream e upstream. o uso do referido sistema aplicado a redes de acesso ópticas multiplexadas em comprimento de onda com sinais autoalimentados e multiplexados em polarizações ortogonais oferece como vantagem a redução do impacto do retroespalhamento rayleigh nos sinais da rede e aumento do orçamento de potência da rede. permite também o funcionamento/operação dos transmissores refletivos de forma independentemente da condição dos aparatos localizados na estação central, bem como o funcionamento/operação independente/individual de cada transmissor refletivo. adicionalmente, permite a alocação de um mesmo comprimento de onda para o par de sinais subida/descida por usuário. além disso, é possível dobrar a capacidade de agregação da rede em virtude do emprego da multiplexação de polarizações ortogonais."/>
+			<field name="originatesFrom" value="64269096"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017006974"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017006974"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017006974"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171006974"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017006974"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23185" type="Person">
+			<semanticIdentifier>lattes::4009508060687531</semanticIdentifier>
+			<field name="identifier.lattes" value="4009508060687531"/>
+			<field name="name" value="Murilo Araujo Romero"/>
+		</entity>
+		<entity ref="OrgUnit18123" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33678" toEntityRef="Person23185" type="Inventor"/>
+		<relation fromEntityRef="Patent33678" toEntityRef="OrgUnit18123" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:15" record="20943" source="Espacenet">
+	<entities>
+		<entity ref="Patent20943" type="Patent">
+			<semanticIdentifier>brcris::42511f486c58895a6e255d3e5eb14f65</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905581A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905581</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905581A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05581</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905581-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905581"/>
+			<field name="identifier.lattes" value="7580011219789716"/>
+			<field name="identifier.espacenet" value="PI0905581"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="circuito para coleta de embriões pela via transcervical em caprinos e ovinos"/>
+			<field name="title.lattes" value="Circuito para coleta de embriões pela via transcervical em caprinos e ovinos."/>
+			<field name="depositDate" value="2009-12-17"/>
+			<field name="publicationDate" value="2011-08-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEFERSON FERREIRA DA FONSECA"/>
+			<field name="inventor" value="JOSE HENRIQUE BRUSCHI"/>
+			<field name="inventor" value="PAULO MAGNUS CABRAL DE BARROS"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA EMBRAPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61D19/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CIRCUITO PARA COLETA DE EMBRIõES PELA VIA TRANSCERVICAL EM CAPRINOS E OVINOS.&lt;D&gt; A presente invenção refere-se a um sistema para coleta de embriões pela via transcervical, desenvolvido especificamente para animais ruminantes de pequeno porte. Mais particularmente, o referido sistema é provido de dispositivos que impedem o contato com o meio externo durante a manipulação do processo, protegendo os embriões e os animais (doadoras de embriões) de contaminações ambientais, bem como de um dispositivo provido com uma dupla via de fluxo permitindo a troca de sentido da infusão uterina com um simples toque. Adicionalmente, refere-se ainda a presente invenção a um processo para coleta de embriões."/>
+			<field name="originatesFrom" value="44166662"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905581"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905581"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05581"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905581-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2011072354"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2011072354"/>
+		</entity>
+		<entity ref="Person14501" type="Person">
+			<semanticIdentifier>lattes::7580011219789716</semanticIdentifier>
+			<field name="identifier.lattes" value="7580011219789716"/>
+			<field name="name" value="Jeferson Ferreira da Fonseca"/>
+		</entity>
+		<entity ref="OrgUnit11369" type="OrgUnit">
+			<semanticIdentifier>brcris::326de4f72282a1beacca444a0954c0e6</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA EMBRAPA"/>
+		</entity>
+		<entity ref="Patent20944" type="Patent">
+			<semanticIdentifier>epodoc::WO2011072354</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="44166662"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2011072354"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent20945" type="Patent">
+			<semanticIdentifier>epodoc::WO2011072354</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="44166662"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2011072354"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20943" toEntityRef="Person14501" type="Inventor"/>
+		<relation fromEntityRef="Patent20943" toEntityRef="OrgUnit11369" type="Applicant"/>
+	</relations>
+</entity-relation-data>

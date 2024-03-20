@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:48" record="21990" source="Espacenet">
+	<entities>
+		<entity ref="Patent21990" type="Patent">
+			<semanticIdentifier>brcris::27af3894cb371e7a1eb41fdffe69b956</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006187A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016006187</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016006187A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161006187</semanticIdentifier>
+			<semanticIdentifier>original::102016006187</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016006187"/>
+			<field name="identifier.lattes" value="9741556273709360"/>
+			<field name="identifier.espacenet" value="102016006187"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de preparação de composto de asfalto modificado com madeira e seu uso"/>
+			<field name="title.lattes" value="PROCESSO DE PREPARAÇÃO DE COMPOSTO DE ASFALTO MODIFICADO COM MADEIRA E SEU USO"/>
+			<field name="depositDate" value="2016-03-21"/>
+			<field name="publicationDate" value="2017-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARMEN GILDA BARROSO TAVARES DIAS"/>
+			<field name="inventor" value="JOHNNY GILBERTO MORAES COELHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08L95/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="95"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C10C3/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de preparação de composto de asfalto modificado com madeira e seu uso. além da utilização intensiva dos recursos naturais, os rejeitos dos processos produtivos lançados no meio ambiente resultaram no acúmulo de poluentes acima da sua capacidade de suporte, gerando a poluição. devido à grande demanda de veículos nas grandes cidades, a necessidade das camadas asfálticas suportarem maiores tensões é cada vez mais necessária. a adição de fibras naturais para modificar asfaltos e dar suporte ao pavimento asfáltico vem se tornando cada vez mais comum. a presente invenção consiste na confecção de um composto para camada de rolamentos asfálticos, onde a inserção da madeira dura e areia quartzosa em matriz elastomérica, pó de borracha, obtém-se um composto com melhores propriedades mecânicas que em asfalto convencional. desta forma, o composto obtido pode ser empregado na construção civil (revestimento betuminosos) através da mistura a quente do composto com o ligante via úmida, mantendo a fração de materiais para aplicação em pavimentos asfálticos in situ."/>
+			<field name="originatesFrom" value="62027711"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006187"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016006187"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016006187"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161006187"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016006187"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15199" type="Person">
+			<semanticIdentifier>lattes::9741556273709360</semanticIdentifier>
+			<field name="identifier.lattes" value="9741556273709360"/>
+			<field name="name" value="Johnny Gilberto Moraes Coelho"/>
+		</entity>
+		<entity ref="OrgUnit11876" type="OrgUnit">
+			<semanticIdentifier>brcris::42afeb3d303bfc80f672242070a7c5c1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21990" toEntityRef="Person15199" type="Inventor"/>
+		<relation fromEntityRef="Patent21990" toEntityRef="OrgUnit11876" type="Applicant"/>
+	</relations>
+</entity-relation-data>

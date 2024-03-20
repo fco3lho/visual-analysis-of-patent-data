@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:40" record="22585" source="Espacenet">
+	<entities>
+		<entity ref="Patent22585" type="Patent">
+			<semanticIdentifier>brcris::4ff3ab2787b5be852ad9fe53f166d288</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503365A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0503365</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503365A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI03365</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0503365-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0503365"/>
+			<field name="identifier.lattes" value="0108626756702152"/>
+			<field name="identifier.espacenet" value="PI0503365"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema de visão estério omnidirecional"/>
+			<field name="title.lattes" value="Sistema de Visão Estéreo Omnidirecional"/>
+			<field name="depositDate" value="2005-08-11"/>
+			<field name="publicationDate" value="2007-03-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIA CRISTINA GHIRARDELLO DECCO"/>
+			<field name="inventor" value="EDUARDO LOBO LUSTOSA CABRAL"/>
+			<field name="inventor" value="JOSE CARLOS DE SOUZA JUNIOR"/>
+			<field name="inventor" value="MARCOS COSTA HUNOLD"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03B35/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04N13/236AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="236AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA DE VISãO ESTéREO OMNIDIRECIONAL&quot;. Compreendido pela associação de um espelho (E) duplo de duas seções coaxiais com perfis hiperbólicos e uma câmera (C), onde o perfil hiperbólico das duas seções do espelho (E) apresenta um centro único de projeção, permitindo que com equações simples promova-se o mapeamento de um ponto do espaço no plano da imagem da câmera (C). Esse sistema é caracterizado pelo fato das duas seções do espelho (E) duplo terem o mesmo campo de visão e gerarem imagens de mesma resolução radial. A mesma resolução e mesmo campo de visão são obtidos com a rotação do eixo do perfil da seção externa do espelho (E). A partir de uma única imagem obtida pelo sistema de visão estéreo omnidirecional, utilizando-se algoritmos computacionais de visão estéreo, realizar-se a reconstrução tridimensional da referida imagem."/>
+			<field name="originatesFrom" value="37882484"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503365"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0503365"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503365"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI03365"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0503365-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15590" type="Person">
+			<semanticIdentifier>lattes::0108626756702152</semanticIdentifier>
+			<field name="identifier.lattes" value="0108626756702152"/>
+			<field name="name" value="José Carlos de Souza Junior"/>
+		</entity>
+		<entity ref="OrgUnit12108" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit12109" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22585" toEntityRef="Person15590" type="Inventor"/>
+		<relation fromEntityRef="Patent22585" toEntityRef="OrgUnit12108" type="Applicant"/>
+		<relation fromEntityRef="Patent22585" toEntityRef="OrgUnit12109" type="Applicant"/>
+	</relations>
+</entity-relation-data>

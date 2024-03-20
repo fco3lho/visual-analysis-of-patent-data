@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:31" record="34273" source="Espacenet">
+	<entities>
+		<entity ref="Patent34273" type="Patent">
+			<semanticIdentifier>brcris::4e6ec48bd74f2190430b6790899857bc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9005124A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9005124</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9005124A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19909005124</semanticIdentifier>
+			<semanticIdentifier>original::90 9005124</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9005124"/>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="identifier.espacenet" value="9005124"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="SISTEMA DE POSICIONAMENTO AUTOMATICO DE CAMARA DE TV,ACOPLADO A MANIPULADOR ROBOTICO"/>
+			<field name="title.lattes" value="Sistema articulado de posicionamento automático de câmera de tv, acoplado a um manipulador robótico"/>
+			<field name="depositDate" value="1990-10-12"/>
+			<field name="publicationDate" value="1992-06-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="NEY ROBINSON SALVI DOS REIS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B25J13/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B25J19/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G05B19/048AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="048AI"/>
+			</field>
+			<field name="originatesFrom" value="4050507"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9005124"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9005124"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9005124"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19909005124"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="90 9005124"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23580" type="Person">
+			<semanticIdentifier>lattes::3081579709776289</semanticIdentifier>
+			<field name="identifier.lattes" value="3081579709776289"/>
+			<field name="name" value="Ney Robinson Salvi dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit18481" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34273" toEntityRef="Person23580" type="Inventor"/>
+		<relation fromEntityRef="Patent34273" toEntityRef="OrgUnit18481" type="Applicant"/>
+	</relations>
+</entity-relation-data>

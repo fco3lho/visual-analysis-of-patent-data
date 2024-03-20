@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:34" record="19143" source="Espacenet">
+	<entities>
+		<entity ref="Patent19143" type="Patent">
+			<semanticIdentifier>brcris::ad09b9e60346e3aab828fde0ad15242a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7400597U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7400597U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR7400597U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR7400597U</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=7400597"/>
+			<field name="identifier.lattes" value="4207654633496984"/>
+			<field name="identifier.espacenet" value="7400597"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="Detector de saturação em equipamentos de proteção respiratória"/>
+			<field name="title.lattes" value="Detector de saturação em equipamentos de proteção respiratória"/>
+			<field name="depositDate" value="1994-03-21"/>
+			<field name="publicationDate" value="1995-10-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HERCULES ROMUALDO DIAS"/>
+			<field name="inventor" value="JADER LUIZ AMORIM"/>
+			<field name="inventor" value="MARTINS ALEXANDRE FRAGOSO"/>
+			<field name="applicant" value="COMPANHIA VALE DO RIO DOCE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A62B18/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="62"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="originatesFrom" value="3990285"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7400597"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7400597U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="7400597"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR7400597U"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13288" type="Person">
+			<semanticIdentifier>lattes::4207654633496984</semanticIdentifier>
+			<field name="identifier.lattes" value="4207654633496984"/>
+			<field name="name" value="Hercules Romualdo Dias"/>
+		</entity>
+		<entity ref="OrgUnit10391" type="OrgUnit">
+			<semanticIdentifier>brcris::6fd3c47d876ced8ce3eab4ad31be37d0</semanticIdentifier>
+			<field name="name" value="COMPANHIA VALE DO RIO DOCE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19143" toEntityRef="Person13288" type="Inventor"/>
+		<relation fromEntityRef="Patent19143" toEntityRef="OrgUnit10391" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:23" record="31823" source="Espacenet">
+	<entities>
+		<entity ref="Patent31823" type="Patent">
+			<semanticIdentifier>brcris::d98bc3b2fa13ff653babf959217bf6a2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018009043A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018009043</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018009043A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181009043</semanticIdentifier>
+			<semanticIdentifier>original::102018009043</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018009043"/>
+			<field name="identifier.lattes" value="2202435848568755"/>
+			<field name="identifier.espacenet" value="102018009043"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de escalonamento de processos químicos, distribuidor cônico de fluido, estrutura de suporte de milirreatores e milirreator"/>
+			<field name="title.lattes" value="SISTEMA DE ESCALONAMENTO DE PROCESSOS QUÍMICOS, DISTRIBUIDOR CÔNICO DE FLUIDO, ESTRUTURA DE SUPORTE DE MILIRREATORES E MILIRREATOR"/>
+			<field name="depositDate" value="2018-05-04"/>
+			<field name="publicationDate" value="2019-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FELIPE NEVES RUSSO"/>
+			<field name="inventor" value="HARRSON SILVA SANTANA"/>
+			<field name="inventor" value="JOAO LAMEU DA SILVA JUNIOR"/>
+			<field name="inventor" value="MARCOS VENICIUS RAMOS ESTEVOM"/>
+			<field name="inventor" value="MARIANA GARCIA MENDONCA LOPES"/>
+			<field name="inventor" value="OSVALDIR PEREIRA TARANTO"/>
+			<field name="inventor" value="VINICIUS FELIX ANDOLPHATO"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS - IFSULDEMINAS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01F5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01F5/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="B01J19/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um sistema de escalonamento de processos químicos que proporciona a paralelização de fluido e o uso de uma pluralidade de milirreatores em um processo químico, um distribuidor cônico de fluido (1) fabricado por manufatura aditiva que recebe e distribui fluidos, uma estrutura de suporte para milirreator que acomoda uma pluralidade de milirreatores e um milirreator (5), voltados à ampliação do volume de fluido em reações e processos químicos."/>
+			<field name="originatesFrom" value="68531045"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018009043"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018009043"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018009043"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181009043"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018009043"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21836" type="Person">
+			<semanticIdentifier>lattes::2202435848568755</semanticIdentifier>
+			<field name="identifier.lattes" value="2202435848568755"/>
+			<field name="name" value="Mariana Garcia Mendonça Lopes"/>
+		</entity>
+		<entity ref="OrgUnit17079" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31823" toEntityRef="Person21836" type="Inventor"/>
+		<relation fromEntityRef="Patent31823" toEntityRef="OrgUnit17079" type="Applicant"/>
+	</relations>
+</entity-relation-data>

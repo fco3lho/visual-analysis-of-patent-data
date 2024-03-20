@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:30" record="32729" source="Espacenet">
+	<entities>
+		<entity ref="Patent32729" type="Patent">
+			<semanticIdentifier>brcris::a05416b5083811a2fe9fae4b88813d2b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012004199A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012004199</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012004199A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121004199</semanticIdentifier>
+			<semanticIdentifier>original::102012004199</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012004199"/>
+			<field name="identifier.lattes" value="4398935552883378"/>
+			<field name="identifier.espacenet" value="102012004199"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="eletrômetro multicanal para detectores de radiação"/>
+			<field name="title.lattes" value="Eletrômetro Multicanal para Detectores de Radiação"/>
+			<field name="depositDate" value="2012-02-27"/>
+			<field name="publicationDate" value="2016-10-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCIO BOTTARO"/>
+			<field name="inventor" value="MAURICIO MORALLES"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR CNEN"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01D3/028AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="028AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01D3/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01R13/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="eletrômetro multicanal para detectores de radiação a presente invenção revela um eletrômetro com circuito eletrônico de boa portabilidade, garantindo aplicação para uso em campo, capaz de medir correntes de ultra baixa intensidade (femtoamperes até nanoamperes), proveniente de um ou muitos detectores (transdutores) de radiação ionizante ou sistemas de processamento prévio de sinais provenientes de detectores (transdutores), dispostos unicamente (um elemento) ou paralelamente (vários elementos) conectados, através de condutores elétricos conduzindo diretamente correntes de ultra baixa intensidade, ou cada elemento, conectado através de condutores elétricos conduzindo diretamente correntes de ultra baixa intensidade, a um conversor que transmite os dados digitalmente a um processador central por conexão direta ou por circuito sem fio. o eletrômetro apresenta ainda uma fonte de alimentação com estabilidade da tensão de saída melhor que 0,01% e sistemas eletrônicos para medição da temperatura e pressão atmosférica, utilizados nas correções dos dados de correntes coletadas no volume específico do(s) detector(es) utilizados."/>
+			<field name="originatesFrom" value="57127828"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012004199"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012004199"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012004199"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121004199"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012004199"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22515" type="Person">
+			<semanticIdentifier>lattes::4398935552883378</semanticIdentifier>
+			<field name="identifier.lattes" value="4398935552883378"/>
+			<field name="name" value="Mauricio Moralles"/>
+		</entity>
+		<entity ref="OrgUnit17616" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32729" toEntityRef="Person22515" type="Inventor"/>
+		<relation fromEntityRef="Patent32729" toEntityRef="OrgUnit17616" type="Applicant"/>
+	</relations>
+</entity-relation-data>

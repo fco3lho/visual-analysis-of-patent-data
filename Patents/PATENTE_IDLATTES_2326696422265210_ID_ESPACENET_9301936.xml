@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:33:11" record="44706" source="Espacenet">
+	<entities>
+		<entity ref="Patent44706" type="Patent">
+			<semanticIdentifier>brcris::17f71ae94f6b4d69c695088641c09b6e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301936A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9301936</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301936A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939301936</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9301936"/>
+			<field name="identifier.lattes" value="2326696422265210"/>
+			<field name="identifier.espacenet" value="9301936"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para determinação de contaminação microbiana em tanques de armazenagem de derivados de petróleo e conjunto de reagentes para executar a referida determinação"/>
+			<field name="title.lattes" value="Processo para determinação de contaminação microbiana em tanques de armazenagem de derivados de petroleo e conjunto de reagentes para executar a referida determinação"/>
+			<field name="depositDate" value="1993-05-19"/>
+			<field name="publicationDate" value="1994-11-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELIANE SANTOS ASSUMPCAO VENTURA"/>
+			<field name="inventor" value="ELISABETE GASPAR CALAZANS RODRIQUES"/>
+			<field name="inventor" value="MARIA AMALIA LIMA FURTADO"/>
+			<field name="inventor" value="VERA LUCIA CORTES GOMES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="originatesFrom" value="4056467"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301936"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9301936"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301936"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939301936"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30577" type="Person">
+			<semanticIdentifier>lattes::2326696422265210</semanticIdentifier>
+			<field name="identifier.lattes" value="2326696422265210"/>
+			<field name="name" value="Vera Lucia Cortes Gomes"/>
+		</entity>
+		<entity ref="OrgUnit23980" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44706" toEntityRef="Person30577" type="Inventor"/>
+		<relation fromEntityRef="Patent44706" toEntityRef="OrgUnit23980" type="Applicant"/>
+	</relations>
+</entity-relation-data>

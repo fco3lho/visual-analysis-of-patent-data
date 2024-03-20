@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:24" record="15252" source="Espacenet">
+	<entities>
+		<entity ref="Patent15252" type="Patent">
+			<semanticIdentifier>brcris::85baaffeb081a1f56d522e643db9e873</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000319A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1000319</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1000319A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI00319</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1000319-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1000319"/>
+			<field name="identifier.lattes" value="6792719126173791"/>
+			<field name="identifier.espacenet" value="PI1000319"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de controle para sistema de armazenamento de energia elétrica hìbrido"/>
+			<field name="title.lattes" value="Método de Controle para Sistema de Armazenamento de Energia Elétrica Híbrido"/>
+			<field name="depositDate" value="2010-02-17"/>
+			<field name="publicationDate" value="2011-10-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE AUGUSTO FERREIRA"/>
+			<field name="inventor" value="FELLIPE SALDANHA GARCIA"/>
+			<field name="inventor" value="JOSE ANTENOR POMILIO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B60L15/10AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B60L50/40AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="50"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE CONTROLE PARA SISTEMA DE ARMAZENAMENTO DE ENERGIA ELéTRICA HìBRIDO. A presente invenção trata de um método de controle para um sistema de armazenamento de energia elétrica híbrido composto por bateria e ultracapacitor. O método tem como finalidade o controle de conversores eletrónicos de modo a realizar a divisão da demanda de potência entre as os dispositivos de armazenamento de forma a melhorar o desempenho (por exemplo, aceleração e autonomia se aplicada em um veículo elétrico) e a vida útil das baterias."/>
+			<field name="originatesFrom" value="44707852"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000319"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1000319"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1000319"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI00319"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1000319-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10583" type="Person">
+			<semanticIdentifier>lattes::6792719126173791</semanticIdentifier>
+			<field name="identifier.lattes" value="6792719126173791"/>
+			<field name="name" value="Fellipe Saldanha Garcia"/>
+		</entity>
+		<entity ref="OrgUnit8259" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15252" toEntityRef="Person10583" type="Inventor"/>
+		<relation fromEntityRef="Patent15252" toEntityRef="OrgUnit8259" type="Applicant"/>
+	</relations>
+</entity-relation-data>

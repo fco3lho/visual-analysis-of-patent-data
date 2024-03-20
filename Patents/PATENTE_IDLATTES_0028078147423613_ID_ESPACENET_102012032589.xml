@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:32" record="39578" source="Espacenet">
+	<entities>
+		<entity ref="Patent39578" type="Patent">
+			<semanticIdentifier>brcris::3bebc3d2f21a3abd9f85172517a2e89e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032589A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032589</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032589A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032589</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 032589-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032589"/>
+			<field name="identifier.lattes" value="0028078147423613"/>
+			<field name="identifier.espacenet" value="102012032589"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO DE ELETRIZAÇÃO DO ALVO E USO NA PULVERIZAÇÃO ELETROSTÁTICA"/>
+			<field name="title.lattes" value="Processo de eletrização do alvo e uso na pulverização eletrostática"/>
+			<field name="depositDate" value="2012-12-20"/>
+			<field name="publicationDate" value="2014-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAURI MARTINS TEIXEIRA"/>
+			<field name="inventor" value="ROBSON SHIGUEAKI SASAKI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01M7/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B05B5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE ELETRIZAÇÃO DO ALVO E USO NA PULVERIZAÇÃO ELETROSTÁTICA. O presente pedido de patente trata-se de um processo de eletrização do alvo que pode ser empregado em sistemas de pulverização eletrostática, podendo tal processo ser utilizado na aplicação de agrotóxicos. Os pulverizadores eletrostáticos convencionais eletrizam somente as gotas a serem aspergidas, já o processo proposto consiste em eletrizar também o alvo, com o auxílio de uma fonte de alta tensão ajustável, corrente contínua (positiva e/ou negativa) e condutores elétricos a serem ligados no alvo. Independentemente do sistema de formação e eletrização da gota, o alvo deve ser eletrizado com carga oposta à das gotas. Este processo ocasiona um aumento na diferença de potencial entre a gota eletrizada e o alvo, com consequente aumento da força elétrica, melhorando a eficiência do sistema eletrostático. O processo proposto pode auxiliar no aumento da disposição de líquido e reduzir o potencial risco dos impactos ambientais durante a pulverização de agrotóxicos."/>
+			<field name="originatesFrom" value="51452993"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032589"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032589"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032589"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032589"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 032589-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26917" type="Person">
+			<semanticIdentifier>lattes::0028078147423613</semanticIdentifier>
+			<field name="identifier.lattes" value="0028078147423613"/>
+			<field name="name" value="Robson Shigueaki Sasaki"/>
+		</entity>
+		<entity ref="OrgUnit21075" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+		<entity ref="OrgUnit21076" type="OrgUnit">
+			<semanticIdentifier>brcris::03e67096a43d145ad30ae279767d4d7a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39578" toEntityRef="Person26917" type="Inventor"/>
+		<relation fromEntityRef="Patent39578" toEntityRef="OrgUnit21075" type="Applicant"/>
+		<relation fromEntityRef="Patent39578" toEntityRef="OrgUnit21076" type="Applicant"/>
+	</relations>
+</entity-relation-data>

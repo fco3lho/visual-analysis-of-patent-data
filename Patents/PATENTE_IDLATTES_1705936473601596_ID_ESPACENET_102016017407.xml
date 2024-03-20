@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:21" record="29114" source="Espacenet">
+	<entities>
+		<entity ref="Patent29114" type="Patent">
+			<semanticIdentifier>brcris::10b68bc20b1dcfc154e91026918639f3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016017407A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016017407</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016017407A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161017407</semanticIdentifier>
+			<semanticIdentifier>original::102016017407</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016017407"/>
+			<field name="identifier.lattes" value="1705936473601596"/>
+			<field name="identifier.espacenet" value="102016017407"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="colhedora automatizada para palhas de palmeiras"/>
+			<field name="title.lattes" value="Colhedora automatizada para palhas de palmeiras"/>
+			<field name="depositDate" value="2016-07-27"/>
+			<field name="publicationDate" value="2018-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALESSANDRO CHIODEROLI"/>
+			<field name="inventor" value="DANIEL ALBIERO"/>
+			<field name="inventor" value="ELIVANIA MARIA SOUSA NACIMENTO"/>
+			<field name="inventor" value="ICARO RAFAEL SOARES DE SOUZA"/>
+			<field name="inventor" value="MARCELO QUEIROZ AMORIM"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01F29/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01D34/412AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="34"/>
+				<field name="subgroup" value="412AI"/>
+			</field>
+			<field name="abstract.espacenet" value="colhedora automatizada para palhas de palmeiras. esta patente trata-se de uma colhedora automatizada para palhas de palmeiras, a qual deverá ser controlada remotamente. a máquina automatizada para colheita de palha será constituída por sistema de elevação da unidade de corte, a qual será composta de rolos recartilhados para fixação e elevação da máquina no tronco da palmeira; sistema de corte de palha que será constituído de arco para inserção da serra, serra flexível e sistema excêntrico para acionamento da mesma permitindo o corte da palha rápido com precisão e rapidez; sistema elétrico composto por placa eletrônica alimentada por baterias e unidade uma unidade de apoio constituída por um reboque para facilitar no deslocamento. o sistema de elevação da unidade de corte será constituído por dois rolos bicônicos de metal recartilhado, os mesmos possuem uma configuração que permite uma melhor fixação ao serem pressionados em torno do tronco. para acionamento dos rolos serão utilizados motores elétricos de corrente continua, permitindo a subida da máquina na palmeira. o sistema de corte da palha será constituído de arco, serra flexível e sistema excêntrico que irá cortar a palha nas direções x e y. para acionamento da serra responsável pelo corte da palha, será utilizado um motor elétrico de corrente continua 60 w, permitindo assim a movimentação da serra em alta frequência, por meio do sistema excêntrico. o sistema elétrico é composto por placa eletrônica e bateria. a placa eletroeletrônica é encarregada de manipular os sistemas atuantes no processo da máquina, para isto, ela conta com relés, borres, chip microcontrolador, shield bluetooth e outros componentes básicos para eletrônica. o reboque para transporte da máquina durante a colheita da palha da palmeira, facilitando o deslocamento da mesma dentro da área onde deverá ser realizada a colheita."/>
+			<field name="originatesFrom" value="61973156"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016017407"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016017407"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016017407"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161017407"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016017407"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20048" type="Person">
+			<semanticIdentifier>lattes::1705936473601596</semanticIdentifier>
+			<field name="identifier.lattes" value="1705936473601596"/>
+			<field name="name" value="Marcelo Queiroz Amorim"/>
+		</entity>
+		<entity ref="OrgUnit15674" type="OrgUnit">
+			<semanticIdentifier>brcris::c5fb71dccb4f1be8e00beb9ade882413</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29114" toEntityRef="Person20048" type="Inventor"/>
+		<relation fromEntityRef="Patent29114" toEntityRef="OrgUnit15674" type="Applicant"/>
+	</relations>
+</entity-relation-data>

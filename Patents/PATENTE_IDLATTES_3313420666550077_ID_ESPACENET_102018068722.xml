@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:35" record="33762" source="Espacenet">
+	<entities>
+		<entity ref="Patent33762" type="Patent">
+			<semanticIdentifier>brcris::585a054bb19f1c0e58abb6c90a199065</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018068722A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018068722</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018068722A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181068722</semanticIdentifier>
+			<semanticIdentifier>original::102018068722</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018068722"/>
+			<field name="identifier.lattes" value="3313420666550077"/>
+			<field name="identifier.espacenet" value="102018068722"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="biossensor óptico para detecção de microrganismos"/>
+			<field name="title.lattes" value="Biossensor óptico para detecção de microrganismos"/>
+			<field name="depositDate" value="2018-09-14"/>
+			<field name="publicationDate" value="2020-03-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARIANO DE GIOVANNI RODRIGUES"/>
+			<field name="inventor" value="BRUNO DA SILVA THOMAZINI"/>
+			<field name="inventor" value="FERNANDO MANUEL ARAUJO MOREIRA"/>
+			<field name="inventor" value="NADJA FERNANDA GONZAGA SERRANO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="abstract.espacenet" value="refere-se a um biossensor, específico para cada microrganismo de interesse, cujo princípio de funcionamento baseia-se na propriedade óptica de fotoluminescência do microrganismo e no uso de peptídeo antimicrobiano específico (que serve como dupla confirmação da presença desse microrganismo), sendo esta uma invenção de baixo custo, quando comparada com as técnicas hoje disponíveis no mercado, e que permite uma rápida e precisa detecção de quaisquer microrganismos de interesse. sendo o biossensor constituído por uma fonte de excitação (1); filtro óptico (2); detector ldr (3); circuito eletrônico (4) e; voltímetro digital (5) para monitoramento, cujos parâmetros são específicos para cada microrganismo que queira ser detectado, associado a um peptídeo antimicrobiano também específico para esse microrganismo em particular."/>
+			<field name="originatesFrom" value="70156206"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018068722"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018068722"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018068722"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181068722"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018068722"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23250" type="Person">
+			<semanticIdentifier>lattes::3313420666550077</semanticIdentifier>
+			<field name="identifier.lattes" value="3313420666550077"/>
+			<field name="name" value="Nadja Fernanda Gonzaga Serrano"/>
+		</entity>
+		<entity ref="OrgUnit18184" type="OrgUnit">
+			<semanticIdentifier>brcris::01bf8bb8899ab63c21b33a5e3d56f51c</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33762" toEntityRef="Person23250" type="Inventor"/>
+		<relation fromEntityRef="Patent33762" toEntityRef="OrgUnit18184" type="Applicant"/>
+	</relations>
+</entity-relation-data>

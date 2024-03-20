@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:32" record="29726" source="Espacenet">
+	<entities>
+		<entity ref="Patent29726" type="Patent">
+			<semanticIdentifier>brcris::5b9472e2135e3327faa5b3599e8c7fa3</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102756A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1102756</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102756A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI02756</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1102756-8 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1102756"/>
+			<field name="identifier.lattes" value="4886106213204362"/>
+			<field name="identifier.espacenet" value="PI1102756"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="AUTO-CONTROLE DE CORRENTE PARA GERADORES ELÉTRICOS TRIFÁSICOS CONECTADOS A RETIFICADORES AUTO-COMUTADOS"/>
+			<field name="title.lattes" value="AUTO-CONTROLE DE CORRENTE PARA GERADORES ELÉTRICOS TRIFÁSICOS CONECTADOS A RETIFICADORES AUTO-COMUTADOS"/>
+			<field name="depositDate" value="2011-06-20"/>
+			<field name="publicationDate" value="2014-04-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL AUGUSTO FIGUEIREDO COLLIER"/>
+			<field name="inventor" value="MARCELO LOBO HELDWEIN"/>
+			<field name="inventor" value="MARCIO SILVEIRA ORTMANN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02P9/44AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R19/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="AUTO-CONTROLE DE CORRENTE PARA GERADORES ELÉTRICOS TRIFÁSICOS CONECTADOS A RETIFICADORES AUTO-COMUTADOS A presente invenção descreve uma forma de implementação de controle de corrente para geradores elétricos trifásicos, em especial geradores síncronos a ímãs permanentes (GSIP), conectados a retificadores auto-comutados que não envolve o uso de sensores mecânicos de posição ou velocidade. Este controle é caracterizado pela utilização de sinais obtidos pela multiplicação de sinais de medição de duas ou mais correntes nos terminais de um gerador elétrico de duas ou mais fases por um valor de ganho que controle direta ou indiretamente o torque e/ou a velocidade e/ou a potência do gerador e pela soma destes sinais com os sinais provenientes do defasamento dos respectivos sinais das medições de corrente nos terminais do gerador em noventa graus elétricos, ou seja, de sinais em quadratura com os respectivos sinais das correntes medidas, multiplicados por valores de ganho fixos ou variáveis no tempo para a geração de sinais de referência para um modulador que gere sinais para o comando de interruptores eletrônicos de um retificador auto-comutado de duas ou mais fases conectado aos terminais do gerador. Desta forma, gera-se um circuito equivalente que elimina os efeitos de defasagem entre as forças magnetomotrizes e as correntes dos terminais do gerador. Com isto, tem-se um alto fator de potência no gerador e reduzem-se suas perdas, melhorando-se a operaçao do gerador."/>
+			<field name="originatesFrom" value="50483837"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102756"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1102756"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102756"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI02756"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1102756-8 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20422" type="Person">
+			<semanticIdentifier>lattes::4886106213204362</semanticIdentifier>
+			<field name="identifier.lattes" value="4886106213204362"/>
+			<field name="name" value="Márcio Silveira Ortmann"/>
+		</entity>
+		<entity ref="OrgUnit15982" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29726" toEntityRef="Person20422" type="Inventor"/>
+		<relation fromEntityRef="Patent29726" toEntityRef="OrgUnit15982" type="Applicant"/>
+	</relations>
+</entity-relation-data>

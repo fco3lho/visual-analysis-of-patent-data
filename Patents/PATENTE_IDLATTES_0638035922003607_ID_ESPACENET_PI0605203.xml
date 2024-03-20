@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:44" record="6181" source="Espacenet">
+	<entities>
+		<entity ref="Patent6181" type="Patent">
+			<semanticIdentifier>brcris::17d3242a50b087748d263d024b87c4fd</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605203A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605203</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605203A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05203</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605203-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605203"/>
+			<field name="identifier.lattes" value="0638035922003607"/>
+			<field name="identifier.espacenet" value="PI0605203"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="restritor de fluxo de gás natural pré-pago a cartão indutivo descartável"/>
+			<field name="title.lattes" value="RESTRITOR DE FLUXO DE GÁS NATURAL PRÉ-PAGO A CARTÃO INDUTÍVO DESCARTÁVEL"/>
+			<field name="depositDate" value="2006-12-08"/>
+			<field name="publicationDate" value="2008-08-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO MARCOS REIS"/>
+			<field name="inventor" value="BENJAMIN NOVAIS CARRASCO"/>
+			<field name="inventor" value="JOSE WANDERLEY SCUCUGLIA"/>
+			<field name="inventor" value="LAURO CORREA CRUZ JUNIOR"/>
+			<field name="inventor" value="MOISES SUZUQUI"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G07F7/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q20/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="RESTRITOR DE FLUXO DE GáS NATURAL PRé-PAGO à CARTãO INDUTIVO DESCARTáVEL. Refere-se a presente invenção a um restritor de fluxo de gás natural pré-pago a cartão indutivo descartável (1), utilizado para o controle, de forma automática, do fornecimento de gás natural nas unidades consumidoras residenciais. O restritor de fluxo de gás natural pré-pago a cartão indutivo descartável (1) compreende uma unidade de operação (2) e uma unidade de medição (3). A unidade de operação (2) consiste de um módulo eletrónico microcontrolado (21), um módulo gerenciador de energia (22), um módulo de acumulação de energia (23), uma válvula solenóide (24), um módulo de leitura de cartão (25) e um dispositivo para monitoração (26). A unidade de medição (3) consiste de um módulo transmissor codificador (31), um módulo isolador (32), um medidor de vazão (33). O restritor de fluxo de gás natural pré-pago a cartão indutivo descartável (1) utiliza cartões indutivos descartáveis, de baixo custo, o que possibilita o seu uso por usuários de baixa renda. Adicionalmente, o restritor de fluxo de gás natural pré-pago a cartão indutivo descartável (1) apresenta a característica de ser imune às tentativas de violação e possuir um controle de operação redundante o que lhe confere maior confiabilidade."/>
+			<field name="originatesFrom" value="39669566"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605203"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605203"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605203"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05203"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605203-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4089" type="Person">
+			<semanticIdentifier>lattes::0638035922003607</semanticIdentifier>
+			<field name="identifier.lattes" value="0638035922003607"/>
+			<field name="name" value="Benjamin Novais Carrasco"/>
+		</entity>
+		<entity ref="OrgUnit3180" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6181" toEntityRef="Person4089" type="Inventor"/>
+		<relation fromEntityRef="Patent6181" toEntityRef="OrgUnit3180" type="Applicant"/>
+	</relations>
+</entity-relation-data>

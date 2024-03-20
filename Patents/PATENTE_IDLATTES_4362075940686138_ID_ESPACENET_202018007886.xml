@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:03" record="5109" source="Espacenet">
+	<entities>
+		<entity ref="Patent5109" type="Patent">
+			<semanticIdentifier>brcris::16613d49e705701751873394c13fd3e3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018007886U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202018007886U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018007886U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20182007886U</semanticIdentifier>
+			<semanticIdentifier>original::202018007886</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202018007886"/>
+			<field name="identifier.lattes" value="4362075940686138"/>
+			<field name="identifier.espacenet" value="202018007886"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="bicicleta que impulsiona triciclo que movimenta membros inferiores"/>
+			<field name="title.lattes" value="Bicicleta que impulsiona triciclo que movimenta membros inferiores"/>
+			<field name="depositDate" value="2018-04-19"/>
+			<field name="publicationDate" value="2019-11-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO DE PADUA LIMA FILHO"/>
+			<field name="inventor" value="AURASIL FERREIRA GARCIA JUNIOR"/>
+			<field name="inventor" value="RODRIGO ALESSANDRO NUNES DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B62K3/16AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="62"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="trata a presente patente de modelo de utilidade de um equipamento de tecnologia assistiva para reabilitação de usuários com deficiência motora e/ou neurológica compreende uma bicicleta (10) acoplada na traseira de um triciclo (20), dita bicicleta (10) que, mediante ação de um condutor, provê força motriz para a movimentação do triciclo (20) provido de meios adequados para o posicionamento de um usuário com deficiência."/>
+			<field name="originatesFrom" value="68385740"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018007886"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202018007886U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018007886"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20182007886U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202018007886"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3326" type="Person">
+			<semanticIdentifier>lattes::4362075940686138</semanticIdentifier>
+			<field name="identifier.lattes" value="4362075940686138"/>
+			<field name="name" value="Antonio de Pádua Lima Filho"/>
+		</entity>
+		<entity ref="OrgUnit2618" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5109" toEntityRef="Person3326" type="Inventor"/>
+		<relation fromEntityRef="Patent5109" toEntityRef="OrgUnit2618" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:31" record="29226" source="Espacenet">
+	<entities>
+		<entity ref="Patent29226" type="Patent">
+			<semanticIdentifier>brcris::619b43fec477cc012740e38420caa4bf</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102426A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1102426</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1102426A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI02426</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1102426</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1102426"/>
+			<field name="identifier.lattes" value="9613033177997157"/>
+			<field name="identifier.espacenet" value="PI1102426"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de extração de hidrocolóides da pereskia aculeata miller"/>
+			<field name="title.lattes" value="Processo de extração de hidrocolóides da Pereskia aculeata Miller"/>
+			<field name="depositDate" value="2011-06-29"/>
+			<field name="publicationDate" value="2016-04-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FAUSTO ALVES LIMA JUNIOR"/>
+			<field name="inventor" value="JAIME VILELA DE RESENDE"/>
+			<field name="inventor" value="LUCIANA AFFONSO JUNQUEIRA"/>
+			<field name="inventor" value="MARCIA CAVALCANTE CONCEICAO"/>
+			<field name="inventor" value="MARIANA RIANI MASSARI"/>
+			<field name="inventor" value="MARINA BARBOSA VILELA"/>
+			<field name="inventor" value="MONICA ELIZABETH TORRES PRADO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D11/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08B37/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de extração de hidrocoloides da pereskia aculeata miller. os hidrocoloides são aditivos utilizados com diversas funções na indústria de alimentos, com intuito de proporcionar melhores características ao produto, bem como aumentar sua vida de prateleira, além de facilitar as etapas do processamento, contudo, são bastante onerosos para as empresas. a presente invenção trata de um processo de extração de um hidrocoloide, de maneira natural, utilizando como matéria prima o ora-pro-nóbis (pereskia aculeata miller). são envolvidas rio, processo várias operações como prensagem, filtração, concentração a frio, precipitação e secagem. o processo desenvolvido mostra-se viável e aplicável. o hidrocoloide obtido apresenta características desejáveis para aplicação na indústria de alimentos como capacidade espessante, emulsificante, além de ser inodoro."/>
+			<field name="originatesFrom" value="55858544"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102426"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1102426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1102426"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI02426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1102426"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20110" type="Person">
+			<semanticIdentifier>lattes::9613033177997157</semanticIdentifier>
+			<field name="identifier.lattes" value="9613033177997157"/>
+			<field name="name" value="Márcia Cavalcante Labegalini"/>
+		</entity>
+		<entity ref="OrgUnit15727" type="OrgUnit">
+			<semanticIdentifier>brcris::3e60fe4cbc4ad65afa2393d0a704c5ea</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit15728" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29226" toEntityRef="Person20110" type="Inventor"/>
+		<relation fromEntityRef="Patent29226" toEntityRef="OrgUnit15727" type="Applicant"/>
+		<relation fromEntityRef="Patent29226" toEntityRef="OrgUnit15728" type="Applicant"/>
+	</relations>
+</entity-relation-data>

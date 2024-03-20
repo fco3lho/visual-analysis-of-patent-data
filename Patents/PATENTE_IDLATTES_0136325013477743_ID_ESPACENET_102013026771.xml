@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:19" record="39388" source="Espacenet">
+	<entities>
+		<entity ref="Patent39388" type="Patent">
+			<semanticIdentifier>brcris::94f3f793a334a519064c01afe21b4f97</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013026771A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013026771</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013026771A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131026771</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 026771-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013026771"/>
+			<field name="identifier.lattes" value="0136325013477743"/>
+			<field name="identifier.espacenet" value="102013026771"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Uma classe de manipuladores paralelos de configuração variável com autoalinhamento"/>
+			<field name="title.lattes" value="Uma Classe de Manipuladores Paralelos de Configuração Variável com Autoalinhamento"/>
+			<field name="depositDate" value="2013-10-17"/>
+			<field name="publicationDate" value="2015-08-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL MARTINS"/>
+			<field name="inventor" value="HENRIQUE SIMAS"/>
+			<field name="inventor" value="ROBERTO SIMONI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B25J19/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B25J17/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Uma classe de manipuladores paralelos de configuração variável com autoalinhamento esta patente descreve uma nova geração de manipuladores paralelos. Chamados de manipuladc;res paralelos de configuração variável com auto- alinhamento. Um manipulador paralelo possui uma primeira, uma segunda e uma terceira perna que se estendem entre a plataforma móvel e a base. As pernas de apoio estão ligados à base por um primeiro membro (pé) e à a plataforma móvel por um segundo membro. O manipulador paralelo tem uma estrutura cinemática simétrica, cada perna tem cinco graus de liberdade, sendo composto por uma junta prismática e quatro juntas de revolução (p4r). As pernas de suporte restringem o movimento de saida da plataforma móvel para ser linear na direção das juntas prismáticas. O movimento da plataforma é conduzido por três atuadores controlando exclusivamente a junta prismática de cada perna. O manipulador paralelo de configuração variável pode mudar a sua configuração alterando a posição e orientação dos seus pés, a mudança de configuração é feita adicionando-se graus de liberdade de autoalinhamento. Os graus de liberdade de auto- alinhamento não interferem no movimento da plataforma móvel, eles são graus passivos/nulos de liberdade que só permitem a mudança da configuração do manipulador paralelo. Dependendo da posição e orientação dos pés têm-se configurações diferentes para o manipulador paralelo. A geometria da base do manipulador paralelo é definida depois de ajustar todos os pés na base."/>
+			<field name="originatesFrom" value="53794704"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013026771"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013026771"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013026771"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131026771"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 026771-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26816" type="Person">
+			<semanticIdentifier>lattes::0136325013477743</semanticIdentifier>
+			<field name="identifier.lattes" value="0136325013477743"/>
+			<field name="name" value="Roberto Simoni"/>
+		</entity>
+		<entity ref="OrgUnit20994" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39388" toEntityRef="Person26816" type="Inventor"/>
+		<relation fromEntityRef="Patent39388" toEntityRef="OrgUnit20994" type="Applicant"/>
+	</relations>
+</entity-relation-data>

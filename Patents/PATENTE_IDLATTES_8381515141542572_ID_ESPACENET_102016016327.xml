@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:04" record="8485" source="Espacenet">
+	<entities>
+		<entity ref="Patent8485" type="Patent">
+			<semanticIdentifier>brcris::c750aa7d04e6f5296b25068c00060671</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016327A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016016327</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016016327A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161016327</semanticIdentifier>
+			<semanticIdentifier>original::102016016327</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016016327"/>
+			<field name="identifier.lattes" value="8381515141542572"/>
+			<field name="identifier.espacenet" value="102016016327"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="algômetro digital de pressão"/>
+			<field name="title.lattes" value="Algômetro digital de pressão"/>
+			<field name="depositDate" value="2016-07-08"/>
+			<field name="publicationDate" value="2018-05-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHARLES TACIRO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção e refere-se a um dispositivo de mensuração do limiar de percepção dolorosa, reformulado a fim de atender as características ergonomias e funcionais de uso clínico. o dispositivo possui ajuste no posicionamento dos seus elementos de tal forma a produzir maior confiabilidade na medição de dados e facilidade de seu uso. além disso, tem a possibilidade de trocas de ponteiras da probe permitem adequação ao uso em determinadas partes como proeminências ósseas, tecidos moles e em cavidades."/>
+			<field name="originatesFrom" value="62494715"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016327"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016016327"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016016327"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161016327"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016016327"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5785" type="Person">
+			<semanticIdentifier>lattes::8381515141542572</semanticIdentifier>
+			<field name="identifier.lattes" value="8381515141542572"/>
+			<field name="name" value="Charles Taciro"/>
+		</entity>
+		<entity ref="OrgUnit4575" type="OrgUnit">
+			<semanticIdentifier>brcris::03c2b2c8dd0c202eab1bde92d80854a4</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8485" toEntityRef="Person5785" type="Inventor"/>
+		<relation fromEntityRef="Patent8485" toEntityRef="OrgUnit4575" type="Applicant"/>
+	</relations>
+</entity-relation-data>

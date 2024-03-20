@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:08" record="1785" source="Espacenet">
+	<entities>
+		<entity ref="Patent1785" type="Patent">
+			<semanticIdentifier>brcris::02cbbc56778e1b99deb84885d4336131</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016007861A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016007861</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016007861A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161007861</semanticIdentifier>
+			<semanticIdentifier>original::102016007861</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016007861"/>
+			<field name="identifier.lattes" value="5772635120554574"/>
+			<field name="identifier.espacenet" value="102016007861"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento automatizado para medidas de permeabilidade saturada do solo em campo"/>
+			<field name="title.lattes" value="EQUIPAMENTO AUTOMATIZADO PARA MEDIDAS DE PERMEABILIDADE SATURADA DO SOLO EM CAMPO"/>
+			<field name="depositDate" value="2016-04-08"/>
+			<field name="publicationDate" value="2017-10-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALFREDO CONCEICAO ERDMANN"/>
+			<field name="inventor" value="FABIANA COSTA DE ARAUJO SCHUTZ"/>
+			<field name="inventor" value="FERNANDO SCHUTZ"/>
+			<field name="inventor" value="HAMILTON PEREIRA DA SILVA"/>
+			<field name="inventor" value="PEDRO LUIZ DE PAULA FILHO"/>
+			<field name="inventor" value="VICTOR HUGO PARUSSOLO ZIMMERMANN"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N15/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o modelo proposto se destina a medição da condutividade hidráulica para a investigações aplicada a diversas áreas do conhecimento, como estudos de avanços de frente de infiltração em taludes, projetos de canais e reservatórios, modelagem de balanços hidrológicos, entre outros. consiste em um equipamento de carga constante que permite determinar entre outras propriedades a condutividade hidráulica saturada, levando em consideração o efeito do fluxo não saturado. o principal diferencial do modelo proposto para os demais modelos disponíveis no mercado é o fato das leituras do nível de água dentro do reservatório serem realizadas de forma automatizada para um dispositivo móvel resultando em uma avaliação mais precisa e direta da permeabilidade saturada do solo"/>
+			<field name="originatesFrom" value="62529081"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016007861"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016007861"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016007861"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161007861"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016007861"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1340" type="Person">
+			<semanticIdentifier>lattes::5772635120554574</semanticIdentifier>
+			<field name="identifier.lattes" value="5772635120554574"/>
+			<field name="name" value="Alfredo Conceição Erdmann"/>
+		</entity>
+		<entity ref="OrgUnit1006" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1785" toEntityRef="Person1340" type="Inventor"/>
+		<relation fromEntityRef="Patent1785" toEntityRef="OrgUnit1006" type="Applicant"/>
+	</relations>
+</entity-relation-data>

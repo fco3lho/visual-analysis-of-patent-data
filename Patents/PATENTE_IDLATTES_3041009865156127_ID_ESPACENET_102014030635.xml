@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:29:25" record="43895" source="Espacenet">
+	<entities>
+		<entity ref="Patent43895" type="Patent">
+			<semanticIdentifier>brcris::d2b7efcd423927680190549af3ca57a1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030635A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014030635</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030635A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141030635</semanticIdentifier>
+			<semanticIdentifier>original::102014030635</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014030635"/>
+			<field name="identifier.lattes" value="3041009865156127"/>
+			<field name="identifier.espacenet" value="102014030635"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para caracterização de lasers"/>
+			<field name="title.lattes" value="Método para Caracterização de LASERs"/>
+			<field name="depositDate" value="2014-12-08"/>
+			<field name="publicationDate" value="2016-06-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EVANDRO CONFORTI"/>
+			<field name="inventor" value="TIAGO SUTILI"/>
+			<field name="applicant" value="PADTEC S/A"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para caracterização de lasers a presente invenção refere-se a um método para analisar a qualidade da emissão de lasers monomodos, através da medição da largura de linha, ruído de fase e tempo de coerência de lasers, utilizando técnica de batimento bifrequencial e análise digital no domínio do tempo. adicionalmente este método também se aplica para caracterizar estatisticamente o ruído de fase de um laser monomodo em relação a um laser ideal e perfeitamente coerente. a invenção se insere no campo da física e telecomunicações, mais especificamente na área de redes ópticas coerentes, que utilizam lasers para promover a comunicação. a correta caracterização destes elementos é informação relevante para o projeto e a gerência de operação destas redes, bem como para o projeto de sensores ópticos."/>
+			<field name="originatesFrom" value="56112657"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030635"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014030635"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030635"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141030635"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014030635"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29992" type="Person">
+			<semanticIdentifier>lattes::3041009865156127</semanticIdentifier>
+			<field name="identifier.lattes" value="3041009865156127"/>
+			<field name="name" value="Tiago Sutili"/>
+		</entity>
+		<entity ref="OrgUnit23536" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43895" toEntityRef="Person29992" type="Inventor"/>
+		<relation fromEntityRef="Patent43895" toEntityRef="OrgUnit23536" type="Applicant"/>
+	</relations>
+</entity-relation-data>

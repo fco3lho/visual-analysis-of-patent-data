@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:15" record="35679" source="Espacenet">
+	<entities>
+		<entity ref="Patent35679" type="Patent">
+			<semanticIdentifier>brcris::aa69d6a7124294036177c0f3e9a21847</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9403534A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9403534</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9403534A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949403534</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9403534"/>
+			<field name="identifier.lattes" value="8902485338333153"/>
+			<field name="identifier.espacenet" value="9403534"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método de preparo de niobato de alumínio para suporte catalisador"/>
+			<field name="title.lattes" value="2005 Concessão Carta Patente PI-9403534-2PROCESSO DE PREPARAÇÃO DE NIOBATO DE ALUMÍNIO COMO SUPORTE DE CATALISADOR E SUA APLICAÇÃO"/>
+			<field name="depositDate" value="1994-09-13"/>
+			<field name="publicationDate" value="1996-08-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DE OLIVEIRA PAULO GUSTAVO PRIES"/>
+			<field name="inventor" value="JEAN GUILLAUME EON"/>
+			<field name="inventor" value="SILVA MEDEIROS PAULO ROBERTO DA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE TECNOLOGIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J32/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="32"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4059581"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9403534"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9403534"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9403534"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949403534"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24565" type="Person">
+			<semanticIdentifier>lattes::8902485338333153</semanticIdentifier>
+			<field name="identifier.lattes" value="8902485338333153"/>
+			<field name="name" value="Paulo Gustavo Pries de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit19268" type="OrgUnit">
+			<semanticIdentifier>brcris::ff0048a6ea67bf8176788453dade0442</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE TECNOLOGIA"/>
+		</entity>
+		<entity ref="OrgUnit19269" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35679" toEntityRef="Person24565" type="Inventor"/>
+		<relation fromEntityRef="Patent35679" toEntityRef="OrgUnit19268" type="Applicant"/>
+		<relation fromEntityRef="Patent35679" toEntityRef="OrgUnit19269" type="Applicant"/>
+	</relations>
+</entity-relation-data>

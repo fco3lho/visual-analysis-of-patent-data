@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:32" record="28569" source="Espacenet">
+	<entities>
+		<entity ref="Patent28569" type="Patent">
+			<semanticIdentifier>brcris::a4ae80cb226acc90c4b93bef768e3418</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013030945A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013030945</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013030945A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131030945</semanticIdentifier>
+			<semanticIdentifier>original::102013030945</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013030945"/>
+			<field name="identifier.lattes" value="6985243838245715"/>
+			<field name="identifier.espacenet" value="102013030945"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparato de terminação de cabo tipo supercondutor para uso como elemento de transição elétrica entre sistemas supercondutores e/ou sistemas elétricos convencionais"/>
+			<field name="title.lattes" value="Aparato de terminação de cabo supercondutor para uso como elemento de transição elétrica entre sistemas supercondutores e/ou sistemas elétricos convencionais"/>
+			<field name="depositDate" value="2013-12-02"/>
+			<field name="publicationDate" value="2015-09-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTUR JORGE DA SILVA LOPES"/>
+			<field name="inventor" value="EDSON DE PINHO DA SILVA"/>
+			<field name="inventor" value="MARCELO AZEVEDO NEVES"/>
+			<field name="inventor" value="MARCO ANTONIO PEREIRA DO ROSARIO"/>
+			<field name="inventor" value="PAULO CESAR DE OLIVEIRA"/>
+			<field name="inventor" value="WANDERSON MENDES ALVES"/>
+			<field name="applicant" value="CEMIG DISTRIBUICAO S.A"/>
+			<field name="applicant" value="CEMIG GERACAO E TRANSMISSAO S.A"/>
+			<field name="applicant" value="CTEEP - COMPANHIA DE TRANSMISSAO DE ENERGIA ELETRICA PAULISTA"/>
+			<field name="applicant" value="ECTE - EMPRESA CATARINENSE DE TRANSMISSAO DE ENERGIA S.A"/>
+			<field name="applicant" value="TAESA - TRANSMISSORA ALIANCA DE ENERGIA ELETRICA S.A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01F36/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01F38/14AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aparato de terminação de cabo tipo supercondutor para uso como elemento de transição elétrica entre sistemas supercondutores e/ou sistemas elétricos convencionais. a presente patente de invenção refere-se a terminação de cabo supercondutor para conexão a outros elementos de um sistema elétrico supercondutor e/ou convencional de potência operando em corrente alternada (ca). o aparato da presente invenção pode ser aplicado a elementos e equipamentos elétricos energizados (em especial cabos supercondutores e cabos metálicos, barramentos e pontos de conexão elétrica, intersecção e derivação de cabos), sem que haja a necessidade de conexão física entre os elementos, supercondutores e metálicos, otimizando a construção dos dispositivos terminais."/>
+			<field name="originatesFrom" value="54703634"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013030945"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013030945"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013030945"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131030945"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013030945"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19750" type="Person">
+			<semanticIdentifier>lattes::6985243838245715</semanticIdentifier>
+			<field name="identifier.lattes" value="6985243838245715"/>
+			<field name="name" value="Marcelo Azevedo Neves"/>
+		</entity>
+		<entity ref="OrgUnit15429" type="OrgUnit">
+			<semanticIdentifier>brcris::062d1ca579f1763a39894d32b6d9644e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28569" toEntityRef="Person19750" type="Inventor"/>
+		<relation fromEntityRef="Patent28569" toEntityRef="OrgUnit15429" type="Applicant"/>
+	</relations>
+</entity-relation-data>

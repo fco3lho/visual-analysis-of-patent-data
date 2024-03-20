@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:51:40" record="27035" source="Espacenet">
+	<entities>
+		<entity ref="Patent27035" type="Patent">
+			<semanticIdentifier>brcris::2709e4043da2e2c76b2ccce6195c626d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500196A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500196</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500196A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00196</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500196-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500196"/>
+			<field name="identifier.lattes" value="0117659928885948"/>
+			<field name="identifier.espacenet" value="PI0500196"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de identificação e caracterização de indivìduos através da extração de medidas biométricas em imagens 'in vivo' da retina humana"/>
+			<field name="title.lattes" value="PROCESSO DE IDENTIFICAÇÃO E CARACTERIZAÇÃO DE INDIVÍDUOS ATRAVÉS DA EXTRAÇÃO DE MEDIDAS BIOMÉTRICAS EM IMAGENS 'IN VIVO' DA RETINA HUMANA"/>
+			<field name="depositDate" value="2005-01-14"/>
+			<field name="publicationDate" value="2006-09-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIS ALBERTO VIEIRA DE CARVALHO"/>
+			<field name="inventor" value="ODEMIR MARTINEZ BRUNO"/>
+			<field name="applicant" value="LUIS ALBERTO VIEIRA DE CARVALHO"/>
+			<field name="applicant" value="ODEMIR MARTINEZ BRUNO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/1171AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="1171AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B3/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06T7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE IDENTIFICAçãO E CARACTERIZAçãO DE INDIVìDUOS ATRAVéS DA EXTRAçãO DE MEDIDAS BIOMéTRICAS EM IMAGENS &lt;39&gt;IN VIVO&lt;39&gt; DA RETINA HUMANA&quot;. Mais particularmente trata de implementação de um processo de identificação e caracterização de vasos sanguíneos com aplicação na biometria, ou seja, no reconhecimento e identificação de seres humanos; os dados de identificação e caracterização da retina são obtidos a partir de imagens digitais da retina humana in vivo, sendo que referidos dados digitais são transformados em informações geométricas, utilizando-se técnicas de processamento digital de imagens, obtendo-se traçados de triângulos cujos vértices são constituídos pelos pontos de interesse; para tanto o processo pode utilizar dois métodos, sendo eles: - método (A): onde todos os triângulos apresentam como dois de seus vértices o centro de massa da fóvea e o centro de massa do ponto cego (nervo óptico); e - método (B) onde não são considerados a fóvea e o ponto cego, neste caso o número de triângulos é uma combinação n a 3, onde n é o número de pontos de interesse."/>
+			<field name="originatesFrom" value="36930571"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500196"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500196"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500196"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00196"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500196-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18709" type="Person">
+			<semanticIdentifier>lattes::0117659928885948</semanticIdentifier>
+			<field name="identifier.lattes" value="0117659928885948"/>
+			<field name="name" value="Luis Alberto Vieira de Carvalho"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27035" toEntityRef="Person18709" type="Inventor"/>
+		<relation fromEntityRef="Patent27035" toEntityRef="Person18709" type="Depositor"/>
+	</relations>
+</entity-relation-data>

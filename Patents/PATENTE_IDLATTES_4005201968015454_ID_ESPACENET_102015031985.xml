@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:54" record="22050" source="Espacenet">
+	<entities>
+		<entity ref="Patent22050" type="Patent">
+			<semanticIdentifier>brcris::50e124f7017a25dd86770f9e963a5d20</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031985A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015031985</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031985A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151031985</semanticIdentifier>
+			<semanticIdentifier>original::102015031985</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015031985"/>
+			<field name="identifier.lattes" value="4005201968015454"/>
+			<field name="identifier.espacenet" value="102015031985"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="escoador de espumas, processo de transferência de espumas geradas na industria e sistema de fermentação"/>
+			<field name="title.lattes" value="ESCOADOR DE ESPUMAS, PROCESSO DE TRANSFERÊNCIA DE ESPUMAS GERADAS NA INDUSTRIA E SISTEMA DE FERMENTAÇÃO"/>
+			<field name="depositDate" value="2015-12-18"/>
+			<field name="publicationDate" value="2017-06-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO VAZ ROSSELL"/>
+			<field name="inventor" value="CELINA KIYOMI YAMAKAWA"/>
+			<field name="inventor" value="DANIEL IBRAIM PIRES ATALA"/>
+			<field name="inventor" value="JONAS NOLASCO JUNIOR"/>
+			<field name="inventor" value="WESLEY BONICONTRO AMBROSIO"/>
+			<field name="applicant" value="BP BIOCOMBUSTIVEIS S.A"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D19/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12M1/21AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="21AI"/>
+			</field>
+			<field name="abstract.espacenet" value="escoador de espumas, processo de transferência de espumas geradas na industria e sistema de fermentação a presente invenção se refere a um novo escoador de espumas, processo de escoar espumas, a um reator em que dito escoador de espumas está acoplado, preferencialmente a um reator de fermentação, e a um sistema de fermentação. a presente invenção pode ser aplicada em processos que obtenham grandes quantidades de espumas que devem ser escoadas, como por exemplo, em processos de fermentação da indústria."/>
+			<field name="originatesFrom" value="61256441"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031985"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015031985"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031985"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151031985"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015031985"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15246" type="Person">
+			<semanticIdentifier>lattes::4005201968015454</semanticIdentifier>
+			<field name="identifier.lattes" value="4005201968015454"/>
+			<field name="name" value="Jonas Nolasco Junior"/>
+		</entity>
+		<entity ref="OrgUnit11890" type="OrgUnit">
+			<semanticIdentifier>brcris::8343fc26deb5755db1b8801cf93131d5</semanticIdentifier>
+			<field name="name" value="BP BIOCOMBUSTIVEIS S.A"/>
+		</entity>
+		<entity ref="OrgUnit11891" type="OrgUnit">
+			<semanticIdentifier>brcris::8259a83e0c1f2225da8affeb25618bf4</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22050" toEntityRef="Person15246" type="Inventor"/>
+		<relation fromEntityRef="Patent22050" toEntityRef="OrgUnit11890" type="Applicant"/>
+		<relation fromEntityRef="Patent22050" toEntityRef="OrgUnit11891" type="Applicant"/>
+	</relations>
+</entity-relation-data>

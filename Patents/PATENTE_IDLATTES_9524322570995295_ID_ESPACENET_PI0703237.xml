@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:26" record="29160" source="Espacenet">
+	<entities>
+		<entity ref="Patent29160" type="Patent">
+			<semanticIdentifier>brcris::1b0f5e0190aa99848b34172d615f8385</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703237A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703237</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703237A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03237</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703237-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703237"/>
+			<field name="identifier.lattes" value="9524322570995295"/>
+			<field name="identifier.espacenet" value="PI0703237"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="algoritmo de criptografia usando as seqÜencias caàticas de dÍgitos de raÍzes irracionais"/>
+			<field name="title.lattes" value="Algoritmo de Criptografia Usando a Seqüência Caótica de Dígitos de Raízes Irracionais"/>
+			<field name="depositDate" value="2007-07-06"/>
+			<field name="publicationDate" value="2009-02-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO SOBOTTKA"/>
+			<field name="applicant" value="UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G09C1/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Algoritmo de Criptografia Usando as Seqúências Caóticas de Dígitos de Raízes Irracionais. A invenção se refere a um método de criptografia baseado no comportamento caótico da seqúência de dígitos de raízes irracionais descrevendo um algoritmo de criptografia/decriptografia baseado em dinâmicas caóticas das seqúências de arranjos de d-dígitos da representação visual (ou em outra base) das imagens irracionais de uma função real. O presente invento prevê, ainda, passos para controlar a segurança do sistema contra ataques por força bruta."/>
+			<field name="originatesFrom" value="40601028"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703237"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703237"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703237"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03237"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703237-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20073" type="Person">
+			<semanticIdentifier>lattes::9524322570995295</semanticIdentifier>
+			<field name="identifier.lattes" value="9524322570995295"/>
+			<field name="name" value="Marcelo Sobottka"/>
+		</entity>
+		<entity ref="OrgUnit15693" type="OrgUnit">
+			<semanticIdentifier>brcris::41a81f47a3be6a85d719269697dea119</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29160" toEntityRef="Person20073" type="Inventor"/>
+		<relation fromEntityRef="Patent29160" toEntityRef="OrgUnit15693" type="Applicant"/>
+	</relations>
+</entity-relation-data>

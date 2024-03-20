@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:37:35" record="45991" source="Espacenet">
+	<entities>
+		<entity ref="Patent45991" type="Patent">
+			<semanticIdentifier>brcris::d2de8e61ba7150c5acb507303f1f475a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303138A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9303138</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303138A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939303138</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9303138"/>
+			<field name="identifier.lattes" value="8315511132811037"/>
+			<field name="identifier.espacenet" value="9303138"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo e equipamento de esgotamento sanitário de sistemas coletores de esgoto dotados de dispositivos geradores de descargas intermitentes"/>
+			<field name="title.lattes" value="Processo e equipamento de esgotamento sanitário de sistemas coletores de esgoto dotados de dispositivos geradores de descargas intermitentes"/>
+			<field name="depositDate" value="1993-08-30"/>
+			<field name="publicationDate" value="1995-03-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVES WOLNEY CASTILHO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO EST. S.P. -FAPESP"/>
+			<field name="applicant" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E03F1/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4057053"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303138"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9303138"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303138"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939303138"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person31419" type="Person">
+			<semanticIdentifier>lattes::8315511132811037</semanticIdentifier>
+			<field name="identifier.lattes" value="8315511132811037"/>
+			<field name="name" value="Wolney Castilho Alves"/>
+		</entity>
+		<entity ref="OrgUnit24621" type="OrgUnit">
+			<semanticIdentifier>brcris::74eecf354fc31a1525478253d2543409</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent45991" toEntityRef="Person31419" type="Inventor"/>
+		<relation fromEntityRef="Patent45991" toEntityRef="OrgUnit24621" type="Applicant"/>
+	</relations>
+</entity-relation-data>

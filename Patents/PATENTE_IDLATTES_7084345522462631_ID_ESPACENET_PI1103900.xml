@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:30" record="25489" source="Espacenet">
+	<entities>
+		<entity ref="Patent25489" type="Patent">
+			<semanticIdentifier>brcris::78e68f7cf680b3a767f8b843f93f8686</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103900A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1103900</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103900A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI03900</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1103900</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1103900"/>
+			<field name="identifier.lattes" value="7084345522462631"/>
+			<field name="identifier.espacenet" value="PI1103900"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo e método para detectar adulteração de gasolina."/>
+			<field name="title.lattes" value="Dispositivo e método para detectar adulteração de gasolina"/>
+			<field name="depositDate" value="2011-08-01"/>
+			<field name="publicationDate" value="2015-12-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DECIO MAGIOLI MAIA"/>
+			<field name="inventor" value="LEONARDO DE OLIVEIRA CARVALHO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N31/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo e método para detectar adulteração de gasolina. o dispositivo compreende um tubo de ensaio de vidro transparente, lacrado e tampado, de 25 ml a 30 ml de capacidade volumétrica, contendo, no seu interior, uma porção de um polímero vinílico. o método para utilização do dispositivo compreende por em contato, no interior do dispositivo, uma porção da gasolina cuja adulteração se quer testar, agitar manual e moderadamente o dispositivo para dissolver o polímero na gasolina e cronometrar o tempo gasto para dissolver o polímero. o tempo gasto para completar a dissolução do polímero vai indicar a possível adulteração da gasolina."/>
+			<field name="originatesFrom" value="55083558"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103900"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1103900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103900"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI03900"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1103900"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17665" type="Person">
+			<semanticIdentifier>lattes::7084345522462631</semanticIdentifier>
+			<field name="identifier.lattes" value="7084345522462631"/>
+			<field name="name" value="Leonardo de Oliveira Carvalho"/>
+		</entity>
+		<entity ref="OrgUnit13783" type="OrgUnit">
+			<semanticIdentifier>brcris::16bb61d1d4add34580b89b50e63247b3</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25489" toEntityRef="Person17665" type="Inventor"/>
+		<relation fromEntityRef="Patent25489" toEntityRef="OrgUnit13783" type="Applicant"/>
+	</relations>
+</entity-relation-data>

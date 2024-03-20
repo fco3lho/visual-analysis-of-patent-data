@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:12" record="3579" source="Espacenet">
+	<entities>
+		<entity ref="Patent3579" type="Patent">
+			<semanticIdentifier>brcris::02404fd3afb90377aa79bc2737ee6c11</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901472A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0901472</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901472A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI01472</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0901472-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0901472"/>
+			<field name="identifier.lattes" value="6280926767269633"/>
+			<field name="identifier.espacenet" value="PI0901472"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aletas supressoras de movimento induzido por vortex"/>
+			<field name="title.lattes" value="Aletas Supressoras de Movimento Induzido por Vortex"/>
+			<field name="depositDate" value="2009-05-27"/>
+			<field name="publicationDate" value="2011-01-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA PAULA DOS SANTOS COSTA"/>
+			<field name="inventor" value="ANDRE LUIS CONDINO FUJARRA"/>
+			<field name="inventor" value="ISAIAS QUARESMA MASETTI"/>
+			<field name="inventor" value="KAZUO NISHIMOTO"/>
+			<field name="inventor" value="MARCOS SALLES CUEVA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B63B39/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ALETAS SUPRESSORAS DE MOVIMENTO INDUZIDO POR VORTEX A presente invenção se refere um acessório aplicado a estruturas de grande porte submersas, de configuração cilíndrica ou predominantemente cilíndricas, especificamente plataformas flutuantes de prospecção de petróleo tipo mono-coluna ou SPAR, mitigando os movimentos induzidos por vórtices nestas estruturas, principalmente quando estiverem sujeitas a fortes correntezas. O referido acessório compreende um conjunto de componentes (101) afixados aleatoriamente sobre o costado (2) de uma plataforma (1) e cada um dos componentes (101) tendo preferencialmente uma configuração poligonal."/>
+			<field name="originatesFrom" value="43447428"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901472"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0901472"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901472"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI01472"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0901472-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2519" type="Person">
+			<semanticIdentifier>lattes::6280926767269633</semanticIdentifier>
+			<field name="identifier.lattes" value="6280926767269633"/>
+			<field name="name" value="André Luís Condino Fujarra"/>
+		</entity>
+		<entity ref="OrgUnit2023" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit2024" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3579" toEntityRef="Person2519" type="Inventor"/>
+		<relation fromEntityRef="Patent3579" toEntityRef="OrgUnit2023" type="Applicant"/>
+		<relation fromEntityRef="Patent3579" toEntityRef="OrgUnit2024" type="Applicant"/>
+	</relations>
+</entity-relation-data>

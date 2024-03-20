@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:46" record="12975" source="Espacenet">
+	<entities>
+		<entity ref="Patent12975" type="Patent">
+			<semanticIdentifier>brcris::fb91b2fcc84e31f42364b2b6d1f1aea6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302692A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0302692</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302692A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030302692</semanticIdentifier>
+			<semanticIdentifier>original::0302692-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0302692"/>
+			<field name="identifier.lattes" value="5004995591592434"/>
+			<field name="identifier.espacenet" value="0302692"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Algoritmo para geração de forma de onda com terceiro harmÈnico reduzido"/>
+			<field name="title.lattes" value="Classificador de componentes passivos"/>
+			<field name="depositDate" value="2003-08-28"/>
+			<field name="publicationDate" value="2005-03-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDVAL JOSE PINHEIRO SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03K4/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ALGORITMO PARA GERAçãO DE FORMA DE ONDA COM TERCEIRO HARMÈNICO REDUZIDO&quot;. A presente invenção descreve um algoritmo computacional para a obtenção de amplitudes dos degraus de uma função periódica, cuja componente espectral de terceiro harmónico é reduzida. Utilizando a análise espectral é demonstrado que existe uma forma de onda com número de degraus igual a 6 que minimiza o terceiro harmónico mesmo quando se considera circuitos reais, isto é, com taxa finita de transição de um nível de sinal para o próximo, em inglês slew rate. Além disso, tem-se o tamanho da palavra da memória e a estabilidade do relógio. Essa forma de onda pode ser gerada digitalmente, possibilitando o uso de poderosas técnicas digitais na classificação de componentes passivos. O algoritmo também pode ser utilizado na eliminação de outras componentes harmónicas e na avaliação de outros dispositivos e sistemas eletrónicos, como por exemplo, sistemas de áudio. Além disso, é possível combinar linearmente as duas formas de onda para reduzir ainda mais o terceiro harmónico."/>
+			<field name="originatesFrom" value="34383346"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302692"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0302692"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302692"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030302692"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0302692-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8881" type="Person">
+			<semanticIdentifier>lattes::5004995591592434</semanticIdentifier>
+			<field name="identifier.lattes" value="5004995591592434"/>
+			<field name="name" value="Edval José Pinheiro Santos"/>
+		</entity>
+		<entity ref="OrgUnit6967" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12975" toEntityRef="Person8881" type="Inventor"/>
+		<relation fromEntityRef="Patent12975" toEntityRef="OrgUnit6967" type="Applicant"/>
+	</relations>
+</entity-relation-data>

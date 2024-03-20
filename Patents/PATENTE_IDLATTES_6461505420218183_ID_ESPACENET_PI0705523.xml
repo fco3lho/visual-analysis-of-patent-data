@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:51" record="31971" source="Espacenet">
+	<entities>
+		<entity ref="Patent31971" type="Patent">
+			<semanticIdentifier>brcris::1358e8d9f8f985fb3422c550d27993d0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705523A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705523</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705523A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05523</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705523-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705523"/>
+			<field name="identifier.lattes" value="6461505420218183"/>
+			<field name="identifier.espacenet" value="PI0705523"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compósito dentário contendo tetrafluoreto de titánio na forma de verniz"/>
+			<field name="title.lattes" value="Compósito dentário contendo tetrafluoreto de titânio na forma de verniz"/>
+			<field name="depositDate" value="2007-12-21"/>
+			<field name="publicationDate" value="2009-08-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CAROLINA MAGALHAES"/>
+			<field name="inventor" value="DANIELA RIOS"/>
+			<field name="inventor" value="LIVIA PICCHI COMAR"/>
+			<field name="inventor" value="MARILIA AFONSO RABELO BUZALAF"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K6/84AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="84AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K6/884AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="884AI"/>
+			</field>
+			<field name="abstract.espacenet" value="COMPóSITO DENTáRIO CONTENDO TETRAFLUORETO DE TITáNIO NA FORMA DE VERNIZ. Compreendido por: compósito dentário contendo tetrafluoreto de titânio em diferentes concentrações, mas preferivelmente a 4%, na forma de verniz, compreendendo colofónia (resina formadora de filme), resina sintética (formador de filme), polímero espessante (para o ajuste de viscosidade), essência, adoçante artificial e etanol (solvente) na faixa de 0,4% a 10%."/>
+			<field name="originatesFrom" value="40951241"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705523"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705523"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05523"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705523-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21971" type="Person">
+			<semanticIdentifier>lattes::6461505420218183</semanticIdentifier>
+			<field name="identifier.lattes" value="6461505420218183"/>
+			<field name="name" value="Marília Afonso Rabelo Buzalaf"/>
+		</entity>
+		<entity ref="OrgUnit17195" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit17196" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31971" toEntityRef="Person21971" type="Inventor"/>
+		<relation fromEntityRef="Patent31971" toEntityRef="OrgUnit17195" type="Applicant"/>
+		<relation fromEntityRef="Patent31971" toEntityRef="OrgUnit17196" type="Applicant"/>
+	</relations>
+</entity-relation-data>

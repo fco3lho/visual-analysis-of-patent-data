@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:45" record="29814" source="Espacenet">
+	<entities>
+		<entity ref="Patent29814" type="Patent">
+			<semanticIdentifier>brcris::957c382f01feb01387dba79cfc186ca2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020715A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019020715</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020715A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191020715</semanticIdentifier>
+			<semanticIdentifier>original::102019020715</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019020715"/>
+			<field name="identifier.lattes" value="0091292234916055"/>
+			<field name="identifier.espacenet" value="102019020715"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para produção de nanoestruturas magnéticas de ndxcoy recobertas com pvp"/>
+			<field name="title.lattes" value="Processo para produção de nanoestruturas magnéticas de NdxCoy recobertas com PVP"/>
+			<field name="depositDate" value="2019-10-02"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DIEGO ALVES DE BARROS"/>
+			<field name="inventor" value="JOSE HUMBERTO DE ARAUJO"/>
+			<field name="inventor" value="MARCO ANTONIO MORALES TORRES"/>
+			<field name="inventor" value="RODOLFO BEZERRA DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01F1/053AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="053AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y25/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para produção de nanoestruturas magnéticas de ndxcoy recobertas com pvp. compostos intermetálicos de terras raras e metal de transição são bastante utilizados na produção de ímãs permanentes, e apresentam, em geral, comportamento ferromagnético. em geral, a maioria destes compostos é produzida em forno a arco ou em moinhos de bolas, métodos físicos que não permitem um controle nas variáveis desses processos. atualmente, grande parte da pesquisa nessa área está relacionada à produção destes compostos através de métodos químicos. nesta patente de invenção, propõe-se um processo para a síntese de nanopartículas magnéticas do tipo ndxcoy via o método poliol com a utilização do pvp para proteção das partículas contra a oxidação. o processo utiliza o tetraetilenoglicol como solvente e agente redutor, proporcionando um melhor controle das variáveis do processo, como agente protetor contra a oxidação usa-se o polímero polivinilpirrolidona (pvp). em todas as amostras, as medidas de histerese magnéticas mostraram comportamento ferromagnético e as medidas de magnetização em função da temperatura mostraram as temperaturas de transição ferromagnéticas para as fases presentes. o método de síntese mostrou-se eficiente na produção de nanopartículas ndxcoy, esse resultado é promissor para o desenvolvimento de ímãs permanentes nanoestruturados."/>
+			<field name="originatesFrom" value="75845196"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020715"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019020715"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020715"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191020715"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019020715"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20480" type="Person">
+			<semanticIdentifier>lattes::0091292234916055</semanticIdentifier>
+			<field name="identifier.lattes" value="0091292234916055"/>
+			<field name="name" value="Marco Antonio Morales Torres"/>
+		</entity>
+		<entity ref="OrgUnit16027" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29814" toEntityRef="Person20480" type="Inventor"/>
+		<relation fromEntityRef="Patent29814" toEntityRef="OrgUnit16027" type="Applicant"/>
+	</relations>
+</entity-relation-data>

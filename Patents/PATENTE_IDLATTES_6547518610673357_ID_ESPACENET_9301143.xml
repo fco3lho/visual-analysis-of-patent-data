@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:05" record="5715" source="Espacenet">
+	<entities>
+		<entity ref="Patent5715" type="Patent">
+			<semanticIdentifier>brcris::e4ff624d09885aa878d5a54ee960e071</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301143A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9301143</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9301143A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939301143</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9301143"/>
+			<field name="identifier.lattes" value="6547518610673357"/>
+			<field name="identifier.espacenet" value="9301143"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Montagem em frasco para eliminação de solvente sob atmosfera controlada"/>
+			<field name="title.lattes" value="Montagem em Frasco Para Eliminação de Solvente sob Atmosfera Controlada"/>
+			<field name="depositDate" value="1993-03-11"/>
+			<field name="publicationDate" value="1994-11-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTHUR DE LEMOS SCOFIELD"/>
+			<field name="inventor" value="MARCILIO DA SILVEIRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D1/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="originatesFrom" value="4056156"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301143"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9301143"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9301143"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939301143"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3790" type="Person">
+			<semanticIdentifier>lattes::6547518610673357</semanticIdentifier>
+			<field name="identifier.lattes" value="6547518610673357"/>
+			<field name="name" value="Arthur de Lemos Scofield"/>
+		</entity>
+		<entity ref="OrgUnit2967" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5715" toEntityRef="Person3790" type="Inventor"/>
+		<relation fromEntityRef="Patent5715" toEntityRef="OrgUnit2967" type="Applicant"/>
+	</relations>
+</entity-relation-data>

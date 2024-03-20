@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:56" record="7414" source="Espacenet">
+	<entities>
+		<entity ref="Patent7414" type="Patent">
+			<semanticIdentifier>brcris::55c2994a84b28ab56ea5ea9e7d5f359d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603344A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0603344</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0603344A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI03344</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0603344-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0603344"/>
+			<field name="identifier.lattes" value="6455424888186348"/>
+			<field name="identifier.espacenet" value="PI0603344"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="equipamento para inspeção submarina de tubulações rìgidas e método operacional"/>
+			<field name="title.lattes" value="PROCESSO E EQUIPAMENTO PARA INSPEÇÃO SUBMARINA DE TUBULAÇÕES RÍGIDAS"/>
+			<field name="depositDate" value="2006-05-05"/>
+			<field name="publicationDate" value="2007-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS EDUARDO MAIA DE SOUZA"/>
+			<field name="inventor" value="CLAUDIO SOLIGO CAMERINI"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="EQUIPAMENTO PARA INSPEçãO SUBMARINA DE TUBULAçõES RìGIDAS E MéTODO OPERACIONAL. é descrito um processo e um equipamento que permite avaliar a integridade de uma tubulação por intermédio de um equipamento mecânico de fixação (1), composto por dois braços mecânicos (2, 3) que abraçam a tubulação a ser inspecionada. Um filme radiográfico é instalado em um dos braços mecânicos (2) enquanto que em outro braço mecânico (3) é instalada a sede (4) do disparador radioativo (41). Ambos os braços mecânicos (2, 3) são conectados a um corpo central (5) e a um mecanismo de fechamento (6). O método de operação para inspeção submarina de tubulações rígidas compreende, dentre outras, as seguintes etapas: - descida de uma cesta contendo uma pluralidade de equipamentos mecânicos de fixação (1), já com os filmes radiográficos (12) devidamente instalados, até o fundo do mar; - instalação de equipamentos mecânicos de fixação (1) no trecho de tubulação a ser inspecionado; - instalação de um disparador radioativo (41) na sede própria localizada em um dos braços mecânicos (3) do equipamento mecânico de fixação (1); - acionamento do disparador radioativo (41) e impressão no filme radiográfico (12); e - coleta dos equipamentos mecânicos de fixação (1) e posterior análise dos resultados."/>
+			<field name="originatesFrom" value="38829446"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603344"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0603344"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0603344"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI03344"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0603344-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4970" type="Person">
+			<semanticIdentifier>lattes::6455424888186348</semanticIdentifier>
+			<field name="identifier.lattes" value="6455424888186348"/>
+			<field name="name" value="Carlos Eduardo Maia de Souza"/>
+		</entity>
+		<entity ref="OrgUnit3930" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7414" toEntityRef="Person4970" type="Inventor"/>
+		<relation fromEntityRef="Patent7414" toEntityRef="OrgUnit3930" type="Applicant"/>
+	</relations>
+</entity-relation-data>

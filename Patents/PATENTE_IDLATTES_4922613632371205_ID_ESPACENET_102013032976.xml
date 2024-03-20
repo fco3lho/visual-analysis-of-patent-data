@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:40" record="25602" source="Espacenet">
+	<entities>
+		<entity ref="Patent25602" type="Patent">
+			<semanticIdentifier>brcris::5069c9a7bff5e45d69fdb4db3c2083f1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032976A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013032976</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032976A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131032976</semanticIdentifier>
+			<semanticIdentifier>original::102013032976</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013032976"/>
+			<field name="identifier.lattes" value="4922613632371205"/>
+			<field name="identifier.espacenet" value="102013032976"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo integrado automatizado de arquivamento e resgate de pastas"/>
+			<field name="title.lattes" value="Dispositivo Integrado automatizado de arquivamento e resgate de pastas"/>
+			<field name="depositDate" value="2013-12-20"/>
+			<field name="publicationDate" value="2016-02-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIZ DE MORAES COSTA"/>
+			<field name="inventor" value="JONATHAN LAZARO OLIVEIRA"/>
+			<field name="inventor" value="LEONARDO MAIA NOGUEIRA"/>
+			<field name="inventor" value="MARIA TERESA GOMES LINS"/>
+			<field name="inventor" value="SEYYED SAID DANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B25J9/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q10/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo integrado automatizado de arquivamento e resgate de pastas a presente invenção, constituída de três elementos distintos, tem a função de arquivar e resgatar documentos de forma prática e automatizada, evitando perda de tempo e extravio de documentos. o primeiro elemento é o dispositivo em si constituído pelo eixo rotativo (1) apoiado sobre o rolamento de força axial (3), no qual está presa a roda de suporte (2) onde ficam alocadas as pastas (5) arquivadas. os elementos citados são rotacionados pelo motor elétrico de forma que os códigos de barras (9) afixados nas pastas (5) possam ser lidos pelo scanner laser (6). o segundo elemento é o software (8) que contém o banco de dados de informações sobre as pastas (5), inclusive o código de barras (9). é do software (8) que parte os comando de arquivamento e resgate de pastas (5). o terceiro elemento é a placa de interface (7) que faz a ligaçao entre o software (8), o scanner laser (6) e o motor elétrico (4), integrando o hardware e o software do sistema."/>
+			<field name="originatesFrom" value="55303307"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032976"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013032976"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032976"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131032976"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013032976"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17728" type="Person">
+			<semanticIdentifier>lattes::4922613632371205</semanticIdentifier>
+			<field name="identifier.lattes" value="4922613632371205"/>
+			<field name="name" value="Leonardo Maia Nogueira"/>
+		</entity>
+		<entity ref="OrgUnit13837" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25602" toEntityRef="Person17728" type="Inventor"/>
+		<relation fromEntityRef="Patent25602" toEntityRef="OrgUnit13837" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:46:58" record="24628" source="Espacenet">
+	<entities>
+		<entity ref="Patent24628" type="Patent">
+			<semanticIdentifier>brcris::84139924f317d05ec11a55c9e8ef447c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017012426A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017012426</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017012426A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171012426</semanticIdentifier>
+			<semanticIdentifier>original::102017012426</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017012426"/>
+			<field name="identifier.lattes" value="7045415884414249"/>
+			<field name="identifier.espacenet" value="102017012426"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compósito polimérico como material adsorvente para processos de adsorção em fase sólida, preparação e utilização"/>
+			<field name="title.lattes" value="Compósito polimérico como material adsorvente para processos de adsorção em fase sólida, preparação e utilização"/>
+			<field name="depositDate" value="2017-06-12"/>
+			<field name="publicationDate" value="2018-12-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNA CARNEIRO PIRES"/>
+			<field name="inventor" value="FLAVIA VIANA AVELAR DUTRA"/>
+			<field name="inventor" value="KEYLLER BASTOS BORGES"/>
+			<field name="inventor" value="MARCELLA MATOS CORDEIRO"/>
+			<field name="inventor" value="TIENNE APARECIDA DO NASCIMENTO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/48AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a invenção apresentada refere-se a um compósito polimérico com duplo revestimento para análises de fluidos biológicos ou outras matrizes proteicas.tal material apresenta capacidade de eliminar macromoléculas e pré-concentrar analitos durante procedimentos de extração em fluidos proteicos. a síntese envolvida é simples e de baixo custo e sua eficiência em eliminarmacromoléculas é superior a sorventes comerciais já conhecidos. além disso, apresenta uma longa vida útil e uma atrativa possibilidade de comercialização devido ao baixo custo e possibilidade de uso de material reciclável."/>
+			<field name="originatesFrom" value="65003026"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017012426"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017012426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017012426"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171012426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017012426"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17124" type="Person">
+			<semanticIdentifier>lattes::7045415884414249</semanticIdentifier>
+			<field name="identifier.lattes" value="7045415884414249"/>
+			<field name="name" value="Keyller Bastos BORGES"/>
+		</entity>
+		<entity ref="OrgUnit13293" type="OrgUnit">
+			<semanticIdentifier>brcris::a4ccc994cb0e532d68677b719a097898</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit13294" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24628" toEntityRef="Person17124" type="Inventor"/>
+		<relation fromEntityRef="Patent24628" toEntityRef="OrgUnit13293" type="Applicant"/>
+		<relation fromEntityRef="Patent24628" toEntityRef="OrgUnit13294" type="Applicant"/>
+	</relations>
+</entity-relation-data>

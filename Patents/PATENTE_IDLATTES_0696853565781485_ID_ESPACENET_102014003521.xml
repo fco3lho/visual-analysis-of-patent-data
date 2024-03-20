@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:28" record="14676" source="Espacenet">
+	<entities>
+		<entity ref="Patent14676" type="Patent">
+			<semanticIdentifier>brcris::52bf89e7335049480feee429c16f5b4a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014003521A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014003521</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014003521A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141003521</semanticIdentifier>
+			<semanticIdentifier>original::102014003521</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014003521"/>
+			<field name="identifier.lattes" value="0696853565781485"/>
+			<field name="identifier.espacenet" value="102014003521"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="monitor modular remoto de radiação"/>
+			<field name="title.lattes" value="Monitor Modular Remoto de Radiação"/>
+			<field name="depositDate" value="2014-02-14"/>
+			<field name="publicationDate" value="2015-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIO DE LACERDA"/>
+			<field name="inventor" value="MARCOS SANTANA FARIAS"/>
+			<field name="inventor" value="MAURICIO ALVES DA CUNHA E AGHINA"/>
+			<field name="inventor" value="MAURO VITOR DE OLIVEIRA"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01T1/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G04G21/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="monitor modular remoto de radiação. a presente patente refere-se a um sistema eletrônico microprocessado, compacto e portátil, para monitoração de radiações ionizantes, cujos dados de monitoração são disponibilizados para outros sistemas eletrônicos, distantes fisicamente do sistema descrito por esta patente, por meio de um canal de comunicação cabeado ou sem fio, conforme requisitos da aplicação. seu canal de comunicação possibilita a operação remota do monitor bem como a constituição de uma rede de múltiplos monitores interligados a um sistema supervisório. o monitor é constituído por módulos, conectados entre si por meio de um barramento intermodular de dados e alimentação elétrica. a modularidade do sistema possibilita sua perfeita adequação às necessidades da aplicação, minimizando suas dimensões, custo e consumo de energia. os módulos do monitor desempenham as seguintes funções: (1) módulo de deteção e alarme - deteção de radiação ionizante, quantificação do nível de radiação detetada e acionamento de alarmes visual e sonoro na condição de nível de radiação acima de um limite pré-estabelecido; (2) módulo de visualização e histórico de monitoração - visualização do nível de radiação detetada em tela digital e armazenaniento dos dados da monitoração, ao longo do tempo, em memória digital; (3) módulo de intertravamento - acionamento de intertravamento de reator nuclear; (4) módulo de comunicação - transmissão de dados referentes ao sistema e à radiação detetada para outros sistemas eletrônicos; (5) módulo de alimentação - alimentação elétrica do monitor."/>
+			<field name="originatesFrom" value="54837531"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014003521"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014003521"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014003521"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141003521"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014003521"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10146" type="Person">
+			<semanticIdentifier>lattes::0696853565781485</semanticIdentifier>
+			<field name="identifier.lattes" value="0696853565781485"/>
+			<field name="name" value="Fábio de Lacerda"/>
+		</entity>
+		<entity ref="OrgUnit7948" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14676" toEntityRef="Person10146" type="Inventor"/>
+		<relation fromEntityRef="Patent14676" toEntityRef="OrgUnit7948" type="Applicant"/>
+	</relations>
+</entity-relation-data>

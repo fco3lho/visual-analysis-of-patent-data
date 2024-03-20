@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:02" record="27614" source="Espacenet">
+	<entities>
+		<entity ref="Patent27614" type="Patent">
+			<semanticIdentifier>brcris::25686dbc46855819029cf4f2cb2d7b64</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500451A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500451</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500451A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00451</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500451-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500451"/>
+			<field name="identifier.lattes" value="1693185688173220"/>
+			<field name="identifier.espacenet" value="PI0500451"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="multicamadas de sio2 e de quantum dots de pbte para dispositivo óptico chaveador"/>
+			<field name="title.lattes" value="MULTICAMADAS DE SiO2 E DE QUANTUM DOTS DE PbTe PARA DISPOSITIVO ÓPTICO CHAVEADOR"/>
+			<field name="depositDate" value="2005-02-10"/>
+			<field name="publicationDate" value="2006-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS LENZ CESAR"/>
+			<field name="inventor" value="EUGENIO RODRIGUEZ GONZALEZ"/>
+			<field name="inventor" value="LUIZ CARLOS BARBOSA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02B6/036AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="036AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82B1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C23C14/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MULTICAMADAS DE SiO~ 2~ E DE QUANTUM DOTS DE PbTe PARA DISPOSITIVO óPTICO CHAVEADOR&quot;. A presente invenção refere-se à fabricação de multicamadas de SiO~ 2~ e de quantum dots de PbTe, usadas como região ativa, para fabricação de qualquer tipo de dispositivo óptico chaveador não linear na configuração de uma cavidade óptica de Fabry-Perot-Etalon. Este dispositivo apresenta a vantagem de ser totalmente óptico, somente a luz é que está interagindo, não necessitando de nenhum processo mecânico, elétrico, acústico ou eletrónico para controlar a luz. Também não se faz uso de técnicas de fotolitografia, extremamente caras, com dispositivos á base de silício, por exemplo, ou qualquer outro que faça uso desta técnica. Para a fabricação das multicamadas de QD de PbTe e SiO~ 2~ de maneira alternada, a presente invenção faz uso de dois processos alternados, deposição a laser, ablação, Laser Ablation para a fabricação das camadas de QD de PbTe e deposição Química a Vapor a Plasma Melhorado, PECVD para as camadas de SiO~ 2~. Este invento tem sua aplicação principal como uma chave óptica ultra-rápida na faixa de 1 ps que atua na região das comunicações ópticas onde as perdas por atenuação das fibras ópticas de sílica são menores."/>
+			<field name="originatesFrom" value="37001298"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500451"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500451"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500451"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00451"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500451-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19074" type="Person">
+			<semanticIdentifier>lattes::1693185688173220</semanticIdentifier>
+			<field name="identifier.lattes" value="1693185688173220"/>
+			<field name="name" value="Luiz Carlos Barbosa"/>
+		</entity>
+		<entity ref="OrgUnit14883" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27614" toEntityRef="Person19074" type="Inventor"/>
+		<relation fromEntityRef="Patent27614" toEntityRef="OrgUnit14883" type="Applicant"/>
+	</relations>
+</entity-relation-data>

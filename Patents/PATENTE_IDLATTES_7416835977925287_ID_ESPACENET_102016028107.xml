@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:05" record="10673" source="Espacenet">
+	<entities>
+		<entity ref="Patent10673" type="Patent">
+			<semanticIdentifier>brcris::3735dc9d8ae1910d28f4aab3a5bd21d1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028107A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016028107</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016028107A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161028107</semanticIdentifier>
+			<semanticIdentifier>original::102016028107</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016028107"/>
+			<field name="identifier.lattes" value="7416835977925287"/>
+			<field name="identifier.espacenet" value="102016028107"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="determinação de turbidez por análise estatística de imagens"/>
+			<field name="title.lattes" value="DETERMINAÇÃO DE TURBIDEZ POR ANÁLISE ESTATÍSTICA DE IMAGENS"/>
+			<field name="depositDate" value="2016-11-30"/>
+			<field name="publicationDate" value="2018-06-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALBERTO YOSHIHIRO NAKANO"/>
+			<field name="inventor" value="ALBERTO YOSHIRO NAKANO"/>
+			<field name="inventor" value="DAVID ANDTONIO BRUM SIEPMANN"/>
+			<field name="inventor" value="FELIPE WALTER DAFICO PFRIMER"/>
+			<field name="inventor" value="RICARDO SCHNEIDER"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/32AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F1/52AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="52AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N27/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a turbidez é um parâmetro internacionalmente aceito para monitoramento da qualidade da água. empresas e serviços de saneamento públicos monitoram a turbidez como indicador de potabilidade e/ou parâmetro para controle de processos. o processo de leitura baseia-se na quantificação da radiação espalhada/transmitida por detectores, que convertem a intensidade da radiação em sinal elétrico. diferentemente dos equipamentos tradicionais, o presente método utiliza uma análise estatística de imagens para a determinação da quantidade de partículas presentes no meio. a tecnologia de detecção do dispositivo aqui proposto é baseada na obtenção de imagens ópticas de um feixe de radiação eletromagnética, que passa através da amostra, obtidas por uma câmera de imagem simples e sua análise estatística."/>
+			<field name="originatesFrom" value="62845304"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028107"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016028107"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016028107"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161028107"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016028107"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7412" type="Person">
+			<semanticIdentifier>lattes::7416835977925287</semanticIdentifier>
+			<field name="identifier.lattes" value="7416835977925287"/>
+			<field name="name" value="David Antonio Brum Siepmann"/>
+		</entity>
+		<entity ref="OrgUnit5888" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10673" toEntityRef="Person7412" type="Inventor"/>
+		<relation fromEntityRef="Patent10673" toEntityRef="OrgUnit5888" type="Applicant"/>
+	</relations>
+</entity-relation-data>

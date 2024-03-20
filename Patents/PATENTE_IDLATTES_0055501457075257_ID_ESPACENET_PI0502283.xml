@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:55" record="36770" source="Espacenet">
+	<entities>
+		<entity ref="Patent36770" type="Patent">
+			<semanticIdentifier>brcris::525bdc00be91953607a3ee7ff8de9a99</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502283A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0502283</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502283A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI02283</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0502283-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0502283"/>
+			<field name="identifier.lattes" value="0055501457075257"/>
+			<field name="identifier.espacenet" value="PI0502283"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="transdutor de corrente do tipo bobina de rogowski usando eletrÈnica de baixo custo"/>
+			<field name="title.lattes" value="Transdutor de corrente do tipo Bobina de Rogowski usando eletrônica de baixo custo"/>
+			<field name="depositDate" value="2005-04-13"/>
+			<field name="publicationDate" value="2006-11-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ERNESTO RUPPERT FILHO"/>
+			<field name="inventor" value="RAFAEL CASSIOLATO DE FREITAS"/>
+			<field name="inventor" value="ROBERTO PETRY HOMRICH"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL - UFRGS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R19/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TRANSDUTOR DE CORRENTE DO TIPO BOBINA DE ROGOWSKI USANDO ELETRÈNICA DE BAIXO CUSTO&quot;. A presente invenção refere-se a um transdutor de corrente do tipo bobina de Rogowski constituído por um suporte de seção preferencialmente circular (rígida ou flexível), envolvido por uma bobina sensora, que circunda perpendicularmente o condutor no qual está presente a corrente alternada a ser medida. Um dispositivo mecanicamente resistente e isolante elétrico e não ferromagnético mantém o condutor centrado no interior da bobina. A bobina sensora é conectada a um circuito integrador através de um cabo coaxial. O integrador fornece uma tensão terminal que é proporcional à corrente no condutor através de seus bornes de conexão. A corrente elétrica no condutor pode ser medida, através do transdutor, com o emprego de um instrumento, podendo este ser um voltímetro ou um osciloscópio. Sua aplicação pode ser voltada às concessionárias de energia e indústrias onde há a presença de conteúdo harmónico na corrente elétrica. A possibilidade de sua construção flexível ou rígida permite a instalação em locais de difícil acesso. Sua calibração pode ser feita sob condição de baixa corrente de calibração devido a sua característica linear de relação de transformação. A ausência de corrente no enrolamento induzido evita o atraso inerente do circuito resistivo-indutivo que é verificado no transformador de corrente convencional (TC)."/>
+			<field name="originatesFrom" value="37459939"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502283"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0502283"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502283"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI02283"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0502283-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25317" type="Person">
+			<semanticIdentifier>lattes::0055501457075257</semanticIdentifier>
+			<field name="identifier.lattes" value="0055501457075257"/>
+			<field name="name" value="Rafael Cassiolato de Freitas"/>
+		</entity>
+		<entity ref="OrgUnit19882" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36770" toEntityRef="Person25317" type="Inventor"/>
+		<relation fromEntityRef="Patent36770" toEntityRef="OrgUnit19882" type="Applicant"/>
+	</relations>
+</entity-relation-data>

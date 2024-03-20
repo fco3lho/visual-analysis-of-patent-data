@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:00" record="17732" source="Espacenet">
+	<entities>
+		<entity ref="Patent17732" type="Patent">
+			<semanticIdentifier>brcris::1a807d36a54d1b113a3bbdf3d7318e79</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605667A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605667</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605667A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05667</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605667-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605667"/>
+			<field name="identifier.lattes" value="0546659501230132"/>
+			<field name="identifier.espacenet" value="PI0605667"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="unidade submarina de separação de água"/>
+			<field name="title.lattes" value="UNIDADE SUBMARINA DE SEPARAÇÃO DE ÁGUA"/>
+			<field name="depositDate" value="2006-12-29"/>
+			<field name="publicationDate" value="2008-08-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GIOVANI CAVALCANTI NUNES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D17/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01D17/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="E21B43/40AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;UNIDADE SUBMARINA DE SEPARAçãO DE áGUA&quot;. Trata a presente invenção de uma unidade submarina de separação de água destinada a promover a separação de água e óleo de um fluido proveniente de um poço produtor de petróleo localizado no fundo do oceano com garantia de qualidade tanto da água produzida de forma que possa ser utilizada como água de re-injeção, quanto do óleo com qualidade compatível para exportação. A unidade da presente invenção compreende basicamente uma estrutura submarina (1), instalada próximo a poços produtores, sobre a qual encontram-se basicamente: um vaso separador trifásico (2 ou 9), um vaso coalescedor (5) eletrostático, um vaso decantador (6) e conjuntos de separadores do tipo hidrociclone (C1 ou C2)."/>
+			<field name="originatesFrom" value="39690870"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605667"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605667"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605667"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05667"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605667-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12300" type="Person">
+			<semanticIdentifier>lattes::0546659501230132</semanticIdentifier>
+			<field name="identifier.lattes" value="0546659501230132"/>
+			<field name="name" value="Giovani Cavalcanti Nunes"/>
+		</entity>
+		<entity ref="OrgUnit9601" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17732" toEntityRef="Person12300" type="Inventor"/>
+		<relation fromEntityRef="Patent17732" toEntityRef="OrgUnit9601" type="Applicant"/>
+	</relations>
+</entity-relation-data>

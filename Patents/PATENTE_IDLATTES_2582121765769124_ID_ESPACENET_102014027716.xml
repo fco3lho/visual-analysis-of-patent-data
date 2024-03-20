@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:25:02" record="42891" source="Espacenet">
+	<entities>
+		<entity ref="Patent42891" type="Patent">
+			<semanticIdentifier>brcris::69c7ae777391e8c4d0359e262ec30566</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027716A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014027716</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027716A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141027716</semanticIdentifier>
+			<semanticIdentifier>original::102014027716</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014027716"/>
+			<field name="identifier.lattes" value="2582121765769124"/>
+			<field name="identifier.espacenet" value="102014027716"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="disposição construtiva aplicada em sistema de controle automático de nível de reservatório utilizando oscilador biestável combinado com imâs e sensor magnético"/>
+			<field name="title.lattes" value="Sensor magnético para controle de nível máximo e mínimo"/>
+			<field name="depositDate" value="2014-11-06"/>
+			<field name="publicationDate" value="2016-06-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO CASTRO DA SILVA"/>
+			<field name="inventor" value="CAROLINA CARNEIRO DE LIMA"/>
+			<field name="inventor" value="EDBERG STENYO DE ALMEIDA E SILVA"/>
+			<field name="inventor" value="LEANDRO ORMELEZ DE ALMEIDA"/>
+			<field name="inventor" value="TADEU MIRANDA DE QUEIROZ"/>
+			<field name="inventor" value="WIUSLEY GUILHERME DE SOUZA SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DE MATO GROSSO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F23/62AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="abstract.espacenet" value="disposição construtiva aplicada em sistema de controle automático de nível de reservatório utilizando oscilador biestável combinado com imâs e sensor magnético, consistindo de um mecanismo acionado pela força de empuxo do líquido sobre a bóia que por sua vez faz com que a haste se desloque verticalmente dentro do reservatório aproximando um dos imãs ao sensor reed switch, enviando pulsos elétricos para o acionamento do circuito que controla a abertura e fechamento da válvula eletrônica, permitindo um eficiente controle na vazão de água do reservatório."/>
+			<field name="originatesFrom" value="56090069"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027716"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014027716"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027716"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141027716"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014027716"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29262" type="Person">
+			<semanticIdentifier>lattes::2582121765769124</semanticIdentifier>
+			<field name="identifier.lattes" value="2582121765769124"/>
+			<field name="name" value="Tadeu Miranda de Queiroz"/>
+		</entity>
+		<entity ref="OrgUnit22925" type="OrgUnit">
+			<semanticIdentifier>brcris::ccadf8b4148468c55efea20e98e9c637</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO ESTADO DE MATO GROSSO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42891" toEntityRef="Person29262" type="Inventor"/>
+		<relation fromEntityRef="Patent42891" toEntityRef="OrgUnit22925" type="Applicant"/>
+	</relations>
+</entity-relation-data>

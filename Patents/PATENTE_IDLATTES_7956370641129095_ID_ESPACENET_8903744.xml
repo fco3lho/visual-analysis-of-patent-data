@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:59" record="16113" source="Espacenet">
+	<entities>
+		<entity ref="Patent16113" type="Patent">
+			<semanticIdentifier>brcris::19211d5f504e706333394ce7e192a393</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8903744A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8903744</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8903744A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19898903744</semanticIdentifier>
+			<semanticIdentifier>original::89 8903744</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8903744"/>
+			<field name="identifier.lattes" value="7956370641129095"/>
+			<field name="identifier.espacenet" value="8903744"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PROCESSO DE PRODUCAO DE ETANOL COM O CONTROLE DE LEVEDURAS CONTAMINANTES"/>
+			<field name="title.lattes" value="Levedura especial para fermentação de cacau"/>
+			<field name="depositDate" value="1989-07-27"/>
+			<field name="publicationDate" value="1991-01-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FLAVIO CESAR ALMEIDA TAVARES"/>
+			<field name="applicant" value="ESCOLA SUPERIOR DE AGRICULTURA &quot;LUIZ DE QUEIROS&quot;"/>
+			<field name="applicant" value="FUNDACAO DE ESTUDOS AGRARIOS &quot;LUIZ DE QUEIROZ&quot;"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="applicant" value="USINA DA BARRA S/A ACUCAR E ALCOOL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/16AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12P7/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="originatesFrom" value="4047558"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8903744"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8903744"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8903744"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19898903744"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="89 8903744"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11192" type="Person">
+			<semanticIdentifier>lattes::7956370641129095</semanticIdentifier>
+			<field name="identifier.lattes" value="7956370641129095"/>
+			<field name="name" value="Flavio Cesar Almeida Tavares"/>
+		</entity>
+		<entity ref="OrgUnit8768" type="OrgUnit">
+			<semanticIdentifier>brcris::1e97aa2f0352b3eeebf96057fdb7f41c</semanticIdentifier>
+			<field name="name" value="ESCOLA SUPERIOR DE AGRICULTURA &quot;LUIZ DE QUEIROS&quot;"/>
+		</entity>
+		<entity ref="OrgUnit8769" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16113" toEntityRef="Person11192" type="Inventor"/>
+		<relation fromEntityRef="Patent16113" toEntityRef="OrgUnit8768" type="Applicant"/>
+		<relation fromEntityRef="Patent16113" toEntityRef="OrgUnit8769" type="Applicant"/>
+	</relations>
+</entity-relation-data>

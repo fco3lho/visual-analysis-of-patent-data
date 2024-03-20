@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:57" record="6315" source="Espacenet">
+	<entities>
+		<entity ref="Patent6315" type="Patent">
+			<semanticIdentifier>brcris::9eff0de443236530f39dca7e7737531d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0002471A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0002471</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0002471A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2000PI02471</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0002471</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0002471"/>
+			<field name="identifier.lattes" value="2022052803781309"/>
+			<field name="identifier.espacenet" value="PI0002471"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="reguladores de crescimento vegetal e seu processo de produção"/>
+			<field name="title.lattes" value="Reguladores de Crescimento Vegetal e Seu Processo de Produção"/>
+			<field name="depositDate" value="2000-06-14"/>
+			<field name="publicationDate" value="2019-01-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRAS HELENO DE OLIVEIRA"/>
+			<field name="applicant" value="BRAS HELENO DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N37/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01N65/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="65"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="reguladores de crescimento vegetal e seu processo de produção produzem-se reguladores de crescimento vegetal tendo por base a transformação química do esteviosídeo ou outros glicosídeos do esteviol. o processo consiste na hidrólise ácida inicial do glicosídeo seguida de alterações funcionais do diterpenóide baierano resultante. os produtos ?nais são o ácido ent-baier-15-en-19-óico e seu éster metílico. estes compostos possuem propriedades biológicas semelhantes às das giberelinas e, portanto, podem substitui-las em suas aplicações agrícolas de regulação de crescimento vegetal."/>
+			<field name="originatesFrom" value="65365509"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0002471"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0002471"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0002471"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2000PI02471"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0002471"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4191" type="Person">
+			<semanticIdentifier>lattes::2022052803781309</semanticIdentifier>
+			<field name="identifier.lattes" value="2022052803781309"/>
+			<field name="name" value="Brás Heleno de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit3260" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6315" toEntityRef="Person4191" type="Inventor"/>
+		<relation fromEntityRef="Patent6315" toEntityRef="OrgUnit3260" type="Applicant"/>
+		<relation fromEntityRef="Patent6315" toEntityRef="Person4191" type="Depositor"/>
+	</relations>
+</entity-relation-data>

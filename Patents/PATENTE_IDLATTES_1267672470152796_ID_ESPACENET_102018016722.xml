@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:26" record="15848" source="Espacenet">
+	<entities>
+		<entity ref="Patent15848" type="Patent">
+			<semanticIdentifier>brcris::4ae1c8b17b681db77b378ad767f4de7e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018016722A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018016722</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018016722A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181016722</semanticIdentifier>
+			<semanticIdentifier>original::102018016722</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018016722"/>
+			<field name="identifier.lattes" value="1267672470152796"/>
+			<field name="identifier.espacenet" value="102018016722"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de automação residencial para deficientes visuais e/ou auditivos"/>
+			<field name="title.lattes" value="SISTEMA DE AUTOMAÇÃO RESIDENCIAL PARA DEFICIENTES VISUAIS E/OU AUDITIVOS"/>
+			<field name="depositDate" value="2018-08-16"/>
+			<field name="publicationDate" value="2020-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EULER CASSIO TAVARES DE MACEDO"/>
+			<field name="inventor" value="FERNANDO MARTINS DE OLIVEIRA NETO"/>
+			<field name="inventor" value="FERNANDO RODRIGUES FRAZAO"/>
+			<field name="inventor" value="LUCAS PEREIRA FERNANDES"/>
+			<field name="inventor" value="RUBENS MATHEUS BRASIL DA SILVA LIMA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B15/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08B21/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de automação residencial para deficientes visuais e/ou auditivos. a presente invenção trata de um sistema que visa auxiliar deficientes auditivos e/ou visuais em tarefas cotidianas e em suas residências e por meio da interação do usuário com dispositivo smartphone. tal automação é possibilitada pelo sensoriamento da residência por meio de sensores magnéticos, chuva, gás inflamável, fumaça e leitura de campainha sonora. as informações dos sensores são coletadas e processadas por um sistema microcontrolado, o qual as envia ao celular do usuário por meio de um módulo bluetooth. no celular as informações recebidas ou enviadas são apresentadas visualmente e/ou por meio de avisos sonoros."/>
+			<field name="originatesFrom" value="69896797"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018016722"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018016722"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018016722"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181016722"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018016722"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10976" type="Person">
+			<semanticIdentifier>lattes::1267672470152796</semanticIdentifier>
+			<field name="identifier.lattes" value="1267672470152796"/>
+			<field name="name" value="Fernando Rodrigues Frazao"/>
+		</entity>
+		<entity ref="OrgUnit8577" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15848" toEntityRef="Person10976" type="Inventor"/>
+		<relation fromEntityRef="Patent15848" toEntityRef="OrgUnit8577" type="Applicant"/>
+	</relations>
+</entity-relation-data>

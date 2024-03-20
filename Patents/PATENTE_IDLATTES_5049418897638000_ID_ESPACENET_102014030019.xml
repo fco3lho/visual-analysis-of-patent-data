@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:45" record="23083" source="Espacenet">
+	<entities>
+		<entity ref="Patent23083" type="Patent">
+			<semanticIdentifier>brcris::10fc058cb5ba5527edd545abecab154f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030019A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014030019</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030019A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141030019</semanticIdentifier>
+			<semanticIdentifier>original::102014030019</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014030019"/>
+			<field name="identifier.lattes" value="5049418897638000"/>
+			<field name="identifier.espacenet" value="102014030019"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="elaboração de camarão desidratado em pó"/>
+			<field name="title.lattes" value="Elaboração de camarão desidrtatado em pó"/>
+			<field name="depositDate" value="2014-12-01"/>
+			<field name="publicationDate" value="2016-06-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JANAINA DE PAULA DA COSTA"/>
+			<field name="inventor" value="JOSE MARIA CORREIA DA COSTA"/>
+			<field name="inventor" value="LUIS GOMES DE MOURA NETO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23B4/037AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="037AI"/>
+			</field>
+			<field name="abstract.espacenet" value="elaboração de camarão desidratado em pó resumo a invenção refere-se a obtenção/elaboração de camarão desidrato em pó. o produto apresenta características com alto valor nutritivo, e que mantém a cor, aroma e sabor da matéria-prima in natura. destina-se a aplicação em outros produtos que se deseje agregar o sabor de camarão, como molhos, temperos, patês, sopas desidratadas, salgadinhos, entre outros. a metodologia de preparo é facilmente multiplicada, quando se utiliza a secagem por spray-dryer e que apresenta resultados significativos de rendimento, sabor, cor, proteína, e mais natural em relação a sabores artificiais presentes no mercado."/>
+			<field name="originatesFrom" value="56090105"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030019"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014030019"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030019"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141030019"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014030019"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15985" type="Person">
+			<semanticIdentifier>lattes::5049418897638000</semanticIdentifier>
+			<field name="identifier.lattes" value="5049418897638000"/>
+			<field name="name" value="José Maria Correia da Costa"/>
+		</entity>
+		<entity ref="OrgUnit12379" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23083" toEntityRef="Person15985" type="Inventor"/>
+		<relation fromEntityRef="Patent23083" toEntityRef="OrgUnit12379" type="Applicant"/>
+	</relations>
+</entity-relation-data>

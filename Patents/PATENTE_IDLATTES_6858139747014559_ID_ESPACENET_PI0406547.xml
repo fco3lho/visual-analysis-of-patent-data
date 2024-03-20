@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:01" record="27998" source="Espacenet">
+	<entities>
+		<entity ref="Patent27998" type="Patent">
+			<semanticIdentifier>brcris::a088af4573acf746a35ed9f9e6df07bf</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0406547A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0406547</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0406547A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI06547</semanticIdentifier>
+			<semanticIdentifier>original::0406547-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0406547"/>
+			<field name="identifier.lattes" value="6858139747014559"/>
+			<field name="identifier.espacenet" value="PI0406547"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Modificação superficial de materiais, dispositivos e instrumentação médicos utilizados em circulação intracorpórea e extracorpórea para aumento de hemocompatibilidade, tromboresistência e resistência à oxidação"/>
+			<field name="title.lattes" value="Modificação Superficial de Materiais, Dispositivos e Instrumentação Médicos Utilizados em Circulação Intracorpórea e Extracorpórea para Aumento de Hemocompatibilidade, Tromboresistência à Oxidação."/>
+			<field name="depositDate" value="2004-01-13"/>
+			<field name="publicationDate" value="2006-01-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDELMA ELETO DA SILVA"/>
+			<field name="inventor" value="JOSE MARCOS ANDRADE FIGUEIREDO"/>
+			<field name="inventor" value="LUIZ ORLANDO LADEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61L33/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82B3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MODIFICAçãO SUPERFICIAL DE MATERIAIS, DISPOSITIVOS E INSTRUMENTAçãO MéDICOS UTILIZADOS EM CIRCULAçãO INTRACORPóREA E EXTRACORPóREA PARA AUMENTO DE HEMOCOMPATIBILIDADE, TROMBORESISTêNCIA E RESISTêNCIA à OXIDAçãO&quot;. O processo de modificação superficial de materiais, dispositivos e instrumentação médica. Utilizados em circulação intracorpórea e extracorpórea para aumento de hemocompatibilidade, tromboresistencia à oxidação origina uma cobertura molecular anfifílicas de cadeia longa que altera controladamente a energia interfacial e critica sólido-vapor de superfície artificial tratada. Esta cobertura molecular ordenada de moléculas anfifílicas de cadeia longa sobre superfícies artificiais de modo a reduzir, alterar, controlar, passivar e imitar as condições do sangue em contato com a parede endotelial de vasos, veias e artérias permitindo uma cobertura extensa, uniforme e integral com alta adesão e estabilidade. Além de permitir uma cobertura não seletiva a composição química do material a ser coberto podendo ser aplicada a metais, ligas metálicas, vidros, plásticos, polímeros, elastomeros, carbono e a todos os materiais utilizados em bioengenharia e implantes cardiovasculares em geral e é compatível com processos de esterilização microbiológicos atualmente disponíveis. Os confortáveis, não condicionados ao piloto flexibilidade e comodidade em sua viajem, inibindo o piloto de alguns movimentos, colocando em risco a sua vida."/>
+			<field name="originatesFrom" value="35610306"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0406547"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0406547"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0406547"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI06547"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0406547-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19317" type="Person">
+			<semanticIdentifier>lattes::6858139747014559</semanticIdentifier>
+			<field name="identifier.lattes" value="6858139747014559"/>
+			<field name="name" value="Luiz Orlando Ladeira"/>
+		</entity>
+		<entity ref="OrgUnit15034" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27998" toEntityRef="Person19317" type="Inventor"/>
+		<relation fromEntityRef="Patent27998" toEntityRef="OrgUnit15034" type="Applicant"/>
+	</relations>
+</entity-relation-data>

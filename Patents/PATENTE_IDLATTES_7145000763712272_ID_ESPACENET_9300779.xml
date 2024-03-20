@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:04" record="30341" source="Espacenet">
+	<entities>
+		<entity ref="Patent30341" type="Patent">
+			<semanticIdentifier>brcris::656a6a72364ca1a74bb4f002620c520f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9300779A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9300779</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9300779A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939300779</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9300779"/>
+			<field name="identifier.lattes" value="7145000763712272"/>
+			<field name="identifier.espacenet" value="9300779"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Meio filtrante constituído de uma mistura de minério oxidado de manganês e rejeito silicoso da concentração de minérios, para tratamento de águas de abastecimento público e industrial"/>
+			<field name="title.lattes" value="Meio filtrante constituído de uma mistura de minério oxidado de manganês e rejeito silicoso da concentração de minérios, para tratamento de águas de abastecimento público e industrial"/>
+			<field name="depositDate" value="1993-03-03"/>
+			<field name="publicationDate" value="1994-10-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO REINALDO CLEMENTE"/>
+			<field name="inventor" value="CLAUDIO FURTADO DE MENDONCA"/>
+			<field name="inventor" value="GILDO BATISTA INEZ"/>
+			<field name="inventor" value="LINO RODRIGUES DE FREITAS"/>
+			<field name="inventor" value="MARCOS ROCHA VIANNA"/>
+			<field name="inventor" value="MAX DEMATTOS"/>
+			<field name="applicant" value="COMPANHIA DE SANEAMENTO DE MINAS GERAIS"/>
+			<field name="applicant" value="COMPANHIA VALE DO DIO DOCE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J20/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="originatesFrom" value="4055911"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9300779"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9300779"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9300779"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939300779"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20816" type="Person">
+			<semanticIdentifier>lattes::7145000763712272</semanticIdentifier>
+			<field name="identifier.lattes" value="7145000763712272"/>
+			<field name="name" value="Marcos Rocha Vianna"/>
+		</entity>
+		<entity ref="OrgUnit16270" type="OrgUnit">
+			<semanticIdentifier>brcris::ae3e13c2d47e8d64aeddf6990df1a6d4</semanticIdentifier>
+			<field name="name" value="COMPANHIA DE SANEAMENTO DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30341" toEntityRef="Person20816" type="Inventor"/>
+		<relation fromEntityRef="Patent30341" toEntityRef="OrgUnit16270" type="Applicant"/>
+	</relations>
+</entity-relation-data>

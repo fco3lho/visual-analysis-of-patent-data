@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:57:18" record="29577" source="Espacenet">
+	<entities>
+		<entity ref="Patent29577" type="Patent">
+			<semanticIdentifier>brcris::723237b5de72b23e8223b53dd76eaa19</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013012303A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013012303</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013012303A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131012303</semanticIdentifier>
+			<semanticIdentifier>original::102013012303</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013012303"/>
+			<field name="identifier.lattes" value="8594733039954371"/>
+			<field name="identifier.espacenet" value="102013012303"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método de controle de semáforos"/>
+			<field name="title.lattes" value="GENPOLIS: PLATAFORMA DE OTIMIZAÇÃO DE SEMÁFOROS EM TEMPO REAL COM ALGORITMOS GENÉTICOS BASEADA EM SIMULAÇÃO MESOSCÓPICA"/>
+			<field name="depositDate" value="2013-05-17"/>
+			<field name="publicationDate" value="2015-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO SARNO MUGNELA"/>
+			<field name="inventor" value="MARCIO LOBO NETO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B61L3/08AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06N3/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema e metodo de controle de semaforos. a presente invenção se insere no campo de controle de semáforos urbanos, permitindo uma rápida simulação de valores de tempos de abertura ou fechamento dos semáforos, com a modificação dos tempos de abertura e fechamento de semáforos reais utilizando os dados da melhor simulação, consequentemente melhorando o desempenho e minlmizando os congestionamentos. para isto, o sistema e o método da presente invenção simulam um fluxo de veículos simulados em uma malha viária simulada, calculam um crescimento e uma propagação de filas de veículos para as diferentes temporizações dos semáforos, classificam as temporlzações de abertura e fechamento dos semáforos virtuais do grupo de temporizações em função do crescimento e da propagação de filas de veículos, selecionam as melhores temporizações de abertura e fechamento dos semáforos virtuais em função da classificação, e modificam a temporização de abertura e fechamento dos semáforos de acordo com a melhor temporização de abertura e fechamento dos semáforos virtuais. adicionalmente, o sistema se vale de algoritmos genéticos para classificar e modificar as temporazações dos semaforos, de modo a selecionar a melhor temporização de abertura e fechamento dos semáforos virtuais."/>
+			<field name="originatesFrom" value="54548373"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013012303"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013012303"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013012303"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131012303"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013012303"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20340" type="Person">
+			<semanticIdentifier>lattes::8594733039954371</semanticIdentifier>
+			<field name="identifier.lattes" value="8594733039954371"/>
+			<field name="name" value="Marcio Lobo Netto"/>
+		</entity>
+		<entity ref="OrgUnit15921" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29577" toEntityRef="Person20340" type="Inventor"/>
+		<relation fromEntityRef="Patent29577" toEntityRef="OrgUnit15921" type="Applicant"/>
+	</relations>
+</entity-relation-data>

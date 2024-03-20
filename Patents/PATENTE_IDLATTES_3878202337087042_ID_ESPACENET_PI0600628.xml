@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:36" record="40189" source="Espacenet">
+	<entities>
+		<entity ref="Patent40189" type="Patent">
+			<semanticIdentifier>brcris::8ec50630ed2aab03b9f0f555adf94373</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600628A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0600628</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0600628A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI00628</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0600628-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0600628"/>
+			<field name="identifier.lattes" value="3878202337087042"/>
+			<field name="identifier.espacenet" value="PI0600628"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="pasta cimentante contendo quitosana"/>
+			<field name="title.lattes" value="Pasta cimentante contendo quitosana"/>
+			<field name="depositDate" value="2006-02-23"/>
+			<field name="publicationDate" value="2007-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO EDUARDO MARTINELLI"/>
+			<field name="inventor" value="DULCE MARIA DE ARAUJO MELO"/>
+			<field name="inventor" value="MARCUS ANTONIO DE FREITAS MELO"/>
+			<field name="inventor" value="ROMERO GOMES DA SILVA ARAUJO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE - UFRN"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09K8/46AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09K8/467AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="467AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PASTA CIMENTANTE CONTENDO QUITOSANA Trata a presente invenção de uma pasta cimentante á base de cimento Portland classe G e quitosana adicionada na proporção de 1 a 5% BWOC que constitui uma matriz de cimento com resistência mecânica aumentada e sendo a pasta adequada a poços sujeitos a operações sob condições severas de temperatura em campos de produção de petróleo."/>
+			<field name="originatesFrom" value="38617691"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600628"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0600628"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0600628"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI00628"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0600628-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27387" type="Person">
+			<semanticIdentifier>lattes::3878202337087042</semanticIdentifier>
+			<field name="identifier.lattes" value="3878202337087042"/>
+			<field name="name" value="Romero Gomes da Silva Araujo"/>
+		</entity>
+		<entity ref="OrgUnit21406" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40189" toEntityRef="Person27387" type="Inventor"/>
+		<relation fromEntityRef="Patent40189" toEntityRef="OrgUnit21406" type="Applicant"/>
+	</relations>
+</entity-relation-data>

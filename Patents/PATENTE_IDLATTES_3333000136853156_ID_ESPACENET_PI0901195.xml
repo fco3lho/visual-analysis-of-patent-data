@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:13" record="39994" source="Espacenet">
+	<entities>
+		<entity ref="Patent39994" type="Patent">
+			<semanticIdentifier>brcris::7dcce48653e287e680f10b9836b96f43</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901195A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0901195</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0901195A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI01195</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0901195-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0901195"/>
+			<field name="identifier.lattes" value="3333000136853156"/>
+			<field name="identifier.espacenet" value="PI0901195"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema de estimação de ángulos de incidência de sinais de interesse"/>
+			<field name="title.lattes" value="Método e Sistema de Estimação de Ângulos de Incidência de Sinais de Interesse"/>
+			<field name="depositDate" value="2009-03-18"/>
+			<field name="publicationDate" value="2011-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HUGO VINICIUS LEAO E SILVA"/>
+			<field name="inventor" value="RODRIGO PINTO LEMOS"/>
+			<field name="inventor" value="YROA ROBLEDO FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01S3/74AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="74AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Método e sistema de estimação de ângulos de incidência de sinais de interesse.é descrita a presente invenção, um método e sistema de estimação de ângulos de incidência de sinais interesse, os quais podem ser ondas eletromagnéticas ou acústicas, através da geração do critério diferencial. O ângulo de incidência de cada um dos sinais de interesse é desconhecido e a quantidade de sinais, M, é conhecida e menor do que a quantidade de sensores, K, que estão dispostos de maneira uniforme. Inclui os passos de estimação de ângulos de incidência para serem enviados a outro subsistema respon- sável pela conformação de feixes, para direcionar os feixes para os ângulos estimados, O critério diferencial é baseado na diferença entre os dois maiores valores singulares da matriz de covariância espacial."/>
+			<field name="originatesFrom" value="43661605"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901195"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0901195"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0901195"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI01195"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0901195-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27221" type="Person">
+			<semanticIdentifier>lattes::3333000136853156</semanticIdentifier>
+			<field name="identifier.lattes" value="3333000136853156"/>
+			<field name="name" value="Rodrigo Pinto Lemos"/>
+		</entity>
+		<entity ref="OrgUnit21301" type="OrgUnit">
+			<semanticIdentifier>brcris::0a240c63278feffcbeb0015483982a39</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39994" toEntityRef="Person27221" type="Inventor"/>
+		<relation fromEntityRef="Patent39994" toEntityRef="OrgUnit21301" type="Applicant"/>
+	</relations>
+</entity-relation-data>

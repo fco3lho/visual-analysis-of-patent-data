@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:15" record="27696" source="Espacenet">
+	<entities>
+		<entity ref="Patent27696" type="Patent">
+			<semanticIdentifier>brcris::8c3c4a1ecdb704659cf1383314c640a7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504693A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9504693</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504693A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959504693</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9504693"/>
+			<field name="identifier.lattes" value="5853462846099775"/>
+			<field name="identifier.espacenet" value="9504693"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Penetrômetro cilindrico escalonado"/>
+			<field name="title.lattes" value="DISPOSITIVO MANUAL DE PADRONIZAÇÃO E MONITORIZAÇÃO DA QUALIDADE DA IMAGEM RADIOGRÁFICA ODONTOLÓGICA"/>
+			<field name="depositDate" value="1995-09-19"/>
+			<field name="publicationDate" value="1997-09-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ CARLOS PARDINI"/>
+			<field name="inventor" value="PLAUTO CHRISTOPHER ARANHA WATANABE"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03B42/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="42"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G03B43/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4062554"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504693"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9504693"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504693"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959504693"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19116" type="Person">
+			<semanticIdentifier>lattes::5853462846099775</semanticIdentifier>
+			<field name="identifier.lattes" value="5853462846099775"/>
+			<field name="name" value="Luiz Carlos Pardini"/>
+		</entity>
+		<entity ref="OrgUnit14911" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27696" toEntityRef="Person19116" type="Inventor"/>
+		<relation fromEntityRef="Patent27696" toEntityRef="OrgUnit14911" type="Applicant"/>
+	</relations>
+</entity-relation-data>

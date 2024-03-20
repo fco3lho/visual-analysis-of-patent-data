@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:35" record="3857" source="Espacenet">
+	<entities>
+		<entity ref="Patent3857" type="Patent">
+			<semanticIdentifier>brcris::cec453bc8287c3480d5aabfeea0a4b6f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8702514U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8702514U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8702514U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1987MU02514U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8702514-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8702514"/>
+			<field name="identifier.lattes" value="3643169710524692"/>
+			<field name="identifier.espacenet" value="MU8702514"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="difusor sonoro"/>
+			<field name="title.lattes" value="Difusor Sonoro Cubo - Componente arquitetônico para conforto ambiental - controle acústico. Modelo de Utilidade: MU 87025140"/>
+			<field name="depositDate" value="2007-06-15"/>
+			<field name="publicationDate" value="2009-02-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREA FRANCO PEREIRA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G10K11/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DIFUSOR SONORO. A presente patente de modelo de utilidade descreve um componente arquitetônico para controle acústico de edificações produzido em madeira com o formato de cubos e sua variante com o formato de paralelepípedos. A tecnologia apresenta como características facilidade de montagem, padronização para aplicação em ambientes com dimensões variadas e flexibilidade de uso e de efeito visuais. Trata-se de um componente arquitetônico para conforto ambiental, no quesito controle acústico em ambientes construídos, denominado comumente pelo mercado como &quot;difusor sonoro&quot;, produzido sob critério de sustentabilidade."/>
+			<field name="originatesFrom" value="40576514"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8702514"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8702514U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8702514"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1987MU02514U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8702514-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU8702514Y"/>
+		</entity>
+		<entity ref="Person2690" type="Person">
+			<semanticIdentifier>lattes::3643169710524692</semanticIdentifier>
+			<field name="identifier.lattes" value="3643169710524692"/>
+			<field name="name" value="Andréa Franco Pereira"/>
+		</entity>
+		<entity ref="OrgUnit2148" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent3858" type="Patent">
+			<semanticIdentifier>epodoc::BRMU8702514Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="40576514"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8702514Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3857" toEntityRef="Person2690" type="Inventor"/>
+		<relation fromEntityRef="Patent3857" toEntityRef="OrgUnit2148" type="Applicant"/>
+	</relations>
+</entity-relation-data>

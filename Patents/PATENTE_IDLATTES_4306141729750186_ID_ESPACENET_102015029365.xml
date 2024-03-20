@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:47" record="33289" source="Espacenet">
+	<entities>
+		<entity ref="Patent33289" type="Patent">
+			<semanticIdentifier>brcris::2cecb2581f89b4d45c812cda04f95feb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015029365A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015029365</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015029365A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151029365</semanticIdentifier>
+			<semanticIdentifier>original::102015029365</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015029365"/>
+			<field name="identifier.lattes" value="4306141729750186"/>
+			<field name="identifier.espacenet" value="102015029365"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de pré-filtragem óptica para otimização espectral multicanal"/>
+			<field name="title.lattes" value="Método de Pré-Filtragem Óptica para Otimização Espectral Multicanal"/>
+			<field name="depositDate" value="2015-11-24"/>
+			<field name="publicationDate" value="2017-05-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMILA DE ARAUJO SOUTO DINIZ"/>
+			<field name="inventor" value="JACKLYN DIAS REIS"/>
+			<field name="inventor" value="MIQUEL GARRICH ALABARCE"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02F1/01AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06N3/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04B10/2543AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="2543AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="H04J14/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de pré-filtragem óptica para otimização espectral multicanal.novo método de pré-filtragem óptica para otimização espectral multicanal, o qual propõe que o perfil do filtro utilizando na pré-ênfase dos sinais seja determinado através de um algoritmo genético, onde a função custo a ser minimizada na recepção seja o ber (bit-error rate - taxa de erro de bit), e onde é utilizado um filtro óptico programável na filtragem dos sinais. este método para otimizar a detecção do sinal ao final de um enlace óptico é aplicado principalmente em enlaces sem repetição, não se restringindo a estes; tratando-se de um método de reformatação do espectro do sinal de forma a diminuir o impacto dos efeitos não-lineares no sinal através do uso de filtragem óptica flexível, utilizando um filtro óptico programável para avaliar o desempenho do sistema e um algoritmo genético que utiliza a ber na recepção como função custo para obter o perfil do filtro que otimizar a recepção, onde o uso do algoritmo genético multidimensional e multiobjetivo realiza a otimização simultânea de múltiplos canais. de tal forma que, a otimização de múltiplos canais por meio de uma determinada sequência de otimizações individuais é realizada através desse algoritmo genético multidimensional e multiobjetivo em uma sequência de otimização para canais individuais específica."/>
+			<field name="originatesFrom" value="59101101"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015029365"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015029365"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015029365"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151029365"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015029365"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22953" type="Person">
+			<semanticIdentifier>lattes::4306141729750186</semanticIdentifier>
+			<field name="identifier.lattes" value="4306141729750186"/>
+			<field name="name" value="Miquel Garrich Alabarce"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33289" toEntityRef="Person22953" type="Inventor"/>
+	</relations>
+</entity-relation-data>

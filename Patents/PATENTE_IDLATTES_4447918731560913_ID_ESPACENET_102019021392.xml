@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:51" record="10096" source="Espacenet">
+	<entities>
+		<entity ref="Patent10096" type="Patent">
+			<semanticIdentifier>brcris::70b277d1856d38b4dce60769b47fe0f6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021392A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019021392</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021392A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191021392</semanticIdentifier>
+			<semanticIdentifier>original::102019021392</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019021392"/>
+			<field name="identifier.lattes" value="4447918731560913"/>
+			<field name="identifier.espacenet" value="102019021392"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aferição precisa da quantidade de combustível no tanque de um veículo automotor por meio de densidade, usando um processador"/>
+			<field name="title.lattes" value="Aferição Precisa da Quantidade de Combustível no Tanque de um Veículo Automotor Por Meio de Densidade, Usando um Processador"/>
+			<field name="depositDate" value="2019-10-11"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREL DE SOUZA PECETE"/>
+			<field name="inventor" value="CLEBER FERNANDO SERAFIN"/>
+			<field name="inventor" value="DANIEL DOS SANTOS MATOS"/>
+			<field name="inventor" value="HERNANI BATISTA DA CRUZ"/>
+			<field name="inventor" value="KENY ROGER OKIPNEY FERREIRA"/>
+			<field name="inventor" value="LUIZ ANTONIO FERREIRA DA SILVA"/>
+			<field name="inventor" value="MARCIO JOSE KLOSTER"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01F23/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aferição precisa da quantidade de combustível no tanque. de um veículo automotor por meio de densidade, usando um. processador. a presente invenção consiste em um sistema de monitoramento e controle da quantidade precisa de combustível no tanque de combustível (3 figura 1), tal processo de pesagem gera o volume real em tempo real da quantidade de combustível existente no tanque. serão colocadas células de carga (5 figura 2) que atuam como um transdutor, que irá captar a intensidade de compressão, ou seja, a mudança de peso interno do tanque e transformando essa energia mecânica recebida em pulso elétrico pelas células de carga. quanto maior o peso recebido, maior será o sinal elétrico produzido pelos sensores. um processador (1 figura 1) irá converter o peso em volume por meio da densidade padrão do combustível de acordo com a sua temperatura. na entrada do tanque de combustível há um sensor catalítico (4 figura 1) de hidrocarbonetos responsável por identificar se o combustível é etanol ou gasolina e com base nisso o processador (1 figura 1) relaciona o peso com uma tabela padrão de densidade por temperatura de acordo com o combustível reconhecido pelo sensor. a temperatura do combustível deve ser levada em consideração, pois a densidade do combustível altera com a temperatura, tal problema será resolvido com a instalação de um termômetro (termopar) (2 figura 1) instalado junto ao sistema. com esses dados o processador calculará imediatamente a densidade do fluido e converterá o volume pelo peso. caso o tanque não esteja vazio os dados anteriores serão mantidos e acrescentados da nova mistura de hidrocarbonetos, ajustando o sistema em tempo real no microprocessador."/>
+			<field name="originatesFrom" value="75845306"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021392"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019021392"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021392"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191021392"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019021392"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6936" type="Person">
+			<semanticIdentifier>lattes::4447918731560913</semanticIdentifier>
+			<field name="identifier.lattes" value="4447918731560913"/>
+			<field name="name" value="Daniel dos Santos Matos"/>
+		</entity>
+		<entity ref="OrgUnit5488" type="OrgUnit">
+			<semanticIdentifier>brcris::6fde90da7c27282c3f1f2e8b4d2b2ec1</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10096" toEntityRef="Person6936" type="Inventor"/>
+		<relation fromEntityRef="Patent10096" toEntityRef="OrgUnit5488" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:10:33" record="3260" source="Espacenet">
+	<entities>
+		<entity ref="Patent3260" type="Patent">
+			<semanticIdentifier>brcris::791023bea57a0be1ecf632410c17d9a8</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8700253U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8700253U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8700253U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1987MU00253U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8700253-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8700253"/>
+			<field name="identifier.lattes" value="7034773971317045"/>
+			<field name="identifier.espacenet" value="MU8700253"/>
+			<field name="kindCode" value="U"/>
+			<field name="title.espacenet" value="frasco para extração de nutrientes quimicos por meio de ativação com radiação microondas"/>
+			<field name="title.lattes" value="Frasco para extração de nutrientes quimicos por meio de ativação com radiação microondas"/>
+			<field name="depositDate" value="2007-02-16"/>
+			<field name="publicationDate" value="2008-09-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA RITA DE ARAUJO NOGUEIRA"/>
+			<field name="inventor" value="GILBERTO BATISTA DE SOUZA"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J19/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="FRASCO PARA EXTRAçãO DE NUTRIENTES POR MEIO DE ATIVAçãO COM RADIAçãO MICROONDAS. Refere-se o presente modelo de utilidade ao aperfeiçoamento de frasco de baixa pressurização, para extração por radiação microondas de nutrientes de solos, plantas, alimentos ou outro material sólido. Tal frasco e sua utilização em fomos de microondas provêem um método simples e eficiente de extração de nutrientes para posterior análise, com economia de tempo, energia e reagentes."/>
+			<field name="originatesFrom" value="39776224"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8700253"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8700253U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8700253"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1987MU00253U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8700253-1"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU8700253Y"/>
+		</entity>
+		<entity ref="Person2303" type="Person">
+			<semanticIdentifier>lattes::7034773971317045</semanticIdentifier>
+			<field name="identifier.lattes" value="7034773971317045"/>
+			<field name="name" value="Ana Rita de Araujo Nogueira"/>
+		</entity>
+		<entity ref="OrgUnit1856" type="OrgUnit">
+			<semanticIdentifier>brcris::956dd76a118ed0e661cb8fe62a95e3df</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+		<entity ref="OrgUnit1857" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+		<entity ref="Patent3261" type="Patent">
+			<semanticIdentifier>epodoc::BRMU8700253Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="39776224"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8700253Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3260" toEntityRef="Person2303" type="Inventor"/>
+		<relation fromEntityRef="Patent3260" toEntityRef="OrgUnit1856" type="Applicant"/>
+		<relation fromEntityRef="Patent3260" toEntityRef="OrgUnit1857" type="Applicant"/>
+	</relations>
+</entity-relation-data>

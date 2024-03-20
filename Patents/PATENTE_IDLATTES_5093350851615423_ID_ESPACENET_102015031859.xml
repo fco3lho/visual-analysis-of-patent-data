@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:07" record="20135" source="Espacenet">
+	<entities>
+		<entity ref="Patent20135" type="Patent">
+			<semanticIdentifier>brcris::df16a71ab25a1d5a1fa54a7428c637e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031859A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015031859</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031859A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151031859</semanticIdentifier>
+			<semanticIdentifier>original::102015031859</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015031859"/>
+			<field name="identifier.lattes" value="5093350851615423"/>
+			<field name="identifier.espacenet" value="102015031859"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="gaiola com exercício vinculado ao fornecimento de alimento"/>
+			<field name="title.lattes" value="GAIOLA COM EXERCÍCIO VINCULADO AO FORNECIMENTO DE ALIMENTO"/>
+			<field name="depositDate" value="2015-12-18"/>
+			<field name="publicationDate" value="2017-06-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE AUGUSTO MORAES NOGUEIRA"/>
+			<field name="inventor" value="CLAUDIO DUVAL DE ARAUJO"/>
+			<field name="inventor" value="FERNANDA DE ASSIS ARAUJO"/>
+			<field name="inventor" value="HUGO ALEXANDER DE MORAES PIMENTEL"/>
+			<field name="inventor" value="IVANA ALICE TEIXEIRA"/>
+			<field name="inventor" value="LUIZ OSWALDO CARNEIRO RODRIGUES"/>
+			<field name="inventor" value="RENATA LANE DE FREITAS PASSOS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K1/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01K5/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A01K15/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="gaiola com exercício vinculado ao fornecimento de alimento o presente pedido de patente de invenção compreende uma gaiola de atividade individual que permite a programação e a sincronização entre a quantidade de exercício realizada pelo animal (normalmente pequenos roedores) com a quantidade de alimento fornecido. o exercício é realizado pelo animal no interior de uma roda para atividade fisica na qual, ao caminhar, ele provoca o movimento circular da mesma. a medição do exercício realizado e feita calculando-se a distância percorrida ou o trabalho executado. a gaiola apresenta dispositivo de programação que permite determinar a quantidade máxima de alimento fornecida por dia. o vinculo entre o fornecimento de alimento em a realização do exercicio pode ser determinado por meio de parâmetros associados à atividade, tais como, a duração, as distâncias média e total, a velocidade média, a velocidade máxima e o trabalho. esses parâmetros são armazenados continuamente e disponibilizados pelo dispositivo na forma de dados digitais."/>
+			<field name="originatesFrom" value="61256385"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031859"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015031859"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031859"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151031859"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015031859"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13986" type="Person">
+			<semanticIdentifier>lattes::5093350851615423</semanticIdentifier>
+			<field name="identifier.lattes" value="5093350851615423"/>
+			<field name="name" value="Ivana Alice Teixeira Fonseca"/>
+		</entity>
+		<entity ref="OrgUnit10937" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20135" toEntityRef="Person13986" type="Inventor"/>
+		<relation fromEntityRef="Patent20135" toEntityRef="OrgUnit10937" type="Applicant"/>
+	</relations>
+</entity-relation-data>

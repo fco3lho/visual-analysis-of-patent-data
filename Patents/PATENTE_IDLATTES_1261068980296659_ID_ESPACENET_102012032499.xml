@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:13" record="25932" source="Espacenet">
+	<entities>
+		<entity ref="Patent25932" type="Patent">
+			<semanticIdentifier>brcris::08da6698cae30e73e13d2644c8578ac0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032499A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032499</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032499A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032499</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 032499-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032499"/>
+			<field name="identifier.lattes" value="1261068980296659"/>
+			<field name="identifier.espacenet" value="102012032499"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO DE PRODUÇÃO E USO DA PROTEÍNA RK39-KDDR E KIT PARA DIAGNÓSTICO DE LEISHMANIOSE"/>
+			<field name="title.lattes" value="Processo de produção e uso da proteína rK39-KDDR e kit para diagnóstico de leishmaniose"/>
+			<field name="depositDate" value="2012-12-19"/>
+			<field name="publicationDate" value="2014-12-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIELLA CASTANHEIRA BARTHOLOMEU"/>
+			<field name="inventor" value="JOAO LUIS REIS CUNHA"/>
+			<field name="inventor" value="LILIAN LACERDA BUENO"/>
+			<field name="inventor" value="LUCAS DE CARVALHO DHOM LEMOS"/>
+			<field name="inventor" value="RICARDO TOSHIO FUJIWARA"/>
+			<field name="inventor" value="TIAGO ANTONIO DE OLIVEIRA MENDES"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K14/44AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/30AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/569AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="569AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PRODUÇÃO E USO DA PROTEÍNA rK39-KDDR E KIT PARA DIAGNÓSTICO DE LEISHMANIOSE A presente tecnologia descreve um novo processo de expressão heteróloga da porção repetitiva da kinesina, com o uso de primers específicos, os quais permitiram a construção de um antígeno recombinante com 7.5 motivos repetitivos da K39 associados a um motivo repetitivo degenerado chamado de KDDR (Kinesín Degenerated Derived Repeat). Ainda, a tecnologia descreve o uso desse antígeno (K39-KDDR) no diagnóstico de leishmaniose e como vacina e um Kit diagnóstico contendo o mesmo antígeno."/>
+			<field name="originatesFrom" value="52129867"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032499"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032499"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032499"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032499"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 032499-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17958" type="Person">
+			<semanticIdentifier>lattes::1261068980296659</semanticIdentifier>
+			<field name="identifier.lattes" value="1261068980296659"/>
+			<field name="name" value="Lilian Lacerda Bueno"/>
+		</entity>
+		<entity ref="OrgUnit14023" type="OrgUnit">
+			<semanticIdentifier>brcris::f60e03e4038d592def216988a602934c</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit14024" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25932" toEntityRef="Person17958" type="Inventor"/>
+		<relation fromEntityRef="Patent25932" toEntityRef="OrgUnit14023" type="Applicant"/>
+		<relation fromEntityRef="Patent25932" toEntityRef="OrgUnit14024" type="Applicant"/>
+	</relations>
+</entity-relation-data>

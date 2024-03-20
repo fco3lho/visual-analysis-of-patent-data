@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:34" record="9958" source="Espacenet">
+	<entities>
+		<entity ref="Patent9958" type="Patent">
+			<semanticIdentifier>brcris::1eef69f77cfe60effe0da11737a73176</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904224A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904224</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904224A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04224</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0904224-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904224"/>
+			<field name="identifier.lattes" value="5788968984206701"/>
+			<field name="identifier.espacenet" value="PI0904224"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="indicador de velocidade do vento em faixa vertical"/>
+			<field name="title.lattes" value="Indicador de velocidade de vento em faixa vertical"/>
+			<field name="depositDate" value="2009-10-06"/>
+			<field name="publicationDate" value="2011-06-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DALZIZA DE OLIVEIRA"/>
+			<field name="inventor" value="DIEGO HENRIQUES DOS SANTOS"/>
+			<field name="inventor" value="OTAVIO JORGE GRIGOLI ABI SAAB"/>
+			<field name="applicant" value="INSTITUTO AGRONOMICO DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01P5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Indicador de velocidade do vento em faixa vertical. A presente invenção tem por objeto apresentar um equipamento simples e custo baixo para indicar a velocidade do vento no meio rural. O indicador proposto é uma solução prática, para que o agricultor tenha alguma referência na tomada de decisão sobre o momento adequado para a aplicação de agrotóxicos. O indicador de velocidade de vento pode ser utilizado em situações em que e necessário saber se a velocidade do vento está dentro de faixas adequadas, com alguma restrição ou impróprias para as mais diversas aplicações."/>
+			<field name="originatesFrom" value="44144578"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904224"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904224"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904224"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04224"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0904224-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6827" type="Person">
+			<semanticIdentifier>lattes::5788968984206701</semanticIdentifier>
+			<field name="identifier.lattes" value="5788968984206701"/>
+			<field name="name" value="Dalziza de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit5397" type="OrgUnit">
+			<semanticIdentifier>brcris::be4000780b340c539641e8f4feebac99</semanticIdentifier>
+			<field name="name" value="INSTITUTO AGRONOMICO DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit5398" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9958" toEntityRef="Person6827" type="Inventor"/>
+		<relation fromEntityRef="Patent9958" toEntityRef="OrgUnit5397" type="Applicant"/>
+		<relation fromEntityRef="Patent9958" toEntityRef="OrgUnit5398" type="Applicant"/>
+	</relations>
+</entity-relation-data>

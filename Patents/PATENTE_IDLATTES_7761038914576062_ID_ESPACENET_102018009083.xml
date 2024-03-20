@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:00" record="3449" source="Espacenet">
+	<entities>
+		<entity ref="Patent3449" type="Patent">
+			<semanticIdentifier>brcris::52b68c64407b0bfefd67cec92103077e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018009083A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018009083</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018009083A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181009083</semanticIdentifier>
+			<semanticIdentifier>original::102018009083</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018009083"/>
+			<field name="identifier.lattes" value="7761038914576062"/>
+			<field name="identifier.espacenet" value="102018009083"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de telemedicina por cabine para triagem e biomonitorização infravermelha de doenças"/>
+			<field name="title.lattes" value="SISTEMA DE TELEMEDICINA POR CABINE PARA TRIAGEM E BIOMONITORIZAÇÃO INFRAVERMELHA DE DOENÇAS"/>
+			<field name="depositDate" value="2018-05-04"/>
+			<field name="publicationDate" value="2019-11-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE BELLIN MARIANO"/>
+			<field name="inventor" value="JOSE VIRIATO COELHO VARGAS"/>
+			<field name="inventor" value="MARCOS LEAL BRIOSCHI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/0205AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="0205AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="E04H1/12AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção trata de um sistema para fins de saúde pública, identificação precoce de doenças, contenção de epidemias e controle doenças de alta prevalência na comunidade como diabetes e câncer, inclusive em localidades isoladas, sendo que o sistema propriamente dito é composto por: (1) sistema de imagem térmica e visual combinados (sensores), (2) uma unidade móvel robotizada, (10) uma unidade fixa de posicionamento dos sensores e usuário, (4) monitor, (5) sistema computacional de triagem de risco por telemedicina, (6) um módulo central para processamento de dados e envio de informações remotamente, (7) um sistema de condicionamento de ar, (8) sistema de gestão de energia, (9) sistema de controle de conforto ambiental (iluminação, temperatura, umidade, ventilação). o produto é formado por um sistema de geração de imagens térmicas e visuais combinadas, utilizando para isto um sensor de captura de imagens infravermelhas robotizado ligado a um sistema computacional de análise remoto, tipo machine learning, que permite o envio de resultados simultaneamente para uma central médico-hospitalar diagnóstica e dispositivo móvel de celular do usuário por telemedicina."/>
+			<field name="originatesFrom" value="68385904"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018009083"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018009083"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018009083"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181009083"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018009083"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2429" type="Person">
+			<semanticIdentifier>lattes::7761038914576062</semanticIdentifier>
+			<field name="identifier.lattes" value="7761038914576062"/>
+			<field name="name" value="André Bellin Mariano"/>
+		</entity>
+		<entity ref="OrgUnit1949" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3449" toEntityRef="Person2429" type="Inventor"/>
+		<relation fromEntityRef="Patent3449" toEntityRef="OrgUnit1949" type="Applicant"/>
+	</relations>
+</entity-relation-data>

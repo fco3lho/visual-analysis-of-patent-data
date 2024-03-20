@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:36" record="38483" source="Espacenet">
+	<entities>
+		<entity ref="Patent38483" type="Patent">
+			<semanticIdentifier>brcris::c89d5be8296054f419db5ff56d6b0957</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014509A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019014509</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014509A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191014509</semanticIdentifier>
+			<semanticIdentifier>original::102019014509</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019014509"/>
+			<field name="identifier.lattes" value="7445566906318673"/>
+			<field name="identifier.espacenet" value="102019014509"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composições farmacêuticas antiparasitárias contendo curcuminóides modificados e uso"/>
+			<field name="title.lattes" value="COMPOSIÇÕES FARMACÊUTICAS ANTIPARASITÁRIAS CONTENDO CURCUMINÓIDES MODIFICADOS E USO"/>
+			<field name="depositDate" value="2019-07-12"/>
+			<field name="publicationDate" value="2021-01-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMANDA VICENTE MARQUES"/>
+			<field name="inventor" value="DARLENE CORREIA FLORES"/>
+			<field name="inventor" value="RAQUEL MARTINS DE ALMEIDA"/>
+			<field name="inventor" value="RICARDO TOSHIO FUJIWARA"/>
+			<field name="inventor" value="SEBASTIAO RODRIGO FERREIRA"/>
+			<field name="inventor" value="VANIA RODRIGUES DE LIMA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE - FURG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO SUL DA BAHIA - UFSB"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/45AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="45AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P33/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composições farmacêuticas antiparasitárias contendo curcuminóides modificados e uso a presente tecnologia trata de composições farmacêuticas antiparasitárias compreendendo pelo menos um dos três curcuminóides modificados (3e, 5e) -3,5-dibenzilidenopiperidin-4-ona; (3e, 5e) -3,5-bis-4- clorobenzilidenopiperidin-4-ona; e (3e, 5e) -3,5-bis-(4-(dimetilamino) benzilideno)piperidin-4-ona; e seu uso para tratamento de leishmanioses. as composições apresentam atividade contra o crescimento in vitro de formas amastigotas intracelulares de l. infantum. os três curcuminóides modificados inibem o crescimento das amastigotas, com um índice de seletividade melhor que o da anfotericina b apresentando, portanto, menor toxicidade frente aos modelos de células testados."/>
+			<field name="originatesFrom" value="74504604"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014509"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019014509"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014509"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191014509"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019014509"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26490" type="Person">
+			<semanticIdentifier>lattes::7445566906318673</semanticIdentifier>
+			<field name="identifier.lattes" value="7445566906318673"/>
+			<field name="name" value="Ricardo Toshio Fujiwara"/>
+		</entity>
+		<entity ref="OrgUnit20772" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit20773" type="OrgUnit">
+			<semanticIdentifier>brcris::5f210e0c7d95cf557275f5ec47d2aa6c</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE - FURG"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38483" toEntityRef="Person26490" type="Inventor"/>
+		<relation fromEntityRef="Patent38483" toEntityRef="OrgUnit20772" type="Applicant"/>
+		<relation fromEntityRef="Patent38483" toEntityRef="OrgUnit20773" type="Applicant"/>
+	</relations>
+</entity-relation-data>

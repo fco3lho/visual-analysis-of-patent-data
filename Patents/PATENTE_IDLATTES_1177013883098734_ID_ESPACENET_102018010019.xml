@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:31" record="39569" source="Espacenet">
+	<entities>
+		<entity ref="Patent39569" type="Patent">
+			<semanticIdentifier>brcris::778fa3686b0124e21d96d654bffd8e46</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010019A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018010019</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010019A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181010019</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018010019"/>
+			<field name="identifier.lattes" value="1177013883098734"/>
+			<field name="identifier.espacenet" value="102018010019"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="conversor cc-cc bidirecional de elevada taxa de conversão utilizando indutor acoplado"/>
+			<field name="title.lattes" value="CONVERSOR CC-CC BIDIRECIONAL DE ELEVADA TAXA DE CONVERSÃO UTILIZANDO INDUTOR ACOPLADO"/>
+			<field name="depositDate" value="2018-05-17"/>
+			<field name="publicationDate" value="2019-12-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MENAOUAR BERREHIL EL KATTEL"/>
+			<field name="inventor" value="MURILO BRUNEL DA ROSA"/>
+			<field name="inventor" value="ROBSON MAYER"/>
+			<field name="inventor" value="SERGIO VIDAL GARCIA OLIVEIRA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DO ESTADO DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M3/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o conversor cc-cc faz a conversão de uma potência de entrada em corrente continua em uma potência de saída em corrente continua, sem conversão intermediaria com único estágio. utiliza um indutor acoplado para a elevação e redução da tensão entre fonte e carga, aplicado a sistemas que requerem armazenamento e fluxo bidirecional de energia como, fontes de alimentação, nobreaks, veículos elétricos, veículos elétricos híbridos, aeronaves, aplicações espaciais."/>
+			<field name="originatesFrom" value="68655199"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010019"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018010019"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010019"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181010019"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26908" type="Person">
+			<semanticIdentifier>lattes::1177013883098734</semanticIdentifier>
+			<field name="identifier.lattes" value="1177013883098734"/>
+			<field name="name" value="Robson Mayer"/>
+		</entity>
+		<entity ref="OrgUnit21067" type="OrgUnit">
+			<semanticIdentifier>brcris::3417ad15b87d7a53f9069aacebdbdae7</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DO ESTADO DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39569" toEntityRef="Person26908" type="Inventor"/>
+		<relation fromEntityRef="Patent39569" toEntityRef="OrgUnit21067" type="Applicant"/>
+	</relations>
+</entity-relation-data>

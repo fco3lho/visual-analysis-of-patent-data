@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:26" record="12750" source="Espacenet">
+	<entities>
+		<entity ref="Patent12750" type="Patent">
+			<semanticIdentifier>brcris::58646ae0c5d14ddcc3e033dea84bac85</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026178A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017026178</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026178A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171026178</semanticIdentifier>
+			<semanticIdentifier>original::102017026178</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017026178"/>
+			<field name="identifier.lattes" value="3875301617975895"/>
+			<field name="identifier.espacenet" value="102017026178"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="behavior definition model for internet of things ecosystems (bdm4iot): um processo para modelagem visual de comportamentos de ecosistemas para internet das coisas"/>
+			<field name="title.lattes" value="Behavior Definition Model for Internet of Things Ecosystems (BDM4IoT): um processo para modelagem visual de comportamentos de ecossistemas para internet das coisas"/>
+			<field name="depositDate" value="2017-12-05"/>
+			<field name="publicationDate" value="2020-01-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO JAMES PEREIRA SOUTO"/>
+			<field name="inventor" value="NAMEDIN PEREIRA TELES JUNIOR"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L29/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L29/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a bdm4iot é um processo criado para possibilitar que usuários não especialistas possam manipular os objetos presentes no mundo real e com base nesses objetos, criar diferentes comportamentos. atualmente existem soluções difíceis de ser manipuladas por usuários com pouco ou quase nenhum conhecimento em computação. acredita-se que a definição de um processo de modelagem de comportamento permitirá levar a iot para um patamar mais elevado de aceitação entre os usuários, aproximando a iot do cotidiano das pessoas. soluções como o ittt (if this then that) e o homekit da apple, apesar de permitirem a criação de comportamentos utilizando a mesma abordagem proposta, essas não permitem que os usuários possam criar comportamentos com regras de negócios mais complexas e nem fazer ligações lógicas entre dispositivos e serviços, somente a criação de sequencias condicionais simples. dessa forma, a bdm4iot tentar suprir a necessidade de um processo de modelagem bem definido, voltado aos usuários não especialistas, permitindo que no futuro esses usuários possam se tornar peça fundamental na iot."/>
+			<field name="originatesFrom" value="69191374"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026178"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017026178"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026178"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171026178"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017026178"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8733" type="Person">
+			<semanticIdentifier>lattes::3875301617975895</semanticIdentifier>
+			<field name="identifier.lattes" value="3875301617975895"/>
+			<field name="name" value="Eduardo James Pereira Souto"/>
+		</entity>
+		<entity ref="OrgUnit6872" type="OrgUnit">
+			<semanticIdentifier>brcris::e3c6c23bbf0c7465a5bd80db261589a1</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DO AMAZONAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12750" toEntityRef="Person8733" type="Inventor"/>
+		<relation fromEntityRef="Patent12750" toEntityRef="OrgUnit6872" type="Applicant"/>
+	</relations>
+</entity-relation-data>

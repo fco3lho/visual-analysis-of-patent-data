@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:03" record="39035" source="Espacenet">
+	<entities>
+		<entity ref="Patent39035" type="Patent">
+			<semanticIdentifier>brcris::bd7a8825887dbcabbc70a315dc581644</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030472A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015030472</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030472A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151030472</semanticIdentifier>
+			<semanticIdentifier>original::102015030472</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015030472"/>
+			<field name="identifier.lattes" value="6977673034624020"/>
+			<field name="identifier.espacenet" value="102015030472"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="elemento de circuito elétrico com parte real da impedância negativa"/>
+			<field name="title.lattes" value="ELEMENTO DE CIRCUITO ELÉTRICO COM PARTE REAL DA IMPEDÂNCIA NEGATIVA"/>
+			<field name="depositDate" value="2015-12-04"/>
+			<field name="publicationDate" value="2017-06-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE MARCOS ANDRADE FIGUEIREDO"/>
+			<field name="inventor" value="ROBERTO BATISTA SARDENBERG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B3/16AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;elemento de circuito elétrico com parte real da impedância negativa&quot; a presente invenção descreve um dispositivo que representa um elemento de circuito elétrico que possui parte real da impedância negativa. o elemento proposto atua em um circuito como uma impedância de fase estendida que permite que e o ângulo de fase do circuito possa variar de - 180 a +180 graus, que corresponde ao dobro da variação do ângulo de fase possível nos circuitos existentes, construídos com elementos de circuitos clássicos. esse efeito pode dobrar a capacidade de trafego de informação em sistemas de telecomunicação. o elemento de circuito elétrico apresentado tem forma de uma bobina ou de uma única espira cujas dimensões e composição produzem o resultado revelado. trata-se de uma invenção com aplicabilidade em sistemas de comunicação, além de todos os circuitos (analógicos e digitais) que façam uso de circuitos ressonantes ou efeitos de fase na impedância, dentre eles, geradores de sinais, filtros, conversores, casadores de impedância, circuitos de ajuste de fase, controladores de potência, dentre outros."/>
+			<field name="originatesFrom" value="61198374"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030472"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015030472"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030472"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151030472"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015030472"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26695" type="Person">
+			<semanticIdentifier>lattes::6977673034624020</semanticIdentifier>
+			<field name="identifier.lattes" value="6977673034624020"/>
+			<field name="name" value="Roberto Batista Sardenberg"/>
+		</entity>
+		<entity ref="OrgUnit20920" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39035" toEntityRef="Person26695" type="Inventor"/>
+		<relation fromEntityRef="Patent39035" toEntityRef="OrgUnit20920" type="Applicant"/>
+	</relations>
+</entity-relation-data>

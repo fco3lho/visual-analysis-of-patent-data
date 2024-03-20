@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:20" record="26033" source="Espacenet">
+	<entities>
+		<entity ref="Patent26033" type="Patent">
+			<semanticIdentifier>brcris::e757de8328cb4a279ad190686a0f8872</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014019693A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014019693</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014019693A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141019693</semanticIdentifier>
+			<semanticIdentifier>original::102014019693</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014019693"/>
+			<field name="identifier.lattes" value="6741895655912967"/>
+			<field name="identifier.espacenet" value="102014019693"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema digital de pesquisa de vazamento"/>
+			<field name="title.lattes" value="Sistema Digital de Pesquisa de Vazamento"/>
+			<field name="depositDate" value="2014-08-08"/>
+			<field name="publicationDate" value="2018-12-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALLAN SADDI ARNESEN"/>
+			<field name="inventor" value="LINILSON RODRIGUES PADOVESE"/>
+			<field name="inventor" value="MARCELO KENJI MIKI"/>
+			<field name="applicant" value="COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO-SABESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F17D5/06AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="17"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01H17/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01M3/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema digital de pesquisa de vazamento. o sistema digital de pesquisa de vazamento (sdpv) trata-se de uma nova tecnologia em sistemas especializados para detecção de vazamentos não visíveis em redes de distribuição de água, que compreende: 1) módulo eletrônico composto por sensores (geofone e haste de escuta) 2) condicionamento de sinal, digitalização e transmissão; 3) módulo de controle e análise composto por uma unidade computacional portátil, com software ad-hoc para controle, análise e armazenamento de dados coletados (sinais, gps, anotações, fotos, etc.)."/>
+			<field name="originatesFrom" value="64900212"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014019693"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014019693"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014019693"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141019693"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014019693"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18008" type="Person">
+			<semanticIdentifier>lattes::6741895655912967</semanticIdentifier>
+			<field name="identifier.lattes" value="6741895655912967"/>
+			<field name="name" value="Linilson Rodrigues Padovese"/>
+		</entity>
+		<entity ref="OrgUnit14066" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26033" toEntityRef="Person18008" type="Inventor"/>
+		<relation fromEntityRef="Patent26033" toEntityRef="OrgUnit14066" type="Applicant"/>
+	</relations>
+</entity-relation-data>

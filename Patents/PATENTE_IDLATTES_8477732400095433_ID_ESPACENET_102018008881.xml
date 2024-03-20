@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:50" record="28790" source="Espacenet">
+	<entities>
+		<entity ref="Patent28790" type="Patent">
+			<semanticIdentifier>brcris::42c62277e179382c4387f3cc05debd67</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008881A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018008881</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008881A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181008881</semanticIdentifier>
+			<semanticIdentifier>original::102018008881</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018008881"/>
+			<field name="identifier.lattes" value="8477732400095433"/>
+			<field name="identifier.espacenet" value="102018008881"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de análise fluorescente para detecção e diferenciação da cocaína"/>
+			<field name="title.lattes" value="Método de análise fluorescente para detecção e diferenciação da cocaína."/>
+			<field name="depositDate" value="2018-05-02"/>
+			<field name="publicationDate" value="2019-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JACQUELINE QUERINO ALVES"/>
+			<field name="inventor" value="LEANDRO NERITON CANDIDO MAXIMO"/>
+			<field name="inventor" value="LILIAN PEREIRA FRANCO"/>
+			<field name="inventor" value="MARCELO FIRMINO DE OLIVEIRA"/>
+			<field name="inventor" value="ROBERTO SANTANA DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/77AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="77AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B82Y15/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de análise fluorescente para detecção e diferenciação da cocaína a presente invenção refere-se a um método de análise fluorescente para a detecção e diferenciação de cocaína envolvendo um semicondutor nanocristalino, conhecido como ponto quântico (quantum-dot), bem como sua síntese. em uma modalidade preferida da invenção, utiliza-se ponto quântico de telureto de cádmio, o qual possui excelente emissão na região de 550 nm. o método é uma forma de diferenciação dos cloridratos de lidocaína e procaína, substâncias interferentes em exames colorimétricos tradicionais. a supressão com a cocaína apresentou constante de stern-volmer inversamente dependente da temperatura e a interação ficou caracterizada como estática, enquanto a supressão com a procaína apresentou resultado de constante de stern-volmer diretamente dependente da temperatura e interação caracterizada como dinâmica. por sua vez, a supressão com a lidocaína, não apresentou supressão da fluorescência nas temperaturas de 31 e 38 °c, indicando ausência de interação nestas duas maiores temperaturas."/>
+			<field name="originatesFrom" value="68531002"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008881"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018008881"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008881"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181008881"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018008881"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19863" type="Person">
+			<semanticIdentifier>lattes::8477732400095433</semanticIdentifier>
+			<field name="identifier.lattes" value="8477732400095433"/>
+			<field name="name" value="Marcelo Firmino de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit15521" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28790" toEntityRef="Person19863" type="Inventor"/>
+		<relation fromEntityRef="Patent28790" toEntityRef="OrgUnit15521" type="Applicant"/>
+	</relations>
+</entity-relation-data>

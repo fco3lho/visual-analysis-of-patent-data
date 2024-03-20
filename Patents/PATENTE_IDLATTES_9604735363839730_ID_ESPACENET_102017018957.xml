@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:51:10" record="26798" source="Espacenet">
+	<entities>
+		<entity ref="Patent26798" type="Patent">
+			<semanticIdentifier>brcris::e8dfe93df66d650112af00cb2772f498</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017018957A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017018957</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017018957A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171018957</semanticIdentifier>
+			<semanticIdentifier>original::102017018957</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017018957"/>
+			<field name="identifier.lattes" value="9604735363839730"/>
+			<field name="identifier.espacenet" value="102017018957"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="conjunto de algoritmos de baixa complexidade para particionamento de coding units na codificação de vídeos digitais segundo o padrão h.265/hevc"/>
+			<field name="title.lattes" value="Conjunto de Algoritmos de Baixa Complexidade para Particionamento de Coding Units na Codificação de Vídeos Digitais Segundo o Padrão H.265/HEVC"/>
+			<field name="depositDate" value="2017-09-04"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUILHERME RIBEIRO CORREA"/>
+			<field name="inventor" value="LUCIANO VOLCAN AGOSTINI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04N19/96AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="96AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a invenção se aplica à compressão de vídeos digitais de acordo com o padrão h.265/hevc e consiste na substituição do processo exaustivo de decisão de tamanho de coding unit baseado em otimização taxa-distorção por algoritmos, sob a forma de árvores de decisão de baixa complexidade, que permitem eliminar possibilidades de coding units a serem consideradas no processo. a invenção é composta por três algoritmos que seguem a estrutura de árvore de decisão, os quais são aplicadas individualmente na decisão binária de particionamento de uma coding unit em quatro coding units menores. o algoritmo a64x64 decide se o particionamento de uma coding unit 64x64 em quatro coding units 32x32 deve ser considerado ou não na otimização taxa-distorção. o algoritmo a32x32 decide se o particionamento de uma coding unit 32x32 em quatro coding units 16x16 deve ser considerado ou não na otimização taxa-distorção. o algoritmo a16x16 decide se o particionamento de uma coding unit 16x16 em quatro coding units 8x8 deve ser considerado ou não na otimização taxa-distorção. os atributos dos algoritmos são dependentes de cálculos simples sobre a coding unit em questão e sobre coding units previamente processadas."/>
+			<field name="originatesFrom" value="67250577"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017018957"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017018957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017018957"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171018957"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017018957"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18551" type="Person">
+			<semanticIdentifier>lattes::9604735363839730</semanticIdentifier>
+			<field name="identifier.lattes" value="9604735363839730"/>
+			<field name="name" value="Luciano Volcan Agostini"/>
+		</entity>
+		<entity ref="OrgUnit14502" type="OrgUnit">
+			<semanticIdentifier>brcris::5aa56af182c84d54a22c21eb8549aed1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26798" toEntityRef="Person18551" type="Inventor"/>
+		<relation fromEntityRef="Patent26798" toEntityRef="OrgUnit14502" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:18:40" record="41241" source="Espacenet">
+	<entities>
+		<entity ref="Patent41241" type="Patent">
+			<semanticIdentifier>brcris::de10b2e525ed2fbe79f0aec8cfef520c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021720A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019021720</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021720A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191021720</semanticIdentifier>
+			<semanticIdentifier>original::102019021720</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019021720"/>
+			<field name="identifier.lattes" value="2544562547165534"/>
+			<field name="identifier.espacenet" value="102019021720"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="formulação farmacêutica contendo óleo essencial das partes aéreas da planta croton blanchetianus ball para atividade larvicida"/>
+			<field name="title.lattes" value="FORMULAÇÃO FARMACÊUTICA CONTENDO ÓLEO ESSENCIAL DAS PARTES AÉREAS DA PLANTA Croton blanchetianus Ball PARA ATIVIDADE LARVICIDA"/>
+			<field name="depositDate" value="2019-10-16"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADELIA DOS SANTOS"/>
+			<field name="inventor" value="ADRIANA SANTOS ESTEVAM"/>
+			<field name="inventor" value="ANAMARIA MENDONCA SANTOS"/>
+			<field name="inventor" value="ANDREA YU KWAN VILLAR SHAN"/>
+			<field name="inventor" value="CHARLES DOS SANTOS ESTEVAM"/>
+			<field name="inventor" value="CLIVIA ROLLEMBERG ANDRADE"/>
+			<field name="inventor" value="JESSICA BATISTA DE SOUZA"/>
+			<field name="inventor" value="KARINA OLIVEIRA MOTA"/>
+			<field name="inventor" value="MENILTON MENEZES"/>
+			<field name="inventor" value="SAMUEL BRUNO DOS SANTOS"/>
+			<field name="inventor" value="SAMUEL DE MELO ALMEIDA"/>
+			<field name="inventor" value="VICTOR HUGO VITORINO SARMENTO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01P7/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01N65/18AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="65"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;formulação farmacêutica contendo óleo essencial das partes aéreas da planta croton blanchetianus ball para atividade larvicida&quot;. a presente invenção trata de formulações com óleo essencial extraído das partes aéreas da planta croton blanchetianus ball para atividade larvicida frente ao aedes aegypti. há uma necessidade em implementar medidas alternativas de controle do aedes aegypti, sendo uma delas a busca de formulações a base de produtos naturais que se apresentam como uma promissora alternativa. estas podem ser obtidas através da construção de diagramas de fases que favorece a formação de sistemas microemulsionados com o uso de sistemas estabilizados por tensoativo. estes sistemas proporcionam melhorias na solubilidade do óleo essencial, liberação prolongada e melhor aproveitamento dos compostos biológicos ativos dos óleos . estas formulações protegem os óleos essenciais, reduzindo a rápida volatilização e oxidação dos constituintes químicos bioativos do óleo e consequentemente, aumentando a sua ação biológica e eliminando a toxicidade ao meio ambiente e ao homem, causada pelo controle químico para o aedes aegypti."/>
+			<field name="originatesFrom" value="75845264"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021720"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019021720"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021720"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191021720"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019021720"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28084" type="Person">
+			<semanticIdentifier>lattes::2544562547165534</semanticIdentifier>
+			<field name="identifier.lattes" value="2544562547165534"/>
+			<field name="name" value="Samuel de Melo Almeida"/>
+		</entity>
+		<entity ref="OrgUnit21974" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41241" toEntityRef="Person28084" type="Inventor"/>
+		<relation fromEntityRef="Patent41241" toEntityRef="OrgUnit21974" type="Applicant"/>
+	</relations>
+</entity-relation-data>

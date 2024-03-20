@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:31" record="5400" source="Espacenet">
+	<entities>
+		<entity ref="Patent5400" type="Patent">
+			<semanticIdentifier>brcris::ed4d7c117d2d6d2be4fabe5a69652695</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700292A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0700292</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0700292A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI00292</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0700292-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0700292"/>
+			<field name="identifier.lattes" value="0751163307734256"/>
+			<field name="identifier.espacenet" value="PI0700292"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="instrumento para uso em lìngua eletrÈnica"/>
+			<field name="title.lattes" value="Instrumento para uso em língua eletrônica"/>
+			<field name="depositDate" value="2007-01-08"/>
+			<field name="publicationDate" value="2008-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO RIUL JUNIOR"/>
+			<field name="inventor" value="BRUNO BARRETO BERGAMO"/>
+			<field name="inventor" value="FLAVIO PANDUR ALBUQUERQUE CABRAL"/>
+			<field name="inventor" value="JOSE ALBERTO GIACOMETTI"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="INSTRUMENTO PARA USO EM LìNGUA ELETRÈNICA. Refere-se a presente patente a um sistema de análise integrado, de baixo custo, pequenas dimensões e de grande versatilidade para geração, multiplexação de sinais, realização de medidas elétricas e análise de resultados de unidades sensoriais compondo um dispositivo comumente chamado de &quot;língua eletrónica&quot;, além da aquisição de dados, cuja tecnologia poderá ser utilizada em indústrias de alimentos e bebidas, farmacológicas, podendo, ainda, ser estendida para avaliação de contaminantes ambientais e combustíveis, entre outras aplicações."/>
+			<field name="originatesFrom" value="39708214"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700292"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0700292"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0700292"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI00292"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0700292-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3533" type="Person">
+			<semanticIdentifier>lattes::0751163307734256</semanticIdentifier>
+			<field name="identifier.lattes" value="0751163307734256"/>
+			<field name="name" value="Antonio Riul Jr"/>
+		</entity>
+		<entity ref="OrgUnit2790" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit2791" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5400" toEntityRef="Person3533" type="Inventor"/>
+		<relation fromEntityRef="Patent5400" toEntityRef="OrgUnit2790" type="Applicant"/>
+		<relation fromEntityRef="Patent5400" toEntityRef="OrgUnit2791" type="Applicant"/>
+	</relations>
+</entity-relation-data>

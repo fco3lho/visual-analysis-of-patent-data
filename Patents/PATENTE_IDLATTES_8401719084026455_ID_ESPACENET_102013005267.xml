@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:59" record="28861" source="Espacenet">
+	<entities>
+		<entity ref="Patent28861" type="Patent">
+			<semanticIdentifier>brcris::2332996d0937af1e49882ac95d160027</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005267A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013005267</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005267A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131005267</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 005267-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013005267"/>
+			<field name="identifier.lattes" value="8401719084026455"/>
+			<field name="identifier.espacenet" value="102013005267"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO PARA A OBTENÇÃO DE FUROS NÃO CILÍNDRICOS"/>
+			<field name="title.lattes" value="Processo para obtenção de furos não cilíndricos por controle CNC"/>
+			<field name="depositDate" value="2013-03-05"/>
+			<field name="publicationDate" value="2014-11-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO HIRAI CASTRO"/>
+			<field name="applicant" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL - SENAI / SP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23B41/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA A OBTENÇAO DE FUROS NAO CILÍNDRICOS A presente invenção se refere a um processo para a obtenção de furos não cilíndricos compreendendo as seguintes etapas: a) traçar um polígono com o formato e tamanho do furo a ser obtido utilizando ferramentas CAD; b) traçar um polígono interno dentro do polígono a ser obtido, sem que o polígono interno ultrapasse os limites do polígono a ser obtido quando for rotacionado; c) aplicar restrições de movimento, definindo dois pontos de contato dos vértíces do polígono interno com os lados do polígono a ser obtido, sem invadir o polígono a ser obtido com o polígono interno quando for aplicada rotação no mesmo; d) girar o polígono interno com o valor programado por um controlador CNC; e&gt; medir, com ferramentas CAD, o deslocamento efetuado pelo centro do polígono interno em função do giro dado; f) girar o polígono interno, sem que ocorra invasão no polígono a ser obtido pelo polígono interno, até que o mesmo percorra todo o contorno interno do polígono a ser obtido; g) gravar todos os pontos percorridos pelo polígono interno em função do incremento angular dado no polígono interno; h&gt; configurar um programa de controle e sincronia dos movimentos do controlador CNC com os pontos percorridos pelo polígono interno em função da rotação; i) referenciar a ferramenta orientando a primeira posição angular da ferramenta com o deslocamento medido anteriormente; j) girar a ferramenta desenvolvendo o movimento de transíação da mesma; e k) definir o deslocamento em um eixo linear para determinar a profundidade do furo."/>
+			<field name="originatesFrom" value="51946544"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005267"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013005267"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005267"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131005267"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 005267-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19915" type="Person">
+			<semanticIdentifier>lattes::8401719084026455</semanticIdentifier>
+			<field name="identifier.lattes" value="8401719084026455"/>
+			<field name="name" value="Marcelo Hirai Castro"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28861" toEntityRef="Person19915" type="Inventor"/>
+	</relations>
+</entity-relation-data>

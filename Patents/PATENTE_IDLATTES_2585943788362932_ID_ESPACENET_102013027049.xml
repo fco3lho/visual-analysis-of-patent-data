@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:25" record="14633" source="Espacenet">
+	<entities>
+		<entity ref="Patent14633" type="Patent">
+			<semanticIdentifier>brcris::46095d83fdc13c6caab5c7d64e719a99</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013027049A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013027049</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013027049A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131027049</semanticIdentifier>
+			<semanticIdentifier>original::102013027049</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013027049"/>
+			<field name="identifier.lattes" value="2585943788362932"/>
+			<field name="identifier.espacenet" value="102013027049"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="modelo de galpão escuro para produção de frangos de corte"/>
+			<field name="title.lattes" value="Modelo Dark House para Produção de Frangos de Corte"/>
+			<field name="depositDate" value="2013-10-21"/>
+			<field name="publicationDate" value="2016-03-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA LOURENCO SOARES"/>
+			<field name="inventor" value="ALEXANDRE OBA"/>
+			<field name="inventor" value="FABIO AUGUSTO GARCIA CORO"/>
+			<field name="inventor" value="MASSAMI SHIMOKOMAKI"/>
+			<field name="inventor" value="RAFAEL HUMBERTO DE CARVALHO"/>
+			<field name="inventor" value="RAFAEL SANCHES SPURIO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01K31/18AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="modelo dark house para produção de frangos de corte a presente invenção descreve um modelo dark house ou casa (galpão) escura, para produção de frangos de corte, através de um isolamento entre as aves e o ambiente externo, com o objetivo de disponibilizar melhores condições para as aves ganharem maiores índices de produção. as aves criadas no sdh - sistema dark house - mostram melhora no desempenho caracterizado como: aumenta o ganho de peso médio diário (gmd) em até 11,4%, melhora na conversão alimentar (ca) em até 3,8% e maior peso médio final (pmf) superior a 11,4%. no ambiente interno do galpão, não se permite a entrada de luz e ao mesmo tempo fornece um maior controle das condições internas no aviário (temperatura, umidade relativa do ar, renovação do ar interno)."/>
+			<field name="originatesFrom" value="55534043"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013027049"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013027049"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013027049"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131027049"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013027049"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10121" type="Person">
+			<semanticIdentifier>lattes::2585943788362932</semanticIdentifier>
+			<field name="identifier.lattes" value="2585943788362932"/>
+			<field name="name" value="Fábio Augusto Garcia Coró"/>
+		</entity>
+		<entity ref="OrgUnit7927" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+		<entity ref="OrgUnit7928" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14633" toEntityRef="Person10121" type="Inventor"/>
+		<relation fromEntityRef="Patent14633" toEntityRef="OrgUnit7927" type="Applicant"/>
+		<relation fromEntityRef="Patent14633" toEntityRef="OrgUnit7928" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:19:41" record="41504" source="Espacenet">
+	<entities>
+		<entity ref="Patent41504" type="Patent">
+			<semanticIdentifier>brcris::29b6c6d7c3a97ad28d29ab63971d35b2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018009992A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018009992</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018009992A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181009992</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018009992"/>
+			<field name="identifier.lattes" value="2511852102364291"/>
+			<field name="identifier.espacenet" value="102018009992"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="hardware para controladora customizável para quadricópteros"/>
+			<field name="title.lattes" value="HARDWARE PARA CONTROLADORA CUSTOMIZÁVEL PARA QUADRICÓPTEROS"/>
+			<field name="depositDate" value="2018-05-17"/>
+			<field name="publicationDate" value="2019-12-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALISSON VASCONCELOS DE BRITO"/>
+			<field name="inventor" value="AUGUSTO DE HOLANDA BARRETO MARTINS TAVARES"/>
+			<field name="inventor" value="SARAH PONTES MADRUGA"/>
+			<field name="inventor" value="TIAGO PEREIRA DO NASCIMENTO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A63H27/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="63"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F9/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01R12/57AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="12"/>
+				<field name="subgroup" value="57AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="H02P27/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção tem a função de receber algoritmos de controle variados para voos autônomos de quadricópteros e servir como uma plataforma para executá-los e testá-los com confiabilidade. o dito hardware para controladora customizável para quadricópteros é um dispositivo constituído por quatro partes principais: uma placa de circuito impresso (2), conectada a um módulo pwm (4), a uma placa de processamento que executa o código de controle (1), e a um módulo de sensoriamento (3). o funcionamento do dispositivo consiste em carregar um código de controle na placa (1). os comandos do controlador serão enviados para os motores, por meio do módulo pwm (4). os sensores (3) tratam de verificar o estado atual do quadricóptero, e assim, realimentar o controlador."/>
+			<field name="originatesFrom" value="68655180"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018009992"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018009992"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018009992"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181009992"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28294" type="Person">
+			<semanticIdentifier>lattes::2511852102364291</semanticIdentifier>
+			<field name="identifier.lattes" value="2511852102364291"/>
+			<field name="name" value="Sarah Pontes Madruga"/>
+		</entity>
+		<entity ref="OrgUnit22152" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41504" toEntityRef="Person28294" type="Inventor"/>
+		<relation fromEntityRef="Patent41504" toEntityRef="OrgUnit22152" type="Applicant"/>
+	</relations>
+</entity-relation-data>

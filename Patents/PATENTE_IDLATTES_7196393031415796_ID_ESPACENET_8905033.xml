@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:53" record="29411" source="Espacenet">
+	<entities>
+		<entity ref="Patent29411" type="Patent">
+			<semanticIdentifier>brcris::1ca50326f4cbf8eb1eb1190503ff0a1e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8905033A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8905033</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8905033A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19898905033</semanticIdentifier>
+			<semanticIdentifier>original::89 8905033</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8905033"/>
+			<field name="identifier.lattes" value="7196393031415796"/>
+			<field name="identifier.espacenet" value="8905033"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="FECHADURA PLUK"/>
+			<field name="title.lattes" value="Fechadura com punho de deslocamento normal ao plano da porta"/>
+			<field name="depositDate" value="1989-09-29"/>
+			<field name="publicationDate" value="1990-04-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCILIO ALVES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E05C3/12AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="originatesFrom" value="4048063"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8905033"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8905033"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8905033"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19898905033"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="89 8905033"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20221" type="Person">
+			<semanticIdentifier>lattes::7196393031415796</semanticIdentifier>
+			<field name="identifier.lattes" value="7196393031415796"/>
+			<field name="name" value="Marcílio Alves"/>
+		</entity>
+		<entity ref="OrgUnit15840" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29411" toEntityRef="Person20221" type="Inventor"/>
+		<relation fromEntityRef="Patent29411" toEntityRef="OrgUnit15840" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:51" record="10098" source="Espacenet">
+	<entities>
+		<entity ref="Patent10098" type="Patent">
+			<semanticIdentifier>brcris::d15d845ce00c1f096973d1d4ad8a8718</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001468A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001468</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001468A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01468</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001468-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001468"/>
+			<field name="identifier.lattes" value="0912295269231968"/>
+			<field name="identifier.espacenet" value="PI1001468"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de preparaÇço de superfÍcies superhidrofàbicas e auto-limpantes"/>
+			<field name="title.lattes" value="PI1001468-3: PROCESSO DE PREPARAÇÃO DE SUPERFÍCIES SUPERHIDROFÓBICAS E AUTO-LIMPANTES"/>
+			<field name="depositDate" value="2010-05-14"/>
+			<field name="publicationDate" value="2012-01-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE FASSINI MICHELS"/>
+			<field name="inventor" value="DANIEL EDUARDO WEIBEL"/>
+			<field name="inventor" value="FLAVIO HOROWITZ"/>
+			<field name="inventor" value="MAICON ZANCHETTA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23C28/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="28"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B05D5/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C09K3/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C23C14/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PREPARAÇçO DE SUPERFÍCIES SUPERHIDROFàBICAS E AUTO-LIMPANTES A presente invenção se situa no campo da ciência química e de materiais. Particularmente, a presente invenção descreve um processo de modificação de superfícies, tornando-as superhidrofóbicas, e a superfície modificada obtida pelo mesmo. Esta modificação garante à superfície propriedades repelentes aos líquidos em geral, e particularmente auto- limpantes."/>
+			<field name="originatesFrom" value="45390385"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001468"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001468"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001468"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01468"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001468-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6938" type="Person">
+			<semanticIdentifier>lattes::0912295269231968</semanticIdentifier>
+			<field name="identifier.lattes" value="0912295269231968"/>
+			<field name="name" value="Daniel Eduardo Weibel"/>
+		</entity>
+		<entity ref="OrgUnit5490" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10098" toEntityRef="Person6938" type="Inventor"/>
+		<relation fromEntityRef="Patent10098" toEntityRef="OrgUnit5490" type="Applicant"/>
+	</relations>
+</entity-relation-data>

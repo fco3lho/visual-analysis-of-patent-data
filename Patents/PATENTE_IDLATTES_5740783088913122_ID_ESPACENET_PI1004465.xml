@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:42" record="25052" source="Espacenet">
+	<entities>
+		<entity ref="Patent25052" type="Patent">
+			<semanticIdentifier>brcris::0cf8668b5174e123248bec4966575006</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004465A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1004465</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004465A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI04465</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1004465-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1004465"/>
+			<field name="identifier.lattes" value="5740783088913122"/>
+			<field name="identifier.espacenet" value="PI1004465"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="simuladores antropomórficos e antropométricos de estruturas, tecidos e orgãos do corpo humano"/>
+			<field name="title.lattes" value="Simuladores antropomórficos e antropométricos de estruturas, tecidos e órgãos do corpo humano"/>
+			<field name="depositDate" value="2010-08-04"/>
+			<field name="publicationDate" value="2012-05-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREA SILVA DIAS DE MATOS"/>
+			<field name="inventor" value="CLEUZA HELENA TEIXEIRA"/>
+			<field name="inventor" value="IREDA LANA DUARTE"/>
+			<field name="inventor" value="JANINE MUNIZ TOLEDO"/>
+			<field name="inventor" value="LARISSA THOMPSON"/>
+			<field name="inventor" value="LUCIANA BATESTA NOGUEIRA"/>
+			<field name="inventor" value="MARGARETH MAIA"/>
+			<field name="inventor" value="MONICA PAIVA SCHETTINI"/>
+			<field name="inventor" value="TARCISIO PASSOS RIBEIRO DE CAMPOS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G09B23/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SIMULADORES ANTROPOMóRFICOS E ANTROPOMéTRICOS DE ESTRUTURAS, TECIDOS E ORGãOS DO CORPO HUMANO. A presente invenção refere-se a objetos simuladores de tecidos e órgáos nuclear equivalentes (fantomas), antropomórficos e antropométricos. Os fantomas são produzidos a partir de materiais sintéticos tecido-equivalentes (TE) que preservam a densidade eletrónica, densidade mássica e o percentual de composição química elementar do seu correspondente in vivo. Os fantomas da invenção ora proposta representam as seguintes regiões e estruturas do corpo humano: cabeça, pescoço, tórax e pelve, tanto para o sexo masculino quanto para o feminino, que podem ser produzidos para diversas idades. Tais peças sintéticas foram desenvolvidas para reproduzir as principais partes da anatomia humana em sua forma e biometria. Os tecidos reproduzidos utilizando materiais tecido-equivalentes são: tecido ósseo cortical e trabecular, tecido nervoso, tecido muscular estrutural (sólido) e de constituição (flexível), tecido epitelial, tecido adiposo, tecido cartilaginoso e tecidos glandulares. Os órgáos desenvolvidos são: pulmão, coração, cérebro, fígado, baço, rim, útero, mama, além das glândulas prostática, parótida e tireóide, produzidos a partir de material tecido-equivalente. Além disso, são reproduzidas as principais vias do sistema vascular do tronco e cabeça."/>
+			<field name="originatesFrom" value="46001908"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004465"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1004465"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004465"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI04465"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1004465-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17367" type="Person">
+			<semanticIdentifier>lattes::5740783088913122</semanticIdentifier>
+			<field name="identifier.lattes" value="5740783088913122"/>
+			<field name="name" value="Larissa Thompson"/>
+		</entity>
+		<entity ref="OrgUnit13528" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25052" toEntityRef="Person17367" type="Inventor"/>
+		<relation fromEntityRef="Patent25052" toEntityRef="OrgUnit13528" type="Applicant"/>
+	</relations>
+</entity-relation-data>

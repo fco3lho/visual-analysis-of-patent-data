@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:50" record="18744" source="Espacenet">
+	<entities>
+		<entity ref="Patent18744" type="Patent">
+			<semanticIdentifier>brcris::af35c955c149932b531f69ac186bb9f6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022433A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014022433</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022433A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141022433</semanticIdentifier>
+			<semanticIdentifier>original::102014022433</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014022433"/>
+			<field name="identifier.lattes" value="0483804524873121"/>
+			<field name="identifier.espacenet" value="102014022433"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema para detecção e avaliação de descargas parciais em equipamentos elétricos"/>
+			<field name="title.lattes" value="Método e sistema para detecção e avaliação de descargas parciais em equipamentos elétricos"/>
+			<field name="depositDate" value="2014-09-10"/>
+			<field name="publicationDate" value="2016-04-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANILO CABRAL ROSENDO"/>
+			<field name="inventor" value="HEDIO TATIZAWA"/>
+			<field name="inventor" value="MARCIO BOTTARO"/>
+			<field name="inventor" value="WILSON ROBERTO BACEGA"/>
+			<field name="applicant" value="CTEEP - COMPANHIA DE TRANSMISSAO DE ENERGIA ELETRICA PAULISTA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sistema para detecção e avaliação de descargas parciais em equipamentos elétricos a presente invenção se refere a um método e sistema de detecção e avaliação de descargas parciais em equipamentos elétricos compreendendo uma estação de supervisão local (1) composta por uma subestação que compreende um bay sob teste (equipamento elétrico), tais como, transformadores para instrumentos (tis), disjuntores, para-raios, e outros, que utiliza sensores instalados no condutor de aterramento do equipamento elétrico, e uma estação de supervisão remota (2), interligadas por meio de qualquer conexão de rede (3) existente atualmente, permitindo a medição, análise e interpretação automatizada do perfil eletromagnético emitido pelas descargas elétricas detectadas, baseado no cruzamento entre dados de medições realizadas durante as descargas parciais e métricas que foram obtidas anteriormente nas medições laboratoriais e de campo, relacionadas ao formato dos pulsos associados às descargas elétricas. a estação de supervisão remota (2) é composta por uma rede de computadores gerenciada por uma equipe de manutenção altamente qualificada. o software de filtragem e classificação é um sistema inteligente de medição de descargas parciais, o qual é composto pelos módulos supervisório local (21), o sistema embarcado em tempo real (23) instalado na estação de supervisão local (1), e o módulo supervisório remoto (22) instalado na estação de supervisão remota (2)."/>
+			<field name="originatesFrom" value="55858639"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022433"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014022433"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022433"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141022433"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014022433"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12999" type="Person">
+			<semanticIdentifier>lattes::0483804524873121</semanticIdentifier>
+			<field name="identifier.lattes" value="0483804524873121"/>
+			<field name="name" value="Hédio Tatizawa"/>
+		</entity>
+		<entity ref="OrgUnit10131" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18744" toEntityRef="Person12999" type="Inventor"/>
+		<relation fromEntityRef="Patent18744" toEntityRef="OrgUnit10131" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:14" record="22266" source="Espacenet">
+	<entities>
+		<entity ref="Patent22266" type="Patent">
+			<semanticIdentifier>brcris::f447961b1605188ac36da6191a0bd9e1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8704311A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8704311</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8704311A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19878704311</semanticIdentifier>
+			<semanticIdentifier>original::8704311</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8704311"/>
+			<field name="identifier.lattes" value="8511632666537698"/>
+			<field name="identifier.espacenet" value="8704311"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="RECHEIOS RANDOMICOS"/>
+			<field name="title.lattes" value="Recheio para Transferência de Massa"/>
+			<field name="depositDate" value="1987-08-21"/>
+			<field name="publicationDate" value="1989-03-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JORGE NAVAES CALDAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J8/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="4042887"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8704311"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8704311"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8704311"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19878704311"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8704311"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15393" type="Person">
+			<semanticIdentifier>lattes::8511632666537698</semanticIdentifier>
+			<field name="identifier.lattes" value="8511632666537698"/>
+			<field name="name" value="Jorge Navaes Caldas"/>
+		</entity>
+		<entity ref="OrgUnit11971" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22266" toEntityRef="Person15393" type="Inventor"/>
+		<relation fromEntityRef="Patent22266" toEntityRef="OrgUnit11971" type="Applicant"/>
+	</relations>
+</entity-relation-data>

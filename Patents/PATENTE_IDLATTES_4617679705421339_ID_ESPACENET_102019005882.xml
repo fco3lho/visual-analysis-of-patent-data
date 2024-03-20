@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:30" record="23873" source="Espacenet">
+	<entities>
+		<entity ref="Patent23873" type="Patent">
+			<semanticIdentifier>brcris::911a30708bacf8d11e52a1af049d23b9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019005882A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019005882</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019005882A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191005882</semanticIdentifier>
+			<semanticIdentifier>original::102019005882</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019005882"/>
+			<field name="identifier.lattes" value="4617679705421339"/>
+			<field name="identifier.espacenet" value="102019005882"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aplicabilidade de extrato etanólico de campomanesia sp em formulações fotoprotetoras e dermocosméticas"/>
+			<field name="title.lattes" value="Aplicabilidade de extrato etanólico de Campomanesia sp em formulações fotoprotetoras e dermocosméticas"/>
+			<field name="depositDate" value="2019-03-25"/>
+			<field name="publicationDate" value="2020-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRENO EMANUEL FARIAS FRIHLING"/>
+			<field name="inventor" value="CRISTIANO MARCELO ESPINOLA CARVALHO"/>
+			<field name="inventor" value="JULIANA PRATI SALVADOR"/>
+			<field name="inventor" value="LUDOVICO MIGLIOLO"/>
+			<field name="inventor" value="PATRICIA SOUZA E SILVA"/>
+			<field name="inventor" value="ROMILDA DE MATTOS ARCE BARBOSA"/>
+			<field name="inventor" value="ROSEMARY MATIAS"/>
+			<field name="applicant" value="MISSAO SALESIANA DE MATO GROSSO"/>
+			<field name="applicant" value="UNIVERSIDADE ANHANGUERA UNIDERP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61Q17/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/9789AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="9789AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aplicabilidade de extrato etanólico de campomanesia sp em formulações fotoprotetoras e dermocosméticas refere-se à análise e demonstração da potencial aplicabilidade do extrato etanólico de campomanesia adamantium, planta nativa brasileira, cuja atividade antioxidante foi confirmada pelo ensaio com o radical livre dpph e padrão ácido ascórbico, concomitantemente, a análise dos extratos apresentaram valores de proteção solar altos para as folhas (fps 21) e para os galhos (fps 23), quando comparados a outras espécies citadas na literatura, motivo pelo qual o presente estudo aponta esta matéria como uma alternativa natural a ser introduzida em formulações fotoprotetoras e dermocosméticas para aumento do fator de proteção solar."/>
+			<field name="originatesFrom" value="73034295"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019005882"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019005882"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019005882"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191005882"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019005882"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16614" type="Person">
+			<semanticIdentifier>lattes::4617679705421339</semanticIdentifier>
+			<field name="identifier.lattes" value="4617679705421339"/>
+			<field name="name" value="Juliana Prati Salvador"/>
+		</entity>
+		<entity ref="OrgUnit12892" type="OrgUnit">
+			<semanticIdentifier>brcris::de2858e7c51a4aa189cd1bfa85245e4c</semanticIdentifier>
+			<field name="name" value="MISSAO SALESIANA DE MATO GROSSO"/>
+		</entity>
+		<entity ref="OrgUnit12893" type="OrgUnit">
+			<semanticIdentifier>brcris::97d1569c346a3642b30f9f8586dc0e99</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ANHANGUERA UNIDERP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23873" toEntityRef="Person16614" type="Inventor"/>
+		<relation fromEntityRef="Patent23873" toEntityRef="OrgUnit12892" type="Applicant"/>
+		<relation fromEntityRef="Patent23873" toEntityRef="OrgUnit12893" type="Applicant"/>
+	</relations>
+</entity-relation-data>

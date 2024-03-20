@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:03" record="10202" source="Espacenet">
+	<entities>
+		<entity ref="Patent10202" type="Patent">
+			<semanticIdentifier>brcris::2352755cb21bfc12acf76c8a78150e20</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017016907A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017016907</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017016907A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171016907</semanticIdentifier>
+			<semanticIdentifier>original::102017016907</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017016907"/>
+			<field name="identifier.lattes" value="6879704705300161"/>
+			<field name="identifier.espacenet" value="102017016907"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="síntese de polímeros condutores e derivados sob condições de elevada diferença de potencial elétrico"/>
+			<field name="title.lattes" value="Síntese de polímeros condutores e derivados sob condições de elevada diferença de potencial elétrico"/>
+			<field name="depositDate" value="2017-08-07"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL PASQUINI"/>
+			<field name="inventor" value="LUIS CARLOS DE MORAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO TRIANGULO MINEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08L41/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01M8/18AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção objetiva sintetizar polímeros condutores elétricos, polianilina, polipirrol e politiofeno a partir dos seus respectivos monômeros e de seus derivados químicos em condições de elevada diferença de potencial elétrico (ddp) aplicada por uma fonte de tensão que pode variar de 50 volts até 45.000 volts (45 kv), com amperagem inferior a 5 ma, com uso de um recipiente metálico aterrado e ligado ao polarizador negativo da fonte de tensão variada, enquanto que o polarizador positivo fica sobre o recipiente metálico e sem contato."/>
+			<field name="originatesFrom" value="67250448"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017016907"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017016907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017016907"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171016907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017016907"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7020" type="Person">
+			<semanticIdentifier>lattes::6879704705300161</semanticIdentifier>
+			<field name="identifier.lattes" value="6879704705300161"/>
+			<field name="name" value="Daniel Pasquini"/>
+		</entity>
+		<entity ref="OrgUnit5577" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+		<entity ref="OrgUnit5578" type="OrgUnit">
+			<semanticIdentifier>brcris::8e5a1b25fcd415907474252d2ed29061</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO TRIANGULO MINEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10202" toEntityRef="Person7020" type="Inventor"/>
+		<relation fromEntityRef="Patent10202" toEntityRef="OrgUnit5577" type="Applicant"/>
+		<relation fromEntityRef="Patent10202" toEntityRef="OrgUnit5578" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:45" record="37250" source="Espacenet">
+	<entities>
+		<entity ref="Patent37250" type="Patent">
+			<semanticIdentifier>brcris::db2fae47e1965e8969b4e58108c4be93</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017021627A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017021627</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017021627A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171021627</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017021627"/>
+			<field name="identifier.lattes" value="7130042879656567"/>
+			<field name="identifier.espacenet" value="102017021627"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de proteínas recombinantes cb1-6xhis_opt e cb2-6xhis_opt, proteínas recombinantes cb1-6xhis_opt e cb2-6xhis_opt e uso das proteínas recombinantes"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DE PROTEÍNAS RECOMBINANTES CB1-6xHis_opt e CB2-6xHis_opt, PROTEÍNAS RECOMBINANTES CB1-6xHis_opt e CB2-6xHis_opt E USO DAS PROTEÍNAS RECOMBINANTES"/>
+			<field name="depositDate" value="2017-10-09"/>
+			<field name="publicationDate" value="2019-11-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADELIA CRISTINA OLIVEIRA CINTRA"/>
+			<field name="inventor" value="LUIZ TADEU MORAES FIGUEIREDO"/>
+			<field name="inventor" value="RAQUEL RINALDI RUSSO"/>
+			<field name="inventor" value="SUELY VILELA SAMPAIO"/>
+			<field name="inventor" value="VICTOR HUGO AQUINO QUINTANA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K38/46AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12N15/55AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="55AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de proteínas recombinantes cb1-6xhis_opt e cb2-6xhis_opt, proteínas recombinantes cb1-6xhis_opt e cb2-6xhis_opt e uso das proteínas recombinantes. a presente invenção se refere ao processo de obtenção de duas proteínas recombinantes, a saber cb1-6xhis_opt e cb2-6xhis_opt, as quais apresentam atividade antiviral contra o vírus da dengue sorotipo 2, o vírus zika, o vírus chikungunya e vírus da febre amarela. as referidas proteínas recombinantes possuem estrutura aminoacídica baseada em isoformas da fosfolipase a2 crotoxina b (pla2-cb), presente no veneno da serpente crotalus durissus terrificus. o método de obtenção das proteínas cb1-6xhis_opt e cb2-6xhis_opt compreende três fases. a fase i corresponde ao desenho e clonagem do gene das proteínas recombinantes em vetor de expressão. a fase ii corresponde à expressão e solubilização das proteínas recombinantes e a fase iii corresponde à purificação e a renaturação das proteínas recombinantes."/>
+			<field name="originatesFrom" value="68652753"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017021627"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017021627"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017021627"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171021627"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25701" type="Person">
+			<semanticIdentifier>lattes::7130042879656567</semanticIdentifier>
+			<field name="identifier.lattes" value="7130042879656567"/>
+			<field name="name" value="Raquel Rinaldi Russo"/>
+		</entity>
+		<entity ref="OrgUnit20171" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37250" toEntityRef="Person25701" type="Inventor"/>
+		<relation fromEntityRef="Patent37250" toEntityRef="OrgUnit20171" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:38" record="12195" source="Espacenet">
+	<entities>
+		<entity ref="Patent12195" type="Patent">
+			<semanticIdentifier>brcris::cb99a86437af9229316d6b07b1970cca</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104616A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1104616</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1104616A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI04616</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1104616-3 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1104616"/>
+			<field name="identifier.lattes" value="5377053368826137"/>
+			<field name="identifier.espacenet" value="PI1104616"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de craqueamento catalÍtico fluido para maximizaÇço de destilado mÉdio"/>
+			<field name="title.lattes" value="PROCESSO DE CRAQUEAMENTO CATALÍTICO FLUIDO PARA MAXIMIZAÇÃO DE DESTILADO MÉDIO"/>
+			<field name="depositDate" value="2011-09-02"/>
+			<field name="publicationDate" value="2013-08-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDISSON MORGADO JUNIOR"/>
+			<field name="inventor" value="FABIO LEAL MENDES"/>
+			<field name="inventor" value="LEANDRO MORAIS SILVA"/>
+			<field name="inventor" value="LUIZ CARLOS CASAVECHIA"/>
+			<field name="inventor" value="WILLIAM RICHARD GILBERT"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10G11/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J8/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07C4/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C10G51/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="51"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE CRAQUEAMENTO CATALÍTICO FLUÍDO PARA MAXIMIZAÇçO DE DESTILADO MÉDIO. Em uma unidade de craqueamento catalítico com pelo menos um reator, se realiza o processamento segregado de uma carga constituída por uma corrente de gasóleo leve de vácuo - GOL e uma corrente de gasóleo pesado de vácuo - GOP, de modo a aumentar o rendimento e melhorar a qualidade do destilado médio obtido, em relação ao processamento simultâneo das duas correntes nas mesmas condições de processo."/>
+			<field name="originatesFrom" value="48917873"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104616"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1104616"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1104616"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI04616"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1104616-3 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8397" type="Person">
+			<semanticIdentifier>lattes::5377053368826137</semanticIdentifier>
+			<field name="identifier.lattes" value="5377053368826137"/>
+			<field name="name" value="Edisson Morgado Junior"/>
+		</entity>
+		<entity ref="OrgUnit6645" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12195" toEntityRef="Person8397" type="Inventor"/>
+		<relation fromEntityRef="Patent12195" toEntityRef="OrgUnit6645" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:16" record="29032" source="Espacenet">
+	<entities>
+		<entity ref="Patent29032" type="Patent">
+			<semanticIdentifier>brcris::ea0fa60be1f0223322b132a1e1a757a9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012002011A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012002011</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012002011A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121002011</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 002011-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012002011"/>
+			<field name="identifier.lattes" value="4843486817999419"/>
+			<field name="identifier.espacenet" value="102012002011"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="GERADOR DE INDUÇÃO DUPLAMENTE ENROLADO SEM ESCOVAS COM EXITAÇÃO INDEPENDENTE"/>
+			<field name="title.lattes" value="GERADOR DE INDUÇÃO DUPLAMENTE ENROLADO SEM ESCOVAS COM EXCITAÇÃO INDEPENDENTE."/>
+			<field name="depositDate" value="2012-01-30"/>
+			<field name="publicationDate" value="2013-11-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GEYVERSON TEIXEIRA DE PAULA"/>
+			<field name="inventor" value="JOSE ROBERTO BOFFINO DE ALMEIDA MONTEIRO"/>
+			<field name="inventor" value="MARCELO PATRICIO DE SANTANA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02K17/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02K17/42AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02K29/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="GERADOR DE INDUÇÃO DUPLAMENTE ENROLADO SEM ESCOVAS COM EXCITAÇÃO INDEPENDENTE. A presente invenção refere-se a um gerador de indução duplamente enrolado sem escovas com excitação independente para a utilização em velocidade variável, sendo composto de enrolamentos de campo (2), núcleo dos enrolamentos de campo (4), enrolamentos de armadura (1) e seu núcleo (15), conexões com a rede (3) e meios para geração interna da corrente de campo de forma independente da rede elétrica, formada pelos elementos (6), (7), (9), (10), (12), (13), (14) e (16). Além disso, possui os componentes mecânicos para sustentação dos elementos do estator, como a carcaça ou base de montagem (5), o rotor (8) e os mancais que sustentam o rotor no estator (11). O gerador proposto pode ser utilizado em sistemas de geração indenpendentes da rede de distribuição de energia elétrica por apresentar meios de excitação de campo não convencionais a imãs permanentes, onde os ímãs são montados no estator e os enrolamentos, que podem ser trifásicos ou mesmo polifásicos, são montados no rotor dessa máquina."/>
+			<field name="originatesFrom" value="49549822"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012002011"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012002011"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012002011"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121002011"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 002011-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20013" type="Person">
+			<semanticIdentifier>lattes::4843486817999419</semanticIdentifier>
+			<field name="identifier.lattes" value="4843486817999419"/>
+			<field name="name" value="Marcelo Patrício de Santana"/>
+		</entity>
+		<entity ref="OrgUnit15645" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29032" toEntityRef="Person20013" type="Inventor"/>
+		<relation fromEntityRef="Patent29032" toEntityRef="OrgUnit15645" type="Applicant"/>
+	</relations>
+</entity-relation-data>

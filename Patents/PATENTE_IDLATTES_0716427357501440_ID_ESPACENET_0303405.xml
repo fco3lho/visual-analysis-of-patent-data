@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:42" record="10012" source="Espacenet">
+	<entities>
+		<entity ref="Patent10012" type="Patent">
+			<semanticIdentifier>brcris::e203042bf277b1966039c13587f36172</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303405A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303405</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303405A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303405</semanticIdentifier>
+			<semanticIdentifier>original::0303405-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303405"/>
+			<field name="identifier.lattes" value="0716427357501440"/>
+			<field name="identifier.espacenet" value="0303405"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Uso da gordura parcial ou totalmente saponificada dos frutos de palmeiras do gênero astrocaryum como aditivo para sabonetes e sabões, destinada a melhora da barreira cutânea e aumento do poder hidratante"/>
+			<field name="title.lattes" value="Uso da gordura parcial ou totalmente saponificada dos frutos de palmeiras do gênero astrocaryum como aditivo para sabonetes e sabões, destinada a melhora da barreira cutânea e aumento do poder hidratante"/>
+			<field name="depositDate" value="2003-05-15"/>
+			<field name="publicationDate" value="2005-08-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CECILIA NOGUEIRA"/>
+			<field name="inventor" value="CRISTIANE RODRIGUES SILVA"/>
+			<field name="inventor" value="DANIEL BARRERA-ARELLANO"/>
+			<field name="inventor" value="MARCIO ANTONIO POLEZEL"/>
+			<field name="inventor" value="MARIA DEL CARMEN VELAZQUEZ"/>
+			<field name="applicant" value="CHEMYUNION QUIMICA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C11C3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="11"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;USO DA GORDURA PARCIAL OU TOTALMENTE SAPONIFICADA DOS FRUTOS DE PALMEIRAS DO GêNERO ASTROCARYUM COMO ADITIVO PARA SABONETES E SABõES, DESTINADA A MELHORA DA BARREIRA CUTâNEA E AUMENTO DO PODER HIDRATANTE&quot;. Utilização da gordura de amêndoas de frutos de palmeiras do gênero Astrocaryum como aditivo de sabonete melhorando a barreira cutânea e aumentando o poder hidratante e a performance geral de sabonetes preparados para peles normais, oleosas e sensíveis."/>
+			<field name="originatesFrom" value="34891683"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303405"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303405"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303405"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303405"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303405-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6878" type="Person">
+			<semanticIdentifier>lattes::0716427357501440</semanticIdentifier>
+			<field name="identifier.lattes" value="0716427357501440"/>
+			<field name="name" value="Daniel Barrera Arellano"/>
+		</entity>
+		<entity ref="OrgUnit5450" type="OrgUnit">
+			<semanticIdentifier>brcris::86729d1c739e9685bda16bce844601d3</semanticIdentifier>
+			<field name="name" value="CHEMYUNION QUIMICA LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10012" toEntityRef="Person6878" type="Inventor"/>
+		<relation fromEntityRef="Patent10012" toEntityRef="OrgUnit5450" type="Applicant"/>
+	</relations>
+</entity-relation-data>

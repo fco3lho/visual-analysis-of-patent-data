@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:32" record="35912" source="Espacenet">
+	<entities>
+		<entity ref="Patent35912" type="Patent">
+			<semanticIdentifier>brcris::921c83264541ca58f94d37bd29f818ba</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019018999A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019018999</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019018999A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191018999</semanticIdentifier>
+			<semanticIdentifier>original::102019018999</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019018999"/>
+			<field name="identifier.lattes" value="9757813241175550"/>
+			<field name="identifier.espacenet" value="102019018999"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de feromônios, uso dos feromônios dmnt e tmtt, composição de isca tóxica, processo de obtenção da composição de isca tóxica, uso da composição de isca tóxica e kit para aprisionamento de insetos"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DE FEROMÔNIOS, USO DOS FEROMÔNIOS DMNT E TMTT, COMPOSIÇÃO DE ISCA TÓXICA, PROCESSO DE OBTENÇÃO DA COMPOSIÇÃO DE ISCA TÓXICA, USO DA COMPOSIÇÃO DE ISCA TÓXICA E KIT PARA APRISIONAMENTO DE INSETOS"/>
+			<field name="depositDate" value="2019-09-12"/>
+			<field name="publicationDate" value="2021-03-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FRANCO SMIDERLE"/>
+			<field name="inventor" value="PAULO ROBERTO DOS SANTOS"/>
+			<field name="inventor" value="SIDNEI MOURA E SILVA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE CAXIAS DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C11/21AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="21AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A01N27/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A01P7/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="A01P19/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve o processo de obtenção dos feromônios dmnt e tmtt do algodoeiro compreendendo as etapas de síntese do feromônio, evaporação do solvente; e, isolamento dos compostos por hidrodestilação por arraste a vapor. especificamente, a presente invenção compreende o uso dos feromônios dmnt e tmtt para preparação de uma composição atrativa alimentar do besouro anthonomus grandis. mais especificamente, a invenção apresenta uma composição atrativa alimentar e o uso da mesma para produção de armadilhas de aprisionamento ou como agente de confusão do besouro anthonomus grandis. a presente invenção se situa nos campos da química, agronomia e biologia."/>
+			<field name="originatesFrom" value="75438493"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019018999"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019018999"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019018999"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191018999"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019018999"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24695" type="Person">
+			<semanticIdentifier>lattes::9757813241175550</semanticIdentifier>
+			<field name="identifier.lattes" value="9757813241175550"/>
+			<field name="name" value="Paulo Roberto dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit19371" type="OrgUnit">
+			<semanticIdentifier>brcris::6ed82f1798fa2598810b222b0ac27ff0</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE CAXIAS DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35912" toEntityRef="Person24695" type="Inventor"/>
+		<relation fromEntityRef="Patent35912" toEntityRef="OrgUnit19371" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:08" record="3526" source="Espacenet">
+	<entities>
+		<entity ref="Patent3526" type="Patent">
+			<semanticIdentifier>brcris::bc5d729d0919b609d5a4373fc376a16b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014009397A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014009397</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014009397A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141009397</semanticIdentifier>
+			<semanticIdentifier>original::102014009397</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014009397"/>
+			<field name="identifier.lattes" value="1540119747436550"/>
+			<field name="identifier.espacenet" value="102014009397"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para proteger juntas metálicas soldadas de tubulações com revestimento externo em polietileno de alta densidade"/>
+			<field name="title.lattes" value="PROCESSO PARA PROTEGER JUNTAS METÁLICAS SOLDADAS DE TUBULAÇÕES COM REVESTIMENTO EXTERNO EM POLIETILENO DE ALTA DENSIDADE"/>
+			<field name="depositDate" value="2014-04-17"/>
+			<field name="publicationDate" value="2015-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE KOEBSCH"/>
+			<field name="inventor" value="JORGE FERNANDO PEREIRA COELHO"/>
+			<field name="inventor" value="LAURINDO CARVALHO FILHO"/>
+			<field name="inventor" value="PEDRO ALTOE FERREIRA"/>
+			<field name="inventor" value="SIMON RICARDO SANANDRES"/>
+			<field name="applicant" value="MEI ENGENHARIA LTDA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L58/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="58"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para proteger juntas metálicas soldadas de tubulações com revestimento externo em polietileno de alta densidade. a presente invenção objetiva viabilizar um processo para proteger contra corrosão juntas metálicas soldadas de tubulações com revestimento de polietileno de alta densidade, empregando um elastômero que é conformado por intermédio de um molde, que seja menos custoso e menos complexo no que concerne à manipulação da mistura polimérica e/ou elastomérica e à operação das ferramentas."/>
+			<field name="originatesFrom" value="54548472"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014009397"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014009397"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014009397"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141009397"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014009397"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2490" type="Person">
+			<semanticIdentifier>lattes::1540119747436550</semanticIdentifier>
+			<field name="identifier.lattes" value="1540119747436550"/>
+			<field name="name" value="André Koebsch"/>
+		</entity>
+		<entity ref="OrgUnit1993" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3526" toEntityRef="Person2490" type="Inventor"/>
+		<relation fromEntityRef="Patent3526" toEntityRef="OrgUnit1993" type="Applicant"/>
+	</relations>
+</entity-relation-data>

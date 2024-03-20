@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:19" record="20995" source="Espacenet">
+	<entities>
+		<entity ref="Patent20995" type="Patent">
+			<semanticIdentifier>brcris::ea367d88393be449a4348d27a4bd1e23</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022189A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014022189</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022189A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141022189</semanticIdentifier>
+			<semanticIdentifier>original::102014022189</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014022189"/>
+			<field name="identifier.lattes" value="5610932554689096"/>
+			<field name="identifier.espacenet" value="102014022189"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="acelerador de hardware para alinhamento de cadeias de dna e proteínas"/>
+			<field name="title.lattes" value="ACELERADOR DE HARDWARE PARA ALINHAMENTOS DE CADEIAS DE DNA E PROTEÍNAS"/>
+			<field name="depositDate" value="2014-09-08"/>
+			<field name="publicationDate" value="2016-08-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONYUS PYETRO DO AMARAL FERREIRA"/>
+			<field name="inventor" value="JEFFERSON RAMOS LUCAS DOS ANJOS"/>
+			<field name="inventor" value="JOAO GABRIEL MACHADO DA SILVA"/>
+			<field name="inventor" value="LUIZ HENRIQUE ALVES FIGUEIROA"/>
+			<field name="inventor" value="MANOEL EUSEBIO DE LIMA"/>
+			<field name="applicant" value="ANTONYUS PYETRO DO AMARAL FERREIRA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06N3/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="acelerador de hardware para alinhamento de cadeias de dna e proteínas. esta invenção trata de um acelerador de hardware parametrizável para processamento de alto desempenho de alinhamentos de cadeias de dna e proteínas. este acelerador foi construído para suportar, tanto alinhamentos locais, quanto globais ótimos de sequências de dna e cadeias de proteínas. o sistema se comunica com um computador host, pelo qual o usuário envia os comandos. o acelerador processa os dados em memória local e retorne ao usuário a resposta. o acelerador se adapta para diversos parâmetros como: tamanho das cadeias de entrada, custos para obter o melhor desempenho e otimizar a quantidade de recursos utilizados )memória interna, lógica, banda de memória). todo processamento é feito embarcado no acelerador construído, tanto a parte de geração dos scores (estágio forward) quanto o trocebock."/>
+			<field name="originatesFrom" value="56544704"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022189"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014022189"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022189"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141022189"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014022189"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14529" type="Person">
+			<semanticIdentifier>lattes::5610932554689096</semanticIdentifier>
+			<field name="identifier.lattes" value="5610932554689096"/>
+			<field name="name" value="Jefferson Ramos Lucas dos Anjos"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20995" toEntityRef="Person14529" type="Inventor"/>
+	</relations>
+</entity-relation-data>

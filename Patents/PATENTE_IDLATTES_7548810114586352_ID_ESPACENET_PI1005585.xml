@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:27" record="12069" source="Espacenet">
+	<entities>
+		<entity ref="Patent12069" type="Patent">
+			<semanticIdentifier>brcris::78ab62b92a887ad52d86d08753f8084f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005585A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1005585</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005585A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI05585</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1005585-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1005585"/>
+			<field name="identifier.lattes" value="7548810114586352"/>
+			<field name="identifier.espacenet" value="PI1005585"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Aparelho para aplicação de carregamentos não uniformes em estruturas"/>
+			<field name="title.lattes" value="APARELHO PARA APLICAÇÃO DE CARREGAMENTOS NÃO UNIFORMES EM ESTRUTURAS"/>
+			<field name="depositDate" value="2010-12-30"/>
+			<field name="publicationDate" value="2015-08-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO MAIA DA COSTA"/>
+			<field name="inventor" value="CLAUDIO DOS SANTOS AMARAL"/>
+			<field name="inventor" value="EDGARD POIATE JUNIOR"/>
+			<field name="inventor" value="FERNANDO ANTONIO SANTOS MEDEIROS"/>
+			<field name="inventor" value="JOSE LUIZ FALCAO"/>
+			<field name="inventor" value="JOSE LUIZ FALCAO"/>
+			<field name="inventor" value="JOSE NUNES PIMENTEL NETO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N3/36AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Aparelho para aplicação de carregamentos não uniformes em estruturas. Refere-se a presente invenção a um aparelhamento de analise de esforços estruturais em estruturas longilíneas. O equipamento permite aplicar esforços circunferências e axiais não uniformes simultaneamente ou não aos esforços de tração ou compressão, além de torção e cisalhamento, simulando condições operacionais mais próximas possíveis das reais, e propiciando um controle preciso dos atuadores de força ou deslocamento, permitindo assim, a análise rigorosa das reações da estrutura a ser testada."/>
+			<field name="originatesFrom" value="53794553"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005585"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1005585"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005585"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI05585"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1005585-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8311" type="Person">
+			<semanticIdentifier>lattes::7548810114586352</semanticIdentifier>
+			<field name="identifier.lattes" value="7548810114586352"/>
+			<field name="name" value="Edgard Poiate Junior"/>
+		</entity>
+		<entity ref="OrgUnit6566" type="OrgUnit">
+			<semanticIdentifier>brcris::7270766b114db4639af7667fe90f2dc6</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit6567" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12069" toEntityRef="Person8311" type="Inventor"/>
+		<relation fromEntityRef="Patent12069" toEntityRef="OrgUnit6566" type="Applicant"/>
+		<relation fromEntityRef="Patent12069" toEntityRef="OrgUnit6567" type="Applicant"/>
+	</relations>
+</entity-relation-data>

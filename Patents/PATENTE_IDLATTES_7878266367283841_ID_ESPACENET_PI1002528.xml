@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:30" record="42758" source="Espacenet">
+	<entities>
+		<entity ref="Patent42758" type="Patent">
+			<semanticIdentifier>brcris::ca204f259ecc2638bc53b4f14249beb3</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002528A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1002528</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002528A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI02528</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1002528-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1002528"/>
+			<field name="identifier.lattes" value="7878266367283841"/>
+			<field name="identifier.espacenet" value="PI1002528"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="reaproveitamento via micro ondas de borracha vulcanizada"/>
+			<field name="title.lattes" value="REAPROVEITAMENTO VIA MICRO-ONDA DE BORRACHA VULCANIZADA"/>
+			<field name="depositDate" value="2010-01-06"/>
+			<field name="publicationDate" value="2012-02-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADEMAR BENEVOLO LUGAO"/>
+			<field name="inventor" value="LILIANE LANDINI"/>
+			<field name="inventor" value="SANDRA REGINA SCAGLIUSI"/>
+			<field name="inventor" value="SUMAIR GOUVEIA DE ARAUJO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08J11/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08J11/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H05B6/78AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="78AI"/>
+			</field>
+			<field name="abstract.espacenet" value="REAPROVEITAMENTO VIA MICRO ONDAS DE BORRACHA VULCANIZADA. Para que ocorra o reaproveitamento/reciclagem da borracha, ela passa por um processo de devulcanização via micro ondas. As sobras de borracha são cortadas em pequenos pedaços, e então é submetida a uma unidade geradora de microondas que opera numa frequência de 915 MHz a 2.450MHz e potências de 1.000W a 3.000W. O elastómero devulcanizado é analisado quanto as suas propriedades fisico-quimicas e depois misturado com borracha virgem em diferentes proporções para uma nova vulcanização."/>
+			<field name="originatesFrom" value="45560226"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002528"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1002528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002528"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI02528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1002528-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29166" type="Person">
+			<semanticIdentifier>lattes::7878266367283841</semanticIdentifier>
+			<field name="identifier.lattes" value="7878266367283841"/>
+			<field name="name" value="Sumair Gouveia de Araujo"/>
+		</entity>
+		<entity ref="OrgUnit22840" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42758" toEntityRef="Person29166" type="Inventor"/>
+		<relation fromEntityRef="Patent42758" toEntityRef="OrgUnit22840" type="Applicant"/>
+	</relations>
+</entity-relation-data>

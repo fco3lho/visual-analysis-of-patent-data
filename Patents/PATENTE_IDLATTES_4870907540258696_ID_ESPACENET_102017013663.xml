@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:56" record="19328" source="Espacenet">
+	<entities>
+		<entity ref="Patent19328" type="Patent">
+			<semanticIdentifier>brcris::8003c821c62841927df4331be197729f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017013663A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017013663</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017013663A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171013663</semanticIdentifier>
+			<semanticIdentifier>original::102017013663</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017013663"/>
+			<field name="identifier.lattes" value="4870907540258696"/>
+			<field name="identifier.espacenet" value="102017013663"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="filtro de micro-ondas de alta potência com cavidades ressonantes coaxiais"/>
+			<field name="title.lattes" value="FILTRO DE MICRO-ONDAS DE ALTA POTÊNCIA COM CAVIDADES RESSONANTES COAXIAIS"/>
+			<field name="depositDate" value="2017-06-23"/>
+			<field name="publicationDate" value="2019-01-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDSON CESAR DOS REIS"/>
+			<field name="inventor" value="HUGO ENRIQUE HERNANDEZ FIGUEROA"/>
+			<field name="inventor" value="JOAO ROBERTO MOREIRA NETO"/>
+			<field name="inventor" value="LEANDRO ANDRADE COUTO FONSECA"/>
+			<field name="inventor" value="LUCIANO PRADO DE OLIVEIRA"/>
+			<field name="applicant" value="BRADAR INDUSTRIA S.A"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01P1/20AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um filtro passa-faixas com topologia de cavidades coaxiais que opera nas frequências de micro-ondas. o dispositivo tem aplicação em equipamentos e sistemas variados, destaca-se, porém, o seu uso em radares, satélites e sistemas de sensoriamento remoto."/>
+			<field name="originatesFrom" value="65237378"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017013663"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017013663"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017013663"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171013663"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017013663"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13448" type="Person">
+			<semanticIdentifier>lattes::4870907540258696</semanticIdentifier>
+			<field name="identifier.lattes" value="4870907540258696"/>
+			<field name="name" value="Hugo Enrique Hernandez Figueroa"/>
+		</entity>
+		<entity ref="OrgUnit10525" type="OrgUnit">
+			<semanticIdentifier>brcris::82d1118ffc770a4023564f93f5922221</semanticIdentifier>
+			<field name="name" value="BRADAR INDUSTRIA S.A"/>
+		</entity>
+		<entity ref="OrgUnit10526" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19328" toEntityRef="Person13448" type="Inventor"/>
+		<relation fromEntityRef="Patent19328" toEntityRef="OrgUnit10525" type="Applicant"/>
+		<relation fromEntityRef="Patent19328" toEntityRef="OrgUnit10526" type="Applicant"/>
+	</relations>
+</entity-relation-data>

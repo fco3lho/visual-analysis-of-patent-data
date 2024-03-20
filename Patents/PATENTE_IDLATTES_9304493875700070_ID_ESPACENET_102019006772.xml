@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:49" record="12349" source="Espacenet">
+	<entities>
+		<entity ref="Patent12349" type="Patent">
+			<semanticIdentifier>brcris::df9a49682f9f710e500b489299108333</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006772A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019006772</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006772A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191006772</semanticIdentifier>
+			<semanticIdentifier>original::102019006772</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019006772"/>
+			<field name="identifier.lattes" value="9304493875700070"/>
+			<field name="identifier.espacenet" value="102019006772"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="produção de vinagre, fermentado acético e ácido acético com matéria - prima láctea"/>
+			<field name="title.lattes" value="PRODUÇÃO DE VINAGRE, FERMENTADO ACÉTICO E ÁCIDO ACÉTICO COM MATÉRIA ? PRIMA LÁCTEA"/>
+			<field name="depositDate" value="2019-04-03"/>
+			<field name="publicationDate" value="2020-10-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDSON ANTONIO DA SILVA"/>
+			<field name="inventor" value="FABIANO BISINELLA SCHEUFELE"/>
+			<field name="inventor" value="FERNANDO PALU"/>
+			<field name="inventor" value="KEITI LOPES MAESTRE"/>
+			<field name="inventor" value="MONICA LADY FIORESE"/>
+			<field name="inventor" value="SILVIO CESAR SAMPAIO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12J1/06AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a referida patente é destinada ao campo de invenção da área de biotecnologia/processos fermentativos a qual tem por intuito o uso das matérias-primas lácteas geradas durante o processamento de queijos, iogurtes, caseínas, nata, leite condensado, creme de leite, manteigas, concentrados proteicos, entre outros, como, soro de leite, soro de queijo, soro lácteo, soro doce, soro ácido, lactossoro ou soro, ou livre de porções de proteínas, conhecidos por permeado de soro de leite, permeado de soro de queijo, soro de leite desproteinizado soro ácido desproteinizado, soro doce desproteinizado ou soro lácteo desproteinizado para a produção de vinagre e/ou fermentado acético e/ou ácido acético. a referida patente é uma proposta inovadora por reaproveitar resíduos, subprodutos e/ou coprodutos da indústria láctea em sua totalidade, por meio do emprego de duas etapas fermentativas, sendo a primeira a alcoólica onde faz-se uso de leveduras (alimentícias) para produção de etanol, e a segunda realizada por bactérias acéticas (cepas puras ou mistas) que convertem o etanol em vinagre e/ou fermentado acético e/ou ácido acético, e produtos secundários oriundos do próprio metabolismo das bactérias, além de biomassa celular, desta forma promovendo o desenvolvimento de um(s) novo(s) produto(s) com valor econômico e comercial, por meio de um processo sustentável."/>
+			<field name="originatesFrom" value="73038495"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006772"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019006772"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006772"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191006772"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019006772"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8467" type="Person">
+			<semanticIdentifier>lattes::9304493875700070</semanticIdentifier>
+			<field name="identifier.lattes" value="9304493875700070"/>
+			<field name="name" value="Edson Antonio da Silva"/>
+		</entity>
+		<entity ref="OrgUnit6676" type="OrgUnit">
+			<semanticIdentifier>brcris::c3fe74a9576877dbb1158a323578f964</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit6677" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12349" toEntityRef="Person8467" type="Inventor"/>
+		<relation fromEntityRef="Patent12349" toEntityRef="OrgUnit6676" type="Applicant"/>
+		<relation fromEntityRef="Patent12349" toEntityRef="OrgUnit6677" type="Applicant"/>
+	</relations>
+</entity-relation-data>

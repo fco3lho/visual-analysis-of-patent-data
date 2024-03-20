@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:37" record="2038" source="Espacenet">
+	<entities>
+		<entity ref="Patent2038" type="Patent">
+			<semanticIdentifier>brcris::a8507e7306f16e5a5f0875bce1d6cba9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303471A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303471</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303471A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303471</semanticIdentifier>
+			<semanticIdentifier>original::0303471-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303471"/>
+			<field name="identifier.lattes" value="3793709708793934"/>
+			<field name="identifier.espacenet" value="0303471"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Eletrocatalisadores obtidos pelo processo da deposição espontânea aplicados como ânodo na oxidação direta de álcoois em células a combustìvel com membrana trocadora de prótons"/>
+			<field name="title.lattes" value="Eletrocatalisadores obtidos pelo método da deposição espontânea aplicados como anodo na oxidação direta de álcoois em células a combustível com membrana trocadora de prótons"/>
+			<field name="depositDate" value="2003-09-05"/>
+			<field name="publicationDate" value="2005-10-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALMIR OLIVEIRA NETO"/>
+			<field name="inventor" value="ESTEVAM VITORIO SPINACE"/>
+			<field name="inventor" value="MARCELO LINARDI"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J23/42AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01M4/88AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="88AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01M4/92AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="92AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ELETROCATALISADORES OBTIDOS PELO PROCESSO DA DEPOSIçãO ESPONTâNEA APLICADOS COMO âNODO NA OXIDAçãO DIRETA DE áLCOOIS EM CéLULAS A COMBUSTìVEL COM MEMBRANA TROCADORA DE PRóTONS&quot;. A presente invenção refere-se a utilização de eletrocatalisadores, obtidos pela deposição espontânea de platina sobre nanopartículas de Ru, Mn, Fe, Co, Rh, Pd, Os, Ir, Mo, Cr, V, W, Sn, U e terras-raras, ou de uma mistura destes elementos, suportadas em carbono de alta área superfícial, ou pela deposição de um ou mais desses elementos sobre nanopartículas de platina suportadas em carbono de alta área superficial, como ânodo na oxidação direta de álcoois, principalmente metanol e etanol, em células a combustível com membrana trocadora de prótons (do inglês Proton Exchange Membrane Fuel Cell - PEMFC)."/>
+			<field name="originatesFrom" value="35044414"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303471"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303471"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303471"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303471"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0303471-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1537" type="Person">
+			<semanticIdentifier>lattes::3793709708793934</semanticIdentifier>
+			<field name="identifier.lattes" value="3793709708793934"/>
+			<field name="name" value="Almir Oliveira Neto"/>
+		</entity>
+		<entity ref="OrgUnit1157" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2038" toEntityRef="Person1537" type="Inventor"/>
+		<relation fromEntityRef="Patent2038" toEntityRef="OrgUnit1157" type="Applicant"/>
+	</relations>
+</entity-relation-data>

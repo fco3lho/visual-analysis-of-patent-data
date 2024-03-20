@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:18" record="28099" source="Espacenet">
+	<entities>
+		<entity ref="Patent28099" type="Patent">
+			<semanticIdentifier>brcris::1b255ea9c9f31cae5df7a850bf9cb417</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025537A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016025537</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025537A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161025537</semanticIdentifier>
+			<semanticIdentifier>original::102016025537</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016025537"/>
+			<field name="identifier.lattes" value="2227043541084855"/>
+			<field name="identifier.espacenet" value="102016025537"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema auxiliar para secagem de grãos"/>
+			<field name="title.lattes" value="SISTEMA AUXILIAR PARA SECAGEM DE GRÃOS"/>
+			<field name="depositDate" value="2016-10-24"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALFREDO TAKASHI SUZUKI"/>
+			<field name="inventor" value="ARTUR VIEIRA DOS SANTOS"/>
+			<field name="inventor" value="GEOVANA PIRES ARAUJO LIMA"/>
+			<field name="inventor" value="JORGE HENRIQUE DE OLIVEIRA SALES"/>
+			<field name="inventor" value="LUIZ VINICIUS DE MENEZES SOGLIA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE SANTA CRUZ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F24S90/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="90"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="62954529"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025537"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016025537"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025537"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161025537"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016025537"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19388" type="Person">
+			<semanticIdentifier>lattes::2227043541084855</semanticIdentifier>
+			<field name="identifier.lattes" value="2227043541084855"/>
+			<field name="name" value="Luiz Vinicius de Menezes Soglia"/>
+		</entity>
+		<entity ref="OrgUnit15106" type="OrgUnit">
+			<semanticIdentifier>brcris::2de9b3dbc4244d8e963f4d7a1b8caecc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE SANTA CRUZ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28099" toEntityRef="Person19388" type="Inventor"/>
+		<relation fromEntityRef="Patent28099" toEntityRef="OrgUnit15106" type="Applicant"/>
+	</relations>
+</entity-relation-data>

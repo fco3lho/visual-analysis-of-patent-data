@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:38" record="35960" source="Espacenet">
+	<entities>
+		<entity ref="Patent35960" type="Patent">
+			<semanticIdentifier>brcris::a5f5e0751fa96049aa94d3cac607b004</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9505287A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9505287</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9505287A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959505287</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9505287"/>
+			<field name="identifier.lattes" value="9763437636509266"/>
+			<field name="identifier.espacenet" value="9505287"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Estimulador funcional portátil"/>
+			<field name="title.lattes" value="Estimulador Elétrico Funcional Portátil"/>
+			<field name="depositDate" value="1995-11-07"/>
+			<field name="publicationDate" value="1997-10-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DA SILVA DANTON PEREIRA, JUNIOR"/>
+			<field name="inventor" value="ELTON LUIZ FERLIN"/>
+			<field name="inventor" value="MULLER ANDRE FROTTA"/>
+			<field name="inventor" value="PAULO ROBERTO STEFANI SANCHES"/>
+			<field name="inventor" value="THOME PAULO RICARDO OPPERMANN"/>
+			<field name="applicant" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61H39/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4062854"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9505287"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9505287"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9505287"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959505287"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24740" type="Person">
+			<semanticIdentifier>lattes::9763437636509266</semanticIdentifier>
+			<field name="identifier.lattes" value="9763437636509266"/>
+			<field name="name" value="Paulo Roberto Stefani Sanches"/>
+		</entity>
+		<entity ref="OrgUnit19412" type="OrgUnit">
+			<semanticIdentifier>brcris::e3e7e648939a8e9170a5f114f4ebf300</semanticIdentifier>
+			<field name="name" value="HOSPITAL DE CLINICAS DE PORTO ALEGRE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35960" toEntityRef="Person24740" type="Inventor"/>
+		<relation fromEntityRef="Patent35960" toEntityRef="OrgUnit19412" type="Applicant"/>
+	</relations>
+</entity-relation-data>

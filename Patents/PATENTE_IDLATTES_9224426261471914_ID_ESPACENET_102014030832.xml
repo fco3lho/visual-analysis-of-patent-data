@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:08" record="39208" source="Espacenet">
+	<entities>
+		<entity ref="Patent39208" type="Patent">
+			<semanticIdentifier>brcris::22922f6aac5c87e980bc077f8697042d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030832A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014030832</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014030832A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141030832</semanticIdentifier>
+			<semanticIdentifier>original::102014030832</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014030832"/>
+			<field name="identifier.lattes" value="9224426261471914"/>
+			<field name="identifier.espacenet" value="102014030832"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de detecção de vivacidade de impressões digitais usando redes convolucionais"/>
+			<field name="title.lattes" value="Método de Detecção de Vivacidade de Impressões Digitais usando Redes Convolucionais"/>
+			<field name="depositDate" value="2014-12-09"/>
+			<field name="publicationDate" value="2016-06-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ROBERTO DE ALENCAR LOTUFO"/>
+			<field name="inventor" value="RODRIGO FRASSETTO NOGUEIRA"/>
+			<field name="inventor" value="RUBENS CAMPOS MACHADO"/>
+			<field name="applicant" value="CENTRO DE TECNOLOGIA DA INFORMACAO RENATO ARCHER"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de detecção de vivacidade de impressões digitais usando redes convolucionais. a presente invenção refere-se a um método para detecção de vivacidade de impressões digitais usando a técnica de extração de características conhecida como redes convolucionais e aumento artificial do conjunto de dados com objetivo de melhorar a acurácia do sistema classificador. é também aplicada redução de dimensionalidade através da análise de componentes principais (pca) com whitening e um classificador support vector machine (svm) com kernel gaussiano, usado para decidir se as amostras são verdadeiras ou falsas. operações de pré-processamento como filtragem em frequência, extração da região de interesse (roi) e equalização de contraste podem ser usadas para melhorar a acurácia."/>
+			<field name="originatesFrom" value="56106323"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030832"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014030832"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014030832"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141030832"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014030832"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2016090439"/>
+		</entity>
+		<entity ref="Person26735" type="Person">
+			<semanticIdentifier>lattes::9224426261471914</semanticIdentifier>
+			<field name="identifier.lattes" value="9224426261471914"/>
+			<field name="name" value="Roberto de Alencar Lotufo"/>
+		</entity>
+		<entity ref="OrgUnit20942" type="OrgUnit">
+			<semanticIdentifier>brcris::12014b07a6eba450ad84d7a730862ce0</semanticIdentifier>
+			<field name="name" value="CENTRO DE TECNOLOGIA DA INFORMACAO RENATO ARCHER"/>
+		</entity>
+		<entity ref="OrgUnit20943" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent39209" type="Patent">
+			<semanticIdentifier>epodoc::WO2016090439</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="56106323"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2016090439"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39208" toEntityRef="Person26735" type="Inventor"/>
+		<relation fromEntityRef="Patent39208" toEntityRef="OrgUnit20942" type="Applicant"/>
+		<relation fromEntityRef="Patent39208" toEntityRef="OrgUnit20943" type="Applicant"/>
+	</relations>
+</entity-relation-data>

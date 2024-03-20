@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:30" record="19087" source="Espacenet">
+	<entities>
+		<entity ref="Patent19087" type="Patent">
+			<semanticIdentifier>brcris::bbef33185a8d374c12483827fffd7c20</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403184A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0403184</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0403184A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI03184</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0403184-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0403184"/>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="identifier.espacenet" value="PI0403184"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo e dispositivo para alterar a distribuição de produtos de craqueamento catalìtico fluido de hidrocarbonetos"/>
+			<field name="title.lattes" value="Método, processo e aparato para alterar a distribuição de produtos de craqueamento catalítico."/>
+			<field name="depositDate" value="2004-07-30"/>
+			<field name="publicationDate" value="2006-03-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIA MARIA DE LACERDA ALVARENGA BAPTISTA"/>
+			<field name="inventor" value="HENRIQUE SOARES CERQUEIRA"/>
+			<field name="inventor" value="OSCAR RENE CHAMBERLAIN PRAVIA"/>
+			<field name="inventor" value="WILLIAM RICHARD GILBERT"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="abstract.espacenet" value="&quot;PROCESSO E DISPOSITIVO PARA ALTERAR A DISTRIBUIçãO DE PRODUTOS DE CRAQUEAMENTO CATALìTICO FLUIDO DE HIDROCARBONETOS&quot;. Processo e dispositivo para alterar a distribuição de produtos de craqueamento catalítico fluido de hidrocarbonetos por intermédio de um processo de retificação reativa, no qual uma ou mais correntes de hidrocarbonetos são introduzidas em uma região intermediária do retificador (1) de uma unidade de craqueamento catalítico fluido (FCC), a partir de um dispositivo que permita uma distribuição homogênea com dispersão adequada. Esta(s) corrente(s) reage(m) com o catalisador de FCC, ainda que este esteja com a atividade reduzida devido a adsorção de hidrocarbonetos na zona de reação, gerando produtos que melhoram e/ou alteram a distribuição global de produtos, adequando o perfil da refinaria á demanda e às exigências de qualidade."/>
+			<field name="originatesFrom" value="36096491"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403184"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0403184"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0403184"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI03184"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0403184-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2006021909"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US7658837"/>
+		</entity>
+		<entity ref="Person13253" type="Person">
+			<semanticIdentifier>lattes::3474494395008338</semanticIdentifier>
+			<field name="identifier.lattes" value="3474494395008338"/>
+			<field name="name" value="Henrique Soares Cerqueira"/>
+		</entity>
+		<entity ref="OrgUnit10362" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="Patent19088" type="Patent">
+			<semanticIdentifier>epodoc::US2006021909</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="36096491"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2006021909"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent19089" type="Patent">
+			<semanticIdentifier>epodoc::US7658837</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="36096491"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US7658837"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19087" toEntityRef="Person13253" type="Inventor"/>
+		<relation fromEntityRef="Patent19087" toEntityRef="OrgUnit10362" type="Applicant"/>
+	</relations>
+</entity-relation-data>

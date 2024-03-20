@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:48" record="37950" source="Espacenet">
+	<entities>
+		<entity ref="Patent37950" type="Patent">
+			<semanticIdentifier>brcris::cf9f7e0d56c10e4c347c828054a043f1</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400868A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0400868</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0400868A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI00868</semanticIdentifier>
+			<semanticIdentifier>original::0400868-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0400868"/>
+			<field name="identifier.lattes" value="9998098540632750"/>
+			<field name="identifier.espacenet" value="PI0400868"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Algoritmo hierárquico de eliminação sucessiva aplicado à estimação de vetores de movimento e à quantização vetorial"/>
+			<field name="title.lattes" value="Algoritmo hierárquico de eliminação sucessiva, aplicado à estimação de vetores de movimento e à quantização vetorial"/>
+			<field name="depositDate" value="2004-03-02"/>
+			<field name="publicationDate" value="2005-10-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAX HENRIQUE MACHADO COSTA"/>
+			<field name="inventor" value="RENE TOGNI DEL PIETRO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04N19/53AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ALGORITMO HIERáRQUICO DE ELIMINAçãO SUCESSIVA, APLICADO à ESTIMAçãO DE VETORES DE MOVIMENTO E à QUANTIZAçãO VETORIAL&quot;. Novo processo de estimação e compensação de movimento aplicado na codificação de imagens utilizado nos serviços como transmissão de vídeo pela Internet, TV digital , vídeo conferência, vídeo por demanda, e outros, traduzindo-se em um algoritmo de eliminação sucessiva hierárquico, o qual reduz a quantidade de bits necessária à codificação da seq³ência de vídeo, e/ou de imagens em geral, acarretando um armazenamento e uma transmissão mais eficiente da informação, proporcionando uma sensível redução de custos e uma grande qualidade de transmissão de sinal."/>
+			<field name="originatesFrom" value="35151583"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400868"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0400868"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0400868"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI00868"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0400868-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26179" type="Person">
+			<semanticIdentifier>lattes::9998098540632750</semanticIdentifier>
+			<field name="identifier.lattes" value="9998098540632750"/>
+			<field name="name" value="Renê Togni Del Pietro"/>
+		</entity>
+		<entity ref="OrgUnit20518" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37950" toEntityRef="Person26179" type="Inventor"/>
+		<relation fromEntityRef="Patent37950" toEntityRef="OrgUnit20518" type="Applicant"/>
+	</relations>
+</entity-relation-data>

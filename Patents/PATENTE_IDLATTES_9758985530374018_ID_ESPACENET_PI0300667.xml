@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:22" record="32672" source="Espacenet">
+	<entities>
+		<entity ref="Patent32672" type="Patent">
+			<semanticIdentifier>brcris::1d50dfcdd25dff853d61670d62297300</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0300667B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0300667</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0300667A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2003PI00667</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0300667</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0300667"/>
+			<field name="identifier.lattes" value="9758985530374018"/>
+			<field name="identifier.espacenet" value="PI0300667"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="monitor inteligente de radiação"/>
+			<field name="title.lattes" value="Monitor Inteligente de Radiação MIR Modelo 7028"/>
+			<field name="depositDate" value="2003-03-28"/>
+			<field name="publicationDate" value="2018-12-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO HENRIQUE DOS SANTOS GRECCO"/>
+			<field name="inventor" value="ISAAC JOSE OBADIA"/>
+			<field name="inventor" value="MANOEL MATOS OLIVEIRA RAMOS"/>
+			<field name="inventor" value="MAURICIO ALVES DA CUNHA AGHINA"/>
+			<field name="inventor" value="MAURO VITOR DE OLIVEIRA"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01T1/15AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="15AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;monitor inteligente de radiação&quot;. tem por finalidade monitorar áreas que apresentem emissão de radiações ionizantes. o mir é um sistema constituído do monitor inteligente de radiação mir 7028 com um detector geiger-müller instalado internamente e de sondas externas para outras aplicações em radioproteção. o mir realiza medidas de taxa de equivalente de dose ambiente, h*(10), para raios x e gama, na faixa de radiação de fundo até 50 msv/h. o mir funciona nos modos de medidor de taxa de contagem, medidor de taxa de equivalente de dose ambiente, integrador de equivalente de dose ambiente e contador/temporizador. o mir possui as seguintes características de operação: teste automático do detector e do monitor, identificação automática da sonda externa, seleção automática das unidades de leitura, correção automática de tempo morto, troca automática de escala, memória do equivalente de dose ambiente acumulado, memória do valor máximo de taxa de equivalente de dose ambiente, alarmes de taxa de equivalente de dose ambiente e de equivalente de dose ambiente acumulado com memória não volátil do nível selecionado e sinal sonoro pulsado com taxa proporcional ao nível de radiação detectado. o mir gera sinais de alarme sonoro e visual em condições de: defeito do detector, saturação do detector, falha de alta-tensão, falha de calibração, bateria fraca e ultrapassagem do nível de alarme selecionado. a leitura é apresentada de forma digital e analógica (por meio de um gráfico de barras) em mostrador de cristal líquido. a alimentação é feita por meio de 2 pilhas tipo c (recarregáveis ou comuns)."/>
+			<field name="originatesFrom" value="64900427"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0300667"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0300667"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0300667"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2003PI00667"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0300667"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22467" type="Person">
+			<semanticIdentifier>lattes::9758985530374018</semanticIdentifier>
+			<field name="identifier.lattes" value="9758985530374018"/>
+			<field name="name" value="Mauricio Alves da Cunha e Aghina"/>
+		</entity>
+		<entity ref="OrgUnit17588" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32672" toEntityRef="Person22467" type="Inventor"/>
+		<relation fromEntityRef="Patent32672" toEntityRef="OrgUnit17588" type="Applicant"/>
+	</relations>
+</entity-relation-data>

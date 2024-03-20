@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:09" record="30400" source="Espacenet">
+	<entities>
+		<entity ref="Patent30400" type="Patent">
+			<semanticIdentifier>brcris::971a3e5d89afa533548a23b60e10c42b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202300A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0202300</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0202300A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020202300</semanticIdentifier>
+			<semanticIdentifier>original::0202300-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0202300"/>
+			<field name="identifier.lattes" value="5018271945226006"/>
+			<field name="identifier.espacenet" value="0202300"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de reciclagem de catalisadores de molibdênio utilizados em epoxidação de olefinas através de precipitação do catalisador induzida por polìmero orgânico"/>
+			<field name="title.lattes" value="Processo de reciclagem de catalisadores de molibdênio utilizados em epoxidação de olefinas através de precipitação do catalisador induzida por polímero orgânico"/>
+			<field name="depositDate" value="2002-06-07"/>
+			<field name="publicationDate" value="2004-05-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCOS SPITZER"/>
+			<field name="inventor" value="REGINA BUFFON"/>
+			<field name="inventor" value="WATSON LOH"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08J11/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE RECICLAGEM DE CATALISADORES DE MOLIBDêNIO UTILIZADOS EM EPOXIDAçãO DE OLEFINAS ATRAVéS DE PRECIPITAçãO DO CATALISADOR INDUZIDA POR POLìMERO ORGâNICO&quot;. Processo que trata de um novo meio reacional, aplicável à catálise homogênea em geral, particularmente à catálise ocorrida nos processo de epoxidação olefinas, qual tem como característica principal a fácil separação do catalisador no final do processo através de sua precipitação. Onde este meio reacional consiste basicamente de uma mistura ternária formada por um polímero polar, um solvente polar e um solvente apolar, que pode ser qualquer hidrocarboneto alifático."/>
+			<field name="originatesFrom" value="32181082"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202300"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0202300"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0202300"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020202300"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0202300-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20841" type="Person">
+			<semanticIdentifier>lattes::5018271945226006</semanticIdentifier>
+			<field name="identifier.lattes" value="5018271945226006"/>
+			<field name="name" value="Marcos Spitzer"/>
+		</entity>
+		<entity ref="OrgUnit16298" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30400" toEntityRef="Person20841" type="Inventor"/>
+		<relation fromEntityRef="Patent30400" toEntityRef="OrgUnit16298" type="Applicant"/>
+	</relations>
+</entity-relation-data>

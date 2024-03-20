@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:29" record="40651" source="Espacenet">
+	<entities>
+		<entity ref="Patent40651" type="Patent">
+			<semanticIdentifier>brcris::db1b717a7702074568d4fcb4d5830beb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031351A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014031351</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014031351A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141031351</semanticIdentifier>
+			<semanticIdentifier>original::102014031351</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014031351"/>
+			<field name="identifier.lattes" value="9490410798668023"/>
+			<field name="identifier.espacenet" value="102014031351"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de controle por meio de sopro ou sucção e uso do mesmo"/>
+			<field name="title.lattes" value="Dispositivo de Controle por meio de sopro ou sucção"/>
+			<field name="depositDate" value="2014-12-15"/>
+			<field name="publicationDate" value="2017-12-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE ANTONINO GONCALVES MARTINAZZO"/>
+			<field name="inventor" value="ARTHUR RODORIGO DE BARCELLOS"/>
+			<field name="inventor" value="IRENE KARAGUILLA FICHEMAN"/>
+			<field name="inventor" value="LEANDRO COLETTO BIAZON"/>
+			<field name="inventor" value="MARCELO ARCHANJO JOSE"/>
+			<field name="inventor" value="MARCELO KNORICH ZUFFO"/>
+			<field name="inventor" value="ROSELI DE DEUS LOPES"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F4/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61G5/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F3/0338AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="0338AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo de controle por meio de sopro ou sucção e uso do mesmo a presente invenção refere-se a um dispositivo de controle por meio de sopro ou sucção compreendendo uma interface com indicador de pressão ( 10) que possui dimensões de aproximadamente 3, 5 cm de altura, 8, 5 cm de largura e 13 cm de profundidade. o dispositivo consiste em uma caixa com um terminal para encaixar um tubo flexível (12) onde o usuário tem acesso para realizar o sopro ou a sucção, um cabo de saída (13) com 9 terminais sendo dois de alimentação e os demais de saída de dados para conectar no aparelho conversor usb ou na cadeira de rodas. o dispositivo tem um botão para a calibração saída do cabo (13) e o terminal do tubo e um (14) junto à display ( 11) com luz interna que pode ser de 16 linhas e 2 colunas. na coluna da esquerda o usuário visualiza o comando, na coluna da direita, o ponto de calibração e a barra que cresce e decresce conforme a pressão que o usuário exerce."/>
+			<field name="originatesFrom" value="62567142"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031351"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014031351"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014031351"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141031351"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014031351"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27689" type="Person">
+			<semanticIdentifier>lattes::9490410798668023</semanticIdentifier>
+			<field name="identifier.lattes" value="9490410798668023"/>
+			<field name="name" value="Roseli de Deus Lopes"/>
+		</entity>
+		<entity ref="OrgUnit21655" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40651" toEntityRef="Person27689" type="Inventor"/>
+		<relation fromEntityRef="Patent40651" toEntityRef="OrgUnit21655" type="Applicant"/>
+	</relations>
+</entity-relation-data>

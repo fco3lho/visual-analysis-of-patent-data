@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:47" record="8271" source="Espacenet">
+	<entities>
+		<entity ref="Patent8271" type="Patent">
+			<semanticIdentifier>brcris::381fda33478e36649c9d4b5ec586023d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018005971A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018005971</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018005971A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181005971</semanticIdentifier>
+			<semanticIdentifier>original::102018005971</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018005971"/>
+			<field name="identifier.lattes" value="8611020242763828"/>
+			<field name="identifier.espacenet" value="102018005971"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de otimização em codificação de imagens tridimensionais e codificador para imagens tridimensionais"/>
+			<field name="title.lattes" value="Método de Otimização em Codificação de Imagens Tridimensionais e Codificador para Imagens Tridimensionais"/>
+			<field name="depositDate" value="2018-03-26"/>
+			<field name="publicationDate" value="2019-10-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CESAR AUGUSTO MISSIO MARCON"/>
+			<field name="inventor" value="GUSTAVO FREITAS SANCHEZ"/>
+			<field name="inventor" value="LUCIANO VOLCAN AGOSTINI"/>
+			<field name="inventor" value="MARIO ROBERTO DE FREITAS SALDANHA"/>
+			<field name="applicant" value="UNIAO BRASILEIRA DE EDUCACAO E ASSISTENCIA - MANTENEDORA DA PUCRS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04N13/161AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="161AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção descreve um método de otimização em codificação de imagens tridimensionais e um codificador para imagens tridimensionais. especificamente, a presente invenção compreende a definição de uma árvore de decisão (ad), baseada em definição de atributos de codificação (ac), mineração de dados e aprendizado de máquina, e sua posterior implementação em um codificador. com a utilização das ditas árvores de decisão (ad), a presente invenção foca em tratar a decisão de subdivisão de uma unidade de codificação (uc) de blocos de profundidade (bp), uma vez implementada a árvore de decisão (ad) é capaz de diminuir o esforço computacional, diminuir o consumo de energia e aumentar a velocidade de codificação de blocos de profundidade (bp). a presente invenção se situa nos campos de processamento de imagens e vídeos, codificação e engenharia da computação."/>
+			<field name="originatesFrom" value="68158628"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018005971"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018005971"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018005971"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181005971"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018005971"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5662" type="Person">
+			<semanticIdentifier>lattes::8611020242763828</semanticIdentifier>
+			<field name="identifier.lattes" value="8611020242763828"/>
+			<field name="name" value="César Augusto Missio Marcon"/>
+		</entity>
+		<entity ref="OrgUnit4489" type="OrgUnit">
+			<semanticIdentifier>brcris::5aa56af182c84d54a22c21eb8549aed1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PELOTAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8271" toEntityRef="Person5662" type="Inventor"/>
+		<relation fromEntityRef="Patent8271" toEntityRef="OrgUnit4489" type="Applicant"/>
+	</relations>
+</entity-relation-data>

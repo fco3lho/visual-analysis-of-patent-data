@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:36" record="23913" source="Espacenet">
+	<entities>
+		<entity ref="Patent23913" type="Patent">
+			<semanticIdentifier>brcris::07622b7e520c88f6b4438ca0071baaee</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903804A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0903804</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903804A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI03804</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0903804-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0903804"/>
+			<field name="identifier.lattes" value="9730622542566256"/>
+			<field name="identifier.espacenet" value="PI0903804"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sinalizador quìmico de vapores de solventes orgánicos e uso do mesmo"/>
+			<field name="title.lattes" value="Sinalizador Químico de Vapores de Solventes Orgânicos INPI - PI0903804-3"/>
+			<field name="depositDate" value="2009-06-08"/>
+			<field name="publicationDate" value="2011-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIS ARAUJO PARUSSULO"/>
+			<field name="inventor" value="HENRIQUE EISI TOMA"/>
+			<field name="inventor" value="JULIANO ALVES BONACIN"/>
+			<field name="inventor" value="KOITI ARAKI"/>
+			<field name="inventor" value="SERGIO HIROSHI TOMA"/>
+			<field name="inventor" value="SERGIO HIROSHI TOMA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/29AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="29AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/94AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="94AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SINALIZADOR QUìMICO DE VAPORES DE SOLVENTES ORGANICOS E USO DO MESMO A presente invenção se refere a um sinalizador da presença de solventes orgânicos no ar, de fácil preparação, utilizando materiais de baixo custo. Mais especificamente, a presente invenção se refere a um sinalizador para detecção de vapores de solventes orgânicos composto por um substrato para deposição de um filme de óxido, um filme de óxido metálico e um corante sinalizador, o qual se baseia em alterações reversíveis de cor de junções do tipo óxido metálico/corante em função da concentração de vapores de solventes orgânicos e/ou combustíveis em um ambiente. O sinalízador pode ser visual ou acoplado a um equipamento de leitura e de sinalização sonoro. Assim, a presente invenção viabiliza o monitoramento contínuo de vapores de solventes orgânicos (provenientes da manipulação, vazamentos, etc.), de modo a proporcionar locais de trabalho menos insalubres e mais seguros."/>
+			<field name="originatesFrom" value="43622529"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903804"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0903804"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903804"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI03804"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0903804-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16651" type="Person">
+			<semanticIdentifier>lattes::9730622542566256</semanticIdentifier>
+			<field name="identifier.lattes" value="9730622542566256"/>
+			<field name="name" value="Juliano Alves Bonacin"/>
+		</entity>
+		<entity ref="OrgUnit12927" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit12928" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23913" toEntityRef="Person16651" type="Inventor"/>
+		<relation fromEntityRef="Patent23913" toEntityRef="OrgUnit12927" type="Applicant"/>
+		<relation fromEntityRef="Patent23913" toEntityRef="OrgUnit12928" type="Applicant"/>
+	</relations>
+</entity-relation-data>

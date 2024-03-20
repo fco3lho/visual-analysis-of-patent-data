@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:53" record="23120" source="Espacenet">
+	<entities>
+		<entity ref="Patent23120" type="Patent">
+			<semanticIdentifier>brcris::3ccb71d5e511c8f7f6f83a8a24765a03</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504198A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504198</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504198A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04198</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504198-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504198"/>
+			<field name="identifier.lattes" value="6151885189578510"/>
+			<field name="identifier.espacenet" value="PI0504198"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="eletrólito ácido não aquoso para pilha elétrica de baixa voltagem"/>
+			<field name="title.lattes" value="Eletrólito aquoso para pilha elétrica (Pedido de Patente PI0504198-8)"/>
+			<field name="depositDate" value="2005-08-09"/>
+			<field name="publicationDate" value="2007-10-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE MARIO PRISON"/>
+			<field name="inventor" value="JOSE ROBERTO MARTINELLI"/>
+			<field name="inventor" value="JOSE ROBERTO MARTINELLI"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M6/14AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ELETRóLITO áCIDO NãO AQUOSO PARA PILHA ELéTRICA DE BAIXA VOLTAGEM. Reivindica-se o processa de obtenção de um composto eletrolítico ácido com pH igual a 3, de consistência pastosa, transparente a luz e com leve coloração azulada, obtido por meia da reação química do ácido fosfórico (H~ 3~PO~ 4~) com o ácido bórico (H~ 3~BO~ 3~) na temperatura de 100 a 220&lt;198&gt;C sob agitação entre 100 a 300 rpm. Um protótipo de pilha com o eletrólito misturado com óxido metálico (OM), gera uma ddp de 1,5 V em uma lâmpada de 50 mW."/>
+			<field name="originatesFrom" value="38561142"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504198"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504198"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504198"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04198"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504198-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16018" type="Person">
+			<semanticIdentifier>lattes::6151885189578510</semanticIdentifier>
+			<field name="identifier.lattes" value="6151885189578510"/>
+			<field name="name" value="Jose Mario Prison"/>
+		</entity>
+		<entity ref="OrgUnit12401" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+		<entity ref="OrgUnit12402" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23120" toEntityRef="Person16018" type="Inventor"/>
+		<relation fromEntityRef="Patent23120" toEntityRef="OrgUnit12401" type="Applicant"/>
+		<relation fromEntityRef="Patent23120" toEntityRef="OrgUnit12402" type="Applicant"/>
+	</relations>
+</entity-relation-data>

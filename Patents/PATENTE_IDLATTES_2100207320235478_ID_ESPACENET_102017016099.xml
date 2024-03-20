@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:26" record="372" source="Espacenet">
+	<entities>
+		<entity ref="Patent372" type="Patent">
+			<semanticIdentifier>brcris::ad725d385e9b578ca71ccdc2bf13b56f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017016099A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017016099</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017016099A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171016099</semanticIdentifier>
+			<semanticIdentifier>original::102017016099</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017016099"/>
+			<field name="identifier.lattes" value="2100207320235478"/>
+			<field name="identifier.espacenet" value="102017016099"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de medição da espessura do revestimento de placas combustíveis nucleares"/>
+			<field name="title.lattes" value="MÉTODO DE MEDIÇÃO DA ESPESSURA DO REVESTIMENTO DE PLACAS COMBUSTÍVEIS NUCLEARES"/>
+			<field name="depositDate" value="2017-07-27"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADONIS MARCELO SALIBA SILVA"/>
+			<field name="inventor" value="ELITA FONTENELE URANO DE CARVALHO"/>
+			<field name="inventor" value="GILBERTO HAGE MARCONDES"/>
+			<field name="inventor" value="HUMBERTO GRACHER RIELLA"/>
+			<field name="inventor" value="MICHELANGELO DURAZZO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G21C17/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01B15/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;método de medição da espessura do revestimento de placas combustíveis nucleares&quot; método de medição das espessuras dos revestimentos e do núcleo de placas combustíveis usadas como combustível em reatores nucleares, tipicamente formadas pela laminação de um conjunto formado por uma moldura, um núcleo combustível, e duas placas de revestimento. o método de medição é baseado no processamento automático de imagens obtidas por microscopia eletrônica de varredura de seções transversais da placa combustível. o sinal usado para a geração das imagens é o de elétrons retroespalhados, o qual gera um alto contraste entre as partículas de combustível e o alumínio estrutural da placa combustível. o alto contraste obtido permite que as imagens sejam processadas automaticamente sem intervenção de um operador e, portanto, sem depender da acuidade visual do mesmo. o procedimento para a preparação metalográfica das amostras é significativamente simplificado, com ganhos em termos de tempo e custo da análise. após a obtenção da imagem, uma vez determinada a sua resolução com uma escala, as medições das espessuras dos revestimentos e do núcleo da placa combustível são realizadas automaticamente por meio de um programa de análise de imagem. a precisão típica da medição é ± 0,001 mm, sendo limitada apenas pela resolução da imagem gerada pelo microscópio eletrônico de varredura."/>
+			<field name="originatesFrom" value="67250417"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017016099"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017016099"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017016099"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171016099"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017016099"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person255" type="Person">
+			<semanticIdentifier>lattes::2100207320235478</semanticIdentifier>
+			<field name="identifier.lattes" value="2100207320235478"/>
+			<field name="name" value="Adonis Marcelo Saliba Silva"/>
+		</entity>
+		<entity ref="OrgUnit223" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent372" toEntityRef="Person255" type="Inventor"/>
+		<relation fromEntityRef="Patent372" toEntityRef="OrgUnit223" type="Applicant"/>
+	</relations>
+</entity-relation-data>

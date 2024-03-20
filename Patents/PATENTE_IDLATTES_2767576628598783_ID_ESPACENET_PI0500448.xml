@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:51" record="1622" source="Espacenet">
+	<entities>
+		<entity ref="Patent1622" type="Patent">
+			<semanticIdentifier>brcris::7f1c72bffbcf8b67ca06e9c971831ef2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500448A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500448</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500448A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00448</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500448-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500448"/>
+			<field name="identifier.lattes" value="2767576628598783"/>
+			<field name="identifier.espacenet" value="PI0500448"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para quantificação de desgaste em machos de corte"/>
+			<field name="title.lattes" value="Processo para Quantificação de Desgaste em, Machos de Corte - Depósito de pedido de patente"/>
+			<field name="depositDate" value="2005-02-11"/>
+			<field name="publicationDate" value="2006-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE MARTINS REIS"/>
+			<field name="inventor" value="ALISSON ROCHA MACHADO"/>
+			<field name="inventor" value="MARCIO BACCI DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05B19/4065AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="4065AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO PARA QUANTIFICAçãO DE DESGASTE EM MACHOS DE CORTE&quot;. Refere-se a presente invenção um processo sistemático utilizado para o monitoramento de desgaste em machos de corte empregados na operação de rosqueamento interno. Tal processo identifica algumas dimensões lineares que devem ser usadas como parâmetros de desgaste em machos de corte, definindo ao mesmo tempo uma forma de se medir diretamente tais dimensões. Esse processo foi desenvolvido para um macho de canal reto com quatro canais, mas pode facilmente ser adaptada para todas as geometrias de machos de corte existentes. O caráter inovador da metodologia está no fato de que não existe na literatura cientifica um parâmetro que seja comumente aceito e utilizado para se medir de maneira direta os desgastes que ocorrem nos machos de corte. é comum encontrar na literatura dados relativos às medições de desgaste de flanco, não existindo, contudo um parâmetro definido para isso, já que as definições de parâmetros tais como VB (desgaste de flanco médio) e VBmax (desgaste de flanco máximo) usados para ferramentas planas, não são diretas para machos de corte que possuem uma geometria complexa. Desta forma, os critérios para avaliação direta do desgaste dos machos podem ser totalmente diferentes para dois ou mais usuários distintos. Assim, ainda hoje o método mais utilizado de acompanhamento do desgaste nestas ferramentas de corte, é o método de medição indireta baseado na avaliação das dimensões das roscas produzidas, por meio de um calibre passa não passa."/>
+			<field name="originatesFrom" value="37001295"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500448"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500448"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500448"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00448"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500448-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1211" type="Person">
+			<semanticIdentifier>lattes::2767576628598783</semanticIdentifier>
+			<field name="identifier.lattes" value="2767576628598783"/>
+			<field name="name" value="Alexandre Martins Reis"/>
+		</entity>
+		<entity ref="OrgUnit926" type="OrgUnit">
+			<semanticIdentifier>brcris::fa95793bd10cf2105122ea0e931c861a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1622" toEntityRef="Person1211" type="Inventor"/>
+		<relation fromEntityRef="Patent1622" toEntityRef="OrgUnit926" type="Applicant"/>
+	</relations>
+</entity-relation-data>

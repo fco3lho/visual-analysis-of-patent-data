@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:08" record="12543" source="Espacenet">
+	<entities>
+		<entity ref="Patent12543" type="Patent">
+			<semanticIdentifier>brcris::96e7ddd3249df5bc032eb0236cf82c32</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103838A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1103838</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103838A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI03838</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1103838-1 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1103838"/>
+			<field name="identifier.lattes" value="2617773687973315"/>
+			<field name="identifier.espacenet" value="PI1103838"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA E MÉTODO DE SELEÇÃO E ARMAZENAMENTO DE DADOS DE VIBRAÇÃO."/>
+			<field name="title.lattes" value="Sistema e Método de Seleção e Armazenamento de Dados de Vibração"/>
+			<field name="depositDate" value="2011-08-09"/>
+			<field name="publicationDate" value="2013-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO ATEM DE CARVALHO"/>
+			<field name="inventor" value="ROGERIO ATEM DE CARVALHO"/>
+			<field name="inventor" value="ROGERIO ATEM DE CARVALHO"/>
+			<field name="inventor" value="WILLIAM DA SILVA VIANNA"/>
+			<field name="applicant" value="EDUARDO ATEM DE CARVALHO"/>
+			<field name="applicant" value="ROGERIO ATEM DE CARVALHO"/>
+			<field name="applicant" value="ROGERIO ATEM DE CARVALHO"/>
+			<field name="applicant" value="WILLIAM DA SILVA VIANNA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F17/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01H17/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA E MÉTODO DE SELEÇÃO E ARMAZENAMENTO DE DADOS DE VIBRAÇÃO. A presente invenção proporciona um método para seleção e armazenamento de dados de vibração. O sistema e método proporciona, dadas certas leituras de rotação e vibração obtidos de um ou mais sensores aprQpriados, instalados em um ou mais equipamentos rotativos: a seleção de dados de interesse para análise de vibração; a transformação dos mesmos através do uso de Fast Fourrier Transforms (FFT); a identificação dos picos de maior amplitude destas FFT em diferentes faixas de frequência; a aplicação de um algoritmo de descarte de picos semelhantes entre leituras - de forma a reduzir o volume de dados a serem armazenados e analisados; e, finalmente, armazenar os picos selecionados de forma simples e recuperável."/>
+			<field name="originatesFrom" value="47667794"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103838"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1103838"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103838"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI03838"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1103838-1 A2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2013020197"/>
+		</entity>
+		<entity ref="Person8600" type="Person">
+			<semanticIdentifier>lattes::2617773687973315</semanticIdentifier>
+			<field name="identifier.lattes" value="2617773687973315"/>
+			<field name="name" value="Eduardo Atem de Carvalho"/>
+		</entity>
+		<entity ref="Patent12544" type="Patent">
+			<semanticIdentifier>epodoc::WO2013020197</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="47667794"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2013020197"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12543" toEntityRef="Person8600" type="Inventor"/>
+		<relation fromEntityRef="Patent12543" toEntityRef="Person8600" type="Depositor"/>
+	</relations>
+</entity-relation-data>

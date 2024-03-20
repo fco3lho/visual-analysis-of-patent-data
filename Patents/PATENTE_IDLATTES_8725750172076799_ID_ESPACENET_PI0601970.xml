@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:54" record="30720" source="Espacenet">
+	<entities>
+		<entity ref="Patent30720" type="Patent">
+			<semanticIdentifier>brcris::a029d4ac2ebe7ce28e4134cc3dcf32e0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0601970A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0601970</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0601970A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI01970</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0601970-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0601970"/>
+			<field name="identifier.lattes" value="8725750172076799"/>
+			<field name="identifier.espacenet" value="PI0601970"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método operacional para remoção de incrustações e produtos de corrosão em equipamentos submarinos"/>
+			<field name="title.lattes" value="Método Operacional Para Remoção de Incrustações e Produtos de Corrosão em Equipamentos Submarinos"/>
+			<field name="depositDate" value="2006-06-02"/>
+			<field name="publicationDate" value="2008-01-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE AMERICO NEY FERREIRA"/>
+			<field name="inventor" value="LUIS GUSTAVO FRANCO COSENTINO"/>
+			<field name="inventor" value="MARIA CARMEN MOREIRA BEZERRA"/>
+			<field name="inventor" value="WALMAR BAPTISTA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23F15/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO OPERACIONAL PARA REMOçãO DE INCRUSTAçõES E PRODUTOS DE CORROSãO EM EQUIPAMENTOS SUBMARINOS. é descrito um método operacional para remoção de incrustações e produtos de corrosão em equipamentos submarinos, de modo a minimizar o tempo de operação, os custos envolvidos e os danos ao ecossistema marinho. O método pode ser utilizado em ambientes abertos como por exemplo, o fundo do mar, e em quaisquer profundidades. O referido método operacional compreende as seguintes etapas: - acoplar uma campânula ao conector utilizando um ROV; - aplicar pressão à campânula, de modo a promover a vedação do conjunto conector campânula em relação ao meio externo; - retirar a água do mar residual da campânula; - injetar uma solução ácida e/ou básica com um contrastante por intermédio do ROV; - deixar a solução ácida e/ou básica dissolver e remover as incrustações e os produtos de corrosão; - recuperar a solução ácida e/ou básica para um reservatório em um ROV; e - retirar a campânula e reinstalar a capa de corrosão, por intermédio do ROV."/>
+			<field name="originatesFrom" value="38947428"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0601970"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0601970"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0601970"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI01970"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0601970-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21091" type="Person">
+			<semanticIdentifier>lattes::8725750172076799</semanticIdentifier>
+			<field name="identifier.lattes" value="8725750172076799"/>
+			<field name="name" value="Maria Carmen Moreira Bezerra"/>
+		</entity>
+		<entity ref="OrgUnit16450" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30720" toEntityRef="Person21091" type="Inventor"/>
+		<relation fromEntityRef="Patent30720" toEntityRef="OrgUnit16450" type="Applicant"/>
+	</relations>
+</entity-relation-data>

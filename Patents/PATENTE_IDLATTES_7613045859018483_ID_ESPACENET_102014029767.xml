@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:29" record="7190" source="Espacenet">
+	<entities>
+		<entity ref="Patent7190" type="Patent">
+			<semanticIdentifier>brcris::acf7e54178a542d40c03c085d9d0f78a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029767A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029767</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029767A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029767</semanticIdentifier>
+			<semanticIdentifier>original::102014029767</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029767"/>
+			<field name="identifier.lattes" value="7613045859018483"/>
+			<field name="identifier.espacenet" value="102014029767"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo e método de nivelamento"/>
+			<field name="title.lattes" value="DISPOSITIVO E MÉTODO DE NIVELAMENTO"/>
+			<field name="depositDate" value="2014-11-28"/>
+			<field name="publicationDate" value="2016-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO SILVA PAULO"/>
+			<field name="inventor" value="MARCELO RICARDO QUEIROZ MEDEIROS"/>
+			<field name="inventor" value="MARCO ANTONIO HAIKAL LEITE"/>
+			<field name="inventor" value="NIGEL ROBIN SEMEGEN"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L3/01AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F16L27/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="F16L51/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="51"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo e método de nivelamento. a presente invenção refere-se a um dispositivo de nivelamento (1) para eliminar um desnível no acoplamento (12) entre um primeiro duto (10) e um segundo duto (11). 0 dispositivo (1) é dotado de uma junta de expansão superior (2), uma junta de expansão inferior (3), um cilindro pneumático (4), pelo menos um sensor de temperatura (5) e um sistema de controle. o sistema de controle é configurado para calcular uma dimensão do desnível com base na dilatação teórica esperada do segundo duto (11) a partir da temperatura medida pelo sensor (5) e para ajustar a pressão no cilindro pneumático (4) para que ele tensione uma junta de expansão superior (2) e uma junta de expansão inferior (3) de modo a deslocar o primeiro duto (10) na dimensão do desnível, eliminando-o. a presente invenção refere-se ainda a um método de nivelamento que utiliza o dispositivo de nivelamento (1) como descrito acima para eliminar o desnível entre um fuso de alimentação de sólidos e um gaseificador."/>
+			<field name="originatesFrom" value="57003176"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029767"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029767"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029767"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029767"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014029767"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4814" type="Person">
+			<semanticIdentifier>lattes::7613045859018483</semanticIdentifier>
+			<field name="identifier.lattes" value="7613045859018483"/>
+			<field name="name" value="Carlos Alberto Silva Paulo"/>
+		</entity>
+		<entity ref="OrgUnit3809" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7190" toEntityRef="Person4814" type="Inventor"/>
+		<relation fromEntityRef="Patent7190" toEntityRef="OrgUnit3809" type="Applicant"/>
+	</relations>
+</entity-relation-data>

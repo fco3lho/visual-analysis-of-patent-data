@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:34" record="31499" source="Espacenet">
+	<entities>
+		<entity ref="Patent31499" type="Patent">
+			<semanticIdentifier>brcris::cb2ebe6b6501870e3aaceabef8b38661</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0601864A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0601864</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0601864A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI01864</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0601864-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0601864"/>
+			<field name="identifier.lattes" value="8180859738646919"/>
+			<field name="identifier.espacenet" value="PI0601864"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método de classificação de vegetais por espectrometria de raios-x"/>
+			<field name="title.lattes" value="MÉTODO DE CLASSIFICAÇÃO DE VEGETAIS POR ESPECTROMETRIA DE RAIOS   X"/>
+			<field name="depositDate" value="2006-01-27"/>
+			<field name="publicationDate" value="2007-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIA IZABEL MARETTI SILVEIRA BUENO"/>
+			<field name="inventor" value="THAIS LEVATTI ALEXANDRE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/20091AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="20091AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE CLASSIFICAçãO DE VEGETAIS POR ESPECTROMETRIA DE RAIOS-X compreende um método que consiste na classificação de folhas, sementes, flores e frutos, utilizando equipamentos convencionais de EDXRF, considerando, além da emissão de raios-X, a região de espalhamento da fonte de raios-X. As regiões dos espectros relativos à fluorescência somadas ao espalhamento de raios-X são tratados com programas de cálculos quimiométricos, com o método de análise de componentes principais; o método de análise proposto tem a grande vantagem de não ser destrutivo, não consumir reagente; a análise é rápida, e não sofre influência das impressões pessoais de analistas distintos."/>
+			<field name="originatesFrom" value="38617761"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0601864"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0601864"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0601864"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI01864"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0601864-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21573" type="Person">
+			<semanticIdentifier>lattes::8180859738646919</semanticIdentifier>
+			<field name="identifier.lattes" value="8180859738646919"/>
+			<field name="name" value="Maria Izabel Maretti Silveira Bueno"/>
+		</entity>
+		<entity ref="OrgUnit16839" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31499" toEntityRef="Person21573" type="Inventor"/>
+		<relation fromEntityRef="Patent31499" toEntityRef="OrgUnit16839" type="Applicant"/>
+	</relations>
+</entity-relation-data>

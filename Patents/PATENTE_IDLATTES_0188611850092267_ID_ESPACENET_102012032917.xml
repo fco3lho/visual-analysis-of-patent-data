@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:07" record="15050" source="Espacenet">
+	<entities>
+		<entity ref="Patent15050" type="Patent">
+			<semanticIdentifier>brcris::33e420c8ee2409b00ee7577cb0f477c1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032917A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032917</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032917A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032917</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 032917-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032917"/>
+			<field name="identifier.lattes" value="0188611850092267"/>
+			<field name="identifier.espacenet" value="102012032917"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="ARQUITETURA DE HARDWARE PARA ADEQUADOR DE TAXA DE CÓDIGO PARA REDES LTE AVANÇADAS 4G"/>
+			<field name="title.lattes" value="ARQUITETURA DE HARDWARE PARA ADEQUADOR DE TAXA DE CÓDIGO PARA REDES LTE AVANÇADAS 4G."/>
+			<field name="depositDate" value="2012-12-21"/>
+			<field name="publicationDate" value="2014-09-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FELIPE AUGUSTO PEREIRA DE FIGUEIREDO"/>
+			<field name="inventor" value="JOSE ARNALDO BIANCO FILHO"/>
+			<field name="inventor" value="KARLO GUSSO LENZI"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03M13/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L1/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ARQUITETURA DE HARDWARE PARA ADEQUADOR DE TAXA DE CÓDIGO PARA REDES LTE AVANÇADAS 4G, que compreende um primeiro grupo (500) de buffers de memória (501) de armazenagem dos fluxos de entrada, compreendendo um buffer armazenador do fluxo de bits sistemáticos (dk(0)) e dois buffers armazenadores dos fluxos de bits de paridade (dk(1), dk(2)), seguido por um entrelaçador de sub-blocos (507), um coletor de bits entrelaçados (508) e um selecionador de bits (509); o coletor de bits entrelaçados (508) compreende três memórias (501), que armazenam os vetores dos fluxos (vk(0) , vk(1) e vk(2)) entrelaçados pelo entrelaçador de sub-blocos (507), os quais são recebidos em paralelo e são lidos sequencialmente pelo dito selecionador de bits (509), quando da geração do fluxo de saída (ek) do adequador de taxa."/>
+			<field name="originatesFrom" value="51453343"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032917"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032917"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032917"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032917"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 032917-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10449" type="Person">
+			<semanticIdentifier>lattes::0188611850092267</semanticIdentifier>
+			<field name="identifier.lattes" value="0188611850092267"/>
+			<field name="name" value="Felipe Augusto Pereira de Figueiredo"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15050" toEntityRef="Person10449" type="Inventor"/>
+	</relations>
+</entity-relation-data>

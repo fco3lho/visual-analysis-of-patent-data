@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:02" record="32554" source="Espacenet">
+	<entities>
+		<entity ref="Patent32554" type="Patent">
+			<semanticIdentifier>brcris::8628c025be093c8ede4ed10e7d680221</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020042A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016020042</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020042A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161020042</semanticIdentifier>
+			<semanticIdentifier>original::102016020042</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016020042"/>
+			<field name="identifier.lattes" value="7205312023990155"/>
+			<field name="identifier.espacenet" value="102016020042"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compósito resinoso fotopolimerizável de baixa contração e seu uso"/>
+			<field name="title.lattes" value="Compósito Resinoso Fotopolimerizavel de Baixa Contração e seu uso"/>
+			<field name="depositDate" value="2016-08-30"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DAYANE CARVALHO RAMOS SALLES DE OLIVEIRA"/>
+			<field name="inventor" value="GABRIEL ABUNA FLORE"/>
+			<field name="inventor" value="JAMILE FAVARAO"/>
+			<field name="inventor" value="MARCIO JOSE MENDONCA"/>
+			<field name="inventor" value="MARIO ALEXANDRE COELHO SINHORETI"/>
+			<field name="inventor" value="MATEUS GARCIA ROCHA"/>
+			<field name="inventor" value="MAURICIO MATTE ZANINI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08K3/013AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="013AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08L23/26AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C08L33/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C08K3/00AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AN"/>
+			</field>
+			<field name="abstract.espacenet" value="compósito resinoso fotopolimerizável de baixa contração e seu uso a presente invenção faz referência a um compósito resinoso fotopolimerizável de baixa contração de polimerização que apresenta propriedades físico-químicas adequadas para uso em meio oral. ainda, é previsto o uso do referido compósito para fins odontológicos."/>
+			<field name="originatesFrom" value="63451608"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020042"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016020042"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020042"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161020042"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016020042"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22363" type="Person">
+			<semanticIdentifier>lattes::7205312023990155</semanticIdentifier>
+			<field name="identifier.lattes" value="7205312023990155"/>
+			<field name="name" value="Mateus Garcia Rocha"/>
+		</entity>
+		<entity ref="OrgUnit17488" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="OrgUnit17489" type="OrgUnit">
+			<semanticIdentifier>brcris::d3cb61a8961c29747cd77f29a5d6d28b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32554" toEntityRef="Person22363" type="Inventor"/>
+		<relation fromEntityRef="Patent32554" toEntityRef="OrgUnit17488" type="Applicant"/>
+		<relation fromEntityRef="Patent32554" toEntityRef="OrgUnit17489" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:01" record="38133" source="Espacenet">
+	<entities>
+		<entity ref="Patent38133" type="Patent">
+			<semanticIdentifier>brcris::e543271cf5b745e95cd7138bd1874487</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012005795A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012005795</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012005795A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121005795</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 005795-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012005795"/>
+			<field name="identifier.lattes" value="9093331241572944"/>
+			<field name="identifier.espacenet" value="102012005795"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODOS SEGUROS DE IDENTIFICAÇÃO DE DISPOSITIVOS BASEADOS NO PROBLEMA DO ESCOAMENTO DE DADOS"/>
+			<field name="title.lattes" value="MÉTODOS SEGUROS DE IDENTIFICAÇÃO DE DISPOSITIVOS BASEADOS NO PROBLEMA DO ESCOAMENTO DE DADOS"/>
+			<field name="depositDate" value="2012-03-15"/>
+			<field name="publicationDate" value="2014-05-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HENRIQUE DE MEDEIROS KAWAKAMI"/>
+			<field name="inventor" value="RICARDO DAHAB"/>
+			<field name="inventor" value="ROBERTO ALVES GALLO FILHO"/>
+			<field name="applicant" value="KRYPTUS SEGURANCA DA INFORMACAO LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F21/44AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODOS SEGUROS DE IDENTIFICAÇÃO DE DISPOSITIVOS BASEADOS NO PROBLEMA DO ESCOAMENTO DE DADOS A presente invenção trata de um método de identificação seguro simétrico e de um método de identificação seguro assimétrico de dispositivos que possuam armazenamento em massa. As principais vantagens dos referidos métodos são a sua resiliência contra adversários com acesso temporário ao dispositivo e a não necessidade de emprego de mecanismos de proteção de segredos no dispositivo ou no equipamento que faz uso do dispositivo. A segurança dos referidos métodos está parcialmente ligada ao problema do escoamento de dados. Os referidos métodos são de especial interesse para organizações que necessitam identificar equipamentos para realizar controle de acesso e/ou autenticação eletrônica, como serviços de internet banking."/>
+			<field name="originatesFrom" value="50687025"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012005795"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012005795"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012005795"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121005795"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 005795-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26277" type="Person">
+			<semanticIdentifier>lattes::9093331241572944</semanticIdentifier>
+			<field name="identifier.lattes" value="9093331241572944"/>
+			<field name="name" value="Ricardo Dahab"/>
+		</entity>
+		<entity ref="OrgUnit20591" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38133" toEntityRef="Person26277" type="Inventor"/>
+		<relation fromEntityRef="Patent38133" toEntityRef="OrgUnit20591" type="Applicant"/>
+	</relations>
+</entity-relation-data>

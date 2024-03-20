@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:56" record="18788" source="Espacenet">
+	<entities>
+		<entity ref="Patent18788" type="Patent">
+			<semanticIdentifier>brcris::11114beef4d04e5b1adb10e3cc6fa9a5</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904750A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904750</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904750A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04750</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0904750-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904750"/>
+			<field name="identifier.lattes" value="9481669513921055"/>
+			<field name="identifier.espacenet" value="PI0904750"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparelho e reator para desposição de filmes diamantìferos tubulares ou cÈnicos"/>
+			<field name="title.lattes" value="APARELHO E REATOR PARA DEPOSIÇÃO DE FILMES DIAMANTÍFEROS TUBULARES OU CÔNICOS"/>
+			<field name="depositDate" value="2009-11-27"/>
+			<field name="publicationDate" value="2012-09-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALFREDO CARLOS PETERLEVITZ"/>
+			<field name="inventor" value="FRANCISCO TADEU DEGASPERI"/>
+			<field name="inventor" value="HELDER JOSE CERAGIOLI"/>
+			<field name="inventor" value="HUDSON GIOVANI ZANIN"/>
+			<field name="inventor" value="JACKSON TSUKADA"/>
+			<field name="inventor" value="PEDRO RAGGIO"/>
+			<field name="inventor" value="VITOR BARANAUSKAS"/>
+			<field name="applicant" value="CEETPS - CENTRO ESTADUAL DE EDUCACAO TECNOLOGICA &quot;PAULA SOUZA&quot;"/>
+			<field name="applicant" value="CEETPS - CENTRO ESTADUAL DE EDUCACAO TECNOLOGICA &quot;PAULA SOUZA&quot;"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23C16/27AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="27AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROPULSOR MOTORIZADO PARA EMBARCAçõES, BALSAS, REBOCADORES, NA VIOS E PLA TAFORMAS FLUTUANTES, concebido em conceito construtivo inovador que possibilita movimentar uma embarcação a motor com uma roda propulsora giratória (10) com patas transversais (5) com um movimento rotativo que atua sempre na vertical, com maior eficiência de propulsão que as hélices tradicionais hoje em uso, principalmente em locais de baixo calado e em aplicações que necessitam de agilidade de resposta ao comando de operação."/>
+			<field name="originatesFrom" value="44059137"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904750"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904750"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904750"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04750"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0904750-6"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2011060519"/>
+		</entity>
+		<entity ref="Person13036" type="Person">
+			<semanticIdentifier>lattes::9481669513921055</semanticIdentifier>
+			<field name="identifier.lattes" value="9481669513921055"/>
+			<field name="name" value="Helder Jose Ceragioli"/>
+		</entity>
+		<entity ref="OrgUnit10163" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent18789" type="Patent">
+			<semanticIdentifier>epodoc::WO2011060519</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="44059137"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2011060519"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18788" toEntityRef="Person13036" type="Inventor"/>
+		<relation fromEntityRef="Patent18788" toEntityRef="OrgUnit10163" type="Applicant"/>
+	</relations>
+</entity-relation-data>

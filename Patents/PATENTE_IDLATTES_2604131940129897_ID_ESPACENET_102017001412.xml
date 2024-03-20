@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:59" record="22110" source="Espacenet">
+	<entities>
+		<entity ref="Patent22110" type="Patent">
+			<semanticIdentifier>brcris::a0989d8a30923b9141b167ef9e8745ed</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001412A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017001412</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001412A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171001412</semanticIdentifier>
+			<semanticIdentifier>original::102017001412</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017001412"/>
+			<field name="identifier.lattes" value="2604131940129897"/>
+			<field name="identifier.espacenet" value="102017001412"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo padronizador radiográfico odontológico"/>
+			<field name="title.lattes" value="Posicionador Odontológico 16 (Posicionador Radiográfico Odontológico Individualizado)"/>
+			<field name="depositDate" value="2017-01-23"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE FELIPE ABRAO"/>
+			<field name="inventor" value="GISELLE GUIMARAES DO CARMO"/>
+			<field name="inventor" value="JORGE ABRAO"/>
+			<field name="inventor" value="KATIA RIE YABIKU UTSUNOMIYA"/>
+			<field name="inventor" value="RACHELLE ELISA ARANTES GOBO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T15/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F3/0481AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="0481AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F3/0484AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="0484AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo padronizador radiográfico odontológico. a presente invenção refere-se a um dispositivo padronizador radiográfico odontológico, que permite a padronização geométrica das imagens radiográficas em diferentes intervalos de tempo, minimizando erros de angulações horizontal e vertical. o dispositivo padronizador aqui revelado é individualizado e acoplável a posicionadores odontológicos radiográficos, possuindo uma base para fixação de um material estático de fidelização, que permite várias tomadas radiográficas durante longo período de tempo, conferindo por meio deste material estático a referida padronização geométrica das imagens."/>
+			<field name="originatesFrom" value="63451603"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001412"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017001412"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001412"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171001412"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017001412"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15288" type="Person">
+			<semanticIdentifier>lattes::2604131940129897</semanticIdentifier>
+			<field name="identifier.lattes" value="2604131940129897"/>
+			<field name="name" value="Jorge Abrão"/>
+		</entity>
+		<entity ref="OrgUnit11915" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22110" toEntityRef="Person15288" type="Inventor"/>
+		<relation fromEntityRef="Patent22110" toEntityRef="OrgUnit11915" type="Applicant"/>
+	</relations>
+</entity-relation-data>

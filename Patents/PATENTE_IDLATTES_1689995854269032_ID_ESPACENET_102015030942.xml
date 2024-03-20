@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:16:13" record="7001" source="Espacenet">
+	<entities>
+		<entity ref="Patent7001" type="Patent">
+			<semanticIdentifier>brcris::41c28eb5313b6e626343e13897e39aec</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030942A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015030942</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015030942A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151030942</semanticIdentifier>
+			<semanticIdentifier>original::102015030942</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015030942"/>
+			<field name="identifier.lattes" value="1689995854269032"/>
+			<field name="identifier.espacenet" value="102015030942"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo analógico rápido para detecção de falta"/>
+			<field name="title.lattes" value="DISPOSITIVO ANALÓGICO RÁPIDO PARA DETECÇÃO DE FALTA"/>
+			<field name="depositDate" value="2015-12-10"/>
+			<field name="publicationDate" value="2017-10-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO BALDAN"/>
+			<field name="inventor" value="ERNESTO RUPPERT FILHO"/>
+			<field name="inventor" value="FERNANDO CARDOSO FAJONI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02H1/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R19/165AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="165AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo analógico rápido para detecção de falta a presente invenção trata-se de um dispositivo analógico de rápida detecção de faltas monofásicas ou trifásicas. sua aplicação é atuar na abertura de uma chave eletrônica rápida que protege a fonte de corrente contínua do limitador de correntes elétricas supercondutor de núcleo saturado."/>
+			<field name="originatesFrom" value="62529680"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030942"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015030942"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015030942"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151030942"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015030942"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4702" type="Person">
+			<semanticIdentifier>lattes::1689995854269032</semanticIdentifier>
+			<field name="identifier.lattes" value="1689995854269032"/>
+			<field name="name" value="Carlos Alberto Baldan"/>
+		</entity>
+		<entity ref="OrgUnit3724" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7001" toEntityRef="Person4702" type="Inventor"/>
+		<relation fromEntityRef="Patent7001" toEntityRef="OrgUnit3724" type="Applicant"/>
+	</relations>
+</entity-relation-data>

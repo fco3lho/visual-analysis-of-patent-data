@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:34" record="19719" source="Espacenet">
+	<entities>
+		<entity ref="Patent19719" type="Patent">
+			<semanticIdentifier>brcris::b39859dbe4360988949df25bad58ff12</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019018212U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019018212U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019018212U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192018212U</semanticIdentifier>
+			<semanticIdentifier>original::202019018212</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019018212"/>
+			<field name="identifier.lattes" value="0640467099111468"/>
+			<field name="identifier.espacenet" value="202019018212"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="dispositivo eletrônico economizador de água para chuveiros aquecidos por energia solar"/>
+			<field name="title.lattes" value="DISPOSITIVO ELETRÔNICO ECONOMIZADOR DE ÁGUA PARA CHUVEIROS AQUECIDOS POR ENERGIA SOLAR"/>
+			<field name="depositDate" value="2019-09-02"/>
+			<field name="publicationDate" value="2021-03-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GABRIELLE MEDEIROS ALVES PETRI"/>
+			<field name="inventor" value="IRINEU PETRI JUNIOR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E03B7/04AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E03B11/02AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente modelo de utilidade demonstra um dispositivo que atua na economia de água em chuveiros aquecidos por energia solar, através de um monitoramento da temperatura da água. sabe-se que no início do banho, em um chuveiro aquecido por energia solar, desperdiça-se muita água, pois é necessário que jorre uma quantidade muito grande de água fria até que a água quente comece a sair no chuveiro. com a implementação desse dispositivo essa água fria do início do banho é aquecida pela resistência elétrica do chuveiro, não havendo desperdício de água. após um certo tempo, assim que a água quente proveniente do aquecedor solar chega ao chuveiro, o dispositivo desliga o sistema elétrico do mesmo, sem que haja interrupção do fornecimento de água quente. além disso, caso a água do aquecedor solar não esteja a uma temperatura agradável, como em dias nublados, por exemplo, o dispositivo atua acionando a resistência elétrica do chuveiro para auxiliar no aquecimento da água. portanto, este modelo de utilidade além de realizar uma economia de água pode também proporcionar uma melhor utilização do sistema de aquecimento por energia solar."/>
+			<field name="originatesFrom" value="75243329"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019018212"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019018212U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019018212"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192018212U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019018212"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13734" type="Person">
+			<semanticIdentifier>lattes::0640467099111468</semanticIdentifier>
+			<field name="identifier.lattes" value="0640467099111468"/>
+			<field name="name" value="Irineu Petri Júnior"/>
+		</entity>
+		<entity ref="OrgUnit10731" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19719" toEntityRef="Person13734" type="Inventor"/>
+		<relation fromEntityRef="Patent19719" toEntityRef="OrgUnit10731" type="Applicant"/>
+	</relations>
+</entity-relation-data>

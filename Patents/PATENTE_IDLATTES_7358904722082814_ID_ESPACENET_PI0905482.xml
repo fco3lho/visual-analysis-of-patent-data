@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:53" record="30701" source="Espacenet">
+	<entities>
+		<entity ref="Patent30701" type="Patent">
+			<semanticIdentifier>brcris::3fb0da46bb6ce7b6cd9baf8687899409</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905482A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0905482</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0905482A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI05482</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0905482-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0905482"/>
+			<field name="identifier.lattes" value="7358904722082814"/>
+			<field name="identifier.espacenet" value="PI0905482"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo e kit de identificação e diferenciação molecular de duas espécies crìpticas de roedores silvestres do gênero akodon (rodentia, cricetidae)"/>
+			<field name="title.lattes" value="PROCESSO E KIT DE IDENTIFICAÇÃO E DIFERENCIAÇÃO MOLECULAR DE DUAS ESPÉCIES CRÍPTICAS DE ROEDORES SILVESTRES DO GÊNERO AKODON (RODENTIA, CRICETIDAE)"/>
+			<field name="depositDate" value="2009-12-04"/>
+			<field name="publicationDate" value="2011-08-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO PEREIRA PAGLIA"/>
+			<field name="inventor" value="GABRIEL DE MENEZES YAZBECK"/>
+			<field name="inventor" value="MARIA BERNADETE LOVATO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/113AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="113AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO E KIT DE IDENTIFICAçãO E DIFERENCIAçãO MOLECULAR DE DUAS ESPéCIES CRIPTICAS DE ROEDORES SILVESTRES DO GêNERO AKODON (RODENTIA, CRICETIDAE) A seguinte invenção consiste na apresentação de um processo de identificação e diferenciação, por meio da comparação de bandas diagnósticas com marcadores moleculares, de duas espécies crípticas de roedores silvestres do gênero Akodon (Rodentia, Cricetidae). As espécies são reservatórios naturais de diferentes tipos de Hantavírus, os quais são agentes etiológicos da Síndrome CardioPulmonar por Hantavirus (SCPH). A invenção permite, ainda, a formulação de kits para diagnóstico de identificação e diferenciação espécie-específica."/>
+			<field name="originatesFrom" value="44503267"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905482"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0905482"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0905482"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI05482"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0905482-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=AR079255"/>
+		</entity>
+		<entity ref="Person21084" type="Person">
+			<semanticIdentifier>lattes::7358904722082814</semanticIdentifier>
+			<field name="identifier.lattes" value="7358904722082814"/>
+			<field name="name" value="Maria Bernadete Lovato"/>
+		</entity>
+		<entity ref="OrgUnit16444" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent30702" type="Patent">
+			<semanticIdentifier>epodoc::AR079255</semanticIdentifier>
+			<field name="countryCode" value="AR"/>
+			<field name="originatesFrom" value="44503267"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="AR"/>
+				<field name="number" value="AR079255"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30701" toEntityRef="Person21084" type="Inventor"/>
+		<relation fromEntityRef="Patent30701" toEntityRef="OrgUnit16444" type="Applicant"/>
+	</relations>
+</entity-relation-data>

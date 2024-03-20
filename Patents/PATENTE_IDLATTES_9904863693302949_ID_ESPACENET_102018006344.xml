@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:38" record="14771" source="Espacenet">
+	<entities>
+		<entity ref="Patent14771" type="Patent">
+			<semanticIdentifier>brcris::2ca5d90d660ffb1808e299e06c3b3dbe</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018006344A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018006344</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018006344A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181006344</semanticIdentifier>
+			<semanticIdentifier>original::102018006344</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018006344"/>
+			<field name="identifier.lattes" value="9904863693302949"/>
+			<field name="identifier.espacenet" value="102018006344"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aproximação para a transformada de karhunen-loève com baixo custo aritmético com aplicações em compressão de imagens"/>
+			<field name="title.lattes" value="Aproximação para a transformada de Karhunen-Loève com baixo custo aritmético com aplicações em compressão de imagens"/>
+			<field name="depositDate" value="2018-03-28"/>
+			<field name="publicationDate" value="2019-10-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANABETH PETRY RANDUZ"/>
+			<field name="inventor" value="DIEGO RAMOS CANTERLE"/>
+			<field name="inventor" value="FABIO MARIANO BAYER"/>
+			<field name="inventor" value="RENATO JOSE DE SOBRAL CINTRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04N19/42AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04N19/60AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a transformada de karhunen-loève (klt) é frequentemente utilizada na descorrelação de dados e na redução de dimensionalidade. por sua característica de compactação de energia em poucos componentes, encontram-se aplicações importantes da klt no contexto de compressão de imagens. contudo, seu uso em aplicações reais é impossibilitado devido ao alto custo computacional requerido para seu cálculo a cada sinal de entrada. neste contexto, a presente invenção propõe uma versão de baixo custo computacional para a klt por meio da aplicação da função sinal nos elementos da matriz induzida pela klt. denominamos a transformada proposta por klt sinalizada (sklt). é dada ênfase nas transformadas de comprimento 8 devido à utilização desse comprimento de transformadas na codificação de imagem, como no padrão jpeg. a sklt foi numericamente avaliada por meio de medidas de codificação e de distância totais para a klt exata."/>
+			<field name="originatesFrom" value="68171990"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018006344"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018006344"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018006344"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181006344"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018006344"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10222" type="Person">
+			<semanticIdentifier>lattes::9904863693302949</semanticIdentifier>
+			<field name="identifier.lattes" value="9904863693302949"/>
+			<field name="name" value="Fabio Mariano Bayer"/>
+		</entity>
+		<entity ref="OrgUnit7996" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit7997" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14771" toEntityRef="Person10222" type="Inventor"/>
+		<relation fromEntityRef="Patent14771" toEntityRef="OrgUnit7996" type="Applicant"/>
+		<relation fromEntityRef="Patent14771" toEntityRef="OrgUnit7997" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:42" record="10511" source="Espacenet">
+	<entities>
+		<entity ref="Patent10511" type="Patent">
+			<semanticIdentifier>brcris::0ab2428065ac70444919ccb32716723a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022125A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014022125</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014022125A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141022125</semanticIdentifier>
+			<semanticIdentifier>original::102014022125</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014022125"/>
+			<field name="identifier.lattes" value="5934458385325202"/>
+			<field name="identifier.espacenet" value="102014022125"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="arquitetura inteligente para monitoramento remoto de pacientes com esclerose lateral amiotrófica"/>
+			<field name="title.lattes" value="ARQUITETURA INTELIGENTE PARA MONITORAMENTO REMOTO DE PACIENTES COM ESCLEROSE LATERAL AMIOTRÓFICA"/>
+			<field name="depositDate" value="2014-07-28"/>
+			<field name="publicationDate" value="2016-04-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO HIGOR FREIRE DE MORAIS"/>
+			<field name="inventor" value="CUSTODIO LEOPOLDINO DE BRITO GUERRA NETO"/>
+			<field name="inventor" value="DANIELE MONTENEGRO DA SILVA BARROS"/>
+			<field name="inventor" value="DANILO ALVES PINTO NAGEM"/>
+			<field name="inventor" value="DIEGO RODRIGUES DE CARVALHO"/>
+			<field name="inventor" value="GLAUCIO BEZERRA BRANDAO"/>
+			<field name="inventor" value="JOSE MACEDO FIRMINO FILHO"/>
+			<field name="inventor" value="JOURDAN DA SILVA GALVAO"/>
+			<field name="inventor" value="LAWRENCE CEZAR MEDEIROS ARAUJO DE MOURA"/>
+			<field name="inventor" value="MARCEL DA CAMARA RIBEIRO DANTAS"/>
+			<field name="inventor" value="MARIO EMILIO TEIXEIRA DOURADO JUNIOR"/>
+			<field name="inventor" value="PABLO HOLANDA CARDOSO"/>
+			<field name="inventor" value="PHILIPPI SEDIR GRILO DE MORAIS"/>
+			<field name="inventor" value="RICARDO ALEXSANDRO DE MEDEIROS VALENTIM"/>
+			<field name="inventor" value="ROBINSON LUIS DE SOUSA ALVES"/>
+			<field name="inventor" value="RODRIGO DANTAS DA SILVA"/>
+			<field name="inventor" value="ROSIANE VIANA ZUZA DINIZ"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO RIO GRANDE DO NORTE - IFRN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="arquitetura inteligente para monitoramento remoto de pacientes com esclerose lateral amiotrófica .a presente patente de invenção descreve uma arquitetura inteligente de telemedicina que faz uso de visão computacional, sistemas embarcados (figura 2 - n°25), tecnologias móveis, system on a chip, dentre outras tecnologias capaz de realizar o monitoramento remoto de paciente com ela, que é capaz de gerar alertas de acordo com a variação dos parâmetros vitais do paciente, tanto para equipe de saúde quanto para o cuidador responsável pelo paciente, além de gerar procedimentos para que o cuidador possa realizar alguma ação de acordo com o alerta que é gerado. desta forma, a presente invenção é capaz de melhorar a qualidade de vida do paciente uma vez que ela reduz o tempo de resposta em relação a alguma anormalidade durante o processo de ventilação mecânica."/>
+			<field name="originatesFrom" value="55858622"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022125"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014022125"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014022125"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141022125"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014022125"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7273" type="Person">
+			<semanticIdentifier>lattes::5934458385325202</semanticIdentifier>
+			<field name="identifier.lattes" value="5934458385325202"/>
+			<field name="name" value="Danilo Alves Pinto Nagem"/>
+		</entity>
+		<entity ref="OrgUnit5799" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10511" toEntityRef="Person7273" type="Inventor"/>
+		<relation fromEntityRef="Patent10511" toEntityRef="OrgUnit5799" type="Applicant"/>
+	</relations>
+</entity-relation-data>

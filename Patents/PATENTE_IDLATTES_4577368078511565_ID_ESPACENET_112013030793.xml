@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:14" record="15707" source="Espacenet">
+	<entities>
+		<entity ref="Patent15707" type="Patent">
+			<semanticIdentifier>brcris::44af1ea001ef7e07e32d66e68bbf52f0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR112013030793A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR112013030793</semanticIdentifier>
+			<semanticIdentifier>docdb::BR112013030793A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131130793</semanticIdentifier>
+			<semanticIdentifier>original::112013030793</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=112013030793"/>
+			<field name="identifier.lattes" value="4577368078511565"/>
+			<field name="identifier.espacenet" value="112013030793"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de recuperação de liga lantanídeo-metal-metalóide em pó nanoparticulado com recuperação magnética e produto"/>
+			<field name="title.lattes" value="Processo de recuperação de liga lantanídeo-metal-metalóide em pó nanoparticulado com recuperação magnética e produto."/>
+			<field name="depositDate" value="2012-07-02"/>
+			<field name="publicationDate" value="2016-12-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELIO ALBERTO PERIGO"/>
+			<field name="inventor" value="FERNANDO JOSE GOMES LANDGRAF"/>
+			<field name="inventor" value="HIDETOSHI TAKIISHI"/>
+			<field name="inventor" value="RAMON VALLS MARTIN"/>
+			<field name="inventor" value="SUELANNY CARVALHO DA SILVA"/>
+			<field name="applicant" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B22F1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B22F3/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01F1/057AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="057AI"/>
+			</field>
+			<field name="originatesFrom" value="47436395"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="112013030793"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR112013030793"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="112013030793"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131130793"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="112013030793"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2013003926"/>
+		</entity>
+		<entity ref="Person10895" type="Person">
+			<semanticIdentifier>lattes::4577368078511565</semanticIdentifier>
+			<field name="identifier.lattes" value="4577368078511565"/>
+			<field name="name" value="Fernando Jose Gomes Landgraf"/>
+		</entity>
+		<entity ref="OrgUnit8527" type="OrgUnit">
+			<semanticIdentifier>brcris::a3e446cfd3d372e41cf8c4dca2fe4b31</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE PESQUISAS TECNOLOGICAS DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="Patent15708" type="Patent">
+			<semanticIdentifier>epodoc::WO2013003926</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="47436395"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2013003926"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15707" toEntityRef="Person10895" type="Inventor"/>
+		<relation fromEntityRef="Patent15707" toEntityRef="OrgUnit8527" type="Applicant"/>
+	</relations>
+</entity-relation-data>

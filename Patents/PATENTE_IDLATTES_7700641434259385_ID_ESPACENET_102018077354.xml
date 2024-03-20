@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:01" record="42614" source="Espacenet">
+	<entities>
+		<entity ref="Patent42614" type="Patent">
+			<semanticIdentifier>brcris::11b44ccce98c34bdbd61a0b9d60da4bf</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018077354A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018077354</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018077354A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181077354</semanticIdentifier>
+			<semanticIdentifier>original::102018077354</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018077354"/>
+			<field name="identifier.lattes" value="7700641434259385"/>
+			<field name="identifier.espacenet" value="102018077354"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo ótico para determinação da viabilidade celular através da redução do azul de metileno"/>
+			<field name="title.lattes" value="Dispositivo ótico para determinação da viabilidade celular através da redução do azul de metileno"/>
+			<field name="depositDate" value="2018-12-28"/>
+			<field name="publicationDate" value="2020-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RODRIGO BESERRA DE FREITAS"/>
+			<field name="inventor" value="SORELE BATISTA FIAUX"/>
+			<field name="inventor" value="VINICIUS NUNES HENRIQUE SILVA"/>
+			<field name="inventor" value="VINICIUS TREMMEL MAIA"/>
+			<field name="inventor" value="YANINA MADALENA DE ARRUDA CALVETTE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12M1/34AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61L2/28AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12Q1/22AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G01N27/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente patente se refere ao setor tecnológico de dispositivos utilizados para medida de concentração celular, a ser usado, principalmente, para a análise de viabilidade de suspensão celular através de medida ótica. a viabilidade celular é um dos parâmetros principais para a boa condução de um bioprocesso. já existem métodos e dispositivos para a análise de células viáveis e totais que utilizam diferentes abordagens, mas nenhum que associe custo baixo, rapidez de análise, acurácia, automatização de leitura, baixa necessidade de capacitação técnica. efetivamente, a presente invenção compreende um dispositivo de baixo custo, de simples operação e de tempo de análise baixo para a determinação da concentração de células viáveis e totais em suspensões usadas em bioprocessos, baseado na medida ótica da taxa de redução do azul de metileno e da densidade ótica, com cálculo de porcentagem de células viáveis."/>
+			<field name="originatesFrom" value="71451496"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018077354"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018077354"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018077354"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181077354"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018077354"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29078" type="Person">
+			<semanticIdentifier>lattes::7700641434259385</semanticIdentifier>
+			<field name="identifier.lattes" value="7700641434259385"/>
+			<field name="name" value="Sorele Batista Fiaux"/>
+		</entity>
+		<entity ref="OrgUnit22765" type="OrgUnit">
+			<semanticIdentifier>brcris::b4e0e2d9cdc0f26db4523380edc59922</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42614" toEntityRef="Person29078" type="Inventor"/>
+		<relation fromEntityRef="Patent42614" toEntityRef="OrgUnit22765" type="Applicant"/>
+	</relations>
+</entity-relation-data>

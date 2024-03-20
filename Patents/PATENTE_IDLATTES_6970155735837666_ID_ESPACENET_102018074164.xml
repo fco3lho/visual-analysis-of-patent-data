@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:27:59" record="43536" source="Espacenet">
+	<entities>
+		<entity ref="Patent43536" type="Patent">
+			<semanticIdentifier>brcris::30128485ec75fc4dacc0b0a14a9e0661</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018074164A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018074164</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018074164A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181074164</semanticIdentifier>
+			<semanticIdentifier>original::102018074164</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018074164"/>
+			<field name="identifier.lattes" value="6970155735837666"/>
+			<field name="identifier.espacenet" value="102018074164"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="estrutura robótica aplicada para reabilitação do membro superior"/>
+			<field name="title.lattes" value="ESTRUTURA ROBÓTICA APLICADA PARA REABILITAÇÃO DO MEMBRO SUPERIOR"/>
+			<field name="depositDate" value="2018-11-23"/>
+			<field name="publicationDate" value="2020-06-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MATHEUS CHAVES D'CARVALHO"/>
+			<field name="inventor" value="ROGERIO SALES GONCALVES"/>
+			<field name="inventor" value="THIAGO ALVES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61H1/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05B19/42AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção se refere a uma estrutura robótica atuada por cabos proposta a fim de auxiliar nas sessões de reabilitação de pacientes, sendo capaz de realizar os movimentos do membro superior, de forma combinada, atuando nas articulações do punho, cotovelo e ombro. formada por barras, motores responsáveis por exercer a tração dos cabos fixados no elemento de acoplamento bimanual, em formato de manche, guidão ou barra de direção de dirigíveis, onde o paciente a segura. para o sistema de controle da estrutura, têm-se uma placa de controle, um microcontrolador e um computador que também serve de interface gráfica para o profissional que utilizar o equipamento. para acomodação do paciente, faz-se uso de uma cadeira ou cadeira de rodas para pcrs. a estrutura também pode ser utilizada com o paciente em pé. o dispositivo altera a quantidade de assistência fornecida ao paciente em tempo real, quando e quanto necessário. jogos eletrônicos desenvolvidos especificamente para a estrutura ou adaptados podem ser utilizados em conjunto dos exercícios de reabilitação."/>
+			<field name="originatesFrom" value="70977055"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018074164"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018074164"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018074164"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181074164"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018074164"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29750" type="Person">
+			<semanticIdentifier>lattes::6970155735837666</semanticIdentifier>
+			<field name="identifier.lattes" value="6970155735837666"/>
+			<field name="name" value="Thiago Alves"/>
+		</entity>
+		<entity ref="OrgUnit23360" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43536" toEntityRef="Person29750" type="Inventor"/>
+		<relation fromEntityRef="Patent43536" toEntityRef="OrgUnit23360" type="Applicant"/>
+	</relations>
+</entity-relation-data>

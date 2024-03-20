@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:39" record="33789" source="Espacenet">
+	<entities>
+		<entity ref="Patent33789" type="Patent">
+			<semanticIdentifier>brcris::174233301b56f72bf3af3e6562b4e316</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9600816A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9600816</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9600816A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19969600816</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9600816"/>
+			<field name="identifier.lattes" value="6093823740374253"/>
+			<field name="identifier.espacenet" value="9600816"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de mistura e homogeneização de hidrocarbonetos"/>
+			<field name="title.lattes" value="Processo de Mistura e Homogeneização de Hidrocarbonetos"/>
+			<field name="depositDate" value="1996-02-26"/>
+			<field name="publicationDate" value="1997-12-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO DREHMER"/>
+			<field name="inventor" value="DA SILVA NAIRA MACHADO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08L95/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="95"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C10C3/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4063631"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9600816"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9600816"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9600816"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19969600816"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23277" type="Person">
+			<semanticIdentifier>lattes::6093823740374253</semanticIdentifier>
+			<field name="identifier.lattes" value="6093823740374253"/>
+			<field name="name" value="Naira Machado da Silva Ruiz"/>
+		</entity>
+		<entity ref="OrgUnit18213" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33789" toEntityRef="Person23277" type="Inventor"/>
+		<relation fromEntityRef="Patent33789" toEntityRef="OrgUnit18213" type="Applicant"/>
+	</relations>
+</entity-relation-data>

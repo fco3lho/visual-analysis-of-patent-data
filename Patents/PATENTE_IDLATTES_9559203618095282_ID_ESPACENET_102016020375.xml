@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:35" record="18106" source="Espacenet">
+	<entities>
+		<entity ref="Patent18106" type="Patent">
+			<semanticIdentifier>brcris::43305efb209d35f7b789f6add2480c12</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020375A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016020375</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020375A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161020375</semanticIdentifier>
+			<semanticIdentifier>original::102016020375</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016020375"/>
+			<field name="identifier.lattes" value="9559203618095282"/>
+			<field name="identifier.espacenet" value="102016020375"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de embalagem inteligente com indicador colorimétrico de dióxido de enxofre"/>
+			<field name="title.lattes" value="Processo de obtenção de embalagem inteligente com indicador colorimétrico de dióxido de enxofre"/>
+			<field name="depositDate" value="2016-09-02"/>
+			<field name="publicationDate" value="2018-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO ESTEVAM DO COUTO NETO"/>
+			<field name="inventor" value="GLEYCA DE JESUS COSTA FERNANDES"/>
+			<field name="inventor" value="MARALI VILELA DIAS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DE MINAS GERAIS-FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/78AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="78AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N31/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção demonstra um processo de obtenção de uma embalagem com indicador colorimétrico para detecção de sulfito residual (so2) e o produto resultante do processo se refere à uma embalagem inteligente indicadora de so2. a presente invenção tem por objetivo indicar por meio de alteração colorimétrica a presença/concentração de so2. agentes sulfitantes apresentam ampla utilização pela indústria alimentar por conta de suas propriedades antioxidantes e antimicrobianas, atuando como conservante de vários alimentos. a invenção apresenta o desenvolvimento de um filme de amido produzido pelo método de casting, contendo iodo em sua formulação. quando tal filme que possui coloração que varia do azul ao preto é submetido ao contato com so2, ocorre perda dessa coloração, mudando para incolor (transparente). considerando as preocupações toxicológicas associadas a compostos sulfitantes e devido ao seu impacto à saúde, o desenvolvimento de um indicador da presença e/ou concentração de sulfitos nos produtos se constitui em uma vantagem importante para a população que consome alimentos conservados pela adição desses compostos, pois pode proporcionar maior confiança em relação ao produto a ser comprado e maior segurança para o consumidor."/>
+			<field name="originatesFrom" value="62001679"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020375"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016020375"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020375"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161020375"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016020375"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12524" type="Person">
+			<semanticIdentifier>lattes::9559203618095282</semanticIdentifier>
+			<field name="identifier.lattes" value="9559203618095282"/>
+			<field name="name" value="Gleyca de Jesus Costa Fernandes"/>
+		</entity>
+		<entity ref="OrgUnit9755" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18106" toEntityRef="Person12524" type="Inventor"/>
+		<relation fromEntityRef="Patent18106" toEntityRef="OrgUnit9755" type="Applicant"/>
+	</relations>
+</entity-relation-data>

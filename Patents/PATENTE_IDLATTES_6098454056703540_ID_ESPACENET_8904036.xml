@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:36" record="37158" source="Espacenet">
+	<entities>
+		<entity ref="Patent37158" type="Patent">
+			<semanticIdentifier>brcris::14ee9cf7624b984cdb54a347942673cf</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8904036A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8904036</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8904036A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19898904036</semanticIdentifier>
+			<semanticIdentifier>original::89 8904036</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8904036"/>
+			<field name="identifier.lattes" value="6098454056703540"/>
+			<field name="identifier.espacenet" value="8904036"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="PROCESSO DE RECUPERACAO DE MERCURIO EM AMALGAMA DE OURO E EQUIPAMENTO PARA SUA REALIZACAO"/>
+			<field name="title.lattes" value="PROCESSO DE RECUPERAÇÃO DE MERCÚRIO EM AMÁLGAMA DE OURO"/>
+			<field name="depositDate" value="1989-08-10"/>
+			<field name="publicationDate" value="1990-11-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RAPHAEL HYPOLITO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22B43/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4047676"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8904036"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8904036"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8904036"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19898904036"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="89 8904036"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25633" type="Person">
+			<semanticIdentifier>lattes::6098454056703540</semanticIdentifier>
+			<field name="identifier.lattes" value="6098454056703540"/>
+			<field name="name" value="Raphael Hypolito"/>
+		</entity>
+		<entity ref="OrgUnit20101" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37158" toEntityRef="Person25633" type="Inventor"/>
+		<relation fromEntityRef="Patent37158" toEntityRef="OrgUnit20101" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:39" record="9444" source="Espacenet">
+	<entities>
+		<entity ref="Patent9444" type="Patent">
+			<semanticIdentifier>brcris::ec14afe2f220d2d3760eb6d69e4cdc1f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0804211A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0804211</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0804211A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI04211</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0804211-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0804211"/>
+			<field name="identifier.lattes" value="2949947368926099"/>
+			<field name="identifier.espacenet" value="PI0804211"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de tratabilidade de efluentes gerados pela indústria moveleira"/>
+			<field name="title.lattes" value="TRATAMENTO DE EFLUENTES GERADOS PELA INDÚSTRIA MOVELEIRA"/>
+			<field name="depositDate" value="2008-09-01"/>
+			<field name="publicationDate" value="2010-07-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CORNELIO FREITAS DE CARVALHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F11/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE TRATABILIDADE DE EFLUENTES GERADOS PELA INDúSTRIA MOVELEIRA. A presente invenção utiliza-se de tratamento biológico anaeróbio seguido de tratamento aeróbio, com o emprego, em ambas as situações, de lodos aclimatados para poderem degradar a matéria orgãnica oriunda do efluente das cabines de pintura das indústrias moveleiras. Essa aclimatação do lodo é essencial devido ao fato de ser a constituição do efluente bastante heterogénea, estando presente em sua composição inúmeros compostos orgânicos, além de metais pesados. Assim, decorrido o prazo de aclimatação foi introduzido o efluente industrial adicionado ao esgoto doméstico, com a gradativa diminuição do volume do esgoto doméstico e aumento do industrial, até a completa eliminação do esgoto e introdução somente do efluente industrial. Decorrido todo o processo, foi obtido um efluente com as concentrações de DQO menor que o estabelecido pela COPAM 1086 para descarte em coleções de águas de classe de 1 a 4."/>
+			<field name="originatesFrom" value="42308440"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0804211"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0804211"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0804211"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI04211"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0804211-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6451" type="Person">
+			<semanticIdentifier>lattes::2949947368926099</semanticIdentifier>
+			<field name="identifier.lattes" value="2949947368926099"/>
+			<field name="name" value="Cornélio de Freitas Carvalho"/>
+		</entity>
+		<entity ref="OrgUnit5091" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9444" toEntityRef="Person6451" type="Inventor"/>
+		<relation fromEntityRef="Patent9444" toEntityRef="OrgUnit5091" type="Applicant"/>
+	</relations>
+</entity-relation-data>

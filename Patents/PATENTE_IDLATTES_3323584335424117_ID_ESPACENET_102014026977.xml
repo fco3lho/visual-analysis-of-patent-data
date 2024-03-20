@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:27" record="871" source="Espacenet">
+	<entities>
+		<entity ref="Patent871" type="Patent">
+			<semanticIdentifier>brcris::3d6c45d61b345375dce65b02dd7adec9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014026977A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014026977</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014026977A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141026977</semanticIdentifier>
+			<semanticIdentifier>original::102014026977</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014026977"/>
+			<field name="identifier.lattes" value="3323584335424117"/>
+			<field name="identifier.espacenet" value="102014026977"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="modificação química do poli(álcool vinílico) para a síntese de aditivos anticongelantes para biodiesel, biocombustíveis, combustíveis e misturas"/>
+			<field name="title.lattes" value="Modificação Química do Poli(álcool vinílico) para a Síntese de Aditivos Anticongelantes para Biodiesel, Biocombustíveis, Combustíveis e Misturas"/>
+			<field name="depositDate" value="2014-10-29"/>
+			<field name="publicationDate" value="2017-03-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AGNE ROANI DE CARVALHO"/>
+			<field name="inventor" value="ALINE SILVA MUNIZ"/>
+			<field name="inventor" value="ANGELO ROBERTO DOS SANTOS OLIVEIRA"/>
+			<field name="inventor" value="FERNANDO AUGUSTO FERRAZ"/>
+			<field name="inventor" value="MARIA APARECIDA FERREIRA CESAR-OLIVEIRA"/>
+			<field name="inventor" value="VITOR VLNIESKA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C67/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="67"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C69/01AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="69"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C10L1/195AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="195AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C10L10/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="modificação química do poll(álcool vinílico) para a síntese de aditivos anticongelantes para biodiesel, biocombustíveis, combustíveis e misturas a presente invenção, relata o processo de modificação química do poli(álcool vinílico) para obtenção de ésteres poliméricos de variados tamanhos de cadeia, através da esterificação dos grupos hidroxila do poli(álcool vinílico) com um ácido orgânico, para serem utilizados como aditivos anticongelantes de combustíveis e biocombustíveis das mais variadas composições, se mostrando muito eficientes frente aos prejuízos e limitações impostos pelos problemas de fluxo a frio."/>
+			<field name="originatesFrom" value="58156660"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014026977"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014026977"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014026977"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141026977"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014026977"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person631" type="Person">
+			<semanticIdentifier>lattes::3323584335424117</semanticIdentifier>
+			<field name="identifier.lattes" value="3323584335424117"/>
+			<field name="name" value="Agne Roani de Carvalho Jorge"/>
+		</entity>
+		<entity ref="OrgUnit507" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent871" toEntityRef="Person631" type="Inventor"/>
+		<relation fromEntityRef="Patent871" toEntityRef="OrgUnit507" type="Applicant"/>
+	</relations>
+</entity-relation-data>

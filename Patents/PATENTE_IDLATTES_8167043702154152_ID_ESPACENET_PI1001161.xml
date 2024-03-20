@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:30" record="5382" source="Espacenet">
+	<entities>
+		<entity ref="Patent5382" type="Patent">
+			<semanticIdentifier>brcris::dad3ad07c28702f0a705c7d105ab2f92</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001161A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001161</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001161A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01161</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001161-7 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001161"/>
+			<field name="identifier.lattes" value="8167043702154152"/>
+			<field name="identifier.espacenet" value="PI1001161"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PLACA COM ESFERAS VIRTUAIS E SUA APLICAÇÃO EM TESTES DE DESEMPENHO DE MÁQUINAS DE MEDIR POR COORDENADAS"/>
+			<field name="title.lattes" value="PLACA COM ESFERAS VIRTUAIS E SUA APLICACAO EM TESTES DE DESEMPENHO DE MAQUINAS DE MEDIR POR COORDENADAS (INPI Processo n.o PI1001161-7)"/>
+			<field name="depositDate" value="2010-04-22"/>
+			<field name="publicationDate" value="2014-01-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO PIRATELLI FILHO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="applicant" value="INSTITUICAO FEDERAL DE ENSINO SUPERIOR- IFES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B21/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PLACA COM ESFERAS VIRTUAIS E SUA APLICAÇÃO EM TESTES DE DESEMPENHO DE MÁQUINAS DE MEDIR POR COORDENADAS. A presente invenção se refere a um instrumento utilizado como padrão para calibração ou para testes de verificação de desempenho de Máquinas de Medir por Coordenadas (MMC), principalmente para os modelos de braço articulado, em substituição ao modelo de placa com esferas. O método de uso do padrão está detalhado na norma alemã VDINDE 2612, embora elaborada para a aplicação da placa de esferas. O instrumento portátil de medição da presente invenção trata-se de uma placa metálica com 25 grupos contendo quatro furos cônicos distribuídos em sua superfície, cada agrupamento é formado por uma pirâmide de três lados contendo quatro furos cônicos em suas faces laterais e no topo, permitindo a obtenção das coordenadas (x,y,z) de cada furo pelo apalpador da MMC posicionado nos furos, um de cada vez, O ajuste de uma esfera virtual é feito para cada grupo de quatro furos cônicos com auxilio de um algorítmo da pró pria MMC ou desenvolvido em software de cálculos matemáticos usados na determinação do diâmetro e as coordenadas do centro da esfera virtual."/>
+			<field name="originatesFrom" value="49921007"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001161"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001161"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001161"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01161"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001161-7 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3529" type="Person">
+			<semanticIdentifier>lattes::8167043702154152</semanticIdentifier>
+			<field name="identifier.lattes" value="8167043702154152"/>
+			<field name="name" value="Antonio Piratelli Filho"/>
+		</entity>
+		<entity ref="OrgUnit2788" type="OrgUnit">
+			<semanticIdentifier>brcris::7259df9d676146d4a071204c9276c546</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5382" toEntityRef="Person3529" type="Inventor"/>
+		<relation fromEntityRef="Patent5382" toEntityRef="OrgUnit2788" type="Applicant"/>
+	</relations>
+</entity-relation-data>

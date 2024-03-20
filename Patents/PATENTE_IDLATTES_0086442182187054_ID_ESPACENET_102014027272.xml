@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:32" record="14110" source="Espacenet">
+	<entities>
+		<entity ref="Patent14110" type="Patent">
+			<semanticIdentifier>brcris::99b3b151062ab8d9d947edb50695c4da</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027272A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014027272</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014027272A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141027272</semanticIdentifier>
+			<semanticIdentifier>original::102014027272</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014027272"/>
+			<field name="identifier.lattes" value="0086442182187054"/>
+			<field name="identifier.espacenet" value="102014027272"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="compostos inibidores seletivos da calicreína tecidual humana 1 (klk1), composição, processo e usos"/>
+			<field name="title.lattes" value="COMPOSTOS INIBIDORES SELETIVOS DA CALICREÍNA TECIDUAL HUMANA 1 (KLK1), COMPOSIÇÃO, PROCESSO E USOS"/>
+			<field name="depositDate" value="2014-10-31"/>
+			<field name="publicationDate" value="2017-03-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ESTELA MARIS FREITAS MURI"/>
+			<field name="inventor" value="JORGE ALEXANDRE NOGUEIRA SANTOS"/>
+			<field name="inventor" value="LUCIANO PUZER"/>
+			<field name="inventor" value="SERGIO PINHEIRO"/>
+			<field name="inventor" value="THALITA GONCALVES BARROS"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS (IFSULDEMINAS)"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ABC"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/34AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07D493/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="493"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="compostos inibidores seletivos da calicreína tecidual humana 1 (klk1), composição, processo e usos a presente invenção descreve compostos inibidores seletivos da calicreína tecidual humana 1 (klk1), composições compreendendo tais compostos, processo de obtenção dos referidos compostos e seus usos. a presente invenção se situa nos campos da química, farmácia e medicina."/>
+			<field name="originatesFrom" value="58343309"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027272"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014027272"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014027272"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141027272"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014027272"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9712" type="Person">
+			<semanticIdentifier>lattes::0086442182187054</semanticIdentifier>
+			<field name="identifier.lattes" value="0086442182187054"/>
+			<field name="name" value="Estela Maris Freitas Muri"/>
+		</entity>
+		<entity ref="OrgUnit7649" type="OrgUnit">
+			<semanticIdentifier>brcris::35194764d99a1e00ba76cc075b709fb0</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO ABC"/>
+		</entity>
+		<entity ref="OrgUnit7650" type="OrgUnit">
+			<semanticIdentifier>brcris::b4e0e2d9cdc0f26db4523380edc59922</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14110" toEntityRef="Person9712" type="Inventor"/>
+		<relation fromEntityRef="Patent14110" toEntityRef="OrgUnit7649" type="Applicant"/>
+		<relation fromEntityRef="Patent14110" toEntityRef="OrgUnit7650" type="Applicant"/>
+	</relations>
+</entity-relation-data>

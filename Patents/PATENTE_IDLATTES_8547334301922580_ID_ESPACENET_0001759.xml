@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:09" record="21569" source="Espacenet">
+	<entities>
+		<entity ref="Patent21569" type="Patent">
+			<semanticIdentifier>brcris::ef8ba62e49cff21549ea60c8d4e0f1a0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0001759A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0001759</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0001759A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000001759</semanticIdentifier>
+			<semanticIdentifier>original::0001759-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0001759"/>
+			<field name="identifier.lattes" value="8547334301922580"/>
+			<field name="identifier.espacenet" value="0001759"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Controlador lógico paraconsistente"/>
+			<field name="title.lattes" value="Controlador Lógico Paraconsistente"/>
+			<field name="depositDate" value="2000-05-04"/>
+			<field name="publicationDate" value="2001-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JAIR MINORO ABE"/>
+			<field name="inventor" value="JOAO INACIO DA SILVA FILHO"/>
+			<field name="inventor" value="NEWTON C. A. DA COSTA"/>
+			<field name="applicant" value="JAIR MINORO ABE"/>
+			<field name="applicant" value="JOAO INACIO DA SILVA FILHO"/>
+			<field name="applicant" value="NEWTON C. A. DA COSTA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06N20/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CONTROLADOR LóGICO PARACONSISTENTE O Controlador Lógico Paraconsistente denominado de objeto desta patente consiste em um circuito eletrónico para ser utilizado em Sistemas Especialistas de Inteligência Artificial, em Sistemas de Controle de Robótica e em Sistemas de Automação Industrial, fazendo um tratamento de sinais contraditórios de um modo não trivial baseado na Lógica Paraconsistente Anotada com anotação de dois valores LPA2v. Ele é composto basicamente pelo Circuito Para-Analisador (1) que é constituído por duas parte principais: 1°) o Circuito Detector Analógico dos estados extremos (2) que recebe dois sinais correspondentes aos graus de crença e de descrença (3), faz cálculos analógicamente apresentando valores de graus de certeza G~ c~ e de graus de contradição G~ ct~ na saída (4), conforme equações da LPA2v. Este circuito também detecta situações extremas (5) do reticulado associado à LPA2v como: T = Inconsistente, V=Verdadeiro, F=Falso e &lt;sym&gt;=Indeterminado. 2°) Circuito Lógico Detector dos Estados Não-Extremos (6) que detecta situações não-extremas (7) do reticulado associado á LPA2v como: Quase-inconsistente tendendo à Verdadeira, Quase-inconsistente tendendo à Falsa, Verdadeira tendendo à Inconsistente, Verdadeira tendendo à Indeterminada, Falsa tendendo à Inconsistente, Falsa tendendo à Indeterminada, Indeterminada tendendo à Verdadeira e Indeterminada tendendo à Falsa. O mesmo ainda tem na sua composição o circuito que faz a maximização (conectivo OR) (8), a minimização (Conectivo AND) e a Negação Lógica da LPA2v (9). Além de tratar conflitos de modo não-trivial, engloba todas as situações da Lógica Clássica e também da teoria dos conjuntos Fuzzy."/>
+			<field name="originatesFrom" value="3944139"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0001759"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0001759"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0001759"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000001759"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0001759-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14911" type="Person">
+			<semanticIdentifier>lattes::8547334301922580</semanticIdentifier>
+			<field name="identifier.lattes" value="8547334301922580"/>
+			<field name="name" value="João Inácio da Silva Filho"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21569" toEntityRef="Person14911" type="Inventor"/>
+		<relation fromEntityRef="Patent21569" toEntityRef="Person14911" type="Depositor"/>
+	</relations>
+</entity-relation-data>

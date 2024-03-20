@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:28" record="10854" source="Espacenet">
+	<entities>
+		<entity ref="Patent10854" type="Patent">
+			<semanticIdentifier>brcris::e053cdccf3efbc7e88db89660b662816</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001292A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017001292</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001292A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171001292</semanticIdentifier>
+			<semanticIdentifier>original::102017001292</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017001292"/>
+			<field name="identifier.lattes" value="5761546014615452"/>
+			<field name="identifier.espacenet" value="102017001292"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e aparato para gerar mensagens de e-mail utilizando análise de sentimento e informações de outras fontes"/>
+			<field name="title.lattes" value="Método e aparato para gerar mensagens"/>
+			<field name="depositDate" value="2017-01-20"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DEMOSTENES ZEGARRA RODRIGUEZ"/>
+			<field name="inventor" value="RENATA LOPES ROSA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/72AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="72AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06N20/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e aparato para gerar mensagens de e-mail utilizando análise de sentimento e informações de outras fontes. a invenção é caracterizada, principalmente, por apresentar um método e aparato de composição automática de mensagens para resposta de e-mails. a composição do conteúdo da mensagem e o estilo do e-mail são realizados utilizando diferentes fatores. o conteúdo da mensagem resposta se baseia em informações extraídas de outras contas de e-mail do usuário e de mensagens escritas nas diversas redes sociais do usuário; essas informações são analisadas de acordo ao texto da mensagem analisada utilizando diversas técnicas, como dicionário de palavras, inteligência artificial, entre outras. o estilo do e-mail se baseia em parâmetros como: a categoria de relacionamento existente entre o remetente e o destinatário, tema da mensagem, o perfil do usuário e a análise de sentimentos e afetividade da mensagem que por sua vez também usa dados do perfil do usuário. a invenção também considera anexar documentos com monitoramento de arquivos no dispositivo do usuário. os dados de cabeçalho do e-mail, como data e hora e a informação de localização geográfica também são usados para compor a mensagem. por fim, a mensagem resposta é escrita, baseada nos fatores já citados; o tipo de envio é efetuado conforme a configuração realizada pelo usuário, que pode ser automática ou manual."/>
+			<field name="originatesFrom" value="63451561"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001292"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017001292"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001292"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171001292"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017001292"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7570" type="Person">
+			<semanticIdentifier>lattes::5761546014615452</semanticIdentifier>
+			<field name="identifier.lattes" value="5761546014615452"/>
+			<field name="name" value="Demostenes Zegarra Rodriguez"/>
+		</entity>
+		<entity ref="OrgUnit6021" type="OrgUnit">
+			<semanticIdentifier>brcris::9013310b883b017d5916525f96723791</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE LAVRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10854" toEntityRef="Person7570" type="Inventor"/>
+		<relation fromEntityRef="Patent10854" toEntityRef="OrgUnit6021" type="Applicant"/>
+	</relations>
+</entity-relation-data>

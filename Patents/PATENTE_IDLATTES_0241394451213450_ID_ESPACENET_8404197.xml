@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:46" record="33283" source="Espacenet">
+	<entities>
+		<entity ref="Patent33283" type="Patent">
+			<semanticIdentifier>brcris::0c2eec6a5584c91895e4e07245a3c6a1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8404197A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR8404197</semanticIdentifier>
+			<semanticIdentifier>docdb::BR8404197A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19848404197</semanticIdentifier>
+			<semanticIdentifier>original::8404197</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=8404197"/>
+			<field name="identifier.lattes" value="0241394451213450"/>
+			<field name="identifier.espacenet" value="8404197"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="ANALISADOR MULTINACIONAL"/>
+			<field name="title.lattes" value="ANALISADOR MULTICANAL"/>
+			<field name="depositDate" value="1984-08-23"/>
+			<field name="publicationDate" value="1985-01-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAURICIO ALVES DA C. E AGHINA"/>
+			<field name="inventor" value="MILTON SOARES"/>
+			<field name="inventor" value="PAULO VIGTOR R. DE CARVALHO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F15/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="originatesFrom" value="4036270"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8404197"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR8404197"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="8404197"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19848404197"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="8404197"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22947" type="Person">
+			<semanticIdentifier>lattes::0241394451213450</semanticIdentifier>
+			<field name="identifier.lattes" value="0241394451213450"/>
+			<field name="name" value="Milton Soares"/>
+		</entity>
+		<entity ref="OrgUnit17916" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33283" toEntityRef="Person22947" type="Inventor"/>
+		<relation fromEntityRef="Patent33283" toEntityRef="OrgUnit17916" type="Applicant"/>
+	</relations>
+</entity-relation-data>

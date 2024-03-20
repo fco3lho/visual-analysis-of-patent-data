@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:31:00" record="44220" source="Espacenet">
+	<entities>
+		<entity ref="Patent44220" type="Patent">
+			<semanticIdentifier>brcris::5bc2b115b32e5b94a6cb67f1dc616649</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014019561A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014019561</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014019561A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141019561</semanticIdentifier>
+			<semanticIdentifier>original::102014019561</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014019561"/>
+			<field name="identifier.lattes" value="6838375689601075"/>
+			<field name="identifier.espacenet" value="102014019561"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="detecção de trincas em máquinas rotativas utilizando o método da impedância eletromecânica"/>
+			<field name="title.lattes" value="DETECÇÃO DE TRINCAS EM MÁQUINAS ROTATIVAS UTILIZANDO O MÉTODO DA IMPEDÂNCIA ELETROMECÂNICA"/>
+			<field name="depositDate" value="2014-08-06"/>
+			<field name="publicationDate" value="2016-03-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALDEMIR APARECIDO CAVALINI JUNIOR"/>
+			<field name="inventor" value="ROBERTO MENDES FINZI NETO"/>
+			<field name="inventor" value="VALDER STEFFEN JUNIOR"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N27/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="detecção de trincas em máquinas rotativas utilizando o método da impedância eletromecânica. a presente invenção trata de uma técnica de detecção de trincas presentes em máquinas rotativas baseado no método da impedância eletromecânica. esta técnica utiliza transdutores de impedância, transdutores piezelétricos, acoplados no rotor para monitorar mudanças nas propriedades de massa, rigidez e/ou amortecimento. neste método, mede-se a impedância elétrica de cada transdutor em diferentes instantes de tempo (diariamente, semanalmente ou mensalmente). como as propriedades do transdutor se mantêm ao longo do tempo, mudanças nos sinais de impedância elétrica medidos estarão relacionadas com alterações na impedância mecânica que, por sua vez, é afetada pela presença de trincas."/>
+			<field name="originatesFrom" value="55586691"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014019561"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014019561"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014019561"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141019561"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014019561"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30233" type="Person">
+			<semanticIdentifier>lattes::6838375689601075</semanticIdentifier>
+			<field name="identifier.lattes" value="6838375689601075"/>
+			<field name="name" value="Valder Steffen Junior"/>
+		</entity>
+		<entity ref="OrgUnit23713" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44220" toEntityRef="Person30233" type="Inventor"/>
+		<relation fromEntityRef="Patent44220" toEntityRef="OrgUnit23713" type="Applicant"/>
+	</relations>
+</entity-relation-data>

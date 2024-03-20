@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:04:35" record="32774" source="Espacenet">
+	<entities>
+		<entity ref="Patent32774" type="Patent">
+			<semanticIdentifier>brcris::3b74f56db874086581146c1946a24e98</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501871A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501871</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501871A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01871</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501871-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501871"/>
+			<field name="identifier.lattes" value="2593304138254632"/>
+			<field name="identifier.espacenet" value="PI0501871"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="acufenÈmetro"/>
+			<field name="title.lattes" value="Acufenômetro"/>
+			<field name="depositDate" value="2005-05-13"/>
+			<field name="publicationDate" value="2007-01-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MAURICY ALVES DA MOTTA"/>
+			<field name="inventor" value="PEDRO DE LEMOS MENEZES"/>
+			<field name="inventor" value="ROGERIO MACIEL"/>
+			<field name="inventor" value="VALDETE ALVES VALENTINS FILHA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/12AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ACUFENÈMETRO&quot;. O acufenómetro é um gerador sinal que seleciona freqüências e intensidades, que comporão o estímulo utilizado para descobrir os tons que formam o zumbido nos pacientes. O acufenómetro testa cada orelha por vez podendo mascarar a outra com ruído branco, podendo utilizar um audiómetro para gerar o sinal ou o mascaramento. São aplicados tons puros, um de cada vez em cada orelha, com freqüências de 0,5 kHz, 1 kHz, 2 kHz, 3 kHz, 4 kHz, 5 kHz, 6 kHz, e 8 kHz, com a intensidade - entre 20 e 100 dB - mais confortável para o paciente. Este procura identificar qual o tom aplicado que é igual ao tom predominante que ele ouve como acúfeno. Em seguida será aplicado um outro tom com outra freqüência, mais próxima daquela e em menor intensidade, para observar se o que é aplicado forma um zumbido mais próximo do que já existia. Deste modo, por aproximação sucessiva se chega a um espectro de freqüências muito assemelhadas àquelas do acúfeno. Ao término do exame, o operador obterá o perfil de freqüências que compõe os acúfenos de cada ouvido, se for bilateral, o que permitirá um diagnóstico mais preciso da área coclear comprometida."/>
+			<field name="originatesFrom" value="37607660"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501871"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501871"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501871"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01871"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501871-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22547" type="Person">
+			<semanticIdentifier>lattes::2593304138254632</semanticIdentifier>
+			<field name="identifier.lattes" value="2593304138254632"/>
+			<field name="name" value="Mauricy Alves da Motta"/>
+		</entity>
+		<entity ref="OrgUnit17635" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32774" toEntityRef="Person22547" type="Inventor"/>
+		<relation fromEntityRef="Patent32774" toEntityRef="OrgUnit17635" type="Applicant"/>
+	</relations>
+</entity-relation-data>

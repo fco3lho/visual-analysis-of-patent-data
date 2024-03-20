@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:51" record="12359" source="Espacenet">
+	<entities>
+		<entity ref="Patent12359" type="Patent">
+			<semanticIdentifier>brcris::ebdf06f806c6cbd6df5c33d65de8ae09</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9202145A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9202145</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9202145A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19929202145</semanticIdentifier>
+			<semanticIdentifier>original::92 9202145</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9202145"/>
+			<field name="identifier.lattes" value="3313566012388328"/>
+			<field name="identifier.espacenet" value="9202145"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="MOTOR BIFASICO COM ENROLAMENTO ASSIMETRICOS"/>
+			<field name="title.lattes" value="Motor de Inducao Bifasico Assimetrico Alimentado por duas Fases e Neutro da Rede de Alimentacao para Substituicao de Motores Monofasicos com Capacitor e Chave Centrifuga"/>
+			<field name="depositDate" value="1992-06-05"/>
+			<field name="publicationDate" value="1993-12-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ESON BIM"/>
+			<field name="inventor" value="JAIME SZAJNER"/>
+			<field name="inventor" value="MARCIO LUIZ DE ANDRADE NETTO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02K3/28AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="originatesFrom" value="4054382"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9202145"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9202145"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9202145"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19929202145"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="92 9202145"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8476" type="Person">
+			<semanticIdentifier>lattes::3313566012388328</semanticIdentifier>
+			<field name="identifier.lattes" value="3313566012388328"/>
+			<field name="name" value="Edson Bim"/>
+		</entity>
+		<entity ref="OrgUnit6686" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12359" toEntityRef="Person8476" type="Inventor"/>
+		<relation fromEntityRef="Patent12359" toEntityRef="OrgUnit6686" type="Applicant"/>
+	</relations>
+</entity-relation-data>

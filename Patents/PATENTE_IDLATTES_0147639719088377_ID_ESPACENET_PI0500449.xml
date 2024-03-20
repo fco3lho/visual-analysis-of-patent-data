@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:14" record="16724" source="Espacenet">
+	<entities>
+		<entity ref="Patent16724" type="Patent">
+			<semanticIdentifier>brcris::b6b5611dc7f26acff4de035821b52a0d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500449A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500449</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500449A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00449</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500449-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500449"/>
+			<field name="identifier.lattes" value="0147639719088377"/>
+			<field name="identifier.espacenet" value="PI0500449"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sensoriamento de rodas para uma cadeira de rodas servo-assistida"/>
+			<field name="title.lattes" value="Sensoriamento de rodas para uma cadeira de rodas servo-assistida"/>
+			<field name="depositDate" value="2005-02-10"/>
+			<field name="publicationDate" value="2006-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARLEY DE BARROS LOMBARDI JUNIOR"/>
+			<field name="inventor" value="FRANCO GIUSEPPE DEDINI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61G5/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05B19/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SENSORIAMENTO DE RODAS PARA UMA CADEIRA DE RODAS SERVO-ASSISTIDA&quot;. Novo modelo de funcionamento de um sensoriamento para rodas de uma cadeira de rodas a qual é sevo-assistida de forma a conceber nova configuração e funcionamento à mesma, melhorando a sua utilização pelo usuário conferindo maior conforto e facilidade na sua utilização, sendo um sistema de motorização servo assistida de cadeira de rodas que é compreendido por um sistema de motorização, um sistema de baterias, um sistema de controle, consistindo na motorização independente de cada uma das rodas já existentes na cadeira de rodas, sem que sejam necessárias grandes alterações no na sua estrutura original, onde cada roda possuirá um sistema de motorização independente entre si é função do sistema de controle (6) atuando de forma que o resultado de cada um dos sistemas corresponda às expectativas do usuário, com os sistemas de motorização independentes atuando de forma colaborativa no sistema global; onde a motorização independente de cada roda pode ser obtida pelo acoplamento dos motores ou sistemas propulsores (7) (motores e sistema de redução) diretamente sobre os eixos das rodas (3), ou ainda utilizando-se das diversas possibilidades de acoplamento (seja através de mecanismos, fixações rigidas, flexíveis, por pressão ou mesmo químicas (2) entre o sistema de motorização e o aro de propulsão (4) da cadeira de rodas, constituído de cinco elementos básicos, a saber: sensores, motores, baterias, sistema de memória e sistema de controle, que devem ser acoplados à cadeira de rodas utilizando-se de um sobre aro de propulsão, que é um aro acoplado ao aro de propulsão original da cadeira de rodas, onde o mesmo possui um elemento de referência que deve estar conectado à estrutura da cadeira de rodas, sendo este uma barra de referência (5), permitindo impulsionar as rodas, já que os motores só podem transmitir força e rotação a estas se estiverem de alguma forma uma fixação, e possuindo uma saída de sinal, levando a informação referente ao torque aplicado pelo usuário sobre o aro de propulsão."/>
+			<field name="originatesFrom" value="37001296"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500449"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500449"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500449"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00449"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500449-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11639" type="Person">
+			<semanticIdentifier>lattes::0147639719088377</semanticIdentifier>
+			<field name="identifier.lattes" value="0147639719088377"/>
+			<field name="name" value="Franco Giuseppe Dedini"/>
+		</entity>
+		<entity ref="OrgUnit9123" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16724" toEntityRef="Person11639" type="Inventor"/>
+		<relation fromEntityRef="Patent16724" toEntityRef="OrgUnit9123" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:07" record="27239" source="Espacenet">
+	<entities>
+		<entity ref="Patent27239" type="Patent">
+			<semanticIdentifier>brcris::ead8c7f6ddf12855b604314f61637832</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605997A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0605997</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0605997A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI05997</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0605997-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0605997"/>
+			<field name="identifier.lattes" value="7327253649822493"/>
+			<field name="identifier.espacenet" value="PI0605997"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método de sincronização para receptores ofdm através da estimação dos desvios temporal e freqüêncial com base na análise do sinal recebido"/>
+			<field name="title.lattes" value="Método de Sincronização para Receptores OFDM Através da Estimação dos Desvios Temporal e Freqüencial com Base na Análise do Sinal Recebido"/>
+			<field name="depositDate" value="2006-11-06"/>
+			<field name="publicationDate" value="2008-07-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCAS DE MELO JORGE BARBOSA"/>
+			<field name="inventor" value="LUIS GERALDO PEDROSO MELONI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04J11/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04Q11/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE SINCRONIZAçãO PARA RECEPTORES OFDM ATRAVéS DA ESTIMAçãO DOS DESVIOS TEMPORAL E FREQüêNCIAL COM BASE DA ANáLISE DO SINAL RECEBIDO A presente invenção consiste em um algoritmo de sincronização para receptores OFDM. O algoritmo utiliza características do prefixo cíclico para, através da análise do sinal recebido, estimar o desvio de freqüência e o offset temporal do receptor. A técnica pode ser utilizada em qualquer sistema de comunicações digital que utilize a modulação OFDM, seja ele com ou sem fio, sendo, porém, apropriada para o sistema WiMAX-700, bem como para o sistema WiTV."/>
+			<field name="originatesFrom" value="39545223"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605997"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0605997"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0605997"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI05997"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0605997-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18843" type="Person">
+			<semanticIdentifier>lattes::7327253649822493</semanticIdentifier>
+			<field name="identifier.lattes" value="7327253649822493"/>
+			<field name="name" value="Luis Geraldo Pedroso Meloni"/>
+		</entity>
+		<entity ref="OrgUnit14761" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27239" toEntityRef="Person18843" type="Inventor"/>
+		<relation fromEntityRef="Patent27239" toEntityRef="OrgUnit14761" type="Applicant"/>
+	</relations>
+</entity-relation-data>

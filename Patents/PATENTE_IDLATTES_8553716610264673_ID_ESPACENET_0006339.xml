@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:37" record="26240" source="Espacenet">
+	<entities>
+		<entity ref="Patent26240" type="Patent">
+			<semanticIdentifier>brcris::42eadb1d82ebe7bd3f34df441390a2b5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0006339A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0006339</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0006339A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000006339</semanticIdentifier>
+			<semanticIdentifier>original::0006339-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0006339"/>
+			<field name="identifier.lattes" value="8553716610264673"/>
+			<field name="identifier.espacenet" value="0006339"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Comando sinérgico não-linear para equipamentos de soldagem mig pulsado do tipo corrente constante"/>
+			<field name="title.lattes" value="Comando Sinérgico Não-linear para Equipamentos de Soldagem MIG Pulsado do Tipo Corrente Constante"/>
+			<field name="depositDate" value="2000-11-21"/>
+			<field name="publicationDate" value="2002-06-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMERICO SCOTTI"/>
+			<field name="inventor" value="LOURIEL OLIVEIRA VILARINHO"/>
+			<field name="inventor" value="PAULO SERGIO DE SAIRRE BALSAMO"/>
+			<field name="applicant" value="CONSELHO NACIONAL DE DESEVOLVIMENTO CIENTIFICO E TECNOLOGICO - CNPQ"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA - UFU"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05F3/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;COMANDO SINéRGICO NãO-LINEAR PARA EQUIPAMENTOS DE SOLDAGEM MIG PULSADO DO TIPO CORRENTE CONSTANTE&quot;. Um comando sinérgico representado por um algoritmo não-linear, aplicável em equipamentos de soldagem MIG pulsado do tipo corrente constante, onde os parâmetros de pulso são calculados, a partir de uma determinada entrada, consistente da corrente média desejada, I~ m~, ou da Velocidade de Alimentação, V~ alim~, desejada, e do valor estipulado pelo usuário para o comprimento de arco desejado, para uma dada combinação de diâmetro e material de eletrodo e gás de proteção. A partir desta entrada, o algoritmo busca mais informações contidas em seu banco de dados ou memória, contendo valores levantados experimentalmente para a dada combinação arame-eletrodo/gás escolhida e disponível no equipamento e inicialmente faz uma primeira estimativa da freq³ência (F) de destacamento das gotas para manter a condição de uma gota por pulso e o consumo do arame-eletrodo compatível com a corrente ou velocidade de alimentação desejadas. Conhecidos o tempo de pulso t~ p~ ( banco de dados ) e a F, calcula-se o tempo de base t~ b~. Finalmente, conhecida a corrente de pulso I~ p~ ( banco de dados ), calcula-se a corrente de base I~ b~, assumindo que a onda de corrente é perfeitamente retangular. Em seguida, o algoritmo recalcula os parâmetros de pulso de uma forma iterativa, refinando-os, de forma a se obter um diâmetro de gota o mais próximo possível do diâmetro do eletrodo, sem transgredir os limites impostos para l~ b~ e t~ b~ ( limites que ultrapassados dão instabilidade de arco ). Em seguida estes parâmetros são usados no modelo não-linear e assumindo formatos de onda retangular, trapezoidal ou exponencial, dependendo do interesse. Novas rotinas recursivas garantem a otimização do tamanho da gota. Como resultado final, têm-se os valores dos parâmetros de pulso calculados para uma dada corrente média ou velocidade de alimentação desejadas para o par arame-eletrodo/gás de proteção escolhido. Estes valores são usados para ajustar automaticamente o equipamento no qual o comando estiver inserido."/>
+			<field name="originatesFrom" value="3945991"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0006339"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0006339"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0006339"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000006339"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0006339-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18143" type="Person">
+			<semanticIdentifier>lattes::8553716610264673</semanticIdentifier>
+			<field name="identifier.lattes" value="8553716610264673"/>
+			<field name="name" value="Louriel Oliveira Vilarinho"/>
+		</entity>
+		<entity ref="OrgUnit14189" type="OrgUnit">
+			<semanticIdentifier>brcris::68c19aef9ce2de8bddeef833893de80e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA - UFU"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26240" toEntityRef="Person18143" type="Inventor"/>
+		<relation fromEntityRef="Patent26240" toEntityRef="OrgUnit14189" type="Applicant"/>
+	</relations>
+</entity-relation-data>

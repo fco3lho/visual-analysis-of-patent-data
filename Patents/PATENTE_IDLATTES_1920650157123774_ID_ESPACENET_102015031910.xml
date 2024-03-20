@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:14" record="1290" source="Espacenet">
+	<entities>
+		<entity ref="Patent1290" type="Patent">
+			<semanticIdentifier>brcris::6371ec940d28a4f6e02dc4c8b974596e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031910A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015031910</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031910A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151031910</semanticIdentifier>
+			<semanticIdentifier>original::102015031910</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015031910"/>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="identifier.espacenet" value="102015031910"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="acionamento escalar do motor de indução trifásico com fluxo otimizado"/>
+			<field name="title.lattes" value="ACIONAMENTO ESCALAR DO MOTOR DE INDUÇÃO TRIFÁSICO COM FLUXO OTIMIZADO"/>
+			<field name="depositDate" value="2015-12-18"/>
+			<field name="publicationDate" value="2018-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO GOEDTEL"/>
+			<field name="inventor" value="CLAYTON LUIZ GRACIOLA"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02P7/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="acionamento escalar do motor de indução t rifásico com fluxo otimizado, descreve-se a presente patente de invenção como um equipamento utilizado para o acionamento escalar de um motor de indução trifásico com o objetivo de aumentar a eficiência energética dessas máquinas. o equipamento consiste basicamente de um sistema de acionamento, aquisição de sinais de tensão e corrente, um sistema de processamento digital e uma interface para usuário. o sistema pode ser aplicado através de inversores utilizados para acionamento de motores de indução trifásicos, reduzindo a potência de entrada consumida em casos em que esses motores estão trabalhando com carga mecânica abaixo da carga nominal do motor."/>
+			<field name="originatesFrom" value="62089333"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031910"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015031910"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031910"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151031910"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015031910"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person961" type="Person">
+			<semanticIdentifier>lattes::1920650157123774</semanticIdentifier>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="name" value="Alessandro Goedtel"/>
+		</entity>
+		<entity ref="OrgUnit759" type="OrgUnit">
+			<semanticIdentifier>brcris::468f62108cf24363d9108e1a37a15dd6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1290" toEntityRef="Person961" type="Inventor"/>
+		<relation fromEntityRef="Patent1290" toEntityRef="OrgUnit759" type="Applicant"/>
+	</relations>
+</entity-relation-data>

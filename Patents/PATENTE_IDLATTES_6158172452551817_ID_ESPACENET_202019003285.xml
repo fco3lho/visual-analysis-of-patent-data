@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:28:32" record="43711" source="Espacenet">
+	<entities>
+		<entity ref="Patent43711" type="Patent">
+			<semanticIdentifier>brcris::06e412ca6b88025a8481517079bc9b96</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019003285U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019003285U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019003285U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192003285U</semanticIdentifier>
+			<semanticIdentifier>original::202019003285</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019003285"/>
+			<field name="identifier.lattes" value="6158172452551817"/>
+			<field name="identifier.espacenet" value="202019003285"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="dispositivo universal para acionamento de joystick de cadeira de rodas motorizada"/>
+			<field name="title.lattes" value="DISPOSITIVO UNIVERSAL PARA ACIONAMENTO DE JOYSTICK DE CADEIRA DE RODAS MOTORIZADA"/>
+			<field name="depositDate" value="2019-02-18"/>
+			<field name="publicationDate" value="2020-09-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO LAZARO MARTINS NAVES"/>
+			<field name="inventor" value="FELIPE ROQUE MARTINS"/>
+			<field name="inventor" value="THIAGO SA DE PAIVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61G5/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente modelo de utilidade aqui referido consiste em um sistema eletromecânico/robótico de acionamento de joystick de cadeira de rodas motorizada (crm) por meio de comandos alternativos através de emulação de mouse sobre uma interface/tela contendo as direções e botões desse mesmo joystick. o sistema permite a adaptação de uma crm convencional para comandos alternativos que podem se dar por diferentes métodos de entrada, como movimento labial, movimento da cabeça, comandos oculares, comandos musculares e quaisquer outros movimentos que podem ser usados para movimentar um cursor em duas dimensões. ela inclui: monitor, sensores para comandos alternativos, microcomputador de baixo custo (como raspberry pi), motores (servomotores ou motores de passo), mecanismo de posicionamento dos motores, software de comando dos motores, software de interface."/>
+			<field name="originatesFrom" value="73015556"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019003285"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019003285U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019003285"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192003285U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019003285"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29849" type="Person">
+			<semanticIdentifier>lattes::6158172452551817</semanticIdentifier>
+			<field name="identifier.lattes" value="6158172452551817"/>
+			<field name="name" value="Thiago Sa de Paiva"/>
+		</entity>
+		<entity ref="OrgUnit23432" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43711" toEntityRef="Person29849" type="Inventor"/>
+		<relation fromEntityRef="Patent43711" toEntityRef="OrgUnit23432" type="Applicant"/>
+	</relations>
+</entity-relation-data>

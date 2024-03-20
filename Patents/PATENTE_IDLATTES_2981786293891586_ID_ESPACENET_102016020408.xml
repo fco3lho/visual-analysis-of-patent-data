@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:04" record="5112" source="Espacenet">
+	<entities>
+		<entity ref="Patent5112" type="Patent">
+			<semanticIdentifier>brcris::dd87d6d18396dd6b8797323be1afe22a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020408A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016020408</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016020408A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161020408</semanticIdentifier>
+			<semanticIdentifier>original::102016020408</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016020408"/>
+			<field name="identifier.lattes" value="2981786293891586"/>
+			<field name="identifier.espacenet" value="102016020408"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="teclado e método de operação do mesmo"/>
+			<field name="title.lattes" value="Teclado e método de operação do mesmo"/>
+			<field name="depositDate" value="2016-09-02"/>
+			<field name="publicationDate" value="2018-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO DIAZ TULA"/>
+			<field name="inventor" value="CARLOS HITOSHI MORIMOTO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F3/023AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="023AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F3/0488AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="0488AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06F17/27AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="27AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um teclado e um método de operação do mesmo, compreendendo um mecanismo de entrada de textos com teclas sensíveis à digitação por meio de um dispositivo de apontamento. caracteriza-se por um teclado virtual exibido em uma tela de vídeo ou, ainda, um teclado físico com as camadas de informação projetadas sobre o teclado ou superfície de projeção. especificamente para a escrita de textos, uma camada exibe prefixos enquanto outra camada exibe sufixos ao redor da tecla. a camada de prefixo é formada pelas últimas seleções feitas para que o usuário possa detectar erros sem deslocar o olhar para a área de visualização do texto. já a camada de sufixos mostra o estado futuro da lista de palavras preditas considerando a tecla apontada pelo usuário, permitindo que se planeje a próxima ação sem deslocar o olhar para outras áreas da interface. assim, preferencialmente, as informações são limitadas à região foveal dos olhos, com a captura de informações pelo usuário sem a necessidade de deslocar o olhar para fora da tecla a ser digitada. o método permite que uma tecla seja acionada por apontamento apenas, por exemplo, por meio de tempo de latência ou gestos, ou inclusive por acionamento mecânico."/>
+			<field name="originatesFrom" value="62001661"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020408"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016020408"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016020408"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161020408"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016020408"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3329" type="Person">
+			<semanticIdentifier>lattes::2981786293891586</semanticIdentifier>
+			<field name="identifier.lattes" value="2981786293891586"/>
+			<field name="name" value="Antonio Díaz Tula"/>
+		</entity>
+		<entity ref="OrgUnit2621" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5112" toEntityRef="Person3329" type="Inventor"/>
+		<relation fromEntityRef="Patent5112" toEntityRef="OrgUnit2621" type="Applicant"/>
+	</relations>
+</entity-relation-data>

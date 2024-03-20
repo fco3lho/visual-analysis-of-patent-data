@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:00" record="17731" source="Espacenet">
+	<entities>
+		<entity ref="Patent17731" type="Patent">
+			<semanticIdentifier>brcris::d04da9ca09afd971a66294eff180bcef</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500574A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500574</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500574A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00574</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500574-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500574"/>
+			<field name="identifier.lattes" value="0546659501230132"/>
+			<field name="identifier.espacenet" value="PI0500574"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo e unidade compacta para tratamento ciclÈnico de correntes trifásicas de petróleo"/>
+			<field name="title.lattes" value="PROCESSO E UNIDADE COMPACTA PARA TRATAMENTO CICLÔNICO DE CORRENTES TRIFÁSICAS DE PETRÓLEO"/>
+			<field name="depositDate" value="2005-02-18"/>
+			<field name="publicationDate" value="2006-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ALBERTO CAPELA MORAES"/>
+			<field name="inventor" value="GIOVANI CAVALCANTI NUNES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D1/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01D1/26AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO E UNIDADE COMPACTA PARA TRATAMENTO CICLÈNICO DE CORRENTES TRIFáSICAS DE PETRóLEO&quot;. A presente invenção se refere a um processo e unidade compacta para tratamento ciclónico de correntes trifásicas de petróleo, adequados a unidades de produção terrestres, oceânicas e submarinas. A tecnologia proposta é pelo menos três vezes mais compacta e pelo menos 50% mais económica e leve em comparação aos sistemas de processamento primário tradicionais e eficaz para remoção de traços de água no tratamento de correntes oleosas utilizando, quando possível, ciclones desoleadores em substituição aos separadores gravitacionais e coalescedores compactos dispostos em linha, requerendo menor quantidade de carga. é utilizado um separador trifásico, com baixo tempo de residência, seguido de estágios ciclónicos seriais para a separação do óleo e estágios ciclónicos paralelos para o tratamento da água. Opcionalmente, o óleo efluente é tratado em um segundo estágio de separação. O sistema é modulado e de fácil manutenção e reposição e dotado de maior resistência à pressão de água. Os ciclones utilizados são aptos a lidar com correntes aquosas com quaisquer teores de óleo e correntes oleosas com quaisquer teores de água."/>
+			<field name="originatesFrom" value="37001347"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500574"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500574"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500574"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00574"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500574-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12299" type="Person">
+			<semanticIdentifier>lattes::0546659501230132</semanticIdentifier>
+			<field name="identifier.lattes" value="0546659501230132"/>
+			<field name="name" value="Giovani Cavalcanti Nunes"/>
+		</entity>
+		<entity ref="OrgUnit9599" type="OrgUnit">
+			<semanticIdentifier>brcris::16bb61d1d4add34580b89b50e63247b3</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit9600" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17731" toEntityRef="Person12299" type="Inventor"/>
+		<relation fromEntityRef="Patent17731" toEntityRef="OrgUnit9599" type="Applicant"/>
+		<relation fromEntityRef="Patent17731" toEntityRef="OrgUnit9600" type="Applicant"/>
+	</relations>
+</entity-relation-data>

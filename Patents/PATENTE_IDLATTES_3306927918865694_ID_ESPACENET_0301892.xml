@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:48" record="36707" source="Espacenet">
+	<entities>
+		<entity ref="Patent36707" type="Patent">
+			<semanticIdentifier>brcris::24b9b94bd81b38d3e91c041b98334781</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301892A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0301892</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0301892A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030301892</semanticIdentifier>
+			<semanticIdentifier>original::0301892-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0301892"/>
+			<field name="identifier.lattes" value="3306927918865694"/>
+			<field name="identifier.espacenet" value="0301892"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="InterferÈmetro de atividade bacteriana"/>
+			<field name="title.lattes" value="Interferômetro"/>
+			<field name="depositDate" value="2003-04-08"/>
+			<field name="publicationDate" value="2005-03-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BERNHARD JOHANNES LESCHE"/>
+			<field name="inventor" value="DEBORA FARAGO JARDIM"/>
+			<field name="inventor" value="FERNANDO MONTEIRO AARESTRUP"/>
+			<field name="inventor" value="JOSE PAULO RODRIGUES FURTADO MENDONCA"/>
+			<field name="inventor" value="RACHEL ROCHA PINHEIRO MACHADO"/>
+			<field name="inventor" value="RUY BATISTA SANTIAGO NETO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;INTERFERÈMETRO DE ATIVIDADE BACTERIANA&quot;. A invenção &quot;Interferómetro de Atividade Bacteriana&quot; compreende um método que permite medir a taxa de consumo de nutrientes por bactérias ou outros microorganismos de forma quantitativa em tempo real e além disso permite distinguir se uma dada população de microorganismos inativas se encontra apenas num estado de dormência ou se os organismos estão de fato morrendo. O princípio da medida é um acompanhamento muito preciso do índice de refração da solução do nutriente das bactérias com medidas interferométricas. O consumo de nutrientes provoca uma diminuição do índice de refração e a morte das bactérias provoca aumento do índice devido a liberação de citosol das mesmas. Métodos convencionais tais como contagem de unidades formadoras de colónias levam muito tempo. Por exemplo, o cultivo de tuberculose humana leva entre 3 e 8 semanas. O lnterferómetro de Atividade Bacteriana permite ver respostas a antibióticos e bacteriostáticos consideravelmente mais rápido. Com espécies lentas como Tuberculosis ou Bacilo Calmette-Guérin respostas positivas podem ser obtidas em apenas três dias. Pela rapidez da resposta o lnterferómetro de Atividade Bacteriana é comparável com a método radiométrico mas tem a vantagem de ser de baixo custo."/>
+			<field name="originatesFrom" value="34230364"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301892"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0301892"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0301892"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030301892"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0301892-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25266" type="Person">
+			<semanticIdentifier>lattes::3306927918865694</semanticIdentifier>
+			<field name="identifier.lattes" value="3306927918865694"/>
+			<field name="name" value="Rachel Rocha Pinheiro Machado"/>
+		</entity>
+		<entity ref="OrgUnit19845" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36707" toEntityRef="Person25266" type="Inventor"/>
+		<relation fromEntityRef="Patent36707" toEntityRef="OrgUnit19845" type="Applicant"/>
+	</relations>
+</entity-relation-data>

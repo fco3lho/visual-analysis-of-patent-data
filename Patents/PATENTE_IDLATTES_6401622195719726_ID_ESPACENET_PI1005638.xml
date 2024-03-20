@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:59" record="20053" source="Espacenet">
+	<entities>
+		<entity ref="Patent20053" type="Patent">
+			<semanticIdentifier>brcris::cf2c481cd6cdf462398159b77fae279a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005638A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1005638</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005638A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI05638</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1005638-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1005638"/>
+			<field name="identifier.lattes" value="6401622195719726"/>
+			<field name="identifier.espacenet" value="PI1005638"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo para predizer propriedades quÍmicas e fÍsico-quÍmicas de àleos atravÉs de anÁlise multivariada associada com espectrofluorimetria"/>
+			<field name="title.lattes" value="MÉTODO PARA PREDIZER PROPRIEDADES QUÍMICAS E FÍSICO-QUÍMICAS DE ÓLEOS ATRAVÉS DE ANÁLISE MULTIVARIADA ASSOCIADA COM ESPECTROFLUORIMETRIA"/>
+			<field name="depositDate" value="2010-12-23"/>
+			<field name="publicationDate" value="2013-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRA DOS SANTOS TANAJURA"/>
+			<field name="inventor" value="CRISTINA M. QUINTELLA"/>
+			<field name="inventor" value="HUMBERVANIA REIS GONCALVES DA SILVA"/>
+			<field name="inventor" value="IURI MUNIZ PEPE"/>
+			<field name="inventor" value="MARILENA MEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/64AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="64AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO PARA PREDIZER PROPRIEDADES QUÍMICAS E FÍSICO-QUÍMICAS DE àLEOS ATRAVÉS DE ANÁLISE MULTI VARIADA ASSOCIADA COM ESPECTROFLUORIMETRIA. A presente invenção se refere a um método para predição de propriedades químicas e fisico-químicas de amostras de óleos, como por exemplo, diesel, biodiesel e óleos vegetais. Mais especificamente o método consiste na obtenção de um modelo matemático entre dados de análises espectroscópicas e dados de análises químicas ou físico-químicas, tais como, viscosidade cinemática, massa específica, ponto de fulgor e estabilidade oxidativa, entre outros, através da aplicação da Análise Multivariada, tal como, Mínimos Quadrados Parciais (PLS), como modelo matemático."/>
+			<field name="originatesFrom" value="48051829"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005638"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1005638"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005638"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI05638"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1005638-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13925" type="Person">
+			<semanticIdentifier>lattes::6401622195719726</semanticIdentifier>
+			<field name="identifier.lattes" value="6401622195719726"/>
+			<field name="name" value="Iuri Muniz Pepe"/>
+		</entity>
+		<entity ref="OrgUnit10903" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20053" toEntityRef="Person13925" type="Inventor"/>
+		<relation fromEntityRef="Patent20053" toEntityRef="OrgUnit10903" type="Applicant"/>
+	</relations>
+</entity-relation-data>

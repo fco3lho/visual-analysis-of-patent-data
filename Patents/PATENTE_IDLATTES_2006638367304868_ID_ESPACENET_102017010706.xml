@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:44:20" record="23370" source="Espacenet">
+	<entities>
+		<entity ref="Patent23370" type="Patent">
+			<semanticIdentifier>brcris::7cae989c2a9532983ef150c5b8415038</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017010706A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017010706</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017010706A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171010706</semanticIdentifier>
+			<semanticIdentifier>original::102017010706</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017010706"/>
+			<field name="identifier.lattes" value="2006638367304868"/>
+			<field name="identifier.espacenet" value="102017010706"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="peptídeos imunogênicos da molécula gra2 de toxoplasma gondii"/>
+			<field name="title.lattes" value="PEPTÍDEOS IMUNOGÊNICOS DA MOLÉCULA GRA2 de Toxoplasma gondii"/>
+			<field name="depositDate" value="2017-05-22"/>
+			<field name="publicationDate" value="2018-12-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARLINDO GOMES DE MACEDO JUNIOR"/>
+			<field name="inventor" value="FABIANA DE ALMEIDA ARAUJO SANTOS"/>
+			<field name="inventor" value="FERNANDA MARIA SANTIAGO"/>
+			<field name="inventor" value="JOSE ROBERTO MINEO"/>
+			<field name="inventor" value="LUCIANA MACHADO BASTOS"/>
+			<field name="inventor" value="LUIZ RICARDO GOULART FILHO"/>
+			<field name="inventor" value="MURILO VIEIRA DA SILVA"/>
+			<field name="inventor" value="TIAGO WILSON PATRIARCA MINEO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K39/002AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="002AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P33/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07K14/45AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="14"/>
+				<field name="subgroup" value="45AI"/>
+			</field>
+			<field name="abstract.espacenet" value="peptídeos imunogênicos da molécula gra2 de toxoplasma gondii. a presente invenção refere-se à seleção, caracterização e utilização de peptídeos recombinantes para imunização contra toxoplasma gondii. mais especificamente, a invenção compreende peptídeos desenvolvidos a partir da produção e caracterização de um anticorpo monoclonal contra gra2, que são proteínas secretadas pelos grânulos densos do parasito, reconhecidamente imunogênicas."/>
+			<field name="originatesFrom" value="64900310"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017010706"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017010706"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017010706"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171010706"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017010706"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16186" type="Person">
+			<semanticIdentifier>lattes::2006638367304868</semanticIdentifier>
+			<field name="identifier.lattes" value="2006638367304868"/>
+			<field name="name" value="Jose Roberto Mineo"/>
+		</entity>
+		<entity ref="OrgUnit12532" type="OrgUnit">
+			<semanticIdentifier>brcris::a4ccc994cb0e532d68677b719a097898</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit12533" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23370" toEntityRef="Person16186" type="Inventor"/>
+		<relation fromEntityRef="Patent23370" toEntityRef="OrgUnit12532" type="Applicant"/>
+		<relation fromEntityRef="Patent23370" toEntityRef="OrgUnit12533" type="Applicant"/>
+	</relations>
+</entity-relation-data>

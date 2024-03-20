@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:10" record="36289" source="Espacenet">
+	<entities>
+		<entity ref="Patent36289" type="Patent">
+			<semanticIdentifier>brcris::e34a4984ea9a43c3181e35f0279bdfe5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032648A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012032648</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012032648A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121032648</semanticIdentifier>
+			<semanticIdentifier>original::102012032648</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012032648"/>
+			<field name="identifier.lattes" value="9867808000721457"/>
+			<field name="identifier.espacenet" value="102012032648"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composição contendo vestitol e neovestitol e seus usos"/>
+			<field name="title.lattes" value="COMPOSIÇÃO CONTENDO VESTITOL E NEOVESTITOL E SEUS USOS"/>
+			<field name="depositDate" value="2012-12-19"/>
+			<field name="publicationDate" value="2017-12-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO BUENO SILVA"/>
+			<field name="inventor" value="HYUN KOO"/>
+			<field name="inventor" value="MASAHARU IKEGAKI"/>
+			<field name="inventor" value="PEDRO LUIZ ROSALEN"/>
+			<field name="inventor" value="SEVERINO MATIAS DE ALENCAR"/>
+			<field name="applicant" value="UNIVERSIDADE DE ROCHESTER"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO USP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ALFENAS UNIFAL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61Q11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/98AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="98AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composlção contendo vestitol e neovestitol e seus usos a presente invenção descreve uma composição contendo uma combinação de isoflavonas com atividade antimicrobiana e anti-inflamatória passível de ser adicionada a produtos de higiene, cosméticos ou medicamentos. uma de suas principais aplicações é no combate à cérie dental, pois contribui eficientemente para a redução do biofilme patogênico um dos principais fatores que indicam a o estado fisiopatológico da cavidade bucal de um ser humano é a presença de céries dentais, ocasionadas pela formação de biofilme patogênico, que leva à desmineralização dos dentes. adicionalmente, devido a sua capacidade anti-inflamatória e bactericida, a adição da presente composição em produtos de higiene, cosméticos e medicamentos, contribui para o aumento da eficácia desses itens no combate a bactérias e redução de inflamações."/>
+			<field name="originatesFrom" value="62566909"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032648"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012032648"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012032648"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121032648"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012032648"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24976" type="Person">
+			<semanticIdentifier>lattes::9867808000721457</semanticIdentifier>
+			<field name="identifier.lattes" value="9867808000721457"/>
+			<field name="name" value="Pedro Luiz Rosalen"/>
+		</entity>
+		<entity ref="OrgUnit19607" type="OrgUnit">
+			<semanticIdentifier>brcris::079736831906a5c659f95ddcb41303bc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO USP"/>
+		</entity>
+		<entity ref="OrgUnit19608" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36289" toEntityRef="Person24976" type="Inventor"/>
+		<relation fromEntityRef="Patent36289" toEntityRef="OrgUnit19607" type="Applicant"/>
+		<relation fromEntityRef="Patent36289" toEntityRef="OrgUnit19608" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:11" record="20199" source="Espacenet">
+	<entities>
+		<entity ref="Patent20199" type="Patent">
+			<semanticIdentifier>brcris::adbc26887c475c02a5aaae302cc66b6e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503070A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0503070</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503070A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI03070</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0503070-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0503070"/>
+			<field name="identifier.lattes" value="8139095662827864"/>
+			<field name="identifier.espacenet" value="PI0503070"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="transistor hìbrido sensìvel a campos magnéticos"/>
+			<field name="title.lattes" value="Transístor híbrido sensível a campos magnéticos"/>
+			<field name="depositDate" value="2005-07-22"/>
+			<field name="publicationDate" value="2007-03-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANO REINALDO VICOTO BENVENHO"/>
+			<field name="inventor" value="IVO ALEXANDRE HUEMMELGEN"/>
+			<field name="inventor" value="JONAS GRUBER"/>
+			<field name="inventor" value="LUIS HENRIQUE JATOBA DE MORAES DA COSTA AGUIAR"/>
+			<field name="inventor" value="MICHELLE SOSTAG MERUVIA"/>
+			<field name="inventor" value="ROSAMARIA WU CHIA LI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L29/82AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="82AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;TRANSISTOR HìBRIDO SENSìVEL A CAMPOS MAGNéTICOS&quot;. A presente invenção refere-se a um dispositivo eletrónico, transistor com base metálica e com características elétricas dependentes do campo magnético ao qual está submetido, no qual o emissor é constituído de material semicondutor molecular polimérico, que apresenta magnetoresistência, e que utiliza como coletor uma lâmina de silício monocristalino."/>
+			<field name="originatesFrom" value="37846395"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503070"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0503070"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503070"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI03070"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0503070-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14014" type="Person">
+			<semanticIdentifier>lattes::8139095662827864</semanticIdentifier>
+			<field name="identifier.lattes" value="8139095662827864"/>
+			<field name="name" value="Ivo Alexandre Hümmelgen"/>
+		</entity>
+		<entity ref="OrgUnit10962" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20199" toEntityRef="Person14014" type="Inventor"/>
+		<relation fromEntityRef="Patent20199" toEntityRef="OrgUnit10962" type="Applicant"/>
+	</relations>
+</entity-relation-data>

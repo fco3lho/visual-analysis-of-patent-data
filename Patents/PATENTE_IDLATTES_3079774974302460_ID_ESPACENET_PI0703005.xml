@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:24" record="3720" source="Espacenet">
+	<entities>
+		<entity ref="Patent3720" type="Patent">
+			<semanticIdentifier>brcris::503ea216e861e68c2770ea5156c5ba74</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703005A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703005</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703005A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03005</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703005-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703005"/>
+			<field name="identifier.lattes" value="3079774974302460"/>
+			<field name="identifier.espacenet" value="PI0703005"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e processo de determinaÇço do perfil de liberaÇço de produtos encapsulados"/>
+			<field name="title.lattes" value="Processo de determinação do perfil de liberação de produtos encapsulados"/>
+			<field name="depositDate" value="2007-07-18"/>
+			<field name="publicationDate" value="2009-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE ROMERO DA SILVA"/>
+			<field name="inventor" value="RENATO ATILIO JORGE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/47AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="47AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA E PROCESSO DE DETERMINAÇçO DO PERFIL DE LIBERAÇçO DE PRODUTOS ENCAPSULADOS. A presente invenção descreve um sistema e um método de monitoramento da liberação de produtos encapsulados sem prévia separação das fases sólida e líquida, O produto liberado é monitorado usando um espectrofotômetro acoplado ao acessório de refletância difusa, o que elimina a interferência da radiação espalhada pelas partículas sobre o espectro de absorbância do fármaco. Isto favorece o acúmulo de um maior número de pontos tanto no periodo inicial como em tempos mais prolongados da liberação, favorecendo a obtenção de perfis mais precisos de liberação, bem como, a redução das etapas de centrifugação necessárias à separação das fases sólida e liquida."/>
+			<field name="originatesFrom" value="40612585"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703005"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703005"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703005-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2611" type="Person">
+			<semanticIdentifier>lattes::3079774974302460</semanticIdentifier>
+			<field name="identifier.lattes" value="3079774974302460"/>
+			<field name="name" value="André Romero da Silva"/>
+		</entity>
+		<entity ref="OrgUnit2089" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3720" toEntityRef="Person2611" type="Inventor"/>
+		<relation fromEntityRef="Patent3720" toEntityRef="OrgUnit2089" type="Applicant"/>
+	</relations>
+</entity-relation-data>

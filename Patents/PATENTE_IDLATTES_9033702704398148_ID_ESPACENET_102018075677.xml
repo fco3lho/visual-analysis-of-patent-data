@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:33:21" record="16805" source="Espacenet">
+	<entities>
+		<entity ref="Patent16805" type="Patent">
+			<semanticIdentifier>brcris::e1a6b2e3d693cfa540d29f5062e56d0e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018075677A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018075677</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018075677A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181075677</semanticIdentifier>
+			<semanticIdentifier>original::102018075677</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018075677"/>
+			<field name="identifier.lattes" value="9033702704398148"/>
+			<field name="identifier.espacenet" value="102018075677"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema e método para verificação de altura de pastagem"/>
+			<field name="title.lattes" value="Sistema e Método para Verificação de Altura de Pastagem"/>
+			<field name="depositDate" value="2018-12-11"/>
+			<field name="publicationDate" value="2020-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL LIMA RODRIGUES"/>
+			<field name="inventor" value="DOUGLAS DOMINGUES BUENO"/>
+			<field name="inventor" value="FREDERICO ALBUQUERQUE RIBEIRO"/>
+			<field name="inventor" value="JOAO ANGELO FERRES BROGIN"/>
+			<field name="inventor" value="LEANDRO COELHO DE ARAUJO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="é descrito um sistema e método para verificação de altura de pastagem que inclui pelo menos um sensor ultrassônico (s) acoplado em um ponto de medição (pm) fixo ou móvel e que emite uma onda na frequência do ultrassom que reflete no capim, retornando para o receptor, em um determinado tempo, dito dado processado por um programa de computador na plataforma arduino (pa) para o cálculo da distância entre o ponto de medição (pm) e o capim de uma área de pastagem, permitindo obter dados da altura da pastagem, que são encaminhados remotamente a um computador (comp)"/>
+			<field name="originatesFrom" value="71138359"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018075677"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018075677"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018075677"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181075677"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018075677"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11681" type="Person">
+			<semanticIdentifier>lattes::9033702704398148</semanticIdentifier>
+			<field name="identifier.lattes" value="9033702704398148"/>
+			<field name="name" value="Frederico Albuquerque Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit9160" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16805" toEntityRef="Person11681" type="Inventor"/>
+		<relation fromEntityRef="Patent16805" toEntityRef="OrgUnit9160" type="Applicant"/>
+	</relations>
+</entity-relation-data>

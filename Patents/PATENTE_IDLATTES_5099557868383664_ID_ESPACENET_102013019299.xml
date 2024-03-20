@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:15" record="13925" source="Espacenet">
+	<entities>
+		<entity ref="Patent13925" type="Patent">
+			<semanticIdentifier>brcris::9f168e9f061118560f6c5eece745cb1a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019299A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013019299</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013019299A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131019299</semanticIdentifier>
+			<semanticIdentifier>original::102013019299</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013019299"/>
+			<field name="identifier.lattes" value="5099557868383664"/>
+			<field name="identifier.espacenet" value="102013019299"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e circuito gerador de pulso síncrono disparado por comando proveniente de outro domínio de relógio"/>
+			<field name="title.lattes" value="Circuito e Método Gerador de Pulso Síncrono Disparado por Comando Proveniente de Outro Domínio de Relógio"/>
+			<field name="depositDate" value="2013-07-30"/>
+			<field name="publicationDate" value="2015-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO UNIAS DE LUCENA"/>
+			<field name="inventor" value="DIEGO BRITO DE CARVALHO"/>
+			<field name="inventor" value="ERICO NUNES FERREIRA BASTOS"/>
+			<field name="inventor" value="GIULIANO FERRONATO"/>
+			<field name="inventor" value="LUIZ JUBERTO ROSSI DE JESUS"/>
+			<field name="inventor" value="MARCELO MARCOS POLIDORO"/>
+			<field name="inventor" value="RODOLFO SOARES CAPRONI"/>
+			<field name="applicant" value="PADTEC S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F1/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04N5/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e circuito gerador de pulso síncrono disparado por comando proveniente de outro domínio de relógio, dito circuito, que está conectado entre um domínio de origem (relógio_a) e um domínio de destino (relógio_b), compreendendo três blocos (501, 502, 503) ligados em série, cada bloco contendo, pelo menos, um flip-flop tipo d (511, 512, 513). o primeiro bloco (501), constituindo um amostrador com relógio_a, compreende ainda uma porta lógica ou (531); o segundo e o terceiro blocos compreendem, além de ditos flip-flops tipo d um primeiro e um segundo multiplexadores (522, 523), a entrada de cada um destes recebendo o sinal de saída (q) do flip-flop precedente e a saída estando ligada à entrada d do flip-flop seguinte. o método compreende a ativação do gerador mediante a coincidência de níveis lógicos altos nos sinais de enable e de dado_escrita_a aplicados ao flip-flop (511) do primeiro bloco (501)."/>
+			<field name="originatesFrom" value="54541627"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019299"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013019299"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013019299"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131019299"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013019299"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9579" type="Person">
+			<semanticIdentifier>lattes::5099557868383664</semanticIdentifier>
+			<field name="identifier.lattes" value="5099557868383664"/>
+			<field name="name" value="Érico Nunes Ferreira Bastos"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13925" toEntityRef="Person9579" type="Inventor"/>
+	</relations>
+</entity-relation-data>

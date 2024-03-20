@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:57" record="21411" source="Espacenet">
+	<entities>
+		<entity ref="Patent21411" type="Patent">
+			<semanticIdentifier>brcris::3535ed4a15eba450c69a00a415547f11</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005005A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013005005</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013005005A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131005005</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2013 005005-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013005005"/>
+			<field name="identifier.lattes" value="0108898648446585"/>
+			<field name="identifier.espacenet" value="102013005005"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="CONECTOR URETRAL DE MEDIÇÃO AUTOMATIZADA, MÉTODO DE MEDIÇÃO E USO"/>
+			<field name="title.lattes" value="Conector uretral de medição automatizada, método de medição e uso"/>
+			<field name="depositDate" value="2013-03-01"/>
+			<field name="publicationDate" value="2015-03-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS ARTURO LEVI D'ANCONA"/>
+			<field name="inventor" value="FABIO MASSINI"/>
+			<field name="inventor" value="JOAO CARLOS MARTINS DE ALMEIDA"/>
+			<field name="inventor" value="JOSE WILSON MAGALHAES BASSANI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/20AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B18/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="18"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CONECTOR URETRAL DE MEDIÇÃO AUTOMATIZADA, MÉTODO DE MEDIÇÃO E USO A presente invenção trata-se de um conector uretral de medição automática da pressão vesical, estimativa do fluxo urinário e da área da seção transversal da obstrução infravesical. O dispositivo da presente invenção tem aplicação como ferramenta alternativa ao estudo pressão-fluxo convencional, contando com considerável autonomia para identificar a ocorrência de obstrução infravesical e a necessidade de tratamento medicamentoso ou intervenção cirúrgica, realizando a avaliação clínica de maneira minimamente invasiva, sem gerar dor ou grande desconforto nos pacientes."/>
+			<field name="originatesFrom" value="51427418"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005005"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013005005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013005005"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131005005"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2013 005005-9"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2014131097"/>
+		</entity>
+		<entity ref="Person14816" type="Person">
+			<semanticIdentifier>lattes::0108898648446585</semanticIdentifier>
+			<field name="identifier.lattes" value="0108898648446585"/>
+			<field name="name" value="João Carlos Martins de Almeida"/>
+		</entity>
+		<entity ref="OrgUnit11604" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent21412" type="Patent">
+			<semanticIdentifier>epodoc::WO2014131097</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="51427418"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2014131097"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21411" toEntityRef="Person14816" type="Inventor"/>
+		<relation fromEntityRef="Patent21411" toEntityRef="OrgUnit11604" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:00" record="131" source="Espacenet">
+	<entities>
+		<entity ref="Patent131" type="Patent">
+			<semanticIdentifier>brcris::449b029813bee3f551ffcd614aa57e8c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006607A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019006607</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006607A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191006607</semanticIdentifier>
+			<semanticIdentifier>original::102019006607</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019006607"/>
+			<field name="identifier.lattes" value="7927677053650819"/>
+			<field name="identifier.espacenet" value="102019006607"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processos de síntese de tiadiazóis"/>
+			<field name="title.lattes" value="Processo de síntese de tiadiazoís"/>
+			<field name="depositDate" value="2019-04-01"/>
+			<field name="publicationDate" value="2020-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADELINO VIEIRA DE GODOY NETTO"/>
+			<field name="inventor" value="ARNALDO SARTI"/>
+			<field name="inventor" value="IZABELLI DE PATRICIA SIABE COVELLO"/>
+			<field name="inventor" value="JOSE CLAYSTON MELO PEREIRA"/>
+			<field name="inventor" value="LAIS HONAMI UETI"/>
+			<field name="inventor" value="LARISSA MIZIARA CASEMIRO"/>
+			<field name="inventor" value="MARCELO BRIGATTO SIMOES"/>
+			<field name="inventor" value="MARIA ANGELICA MARTINS COSTA"/>
+			<field name="inventor" value="RENAN DIEGO ZANETTI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D285/02AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="285"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processos de síntese de tiadiazóis . trata-se de processos de síntese de tiadiazóis que são compostos de interesse em diversas áreas tais como medicina na produção de fármacos, agroindústria com a fabricação de defensivos agrícolas, indústria química na produção de aditivos de combustíveis e outros reagentes químicos; ditos processos de síntese de tiadiazóis podem ser realizados por reação em solvente através do uso de água como meio reacional ou como rota sintética em estado sólido, sendo ambos em temperatura ambiente."/>
+			<field name="originatesFrom" value="73034285"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006607"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019006607"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006607"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191006607"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019006607"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person103" type="Person">
+			<semanticIdentifier>lattes::7927677053650819</semanticIdentifier>
+			<field name="identifier.lattes" value="7927677053650819"/>
+			<field name="name" value="Adelino Vieira de Godoy Netto"/>
+		</entity>
+		<entity ref="OrgUnit85" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent131" toEntityRef="Person103" type="Inventor"/>
+		<relation fromEntityRef="Patent131" toEntityRef="OrgUnit85" type="Applicant"/>
+	</relations>
+</entity-relation-data>

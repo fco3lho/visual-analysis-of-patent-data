@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:37:21" record="19002" source="Espacenet">
+	<entities>
+		<entity ref="Patent19002" type="Patent">
+			<semanticIdentifier>brcris::754b084e57cc3de5f43a13ed0815c3d2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002735A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1002735</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002735A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI02735</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1002735-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1002735"/>
+			<field name="identifier.lattes" value="9249938782762635"/>
+			<field name="identifier.espacenet" value="PI1002735"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de medição de corrente elétrica em unidades consumidoras"/>
+			<field name="title.lattes" value="DISPOSITIVO DE MEDIÇÃO DE CORRENTE ELETRICA EM UNIDADES CONSUMIDORAS"/>
+			<field name="depositDate" value="2010-08-09"/>
+			<field name="publicationDate" value="2012-05-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRES PABLO LOPEZ BARBERO"/>
+			<field name="inventor" value="HENRIQUE DE OLIVEIRA HENRIQUES"/>
+			<field name="inventor" value="ODAIR DA SILVA XAVIER"/>
+			<field name="inventor" value="RICARDO MARQUES RIBEIRO"/>
+			<field name="inventor" value="SYDNEY BRAGANTINI GERMANO"/>
+			<field name="inventor" value="WAGNER DA SILVA ZANCO"/>
+			<field name="applicant" value="FUNDACAO EUCLIDES DE CUNHA DE APOIO INSTITUCIONALA UFF"/>
+			<field name="applicant" value="LIGHT SERVICOS DE ELETRICIDADE S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R22/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="22"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R11/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO DE MEDIçãO DE CORRENTE ELéTRICA EM UNIDADES CONSUMIDORAS A presente invençâo se refere a um dispositivo de mediçâo de corrente elétrica em unidades consumidoras compreendendo uma vara de manobra (6) tendo uma unidade local (2) instalada na extremidade distal (6A) e uma unidade receptora (4) instalada na extremidade proximal (6B) da vara de manobra (6); e uma unidade remota (3) a ser utilizada no circuito do cliente; em que a unidade local (2) compreende um medidor tipo alicate, a unidade receptora compreende dispositivo de leitura da corrente medida pela unidade local (2) e a unidade remota (3) compreende um medidor tipoalicate."/>
+			<field name="originatesFrom" value="46160582"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002735"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1002735"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002735"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI02735"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1002735-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13195" type="Person">
+			<semanticIdentifier>lattes::9249938782762635</semanticIdentifier>
+			<field name="identifier.lattes" value="9249938782762635"/>
+			<field name="name" value="Henrique de Oliveira Henriques"/>
+		</entity>
+		<entity ref="OrgUnit10313" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9cd1d0884f3b57596336efffea087e</semanticIdentifier>
+			<field name="name" value="LIGHT SERVICOS DE ELETRICIDADE S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19002" toEntityRef="Person13195" type="Inventor"/>
+		<relation fromEntityRef="Patent19002" toEntityRef="OrgUnit10313" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:40" record="34896" source="Espacenet">
+	<entities>
+		<entity ref="Patent34896" type="Patent">
+			<semanticIdentifier>brcris::b47b0f3d9ee64bdf717ea7db9ad03a53</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904226A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0904226</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0904226A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI04226</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0904226-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0904226"/>
+			<field name="identifier.lattes" value="8437035647330384"/>
+			<field name="identifier.espacenet" value="PI0904226"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="indicador de velocidade de ventos em tiras"/>
+			<field name="title.lattes" value="INDICADOR DE VELOCIDADE DO VENTO EM FAIXA VERTICAL"/>
+			<field name="depositDate" value="2009-10-06"/>
+			<field name="publicationDate" value="2013-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DALZIZA DE OLIVEIRA"/>
+			<field name="inventor" value="DIEGO HENRIQUES DOS SANTOS"/>
+			<field name="inventor" value="OTAVIO JORGE GRIGOLI ABI SAAB"/>
+			<field name="applicant" value="INSTITUTO AGRONOMICO DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01P5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="INDICADOR DE VELOCIDADE DE VENTOS EM TIRAS - A presente tem por objetivo apresentar um equipamento simples e de baixo custo para indicar a velocidade do vento no meio rural. O indicador proposto é uma solução prática, para que o agricultor tenha referência na tomada de decisão sobre o momento adequado para a aplicação de agrotóxicos. O indicador de velocidade de vento em tiras pode ser utilizado em situações em que é necessário saber se a velocidade do vento está dentro de faixas adequadas, com alguma restrição ou impróprias para as mais diversas aplicações, principalmente naspulverizações de defensivos fitossanitários nas propriedades rurais."/>
+			<field name="originatesFrom" value="48051775"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904226"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0904226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0904226"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI04226"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0904226-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24016" type="Person">
+			<semanticIdentifier>lattes::8437035647330384</semanticIdentifier>
+			<field name="identifier.lattes" value="8437035647330384"/>
+			<field name="name" value="Otavio Jorge Grigoli Abi-Saab"/>
+		</entity>
+		<entity ref="OrgUnit18841" type="OrgUnit">
+			<semanticIdentifier>brcris::be4000780b340c539641e8f4feebac99</semanticIdentifier>
+			<field name="name" value="INSTITUTO AGRONOMICO DO PARANA"/>
+		</entity>
+		<entity ref="OrgUnit18842" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34896" toEntityRef="Person24016" type="Inventor"/>
+		<relation fromEntityRef="Patent34896" toEntityRef="OrgUnit18841" type="Applicant"/>
+		<relation fromEntityRef="Patent34896" toEntityRef="OrgUnit18842" type="Applicant"/>
+	</relations>
+</entity-relation-data>

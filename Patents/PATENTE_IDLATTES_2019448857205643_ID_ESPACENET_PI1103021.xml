@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:43" record="4448" source="Espacenet">
+	<entities>
+		<entity ref="Patent4448" type="Patent">
+			<semanticIdentifier>brcris::ca738a0ab83c81670e17b652e65f2c78</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103021A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1103021</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103021A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI03021</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1103021-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1103021"/>
+			<field name="identifier.lattes" value="2019448857205643"/>
+			<field name="identifier.espacenet" value="PI1103021"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Processo de modificação de superfície de cerâmicas odontológicas cristalinas por meio de aplicação de filme espesso"/>
+			<field name="title.lattes" value="PROCESSO DE MODIFICAÇÃO DE SUPERFÍCIE DE CERÂMICAS ODONTOLÓGICAS CRISTALINAS POR MEIO DE APLICAÇÃO DE FILME ESPESSO"/>
+			<field name="depositDate" value="2011-06-29"/>
+			<field name="publicationDate" value="2015-08-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELA ANTONIA SANCHES TARDIVO DELBEN"/>
+			<field name="inventor" value="ANTONIO CARLOS HERNANDES"/>
+			<field name="inventor" value="IGOR STUDART DE MEDEIROS"/>
+			<field name="inventor" value="JOSE RENATO JURKEVICZ DELBEN"/>
+			<field name="inventor" value="RODRIGO DALLA LANA MATTIELLO"/>
+			<field name="applicant" value="FUND. APOIO AO DESEN. ENSINO, CIENCIA E TEC. EST.MATO GROSSO DO SUL - FUNDECT"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B41/85AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="85AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61L27/28AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo de modificação de superfície de cerâmicas odontológicas cristalinas por meio de aplicação de filme espesso. Patente de invenção pertencente ao campo da pertence ao campo da odontologia, mais especificamente aos materiais para próteses ou para revestimento de próteses (cerâmica ou vidro) e foi desenvolvida com o objetivo de revelar material e técnica para aplicação de um filme vítreo à base de sílica sobre substrato de cerâmica odontológica cristalina, visando melhorar a união de peças predominantemente cristalinas aos cimentos resinosos utilizados na odontologia."/>
+			<field name="originatesFrom" value="53794568"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103021"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1103021"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103021"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI03021"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1103021-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3177" type="Person">
+			<semanticIdentifier>lattes::2019448857205643</semanticIdentifier>
+			<field name="identifier.lattes" value="2019448857205643"/>
+			<field name="name" value="Antonio Carlos Hernandes"/>
+		</entity>
+		<entity ref="OrgUnit2558" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit2559" type="OrgUnit">
+			<semanticIdentifier>brcris::6a877d5b96e1431746125011a57baef9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4448" toEntityRef="Person3177" type="Inventor"/>
+		<relation fromEntityRef="Patent4448" toEntityRef="OrgUnit2558" type="Applicant"/>
+		<relation fromEntityRef="Patent4448" toEntityRef="OrgUnit2559" type="Applicant"/>
+	</relations>
+</entity-relation-data>

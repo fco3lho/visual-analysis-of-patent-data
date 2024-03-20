@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:09:02" record="2394" source="Espacenet">
+	<entities>
+		<entity ref="Patent2394" type="Patent">
+			<semanticIdentifier>brcris::2b63a050d4f9da94adbfac9d49c92ffd</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019008117A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019008117</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019008117A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191008117</semanticIdentifier>
+			<semanticIdentifier>original::102019008117</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019008117"/>
+			<field name="identifier.lattes" value="1861302993203391"/>
+			<field name="identifier.espacenet" value="102019008117"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo integrativo de extração e purificação de compostos bioativos presentes no alecrim (rosmarinus officinalis)"/>
+			<field name="title.lattes" value="PROCESSO INTEGRATIVO DE EXTRAÇÃO E PURIFICAÇÃO DE COMPOSTOS BIOATIVOS PRESENTES NO ALECRIM (Rosmarinus officinalis)"/>
+			<field name="depositDate" value="2019-04-22"/>
+			<field name="publicationDate" value="2020-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO SILVA LIMA"/>
+			<field name="inventor" value="AMANDA FERREIRA VELOZO"/>
+			<field name="inventor" value="CLEIDE MARA FARIA SOARES"/>
+			<field name="inventor" value="MATHEUS MENDONCA PEREIRA"/>
+			<field name="inventor" value="PAULA GABRIELLE CAMPOS GOMES"/>
+			<field name="inventor" value="RANYERE LUCENA DE SOUZA"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA E PESQUISA"/>
+			<field name="applicant" value="UNIVERSIDADE TIRADENTES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D11/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K36/53AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo integrativo de extração e purificação de compostos bioativos presentes no alecrim (rosmarinus officinalis) a presente patente de invenção refere-se a um processo integrado para extração seletiva, concentração e purificação dos compostos presentes no alecrim, do gênero rosmarinus officinalis, preferencialmente a clorofila e a ácido rosmarínico, mediante a aplicação de uma sequência de processos integrados baseados na extração sólido-líquido e extração líquido-líquido por meio de sistema aquoso bifásico micela é eficiente para purificar e concentrar biomoléculas hidrofóbicas, e, diante disso possui aplicação direta nas áreas indústrias alimentícia, farmacêutica e cosmética, representado assim uma importante estratégia tecnológica para melhorar a eficácia da estrutura dos bioativos em processo de extração sólido-líquido e líquido-líquido."/>
+			<field name="originatesFrom" value="73045623"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019008117"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019008117"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019008117"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191008117"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019008117"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1731" type="Person">
+			<semanticIdentifier>lattes::1861302993203391</semanticIdentifier>
+			<field name="identifier.lattes" value="1861302993203391"/>
+			<field name="name" value="Amanda Ferreira Velozo"/>
+		</entity>
+		<entity ref="OrgUnit1337" type="OrgUnit">
+			<semanticIdentifier>brcris::694cdc95253ffdadf7f411af652d52db</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE TECNOLOGIA E PESQUISA"/>
+		</entity>
+		<entity ref="OrgUnit1338" type="OrgUnit">
+			<semanticIdentifier>brcris::5502f1577182ecbaafe17b47761b9a07</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TIRADENTES"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2394" toEntityRef="Person1731" type="Inventor"/>
+		<relation fromEntityRef="Patent2394" toEntityRef="OrgUnit1337" type="Applicant"/>
+		<relation fromEntityRef="Patent2394" toEntityRef="OrgUnit1338" type="Applicant"/>
+	</relations>
+</entity-relation-data>

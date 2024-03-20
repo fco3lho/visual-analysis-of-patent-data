@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:53:59" record="27989" source="Espacenet">
+	<entities>
+		<entity ref="Patent27989" type="Patent">
+			<semanticIdentifier>brcris::9d165a47722606dda3d6419a8738e7a4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012005282A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012005282</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012005282A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121005282</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 005282-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012005282"/>
+			<field name="identifier.lattes" value="4636207655078294"/>
+			<field name="identifier.espacenet" value="102012005282"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="GERADOR DE OZÔNIO MODULAR OPERANDO EM ALTA FREQUÊNCIA COM CONTROLE DIGITAL"/>
+			<field name="title.lattes" value="Gerador de ozônio modular operando em alta frequência com controle digital"/>
+			<field name="depositDate" value="2012-03-09"/>
+			<field name="publicationDate" value="2014-05-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CID MARCOS GONCALVES ANDRADE"/>
+			<field name="inventor" value="GILSON JUNIOR SCHIAVON"/>
+			<field name="inventor" value="LUIZ MARIO DE MATOS JORGE"/>
+			<field name="inventor" value="PAULO ROBERTO PARAISO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/78AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="78AI"/>
+			</field>
+			<field name="abstract.espacenet" value="GERADOR DE OZÔNIO MODULAR OPERANDO EM ALTA FREQUÊNCIA COM CONTROLE DIGITAL. A PRESENTE INVENÇÃO REFEREÇ-SE A UM EQUIPAMENTO GERADOR DE OZÔNIO MODULAR OPERANDO EM ALTA FREQUÊNCIA COM CONTROLADOR DIGITAL DE SINAIS (DSC) E AÇÃO PID PARA TRATAMENTOS DE ÁGUAS, EFLUENTES DOMÉSTICOS E INDUSTRIAIS, DESINFECÇÃO DE AMBIENTES, TRATAMENTO DE LIXÍVIA, CHORUME, USO EM LAVANDERIAS INDUSTRIAIS, PROCESSOS DE BRANQUEAMENTO, PROCESSOS DE SÍNTESE, LIMPEZA DE PISCINAS, USO ODONTOLÓGICO E MEDICINAL, ENTRE OUTROS, ALIMENTADO POR ENERGIA DA CONCESSIONÁRIA OU SOLAR. O MÓDULO PADRÃO PARA O GERADOR DE OZÔNIO POSSUI POTÊNCIA DE SAÍDA DE 100 W, UTILIZA BOBINA AUTOMOTIVA NO CONVERSOR FLYBACK E POSSUI CONTROLE DIGITAL REALIZADO POR UM CONTROLADOR DIGITAL DE SINAIS (DSC). O GERADOR PROJETADO É BASEADO NO PRINCÍPIO DE DESCARGA CORONA E PODE SER APLICADO EM PROCESSOS OXIDATIVOS EM GERAL, PARA TANTO, BASTA ASSOCIAR A QUANTIDADE NECESSÁRIA DE MÓDULOS PARA ALCANÇAR A POTÊNCIA E CONCENTRAÇÃO DE OZÔNIO NECESSÁRIA PARA A APLICAÇÃO. OS CONVERSORES SÃO PROJETADOS E IMPLEMENTADOS EM MALHA FECHADA COM AÇÃO PI. A ETAPA DE POTÊNCIA É CONSTITUÍDA POR DOIS CONVERSORES CHAVEADOS EM ALTA FREQUÊNCIA, SENDO UM CONVERSOR BUCK E UM CONVERSOR FLYBACK, AMBOS CONTROLADOS DIGITALMENTE POR UM DSC."/>
+			<field name="originatesFrom" value="50628298"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012005282"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012005282"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012005282"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121005282"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 005282-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19308" type="Person">
+			<semanticIdentifier>lattes::4636207655078294</semanticIdentifier>
+			<field name="identifier.lattes" value="4636207655078294"/>
+			<field name="name" value="Luiz Mario de Matos Jorge"/>
+		</entity>
+		<entity ref="OrgUnit15023" type="OrgUnit">
+			<semanticIdentifier>brcris::e2506f938555d6bfe6ccf0c4e3276fcf</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27989" toEntityRef="Person19308" type="Inventor"/>
+		<relation fromEntityRef="Patent27989" toEntityRef="OrgUnit15023" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:37" record="8201" source="Espacenet">
+	<entities>
+		<entity ref="Patent8201" type="Patent">
+			<semanticIdentifier>brcris::c11de72f1d402cf9a186385afc4e69ca</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501966A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501966</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501966A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01966</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501966-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501966"/>
+			<field name="identifier.lattes" value="7731511027696036"/>
+			<field name="identifier.espacenet" value="PI0501966"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="algoritmo de seleção de seqüências de espalhamento de sistemas cdma para canais com desvanecimento seletivo em freqüência"/>
+			<field name="title.lattes" value="ALGORITMO DE SELEÇÃO DE SEQUÊNCIAS DE ESPALHAMENTO DE SISTEMAS CDMA PARA CANAIS COM DESVANECIMENTO SELETIVO EM FREQUÊNCIA"/>
+			<field name="depositDate" value="2005-05-16"/>
+			<field name="publicationDate" value="2007-01-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELSO DE ALMEIDA"/>
+			<field name="inventor" value="RODRIGO PEREIRA RAMOS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04B1/69AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="69AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04W16/14AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04W36/20AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ALGORITMO DE SELEçãO DE SEQüêNCIAS DE ESPALHAMENTO DE SISTEMAS CDMA PARA CANAIS COM DESVANECIMENTO SELETIVO EM FREQüêNCIA&quot;. Novo algoritmo para escolha de seqüências de espalhamento para combater a interferência em canais com desvanecimento seletivo em freqüência em um ambiente multiusuário CDMA, o qual proporciona uma efetiva redução de interferência para o enlace direto de um sistema de acesso múltiplo por divisão em códigos CDMA, sendo implantado através de um software servindo para proporcionar a seleção preferencial de seqüências com o objetivo de minimizar a taxa de erro de bit média (BER), para canais com desvanecimento seletivo em freqüência com L percursos resolvíveis; onde a seleção depende do ganho de diversidade, do fator de espalhamento e da relação sinal-ruído média por bit, e baseia-se nas propriedades das correlações cruzadas e autocorrelações das seqüências de espalhamento,"/>
+			<field name="originatesFrom" value="37607699"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501966"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501966"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501966"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01966"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501966-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5597" type="Person">
+			<semanticIdentifier>lattes::7731511027696036</semanticIdentifier>
+			<field name="identifier.lattes" value="7731511027696036"/>
+			<field name="name" value="Celso de Almeida"/>
+		</entity>
+		<entity ref="OrgUnit4427" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8201" toEntityRef="Person5597" type="Inventor"/>
+		<relation fromEntityRef="Patent8201" toEntityRef="OrgUnit4427" type="Applicant"/>
+	</relations>
+</entity-relation-data>

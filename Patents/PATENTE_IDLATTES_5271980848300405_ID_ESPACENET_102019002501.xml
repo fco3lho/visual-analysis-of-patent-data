@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:14" record="31776" source="Espacenet">
+	<entities>
+		<entity ref="Patent31776" type="Patent">
+			<semanticIdentifier>brcris::fdcb9f75f2936e332a5b7f1ad8e86ac4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019002501A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019002501</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019002501A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191002501</semanticIdentifier>
+			<semanticIdentifier>original::102019002501</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019002501"/>
+			<field name="identifier.lattes" value="5271980848300405"/>
+			<field name="identifier.espacenet" value="102019002501"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo de iluminação extracorpórea pulmonar e seu uso"/>
+			<field name="title.lattes" value="?DISPOSITIVO DE ILUMINAÇÃO EXTRACORPÓREA PULMONAR E SEU USO'"/>
+			<field name="depositDate" value="2019-02-07"/>
+			<field name="publicationDate" value="2020-09-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRA IVO DE MEDEIROS"/>
+			<field name="inventor" value="ANA CAROLINA GUERTA SALINA"/>
+			<field name="inventor" value="CRISTINA KURACHI"/>
+			<field name="inventor" value="ELIZEU DA SILVA RIBEIRO"/>
+			<field name="inventor" value="GUILHERME FERRAZ RIBEIRO RUELA"/>
+			<field name="inventor" value="ILAIALI SOUZA LEITE"/>
+			<field name="inventor" value="MADISON RICARDO POTT"/>
+			<field name="inventor" value="MARIANA CARREIRA GERALDE"/>
+			<field name="inventor" value="NATALIA MAYUMI INADA"/>
+			<field name="inventor" value="PRISCILA FERNANDA CAMPOS DE MENEZES"/>
+			<field name="inventor" value="VANDERLEI SALVADOR BAGNATO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS - UFSCAR"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA &quot;JULIO DE MESQUITA FILHO&quot;"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61N5/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo de iluminação extracorpórea pulmonar e seu uso a presente invenção faz referência a um dispositivo emissor de luz, ajustável ao tórax humano, a ser utilizado para erradicação de microrganismos causadores de infecções pulmonares, em especial, para erradicação de bactérias causadoras de pneumonias, através da técnica de inativação fotodinâmica antimicrobiana, de forma extracorpórea, ou seja, não invasiva, a fim de proporcionar agilidade e melhores resultados no tratamento de tais infecções. tal dispositivo contém emissores de luz que irradiam luz infravermelha, sistema de fixação e ajuste ao corpo e sistema de controle de irradiação de luz."/>
+			<field name="originatesFrom" value="73005859"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019002501"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019002501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019002501"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191002501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019002501"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21794" type="Person">
+			<semanticIdentifier>lattes::5271980848300405</semanticIdentifier>
+			<field name="identifier.lattes" value="5271980848300405"/>
+			<field name="name" value="Mariana Carreira Geralde"/>
+		</entity>
+		<entity ref="OrgUnit17035" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit17036" type="OrgUnit">
+			<semanticIdentifier>brcris::69237b4a5f523b35a796ac73ea518aaa</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA &quot;JULIO DE MESQUITA FILHO&quot;"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31776" toEntityRef="Person21794" type="Inventor"/>
+		<relation fromEntityRef="Patent31776" toEntityRef="OrgUnit17035" type="Applicant"/>
+		<relation fromEntityRef="Patent31776" toEntityRef="OrgUnit17036" type="Applicant"/>
+	</relations>
+</entity-relation-data>

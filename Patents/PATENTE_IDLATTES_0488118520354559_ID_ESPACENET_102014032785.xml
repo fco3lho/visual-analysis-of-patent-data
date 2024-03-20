@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:11" record="4188" source="Espacenet">
+	<entities>
+		<entity ref="Patent4188" type="Patent">
+			<semanticIdentifier>brcris::a310bc62622bc63a47d51bddf4a67791</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032785A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014032785</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014032785A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141032785</semanticIdentifier>
+			<semanticIdentifier>original::102014032785</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014032785"/>
+			<field name="identifier.lattes" value="0488118520354559"/>
+			<field name="identifier.espacenet" value="102014032785"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para determinação analítica quantitativa"/>
+			<field name="title.lattes" value="Método para determinação analítica quantitativa (micro-emulsificação)"/>
+			<field name="depositDate" value="2014-12-29"/>
+			<field name="publicationDate" value="2017-07-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANGELO LUIZ GOBBI"/>
+			<field name="inventor" value="BRUNO CHARLES DO COUTO"/>
+			<field name="inventor" value="LEANDRO YOSHIO SHIROMA"/>
+			<field name="inventor" value="RENATO SOUSA LIMA"/>
+			<field name="inventor" value="ROGERIO MESQUITA DE CARVALHO"/>
+			<field name="applicant" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS - CNPEM"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/28AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="patente de invenção para &quot;método para determinação analítica quantitativa&quot; a presente invenção refere-se ao campo da química analítica quantitativa, com destaque para os métodos point-of-care, através do qual podese processar amostras diversas em locais remotos, obtendo-se, por exemplo, os teores de determinado analito importante para o monitoramento de uma unidade de processamento e/ou produção, assim como seu controle em amostras de descarte, isso de maneira simples e robusta. a presente invenção se refere a um método termodinâmico que visa à realização de ensaios analíticos quantitativos, precisos ou preliminares. seu protocolo é simples, barato, rápido, ideal para processos de integração em ultra larga escala (ulsi). o método objeto da presente invenção é aplicável, a princípio, a quaisquer espécies químicas prescindindo requisitos como absorção óptica, caráter eletroativo ou reatividade química seletiva, dentre outros."/>
+			<field name="originatesFrom" value="61622100"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032785"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014032785"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014032785"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141032785"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014032785"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2949" type="Person">
+			<semanticIdentifier>lattes::0488118520354559</semanticIdentifier>
+			<field name="identifier.lattes" value="0488118520354559"/>
+			<field name="name" value="Angelo Luiz Gobbi"/>
+		</entity>
+		<entity ref="OrgUnit2398" type="OrgUnit">
+			<semanticIdentifier>brcris::8bd2dd74edf0a3c0cd7728b09ba1d497</semanticIdentifier>
+			<field name="name" value="CENTRO NACIONAL DE PESQUISA EM ENERGIA E MATERIAIS - CNPEM"/>
+		</entity>
+		<entity ref="OrgUnit2399" type="OrgUnit">
+			<semanticIdentifier>brcris::dd59b857a38cbd6527ae49d6df283444</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit2400" type="OrgUnit">
+			<semanticIdentifier>brcris::91ecdb9f8d254452800e73de74357a74</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S. A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4188" toEntityRef="Person2949" type="Inventor"/>
+		<relation fromEntityRef="Patent4188" toEntityRef="OrgUnit2398" type="Applicant"/>
+		<relation fromEntityRef="Patent4188" toEntityRef="OrgUnit2399" type="Applicant"/>
+		<relation fromEntityRef="Patent4188" toEntityRef="OrgUnit2400" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:28" record="875" source="Espacenet">
+	<entities>
+		<entity ref="Patent875" type="Patent">
+			<semanticIdentifier>brcris::6ad84cc5a0266253b6a9991df386660c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008517A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018008517</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018008517A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181008517</semanticIdentifier>
+			<semanticIdentifier>original::102018008517</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018008517"/>
+			<field name="identifier.lattes" value="0450328743529819"/>
+			<field name="identifier.espacenet" value="102018008517"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="instrumento de medição em forma de pinças para pequenas medidas em experimentação animal, áreas anatômicas e áreas de difícil acesso"/>
+			<field name="title.lattes" value="INSTRUMENTO DE MEDIÇÃO EM FORMA DE PINÇAS PARA PEQUENAS MEDIDAS EM EXPERIMENTAÇÃO ANIMAL, ÁREAS ANATÔMICAS E ÁREAS DE DIFÍCIL ACESSO"/>
+			<field name="depositDate" value="2018-04-27"/>
+			<field name="publicationDate" value="2019-11-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AGNES BATISTA MEIRELES"/>
+			<field name="inventor" value="GUSTAVO EUSTAQUIO BRITO ALVIM MELO"/>
+			<field name="inventor" value="LIBARDO ANDRES GONZALEZ TORRES"/>
+			<field name="inventor" value="MARCO TULIO MOREIRA MOURAO"/>
+			<field name="inventor" value="TIMILLY MAYRA MARTINS DA CRUZ"/>
+			<field name="inventor" value="WAGNER DE FATIMA PEREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B3/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o invento é um instrumento de medição ergonomicamente mais viável, com extremidades das pinças achatadas de modo a permitir maior estabilidade de medição, dispensar o uso de molas e proporcionar resultado de medição mais confiável. dispositivo projetado para efetuar medição em arco com as pinças (3) e (4) possuindo uma região circular vazada (1) e pinças coplanares que rotacionam conforme o eixo formado pelo pino fixador (2). uma saliência (9) vazada em (8) para o posicionamento do polegar do operador e outra grande saliência (5) vazada em (7) para posicionamento dos demais dedos da mão possibilitam ergonomia de uso. o corpo a ser medido é então posicionado na abertura formada pelas pontas da pinça em (14), e ao fechar a abertura para medir, tal valor é obtido por meio do alinhamento das marcações da escala móvel (10) com as da escala fixa (12). a medição é estabilizada através de parafuso de fixação (11) na escala fixa (12). o dispositivo é limitado a valor máximo de medição através de um freio (6). o invento pode ser utilizado em tecidos vivos incluindo sistemas e órgãos; tecidos de animais em experimentação ou tecidos não vivos em áreas de difícil acesso ou proporções diminutas."/>
+			<field name="originatesFrom" value="68385882"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008517"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018008517"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018008517"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181008517"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018008517"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person635" type="Person">
+			<semanticIdentifier>lattes::0450328743529819</semanticIdentifier>
+			<field name="identifier.lattes" value="0450328743529819"/>
+			<field name="name" value="Agnes Batista Meireles"/>
+		</entity>
+		<entity ref="OrgUnit511" type="OrgUnit">
+			<semanticIdentifier>brcris::732b724cf039d0ba1e57a700f92fb04a</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent875" toEntityRef="Person635" type="Inventor"/>
+		<relation fromEntityRef="Patent875" toEntityRef="OrgUnit511" type="Applicant"/>
+	</relations>
+</entity-relation-data>

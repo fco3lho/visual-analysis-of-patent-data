@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:22" record="20301" source="Espacenet">
+	<entities>
+		<entity ref="Patent20301" type="Patent">
+			<semanticIdentifier>brcris::33b66f5804054d2fc41d5eb8534eaef7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016000688A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016000688</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016000688A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161000688</semanticIdentifier>
+			<semanticIdentifier>original::102016000688</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016000688"/>
+			<field name="identifier.lattes" value="1519590495201339"/>
+			<field name="identifier.espacenet" value="102016000688"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="quimioterápicos antineoplásicos a base de platina com potencial aplicação contra carcinoma de pulmão e de laringe humana"/>
+			<field name="title.lattes" value="QUIMIOTERÁPICOS ANTINEOPLÁSICOS A BASE DE PLATINA COM POTENCIAL APLICAÇÃO CONTRA CARCINOMA DE PULMÃO E DE LARINGE HUMANA"/>
+			<field name="depositDate" value="2016-01-13"/>
+			<field name="publicationDate" value="2017-07-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARINE EMILE MENEZES LAGRANGE"/>
+			<field name="inventor" value="JACIANA DOS SANTOS AGUIAR"/>
+			<field name="inventor" value="LEONARDO SEVERIANO DE ALBUQUERQUE"/>
+			<field name="inventor" value="MONICA FREIRE BELIAN"/>
+			<field name="inventor" value="TERESINHA GONCALVES DA SILVA"/>
+			<field name="inventor" value="WAGNER EDUARDO DA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07F15/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P35/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="quimioterápicos antineoplásicos a base de platina com potencial aplicação contra carcinoma de pulmão e de laringe humana. a presente invenção trata-se de dois compostos de coordenação platínicos, contendo em sua estrutura dois núcleos de platina (ii), apresentando estes compostos atividades antitumorais contra carcinoma de pulmão e de laringe humano, consistindo assim, em promissores fármacos a serem aplicados nessa terapêutica. a presente invenção apresenta-se como inovação tecnológica no que tange as características estruturais dos compostos apresentados (a) e seu alto potencial antitumoral contra carcinomas pulmonares e de laringe humana (b). os percentuais de inibição tumoral, obtidos mediante realização de ensaios in vitro, frente às células de carcinoma mucoepidermóide de pulmão humano foram 73,2 e 47,8%; e de laringe humana foram 51,3 e 49,8 %; para os complexos cmw-s e cmw-n, respectivamente."/>
+			<field name="originatesFrom" value="61731557"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016000688"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016000688"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016000688"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161000688"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016000688"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14096" type="Person">
+			<semanticIdentifier>lattes::1519590495201339</semanticIdentifier>
+			<field name="identifier.lattes" value="1519590495201339"/>
+			<field name="name" value="Jaciana dos Santos Aguiar"/>
+		</entity>
+		<entity ref="OrgUnit11037" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+		<entity ref="OrgUnit11038" type="OrgUnit">
+			<semanticIdentifier>brcris::e0d15b262707a7e7cc34cabb280f0dd9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20301" toEntityRef="Person14096" type="Inventor"/>
+		<relation fromEntityRef="Patent20301" toEntityRef="OrgUnit11037" type="Applicant"/>
+		<relation fromEntityRef="Patent20301" toEntityRef="OrgUnit11038" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:58" record="42880" source="Espacenet">
+	<entities>
+		<entity ref="Patent42880" type="Patent">
+			<semanticIdentifier>brcris::fdcb107cf80f2e4979487d351124c28b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700427A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9700427</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700427A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979700427</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9700427"/>
+			<field name="identifier.lattes" value="8237021184348243"/>
+			<field name="identifier.espacenet" value="9700427"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de saturação de colmos-sementes de cana-de açucar com sacarose"/>
+			<field name="title.lattes" value="Processo de saturação de colmos-sementes de cana-de-açúcar com sacarose"/>
+			<field name="depositDate" value="1997-03-20"/>
+			<field name="publicationDate" value="1998-12-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO SANGUINO"/>
+			<field name="inventor" value="CLAUDIA PRIORI"/>
+			<field name="inventor" value="KIL JIL PARK"/>
+			<field name="inventor" value="SYLVIO LUIS HONORIO"/>
+			<field name="inventor" value="WILLIAM LEE BURNQUIST"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N3/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4066291"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700427"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9700427"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700427"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979700427"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29251" type="Person">
+			<semanticIdentifier>lattes::8237021184348243</semanticIdentifier>
+			<field name="identifier.lattes" value="8237021184348243"/>
+			<field name="name" value="Sylvio Luis Honorio"/>
+		</entity>
+		<entity ref="OrgUnit22916" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42880" toEntityRef="Person29251" type="Inventor"/>
+		<relation fromEntityRef="Patent42880" toEntityRef="OrgUnit22916" type="Applicant"/>
+	</relations>
+</entity-relation-data>

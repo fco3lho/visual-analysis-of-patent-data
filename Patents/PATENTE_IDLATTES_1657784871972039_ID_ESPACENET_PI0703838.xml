@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:24" record="18004" source="Espacenet">
+	<entities>
+		<entity ref="Patent18004" type="Patent">
+			<semanticIdentifier>brcris::f2449ce01a702cdfeba695c5cfbc20ee</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703838A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703838</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703838A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03838</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703838-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703838"/>
+			<field name="identifier.lattes" value="1657784871972039"/>
+			<field name="identifier.espacenet" value="PI0703838"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método e procedimento para extração em fase sólida utilizando argila como sorvente"/>
+			<field name="title.lattes" value="Método e procedimento para extração em fase sólida utilizando argila como sorvente"/>
+			<field name="depositDate" value="2007-02-05"/>
+			<field name="publicationDate" value="2008-09-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GLAUCIA MARIA FERREIRA PINTO"/>
+			<field name="inventor" value="TALITA KATIUSKA TAKIZAWA DIAS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D15/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J20/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="20"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C02F1/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO E PROCEDIMENTO PARA EXTRAçãO EM FASE SóLIDA UTILIZANDO ARGILA COMO SORVENTE. A preocupação ambiental, principalmente em relação às fontes de águas ambientais, é crescente. A cada dia aumenta a necessidade de se buscar novas tecnologias que coíbam o avanço da poluição. Porém, para realizar um monitoramento ambiental, o preparo das amostras é a etapa mais importante devido, principalmente, aos baixos níveis de poluentes (traços) e a interferência ocasionada pela presença de outros constituintes nas amostras. Na etapa de preparo, torna-se importante, portanto, pré-concentrar as amostras e extrair o poluente desejado. Dentre as técnicas de extração que atingem este objetivo, a extração em fase sólida apresenta destaque. Porém, ainda assim, existe uma problemática no tocante a metodologia a ser seguida, pois saber qual solvente utilizar, quais serão os volumes de cada substancia e principalmente qual sorvente a ser utilizado, é fundamental para um bom resultado na extração. Os sorventes utilizados atualmente são, na maioria das vezes, inviáveis devido as suas instabilidades e ineficiências em certas ocasiões, sem mencionar o altíssimo custo desses métodos convencionais. Assim, a invenção proposta apresenta a utilização de um procedimento, método e sorvente (argila) capaz de atingir melhores resultados no processo de extração de poluentes das águas ambientais com um custo baixíssimo, além também da fácil automação."/>
+			<field name="originatesFrom" value="39765153"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703838"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703838"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703838"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03838"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703838-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12457" type="Person">
+			<semanticIdentifier>lattes::1657784871972039</semanticIdentifier>
+			<field name="identifier.lattes" value="1657784871972039"/>
+			<field name="name" value="Glaucia Maria Ferreira Pinto"/>
+		</entity>
+		<entity ref="OrgUnit9702" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18004" toEntityRef="Person12457" type="Inventor"/>
+		<relation fromEntityRef="Patent18004" toEntityRef="OrgUnit9702" type="Applicant"/>
+	</relations>
+</entity-relation-data>

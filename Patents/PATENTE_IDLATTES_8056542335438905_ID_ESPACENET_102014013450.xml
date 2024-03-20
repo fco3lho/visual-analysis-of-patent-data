@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:44" record="42812" source="Espacenet">
+	<entities>
+		<entity ref="Patent42812" type="Patent">
+			<semanticIdentifier>brcris::201c6601f5cc4aef43ec0f2fa2384bd6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014013450A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014013450</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014013450A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141013450</semanticIdentifier>
+			<semanticIdentifier>original::102014013450</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014013450"/>
+			<field name="identifier.lattes" value="8056542335438905"/>
+			<field name="identifier.espacenet" value="102014013450"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="detector de outliers usando gráfico de controle em medidas de perfilagem"/>
+			<field name="title.lattes" value="Detector de Outliers Usando Gráficos de Controle em Medidas de Perfilagem"/>
+			<field name="depositDate" value="2014-05-26"/>
+			<field name="publicationDate" value="2016-02-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL FRANCISCO MARANHAO EVANGELISTA"/>
+			<field name="inventor" value="DIEGO GONCALVES DO SANTOS"/>
+			<field name="inventor" value="JONAS PEDRO FABRIS"/>
+			<field name="inventor" value="MARIA EMILIA CAMARGO"/>
+			<field name="inventor" value="SUZANA LEITAO RUSSO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01V9/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="detecção de outliers usando gráfico de controle em medidas de perfilagem a presente invenção refere-se a um método, processo, para a detecção de uma anomalia em dados de perfilagem de poços de petróleo, num estado de alarme com um sinal para evitar falsos alarmes (desmorronamentos de lama) de derivas do sinal graduais e medições de outlier, que compreende: a obtenção de um valor de medição do sinal no momento atual, determinando um parâmetro de posição e um parâmetro de desvio a partir de valores de medições anteriores do sinal que foram medidos durante uma janela de tempo, com esses valores emprega-se as técnicas de controle estatístico de qualidade nesses dados de perfilagem dos poços de petróleo, pelo método de gráficos de controle, para a identificação de anomalias existentes no poço, pois essas atrapalham na interpretaçção dos dados. o gráfico de controle é uma representação gráfica dos dados, sendo que colocando em destaque todos os dados que estiverem fora dos seus limites de controle lsc e lic, a partir disso, infere-se que esses dados sobressalentes são considerados outliers. para este caso será útil na formação de um perfil sônico do poço sem as imperfeições dos deslizamentos e arrombamentos."/>
+			<field name="originatesFrom" value="55182691"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014013450"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014013450"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014013450"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141013450"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014013450"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29208" type="Person">
+			<semanticIdentifier>lattes::8056542335438905</semanticIdentifier>
+			<field name="identifier.lattes" value="8056542335438905"/>
+			<field name="name" value="Suzana Leitão Russo"/>
+		</entity>
+		<entity ref="OrgUnit22879" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42812" toEntityRef="Person29208" type="Inventor"/>
+		<relation fromEntityRef="Patent42812" toEntityRef="OrgUnit22879" type="Applicant"/>
+	</relations>
+</entity-relation-data>

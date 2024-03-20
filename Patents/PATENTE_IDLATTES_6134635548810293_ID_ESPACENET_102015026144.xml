@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:50" record="6776" source="Espacenet">
+	<entities>
+		<entity ref="Patent6776" type="Patent">
+			<semanticIdentifier>brcris::6abd120791aeefcc8425d4c1bed72a40</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015026144A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015026144</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015026144A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151026144</semanticIdentifier>
+			<semanticIdentifier>original::102015026144</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015026144"/>
+			<field name="identifier.lattes" value="6134635548810293"/>
+			<field name="identifier.espacenet" value="102015026144"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de detecção precoce de deteriorações elétricas e mecânicas em turbogeradores por assinatura elétrica"/>
+			<field name="title.lattes" value="Sistema de Detecção Precoce de Deteriorações Elétricas e Mecânicas em Turbogeradores por Assinatura Elétrica"/>
+			<field name="depositDate" value="2015-10-15"/>
+			<field name="publicationDate" value="2018-07-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMILA PAES SALOMON"/>
+			<field name="inventor" value="ERIK LEANDRO BONALDI"/>
+			<field name="inventor" value="LEVY ELY DE LACERDA DE OLIVEIRA"/>
+			<field name="applicant" value="INSTITUTO GNARUS"/>
+			<field name="applicant" value="TERMO NORTE ENERGIA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/34AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de detecção precoce de deteriorações elétricas e mecânicas em turbogeradores por assinatura elétrica de acordo com a presente invenção, pertencente à área de eletrônica, é descrito um sistema capaz de detectar precocemente deteriorações mecânicas e elétricas no estado operacional de um gerador elétrico(6) pertencente a um conjunto turbogerador(1), de forma a evitar que uma pane generalizada e mais grave venha a acontecer. a detecção das deteriorações tanto elétricas como mecânicas do sistema baseiase nas técnicas de análise de assinatura elétrica - esa que considera que cada gerador elétrico tem sua própria assinatura elétrica que pode ser obtida pelos sinais correspondentes de tensões(van, vbn e vcn) e correntes(ia, ib e ic) por ele gerados."/>
+			<field name="originatesFrom" value="62954467"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015026144"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015026144"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015026144"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151026144"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015026144"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4538" type="Person">
+			<semanticIdentifier>lattes::6134635548810293</semanticIdentifier>
+			<field name="identifier.lattes" value="6134635548810293"/>
+			<field name="name" value="Camila Paes Salomon"/>
+		</entity>
+		<entity ref="OrgUnit3580" type="OrgUnit">
+			<semanticIdentifier>brcris::c1b890158418876a562a2ce82c9314c5</semanticIdentifier>
+			<field name="name" value="INSTITUTO GNARUS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6776" toEntityRef="Person4538" type="Inventor"/>
+		<relation fromEntityRef="Patent6776" toEntityRef="OrgUnit3580" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:31" record="31481" source="Espacenet">
+	<entities>
+		<entity ref="Patent31481" type="Patent">
+			<semanticIdentifier>brcris::50281770fb83f5736ab7b19f0202eaae</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0506049A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0506049</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0506049A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI06049</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0506049-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0506049"/>
+			<field name="identifier.lattes" value="8755792623695341"/>
+			<field name="identifier.espacenet" value="PI0506049"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de verificação e quantificação de imunoglobulina a secretora &quot;anti-toxoplasma gondii&quot; da lágrima e outras secreções por método imunoenzimático"/>
+			<field name="title.lattes" value="Processo de verificação e quantificação de imunoglobulina A secretora anti-toxoplasma gondii da lágrima e outraas secreções por método imunoenzimático."/>
+			<field name="depositDate" value="2005-12-20"/>
+			<field name="publicationDate" value="2007-10-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ELIZABETH MALAGUE+-O DE SANTANA"/>
+			<field name="inventor" value="MARIA ISABEL LYNCH GAETE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/53AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE VERIFICAçãO E QUANTIFICAçãO DE IMUNOGLOBULINA A SECRETORA &quot;ANTI-TOXOPLASMA gondii&quot; DA LáGRIMA E OUTRAS SECREçõES POR MéTODO IMUNOENZIMáTICO. Toma-se amostra de lágrima com papel filtro, de 5 cm x 0.5 cm no fundo de saco conjuntival inferior do olho comprometido, ou de qualquer outra secreção do organismo. A amostra é congelada. Retira-se a lágrima ou outra secreção colhida, para ser submetida à determinação da presença e quantidade de Imunoglobulina A secretora anti-Toxoplasma gondii, por meio de método de imunoensaio prévia sensibilização das placas com antígeno da cepa RH."/>
+			<field name="originatesFrom" value="38530060"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0506049"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0506049"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0506049"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI06049"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0506049-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21555" type="Person">
+			<semanticIdentifier>lattes::8755792623695341</semanticIdentifier>
+			<field name="identifier.lattes" value="8755792623695341"/>
+			<field name="name" value="Maria Isabel Lynch Gaete"/>
+		</entity>
+		<entity ref="OrgUnit16826" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31481" toEntityRef="Person21555" type="Inventor"/>
+		<relation fromEntityRef="Patent31481" toEntityRef="OrgUnit16826" type="Applicant"/>
+	</relations>
+</entity-relation-data>

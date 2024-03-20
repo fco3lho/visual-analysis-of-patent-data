@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:15" record="1294" source="Espacenet">
+	<entities>
+		<entity ref="Patent1294" type="Patent">
+			<semanticIdentifier>brcris::2aefb948f705e9dc88122a03c5a8e2bf</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021002A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016021002</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021002A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161021002</semanticIdentifier>
+			<semanticIdentifier>original::102016021002</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016021002"/>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="identifier.espacenet" value="102016021002"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="acionamento e proteção de motor de indução trifásico via processador digital e de dispositivos optoacopladores"/>
+			<field name="title.lattes" value="ACIONAMENTO E PROTEÇÃO DE MOTOR DE INDUÇÃO TRIFÁSICO VIA PROCESSADOR DIGITAL E DE DISPOSITIVOS OPTOACOPLADORES"/>
+			<field name="depositDate" value="2016-09-12"/>
+			<field name="publicationDate" value="2018-03-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO GOEDTEL"/>
+			<field name="inventor" value="JOEL LEON SLIPACK"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03K17/78AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="78AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F01B27/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H02P1/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido de invenção refere-se a um equipamento utilizado para o acionamento e proteção de motores de indução trifásicos com o objetivo de automatizar as comutações direta, estrela-triângulo ou compensada, além de proteger os motores de distúrbios de tensão e falta de fase. a leitura das tensões de alimentação do motor é feita por meio de dispositivos optoacopladores e o acionamento e proteção são realizados via processador digital."/>
+			<field name="originatesFrom" value="62062492"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021002"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016021002"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021002"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161021002"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016021002"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person965" type="Person">
+			<semanticIdentifier>lattes::1920650157123774</semanticIdentifier>
+			<field name="identifier.lattes" value="1920650157123774"/>
+			<field name="name" value="Alessandro Goedtel"/>
+		</entity>
+		<entity ref="OrgUnit763" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1294" toEntityRef="Person965" type="Inventor"/>
+		<relation fromEntityRef="Patent1294" toEntityRef="OrgUnit763" type="Applicant"/>
+	</relations>
+</entity-relation-data>

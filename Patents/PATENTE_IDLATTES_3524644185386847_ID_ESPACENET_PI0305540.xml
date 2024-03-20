@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:05:36" record="33221" source="Espacenet">
+	<entities>
+		<entity ref="Patent33221" type="Patent">
+			<semanticIdentifier>brcris::937c51f69adaf3da9c79fc65e278f811</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0305540B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0305540</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0305540A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2003PI05540</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0305540</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0305540"/>
+			<field name="identifier.lattes" value="3524644185386847"/>
+			<field name="identifier.espacenet" value="PI0305540"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="dispositivo de atenuação controlada de potência de microondas"/>
+			<field name="title.lattes" value="Dispositivo de Atenuação controlada de potência de microondas"/>
+			<field name="depositDate" value="2003-12-10"/>
+			<field name="publicationDate" value="2017-09-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE ALMEIDA MALAFRONTE"/>
+			<field name="inventor" value="JIRO TAKAHASHI"/>
+			<field name="inventor" value="MARCOS NOGUEIRA MARTINS"/>
+			<field name="inventor" value="MILITAO VIEIRA FIGUEREDO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01P1/22AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;dispositivo de atenuação controlada de potência de microondas&quot;. descreve-se um dispositivo de atenuação controlada de potência (1), particularmente utilizado na atenuação controlada de potências de microondas, o dispositivo (1) compreendendo: (i) um acoplador (2) contendo uma porta de entrada (a) que recebe microondas incidentes e de alta potência, uma porta de saída (d) que recebe microondas de potência atenuada, e primeira e segunda portas mistas (b, c) que recebem frações das microondas incidentes e microondas de potência atenuada; (ii) junções (7,8) associadas às primeira e segunda portas mistas (b, c); o dispositivo de atenuação controlada de potência (1) compreendendo, ainda, elementos refletores móveis (9, 10) inseridos em bases prolongadas (7.1, 8.1) das junções (7, 8) e cargas de absorção (11, 12) dispostas em projeções (7.2, 8.2) das junções (7, 8), os elementos refletores móveis (9, 10) sendo linearmente movimentados refletindo porções de microondas incidentes de alta potência para as cargas de absorção (11, 12) e porções de microondas incidentes de potência atenuada para a porta de saída (d) do acoplador (2). esse dispositivo de atenuação controlada de potência de microondas, particularmente microondas de alta potência, é usado em sistemas que envolvam o uso de microondas cuja potência precisa ser controlada, como fornos, estufas, aceleradores de partículas entre outros."/>
+			<field name="originatesFrom" value="62044173"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0305540"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0305540"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0305540"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2003PI05540"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0305540"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22891" type="Person">
+			<semanticIdentifier>lattes::3524644185386847</semanticIdentifier>
+			<field name="identifier.lattes" value="3524644185386847"/>
+			<field name="name" value="Militao Vieira Figueredo"/>
+		</entity>
+		<entity ref="OrgUnit17897" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33221" toEntityRef="Person22891" type="Inventor"/>
+		<relation fromEntityRef="Patent33221" toEntityRef="OrgUnit17897" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:57" record="20757" source="Espacenet">
+	<entities>
+		<entity ref="Patent20757" type="Patent">
+			<semanticIdentifier>brcris::d1cf3a04e78e0c1ea2cea91432cef102</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003602A8</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015003602</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015003602A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151003602</semanticIdentifier>
+			<semanticIdentifier>original::102015003602</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015003602"/>
+			<field name="identifier.lattes" value="6190171659047174"/>
+			<field name="identifier.espacenet" value="102015003602"/>
+			<field name="kindCode" value="A8"/>
+			<field name="title.espacenet" value="método para identificação da vazão de gás em uma bomba centrífuga submersa"/>
+			<field name="title.lattes" value="Método para identificação da vazão de gás em uma bomba centrífuga submersa"/>
+			<field name="depositDate" value="2015-02-20"/>
+			<field name="publicationDate" value="2018-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JANITO VAQUEIRO FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B43/12AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E21B47/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="47"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para identificação da vazão de gás em uma bomba centrífuga submersa a presente invenção se refere a um método para determinar a fração de gás presente no escoamento multifásico de uma bomba centrífuga submersa (bcs). 0 método consiste em adquirir pelo menos um sinal que caracterize o comportamento dinâmico da bomba e identificar deste sinal uma característica que apresente correlação com a vazão de gás. c sinal adquirido ou conjunto de dados deve, além de apresentar uma boa correlação com a vazão de gás, ser conveniente para o usuário apresentando facilidade para ser obtido e permitir fácil manutenção. a correlação entre os sinais medidos e a vazão de gás é obtida através de uma modelagem não paramétrica através de métodos de aprendizado de máquinas. os sinais a serem medidos durante a operação da bomba caracterizam as entradas do modelo de correlação e a vazão de gás caracteriza a saída do modelo. após o pós-processamento dos dados é possível verificar a validade e eficiência do modelo de correlação para então aplicá-lo para determinar a fração de gás no escoamento de uma bomba centrífuga submersa em operação nas mesmas condições em que a fase experimental da modelagem foi realizada."/>
+			<field name="originatesFrom" value="62043448"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003602"/>
+				<field name="kind" value="A8"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015003602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015003602"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151003602"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015003602"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14368" type="Person">
+			<semanticIdentifier>lattes::6190171659047174</semanticIdentifier>
+			<field name="identifier.lattes" value="6190171659047174"/>
+			<field name="name" value="Janito Vaqueiro Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit11255" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20757" toEntityRef="Person14368" type="Inventor"/>
+		<relation fromEntityRef="Patent20757" toEntityRef="OrgUnit11255" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:55" record="9015" source="Espacenet">
+	<entities>
+		<entity ref="Patent9015" type="Patent">
+			<semanticIdentifier>brcris::5db3774e58a6c7fc0708d99395a2530a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017021119A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017021119</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017021119A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171021119</semanticIdentifier>
+			<semanticIdentifier>original::102017021119</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017021119"/>
+			<field name="identifier.lattes" value="4194875028507925"/>
+			<field name="identifier.espacenet" value="102017021119"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de síntese de compostos aril alcanóides e composição farmacêutica contendo os mesmos"/>
+			<field name="title.lattes" value="PROCESSO DE SÍNTESE DE COMPOSTOS ARIL ALCANÓIDES E COMPOSIÇÃO FARMACÊUTICA CONTENDO OS MESMOS"/>
+			<field name="depositDate" value="2017-10-02"/>
+			<field name="publicationDate" value="2019-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE MESQUITA MARQUES"/>
+			<field name="inventor" value="CLAUDIO CERQUEIRA LOPES"/>
+			<field name="inventor" value="GISELE ZAPATA SUDO"/>
+			<field name="inventor" value="KELVIN STEVENS ESPINOLA LOPEZ"/>
+			<field name="inventor" value="LEOSVALDO SALAZAR MARQUES VELOZO"/>
+			<field name="inventor" value="LETICIA GOMES FERREIRA CHANTRE"/>
+			<field name="inventor" value="MARGARETE MANHAES TRACHEZ"/>
+			<field name="inventor" value="MARIA AUXILIADORA COELHO KAPLAN"/>
+			<field name="inventor" value="ROBERTO TAKASHI SUDO"/>
+			<field name="inventor" value="ROSANGELA SABBATINI CAPELLA LOPES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/36AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P23/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07D317/50AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="317"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um processo de síntese de compostos que desempenham atividades anestésicas locais, tais como metabólitos naturais aril alcanóides, especialmente a síntese do 1-butil-3,4-metilenodioxibenzeno. nesse sentido é descrito um processo que ocorre em uma única etapa e provê altos rendimentos ao produto final."/>
+			<field name="originatesFrom" value="67251330"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017021119"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017021119"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017021119"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171021119"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017021119"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6142" type="Person">
+			<semanticIdentifier>lattes::4194875028507925</semanticIdentifier>
+			<field name="identifier.lattes" value="4194875028507925"/>
+			<field name="name" value="Claudio Cerqueira Lopes"/>
+		</entity>
+		<entity ref="OrgUnit4845" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9015" toEntityRef="Person6142" type="Inventor"/>
+		<relation fromEntityRef="Patent9015" toEntityRef="OrgUnit4845" type="Applicant"/>
+	</relations>
+</entity-relation-data>

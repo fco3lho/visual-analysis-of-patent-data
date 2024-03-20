@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:17" record="29045" source="Espacenet">
+	<entities>
+		<entity ref="Patent29045" type="Patent">
+			<semanticIdentifier>brcris::bb1162383a8d9bc974b738232c8d0e0a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800078A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0800078</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800078A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI00078</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0800078-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0800078"/>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="identifier.espacenet" value="PI0800078"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para enxague econÈmico em lavadora de roupas"/>
+			<field name="title.lattes" value="MÉTODO PARA ENXAGUE ECONÔMICO EM LAVADORA DE ROUPAS"/>
+			<field name="depositDate" value="2008-02-08"/>
+			<field name="publicationDate" value="2011-04-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE PESCADOR SARDA"/>
+			<field name="inventor" value="ANDREA CARLA TAMANINI GONCALEZ"/>
+			<field name="inventor" value="CIRILO ALEX CAVALLI"/>
+			<field name="inventor" value="CLAUDIO DE PELLEGRINI"/>
+			<field name="inventor" value="JOSIANI ORSI"/>
+			<field name="inventor" value="MARCELO PIEKARSKI"/>
+			<field name="inventor" value="VICENTE VANHAZEBROUCK"/>
+			<field name="applicant" value="ELECTROLUX DO BRASIL S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D06F35/00AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="D06F33/00AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G05D7/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="G05D9/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA ENXAGUE ECONÈMICO EM LAVADORA DE ROUPAS. A invenção se refere a um método para enxague económico em lavadora de roupas dotada de processador para controle de sua operação, possibilitando diversos regimes de enxágue correspondendo cada um a determinado volume de água, dito volume sendo determinado com base em dados inseridos numa tabela armazenada em memória associada a dito processador, compreendendo ditos dados o regime de enxágue, o tipo de carga colocada na lavadora e a vazão disponível no fornecimento de água fresca, sendo esta determinada pela lavadora em etapa anterior ao enxágúe. O regime de enxágue e o tipo de carga são selecionados pelo usuário, mediante seletores providos no painel de controle."/>
+			<field name="originatesFrom" value="43875400"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800078"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0800078"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800078"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI00078"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0800078-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20022" type="Person">
+			<semanticIdentifier>lattes::3417523885966768</semanticIdentifier>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="name" value="Marcelo Piekarski"/>
+		</entity>
+		<entity ref="OrgUnit15654" type="OrgUnit">
+			<semanticIdentifier>brcris::563718fd486870a6f5996414ff59a7d7</semanticIdentifier>
+			<field name="name" value="ELECTROLUX DO BRASIL S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29045" toEntityRef="Person20022" type="Inventor"/>
+		<relation fromEntityRef="Patent29045" toEntityRef="OrgUnit15654" type="Applicant"/>
+	</relations>
+</entity-relation-data>

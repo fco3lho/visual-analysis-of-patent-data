@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:25" record="18512" source="Espacenet">
+	<entities>
+		<entity ref="Patent18512" type="Patent">
+			<semanticIdentifier>brcris::60cb4a398f2a9e5a61bba3bd4a6acd34</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029457A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029457</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029457A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029457</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2014 029457-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029457"/>
+			<field name="identifier.lattes" value="7531240114040972"/>
+			<field name="identifier.espacenet" value="102014029457"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Estaçao de tratamento unifamiliar compacta"/>
+			<field name="title.lattes" value="Estação de Tratamento Unifamiliar Compacta"/>
+			<field name="depositDate" value="2014-11-26"/>
+			<field name="publicationDate" value="2015-08-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ERNESTO RAIZER NETO"/>
+			<field name="inventor" value="GUSTAVO DOMENEGHETTI"/>
+			<field name="inventor" value="JULIO DIAS DO PRADO"/>
+			<field name="inventor" value="MARCOS ESTEVAM BALZER"/>
+			<field name="applicant" value="SOCIEDADE EDUCACIONAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F3/30AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Estaçao de tratamento unifamiliar compacta. A presente patente de invenção refere-se a uma estação de tratamento unifamiliar compacta, que permita o tratamento do esgoto sanitário de uma residência unifamiliar, condomínios, especialmente aqueles implantados em áreas isoladas, rurais ou de difícil acesso para a instalação de redes de coleta. A estação de tratamento é constituída por compartimentos posicionados de tal forma que permitam realizar as etapas de peneiramento, filtragem, tratamento anaeróbio, aeróbio e facultativo, decantação e secagem de lodos, desinfecção final, em uma única estação de tratamento, formada por uma estrutura (2) única, compreendida por câmaras (3) associadas entre si, permitindo dessa forma o tratamento do esgoto sanitário por uma estação que contemple todas as etapas de tratamento, desde a entrada (4) até a saída (5) do esgoto tratado, conferindo assim uma maior eficiência durante o tratamento do esgoto."/>
+			<field name="originatesFrom" value="53901409"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029457"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029457"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029457"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029457"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2014 029457-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12834" type="Person">
+			<semanticIdentifier>lattes::7531240114040972</semanticIdentifier>
+			<field name="identifier.lattes" value="7531240114040972"/>
+			<field name="name" value="Gustavo Domeneghetti"/>
+		</entity>
+		<entity ref="OrgUnit9999" type="OrgUnit">
+			<semanticIdentifier>brcris::2a7b0fabf942a9747fa08152b819b17e</semanticIdentifier>
+			<field name="name" value="SOCIEDADE EDUCACIONAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18512" toEntityRef="Person12834" type="Inventor"/>
+		<relation fromEntityRef="Patent18512" toEntityRef="OrgUnit9999" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:16" record="1312" source="Espacenet">
+	<entities>
+		<entity ref="Patent1312" type="Patent">
+			<semanticIdentifier>brcris::e42f525f06d647a29417a6634c5b80c6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0910703A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0910703</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0910703A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI10703</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0910703-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0910703"/>
+			<field name="identifier.lattes" value="8474654311017669"/>
+			<field name="identifier.espacenet" value="PI0910703"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="inversores multinìveis hìbridos empregando células de conversores meia-ponte e um inversor trifásico/multifásico e sua modulação hìbrida"/>
+			<field name="title.lattes" value="INVERSORES MULTINÍVEIS HÍBRIDOS EMPREGANDO CÉLULAS DE CONVERSORES MEIA-PONTE E UM INVERSOR TRIFÁSICO/MULTIFÁSICO E SUA MODULAÇÃO HÍBRIDA"/>
+			<field name="depositDate" value="2009-12-28"/>
+			<field name="publicationDate" value="2011-09-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO LUIZ BATSCHAUER"/>
+			<field name="inventor" value="MARCELO LOBO HELDWEIN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M7/44AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="INVERSORES MULTINìVEIS HìBRIDOS EMPREGANDO CéLULAS DE CONVERSORES MEIA-PONTE E UM INVERSOR TRIFáSICO/MULTIFáSICO E SUA MODULAçãO HìBRIDA. Descreve inversores híbridos multiníveis compostos de um inversor de tensão trifásico (ou multifásico) de dois (2) ou mais níveis, onde cada uma das fases está conectada em série com um (1) ou mais módulos de conversores monofásicos do tipo meia-ponte. Cada um dos módulos de inversores meia-ponte é composto de duas (2) sub-células meia-ponte básicas, conectadas de forma a se obter tensão média nula na saída em corrente alternada. Os inversores de tensão propostos podem sintetizar na saida tensões com vários níveis, os quais estão diretamente relacionados à quantidade de módulos de conversores monofásicos do tipo meia- ponte empregados em cascata com o inversor trifásico (ou multifásico) e aos níveis de tensão na alimentação do inversor trifásico. Quanto mais módulos de conversores monofásicos do tipo meia-ponte forem adicionados à estrutura, maior é a quantidade de níveis de tensão produzida e, consequentemente, melhor a qualidade da tensão produzida na saída. E proposto junto com os inversores um novo esquema de modulação híbrida, onde o inversor trifásico (ou multifásico) é comutado na freqúência do sinal fundamental de saida, enquanto os módulos de conversores monofásicos do tipo meia-ponte operam em alta frequência. Este esquema de modulação é também parte integrante desta invenção, o qual propicia vantagens em desempenho e potencial redução de perdas."/>
+			<field name="originatesFrom" value="44546182"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0910703"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0910703"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0910703"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI10703"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0910703-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person975" type="Person">
+			<semanticIdentifier>lattes::8474654311017669</semanticIdentifier>
+			<field name="identifier.lattes" value="8474654311017669"/>
+			<field name="name" value="Alessandro Luiz Batschauer"/>
+		</entity>
+		<entity ref="OrgUnit775" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1312" toEntityRef="Person975" type="Inventor"/>
+		<relation fromEntityRef="Patent1312" toEntityRef="OrgUnit775" type="Applicant"/>
+	</relations>
+</entity-relation-data>

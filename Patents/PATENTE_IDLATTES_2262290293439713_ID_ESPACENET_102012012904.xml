@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:58" record="39847" source="Espacenet">
+	<entities>
+		<entity ref="Patent39847" type="Patent">
+			<semanticIdentifier>brcris::6b8b36c5068a91fdecff3de59c48e31f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012904A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012012904</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012904A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121012904</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 012904-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012012904"/>
+			<field name="identifier.lattes" value="2262290293439713"/>
+			<field name="identifier.espacenet" value="102012012904"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMAS E MÉTODOS DE TESTES PARA EQUIPAMENTOS"/>
+			<field name="title.lattes" value="SISTEMAS E MÉTODOS DE TESTES PARA EQUIPAMENTOS"/>
+			<field name="depositDate" value="2012-05-29"/>
+			<field name="publicationDate" value="2014-04-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JULIO CESAR GONCALVEZ MARTINS"/>
+			<field name="inventor" value="OTTO JACOB LITJENS"/>
+			<field name="inventor" value="RODRIGO ALEXANDRE DROUGUETT"/>
+			<field name="inventor" value="RODRIGO FRASSETTO NOGUEIRA"/>
+			<field name="applicant" value="SIEMENS LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R31/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMAS E MÉTODOS DE TESTES PARA EQUIPAMENTOS. A presente invenção refere-se a um sistema e método de testes para equipamentos eletrônicos 1, preferencialmente painéis elétricos que possuem automação, geralmente empregados em indústrias, plataformas de petróleo e usinas geradoras de energia elétrica. Tais sistemas e métodos possuem ao menos um módulo de testes secundário 5, operativamente acoplado ás entradas e saídas do equipamento 1 a ser testado. O módulo de testes secundário é, também, operativamente acoplado ao módulo de testes primário 6, que preferencialmente recebe as informações de uma unidade de controle 7 para determinar um conjunto de estados lógicos sucessivamente e detectar os estados resultantes no equipamento 1. Preferencialmente, as informações podem ser observadas em um sistema supervisório 8, que também pode ser capaz de influenciar nos testes. Preferencialmente, cada módulo possui uma separação física e, portando, o sistema possui ao menos 4 componentes, sendo eles o módulo de testes secundário 5, o módulo de testes primário 6, a unidade de controle 7 e o sistema supervisório 8. São apreciadas, no entanto, diversas configurações alternativas que compreendem a junção de elementos em um único componente, como por exemplo, um único coponente contendo o módulo de testes secundário 5, o módulo de teste primário 6, a unidade de controle 7 e o sistema supervisório 8. Por fim, é apresentada ainda a possibilidade de controle remoto do sistema."/>
+			<field name="originatesFrom" value="50350149"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012904"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012012904"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012904"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121012904"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 012904-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27118" type="Person">
+			<semanticIdentifier>lattes::2262290293439713</semanticIdentifier>
+			<field name="identifier.lattes" value="2262290293439713"/>
+			<field name="name" value="Rodrigo Frassetto Nogueira"/>
+		</entity>
+		<entity ref="OrgUnit21229" type="OrgUnit">
+			<semanticIdentifier>brcris::2d46eb4be9f90d806a9cf9416fdce41d</semanticIdentifier>
+			<field name="name" value="SIEMENS LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39847" toEntityRef="Person27118" type="Inventor"/>
+		<relation fromEntityRef="Patent39847" toEntityRef="OrgUnit21229" type="Applicant"/>
+	</relations>
+</entity-relation-data>

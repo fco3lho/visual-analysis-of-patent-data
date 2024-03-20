@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:40" record="25604" source="Espacenet">
+	<entities>
+		<entity ref="Patent25604" type="Patent">
+			<semanticIdentifier>brcris::a217834bb559efe3cc17f9baf864b871</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001559A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017001559</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001559A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171001559</semanticIdentifier>
+			<semanticIdentifier>original::102017001559</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017001559"/>
+			<field name="identifier.lattes" value="4922613632371205"/>
+			<field name="identifier.espacenet" value="102017001559"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema eólico com turbina horizontal de direção regulável automaticamente e geradores fixados na base"/>
+			<field name="title.lattes" value="Sistema Eólico com turbina horizontal de direção regulável automaticamente e geradores fixados na base"/>
+			<field name="depositDate" value="2017-01-25"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELSO ROLLEMBERG MADUREIRA"/>
+			<field name="inventor" value="DANIEL AMARO DE ALMEIDA"/>
+			<field name="inventor" value="EDER DA SILVA FISCINA"/>
+			<field name="inventor" value="GUSTAVO PEREZ ALVAREZ"/>
+			<field name="inventor" value="LEONARDO MAIA NOGUEIRA"/>
+			<field name="inventor" value="LEVI PEDRO BARBOSA DE OLIVEIRA"/>
+			<field name="inventor" value="LUANA BRITO DE OLIVEIRA"/>
+			<field name="inventor" value="MARCOS MENINO DE MACEDO FILHO"/>
+			<field name="inventor" value="SEYYED SAID DANA"/>
+			<field name="inventor" value="SIMONE DE CASSIA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F03D1/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F03D1/06AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="F03D7/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente invento consiste em um aerogerador, cuja configuração permite o ajuste automático de sua turbina horizontal à direção do vento. o invento também possui um sistema de transmissão de potência que é feito através de dois pares de engrenagens cônicas e um eixo vertical, dessa forma transmitindo a energia captada dos ventos para o(s) gerador(es) que ficam localizados na base da torre do aerogerador. o eixo vertical citado também atua na sua sustentação, reduzindo a robustez necessária para a torre.essas características do invento o fazem uma boa opção para sistemas de pequeno porte que podem abastecer, por exemplo, uma comunidade isolada da rede elétrica."/>
+			<field name="originatesFrom" value="63451580"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001559"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017001559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001559"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171001559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017001559"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17730" type="Person">
+			<semanticIdentifier>lattes::4922613632371205</semanticIdentifier>
+			<field name="identifier.lattes" value="4922613632371205"/>
+			<field name="name" value="Leonardo Maia Nogueira"/>
+		</entity>
+		<entity ref="OrgUnit13839" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25604" toEntityRef="Person17730" type="Inventor"/>
+		<relation fromEntityRef="Patent25604" toEntityRef="OrgUnit13839" type="Applicant"/>
+	</relations>
+</entity-relation-data>

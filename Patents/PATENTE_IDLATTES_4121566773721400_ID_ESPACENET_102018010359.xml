@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:38" record="9985" source="Espacenet">
+	<entities>
+		<entity ref="Patent9985" type="Patent">
+			<semanticIdentifier>brcris::fb1848e1ec020970e76f4320ca1d698f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010359A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018010359</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018010359A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181010359</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018010359"/>
+			<field name="identifier.lattes" value="4121566773721400"/>
+			<field name="identifier.espacenet" value="102018010359"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de visão estereo para identificação e localização de hortículas"/>
+			<field name="title.lattes" value="SISTEMA DE VISÃO ESTEREO PARA IDENTIFICAÇÃO E LOCALIZAÇÃO DE HORTÍCULAS"/>
+			<field name="depositDate" value="2018-05-22"/>
+			<field name="publicationDate" value="2019-12-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL ALBIERO"/>
+			<field name="inventor" value="FLAVIO ROBERTO DE FREITAS GONGALVES"/>
+			<field name="inventor" value="JOSE HELDENIR PINHEIRO BEZERRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01B11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01C11/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="esta patente trata-se de um sistema de visão artificial estéreo. o sistema tem por finalidade a identificação e localização de hortícolas, folhosas e outras num cultivo e tem como princípio de funcionamento a captura de imagens digitais por meio de duas câmeras seriais de mesmo padrão de fabricação, dispostas a uma distância focal (df) que permite uma interposição de imagens e com isso gerar mapa de disparidades que permite a extração de parâmetros dimensionais de onde se pode obter a localização do objeto alvo com base no referencial adotado. é constituído de um aparato de captura de imagens composto de duas câmeras responsável pela aquisição das imagens mediante uso de sensor ccd/cmos e dotadas de controle serial para ajuste da configuração de captura no elemento primário(câmeras), de uma interface de controle que permite conectar o elemento primário de captura ao pré- processador, um pré-processador que atua no acionamento da interface de controle do elemento primário de captura efetuando o ajuste e a equalização de parâmetros do elemento de captura tais como controle e abertura de íris e/ou resolução das imagens reduzindo custo computacional e simplificando o volume de dados a ser trabalhado no processamento e de uma unidade de processamento principal que efetua as tarefas de processamento de alto nível através de algoritmos de reconhecimento, extração de parâmetros e localização posicionais, com finalidade de identificar e localizar as hortícolas, folhosas e outras, por meio de processamento de imagens digitais reconhecendo a sua morfologia e através de processamentos matemáticos, forneça ao aparato colhedor referenciais de localização espacial da hortícola ou folhosa para a colheita e obtenção da hortícola ou folhosa do cultivo."/>
+			<field name="originatesFrom" value="68765830"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010359"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018010359"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018010359"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181010359"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6854" type="Person">
+			<semanticIdentifier>lattes::4121566773721400</semanticIdentifier>
+			<field name="identifier.lattes" value="4121566773721400"/>
+			<field name="name" value="Daniel Albiero"/>
+		</entity>
+		<entity ref="OrgUnit5426" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9985" toEntityRef="Person6854" type="Inventor"/>
+		<relation fromEntityRef="Patent9985" toEntityRef="OrgUnit5426" type="Applicant"/>
+	</relations>
+</entity-relation-data>

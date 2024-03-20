@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:36" record="29277" source="Espacenet">
+	<entities>
+		<entity ref="Patent29277" type="Patent">
+			<semanticIdentifier>brcris::3cd35720a0c76481d3e2bcbdf1661da5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR302013004305S1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR302013004305S</semanticIdentifier>
+			<semanticIdentifier>docdb::BR302013004305F</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20133004305F</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 30 2013 004305-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=302013004305"/>
+			<field name="identifier.lattes" value="7191429010229117"/>
+			<field name="identifier.espacenet" value="302013004305"/>
+			<field name="kindCode" value="S1"/>
+			<field name="title.espacenet" value="PADRÃO ORNAMENTAL APLICADO A TABULEIRO DE JOGO"/>
+			<field name="title.lattes" value="PADRÃO ORNAMENTAL APLICADO A TABULEIRO DE JOGO"/>
+			<field name="depositDate" value="2013-08-30"/>
+			<field name="publicationDate" value="2014-06-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREA CARLA SE SOUZA GOES"/>
+			<field name="inventor" value="MARCIA GARCIA GIANFALDONI"/>
+			<field name="inventor" value="PRISCILA STEFANI MONTEIRO ALVES"/>
+			<field name="inventor" value="ROMULO GONCALVES PAES LEME BAPTISTA"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO"/>
+			<field name="originatesFrom" value="50878142"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="302013004305"/>
+				<field name="kind" value="S1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR302013004305S"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="302013004305"/>
+				<field name="kind" value="F"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20133004305F"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 30 2013 004305-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20133" type="Person">
+			<semanticIdentifier>lattes::7191429010229117</semanticIdentifier>
+			<field name="identifier.lattes" value="7191429010229117"/>
+			<field name="name" value="Marcia Garcia Gianfaldoni"/>
+		</entity>
+		<entity ref="OrgUnit15748" type="OrgUnit">
+			<semanticIdentifier>brcris::97fc40b988ad990e86ab3b3336a38708</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29277" toEntityRef="Person20133" type="Inventor"/>
+		<relation fromEntityRef="Patent29277" toEntityRef="OrgUnit15748" type="Applicant"/>
+	</relations>
+</entity-relation-data>

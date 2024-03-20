@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:24" record="40611" source="Espacenet">
+	<entities>
+		<entity ref="Patent40611" type="Patent">
+			<semanticIdentifier>brcris::58b2b92fbaa1790645dc31178eb3d623</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004623A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017004623</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017004623A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171004623</semanticIdentifier>
+			<semanticIdentifier>original::102017004623</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017004623"/>
+			<field name="identifier.lattes" value="3394684946731524"/>
+			<field name="identifier.espacenet" value="102017004623"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparato eletro-ótico para medição de vazão de misturas multifásicas"/>
+			<field name="title.lattes" value="APARATO ELETRO-ÓTICO PARA MEDIÇÃO DE VAZÃO DE MISTURAS MULTIFÁSICAS"/>
+			<field name="depositDate" value="2017-03-08"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CICERO MARTELLI"/>
+			<field name="inventor" value="JEAN CARLOS CARDOZO DA SILVA"/>
+			<field name="inventor" value="MARCO JOSE DA SILVA"/>
+			<field name="inventor" value="ROSANGELA WINTER"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F1/66AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="66AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01F25/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido refere-se a um aparato para a medição de vazão de misturas multifásicas, incluindo, mas não limitando, o monitoramento do escoamento multifásico e da temperatura de fluidos condutores ou não. o aparato combina de forma inédita um sistema de medição de impedância (12) com um sistema de interrogação ótico (10), proporcionando a aquisição de diversos parâmetros das misturas multifásicas. para tanto, utiliza uma placa suporte (2) com dois eletrodos (1 e 3 ou 1 e 8). um dos eletrodos é o invólucro, revestimento ou camada metálica (6) utilizado para proteger uma fibra ótica (5), contendo um ou mais dispositivos fotorrefrativos (7) e para conduzir o calor e as ondas mecânicas provenientes do mensurando até o(s) dispositivo(s) fotorrefrativo(s) (7). em um dos eletrodos é gerado um campo elétrico, que sofre a influência da mistura multifásica e induz um sinal proporcional a esta interação no outro eletrodo. paralelamente ao sistema de medição de impedância, os dispositivos fotorrefrativos e o sistema de interrogação ótico permitem a medição da temperatura das misturas multifásicas e da deformação da fibra ótica causada pelo movimento da mistura multifásica. o aparato pode ser aplicado na medição de diversos parâmetros do escoamento de fluidos e pode ser utilizado em uma ampla gama de misturas multifásicas, quer sejam condutoras de corrente elétrica ou não, monofásicas ou multifásicas, contendo ou não partículas."/>
+			<field name="originatesFrom" value="64268862"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004623"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017004623"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017004623"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171004623"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017004623"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27660" type="Person">
+			<semanticIdentifier>lattes::3394684946731524</semanticIdentifier>
+			<field name="identifier.lattes" value="3394684946731524"/>
+			<field name="name" value="Rosângela Winter"/>
+		</entity>
+		<entity ref="OrgUnit21627" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40611" toEntityRef="Person27660" type="Inventor"/>
+		<relation fromEntityRef="Patent40611" toEntityRef="OrgUnit21627" type="Applicant"/>
+	</relations>
+</entity-relation-data>

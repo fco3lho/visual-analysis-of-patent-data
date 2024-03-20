@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:32" record="3837" source="Espacenet">
+	<entities>
+		<entity ref="Patent3837" type="Patent">
+			<semanticIdentifier>brcris::1bb226a6c8981018651e1a9eb8386ccc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014025317A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014025317</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014025317A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141025317</semanticIdentifier>
+			<semanticIdentifier>original::102014025317</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014025317"/>
+			<field name="identifier.lattes" value="2370643501645082"/>
+			<field name="identifier.espacenet" value="102014025317"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composição antimicrobiana consistida de um material moldável e um agente antimicrobiano e seu uso"/>
+			<field name="title.lattes" value="Composição antimicrobiana consistida de um material moldável e um agente antimicrobiano e seu uso"/>
+			<field name="depositDate" value="2014-10-10"/>
+			<field name="publicationDate" value="2016-09-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREA CANDIDO DOS REIS"/>
+			<field name="inventor" value="DENISE TORNAVOI DE CASTRO"/>
+			<field name="inventor" value="MARIANA LIMA DA COSTA VALENTE"/>
+			<field name="inventor" value="OSWALDO LUIZ ALVES"/>
+			<field name="inventor" value="RAPHAEL DIAS HOLTZ"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08K3/20AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C08L33/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C08L63/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C08K3/00AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AN"/>
+			</field>
+			<field name="abstract.espacenet" value="composição antimicrobiana consistida de um material moldável e um agente antimicrobiano e seu uso a presente invenção se refere a uma composição antimicrobiana que é consistida de um material moldável e entre 0,1 e 15 `:`: m/m de um agente antimicrobiano; e, do uso da composição antimicrobiana consistida de um material termomoldável e um agente antimicrobiano para a produção de dispositivos odontológicos, por meio de extrusão, moldagem térmica ou moldagem por autoconformacão."/>
+			<field name="originatesFrom" value="56958553"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014025317"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014025317"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014025317"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141025317"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014025317"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2671" type="Person">
+			<semanticIdentifier>lattes::2370643501645082</semanticIdentifier>
+			<field name="identifier.lattes" value="2370643501645082"/>
+			<field name="name" value="Andréa Cândido dos Reis"/>
+		</entity>
+		<entity ref="OrgUnit2129" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit2130" type="OrgUnit">
+			<semanticIdentifier>brcris::287fe52218b606147826c8b11be41728</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3837" toEntityRef="Person2671" type="Inventor"/>
+		<relation fromEntityRef="Patent3837" toEntityRef="OrgUnit2129" type="Applicant"/>
+		<relation fromEntityRef="Patent3837" toEntityRef="OrgUnit2130" type="Applicant"/>
+	</relations>
+</entity-relation-data>

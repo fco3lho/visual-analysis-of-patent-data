@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:47:49" record="25134" source="Espacenet">
+	<entities>
+		<entity ref="Patent25134" type="Patent">
+			<semanticIdentifier>brcris::6065abce9e949c2c2ce3317a71f6966b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205463A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0205463</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205463A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020205463</semanticIdentifier>
+			<semanticIdentifier>original::0205463-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0205463"/>
+			<field name="identifier.lattes" value="7572366766177648"/>
+			<field name="identifier.espacenet" value="0205463"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Novo biossensor amperométrico altamente eficiente para determinação de álcoois"/>
+			<field name="title.lattes" value="Novo biossensor amperométrico altamente eficiente para determinação de álcoois"/>
+			<field name="depositDate" value="2002-12-04"/>
+			<field name="publicationDate" value="2004-07-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO DA SANTANA SANTOS"/>
+			<field name="inventor" value="LAURO TATSUO KUBOTA"/>
+			<field name="inventor" value="RENATO SANCHES FREIRE"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/32AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N27/26AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;NOVO BIOSSENSOR AMPEROMéTRICO ALTAMENTE EFICIENTE PARA DETERMINAçãO DE áLCOOIS&quot;. Este processo descreve o desenvolvimento de um biossensor de alto desempenho para a determinação eletroquímica de etanol em amostras de interesse clínico, biológico e industrial. O biossensor amperométrico para etanol proposto consiste de um eletrodo de pasta de carbono modificada com álcool dehidrogenase (ADH), nicotinamida adenina dinucleotídeo (NAD^ +^) e mediadores do tipo fenoxazina e/ou fenotiazina adsorvidos sobre sílica gel recoberta com óxido de metais. A resposta eletroquímica do sensor está baseada nas propriedades eletrocatalíticas dos mediadores para oxidar NADH, que é gerado durante a reação entre etanol e NAD^ +^ sob efeito catalítico da ADH. Ilustrativamente, apresenta-se neste processo as respostas obtidas empregando-se um biossensor a base de azul de Meldola adsorvido sobre sílica gel modificada com óxido de nióbio. O desempenho deste biossensor foi investigado quanto a sua dependência em relação a fatores críticos, tais como pH, força iónica, eletrólito suporte e potencial de trabalho. O biossensor proposto mostrou uma excelente estabilidade, sensibilidade e ampla faixa linear de resposta. Estas características favoráveis permitiram que o sensor fosse empregado na determinação direta de etanol em meios complexos, sem nenhum tipo de pré-tratamento das amostras. Esta habilidade foi explorada aplicando-se este novo dispositivo no monitoramento do teor de etanol em diferentes tipos de bebidas alcoólicas, tais como cerveja, vinho e destilados. A precisão e os dados de recuperação, obtidos com o biossensor nestes diferentes tipos de amostras, mostram que o sistema proposto pode ser empregado com eficiência na análise de etanol em amostras reais complexas."/>
+			<field name="originatesFrom" value="32777690"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205463"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0205463"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205463"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020205463"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0205463-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17409" type="Person">
+			<semanticIdentifier>lattes::7572366766177648</semanticIdentifier>
+			<field name="identifier.lattes" value="7572366766177648"/>
+			<field name="name" value="Lauro Tatsuo Kubota"/>
+		</entity>
+		<entity ref="OrgUnit13575" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25134" toEntityRef="Person17409" type="Inventor"/>
+		<relation fromEntityRef="Patent25134" toEntityRef="OrgUnit13575" type="Applicant"/>
+	</relations>
+</entity-relation-data>

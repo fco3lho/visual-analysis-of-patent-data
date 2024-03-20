@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:05" record="7464" source="Espacenet">
+	<entities>
+		<entity ref="Patent7464" type="Patent">
+			<semanticIdentifier>brcris::4787a569dcc7f2141d02ea44ef377834</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014018339U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202014018339U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202014018339U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20142018339U</semanticIdentifier>
+			<semanticIdentifier>original::202014018339</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202014018339"/>
+			<field name="identifier.lattes" value="1610443317562973"/>
+			<field name="identifier.espacenet" value="202014018339"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="seletor aerodinâmico para partículas finas"/>
+			<field name="title.lattes" value="MICROCICLONE - SELETOR AERODINÂMICO DE PARTÍCULAS FINAS"/>
+			<field name="depositDate" value="2014-07-25"/>
+			<field name="publicationDate" value="2016-05-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS FREDERICO ESTRADA ALVES"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO - UERJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F01N3/021AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="021AI"/>
+			</field>
+			<field name="abstract.espacenet" value="seletor aerodinâmico para partículas finas. microciclones e disposições acessórias para microciclones. o presente modelo de utilidade refere-se a um microciclone (1) que compreende uma porção cônica (2), uma porção cilíndrica (3) e uma porção terminal (4) em que a porção terminal (4) define uma região de porta filtro."/>
+			<field name="originatesFrom" value="55854517"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014018339"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202014018339U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202014018339"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20142018339U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202014018339"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5015" type="Person">
+			<semanticIdentifier>lattes::1610443317562973</semanticIdentifier>
+			<field name="identifier.lattes" value="1610443317562973"/>
+			<field name="name" value="Carlos Frederico Estrada Alves"/>
+		</entity>
+		<entity ref="OrgUnit3966" type="OrgUnit">
+			<semanticIdentifier>brcris::41e04b28b5000e86fd4a21d9e6c508eb</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO - UERJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7464" toEntityRef="Person5015" type="Inventor"/>
+		<relation fromEntityRef="Patent7464" toEntityRef="OrgUnit3966" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:52" record="40330" source="Espacenet">
+	<entities>
+		<entity ref="Patent40330" type="Patent">
+			<semanticIdentifier>brcris::5ef73245443f08ac6bd379ee4e750b57</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0002455A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0002455</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0002455A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000002455</semanticIdentifier>
+			<semanticIdentifier>original::0002455-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0002455"/>
+			<field name="identifier.lattes" value="9429235104207695"/>
+			<field name="identifier.espacenet" value="0002455"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processos fotoeletroquìmicos para redução da poluição quìmica"/>
+			<field name="title.lattes" value="Processos Fotoeletroquímicos para a Redução da Poluição Química"/>
+			<field name="depositDate" value="2000-06-08"/>
+			<field name="publicationDate" value="2002-02-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RODNEI BERTAZZOLI"/>
+			<field name="inventor" value="RONALDO TEIXEIRA PELEGRINI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/46AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F101/36AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="36AN"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSOS FOTOELETROQUìMICOS PARA REDUçãO DA POLUIçãO QUìMICA&quot;. Este processo refere-se a um método para permitir a diminuição da contaminação ambiental por meio do uso de corrente elétrica e radiação luminosa. O processo permitiu a degradação e mineralização dos compostos orgânicos recalcitrantes. Para avaliar a eficiência do processo foram verificados os seguintes parâmetros: Cor, AOX, DQO, Fenóis Totais, Carbono Orgânico Total (COT) e Toxicidade, em um tempo máximo de 240 minutos de experimento. Póde-se verificar reduções da coloração do efluente na ordem de até 70% em 180 minutos de tratamento. Redução da matéria orgânica em 35% foi comprovada através do COT; degradação dos compostos fenólicos em 80% com 90 minutos de tratamento. O aumento da degradabilidade dos compostos recalcitrantes foi verificado pelos estudos dos parâmetros AOX, DQO e da toxicidade que foi reduzida em 10 vezes da inicial após 60 minutos de tratamento."/>
+			<field name="originatesFrom" value="3944502"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0002455"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0002455"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0002455"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000002455"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0002455-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27491" type="Person">
+			<semanticIdentifier>lattes::9429235104207695</semanticIdentifier>
+			<field name="identifier.lattes" value="9429235104207695"/>
+			<field name="name" value="Ronaldo Teixeira Pelegrini"/>
+		</entity>
+		<entity ref="OrgUnit21487" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40330" toEntityRef="Person27491" type="Inventor"/>
+		<relation fromEntityRef="Patent40330" toEntityRef="OrgUnit21487" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:08" record="10246" source="Espacenet">
+	<entities>
+		<entity ref="Patent10246" type="Patent">
+			<semanticIdentifier>brcris::a8cb75a34e376a7086615bfca4bd4781</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0206003A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0206003</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0206003A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020206003</semanticIdentifier>
+			<semanticIdentifier>original::0206003-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0206003"/>
+			<field name="identifier.lattes" value="8552305415785783"/>
+			<field name="identifier.espacenet" value="0206003"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Aquecedor termomagnético"/>
+			<field name="title.lattes" value="Aquecedor Termomagnético"/>
+			<field name="depositDate" value="2002-11-05"/>
+			<field name="publicationDate" value="2004-08-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON BEATRICI"/>
+			<field name="inventor" value="DANIEL SCHULZ"/>
+			<field name="inventor" value="MARCOS HERMI DAL'BO"/>
+			<field name="applicant" value="SOCIEDADE PORVIR CIENTIFICO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H05B6/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="6"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;AQUECEDOR TERMOMAGNéTICO&quot;. Baseado na geração de um campo magnético variável no núcleo metálico, que induz correntes elétricas no metal de um copo adequado ou recipiente aquecedor, de tal modo, que essas correntes promovam o aquecimento homogêneo do recipiente, sem qualquer risco de choque elétrico, uma vez que o metal do copo não fica eletrizado, pois não existe diferença de potencial elétrico entre o recipiente e o solo ou ao usuário."/>
+			<field name="originatesFrom" value="32777831"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0206003"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0206003"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0206003"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020206003"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0206003-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7055" type="Person">
+			<semanticIdentifier>lattes::8552305415785783</semanticIdentifier>
+			<field name="identifier.lattes" value="8552305415785783"/>
+			<field name="name" value="Daniel Schulz"/>
+		</entity>
+		<entity ref="OrgUnit5615" type="OrgUnit">
+			<semanticIdentifier>brcris::5e6a789c0dfa245ab12a9e4994e44689</semanticIdentifier>
+			<field name="name" value="SOCIEDADE PORVIR CIENTIFICO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10246" toEntityRef="Person7055" type="Inventor"/>
+		<relation fromEntityRef="Patent10246" toEntityRef="OrgUnit5615" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:42" record="37891" source="Espacenet">
+	<entities>
+		<entity ref="Patent37891" type="Patent">
+			<semanticIdentifier>brcris::f5c0061923e56eb5ce97a8bf6027533b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003674A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019003674</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003674A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191003674</semanticIdentifier>
+			<semanticIdentifier>original::102019003674</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019003674"/>
+			<field name="identifier.lattes" value="1786546008789832"/>
+			<field name="identifier.espacenet" value="102019003674"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="leishmania tarentolae otimizada, processo de produção, e uso para produção de glicoproteínas sializadas"/>
+			<field name="title.lattes" value="Leishmania tarentolae OTIMIZADA, PROCESSO DE PRODUÇÃO, E USO PARA PRODUÇÃO DE GLICOPROTEÍNAS SIALIZADAS"/>
+			<field name="depositDate" value="2019-02-22"/>
+			<field name="publicationDate" value="2020-10-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDREA DE OLIVEIRA BARROS RIBON"/>
+			<field name="inventor" value="HIGOR SETTE PEREIRA"/>
+			<field name="inventor" value="JACQUELINE ARAUJO FIUZA"/>
+			<field name="inventor" value="JULIANA LOPES RANGEL FIETTO"/>
+			<field name="inventor" value="LIZA FIGUEIREDO FELICORI VILELA"/>
+			<field name="inventor" value="RENATO LIMA SENRA"/>
+			<field name="inventor" value="TATIANA APARECIDA DE OLIVEIRA"/>
+			<field name="inventor" value="TIAGO ANTONIO DE OLIVEIRA MENDES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N1/11AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="11AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/90AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="90AN"/>
+			</field>
+			<field name="abstract.espacenet" value="a invenção refere-se ao processo de obtenção de leishmania tarentolae transgênica assim como ao sistema de produção de glicoproteínas heterólogas sializadas por meio da leishmania tarentolae transgênica. as glicoproteínas obtidas por meio do processo da presente invenção tem maior estabilidade e tempo de meia vida no organismo de mamíferos, podendo o processo ser usado para produção de glicoproteínas úteis para tratamento de patologias humanas ou animais. a invenção se refere ainda ao uso da leishmania tarentolae transgênica para fabricação de glicoproteínas heterólogas sializadas."/>
+			<field name="originatesFrom" value="73015787"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003674"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019003674"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003674"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191003674"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019003674"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26133" type="Person">
+			<semanticIdentifier>lattes::1786546008789832</semanticIdentifier>
+			<field name="identifier.lattes" value="1786546008789832"/>
+			<field name="name" value="Renato Lima Senra"/>
+		</entity>
+		<entity ref="OrgUnit20495" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit20496" type="OrgUnit">
+			<semanticIdentifier>brcris::89492cfc4fa0f5e4d674d2806833c1c9</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE VICOSA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37891" toEntityRef="Person26133" type="Inventor"/>
+		<relation fromEntityRef="Patent37891" toEntityRef="OrgUnit20495" type="Applicant"/>
+		<relation fromEntityRef="Patent37891" toEntityRef="OrgUnit20496" type="Applicant"/>
+	</relations>
+</entity-relation-data>

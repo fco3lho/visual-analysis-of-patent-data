@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:50:00" record="26351" source="Espacenet">
+	<entities>
+		<entity ref="Patent26351" type="Patent">
+			<semanticIdentifier>brcris::586166c0211b23c51c4d4aad41f2005c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021528A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019021528</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021528A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191021528</semanticIdentifier>
+			<semanticIdentifier>original::102019021528</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019021528"/>
+			<field name="identifier.lattes" value="9721806560473297"/>
+			<field name="identifier.espacenet" value="102019021528"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para gerenciamento de múltiplos dispositivos baseados em openwrt utilizando o protocolo ssh"/>
+			<field name="title.lattes" value="Processo para gerenciamento de múltiplos dispositivos baseados em Openwrt utilizando o protocolo SSH"/>
+			<field name="depositDate" value="2019-10-14"/>
+			<field name="publicationDate" value="2021-04-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LEONARDO HENRIQUE GONSIOROSKI FURTADO DA SILVA"/>
+			<field name="inventor" value="LUCAS JEFERSON DA COSTA SILVA"/>
+			<field name="inventor" value="ROGERIO MOREIRA LIMA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO MARANHAO - UEMA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L29/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para gerenciamento de múltiplos dispositivos baseados em openwrt utilizando o protocolo ssh . a presente invenção trata-se de um processo para gerenciamento de múltiplos dispositivos baseados em openwrt de modo seguro, com aplicação na área de sistemas embarcados para redes de computadores visando oferecer um método de configuração de múltiplos equipamentos baseados em openwrt com apenas um procedimento por parte do usuário, proporcionando agilidade no procedimento de configuração de múltiplos dispositivo e segurança garantida por protocolos criptográficos e de autenticação, que garante privacidade de ponta a ponta."/>
+			<field name="originatesFrom" value="75868325"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021528"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019021528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021528"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191021528"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019021528"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18249" type="Person">
+			<semanticIdentifier>lattes::9721806560473297</semanticIdentifier>
+			<field name="identifier.lattes" value="9721806560473297"/>
+			<field name="name" value="Lucas Jeferson da Costa Silva"/>
+		</entity>
+		<entity ref="OrgUnit14270" type="OrgUnit">
+			<semanticIdentifier>brcris::80803f20cbb762bf1cd399414aa8142e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO MARANHAO - UEMA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26351" toEntityRef="Person18249" type="Inventor"/>
+		<relation fromEntityRef="Patent26351" toEntityRef="OrgUnit14270" type="Applicant"/>
+	</relations>
+</entity-relation-data>

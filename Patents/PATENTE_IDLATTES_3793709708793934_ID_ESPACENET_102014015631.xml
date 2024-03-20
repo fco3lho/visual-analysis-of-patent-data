@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:38" record="2047" source="Espacenet">
+	<entities>
+		<entity ref="Patent2047" type="Patent">
+			<semanticIdentifier>brcris::7a577847e695c89728008b4df04d2e63</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014015631A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014015631</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014015631A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141015631</semanticIdentifier>
+			<semanticIdentifier>original::102014015631</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014015631"/>
+			<field name="identifier.lattes" value="3793709708793934"/>
+			<field name="identifier.espacenet" value="102014015631"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="cátodo contendo liga nanoestrutura de paládio e platina com outros componentes"/>
+			<field name="title.lattes" value="Catodo contendo liga nanoestruturada de paladio e platina com outros elementos"/>
+			<field name="depositDate" value="2014-06-24"/>
+			<field name="publicationDate" value="2016-03-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALMIR OLIVEIRA NETO"/>
+			<field name="inventor" value="MARCELO LINARDI"/>
+			<field name="inventor" value="RAFAEL NOGUEIRA BONIFACIO"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M4/92AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="92AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01M8/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="patente de invenção: &quot;cátodo contendo liga nanoestruturada de paládio e platina com outros componentes. a presente invenção se refere a eletrodo à base de nanopartículas de paládio em liga com platina, aplicadas sobre carbono como suporte e envoltas r polímeros fluorados, em proporções adequadamente calculadas, formando um composto de reagentes precursores do eletrodo, o qual é juntado a uma mistura de solventes como veículo, seguido de agitação, redução da temperatura, dispersão, aquecimento controlado e resfriamento à temperatura ambiente, formando um compos homogêneo para aplicação e secagem sobre o substrato de tecido ou papel de carbono por meio de processos de impressão. o referido eletrodo resultante é empregado cátodos de conjuntos membrana-eletrodos (mbas) de sistemas de célula a combustível que utilizam eletrólito polimérico condutor de íons, para a geração de energia elétrica, na reação de redução do oxigênio. o referido cátodo apresenta maior eficiência e menor custo que os eletrodos baseados no uso de platina pura."/>
+			<field name="originatesFrom" value="55587630"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014015631"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014015631"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014015631"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141015631"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014015631"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1546" type="Person">
+			<semanticIdentifier>lattes::3793709708793934</semanticIdentifier>
+			<field name="identifier.lattes" value="3793709708793934"/>
+			<field name="name" value="Almir Oliveira Neto"/>
+		</entity>
+		<entity ref="OrgUnit1170" type="OrgUnit">
+			<semanticIdentifier>brcris::b2ee6e377a9627605cdbc93ece1787bb</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2047" toEntityRef="Person1546" type="Inventor"/>
+		<relation fromEntityRef="Patent2047" toEntityRef="OrgUnit1170" type="Applicant"/>
+	</relations>
+</entity-relation-data>

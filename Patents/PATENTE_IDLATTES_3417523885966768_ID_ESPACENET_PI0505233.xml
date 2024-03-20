@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:17" record="29042" source="Espacenet">
+	<entities>
+		<entity ref="Patent29042" type="Patent">
+			<semanticIdentifier>brcris::ae24bc0392939bb215243aa3cbf1ddfe</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505233A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505233</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505233A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05233</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505233-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505233"/>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="identifier.espacenet" value="PI0505233"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método para determinar automaticamente o nìvel de lìquido de lavagem e de enxágüe em uma máquina de lavar"/>
+			<field name="title.lattes" value="MÉTODO PARA DETERMINAR AUTOMATICAMENTE O NÍVEL DE LÍQUIDO DE LAVAGEM E DE ENXÁGÜE EM UMA MÁQUINA DE LAVAR"/>
+			<field name="depositDate" value="2005-11-07"/>
+			<field name="publicationDate" value="2007-08-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCELO PIEKARSKI"/>
+			<field name="inventor" value="MARCOS PAULO SOARES BITTENCOURT"/>
+			<field name="inventor" value="VICENTE MARCONCIN VANHAZEBROUCK"/>
+			<field name="applicant" value="ELECTROLUX DO BRASIL S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="D06F39/08AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO PARA DETERMINAR AUTOMATICAMENTE O NìVEL DE LìQUIDO DE LAVAGEM E DE ENXáGüE EM UMA MáQUINA DE LAVAR, objeto de presente patente, idealiza um inovador método para determinar o nível de líquido a ser utilizado pela máquina de lavar durante o ciclo de lavagem. Este método é caracterizado por uma série de procedimentos realizados para que seja possível coletar dados e, aplicando-se um algoritmo de decisão, se determine o melhor nível a ser utilizado durante o ciclo de lavagem. Para isso, ao iniciar o ciclo, liga-se a válvula de entrada de água e enche-se até um nível de líquido pré-determinado, efetuando-se ao mesmo tempo um procedimento de molhamento uniforme das roupas e artigos similares. Fecha-se, então, a válvula de entrada de água para um breve molho. Durante este molho é mensurado a variação do nível de água que, juntamente com o valor do tempo para se alcançar o nível pré-determinado ou pelo valor da variação de nível durante um tempo fixo pré-determinado no enchimento, são adicionados a um algoritmo de decisão que define o nível de líquido a ser utilizado durante as fases de agitação e enxágüe."/>
+			<field name="originatesFrom" value="38331866"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505233"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505233"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505233"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05233"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505233-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20019" type="Person">
+			<semanticIdentifier>lattes::3417523885966768</semanticIdentifier>
+			<field name="identifier.lattes" value="3417523885966768"/>
+			<field name="name" value="Marcelo Piekarski"/>
+		</entity>
+		<entity ref="OrgUnit15651" type="OrgUnit">
+			<semanticIdentifier>brcris::820f850da124cef0c3ad39c161c4ccef</semanticIdentifier>
+			<field name="name" value="ELECTROLUX DO BRASIL S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29042" toEntityRef="Person20019" type="Inventor"/>
+		<relation fromEntityRef="Patent29042" toEntityRef="OrgUnit15651" type="Applicant"/>
+	</relations>
+</entity-relation-data>

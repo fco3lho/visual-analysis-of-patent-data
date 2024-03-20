@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:51" record="2264" source="Espacenet">
+	<entities>
+		<entity ref="Patent2264" type="Patent">
+			<semanticIdentifier>brcris::30308a9a164487d26287f0d18cf66784</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012008701A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012008701</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012008701A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121008701</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 008701-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012008701"/>
+			<field name="identifier.lattes" value="9350793734509585"/>
+			<field name="identifier.espacenet" value="102012008701"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="FRAMEWORK PARA CONSTRUÇÃO E CONFIGURAÇÃO DE APLICAÇÕES DE MONITORAMENTO BASEADO EM MODELOS COMPUTACIONAIS DISTRIBUÍDOS"/>
+			<field name="title.lattes" value="Framework para construção e configuração de aplicações de monitoramento baseado em modelos computacionais distribuídos (pedido de patente INPI BR1020120087014 de 13/4/2012)"/>
+			<field name="depositDate" value="2012-04-13"/>
+			<field name="publicationDate" value="2013-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AVARO RODRIGUES PEREIRA JUNIOR"/>
+			<field name="inventor" value="RICARDO AUGUSTO RABELO OLIVEIRA"/>
+			<field name="inventor" value="SAUL EMANUEL DELABRIDA SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F11/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Framework para Construção e Configuração de Aplicações de Monitoramento Baseado em Modelos Computacionais Distribuídos. Um sistema de monitoramento colaborativo composto por três módulas definidos como Service Mediator (SM), Service User (SU) e Service Provider (SP) é apresentando. Dada a interação desses três componentes, é possivel que administradores de sistemas criem remotamente suas aplicações e as disponibilizem para os usuários finais. As aplicações são compreendidas por diversos componentes SP no quais trocam informações entre si. Cada SP realiza pequenas tarefas e com a junção de seus resultados obtém-se o que chamamos de aplicações de monitoramento colaborativo (AMC). O sistema apresenta métodos de adaptação das aplicações em caso de haver alguma falha nos dispositivos de forma que as AMCs continuem funcionando. Outro método é apresentando para readaptar o dispositivo antes falho na AMC em que participava."/>
+			<field name="originatesFrom" value="49578876"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012008701"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012008701"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012008701"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121008701"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 008701-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1643" type="Person">
+			<semanticIdentifier>lattes::9350793734509585</semanticIdentifier>
+			<field name="identifier.lattes" value="9350793734509585"/>
+			<field name="name" value="Alvaro Rodrigues Pereira Junior"/>
+		</entity>
+		<entity ref="OrgUnit1237" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent2264" toEntityRef="Person1643" type="Inventor"/>
+		<relation fromEntityRef="Patent2264" toEntityRef="OrgUnit1237" type="Applicant"/>
+	</relations>
+</entity-relation-data>

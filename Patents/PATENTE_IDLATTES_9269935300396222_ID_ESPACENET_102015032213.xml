@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:07" record="38210" source="Espacenet">
+	<entities>
+		<entity ref="Patent38210" type="Patent">
+			<semanticIdentifier>brcris::4af8a44e75bd4827bd3b162d45c5602f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032213A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015032213</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015032213A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151032213</semanticIdentifier>
+			<semanticIdentifier>original::102015032213</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015032213"/>
+			<field name="identifier.lattes" value="9269935300396222"/>
+			<field name="identifier.espacenet" value="102015032213"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de fabricação de uma mastóide artificial para simulação e treinamento de procedimentos cirúrgicos"/>
+			<field name="title.lattes" value="Método de Fabricação de uma Mastóide Artificial para Simulação e Treinamento de Procedimentos Cirúrgicos"/>
+			<field name="depositDate" value="2015-12-22"/>
+			<field name="publicationDate" value="2017-06-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDSON LEITE FREITAS"/>
+			<field name="inventor" value="FERNANDO DE ANDRADE BALSALOBRE"/>
+			<field name="inventor" value="RICARDO FERREIRA BENTO"/>
+			<field name="applicant" value="3DUX SOLUCOES MEDICAS LTDA - ME"/>
+			<field name="applicant" value="EDSON LEITE FREITAS"/>
+			<field name="applicant" value="FERNANDO DE ANDRADE BALSALOBRE"/>
+			<field name="applicant" value="FUNDACAO OTORRINOLARINGOLOGIA"/>
+			<field name="applicant" value="RICARDO FERREIRA BENTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F11/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T1/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G09B23/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de fabricação de uma mastóide artificial para simulação e treinamento de procedimentos cirúrgicos , que compreende as etapas de obtenção de dados relativos à anatomia através de tomografia computadorizada; conversão dos dados anatômicos da tomografia computadorizada de forma adequada em um conjunto de dados tridimensionais representados por uma malha poligonal no espaço; otimização do arquivo tridimensional gerado através de modelagem cad de forma a separar a peça em duas ou mais estruturas; fabricação da peça física através da tecnologia de manufatura aditiva colorjet printing; aquecimento, infiltração com resina epóxi, novo aquecimento, e colagem das partes da mastoide; aplicação de tinta emborrachada na fossa cerebral média e anterior; preenchimento do canal do nervo facial."/>
+			<field name="originatesFrom" value="61256397"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032213"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015032213"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015032213"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151032213"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015032213"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26317" type="Person">
+			<semanticIdentifier>lattes::9269935300396222</semanticIdentifier>
+			<field name="identifier.lattes" value="9269935300396222"/>
+			<field name="name" value="Ricardo Ferreira Bento"/>
+		</entity>
+		<entity ref="OrgUnit20620" type="OrgUnit">
+			<semanticIdentifier>brcris::cebc563f8c9e351554a1687e05d50489</semanticIdentifier>
+			<field name="name" value="FUNDACAO OTORRINOLARINGOLOGIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38210" toEntityRef="Person26317" type="Inventor"/>
+		<relation fromEntityRef="Patent38210" toEntityRef="OrgUnit20620" type="Applicant"/>
+		<relation fromEntityRef="Patent38210" toEntityRef="Person26317" type="Depositor"/>
+	</relations>
+</entity-relation-data>

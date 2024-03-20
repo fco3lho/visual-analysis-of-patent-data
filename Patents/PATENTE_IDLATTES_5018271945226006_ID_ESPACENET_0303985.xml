@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:09" record="30401" source="Espacenet">
+	<entities>
+		<entity ref="Patent30401" type="Patent">
+			<semanticIdentifier>brcris::e27ce4f9948128e9d951fb3b23392759</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303985A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0303985</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0303985A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030303985</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0303985-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0303985"/>
+			<field name="identifier.lattes" value="5018271945226006"/>
+			<field name="identifier.espacenet" value="0303985"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo de recuperação e extração eletroquìmica de ouro, prata e cobre de soluções aquosas usando uma célula eletroquìmica"/>
+			<field name="title.lattes" value="Processo de reduperação e extração eletroquímica de ouro, prata e cobre de soluções aquosas usando uma célula eletroquímica"/>
+			<field name="depositDate" value="2003-10-10"/>
+			<field name="publicationDate" value="2006-04-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARCOS SPITZER"/>
+			<field name="inventor" value="RODNEI BERTAZZOLI"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE RECUPERAçãO E EXTRAçãO ELETROQUìMICA DE OURO, PRATA E COBRE DE SOLUçõES AQUOSAS USANDO UMA CéLULA ELETROQUìMICA&quot;. Novo processo de recuperação e extração eletroquímica de ouro, prata e cobre de soluções aquosas usando uma célula eletroquímica composta de um catodo de titânio ou composta de um catodo de carbono vítreo, o qual é aplicado diretamente a soluções com íons metálicos de outro, prata e cobre, dispensando etapas de pré-concentração que utilizam carvão ativado, e sem utilização de nenhum reagente químico adicionado ao processo, onde a recuperação dos materiais metálicos é efetuada através das reações de oxi-redução, que ocorrem nas superfícies dos eletrodos de uma célula eletroquímica alimentada por uma fonte externa de corrente/potencial elétrico, devido à imposição da diferença de potencial e/ou de uma corrente elétrica aplica à célula eletrolítica."/>
+			<field name="originatesFrom" value="36191660"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303985"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0303985"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0303985"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030303985"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0303985-4"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0303985"/>
+		</entity>
+		<entity ref="Person20842" type="Person">
+			<semanticIdentifier>lattes::5018271945226006</semanticIdentifier>
+			<field name="identifier.lattes" value="5018271945226006"/>
+			<field name="name" value="Marcos Spitzer"/>
+		</entity>
+		<entity ref="OrgUnit16299" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="Patent30402" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0303985</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="36191660"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0303985"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30401" toEntityRef="Person20842" type="Inventor"/>
+		<relation fromEntityRef="Patent30401" toEntityRef="OrgUnit16299" type="Applicant"/>
+	</relations>
+</entity-relation-data>

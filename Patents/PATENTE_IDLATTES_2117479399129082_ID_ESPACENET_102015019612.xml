@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:31" record="28566" source="Espacenet">
+	<entities>
+		<entity ref="Patent28566" type="Patent">
+			<semanticIdentifier>brcris::f051b13cc04cbf903c0b55ab696bcda9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015019612A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015019612</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015019612A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151019612</semanticIdentifier>
+			<semanticIdentifier>original::102015019612</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015019612"/>
+			<field name="identifier.lattes" value="2117479399129082"/>
+			<field name="identifier.espacenet" value="102015019612"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de utilização de um aeróstato em linhas de transmissão"/>
+			<field name="title.lattes" value="Processo de utilização de um Aeróstato em Linhas de Transmissão"/>
+			<field name="depositDate" value="2015-08-14"/>
+			<field name="publicationDate" value="2017-02-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS DAUD FILHO"/>
+			<field name="inventor" value="GERALDO BERNADINO GUEDES"/>
+			<field name="inventor" value="MARCELO AUGUSTO DE FELIPPES"/>
+			<field name="inventor" value="ROMULUS ANTONIO FREDERICO LOPES"/>
+			<field name="inventor" value="WADY CHARONE JUNIOR"/>
+			<field name="applicant" value="AIRSHIP DO BRASIL INDUSTRIA AERONAUTICA LTDA"/>
+			<field name="applicant" value="CENTRAIS ELETRICAS DO NORTE DO BRASIL S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B64B1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="64"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02G1/02AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de utilização de um aeróstato em linhas de transmissão a presente invenção refere-se a um processo que utiliza como insumo um aeróstato, mais especificamente, um dirigível tripulado com uma plataforma aérea para solucionar os atuais problemas em sistema de transmissão de energia elétrica. tais problemas estão relacionados aos complexos processos operacionais, os quais possuem altos custos e elevado tempo de execução dos serviços de construção, operação, inspeção e manutenção, melhorando a sua produtividade. esse processo se dá por meio do sobrevoo das linhas de transmissão e pelo acesso aos pontos de trabalho, de forma descendente, utilizando uma estrutura de transferência de cargas. a invenção apresenta vantagens econômicas, sociais e ambientais muito relevantes quando em comparação aos processos utilizados atualmente, pois define uma nova logística de acesso ao sistema de transmissão."/>
+			<field name="originatesFrom" value="58043686"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015019612"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015019612"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015019612"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151019612"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015019612"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2017027939"/>
+		</entity>
+		<entity ref="Person19748" type="Person">
+			<semanticIdentifier>lattes::2117479399129082</semanticIdentifier>
+			<field name="identifier.lattes" value="2117479399129082"/>
+			<field name="name" value="Marcelo Augusto de Felippes"/>
+		</entity>
+		<entity ref="OrgUnit15428" type="OrgUnit">
+			<semanticIdentifier>brcris::dd80d4996e34ad701576e1f641a37157</semanticIdentifier>
+			<field name="name" value="CENTRAIS ELETRICAS DO NORTE DO BRASIL S/A"/>
+		</entity>
+		<entity ref="Patent28567" type="Patent">
+			<semanticIdentifier>epodoc::WO2017027939</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="58043686"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2017027939"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28566" toEntityRef="Person19748" type="Inventor"/>
+		<relation fromEntityRef="Patent28566" toEntityRef="OrgUnit15428" type="Applicant"/>
+	</relations>
+</entity-relation-data>

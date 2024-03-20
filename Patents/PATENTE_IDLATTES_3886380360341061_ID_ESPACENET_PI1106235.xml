@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:22" record="36418" source="Espacenet">
+	<entities>
+		<entity ref="Patent36418" type="Patent">
+			<semanticIdentifier>brcris::0383bc6075716bc1e575468e7dd73ff4</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106235A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1106235</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106235A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI06235</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1106235-5 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1106235"/>
+			<field name="identifier.lattes" value="3886380360341061"/>
+			<field name="identifier.espacenet" value="PI1106235"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="DISPOSITIVO E PROCESSO PARA A NAVEGAÇÃO ORIENTADA DE VEÍCULOS EM REGIÕES URBANAS E REGIÕES RURAIS"/>
+			<field name="title.lattes" value="Dispositivo e Processo para Navegação Orientada de Veículos em Regiões Urbanas e Regiões Rurais"/>
+			<field name="depositDate" value="2011-12-23"/>
+			<field name="publicationDate" value="2013-10-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JULIO CEZAR DAVID DE MELO"/>
+			<field name="inventor" value="PETERSON DE RESENDE"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE MINAS GERAIS - FAPEMIG"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01C21/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01C21/10AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO E PROCESSO PARA NAVEGAÇÃO ORIENTADA DE VEÍCULOS EM REGIÕES URBANAS E REGIÕES RURAIS. A matéria tratada refere-se a um dispositivo e a um rpocesso de utilização do mesmo que possibilta a identificação da posição de veícuos automotres em regiõe surbanas e rurais, a partir de uma posição inicial conhecida sem a necessidade do uso de equipamentos receptores do sistema GPS. Essa identificação é feita através da medição da velocidade de deslocamento à posição de repouso do mesmo e da medição da direção de deslocamento do veículo em relação ao campo magnético da Terra; através de sensores destas grandezas e da correlação destas medidas com um mapa digital armazenado na memória do dispositivo."/>
+			<field name="originatesFrom" value="49320984"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106235"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1106235"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106235"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI06235"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1106235-5 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25069" type="Person">
+			<semanticIdentifier>lattes::3886380360341061</semanticIdentifier>
+			<field name="identifier.lattes" value="3886380360341061"/>
+			<field name="name" value="Peterson de Resende"/>
+		</entity>
+		<entity ref="OrgUnit19675" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36418" toEntityRef="Person25069" type="Inventor"/>
+		<relation fromEntityRef="Patent36418" toEntityRef="OrgUnit19675" type="Applicant"/>
+	</relations>
+</entity-relation-data>

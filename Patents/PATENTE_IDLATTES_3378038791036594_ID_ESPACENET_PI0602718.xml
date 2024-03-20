@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:12" record="20211" source="Espacenet">
+	<entities>
+		<entity ref="Patent20211" type="Patent">
+			<semanticIdentifier>brcris::a70b4656b549c2bc42607100088a9e31</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602718A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0602718</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0602718A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI02718</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0602718-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0602718"/>
+			<field name="identifier.lattes" value="3378038791036594"/>
+			<field name="identifier.espacenet" value="PI0602718"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="conversor ca-cc trifásico isolado em alta freqüência por único estágio"/>
+			<field name="title.lattes" value="CONVERSOR CA-CC TRIFÁSICO ISOLADO EM ALTA FREQÜÊNCIA POR ÚNICO ESTÁGIO"/>
+			<field name="depositDate" value="2006-04-07"/>
+			<field name="publicationDate" value="2007-12-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DIEGO SANTOS GREFF"/>
+			<field name="inventor" value="IVO BARBI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M7/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H02M1/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Conversor CA-CC Trifásico Isolado em Alta Freqüência por único Estágio. O presente invento realiza a transferência de potência da rede trifásica para a carga de maneira isolada por meia de um retificador trifásico PWM tipo Buck conectado diretamente a um transformador forward/flyback, onde estas duas estruturas compõem um conversor CA-CC de único estágio. A ponte retificadora trifásica do tipo Buck proporciona a tensão retificada modulada em alta freqüência para o enrolamento primário do transformador. O enrolamento secundário, ou forward, é o responsável por maior parte da potência transferida à carga e o enrolamento terciário, ou flyback, desmagnetiza o núcleo do transformador regenerando esta energia à carga. A modulação por largura de pulso senoidal em três níveis e a utilização do filtro de entrada proporcionam a este conversor um fator de potência praticamente unitário e uma reduzida distorção harmónica total para as correntes de entrada."/>
+			<field name="originatesFrom" value="38580652"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602718"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0602718"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0602718"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI02718"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0602718-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2007115384"/>
+		</entity>
+		<entity ref="Person14025" type="Person">
+			<semanticIdentifier>lattes::3378038791036594</semanticIdentifier>
+			<field name="identifier.lattes" value="3378038791036594"/>
+			<field name="name" value="Ivo Barbi"/>
+		</entity>
+		<entity ref="OrgUnit10964" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+		<entity ref="Patent20212" type="Patent">
+			<semanticIdentifier>epodoc::WO2007115384</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="38580652"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2007115384"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20211" toEntityRef="Person14025" type="Inventor"/>
+		<relation fromEntityRef="Patent20211" toEntityRef="OrgUnit10964" type="Applicant"/>
+	</relations>
+</entity-relation-data>

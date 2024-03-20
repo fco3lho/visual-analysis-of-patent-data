@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:25" record="21699" source="Espacenet">
+	<entities>
+		<entity ref="Patent21699" type="Patent">
+			<semanticIdentifier>brcris::df727ca3ec6bb64322daba4b797c783e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019018333A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019018333</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019018333A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191018333</semanticIdentifier>
+			<semanticIdentifier>original::102019018333</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019018333"/>
+			<field name="identifier.lattes" value="2918629823216081"/>
+			<field name="identifier.espacenet" value="102019018333"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de controle do escoamento transversal e do estol de ponta em asas enflechadas baseado em atuadores de plasma"/>
+			<field name="title.lattes" value="Método De Controle Do Escoamento Transversal E Do Estol De Ponta Em Asas Enflechadas Baseado Em Atuadores De Plasma"/>
+			<field name="depositDate" value="2019-09-03"/>
+			<field name="publicationDate" value="2021-03-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO MARTINI CATALANO"/>
+			<field name="inventor" value="GABRIEL PEREIRA GOUVEIA DA SILVA"/>
+			<field name="inventor" value="JOAO PAULO EGUEA"/>
+			<field name="inventor" value="JOSE ANTONIO GARCIA CROCE"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B64C5/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="64"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B64C9/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="64"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção compreende em um método para controle do escoamento transversal em asas enflechadas. o método realiza um controle ativo do escoamento transversal na superfície da asa através de atuadores de plasma acoplados no extradorso da asa de maneira que seu jato induzido atue contra a componente transversal do escoamento sobre a asa. este alinhamento do escoamento na superfície da asa pode ser ativado quando for conveniente, inibindo a ocorrência de estol de ponta de asa e aumentando a eficiência aerodinâmica da asa. o atuador de plasma produz um jato paralelo à superfície da asa, criado a partir do transporte de ar do escoamento livre para a camada limite e pela colisão do ar neutro com os íons acelerados no campo elétrico do atuador de forma a reduzir a componente de escoamento transversal na superfície da asa, realinhando-o com o escoamento que, de fato, fornece a força de sustentação."/>
+			<field name="originatesFrom" value="75243220"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019018333"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019018333"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019018333"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191018333"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019018333"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15031" type="Person">
+			<semanticIdentifier>lattes::2918629823216081</semanticIdentifier>
+			<field name="identifier.lattes" value="2918629823216081"/>
+			<field name="name" value="João Paulo Eguea"/>
+		</entity>
+		<entity ref="OrgUnit11751" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21699" toEntityRef="Person15031" type="Inventor"/>
+		<relation fromEntityRef="Patent21699" toEntityRef="OrgUnit11751" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:38" record="25571" source="Espacenet">
+	<entities>
+		<entity ref="Patent25571" type="Patent">
+			<semanticIdentifier>brcris::4584ec1006551e466564c2c3a4fdbe6c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018016312A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018016312</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018016312A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181016312</semanticIdentifier>
+			<semanticIdentifier>original::102018016312</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018016312"/>
+			<field name="identifier.lattes" value="4685432013937340"/>
+			<field name="identifier.espacenet" value="102018016312"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para obtenção dos materiais lpm-15, lpm-16 e lpm-17, com topologias zeolíticas lta, fau e mor, respectivamente, como subproduto da extração do lítio a partir do beta-espodumênio"/>
+			<field name="title.lattes" value="Processo para obtenção dos materiais LPM-15, LPM-16 e LPM-17, com topologias zeolíticas LTA, FAU e MOR, respectivamente, como subproduto da extração do lítio a partir do beta-espodumênio"/>
+			<field name="depositDate" value="2018-08-09"/>
+			<field name="publicationDate" value="2020-03-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LEONARDO LEANDRO DOS SANTOS"/>
+			<field name="inventor" value="RUBENS MARIBONDO DO NASCIMENTO"/>
+			<field name="inventor" value="SIBELE BERENICE CASTELLA PERGHER"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C01B33/26AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C22B26/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="26"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para obtenção dos materiais lpm-15, lpm-16 e lpm-17, com topologias zeolíticas lta, fau e mor, respectivamente, como subproduto da extração do lítio a partir do beta-espodumênio o lítio extraído a partir de depósitos pegmatíticos litiníferos vem associado a sulfatos, magnésio e outros elementos como impurezas, encarecendo o procedimento de extração com uso de solventes a base de actinídeos e emprego de sais de lítio, além de abundante formação de resíduo rico em si e al. a viabilidade de um processo de extração para produção de compostos químicos de lítio dependerá, principalmente, do teor em lítio extraído e facilidade de recuperação, além da possibilidade de recuperação do resíduo como subproduto. a presente invenção refere-se a um processo não-prejudicial ao meio ambiente e livre de solventes orgânicos para extração de lítio na forma de sal, a partir do beta-espodumênio, mediante solubilização e tratamento hidrotérmico com sais de sódio e teor de água reduzido, além de precipitação a partir de sal de bicarbonato de íon amônio, com recuperação de licor rico em aproximadamente 85% de lítio a partir do sobrenadante, com simultânea obtenção de materiais zeolíticos inertes como subprodutos resistentes e quimicamente estáveis até 700°c, denominados lpm-15, lpm-16 e lpm-17, de topologias lta (naa), fau-x (nax) e mor (na-mor), respectivamente, livres de lítio estrutural e teor reduzido de quartzo não-dissolvido."/>
+			<field name="originatesFrom" value="69669267"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018016312"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018016312"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018016312"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181016312"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018016312"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17713" type="Person">
+			<semanticIdentifier>lattes::4685432013937340</semanticIdentifier>
+			<field name="identifier.lattes" value="4685432013937340"/>
+			<field name="name" value="Leonardo Leandro dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit13827" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25571" toEntityRef="Person17713" type="Inventor"/>
+		<relation fromEntityRef="Patent25571" toEntityRef="OrgUnit13827" type="Applicant"/>
+	</relations>
+</entity-relation-data>

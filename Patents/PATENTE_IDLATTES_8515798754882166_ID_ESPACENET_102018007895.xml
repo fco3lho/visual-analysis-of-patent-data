@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:06:30" record="901" source="Espacenet">
+	<entities>
+		<entity ref="Patent901" type="Patent">
+			<semanticIdentifier>brcris::9536f8bc2322d2832e2a1000ae9aff77</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018007895A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018007895</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018007895A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181007895</semanticIdentifier>
+			<semanticIdentifier>original::102018007895</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018007895"/>
+			<field name="identifier.lattes" value="8515798754882166"/>
+			<field name="identifier.espacenet" value="102018007895"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="rede de sensores para monitoramento de estacionamentos internos e externos"/>
+			<field name="title.lattes" value="REDE DE SENSORES PARA MONITORAMENTO DE ESTACIONAMENTOS INTERNOS E EXTERNOS"/>
+			<field name="depositDate" value="2018-04-19"/>
+			<field name="publicationDate" value="2019-11-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AIDA ARAUJO FERREIRA"/>
+			<field name="inventor" value="AMANDA ARAUJO DE AQUINO"/>
+			<field name="inventor" value="CARLOS ALBERTO LEAL DE BARROS"/>
+			<field name="inventor" value="DIEGO SANTOS DE OLIVEIRA"/>
+			<field name="inventor" value="GILMAR GONCALVES DE BRITO"/>
+			<field name="inventor" value="HUMBERTO LOPES FERREIRA DE SOUZA"/>
+			<field name="inventor" value="IONA MARIA BELTRAO RAMEH BARBOSA"/>
+			<field name="inventor" value="JOSE FERNANDES DA NOBREGA FILHO"/>
+			<field name="inventor" value="MEUSE NOGUEIRA DE OLIVEIRA JUNIOR"/>
+			<field name="inventor" value="MICHAEL BARNEY GALINDO JUNIOR"/>
+			<field name="inventor" value="RONALDO RIBEIRO BARBOSA DE AQUINO"/>
+			<field name="inventor" value="SAMUEL BENVENUTO DANTAS"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08G1/042AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="042AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G08G1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H04L29/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="29"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção é capaz de detectar a presença de veículos em vagas de estacionamento de maneira independente, podendo formar uma rede de monitoramento através de comunicação sem fio com um aparelho controlador. o dito dispositivo é constituído por um microcontrolador que aciona periodicamente um sensor magnetômetro, capaz de captar o campo magnético do ambiente. caso detecte um veículo de acordo com os padrões calibrados automaticamente, o microcontrolador aciona o módulo de transmissão sem fio e envia um pacote de dados com informações em relação ao dispositivo para um aparelho controlador central. a invenção é posicionada na superfície das vagas, podendo ser facilmente substituído ou descartado, devido ao funcionamento independente de cada aparelho."/>
+			<field name="originatesFrom" value="68385872"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018007895"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018007895"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018007895"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181007895"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018007895"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person654" type="Person">
+			<semanticIdentifier>lattes::8515798754882166</semanticIdentifier>
+			<field name="identifier.lattes" value="8515798754882166"/>
+			<field name="name" value="Aida Araújo Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit525" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent901" toEntityRef="Person654" type="Inventor"/>
+		<relation fromEntityRef="Patent901" toEntityRef="OrgUnit525" type="Applicant"/>
+	</relations>
+</entity-relation-data>

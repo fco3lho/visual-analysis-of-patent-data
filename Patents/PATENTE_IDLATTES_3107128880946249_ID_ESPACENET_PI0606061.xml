@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:14" record="35663" source="Espacenet">
+	<entities>
+		<entity ref="Patent35663" type="Patent">
+			<semanticIdentifier>brcris::be3b1725ab54b223244616d7b45c7305</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0606061A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0606061</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0606061A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2006PI06061</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0606061-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0606061"/>
+			<field name="identifier.lattes" value="3107128880946249"/>
+			<field name="identifier.espacenet" value="PI0606061"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="processo para fabricação de filmes finos e o produto assim obtido"/>
+			<field name="title.lattes" value="PROCESSO PARA FABRICAÇÃO DE FILMES FINOS E O PRODUTO ASSIM OBTIDO"/>
+			<field name="depositDate" value="2006-06-16"/>
+			<field name="publicationDate" value="2008-01-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUGUSTO ALEXANDRE DURGANTE DE MATTOS"/>
+			<field name="inventor" value="PAULO FERNANDO PAPALEO FICHTNER"/>
+			<field name="inventor" value="SHAY REBOH"/>
+			<field name="applicant" value="AUGUSTO ALEXANDRE DURGANTE DE MATTOS"/>
+			<field name="applicant" value="PAULO FERNANDO PAPALEO FICHTNER"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="SHAY REBOH"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL - UFRGS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L21/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO PARA FABRICAçãO DE FILMES FINOS E O PRODUTO ASSIM OBTIDO Processo para produção de filmes finos de materiais monocristalinos ou policristalinos incluindo os seguintes passos: Implantação de íons (2) pela superfície (3) de um material plano, geralmente um &quot;wafer&quot; (ou bolacha) de material semicondutor (1), criando uma região localizada de defeitos em forma de bolhas no volume do material (4) definindo a separação entre o volume do material (5) e o filme a ser separado (6), tratamento térmico do material, de maneira a causar a separação da camada superficial do material resto do seu volume ao longo da região onde estão localizados os defeitos, filme este que pode ser ou não previamente ancorado por um segundo material rígido(7) dependendo da aplicação desejada. E de acordo com a presente invenção, o processo de separação ocorre por propagação de trincas. Também é relatado um processo de evitar o embolhamento da camada superficial sem a presença de um ancoradouro mecânico, mesmo para camadas finas."/>
+			<field name="originatesFrom" value="38969716"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0606061"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0606061"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0606061"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2006PI06061"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0606061-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24554" type="Person">
+			<semanticIdentifier>lattes::3107128880946249</semanticIdentifier>
+			<field name="identifier.lattes" value="3107128880946249"/>
+			<field name="name" value="Paulo Fernando Papaleo Fichtner"/>
+		</entity>
+		<entity ref="OrgUnit19263" type="OrgUnit">
+			<semanticIdentifier>brcris::ecee5f2da62582a0cd34092d7070e4a6</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35663" toEntityRef="Person24554" type="Inventor"/>
+		<relation fromEntityRef="Patent35663" toEntityRef="OrgUnit19263" type="Applicant"/>
+		<relation fromEntityRef="Patent35663" toEntityRef="Person24554" type="Depositor"/>
+	</relations>
+</entity-relation-data>

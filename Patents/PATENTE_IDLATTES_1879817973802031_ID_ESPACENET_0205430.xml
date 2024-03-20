@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:39:26" record="20335" source="Espacenet">
+	<entities>
+		<entity ref="Patent20335" type="Patent">
+			<semanticIdentifier>brcris::39977b4f90d8fe0373b022bcc9f2cbc1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205430A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0205430</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205430A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020205430</semanticIdentifier>
+			<semanticIdentifier>original::0205430-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0205430"/>
+			<field name="identifier.lattes" value="1879817973802031"/>
+			<field name="identifier.espacenet" value="0205430"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método e sistema para análise, catalogação e gerenciamento de amostras de texturas estocásticas"/>
+			<field name="title.lattes" value="Método e Sistema para Análise, Catalogação e Gerenciamento de Amostras de Texturas Estocásticas"/>
+			<field name="depositDate" value="2002-11-04"/>
+			<field name="publicationDate" value="2004-08-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO ROSITO JUNG"/>
+			<field name="inventor" value="JACOB SCHARCANSKI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T7/40AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04N1/415AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="415AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO E SISTEMA PARA ANáLISE, CATALOGAçãO E GERENCIAMENTO DE AMOSTRAS DE TEXTURAS ESTOCáSTICAS&quot;. é descrito um método e sistema para análise, catalogação e gerenciamento de amostras de texturas estocásticas que compreende adquirir imagens de amostras do material e determinar, em múltiplas resoluções, os gradientes da imagem de textura, usando os coeficientes da Transformada Wavelet redundante em cada uma das escalas, nas direções x e y no plano da imagem, em seguida caracterizar ou indexar cada imagem adquirida em cada uma das escalas segundo dois atributos principais, esses atributos sendo a anisotropia ou direcionalidade e a variabilidade da densidade superficial da textura, formando assim um catálogo de imagens de textura e de suas propriedades, as imagens de texturas estocásticas do catálogo formado sendo recuperadas do catálogo formado com base em similaridade a exemplos e propriedades das amostras. O sistema usado para implementar o processo descrito compreende uma câmera digital (11) para adquirir uma imagem da amostra/subamostra (10) e posterior envio de dados para um microcomputador (13), a partir do qual haverá extração de informações (14), um banco de imagens e de dados (15) e uma interface com o usuário (16)."/>
+			<field name="originatesFrom" value="32777678"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205430"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0205430"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205430"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020205430"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0205430-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14128" type="Person">
+			<semanticIdentifier>lattes::1879817973802031</semanticIdentifier>
+			<field name="identifier.lattes" value="1879817973802031"/>
+			<field name="name" value="Jacob Scharcanski"/>
+		</entity>
+		<entity ref="OrgUnit11063" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20335" toEntityRef="Person14128" type="Inventor"/>
+		<relation fromEntityRef="Patent20335" toEntityRef="OrgUnit11063" type="Applicant"/>
+	</relations>
+</entity-relation-data>

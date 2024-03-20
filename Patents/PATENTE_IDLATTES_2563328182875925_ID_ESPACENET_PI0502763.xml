@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:33" record="8760" source="Espacenet">
+	<entities>
+		<entity ref="Patent8760" type="Patent">
+			<semanticIdentifier>brcris::a7519fc1d67b9dbd462f5d7a46d3ae27</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502763A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0502763</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0502763A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI02763</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0502763-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0502763"/>
+			<field name="identifier.lattes" value="2563328182875925"/>
+			<field name="identifier.espacenet" value="PI0502763"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método de quantificação de parámetros da indústria petrolìfera por espalhamento de raios-x e quimiometria"/>
+			<field name="title.lattes" value="MÉTODO PARA PREDIÇÃO DE DERIVADOS DE PETRÓLEO E PRODUÇÃO DE SEUS DERIVADOS"/>
+			<field name="depositDate" value="2005-07-04"/>
+			<field name="publicationDate" value="2007-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDETE BERNARDO HENRIQUES"/>
+			<field name="inventor" value="MARIA IZABEL MARETTI SILVEIRA BUENO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N23/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N23/201AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="201AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO DE QUANTIFICAçãO DE PARáMETROS DA INDúSTRIA PETROLìFERA POR ESPALHAMENTO DE RAIOS-X E QUIMIOMETRIA&quot;. Compreende um método onde as amostras e padrões, quando líquidos, são colocados em celas especiais usadas para fluorescência de raios-x, e quando sólidas, são preparadas pastilhas, irradiadas diretamente, sem qualquer pré-tratamento, de forma muito simples, rápida, com baixo custo operacional e sem geração de resíduos."/>
+			<field name="originatesFrom" value="37770491"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502763"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0502763"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0502763"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI02763"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0502763-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5988" type="Person">
+			<semanticIdentifier>lattes::2563328182875925</semanticIdentifier>
+			<field name="identifier.lattes" value="2563328182875925"/>
+			<field name="name" value="Claudete Bernardo Henriques"/>
+		</entity>
+		<entity ref="OrgUnit4722" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8760" toEntityRef="Person5988" type="Inventor"/>
+		<relation fromEntityRef="Patent8760" toEntityRef="OrgUnit4722" type="Applicant"/>
+	</relations>
+</entity-relation-data>

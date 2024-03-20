@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:09" record="15076" source="Espacenet">
+	<entities>
+		<entity ref="Patent15076" type="Patent">
+			<semanticIdentifier>brcris::cb3d77351beaf37811842dcc20f4126b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103799A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1103799</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1103799A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI03799</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1103799-7 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1103799"/>
+			<field name="identifier.lattes" value="4182930697551763"/>
+			<field name="identifier.espacenet" value="PI1103799"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="ESFÍNCTER URINÁRIO AUTOMATIZADO"/>
+			<field name="title.lattes" value="Esfíncter Urinário Automatizado."/>
+			<field name="depositDate" value="2011-08-09"/>
+			<field name="publicationDate" value="2014-02-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIS MARQUES MARCATO"/>
+			<field name="inventor" value="FELIPE CAMPOS KITAMURA"/>
+			<field name="inventor" value="JOSE PAULO RODRIGUES FURTADO DE MENDONCA"/>
+			<field name="inventor" value="LUIZ CARLOS DE ARAUJO"/>
+			<field name="inventor" value="PEDRO PAULO FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F2/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ESFINCTER URINÁRIO AUTOMATIZADO. A tecnologia é composta por um anel cilíndrico, que envolve o canal a ser controlada, no caso de interesse a uretra. É possível abrir (descompressão da uretra) ou fechar (compressão da uretra) de acordo com o aumento ou diminuição do raio do anel. Outra possibilidade é usar o dispositivo como um sling. Neste caso é feito uma curvatura acentuada na uretra de tal forma que ao expandir o anel há uma diminuição da curvatura e, consequentemente, a liberação da urina. O controle da compressão e descompressão é feita por um microcontrolador e depende da vontade do paciente em acionar ou não o dispositivo. Para o funcionamento do sistema é necessário uma bateria que possibilite sua recarga sem a necessidade de retirá-la do corpo do paciente. A recarga é feita por um sistema de RF que fica externo, ao corpo do paciente."/>
+			<field name="originatesFrom" value="50137353"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103799"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1103799"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1103799"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI03799"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1103799-7 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10467" type="Person">
+			<semanticIdentifier>lattes::4182930697551763</semanticIdentifier>
+			<field name="identifier.lattes" value="4182930697551763"/>
+			<field name="name" value="Felipe Campos Kitamura"/>
+		</entity>
+		<entity ref="OrgUnit8173" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15076" toEntityRef="Person10467" type="Inventor"/>
+		<relation fromEntityRef="Patent15076" toEntityRef="OrgUnit8173" type="Applicant"/>
+	</relations>
+</entity-relation-data>

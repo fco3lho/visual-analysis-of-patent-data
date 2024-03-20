@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:38" record="4413" source="Espacenet">
+	<entities>
+		<entity ref="Patent4413" type="Patent">
+			<semanticIdentifier>brcris::3b528d0ff33420080c4dfb383e502dee</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504350A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9504350</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9504350A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959504350</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 9504350-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9504350"/>
+			<field name="identifier.lattes" value="8315941974485040"/>
+			<field name="identifier.espacenet" value="9504350"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Aperfeiçoamento em separador de óleo e gás"/>
+			<field name="title.lattes" value="Aperfeiçoamento de Separador de Óleo e Gás"/>
+			<field name="depositDate" value="1995-10-10"/>
+			<field name="publicationDate" value="1997-09-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALHANATI FRANCISCO JOSE SOARES"/>
+			<field name="inventor" value="ALMEIDA FRANCA FERNANDO DE"/>
+			<field name="inventor" value="ANTONIO CARLOS BANNWART"/>
+			<field name="inventor" value="DE MOURA LUIZ FELIPE MENDES"/>
+			<field name="inventor" value="EUGENIO SPANO ROSA"/>
+			<field name="inventor" value="FERNANDO DE ALMEIDA FRANCA"/>
+			<field name="inventor" value="FRANCISCO JOSE SOARES ALHANATI"/>
+			<field name="inventor" value="LUIZ FELIPE MENDES DE MOURA"/>
+			<field name="inventor" value="ROSA EUGENIO SPANO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D17/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01D21/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4062412"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504350"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9504350"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9504350"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959504350"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 9504350-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3142" type="Person">
+			<semanticIdentifier>lattes::8315941974485040</semanticIdentifier>
+			<field name="identifier.lattes" value="8315941974485040"/>
+			<field name="name" value="Antonio Carlos Bannwart"/>
+		</entity>
+		<entity ref="OrgUnit2542" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4413" toEntityRef="Person3142" type="Inventor"/>
+		<relation fromEntityRef="Patent4413" toEntityRef="OrgUnit2542" type="Applicant"/>
+	</relations>
+</entity-relation-data>

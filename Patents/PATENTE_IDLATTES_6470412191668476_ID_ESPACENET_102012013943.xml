@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:26" record="14063" source="Espacenet">
+	<entities>
+		<entity ref="Patent14063" type="Patent">
+			<semanticIdentifier>brcris::cbf8c71224f88bf927d9f31f85221e0d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012013943A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012013943</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012013943A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121013943</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 013943-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012013943"/>
+			<field name="identifier.lattes" value="6470412191668476"/>
+			<field name="identifier.espacenet" value="102012013943"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="DISPOSITIVO CONTROLADOR DE POTÊNCIA POR MODOS DESLIZANTES"/>
+			<field name="title.lattes" value="Dispositivo Controlador de Potência"/>
+			<field name="depositDate" value="2012-06-11"/>
+			<field name="publicationDate" value="2014-04-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALFEU JOAOZINHO SGUAREZI FILHO"/>
+			<field name="inventor" value="ERNESTO RUPPERT FILHO"/>
+			<field name="inventor" value="TARCIO ANDRE DOS SANTOS BARROS"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO ABC - UFABC"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R23/16AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05F1/66AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="66AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO CONTROLADOR DE POTÊNCIA POR MODOS DESLIZANTES. A presente invenção trata-se de um dispositivo controlador de potência por modos deslizantes para geradores de relutância variável. O controle processa o erro de potência diretamente e altera o valor do ângulo de desligamento das chaves do conversor para garantir que a potência gerada seja igual à referência de potência. O dispositivo proposto apresenta como vantagem sua rapidez e sua maior eficiência no controle de potências. A invenção pode ser aplicada em no controle direto de potências do GRV em sistemas de geração eólica centrais hdiroelétricas e sistemas de cogeração. Uma outra aplicação está relacionada ao controle da tensão contínua do barramento para aplicação está relacionada ao controle da tensão contínua do barramento para aplicação do GRV cpnectado diretamente à carga elétrica."/>
+			<field name="originatesFrom" value="50516365"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012013943"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012013943"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012013943"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121013943"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 013943-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9667" type="Person">
+			<semanticIdentifier>lattes::6470412191668476</semanticIdentifier>
+			<field name="identifier.lattes" value="6470412191668476"/>
+			<field name="name" value="Ernesto Ruppert Filho"/>
+		</entity>
+		<entity ref="OrgUnit7612" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14063" toEntityRef="Person9667" type="Inventor"/>
+		<relation fromEntityRef="Patent14063" toEntityRef="OrgUnit7612" type="Applicant"/>
+	</relations>
+</entity-relation-data>

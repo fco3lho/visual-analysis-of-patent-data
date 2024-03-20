@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:09" record="12555" source="Espacenet">
+	<entities>
+		<entity ref="Patent12555" type="Patent">
+			<semanticIdentifier>brcris::cd74857bf810adefbc0c8c10e4976922</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019013944U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202019013944U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202019013944U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20192013944U</semanticIdentifier>
+			<semanticIdentifier>original::202019013944</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202019013944"/>
+			<field name="identifier.lattes" value="0958574773546143"/>
+			<field name="identifier.espacenet" value="202019013944"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="aparelho medidor de arquitetura de copa de árvore"/>
+			<field name="title.lattes" value="Aparelho Medidor de Arquitetura de Copa de Árvore - AMACA"/>
+			<field name="depositDate" value="2019-07-04"/>
+			<field name="publicationDate" value="2021-01-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="EDUARDO AUGUSTO WERNECK RIBEIRO"/>
+			<field name="applicant" value="INSTITUTO FEDERAL CATARINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01B5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01B11/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente modelo de utilidade, é um equipamento automatizado que mede a arquitetura de árvore, através do uso de imagem a laser. o dito produto é constituído de um sensor laser (lidar rangefinder, classe 1) e uma placa arduíno de sistema operacional. por meio de um sistema de engrenagem dupla e sincronizada: a primeira será responsável pela elevação de uma haste retrátil (possibilidade de alcançar 12 metros de altura) e a segunda fará com que o sensor faça o imageamento no seu entorno (sentido horizontal), com o campo de visada de 180º. o resultado pelo escaneamento a laser é uma nuvem de pontos coloridas ou não, contendo informações tridimensionais que podem ser georreferenciadas a um sistema de coordenadas."/>
+			<field name="originatesFrom" value="74502118"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019013944"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202019013944U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202019013944"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20192013944U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202019013944"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8607" type="Person">
+			<semanticIdentifier>lattes::0958574773546143</semanticIdentifier>
+			<field name="identifier.lattes" value="0958574773546143"/>
+			<field name="name" value="Eduardo Augusto Werneck Ribeiro"/>
+		</entity>
+		<entity ref="OrgUnit6787" type="OrgUnit">
+			<semanticIdentifier>brcris::d241859c553c5e4c896e820ea19f8328</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL CATARINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12555" toEntityRef="Person8607" type="Inventor"/>
+		<relation fromEntityRef="Patent12555" toEntityRef="OrgUnit6787" type="Applicant"/>
+	</relations>
+</entity-relation-data>

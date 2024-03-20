@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:19" record="1337" source="Espacenet">
+	<entities>
+		<entity ref="Patent1337" type="Patent">
+			<semanticIdentifier>brcris::e50e0ec98298c163b85a043806fb49af</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012007637A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012007637</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012007637A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121007637</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 007637-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012007637"/>
+			<field name="identifier.lattes" value="6930296511603364"/>
+			<field name="identifier.espacenet" value="102012007637"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="MÉTODO E SISTEMA DE AUTENTICAÇÃO BIOMÉTRICO BASEADO EM CARACTERÍSTICAS ESTÁTICAS E DINÂMICAS DA ÍRIS"/>
+			<field name="title.lattes" value="Método e Sistema de Autenticação Biométrico Baseado em Características Estáticas e Dinâmicas da Íris"/>
+			<field name="depositDate" value="2012-04-03"/>
+			<field name="publicationDate" value="2013-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO ZIMMER"/>
+			<field name="inventor" value="VITOR ATSUSHI NOZAKI YANO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F21/32AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06K9/78AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="78AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO E SISTEMA DE AUTENTICAÇÃO BIOMÉTRICO BASEADO EM CARACTERÍSTICAS ESTÁTICAS E DINÂMICAS DA ÍRIS Esta patente de invenção refere-se a um método de autenticação que utiliza características biométricas dinâmicas do reflexo pupilar em conjunto com primitivas estáticas da textura da íris para a verificação de identidade, bem como a um sistema que utiliza este método para cadastro e autenticação de pessoas. Métodos de identificação biométrica buscam garantir a identidade de uma pessoa para fins de segurança, evitando a falsidade ideológico por perda, roubo e compartilhamento de documentos ou senhas. No entanto, técnicas baseadas apenas em fatores estáticos são sujeitos a fraudes pela reprodução de tais características em meios artificiais. O reflexo pupilar à luz apresenta diferenças entre pessoas por estar associado ao sistema nervoso autônomo, e não pode ser imitado por ser involutário. O sistema descrito ua um disparo de luz de intensidade e duração padronizadas, grava e extrai informações de raio, tempo e velocidade de contração e dilatação da pupila, bem como extrai primitivas discriminantes da textura da íris. As informaçõers, combinadas, permitem diferenciar indivíduos e, consequentemente, verificar uma identidade."/>
+			<field name="originatesFrom" value="49578845"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012007637"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012007637"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012007637"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121007637"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 007637-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person998" type="Person">
+			<semanticIdentifier>lattes::6930296511603364</semanticIdentifier>
+			<field name="identifier.lattes" value="6930296511603364"/>
+			<field name="name" value="Alessandro Zimmer"/>
+		</entity>
+		<entity ref="OrgUnit790" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1337" toEntityRef="Person998" type="Inventor"/>
+		<relation fromEntityRef="Patent1337" toEntityRef="OrgUnit790" type="Applicant"/>
+	</relations>
+</entity-relation-data>

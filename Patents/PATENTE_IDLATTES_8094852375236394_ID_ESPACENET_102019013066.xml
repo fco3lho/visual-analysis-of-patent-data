@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:12" record="30430" source="Espacenet">
+	<entities>
+		<entity ref="Patent30430" type="Patent">
+			<semanticIdentifier>brcris::c1b3d6e3f4790ae266eb09033c29e7be</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019013066A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019013066</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019013066A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191013066</semanticIdentifier>
+			<semanticIdentifier>original::102019013066</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019013066"/>
+			<field name="identifier.lattes" value="8094852375236394"/>
+			<field name="identifier.espacenet" value="102019013066"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo automático para mensurar quedas de granizo a partir de sensor de intensidade sonora"/>
+			<field name="title.lattes" value="Dispositivo Automático para mensurar quedas de granizo a partir de sensor de intensidade sonora"/>
+			<field name="depositDate" value="2019-06-24"/>
+			<field name="publicationDate" value="2021-01-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JORGE ALBERTO MARTINS"/>
+			<field name="inventor" value="LEILA DROPRINCHINSKI MARTINS"/>
+			<field name="inventor" value="MARCOS VINICIUS BUENO DE MORAIS"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01W1/04AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01W1/14AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo automático para mensurar quedas de granizo a partir de sensor de intensidade sonora. refere-se a um dispositivo eletrônico que armazena informações referentes a ocorrências de granizo durante tempestades, através dos módulos de armazenamento de dados (m) e relógio (7) acoplados a um microcontrolador (6), utilizando das funções de um sensor de detecção de som (8) para medidas de intensidade, e de um sensor de molhamento (3) da superfície foliar para obter as informações de duração das tempestades, permitindo, assim, auxiliar pesquisadores, empresas e indústrias na obtenção de informações reais referentes a ocorrência ou não de granizo em um determinado local."/>
+			<field name="originatesFrom" value="74214936"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019013066"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019013066"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019013066"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191013066"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019013066"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20862" type="Person">
+			<semanticIdentifier>lattes::8094852375236394</semanticIdentifier>
+			<field name="identifier.lattes" value="8094852375236394"/>
+			<field name="name" value="Marcos Vinícius Bueno de Morais"/>
+		</entity>
+		<entity ref="OrgUnit16308" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30430" toEntityRef="Person20862" type="Inventor"/>
+		<relation fromEntityRef="Patent30430" toEntityRef="OrgUnit16308" type="Applicant"/>
+	</relations>
+</entity-relation-data>

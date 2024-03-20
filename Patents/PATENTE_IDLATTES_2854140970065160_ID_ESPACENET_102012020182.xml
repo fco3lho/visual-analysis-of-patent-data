@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:29:25" record="43893" source="Espacenet">
+	<entities>
+		<entity ref="Patent43893" type="Patent">
+			<semanticIdentifier>brcris::3e4b23d09d25ad6bc4a696cb50c10df4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012020182A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012020182</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012020182A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121020182</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 020182-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012020182"/>
+			<field name="identifier.lattes" value="2854140970065160"/>
+			<field name="identifier.espacenet" value="102012020182"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE FIXAÇÃO DE TELAS EM TUBULAÇÕES"/>
+			<field name="title.lattes" value="SISTEMA DE FIXAÇÃO DE TELAS EM TUBULAÇÕES"/>
+			<field name="depositDate" value="2012-08-13"/>
+			<field name="publicationDate" value="2014-08-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO JOSE DA CUNHA"/>
+			<field name="inventor" value="CLAUDIO JOSE GRANDO DA CUNHA"/>
+			<field name="inventor" value="PAULO RICARDO KUGLAND DE AZEVEDO"/>
+			<field name="inventor" value="TIAGO SOARES DOCE"/>
+			<field name="inventor" value="TIAGO SOARES DOCE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F16L55/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="55"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F16L57/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="57"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE FIXAÇÃO DE TELAS EM TUBULAÇÕES. A presente invenção refere-se a um sistema de fixação de telas em tubulações para proteção pessoal que impeçam o contato de pessoas com a superfície quente ou fria desta tubulação. O sistema da invenção compreende um conjunto formado por uma tela de proteção (2), formada por pelo menos uma calha de seção substancialmente semicircular, e, meios de fixação em forma de grampos (3), que são interpostos entre a tubulação (1) e a referida calha, de forma a envolver a tubulação (1), formando uma proteção contínua ao longo da tubulação."/>
+			<field name="originatesFrom" value="51359788"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012020182"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012020182"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012020182"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121020182"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 020182-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29990" type="Person">
+			<semanticIdentifier>lattes::2854140970065160</semanticIdentifier>
+			<field name="identifier.lattes" value="2854140970065160"/>
+			<field name="name" value="Tiago Soares Docé"/>
+		</entity>
+		<entity ref="OrgUnit23533" type="OrgUnit">
+			<semanticIdentifier>brcris::1dfb027b364337c698431f151cd6e54c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A"/>
+		</entity>
+		<entity ref="OrgUnit23534" type="OrgUnit">
+			<semanticIdentifier>brcris::73feb98b44de6d8b74e02365c484c56c</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43893" toEntityRef="Person29990" type="Inventor"/>
+		<relation fromEntityRef="Patent43893" toEntityRef="OrgUnit23533" type="Applicant"/>
+		<relation fromEntityRef="Patent43893" toEntityRef="OrgUnit23534" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:51" record="1621" source="Espacenet">
+	<entities>
+		<entity ref="Patent1621" type="Patent">
+			<semanticIdentifier>brcris::8565e5d9157ec820d35de512ddf63505</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800860A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0800860</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0800860A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI00860</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0800860-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0800860"/>
+			<field name="identifier.lattes" value="9268156166181475"/>
+			<field name="identifier.espacenet" value="PI0800860"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento de controle termo-higrométrico microambiental para roedores de laboratório operando através do efeito peltier"/>
+			<field name="title.lattes" value="Equipamento De Controle Termo-Higrométrico Microambiental Para Roedores De Laboratório Operando Através Do Efeito Peltier"/>
+			<field name="depositDate" value="2008-02-25"/>
+			<field name="publicationDate" value="2009-06-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE MARTINEWSKI"/>
+			<field name="inventor" value="JOSE LUIZ BERNARDINO MERUSSE"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F25B21/02AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="25"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01L35/30AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="EQUIPAMENTO DE CONTROLE TERMO-HIGROMéTRICO MICROAMBIENTAL PARA ROEDORES DE LABORATóRIO OPERANDO ATRAVéS DO EFEITO PELTIER. O presente pedido tem por objetivo apresentar um novo sistema de condicionamento de ar para biotérios usando a tecnologia de controle atmosférico microambiental. Este novo sistema baseia-se no Efeito Peltier no qual o frio é gerado através da passagem de uma corrente elétrica por módulos termoelétricos (MT~ 1~, MT~ 2~, ...., MT~ n~) alimentados por corrente elétrica contínua, no qual uma das faces dos módulos termoelétricos é acoplada a um trocador de calor (5) o qual condiciona o ar de insuflação para os animais contidos em gaiolas (9) colocadas numa caixa de isolamento térmico (8) e a outra face dos módulos termoelétricos (MT~ 1~, MT~ 2~, ...., MT~) é acoplada a outros trocadores (6) tipo gincana, no mterior dos quais circula água de arrefecimento (13)."/>
+			<field name="originatesFrom" value="41152254"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800860"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0800860"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0800860"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI00860"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0800860-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1210" type="Person">
+			<semanticIdentifier>lattes::9268156166181475</semanticIdentifier>
+			<field name="identifier.lattes" value="9268156166181475"/>
+			<field name="name" value="Alexandre Martinewski"/>
+		</entity>
+		<entity ref="OrgUnit925" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1621" toEntityRef="Person1210" type="Inventor"/>
+		<relation fromEntityRef="Patent1621" toEntityRef="OrgUnit925" type="Applicant"/>
+	</relations>
+</entity-relation-data>

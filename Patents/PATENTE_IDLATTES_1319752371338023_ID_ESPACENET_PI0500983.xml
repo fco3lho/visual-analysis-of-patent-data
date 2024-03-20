@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:51" record="18244" source="Espacenet">
+	<entities>
+		<entity ref="Patent18244" type="Patent">
+			<semanticIdentifier>brcris::640a7a894a19c68abe1e9e3c56727df9</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500983A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0500983</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0500983A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI00983</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0500983-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0500983"/>
+			<field name="identifier.lattes" value="1319752371338023"/>
+			<field name="identifier.espacenet" value="PI0500983"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="instrumento cirúrgico para cricotireoidostomia"/>
+			<field name="title.lattes" value="Instrumento Cirúrgico para Cricotireoidostomia"/>
+			<field name="depositDate" value="2005-03-22"/>
+			<field name="publicationDate" value="2008-01-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GUIDO ANTONIO MARQUES BIGHETTI"/>
+			<field name="inventor" value="RUI CELSO MARTINS MAMEDE"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B17/24AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="INSTRUMENTO CIRúRGICO PARA CRICOTIREOIDOSTOMIA. A presente invenção proporciona um instrumento cirúrgico para realizar a cricotireoidostomia, que consiste em um tubo metálico, cilíndrico e curvo, com uma haste horizontal e um mandril de ponta cortante."/>
+			<field name="originatesFrom" value="38835086"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500983"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0500983"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0500983"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI00983"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0500983-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12624" type="Person">
+			<semanticIdentifier>lattes::1319752371338023</semanticIdentifier>
+			<field name="identifier.lattes" value="1319752371338023"/>
+			<field name="name" value="Guido Antonio Marques Bighetti"/>
+		</entity>
+		<entity ref="OrgUnit9839" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit9840" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18244" toEntityRef="Person12624" type="Inventor"/>
+		<relation fromEntityRef="Patent18244" toEntityRef="OrgUnit9839" type="Applicant"/>
+		<relation fromEntityRef="Patent18244" toEntityRef="OrgUnit9840" type="Applicant"/>
+	</relations>
+</entity-relation-data>

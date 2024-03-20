@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:55" record="1670" source="Espacenet">
+	<entities>
+		<entity ref="Patent1670" type="Patent">
+			<semanticIdentifier>brcris::e8b4c37a8b5a5d30957f78b3b54aad31</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0406342A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0406342</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0406342A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI06342</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0406342-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0406342"/>
+			<field name="identifier.lattes" value="0723315222598414"/>
+			<field name="identifier.espacenet" value="PI0406342"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema robótico para soldagem orbital de tubulações"/>
+			<field name="title.lattes" value="Sistema robótico para soldagem orbital de tubulações"/>
+			<field name="depositDate" value="2004-10-07"/>
+			<field name="publicationDate" value="2006-06-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE QUEIROZ BRACARENSE"/>
+			<field name="inventor" value="EDUARDO JOSE LIMA II"/>
+			<field name="inventor" value="FREDERICO ALLEVATO RAMALHO FILHO"/>
+			<field name="inventor" value="GUILHERME CAMPELO FORTUNATO TORRES"/>
+			<field name="inventor" value="IVANILZA FELIZARDO"/>
+			<field name="applicant" value="ROTECH - TECNOLOGIA ROBOTICA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B23K9/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;SISTEMA ROBóTICO PARA SOLDAGEM ORBITAL DE TUBULAçõES&quot;. Compreende a presente patente de invenção a um sistema robótico desenvolvido para realizar a soldagem de tubulações com todos os passes necessários (passes de raiz, de enchimento e de acabamento), sendo executados utilizando o processo GMAW (arame sólido) ou o processo FCAW (arame tubular). O sistema possui os graus de liberdade necessários que permitem o controle do 'stick-out', da velocidade de soldagem, dos ângulos e posicionamentos da tocha de soldagem. Além destas variáveis, a tensão e a corrente de soldagem também são controladas durante o processo. Neste sistema, a variação controlada dos parâmetros ótimos de soldagem (corrente, tensão, velocidade de soldagem, 'stick-out' e ângulo da tocha) em função da posição de soldagem (plana, vertical descendente, sobrecabeça e vertical ascendente) é feita interpolando os valores destes parâmetros nas regiões de transição (posição sobrecabeça para vertical e desta para plana) de modo a realizar a soldagem orbital de tubulações de forma ininterrupta ao alterar a posição de soldagem, visando o aumento da produtividade e da qualidade das soldas realizadas. O sistema consiste de uma unidade de controle (2) (controlador), podendo ser um computador, que possibilita o controle de todas as atividades relacionadas à soldagem. O controlador é conectado a máquina de solda (3) e através de atuação direta do controlador no sistema de controle da máquina é possível realizar ajustes na tensão e na corrente de soldagem durante a execução de um cordão de solda. Conectados ao controlador e à máquina de solda existem manipuladores (1) responsáveis pelo deslocamento da tocha de soldagem ao redor do tubo com precisão. Os manipuladores, constituídos mecanicamente posicionador da tocha de soldagem (13) contém carenagem para proteger os componentes internos de sujeiras e intempéries, proporcionando uma barreira adicional de proteção para o arco elétrico contra correntes de ar, passíveis de ocorrer na soldagem em campo, foram idealizados para serem compactos, leves, de fácil locomoção e fixação no tubo (4)."/>
+			<field name="originatesFrom" value="36570171"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0406342"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0406342"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0406342"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI06342"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0406342-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1245" type="Person">
+			<semanticIdentifier>lattes::0723315222598414</semanticIdentifier>
+			<field name="identifier.lattes" value="0723315222598414"/>
+			<field name="name" value="Alexandre Queiroz Bracarense"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1670" toEntityRef="Person1245" type="Inventor"/>
+	</relations>
+</entity-relation-data>

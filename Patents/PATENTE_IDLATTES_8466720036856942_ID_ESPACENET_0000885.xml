@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:21:28" record="42021" source="Espacenet">
+	<entities>
+		<entity ref="Patent42021" type="Patent">
+			<semanticIdentifier>brcris::a1a17606cdc9171af385e7a9f2dd5052</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0000885A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0000885</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0000885A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000000885</semanticIdentifier>
+			<semanticIdentifier>original::0000885-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0000885"/>
+			<field name="identifier.lattes" value="8466720036856942"/>
+			<field name="identifier.espacenet" value="0000885"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Sistema de proteção e alarme contra pane de ventilação forçada e elevação das temperaturas em microcomputadores"/>
+			<field name="title.lattes" value="SISTEMA DE CONTROLE DE TEMPERATURA DE MICROCOMPUTADORES"/>
+			<field name="depositDate" value="2000-01-11"/>
+			<field name="publicationDate" value="2001-09-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="SERGIO VIEIRA GUERREIRO RIBEIRO"/>
+			<field name="applicant" value="SERGIO VIEIRA GUERREIRO RIBEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F1/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Patente de Invenção &quot;SISTEMA DE PROTEçãO E ALARME CONTRA PANE DE VENTILAçãO FORçADA E ELEVAçãO DAS TEMPERATURAS EM MICROCOMPUTADORES&quot;. O sistema, composto de três módulos, visa evitar o aquecimento excessivo dos componentes de microcomputadores, seja por falha mecânica do ventilador do gabinete, seja pelo aumento da temperatura normal de operação de cada componente. O módulo 1 consiste de um sensor mecânico de fluxo de ar do ventilador do gabinete, ilustrado na &lt;MU&gt;figura 3&lt;MV&gt;. O sensor é composto de um micro-interruptor, acionado por uma haste metálica acoplada a uma palheta de alumínio na sua extremidade, que fecha o contato no micro-interruptor quando o ventilador está funcionando normalmente, devido a força de arrasto do ar. O módulo 2 consiste de um gabinete alimentado por 120 VCA, um relê 12 VCC/10 A e duas tomadas de saída 120 VCA, conforme a &lt;MU&gt;figura 4&lt;MV&gt;. O módulo 1 é interligado ao módulo 2 através de um cabo de três vias com conector DIN. Quando o ventilador pára ou tem sua vazão de ar reduzida, o sensor (módulo 1) desarma, desenergizando o relê, comutando a energia da saída 1 para a saída 2, desligando o equipamento que se quer proteger, ligado na saída 1, e ligando o sistema de alarme (local ou remoto), conectado na saída 2. O módulo 3 completa a proteção do equipamento contra a superaquecimento dos componentes individuais através da ligação em série de termostatos bi-metálicos, na alimentação do ventilador do gabinete (&lt;MU&gt;figura 5&lt;MV&gt;) ou na linha NA do sensor (&lt;MU&gt;figura 6&lt;MV&gt;). Em caso de qualquer componente exceder sua temperatura limite, o termostato correspondente abrirá o contato no circuito de alimentação do ventilador que desligará, desarmando o sensor, módulo 1, desligando o equipamento e acionando o alarme do mesmo modo como descrito no parágrafo anterior. Para computadores, com &quot;no-break&quot;, que não podem ser desligados imediatamente após a constatação da falha no resfriamento deve-se colocar o módulo 3 em série com o sensor, conforme a &lt;MU&gt;figura 6&lt;MV&gt;. Deste modo, o aumento da temperatura de algum componente além do limite irá abrir o relê do módulo 2, desenergizando a saida 1, onde está conectado o &quot;no-break&quot;, e energizar a saída 2 (alarme) do módulo 2. Como o computador é alimentado pelo &quot;no-break&quot; conectado a saída 1, o ventilador não será desligado até que cesse a alimentação pelo &quot;no-break&quot;."/>
+			<field name="originatesFrom" value="3943748"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0000885"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0000885"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0000885"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000000885"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0000885-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28638" type="Person">
+			<semanticIdentifier>lattes::8466720036856942</semanticIdentifier>
+			<field name="identifier.lattes" value="8466720036856942"/>
+			<field name="name" value="Sergio Vieira Guerreiro Ribeiro"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42021" toEntityRef="Person28638" type="Inventor"/>
+		<relation fromEntityRef="Patent42021" toEntityRef="Person28638" type="Depositor"/>
+	</relations>
+</entity-relation-data>

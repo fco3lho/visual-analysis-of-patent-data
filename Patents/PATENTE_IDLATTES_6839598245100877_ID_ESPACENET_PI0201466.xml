@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:51:53" record="27130" source="Espacenet">
+	<entities>
+		<entity ref="Patent27130" type="Patent">
+			<semanticIdentifier>brcris::84226cdb21aa8d23ec9c87635a932ce1</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0201466B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0201466</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0201466A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2002PI01466</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0201466</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0201466"/>
+			<field name="identifier.lattes" value="6839598245100877"/>
+			<field name="identifier.espacenet" value="PI0201466"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="circuito eletrônico para melhorar o tempo de resposta de válvulas solenoides"/>
+			<field name="title.lattes" value="Circuito eletrônico para melhorar o tempo de resposta de válvulas solenóides"/>
+			<field name="depositDate" value="2002-02-28"/>
+			<field name="publicationDate" value="2021-04-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIS CARLOS PASSARINI"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F02P5/145AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="145AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;circuito eletrônico para melhorar o tempo de resposta de válvulas solenóides&quot;. trata-se de circuito eletrônico para melhorar o tempo de resposta de válvulas solenóides composto por circuitos integrados (1 e 2) capacitores (3,4,5,6 e 7) resistores (8,9,10,11,12,13,14 e 15 ) semicondutores (16 e 17), potenciômetro (18) e diodo (19). este circuito será utilizado em efi's para obtenção de respostas com maior linearidade, estas utilizadas em motores de combustão a gasolina, álcool, gás de petróleo e natural."/>
+			<field name="originatesFrom" value="75769513"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0201466"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0201466"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0201466"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2002PI01466"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0201466"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18776" type="Person">
+			<semanticIdentifier>lattes::6839598245100877</semanticIdentifier>
+			<field name="identifier.lattes" value="6839598245100877"/>
+			<field name="name" value="Luís Carlos Passarini"/>
+		</entity>
+		<entity ref="OrgUnit14709" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27130" toEntityRef="Person18776" type="Inventor"/>
+		<relation fromEntityRef="Patent27130" toEntityRef="OrgUnit14709" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:20" record="15212" source="Espacenet">
+	<entities>
+		<entity ref="Patent15212" type="Patent">
+			<semanticIdentifier>brcris::4bac457e14ed054aaf323f79bcd0a06b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013010416A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013010416</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013010416A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131010416</semanticIdentifier>
+			<semanticIdentifier>original::102013010416</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013010416"/>
+			<field name="identifier.lattes" value="6730354205244940"/>
+			<field name="identifier.espacenet" value="102013010416"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="otimização da operação de left outer join sobre big data utilizando apache hadoop e apache hbase"/>
+			<field name="title.lattes" value="Otimização da Operação de Left Outer Join sobre Big Data utilizando Apache Hadoop e Apache HBase"/>
+			<field name="depositDate" value="2013-04-29"/>
+			<field name="publicationDate" value="2016-03-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO RODRIGUES PEREIRA JUNIOR"/>
+			<field name="inventor" value="FELIPE SANTIAGO MARTINS COIMBRA DE MELO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="otimização da operação de left outer join sobre big t)ata utilizando apache hadoop e apache hbase modelo de operação e comunicação entre os middlewares apache hadoop (a ser referido como hadoop) e apache hbase (a ser referido como hbase) executados sobre um cluster para permitir, em apenas um job mapreduce, operações de left outer join sobre big data armazenados em tabelas hbase contendo apenas uma coluna de dados e uma chave de acesso. a invenção aqui proposta ~ aplicável a qualquer campo da indústria onde grandes volumes de dados estejam armazenado no middleware hbase e sejam processados no middleware hadoop, hoje, ambos, padrão da indústria na resolução do armazenamento e processamento de big data."/>
+			<field name="originatesFrom" value="55534038"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013010416"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013010416"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013010416"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131010416"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013010416"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10551" type="Person">
+			<semanticIdentifier>lattes::6730354205244940</semanticIdentifier>
+			<field name="identifier.lattes" value="6730354205244940"/>
+			<field name="name" value="Felipe Santiago Martins Coimbra de Melo"/>
+		</entity>
+		<entity ref="OrgUnit8231" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15212" toEntityRef="Person10551" type="Inventor"/>
+		<relation fromEntityRef="Patent15212" toEntityRef="OrgUnit8231" type="Applicant"/>
+	</relations>
+</entity-relation-data>

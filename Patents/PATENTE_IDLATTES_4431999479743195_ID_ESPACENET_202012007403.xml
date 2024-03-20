@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:50" record="10554" source="Espacenet">
+	<entities>
+		<entity ref="Patent10554" type="Patent">
+			<semanticIdentifier>brcris::8cceb5d2a4345358da8a6b28382d51aa</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012007403U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202012007403U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012007403U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20122007403U</semanticIdentifier>
+			<semanticIdentifier>original::202012007403</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202012007403"/>
+			<field name="identifier.lattes" value="4431999479743195"/>
+			<field name="identifier.espacenet" value="202012007403"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="ponteira para pefuratriz horizontal de solo"/>
+			<field name="title.lattes" value="PONTEIRA PARA PERFURATRIZ HORIZONTAL DE SOLO"/>
+			<field name="depositDate" value="2012-04-02"/>
+			<field name="publicationDate" value="2015-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANILO TOLEDO RIBEIRO DA SILVA"/>
+			<field name="inventor" value="FLAVIO CLARETH COLMAN"/>
+			<field name="inventor" value="LUIZA HELENA COSTA DUTRA SOUZA"/>
+			<field name="inventor" value="THIAGO AUGUSTO RODRIGUES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B10/62AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="abstract.espacenet" value="ponteira para pefuratriz horizontal de solo. ponteira para perfuratriz horizontal de solo silte argilosos com chanfro de 60° e quatro furos equidistantes para passagem de água, que permite o escoamento ou compactação da sobra de terra retidada, pelas laterais, bem como a possibilidade de perfuração direta de 14 metros, com declividade padronizada. estes parâmetros propiciam que o trabalho seja realizado por perfuratrizes de dimensões reduzidas e com isto diminui o impacto na destruição de calçadas e ruas, além de possibilitar maior agilidade na recuperação final da pavimentação superior, cuja diminuição do tempo de recuperação torna o processo menos oneroso e mais limpo."/>
+			<field name="originatesFrom" value="54540626"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012007403"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012007403U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012007403"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20122007403U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202012007403"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202012007403Y"/>
+		</entity>
+		<entity ref="Person7313" type="Person">
+			<semanticIdentifier>lattes::4431999479743195</semanticIdentifier>
+			<field name="identifier.lattes" value="4431999479743195"/>
+			<field name="name" value="Danilo Toledo Ribeiro da Silva"/>
+		</entity>
+		<entity ref="OrgUnit5820" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="OrgUnit5821" type="OrgUnit">
+			<semanticIdentifier>brcris::c9766aabbbb5a934e663a71eacb2a73d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE MARINGA"/>
+		</entity>
+		<entity ref="Patent10555" type="Patent">
+			<semanticIdentifier>epodoc::BR202012007403Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="54540626"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012007403Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10554" toEntityRef="Person7313" type="Inventor"/>
+		<relation fromEntityRef="Patent10554" toEntityRef="OrgUnit5820" type="Applicant"/>
+		<relation fromEntityRef="Patent10554" toEntityRef="OrgUnit5821" type="Applicant"/>
+	</relations>
+</entity-relation-data>

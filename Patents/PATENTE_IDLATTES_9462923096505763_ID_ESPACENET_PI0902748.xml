@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:32:30" record="16421" source="Espacenet">
+	<entities>
+		<entity ref="Patent16421" type="Patent">
+			<semanticIdentifier>brcris::b5c8d286fdd60c1dad4d947feff0ca5b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902748A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0902748</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902748A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI02748</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0902748-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0902748"/>
+			<field name="identifier.lattes" value="9462923096505763"/>
+			<field name="identifier.espacenet" value="PI0902748"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="instrumento de transdução eletrÈnica resistiva múltipla com compensação da deriva térmica e ruìdo de baixa frequencia"/>
+			<field name="title.lattes" value="INSTRUMENTO DE TRANSDUÇÃO ELETRÔNICA RESISTIVA MÚLTIPLA COM COMPENSAÇÃO DA DERIVA TÉRMICA E RUÍDO DE BAIXA FREQUENCIA"/>
+			<field name="depositDate" value="2009-07-30"/>
+			<field name="publicationDate" value="2011-04-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL CAVALCANTE LIMA FILHO"/>
+			<field name="inventor" value="DIOGENES MONTENEGRO GOMES DE BRITO SILVA"/>
+			<field name="inventor" value="FRANCISCO ANTONIO BELO"/>
+			<field name="inventor" value="FRANCISCO ANTONIO BELO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R27/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="27"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01R1/30AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Instrumento de transdução eletrónica resistiva múltipla com compensação da 1. deriva térmica e ruído de baixa frequencia, constituído por um número indeterminado de sensores resistivos em variados pontos de medidas, de elevada precisão em um único circuito eletrónico, com compensação automática das derivas térmicas e ruídos de baixa freqúéncia, capacidade para efetuar medições como temperatura e deformação de forma simultânea em um único circuito, com vários sensores resistivos( 1) em várias pontes de Weatstone, formada cada uma por quatro elementos resistivos que podem ser um ou mais sensores resistivos onde o número de pontes de Weatstone presente no circuito é igual ao número de grandezas ao qual se deseja medir."/>
+			<field name="originatesFrom" value="43837800"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902748"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0902748"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902748"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI02748"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0902748-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11388" type="Person">
+			<semanticIdentifier>lattes::9462923096505763</semanticIdentifier>
+			<field name="identifier.lattes" value="9462923096505763"/>
+			<field name="name" value="Francisco Antônio Belo"/>
+		</entity>
+		<entity ref="OrgUnit8927" type="OrgUnit">
+			<semanticIdentifier>brcris::d328331eae318b62840a10126b18dc94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+		<entity ref="OrgUnit8928" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent16421" toEntityRef="Person11388" type="Inventor"/>
+		<relation fromEntityRef="Patent16421" toEntityRef="OrgUnit8927" type="Applicant"/>
+		<relation fromEntityRef="Patent16421" toEntityRef="OrgUnit8928" type="Applicant"/>
+	</relations>
+</entity-relation-data>

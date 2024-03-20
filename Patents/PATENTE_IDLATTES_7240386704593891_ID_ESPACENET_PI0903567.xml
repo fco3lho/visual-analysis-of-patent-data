@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:39" record="18654" source="Espacenet">
+	<entities>
+		<entity ref="Patent18654" type="Patent">
+			<semanticIdentifier>brcris::eda1cca7ec0c93144ff2b2422fefca37</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903567A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0903567</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0903567A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI03567</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0903567-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0903567"/>
+			<field name="identifier.lattes" value="7240386704593891"/>
+			<field name="identifier.espacenet" value="PI0903567"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparelho para detecção e classificação de veìculos"/>
+			<field name="title.lattes" value="Aparelho para Detecção e Classificação de Veículos (patente depositada PI 0.903.567-2, 20/05/2009)"/>
+			<field name="depositDate" value="2009-05-20"/>
+			<field name="publicationDate" value="2011-02-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HAE YONG KIM"/>
+			<field name="inventor" value="MARIO PIAI JUNIOR"/>
+			<field name="inventor" value="MARIO PIAI JUNIOR"/>
+			<field name="applicant" value="TESC SISTEMAS E CONTROLE LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G08G1/01AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="APARELHO PARA DETECçAO E CLASSIFICAçAO DE VEICULOS Refere-se a presente invenção a um aparelho de detecção e classificação de veículos através de determinação da presença de um veículo e separação do mesmo da imagem de fundo (detecção e segmentação de veículos); localização, contagem e determinação do diâmetro dos seus eixos; determinação do contato ou não dos pneus com o piso; e classificação do tipo de veículo."/>
+			<field name="originatesFrom" value="43585402"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903567"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0903567"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0903567"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI03567"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0903567-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12925" type="Person">
+			<semanticIdentifier>lattes::7240386704593891</semanticIdentifier>
+			<field name="identifier.lattes" value="7240386704593891"/>
+			<field name="name" value="Hae Yong Kim"/>
+		</entity>
+		<entity ref="OrgUnit10066" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit10067" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18654" toEntityRef="Person12925" type="Inventor"/>
+		<relation fromEntityRef="Patent18654" toEntityRef="OrgUnit10066" type="Applicant"/>
+		<relation fromEntityRef="Patent18654" toEntityRef="OrgUnit10067" type="Applicant"/>
+	</relations>
+</entity-relation-data>

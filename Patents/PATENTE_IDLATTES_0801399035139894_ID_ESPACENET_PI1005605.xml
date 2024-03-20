@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:04:44" record="15" source="Espacenet">
+	<entities>
+		<entity ref="Patent15" type="Patent">
+			<semanticIdentifier>brcris::bf837b6ef8931db467fa4a52e94684fc</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005605A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1005605</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1005605A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI05605</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1005605-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1005605"/>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="identifier.espacenet" value="PI1005605"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para medir torque dinÂmico em eixos"/>
+			<field name="title.lattes" value="Dispositivo para medir torque dinâmico em eixos"/>
+			<field name="depositDate" value="2010-12-30"/>
+			<field name="publicationDate" value="2013-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ABEL CAVALCANTE LIMA JR"/>
+			<field name="inventor" value="AGEU PASQUETTI"/>
+			<field name="inventor" value="FRANCISCO ANTONIO BELO"/>
+			<field name="inventor" value="RUAN DELGADO GOMES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01L3/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO PARA MEDIR TORQUE DINÂMICO EM EIXOS. A presente invenção apresenta dispositivo para medir o torque em eixos, o qual se aplica de maneira especial para a medida do torque no eixo de saída (104) da caixa de redução de unidades de bombeamento mecânico de petrôleo. A presente invenção se apresenta em duas construções alternativas, a primeira, que faz a medida do torque diretamente no eixo de saída, e a segunda, que faz essa medida de uma forma indireta. Em sua primeira construção alternativa o dispositivo conta com uma unidade remota (11) e uma estação base (7). A unidade remota (11) tem espessura suficientemente pequena para permitir sua aplicação ao eixo de saída (104) da caixa de redução de diversos modelos de caixas de redução (103) de unidades de bombeamento mecânico de petrôleo. Na unidade remota (11), a intensidade do torque no eixo (104) é captada por meio de uma ponte de Wheatstone e transmitida, por ondas de rádio, para a estação base (7) que processa o sinal e o transforma em um valor de torque. Em uma segunda construção alternativa, o dispositivo contém um torquímetro (220) e pelo menos um sensor (219) de velocidade e posição da manivela, sendo esse sensor integrado ao torquímetro (220) por fios (218) ou rádio frequência O torquímetro (220) é instalado na linha de alimentação do motor (101) e utiliza a medida da potência entregue pelo motor para determinar o torque, com auxílio de um firmware."/>
+			<field name="originatesFrom" value="48051824"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005605"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1005605"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1005605"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI05605"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1005605-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11" type="Person">
+			<semanticIdentifier>lattes::0801399035139894</semanticIdentifier>
+			<field name="identifier.lattes" value="0801399035139894"/>
+			<field name="name" value="Abel Cavalcante Lima Filho"/>
+		</entity>
+		<entity ref="OrgUnit7" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15" toEntityRef="Person11" type="Inventor"/>
+		<relation fromEntityRef="Patent15" toEntityRef="OrgUnit7" type="Applicant"/>
+	</relations>
+</entity-relation-data>

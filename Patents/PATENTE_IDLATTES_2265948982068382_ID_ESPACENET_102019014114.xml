@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:26" record="17432" source="Espacenet">
+	<entities>
+		<entity ref="Patent17432" type="Patent">
+			<semanticIdentifier>brcris::cb139b241b07852e5377990befa607a7</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014114A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019014114</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019014114A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191014114</semanticIdentifier>
+			<semanticIdentifier>original::102019014114</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019014114"/>
+			<field name="identifier.lattes" value="2265948982068382"/>
+			<field name="identifier.espacenet" value="102019014114"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="filtro controlável de frequências para o novo sistema 5g e wimax"/>
+			<field name="title.lattes" value="FILTRO CONTROLÁVEL DE FREQUÊNCIAS PARA O NOVO SISTEMA 5G E WiMAX"/>
+			<field name="depositDate" value="2019-07-08"/>
+			<field name="publicationDate" value="2021-01-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABRICIO JOSE BRITO BARROS"/>
+			<field name="inventor" value="FLAVIO HENRY CUNHA DA SILVA FERREIRA"/>
+			<field name="inventor" value="GERVASIO PROTASIO DOS SANTOS CAVALCANTE"/>
+			<field name="inventor" value="JASMINE PRISCYLA LEITE DE ARAUJO"/>
+			<field name="inventor" value="MIERCIO CARDOSO DE ALCANTARA NETO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01Q9/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01Q15/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="filtro controlável de frequências para o novo sistema 5g e wimax. a presente patente de invenção (pi) refere-se a um: filtro controlável de frequências para o novo sistema 5g e wimax, que apresenta auto fator de qualidade (fator q), geometria simplificada e baixo custo para fabricação, sendo o filtro projetado para ser impresso em placa de circuito impresso (printed circuit board ? pcb), que consiste em substrato dielétrico de fibra de vidro (fr4), caracterizando uma superfície seletiva de frequências (frequency selective surfaces ? fss) de camada única, do tipo patch (rejeita faixa) e operação em modo passivo. o dispositivo consiste em uma estrutura de arranjo periódico, com célula unitária na forma de três espiras retangulares concêntricas. o filtro apresentado nesta pi é capaz de ressonar em três frequências distintas, sendo elas: 2,54 ghz, 3,63 ghz e 5,95 ghz ? com larguras de banda de 480 mhz, 310 mhz e 1075 mhz, respectivamente. desta feita, a fss apresentada é capaz de operar nas bandas s e c, especificamente, nas frequências padronizadas pelo institute of electrical and electronics engineers (ieee), tendo em vista sua aplicação em sistemas de wi-fi, wimax e o novo sistema para comunicação celular de 5ª geração, 5g, nas bandas sub-6 ghz."/>
+			<field name="originatesFrom" value="74504367"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014114"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019014114"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019014114"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191014114"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019014114"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12082" type="Person">
+			<semanticIdentifier>lattes::2265948982068382</semanticIdentifier>
+			<field name="identifier.lattes" value="2265948982068382"/>
+			<field name="name" value="Gervásio Protásio dos Santos Cavalcante"/>
+		</entity>
+		<entity ref="OrgUnit9461" type="OrgUnit">
+			<semanticIdentifier>brcris::42afeb3d303bfc80f672242070a7c5c1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17432" toEntityRef="Person12082" type="Inventor"/>
+		<relation fromEntityRef="Patent17432" toEntityRef="OrgUnit9461" type="Applicant"/>
+	</relations>
+</entity-relation-data>

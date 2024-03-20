@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:55:31" record="28564" source="Espacenet">
+	<entities>
+		<entity ref="Patent28564" type="Patent">
+			<semanticIdentifier>brcris::1468bd039ddaedf6415f5cee92b67409</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019009073A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019009073</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019009073A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191009073</semanticIdentifier>
+			<semanticIdentifier>original::102019009073</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019009073"/>
+			<field name="identifier.lattes" value="5949169640645103"/>
+			<field name="identifier.espacenet" value="102019009073"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="cimento ósseo injetável de cura rápida reforçado com óxido de grafeno e seu método de preparação"/>
+			<field name="title.lattes" value="CIMENTO ÓSSEO INJETÁVEL DE CURA RÁPIDA REFORÇADO COM ÓXIDO DE GRAFENO E SEU MÉTODO DE PREPARAÇÃO"/>
+			<field name="depositDate" value="2019-05-03"/>
+			<field name="publicationDate" value="2020-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA ESTHER SILVA AMARAL"/>
+			<field name="inventor" value="DANIELLE MARRA DE FREITAS SILVA AZEVEDO"/>
+			<field name="inventor" value="IVETE PEIXOTO PINHEIRO SILVA"/>
+			<field name="inventor" value="MARCELO AUGUSTO BRITO MADUREIRA"/>
+			<field name="inventor" value="MATHEUS SOARES SIMAN"/>
+			<field name="inventor" value="SIDNEY NICODEMOS DA SILVA"/>
+			<field name="applicant" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61L24/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="24"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61L24/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="24"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="cimento ósseo injetável de cura rápida reforçado com óxido de grafeno e seu método de preparação a presente invenção refere-se ao processamento e a melhora das propriedades biológicas, físico-químicas e mecânicas de materiais para enxertos ósseos ou biofixação de próteses. o campo técnico de aplicações desse novo biomaterial compósito injetável de fosfato de cálcio bifásico reforçado com óxido de grafeno envolve as áreas odontomédicas e veterinárias. o biomaterial é constituído de fosfato de cálcio bifásico: hidroxiapatita (ha) e fosfato de cálcio amorfo (acp), reforçado com óxido de grafeno nas razões mássicas de (0,1% a 1,0%) e demais aditivos. o material é biocompatível, osteocondutor e reabsorvível no meio fisiológico, podendo ser usado para reparar ou substituir parte do tecido ósseo e auxiliar no tratamento de doenças ou traumas ortopédicos e odontológicos, bem como na cimentação de próteses e implantes. a adição do óxido de grafeno na formulação confere um incremento nas propriedades mecânicas e biológicas, viabilizando a obtenção de um cimento injetável ou de fácil manipulação em ambientes clínicos, com características inovadoras importantes como: cura rápida, compatíveis com o tecido ósseo e/ou com o sistema osteocondral, biofuncionalidade e baixo custo de produção."/>
+			<field name="originatesFrom" value="73135959"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019009073"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019009073"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019009073"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191009073"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019009073"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19746" type="Person">
+			<semanticIdentifier>lattes::5949169640645103</semanticIdentifier>
+			<field name="identifier.lattes" value="5949169640645103"/>
+			<field name="name" value="Marcelo Augusto Brito Madureira"/>
+		</entity>
+		<entity ref="OrgUnit15426" type="OrgUnit">
+			<semanticIdentifier>brcris::b7b1e5fcfe75dddf6f30f7fc6c95201f</semanticIdentifier>
+			<field name="name" value="CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28564" toEntityRef="Person19746" type="Inventor"/>
+		<relation fromEntityRef="Patent28564" toEntityRef="OrgUnit15426" type="Applicant"/>
+	</relations>
+</entity-relation-data>

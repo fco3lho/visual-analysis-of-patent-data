@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:03" record="27202" source="Espacenet">
+	<entities>
+		<entity ref="Patent27202" type="Patent">
+			<semanticIdentifier>brcris::c36e8c0db6f6992d2ee71410ef64ab94</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014026839A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014026839</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014026839A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141026839</semanticIdentifier>
+			<semanticIdentifier>original::102014026839</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014026839"/>
+			<field name="identifier.lattes" value="4910241356954777"/>
+			<field name="identifier.espacenet" value="102014026839"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sensor para bufferização de imagens e seus usos"/>
+			<field name="title.lattes" value="MÉTODO E SENSOR PARA BUFFERIZAÇÃO DE IMAGENS E SEUS USOS"/>
+			<field name="depositDate" value="2014-10-27"/>
+			<field name="publicationDate" value="2016-08-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS SATO BARALDI DIAS"/>
+			<field name="inventor" value="ERNESTO KEMP"/>
+			<field name="inventor" value="LUIS FERNANDO GOMEZ GONZALEZ"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T1/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06T1/60AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sensor para bufferização de imagens e seus usosa presente invenção se refere aum métodol de 1 'i bufferização para imagens estáticas ou em movimento 1 com 1, intervalo dinâmico estendido e curva de resposta a ilumitjação ii programável para criação de um sensor de imagem com inte~valo 1 dinâmico estendido e cuja curva de resposta a ilumi0ação ' seja programável. uma das motivações para tal é a pro~ução 1 de sensores que respondam a luz de uma forma mais próxima do 1 olho humano, conservando detalhes tanto de áreas com muita i iluminação quanto com pouca. para isso, é utilizado um sensor i no qual cada pixel é ligado em uma cadeia de capacitojes e i o transporte de carga entre eles é controlado por um re~ógio 1 (&quot;clock&quot;) externo. a duração do intervalo entre ldois sucessivos sinais de clock pode ser controlada para gejar a i resposta à iluminação, seja essa linear, logarít~ica, exponencial ou qualquer outra desejada. essa técnica tahbém i pode ser usada em outros sensores cujo sinal possa i ser traduzido em carga, como por exemplo, em detectores de brea ! para raios-x."/>
+			<field name="originatesFrom" value="56544721"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014026839"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014026839"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014026839"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141026839"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014026839"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18822" type="Person">
+			<semanticIdentifier>lattes::4910241356954777</semanticIdentifier>
+			<field name="identifier.lattes" value="4910241356954777"/>
+			<field name="name" value="Luis Fernando Gomez Gonzalez"/>
+		</entity>
+		<entity ref="OrgUnit14746" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27202" toEntityRef="Person18822" type="Inventor"/>
+		<relation fromEntityRef="Patent27202" toEntityRef="OrgUnit14746" type="Applicant"/>
+	</relations>
+</entity-relation-data>

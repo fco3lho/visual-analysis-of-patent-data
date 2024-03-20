@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:10" record="20886" source="Espacenet">
+	<entities>
+		<entity ref="Patent20886" type="Patent">
+			<semanticIdentifier>brcris::eddcb1c170384e5aa27c57fd37a7530b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106876A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1106876</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1106876A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI06876</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1106876-0 A2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1106876"/>
+			<field name="identifier.lattes" value="3063102288112496"/>
+			<field name="identifier.espacenet" value="PI1106876"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="SISTEMA DE RISER HÍBRIDO AUTOSSUSTENTADO COM JUMPER COMPLACENTE"/>
+			<field name="title.lattes" value="SISTEMA DE RISER HÍBRIDO AUTOSSUSTENTADO COM JUMPER COMPLACENTE"/>
+			<field name="depositDate" value="2011-12-29"/>
+			<field name="publicationDate" value="2013-12-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JEAN CUTRIM LOPES"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B17/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="E21B43/01AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="43"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA DE RISER HÍBRIDO AUTOSSUSTENTADO COM JUMPER COMPLACENTE. Em alguns cenários de arranjos submarinos do pré-sal, a convivência do FSHR (Free Standig Hibrid Riser) com outros sistema s desacoplados e /ou acoplados de risers torna-se inviável ao perigo de colisão entre sistemas (linhas na configuração em &quot;lazy-Wave&quot;, sistema boião, por exemplo). A presente invenção refere-se a um sistema em que a configuração da linha em catenária livre, a que liga plataforma ao FSHR, é substituída por uma linha em &quot;lazy-Wave&quot;. O objetivo desse novo sistema é afastar o FSHR da região onde há perigo de colisão e também reduzir a influência do peso da linha sobre o FSHR. Entre as vantagens da invenção podemos ressaltar a mesma permite que se viabilize e o emprego de um número de sistemas desacoplados de risers em arranjos submarinos. O novo sistema reduz o risco de colisão entre risers e/ou suas estrururas de sustentação, quando comparada com os sistemas convencionais."/>
+			<field name="originatesFrom" value="49666807"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106876"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1106876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1106876"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI06876"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1106876-0 A2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14465" type="Person">
+			<semanticIdentifier>lattes::3063102288112496</semanticIdentifier>
+			<field name="identifier.lattes" value="3063102288112496"/>
+			<field name="name" value="Jean Cutrim Lopes"/>
+		</entity>
+		<entity ref="OrgUnit11336" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20886" toEntityRef="Person14465" type="Inventor"/>
+		<relation fromEntityRef="Patent20886" toEntityRef="OrgUnit11336" type="Applicant"/>
+	</relations>
+</entity-relation-data>

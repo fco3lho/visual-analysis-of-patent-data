@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:31" record="22467" source="Espacenet">
+	<entities>
+		<entity ref="Patent22467" type="Patent">
+			<semanticIdentifier>brcris::420c04ac2b32e91dace04d6842347168</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303780A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9303780</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9303780A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19939303780</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9303780"/>
+			<field name="identifier.lattes" value="1807399214239200"/>
+			<field name="identifier.espacenet" value="9303780"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para síntese de um material piezoelétrico dopado com nióbio e estrôncio"/>
+			<field name="title.lattes" value="Síntese de Pzt Por Solução de Citratos"/>
+			<field name="depositDate" value="1993-09-13"/>
+			<field name="publicationDate" value="1995-05-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BARBOSA JAIR AVENA"/>
+			<field name="inventor" value="DA SILVA ELSON LONGO"/>
+			<field name="inventor" value="DE CARVALHO LUIZ CARLOS"/>
+			<field name="inventor" value="DOS SANTOS MARCIA CRISTINA CAVACO"/>
+			<field name="inventor" value="EDSON ROBERTO LEITE"/>
+			<field name="inventor" value="VARELA JOSE ARANA"/>
+			<field name="applicant" value="INSTITUTO DE PESQUISAS DA MARINHA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01L41/22AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="originatesFrom" value="4057384"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303780"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9303780"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9303780"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19939303780"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15521" type="Person">
+			<semanticIdentifier>lattes::1807399214239200</semanticIdentifier>
+			<field name="identifier.lattes" value="1807399214239200"/>
+			<field name="name" value="Jose Arana Varela"/>
+		</entity>
+		<entity ref="OrgUnit12066" type="OrgUnit">
+			<semanticIdentifier>brcris::2a0d193b3617f0d968e1195090b42193</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE PESQUISAS DA MARINHA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22467" toEntityRef="Person15521" type="Inventor"/>
+		<relation fromEntityRef="Patent22467" toEntityRef="OrgUnit12066" type="Applicant"/>
+	</relations>
+</entity-relation-data>

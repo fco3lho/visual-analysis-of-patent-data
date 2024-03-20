@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:24:43" record="11463" source="Espacenet">
+	<entities>
+		<entity ref="Patent11463" type="Patent">
+			<semanticIdentifier>brcris::7a4be3ee8de75793a3bdcecc5571920a</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8802127U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8802127U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8802127U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1988MU02127U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8802127-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8802127"/>
+			<field name="identifier.lattes" value="3897283209013869"/>
+			<field name="identifier.espacenet" value="MU8802127"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="simulador de barras e discos"/>
+			<field name="title.lattes" value="Simulador de Barras e Discos - MU8802127-0 (U2)"/>
+			<field name="depositDate" value="2008-09-02"/>
+			<field name="publicationDate" value="2010-05-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLIFSON ROLEMBERG ANDRADE"/>
+			<field name="inventor" value="DIVANIZIA DO NASCIMENTO SOUZA"/>
+			<field name="inventor" value="FERNANDA CARLA LIMA FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01T1/169AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="169AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SIMULADOR DE BARRAS E DISCOS. Se deu por meio da realização de testes de controle de qualidade em câmaras cintilográficas, tais como: teste de resolução espacial intrínseca, resolução tomográfica e linearidade de respostas através das barras e dos discos. Os resultados dos testes de controle de qualidade mostraram-se satisfatórios, podendo ser utilizados como parâmetros em avaliações futuras nos equipamentos. O SIMULADOR DE BARRAS E DISCOS mostrou-se eficaz para o uso em controle de qualidade das câmaras cintilográficas, com a vantagem de incorporar artefatos não presentes nos simuladores de barras comerciais, permitindo testes adicionais e possibilitando aos profissionais dos serviços de medicina nuclear a realização de testes que não eram possíveis até então. Vale ainda ressaltar que o invento foi desenvolvido com matéria prima de baixo custo e com qualidade comparável aos simuladores de barras do tipo quadrantes. O custo financeiro do SIMULADOR DE BARRA E DISCOS foi de apenas 20% do valor de um simulador comercial."/>
+			<field name="originatesFrom" value="42134567"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8802127"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8802127U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8802127"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1988MU02127U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8802127-0"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU8802127Y"/>
+		</entity>
+		<entity ref="Person8000" type="Person">
+			<semanticIdentifier>lattes::3897283209013869</semanticIdentifier>
+			<field name="identifier.lattes" value="3897283209013869"/>
+			<field name="name" value="Divanizia do Nascimento Souza"/>
+		</entity>
+		<entity ref="OrgUnit6387" type="OrgUnit">
+			<semanticIdentifier>brcris::7362b0e1acd89ad1dec11c8df58c9a32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SERGIPE"/>
+		</entity>
+		<entity ref="Patent11464" type="Patent">
+			<semanticIdentifier>epodoc::BRMU8802127Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="42134567"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8802127Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent11463" toEntityRef="Person8000" type="Inventor"/>
+		<relation fromEntityRef="Patent11463" toEntityRef="OrgUnit6387" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:02" record="27191" source="Espacenet">
+	<entities>
+		<entity ref="Patent27191" type="Patent">
+			<semanticIdentifier>brcris::72f27f7904ea4602cb381b9309bbd97e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025687A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016025687</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016025687A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161025687</semanticIdentifier>
+			<semanticIdentifier>original::102016025687</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016025687"/>
+			<field name="identifier.lattes" value="8965106762277460"/>
+			<field name="identifier.espacenet" value="102016025687"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="anticorpo monoclonal para diagnóstico da paracoccidioidomicose e usos"/>
+			<field name="title.lattes" value="Anticorpo Monoclonal para diagnóstico da Paracoccidioidomicose e usos"/>
+			<field name="depositDate" value="2016-11-03"/>
+			<field name="publicationDate" value="2018-05-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS DELFIN CHAVEZ OLORTEGUI"/>
+			<field name="inventor" value="JOAO CARLOS MINOZZO"/>
+			<field name="inventor" value="LARISSA MAGALHAES ALVARENGA"/>
+			<field name="inventor" value="LUIS FELIPE MINOZZO FIGUEIREDO"/>
+			<field name="applicant" value="CENTRO DE PRODUCAO E PESQUISA DE IMUNOBIOLOGICOS - CPPI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K16/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/569AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="569AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se à sequência aminoacídica de um fragmento variável de cadeia simples (scfv) como parte de um anticorpo monoclonal anti-gp43. a gp43 e uma glicoproteína presente no fungo paracoccidioides brasiliensis. o anticorpo monoclonal, constituído da molécula scfv, é capaz de identificar especificamente a gp43 do p. brasiliensis em fluidos biológicos. essa molécula poderá ser particularmente usada no diagnóstico laboratorial e específico de pacientes que sofrem da paracoccidioidomicose (pcm), a mais importante micose profunda existente na américa latina e no brasil, causada pelos fungos dimórficos p. brasiliensis e p. lutzii. ademais, o anticorpo monoclonal ou sua molécula scfv podem ser usados como reagentes na purificação da proteína gp43, e/ou para identificar ou mapear sequências antigênicas imunodominantes na proteína específica do fungo."/>
+			<field name="originatesFrom" value="62494787"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025687"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016025687"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016025687"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161025687"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016025687"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18818" type="Person">
+			<semanticIdentifier>lattes::8965106762277460</semanticIdentifier>
+			<field name="identifier.lattes" value="8965106762277460"/>
+			<field name="name" value="Luís Felipe Minozzo Figueiredo"/>
+		</entity>
+		<entity ref="OrgUnit14742" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="OrgUnit14743" type="OrgUnit">
+			<semanticIdentifier>brcris::c01b1b091cd49482a31899e2687d017e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27191" toEntityRef="Person18818" type="Inventor"/>
+		<relation fromEntityRef="Patent27191" toEntityRef="OrgUnit14742" type="Applicant"/>
+		<relation fromEntityRef="Patent27191" toEntityRef="OrgUnit14743" type="Applicant"/>
+	</relations>
+</entity-relation-data>

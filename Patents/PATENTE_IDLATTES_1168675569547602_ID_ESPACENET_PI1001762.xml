@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:43" record="27531" source="Espacenet">
+	<entities>
+		<entity ref="Patent27531" type="Patent">
+			<semanticIdentifier>brcris::2ecb2d265e166bf646b1d609e692e056</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001762A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1001762</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1001762A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI01762</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1001762-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1001762"/>
+			<field name="identifier.lattes" value="1168675569547602"/>
+			<field name="identifier.espacenet" value="PI1001762"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema eletrÈnico de dosimetria de radiação ultravioleta"/>
+			<field name="title.lattes" value="Sistema eletrônico de dosimetria de radiação ultravioleta"/>
+			<field name="depositDate" value="2010-06-18"/>
+			<field name="publicationDate" value="2012-03-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ ANTONIO PEREIRA DOS SANTOS"/>
+			<field name="inventor" value="PETRUS D'AMORIM SANTA CRUZ OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01J1/42AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA ELETRÈNICO DE DOSIMETRIA DE RADIAçãO ULTRA VIOLETA. A presente invenção refere-se a um sistema eletrónico que tem a função de medir a dose de radiação ultravioleta que um indivíduo recebe durante um período de tempo via alguma propriedade física ou química de um sensor de radiação ultravioleta qualquer. A propriedade a ser mensurada no sensor pode ser a transparência óptica, a luminescência em qualquer cor, a impedância elétrica, a polarizabilidade dos átomos, a acidez, entre outras. O início e o fim de uma leitura da dose ultravioleta é comandado por (6) que também recebe o dado para ser processado, efetua o cálculo da dose UV, comanda um mostrador (7), realiza comunicação com (8) via interface USB ou com (9) via comunicação serial qualquer, ou sem fio qualquer, ou paralela qualquer, além de poder armazenar os dados em (10).Quando (24) inicia o procedimento eletrónico de medição está acionando (1) ou (3), o que for previamente selecionado por (11), produzindo um sinal de corrente elétrica proveniente de (2) ou (4). Este sinal é digitalizado por (5) e (24) via conversão analógica-digital por contagem de pulsos e o resultado da medição é mostrado em (7) ou enviado para (8) ou (9) ou (10)."/>
+			<field name="originatesFrom" value="45868810"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001762"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1001762"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1001762"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI01762"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1001762-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19017" type="Person">
+			<semanticIdentifier>lattes::1168675569547602</semanticIdentifier>
+			<field name="identifier.lattes" value="1168675569547602"/>
+			<field name="name" value="Luiz Antonio Pereira dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit14843" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27531" toEntityRef="Person19017" type="Inventor"/>
+		<relation fromEntityRef="Patent27531" toEntityRef="OrgUnit14843" type="Applicant"/>
+	</relations>
+</entity-relation-data>

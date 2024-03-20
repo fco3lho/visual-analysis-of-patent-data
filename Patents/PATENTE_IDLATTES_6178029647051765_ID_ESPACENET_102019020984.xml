@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:08" record="29900" source="Espacenet">
+	<entities>
+		<entity ref="Patent29900" type="Patent">
+			<semanticIdentifier>brcris::4e18337923c182aa0af408b547cddd0e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020984A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019020984</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019020984A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191020984</semanticIdentifier>
+			<semanticIdentifier>original::102019020984</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019020984"/>
+			<field name="identifier.lattes" value="6178029647051765"/>
+			<field name="identifier.espacenet" value="102019020984"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo microfluídico para sensoriamento óptico"/>
+			<field name="title.lattes" value="DISPOSITIVO MICROFLUÍDICO PARA SENSORIAMENTO ÓPTICO"/>
+			<field name="depositDate" value="2019-10-04"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ERIC FUJIWARA"/>
+			<field name="inventor" value="FRANCIELE FLORES VIT"/>
+			<field name="inventor" value="LUCIMARA GAZIOLA DE LA TORRE"/>
+			<field name="inventor" value="MARCO CESAR PRADO SOARES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12M1/26AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/51AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="51AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo microfluídico para sensoriamento óptico. a presente invenção apresenta um dispositivo microfluídico voltado para a avaliação da cinética microbiana por espalhamento dinâmico da luz, em que se utiliza uma única fibra óptica por câmara de perfusão para emitir um sinal luminoso para o interior do dispositivo e, também, para receber o referido sinal refletido. o referido dispositivo tem as características de ser reversível (desmontável), modularizável (sistemas reacionais, optoeletrônico e computacional fisicamente separados) e de formar canais microfluídicos e câmaras de cultivo para a devida avaliação microbiana, possibilitando a avaliação rápida dos parâmetros de cinética fermentativa. o dispositivo compreende, em sua configuração preferencial, pelo menos: uma placa superior (1); uma placa de fluxo (2); uma placa de inoculação (3); e uma placa inferior (4), sendo que as referidas placas são dispostas umas sobre as outras a fim de formar os referidos canais microfluídicos e câmaras de cultivo."/>
+			<field name="originatesFrom" value="75845227"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020984"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019020984"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019020984"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191020984"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019020984"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20540" type="Person">
+			<semanticIdentifier>lattes::6178029647051765</semanticIdentifier>
+			<field name="identifier.lattes" value="6178029647051765"/>
+			<field name="name" value="Marco César Prado Soares"/>
+		</entity>
+		<entity ref="OrgUnit16069" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29900" toEntityRef="Person20540" type="Inventor"/>
+		<relation fromEntityRef="Patent29900" toEntityRef="OrgUnit16069" type="Applicant"/>
+	</relations>
+</entity-relation-data>

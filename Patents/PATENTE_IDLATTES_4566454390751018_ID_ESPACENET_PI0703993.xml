@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:24:25" record="42734" source="Espacenet">
+	<entities>
+		<entity ref="Patent42734" type="Patent">
+			<semanticIdentifier>brcris::046dfc65be03926522efaebfc2456255</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703993A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703993</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703993A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03993</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703993-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703993"/>
+			<field name="identifier.lattes" value="4566454390751018"/>
+			<field name="identifier.espacenet" value="PI0703993"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="lençol protetor de colchão"/>
+			<field name="title.lattes" value="Lençol de fácil fixação para leito hospitalar"/>
+			<field name="depositDate" value="2007-10-05"/>
+			<field name="publicationDate" value="2009-11-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="MARIA APARECIDA DE LUCA NASCIMENTO"/>
+			<field name="inventor" value="MARIANA GOMES CARDIM"/>
+			<field name="inventor" value="SUELY REZENDE CUNHA"/>
+			<field name="applicant" value="FUNDACAO OSWALDO CRUZ - FIOCRUZ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A47G9/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="47"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="LENçOL PROTETOR DE COLCHãO. O presente pedido de patente se refere a um lençol protetor de colchão possuindo faixas retentoras fixadas nas extremidades laterais do lençol, bem como a um método para ajustar o lençol protetor ao colchão."/>
+			<field name="originatesFrom" value="41263719"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703993"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703993"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703993"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03993"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703993-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29144" type="Person">
+			<semanticIdentifier>lattes::4566454390751018</semanticIdentifier>
+			<field name="identifier.lattes" value="4566454390751018"/>
+			<field name="name" value="Sueli Rezende Cunha"/>
+		</entity>
+		<entity ref="OrgUnit22821" type="OrgUnit">
+			<semanticIdentifier>brcris::7ab85eeef0104ad2df1f2e6200971acd</semanticIdentifier>
+			<field name="name" value="FUNDACAO OSWALDO CRUZ - FIOCRUZ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent42734" toEntityRef="Person29144" type="Inventor"/>
+		<relation fromEntityRef="Patent42734" toEntityRef="OrgUnit22821" type="Applicant"/>
+	</relations>
+</entity-relation-data>

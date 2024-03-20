@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:24" record="9264" source="Espacenet">
+	<entities>
+		<entity ref="Patent9264" type="Patent">
+			<semanticIdentifier>brcris::f2ba9f9b76c21398ab79f73044ebe1be</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9102934U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9102934U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9102934U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1991MU02934U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 9102934-1 U2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9102934"/>
+			<field name="identifier.lattes" value="6804785047947234"/>
+			<field name="identifier.espacenet" value="MU9102934"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="GRAMPO DE SUTURA BIOABSORVÍVEL"/>
+			<field name="title.lattes" value="Sistema de sutura bioabsorvivel apartir da tecnica biônica"/>
+			<field name="depositDate" value="2011-12-28"/>
+			<field name="publicationDate" value="2014-03-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS CLEOMIR DE SOUZA PINHEIRO"/>
+			<field name="inventor" value="THAYS OBANDO BRITO"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B17/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="GRAMPO DE SUTURA BIOABSORVÍVEL O presente pedido de modelo de utilidade refere-se a um grampo de sutura, particularmente baseado na mandíbula da formiga saúva soldado do gênero Atta. Tal dispositivo foi desenvolvido através da técnica biônica, que estuda os sistemas vivos para descobrir processos, técnicas ou princípios que possam ajudar na criação de projetos, e contém partes que podem ser reabsorvidas pelo organismo, evitando a retirada dos pontos de sutura em locais especializados."/>
+			<field name="originatesFrom" value="50335978"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9102934"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9102934U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9102934"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1991MU02934U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 9102934-1 U2"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRMU9102934Y"/>
+		</entity>
+		<entity ref="Person6344" type="Person">
+			<semanticIdentifier>lattes::6804785047947234</semanticIdentifier>
+			<field name="identifier.lattes" value="6804785047947234"/>
+			<field name="name" value="Cleomir"/>
+		</entity>
+		<entity ref="OrgUnit5022" type="OrgUnit">
+			<semanticIdentifier>brcris::8216edde71d5cb54d39cca550db7679d</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="OrgUnit5023" type="OrgUnit">
+			<semanticIdentifier>brcris::ec47f492ca0551bbf05c2477ecd20b73</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="Patent9265" type="Patent">
+			<semanticIdentifier>epodoc::BRMU9102934Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="50335978"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9102934Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9264" toEntityRef="Person6344" type="Inventor"/>
+		<relation fromEntityRef="Patent9264" toEntityRef="OrgUnit5022" type="Applicant"/>
+		<relation fromEntityRef="Patent9264" toEntityRef="OrgUnit5023" type="Applicant"/>
+	</relations>
+</entity-relation-data>

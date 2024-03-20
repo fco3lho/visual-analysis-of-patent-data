@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:10" record="28975" source="Espacenet">
+	<entities>
+		<entity ref="Patent28975" type="Patent">
+			<semanticIdentifier>brcris::52ddaf8d857c4009f2e70425b8e0ec88</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012007907A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012007907</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012007907A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121007907</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 007907-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012007907"/>
+			<field name="identifier.lattes" value="9106754041376544"/>
+			<field name="identifier.espacenet" value="102012007907"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="TÉCNICA DE MODULAÇÃO DE ESPAÇO VETORIAL PARA INVERSORES MULTINÍVEIS EM CORRENTE COM TRANSFORMADORES DE INTERFASE"/>
+			<field name="title.lattes" value="Método Algoritimo e Sistema de Medição e Monitoramento de Parâmetros em linhas de Transmissão de Energia Elétrica"/>
+			<field name="depositDate" value="2012-04-05"/>
+			<field name="publicationDate" value="2013-11-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARNALDO JOSE PERIN"/>
+			<field name="inventor" value="BRUNO SCORTEGAGNA DUPCZAK"/>
+			<field name="inventor" value="MARCELO LOBO HELDWEIN"/>
+			<field name="applicant" value="CEBRA - CONVERSORES ESTATICOS BRASILEIROS LTDA"/>
+			<field name="applicant" value="ITA ENERGETICA S.A"/>
+			<field name="applicant" value="TRACTEBEL ENERGIA S.A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02M7/493AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="493AI"/>
+			</field>
+			<field name="abstract.espacenet" value="TÉCNICA DE MODULAÇÃO DE ESPAÇO VETORIAL PARA INVERSORES MULTINÍVEIS EM CORRENTE COM TRANSFORMADORES DE INTERFASE. Utiliza-se dos conceitos de representação vetorial para os conversores estáticos de potência para implementar uma estratégia de modulação para inversores de corrente trifásico com cinco níveis. É apresentado um algoritmo computacional que proporciona executar uma modulação com um modo intercalado de funcionamento, visando aumentar a frequência de operação0 dos elementos passivos sem aumentar a frequência de comutação dos interruptores controlados. Garante que a tensão média nos terminais dos transformadores de interfase será nula, não ocasionando problemas de saturação nos núcleos magnéticos. Permite atuar no controle dos valores médios de corrente nas bobinas dos transformadores de interfase, de maneira independente e desacoplada."/>
+			<field name="originatesFrom" value="49578854"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012007907"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012007907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012007907"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121007907"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 007907-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19982" type="Person">
+			<semanticIdentifier>lattes::9106754041376544</semanticIdentifier>
+			<field name="identifier.lattes" value="9106754041376544"/>
+			<field name="name" value="Marcelo Martins Werneck"/>
+		</entity>
+		<entity ref="OrgUnit15626" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28975" toEntityRef="Person19982" type="Inventor"/>
+		<relation fromEntityRef="Patent28975" toEntityRef="OrgUnit15626" type="Applicant"/>
+	</relations>
+</entity-relation-data>

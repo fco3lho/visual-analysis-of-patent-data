@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:31:37" record="44361" source="Espacenet">
+	<entities>
+		<entity ref="Patent44361" type="Patent">
+			<semanticIdentifier>brcris::e7de232655849a16ae7171b994c1d171</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014018078A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014018078</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014018078A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141018078</semanticIdentifier>
+			<semanticIdentifier>original::102014018078</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014018078"/>
+			<field name="identifier.lattes" value="7169798041511043"/>
+			<field name="identifier.espacenet" value="102014018078"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="atordoamento de aves por microondas"/>
+			<field name="title.lattes" value="Atordoamento de aves por microondas"/>
+			<field name="depositDate" value="2014-07-23"/>
+			<field name="publicationDate" value="2016-02-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BARBARA RODRIGUES NASCIMENTO"/>
+			<field name="inventor" value="JOSE PAULO RODRIGUES FURTADO DE MENDONCA"/>
+			<field name="inventor" value="LEONARDO MARMO MOREIRA"/>
+			<field name="inventor" value="MARCELO GOMES DA SILVA"/>
+			<field name="inventor" value="VALMAR CARNEIRO BARBOSA"/>
+			<field name="inventor" value="VANUSA PATRICIA DE ARAUJO FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL-REI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A22B3/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="atordoamento de aves por microondas. a presente invenção consiste de um dispositivo e um processo para abate de aves que não utiliza corrente elétrica. trata-se do uso da radiação de microondas focalizado na cabeça do animal através de uma lente especial. a alta concentração de radiação causa uma perda da consciência do animal em poucos segundos sem gerar qualquer tipo de estresse do animal e, portanto, gerando uma carne de boa qualidade."/>
+			<field name="originatesFrom" value="55357738"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014018078"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014018078"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014018078"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141018078"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014018078"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30330" type="Person">
+			<semanticIdentifier>lattes::7169798041511043</semanticIdentifier>
+			<field name="identifier.lattes" value="7169798041511043"/>
+			<field name="name" value="Valmar Carneiro Barbosa"/>
+		</entity>
+		<entity ref="OrgUnit23794" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+		<entity ref="OrgUnit23795" type="OrgUnit">
+			<semanticIdentifier>brcris::8907b85266a51df2bb5cfb27185c4c32</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL-REI"/>
+		</entity>
+		<entity ref="OrgUnit23796" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44361" toEntityRef="Person30330" type="Inventor"/>
+		<relation fromEntityRef="Patent44361" toEntityRef="OrgUnit23794" type="Applicant"/>
+		<relation fromEntityRef="Patent44361" toEntityRef="OrgUnit23795" type="Applicant"/>
+		<relation fromEntityRef="Patent44361" toEntityRef="OrgUnit23796" type="Applicant"/>
+	</relations>
+</entity-relation-data>

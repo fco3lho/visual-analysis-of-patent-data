@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:21" record="34158" source="Espacenet">
+	<entities>
+		<entity ref="Patent34158" type="Patent">
+			<semanticIdentifier>brcris::bc87fc93420e43663c5ebf1013f7e98e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018014746A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018014746</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018014746A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181014746</semanticIdentifier>
+			<semanticIdentifier>original::102018014746</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018014746"/>
+			<field name="identifier.lattes" value="8414652619232683"/>
+			<field name="identifier.espacenet" value="102018014746"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de polímero termoplástico a partir de glicerol e anidrido ftálico, e produto obtido"/>
+			<field name="title.lattes" value="Processo de Obtenção de Polímero Termoplástico a Partir de Glicerol E Anidrido Ftálico, e Produto Obtido"/>
+			<field name="depositDate" value="2018-07-19"/>
+			<field name="publicationDate" value="2020-02-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCIANO ZART OLANYK"/>
+			<field name="inventor" value="NERI VOLPATO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08G63/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de polímero termoplástico a partir de glicerol e anidrido ftálico, e produto obtido refere-se ao processo de obtenção de polímero termoplástico a partir de glicerol (1) e anidrido ftálico (4) cujo produto (8) foi desenvolvido para aplicações no processo de manufatura aditiva (additive manufacturing ? am) ou de impressão 3d, em particular para o princípio de extrusão de materiais, podendo também ser utilizado em processos de moldagem tradicionais, tais como: injeção, sopro, extrusão, termoformagem. para tanto, a obtenção do polímero se dá a partir de única síntese, sem reações intermediárias ou redução do glicerol, utilizando cloreto de alumínio como catalisador e ácido esteárico para formar um pré-monômero. na sequência da reação de policondensação, esse pré-monômero é reagido com anidrido ftálico (4) em quantidade equimolar, em condições de temperatura e pressão controladas por sistema de malha fechada, favorecendo a formação de poliéster termoplástico (8) de cadeia longa, sólido e seco, em fase única, apto para manuseio a temperatura ambiente e obedecendo aos critérios de amolecimento gradual quando aquecido, adesão e formação de um objeto tridimensional após impresso e rígido quando arrefecido a temperatura ambiente."/>
+			<field name="originatesFrom" value="69527632"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018014746"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018014746"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018014746"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181014746"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018014746"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23523" type="Person">
+			<semanticIdentifier>lattes::8414652619232683</semanticIdentifier>
+			<field name="identifier.lattes" value="8414652619232683"/>
+			<field name="name" value="Neri Volpato"/>
+		</entity>
+		<entity ref="OrgUnit18434" type="OrgUnit">
+			<semanticIdentifier>brcris::43a78740c95a1ca64db4f4f90a86f6ac</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO CENTRO-OESTE"/>
+		</entity>
+		<entity ref="OrgUnit18435" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34158" toEntityRef="Person23523" type="Inventor"/>
+		<relation fromEntityRef="Patent34158" toEntityRef="OrgUnit18434" type="Applicant"/>
+		<relation fromEntityRef="Patent34158" toEntityRef="OrgUnit18435" type="Applicant"/>
+	</relations>
+</entity-relation-data>

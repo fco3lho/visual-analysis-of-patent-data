@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:28" record="8131" source="Espacenet">
+	<entities>
+		<entity ref="Patent8131" type="Patent">
+			<semanticIdentifier>brcris::bc8c849c5a24ab5086b73d2c1256d8aa</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0003334A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0003334</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0003334A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000003334</semanticIdentifier>
+			<semanticIdentifier>original::0003334-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0003334"/>
+			<field name="identifier.lattes" value="5587901760491970"/>
+			<field name="identifier.espacenet" value="0003334"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de produção de peptìdeo entomotóxico da canatoxina"/>
+			<field name="title.lattes" value="Peptídeo Entomotóxico da Canatoxina: Processo de Produção. Patente de invenção: PI0003334-0, DEINPI/RS data: 06/06/00"/>
+			<field name="depositDate" value="2000-06-06"/>
+			<field name="publicationDate" value="2002-02-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CELIA REGINA RIBEIRO DA SILVA CARLINI"/>
+			<field name="inventor" value="CLAUDIO TEIXEIRA DA SILVA FERREIRA"/>
+			<field name="inventor" value="MARIA EMILIA CACIANO GOMBAROVITS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07K1/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;&lt;UM&gt;PROCESSO DE PRODUçãO DE PEPTìDEO ENTOMOTóXICO DA CANATOXINA&lt;MV&gt;&quot;. (Comercialmente designado por pepcanatox), obtido por hidrólise enzimática controlada da proteína, por catepsinas (B+D) isoladas de larvas do bruquídeo Caliosobruchus maculatus."/>
+			<field name="originatesFrom" value="3944840"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0003334"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0003334"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0003334"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000003334"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0003334-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5540" type="Person">
+			<semanticIdentifier>lattes::5587901760491970</semanticIdentifier>
+			<field name="identifier.lattes" value="5587901760491970"/>
+			<field name="name" value="Celia Regina Ribeiro da Silva Carlini"/>
+		</entity>
+		<entity ref="OrgUnit4375" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8131" toEntityRef="Person5540" type="Inventor"/>
+		<relation fromEntityRef="Patent8131" toEntityRef="OrgUnit4375" type="Applicant"/>
+	</relations>
+</entity-relation-data>

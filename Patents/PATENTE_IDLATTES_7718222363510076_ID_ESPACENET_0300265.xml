@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:38:48" record="19935" source="Espacenet">
+	<entities>
+		<entity ref="Patent19935" type="Patent">
+			<semanticIdentifier>brcris::cb25a162572a0d2e8de41706325f09d3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300265A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0300265</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0300265A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030300265</semanticIdentifier>
+			<semanticIdentifier>original::0300265-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0300265"/>
+			<field name="identifier.lattes" value="7718222363510076"/>
+			<field name="identifier.espacenet" value="0300265"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Estrutura flutuante"/>
+			<field name="title.lattes" value="Estrutura Flutuante"/>
+			<field name="depositDate" value="2003-01-31"/>
+			<field name="publicationDate" value="2004-12-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA PAULA DOS SANTOS COSTA"/>
+			<field name="inventor" value="ISAIAS QUARESMA MASETTI"/>
+			<field name="inventor" value="KAZUO NISHIMOTO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E02B17/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ESTRUTURA FLUTUANTE&quot;. A presente invenção refere-se a uma estrutura flutuante para receber instalações marítimas de produção ou perfuração a qual é provida de meios para reduzir os movimentos decorrentes do ação de forças ambientais sobre si. Estes meios conferem à estrutura um comportamento mais estável em seus movimentos."/>
+			<field name="originatesFrom" value="33557163"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300265"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0300265"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0300265"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030300265"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0300265-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person13841" type="Person">
+			<semanticIdentifier>lattes::7718222363510076</semanticIdentifier>
+			<field name="identifier.lattes" value="7718222363510076"/>
+			<field name="name" value="Isaias Quaresma Masetti"/>
+		</entity>
+		<entity ref="OrgUnit10828" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent19935" toEntityRef="Person13841" type="Inventor"/>
+		<relation fromEntityRef="Patent19935" toEntityRef="OrgUnit10828" type="Applicant"/>
+	</relations>
+</entity-relation-data>

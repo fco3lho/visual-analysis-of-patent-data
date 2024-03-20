@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:14" record="21608" source="Espacenet">
+	<entities>
+		<entity ref="Patent21608" type="Patent">
+			<semanticIdentifier>brcris::84876d5a95ef4ac50048136fc67a10de</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0304077A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0304077</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0304077A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030304077</semanticIdentifier>
+			<semanticIdentifier>original::0304077-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0304077"/>
+			<field name="identifier.lattes" value="3884561206562655"/>
+			<field name="identifier.espacenet" value="0304077"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de fabricação de fios com aços inoxidáveis duplex para aplicação em ortodontia"/>
+			<field name="title.lattes" value="Processo de fabricação de fios com aços inoxidáveis duplex para aplicação em ortodontia, Universidade de São Paulo (Fapesp), 2002"/>
+			<field name="depositDate" value="2003-10-30"/>
+			<field name="publicationDate" value="2005-06-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE ITMAN FILHO"/>
+			<field name="inventor" value="ANDRE ITMAN JR"/>
+			<field name="inventor" value="JOAO MANUEL DOMINGOS DE ALMEIDA ROLLO"/>
+			<field name="inventor" value="SERGIO MAZZER ROSSITTI"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C22C38/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C22C38/42AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C22C38/44AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE FABRICAçãO DE FIOS COM AçOS INOXIDáVEIS DUPLEX PARA APLICAçãO EM ORTODONTIA&quot;. Refere-se o presente invento a uma nova classificação de fios com aços inoxidáveis duplex para aplicação em ortodontia, obtido através da utilização do aço austeno-ferrítico SEW 410 Nr.14517 (Cr26Ni6Mo3CU3) modificado com aplicação do elemento Nióbio, (SEW 410 + Nb), cuja adição favorece o endurecimento por solução sólida e o refino do grão, fator essencial na conformação posterior da liga e obtenção das propriedades mecânicas desejadas nos fios de aço austeno-ferrítico."/>
+			<field name="originatesFrom" value="34682785"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0304077"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0304077"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0304077"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030304077"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0304077-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14948" type="Person">
+			<semanticIdentifier>lattes::3884561206562655</semanticIdentifier>
+			<field name="identifier.lattes" value="3884561206562655"/>
+			<field name="name" value="João Manuel Domingos de Almeida Rollo"/>
+		</entity>
+		<entity ref="OrgUnit11696" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit11697" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21608" toEntityRef="Person14948" type="Inventor"/>
+		<relation fromEntityRef="Patent21608" toEntityRef="OrgUnit11696" type="Applicant"/>
+		<relation fromEntityRef="Patent21608" toEntityRef="OrgUnit11697" type="Applicant"/>
+	</relations>
+</entity-relation-data>

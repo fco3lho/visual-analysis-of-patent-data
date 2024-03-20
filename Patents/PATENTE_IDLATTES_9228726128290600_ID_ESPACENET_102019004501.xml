@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:28:18" record="43651" source="Espacenet">
+	<entities>
+		<entity ref="Patent43651" type="Patent">
+			<semanticIdentifier>brcris::8f8b26062aa690a9b9a3302f05dbf14b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019004501A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019004501</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019004501A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191004501</semanticIdentifier>
+			<semanticIdentifier>original::102019004501</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019004501"/>
+			<field name="identifier.lattes" value="9228726128290600"/>
+			<field name="identifier.espacenet" value="102019004501"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para acompanhamento e ajuste do intervalo de calibração com base na carta de controle da amplitude e na capabilidade"/>
+			<field name="title.lattes" value="Método de reaproveitamento da concha do sururu como insumo em argamassa de alvenaria"/>
+			<field name="depositDate" value="2019-03-07"/>
+			<field name="publicationDate" value="2020-10-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO MARCOS FIGUEIREDO SOARES"/>
+			<field name="inventor" value="APOLLO MELO DA SILVA"/>
+			<field name="inventor" value="CARLOS AUGUSTO DO NASCIMENTO OLIVEIRA"/>
+			<field name="inventor" value="DAVI ANDERSON GADELHA DE SENA"/>
+			<field name="inventor" value="EDUARDO JOSE ALECIO DE OLIVEIRA"/>
+			<field name="inventor" value="JOAO JOSE DE SOUZA MARQUES"/>
+			<field name="inventor" value="JOSE EDUARDO FERREIRA DE OLIVEIRA"/>
+			<field name="inventor" value="MATEUS DE MELO SILVA FREITAS"/>
+			<field name="inventor" value="NELSON GONCALVES DA SILVA"/>
+			<field name="inventor" value="ROGERIO PONTES DE ARAUJO"/>
+			<field name="applicant" value="ASSOCIACAO INSTITUTO DE TECNOLOGIA DE PERNAMBUCO ? ITEP/OS"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DE PERNAMBUCO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R35/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para acompanhamento e ajuste do intervalo de calibração com base na carta de controle da amplitude e na capabilidade resumo este método foi desenvolvido com o objetivo de proporcionar ao seu usuário a possibilidade de monitoramento e ajuste do intervalo de calibração. a base deste método consiste em se estabelecer um intervalo inicial para recalibração e, a partir daí, acompanhar a estabilidade do equipamento durante o período preestabelecido, através do uso da carta de controle da amplitude, juntamente com o coeficiente de capabilidade de processo cg ou da utilização do coeficiente de capabilidade cdl, o qual foi desenvolvido por nós. o método realiza este monitoramento em pontos distribuídos ao longo da faixa nominal do equipamento. portanto, haverá uma carta de controle para cada ponto analisado. além disto, considera um tamanho da amostra único e igual a 4. através deste monitoramento e considerando-se os critérios de incerteza máxima admissível para o equipamento e dos erros (exatidão, repetitividade e/ou reprodutibilidade) máximos admissíveis, o usuário deverá elaborar uma curva de regressão linear ou polinomial para se chegar ao tempo em que, se não ocorrerem causas aleatórias significativas, tais erros e incerteza fossem alcançados para a partir daí, realizando-se o monitoramento se poder estabelecer um intervalo de tempo realístico e, sobretudo, confiável."/>
+			<field name="originatesFrom" value="73015743"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019004501"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019004501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019004501"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191004501"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019004501"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person29811" type="Person">
+			<semanticIdentifier>lattes::9228726128290600</semanticIdentifier>
+			<field name="identifier.lattes" value="9228726128290600"/>
+			<field name="name" value="Thiago José Matos Rocha"/>
+		</entity>
+		<entity ref="OrgUnit23407" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent43651" toEntityRef="Person29811" type="Inventor"/>
+		<relation fromEntityRef="Patent43651" toEntityRef="OrgUnit23407" type="Applicant"/>
+	</relations>
+</entity-relation-data>

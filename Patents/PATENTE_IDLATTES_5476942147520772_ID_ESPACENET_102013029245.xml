@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:31:29" record="44318" source="Espacenet">
+	<entities>
+		<entity ref="Patent44318" type="Patent">
+			<semanticIdentifier>brcris::bda4ff601a998911a22b0b3a4746b74b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013029245A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013029245</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013029245A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131029245</semanticIdentifier>
+			<semanticIdentifier>original::102013029245</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013029245"/>
+			<field name="identifier.lattes" value="5476942147520772"/>
+			<field name="identifier.espacenet" value="102013029245"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para produção de uma formulação básica de um antibiótico oriundo do extrato da polpa da cana de açucar (saccharum officinarum), o antibíotico e seu uso"/>
+			<field name="title.lattes" value="Processo de obtenção de Fitoterápico a base de extrato de polpa de cana de açúcar , extrato, antibiótico e seus usos"/>
+			<field name="depositDate" value="2013-11-05"/>
+			<field name="publicationDate" value="2015-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTINA DE ANDRADE MONTEIRO"/>
+			<field name="inventor" value="PATRICIA DE MARIA SILVA FIGUEIREDO"/>
+			<field name="inventor" value="RAQUEL SOUSA CATAO"/>
+			<field name="inventor" value="RONALDO DOERING MOTA"/>
+			<field name="inventor" value="VALERIO MONTEIRO NETO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO MARANHAO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61P31/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K36/899AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="899AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P31/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para produção de uma formulação básica de um antibiótico oriundo do extrato da polpa da cana de açucar (saccharum officinarum), o antibiótico, e, seu uso. a presente invenção consiste na manipulação de uma formulação básica de um antibiótico originário da polpa da cana de açúcar (saccharum officinarum) e seu uso. mais. particularmente, a referida invenção está relacionada a um processo de obtenção de um antibiótico com ação microbicida contra diversas bactérias e fungos de interesse clínico tais como candida, cryptococcus, trichosporon, stenotrophomonas, e. coli, klebsiella e staphylococcus aureus, atuando também o fitoterápico na diminuição da formação de biofilme e na degradação do biofilme formado por estes microorganismos. está também relacionada ao uso da formulação básica deste antibiótico, a partir do extrato da polpa de cana de açúcar, para produção de diferentes fitoterápicos, sob diferentes apresentações, tais como cápsula, solução, xarope, comprimidos, gel, aerossóis, colutório, creme, pó, pasta, pomada, pellet, etc,, para tratamento isolado ou associado de infecções fúngicas e bacterianas"/>
+			<field name="originatesFrom" value="54540537"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013029245"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013029245"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013029245"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131029245"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013029245"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30313" type="Person">
+			<semanticIdentifier>lattes::5476942147520772</semanticIdentifier>
+			<field name="identifier.lattes" value="5476942147520772"/>
+			<field name="name" value="Valério Monteiro Neto"/>
+		</entity>
+		<entity ref="OrgUnit23784" type="OrgUnit">
+			<semanticIdentifier>brcris::f1458c1e4a698bf35950a48673c96d20</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO MARANHAO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44318" toEntityRef="Person30313" type="Inventor"/>
+		<relation fromEntityRef="Patent44318" toEntityRef="OrgUnit23784" type="Applicant"/>
+	</relations>
+</entity-relation-data>

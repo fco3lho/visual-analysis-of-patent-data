@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:25" record="3730" source="Espacenet">
+	<entities>
+		<entity ref="Patent3730" type="Patent">
+			<semanticIdentifier>brcris::661e0a1e5dbbb09e97dc404c0f30724f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018006823U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202018006823U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202018006823U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20182006823U</semanticIdentifier>
+			<semanticIdentifier>original::202018006823</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202018006823"/>
+			<field name="identifier.lattes" value="4285092829670158"/>
+			<field name="identifier.espacenet" value="202018006823"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="dispositivo para monitoramento in loco da qualidade de energia elétrica em redes de distribuição"/>
+			<field name="title.lattes" value="Dispositivo para Monitoramento in loco da Qualidade de Energia Elétrica em Redes de Distribuição"/>
+			<field name="depositDate" value="2018-04-04"/>
+			<field name="publicationDate" value="2019-10-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE SANCHES FONSECA SOBRINHO"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J13/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo para monitoramento in loco da qualidade de energia elétrica em redes de distribuição refere-se a um dispositivo de monitoramento (1), compreendido por um módulo celular 3g/4g (2), uma fonte ac/dc (3), um sensor de tensão trifásico (4) e um microcontrolador (m) que contempla uma cpu (5), uma interface ethernet (6) e um relógio/calendário em tempo real (7), capaz de verificar a existência de eventos que podem fazer com que os parâmetros de qualidade de tensão em uma rede elétrica de distribuição deixem de ser atendidos, comunicando essas informação por meio das redes ethernet e celular."/>
+			<field name="originatesFrom" value="68238557"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018006823"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202018006823U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202018006823"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20182006823U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202018006823"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2621" type="Person">
+			<semanticIdentifier>lattes::4285092829670158</semanticIdentifier>
+			<field name="identifier.lattes" value="4285092829670158"/>
+			<field name="name" value="André Sanches Fonseca Sobrinho"/>
+		</entity>
+		<entity ref="OrgUnit2097" type="OrgUnit">
+			<semanticIdentifier>brcris::86c84d1d32216f5988d918ad92c64602</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3730" toEntityRef="Person2621" type="Inventor"/>
+		<relation fromEntityRef="Patent3730" toEntityRef="OrgUnit2097" type="Applicant"/>
+	</relations>
+</entity-relation-data>

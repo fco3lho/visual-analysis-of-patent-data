@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:34" record="29247" source="Espacenet">
+	<entities>
+		<entity ref="Patent29247" type="Patent">
+			<semanticIdentifier>brcris::fc224cd90bb68bc0163e1c6b51a3bd99</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405125A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0405125</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0405125A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2004PI05125</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0405125-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0405125"/>
+			<field name="identifier.lattes" value="2392018269619309"/>
+			<field name="identifier.espacenet" value="PI0405125"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="mistura combustìvel"/>
+			<field name="title.lattes" value="Mistura combustível"/>
+			<field name="depositDate" value="2004-11-19"/>
+			<field name="publicationDate" value="2006-07-18"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE MANOEL GOJA FERREIRA"/>
+			<field name="inventor" value="CARLOS NAGIB KHALIL"/>
+			<field name="inventor" value="MARCIA CRISTINA KHALIL DE OLIVEIRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10L1/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MISTURA COMBUSTìVEL&quot;. é descrita uma mistura combustível para motores do ciclo diesel que consiste essencialmente de álcool etílico anidro, diesel de petróleo e diesel etílico de mamona, e onde esses componentes estão presentes nas seguintes proporções em volume: 5 % &lt; álcool etílico anidro &lt;243&gt;20%; 60% &lt; diesel de petróleo &lt;243&gt;90%; 5 % &lt; biodiesel etílico de mamona &lt;243&gt;20%, e sob a condição de que a proporção de álcool etílico e biodiesel etílico de mamona seja de 1:1. A mistura combustível obtida é límpida e homogênea."/>
+			<field name="originatesFrom" value="36659741"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405125"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0405125"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0405125"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2004PI05125"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0405125-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20122" type="Person">
+			<semanticIdentifier>lattes::2392018269619309</semanticIdentifier>
+			<field name="identifier.lattes" value="2392018269619309"/>
+			<field name="name" value="Marcia Cristina Khalil de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit15738" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29247" toEntityRef="Person20122" type="Inventor"/>
+		<relation fromEntityRef="Patent29247" toEntityRef="OrgUnit15738" type="Applicant"/>
+	</relations>
+</entity-relation-data>

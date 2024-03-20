@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:47" record="40773" source="Espacenet">
+	<entities>
+		<entity ref="Patent40773" type="Patent">
+			<semanticIdentifier>brcris::0146cdae946aa7cedd598682ecf35d69</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701363A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0701363</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0701363A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI01363</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0701363-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0701363"/>
+			<field name="identifier.lattes" value="6807417903221031"/>
+			<field name="identifier.espacenet" value="PI0701363"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para controle da estabilidade de veÍculos de carga e treinamento de motoristas"/>
+			<field name="title.lattes" value="SISTEMA PARA CONTROLE DA ESTABILIDADE DE VEÍCULOS DE CARGA E TREINAMENTO DE MOTORISTAS"/>
+			<field name="depositDate" value="2007-06-20"/>
+			<field name="publicationDate" value="2009-02-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="RUBEM PENTEADO DE MELO"/>
+			<field name="applicant" value="TRANSTECH ENGENHARIA E INSPECAO LTDA"/>
+			<field name="applicant" value="TRANSTECH IVESUR BRASIL LTDA"/>
+			<field name="applicant" value="TRS LEARNING TREINAMENTO PROFISSIONAL E ENSAIOS LTDA"/>
+			<field name="applicant" value="TRS PERICIAS E AVALIACOES DE ENGENHARIA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01S5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B62D53/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="62"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="53"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA PARA CONTROLE DA ESTABILIDADE DE VEÍCULOS DE CARGA E TREINAMENTO DE MOTORISTAS. Patente de invenção para um Sistema para Controle da Estabilidade de Veículos de Carga e Treinamento de Motoristas, compreendido por: Módulo para aquisição de dados das rotas, Módulo de alerta e Módulo para treinamento de motoristas, O &quot;Módulo para aquisição de dados das rotas&quot; mapea as acelerações laterais geradas por um veículo ou conjunto de veículos em um determinado percurso e velocidade. O &quot;Módulo de Alerta&quot;, com o banco de dados inserido, monitora em tempo real se o veículo está se aproximando de determinado ponto crítico com velocidade compatível com a aceleração lateral máxima admissível pré-programada, a fim de reduzir a possibilidade de ocorrer o tombamento do conjunto. O &quot;Módulo para treinamento de motoristas&quot;, monitora as manobras com acelerômetro, e, através de equações matemáticas vinculadas ao tipo de veículo escolhido, amplifica o valor medido dessa aceleração informando qual seria a aceleração caso fosse de fato um bitrem ou rodotrem. Desse modo possibilita-se que o motorista adquira a sensibilidade suficiente para reconhecer os limites de cada conjunto de veículo, a fim de evitar o seu tombamento."/>
+			<field name="originatesFrom" value="40576599"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701363"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0701363"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0701363"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI01363"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0701363-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27781" type="Person">
+			<semanticIdentifier>lattes::6807417903221031</semanticIdentifier>
+			<field name="identifier.lattes" value="6807417903221031"/>
+			<field name="name" value="Rubem Penteado de Melo"/>
+		</entity>
+		<entity ref="OrgUnit21739" type="OrgUnit">
+			<semanticIdentifier>brcris::d1af309a2548005c27660f781aa738fb</semanticIdentifier>
+			<field name="name" value="TRANSTECH ENGENHARIA E INSPECAO LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40773" toEntityRef="Person27781" type="Inventor"/>
+		<relation fromEntityRef="Patent40773" toEntityRef="OrgUnit21739" type="Applicant"/>
+	</relations>
+</entity-relation-data>

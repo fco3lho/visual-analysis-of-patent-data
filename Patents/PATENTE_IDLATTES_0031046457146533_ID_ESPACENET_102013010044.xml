@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:40" record="10495" source="Espacenet">
+	<entities>
+		<entity ref="Patent10495" type="Patent">
+			<semanticIdentifier>brcris::8eafac731ae033c4054649cf693c5641</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013010044A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013010044</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013010044A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131010044</semanticIdentifier>
+			<semanticIdentifier>original::102013010044</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013010044"/>
+			<field name="identifier.lattes" value="0031046457146533"/>
+			<field name="identifier.espacenet" value="102013010044"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="modelo de criptografia baseado em autômatos celulares tridimensionais híbridos"/>
+			<field name="title.lattes" value="Modelo de criptografia baseado em autômatos celulares tridimensionais híbridos"/>
+			<field name="depositDate" value="2013-04-25"/>
+			<field name="publicationDate" value="2015-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIELLI ARAUJO LIMA"/>
+			<field name="inventor" value="GINA MAIRA BARBOSA DE OLIVEIRA"/>
+			<field name="applicant" value="FAPEMIG - FUNDACAO DE AMPARO A PESQUISA DO ESTADODE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L9/06AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="modelo de criptografia baseado em autômatos celulares tridimensionais híbridos. modelo criptográfico simétrico baseado no cálculo de pré-imagem de autômatos celulares tridimensionais híbridos denominado 3dhca (three-dimensional hybrid celiular automata). a cada passo de execução do processo de cifragem e decifragem são empregadas duas regras principal e contorno com sensitividade na mesma direção. a sensitividade da regra principal pode ser ao n (norte), s (sul), l (leste), o (oeste), f (frente) e k (fundo). os bits de saída da regra de contorno são determinados unicamente pelo bit sensível da regra principal, o texto plano é dividido em blocos, e estes blocos são transformados em bits que correspondem a um reticulado inicial do ao. o processo de cifragem é alcançado pela evolução para trás, também denominada cálculo de pré-imagem, e a decifragem é realizada através da evolução temporal para frente dos autômatos celulares."/>
+			<field name="originatesFrom" value="54541611"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013010044"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013010044"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013010044"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131010044"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013010044"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7257" type="Person">
+			<semanticIdentifier>lattes::0031046457146533</semanticIdentifier>
+			<field name="identifier.lattes" value="0031046457146533"/>
+			<field name="name" value="Danielli Araújo Lima"/>
+		</entity>
+		<entity ref="OrgUnit5788" type="OrgUnit">
+			<semanticIdentifier>brcris::b0059232112c7b9bc9c584e1279ec385</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE UBERLANDIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10495" toEntityRef="Person7257" type="Inventor"/>
+		<relation fromEntityRef="Patent10495" toEntityRef="OrgUnit5788" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:37" record="38500" source="Espacenet">
+	<entities>
+		<entity ref="Patent38500" type="Patent">
+			<semanticIdentifier>brcris::2c2e73bdc217299cd0f88039eda0c4d8</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705874A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0705874</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0705874A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI05874</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0705874-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0705874"/>
+			<field name="identifier.lattes" value="9148354106985023"/>
+			<field name="identifier.espacenet" value="PI0705874"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="seqüência geneticamente modificada do antìgeno cs de plasmodium vivax, proteìna recombinante cs e vìrus geneticamente modificados que expressam o antìgeno cs recombinante"/>
+			<field name="title.lattes" value="SEQUENCIA GENETICAMENTE MODIFICADA DO ANTÍGENO CS DE PLASMODIUM VIVAX, PROTEINA RECOMBINANTE CS E VÍRUS GENETICAMENTE MODIFICADOS QUE EXPRESSAM O ANTÍGENO CS RECOMBINANTE."/>
+			<field name="depositDate" value="2007-10-26"/>
+			<field name="publicationDate" value="2009-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTINA LIMA CARRARA"/>
+			<field name="inventor" value="FLAVIO DA FONSECA GUIMARAES"/>
+			<field name="inventor" value="OSCAR BRUNA ROMERO"/>
+			<field name="inventor" value="RICARDO TOSTES GAZZINELLI"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS - UFMG"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/30AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="30AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K39/015AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="015AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61P33/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="C12N7/01AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="01AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SEQüêNCIA GENETICAMENTE MODIFICADA DO ANTìGENO CS DE PLASMODIUM VIVAX, PROTEìNA RECOMBINANTE CS E VìRUS GENETICAMENTE MODIFICADOS QUE EXPRESSAM O ANTìGENO CS RECOMBINANTE. A presente invenção diz respeito à construção de uma seqúência genética modificada do antígeno es de Plasmodium vivax, uma proteína recombinante codificada pela referida seqúência e vírus geneticamente modificados que expressa o antígeno CS recombinante. A invenção é útil para a imunização de mamíferos contra malária."/>
+			<field name="originatesFrom" value="40775287"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705874"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0705874"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0705874"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI05874"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0705874-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26494" type="Person">
+			<semanticIdentifier>lattes::9148354106985023</semanticIdentifier>
+			<field name="identifier.lattes" value="9148354106985023"/>
+			<field name="name" value="Ricardo Tostes Gazzinelli"/>
+		</entity>
+		<entity ref="OrgUnit20777" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38500" toEntityRef="Person26494" type="Inventor"/>
+		<relation fromEntityRef="Patent38500" toEntityRef="OrgUnit20777" type="Applicant"/>
+	</relations>
+</entity-relation-data>

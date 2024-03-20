@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:30:49" record="15457" source="Espacenet">
+	<entities>
+		<entity ref="Patent15457" type="Patent">
+			<semanticIdentifier>brcris::81c2388d8d6f93516900f894198168f0</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703826A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0703826</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0703826A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI03826</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0703826-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0703826"/>
+			<field name="identifier.lattes" value="6252016619613244"/>
+			<field name="identifier.espacenet" value="PI0703826"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="bateria alcalina"/>
+			<field name="title.lattes" value="Alkaline battery comprising a cathode, an anode, a separator and an alkaline electrolyte"/>
+			<field name="depositDate" value="2007-08-28"/>
+			<field name="publicationDate" value="2009-04-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE MACIEL MIRANDA"/>
+			<field name="inventor" value="FERNANDA VIEIRA"/>
+			<field name="inventor" value="UEVERSON BARROS LIMA"/>
+			<field name="applicant" value="NACIONAL DE GRAFITE LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M4/50AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01M4/58AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="58AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="H01M4/583AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="583AI"/>
+			</field>
+			<field name="abstract.espacenet" value="BATERIA ALCALINA. Contemplando catodo, anodo, separador e eletrólito alcalino, citado catodo comportando partículas de carbono compreendendo entre, aproximadamente, 1% e 24%, em peso, de partículas de grafite expandida e entre, aproximadamente, 76% e 99%, em peso, de partículas de grafite natural cristalina. A presente invenção reporta-se, ainda, a CATODO para BATERIA compreendendo citadas partículas de grafite expandida, citadas partículas de grafite natural expandida e dióxido de manganês."/>
+			<field name="originatesFrom" value="40428211"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703826"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0703826"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0703826"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI03826"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0703826-7"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2009061320"/>
+		</entity>
+		<entity ref="Person10738" type="Person">
+			<semanticIdentifier>lattes::6252016619613244</semanticIdentifier>
+			<field name="identifier.lattes" value="6252016619613244"/>
+			<field name="name" value="Fernanda Vieira"/>
+		</entity>
+		<entity ref="OrgUnit8400" type="OrgUnit">
+			<semanticIdentifier>brcris::f3f9ade8a72c00b15fa867e148daddea</semanticIdentifier>
+			<field name="name" value="NACIONAL DE GRAFITE LTDA"/>
+		</entity>
+		<entity ref="Patent15458" type="Patent">
+			<semanticIdentifier>epodoc::US2009061320</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="40428211"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2009061320"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15457" toEntityRef="Person10738" type="Inventor"/>
+		<relation fromEntityRef="Patent15457" toEntityRef="OrgUnit8400" type="Applicant"/>
+	</relations>
+</entity-relation-data>

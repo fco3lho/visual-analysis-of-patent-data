@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:26" record="30012" source="Espacenet">
+	<entities>
+		<entity ref="Patent30012" type="Patent">
+			<semanticIdentifier>brcris::c3ba4edd5802cdf42c3ff1fedaa5afb9</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105807A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1105807</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1105807A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI05807</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1105807</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1105807"/>
+			<field name="identifier.lattes" value="6457412713967642"/>
+			<field name="identifier.espacenet" value="PI1105807"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de síntese regiosseletiva de 3-trifluormetil-1-fenilpirazóis"/>
+			<field name="title.lattes" value="Processo de Síntese Regiosseletiva de 3-Trifluormetil-1-fenilpirazóis"/>
+			<field name="depositDate" value="2011-11-04"/>
+			<field name="publicationDate" value="2015-12-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="HELIO GAUZE BONACORSO"/>
+			<field name="inventor" value="LILIANE MEDIANEIRA FAVERO PORTE"/>
+			<field name="inventor" value="MARCOS ANTONIO PINTO MARTINS"/>
+			<field name="inventor" value="MICHELE STACH CORREA"/>
+			<field name="inventor" value="NILO ZANATTA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D231/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="231"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de síntese reciosseletiva de 3-trifluormetil-1 - fenilpirazóis. a presente invenção descreve um processo de síntese regiosseletiva de 5-alquil(aril/heteroaril)-3-trifluormotil-1 h- 1 -fenilpirazóis, em passo reacional único, utilizando como bloco nucleofílico a 1 -fenilsemicarbazida, que é uma hidrazida pouco estudada, e como bloco eletrotílico as 4-alquil(aril/heteroaril)-4-alcóxi-1 ,1 ,1-triflúor-3-alquen-2-onas, na presença de um ácido como catalisador e um álcool como solvente."/>
+			<field name="originatesFrom" value="55082904"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105807"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1105807"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1105807"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI05807"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1105807"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20617" type="Person">
+			<semanticIdentifier>lattes::6457412713967642</semanticIdentifier>
+			<field name="identifier.lattes" value="6457412713967642"/>
+			<field name="name" value="Marcos Antonio Pinto Martins"/>
+		</entity>
+		<entity ref="OrgUnit16131" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30012" toEntityRef="Person20617" type="Inventor"/>
+		<relation fromEntityRef="Patent30012" toEntityRef="OrgUnit16131" type="Applicant"/>
+	</relations>
+</entity-relation-data>

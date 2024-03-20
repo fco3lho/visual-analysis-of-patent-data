@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:33:53" record="44900" source="Espacenet">
+	<entities>
+		<entity ref="Patent44900" type="Patent">
+			<semanticIdentifier>brcris::3f4f5670f212413df80224f0b32c1f7b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032128A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013032128</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013032128A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131032128</semanticIdentifier>
+			<semanticIdentifier>original::102013032128</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013032128"/>
+			<field name="identifier.lattes" value="6393860470761462"/>
+			<field name="identifier.espacenet" value="102013032128"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="cobertura rígida fotoluminescente e/ou fosforescente para linha viva"/>
+			<field name="title.lattes" value="'Cobertura Rígida Fotoluminescente e/ouFosforescente para Linha Viva'"/>
+			<field name="depositDate" value="2013-12-13"/>
+			<field name="publicationDate" value="2015-10-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO LEAO DOS SANTOS"/>
+			<field name="inventor" value="DAILTON PEDREIRA CERQUEIRA"/>
+			<field name="inventor" value="EDEMIR LUIZ KOWALSKI"/>
+			<field name="inventor" value="GUILHERME RACHELLE HERNASKI"/>
+			<field name="inventor" value="ISAU DE OLIVEIRA DO NASCIMENTO"/>
+			<field name="inventor" value="JOSE ARINOS TEIXEIRA JUNIOR"/>
+			<field name="inventor" value="KATIA CILENE FALCAO XAVIER"/>
+			<field name="inventor" value="MARCELO ANTONIO RAVAGLIO"/>
+			<field name="inventor" value="MARILDA MUNARO"/>
+			<field name="inventor" value="MARIO JOSE COSTA PINHEIRO"/>
+			<field name="inventor" value="RAFAEL PIRES MACHADO"/>
+			<field name="inventor" value="VICTOR SALVINO BORGES"/>
+			<field name="applicant" value="COELBA - COMPANHIA DE ELETRECIDADE DO ESTADO DA BAHIA"/>
+			<field name="applicant" value="INSTITUTO DE TECNOLOGIA PARA O DESENVOLVIMENTO - LACTEC"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01B3/42AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="42AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H01B17/12AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="abstract.espacenet" value="cobertura rígida fotoluminescente e/ou fosforescente para linha viva, descreve-se a presente patente de invenção corno urna cobertura rígida fotolurninescente e/ou fosforescente para linha viva que, de acordo com as suas características, propicia a formação de uma cobertura rígida (1) em estrutura própria e específica do tipo mecânica na forrna de um composto com formulação a base de polietileno de alta densidade - pead, material fotoluminescente fosforescente ou fluorescente e composto antioxidante e obtido por um processo de homogeneização e injeção, com vistas a possibilitar de forma extremamente prática, segura e precisa uma completa otimização nos procedimentos de aplicação de equipamentos de proteção coletiva - epc, primordialmente coberturas rígidas (1) isolantes para condutores, cruzetas, postes e isoladores nos serviços em linha viva tanto diurnos corno noturnos, aliado a excelente visualização das coberturas rígidas (1) e proteção dos técnicos das concessionarias de distribuição de energia elétrica."/>
+			<field name="originatesFrom" value="54540566"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032128"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013032128"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013032128"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131032128"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013032128"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person30698" type="Person">
+			<semanticIdentifier>lattes::6393860470761462</semanticIdentifier>
+			<field name="identifier.lattes" value="6393860470761462"/>
+			<field name="name" value="Victor Salvino Borges"/>
+		</entity>
+		<entity ref="OrgUnit24088" type="OrgUnit">
+			<semanticIdentifier>brcris::3e5edf08296d2d87aabd96d42ccac2e0</semanticIdentifier>
+			<field name="name" value="INSTITUTO DE TECNOLOGIA PARA O DESENVOLVIMENTO - LACTEC"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent44900" toEntityRef="Person30698" type="Inventor"/>
+		<relation fromEntityRef="Patent44900" toEntityRef="OrgUnit24088" type="Applicant"/>
+	</relations>
+</entity-relation-data>

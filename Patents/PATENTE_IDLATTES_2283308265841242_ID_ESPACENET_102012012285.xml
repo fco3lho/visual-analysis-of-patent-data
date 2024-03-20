@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:30" record="30577" source="Espacenet">
+	<entities>
+		<entity ref="Patent30577" type="Patent">
+			<semanticIdentifier>brcris::1caf46bba7197ec04ddbd73227544074</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012285A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012012285</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012012285A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121012285</semanticIdentifier>
+			<semanticIdentifier>original::102012012285</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012012285"/>
+			<field name="identifier.lattes" value="2283308265841242"/>
+			<field name="identifier.espacenet" value="102012012285"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para modificar a biomassa de segunda geração e bio-oleo pelo referido processo"/>
+			<field name="title.lattes" value="PROCESSO PARA MODIFICAR A BIOMASSA DE SEGUNDA GERAÇÃO E BIO-ÓLEO OBTIDO PELO REFERIDO PROCESSO"/>
+			<field name="depositDate" value="2012-05-23"/>
+			<field name="publicationDate" value="2016-02-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRA VIEIRA DA SILVA"/>
+			<field name="inventor" value="MARCELO HAWRYLAK HERBST"/>
+			<field name="inventor" value="MARCELO MACIEL PEREIRA"/>
+			<field name="inventor" value="MARGARETH ROSE DE LIMA SANTOS"/>
+			<field name="inventor" value="MARLON BRANDO BEZERRA DA ALMEIDA"/>
+			<field name="inventor" value="MATHEUS OLIVEIRA DE SOUZA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J19/12AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07B41/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="41"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07C51/573AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="51"/>
+				<field name="subgroup" value="573AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo para modificar a biomassa de segunda geração e bio-óleo obtido pelo referido processo. a presente inveção refere-se a um processo para modificar a biomassa de segunda geração utilizando tratamentos de hidrólise e acilação combinados à irradiação de micro-ondas, provendo produtos liquidos denominados bio-óleos de acilação (bioac) que são mais estáveis e menos polares do que os líquidos designados como biol-óleos obtidos de processos térmicos da biomassa. portanto, os líquidos produzidos pela presente invenção são parcialmente solúveis em derivados de petróleo e produzem sistemas mais estáveis com este. logo, são transportados mais facilmente e co-processados junto com cargas de petróleo em diversos processo de refino. a presente invenção se refere ainda ao bio-óleo de acilação (bioac) obtido pelo referido processo."/>
+			<field name="originatesFrom" value="55303277"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012285"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012012285"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012012285"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121012285"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012012285"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20969" type="Person">
+			<semanticIdentifier>lattes::2283308265841242</semanticIdentifier>
+			<field name="identifier.lattes" value="2283308265841242"/>
+			<field name="name" value="Margareth Rôse de Lima Santos"/>
+		</entity>
+		<entity ref="OrgUnit16370" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit16371" type="OrgUnit">
+			<semanticIdentifier>brcris::4223886db4c1325d7467460341463f34</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30577" toEntityRef="Person20969" type="Inventor"/>
+		<relation fromEntityRef="Patent30577" toEntityRef="OrgUnit16370" type="Applicant"/>
+		<relation fromEntityRef="Patent30577" toEntityRef="OrgUnit16371" type="Applicant"/>
+	</relations>
+</entity-relation-data>

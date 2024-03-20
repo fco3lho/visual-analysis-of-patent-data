@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:17:23" record="7576" source="Espacenet">
+	<entities>
+		<entity ref="Patent7576" type="Patent">
+			<semanticIdentifier>brcris::082cac11b7c986de0a9e4791f41ca6b8</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501260A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501260</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501260A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01260</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501260-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501260"/>
+			<field name="identifier.lattes" value="4628735591561897"/>
+			<field name="identifier.espacenet" value="PI0501260"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="potência rápida de abrasão"/>
+			<field name="title.lattes" value="POTÊNCIA RÁPIDA DE ABRASÃO"/>
+			<field name="depositDate" value="2005-04-08"/>
+			<field name="publicationDate" value="2006-11-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS MAGNO DE OLIVEIRA VALENTE"/>
+			<field name="inventor" value="JOAO FERNANDO GOMES DE OLIVEIRA"/>
+			<field name="inventor" value="JOAO FERNANDO GOMES DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B24C7/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;POTêNCIA RáPIDA DE ABRASãO&quot;. Refere-se o presente invento ao parâmetro 'Potência Rápida de Abrasão' (FAP - Fast Abrasive Power), caracterizado pela fusão dos sinais de emissão acústica (AE) e potência através de uma equação matemática baseada na multiplicação da potência instantânea P~ i~ pelo nível dinâmico normalizado da EA (EA~ ni~), que por sua vez é definido pela razão entre o valor RMS instantâneo da EA (EA~ RMSi~) e o valor médio de EA calculado no último intervalo de t~ w~ segundos, considerando ainda a introdução da constante k em ambos os termos da divisão a fim de ajustar o grau de influência da dinâmica da EA no nível final do parâmetro FAP, o que resulta na modulação do sinal original de potência pela dinâmica da emissão acústica, e cujo resultado final indica um parâmetro com características totalmente inovadoras à área de automação de processo, tais como bom desempenho dinâmico, simplicidade de cálculo, baixo custo de implementação e baixa intrusividade ao processo, diferenciando-o dos demais sinais de monitoramento e controle."/>
+			<field name="originatesFrom" value="37459858"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501260"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501260"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501260"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01260"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501260-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5107" type="Person">
+			<semanticIdentifier>lattes::4628735591561897</semanticIdentifier>
+			<field name="identifier.lattes" value="4628735591561897"/>
+			<field name="name" value="Carlos Magno de Oliveira Valente"/>
+		</entity>
+		<entity ref="OrgUnit4025" type="OrgUnit">
+			<semanticIdentifier>brcris::6dc7b4a4ee39579f4f1a7b44c7399c09</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit4026" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent7576" toEntityRef="Person5107" type="Inventor"/>
+		<relation fromEntityRef="Patent7576" toEntityRef="OrgUnit4025" type="Applicant"/>
+		<relation fromEntityRef="Patent7576" toEntityRef="OrgUnit4026" type="Applicant"/>
+	</relations>
+</entity-relation-data>

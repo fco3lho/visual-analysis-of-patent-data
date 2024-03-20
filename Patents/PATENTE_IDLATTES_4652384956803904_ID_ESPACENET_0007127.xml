@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:18:18" record="8040" source="Espacenet">
+	<entities>
+		<entity ref="Patent8040" type="Patent">
+			<semanticIdentifier>brcris::d24b8a25063e5c060f4981f09647b114</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0007127A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0007127</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0007127A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000007127</semanticIdentifier>
+			<semanticIdentifier>original::0007127-7</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0007127"/>
+			<field name="identifier.lattes" value="4652384956803904"/>
+			<field name="identifier.espacenet" value="0007127"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de sìntese do [1ar(1(alfa)b, 2a(alfa), 3, 6a(beta), 7,(alfa),7a(beta))]-decaidro-7a-peroxifor-milacetal-7-[ 4-metil- 3-oxocetal)-pentil]-3,6a-dime-til-naft-[2,3-b]-oxiran-3-c arboxila-to de metila e seus derivados"/>
+			<field name="title.lattes" value="Processo de síntese do decaidro-7a-peroxiformilacetil-7- [(4-metil-3-oxocetal)-pentil]-3,6a-dimetil-naft-[2,3-b]-oxiran-3-carboxila to de metila e seus derivados"/>
+			<field name="depositDate" value="2000-10-10"/>
+			<field name="publicationDate" value="2002-06-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CATARINA DOS SANTOS"/>
+			<field name="inventor" value="CESAR ROBERTO SILVA DE ROSSO"/>
+			<field name="inventor" value="PAULO MITSUO IMAMURA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D493/18AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="493"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE SìNTESE DO [1aR(1a&lt;225&gt;,2a&lt;244&gt;,3&lt;244&gt;,6a&lt;225&gt;,7&lt;244&gt;,7a&lt;225&gt;)]-DEC AIDRO-7aPEROXIFOR-MILACETAL-7-[(4-METIL-3-OXOCETAL)-P ENTIL]-3,6a-DIMETIL-NAFT-[2,3-b]-OXIRAN-3-CARBOXILA-TO DE METILA E SEUS DERIVADOS&quot;. é um composto inédito na literatura e apresenta na sua estrutura química, grupos funcionais orgânicos como oxirano e ozonídeo. Este composto foi obtido em 78% de rendimento total, a partir do ácido [1R-(1&lt;244&gt;,4a&lt;225&gt;,4b&lt;244&gt;,10a&lt;244&gt;)]1,2,3,4,4a,4b,5,6,10,10 a-decaidro-1,4a-dimetil-7-(1-metiletil)-1-fenantrenocarboxilico. Apresentou atividade citotóxica contra Artemia salina cujo valor de ED~50 ~ foi de 21,4 ppm, após 24 horas e também atividade antifúngica contra Aspergillus fumigates CCT 1277."/>
+			<field name="originatesFrom" value="3946319"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0007127"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0007127"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0007127"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000007127"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0007127-7"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5464" type="Person">
+			<semanticIdentifier>lattes::4652384956803904</semanticIdentifier>
+			<field name="identifier.lattes" value="4652384956803904"/>
+			<field name="name" value="Catarina dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit4319" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8040" toEntityRef="Person5464" type="Inventor"/>
+		<relation fromEntityRef="Patent8040" toEntityRef="OrgUnit4319" type="Applicant"/>
+	</relations>
+</entity-relation-data>

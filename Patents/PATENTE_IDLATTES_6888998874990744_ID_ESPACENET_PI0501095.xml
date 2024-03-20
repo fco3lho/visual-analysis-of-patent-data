@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:19" record="40047" source="Espacenet">
+	<entities>
+		<entity ref="Patent40047" type="Patent">
+			<semanticIdentifier>brcris::1d178cb6bb13f453f0b68e5b7fdfc4bc</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501095A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501095</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501095A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01095</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0501095-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501095"/>
+			<field name="identifier.lattes" value="6888998874990744"/>
+			<field name="identifier.espacenet" value="PI0501095"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="molécula hìbrida para diagnóstico e /ou prognóstico de doenças crÈnico-degenerativas, infecciosas e do desenvolvimento"/>
+			<field name="title.lattes" value="Molécula híbrida para diagnóstico e/ou prognóstico de doenças crônico-degenerativas, infecciosas e do desenvolvimento."/>
+			<field name="depositDate" value="2005-02-24"/>
+			<field name="publicationDate" value="2006-10-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA MARIA MOURA DA SILVA"/>
+			<field name="inventor" value="DIEGO ALBERTO BUTERA WADSWORTH"/>
+			<field name="inventor" value="FABIANA HENRIQUE MACHADO DE MELO"/>
+			<field name="inventor" value="ROGER CHAMMAS"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12N15/62AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12N15/09AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="09AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/53AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MOLéCULA HìBRIDA PARA DIAGNóSTICO E/OU PROGNóSTICO DE DOENçAS CRÈNICO-DEGENERATIVAS, INFECCIOSAS E DO DESENVOLVIMENTO&quot;. Construída a partir da conjugação galectina-3/fosfatase alcalina, destinada a ser utilizada diretamente como marcador molecular, constituindo ferramenta útil no diagnóstico e/ou prognóstico de doenças crónico-degenerativas, como por exemplo, tumores, bem como doenças infecciosas e do desenvolvimento, onde haja a necessidade do reconhecimento da presença dos ligantes de galectina-3."/>
+			<field name="originatesFrom" value="37081469"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501095"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501095"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501095"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01095"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0501095-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27269" type="Person">
+			<semanticIdentifier>lattes::6888998874990744</semanticIdentifier>
+			<field name="identifier.lattes" value="6888998874990744"/>
+			<field name="name" value="Roger Chammas"/>
+		</entity>
+		<entity ref="OrgUnit21334" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit21335" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40047" toEntityRef="Person27269" type="Inventor"/>
+		<relation fromEntityRef="Patent40047" toEntityRef="OrgUnit21334" type="Applicant"/>
+		<relation fromEntityRef="Patent40047" toEntityRef="OrgUnit21335" type="Applicant"/>
+	</relations>
+</entity-relation-data>

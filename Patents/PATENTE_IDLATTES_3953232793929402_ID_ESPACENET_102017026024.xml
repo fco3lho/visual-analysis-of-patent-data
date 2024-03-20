@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:12" record="31765" source="Espacenet">
+	<entities>
+		<entity ref="Patent31765" type="Patent">
+			<semanticIdentifier>brcris::468eede877d225367e277df2bb5be3a2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026024A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017026024</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017026024A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171026024</semanticIdentifier>
+			<semanticIdentifier>original::102017026024</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017026024"/>
+			<field name="identifier.lattes" value="3953232793929402"/>
+			<field name="identifier.espacenet" value="102017026024"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema visualizador de veias para dispositivos móveis"/>
+			<field name="title.lattes" value="Peptídeos inibidores de Anexina A1 como estratégia terapêutica para câncer de mama"/>
+			<field name="depositDate" value="2017-12-03"/>
+			<field name="publicationDate" value="2019-06-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUGUSTO LUENGO PEREIRA NUNES"/>
+			<field name="inventor" value="GABRIELLE JACKLIN ELER"/>
+			<field name="inventor" value="KAO YU CHUN"/>
+			<field name="inventor" value="ROSANA CLAUDIA DE ASSUNCAO"/>
+			<field name="inventor" value="VINICIUS GAMBI SALES"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO CIENCIA E TECNOLOGIA DO PARANA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B5/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema visualizador de veias para dispositivos móveis. a prática da punção venosa periférica requer habilidades específicas relacionadas a limitações características das estruturas que formam a pele humana, como o calibre de veias, camadas de gordura e condições clínicas do paciente. embora o mercado de dispositivos de imagens médicas forneça visualizadores de veias baseados em fotografia do espectro de luz infravermelho, caracterizado por uma penetração maior em estruturas orgânicas, o custo elevado de tal aparelho é um impeditivo para a disseminação desta tecnologia. o invento apresentado neste documento é um sistema visualizador de veias definido por um dispositivo de amostragem especificamente desenvolvido para obter imagens de veias a partir de sua interação com comprimentos de onda infravermelhos curtos. tal dispositivo caracteriza-se por ser integrável a dispositivos móveis convencionais, através de conexão via cabo e um aplicativo auxiliar que processa e apresenta imagens de veias subcutâneas na tela do smartphone ou tablet, em tempo real. o sistema de iluminação do dispositivo de amostragem provê dois comprimentos de onda, 760nm e 850nm, ativados alternadamente por chave seletora e atenuados por um potenciômetro. a fixação do dispositivo de amostragem ao corpo do dispositivo móvel convencional é realizada através de uma base regulável, que pode ser inclinada para prover amostragem perpendicular à tela do dispositivo móvel, além de conectada a uma haste flexível para suporte do sistema completo, liberando as mãos do usuário."/>
+			<field name="originatesFrom" value="67294616"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026024"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017026024"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017026024"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171026024"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017026024"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21783" type="Person">
+			<semanticIdentifier>lattes::3953232793929402</semanticIdentifier>
+			<field name="identifier.lattes" value="3953232793929402"/>
+			<field name="name" value="Mariana Alves Pereira Zóia"/>
+		</entity>
+		<entity ref="OrgUnit17020" type="OrgUnit">
+			<semanticIdentifier>brcris::6fde90da7c27282c3f1f2e8b4d2b2ec1</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31765" toEntityRef="Person21783" type="Inventor"/>
+		<relation fromEntityRef="Patent31765" toEntityRef="OrgUnit17020" type="Applicant"/>
+	</relations>
+</entity-relation-data>

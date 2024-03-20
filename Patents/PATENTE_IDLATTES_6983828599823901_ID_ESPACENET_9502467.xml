@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:01:28" record="31457" source="Espacenet">
+	<entities>
+		<entity ref="Patent31457" type="Patent">
+			<semanticIdentifier>brcris::69020fb50510141077b99d504dd87830</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9502467A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9502467</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9502467A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19959502467</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9502467"/>
+			<field name="identifier.lattes" value="6983828599823901"/>
+			<field name="identifier.espacenet" value="9502467"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de obtenção de - aminoálcoois"/>
+			<field name="title.lattes" value="Processo de obtenção de gama-aminoálcoois"/>
+			<field name="depositDate" value="1995-08-04"/>
+			<field name="publicationDate" value="1997-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CLAUDIO HERRERA BRAGA"/>
+			<field name="inventor" value="MATIA INES NAGUERIA DE CAMARGO HARRIS"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07C213/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="213"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07C215/08AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="215"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C07C215/16AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="215"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="originatesFrom" value="4061658"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9502467"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9502467"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9502467"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19959502467"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21539" type="Person">
+			<semanticIdentifier>lattes::6983828599823901</semanticIdentifier>
+			<field name="identifier.lattes" value="6983828599823901"/>
+			<field name="name" value="Maria Inês Nogueira de Camargo Harris"/>
+		</entity>
+		<entity ref="OrgUnit16813" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31457" toEntityRef="Person21539" type="Inventor"/>
+		<relation fromEntityRef="Patent31457" toEntityRef="OrgUnit16813" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:40:13" record="20914" source="Espacenet">
+	<entities>
+		<entity ref="Patent20914" type="Patent">
+			<semanticIdentifier>brcris::1656993101af57cd3d097b9d203a24b7</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0702316A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0702316</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0702316A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI02316</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0702316-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0702316"/>
+			<field name="identifier.lattes" value="2192738260572343"/>
+			<field name="identifier.espacenet" value="PI0702316"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="pig detector de vazamentos por infravermelho"/>
+			<field name="title.lattes" value="PIG detector de vazamentos por infravermelho"/>
+			<field name="depositDate" value="2007-05-30"/>
+			<field name="publicationDate" value="2009-01-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDIO SOLIGO CAMERINI"/>
+			<field name="inventor" value="DANIEL ALMEIDA CAMERINI"/>
+			<field name="inventor" value="JEAN PIERRE VON DER WEILD"/>
+			<field name="inventor" value="JOSE AUGUSTO PEREIRA DA SILVA"/>
+			<field name="inventor" value="MIGUEL DE ANDRADE FREITAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01M3/38AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="38AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PIG DETECTOR DE VAZAMENTOS POR INFRAVERMELHO. A presente invenção refere-se a um pig detector de vazamentos por infravermelho (1) utilizado para detectar pequenos vazamentos em gasodutos. Tal dispositivo monitora e armazena os registros das variações de intensidade de ondas infravermelhas emitidas pela parede interna da tubulação, em toda sua extensão. O pig detector de vazamentos por infravermelho (1) compreende um dispositivo de propulsão (2), um vaso de pressão (3), um hodômetro (5), uma pluralidade de rodas de sustentação (4), uma coroa (6), uma pluralidade de sensores infravermelhos (7), um dispositivo de fixação da coroa (8), um módulo eletrônico (9), um módulo de armazenamento de energia (10), uma pluralidade de condutores elétricos (11) e um conector elétrico (12). O pig detector de vazamentos por infravermelho (1) é deslocado pela força que a pressão de bombeamento do fluido exerce sobre o dispositivo de propulsão (2). As informações coletadas pelo pig detector de vazamentos por infravermelho (1) são armazenados para posterior análise em laboratório, onde o perfil térmico completo do gasoduto pode ser visualizado e analisado, o que permite a localização dos pontos de vazamentos."/>
+			<field name="originatesFrom" value="40566813"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0702316"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0702316"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0702316"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI02316"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0702316-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person14487" type="Person">
+			<semanticIdentifier>lattes::2192738260572343</semanticIdentifier>
+			<field name="identifier.lattes" value="2192738260572343"/>
+			<field name="name" value="Jean Pierre von der Weid"/>
+		</entity>
+		<entity ref="OrgUnit11350" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit11351" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent20914" toEntityRef="Person14487" type="Inventor"/>
+		<relation fromEntityRef="Patent20914" toEntityRef="OrgUnit11350" type="Applicant"/>
+		<relation fromEntityRef="Patent20914" toEntityRef="OrgUnit11351" type="Applicant"/>
+	</relations>
+</entity-relation-data>

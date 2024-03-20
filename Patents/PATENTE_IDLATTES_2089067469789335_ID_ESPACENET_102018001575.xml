@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:20:18" record="9222" source="Espacenet">
+	<entities>
+		<entity ref="Patent9222" type="Patent">
+			<semanticIdentifier>brcris::98f6942bb3b5901da395d73cbc48ac07</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018001575A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018001575</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018001575A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181001575</semanticIdentifier>
+			<semanticIdentifier>original::102018001575</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018001575"/>
+			<field name="identifier.lattes" value="2089067469789335"/>
+			<field name="identifier.espacenet" value="102018001575"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema automatizado de monitoramento de temperatura e acionamento de ventiladores de modo sequencial"/>
+			<field name="title.lattes" value="SMART INVENT - VENTILAÇÃO INTELIGENTE"/>
+			<field name="depositDate" value="2018-01-25"/>
+			<field name="publicationDate" value="2019-08-13"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIS DENGO"/>
+			<field name="inventor" value="CLEBER FERNANDO SERAFIN"/>
+			<field name="inventor" value="EDIMALDO FIALHO NUNES DE OLIVEIRA"/>
+			<field name="inventor" value="EDUARDO LIQUIO TAKAO"/>
+			<field name="inventor" value="GABRIELA ROGGIA NUNES"/>
+			<field name="inventor" value="GUILHERME EUGENIO GARCIA BRESSAN"/>
+			<field name="inventor" value="MARCOS FERNANDO SCHMITT"/>
+			<field name="inventor" value="MURILO HENRIQUE HENTZ"/>
+			<field name="inventor" value="SAMUEL NEITZKE PONTES"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F24F11/76AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="76AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema automatizado de monitoramento de temperatura e acionamento de ventiladores de modo sequencial. a presente invenção refere-se a um sistema automatizado de monitoramento de temperatura e acionamento de ventiladores de modo sequencial para otimizar o consumo de energia. o dispositivo tem utilização de tecnologia arduino por meio de micro controlador placa arduino mega 2560 r3 (1). para facilitar a troca de informações e distribuição de energia pelas shields que se localizam numa protoboard com 830 furos (4), onde estão conectados o potenciômetro linear 100k (2), o display lcd 16×2 12c com backlight azul (3), o sensor de temperatura ds18b20 (5), as 02 chave táctil push-button (7) (8) e módulo buzzer 5v passivo (9). a verificação da temperatura ambiente é realizada a cada 30 segundos por meio de um sensor (5), sendo visualizada num display lcd (3), o qual utiliza um potenciômetro (2) para controle da luminosidade; caso ocorra alguma falha nessa leitura um sinal sonoro será disparado. a temperatura padrão é definida pelo usuário apertando as 02 chave push-button (7) (8). essas informações são enviadas à placa arduino (1), que utilizando programação em linguagem c, avalia a necessidade de acionar sequencialmente os blocos de ventiladores (10 a 13). poderão ocorrer momentos em que somente alguns blocos de ventiladores serão acionados e ao atingir a temperatura considerada ideal, esses blocos serão desligados em ordem inversa, caracterizando a automação do sistema de ventilação. dessa forma, evidencia-se a otimização do consumo de energia, podendo ser adequado à realidade do espaço físico, não exclusivamente, a estabelecimentos ou residências ou indústrias."/>
+			<field name="originatesFrom" value="67612964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018001575"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018001575"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018001575"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181001575"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018001575"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6303" type="Person">
+			<semanticIdentifier>lattes::2089067469789335</semanticIdentifier>
+			<field name="identifier.lattes" value="2089067469789335"/>
+			<field name="name" value="Cleber Fernando Serafin"/>
+		</entity>
+		<entity ref="OrgUnit4981" type="OrgUnit">
+			<semanticIdentifier>brcris::6fde90da7c27282c3f1f2e8b4d2b2ec1</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9222" toEntityRef="Person6303" type="Inventor"/>
+		<relation fromEntityRef="Patent9222" toEntityRef="OrgUnit4981" type="Applicant"/>
+	</relations>
+</entity-relation-data>

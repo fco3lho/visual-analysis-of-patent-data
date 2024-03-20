@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:10:46" record="3314" source="Espacenet">
+	<entities>
+		<entity ref="Patent3314" type="Patent">
+			<semanticIdentifier>brcris::9a0074ba311209fae86d4bd46f81f86c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014017842A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014017842</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014017842A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141017842</semanticIdentifier>
+			<semanticIdentifier>original::102014017842</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014017842"/>
+			<field name="identifier.lattes" value="3831721895040355"/>
+			<field name="identifier.espacenet" value="102014017842"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de epoxidação verde de composto insaturados"/>
+			<field name="title.lattes" value="Processo de Epoxidação Verde de Composto Insaturado"/>
+			<field name="depositDate" value="2014-07-21"/>
+			<field name="publicationDate" value="2016-05-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON DE JESUS BONON"/>
+			<field name="inventor" value="DALMO MANDELLI"/>
+			<field name="inventor" value="MARIA INGRID ROCHA BARBOSA SCHIAVON"/>
+			<field name="inventor" value="NATALIA LORENA PARADA HERNANDEZ"/>
+			<field name="inventor" value="RUBENS MACIEL FILHO"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE FEDERAL DO ABC"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C07D301/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="301"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07D303/04AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="303"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de epoxidação verde de compostos insaturados. a presente invenção refere-se a um processo de epoxidação verde de compostos insaturados utilizando alumina e peróxido de hidrogênio. a presente invenção se insere no campo de aplicação da química, farmácia, mais especificamente, na área de química de materiais e processos. o processo é promovido por um derivado sem metal de transição. o processo leva a formação de epóxidos com alto valor agregado. a reação foi promovida a temperatura moderada e a epoxidação foi obtida após algumas horas com alto rendimento."/>
+			<field name="originatesFrom" value="56008332"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014017842"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014017842"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014017842"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141017842"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014017842"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2346" type="Person">
+			<semanticIdentifier>lattes::3831721895040355</semanticIdentifier>
+			<field name="identifier.lattes" value="3831721895040355"/>
+			<field name="name" value="Anderson de Jesus Bonon"/>
+		</entity>
+		<entity ref="OrgUnit1894" type="OrgUnit">
+			<semanticIdentifier>brcris::30dfde450441733be7eebd7b0036946b</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE FEDERAL DO ABC"/>
+		</entity>
+		<entity ref="OrgUnit1895" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3314" toEntityRef="Person2346" type="Inventor"/>
+		<relation fromEntityRef="Patent3314" toEntityRef="OrgUnit1894" type="Applicant"/>
+		<relation fromEntityRef="Patent3314" toEntityRef="OrgUnit1895" type="Applicant"/>
+	</relations>
+</entity-relation-data>

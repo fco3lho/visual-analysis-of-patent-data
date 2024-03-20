@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:31" record="29205" source="Espacenet">
+	<entities>
+		<entity ref="Patent29205" type="Patent">
+			<semanticIdentifier>brcris::f8ab3f8dc9d37446dcb588ceb2ef402a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015018850A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015018850</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015018850A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151018850</semanticIdentifier>
+			<semanticIdentifier>original::102015018850</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015018850"/>
+			<field name="identifier.lattes" value="2761452083033891"/>
+			<field name="identifier.espacenet" value="102015018850"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de biomassa de fruta-pão, biomassa de fruta-pão, composição alimentícia e uso"/>
+			<field name="title.lattes" value="'PROCESSO DE OBTENÇÃO DE BIOMASSA DE FRUTA-PÃO, BIOMASSA DE FRUTA-PÃO, COMPOSIÇÃO ALIMENTÍCIA E USO'"/>
+			<field name="depositDate" value="2015-08-06"/>
+			<field name="publicationDate" value="2018-02-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="IRIS LENGRUBER GONCALVES TEIXEIRA DE ALMEIDA"/>
+			<field name="inventor" value="MARCIA BARRETO DA SILVA FEIJO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO - UNIRIO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23B7/005AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="005AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de biomassa de fruta-pão, biomassa de fruta-pão, composição alimentícia e uso a presente invenção descreve um processo de obtenção de biomassa de fruta-pão e a biomassa de fruta-pão obtida pelo processo descrito. a presente invenção também descreve uma composição alimentícia que compreende a biomassa de fruta-pão obtida pelo processo descrito e o uso de biomassa da fruta-pão. especificamente, a presente invenção descreve um processo de obtenção de biomassa de fruta-pão que compreende a etapa de cozimento dos frutos em água fervente e sob pressão, de pelo menos, 1 atm. a presente invenção situa-se nos campos da engenharia de alimentos, nutrição e da química."/>
+			<field name="originatesFrom" value="62043502"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015018850"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015018850"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015018850"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151018850"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015018850"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20105" type="Person">
+			<semanticIdentifier>lattes::2761452083033891</semanticIdentifier>
+			<field name="identifier.lattes" value="2761452083033891"/>
+			<field name="name" value="Marcia Barreto da Silva Feijó"/>
+		</entity>
+		<entity ref="OrgUnit15724" type="OrgUnit">
+			<semanticIdentifier>brcris::f669f8227d67841b8ca66eff32f4484d</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO - UNIRIO"/>
+		</entity>
+		<entity ref="OrgUnit15725" type="OrgUnit">
+			<semanticIdentifier>brcris::b4e0e2d9cdc0f26db4523380edc59922</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL FLUMINENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent29205" toEntityRef="Person20105" type="Inventor"/>
+		<relation fromEntityRef="Patent29205" toEntityRef="OrgUnit15724" type="Applicant"/>
+		<relation fromEntityRef="Patent29205" toEntityRef="OrgUnit15725" type="Applicant"/>
+	</relations>
+</entity-relation-data>

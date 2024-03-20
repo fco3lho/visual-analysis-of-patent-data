@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:50:46" record="26657" source="Espacenet">
+	<entities>
+		<entity ref="Patent26657" type="Patent">
+			<semanticIdentifier>brcris::6d481228dca2a16bb0b9ee2d211f1da8</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9606103A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9606103</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9606103A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19969606103</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9606103"/>
+			<field name="identifier.lattes" value="5384546053569872"/>
+			<field name="identifier.espacenet" value="9606103"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Usina de separação manual de lixo inorganico"/>
+			<field name="title.lattes" value="Usina de separação manual de lixo inorgânico"/>
+			<field name="depositDate" value="1996-12-11"/>
+			<field name="publicationDate" value="1998-09-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCIANO ANDREY SCHADLER"/>
+			<field name="applicant" value="SCHADLER LUCIANO ANDREY"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B03B9/06AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B65F1/14AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="65"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="originatesFrom" value="4065884"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9606103"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9606103"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9606103"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19969606103"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18454" type="Person">
+			<semanticIdentifier>lattes::5384546053569872</semanticIdentifier>
+			<field name="identifier.lattes" value="5384546053569872"/>
+			<field name="name" value="Luciano Andrey Schadler"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26657" toEntityRef="Person18454" type="Inventor"/>
+	</relations>
+</entity-relation-data>

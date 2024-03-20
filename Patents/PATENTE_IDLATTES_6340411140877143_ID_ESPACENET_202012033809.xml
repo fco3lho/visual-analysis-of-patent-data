@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:28:34" record="14131" source="Espacenet">
+	<entities>
+		<entity ref="Patent14131" type="Patent">
+			<semanticIdentifier>brcris::b9995e16abac137c3938d9a5df9d7b7d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012033809U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202012033809U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202012033809U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20122033809U</semanticIdentifier>
+			<semanticIdentifier>original::202012033809</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202012033809"/>
+			<field name="identifier.lattes" value="6340411140877143"/>
+			<field name="identifier.espacenet" value="202012033809"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="mesa modular em elemento de ligação"/>
+			<field name="title.lattes" value="Mesa modular em elemento de ligacao"/>
+			<field name="depositDate" value="2012-12-28"/>
+			<field name="publicationDate" value="2015-12-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CLAUDETE CATANHEDE DO NASCIMENTO"/>
+			<field name="inventor" value="CLAUDETE SOUSA E SILVA"/>
+			<field name="inventor" value="ESTEVAO VICENTE CAVALCANTE MONTEIRO DE PAULA"/>
+			<field name="inventor" value="MIRELLA SOUSA E SILVA"/>
+			<field name="inventor" value="NIRO HIGUCHI"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A47B3/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="47"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="abstract.espacenet" value="mesa modular em elemento de ligação. o presente modelo de utilidade fornece uma disposição construtiva em forma de mesa compreendendo um suporte na parte inferior com pelo menos dois anéis/discos e pelo menos três pés dentados de modo que se encaixam perpendicularmente ao plano dos anéis/discos através dos dentes, utilizando um tampo de vidro na parte superior."/>
+			<field name="originatesFrom" value="55082785"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012033809"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012033809U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202012033809"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20122033809U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202012033809"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202012033809Y"/>
+		</entity>
+		<entity ref="Person9732" type="Person">
+			<semanticIdentifier>lattes::6340411140877143</semanticIdentifier>
+			<field name="identifier.lattes" value="6340411140877143"/>
+			<field name="name" value="Estevão Vicente Cavalcanti Monteiro de Paula"/>
+		</entity>
+		<entity ref="OrgUnit7671" type="OrgUnit">
+			<semanticIdentifier>brcris::8216edde71d5cb54d39cca550db7679d</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="OrgUnit7672" type="OrgUnit">
+			<semanticIdentifier>brcris::8216edde71d5cb54d39cca550db7679d</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+		<entity ref="Patent14132" type="Patent">
+			<semanticIdentifier>epodoc::BR202012033809Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="55082785"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202012033809Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14131" toEntityRef="Person9732" type="Inventor"/>
+		<relation fromEntityRef="Patent14131" toEntityRef="OrgUnit7671" type="Applicant"/>
+		<relation fromEntityRef="Patent14131" toEntityRef="OrgUnit7672" type="Applicant"/>
+	</relations>
+</entity-relation-data>

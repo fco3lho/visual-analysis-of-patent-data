@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:21:00" record="9647" source="Espacenet">
+	<entities>
+		<entity ref="Patent9647" type="Patent">
+			<semanticIdentifier>brcris::a04d522dcba1e7f58ce73ffa8a763190</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0205079B1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0205079</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0205079A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2002PI05079</semanticIdentifier>
+			<semanticIdentifier>original::PIPI0205079</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0205079"/>
+			<field name="identifier.lattes" value="5567790309424113"/>
+			<field name="identifier.espacenet" value="PI0205079"/>
+			<field name="kindCode" value="B1"/>
+			<field name="title.espacenet" value="método e dispositivo de redução do tempo de chaveamento eletro-óptico de amplificadores ópticos a semicondutor"/>
+			<field name="title.lattes" value="Método de redução do tempo de chaveamento eletro-óptico em amplificadores ópticos a semicondutor e equipamentos de chaveamento eletro-óptico utilizando o referido método"/>
+			<field name="depositDate" value="2002-11-22"/>
+			<field name="publicationDate" value="2019-05-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CRISTIANO DE MELLO GALLEP"/>
+			<field name="inventor" value="EVANDRO CONFORTI"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01S3/063AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="S"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="063AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método de redução do tempo de chaveamento eletro-óptico em amplificadores ópticos a semicondutor e equipamentos de chaveamento eletro-óptico utilizando o referido método&quot;. aplicável em amplificadores ópticos a semicondutor, soa, assim como em equipamentos de chaveamento baseados em soa, utilizando uma corrente eletrônica de alta velocidade formada por degrau com pré-impulso na corrente de alimentação do dispositivo e desta forma obtendo tempos de chaveamento abaixo de nano-segundos."/>
+			<field name="originatesFrom" value="67259771"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0205079"/>
+				<field name="kind" value="B1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0205079"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0205079"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2002PI05079"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI0205079"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6593" type="Person">
+			<semanticIdentifier>lattes::5567790309424113</semanticIdentifier>
+			<field name="identifier.lattes" value="5567790309424113"/>
+			<field name="name" value="Cristiano de Mello Gallep"/>
+		</entity>
+		<entity ref="OrgUnit5198" type="OrgUnit">
+			<semanticIdentifier>brcris::9b448fbb3793236f618f3ad887c04b60</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit5199" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent9647" toEntityRef="Person6593" type="Inventor"/>
+		<relation fromEntityRef="Patent9647" toEntityRef="OrgUnit5198" type="Applicant"/>
+		<relation fromEntityRef="Patent9647" toEntityRef="OrgUnit5199" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:55" record="30270" source="Espacenet">
+	<entities>
+		<entity ref="Patent30270" type="Patent">
+			<semanticIdentifier>brcris::136208926990ef0d18b23c5ec7a3a8cc</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9902118A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9902118</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9902118A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19999902118</semanticIdentifier>
+			<semanticIdentifier>original::9902118-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9902118"/>
+			<field name="identifier.lattes" value="1221789114690533"/>
+			<field name="identifier.espacenet" value="9902118"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Válvula de descarga capacitiva para vasos sanitáios"/>
+			<field name="title.lattes" value="Válvula de Descarga Capacitiva para Vasos Sanitários"/>
+			<field name="depositDate" value="1999-05-10"/>
+			<field name="publicationDate" value="2001-09-11"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS FREDERICO VAZ DE CARVALHO"/>
+			<field name="inventor" value="MARCOS PINOTI BARBOSA"/>
+			<field name="applicant" value="CARLOS FREDERICO VAZ DE CARVALHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERALDE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E03D3/10AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="A VáLVULA DE DESCARGA CAPACITIVA PARA VASOS SANITáRIOS, caracterizada pela conjugação de um vaso de pressão (2) que fica constantemente cheio de água sob pressão direta da rede hidráulica, um purgador de ar (3) que limita o nível superior de água e uma válvula acionável pelo usuário (1) que descarrega a água no vaso sanitário e fecha-se automaticamente."/>
+			<field name="originatesFrom" value="25663398"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9902118"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9902118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9902118"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19999902118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="9902118-8"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO0238874"/>
+		</entity>
+		<entity ref="Person20759" type="Person">
+			<semanticIdentifier>lattes::1221789114690533</semanticIdentifier>
+			<field name="identifier.lattes" value="1221789114690533"/>
+			<field name="name" value="Marcos Pinotti Barbosa"/>
+		</entity>
+		<entity ref="OrgUnit16221" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent30271" type="Patent">
+			<semanticIdentifier>epodoc::WO0238874</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="25663398"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO0238874"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30270" toEntityRef="Person20759" type="Inventor"/>
+		<relation fromEntityRef="Patent30270" toEntityRef="OrgUnit16221" type="Applicant"/>
+	</relations>
+</entity-relation-data>

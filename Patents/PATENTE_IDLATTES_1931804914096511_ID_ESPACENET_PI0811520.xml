@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:02:10" record="31750" source="Espacenet">
+	<entities>
+		<entity ref="Patent31750" type="Patent">
+			<semanticIdentifier>brcris::de075d129cdb2a8971b1359a34a73ae2</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0811520A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0811520</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0811520A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI11520</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0811520-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0811520"/>
+			<field name="identifier.lattes" value="1931804914096511"/>
+			<field name="identifier.espacenet" value="PI0811520"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de determinação de hidrofobicidade em superficies e método de avaliação do envelhecimento de superfìcies e sistemas compreendendo tais métodos"/>
+			<field name="title.lattes" value="MÉTODO DE DETERMINAÇÃO DE HIDROFOBICIDADE EM SUPERFÍCIES E MÉTODO DE AVALIAÇÃO DO ENVELHECIMENTO DE SUPERFÍCIES E SISTEMAS COMPREENDENDO TAIS MÉTODOS"/>
+			<field name="depositDate" value="2008-12-11"/>
+			<field name="publicationDate" value="2010-12-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DANIEL THOMAZINI"/>
+			<field name="inventor" value="MARIA VIRGINIA GELFUSO"/>
+			<field name="inventor" value="RUY ALBERTO CORREA ALTAFIM"/>
+			<field name="inventor" value="RUY ALBERTO CORREA ALTAFIM"/>
+			<field name="applicant" value="FUNDACAO EDSON QUEIROZ - UNIVERSIDADE DE FORTALEZA - UNIFOR"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N13/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO DE DETERMINAçãO DE HIDROFOBICIDADE EM SUPERFìCIES E MéTODO DE AVALIAçãO DO ENVELHECIMENTO DE SUPERFìCIES E SISTEMAS COMPREENDENDO TAIS MéTODOS. A presente invenção descreve um método de determinação de hidrofobicidade em superfícies. Em especial, esse método pode ser implementado independentemente da superfície utilizada. A presente invenção adicionalmente descreve um método de avaliação do envelhecimento superficial. Esse método pode ser aplicado, por exemplo, ao setor de geração, distribuição e transmissão de energia elétrica, em especial a isoladores elétricos poliméricos."/>
+			<field name="originatesFrom" value="43268756"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0811520"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0811520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0811520"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI11520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0811520-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person21769" type="Person">
+			<semanticIdentifier>lattes::1931804914096511</semanticIdentifier>
+			<field name="identifier.lattes" value="1931804914096511"/>
+			<field name="name" value="Maria Virginia Gelfuso"/>
+		</entity>
+		<entity ref="OrgUnit17010" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit17011" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent31750" toEntityRef="Person21769" type="Inventor"/>
+		<relation fromEntityRef="Patent31750" toEntityRef="OrgUnit17010" type="Applicant"/>
+		<relation fromEntityRef="Patent31750" toEntityRef="OrgUnit17011" type="Applicant"/>
+	</relations>
+</entity-relation-data>

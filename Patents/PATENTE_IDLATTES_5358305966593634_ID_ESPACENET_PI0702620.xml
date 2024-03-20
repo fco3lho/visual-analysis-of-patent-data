@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:43:32" record="23008" source="Espacenet">
+	<entities>
+		<entity ref="Patent23008" type="Patent">
+			<semanticIdentifier>brcris::45d4a5c69d0fab9cb4025a6d5661f14f</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0702620A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0702620</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0702620A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2007PI02620</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0702620-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0702620"/>
+			<field name="identifier.lattes" value="5358305966593634"/>
+			<field name="identifier.espacenet" value="PI0702620"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="revestimento dinÂmico para assegurar a integridade de poÇos de petràleo e seu mÉtodo de instalaÇço"/>
+			<field name="title.lattes" value="REVESTIMENTO DINÂMICO PARA ASSEGURAR A INTEGRIDADE DE POÇOS DE PETRÓLEO E SEU MÉTODO DE INSTALAÇÃO"/>
+			<field name="depositDate" value="2007-06-13"/>
+			<field name="publicationDate" value="2009-01-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALVARO MAIA DA COSTA"/>
+			<field name="inventor" value="CLAUDIO DOS SANTOS AMARAL"/>
+			<field name="inventor" value="EDGARD POIATE JR"/>
+			<field name="inventor" value="EDGARD POIATE JUNIOR"/>
+			<field name="inventor" value="JOSE LUIZ FALCAO"/>
+			<field name="inventor" value="JOSE LUIZ FALCAO"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B17/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="REVESTIMENTO DINÂMICO PARA ASSEGURAR A INTEGRIDADE DE POÇOS DE PETRàLEO E SEU MÉTODO DE INSTALAÇçO. A presente invenção se refere a uma disposição particular de uma estrutura de revestimento de poços de petróleo envolvida por fluido amortecedor confinado, e seus acessórios, associada a equipamentos de monitoração e controle, que operados conforme método especifico possibilita a distribuição uniforme das tensões oriundas da subsidência do reservatório ou da fluência de rochas salinas, ao longo do revestimento instalado no poço."/>
+			<field name="originatesFrom" value="40576399"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0702620"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0702620"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0702620"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2007PI02620"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0702620-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15915" type="Person">
+			<semanticIdentifier>lattes::5358305966593634</semanticIdentifier>
+			<field name="identifier.lattes" value="5358305966593634"/>
+			<field name="name" value="José Luiz Falcão"/>
+		</entity>
+		<entity ref="OrgUnit12325" type="OrgUnit">
+			<semanticIdentifier>brcris::e0877943fed486dec8304ffd19c6029a</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+		<entity ref="OrgUnit12326" type="OrgUnit">
+			<semanticIdentifier>brcris::aaf7f25c6b94ff380531b84dcb8e916d</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23008" toEntityRef="Person15915" type="Inventor"/>
+		<relation fromEntityRef="Patent23008" toEntityRef="OrgUnit12325" type="Applicant"/>
+		<relation fromEntityRef="Patent23008" toEntityRef="OrgUnit12326" type="Applicant"/>
+	</relations>
+</entity-relation-data>

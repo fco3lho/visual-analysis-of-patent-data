@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:26" record="38400" source="Espacenet">
+	<entities>
+		<entity ref="Patent38400" type="Patent">
+			<semanticIdentifier>brcris::e3bcbaec2bfc170e411ad2a261115a71</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019095A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016019095</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016019095A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161019095</semanticIdentifier>
+			<semanticIdentifier>original::102016019095</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016019095"/>
+			<field name="identifier.lattes" value="5681614938815519"/>
+			<field name="identifier.espacenet" value="102016019095"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo portátil para proteção e auxílio na higienização/desinfecção de escovas dentais"/>
+			<field name="title.lattes" value="DISPOSITIVO PORTÁTIL PARA PROTEÇÃO E AUXÍLIO NA HIGIENIZAÇÃO/DESINFECÇÃO DE ESCOVA DENTAIS"/>
+			<field name="depositDate" value="2016-08-17"/>
+			<field name="publicationDate" value="2018-03-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSANY SAIBROSA DA SILVA"/>
+			<field name="inventor" value="LIVIO CESAR CUNHA NUNES"/>
+			<field name="inventor" value="RICARDO QUELMO ONOFRE LEONEL"/>
+			<field name="applicant" value="FITO FIT - SUPLEMENTOS E PRODUTOS NATURAIS LTDA-ME"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A46B17/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="46"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61C19/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61L2/18AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente patente se refere a um dispositivo para proteção e higienização/desinfecção para escovas dentais destinado a uso pela população em geral, bem como por profissionais da área da saúde para melhoria da saúde bucal. o dispositivo compreende uma capa protetora contendo duas partes, uma superior (1) e uma inferior (2) preferencialmente articuladas entre si; uma parte inferior (2) contém um recorte (3) que consiste em um encaixe no qual o cabo da escova de dentes (a) é colocado; uma parte superior (1) com um orifício (5) no qual é depositado a substância (b,c) que possui ação de higienização/desinfecção. pode apresentar ainda uma alça (7) que propicia o fechamento completo do dispositivo por um elemento de fechamento (6) e evita o extravasamento do agente desinfetante formando um sistema hermeticamente fechado devido a um encaixe perfeito ou por ação de materiais moldáveis em suas junções (4)."/>
+			<field name="originatesFrom" value="61970752"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019095"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016019095"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016019095"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161019095"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016019095"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26431" type="Person">
+			<semanticIdentifier>lattes::5681614938815519</semanticIdentifier>
+			<field name="identifier.lattes" value="5681614938815519"/>
+			<field name="name" value="Ricardo Quelmo Onofre Leonel"/>
+		</entity>
+		<entity ref="OrgUnit20716" type="OrgUnit">
+			<semanticIdentifier>brcris::4b6107aefedefcc50d6792ceb692d145</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38400" toEntityRef="Person26431" type="Inventor"/>
+		<relation fromEntityRef="Patent38400" toEntityRef="OrgUnit20716" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:11" record="39263" source="Espacenet">
+	<entities>
+		<entity ref="Patent39263" type="Patent">
+			<semanticIdentifier>brcris::747557df5c2061c3fa5ecd2f3b52cf7e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019004758A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019004758</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019004758A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191004758</semanticIdentifier>
+			<semanticIdentifier>original::102019004758</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019004758"/>
+			<field name="identifier.lattes" value="4554515788535957"/>
+			<field name="identifier.espacenet" value="102019004758"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de detecção e correção de erros na camada de enlace de sistemas de comunicação de dados, baseado em comunicação cooperativa e operação ou-exclusivo"/>
+			<field name="title.lattes" value="PROCESSO DE DETECÇÃO E CORREÇÃO DE ERROS NA CAMADA DE ENLACE DE SISTEMAS DE COMUNICAÇÃO DE DADOS, BASEADO EM COMUNICAÇÃO COOPERATIVA E OPERAÇÃO OU-EXCLUSIVO"/>
+			<field name="depositDate" value="2019-03-12"/>
+			<field name="publicationDate" value="2020-09-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEX BORGES VIEIRA"/>
+			<field name="inventor" value="MOISES VIDAL RIBEIRO"/>
+			<field name="inventor" value="ROBERTO MASSI DE OLIVEIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA - UFJF"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04L1/08AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04L1/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de detecção e correção de erros na camada de enlace de sistemas de comunicação de dados, baseado em comunicação cooperativa e operação ou-exclusivo a fim de melhorar a confiabilidade na comunicação. após uma falha na transmissão, uma retransmissão cooperativa é efetuada explorando a diversidade oferecida pelos diferentes caminhos entre os nós transmissor e receptor. após uma falha na retransmissão, os pacotes de dados provenientes da transmissão e da retransmissão, armazenados no buffer do nó receptor, são utilizados para a detecção dos bits errôneos, através de uma operação xor, que são corrigidos através de um algoritmo de força bruta."/>
+			<field name="originatesFrom" value="73014015"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019004758"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019004758"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019004758"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191004758"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019004758"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26760" type="Person">
+			<semanticIdentifier>lattes::4554515788535957</semanticIdentifier>
+			<field name="identifier.lattes" value="4554515788535957"/>
+			<field name="name" value="Roberto Massi de Oliveira"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39263" toEntityRef="Person26760" type="Inventor"/>
+	</relations>
+</entity-relation-data>

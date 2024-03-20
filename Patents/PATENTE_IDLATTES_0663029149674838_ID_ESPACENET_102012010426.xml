@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:03:18" record="32181" source="Espacenet">
+	<entities>
+		<entity ref="Patent32181" type="Patent">
+			<semanticIdentifier>brcris::b8b9f427b25f0c35755731bfe553216e</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012010426A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012010426</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012010426A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121010426</semanticIdentifier>
+			<semanticIdentifier>original::102012010426</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012010426"/>
+			<field name="identifier.lattes" value="0663029149674838"/>
+			<field name="identifier.espacenet" value="102012010426"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mandril de injeção química em sistemas de produção de hidrocarbonetos"/>
+			<field name="title.lattes" value="Mandril de Injeção Química em Sistemas de Produção de Hidrocarbonetos"/>
+			<field name="depositDate" value="2012-05-03"/>
+			<field name="publicationDate" value="2017-12-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE ZACARIAS IGNACIO PEREIRA"/>
+			<field name="inventor" value="MARIO GERMINO FERREIRA DA SILVA"/>
+			<field name="inventor" value="PAULO GUILHERME OLIVEIRA DE OLIVEIRA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21B37/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="37"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="mandril de injeção química em sistemas de produção de hidrocarbonetos. é relatado na presente invenção um equipamento destinado à injeção de fluido inibidor de incrustação ao redor do diâmetro interno de uma coluna de produção em sistemas de produção de hidrocarbonetos nos quais ocorram perdas de produção associadas à formação de incrustação em poços verticais. o equipamento da presente invenção é um mandril de injeção para ser adaptado na extremidade inferior de uma coluna de produção (cp). o mandril de injeção permite que a injeção de produtos químicos, no caso inibidores de incrustação, seja feita de forma distribuída ao redor do diâmetro interno da coluna de produção (cp)."/>
+			<field name="originatesFrom" value="62566924"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012010426"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012010426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012010426"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121010426"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012010426"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person22114" type="Person">
+			<semanticIdentifier>lattes::0663029149674838</semanticIdentifier>
+			<field name="identifier.lattes" value="0663029149674838"/>
+			<field name="name" value="Mario Germino Ferreira da Silva"/>
+		</entity>
+		<entity ref="OrgUnit17312" type="OrgUnit">
+			<semanticIdentifier>brcris::d104082b275c3d16ec250325701200f9</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent32181" toEntityRef="Person22114" type="Inventor"/>
+		<relation fromEntityRef="Patent32181" toEntityRef="OrgUnit17312" type="Applicant"/>
+	</relations>
+</entity-relation-data>

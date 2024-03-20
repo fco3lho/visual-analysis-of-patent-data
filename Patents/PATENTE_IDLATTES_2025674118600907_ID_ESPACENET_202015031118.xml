@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:26:43" record="12948" source="Espacenet">
+	<entities>
+		<entity ref="Patent12948" type="Patent">
+			<semanticIdentifier>brcris::3cc7562207e87ebf45c33cb1f152daf1</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015031118U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015031118U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015031118U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152031118U</semanticIdentifier>
+			<semanticIdentifier>original::202015031118</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015031118"/>
+			<field name="identifier.lattes" value="2025674118600907"/>
+			<field name="identifier.espacenet" value="202015031118"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="suporte para soro fisiológico ajustável à cabeça"/>
+			<field name="title.lattes" value="?SUPORTE PARA SORO FISIOLÓGICO AJUSTÁVEL À CABEÇA?"/>
+			<field name="depositDate" value="2015-12-11"/>
+			<field name="publicationDate" value="2017-06-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA LUIZA DOLABELLA NOVO"/>
+			<field name="inventor" value="ANDRE SANTOS TANURE"/>
+			<field name="inventor" value="DEUSLAR MARIA NETO"/>
+			<field name="inventor" value="EDUARDO ROMEIRO FILHO"/>
+			<field name="inventor" value="GIULIANA CERCEAU MARTELETO"/>
+			<field name="inventor" value="WESLEY DA SILVA COELHO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61J1/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61J1/16AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente pedido de modelo de utilidade compreende um suporte para soro fisiológico e medicamentos intravenosos ajustável à cabeça. o aperfeiçoamento permite ao paciente realizar o transporte do soro com total autonomia de movimento, ou seja, sem a necessidade de locomover uma haste ou equipamento auxiliar para o transporte do soro, dispensando também o auxílio por outra pessoa."/>
+			<field name="originatesFrom" value="61256493"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015031118"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015031118U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015031118"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152031118U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015031118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202015031118Y"/>
+		</entity>
+		<entity ref="Person8858" type="Person">
+			<semanticIdentifier>lattes::2025674118600907</semanticIdentifier>
+			<field name="identifier.lattes" value="2025674118600907"/>
+			<field name="name" value="Eduardo Romeiro Filho"/>
+		</entity>
+		<entity ref="OrgUnit6951" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+		<entity ref="Patent12949" type="Patent">
+			<semanticIdentifier>epodoc::BR202015031118Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="61256493"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015031118Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12948" toEntityRef="Person8858" type="Inventor"/>
+		<relation fromEntityRef="Patent12948" toEntityRef="OrgUnit6951" type="Applicant"/>
+	</relations>
+</entity-relation-data>

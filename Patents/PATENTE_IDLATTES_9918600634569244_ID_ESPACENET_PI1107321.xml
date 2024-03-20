@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:42:22" record="22359" source="Espacenet">
+	<entities>
+		<entity ref="Patent22359" type="Patent">
+			<semanticIdentifier>brcris::4bfd6f4e31379b8ef9948ba27c12a242</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1107321A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1107321</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1107321A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2011PI07321</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1107321</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1107321"/>
+			<field name="identifier.lattes" value="9918600634569244"/>
+			<field name="identifier.espacenet" value="PI1107321"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema para avaliação de lodos de esgoto como biomassa para gerar energia em processos de combustão"/>
+			<field name="title.lattes" value="PI11073217 - Método e Sistema para Avaliação de Lodos de Esgoto como Biomassa para Gerar Energia em Processos de Combustão"/>
+			<field name="depositDate" value="2011-12-26"/>
+			<field name="publicationDate" value="2017-11-28"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOSE ALMIR RODRIGUES PEREIRA"/>
+			<field name="inventor" value="YVELYNE BIANCA IUNES SANTOS"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DO PARA - UEPA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C10L5/46AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="10"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N25/22AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="22AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/483AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="483AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sistema para avaliação de lodos de esgoto como biomassa para gerar energia em processos de combustão - o lodo de esgoto pode ser aproveitado de forma útil em processos de combustão para gerar energia. no entanto, para isso, é necessária sua caracterização laboratorial, que fornece informações sobre suas propriedades determinantes a essa utilização, e a avalização dessas informações por gestores da área de saneamento e meio ambiente, que devem decidir se o resíduo pode ou não ser tecnicamente utilizado para este fim, sem causar impactos ambientais adversos, danos ou riscos à saúde pública. com intenção de auxiliar o gestor nessa tarefa, foi criado método para avaliar tecnicamente o potencial energético do lodo de forma rápida e segura, em detrimento de formas tradicionais de avalização que demandam tempo d pesquisa para auxiliar a tomada de decisão. esse método foi automatizado através da sua codificação em linguagem de máquina e transformado em sistema computacional utilizanfo o padrão de arquitetura de software model-view-controller (mvc). no sistema, o método é representado por regras de lógica, que são inseridas por interface de aquisição, e armazenadas automaticamente em banco de dados. após informações fornecidas pelo usuário, através de interface para usuários, o sistema realiza testes e encadeamentos lógicos das regras através do processamento do motor lógico, para obtenção de conclusões e explicações resultantes."/>
+			<field name="originatesFrom" value="62566993"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1107321"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1107321"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1107321"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2011PI07321"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1107321"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15459" type="Person">
+			<semanticIdentifier>lattes::9918600634569244</semanticIdentifier>
+			<field name="identifier.lattes" value="9918600634569244"/>
+			<field name="name" value="José Almir Rodrigues Pereira"/>
+		</entity>
+		<entity ref="OrgUnit12019" type="OrgUnit">
+			<semanticIdentifier>brcris::cce0ccb766f695fc2ed9b3ca40d55423</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent22359" toEntityRef="Person15459" type="Inventor"/>
+		<relation fromEntityRef="Patent22359" toEntityRef="OrgUnit12019" type="Applicant"/>
+	</relations>
+</entity-relation-data>

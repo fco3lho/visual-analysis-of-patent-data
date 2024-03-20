@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:06:40" record="33796" source="Espacenet">
+	<entities>
+		<entity ref="Patent33796" type="Patent">
+			<semanticIdentifier>brcris::d1979b800c017e2a23428f24cee843ca</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003135A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019003135</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019003135A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191003135</semanticIdentifier>
+			<semanticIdentifier>original::102019003135</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019003135"/>
+			<field name="identifier.lattes" value="8339437290613699"/>
+			<field name="identifier.espacenet" value="102019003135"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aperfeiçoamentos em medidor portátil de vibração"/>
+			<field name="title.lattes" value="APERFEIÇOAMENTOS EM MEDIDOR PORTÁTIL DE VIBRAÇÃO"/>
+			<field name="depositDate" value="2019-02-15"/>
+			<field name="publicationDate" value="2020-09-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUCAS DE HARO SILVA"/>
+			<field name="inventor" value="NAJLA VARALTA"/>
+			<field name="inventor" value="PAULO JOSE PAUPITZ GONCALVES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01H1/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01H11/06AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01H11/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aperfeiçoamentos em medidor portátil de vibração. a presente patente de invenção trata de aperfeiçoamentos em medidor portátil de vibração empregado tanto no ramo industrial para a análise de vibração e manutenção preditiva, como na área acadêmica com a mensuração de vibrações em sala de aula para, assim, servir de objeto de estudo para alunos em tempo real. o medidor portátil (10) é compreendido por módulo de processamento, distribuição de sinal e energia (11) conectado a um segundo módulo (12) através de cabo (13), do tipo ?universal serial bus? (usb), responsável por enviar os dados coletados pelo módulo (12) para o modulo (11) e, também, alimentação de energia de 5v do módulo (11) ao módulo (12); o módulo de processamento (11) compreende meios eletrônicos para armazenar a parte de processamento e tratamento dos sinais de vibração, enquanto que o módulo acelerador (12) compreende meios eletrônicos para a aquisição de sinal e permite ser posicionado/fixado de forma removível em local e/ou superfície a fim de captar os valores de vibração deste; o medidor de vibração (10) inclui dispositivo bluetooth (11d) responsável por enviar os sinais recolhidos do segundo módulo acelerômetro (12) para o aparelho móvel (ap) do tipo ?smartphones?, ?tablets? ou outros dotados de sistemas operacionais usuais, e onde ditos dados são analisados, em tempo real, pelo ?software? aplicativo (sp) instalado no referido aparelho (ap)."/>
+			<field name="originatesFrom" value="72964377"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003135"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019003135"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019003135"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191003135"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019003135"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23284" type="Person">
+			<semanticIdentifier>lattes::8339437290613699</semanticIdentifier>
+			<field name="identifier.lattes" value="8339437290613699"/>
+			<field name="name" value="Najla Varalta"/>
+		</entity>
+		<entity ref="OrgUnit18218" type="OrgUnit">
+			<semanticIdentifier>brcris::b94e8722e1ea3be4695c8b3a5d2fb1a1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent33796" toEntityRef="Person23284" type="Inventor"/>
+		<relation fromEntityRef="Patent33796" toEntityRef="OrgUnit18218" type="Applicant"/>
+	</relations>
+</entity-relation-data>

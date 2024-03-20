@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:12" record="17290" source="Espacenet">
+	<entities>
+		<entity ref="Patent17290" type="Patent">
+			<semanticIdentifier>brcris::8ce2d33b11e95034ea6e7a0641343e67</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013008118A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013008118</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013008118A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131008118</semanticIdentifier>
+			<semanticIdentifier>original::BRBR10 2013 008118-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013008118"/>
+			<field name="identifier.lattes" value="0011303079806761"/>
+			<field name="identifier.espacenet" value="102013008118"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="Sistema e método para a determinção dos pontos de interseções entre uma reta e o contorno de um objeto convexo e para a síntese do contorno inicial de um objeto convexo"/>
+			<field name="title.lattes" value="Sistema e método para a determinação dos pontos de interseções entre uma reta e o contorno de um objeto convexo e para a síntese do contorno inicial de um objeto convexo"/>
+			<field name="depositDate" value="2013-04-04"/>
+			<field name="publicationDate" value="2015-03-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA CAROLINA BRANDAO DE CAMPOS FONSECA PINTO"/>
+			<field name="inventor" value="GABRIELA PAOLA RIBEIRO BANON"/>
+			<field name="inventor" value="GERALD JEAN FRANCIS BANON"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06T7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Sistema e metodo para a determinaçao dos pontos de interseções entre uma reta e o contorno de um objeto convexo e para a sintese do contorno inicial de um objeto convexo. A presente invenção consiste em sistema e método para a síntese do contorno inicial de um objeto convexo, por meio da interpolação entre as extremidades dos seus eixos maior e menor, em imagens radiográficas computadorizadas. O sistema como um todo integra dois outros sistemas, gue podem atuar de forma independente entre si. No entanto, o resultado do primeiro sistema pode ser reaproveitado como entrada para o segundo sistema. O primeiro sistema determina os pontos de interseções entre uma reta e a borda externa de um objeto convexo, contrastado das adjacências e consiste em cinco subsistemas interligados em série, o segundo sistema realiza a síntese do contorno inicial de um objeto convexo, por meio da interpolação entre as extremidades dos seus eixos maior e menor, e também consiste em cinco subsistemas interligados em série."/>
+			<field name="originatesFrom" value="52779358"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013008118"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013008118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013008118"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131008118"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR10 2013 008118-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person11990" type="Person">
+			<semanticIdentifier>lattes::0011303079806761</semanticIdentifier>
+			<field name="identifier.lattes" value="0011303079806761"/>
+			<field name="name" value="Gerald Jean Francis Banon"/>
+		</entity>
+		<entity ref="OrgUnit9403" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17290" toEntityRef="Person11990" type="Inventor"/>
+		<relation fromEntityRef="Patent17290" toEntityRef="OrgUnit9403" type="Applicant"/>
+	</relations>
+</entity-relation-data>

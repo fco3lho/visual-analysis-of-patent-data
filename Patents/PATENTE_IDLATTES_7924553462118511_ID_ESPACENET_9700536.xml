@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:10" record="35639" source="Espacenet">
+	<entities>
+		<entity ref="Patent35639" type="Patent">
+			<semanticIdentifier>brcris::d69e54e914c861a40a1e4743ee5a4b11</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700536A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9700536</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700536A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979700536</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 9700536-3</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9700536"/>
+			<field name="identifier.lattes" value="7924553462118511"/>
+			<field name="identifier.espacenet" value="9700536"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Medidor de órgãos vegetais utilizando método interferométrico"/>
+			<field name="title.lattes" value="Medidor de Órgãos Vegetais, Utilizando Método Interferométrico."/>
+			<field name="depositDate" value="1997-04-11"/>
+			<field name="publicationDate" value="1998-12-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERREIRA WILSON SELUQUE"/>
+			<field name="inventor" value="PAULO ESTEVAO CRUVINEL"/>
+			<field name="inventor" value="WILSON SELUQUE FERREIRA"/>
+			<field name="applicant" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N9/36AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="originatesFrom" value="4066359"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700536"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9700536"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700536"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979700536"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 9700536-3"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person24530" type="Person">
+			<semanticIdentifier>lattes::7924553462118511</semanticIdentifier>
+			<field name="identifier.lattes" value="7924553462118511"/>
+			<field name="name" value="Paulo Estevão Cruvinel"/>
+		</entity>
+		<entity ref="OrgUnit19250" type="OrgUnit">
+			<semanticIdentifier>brcris::3410583ff420b1eeb30def813bca62a4</semanticIdentifier>
+			<field name="name" value="EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA - EMBRAPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent35639" toEntityRef="Person24530" type="Inventor"/>
+		<relation fromEntityRef="Patent35639" toEntityRef="OrgUnit19250" type="Applicant"/>
+	</relations>
+</entity-relation-data>

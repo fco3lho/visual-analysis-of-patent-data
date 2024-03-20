@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:05:12" record="224" source="Espacenet">
+	<entities>
+		<entity ref="Patent224" type="Patent">
+			<semanticIdentifier>brcris::8d9158a260af04ab19499e961868840e</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505161A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505161</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505161A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05161</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505161-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505161"/>
+			<field name="identifier.lattes" value="0206042094557734"/>
+			<field name="identifier.espacenet" value="PI0505161"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método e equipamento para colher cana"/>
+			<field name="title.lattes" value="Método e equipamento de colheita mecanizada de cana-de-açúcar"/>
+			<field name="depositDate" value="2005-11-08"/>
+			<field name="publicationDate" value="2007-08-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADILSON FABIO BAZUCCO"/>
+			<field name="inventor" value="JOSE SASAKI"/>
+			<field name="inventor" value="PAULO HENRIQUE FERRAZ DO AMARAL JR"/>
+			<field name="inventor" value="SERGIO SARTORI JR"/>
+			<field name="inventor" value="SERGIO SARTORI JUNIOR"/>
+			<field name="applicant" value="MAQUINAS AGRICOLAS JACTO S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01D45/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="45"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MéTODO E EQUIPAMENTO PARA COLHER CANA com aplicação na colheita mecanizada de cana-de-açúcar queimada e não queimada e dotado de estágios de corte de ponteiro, posicionamento da planta, corte de colmos por cortadores de colmos com a planta na posição vertical, corte de base simultaneamente ao corte de colmos, transporte interno de colmos, limpeza primária por fluxo de ar cruzado, elevação dos colmos e limpeza secundária dos colmos por fluxo de ar cruzado,"/>
+			<field name="originatesFrom" value="38331842"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505161"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505161"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505161"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05161"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505161-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person168" type="Person">
+			<semanticIdentifier>lattes::0206042094557734</semanticIdentifier>
+			<field name="identifier.lattes" value="0206042094557734"/>
+			<field name="name" value="Adilson Fabio Bazucco"/>
+		</entity>
+		<entity ref="OrgUnit136" type="OrgUnit">
+			<semanticIdentifier>brcris::a8121d2521f60bfd31bdc62157b35163</semanticIdentifier>
+			<field name="name" value="MAQUINAS AGRICOLAS JACTO S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent224" toEntityRef="Person168" type="Inventor"/>
+		<relation fromEntityRef="Patent224" toEntityRef="OrgUnit136" type="Applicant"/>
+	</relations>
+</entity-relation-data>

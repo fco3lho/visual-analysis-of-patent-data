@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:45:10" record="23727" source="Espacenet">
+	<entities>
+		<entity ref="Patent23727" type="Patent">
+			<semanticIdentifier>brcris::6e2f9bab4764ec7ac5e61d473dbf31c4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001865A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017001865</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001865A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171001865</semanticIdentifier>
+			<semanticIdentifier>original::102017001865</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017001865"/>
+			<field name="identifier.lattes" value="4970859838670774"/>
+			<field name="identifier.espacenet" value="102017001865"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="pré-tratamento de baixo custo para quebra da fração lignocelulósica de ananas comosus (l. merril) e produção de biocombustível líquido e sólido"/>
+			<field name="title.lattes" value="Pré-tratamento de baixo custo para quebra da fração lignocelulósica de Ananas comosus (L. Merril) e produção de biocombustível líquido e sólido"/>
+			<field name="depositDate" value="2017-01-30"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO JOSE GONCALVES DA CRUZ"/>
+			<field name="inventor" value="CECILIA DANTAS VICENTE"/>
+			<field name="inventor" value="CELIA DANTAS VICENTE"/>
+			<field name="inventor" value="GILDEMBERG AMORIM LEAL JUNIOR"/>
+			<field name="inventor" value="JULIA REGINA DO NASCIMENTO SILVA"/>
+			<field name="inventor" value="JUMELICE DOS SANTOS SILVA"/>
+			<field name="inventor" value="KLEDSON LOPES BARBOSA"/>
+			<field name="inventor" value="MARCIA ANDREA GOMES"/>
+			<field name="inventor" value="MARTHA SUZANA RODRIGUES DOS SANTOS ROCHA"/>
+			<field name="inventor" value="RENATA MARIA ROSAS GARCIA ALMEIDA"/>
+			<field name="inventor" value="VALERIA RODRIGUES DOS SANTOS MALTA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ALAGOAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12P7/10AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12R1/865AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="865AN"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção propõe o beneficiamento da coroa de ananas comosus (l. merril) com o intuito de minimizar a geração de resíduos a partir dessa fruta. a proposta consiste na realização de atividades de elevado valor agregado, como é o caso da produção de combustíveis sólidos e líquidos. através de metodologia de baixo custo na etapa de pré-tratamento, o etanol de segunda geração, bem como o briquete podem ser obtidos, contribuindo para a diversificação da matriz energética brasileira e ainda reduzindo a poluição ambiental. nessa invenção, obteve-se após 72 horas de hidrólise enzimática, 58,44 e 21,91 g.l-1 de glicose e xilose, respectivamente. obteve-se ainda, após 4 horas de fermentação, 31,10 g.l-1 de etanol de segunda geração. os briquetes obtidos através do resíduo sólido da hidrólise apresentaram poder calorífico de 18,41 kj.kg-1, 11,64% de umidade e 5,94% de cinzas."/>
+			<field name="originatesFrom" value="63451677"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001865"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017001865"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001865"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171001865"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017001865"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16492" type="Person">
+			<semanticIdentifier>lattes::4970859838670774</semanticIdentifier>
+			<field name="identifier.lattes" value="4970859838670774"/>
+			<field name="name" value="Júlia Regina do Nascimento Silva"/>
+		</entity>
+		<entity ref="OrgUnit12770" type="OrgUnit">
+			<semanticIdentifier>brcris::7da810a4b15bbe1fe6be6e8254160456</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ALAGOAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23727" toEntityRef="Person16492" type="Inventor"/>
+		<relation fromEntityRef="Patent23727" toEntityRef="OrgUnit12770" type="Applicant"/>
+	</relations>
+</entity-relation-data>

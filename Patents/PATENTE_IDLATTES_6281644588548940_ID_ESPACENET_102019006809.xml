@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:31" record="39567" source="Espacenet">
+	<entities>
+		<entity ref="Patent39567" type="Patent">
+			<semanticIdentifier>brcris::14fbfd39d034934c5748f4d513300bd3</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006809A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019006809</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019006809A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191006809</semanticIdentifier>
+			<semanticIdentifier>original::102019006809</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019006809"/>
+			<field name="identifier.lattes" value="6281644588548940"/>
+			<field name="identifier.espacenet" value="102019006809"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento automático para medição do calor específico do solo"/>
+			<field name="title.lattes" value="EQUIPAMENTO AUTOMÁTICO PARA MEDIÇÃO DO CALOR ESPECÍFICO DO SOLO"/>
+			<field name="depositDate" value="2019-04-03"/>
+			<field name="publicationDate" value="2020-10-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ROBSON ANDRE ARMINDO"/>
+			<field name="inventor" value="ROBSON LUIZ MORENO"/>
+			<field name="inventor" value="RODRIGO OLIVEIRA MORENO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N25/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N25/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="25"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a invenção é composta de calorímetro e sistema de aquisição automático para determinação do calor específico do solo ou de outros meios porosos. a invenção analisa amostras de meios porosos, destacando-se o solo por ser objeto de ciências como a física e conservação do solo, irrigação, hidrologia, engenharia civil, geologia, etc. o vaso calorimétrico que recebe a amostra contém tampa e resistência elétrica (colar). insere-se pela tampa um sensor na amostra. a temperatura é monitorada por 4 min ao iniciar o procedimento e em seguida é liberada a energia elétrica para a resistência. após 1 min, o microcontrolador interrompe a corrente elétrica e monitora por 20 min a temperatura até atingir equilíbrio térmico. o sistema realiza a aquisição dos dados de temperatura, tempo e tensão elétrica (para obtenção da energia térmica/elétrica) realizando via software determinação do calor específico."/>
+			<field name="originatesFrom" value="73038509"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006809"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019006809"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019006809"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191006809"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019006809"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26906" type="Person">
+			<semanticIdentifier>lattes::6281644588548940</semanticIdentifier>
+			<field name="identifier.lattes" value="6281644588548940"/>
+			<field name="name" value="Robson Luiz Moreno"/>
+		</entity>
+		<entity ref="OrgUnit21065" type="OrgUnit">
+			<semanticIdentifier>brcris::2d0d72e7119fd430831262a090e46a7e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARANA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39567" toEntityRef="Person26906" type="Inventor"/>
+		<relation fromEntityRef="Patent39567" toEntityRef="OrgUnit21065" type="Applicant"/>
+	</relations>
+</entity-relation-data>

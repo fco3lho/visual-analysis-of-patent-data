@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:16:30" record="40141" source="Espacenet">
+	<entities>
+		<entity ref="Patent40141" type="Patent">
+			<semanticIdentifier>brcris::8158e77a84dfc8ad864af210257ebaca</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017003617A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017003617</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017003617A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171003617</semanticIdentifier>
+			<semanticIdentifier>original::102017003617</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017003617"/>
+			<field name="identifier.lattes" value="3006526142468362"/>
+			<field name="identifier.espacenet" value="102017003617"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de preparação de silicatos mesoporosos lpm-8 e lpm-9 utilizando um derivado do cátion imidazólio"/>
+			<field name="title.lattes" value="Processo de preparação de silicatos mesoporosos LPM-8 e LPM-9 utilizando um derivado do cátion imidazólio"/>
+			<field name="depositDate" value="2017-02-22"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDERSON JOEL SCHWANKE"/>
+			<field name="inventor" value="BERNARDO ARALDI DA SILVA"/>
+			<field name="inventor" value="CATIA SANTIN ZANCHETT BATTISTON"/>
+			<field name="inventor" value="MARCELO LUIS MIGNONI"/>
+			<field name="inventor" value="PALOMA VINACHES MELGUIZO"/>
+			<field name="inventor" value="ROGERIO MARCOS DALLAGO"/>
+			<field name="inventor" value="SIBELE BERENICE CASTELLA PERGHER"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="applicant" value="UNIVERSIDADE REGIONAL INTEGRADA DO ALTO URUGUAI E DAS MISSOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01J35/04AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="35"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C01B33/20AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de preparação de silicatos mesoporosos lpm-8 e lpm-9 utilizando um derivado do cátion imidazólio a presente invenção trata do processo de obtenção de materiais mesoporosos à base de silicatos obtidos pela reação hidrotérmica de uma mistura compreendendo uma fonte de silício, um derivado do cátion imidazólio, água e uma fonte de hidróxido como agente mineralizante, com ou sem etanol. o derivado do cátion imidazólio empregado foi o cloreto de 1-hexadecil-3-metilimidazólio (c16mi.cl). dois tipos de materiais mesoporosos foram obtidos e denominados respectivamente de lpm-8 (estrutura hexagonal) sintetizado sem etanol e lpm-9 (estrutura cúbica) sintetizado com etanol. estes materiais mesoporosos apresentam propriedades adsorventes e potencialidade como suporte para a incorporação de diversos centros catalíticos, como metais e enzimas."/>
+			<field name="originatesFrom" value="64220446"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017003617"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017003617"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017003617"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171003617"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017003617"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27344" type="Person">
+			<semanticIdentifier>lattes::3006526142468362</semanticIdentifier>
+			<field name="identifier.lattes" value="3006526142468362"/>
+			<field name="name" value="Rogério Marcos Dallago"/>
+		</entity>
+		<entity ref="OrgUnit21377" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+		<entity ref="OrgUnit21378" type="OrgUnit">
+			<semanticIdentifier>brcris::8b057d7417245ab0a9c8d161249b3019</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE REGIONAL INTEGRADA DO ALTO URUGUAI E DAS MISSOES"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40141" toEntityRef="Person27344" type="Inventor"/>
+		<relation fromEntityRef="Patent40141" toEntityRef="OrgUnit21377" type="Applicant"/>
+		<relation fromEntityRef="Patent40141" toEntityRef="OrgUnit21378" type="Applicant"/>
+	</relations>
+</entity-relation-data>

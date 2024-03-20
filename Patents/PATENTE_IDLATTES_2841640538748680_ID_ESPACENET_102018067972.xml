@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:17" record="26013" source="Espacenet">
+	<entities>
+		<entity ref="Patent26013" type="Patent">
+			<semanticIdentifier>brcris::04160287313ce79a3da7195a6e3ff656</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067972A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018067972</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018067972A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181067972</semanticIdentifier>
+			<semanticIdentifier>original::102018067972</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018067972"/>
+			<field name="identifier.lattes" value="2841640538748680"/>
+			<field name="identifier.espacenet" value="102018067972"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e sistema de medição de características de transmitância de objetos translúcidos"/>
+			<field name="title.lattes" value="Método e Sistema de Medição de Características de Transmitância de Objetos Translúcidos"/>
+			<field name="depositDate" value="2018-09-05"/>
+			<field name="publicationDate" value="2020-03-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARTUR DUARTE LOUREIRO"/>
+			<field name="inventor" value="LILIANE VENTURA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01J3/12AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01M11/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e sistema de medição de características de transmitância de objetos translúcidos a presente invenção se insere na área de engenharia elétrica, mais particularmente relacionado a métodos e equipamentos de análise de transmitância em materiais translúcidos. assim, a presente invenção prevê um método de medição de características de transmitância de objetos translúcidos, o método compreendendo as etapas de: a) determinar funções de ponderação com que serão feitas as medições; b) determinar coeficientes de combinações lineares entre valores de transmitância com funções de ponderação previamente conhecidas; c) determinar um valor de referência de medição; d) emitir um espectro de radiação; d) medir valores de transmitância do objeto translúcido ao detectar a resposta do espectro de radiação que atravessa o objeto translúcido; e) calcular valores de transmitância do objeto translúcido para a característica a ser medida (37) com base nos valores medidos na etapa e) e o valor de referência determinado na etapa c)."/>
+			<field name="originatesFrom" value="70156697"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067972"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018067972"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018067972"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181067972"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018067972"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17988" type="Person">
+			<semanticIdentifier>lattes::2841640538748680</semanticIdentifier>
+			<field name="identifier.lattes" value="2841640538748680"/>
+			<field name="name" value="Liliane Ventura"/>
+		</entity>
+		<entity ref="OrgUnit14056" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26013" toEntityRef="Person17988" type="Inventor"/>
+		<relation fromEntityRef="Patent26013" toEntityRef="OrgUnit14056" type="Applicant"/>
+	</relations>
+</entity-relation-data>

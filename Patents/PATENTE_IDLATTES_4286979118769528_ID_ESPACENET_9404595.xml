@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:27" record="41728" source="Espacenet">
+	<entities>
+		<entity ref="Patent41728" type="Patent">
+			<semanticIdentifier>brcris::0afb1734a9f22be89c8563bd7a825c9d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9404595A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9404595</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9404595A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19949404595</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9404595"/>
+			<field name="identifier.lattes" value="4286979118769528"/>
+			<field name="identifier.espacenet" value="9404595"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para a preparaçao de colágeno com auxilio de solvente orgânico em meio ácido"/>
+			<field name="title.lattes" value="PROCESSO PARA PREPARACAO DE COLAGENO COM AUXILIO DE SOLVENTE ORGANICO EM MEIO ACIDO TAMBEM DO TIPO 6"/>
+			<field name="depositDate" value="1994-11-01"/>
+			<field name="publicationDate" value="1997-03-04"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GILBERTO GOISSIS"/>
+			<field name="inventor" value="SERGIO AKINOBU YOSHIOKA"/>
+			<field name="applicant" value="CNPQ - CONSELHO NACIONAL DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K38/39AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="38"/>
+				<field name="subgroup" value="39AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07K4/12AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="4"/>
+				<field name="subgroup" value="12AI"/>
+			</field>
+			<field name="originatesFrom" value="4060051"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9404595"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9404595"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9404595"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19949404595"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person28439" type="Person">
+			<semanticIdentifier>lattes::4286979118769528</semanticIdentifier>
+			<field name="identifier.lattes" value="4286979118769528"/>
+			<field name="name" value="Sergio Akinobu Yoshioka"/>
+		</entity>
+		<entity ref="OrgUnit22257" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41728" toEntityRef="Person28439" type="Inventor"/>
+		<relation fromEntityRef="Patent41728" toEntityRef="OrgUnit22257" type="Applicant"/>
+	</relations>
+</entity-relation-data>

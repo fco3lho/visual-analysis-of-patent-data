@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:08:08" record="34642" source="Espacenet">
+	<entities>
+		<entity ref="Patent34642" type="Patent">
+			<semanticIdentifier>brcris::895db0512ce4ccb3a13365f32c6248b6</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504037A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0504037</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0504037A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI04037</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0504037-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0504037"/>
+			<field name="identifier.lattes" value="7578023641172610"/>
+			<field name="identifier.espacenet" value="PI0504037"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="sistema óptico para produção de spot retangular utilizando a imagem de um ou mais emissores de luz à base de leds"/>
+			<field name="title.lattes" value="Sistema óptico para produção de spot retangular utilizando a imagem de um ou mais emissores de luz à base de LEDs."/>
+			<field name="depositDate" value="2005-09-09"/>
+			<field name="publicationDate" value="2007-05-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE OLIVEIRA DE LIMA"/>
+			<field name="inventor" value="ORLANDO CARLOS CANOAS GUIMARAES"/>
+			<field name="inventor" value="VANDERLEI SALVADOR BAGNATO"/>
+			<field name="applicant" value="ALLIAGE S/A INDUSTRIAS MEDICO ODONTOLOGICA"/>
+			<field name="applicant" value="DABI ATLANTE S/A INDUSTRIAS MEDICO ODONTOLOGICA"/>
+			<field name="applicant" value="GNATUS EQUIPAMENTOS MEDICO ODONTOLOGICOS LTDA"/>
+			<field name="applicant" value="GNATUS EQUIPAMENTOS MEDICO ODONTOLOGICOS S/A"/>
+			<field name="applicant" value="MM OPTICS LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DO ESTADO DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61G15/14AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="abstract.espacenet" value="SISTEMA óPTICO PARA PRODUçãO DE SPOT RETANGULAR UTILIZANDO A IMAGEM DE UM OU MAIS EMISSORES DE LUZ à BASE DE LEDS. A presente patente refere-se a um sistema óptico capaz de produzir um sport retangular de iluminação através de imagem de um ou mais emissores de luz, do tipo LED (Light Emitting Diode - Diodo Emissor de Luz), aproveitando toda a luz emitida pelo mesmo, promovendo uma iluminação uniforme no local desejado sem separação de cores e com geometria desejada. A eficiência do sistema advém do tipo de lente e do obturador utilizados."/>
+			<field name="originatesFrom" value="38051155"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504037"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0504037"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0504037"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI04037"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0504037-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23852" type="Person">
+			<semanticIdentifier>lattes::7578023641172610</semanticIdentifier>
+			<field name="identifier.lattes" value="7578023641172610"/>
+			<field name="name" value="Orlando Carlos Canôas Guimarães"/>
+		</entity>
+		<entity ref="OrgUnit18723" type="OrgUnit">
+			<semanticIdentifier>brcris::11d22e1fd80b790be4e69990a67b95c0</semanticIdentifier>
+			<field name="name" value="ALLIAGE S/A INDUSTRIAS MEDICO ODONTOLOGICA"/>
+		</entity>
+		<entity ref="OrgUnit18724" type="OrgUnit">
+			<semanticIdentifier>brcris::5c555352907a6ec675e8e6eb925e98c7</semanticIdentifier>
+			<field name="name" value="MM OPTICS LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34642" toEntityRef="Person23852" type="Inventor"/>
+		<relation fromEntityRef="Patent34642" toEntityRef="OrgUnit18723" type="Applicant"/>
+		<relation fromEntityRef="Patent34642" toEntityRef="OrgUnit18724" type="Applicant"/>
+	</relations>
+</entity-relation-data>

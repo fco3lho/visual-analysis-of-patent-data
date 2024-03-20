@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:12:32" record="37119" source="Espacenet">
+	<entities>
+		<entity ref="Patent37119" type="Patent">
+			<semanticIdentifier>brcris::77b7d5be30fb013183f5c2def0cbe517</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004520A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1004520</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1004520A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI04520</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1004520-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1004520"/>
+			<field name="identifier.lattes" value="4346810447071054"/>
+			<field name="identifier.espacenet" value="PI1004520"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mÉtodo de estimaÇço de movimento para codificadores de vÍdeo utilizando busca hierÁrquica e padrço em forma de cruz"/>
+			<field name="title.lattes" value="MÉTODO DE ESTIMAÇÂO DE MOVIMENTO PARA CODIFICADORES DE VÍDEO UTILIZANDO BUSCA HIERÁRQUICA E PADRÃO EM FORMA DE CRUZ"/>
+			<field name="depositDate" value="2010-11-24"/>
+			<field name="publicationDate" value="2013-03-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE FILGUEIRAS DE ARAEJO"/>
+			<field name="inventor" value="RANGEL ARTHUR"/>
+			<field name="inventor" value="YUZO IANO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04N19/53AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="53AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04N19/533AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="533AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MÉTODO DE ESTIMAÇçO DE MOVIMENTO PARA CODIFICADORES DE VÍDEO UTILIZANDO BUSCA HIERÁRQUICA E PADRçO EM FORMA DE CRUZ Refere-se o presente pedido de patente de invenção a um método para estimação de movimento baseado em procura de blocos, compreendendo a busca hierárquica combinada com buscas realizadas com padrões fixos e adaptativos, resultando na atribuição de um vetor (vetor que indica o movimento) a cada bloco componente do vídeo sob análise."/>
+			<field name="originatesFrom" value="47750281"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004520"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1004520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1004520"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI04520"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1004520-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25598" type="Person">
+			<semanticIdentifier>lattes::4346810447071054</semanticIdentifier>
+			<field name="identifier.lattes" value="4346810447071054"/>
+			<field name="name" value="Rangel Arthur"/>
+		</entity>
+		<entity ref="OrgUnit20072" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37119" toEntityRef="Person25598" type="Inventor"/>
+		<relation fromEntityRef="Patent37119" toEntityRef="OrgUnit20072" type="Applicant"/>
+	</relations>
+</entity-relation-data>

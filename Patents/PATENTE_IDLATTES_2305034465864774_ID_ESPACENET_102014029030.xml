@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:07:35" record="34316" source="Espacenet">
+	<entities>
+		<entity ref="Patent34316" type="Patent">
+			<semanticIdentifier>brcris::e32165317adba6bbeaeb3426c34a8ac2</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029030A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014029030</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014029030A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141029030</semanticIdentifier>
+			<semanticIdentifier>original::102014029030</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014029030"/>
+			<field name="identifier.lattes" value="2305034465864774"/>
+			<field name="identifier.espacenet" value="102014029030"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="atividade antiviral do ácido divaricático purificado frente a vírus infecciosos"/>
+			<field name="title.lattes" value="ATIVIDADE ANTIVIRAL DO ÁCIDO DIVARICÁTTCO PURIFICADO FRENTE A VÍRUS INFECCIOSOS"/>
+			<field name="depositDate" value="2014-11-21"/>
+			<field name="publicationDate" value="2016-07-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNA MARIA PEREIRA DA COSTA CORDEIRO"/>
+			<field name="inventor" value="BRUNO RAFAEL MONTEIRO RODRIGUES"/>
+			<field name="inventor" value="EMERSON PETER DA SILVA FALCAO"/>
+			<field name="inventor" value="JOAO ANTONIO VIRGULINO"/>
+			<field name="inventor" value="JOELMA PESSOA GONCALVES"/>
+			<field name="inventor" value="JULIANA CUOCO BADARI"/>
+			<field name="inventor" value="MONICA CRISTINA BARROSO MARTINS"/>
+			<field name="inventor" value="NICACIO HENRIQUE DA SILVA"/>
+			<field name="inventor" value="NORMA BUARQUE DE GUSMAO"/>
+			<field name="inventor" value="RONALDO ZUCATELLI MENDONCA"/>
+			<field name="inventor" value="THIAGO DAVID DOS SANTOS SILVA"/>
+			<field name="applicant" value="FUNDACAO BUTANTAN"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/235AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="235AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61P31/16AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="abstract.espacenet" value="atividade antiviral do ácido divaricático purificado frente a vírus infecciosos a descoberta refere-se a uma substância liquênica, conhecida como ácido divaricático, um para-depsídeo, que possui potencial antivirai para os vírus: influenza h 1n1, do gênero morbillivirus, agentes responsáveis por ocasionar as doenças: gripe, do sarampo. tendo em vista a resistência desses microrganismos a alguns antivirais já existentes, este composto natural pode ser considerado um novo medicamento com baixo custo de produção e quiçá com poucos efeitos adversos colaterais."/>
+			<field name="originatesFrom" value="56268359"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029030"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014029030"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014029030"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141029030"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014029030"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person23605" type="Person">
+			<semanticIdentifier>lattes::2305034465864774</semanticIdentifier>
+			<field name="identifier.lattes" value="2305034465864774"/>
+			<field name="name" value="Nicácio Henrique da Silva"/>
+		</entity>
+		<entity ref="OrgUnit18511" type="OrgUnit">
+			<semanticIdentifier>brcris::b8f88ac3ca91ea182f42b01e1bf8ca70</semanticIdentifier>
+			<field name="name" value="FUNDACAO BUTANTAN"/>
+		</entity>
+		<entity ref="OrgUnit18512" type="OrgUnit">
+			<semanticIdentifier>brcris::0ec00e3600e4262d0376f8058f832118</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE PERNAMBUCO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent34316" toEntityRef="Person23605" type="Inventor"/>
+		<relation fromEntityRef="Patent34316" toEntityRef="OrgUnit18511" type="Applicant"/>
+		<relation fromEntityRef="Patent34316" toEntityRef="OrgUnit18512" type="Applicant"/>
+	</relations>
+</entity-relation-data>

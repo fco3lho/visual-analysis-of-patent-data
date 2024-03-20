@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:03" record="5700" source="Espacenet">
+	<entities>
+		<entity ref="Patent5700" type="Patent">
+			<semanticIdentifier>brcris::cbe8d69176a5db31e73cec137a6f409d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803835A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803835</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803835A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03835</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803835-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803835"/>
+			<field name="identifier.lattes" value="1553486008941646"/>
+			<field name="identifier.espacenet" value="PI0803835"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="aparelho e método para diagnóstico parasitológico da esquistossomose mansoni"/>
+			<field name="title.lattes" value="Aparelho e método para diagnóstico parasitológico da esquisossomose mansoni"/>
+			<field name="depositDate" value="2008-07-14"/>
+			<field name="publicationDate" value="2010-06-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARNON DIAS JURBEG"/>
+			<field name="inventor" value="ARNON DIAS JURBERG"/>
+			<field name="inventor" value="AUREO ALMEIDA DE OLIVEIRA"/>
+			<field name="inventor" value="AUREO ALMEIDA DE OLIVEIRA"/>
+			<field name="inventor" value="NAFTALE KATZ"/>
+			<field name="inventor" value="PAULO MARCOS ZECH COELHO"/>
+			<field name="applicant" value="FUNDACAO OSWALDO CRUZ"/>
+			<field name="applicant" value="FUNDACAO OSWALDO CRUZ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/48AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="48AI"/>
+			</field>
+			<field name="abstract.espacenet" value="A presente invenção se refere a um aparelho e método para diagnóstico parasitológico da esquistossomose mansoni. Mais especificamente a invenção está direcionada para o diagnóstico parasitológico da esquistossomose em pacientes com baixa carga parasitária, através da técnica de gradiente salino. Ovos de helmintos intestinais, como ancilostomideos, Hymenolepis nana, Enterobius vermiculares, Ascaris lumbricoides e Trichuris trichiura também podem ser identificados pelo emprego desse método. Nesse contexto, a presente técnica de gradiente salinico proporciona um diagnóstico parasitológico mais sensível, reprodutível, de fácil execução e rápida análise, além do baixo custo."/>
+			<field name="originatesFrom" value="42262510"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803835"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803835"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803835"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03835"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803835-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3777" type="Person">
+			<semanticIdentifier>lattes::1553486008941646</semanticIdentifier>
+			<field name="identifier.lattes" value="1553486008941646"/>
+			<field name="name" value="Arnon Dias Jurberg"/>
+		</entity>
+		<entity ref="OrgUnit2959" type="OrgUnit">
+			<semanticIdentifier>brcris::be2bdbe5953f91ee54767834bef44be3</semanticIdentifier>
+			<field name="name" value="FUNDACAO OSWALDO CRUZ"/>
+		</entity>
+		<entity ref="OrgUnit2960" type="OrgUnit">
+			<semanticIdentifier>brcris::fd1aaa8a379490760047a3d051a56b50</semanticIdentifier>
+			<field name="name" value="FUNDACAO OSWALDO CRUZ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5700" toEntityRef="Person3777" type="Inventor"/>
+		<relation fromEntityRef="Patent5700" toEntityRef="OrgUnit2959" type="Applicant"/>
+		<relation fromEntityRef="Patent5700" toEntityRef="OrgUnit2960" type="Applicant"/>
+	</relations>
+</entity-relation-data>

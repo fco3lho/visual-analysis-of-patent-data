@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:53" record="39802" source="Espacenet">
+	<entities>
+		<entity ref="Patent39802" type="Patent">
+			<semanticIdentifier>brcris::3a60f1435726cfdcaa49f7129d4f6a10</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503680A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0503680</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0503680A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI03680</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0503680-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0503680"/>
+			<field name="identifier.lattes" value="5223208885424964"/>
+			<field name="identifier.espacenet" value="PI0503680"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="método para a modelagem, migração e demigração kirchhoff em meios fracamente anisotrópicos"/>
+			<field name="title.lattes" value="Método para modelagem, migração e demigração Kirchhoff em meios fracamente anisotrópicos"/>
+			<field name="depositDate" value="2005-08-19"/>
+			<field name="publicationDate" value="2007-04-10"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALCIDES AGGIO SOBRINHO"/>
+			<field name="inventor" value="EDUARDO FILPO FERREIRA DA SILVA"/>
+			<field name="inventor" value="RODRIGO DE SOUZA PORTUGAL"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01V1/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="V"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO PARA A MODELAGEM, MIGRAçãO E DEMIGRAçãO KIRCHHOFF EM MEIOS FRACAMENTE ANISOTRóPICOS&quot;. é descrito um método para a modelagem, migração e demigração Kirchhoff em meios fracamente anisotrópicos, que compreende: a)prover um conjunto de sinais sísmicos para um volume de exploração ou região de interesse; b) Prover um modelo de velocidade para o volume; c) prover os parâmetros elásticos, traduzidos pelos parâmetros generalizados de Thomsen utilizados na aplicação FORT (First Order Ray tracing); d)Definir os cossenos diretores da direção de propagação do raio; e) efetuar o cálculo de perturbação da frente de onda no algorítmo de Runge-Kutta, em um meio de referência isotrópico com velocidade &lt;244&gt;, e f) obter a solução do sistema de Ray tracing dado pelas equações do algoritmo FORT para meios inhomogêneos fracamente anisotrópicos de simetria arbitrária na forma explícita, pelo que são obtidas as tabelas de tempo de trânsito por pWFC (perturbed WaveFront Cunstruction) que caracterizam a propagação dos sinais sísmicos no interior do volume ou região de interesse fracamente anisotrópico. O método proposto pode ser usado em 2D ou 3D e é útil, entre outros, na indústria de petróleo para avaliar a influência da anisotropia na qualidade da imagem sísmica."/>
+			<field name="originatesFrom" value="37903684"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503680"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0503680"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0503680"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI03680"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0503680-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27077" type="Person">
+			<semanticIdentifier>lattes::5223208885424964</semanticIdentifier>
+			<field name="identifier.lattes" value="5223208885424964"/>
+			<field name="name" value="Rodrigo de Souza Portugal"/>
+		</entity>
+		<entity ref="OrgUnit21205" type="OrgUnit">
+			<semanticIdentifier>brcris::16bb61d1d4add34580b89b50e63247b3</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39802" toEntityRef="Person27077" type="Inventor"/>
+		<relation fromEntityRef="Patent39802" toEntityRef="OrgUnit21205" type="Applicant"/>
+	</relations>
+</entity-relation-data>

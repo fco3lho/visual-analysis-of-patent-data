@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:10" record="8546" source="Espacenet">
+	<entities>
+		<entity ref="Patent8546" type="Patent">
+			<semanticIdentifier>brcris::1242ef053bff19b6d3d8f14685abfeb5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0004093A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0004093</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0004093A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000004093</semanticIdentifier>
+			<semanticIdentifier>original::0004093-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0004093"/>
+			<field name="identifier.lattes" value="9871865009697049"/>
+			<field name="identifier.espacenet" value="0004093"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Reator eletroquìmico utilizado no tratamento de efluentes aquosos contendo metais pesados"/>
+			<field name="title.lattes" value="Reator Eletroquímico Utilizado no Tratamento de Efluentes Aquosos Contendo Metais Pesados"/>
+			<field name="depositDate" value="2000-08-31"/>
+			<field name="publicationDate" value="2002-04-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CHRISTIANE DE ARRUDA RODRIGUES RAGNANI"/>
+			<field name="inventor" value="MARCOS ROBERTO DE VASCONCELOS LANZA"/>
+			<field name="inventor" value="RODNEI BERTAZZOLI"/>
+			<field name="inventor" value="ROSANA APARECIDA DI IGLIA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/46AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C02F101/20AN"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="101"/>
+				<field name="subgroup" value="20AN"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;REATOR ELETROQUìMICO UTILIZADO NO TRATAMENTO DE EFLUENTES AQUOSOS CONTENDO METAIS PESADOS&quot; Este desenvolvimento refere-se a um equipamento (reator eletroquímico e/ou eletrolítico) destinado ao tratamento e/ou despoluição de efluentes aquosos contendo metais pesados advindos das indústrias de tratamentos de superfície, de explosivos, metal-mecânica, de fertilizantes, da produção de jóias e semijóias e outras. Este equipamento utiliza processos eletroquímicos e/ou eletrolíticos, através de células eletroquímicas e/ou eletrolíticas empregando catodos tridimensionais (esponjas de carbono vítreo reticulado, esponjas metálicas, etc.). O reator eletroquímico e/ou eletrolítico desenvolvido promove a remoção catódica de íons metálicos presentes no efluente. A eficiência do equipamento foi verificada tratando-se efluentes contendo alguns íons de metais pesados, como cobre, chumbo e zinco em diferentes meios. Nos ensaios realizados em um reator eletroquímico na escala de bancada, os teores metálicos foram reduzidos de aproximadamente 50 mg.L-^ 1^ para 0,1 mg.L-^ 1^ em 30 minutos, equivalendo a uma taxa de remoção em torno de 99,9%."/>
+			<field name="originatesFrom" value="3945179"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0004093"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0004093"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0004093"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000004093"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0004093-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person5827" type="Person">
+			<semanticIdentifier>lattes::9871865009697049</semanticIdentifier>
+			<field name="identifier.lattes" value="9871865009697049"/>
+			<field name="name" value="Christiane de Arruda Rodrigues"/>
+		</entity>
+		<entity ref="OrgUnit4605" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8546" toEntityRef="Person5827" type="Inventor"/>
+		<relation fromEntityRef="Patent8546" toEntityRef="OrgUnit4605" type="Applicant"/>
+	</relations>
+</entity-relation-data>

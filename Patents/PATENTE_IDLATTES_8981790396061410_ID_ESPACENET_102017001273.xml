@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:58:26" record="30010" source="Espacenet">
+	<entities>
+		<entity ref="Patent30010" type="Patent">
+			<semanticIdentifier>brcris::c3caac3cf3cc2c7a1aaf44e176273114</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001273A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017001273</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017001273A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171001273</semanticIdentifier>
+			<semanticIdentifier>original::102017001273</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017001273"/>
+			<field name="identifier.lattes" value="8981790396061410"/>
+			<field name="identifier.espacenet" value="102017001273"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composição de bebida alimentícia reidratante"/>
+			<field name="title.lattes" value="Composição de bebida alimentícia reidratante"/>
+			<field name="depositDate" value="2017-01-20"/>
+			<field name="publicationDate" value="2018-08-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FABIANE ARAUJO SAMPAIO"/>
+			<field name="inventor" value="LIVIO CESAR CUNHA NUNES"/>
+			<field name="inventor" value="LUANNE MORAIS VIEIRA GALVAO"/>
+			<field name="inventor" value="MARCOS ANTONIO PEREIRA DOS SANTOS"/>
+			<field name="inventor" value="ROBSON ALVES DA SILVA"/>
+			<field name="applicant" value="FITO FIT - SUPLEMENTOS E PRODUTOS NATURAIS"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23L2/02AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A23L2/52AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="52AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composição de bebida alimentícia reidratante a presente invenção se refere à formulação de bebida alimentícia com aplicação na área de saúde e da indústria alimentícia. a invenção foi formulada para ser consumida pelos praticantes de atividade física (profissionais ou amadores), facilitando a sua reidratação e reposição de minerais durante ou após a prática de exercícios físicos, utilizando a cajuína para agregar valor ao produto. a formulação do repositor hidroeletrolítico consiste de uma composição de ingredientes contendo: água, suco de caju clarificado (cajuína), sacarose, cloreto de sódio, citrato de sódio, fosfato de potássio e ácido cítrico, podendo conter cafeina e taurina (caracterizando-a como bebida energética e podendo, ainda, ser gaseificada."/>
+			<field name="originatesFrom" value="63451681"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001273"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017001273"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017001273"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171001273"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017001273"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20615" type="Person">
+			<semanticIdentifier>lattes::8981790396061410</semanticIdentifier>
+			<field name="identifier.lattes" value="8981790396061410"/>
+			<field name="name" value="Marcos Antonio Pereira dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit16129" type="OrgUnit">
+			<semanticIdentifier>brcris::4b6107aefedefcc50d6792ceb692d145</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PIAUI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30010" toEntityRef="Person20615" type="Inventor"/>
+		<relation fromEntityRef="Patent30010" toEntityRef="OrgUnit16129" type="Applicant"/>
+	</relations>
+</entity-relation-data>

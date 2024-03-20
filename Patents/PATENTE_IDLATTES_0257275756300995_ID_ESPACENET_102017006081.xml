@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:44:08" record="23237" source="Espacenet">
+	<entities>
+		<entity ref="Patent23237" type="Patent">
+			<semanticIdentifier>brcris::e685e93d12cda2d1dd93bf5aeb279e98</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017006081A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017006081</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017006081A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171006081</semanticIdentifier>
+			<semanticIdentifier>original::102017006081</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017006081"/>
+			<field name="identifier.lattes" value="0257275756300995"/>
+			<field name="identifier.espacenet" value="102017006081"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para remoção de substrato e equipamento de vibração"/>
+			<field name="title.lattes" value="Sistema para remoção de substrato e equipamento de vibração"/>
+			<field name="depositDate" value="2017-03-24"/>
+			<field name="publicationDate" value="2018-10-30"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FELIPE LUZ BARBOSA DE CASTRO"/>
+			<field name="inventor" value="JOSE PAULO RODRIGUES FURTADO DE MENDONCA"/>
+			<field name="inventor" value="PEDRO PAULO FERREIRA"/>
+			<field name="inventor" value="RODRIGO ALVES DIAS"/>
+			<field name="inventor" value="VALMAR CARNEIRO BARBOSA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+			<field name="applicant" value="VALE S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B60P1/58AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="58AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B60P1/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="60"/>
+				<field name="subclass" value="P"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="descreve-se um sistema configurado para a remoção de substrato 2 de um recipiente transportador de minérios. dito sistema é configurado para retirada do peso morto que adere à superfície interna de caçambas 1 e vagões ferroviários durante o transporte de material úmido. dentre as características compreendidas por esse sistema, estão a inclusão de dois equipamentos de vibração 5,5? que operam a frequências diferentes e a compreensão de um software que ajusta automaticamente a frequência de vibração dos equipamentos de vibração 5,5? conforme a umidade e o tipo de material aderido à superfície da caçamba 1 ou vagão ferroviário."/>
+			<field name="originatesFrom" value="64269022"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017006081"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017006081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017006081"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171006081"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017006081"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16112" type="Person">
+			<semanticIdentifier>lattes::0257275756300995</semanticIdentifier>
+			<field name="identifier.lattes" value="0257275756300995"/>
+			<field name="name" value="Jose Paulo Rodrigues Furtado de Mendonca"/>
+		</entity>
+		<entity ref="OrgUnit12472" type="OrgUnit">
+			<semanticIdentifier>brcris::b91d55dc951815a3e3ea026e6ac35d41</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA"/>
+		</entity>
+		<entity ref="OrgUnit12473" type="OrgUnit">
+			<semanticIdentifier>brcris::2fa354bb34b034123cc5bb13bb076ecd</semanticIdentifier>
+			<field name="name" value="VALE S/A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent23237" toEntityRef="Person16112" type="Inventor"/>
+		<relation fromEntityRef="Patent23237" toEntityRef="OrgUnit12472" type="Applicant"/>
+		<relation fromEntityRef="Patent23237" toEntityRef="OrgUnit12473" type="Applicant"/>
+	</relations>
+</entity-relation-data>

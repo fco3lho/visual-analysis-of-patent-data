@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:07" record="5146" source="Espacenet">
+	<entities>
+		<entity ref="Patent5146" type="Patent">
+			<semanticIdentifier>brcris::cf1e226f5e336caaff6366026480481a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9501146A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9501146</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI9501146A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1995PI01146</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9501146"/>
+			<field name="identifier.lattes" value="1485182709973619"/>
+			<field name="identifier.espacenet" value="9501146"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Carroceria de veículo arco estrutural veículo automotor e processo de fabricaçao de um veículo"/>
+			<field name="title.lattes" value="CARROCERIA DE VEÍCULO, ARCO ESTRUTURAL, VEÍCULO AUTOMOTOR E PROCESSO DE FABRICAÇÃO DE UM VEÍCULO."/>
+			<field name="depositDate" value="1995-03-21"/>
+			<field name="publicationDate" value="1997-05-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO EUSTAQUIO SIROLLI FERREIRA"/>
+			<field name="inventor" value="WILIANS RUBENS PEZZO"/>
+			<field name="applicant" value="MERCEDES-BENZ DO BRASIL S/A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B62D31/02AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="62"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="originatesFrom" value="50238650"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9501146"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9501146"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI9501146"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1995PI01146"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=AR000765"/>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=UY24148"/>
+		</entity>
+		<entity ref="Person3356" type="Person">
+			<semanticIdentifier>lattes::1485182709973619</semanticIdentifier>
+			<field name="identifier.lattes" value="1485182709973619"/>
+			<field name="name" value="Antonio Eustaquio Sirolli Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit2648" type="OrgUnit">
+			<semanticIdentifier>brcris::f67cf3c0bb7d9e81dd0a5214d7ef3880</semanticIdentifier>
+			<field name="name" value="MERCEDES-BENZ DO BRASIL S/A"/>
+		</entity>
+		<entity ref="Patent5147" type="Patent">
+			<semanticIdentifier>epodoc::AR000765</semanticIdentifier>
+			<field name="countryCode" value="AR"/>
+			<field name="originatesFrom" value="50238650"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="AR"/>
+				<field name="number" value="AR000765"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Patent5148" type="Patent">
+			<semanticIdentifier>epodoc::UY24148</semanticIdentifier>
+			<field name="countryCode" value="UY"/>
+			<field name="originatesFrom" value="50238650"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="UY"/>
+				<field name="number" value="UY24148"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5146" toEntityRef="Person3356" type="Inventor"/>
+		<relation fromEntityRef="Patent5146" toEntityRef="OrgUnit2648" type="Applicant"/>
+	</relations>
+</entity-relation-data>

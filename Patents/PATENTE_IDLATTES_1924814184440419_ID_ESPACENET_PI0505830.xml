@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:41:46" record="21976" source="Espacenet">
+	<entities>
+		<entity ref="Patent21976" type="Patent">
+			<semanticIdentifier>brcris::98d640f632b0a11ce8d2e869efda2873</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505830A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505830</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505830A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05830</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505830-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505830"/>
+			<field name="identifier.lattes" value="1924814184440419"/>
+			<field name="identifier.espacenet" value="PI0505830"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="medidor de camada de serapilheira"/>
+			<field name="title.lattes" value="Medidor de camada serapilheira"/>
+			<field name="depositDate" value="2005-11-28"/>
+			<field name="publicationDate" value="2007-09-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BEN HUR MARIMON JUNIOR"/>
+			<field name="inventor" value="JOHN DU VALL HAY"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01C5/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="MEDIDOR DE CAMADA DE SERAPILHEIRA. Ferramenta composta de duas partes conectáveis para coletar e medir a espessura de amostras da camada de serapilheira em florestas nativas ou plantadas."/>
+			<field name="originatesFrom" value="38516031"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505830"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505830"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505830"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05830"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505830-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person15186" type="Person">
+			<semanticIdentifier>lattes::1924814184440419</semanticIdentifier>
+			<field name="identifier.lattes" value="1924814184440419"/>
+			<field name="name" value="John Du Vall Hay"/>
+		</entity>
+		<entity ref="OrgUnit11863" type="OrgUnit">
+			<semanticIdentifier>brcris::7259df9d676146d4a071204c9276c546</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent21976" toEntityRef="Person15186" type="Inventor"/>
+		<relation fromEntityRef="Patent21976" toEntityRef="OrgUnit11863" type="Applicant"/>
+	</relations>
+</entity-relation-data>

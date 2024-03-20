@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:57" record="6861" source="Espacenet">
+	<entities>
+		<entity ref="Patent6861" type="Patent">
+			<semanticIdentifier>brcris::a449b699e681c04bd1f276e6d05b9d71</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015032185U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015032185U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015032185U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152032185U</semanticIdentifier>
+			<semanticIdentifier>original::202015032185</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015032185"/>
+			<field name="identifier.lattes" value="8038265276112768"/>
+			<field name="identifier.espacenet" value="202015032185"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="equipamento modular para geração de vapor com arrasto de óleo essencial para utilização em saunas"/>
+			<field name="title.lattes" value="Equipamento Modular para geração de vapor com arrasto de óleo essencial para utilização em saunas"/>
+			<field name="depositDate" value="2015-12-22"/>
+			<field name="publicationDate" value="2018-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMILO FREDDY MENDOZA MOREJON"/>
+			<field name="inventor" value="DANIELA CRISTINA DE OLIVEIRA BUENO"/>
+			<field name="inventor" value="JEFERSON GUILHERME BLAUTH"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61H33/06AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="06AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F22B33/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="22"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="equipamento modular para geração de vapor com arrasto de óleo essencial para utilização em saunas . patente modelo de utilidade refere-se a um conjunto de componentes que propiciam a geração de vapor aromatizado para uso em saunas o qual possui elementos que conferem características diferenciadas na forma e na sua estrutura, os quais quando combinados de forma criativa resultaram numa nova forma e arranjo tecnológico que contribui para a melhoria funcional, proporcionando maximização do aproveitamento da energia e também a sua versatilidade da sua aplicação. o aroma do vapor é proveniente de óleos essenciais de folhas vegetais, de raízes, de flores, de cavacos, de cascas de frutos entre outros. o equipamento é dotado de um gerador de vapor constituído de elementos que auxiliam a fluidodinâmica e facilitam o escoamento dos fluidos entre os equipamentos, dotado também de leitos modulares de extração, compostos por gavetas para colocação dos materiais que contém óleos essenciais, que de acordo com a demanda o número de gavetas pode ser expandido conferindo-lhe versatilidade quanto a sua aplicação em diversos tamanhos e capacidades."/>
+			<field name="originatesFrom" value="62017093"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015032185"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015032185U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015032185"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152032185U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015032185"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202015032185Y"/>
+		</entity>
+		<entity ref="Person4594" type="Person">
+			<semanticIdentifier>lattes::8038265276112768</semanticIdentifier>
+			<field name="identifier.lattes" value="8038265276112768"/>
+			<field name="name" value="Camilo Freddy Mendoza Morejon"/>
+		</entity>
+		<entity ref="OrgUnit3631" type="OrgUnit">
+			<semanticIdentifier>brcris::d3cb61a8961c29747cd77f29a5d6d28b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DO OESTE DO PARANA - UNIOESTE"/>
+		</entity>
+		<entity ref="Patent6862" type="Patent">
+			<semanticIdentifier>epodoc::BR202015032185Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62017093"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015032185Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6861" toEntityRef="Person4594" type="Inventor"/>
+		<relation fromEntityRef="Patent6861" toEntityRef="OrgUnit3631" type="Applicant"/>
+	</relations>
+</entity-relation-data>

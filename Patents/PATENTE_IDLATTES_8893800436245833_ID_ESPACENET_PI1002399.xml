@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:14:07" record="38213" source="Espacenet">
+	<entities>
+		<entity ref="Patent38213" type="Patent">
+			<semanticIdentifier>brcris::6aeef349121ea4fae22e3e41bb790f54</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002399A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1002399</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1002399A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI02399</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1002399-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1002399"/>
+			<field name="identifier.lattes" value="8893800436245833"/>
+			<field name="identifier.espacenet" value="PI1002399"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo automatizado para abertura de invàlucros metÁlicos"/>
+			<field name="title.lattes" value="Dispositivo Automatizado para Abertura de Invólucros Metálicos"/>
+			<field name="depositDate" value="2010-04-28"/>
+			<field name="publicationDate" value="2013-04-16"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE URBANO"/>
+			<field name="inventor" value="JAIR SCARMINIO"/>
+			<field name="inventor" value="RICARDO FLORIANO"/>
+			<field name="applicant" value="FUNDACAO ARAUCARIA DE APOIO AO DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO DO PARANA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H01M2/10AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="M"/>
+				<field name="group" value="2"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO AUTOMATIZADO PARA ABERTURA DE INVàLUCROS METÁLICOS - O Dispositivo automatizado para bertura de invólucros mtálicos, compreende um dispositivo para corte automatizado de baterias desenvolvido especialmente para aumentar a segurança e diminuir o tempo do processo de abertura das mesmas, auxiliando o resgate do seu conteúdo de forma intacta e preservada, possibilitando dominuição de etapas dos processos de reciclagem dos seus elementos químicos."/>
+			<field name="originatesFrom" value="48051777"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002399"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1002399"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1002399"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI02399"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1002399-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26320" type="Person">
+			<semanticIdentifier>lattes::8893800436245833</semanticIdentifier>
+			<field name="identifier.lattes" value="8893800436245833"/>
+			<field name="name" value="Ricardo Floriano"/>
+		</entity>
+		<entity ref="OrgUnit20622" type="OrgUnit">
+			<semanticIdentifier>brcris::05f666a20837b56ceebc2c7d141a8e2e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE LONDRINA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent38213" toEntityRef="Person26320" type="Inventor"/>
+		<relation fromEntityRef="Patent38213" toEntityRef="OrgUnit20622" type="Applicant"/>
+	</relations>
+</entity-relation-data>

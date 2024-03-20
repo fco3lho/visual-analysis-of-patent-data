@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:59:31" record="30581" source="Espacenet">
+	<entities>
+		<entity ref="Patent30581" type="Patent">
+			<semanticIdentifier>brcris::a7cfd710ac35ab315aab54b98f882d32</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9000002U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9000002U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9000002U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1990MU00002U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 9000002-1</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9000002"/>
+			<field name="identifier.lattes" value="5979760978667174"/>
+			<field name="identifier.espacenet" value="MU9000002"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="dispositivo pré-amplificador sensìvel à tensão para detectores de radiação semicondutores"/>
+			<field name="title.lattes" value="Dispositivo pré-amplificador sensível à tensão para detectores de radiação semicondutores."/>
+			<field name="depositDate" value="2010-02-05"/>
+			<field name="publicationDate" value="2011-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS HENRIQUE DE MESQUITA"/>
+			<field name="inventor" value="FABIO EDUARDO DA COSTA"/>
+			<field name="inventor" value="MARGARIDA MIZUE HAMADA"/>
+			<field name="inventor" value="PAULO ROBERTO RELA"/>
+			<field name="applicant" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H03F3/16AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="16AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01T7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="DISPOSITIVO PRé-AMPLIFICADOR SENSIVEL à TENSãO PARA DETECTORES DE RADIAçãO SEMICONDUTORES. De acordo com o presente modelo de utilidade aqui descrito, este pré-amplificador sensível à tensão para detectores de radiação semicondutores substitui os pré-amplificadores sensíveis à carga, com dimensões e características apropriadas para as aplicações propostas. Apresenta ainda a facilidade de ser reproduzido com componentes comerciais (&quot;de prateleira&quot;) apresentando ganho e ruido eletrónico compatível com as aplicações sugeridas devido as rede RC e de realimentação utilizadas. Possui ainda boa imunidade eletromagnética devido a baixa impedância de saida como nos amplificadores sensíveis à carga comerciais."/>
+			<field name="originatesFrom" value="44653826"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9000002"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9000002U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9000002"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1990MU00002U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 9000002-1"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person20973" type="Person">
+			<semanticIdentifier>lattes::5979760978667174</semanticIdentifier>
+			<field name="identifier.lattes" value="5979760978667174"/>
+			<field name="name" value="Margarida Mizue Hamada"/>
+		</entity>
+		<entity ref="OrgUnit16374" type="OrgUnit">
+			<semanticIdentifier>brcris::88c5b60416da56566569f7bc2eeaeff7</semanticIdentifier>
+			<field name="name" value="COMISSAO NACIONAL DE ENERGIA NUCLEAR"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent30581" toEntityRef="Person20973" type="Inventor"/>
+		<relation fromEntityRef="Patent30581" toEntityRef="OrgUnit16374" type="Applicant"/>
+	</relations>
+</entity-relation-data>

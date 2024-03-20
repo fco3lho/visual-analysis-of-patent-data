@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:42" record="6715" source="Espacenet">
+	<entities>
+		<entity ref="Patent6715" type="Patent">
+			<semanticIdentifier>brcris::e97f1cde36b20bdbc315a9b08ee0275f</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018077518A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018077518</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018077518A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181077518</semanticIdentifier>
+			<semanticIdentifier>original::102018077518</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018077518"/>
+			<field name="identifier.lattes" value="3532058764024942"/>
+			<field name="identifier.espacenet" value="102018077518"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de obtenção de espumas celulósicas, espumas celulósicas e seu uso"/>
+			<field name="title.lattes" value="PROCESSO DE OBTENÇÃO DE ESPUMAS CELULÓSICAS, ESPUMAS CELULÓSICAS E SEU USO"/>
+			<field name="depositDate" value="2018-12-28"/>
+			<field name="publicationDate" value="2020-07-07"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMILA ALVES DE REZENDE"/>
+			<field name="inventor" value="ELISA SILVA FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C08L1/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C09D5/44AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="44AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="D21H11/00AI"/>
+				<field name="section" value="D"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="11"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="processo de obtenção de espumas celulósicas, espumas celulósicas e seu uso esta invenção descreve um processo simples e escalonável de obtenção de espumas celulósicas, em que as fibras de celulose são parcialmente desfibriladas por tratamento ácido, dispersas em água com agitação manual ou mecânica e secas em forno convencional. as espumas celulósicas obtidas são livres de aditivos e apresentam baixa densidade, alta porosidade e resistência mecânica, podendo ser usadas no isolamento acústico, mecânico e / ou térmico, e também na coleta de contaminantes da água."/>
+			<field name="originatesFrom" value="71451500"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018077518"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018077518"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018077518"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181077518"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018077518"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4484" type="Person">
+			<semanticIdentifier>lattes::3532058764024942</semanticIdentifier>
+			<field name="identifier.lattes" value="3532058764024942"/>
+			<field name="name" value="Camila Alves de Rezende"/>
+		</entity>
+		<entity ref="OrgUnit3532" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6715" toEntityRef="Person4484" type="Inventor"/>
+		<relation fromEntityRef="Patent6715" toEntityRef="OrgUnit3532" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:11:21" record="3689" source="Espacenet">
+	<entities>
+		<entity ref="Patent3689" type="Patent">
+			<semanticIdentifier>brcris::9dbff3d93b2c04ee52a70c09dad9fdce</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902868A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0902868</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0902868A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2009PI02868</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0902868-4</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0902868"/>
+			<field name="identifier.lattes" value="2163698776105146"/>
+			<field name="identifier.espacenet" value="PI0902868"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de enriquecer camada superficial de ligas inoxidáveis sob plasma"/>
+			<field name="title.lattes" value="Processo de enriquecer camada superficial de ligas inoxidáveis sob plasma"/>
+			<field name="depositDate" value="2009-08-05"/>
+			<field name="publicationDate" value="2011-04-12"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE PAULO TSCHIPTSCHIN"/>
+			<field name="inventor" value="CARLOS EDUARDO PINEDO"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO - FAPESP"/>
+			<field name="applicant" value="HEAT TECH TECNOLOGIA EM TRATAMENTO TERMICO E ENGENHARIA DE SUPERFICIE LTDA"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C23C8/32AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="32AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C23C8/80AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="80AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE ENRIQUECER C.AMADA SUPERFICIAL DE LIGAS INOXIDáVEIS SOB PLASMA O processo da presente invenção refere-se a um processo de enriquecer uma camada superficial de ligas inoxidáveis sob plasma, com condicionamento inicial da atmosfera pela eliminação de oxigênio residual, onde o dito processo compreende simultaneamente as etapas de: a) tratamento por bombardeamento iónico para depassivação e ativação da superfície; b) cementação sob plasma a baixa temperatura; e c) pós-tratamento por bombardeamento iânico. As etapas do dito processo ocorrem de forma seqúencial, em um mesmo ciclo, sem abertura do forno."/>
+			<field name="originatesFrom" value="43837814"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902868"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0902868"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0902868"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2009PI02868"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0902868-4"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person2589" type="Person">
+			<semanticIdentifier>lattes::2163698776105146</semanticIdentifier>
+			<field name="identifier.lattes" value="2163698776105146"/>
+			<field name="name" value="Andre Paulo Tschiptschin"/>
+		</entity>
+		<entity ref="OrgUnit2066" type="OrgUnit">
+			<semanticIdentifier>brcris::c828b77a47af3ffb9aa1be3d8841953e</semanticIdentifier>
+			<field name="name" value="HEAT TECH TECNOLOGIA EM TRATAMENTO TERMICO E ENGENHARIA DE SUPERFICIE LTDA"/>
+		</entity>
+		<entity ref="OrgUnit2067" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="OrgUnit2068" type="OrgUnit">
+			<semanticIdentifier>brcris::0aef10963e96895723d385898985c7b7</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent3689" toEntityRef="Person2589" type="Inventor"/>
+		<relation fromEntityRef="Patent3689" toEntityRef="OrgUnit2066" type="Applicant"/>
+		<relation fromEntityRef="Patent3689" toEntityRef="OrgUnit2067" type="Applicant"/>
+		<relation fromEntityRef="Patent3689" toEntityRef="OrgUnit2068" type="Applicant"/>
+	</relations>
+</entity-relation-data>

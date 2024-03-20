@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:14:25" record="5980" source="Espacenet">
+	<entities>
+		<entity ref="Patent5980" type="Patent">
+			<semanticIdentifier>brcris::74db5e7bb1827d39b3209f66bacf2432</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8903119U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU8903119U</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU8903119U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1989MU03119U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU 8903119-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU8903119"/>
+			<field name="identifier.lattes" value="2784997614182231"/>
+			<field name="identifier.espacenet" value="MU8903119"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.espacenet" value="mÉtodo de contorno ativo psnakes"/>
+			<field name="title.lattes" value="Método de contornos ativos psnakes"/>
+			<field name="depositDate" value="2009-12-21"/>
+			<field name="publicationDate" value="2012-01-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AUZUIR RIPARDO DE ALEXANDRIA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B8/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Método de contornos ativos pSnakes A técnica apresentada nesta patente é baseada no fato de que os feixes de aparelhos de ultrassom partem (divergem) de um único ponto da sonda (origem). Assim, torna-se natural o uso de coordenadas polares (raio, ângulo) em técnica de segmentação de imagens dessa modalidade. A técnica desenvolvida é denominada de pSnakes e se baseia em algoritmos de contornos ativos (snakes). Isso permite a segmentação de imagens de ultrassom, em especial imagens de ecocardiograma do ventrículo esquerdo. Os pontos de controle -ou nós do contorno ativo são trabalhados em par e denominados como nós gêmeos. As forças de curvatura e continuidade são redefinidas (energias internas). Além disso, são definidas novas energias externas: campo assintático e campo hilbertiano. A principal vantagem deste novo método é a sua baixa complexidade computacional, o que possibilita o uso embarcado no próprio equipamento de ultrassom, ou seja, em tempo real. Sendo assim, não é necessário haver excessivas conversões de coordenadas, pois as imagens são analisadas diretamente no formato polar."/>
+			<field name="originatesFrom" value="45390448"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8903119"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU8903119U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU8903119"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1989MU03119U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU 8903119-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3947" type="Person">
+			<semanticIdentifier>lattes::2784997614182231</semanticIdentifier>
+			<field name="identifier.lattes" value="2784997614182231"/>
+			<field name="name" value="Auzuir Ripardo de Alexandria"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5980" toEntityRef="Person3947" type="Inventor"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:46:13" record="24234" source="Espacenet">
+	<entities>
+		<entity ref="Patent24234" type="Patent">
+			<semanticIdentifier>brcris::ae42d0473c3a3e81df05f65092aafaeb</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302343A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0302343</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0302343A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20030302343</semanticIdentifier>
+			<semanticIdentifier>original::0302343-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0302343"/>
+			<field name="identifier.lattes" value="1412260545035778"/>
+			<field name="identifier.espacenet" value="0302343"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Utilização das técnicas voltamétricas para o estudo do mecanismo de clivagem do dna"/>
+			<field name="title.lattes" value="Utilização das técnicas voltamétricas para o estudo do mecanismo de clivagem do DNA"/>
+			<field name="depositDate" value="2003-05-02"/>
+			<field name="publicationDate" value="2005-03-29"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS BLOCH JUNIOR"/>
+			<field name="inventor" value="CLARISSA SILVA PIRES DE CASTRO"/>
+			<field name="inventor" value="JURANDIR RODRIGUES DE SOUZA"/>
+			<field name="applicant" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C12Q1/26AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="26AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C12Q1/6806AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="6806AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="C12Q1/6809AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="12"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="6809AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;UTILIZAçãO DAS TéCNICAS VOLTAMéTRICAS PARA O ESTUDO DO MECANISMO DE CLIVAGEM DO DNA&quot;. Concretizada na forma de um método voltamétrico para a elucidação do mecanismo da reação de clivagem de um oligodesoxiribonucleotídeo fita dupla de 19 mer catalisada pela metaloenzima de zinco nuclease mung bean. Um mecanismo do tipo S~ N~2 concertado com a participação dos três íons zinco do sítio ativo da nuclease mung bean (Zn1, Zn2 e Zn3) na reação de clivagem do oligo fita dupla foi proposto. Neste mecanismo, a hidrólise das ligações fosfodiésteres ocorre com inversão de configuração no átomo de fósforo, formando um estado de transição pentacoordenado, o qual é estabilizado por uma arginina. Um ácido aspártico, ligante do Zn2, ajuda a orientar o nucleófilo para a reação. O íon Zn2, além de fornecer o nucleófilo (função catalítica), ativa o oligo por meio de sua coordenação ao oxigênio livre do fosfato da ligação fosfodiéster que será hidrolisada. Os íons Zn1 e Zn3, além de estabilizarem a estrutura terciária da nuclease mung bean (funções estruturais), se ligam ao grupo abandonador durante a reação de clivagem, impedindo que o mesmo reaja com o estado de transição formado e promova a reação reversa."/>
+			<field name="originatesFrom" value="34383224"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302343"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0302343"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0302343"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20030302343"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0302343-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person16860" type="Person">
+			<semanticIdentifier>lattes::1412260545035778</semanticIdentifier>
+			<field name="identifier.lattes" value="1412260545035778"/>
+			<field name="name" value="Jurandir Rodrigues de Souza"/>
+		</entity>
+		<entity ref="OrgUnit13061" type="OrgUnit">
+			<semanticIdentifier>brcris::7259df9d676146d4a071204c9276c546</semanticIdentifier>
+			<field name="name" value="FUNDACAO UNIVERSIDADE DE BRASILIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent24234" toEntityRef="Person16860" type="Inventor"/>
+		<relation fromEntityRef="Patent24234" toEntityRef="OrgUnit13061" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:24" record="15840" source="Espacenet">
+	<entities>
+		<entity ref="Patent15840" type="Patent">
+			<semanticIdentifier>brcris::1605a8344290d751c1912e4091be559d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803478A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0803478</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0803478A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI03478</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0803478-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0803478"/>
+			<field name="identifier.lattes" value="4445980482980663"/>
+			<field name="identifier.espacenet" value="PI0803478"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento e método de definição automática de compensação reativa e/ou de distúrbios de corrente utilizando medição em tempo real"/>
+			<field name="title.lattes" value="Equipamento e método de definição automática de compensação reativa e/ou de distúrbios de corrente utilizando medição em tempo real. Protocolo de patente: 018080058545 (19/09/08)."/>
+			<field name="depositDate" value="2008-09-19"/>
+			<field name="publicationDate" value="2011-05-17"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE CANDIDO MOREIRA"/>
+			<field name="inventor" value="FERNANDO PINHABEL MARAFAO"/>
+			<field name="inventor" value="SIGMAR MAURER DECKMANN"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05F1/70AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="70AI"/>
+			</field>
+			<field name="abstract.espacenet" value="EQUIPAMENTO E MéTODO DE DEFINIçãO AUTOMáTICA DE COMPENSAçãO REATIVA E/OU DE DISTúRBIOS DE CORRENTE UTILIZANDO MEDIçãO EM TEMPO REAL. A presente invenção compreende um equipamento e método que, a partir da medição em tempo real do fator de potência e de outras grandezas, é capaz de sugerir automaticamente opções de sistemas de compensação reativa, desequilíbrios e de harmónicas para uma instalação, de forma a corrigir o fator de potência, minimizar as perdas de energia elétrica, bem como tornar o sistema de fornecimento mais robusto e confiável. Em especial, as soluções propostas pelo sistema compreendem diferentes configurações de bancos de capacitores, filtros passivos, ativos ou híbridos (compensadores eletrónicos), por exemplo."/>
+			<field name="originatesFrom" value="43983809"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803478"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0803478"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0803478"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI03478"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0803478-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10968" type="Person">
+			<semanticIdentifier>lattes::4445980482980663</semanticIdentifier>
+			<field name="identifier.lattes" value="4445980482980663"/>
+			<field name="name" value="Fernando Pinhabel Marafão"/>
+		</entity>
+		<entity ref="OrgUnit8572" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15840" toEntityRef="Person10968" type="Inventor"/>
+		<relation fromEntityRef="Patent15840" toEntityRef="OrgUnit8572" type="Applicant"/>
+	</relations>
+</entity-relation-data>

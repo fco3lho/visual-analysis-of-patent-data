@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:44" record="5520" source="Espacenet">
+	<entities>
+		<entity ref="Patent5520" type="Patent">
+			<semanticIdentifier>brcris::d73815ae41480ee6e5e200875ce48819</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0206718A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0206718</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0206718A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020206718</semanticIdentifier>
+			<semanticIdentifier>original::0206718-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0206718"/>
+			<field name="identifier.lattes" value="3710340061939187"/>
+			<field name="identifier.espacenet" value="0206718"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método preditivo, multivariável não linear para controle de processos"/>
+			<field name="title.lattes" value="Método Preditivo, Multivariável Não Linear para o Controle de Processos"/>
+			<field name="depositDate" value="2002-12-26"/>
+			<field name="publicationDate" value="2004-09-21"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ARGIMIRO RESENDE SECHI"/>
+			<field name="inventor" value="JORGE OTAVIO TRIERWEILER"/>
+			<field name="inventor" value="RICARDO GUILHERME DURAISKI"/>
+			<field name="applicant" value="COPENE PETROQUIMICA DO NORDESTE S/A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G05G13/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="G"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;MéTODO PREDITIVO, MULTIVARIáVEL NãO LINEAR PARA O CONTROLE DE PROCESSOS&quot;. é descrito um método de controle preditivo multivariável não linear, que determina o conjunto de ações de controle de forma iterativa por sucessivas aproximações lineares do modelo não linear, com diferenciação dos modelos ao longo da trajetória de predição. O método de controle iterativo descrito soluciona o problema de minimização de um modelo totalmente não linear pela resolução sucessiva de problema de programação quadrática."/>
+			<field name="originatesFrom" value="32968086"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0206718"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0206718"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0206718"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020206718"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0206718-8"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3633" type="Person">
+			<semanticIdentifier>lattes::3710340061939187</semanticIdentifier>
+			<field name="identifier.lattes" value="3710340061939187"/>
+			<field name="name" value="Argimiro Resende Secchi"/>
+		</entity>
+		<entity ref="OrgUnit2858" type="OrgUnit">
+			<semanticIdentifier>brcris::d2de58bb9f0b3621bfb3931e2401279b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5520" toEntityRef="Person3633" type="Inventor"/>
+		<relation fromEntityRef="Patent5520" toEntityRef="OrgUnit2858" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:22:06" record="10225" source="Espacenet">
+	<entities>
+		<entity ref="Patent10225" type="Patent">
+			<semanticIdentifier>brcris::ad66fe854db4a809d53059f53ea85fa4</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015019456U2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR202015019456U</semanticIdentifier>
+			<semanticIdentifier>docdb::BR202015019456U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20152019456U</semanticIdentifier>
+			<semanticIdentifier>original::202015019456</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=202015019456"/>
+			<field name="identifier.lattes" value="6004612278397270"/>
+			<field name="identifier.espacenet" value="202015019456"/>
+			<field name="kindCode" value="U2"/>
+			<field name="title.lattes" value="Transformador a Óleo Vegetal e Núcleo Amorfo para Distribuição de Energia Elétrica Dotado de Sistema de Monitoramento de Temperatura"/>
+			<field name="depositDate" value="2015-08-13"/>
+			<field name="publicationDate" value="2016-09-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE ZANINI"/>
+			<field name="inventor" value="AYRTON APARECIDO BARDEJA"/>
+			<field name="inventor" value="DANIEL PINHEIRO BERNARDON"/>
+			<field name="inventor" value="DION LENON PREDIGER FEIL"/>
+			<field name="inventor" value="LEONARDO HAUTRIVE MEDEIROS"/>
+			<field name="inventor" value="MARCIO APARECIDO TARDIVO"/>
+			<field name="inventor" value="TIAGO BANDEIRA MARCHESAN"/>
+			<field name="applicant" value="MUXFELDT, MARIN &amp; CIA. LTDA"/>
+			<field name="applicant" value="ROMAGNOLE PRODUTOS ELETRICOS S.A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+			<field name="originatesFrom" value="62485843"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015019456"/>
+				<field name="kind" value="U2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015019456U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="202015019456"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20152019456U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="202015019456"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BR202015019456Y"/>
+		</entity>
+		<entity ref="Person7043" type="Person">
+			<semanticIdentifier>lattes::6004612278397270</semanticIdentifier>
+			<field name="identifier.lattes" value="6004612278397270"/>
+			<field name="name" value="Daniel Pinheiro Bernardon"/>
+		</entity>
+		<entity ref="OrgUnit5606" type="OrgUnit">
+			<semanticIdentifier>brcris::6e6ed8662b986b96a24d1740db182aef</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA MARIA"/>
+		</entity>
+		<entity ref="Patent10226" type="Patent">
+			<semanticIdentifier>epodoc::BR202015019456Y</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="62485843"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR202015019456Y"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10225" toEntityRef="Person7043" type="Inventor"/>
+		<relation fromEntityRef="Patent10225" toEntityRef="OrgUnit5606" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:48:06" record="25255" source="Espacenet">
+	<entities>
+		<entity ref="Patent25255" type="Patent">
+			<semanticIdentifier>brcris::34fd6b77548e4b9c84762a589aa883ae</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017000559A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017000559</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017000559A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171000559</semanticIdentifier>
+			<semanticIdentifier>original::102017000559</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017000559"/>
+			<field name="identifier.lattes" value="5834164334875315"/>
+			<field name="identifier.espacenet" value="102017000559"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="dispositivo para redução de ruídos e emissão de material particulados a partir de unidades geradoras a diesel"/>
+			<field name="title.lattes" value="Dispositivo para Redução de Ruídos e Emissão de Material Particulado a partir de Unidades Geradoras a Diesel"/>
+			<field name="depositDate" value="2017-01-10"/>
+			<field name="publicationDate" value="2018-07-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ERALDO CRUZ DOS SANTOS"/>
+			<field name="inventor" value="FRANCISCO MACHADO DE ASSIS BENTES NETO"/>
+			<field name="inventor" value="JIVAGO VIEIRA MUNIZ DA SILVA"/>
+			<field name="inventor" value="LEANDRO RAFAEL DE MORAES FIGUEIREDO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F01N3/04AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F01N1/08AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="dispositivo para redução de ruídos e emissão de material particulados a partir de unidades geradoras a diesel. a presente invenção se refere a um dispositivo para redução de ruídos e purificação de gases provenientes de unidades diesel geradoras, sendo dotado de entrada (1) e saída de gases (10), carcaça externa (5), anteparos para redirecionamento do fluxo de gases (6), câmara para injeção de água (9) a qual fornece água para os tubos com bicos (8) que farão a pulverização deste líquido no interior do dispositivo, uma tampa superior (7), tubo interno com furos (4) por onde os gases de exaustão provenientes do motor diesel passarão para que ocorra a atenuação do ruído e, por fim, uma bandeja para deposição e remoção do material particulado (2 e 3) que será removido do fluxo de gases."/>
+			<field name="originatesFrom" value="62982964"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017000559"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017000559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017000559"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171000559"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017000559"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person17518" type="Person">
+			<semanticIdentifier>lattes::5834164334875315</semanticIdentifier>
+			<field name="identifier.lattes" value="5834164334875315"/>
+			<field name="name" value="Leandro Rafael de Moraes Figueiredo"/>
+		</entity>
+		<entity ref="OrgUnit13667" type="OrgUnit">
+			<semanticIdentifier>brcris::42afeb3d303bfc80f672242070a7c5c1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent25255" toEntityRef="Person17518" type="Inventor"/>
+		<relation fromEntityRef="Patent25255" toEntityRef="OrgUnit13667" type="Applicant"/>
+	</relations>
+</entity-relation-data>

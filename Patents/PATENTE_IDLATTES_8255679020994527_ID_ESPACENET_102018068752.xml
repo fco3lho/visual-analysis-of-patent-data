@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:19" record="6510" source="Espacenet">
+	<entities>
+		<entity ref="Patent6510" type="Patent">
+			<semanticIdentifier>brcris::60b6ffcf0fe044ca87cccd3b09b06a13</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018068752A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018068752</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018068752A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181068752</semanticIdentifier>
+			<semanticIdentifier>original::102018068752</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018068752"/>
+			<field name="identifier.lattes" value="8255679020994527"/>
+			<field name="identifier.espacenet" value="102018068752"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método de captura e análise de assinatura espectral microbiológica para avaliação e monitoramento terrestre e hidrográfico sob contaminação por petróleo"/>
+			<field name="title.lattes" value="MÉTODO DE CAPTURA E ANÁLISE DA ASSINATURA ESPECTRAL MICROBIOLÓGICA PARA AVALIAÇÃO E MONITORAMENTO TERRESTRE E HIDROGRÁFICO SOB CONTAMINAÇÃO POR PETRÓLEO"/>
+			<field name="depositDate" value="2018-09-14"/>
+			<field name="publicationDate" value="2020-03-24"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="BRUNO GOMES DE SOUSA"/>
+			<field name="inventor" value="CARLOS ALFREDO GALINDO BLAHA"/>
+			<field name="inventor" value="PAULO SERGIO MARINHO LUCIO"/>
+			<field name="inventor" value="VENERANDO EUSTAQUIO AMARO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/17AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="17AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N33/18AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N33/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="abstract.espacenet" value="esta invenção, que utiliza a assinatura espectral microbiológica, é aplicável em áreas geográficas que incluem biomas terrestres e aquáticos. através da captura e análise da assinatura espectral, foram identificadas as assinaturas específicas do microbioma associados a outros elementos bióticos e/ou abióticos, permitindo, assim, a análise da ocorrência microbiológica (presença ou ausência) perante um contaminante, como por exemplo, o petróleo. a essência desta invenção permite verificar o aspecto microbiológico no contexto do dano ambiental anteriormente desconsiderado. a presente invenção, na área das bio-geociências, é aplicável para a detecção, caracterização, avaliação e monitoramento de biomas, de impacto ambiental e de bioprocessos em atividades industriais."/>
+			<field name="originatesFrom" value="70156194"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018068752"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018068752"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018068752"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181068752"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018068752"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4337" type="Person">
+			<semanticIdentifier>lattes::8255679020994527</semanticIdentifier>
+			<field name="identifier.lattes" value="8255679020994527"/>
+			<field name="name" value="Bruno Gomes de Sousa"/>
+		</entity>
+		<entity ref="OrgUnit3397" type="OrgUnit">
+			<semanticIdentifier>brcris::45080c382105e5df08efa0a521074fd3</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6510" toEntityRef="Person4337" type="Inventor"/>
+		<relation fromEntityRef="Patent6510" toEntityRef="OrgUnit3397" type="Applicant"/>
+	</relations>
+</entity-relation-data>

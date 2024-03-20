@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:27:13" record="13239" source="Espacenet">
+	<entities>
+		<entity ref="Patent13239" type="Patent">
+			<semanticIdentifier>brcris::80241d6788bfa4c6ee182da6ababb9ab</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033524A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012033524</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033524A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121033524</semanticIdentifier>
+			<semanticIdentifier>original::102012033524</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012033524"/>
+			<field name="identifier.lattes" value="9405844293925084"/>
+			<field name="identifier.espacenet" value="102012033524"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método e aparelho para avaliar a degradação de papel isolante em transformadores de potência."/>
+			<field name="title.lattes" value="Método e Aparelho para Avaliar a Degradação de Papel Isolante em Transformadores de Potência"/>
+			<field name="depositDate" value="2012-12-28"/>
+			<field name="publicationDate" value="2016-04-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE LUIZ CARNEIRO ARAUJO"/>
+			<field name="inventor" value="CRISTINA M QUINTELLA"/>
+			<field name="inventor" value="ELIAS TEODORO DA SILVA JUNIOR"/>
+			<field name="inventor" value="GLENDO DE FREITAS GUIMARAES"/>
+			<field name="inventor" value="MARCIO DE OLIVEIRA MONTE"/>
+			<field name="inventor" value="MARIANA ANDRADE SANTOS"/>
+			<field name="inventor" value="MARILENA MEIRA"/>
+			<field name="inventor" value="ROGERIO GUERRA DIOGENES FILHO"/>
+			<field name="inventor" value="SAIONARA LUNA"/>
+			<field name="inventor" value="WEIDSON LEAL SILVA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N21/63AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="63AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método e aparelho para avaliar a degradação de papel isolante em transformadores de potência. a presente invenção se refere a um protótipo de sensor baseado em espectrofluorímetro de led com um software estatístico embarcado que permite determinar automaticamente, através da análise espectral de um conjunto de amostras a concentração de monóxido de carbono das ditas amostras. mais especificamente o software estatístico embarcado realiza a classificação das amostras através da análise de componentes principais (pca) dos dados de análise espectrofluorimétrica e determina a concentração de co em amostras desconhecidas através da predição por meio de um modelo construído com padrões através da técnica multivariada dos mínimos quadrados parciais (pls) cujas concentrações de co sejam previamente determinadas por meio de um método de referência tal como cromatografia gasosa."/>
+			<field name="originatesFrom" value="55850969"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033524"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012033524"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033524"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121033524"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012033524"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person9095" type="Person">
+			<semanticIdentifier>lattes::9405844293925084</semanticIdentifier>
+			<field name="identifier.lattes" value="9405844293925084"/>
+			<field name="name" value="Elias Teodoro da Silva Júnior"/>
+		</entity>
+		<entity ref="OrgUnit7140" type="OrgUnit">
+			<semanticIdentifier>brcris::73a75c2b492b967b205313b5258a8efe</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA BAHIA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent13239" toEntityRef="Person9095" type="Inventor"/>
+		<relation fromEntityRef="Patent13239" toEntityRef="OrgUnit7140" type="Applicant"/>
+	</relations>
+</entity-relation-data>

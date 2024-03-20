@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:44" record="18200" source="Espacenet">
+	<entities>
+		<entity ref="Patent18200" type="Patent">
+			<semanticIdentifier>brcris::7b69a837b9917ac729b052fe4719c094</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028831A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015028831</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015028831A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151028831</semanticIdentifier>
+			<semanticIdentifier>original::102015028831</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015028831"/>
+			<field name="identifier.lattes" value="3579190170379504"/>
+			<field name="identifier.espacenet" value="102015028831"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo de produção de micoinseticida a base de fungos da amazônia para controle de aedes aegypiti e produto obtido"/>
+			<field name="title.lattes" value="Processo de produção de micoinseticida a base de fungos da Amazônia para controle de Aedes aegypti e produto obitido"/>
+			<field name="depositDate" value="2015-11-17"/>
+			<field name="publicationDate" value="2017-05-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIA QUEIROZ LIMA DE SOUZA - 10% DA AUTORIA"/>
+			<field name="inventor" value="BRUNO ROMANY DOS SANTOS - 5% DA AUTORIA"/>
+			<field name="inventor" value="GRAFE OLIVEIRA PONTES - 20% DA AUTORIA"/>
+			<field name="inventor" value="ILEA BRANDAO RODRIGUES - 5% DA AUTORIA"/>
+			<field name="inventor" value="MARIA INEZ DDE MOURA SARQUIS - 10% DA AUTORIA"/>
+			<field name="inventor" value="ROSEMARY APARECIDA ROQUE - 5% DA AUTORIA"/>
+			<field name="inventor" value="SILVIA CASSIA BRANDAO JUSTINANO - 5% DA AUTORIA"/>
+			<field name="inventor" value="WANDERLI PEDRO TADEI - 5% DA AUTORIA"/>
+			<field name="inventor" value="WILSON CASTRO SILVA - 5% DA AUTORIA"/>
+			<field name="inventor" value="YAMILE BENAION ALENCAR - 30% DA AUTORIA"/>
+			<field name="applicant" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A01N63/04AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="63"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="resumo processo de produção de micoinseticida a base de fungos da amazônia para controle de aedes aegypiti e produto obtido. refere-se ao processo de produção de uma formulação aquosa que utiliza como base fungos filamentosos, endossimbiontes, com caráter entomopatogênico da espécie isariatenuipese detrichodermasp., isolados do intestino de dípteras de imaturos de simuliidaee de plantas da amazônia, coletados em ecossistemas da região amazônica brasileira, como ovicida e larvicida no controle de aedes aegypiti"/>
+			<field name="originatesFrom" value="59100935"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028831"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015028831"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015028831"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151028831"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015028831"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12584" type="Person">
+			<semanticIdentifier>lattes::3579190170379504</semanticIdentifier>
+			<field name="identifier.lattes" value="3579190170379504"/>
+			<field name="name" value="Grafe Oliveira Pontes"/>
+		</entity>
+		<entity ref="OrgUnit9804" type="OrgUnit">
+			<semanticIdentifier>brcris::8216edde71d5cb54d39cca550db7679d</semanticIdentifier>
+			<field name="name" value="INSTITUTO NACIONAL DE PESQUISAS DA AMAZONIA - INPA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18200" toEntityRef="Person12584" type="Inventor"/>
+		<relation fromEntityRef="Patent18200" toEntityRef="OrgUnit9804" type="Applicant"/>
+	</relations>
+</entity-relation-data>

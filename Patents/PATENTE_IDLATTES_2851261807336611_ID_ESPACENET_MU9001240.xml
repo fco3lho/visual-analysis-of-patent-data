@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:06" record="37480" source="Espacenet">
+	<entities>
+		<entity ref="Patent37480" type="Patent">
+			<semanticIdentifier>brcris::91b5b4b865e5dcada5355f09a0ab9528</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9001240Y1</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRMU9001240Y</semanticIdentifier>
+			<semanticIdentifier>docdb::BRMU9001240U</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR1990MU01240U</semanticIdentifier>
+			<semanticIdentifier>original::MUMU9001240</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=MU9001240"/>
+			<field name="identifier.lattes" value="2851261807336611"/>
+			<field name="identifier.espacenet" value="MU9001240"/>
+			<field name="kindCode" value="Y1"/>
+			<field name="title.espacenet" value="aperfeiçoamento introduzido em dispositivo provido de escala milimétrica para medições faciais e tratamento reabilitador com prótese ocular"/>
+			<field name="title.lattes" value="Aperfeiçoamento introduzido em dispositivo provido de escala milimetrica para medições faciais e tratamento reabilitador com prótese ocular"/>
+			<field name="depositDate" value="2010-07-15"/>
+			<field name="publicationDate" value="2018-06-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="REINALDO BRITO E DIAS"/>
+			<field name="inventor" value="RICARDO CESAR DOS REIS"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B3/11AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="11AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61B5/107AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="107AI"/>
+			</field>
+			<field name="abstract.espacenet" value="aperfeiçoamento introduzido em dispositivo provido de escala milimétrica para medições faciais e tratamento reabilitador com prótese ocular. patente de modelo de utilidade pertence ao campo dos óculos (cip - classificação internacional de patentes g02c) e dos instrumentos para exame dos olhos (cip a61b-3), compreendida por óculos (1) fabricados em acrílico ou outro material, desprovido de lentes na região (2) que permanecerá à frente dos olhos do paciente para possibilitar maior clareza de imagem e impedir o eventual aparecimento de reflexos ou outros elementos quaisquer capazes de dificultar a perfeita visualização da área a ser medida. a peça (1) é construída com moldura superior (3) e lateral (4) espessas e passíveis de receberem, via colagem, impressão, gravação (em baixo ou alto relevo, ou com outra técnica similar) ou pintura, uma escala (5) graduada em milímetros, sendo que opcionalmente a peça pode conter prolongamentos horizontais e/ou verticais (6) que possibilitem a realização de qualquer medida facial do paciente feita por meio de captação de imagem com câmara fotográfica, de vídeo ou equipamento similar encaminhada posteriormente para um computador convencional e aberta em qualquer programa que permita o traçado de linhas que interliguem a área em estudo com a escala milimetrada (5), de modo a permitir a medição exata dos parâmetros necessários."/>
+			<field name="originatesFrom" value="62845838"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9001240"/>
+				<field name="kind" value="Y1"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRMU9001240Y"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="MU9001240"/>
+				<field name="kind" value="U"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR1990MU01240U"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="MU"/>
+				<field name="number" value="MU9001240"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25857" type="Person">
+			<semanticIdentifier>lattes::2851261807336611</semanticIdentifier>
+			<field name="identifier.lattes" value="2851261807336611"/>
+			<field name="name" value="Reinaldo Brito e Dias"/>
+		</entity>
+		<entity ref="OrgUnit20294" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37480" toEntityRef="Person25857" type="Inventor"/>
+		<relation fromEntityRef="Patent37480" toEntityRef="OrgUnit20294" type="Applicant"/>
+	</relations>
+</entity-relation-data>

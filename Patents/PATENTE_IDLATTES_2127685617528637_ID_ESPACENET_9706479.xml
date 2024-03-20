@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:19:53" record="8988" source="Espacenet">
+	<entities>
+		<entity ref="Patent8988" type="Patent">
+			<semanticIdentifier>brcris::eed898b9f42ebf062abc983bace46f94</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9706479A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9706479</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9706479A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979706479</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9706479"/>
+			<field name="identifier.lattes" value="2127685617528637"/>
+			<field name="identifier.espacenet" value="9706479"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Método e aparato para canhoneio e instalação de filtro de areia e câmara receptora de fluxo"/>
+			<field name="title.lattes" value="METODO E APARATO PARA CANHONEIO E INSTALAÇAO DE FILTRO DE AREIA E CAMARA RECEPTORA DE FLUXO - PATENTE PI9706479-3 B1"/>
+			<field name="depositDate" value="1997-12-29"/>
+			<field name="publicationDate" value="1999-07-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CAMPOS LIMA CLAUDIO BENEVENUTO DE"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="E21D5/00AI"/>
+				<field name="section" value="E"/>
+				<field name="class" value="21"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="5"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4068728"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9706479"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9706479"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9706479"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979706479"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person6130" type="Person">
+			<semanticIdentifier>lattes::2127685617528637</semanticIdentifier>
+			<field name="identifier.lattes" value="2127685617528637"/>
+			<field name="name" value="Claudio Benevenuto de Campos Lima"/>
+		</entity>
+		<entity ref="OrgUnit4836" type="OrgUnit">
+			<semanticIdentifier>brcris::bcc892d0b77dad2b257c5474437ac458</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S.A. - PETROBRAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent8988" toEntityRef="Person6130" type="Inventor"/>
+		<relation fromEntityRef="Patent8988" toEntityRef="OrgUnit4836" type="Applicant"/>
+	</relations>
+</entity-relation-data>

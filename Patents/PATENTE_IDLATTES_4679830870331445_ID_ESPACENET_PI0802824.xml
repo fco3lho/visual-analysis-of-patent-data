@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:18" record="17350" source="Espacenet">
+	<entities>
+		<entity ref="Patent17350" type="Patent">
+			<semanticIdentifier>brcris::4ac15566ee2822706d698a305f0dc61c</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802824A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0802824</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0802824A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2008PI02824</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0802824-9</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0802824"/>
+			<field name="identifier.lattes" value="4679830870331445"/>
+			<field name="identifier.espacenet" value="PI0802824"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="processo para quantificação das fases mineralógicas em minérios com altos teores de ferro por espectrofotometria de reflectáncia difusa"/>
+			<field name="title.lattes" value="Processo para quantificação das fases mineralógicas em minérios com altos teores de ferro por espectrofotometria de reflectância difusa"/>
+			<field name="depositDate" value="2008-06-25"/>
+			<field name="publicationDate" value="2010-03-09"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CESAR MENDONCA FERREIRA"/>
+			<field name="inventor" value="GERALDO MAGELA DA COSTA"/>
+			<field name="inventor" value="JOSE TORRENT CASTELLET"/>
+			<field name="inventor" value="VIDAL BARRON LOPEZ DE TORRE"/>
+			<field name="applicant" value="UNIVERSIDAD DE CORDOBA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01N33/24AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="33"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="Processo para quantificação das fases mineralógicas em minérios com altos teores de ferro por espectrofotometria de reflectância difusa. Esta invenção está relacionada a um método para a identificação e quantificação de hematita, martita, especularita, goethita, magnetita e quartzo em minérios contendo altos teores de ferro. Os espectros de reflectância difusa na região do espectro eletromagnético compreendida entre 320 nm e 800 nm são obtidos para amostras cujos teores de especularita, martita, goethita, magnetita e quartzo tenham sido determinados por microscopia ótica, e/ou espectroscopia Mõssbauer, e/ou difração de raios-X, e/ou análises químicas. A partir destes espectros realiza-se uma análise computacional pelo método dos mínimos quadrados parciais das correlações entre log (100/ R) (R = reflectância) e os teores de especularita, martita, goethita, magnetita e quartzo das amostras descritas anteriormente. Estas correlações permitem a determinação dos teores dos minerais acima listados para uma amostra qualquer após a obtenção do espectro de reflectância difusa da mesma"/>
+			<field name="originatesFrom" value="41796310"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802824"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0802824"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0802824"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2008PI02824"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0802824-9"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12025" type="Person">
+			<semanticIdentifier>lattes::4679830870331445</semanticIdentifier>
+			<field name="identifier.lattes" value="4679830870331445"/>
+			<field name="name" value="Geraldo Magela da Costa"/>
+		</entity>
+		<entity ref="OrgUnit9421" type="OrgUnit">
+			<semanticIdentifier>brcris::1a08c9ee6382fc8301c57e8376ab20d8</semanticIdentifier>
+			<field name="name" value="UNIVERSIDAD DE CORDOBA"/>
+		</entity>
+		<entity ref="OrgUnit9422" type="OrgUnit">
+			<semanticIdentifier>brcris::7bef98f9160a983d32b6f16dc0a506f6</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE OURO PRETO"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17350" toEntityRef="Person12025" type="Inventor"/>
+		<relation fromEntityRef="Patent17350" toEntityRef="OrgUnit9421" type="Applicant"/>
+		<relation fromEntityRef="Patent17350" toEntityRef="OrgUnit9422" type="Applicant"/>
+	</relations>
+</entity-relation-data>

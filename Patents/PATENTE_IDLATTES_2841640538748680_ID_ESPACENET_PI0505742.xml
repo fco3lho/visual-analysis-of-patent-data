@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:49:17" record="26011" source="Espacenet">
+	<entities>
+		<entity ref="Patent26011" type="Patent">
+			<semanticIdentifier>brcris::87eace9d8c19d34c9b5b576d7317b948</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505742A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0505742</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0505742A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI05742</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 0505742-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0505742"/>
+			<field name="identifier.lattes" value="2841640538748680"/>
+			<field name="identifier.espacenet" value="PI0505742"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="cúpula luminosa de projeção para topografia de superfìcies refletoras esféricas e não esféricas"/>
+			<field name="title.lattes" value="Cúpula Luminosa de Projeção para Topografia de Superfícies Refletoras Esféricas e Não Esféricas"/>
+			<field name="depositDate" value="2005-12-21"/>
+			<field name="publicationDate" value="2008-04-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CASSIUS RIUL"/>
+			<field name="inventor" value="LILIANE VENTURA"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61B3/107AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="3"/>
+				<field name="subgroup" value="107AI"/>
+			</field>
+			<field name="abstract.espacenet" value="CúPULA LUMINOSA DE PROJEçãO PARA TOPOGRAFIA DE SUPERFìCIES REFLETORAS ESFéRICAS E NãO ESFéRICAS. Refere-se a presente patente a uma cúpula luminosa de projeção para topografia de superfícies refletoras esféricas e não esféricas, constituída por um aparato adaptável à Lâmpada de Fenda, com uso do sistema de iluminação deste equipamento como fonte de sua própria iluminação, para análise das imagens formadas pela reflexão, nas superfícies que se deseja medir, dos círculos contínuos, concêntricos e iluminados, com dimensões variadas de acordo com o tamanho específico de imagem que se deseja analisar e a distância desta ao olho."/>
+			<field name="originatesFrom" value="38173045"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505742"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0505742"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0505742"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI05742"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 0505742-6"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=US2007139658"/>
+		</entity>
+		<entity ref="Person17987" type="Person">
+			<semanticIdentifier>lattes::2841640538748680</semanticIdentifier>
+			<field name="identifier.lattes" value="2841640538748680"/>
+			<field name="name" value="Liliane Ventura"/>
+		</entity>
+		<entity ref="OrgUnit14053" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit14054" type="OrgUnit">
+			<semanticIdentifier>brcris::6dc7b4a4ee39579f4f1a7b44c7399c09</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit14055" type="OrgUnit">
+			<semanticIdentifier>brcris::ceac1273c73f6cb603ffca5b2debc849</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+		<entity ref="Patent26012" type="Patent">
+			<semanticIdentifier>epodoc::US2007139658</semanticIdentifier>
+			<field name="countryCode" value="US"/>
+			<field name="originatesFrom" value="38173045"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="US"/>
+				<field name="number" value="US2007139658"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent26011" toEntityRef="Person17987" type="Inventor"/>
+		<relation fromEntityRef="Patent26011" toEntityRef="OrgUnit14053" type="Applicant"/>
+		<relation fromEntityRef="Patent26011" toEntityRef="OrgUnit14054" type="Applicant"/>
+		<relation fromEntityRef="Patent26011" toEntityRef="OrgUnit14055" type="Applicant"/>
+	</relations>
+</entity-relation-data>

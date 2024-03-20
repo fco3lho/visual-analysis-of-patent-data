@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:04" record="27205" source="Espacenet">
+	<entities>
+		<entity ref="Patent27205" type="Patent">
+			<semanticIdentifier>brcris::5209c74a2cfa9aacfaeeb453aaac98a5</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031526A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015031526</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015031526A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151031526</semanticIdentifier>
+			<semanticIdentifier>original::102015031526</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015031526"/>
+			<field name="identifier.lattes" value="2105539628838057"/>
+			<field name="identifier.espacenet" value="102015031526"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para o uso de água desperdiçada com aquecedores a gás de passagem"/>
+			<field name="title.lattes" value="SISTEMA PARA O USO DA ÁGUA DESPERDIÇADA COM AQUECEDORES A ÁS DE PASSAGEM"/>
+			<field name="depositDate" value="2015-12-16"/>
+			<field name="publicationDate" value="2018-03-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXSANDER FURTADO CARNEIRO"/>
+			<field name="inventor" value="CASSIANO PINZON"/>
+			<field name="inventor" value="CRISTIANO BOSCARDIN"/>
+			<field name="inventor" value="LUIS FERNANDO MELEGARI"/>
+			<field name="applicant" value="IC USINAGEM INDUSTRIAL LTDA"/>
+			<field name="applicant" value="INSTITUTO FEDERAL SUL-RIO-GRANDENSE"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="F24D7/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="F04B13/00AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="F24H9/20AI"/>
+				<field name="section" value="F"/>
+				<field name="class" value="24"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="abstract.espacenet" value="patente de invenção: &quot;sistema para o uso de água desperdiçada com aquecedores a gás de passagem&quot;. a presente invenção diz respeito a um circuito de aquecimento de água para chuveiros, sendo este um sistema com aquecedor a gás de passagem, comumente utilizado para banhos. em essência, busca-se com o invento, a criação de um circuito no qual previne o desperdício de água inicialmente proporcionado por banhos assistidos por sistemas de aquecimento a gás de passagem, cuja intenção primordial é reduzir o consumo de água, porém pode-se afirmar também que o sistema aumenta a eficiência do equipamento bem como proporciona maior conforto térmico, no início do banho. o foco da invenção consiste em um circuito fechado entre o aquecedor e o chuveiro, o qual faz com que a água circule através de uma bomba até atingir a temperatura considerada ideal, tudo isto assistido por sensores de temperatura, de pressão e válvulas direcionadoras de fluxo, controlados por uma central de comandos."/>
+			<field name="originatesFrom" value="62001650"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031526"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015031526"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015031526"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151031526"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015031526"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person18825" type="Person">
+			<semanticIdentifier>lattes::2105539628838057</semanticIdentifier>
+			<field name="identifier.lattes" value="2105539628838057"/>
+			<field name="name" value="Luis Fernando Melegari"/>
+		</entity>
+		<entity ref="OrgUnit14747" type="OrgUnit">
+			<semanticIdentifier>brcris::61769b2c85bc048b20bf95ac2cfbb9d2</semanticIdentifier>
+			<field name="name" value="INSTITUTO FEDERAL SUL-RIO-GRANDENSE"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27205" toEntityRef="Person18825" type="Inventor"/>
+		<relation fromEntityRef="Patent27205" toEntityRef="OrgUnit14747" type="Applicant"/>
+	</relations>
+</entity-relation-data>

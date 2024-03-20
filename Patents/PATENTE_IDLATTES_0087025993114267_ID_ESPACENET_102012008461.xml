@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:31:01" record="15545" source="Espacenet">
+	<entities>
+		<entity ref="Patent15545" type="Patent">
+			<semanticIdentifier>brcris::33f28ff223bf6aefd34fafb86c5607f9</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012008461A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012008461</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012008461A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121008461</semanticIdentifier>
+			<semanticIdentifier>original::102012008461</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012008461"/>
+			<field name="identifier.lattes" value="0087025993114267"/>
+			<field name="identifier.espacenet" value="102012008461"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema registrador de consumo para avaliação da eficiência energética composto por redes de sensores cabeados, integradas por radiofrequência em ambientes com blindagem eletromagnética"/>
+			<field name="title.lattes" value="Sistema registrador de consumo para avaliação da eficiência energética composto por redes de sensores cabeados, integradas por radiofrequência em ambientes com blindagem eletromagnética"/>
+			<field name="depositDate" value="2012-04-11"/>
+			<field name="publicationDate" value="2015-10-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="FERNANDO CARDOSO CASTALDO"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA - UTFPR"/>
+			<field name="applicant" value="UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA - UTFPR"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R21/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01D1/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G08C17/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="08"/>
+				<field name="subclass" value="C"/>
+				<field name="group" value="17"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema gerador de consumo para avaliação da eficiência energética composto por redes de sensores cabeados, integradas por radiofrequência em ambientes com blindagem eletromagnética. esta patente apresenta um sistema de aquisição de dados dedicado ao monitoramento do consumo para avaliação da eficiência energética de energia elétrica em quandros de distribuição (2) em instalações elétricas. a medição setorizada e contínua pode ser realizada por meio de elementos sensores (1) conectada a ramais inseridos em quadros de energia (2), cujos dados medidos são transferidos localmente por meio de um barramento que provê vias de controle, alimentação e comunicação por meio do protocolo l2c e na sequência, para um banco de dados (6) por meio de uma rede de comunicação em rf para posterior publicação e visualização dos dados. esta arquitetura pode ser replicada e ampliada para outros setores monitorados, mantendo o baixo custo do sistema por kw monitorado. o sistema é modular e composto por 3 camadas, na primeira camada encontram-se os módulos sensores (1) que realizam as leituras de forma não-invasiva em cada ramal e transferem por um barramento para o módulo gerente (3). na segunda camada, o módulo gerente (3) agrupa os dados em forma de um vetor e envia em intervalos de tempo programáveis para o módulo coordenador (5). na terceira camada o módulo coordenador (5) recebe vetores de dados provenientes de vários módulos gerentes (3) e repassa estes dados ao servidor de banco de dados (6). ainda na terceira camada existem módulos roteadores (7) que servem apenas com um elo de comunicação entre os módulos gerentes (3) e o módulo coordenador (5). o sistema provê algoritmos de leitura e sincronização com tempos programáveis, controle do fluxo de dados, reconhecimento de dispositivos na rede e calibração automática."/>
+			<field name="originatesFrom" value="54541601"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012008461"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012008461"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012008461"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121008461"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102012008461"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10811" type="Person">
+			<semanticIdentifier>lattes::0087025993114267</semanticIdentifier>
+			<field name="identifier.lattes" value="0087025993114267"/>
+			<field name="name" value="Fernando Cardoso Castaldo"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent15545" toEntityRef="Person10811" type="Inventor"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:20:33" record="41752" source="Espacenet">
+	<entities>
+		<entity ref="Patent41752" type="Patent">
+			<semanticIdentifier>brcris::d0a00791239f7dd4eed68214e7d29f4c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205375A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0205375</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0205375A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020205375</semanticIdentifier>
+			<semanticIdentifier>original::0205375-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0205375"/>
+			<field name="identifier.lattes" value="3839707881946865"/>
+			<field name="identifier.espacenet" value="0205375"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Dispositivo de limitação óptica de multiplas passagens"/>
+			<field name="title.lattes" value="Dispositivo de limitação óptica de multiplas passagens"/>
+			<field name="depositDate" value="2002-11-26"/>
+			<field name="publicationDate" value="2004-07-27"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="SERGIO CARLOS ZILIO"/>
+			<field name="applicant" value="FAPESP - FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G02F1/355AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="355AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;DISPOSITIVO DE LIMITAçãO óPTICA DE MULTIPLAS PASSAGENS&quot;. A presente invenção refere-se a um dispositivo de limitação óptica de alta eficiência baseado numa geometria óptica de múltiplas passagens com três espelhos (3) (5) (6). Este dispositivo propicia a limitação da energia por ele transmitida quando a energia incidente excede um determinado patamar, podendo ser empregado na proteção de olhos e sensores da incidência de altas intensidades luminosas. Sua alta eficiência deve-se ao fato de que esse dispositivo pode tirar o proveito de não linearidade lentas, mas altas. Esses efeitos lentos podem ser acumulados quando o feixe laser é repetidamente focalizado dentro do meio não linear (4) multiplicando-se o efeito não linear. O meio não linear usado neste dispositivo pode apresentar diferentes processos não lineares como exemplo: efeitos térmicos, espalhamento não linear e processos de absorção saturada reversa."/>
+			<field name="originatesFrom" value="32777670"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205375"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0205375"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0205375"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020205375"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0205375-6"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0205375"/>
+		</entity>
+		<entity ref="Person28456" type="Person">
+			<semanticIdentifier>lattes::3839707881946865</semanticIdentifier>
+			<field name="identifier.lattes" value="3839707881946865"/>
+			<field name="name" value="Sérgio Carlos Zilio"/>
+		</entity>
+		<entity ref="OrgUnit22270" type="OrgUnit">
+			<semanticIdentifier>brcris::1c9b85b611db26412014623d307ecadc</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO - USP"/>
+		</entity>
+		<entity ref="Patent41753" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0205375</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="32777670"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0205375"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent41752" toEntityRef="Person28456" type="Inventor"/>
+		<relation fromEntityRef="Patent41752" toEntityRef="OrgUnit22270" type="Applicant"/>
+	</relations>
+</entity-relation-data>

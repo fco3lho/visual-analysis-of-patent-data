@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:08:06" record="1762" source="Espacenet">
+	<entities>
+		<entity ref="Patent1762" type="Patent">
+			<semanticIdentifier>brcris::b8e3f5faa93fb58d259b9cd67b6041a0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021163A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016021163</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021163A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161021163</semanticIdentifier>
+			<semanticIdentifier>original::102016021163</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016021163"/>
+			<field name="identifier.lattes" value="6317408425320526"/>
+			<field name="identifier.espacenet" value="102016021163"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento para diálise de proteínas e macromoléculas para fins biotecnológicos"/>
+			<field name="title.lattes" value="Equipamento automatizado para diálise de proteínas e macromoléculas para fins biotecnológicos"/>
+			<field name="depositDate" value="2016-09-14"/>
+			<field name="publicationDate" value="2018-04-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXSANDRO SOBREIRA GALDINO"/>
+			<field name="inventor" value="VINICIUS VALIM PEREIRA"/>
+			<field name="inventor" value="WELLINGTON JR DE FREITAS FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B01D61/24AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="D"/>
+				<field name="group" value="61"/>
+				<field name="subgroup" value="24AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="C07K1/14AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="07"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="14AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G01N1/40AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="40AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a invenção tem como objeto um equipamento para diálise, desalinação, purificação ou concentração de proteínas e macromoléculas de forma automatizada, agrupando as funcionalidades de controle de agitação e temperatura da amostra e informação sobre a salinidade do solvente. o equipamento é constituído por um tanque, uma tampa anexada a dois discos contendo furos de diâmetros variados e uma base contento os sistemas de agitação, controle de temperatura e de medição e informação da salinidade do solvente."/>
+			<field name="originatesFrom" value="62062522"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021163"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016021163"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021163"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161021163"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016021163"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person1326" type="Person">
+			<semanticIdentifier>lattes::6317408425320526</semanticIdentifier>
+			<field name="identifier.lattes" value="6317408425320526"/>
+			<field name="name" value="Alexsandro Sobreira Galdino"/>
+		</entity>
+		<entity ref="OrgUnit991" type="OrgUnit">
+			<semanticIdentifier>brcris::2afe863ef6ddd4c44a77f737f4b0cc24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SAO JOAO DEL REI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1762" toEntityRef="Person1326" type="Inventor"/>
+		<relation fromEntityRef="Patent1762" toEntityRef="OrgUnit991" type="Applicant"/>
+	</relations>
+</entity-relation-data>

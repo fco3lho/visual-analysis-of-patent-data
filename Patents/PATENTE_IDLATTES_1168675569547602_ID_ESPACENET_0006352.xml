@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:52:43" record="27528" source="Espacenet">
+	<entities>
+		<entity ref="Patent27528" type="Patent">
+			<semanticIdentifier>brcris::11b4b0a4b605ef1bfa1d08be1a4b4cde</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0006352A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0006352</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0006352A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20000006352</semanticIdentifier>
+			<semanticIdentifier>original::0006352-5</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0006352"/>
+			<field name="identifier.lattes" value="1168675569547602"/>
+			<field name="identifier.espacenet" value="0006352"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="EletrÈmetro flip-flop"/>
+			<field name="title.lattes" value="Eletrômetro Flip Flop"/>
+			<field name="depositDate" value="2000-11-14"/>
+			<field name="publicationDate" value="2002-06-25"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="LUIZ ANTONIO PEREIRA DOS SANTOS"/>
+			<field name="applicant" value="LUIZ ANTONIO PEREIRA DOS SANTOS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R13/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;ELETRÈMETRO FLIP-FLOP&quot;. A presente invenção refere-se a um circuito eletrónico de baixo custo que tem a função de mensurar ultra baixa intensidade de correntes elétricas ( nanoampere, picoampere, etc. ) proveniente de um transdutor qualquer, ou mesmo de um sistema ou circuito qualquer que transforme a grandeza física a ser mensurada em tal intensidade de corrente elétrica. O transdutor (4) produz o sinal que entra no circuito tipo comparador regenerativo (2) o qual atua na entrada de relógio do circuito multivibrador, dito &quot;FLIP-FLOP&quot; (1). O sinal lógico de saída de (1) atua realimentando tanto a sua própria entrada de limpar como a entrada de (2) por meio do circuito de chaveamento (3). Devido às realimentações no circuito e, consequentemente, a variação da energia armazenada pela capacitância parasita de entrada de (2), um trem de pulsos digitais é gerado na saída de (1) cuja freq³ência de ocorrência destes pulsos é linearmente proporcional à intensidade da corrente elétrica que entra. Um processador de pulsos digitais qualquer, dito sistema contador/mostrador (5, 6, 7 e 8), efetua a contagem dos pulsos de saída num certo intervalo de tempo, fornecendo o valor da intensidade da corrente elétrica proveniente de (4), ou mesmo o valor da grandeza física que se deseja medir."/>
+			<field name="originatesFrom" value="3946004"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0006352"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0006352"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0006352"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20000006352"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0006352-5"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19014" type="Person">
+			<semanticIdentifier>lattes::1168675569547602</semanticIdentifier>
+			<field name="identifier.lattes" value="1168675569547602"/>
+			<field name="name" value="Luiz Antonio Pereira dos Santos"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent27528" toEntityRef="Person19014" type="Inventor"/>
+		<relation fromEntityRef="Patent27528" toEntityRef="Person19014" type="Depositor"/>
+	</relations>
+</entity-relation-data>

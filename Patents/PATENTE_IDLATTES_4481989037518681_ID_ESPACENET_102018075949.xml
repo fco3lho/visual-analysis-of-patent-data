@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:36:48" record="18721" source="Espacenet">
+	<entities>
+		<entity ref="Patent18721" type="Patent">
+			<semanticIdentifier>brcris::0c21a33325baefea14247d0013b7671b</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018075949A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018075949</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018075949A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181075949</semanticIdentifier>
+			<semanticIdentifier>original::102018075949</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018075949"/>
+			<field name="identifier.lattes" value="4481989037518681"/>
+			<field name="identifier.espacenet" value="102018075949"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="emulsão a base de parafina para aplicação em fluidos de perfuração base oleosa"/>
+			<field name="title.lattes" value="EMULSÃO A BASE DE PARAFINA PARA APLICAÇÃO EM FLUIDOS DE PERFURAÇÃO BASE OLEOSA"/>
+			<field name="depositDate" value="2018-12-13"/>
+			<field name="publicationDate" value="2020-06-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="AMANDA BRITO DE CARVALHO"/>
+			<field name="inventor" value="DANUSA ARAUJO DE MOURA"/>
+			<field name="inventor" value="HEBER SIVINI FERREIRA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C09K8/28AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="09"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="28AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção trata da obtenção de emulsões utilizadas como base para fluidos com aplicação na área de perfuração de poços de petróleo. para isso foi utilizado uma emulsão composta por uma solução salina a 2% de nacl, um óleo n-parafina, um tensoativo iônico e um co-tensoativo álcool etílico. sendo utilizada uma razão de co-tensoativo/tensoativo (2:1). a argila montmorilonita foi adicionada a emulsão como agente viscosificante para obtenção dos fluidos. foi avaliada a viscosidade aparente, curvas de fluxo e força gel."/>
+			<field name="originatesFrom" value="71138377"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018075949"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018075949"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018075949"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181075949"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018075949"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12987" type="Person">
+			<semanticIdentifier>lattes::4481989037518681</semanticIdentifier>
+			<field name="identifier.lattes" value="4481989037518681"/>
+			<field name="name" value="Heber Sivini Ferreira"/>
+		</entity>
+		<entity ref="OrgUnit10124" type="OrgUnit">
+			<semanticIdentifier>brcris::d54340912dc677cee62eb1a23b749b42</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DA PARAIBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18721" toEntityRef="Person12987" type="Inventor"/>
+		<relation fromEntityRef="Patent18721" toEntityRef="OrgUnit10124" type="Applicant"/>
+	</relations>
+</entity-relation-data>

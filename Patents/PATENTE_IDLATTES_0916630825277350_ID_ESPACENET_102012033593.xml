@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:35:30" record="18073" source="Espacenet">
+	<entities>
+		<entity ref="Patent18073" type="Patent">
+			<semanticIdentifier>brcris::3467d487dc4c06fd12296e11bbeaf7ab</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033593A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102012033593</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102012033593A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20121033593</semanticIdentifier>
+			<semanticIdentifier>original::BRBR 10 2012 033593-0</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102012033593"/>
+			<field name="identifier.lattes" value="0916630825277350"/>
+			<field name="identifier.espacenet" value="102012033593"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="PROCESSO DE PREPARAÇÃO DE NANOFOLHAS DE ÓXIDO DE GRAFITE FUNCIONALIZADAS, PRODUTOS E USOS"/>
+			<field name="title.lattes" value="Processos de preparação de nanofolhas de óxido de grafite funcionalizadas, produtos e usos"/>
+			<field name="depositDate" value="2012-12-28"/>
+			<field name="publicationDate" value="2014-08-26"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GLAURA GOULART SILVA"/>
+			<field name="inventor" value="HALLEN DANIEL REZENDE CALADO"/>
+			<field name="inventor" value="HELIO RIBEIRO"/>
+			<field name="inventor" value="JULIANA CARDOSO NEVES"/>
+			<field name="inventor" value="VINICIUS GOMIDE DE CASTRO"/>
+			<field name="inventor" value="WELLINGTON MARCOS DA SILVA"/>
+			<field name="applicant" value="PETROLEO BRASILEIRO S/A"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="B82Y40/00AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="82"/>
+				<field name="subclass" value="Y"/>
+				<field name="group" value="40"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="PROCESSO DE PREPARAÇÃO DE NANOFOLHAS DE ÓXIDO DE GRAFITE FUNCIONALIZADAS, PRODUTOS E USOS A matéria descreve um método de produção de nanofolhas de óxido de grafite funcionalizadas com grupos amino, bem como os produtos e usos desses materiais, baseado em um processo econômico, compacto e de baixo impacto ambiental. O processo utiliza a tetraetilenopentamina (TEPA), é realizado via reator de micro-ondas, tem tempo reduzido quando comparado a outros processos existentes, e não requer o uso do cloreto de tionila, um reagente altamente tóxico. Dentre as diversas aplicações relevantes dos produtos obtidos por tal processo está utilização da tecnologia na indústria de polímeros, para a formação de compósitos de alto desempenho e que possam atender condições operacionais extremas da indústria. Estes compósitos podem ser formados pelas nanofolhas funcionalizadas incorporadas a matrizes poliméricas, tais como epóxi, poliamidas, policarbonatos, poli(metilmetacrilato), poliuretanos e poliestireno, dentre outros. Como exemplos de produtos confeccionados com estes compósitos estão materiais de uso em reparos e/ou revestimentos de dutos de petróleo, juntas e conexões e adesivos, com o objetivo de aumentar a resistência ao impacto e tempo de uso devido à grande variação de temperatura e pressão nas condições de operação, em especial, na exploração de petróleo e gás em águas profundas."/>
+			<field name="originatesFrom" value="51453030"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033593"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102012033593"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102012033593"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20121033593"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR 10 2012 033593-0"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12495" type="Person">
+			<semanticIdentifier>lattes::0916630825277350</semanticIdentifier>
+			<field name="identifier.lattes" value="0916630825277350"/>
+			<field name="name" value="Glaura Goulart Silva"/>
+		</entity>
+		<entity ref="OrgUnit9737" type="OrgUnit">
+			<semanticIdentifier>brcris::ec32ab6b506168bb09d22abc9d3b8766</semanticIdentifier>
+			<field name="name" value="PETROLEO BRASILEIRO S/A"/>
+		</entity>
+		<entity ref="OrgUnit9738" type="OrgUnit">
+			<semanticIdentifier>brcris::b325025cd443a1ebf025d67185ebad24</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE MINAS GERAIS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent18073" toEntityRef="Person12495" type="Inventor"/>
+		<relation fromEntityRef="Patent18073" toEntityRef="OrgUnit9737" type="Applicant"/>
+		<relation fromEntityRef="Patent18073" toEntityRef="OrgUnit9738" type="Applicant"/>
+	</relations>
+</entity-relation-data>

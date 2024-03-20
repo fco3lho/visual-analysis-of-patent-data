@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:13:23" record="5319" source="Espacenet">
+	<entities>
+		<entity ref="Patent5319" type="Patent">
+			<semanticIdentifier>brcris::57e7d8734f72e596ba9b8c35cfe64255</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017017648A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017017648</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017017648A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171017648</semanticIdentifier>
+			<semanticIdentifier>original::102017017648</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017017648"/>
+			<field name="identifier.lattes" value="7524720020580309"/>
+			<field name="identifier.espacenet" value="102017017648"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="farinha de pupunha (bactris gasipaes kunth) como fonte nativa de amido ceroso"/>
+			<field name="title.lattes" value="Farinha de Pupunha (Bactris gasipaes kunth) como fonte nativa de amido ceroso"/>
+			<field name="depositDate" value="2017-08-17"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO MANOEL DA CRUZ RODRIGUES"/>
+			<field name="inventor" value="EDNA REGINA AMANTE"/>
+			<field name="inventor" value="LUIZA HELENA MULLER DA SILVA"/>
+			<field name="inventor" value="MARLIA BARBOSA PIRES"/>
+			<field name="inventor" value="RUTELENE DA CRUZ PINHEIRO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO PARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A23L19/00AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="23"/>
+				<field name="subclass" value="L"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="farinha de pupunha (bactris gasipaes kunth) como fonte nativa de amido ceroso devido ao relativo baixo custo, o amido tem sido muito utilizado pela indústria como ingrediente calórico e como melhorador de propriedades físico- químicas. é utilizado para alterar e controlar diversas características como textura, aparência, umidade, consistência e estabilidade no armazenamento. o amido ceroso (ou ?waxy?) é um tipo de amido que apresenta teores muito baixos de amilose em sua estrutura, atualmente se conhece e utiliza em escala industrial, o amido ceroso de arroz e milho, estas fontes são nativas, mas necessitam de melhoramento genético para que o amido presente em sua composição seja isento de amilose. a pupunha (bactris gasipaes kunth) é o fruto de uma palmeira nativa da região amazônica, apresenta polpa de elevado valor energético e nutricional. o objeto desta patente é a utilização da pupunha como fonte nativa de amido ceroso de excelente qualidade e rendimento. o amido extraído da pupunha apresenta características muito interessantes como elevada temperatura de gelatinização e baixa tendência a retrogradação, sem a necessidade de se fazer alterações químicas ou físicas. características essas de muito interesse para diversos processos industriais."/>
+			<field name="originatesFrom" value="67250341"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017017648"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017017648"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017017648"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171017648"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017017648"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person3474" type="Person">
+			<semanticIdentifier>lattes::7524720020580309</semanticIdentifier>
+			<field name="identifier.lattes" value="7524720020580309"/>
+			<field name="name" value="Antonio Manoel da Cruz Rodrigues"/>
+		</entity>
+		<entity ref="OrgUnit2750" type="OrgUnit">
+			<semanticIdentifier>brcris::8798c4be53688700259c60540abfdd94</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE SANTA CATARINA"/>
+		</entity>
+		<entity ref="OrgUnit2751" type="OrgUnit">
+			<semanticIdentifier>brcris::42afeb3d303bfc80f672242070a7c5c1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO PARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent5319" toEntityRef="Person3474" type="Inventor"/>
+		<relation fromEntityRef="Patent5319" toEntityRef="OrgUnit2750" type="Applicant"/>
+		<relation fromEntityRef="Patent5319" toEntityRef="OrgUnit2751" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:25:41" record="12280" source="Espacenet">
+	<entities>
+		<entity ref="Patent12280" type="Patent">
+			<semanticIdentifier>brcris::8fbc47dfd6cb825e01786fd2f98ace71</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015708A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016015708</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016015708A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161015708</semanticIdentifier>
+			<semanticIdentifier>original::102016015708</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016015708"/>
+			<field name="identifier.lattes" value="9601723963736071"/>
+			<field name="identifier.espacenet" value="102016015708"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sabonete líquido antimicrobiano a base de óleo de pequi"/>
+			<field name="title.lattes" value="Sabonete Líquido Antimicrobiano a Base de Óleo de Pequi."/>
+			<field name="depositDate" value="2016-07-05"/>
+			<field name="publicationDate" value="2018-01-23"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ADRIANA REGIA MARQUES DE SOUZA"/>
+			<field name="inventor" value="CLARISSA DAMIANI"/>
+			<field name="inventor" value="EDMAR SOARES NICOLAU"/>
+			<field name="inventor" value="NAYANA RIBEIRO SOARES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61Q19/10AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="10AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K8/34AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="34AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61K8/36AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="36AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="4"/>
+				<field name="text" value="A61K8/92AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="8"/>
+				<field name="subgroup" value="92AI"/>
+			</field>
+			<field name="abstract.espacenet" value="descreve-se no presente documento um processo para a produção de um sabonete líquido antimicrobiano, no qual o óleo vegetal utilizado foi o óleo de pequi. o sabonete líquido é obtido por reação direta entre óleo de pequi e um álcali. este sabonete apresenta uma textura inigualável, mantém a umidade da pele sem causar ressecamento, apresenta uma viscosidade intensa e adequada ao uso sem a necessidade de se acrescentar sais e o custo de produção é mais baixo que o do sabonete líquido sintético. além de o óleo de pequi ser um antimicrobiano natural ele possui atividade antifúngica."/>
+			<field name="originatesFrom" value="62619902"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015708"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016015708"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016015708"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161015708"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016015708"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person8418" type="Person">
+			<semanticIdentifier>lattes::9601723963736071</semanticIdentifier>
+			<field name="identifier.lattes" value="9601723963736071"/>
+			<field name="name" value="Edmar Soares Nicolau"/>
+		</entity>
+		<entity ref="OrgUnit6658" type="OrgUnit">
+			<semanticIdentifier>brcris::b1f2c79921deb4fdda2bdb4dd2e76b96</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE GOIAS"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent12280" toEntityRef="Person8418" type="Inventor"/>
+		<relation fromEntityRef="Patent12280" toEntityRef="OrgUnit6658" type="Applicant"/>
+	</relations>
+</entity-relation-data>

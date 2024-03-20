@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:54:20" record="28113" source="Espacenet">
+	<entities>
+		<entity ref="Patent28113" type="Patent">
+			<semanticIdentifier>brcris::47bab6f9c0604bb7e2130d999dc61214</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501290A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI0501290</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI0501290A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2005PI01290</semanticIdentifier>
+			<semanticIdentifier>original::0501290-2</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI0501290"/>
+			<field name="identifier.lattes" value="7216933992248038"/>
+			<field name="identifier.espacenet" value="PI0501290"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Vacina contra o estreptococo beta hemolìtico do grupo a, e respectivo processo de obtenção"/>
+			<field name="title.lattes" value="Vacina contra o estreptococo beta hemolítico do grupo A, e respectivo processo de obtençao"/>
+			<field name="depositDate" value="2005-03-24"/>
+			<field name="publicationDate" value="2005-12-06"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JORGE ELIAS KALIL JR"/>
+			<field name="inventor" value="LUIZA GUILHERME GUGLIELMI"/>
+			<field name="applicant" value="FUNDACAO ZERBINI"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K39/09AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="39"/>
+				<field name="subgroup" value="09AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;VACINA CONTRA O ESTREPTOCOCO BETA HEMOLìTICO DO GRUPO A, E RESPECTIVO PROCESSO DE OBTENçãO&quot;. Que prevê a identificação molecular seq³encial de epitopos da região C-terminal da proteína M (20 a 50 resíduos), diferindo em 01 resíduo de aminoácido, identificados por anticorpos e linfócitos T de seres humanos sadios e de pacientes portadores de febre reumática capazes de gerar resposta protetora por anticorpos dependentes de linfócitos T; a prevenção de desenvolvimento de doença auto-imune pelo epitopo selecionado foi avaliada in vitro com linfócitos T provenientes de tecido cardíaco de pacientes com lesões decorrentes da febre reumática."/>
+			<field name="originatesFrom" value="35431765"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501290"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0501290"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI0501290"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2005PI01290"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0501290-2"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19398" type="Person">
+			<semanticIdentifier>lattes::7216933992248038</semanticIdentifier>
+			<field name="identifier.lattes" value="7216933992248038"/>
+			<field name="name" value="Luiza Guilherme Guglielmi"/>
+		</entity>
+		<entity ref="OrgUnit15117" type="OrgUnit">
+			<semanticIdentifier>brcris::8109235aad882306ec90d66a5c715818</semanticIdentifier>
+			<field name="name" value="FUNDACAO ZERBINI"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28113" toEntityRef="Person19398" type="Inventor"/>
+		<relation fromEntityRef="Patent28113" toEntityRef="OrgUnit15117" type="Applicant"/>
+	</relations>
+</entity-relation-data>

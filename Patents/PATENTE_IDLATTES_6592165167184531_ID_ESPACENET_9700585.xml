@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:17:31" record="40662" source="Espacenet">
+	<entities>
+		<entity ref="Patent40662" type="Patent">
+			<semanticIdentifier>brcris::a534ad927c28a8543e5f623d4e90a65c</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700585A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR9700585</semanticIdentifier>
+			<semanticIdentifier>docdb::BR9700585A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR19979700585</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=9700585"/>
+			<field name="identifier.lattes" value="6592165167184531"/>
+			<field name="identifier.espacenet" value="9700585"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo para a obtenção de materiais a base de cimento aditivados com alcool polivinilico e silicato de sódio"/>
+			<field name="title.lattes" value="Processo para obtenção de materiais a base de cimento aditivados com álcool polivinílico e silicato de sódio"/>
+			<field name="depositDate" value="1997-04-23"/>
+			<field name="publicationDate" value="1999-01-05"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="DOS SANTOS ROSEMAR SANT'ANNA"/>
+			<field name="inventor" value="FLAVIO APARECIDO RODRIGUES"/>
+			<field name="inventor" value="INES JOEKES"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C04B28/00AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="28"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="originatesFrom" value="4066392"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700585"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR9700585"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="9700585"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR19979700585"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27700" type="Person">
+			<semanticIdentifier>lattes::6592165167184531</semanticIdentifier>
+			<field name="identifier.lattes" value="6592165167184531"/>
+			<field name="name" value="Rosemar Sant'Anna dos Santos"/>
+		</entity>
+		<entity ref="OrgUnit21665" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent40662" toEntityRef="Person27700" type="Inventor"/>
+		<relation fromEntityRef="Patent40662" toEntityRef="OrgUnit21665" type="Applicant"/>
+	</relations>
+</entity-relation-data>

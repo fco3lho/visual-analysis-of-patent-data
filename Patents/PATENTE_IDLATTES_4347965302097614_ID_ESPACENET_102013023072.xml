@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:11:15" record="36349" source="Espacenet">
+	<entities>
+		<entity ref="Patent36349" type="Patent">
+			<semanticIdentifier>brcris::c3f6c320542847d470486efd00595690</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013023072A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013023072</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013023072A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131023072</semanticIdentifier>
+			<semanticIdentifier>original::102013023072</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013023072"/>
+			<field name="identifier.lattes" value="4347965302097614"/>
+			<field name="identifier.espacenet" value="102013023072"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="métodos de contornos ativo balão adaptativo para a segmentação de objetos em imagens digitais"/>
+			<field name="title.lattes" value="PATENTE BRPI102013023072 - Métodos de Contornos Ativo Balão Adaptativo para a Segmentação de Objetos em Imagens Digitais"/>
+			<field name="depositDate" value="2013-09-10"/>
+			<field name="publicationDate" value="2015-12-01"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="JOHN HEBERT DA SILVA FELIX"/>
+			<field name="inventor" value="MARCELO ALCANTARA HOLANDA"/>
+			<field name="inventor" value="PAULO CESAR CORTEZ"/>
+			<field name="inventor" value="PEDRO PEDROSA REBOUCAS FILHO"/>
+			<field name="inventor" value="TARIQUE DA SILVEIRA CAVALCANTE"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06K9/62AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="62AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T7/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="abstract.espacenet" value="métodos de contornos ativo balão adaptativo para a segmentação de objetos em imagens digitais. nesta patente é proposto um novo método de contornos ativo mca aplicado na segmentação de objetos presentes em imagens digitais de uso geral. o mca proposto é o mca balão adaptativo, aplicado na segmentação de objetos presentes em imagens digitais, possuindo como principal contribuição a nova energia interna balão adaptativa que minimiza a energia de cada ponto da curva utilizando a topologia dos seus respectivos pontos vizinhos, movendo a curva em direção ao objeto de interesse. o método pode ser inicializado fora ou dentro do objeto de interesse, segmentando com eficácia até mesmo objetos que possuam formas complexas em sua topologia e não possuindo limitações quanto ao seu local de inicialização. assim, a referida invenção permite realizar a segmentação de objetos em imagens digitais em geral de forma eficaz."/>
+			<field name="originatesFrom" value="54837518"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013023072"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013023072"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013023072"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131023072"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013023072"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person25015" type="Person">
+			<semanticIdentifier>lattes::4347965302097614</semanticIdentifier>
+			<field name="identifier.lattes" value="4347965302097614"/>
+			<field name="name" value="Pedro Pedrosa Rebouças Filho"/>
+		</entity>
+		<entity ref="OrgUnit19636" type="OrgUnit">
+			<semanticIdentifier>brcris::184e5c62843b1577243ef701123ec9f1</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO CEARA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36349" toEntityRef="Person25015" type="Inventor"/>
+		<relation fromEntityRef="Patent36349" toEntityRef="OrgUnit19636" type="Applicant"/>
+	</relations>
+</entity-relation-data>

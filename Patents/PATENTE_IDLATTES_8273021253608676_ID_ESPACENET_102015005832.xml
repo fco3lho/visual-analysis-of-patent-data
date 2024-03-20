@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:34:35" record="17533" source="Espacenet">
+	<entities>
+		<entity ref="Patent17533" type="Patent">
+			<semanticIdentifier>brcris::390c9d9b8239d42b05c807e3efefe1d0</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005832A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102015005832</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102015005832A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20151005832</semanticIdentifier>
+			<semanticIdentifier>original::102015005832</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102015005832"/>
+			<field name="identifier.lattes" value="8273021253608676"/>
+			<field name="identifier.espacenet" value="102015005832"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="equipamento e sistema para transmissão e disponibilização de imagens médicas através da internet com aplicação na telerradiologia"/>
+			<field name="title.lattes" value="EQUIPAMENTO E SISTEMA PARA TRANSMISSAO E DISPONIBILIZACAO DE IMAGENS MEDICAS ATRAVES DA INTERNET COM APLICACAO NA TELERRADIOLOGIA."/>
+			<field name="depositDate" value="2015-03-17"/>
+			<field name="publicationDate" value="2018-02-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="GIL BARRETO DE GOES"/>
+			<field name="inventor" value="LEONARDO SOUZA VALE DA COSTA"/>
+			<field name="inventor" value="VINICIUS TAVARES PETRUCCI"/>
+			<field name="applicant" value="LEONARDO SOUZA VALE DA COSTA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G16H30/20AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="16"/>
+				<field name="subclass" value="H"/>
+				<field name="group" value="30"/>
+				<field name="subgroup" value="20AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="H04N19/60AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="19"/>
+				<field name="subgroup" value="60AI"/>
+			</field>
+			<field name="abstract.espacenet" value="o presente resumo diz respeito a um pedido de patente de invenção para um sistema de transmissão e disponibilização de imagens médicas no formato padrão dicom através da internet diretamente de um ponto a outro ponto e embarcado em uma solução de hardware da arquitetura arm. o sistema viabiliza a transmissão de imagens radiológicas entre clinicas remotas (onde são realizados os exames) e centrais de laudos (onde são produzidos os laudos médicos) utilizando redes de comunicação de baixa velocidade e qualidade. o sistema propõe e explora a utilização de uma tabela onde é definido o método (codec) mais adequado de compressão/descompressão e respectiva taxa de compressão/descompressão a ser utilizada em cada tipo de exame. o sistema é projetado para operar em diversos tipos de redes de comunicação (como satélite, 3g, adsl e links dedicados), lidando com diferentes velocidades, níveis de latência e na variabilidade da disponibilidade da rede. o objetivo do sistema é otimizar o uso dos recursos de comunicação e assim minimizar o tempo gasto para a transmissão das imagens radiológicas entre clinicas remotas e centrais de laudos."/>
+			<field name="originatesFrom" value="62599322"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005832"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102015005832"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102015005832"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20151005832"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102015005832"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person12135" type="Person">
+			<semanticIdentifier>lattes::8273021253608676</semanticIdentifier>
+			<field name="identifier.lattes" value="8273021253608676"/>
+			<field name="name" value="Gil Barreto de Góes"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent17533" toEntityRef="Person12135" type="Inventor"/>
+	</relations>
+</entity-relation-data>

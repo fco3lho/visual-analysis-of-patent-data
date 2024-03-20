@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:13:44" record="37905" source="Espacenet">
+	<entities>
+		<entity ref="Patent37905" type="Patent">
+			<semanticIdentifier>brcris::8ed612eb78aa73219f6734abe3d98cf6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018013276A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102018013276</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102018013276A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20181013276</semanticIdentifier>
+			<semanticIdentifier>original::102018013276</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102018013276"/>
+			<field name="identifier.lattes" value="5234163064795487"/>
+			<field name="identifier.espacenet" value="102018013276"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="método para estimação da frequência de sincrofasores utilizando o filtro de savitzky-golay"/>
+			<field name="title.lattes" value="Método para Estimação da Frequência de Sincrofasores utilizando o Filtro de Savitzky-Golay"/>
+			<field name="depositDate" value="2018-06-28"/>
+			<field name="publicationDate" value="2020-01-14"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="CARLOS AUGUSTO DUQUE"/>
+			<field name="inventor" value="LEANDRO RODRIGUES MANSO SILVA"/>
+			<field name="inventor" value="RENATO RIBEIRO ALEIXO"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE JUIZ DE FORA - UFJF"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01R23/167AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="R"/>
+				<field name="group" value="23"/>
+				<field name="subgroup" value="167AI"/>
+			</field>
+			<field name="abstract.espacenet" value="método para a estimação da frequência de sincrofasores de tensão e corrente de um sistema elétrico de potência, utilizando técnicas de processamento de sinais aplicadas às amostras do sinal de tensão e corrente. após a amostragem, disciplinada por um sinal de sincronismo como um pps de um módulo gps (002), estima-se a magnitude e o ângulo de fase dos sinais de tensão e corrente através de técnicas de processamento de sinais (017). em um segundo momento, para estimar a frequência dos sinais calcula-se a derivada de primeira ordem da sequência de ângulos estimados na etapa anterior, sendo esta operação realizada por dois filtros diferenciadores de 1ª ordem de savitzky-golay (023) com saídas multiplexadas (026). este método pode ser utilizado para estimar a frequência de sincrofasores não só no nível da transmissão, mas também na distribuição de energia elétrica, devido a sua maior imunidade a ruído se comparado a uma diferenciação convencional (025)."/>
+			<field name="originatesFrom" value="69191456"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018013276"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102018013276"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102018013276"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20181013276"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102018013276"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person26147" type="Person">
+			<semanticIdentifier>lattes::5234163064795487</semanticIdentifier>
+			<field name="identifier.lattes" value="5234163064795487"/>
+			<field name="name" value="Renato Ribeiro Aleixo"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent37905" toEntityRef="Person26147" type="Inventor"/>
+	</relations>
+</entity-relation-data>

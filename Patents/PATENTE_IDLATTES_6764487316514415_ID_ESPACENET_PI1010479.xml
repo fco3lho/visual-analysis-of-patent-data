@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:07:12" record="1270" source="Espacenet">
+	<entities>
+		<entity ref="Patent1270" type="Patent">
+			<semanticIdentifier>brcris::e24478276dfa2d12a7f546870bb8cd2b</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1010479A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1010479</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1010479A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI10479</semanticIdentifier>
+			<semanticIdentifier>original::PIPI1010479</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1010479"/>
+			<field name="identifier.lattes" value="6764487316514415"/>
+			<field name="identifier.espacenet" value="PI1010479"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="composição farmacêutica para aplicação na pele"/>
+			<field name="title.lattes" value="COMPOSIÇÃO FARMACÊUTICA PARA APLICAÇÃO NA PELE"/>
+			<field name="depositDate" value="2010-12-27"/>
+			<field name="publicationDate" value="2015-09-22"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALESSANDRO AFORNALI"/>
+			<field name="inventor" value="CAMILA MIRANDA DE CARVALHO"/>
+			<field name="inventor" value="CARLOS EDUARDO DE OLIVEIRA PRAES"/>
+			<field name="inventor" value="FERNANDA LOURENCO ANGELUCCI"/>
+			<field name="inventor" value="MARCIO LORENCINI"/>
+			<field name="inventor" value="PRISCILA FERNANDA CAMPOS DE MENEZES"/>
+			<field name="inventor" value="RUANDRO VICTOR KNAPIK"/>
+			<field name="applicant" value="BOTICA COMERCIAL FARMACEUTICA LTDA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61K31/045AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="045AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="A61K36/47AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="47AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="A61K36/73AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="36"/>
+				<field name="subgroup" value="73AI"/>
+			</field>
+			<field name="abstract.espacenet" value="composição farmacêutiça para aplicação na pele. a presente invenção refere-se a uma composição farmacêutica antiirritante para fins dermatológicos que apresenta ações antiinflamatória, cicatrizante, regenerativa e angiogênica, proporcionando à pele proteção e minimização dos sinais do envelhecimento. este conjunto de benefícios é obtido por meio de uma combinação otimizada de três ingredientes de origem vegetal."/>
+			<field name="originatesFrom" value="54703546"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1010479"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1010479"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1010479"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI10479"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI1010479"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person942" type="Person">
+			<semanticIdentifier>lattes::6764487316514415</semanticIdentifier>
+			<field name="identifier.lattes" value="6764487316514415"/>
+			<field name="name" value="Alessandro Afornali"/>
+		</entity>
+		<entity ref="OrgUnit743" type="OrgUnit">
+			<semanticIdentifier>brcris::557f29450830e5966850ebfbcb72eb30</semanticIdentifier>
+			<field name="name" value="BOTICA COMERCIAL FARMACEUTICA LTDA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent1270" toEntityRef="Person942" type="Inventor"/>
+		<relation fromEntityRef="Patent1270" toEntityRef="OrgUnit743" type="Applicant"/>
+	</relations>
+</entity-relation-data>

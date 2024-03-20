@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:10:54" record="36142" source="Espacenet">
+	<entities>
+		<entity ref="Patent36142" type="Patent">
+			<semanticIdentifier>brcris::655c48a71075616b1ddf0630d527fbef</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021008A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102019021008</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102019021008A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20191021008</semanticIdentifier>
+			<semanticIdentifier>original::102019021008</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102019021008"/>
+			<field name="identifier.lattes" value="4613686824574086"/>
+			<field name="identifier.espacenet" value="102019021008"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="mecanismo e método de atuação eficientes para controle automatizado de quantidades massivas de pinos verticaisutilizando pequenas quantidades de atuadores"/>
+			<field name="title.lattes" value="Mecanismo e método de atuação eficientes para controle automatizado de superfícies reconfiguráveis utilizando pequenas quantidades de atuadores"/>
+			<field name="depositDate" value="2019-10-05"/>
+			<field name="publicationDate" value="2021-04-20"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="PEDRO DE ALMEIDA SACRAMENTO"/>
+			<field name="applicant" value="PEDRO DE ALMEIDA SACRAMENTO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="A61F9/08AI"/>
+				<field name="section" value="A"/>
+				<field name="class" value="61"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06T7/50AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="T"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="50AI"/>
+			</field>
+			<field name="abstract.espacenet" value="mecanismo e método de atuação eficientes para controle automatizado de quantidades massivas de pinos verticais utilizando pequenas quantidades de atuadores. a invenção consiste em mecanismos e um método de atuação que possibilitam que pequenas quantidades de atuadores controlem eficientemente grandes quantidades de pinos em uma matriz de pinos. a implementação da solução tende a se assemelhar a uma cama de pregos. nessa cama, contudo, os pinos poderão ter sua posição vertical controlada por um computador. a máquina enviará comandos para que os pinos subam ou desçam de modo a representar superfícies. tal capacidade de representação é útil em diversas aplicações. por exemplo: a criação de conteúdos para pessoas cegas, de maquetes ou mesmo grandes espaços cujo piso seja controlado por computadores. um conjunto de atuadores é disposto na borda da matriz, sendo que há apenas um atuador para cada linha e um para cada coluna da mesma. essa pequena quantidade de atuadores é responsável por atuar todos os pinos. esse é um dos principais diferenciais dessa invenção em relação a todas as soluções existentes até o momento que, tipicamente, usam um atuador para cada pino. além disso a invenção consegue alterar a posição vertical de todos os pinos demandando, na pior das hipóteses, tempo proporcional a raiz quadrada do número de pinos."/>
+			<field name="originatesFrom" value="75336692"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021008"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102019021008"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102019021008"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20191021008"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102019021008"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=WO2021062503"/>
+		</entity>
+		<entity ref="Person24855" type="Person">
+			<semanticIdentifier>lattes::4613686824574086</semanticIdentifier>
+			<field name="identifier.lattes" value="4613686824574086"/>
+			<field name="name" value="Pedro de Almeida Sacramento"/>
+		</entity>
+		<entity ref="Patent36143" type="Patent">
+			<semanticIdentifier>epodoc::WO2021062503</semanticIdentifier>
+			<field name="countryCode" value="WO"/>
+			<field name="originatesFrom" value="75336692"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="WO"/>
+				<field name="number" value="WO2021062503"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent36142" toEntityRef="Person24855" type="Inventor"/>
+		<relation fromEntityRef="Patent36142" toEntityRef="Person24855" type="Depositor"/>
+	</relations>
+</entity-relation-data>

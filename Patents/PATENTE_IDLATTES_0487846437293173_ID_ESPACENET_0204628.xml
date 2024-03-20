@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:12:48" record="4503" source="Espacenet">
+	<entities>
+		<entity ref="Patent4503" type="Patent">
+			<semanticIdentifier>brcris::02f305c798e1f00be11282766c7c190d</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204628A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR0204628</semanticIdentifier>
+			<semanticIdentifier>docdb::BR0204628A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20020204628</semanticIdentifier>
+			<semanticIdentifier>original::0204628-8</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=0204628"/>
+			<field name="identifier.lattes" value="0487846437293173"/>
+			<field name="identifier.espacenet" value="0204628"/>
+			<field name="kindCode" value="A"/>
+			<field name="title.espacenet" value="Processo de tratamento de efluente industrial lìquido contendo poliorganossiloxanos"/>
+			<field name="title.lattes" value="PROCESSO DE TRATAMENTO DE EFLUENTE INDUSTRIAL LÍQUIDO CONTENDO POLIORGANOSSILOXANOS"/>
+			<field name="depositDate" value="2002-10-10"/>
+			<field name="publicationDate" value="2004-06-08"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS SILVA COSTA TEIXEIRA"/>
+			<field name="inventor" value="ANTONIO CARLOS SILVA COSTA TEIXEIRA"/>
+			<field name="inventor" value="CLAUDIO AUGUSTO OLLER DO NASCIMENTO"/>
+			<field name="inventor" value="ROBERTO GUARDANI"/>
+			<field name="applicant" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+			<field name="applicant" value="UNIVERSIDADE DE SAO PAULO"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="C02F1/72AI"/>
+				<field name="section" value="C"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="72AI"/>
+			</field>
+			<field name="abstract.espacenet" value="&quot;PROCESSO DE TRATAMENTO DE EFLUENTE INDUSTRIAL LìQUIDO CONTENDO POLIORGANOSSILOXANOS&quot;. A presente invenção refere-se a um novo processo de tratamento catalítico aplicado a efluentes industriais que contêm poliorganossiloxanos de baixa degradabilidade, em dispersão ou suspensão, compreendendo uma reação catalítica e a separação física dos resíduos sólidos resultantes da degradação obtida. De forma particular a presente invenção refere-se a um tratamento fotocatalítico."/>
+			<field name="originatesFrom" value="32399212"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204628"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR0204628"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="0204628"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20020204628"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="0204628-8"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=BRPI0204628"/>
+		</entity>
+		<entity ref="Person3216" type="Person">
+			<semanticIdentifier>lattes::0487846437293173</semanticIdentifier>
+			<field name="identifier.lattes" value="0487846437293173"/>
+			<field name="name" value="Antonio Carlos Silva Costa Teixeira"/>
+		</entity>
+		<entity ref="OrgUnit2589" type="OrgUnit">
+			<semanticIdentifier>brcris::85bc5b9b2f68749d37dda9857d8cf0ac</semanticIdentifier>
+			<field name="name" value="FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"/>
+		</entity>
+		<entity ref="OrgUnit2590" type="OrgUnit">
+			<semanticIdentifier>brcris::6dc7b4a4ee39579f4f1a7b44c7399c09</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE DE SAO PAULO"/>
+		</entity>
+		<entity ref="Patent4504" type="Patent">
+			<semanticIdentifier>epodoc::BRPI0204628</semanticIdentifier>
+			<field name="countryCode" value="BR"/>
+			<field name="originatesFrom" value="32399212"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI0204628"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent4503" toEntityRef="Person3216" type="Inventor"/>
+		<relation fromEntityRef="Patent4503" toEntityRef="OrgUnit2589" type="Applicant"/>
+		<relation fromEntityRef="Patent4503" toEntityRef="OrgUnit2590" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:15:23" record="6534" source="Espacenet">
+	<entities>
+		<entity ref="Patent6534" type="Patent">
+			<semanticIdentifier>brcris::9bc56a356aec5cb93b04563e35bda39a</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014015749A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102014015749</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102014015749A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20141015749</semanticIdentifier>
+			<semanticIdentifier>original::102014015749</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102014015749"/>
+			<field name="identifier.lattes" value="4198394467238505"/>
+			<field name="identifier.espacenet" value="102014015749"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema para otimizar a relação entre custos de carregamento e transporte de cargas em navios atracados"/>
+			<field name="title.lattes" value="SISTEMA PARA OTIMIZAR A RELAÇÃO ENTRE CUSTOS DE CARREGAMENTO E TRANSPORTE DE CARGAS EM NAVIOS ATRACADOS"/>
+			<field name="depositDate" value="2014-06-25"/>
+			<field name="publicationDate" value="2016-08-02"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANTONIO CARLOS MORETTI"/>
+			<field name="inventor" value="LUIS HONIGMANN CERESER"/>
+			<field name="inventor" value="LUIZ LEDUINO DE SALLES NETO"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE SAO PAULO - UNIFESP"/>
+			<field name="applicant" value="VALE S.A"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G06F16/00AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="16"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G06Q10/08AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="Q"/>
+				<field name="group" value="10"/>
+				<field name="subgroup" value="08AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema para otimizar a relação entre custos de carregamento e transporte de cargas em navios atracados - [001] a presente invenção se refere aos sistemas, métodos e programas relacionados ao planejamento e operações de cargas e descargas através do uso de uma ferramenta de otimização baseada em algoritmos heurísticos para auxiliar no carregamento e descarregamento de navios atracados em um berço, considerando ao mesmo tempo a alocação de berços e a quantidade de guindastes ou máquinas portuárias que se movem ao longo de um mesmo trilho."/>
+			<field name="originatesFrom" value="56544701"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014015749"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102014015749"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102014015749"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20141015749"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102014015749"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person4355" type="Person">
+			<semanticIdentifier>lattes::4198394467238505</semanticIdentifier>
+			<field name="identifier.lattes" value="4198394467238505"/>
+			<field name="name" value="Bruno Luís Hönigmann Cereser"/>
+		</entity>
+		<entity ref="OrgUnit3415" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="OrgUnit3416" type="OrgUnit">
+			<semanticIdentifier>brcris::0a5f7a62fc1572bdfc704e5120497e2b</semanticIdentifier>
+			<field name="name" value="VALE S.A"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent6534" toEntityRef="Person4355" type="Inventor"/>
+		<relation fromEntityRef="Patent6534" toEntityRef="OrgUnit3415" type="Applicant"/>
+		<relation fromEntityRef="Patent6534" toEntityRef="OrgUnit3416" type="Applicant"/>
+	</relations>
+</entity-relation-data>

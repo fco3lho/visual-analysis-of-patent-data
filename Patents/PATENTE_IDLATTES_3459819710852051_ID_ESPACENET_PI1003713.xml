@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 17:15:53" record="39800" source="Espacenet">
+	<entities>
+		<entity ref="Patent39800" type="Patent">
+			<semanticIdentifier>brcris::4027fcbccee38c6ce6a9e77f01eafb3d</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1003713A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BRPI1003713</semanticIdentifier>
+			<semanticIdentifier>docdb::BRPI1003713A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR2010PI03713</semanticIdentifier>
+			<semanticIdentifier>original::PIPI 1003713-6</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=PI1003713"/>
+			<field name="identifier.lattes" value="3459819710852051"/>
+			<field name="identifier.espacenet" value="PI1003713"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="instrumento para monitoraÇço remota e distribuÍda de eventos elÉtricos"/>
+			<field name="title.lattes" value="INSTRUMENTO PARA MONITORAÇÃO REMOTA E DISTRIBUÍDA DE EVENTOS ELÉTRICOS"/>
+			<field name="depositDate" value="2010-10-20"/>
+			<field name="publicationDate" value="2013-02-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE AUGUSTO BARBOSA"/>
+			<field name="inventor" value="FREDERICO DE OLIVEIRA ASSUNCAO"/>
+			<field name="inventor" value="PAULO MARCIO DA SILVEIRA"/>
+			<field name="inventor" value="RODRIGO DE PAULA RODRIGUES"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H02J13/00AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="02"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="13"/>
+				<field name="subgroup" value="00AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G05B15/02AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="05"/>
+				<field name="subclass" value="B"/>
+				<field name="group" value="15"/>
+				<field name="subgroup" value="02AI"/>
+			</field>
+			<field name="abstract.espacenet" value="INSTRUMENTO PARA MONITORAÇçO REMOTA E DISTRIBUÍDA DE E VENTOS ELÉTRICOS, descreve-se a invenção como um instrumento eletrônico especifico destinado a executar o monitoramento remoto, em tempo real e distribuído de eventos elétricos de afundamento e elevação de tensão e de descontinuidade no fornecimento em redes de distribuição de energia elétrica em baixa tensão. Tal instrumento é composto por uma central de acompanhamento de eventos elétricos (2) e por um conjunto variável de unidades de monitoramento (1), cada qual relacionada ao monitoramento de eventos elétricos em localidades distintas de ummesmo sistema de distribuição, o que confere à invenção a capacidade de ser utilizada para se implementar redes de monitoramento facilmente adaptáveis tanto ás possíveis topologias das redes de distribuição de energia elétrica presentes quanto a mudanças nestas."/>
+			<field name="originatesFrom" value="47693279"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1003713"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BRPI1003713"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="PI1003713"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR2010PI03713"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value="PI"/>
+				<field name="number" value="PI 1003713-6"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person27075" type="Person">
+			<semanticIdentifier>lattes::3459819710852051</semanticIdentifier>
+			<field name="identifier.lattes" value="3459819710852051"/>
+			<field name="name" value="Rodrigo de Paula Rodrigues"/>
+		</entity>
+		<entity ref="OrgUnit21203" type="OrgUnit">
+			<semanticIdentifier>brcris::fcde00c5bc260651d2927b603dabc71e</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DE ITAJUBA"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent39800" toEntityRef="Person27075" type="Inventor"/>
+		<relation fromEntityRef="Patent39800" toEntityRef="OrgUnit21203" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:56:00" record="28870" source="Espacenet">
+	<entities>
+		<entity ref="Patent28870" type="Patent">
+			<semanticIdentifier>brcris::c9ea027faee9dcf18b44a61979782015</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021271A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102016021271</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102016021271A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20161021271</semanticIdentifier>
+			<semanticIdentifier>original::102016021271</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102016021271"/>
+			<field name="identifier.lattes" value="1824527255966640"/>
+			<field name="identifier.espacenet" value="102016021271"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema de detecção de regimes bifásicos horizontais (entre água e ar) através de histogramas de gradientes orientados e aprendizagem de máquina"/>
+			<field name="title.lattes" value="Sistema de Detecção de Regimes Bifásicos Horizontais (entre água e ar) através de Histogramas de Gradientes Orientados e Aprendizado de Máquina"/>
+			<field name="depositDate" value="2016-09-15"/>
+			<field name="publicationDate" value="2018-04-03"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANDRE SCHMID DE ALBUQUERQUE"/>
+			<field name="inventor" value="FERNANDO LAGO SILVA PESSOA"/>
+			<field name="inventor" value="MARCELO LAGO SILVA PESSOA"/>
+			<field name="inventor" value="MARGARETE NEVES DOS SANTOS JORGE"/>
+			<field name="applicant" value="ECHO FLOW ENGENHARIA LTDA ME"/>
+			<field name="applicant" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G01F1/74AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="1"/>
+				<field name="subgroup" value="74AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="G01N21/85AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="N"/>
+				<field name="group" value="21"/>
+				<field name="subgroup" value="85AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="3"/>
+				<field name="text" value="G06K9/46AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="06"/>
+				<field name="subclass" value="K"/>
+				<field name="group" value="9"/>
+				<field name="subgroup" value="46AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema de deteção de regimes bifásicos horizontais (entre água e ar) através de histogramas de gradientes orientados e aprendizagem de máquina. um sistema de software que permite, através de um modelo estatístico, identificar um padrão de escoamento multifásico entre água e ar em uma imagem obtida a partir de uma câmera associada à uma tubulação transparente."/>
+			<field name="originatesFrom" value="62062558"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021271"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102016021271"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102016021271"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20161021271"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102016021271"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person19922" type="Person">
+			<semanticIdentifier>lattes::1824527255966640</semanticIdentifier>
+			<field name="identifier.lattes" value="1824527255966640"/>
+			<field name="name" value="Marcelo Lago Silva Pessoa"/>
+		</entity>
+		<entity ref="OrgUnit15570" type="OrgUnit">
+			<semanticIdentifier>brcris::3714dd508ac51d7befdd98b951568b4c</semanticIdentifier>
+			<field name="name" value="SERVICO NACIONAL DE APRENDIZAGEM INDUSTRIAL"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent28870" toEntityRef="Person19922" type="Inventor"/>
+		<relation fromEntityRef="Patent28870" toEntityRef="OrgUnit15570" type="Applicant"/>
+	</relations>
+</entity-relation-data>

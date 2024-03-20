@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:23:11" record="10715" source="Espacenet">
+	<entities>
+		<entity ref="Patent10715" type="Patent">
+			<semanticIdentifier>brcris::d1304e7a7d9de8b8c844cd0878b128fe</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017016372A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102017016372</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102017016372A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20171016372</semanticIdentifier>
+			<semanticIdentifier>original::102017016372</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102017016372"/>
+			<field name="identifier.lattes" value="0674557277540177"/>
+			<field name="identifier.espacenet" value="102017016372"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="complexo de coordenação para a fotoiniciação, sistema de fotoiniciação e uso"/>
+			<field name="title.lattes" value="Complexo de coordenação para a fotoiniciação, sistema de fotoiniciação e uso"/>
+			<field name="depositDate" value="2017-07-31"/>
+			<field name="publicationDate" value="2019-03-19"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ALEXANDRE CARNEIRO SILVINO"/>
+			<field name="inventor" value="AMERICO BORTOLAZZO CORRER"/>
+			<field name="inventor" value="DAYANE CARVALHO RAMOS SALLES DE OLIVEIRA"/>
+			<field name="inventor" value="MARIO ALEXANDRE COELHO SINHORETI"/>
+			<field name="inventor" value="MATEUS GARCIA ROCHA"/>
+			<field name="applicant" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+			<field name="applicant" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="G03F7/029AI"/>
+				<field name="section" value="G"/>
+				<field name="class" value="03"/>
+				<field name="subclass" value="F"/>
+				<field name="group" value="7"/>
+				<field name="subgroup" value="029AI"/>
+			</field>
+			<field name="classification.ipc">
+				<field name="sequence" value="2"/>
+				<field name="text" value="B01J31/18AI"/>
+				<field name="section" value="B"/>
+				<field name="class" value="01"/>
+				<field name="subclass" value="J"/>
+				<field name="group" value="31"/>
+				<field name="subgroup" value="18AI"/>
+			</field>
+			<field name="abstract.espacenet" value="a presente invenção refere-se a um complexo de coordenação para a fotoiniciação, o qual compreende ligantes derivados da unidade imino-piridina coordenados por um íon metálico, capaz de absorver a luz em faixas menos danosas, pois pode ser polimerizada na luz verde. adicionalmente, a presente invenção refere-se a um sistema de fotoiniciação compreendendo o complexo de coordenação aqui proposto. portanto, o referido sistema de fotoiniciação possui aplicação física da luz em comprimentos de onda médios e/ou longos, resolvendo assim, os riscos aos cirurgiões-dentistas, auxiliares e até mesmo aos pacientes que ficam expostos constantemente à radiação de luz azul necessária para a polimerização dos sistemas de fotoiniciação do estado da técnica."/>
+			<field name="originatesFrom" value="67250423"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017016372"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102017016372"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102017016372"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20171016372"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102017016372"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person7453" type="Person">
+			<semanticIdentifier>lattes::0674557277540177</semanticIdentifier>
+			<field name="identifier.lattes" value="0674557277540177"/>
+			<field name="name" value="Dayane Carvalho Ramos Salles de Oliveira"/>
+		</entity>
+		<entity ref="OrgUnit5918" type="OrgUnit">
+			<semanticIdentifier>brcris::b3b0da02d9d1e810f13f21692c1f469b</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP"/>
+		</entity>
+		<entity ref="OrgUnit5919" type="OrgUnit">
+			<semanticIdentifier>brcris::7d25fa87c9b6d7cdb5bebf75629ba957</semanticIdentifier>
+			<field name="name" value="UNIVERSIDADE FEDERAL DO RIO DE JANEIRO - UFRJ"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent10715" toEntityRef="Person7453" type="Inventor"/>
+		<relation fromEntityRef="Patent10715" toEntityRef="OrgUnit5918" type="Applicant"/>
+		<relation fromEntityRef="Patent10715" toEntityRef="OrgUnit5919" type="Applicant"/>
+	</relations>
+</entity-relation-data>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<entity-relation-data lastUpdate="2023-03-27 16:29:19" record="14579" source="Espacenet">
+	<entities>
+		<entity ref="Patent14579" type="Patent">
+			<semanticIdentifier>brcris::6bf1c109f7643c9ae50528edd69ae5b6</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013030160A2</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR102013030160</semanticIdentifier>
+			<semanticIdentifier>docdb::BR102013030160A</semanticIdentifier>
+			<semanticIdentifier>epodoc::BR20131030160</semanticIdentifier>
+			<semanticIdentifier>original::102013030160</semanticIdentifier>
+			<field name="urlEspacenet" value="https://worldwide.espacenet.com/patent/search?q=102013030160"/>
+			<field name="identifier.lattes" value="5803208095140159"/>
+			<field name="identifier.espacenet" value="102013030160"/>
+			<field name="kindCode" value="A2"/>
+			<field name="title.espacenet" value="sistema automático de estimação de ocupação de canais de radiofrequência"/>
+			<field name="title.lattes" value="Sistema automático de estimação de ocupação de canais de radiofrequência"/>
+			<field name="depositDate" value="2013-11-25"/>
+			<field name="publicationDate" value="2015-09-15"/>
+			<field name="countryCode" value="BR"/>
+			<field name="inventor" value="ANA PAULA TELES RIBEIRO DA SILVA"/>
+			<field name="inventor" value="DICK CARRILLO MELGAREJO"/>
+			<field name="inventor" value="FABIANO SILVA MATHILDE"/>
+			<field name="inventor" value="JULIANO JOAO BAZZO"/>
+			<field name="inventor" value="RICARDO SEITI YOSHIMURA"/>
+			<field name="applicant" value="FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM TELECOMUNICACOES"/>
+			<field name="classification.ipc">
+				<field name="sequence" value="1"/>
+				<field name="text" value="H04W72/04AI"/>
+				<field name="section" value="H"/>
+				<field name="class" value="04"/>
+				<field name="subclass" value="W"/>
+				<field name="group" value="72"/>
+				<field name="subgroup" value="04AI"/>
+			</field>
+			<field name="abstract.espacenet" value="sistema automático de estimação de ocupação de canais de radiofrequência contendo dois módulos: aquisição de dados e processamento das informações. a aquisição de dados do espectro radioelétrico é baseada no uso de rádio definido por software (rds), sendo feita a coleta de informações após o sinal ser convertido em uma frequência intermediaria para ser utilizada no conversor análogo digital com frequências de amostragem, de acordo com a largura de banda da banda do sinal que se quer monitorar, sendo, após obtenção dos dados em formato de banda base, aplicados algoritmos de fft (fast fourier transform), e uma operação de produto, para obter dados de energia do sinal em toda a banda de interesse (com número de portadoras definido pelo tamanho da fft), de forma que, para cada instante de tempo, há informações de ocupação espectral na banda, sendo os ditos dados gravados em base de dados. o processamento das informações é baseado em um software, que opera de maneira independente em relação ao modulo de coleta de dados, e que faz a leitura dos dados coletados e gravados na base de dados, obtendo-se um vetor com valores (1 ou 0) de acordo com o valor da energia do sinal ao longo do tempo, a partir dos quais são geradas variáveis aleatórias a e b e calculados os momentos de primeira e segunda ordem."/>
+			<field name="originatesFrom" value="54291835"/>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013030160"/>
+				<field name="kind" value="A2"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Publication"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR102013030160"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="docdb"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="102013030160"/>
+				<field name="kind" value="A"/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="epodoc"/>
+				<field name="country" value="BR"/>
+				<field name="number" value="BR20131030160"/>
+				<field name="kind" value=""/>
+			</field>
+			<field name="alternateIdentifier">
+				<field name="status" value="Application"/>
+				<field name="format" value="original"/>
+				<field name="country" value=""/>
+				<field name="number" value="102013030160"/>
+				<field name="kind" value=""/>
+			</field>
+		</entity>
+		<entity ref="Person10074" type="Person">
+			<semanticIdentifier>lattes::5803208095140159</semanticIdentifier>
+			<field name="identifier.lattes" value="5803208095140159"/>
+			<field name="name" value="Fabiano Silva Mathilde"/>
+		</entity>
+	</entities>
+	<relations>
+		<relation fromEntityRef="Patent14579" toEntityRef="Person10074" type="Inventor"/>
+	</relations>
+</entity-relation-data>
