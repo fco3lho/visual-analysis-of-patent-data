@@ -13,3 +13,7 @@
 - Matplotlib
 - SciPy
 - PyQt5
+- TQDM
+- Pandas
+- XML
+- Threading

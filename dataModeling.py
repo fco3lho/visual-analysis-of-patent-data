@@ -63,7 +63,7 @@ with tqdm(total=len(os.listdir("./patents")), desc="Processing files") as progre
             t4.start()
             t5.start()
 
-            threads.extend([t1, t2, t3, t4, t5])
+            threads.extend([t1, t2, t3, t4, t5]) 
 
         for t in threads:
             t.join()
