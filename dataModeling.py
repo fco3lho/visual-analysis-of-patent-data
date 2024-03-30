@@ -4,32 +4,41 @@ import pandas as pd
 import threading
 from tqdm import tqdm
 
-def patentsToInventors(patent, inventors, df):
+def patentsToInventors(patent, inventors, df, lock):
     for inventor in inventors:
+        lock.acquire()
         df.loc[len(df)] = [patent, inventor]
+        lock.release()
 
-def patentsToApplicants(patent, applicants, df):
+def patentsToApplicants(patent, applicants, df, lock):
     for applicant in applicants:
+        lock.acquire()
         df.loc[len(df)] = [patent, applicant]
-
-def inventorsToInventors(inventors, df):
+        lock.release()
+        
+def inventorsToInventors(inventors, df, lock):
     for inventor_i in inventors:
         for inventor_j in inventors:
+            lock.acquire()
             df.loc[len(df)] = [inventor_i, inventor_j]
+            lock.release()
 
-def applicantsToApplicants(applicants, df):
+def applicantsToApplicants(applicants, df, lock):
     for applicant_i in applicants:
         for applicant_j in applicants:
+            lock.acquire()
             df.loc[len(df)] = [applicant_i, applicant_j]
+            lock.release()
 
-def inventorsToApplicants(inventors, applicants, df):
+def inventorsToApplicants(inventors, applicants, df, lock):
     for inventor in inventors:
         for applicant in applicants:
+            lock.acquire()
             df.loc[len(df)] = [inventor, applicant]
-
+            lock.release()
 
 df = pd.DataFrame(columns=['connection_1', 'connection_2'])
-threads = []
+lock = threading.Lock()
 
 with tqdm(total=len(os.listdir("./patents")), desc="Processing files") as progress_bar: 
     for file in os.listdir("./patents"):
@@ -51,23 +60,24 @@ with tqdm(total=len(os.listdir("./patents")), desc="Processing files") as progre
                 patent = field.get('value')
 
         
-            t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, df))
-            t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, df))
-            t3 = threading.Thread(target=inventorsToInventors, args=(inventors, df))
-            t4 = threading.Thread(target=applicantsToApplicants, args=(applicants, df))
-            t5 = threading.Thread(target=inventorsToApplicants, args=(inventors, applicants, df))
+            t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, df, lock))
+            t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, df, lock))
+            t3 = threading.Thread(target=inventorsToInventors, args=(inventors, df, lock))
+            t4 = threading.Thread(target=applicantsToApplicants, args=(applicants, df, lock))
+            t5 = threading.Thread(target=inventorsToApplicants, args=(inventors, applicants, df, lock))
 
             t1.start()
             t2.start()
             t3.start()
             t4.start()
             t5.start()
-
-            threads.extend([t1, t2, t3, t4, t5]) 
-
-        for t in threads:
-            t.join()
         
+        t1.join()
+        t2.join()
+        t3.join()
+        t4.join()
+        t5.join()
+
         progress_bar.update(1)
 
 # Save a CSV file
