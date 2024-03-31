@@ -4,43 +4,53 @@ import pandas as pd
 import threading
 from tqdm import tqdm
 
-def patentsToInventors(patent, inventors, df, lock):
+df = pd.DataFrame(columns=['connection_1', 'connection_2'])
+lock = threading.Lock()
+
+def patentsToInventors(patent, inventors, lock):
+    global df
+    
     for inventor in inventors:
         lock.acquire()
-        df.loc[len(df)] = [patent, inventor]
+        df = df._append({'connection_1': patent, 'connection_2': inventor}, ignore_index=True)
         lock.release()
 
-def patentsToApplicants(patent, applicants, df, lock):
+def patentsToApplicants(patent, applicants, lock):
+    global df
+    
     for applicant in applicants:
         lock.acquire()
-        df.loc[len(df)] = [patent, applicant]
+        df = df._append({'connection_1': patent, 'connection_2': applicant}, ignore_index=True)
         lock.release()
         
-def inventorsToInventors(inventors, df, lock):
+def inventorsToInventors(inventors, lock):
+    global df
+    
     for inventor_i in inventors:
         for inventor_j in inventors:
             lock.acquire()
-            df.loc[len(df)] = [inventor_i, inventor_j]
+            df = df._append({'connection_1': inventor_i, 'connection_2': inventor_j}, ignore_index=True)
             lock.release()
 
-def applicantsToApplicants(applicants, df, lock):
+def applicantsToApplicants(applicants, lock):
+    global df
+    
     for applicant_i in applicants:
         for applicant_j in applicants:
             lock.acquire()
-            df.loc[len(df)] = [applicant_i, applicant_j]
+            df = df._append({'connection_1': applicant_i, 'connection_2': applicant_j}, ignore_index=True)
             lock.release()
 
-def inventorsToApplicants(inventors, applicants, df, lock):
+def inventorsToApplicants(inventors, applicants, lock):
+    global df
+    
     for inventor in inventors:
         for applicant in applicants:
             lock.acquire()
-            df.loc[len(df)] = [inventor, applicant]
+            df = df._append({'connection_1': inventor, 'connection_2': applicant}, ignore_index=True)
             lock.release()
 
 def createConnections():
-    df = pd.DataFrame(columns=['connection_1', 'connection_2'])
-    lock = threading.Lock()
-
     with tqdm(total=len(os.listdir("./patents")), desc="Processing files") as progress_bar: 
         for file in os.listdir("./patents"):
             if file.endswith(".xml"):
@@ -61,11 +71,11 @@ def createConnections():
                     patent = field.get('value')
 
             
-                t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, df, lock))
-                t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, df, lock))
-                t3 = threading.Thread(target=inventorsToInventors, args=(inventors, df, lock))
-                t4 = threading.Thread(target=applicantsToApplicants, args=(applicants, df, lock))
-                t5 = threading.Thread(target=inventorsToApplicants, args=(inventors, applicants, df, lock))
+                t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, lock))
+                t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, lock))
+                t3 = threading.Thread(target=inventorsToInventors, args=(inventors, lock))
+                t4 = threading.Thread(target=applicantsToApplicants, args=(applicants, lock))
+                t5 = threading.Thread(target=inventorsToApplicants, args=(inventors, applicants, lock))
 
                 t1.start()
                 t2.start()
