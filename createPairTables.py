@@ -70,7 +70,6 @@ def createConnections():
                 for field in root.findall('.//field[@name="{}"]'.format('title.lattes')):
                     patent = field.get('value')
 
-            
                 t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, lock))
                 t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, lock))
                 t3 = threading.Thread(target=inventorsToInventors, args=(inventors, lock))
@@ -83,11 +82,11 @@ def createConnections():
                 t4.start()
                 t5.start()
             
-            t1.join()
-            t2.join()
-            t3.join()
-            t4.join()
-            t5.join()
+                t1.join()
+                t2.join()
+                t3.join()
+                t4.join()
+                t5.join()
 
             progress_bar.update(1)
 

@@ -1,3 +1,3 @@
-from dataModeling import createConnections
+from createPairTables import createConnections
 
 createConnections()
