@@ -91,7 +91,6 @@ def createEdges():
                 t5.join()
 
             progress_bar.update(1)
-            break
 
     # Save a CSV file
     print("Saving CSV file...")
