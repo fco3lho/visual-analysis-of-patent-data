@@ -1,3 +1,5 @@
-from createPairTables import createConnections
+from createEdgeTable import createEdges
+from createNodeTable import createNodes
 
-createConnections()
+createEdges()
+createNodes()
