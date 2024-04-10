@@ -94,5 +94,5 @@ def createEdges():
 
     # Save a CSV file
     print("Saving CSV file...")
-    df.to_csv('connections.csv', index = False)
+    df.to_csv('edgeTable.csv', index = False)
     print("Completed!")
