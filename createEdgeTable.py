@@ -25,23 +25,21 @@ def patentsToApplicants(patent, applicants, lock):
         
 def inventorsToInventors(inventors, lock):
     global df
-    
-    for inventor_i in inventors:
-        for inventor_j in inventors:
-            if inventor_i != inventor_j:
-                lock.acquire()
-                df = df._append({'connection_1': inventor_i, 'connection_2': inventor_j}, ignore_index=True)
-                lock.release()
+
+    for i in range(len(inventors)):
+        for j in range(i+1, len(inventors)):
+            lock.acquire()
+            df = df._append({'connection_1': inventors[i], 'connection_2': inventors[j]}, ignore_index=True)
+            lock.release()
 
 def applicantsToApplicants(applicants, lock):
     global df
     
-    for applicant_i in applicants:
-        for applicant_j in applicants:
-            if applicant_i != applicant_j:
-                lock.acquire()
-                df = df._append({'connection_1': applicant_i, 'connection_2': applicant_j}, ignore_index=True)
-                lock.release()
+    for i in range(len(applicants)):
+        for j in range(i+1, len(applicants)):
+            lock.acquire()
+            df = df._append({'connection_1': applicants[i], 'connection_2': applicants[j]}, ignore_index=True)
+            lock.release()
 
 def inventorsToApplicants(inventors, applicants, lock):
     global df
