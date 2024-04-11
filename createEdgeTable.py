@@ -5,7 +5,6 @@ import threading
 from tqdm import tqdm
 
 df = pd.DataFrame(columns=['connection_1', 'connection_2'])
-df_temp = pd.DataFrame(columns=['patent'])
 lock = threading.Lock()
 
 def patentsToInventors(patent, inventors, lock):
@@ -52,6 +51,8 @@ def inventorsToApplicants(inventors, applicants, lock):
             lock.release()
 
 def createEdges():
+    df_temp = pd.DataFrame(columns=['patent'])
+    
     with tqdm(total=len(os.listdir("./patents")), desc="Creating edge table") as progress_bar: 
         for file in os.listdir("./patents"):
             if file.endswith(".xml"):
