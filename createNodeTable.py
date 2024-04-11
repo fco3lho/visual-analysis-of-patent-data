@@ -10,9 +10,6 @@ lock = threading.Lock()
 def savePatent(patent, lock):
   global df
 
-  if (patent[0] == "'" or patent[0] == '"') and (patent[-1] == "'" or patent[-1] == '"'):
-    patent = patent[1:-1]
-
   if df['name'].isin([patent.upper()]).any() == False:
     lock.acquire()
     df = df._append({'name': patent.upper(), 'role': "patent"}, ignore_index=True)
@@ -22,17 +19,23 @@ def saveApplicants(applicants, lock):
   global df
 
   for applicant in applicants:
-    lock.acquire()
-    df = df._append({'name': applicant, 'role': "applicant"}, ignore_index=True)
-    lock.release()
+    isThereSuchAnApplicant = (df['name'] == applicant) & (df['role'] == "applicant")
+
+    if isThereSuchAnApplicant.any():
+      lock.acquire()
+      df = df._append({'name': applicant, 'role': "applicant"}, ignore_index=True)
+      lock.release()
    
 def saveInventors(inventors, lock):
   global df
 
   for inventor in inventors:
-    lock.acquire()
-    df = df._append({'name': inventor, 'role': "inventor"}, ignore_index=True)
-    lock.release()
+    isThereSuchAnInventor = (df['name'] == inventor) & (df['role'] == "inventor")
+
+    if isThereSuchAnInventor.any():
+      lock.acquire()
+      df = df._append({'name': inventor, 'role': "inventor"}, ignore_index=True)
+      lock.release()
 
 def createNodes():
   with tqdm(total=len(os.listdir("./patents")), desc="Creating node table") as progress_bar:

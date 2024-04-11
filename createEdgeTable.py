@@ -72,9 +72,6 @@ def createEdges():
                 for field in root.findall('.//field[@name="{}"]'.format('title.lattes')):
                     patent = (field.get('value')).upper()
 
-                    if (patent[0] == "'" or patent[0] == '"') and (patent[-1] == "'" or patent[-1] == '"'):
-                        patent = patent[1:-1]
-
                 if df_temp['patent'].isin([patent]).any() == False:
                     df_temp = df_temp._append({'patent': patent}, ignore_index=True)
 
