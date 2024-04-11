@@ -21,7 +21,7 @@ def saveApplicants(applicants, lock):
   for applicant in applicants:
     isThereSuchAnApplicant = (df['name'] == applicant) & (df['role'] == "applicant")
 
-    if isThereSuchAnApplicant.any():
+    if isThereSuchAnApplicant.any() == False:
       lock.acquire()
       df = df._append({'name': applicant, 'role': "applicant"}, ignore_index=True)
       lock.release()
@@ -32,7 +32,7 @@ def saveInventors(inventors, lock):
   for inventor in inventors:
     isThereSuchAnInventor = (df['name'] == inventor) & (df['role'] == "inventor")
 
-    if isThereSuchAnInventor.any():
+    if isThereSuchAnInventor.any() == False:
       lock.acquire()
       df = df._append({'name': inventor, 'role': "inventor"}, ignore_index=True)
       lock.release()
