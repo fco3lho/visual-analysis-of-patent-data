@@ -1,10 +1,14 @@
-conjunto = ["A", "B", "C", "D"]
+import pandas as pd
 
-cont = 0
+# Cria um DataFrame de exemplo
+dados = {'A': [1, 2, 3, 4, 5],
+         'B': ['a', 'b', 'c', 'd', 'e']}
+df = pd.DataFrame(dados)
 
-for i in range(len(conjunto)):
-  for j in range(i+1, len(conjunto)):
-    print(conjunto[i], conjunto[j])
-    cont+=1
+# Verifica se o elemento 'c' está na coluna 'B' usando isin()
+if df['B'].isin(['c']).any() == False:
+    print("O elemento 'c' está na coluna 'B'")
+else:
+    print("O elemento 'c' não está na coluna 'B'")
 
-print("Contador:", cont)
+print(df['B'].isin(['c']).any())

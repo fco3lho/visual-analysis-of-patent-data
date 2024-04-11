@@ -8,19 +8,23 @@ df = pd.DataFrame(columns=['name', 'role'])
 lock = threading.Lock()
 
 def savePatent(patent, lock):
-   global df
+  global df
 
-   lock.acquire()
-   df = df._append({'name': patent, 'role': "patent"}, ignore_index=True)
-   lock.release()
+  if (patent[0] == "'" or patent[0] == '"') and (patent[-1] == "'" or patent[-1] == '"'):
+    patent = patent[1:-1]
+
+  if df['name'].isin([patent.upper()]).any() == False:
+    lock.acquire()
+    df = df._append({'name': patent.upper(), 'role': "patent"}, ignore_index=True)
+    lock.release()
    
 def saveApplicants(applicants, lock):
-   global df
+  global df
 
-   for applicant in applicants:
-      lock.acquire()
-      df = df._append({'name': applicant, 'role': "applicant"}, ignore_index=True)
-      lock.release()
+  for applicant in applicants:
+    lock.acquire()
+    df = df._append({'name': applicant, 'role': "applicant"}, ignore_index=True)
+    lock.release()
    
 def saveInventors(inventors, lock):
   global df
@@ -68,5 +72,3 @@ def createNodes():
   print("Saving CSV file...")
   df.to_csv('nodeTable.csv', index = False)
   print("Completed!")
-
-        

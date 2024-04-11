@@ -5,6 +5,7 @@ import threading
 from tqdm import tqdm
 
 df = pd.DataFrame(columns=['connection_1', 'connection_2'])
+df_temp = pd.DataFrame(columns=['patent'])
 lock = threading.Lock()
 
 def patentsToInventors(patent, inventors, lock):
@@ -68,25 +69,31 @@ def createEdges():
                     applicants.append(field.get('value'))
 
                 for field in root.findall('.//field[@name="{}"]'.format('title.lattes')):
-                    patent = field.get('value')
+                    patent = (field.get('value')).upper()
 
-                t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, lock))
-                t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, lock))
-                t3 = threading.Thread(target=inventorsToInventors, args=(inventors, lock))
-                t4 = threading.Thread(target=applicantsToApplicants, args=(applicants, lock))
-                t5 = threading.Thread(target=inventorsToApplicants, args=(inventors, applicants, lock))
+                    if (patent[0] == "'" or patent[0] == '"') and (patent[-1] == "'" or patent[-1] == '"'):
+                        patent = patent[1:-1]
 
-                t1.start()
-                t2.start()
-                t3.start()
-                t4.start()
-                t5.start()
-            
-                t1.join()
-                t2.join()
-                t3.join()
-                t4.join()
-                t5.join()
+                if df_temp['patent'].isin([patent]).any() == False:
+                    df_temp = df_temp._append({'patent': patent}, ignore_index=True)
+
+                    t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, lock))
+                    t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, lock))
+                    t3 = threading.Thread(target=inventorsToInventors, args=(inventors, lock))
+                    t4 = threading.Thread(target=applicantsToApplicants, args=(applicants, lock))
+                    t5 = threading.Thread(target=inventorsToApplicants, args=(inventors, applicants, lock))
+
+                    t1.start()
+                    t2.start()
+                    t3.start()
+                    t4.start()
+                    t5.start()
+                
+                    t1.join()
+                    t2.join()
+                    t3.join()
+                    t4.join()
+                    t5.join()
 
             progress_bar.update(1)
 
