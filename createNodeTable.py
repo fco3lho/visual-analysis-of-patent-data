@@ -10,9 +10,9 @@ lock = threading.Lock()
 def savePatent(patent, lock):
   global df
 
-  if df['name'].isin([patent.upper()]).any() == False:
+  if df['name'].isin([patent]).any() == False:
     lock.acquire()
-    df = df._append({'name': patent.upper(), 'role': "patent"}, ignore_index=True)
+    df = df._append({'name': patent, 'role': "patent"}, ignore_index=True)
     lock.release()
    
 def saveApplicants(applicants, lock):
@@ -52,10 +52,10 @@ def createNodes():
           inventors.append(field.get('value'))
 
         for field in root.findall('.//field[@name="{}"]'.format('applicant')):
-            applicants.append(field.get('value'))
+          applicants.append(field.get('value'))
 
         for field in root.findall('.//field[@name="{}"]'.format('title.lattes')):
-            patent = field.get('value')
+          patent = field.get('value').upper()
 
         t1 = threading.Thread(target=savePatent, args=(patent, lock))
         t2 = threading.Thread(target=saveApplicants, args=(applicants, lock))
