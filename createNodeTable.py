@@ -4,37 +4,41 @@ import pandas as pd
 import threading
 from tqdm import tqdm
 
-df = pd.DataFrame(columns=['name', 'role'])
+df = pd.DataFrame(columns=['id', 'label', 'role'])
 lock = threading.Lock()
+count = 0
 
 def savePatent(patent, lock):
-  global df
+  global df, count
 
-  if df['name'].isin([patent]).any() == False:
+  if df['label'].isin([patent]).any() == False:
     lock.acquire()
-    df = df._append({'name': patent, 'role': "patent"}, ignore_index=True)
+    df = df._append({'id': count, 'label': patent, 'role': "patent"}, ignore_index=True)
+    count+=1
     lock.release()
    
 def saveApplicants(applicants, lock):
-  global df
+  global df, count
 
   for applicant in applicants:
-    isThereSuchAnApplicant = (df['name'] == applicant) & (df['role'] == "applicant")
+    isThereSuchAnApplicant = (df['label'] == applicant) & (df['role'] == "applicant")
 
     if isThereSuchAnApplicant.any() == False:
       lock.acquire()
-      df = df._append({'name': applicant, 'role': "applicant"}, ignore_index=True)
+      df = df._append({'id': count, 'label': applicant, 'role': "applicant"}, ignore_index=True)
+      count+=1
       lock.release()
    
 def saveInventors(inventors, lock):
-  global df
+  global df, count
 
   for inventor in inventors:
-    isThereSuchAnInventor = (df['name'] == inventor) & (df['role'] == "inventor")
+    isThereSuchAnInventor = (df['label'] == inventor) & (df['role'] == "inventor")
 
     if isThereSuchAnInventor.any() == False:
       lock.acquire()
-      df = df._append({'name': inventor, 'role': "inventor"}, ignore_index=True)
+      df = df._append({'id': count, 'label': inventor, 'role': "inventor"}, ignore_index=True)
+      count+=1
       lock.release()
 
 def createNodes():
