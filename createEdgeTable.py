@@ -4,23 +4,34 @@ import pandas as pd
 import threading
 from tqdm import tqdm
 
-df = pd.DataFrame(columns=['connection_1', 'connection_2'])
+df_nodes = pd.read_csv('nodeTable.csv')
+df = pd.DataFrame(columns=['source', 'target'])
 lock = threading.Lock()
 
 def patentsToInventors(patent, inventors, lock):
     global df
+    patent_index = df_nodes.loc[df_nodes['label'] == patent, 'id'].index[0]
     
     for inventor in inventors:
         lock.acquire()
-        df = df._append({'connection_1': patent, 'connection_2': inventor}, ignore_index=True)
+        df = df._append({
+            'source': patent_index, 
+            'target': df_nodes.loc[df_nodes['label'] == inventor, 'id'].index[0]}, 
+            ignore_index=True
+        )
         lock.release()
 
 def patentsToApplicants(patent, applicants, lock):
     global df
+    patent_index = df_nodes.loc[df_nodes['label'] == patent, 'id'].index[0]
     
     for applicant in applicants:
         lock.acquire()
-        df = df._append({'connection_1': patent, 'connection_2': applicant}, ignore_index=True)
+        df = df._append({
+            'source': patent_index, 
+            'target': df_nodes.loc[df_nodes['label'] == applicant, 'id'].index[0]}, 
+            ignore_index=True
+        )
         lock.release()
         
 def inventorsToInventors(inventors, lock):
@@ -29,7 +40,11 @@ def inventorsToInventors(inventors, lock):
     for i in range(len(inventors)):
         for j in range(i+1, len(inventors)):
             lock.acquire()
-            df = df._append({'connection_1': inventors[i], 'connection_2': inventors[j]}, ignore_index=True)
+            df = df._append({
+                'source': df_nodes.loc[df_nodes['label'] == inventors[i], 'id'].index[0], 
+                'target': df_nodes.loc[df_nodes['label'] == inventors[j], 'id'].index[0]}, 
+                ignore_index=True
+            )
             lock.release()
 
 def applicantsToApplicants(applicants, lock):
@@ -38,7 +53,11 @@ def applicantsToApplicants(applicants, lock):
     for i in range(len(applicants)):
         for j in range(i+1, len(applicants)):
             lock.acquire()
-            df = df._append({'connection_1': applicants[i], 'connection_2': applicants[j]}, ignore_index=True)
+            df = df._append({
+                'source': df_nodes.loc[df_nodes['label'] == applicants[i], 'id'].index[0], 
+                'target': df_nodes.loc[df_nodes['label'] == applicants[j], 'id'].index[0]}, 
+                ignore_index=True
+            )
             lock.release()
 
 def inventorsToApplicants(inventors, applicants, lock):
@@ -47,14 +66,20 @@ def inventorsToApplicants(inventors, applicants, lock):
     for inventor in inventors:
         for applicant in applicants:
             lock.acquire()
-            df = df._append({'connection_1': inventor, 'connection_2': applicant}, ignore_index=True)
+            df = df._append({
+                'source': df_nodes.loc[df_nodes['label'] == inventor, 'id'].index[0], 
+                'target': df_nodes.loc[df_nodes['label'] == applicant, 'id'].index[0]}, 
+                ignore_index=True
+            )
             lock.release()
 
 def createEdges():
     df_temp = pd.DataFrame(columns=['patent'])
     
-    with tqdm(total=len(os.listdir("./patents")), desc="Creating edge table") as progress_bar: 
+    with tqdm(total=len(os.listdir("./patents")), desc="Creating edge table") as progress_bar:
+        i = 0
         for file in os.listdir("./patents"):
+            i+=1
             if file.endswith(".xml"):
                 tree = ET.parse(os.path.join("./patents", file))
                 root = tree.getroot()
@@ -94,6 +119,7 @@ def createEdges():
                     t5.join()
 
             progress_bar.update(1)
+            if i >= 1000: break
 
     # Save a CSV file
     print("Saving CSV file...")
