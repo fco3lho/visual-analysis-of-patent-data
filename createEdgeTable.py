@@ -4,7 +4,7 @@ import pandas as pd
 import threading
 from tqdm import tqdm
 
-df_nodes = pd.read_csv('nodeTable.csv')
+if os.path.isfile('nodeTable.csv'): df_nodes = pd.read_csv('nodeTable.csv')
 df = pd.DataFrame(columns=['source', 'target'])
 lock = threading.Lock()
 
