@@ -95,7 +95,7 @@ def createEdges():
                 for field in root.findall('.//field[@name="{}"]'.format('title.lattes')):
                     patent = (field.get('value')).upper()
 
-                if df_temp['patent'].isin([patent]).any() == False:
+                if df_temp['patent'].isin([patent]).any() == False and df_nodes['label'].isin([patent]).any() == True:
                     df_temp = df_temp._append({'patent': patent}, ignore_index=True)
 
                     t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, lock))
