@@ -77,9 +77,7 @@ def createEdges():
     df_temp = pd.DataFrame(columns=['patent'])
     
     with tqdm(total=len(os.listdir("./patents")), desc="Creating edge table") as progress_bar:
-        i = 0
         for file in os.listdir("./patents"):
-            i+=1
             if file.endswith(".xml"):
                 tree = ET.parse(os.path.join("./patents", file))
                 root = tree.getroot()
@@ -119,7 +117,6 @@ def createEdges():
                     t5.join()
 
             progress_bar.update(1)
-            if i >= 1000: break
 
     # Save a CSV file
     print("Saving CSV file...")
