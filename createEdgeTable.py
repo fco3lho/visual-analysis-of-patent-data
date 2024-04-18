@@ -16,7 +16,7 @@ def patentsToInventors(patent, inventors, lock):
         lock.acquire()
         df = df._append({
             'source': patent_index, 
-            'target': df_nodes.loc[df_nodes['label'] == inventor, 'id'].index[0]}, 
+            'target': df_nodes.loc[(df_nodes['label'] == inventor) & (df_nodes['role'] == 'inventor')].index[0]}, 
             ignore_index=True
         )
         lock.release()
@@ -29,7 +29,7 @@ def patentsToApplicants(patent, applicants, lock):
         lock.acquire()
         df = df._append({
             'source': patent_index, 
-            'target': df_nodes.loc[df_nodes['label'] == applicant, 'id'].index[0]}, 
+            'target': df_nodes.loc[(df_nodes['label'] == applicant) & (df_nodes['role'] == 'applicant')].index[0]}, 
             ignore_index=True
         )
         lock.release()
@@ -41,8 +41,8 @@ def inventorsToInventors(inventors, lock):
         for j in range(i+1, len(inventors)):
             lock.acquire()
             df = df._append({
-                'source': df_nodes.loc[df_nodes['label'] == inventors[i], 'id'].index[0], 
-                'target': df_nodes.loc[df_nodes['label'] == inventors[j], 'id'].index[0]}, 
+                'source': df_nodes.loc[(df_nodes['label'] == inventors[i]) & (df_nodes['role'] == 'inventor')].index[0], 
+                'target': df_nodes.loc[(df_nodes['label'] == inventors[j]) & (df_nodes['role'] == 'inventor')].index[0]}, 
                 ignore_index=True
             )
             lock.release()
@@ -54,8 +54,8 @@ def applicantsToApplicants(applicants, lock):
         for j in range(i+1, len(applicants)):
             lock.acquire()
             df = df._append({
-                'source': df_nodes.loc[df_nodes['label'] == applicants[i], 'id'].index[0], 
-                'target': df_nodes.loc[df_nodes['label'] == applicants[j], 'id'].index[0]}, 
+                'source': df_nodes.loc[(df_nodes['label'] == applicants[i]) & (df_nodes['role'] == 'applicant')].index[0], 
+                'target': df_nodes.loc[(df_nodes['label'] == applicants[j]) & (df_nodes['role'] == 'applicant')].index[0]}, 
                 ignore_index=True
             )
             lock.release()
@@ -67,8 +67,8 @@ def inventorsToApplicants(inventors, applicants, lock):
         for applicant in applicants:
             lock.acquire()
             df = df._append({
-                'source': df_nodes.loc[df_nodes['label'] == inventor, 'id'].index[0], 
-                'target': df_nodes.loc[df_nodes['label'] == applicant, 'id'].index[0]}, 
+                'source': df_nodes.loc[(df_nodes['label'] == inventor) & (df_nodes['role'] == 'inventor')].index[0], 
+                'target': df_nodes.loc[(df_nodes['label'] == applicant) & (df_nodes['role'] == 'applicant')].index[0]}, 
                 ignore_index=True
             )
             lock.release()
