@@ -86,17 +86,17 @@ def createEdges():
                 applicants = []
                 inventors = []
 
-                for field in root.findall('.//field[@name="{}"]'.format('inventor')):
-                    inventors.append(field.get('value'))
-
-                for field in root.findall('.//field[@name="{}"]'.format('applicant')):
-                    applicants.append(field.get('value'))
-
                 for field in root.findall('.//field[@name="{}"]'.format('title.lattes')):
                     patent = (field.get('value')).upper()
 
                 if df_temp['patent'].isin([patent]).any() == False and df_nodes['label'].isin([patent]).any() == True:
                     df_temp = df_temp._append({'patent': patent}, ignore_index=True)
+
+                    for field in root.findall('.//field[@name="{}"]'.format('inventor')):
+                        inventors.append(field.get('value'))
+
+                    for field in root.findall('.//field[@name="{}"]'.format('applicant')):
+                        applicants.append(field.get('value'))
 
                     t1 = threading.Thread(target=patentsToInventors, args=(patent, inventors, lock))
                     t2 = threading.Thread(target=patentsToApplicants, args=(patent, applicants, lock))

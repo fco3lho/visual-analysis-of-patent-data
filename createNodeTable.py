@@ -42,6 +42,8 @@ def saveInventors(inventors, lock):
       lock.release()
 
 def createNodes():
+  df_temp = pd.DataFrame(columns=['patent'])
+
   with tqdm(total=len(os.listdir("./patents")), desc="Creating node table") as progress_bar:
     for file in os.listdir("./patents"):
       if file.endswith(".xml"):
@@ -52,26 +54,29 @@ def createNodes():
         applicants = []
         inventors = []
 
-        for field in root.findall('.//field[@name="{}"]'.format('inventor')):
-          inventors.append(field.get('value'))
-
-        for field in root.findall('.//field[@name="{}"]'.format('applicant')):
-          applicants.append(field.get('value'))
-
         for field in root.findall('.//field[@name="{}"]'.format('title.lattes')):
           patent = field.get('value').upper()
 
-        t1 = threading.Thread(target=savePatent, args=(patent, lock))
-        t2 = threading.Thread(target=saveApplicants, args=(applicants, lock))
-        t3 = threading.Thread(target=saveInventors, args=(inventors, lock))
+        if df_temp['patent'].isin([patent]).any() == False:
+          df_temp = df_temp._append({'patent': patent}, ignore_index=True)
 
-        t1.start()
-        t2.start()
-        t3.start()
-    
-        t1.join()
-        t2.join()
-        t3.join()
+          for field in root.findall('.//field[@name="{}"]'.format('inventor')):
+            inventors.append(field.get('value'))
+
+          for field in root.findall('.//field[@name="{}"]'.format('applicant')):
+            applicants.append(field.get('value'))
+
+          t1 = threading.Thread(target=savePatent, args=(patent, lock))
+          t2 = threading.Thread(target=saveApplicants, args=(applicants, lock))
+          t3 = threading.Thread(target=saveInventors, args=(inventors, lock))
+
+          t1.start()
+          t2.start()
+          t3.start()
+      
+          t1.join()
+          t2.join()
+          t3.join()
 
       progress_bar.update(1)
   
