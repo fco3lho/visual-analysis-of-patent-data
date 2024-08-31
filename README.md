@@ -13,6 +13,10 @@
 
 Utilize o arquivo ```gephi.gephi.zip``` no Gephi para visualização do grafo gerado.
 
+## Fluxo de desenvolvimento
+
+![Diagrama](docs/diagram.png)
+
 ## Documentação
 
 [Ver documentação](docs/Relatório___PIBIC___Análise_Visual_de_Dados_de_Patentes.pdf)
