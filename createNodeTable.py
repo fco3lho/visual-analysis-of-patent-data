@@ -82,5 +82,5 @@ def createNodes():
   
   # Save a CSV file
   print("Saving CSV file...")
-  df.to_csv('nodeTable.csv', index = False)
+  df.to_csv('./tables/nodeTable.csv', index = False)
   print("Completed!")

@@ -4,7 +4,7 @@ import pandas as pd
 import threading
 from tqdm import tqdm
 
-df_nodes = pd.read_csv('nodeTable.csv')
+df_nodes = pd.read_csv('./tables/nodeTable.csv')
 df = pd.DataFrame(columns=['source', 'target'])
 lock = threading.Lock()
 
@@ -120,5 +120,5 @@ def createEdges():
 
     # Save a CSV file
     print("Saving CSV file...")
-    df.to_csv('edgeTable.csv', index = False)
+    df.to_csv('./tables/edgeTable.csv', index = False)
     print("Completed!")

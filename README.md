@@ -1,4 +1,6 @@
-## Ambiente de desenvolvimento
+# Análise visual de dados de patentes
+
+## Ambiente de desenvolvimento caso execute o código
 
 1. Para criar o ambiente, digite no terminal: ```python -m venv venv```
 2. Para ativar o ambiente, digite no terminal: ```source venv/bin/activate```
@@ -7,13 +9,10 @@
 
 - Caso instale uma nova dependência, digite no terminal: ```pip freeze > requirements.txt```
 
-## Dependências gerais
+## Grafo
 
-- NetworkX
-- Matplotlib
-- SciPy
-- PyQt5
-- TQDM
-- Pandas
-- XML
-- Threading
+Utilize o arquivo ```gephi.gephi.zip``` no Gephi para visualização do grafo gerado.
+
+## Documentação
+
+[Ver documentação](docs/Relatório___PIBIC___Análise_Visual_de_Dados_de_Patentes.pdf)
